@@ -5,7 +5,14 @@ This tool is used to build and maintain browscap files.
 
 ## Install
 
+    git clone git://github.com/browscap/browscap.git
+    cd browscap
+    curl -s https://getcomposer.org/installer | php
+    php composer.phar install
+
 ## Usage
+
+    php bin/browscap
 
 ## Contributing
 
