@@ -13,8 +13,19 @@ This tool is used to build and maintain browscap files.
 ## Usage
 
     php bin/browscap
+    
+## Directory Structure
+
+`bin` - Contains executable files
+`build` - Contains various builds
+`resources` - Files needed to build the various files, also used to validate
+the capabilities
+`src` - The code of this project lives here
 
 ## Contributing
+
+Please fork this project and issue a merge request. This goes for adding a new
+browser to the project.
 
 ## License
 
