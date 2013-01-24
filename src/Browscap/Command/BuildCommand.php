@@ -21,9 +21,7 @@ class BuildCommand extends Command
             ->setDescription('Takes an XML file and builds into various ini files and formats for use on other systems.')
             ->setDefinition(array(
                 new InputOption('ini', null, InputOption::VALUE_NONE, 'Build an ini file'),
-                new InputOption('php', null, InputOption::VALUE_NONE, 'Builds a file for use with PHP'),
-                new InputOption('asp', null, InputOption::VALUE_NONE, 'Builds a file for use with ASP'),
-                new InputOption('lite', null, InputOption::VALUE_NONE, 'Leave off some features'),
+                new InputOption('xml', null, InputOption::VALUE_NONE, 'Build an xml file'),
             ))
         ;
     }
@@ -32,24 +30,24 @@ class BuildCommand extends Command
     {
         $file     = __DIR__ . '/../../../resources/browscap.xml';
         $contents = file_get_contents($file);
-        $crawler  = new Crawler();
-        $crawler->addXmlContent($contents);
+        $xml      = new \SimpleXMLElement($contents);
+        $browsers = array();
 
-        $nodes = $crawler->filterXPath('browsercaps')->children()->filterXPath('browsercapitems')->children();
-        foreach ($nodes as $node) {
-            $browsecapItem = $node->getAttributeNode('name')->nodeValue;
-            $output->writeln(sprintf('Item: %s',$browsecapItem));
-            foreach ($node->childNodes as $i) {
-                if ($i->nodeName !== "#text") {
-                    $name = $i->getAttributeNode('name')->nodeValue;
-                    $value = $i->getAttributeNode('value')->nodeValue;
-                    $output->writeln(array(
-                        sprintf('%30s: %s',$name,$value),
-                    ));
-                }
+        foreach ($xml->browsercapitems->children() as $item) {
+            $properties = $item->children();
+            $browser    = array();
+            foreach ($properties as $property) {
+                $browser[(string) $property['name']] = (string) $property['value'];
             }
-            die();
-            $output->writeln('');
+            $b = new \Browscap\Browser();
+            $b->setData($browser);
+            $browsers[] = $b;
+        }
+
+        $dumpDir = __DIR__ . '/../../../resources/browsers';
+        foreach ($browsers as $browser) {
+            $filename = $dumpDir . '/' . $browser->agent_id . '.ini';
+            file_put_contents($filename, $browser->toIni());
         }
     }
 
