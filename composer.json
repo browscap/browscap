@@ -3,9 +3,23 @@
     "type": "application",
     "description": "Browser Capabilities Tools",
     "keywords": ["browscap"],
-    "homepage": "",
+    "homepage": "https://github.com/browscap/browscap",
     "license": "MIT",
-    "authors": [],
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "f1gm3nt@gmail.com",
+            "homepage": "http://joshuaestes.me"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/browscap/browscap/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/browscap/browscap/issues",
+        "source": "https://github.com/browscap/browscap"
+    },
     "minimum-stability": "dev",
     "require": {
         "symfony/console": "2.2.*",
@@ -21,5 +35,6 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    }
+    },
+    "bin": ["bin/browscap"]
 }
