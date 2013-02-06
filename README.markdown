@@ -24,8 +24,8 @@ the capabilities
 
 ## Contributing
 
-Please fork this project and issue a merge request. This goes for adding a new
-browser to the project.
+For instructions on how to contribute see the [CONTRIBUTE.markdown](https://github.com/browscap/browscap/blob/master/CONTRIBUTE.markdown)
+file.
 
 ## License
 
