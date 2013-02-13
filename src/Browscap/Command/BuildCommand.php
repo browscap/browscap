@@ -20,8 +20,6 @@ class BuildCommand extends Command
             ->setName('build')
             ->setDescription('Takes an XML file and builds into various ini files and formats for use on other systems.')
             ->setDefinition(array(
-                new InputOption('ini', null, InputOption::VALUE_NONE, 'Build an ini file'),
-                new InputOption('xml', null, InputOption::VALUE_NONE, 'Build an xml file'),
             ))
         ;
     }
@@ -44,11 +42,13 @@ class BuildCommand extends Command
             $browsers[] = $b;
         }
 
-        $dumpDir = __DIR__ . '/../../../resources/browsers';
+        $buildDir = __DIR__ . '/../../../build';
+        $file     = $buildDir . '/browscap.ini';
+        $lines    = array();
         foreach ($browsers as $browser) {
-            $filename = $dumpDir . '/' . $browser->agent_id . '.ini';
-            file_put_contents($filename, $browser->toIni());
+            $lines[] = $browser->toIni();
         }
+        file_put_contents($file, implode($lines, "\n"));
     }
 
 }
