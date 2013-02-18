@@ -14,7 +14,7 @@ Issue name should be in the format of:
 
     [New Agent] Agent Name
 
-The body should include:
+The body should include (*NOTE*: You do no need to include all this information. You also do not need to only include this information and can include more or less information about the user agent):
 
     | PropertyName        | Name of user angent
     | Browser             | Name of browser
