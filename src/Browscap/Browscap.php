@@ -12,7 +12,6 @@ class Browscap extends Application
         parent::__construct('Browser Capabilities Project', null);
 
         $commands = array(
-            new \Browscap\Command\PropertyCommand(),
             new \Browscap\Command\BuildCommand(),
         );
 

@@ -1,0 +1,16 @@
+{
+  "comment": "Registry of rendering engines",
+  "renderingEngines": [
+    {
+      "renderingEngineId": 1,
+      "name": "Trident",
+      "description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+    },
+    {
+      "renderingEngineId": 2,
+      "name": "WebKit",
+      "maker": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+      "match": "AppleWebKit/*"
+    }
+  ]
+}

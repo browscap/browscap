@@ -1,0 +1,14 @@
+{
+  "name": "Chrome",
+  "parent": "Default Properties",
+  "match": "Mozilla/5.0 (#PLATFORM#) #RENDERER# (KHTML, like Gecko)*Chrome/#VERSION# Safari/*",
+  "versions": ["24.*", "25.*", "26.*", "27.*"],
+  "renderingEngines": [2],
+  "platforms": [2,3,4],
+  "devices": [3],
+  "properties": {
+    "frames": true,
+    "iframes": true,
+    "javascript": true
+  }
+}

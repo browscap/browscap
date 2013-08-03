@@ -12,6 +12,11 @@
             "homepage": "http://joshuaestes.me"
         },
         {
+            "name": "James Titcumb",
+            "email": "james@asgrim.com",
+            "homepage": "http://www.jamestitcumb.com"
+        },
+        {
             "name": "Contributors",
             "homepage": "https://github.com/browscap/browscap/graphs/contributors"
         }
@@ -20,13 +25,8 @@
         "issues": "https://github.com/browscap/browscap/issues",
         "source": "https://github.com/browscap/browscap"
     },
-    "minimum-stability": "dev",
     "require": {
-        "symfony/console": "2.2.*",
-        "symfony/dom-crawler": "2.2.*",
-        "symfony/css-selector": "2.2.*"
-    },
-    "require-dev": {
+        "symfony/console": "2.2.*"
     },
     "autoload": {
         "psr-0": { "": "src/" }

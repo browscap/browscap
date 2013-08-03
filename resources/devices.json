@@ -1,0 +1,28 @@
+{
+  "comment": "Registry of devices",
+  "devices": [
+    {
+      "deviceId": 2,
+      "name": "iPhone",
+      "maker": "Apple",
+      "match": "iPhone *"
+    },
+    {
+      "deviceId": 4,
+      "name": "iPad",
+      "maker": "Apple",
+      "match": "iPad *"
+    },
+    {
+      "deviceId": 6,
+      "name": "PC",
+      "maker": "Various"
+    },
+    {
+      "deviceId": 8,
+      "name": "Playstation",
+      "maker": "Sony",
+      "match": "Playstation"
+    }
+  ]
+}

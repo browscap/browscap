@@ -4,12 +4,16 @@ namespace Browscap\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\DomCrawler\Crawler;
+use Browscap\Adapters\DeviceAdapter;
+use Browscap\Parser\JsonParser;
+use Browscap\Adapters\ClassPropertiesAdapter;
+use Browscap\Entity\Device;
+use Browscap\Entity\Platform;
+use Browscap\Entity\RenderingEngine;
 
 /**
- * @author Joshua Estes <Joshua.Estes@ScenicCityLabs.com>
+ * @author James Titcumb <james@asgrim.com
  */
 class BuildCommand extends Command
 {
@@ -18,37 +22,45 @@ class BuildCommand extends Command
     {
         $this
             ->setName('build')
-            ->setDescription('Takes an XML file and builds into various ini files and formats for use on other systems.')
-            ->setDefinition(array(
-            ))
+            ->setDescription('The JSON source files and builds the INI files')
         ;
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $file     = __DIR__ . '/../../../resources/browscap.xml';
-        $contents = file_get_contents($file);
-        $xml      = new \SimpleXMLElement($contents);
-        $browsers = array();
+        $resourceFolder = __DIR__ . '/../../../resources';
 
-        foreach ($xml->browsercapitems->children() as $item) {
-            $properties = $item->children();
-            $browser    = array();
-            foreach ($properties as $property) {
-                $browser[(string) $property['name']] = (string) $property['value'];
-            }
-            $b = new \Browscap\Browser();
-            $b->setData($browser);
-            $browsers[] = $b;
-        }
+        $adapter = new ClassPropertiesAdapter();
 
-        $buildDir = __DIR__ . '/../../../build';
-        $file     = $buildDir . '/browscap.ini';
-        $lines    = array();
-        foreach ($browsers as $browser) {
-            $lines[] = $browser->toIni();
-        }
-        file_put_contents($file, implode($lines, "\n"));
+        $devices = $adapter
+            ->setParser(new JsonParser($resourceFolder . '/devices.json'))
+            ->setEntityPrototype(new Device())
+            ->setSourceProperty('devices')
+            ->setPrimaryKey('deviceId')
+            ->populateEntities();
+
+        $msg = sprintf("%d devices loaded.", count($devices));
+        $output->writeln($msg);
+
+        $platforms = $adapter
+            ->setParser(new JsonParser($resourceFolder . '/platforms.json'))
+            ->setEntityPrototype(new Platform())
+            ->setSourceProperty('platforms')
+            ->setPrimaryKey('platformId')
+            ->populateEntities();
+
+        $msg = sprintf("%d platforms loaded.", count($devices));
+        $output->writeln($msg);
+
+        $renderingEngines = $adapter
+            ->setParser(new JsonParser($resourceFolder . '/rendering-engines.json'))
+            ->setEntityPrototype(new RenderingEngine())
+            ->setSourceProperty('renderingEngines')
+            ->setPrimaryKey('renderingEngineId')
+            ->populateEntities();
+
+        $msg = sprintf("%d rendering engines loaded.", count($devices));
+        $output->writeln($msg);
     }
 
 }

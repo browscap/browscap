@@ -1,0 +1,26 @@
+{
+  "comment": "Registry of platforms",
+  "platforms": [
+    {
+      "platformId": 1,
+      "name": "BeOS",
+      "description": ""
+    },
+    {
+      "platformId": 2,
+      "name": "Linux",
+      "maker": "",
+      "match": "*Linux i686*"
+    },
+    {
+      "platformId": 3,
+      "name": "Win7",
+      "maker": "Windows 7"
+    },
+    {
+      "platformId": 4,
+      "name": "Win8",
+      "maker": "Windows 8"
+    }
+  ]
+}

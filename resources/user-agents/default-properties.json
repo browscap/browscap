@@ -1,0 +1,8 @@
+{
+  "name": "Default Properties",
+  "properties": {
+    "frames": false,
+    "iframes": false,
+    "javascript": false
+  }
+}
