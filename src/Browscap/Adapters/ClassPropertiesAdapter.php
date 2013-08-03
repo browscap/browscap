@@ -45,7 +45,7 @@ class ClassPropertiesAdapter
         $entities = array();
 
         if (!isset($data->{$this->sourceProperty})) {
-            $msg = sprintf('Source property "%s" was not found in parsed source', $this->sourceProperty);
+            $msg = sprintf('Source property "%s" was not found in parsed source "%s"', $this->sourceProperty, $this->parser->getFilename());
             throw new \Exception($msg);
         }
 
@@ -58,6 +58,17 @@ class ClassPropertiesAdapter
                 if (isset($sourceData->{$prop})) {
                     $entity->{$prop} = $sourceData->{$prop};
                 }
+            }
+
+            if (!isset($entity->{$this->primaryKey})) {
+                $msg = sprintf('Primary key "%s" was not foudn in source data "%s"', $this->primaryKey, $this->parser->getFilename());
+                throw new \Exception($msg);
+            }
+
+            if (isset($entities[$entity->{$this->primaryKey}]))
+            {
+                $msg = sprintf('Primary key "%s" (value: %s) was duplicated in source data "%s"', $this->primaryKey, $entity->{$this->primaryKey}, $this->parser->getFilename());
+                throw new \Exception($msg);
             }
 
             $entities[$entity->{$this->primaryKey}] = $entity;

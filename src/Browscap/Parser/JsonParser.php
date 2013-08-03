@@ -19,7 +19,7 @@ class JsonParser implements ParserInterface
 
     public function parse()
     {
-        $fileContents = file_get_contents($this->filename);
+        $fileContents = file_get_contents($this->getFilename());
 
         // @todo Replace with Zend\Json or Symfony equiv
         $this->decoded = json_decode($fileContents);
@@ -33,5 +33,10 @@ class JsonParser implements ParserInterface
         }
 
         return $this->decoded;
+    }
+
+    public function getFilename()
+    {
+        return $this->filename;
     }
 }
