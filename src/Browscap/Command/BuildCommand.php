@@ -69,6 +69,8 @@ class BuildCommand extends Command
 
         $buildFolder = __DIR__ . '/../../../build';
 
+        mkdir($buildFolder);
+
         $generator = new BrowscapIniGenerator();
 
         file_put_contents($buildFolder . '/browscap.ini', $generator->generate($userAgents));
