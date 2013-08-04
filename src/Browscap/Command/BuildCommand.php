@@ -69,7 +69,9 @@ class BuildCommand extends Command
 
         $buildFolder = __DIR__ . '/../../../build';
 
-        mkdir($buildFolder);
+        if (!file_exists($buildFolder)) {
+            mkdir($buildFolder);
+        }
 
         $generator = new BrowscapIniGenerator();
 
