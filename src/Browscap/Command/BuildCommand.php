@@ -64,11 +64,18 @@ class BuildCommand extends Command
             $this->loadRenderingEngines()
         );
 
+        $msg = sprintf("%d user agents loaded.", count($userAgents));
+        $this->output->writeln($msg);
+
         $buildFolder = __DIR__ . '/../../../build';
 
         $generator = new BrowscapIniGenerator();
+
         file_put_contents($buildFolder . '/browscap.ini', $generator->generate($userAgents));
+        $this->output->writeln('<info>Generated build/browscap.ini</info>');
+
         file_put_contents($buildFolder . '/php_browscap.ini', $generator->generate($userAgents, true));
+        $this->output->writeln('<info>Generated build/php_browscap.ini</info>');
     }
 
     /**
