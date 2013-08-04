@@ -12,7 +12,7 @@ This tool is used to build and maintain browscap files.
 
 ## Usage
 
-    php bin/browscap
+    bin/browscap build
     
 ## Directory Structure
 
