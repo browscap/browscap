@@ -18,14 +18,12 @@ This tool is used to build and maintain browscap files.
 
 `bin` - Contains executable files
 `build` - Contains various builds
-`resources` - Files needed to build the various files, also used to validate
-the capabilities
+`resources` - Files needed to build the various files, also used to validate the capabilities
 `src` - The code of this project lives here
 
 ## Contributing
 
-For instructions on how to contribute see the [CONTRIBUTE.markdown](https://github.com/browscap/browscap/blob/master/CONTRIBUTE.markdown)
-file.
+For instructions on how to contribute see the [CONTRIBUTE.md](https://github.com/browscap/browscap/blob/master/CONTRIBUTE.md) file.
 
 ## License
 
