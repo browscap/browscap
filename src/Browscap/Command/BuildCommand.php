@@ -12,6 +12,7 @@ use Browscap\Entity\Device;
 use Browscap\Entity\Platform;
 use Browscap\Entity\RenderingEngine;
 use Browscap\Entity\UserAgent;
+use Browscap\Generator\BrowscapIniGenerator;
 
 /**
  * @author James Titcumb <james@asgrim.com
@@ -63,7 +64,11 @@ class BuildCommand extends Command
             $this->loadRenderingEngines()
         );
 
-        var_dump($userAgents);
+        $buildFolder = __DIR__ . '/../../../build';
+
+        $generator = new BrowscapIniGenerator();
+        file_put_contents($buildFolder . '/browscap.ini', $generator->generate($userAgents));
+        file_put_contents($buildFolder . '/php_browscap.ini', $generator->generate($userAgents, true));
     }
 
     /**
