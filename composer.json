@@ -26,7 +26,8 @@
         "source": "https://github.com/browscap/browscap"
     },
     "require": {
-        "symfony/console": "2.2.*"
+        "symfony/console": "2.2.*",
+        "zendframework/zend-config": "2.*"
     },
     "autoload": {
         "psr-0": { "": "src/" }

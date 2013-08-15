@@ -13,6 +13,7 @@ class Browscap extends Application
 
         $commands = array(
             new \Browscap\Command\BuildCommand(),
+            new \Browscap\Command\DiffCommand(),
         );
 
         foreach ($commands as $command) {
