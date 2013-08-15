@@ -5,21 +5,27 @@ This tool is used to build and maintain browscap files.
 
 ## Install
 
-    git clone git://github.com/browscap/browscap.git
-    cd browscap
-    curl -s https://getcomposer.org/installer | php
-    php composer.phar install
+```
+$ git clone git://github.com/browscap/browscap.git
+$ cd browscap
+$ curl -s https://getcomposer.org/installer | php
+$ php composer.phar install
+```
 
 ## Usage
 
-    bin/browscap build
+```
+bin/browscap build
+```
+
+For further documentation on the `build` command, [see here](https://github.com/browscap/browscap/wiki/Build-Command).
     
 ## Directory Structure
 
-`bin` - Contains executable files
-`build` - Contains various builds
-`resources` - Files needed to build the various files, also used to validate the capabilities
-`src` - The code of this project lives here
+* `bin` - Contains executable files
+* `build` - Contains various builds
+* `resources` - Files needed to build the various files, also used to validate the capabilities
+* `src` - The code of this project lives here
 
 ## Contributing
 
