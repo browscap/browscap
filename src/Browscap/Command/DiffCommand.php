@@ -29,6 +29,11 @@ class DiffCommand extends Command
     protected $classPropertiesAdapter;
 
     /**
+     * @var int Number of differences found in total
+     */
+    protected $diffsFound;
+
+    /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
@@ -48,6 +53,7 @@ class DiffCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $this->diffsFound = 0;
         $this->output = $output;
 
         $leftFilename = $input->getArgument('left');
@@ -74,8 +80,9 @@ class DiffCommand extends Command
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
                     $this->compareSectionProperties($section, $props, $leftFile[$section], (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
                 } else {
-                    $msg = sprintf('[%s]%s<error>Section only on LEFT</error>', $section, "\n");
+                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on LEFT</error>', $section, "\n");
                     $this->output->writeln("\n" . $msg);
+                    $this->diffsFound++;
                 }
 
                 $sectionsRead[] = $section;
@@ -91,10 +98,14 @@ class DiffCommand extends Command
                 if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
                     $this->compareSectionProperties($section, (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null), $leftFile[$section], $props, $rightFile[$section]);
                 } else {
-                    $msg = sprintf('[%s]%s<error>Section only on RIGHT</error>', $section, "\n");
+                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on RIGHT</error>', $section, "\n");
                     $this->output->writeln("\n" . $msg);
+                    $this->diffsFound++;
                 }
             }
+
+            $msg = sprintf('%sThere %s %d difference%s found in the comparison.', "\n", ($this->diffsFound == 1 ? 'was'  : 'were'), $this->diffsFound, ($this->diffsFound == 1 ? '' : 's'));
+            $this->output->writeln($msg);
         } else {
             $this->output->writeln('<info>No differences found, hooray!</info>');
         }
@@ -102,7 +113,7 @@ class DiffCommand extends Command
 
     public function compareSectionProperties($section, $leftPropsDifferences, $leftProps, $rightPropsDifferences, $rightProps)
     {
-        $msg = sprintf('[%s]', $section);
+        $msg = sprintf('<comment>[%s]</comment>', $section);
         $this->output->writeln("\n" . $msg);
 
         // Diff the properties
@@ -111,11 +122,13 @@ class DiffCommand extends Command
         if (isset($leftPropsDifferences)) {
             foreach ($leftPropsDifferences as $prop => $value) {
             	if (isset($rightProps[$prop])) {
-            		$msg = sprintf('<comment>"%s" differs (L / R): %s / %s</comment>', $prop, $value, $rightProps[$prop]);
+            		$msg = sprintf('<error>"%s" differs (L / R): %s / %s</error>', $prop, $value, $rightProps[$prop]);
             		$this->output->writeln($msg);
+            		$this->diffsFound++;
             	} else {
             		$msg = sprintf('<error>"%s" is only on the LEFT</error>', $prop);
             		$this->output->writeln($msg);
+            		$this->diffsFound++;
             	}
 
             	$propsRead[] = $prop;
@@ -130,6 +143,7 @@ class DiffCommand extends Command
 
         		$msg = sprintf('<error>"%s" is only on the RIGHT</error>', $prop);
         		$this->output->writeln($msg);
+        		$this->diffsFound++;
         	}
         }
     }
