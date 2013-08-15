@@ -4,7 +4,8 @@
     {
       "platformId": 1,
       "name": "BeOS",
-      "description": ""
+      "description": "",
+      "match": "*BeOS*"
     },
     {
       "platformId": 2,
@@ -15,12 +16,14 @@
     {
       "platformId": 3,
       "name": "Win7",
-      "maker": "Windows 7"
+      "maker": "Windows 7",
+      "match": "*Windows NT 6.1*"
     },
     {
       "platformId": 4,
       "name": "Win8",
-      "maker": "Windows 8"
+      "maker": "Windows 8",
+      "match": "*Windows NT 6.2*"
     }
   ]
 }

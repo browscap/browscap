@@ -65,69 +65,73 @@ class DiffCommand extends Command
         //var_dump($rtlDiff);
 
         if (count($ltrDiff) || count($rtlDiff)) {
+            $this->output->writeln('The following differences have been found:');
             $sectionsRead = array();
 
+            //$this->output->writeln('<info>Pass 1 (LTR)</info>');
+
             foreach ($ltrDiff as $section => $props) {
-                if (isset($rtlDiff[$section]) && is_array($rtlDiff[$section])) {
-                    $msg = sprintf('<error>Section properties differ [%s]:</error>', $section);
-                    $this->output->writeln($msg);
-
-                    // Diff the properties
-                    $propsRead = array();
-
-                    foreach ($props as $prop => $value) {
-                        if (isset($rtlDiff[$section][$prop])) {
-                            $msg = sprintf('<comment>%s property is different (L / R): %s / %s</comment>', $prop, $value, $rtlDiff[$section][$prop]);
-                            $this->output->writeln($msg);
-                        } else {
-                            $msg = sprintf('<comment>%s property is only on the left</comment>', $prop);
-                            $this->output->writeln($msg);
-                        }
-
-                        $propsRead[] = $prop;
-                    }
-
-                    foreach ($rtlDiff[$section] as $prop => $value) {
-                        if (in_array($prop, $propsRead)) {
-                            continue;
-                        }
-
-                        $msg = sprintf('<comment>%s property is only on the right</comment>', $prop);
-                        $this->output->writeln($msg);
-                    }
+                if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
+                    $this->compareSectionProperties($section, $props, $leftFile[$section], (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
                 } else {
-                    $msg = sprintf('<error>Section only on left [%s]</error>', $section);
-                    $this->output->writeln($msg);
+                    $msg = sprintf('[%s]%s<error>Section only on LEFT</error>', $section, "\n");
+                    $this->output->writeln("\n" . $msg);
                 }
 
                 $sectionsRead[] = $section;
             }
+
+            //$this->output->writeln('<info>Pass 2 (RTL)</info>');
 
             foreach ($rtlDiff as $section => $props) {
                 if (in_array($section, $sectionsRead)) {
                     continue;
                 }
 
-                $msg = sprintf('<error>Section only on right [%s]</error>', $section);
-                $this->output->writeln($msg);
+                if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
+                    $this->compareSectionProperties($section, (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null), $leftFile[$section], $props, $rightFile[$section]);
+                } else {
+                    $msg = sprintf('[%s]%s<error>Section only on RIGHT</error>', $section, "\n");
+                    $this->output->writeln("\n" . $msg);
+                }
             }
         } else {
             $this->output->writeln('<info>No differences found, hooray!</info>');
         }
+    }
 
-        /*if (count($diff)) {
-            foreach ($diff as $section => $props) {
-                $msg = sprintf('<error>Section differs: [%s]</error>', $section);
-                $this->output->writeln($msg);
+    public function compareSectionProperties($section, $leftPropsDifferences, $leftProps, $rightPropsDifferences, $rightProps)
+    {
+        $msg = sprintf('[%s]', $section);
+        $this->output->writeln("\n" . $msg);
 
-                foreach ($props as $prop => $value) {
-                    $msg = sprintf('<comment>Property differs: %s = %s</comment>', $prop, $value);
-                    $this->output->writeln($msg);
-                }
+        // Diff the properties
+        $propsRead = array();
+
+        if (isset($leftPropsDifferences)) {
+            foreach ($leftPropsDifferences as $prop => $value) {
+            	if (isset($rightProps[$prop])) {
+            		$msg = sprintf('<comment>"%s" differs (L / R): %s / %s</comment>', $prop, $value, $rightProps[$prop]);
+            		$this->output->writeln($msg);
+            	} else {
+            		$msg = sprintf('<error>"%s" is only on the LEFT</error>', $prop);
+            		$this->output->writeln($msg);
+            	}
+
+            	$propsRead[] = $prop;
             }
-        } else {
-            $this->output->writeln('<info>No differences found!</info>');
-        }*/
+        }
+
+        if (isset($rightPropsDifferences)) {
+        	foreach ($rightPropsDifferences as $prop => $value) {
+        		if (in_array($prop, $propsRead)) {
+        			continue;
+        		}
+
+        		$msg = sprintf('<error>"%s" is only on the RIGHT</error>', $prop);
+        		$this->output->writeln($msg);
+        	}
+        }
     }
 
     public function loadIniFileToArray($filename)
