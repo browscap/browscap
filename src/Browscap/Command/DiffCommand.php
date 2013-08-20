@@ -6,7 +6,6 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
-use Zend\Config\Reader\Ini as IniReader;
 
 /**
  * @author James Titcumb <james@asgrim.com
@@ -150,9 +149,40 @@ class DiffCommand extends Command
 
     public function loadIniFileToArray($filename)
     {
-        $reader = new IniReader();
-        $reader->setNestSeparator(null);
-        $data = $reader->fromFile($filename);
+        if (!file_exists($filename)) {
+            throw new \Exception("File not found: {$filename}");
+        }
+
+        $fileLines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+        $data = array();
+
+        $currentSection = '';
+
+        for ($line = 0; $line < count($fileLines); $line++) {
+
+            $currentLine = ($fileLines[$line]);
+            $currentLineLength = strlen($currentLine);
+
+            // We only skip comments that *start* with semicolon
+            if ($currentLine[0] == ';') {
+                continue;
+            }
+
+            if ($currentLine[0] == '[') {
+                $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
+                continue;
+            }
+
+
+            $bits = explode("=", $currentLine);
+
+            if (count($bits) > 2) {
+                throw new \Exception("Too many equals in line: {$currentLine}");
+            }
+
+            $data[$currentSection][$bits[0]] = $bits[1];
+        }
 
         return $data;
     }
