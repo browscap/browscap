@@ -14,6 +14,7 @@ class Browscap extends Application
         $commands = array(
             new \Browscap\Command\BuildCommand(),
             new \Browscap\Command\DiffCommand(),
+            new \Browscap\Command\LegacyImportCommand(),
         );
 
         foreach ($commands as $command) {

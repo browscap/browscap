@@ -4,3 +4,4 @@ vendor/
 .settings
 .project
 composer.phar
+resources_test/
