@@ -15,7 +15,7 @@ use Browscap\Entity\UserAgent;
 use Browscap\Generator\BrowscapIniGenerator;
 
 /**
- * @author James Titcumb <james@asgrim.com
+ * @author James Titcumb <james@asgrim.com>
  */
 class BuildCommand extends Command
 {

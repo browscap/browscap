@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 
 /**
- * @author James Titcumb <james@asgrim.com
+ * @author James Titcumb <james@asgrim.com>
  */
 class DiffCommand extends Command
 {
@@ -16,16 +16,6 @@ class DiffCommand extends Command
      * @var \Symfony\Component\Console\Output\OutputInterface
      */
     protected $output;
-
-    /**
-     * @var string
-     */
-    protected $resourceFolder;
-
-    /**
-     * @var \Browscap\Adapters\ClassPropertiesAdapter
-     */
-    protected $classPropertiesAdapter;
 
     /**
      * @var int Number of differences found in total
