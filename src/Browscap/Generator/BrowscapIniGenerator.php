@@ -38,9 +38,10 @@ class BrowscapIniGenerator extends AbstractIniGenerator
 
             if (!empty($userAgent->versions)) {
                 foreach ($userAgent->versions as $version) {
-                    $output .= sprintf(";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; %s %s\n\n", $userAgent->name, $version);
 
+                    $output .= sprintf(";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; %s %s\n\n", $userAgent->name, $version);
                     $output .= sprintf("[%s %s]\n", $userAgent->name, $version);
+
                     $output .= sprintf($this->iniFormat, "Parent", $userAgent->parent);
                     $output .= sprintf($this->iniFormat, "Comment", $userAgent->name . ' ' . $version);
                     $output .= sprintf($this->iniFormat, "Browser", $userAgent->name);
@@ -56,17 +57,21 @@ class BrowscapIniGenerator extends AbstractIniGenerator
 
                     $output .= $this->renderProperties($userAgent);
 
-                    $renderingEngine = reset($userAgent->renderingEngines);
+                    if (is_array($userAgent->renderingEngines)) {
+                        $renderingEngine = reset($userAgent->renderingEngines);
+                    }
 
-                    foreach ($userAgent->platforms as $platform)
-                    {
-                        $match = str_replace("#VERSION#", $version, $userAgent->match);
-                        $match = str_replace("#RENDERER#", $renderingEngine->match, $match);
-                        $match = str_replace("#PLATFORM#", $platform->match, $match);
+                    if (is_array($userAgent->platforms)) {
+                        foreach ($userAgent->platforms as $platform)
+                        {
+                            $match = str_replace("#VERSION#", $version, $userAgent->match);
+                            $match = str_replace("#RENDERER#", $renderingEngine->match, $match);
+                            $match = str_replace("#PLATFORM#", $platform->match, $match);
 
-                        $output .= sprintf("\n[%s]\n", $match);
-                        $output .= sprintf($this->iniFormat, "Parent", $userAgent->name . ' ' . $version);
-                        $output .= sprintf($this->iniFormat, "Platform", $platform->name);
+                            $output .= sprintf("\n[%s]\n", $match);
+                            $output .= sprintf($this->iniFormat, "Parent", $userAgent->name . ' ' . $version);
+                            $output .= sprintf($this->iniFormat, "Platform", $platform->name);
+                        }
                     }
                 }
             } else {
@@ -79,7 +84,13 @@ class BrowscapIniGenerator extends AbstractIniGenerator
                 $output .= sprintf($this->iniFormat, "Comment", $userAgent->name);
                 $output .= sprintf($this->iniFormat, "Browser", $userAgent->name);
                 $output .= sprintf($this->iniFormat, "Version", "0.0");
+                $output .= sprintf($this->iniFormat, "MajorVer", "0");
+                $output .= sprintf($this->iniFormat, "MinorVer", "0");
+
+                $output .= $this->renderProperties($userAgent);
             }
+
+            $output .= "\n";
         }
 
         return $output;

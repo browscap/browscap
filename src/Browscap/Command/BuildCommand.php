@@ -53,7 +53,7 @@ class BuildCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->output = $output;
-        $this->resourceFolder = __DIR__ . '/../../../resources';
+        $this->resourceFolder = __DIR__ . '/../../../resources_test';
 
         $this->classPropertiesAdapter = new ClassPropertiesAdapter();
 

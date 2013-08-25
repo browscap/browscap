@@ -6,5 +6,6 @@ class Platform {
     public $platformId;
     public $name;
     public $description;
+    public $version;
     public $match;
 }

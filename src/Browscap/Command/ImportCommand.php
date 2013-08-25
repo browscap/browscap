@@ -5,12 +5,17 @@ namespace Browscap\Command;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Input\InputArgument;
+use Browscap\Parser\IniParser;
 use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Entity\RenderingEngine;
+use Browscap\Entity\Device;
+use Browscap\Entity\Platform;
 
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class LegacyImportCommand extends Command
+class ImportCommand extends Command
 {
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface
@@ -18,14 +23,37 @@ class LegacyImportCommand extends Command
     protected $output;
 
     /**
-     * @var \PDO
-     */
-    protected $db;
-
-    /**
      * @var string
      */
     protected $outputDirectory;
+
+    protected $propMap;
+
+    /**
+     * @var \Browscap\Generator\BrowscapIniGenerator
+     */
+    protected $generator;
+
+    /**
+     * @var \Browscap\Entity\RenderingEngine[]
+     */
+    protected $renderingEngines = array();
+
+    protected $lastRenderingEngineId = 1;
+
+    /**
+     * @var \Browscap\Entity\Device[]
+     */
+    protected $devices = array();
+
+    protected $lastDeviceId = 1;
+
+    /**
+     * @var \Browscap\Entity\Platform[]
+     */
+    protected $platforms = array();
+
+    protected $lastPlatformId = 1;
 
     /**
      * (non-PHPdoc)
@@ -34,42 +62,66 @@ class LegacyImportCommand extends Command
     protected function configure()
     {
         $this
-            ->setName('legacy-import')
+            ->setName('import')
             ->setDescription('Import from the legacy browscap database into the new JSON format')
+            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to import from - note you should parse the FULL browscap INI files')
         ;
     }
 
     /**
-     *
-     * ALTER TABLE  `PropertyValues` CHANGE  `JAVAApplets`  `JavaApplets` INT( 11 ) NOT NULL DEFAULT  '2'
-     * ALTER TABLE  `UserAgents` CHANGE  `CSS_Version`  `CssVersion` VARCHAR( 10 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT  ''
-     *
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $dialog = $this->getHelperSet()->get('dialog');
+        $filename = $input->getArgument('iniFile');
+        $fileContents = file_get_contents($filename);
 
-        $defaultDsn = 'mysql:host=localhost;dbname=browscap';
-        $defaultUsername = 'root';
-        $defaultOutputDirectory = './resources_test';
+        $this->outputDirectory = './resources_test';
 
-        $dsn = $dialog->ask($output, "<info>Please enter the dsn to connect to</info> [{$defaultDsn}]: ", $defaultDsn);
-        $username = $dialog->ask($output, "<info>Please enter DB username</info> [{$defaultUsername}]: ", $defaultUsername);
-        $passwd = $dialog->askHiddenResponse($output, '<info>Please enter DB password</info>: ', false);
-        $this->outputDirectory = $dialog->ask($output, "<info>Please enter the output directory</info> [{$defaultOutputDirectory}]: ", $defaultOutputDirectory);
-
-        if (!file_exists($this->outputDirectory)) {
-            mkdir($this->outputDirectory, 0755, true);
+        if (!file_exists($this->outputDirectory . '/user-agents')) {
+            mkdir($this->outputDirectory . '/user-agents', 0755, true);
         }
 
-        $this->db = new \PDO($dsn, $username, $passwd);
+        $this->propMap = array_flip(BrowscapIniGenerator::$propMap);
+        $this->generator = new BrowscapIniGenerator();
 
-        #$this->generateDevicesJson();
-        #$this->generatePlatformsJson();
-        #$this->generateRenderingEnginesJson();
-        #$this->generateUserAgentsJson();
+        $commentDivisions = explode(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;', $fileContents);
+
+        $parser = new IniParser('');
+
+        $skippedFirst = false;
+        foreach ($commentDivisions as $division) {
+            if (!$skippedFirst) {
+                $skippedFirst = true;
+                continue;
+            }
+
+            $lines = explode("\n", $division);
+
+            $divisionName = trim($lines[0]);
+
+            array_shift($lines);
+
+            $parser->setFileLines($lines);
+            $data = $parser->parse();
+
+            if ($divisionName == 'Browscap Version') {
+                $output->writeln(sprintf('<info>Parsing browscap version %s (released %s)</info>', $data['GJK_Browscap_Version']['Version'], $data['GJK_Browscap_Version']['Released']));
+                continue;
+            }
+
+            $this->parseDivison($divisionName, $data);
+        }
+
+        $this->saveRenderingEngines();
+        $this->saveDevices();
+        $this->savePlatforms();
+    }
+
+    public function getJsonFilenameFromDivisionName($divisionName)
+    {
+        return preg_replace('/[^a-z0-9]/', '-', strtolower($divisionName)) . '.json';
     }
 
     public function writeJsonData($filename, $jsonData)
@@ -81,117 +133,154 @@ class LegacyImportCommand extends Command
         $fullpath = $this->outputDirectory . $filename;
         file_put_contents($fullpath, $jsonEncoded);
     }
-/*
-    public function generateDevicesJson()
-    {
-        $stmt = $this->db->prepare('SELECT * FROM Devices');
-        $stmt->execute();
-        $originalDevices = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 
+    public function saveRenderingEngines()
+    {
+        $jsonData = array();
+        $jsonData['comment'] = 'Registry of rendering engines';
+        $jsonData['renderingEngines'] = array();
+
+        foreach ($this->renderingEngines as $renderingEngine) {
+            $jsonData['renderingEngines'][] = $renderingEngine;
+        }
+
+        $this->writeJsonData('/rendering-engines.json', $jsonData);
+    }
+
+    public function saveDevices()
+    {
         $jsonData = array();
         $jsonData['comment'] = 'Registry of devices';
         $jsonData['devices'] = array();
 
-        foreach ($originalDevices as $originalDevice) {
-            if ($originalDevice['DeviceID'] == 0) continue;
-
-            $device = array();
-            $device['deviceId'] = $originalDevice['DeviceID'];
-            $device['name'] = $originalDevice['DeviceName'];
-            $device['maker'] = $originalDevice['DeviceMaker'];
-
+        foreach ($this->devices as $device) {
             $jsonData['devices'][] = $device;
         }
 
         $this->writeJsonData('/devices.json', $jsonData);
     }
 
-    public function generatePlatformsJson()
+    public function savePlatforms()
     {
-        $stmt = $this->db->prepare('SELECT * FROM Platforms');
-        $stmt->execute();
-        $originalPlatforms = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-
         $jsonData = array();
         $jsonData['comment'] = 'Registry of platforms';
         $jsonData['platforms'] = array();
 
-        foreach ($originalPlatforms as $originalPlatform) {
-            if ($originalPlatform['PlatformID'] == 0) continue;
-
-        	$platform = array();
-        	$platform['platformId'] = $originalPlatform['PlatformID'];
-        	$platform['name'] = $originalPlatform['PlatformName'];
-        	$platform['description'] = $originalPlatform['PlatformDescription'];
-        	$platform['match'] = '';
-
-        	$jsonData['platforms'][] = $platform;
+        foreach ($this->platforms as $platform) {
+            $jsonData['platforms'][] = $platform;
         }
 
         $this->writeJsonData('/platforms.json', $jsonData);
     }
 
-    public function generateRenderingEnginesJson()
+    public function parseDivison($divisionName, $divisonData)
     {
-        $stmt = $this->db->prepare('SELECT * FROM RenderingEngines');
-        $stmt->execute();
-        $originalEngines = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-
         $jsonData = array();
-        $jsonData['comment'] = 'Registry of rendering engines';
-        $jsonData['renderingEngines'] = array();
 
-        foreach ($originalEngines as $originalEngine) {
-            if ($originalEngine['EngineID'] == 0) continue;
+        foreach ($divisonData as $sectionName => $sectionProperties) {
+            #var_dump($sectionName, $sectionProperties);
 
-        	$engine = array();
-        	$engine['renderingEngineId'] = $originalEngine['EngineID'];
-        	$engine['name'] = $originalEngine['EngineName'];
-        	$engine['description'] = $originalEngine['EngineDescription'];
-        	$engine['match'] = '';
+            $this->safeCopyValue($sectionProperties, 'Browser', $jsonData, 'name');
 
-        	$jsonData['renderingEngines'][] = $engine;
-        }
+            $this->safeCopyValue($sectionProperties, 'Comment', $jsonData, 'comment');
+            $this->safeCopyValue($sectionProperties, 'Parent', $jsonData, 'parent');
+            $this->safeCopyValue($sectionProperties, 'Browser', $jsonData, 'browser');
 
-        $this->writeJsonData('/rendering-engines.json', $jsonData);
-    }
+            if (isset($sectionProperties['Version']) && $sectionProperties['Version'] != '0.0') {
+                $jsonData['versions'][] = $sectionProperties['Version'];
+            }
 
-    public function generateUserAgentsJson()
-    {
-        /*$uaDir = '/user-agents/legacy';
+            foreach ($this->propMap as $newProp => $oldProp) {
+                if (!isset($sectionProperties[$oldProp])) {
+                    continue;
+                }
 
-        if (!file_exists($this->outputDirectory . $uaDir)) {
-            mkdir($this->outputDirectory . $uaDir, 0755, true);
-        }
+                $type = $this->generator->propertyType($newProp);
 
-        $sql =  'SELECT *';
-        $sql .= 'FROM UserAgents ';
-        $sql .= '  JOIN PropertyValues USING (UserAgentID) ';
-        $sql .= 'WHERE Parent LIKE \'Chrome 26.0%\' ';
+                switch ($type) {
+                    case 'boolean':
+                        $jsonData['properties'][$newProp] = ($sectionProperties[$oldProp] == 'true');
+                        break;
 
-        $stmt = $this->db->prepare($sql);
-        $stmt->execute();
-        $originalUAs = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-
-        foreach ($originalUAs as $originalUA) {
-            $jsonData = array();
-            #$jsonData['name'] = $originalUA['Browser'];
-            $jsonData['parent'] = ($originalUA['MasterParent'] ? 'DefaultProperties' : $originalUA['Parent']);
-            $jsonData['match'] = $originalUA['UserAgent'];
-            $jsonData['versions'] = array($originalUA['Version']);
-            $jsonData['renderingEngines'] = array(3);
-            $jsonData['platforms'] = array();
-            $jsonData['devices'] = array();
-            $jsonData['properties'] = array();
-
-            foreach (BrowscapIniGenerator::$propMap as $originalProp => $newProp) {
-                if (isset($originalUA[$originalProp]) && $originalUA[$originalProp] > 0) {
-                    $jsonData['properties'][$newProp] = $originalUA[$originalProp];
+                    case 'string':
+                        $jsonData['properties'][$newProp] = (string)$sectionProperties[$oldProp];
+                        break;
                 }
             }
 
-            $this->writeJsonData($uaDir . '/' . $originalUA['UserAgentID'] . '.json', $jsonData);
-        }
-    }*/
-}
+            if (isset($sectionProperties['RenderingEngine_Name']) && $sectionProperties['RenderingEngine_Name'] != 'unknown') {
+                $renderingEngineKey = $sectionProperties['RenderingEngine_Name'];
 
+                if (!isset($this->renderingEngines[$renderingEngineKey])) {
+                    $renderingEngine = new RenderingEngine();
+                    $renderingEngine->renderingEngineId = $this->lastRenderingEngineId++;
+                    $renderingEngine->name = $sectionProperties['RenderingEngine_Name'];
+                    $renderingEngine->description = $sectionProperties['RenderingEngine_Description'];
+                    $renderingEngine->match = '';
+
+                    $this->renderingEngines[$renderingEngineKey] = $renderingEngine;
+                }
+
+                $jsonData['renderingEngines'] = array($this->renderingEngines[$renderingEngineKey]->renderingEngineId);
+            }
+
+            if (isset($sectionProperties['Device_Name']) && $sectionProperties['Device_Name'] != 'unknown') {
+                $deviceKey = $sectionProperties['Device_Name'];
+
+                if (!isset($this->devices[$deviceKey])) {
+                    $device = new Device();
+                    $device->deviceId = $this->lastDeviceId++;
+                    $device->name = $sectionProperties['Device_Name'];
+                    $device->maker = $sectionProperties['Device_Maker'];
+                    $device->match = '';
+
+                    $this->devices[$deviceKey] = $device;
+                }
+
+                $jsonData['devices'] = array($this->devices[$deviceKey]->deviceId);
+            }
+
+            if (isset($sectionProperties['Platform']) && $sectionProperties['Platform'] != 'unknown') {
+                if (isset($sectionProperties['Platform_Version'])) {
+                    $platformKey = $sectionProperties['Platform'] . '__' . $sectionProperties['Platform_Version'];
+                } else {
+                    $platformKey = $sectionProperties['Platform'] . '__*';
+                }
+
+                if (!isset($this->platforms[$platformKey])) {
+                    $platform = new Platform();
+                    $platform->platformId = $this->lastPlatformId++;
+                    $platform->name = $sectionProperties['Platform'];
+
+                    if (isset($sectionProperties['Platform_Description'])) {
+                        $platform->description = $sectionProperties['Platform_Description'];
+                    } else {
+                        $platform->description = '';
+                    }
+
+                    if (isset($sectionProperties['Platform_Version'])) {
+                        $platform->version = $sectionProperties['Platform_Version'];
+                    } else {
+                        $platform->version = '';
+                    }
+
+                    $platform->match = '';
+
+                    $this->platforms[$platformKey] = $platform;
+                }
+
+                $jsonData['platforms'] = array($this->platforms[$platformKey]->platformId);
+            }
+        }
+
+        $filename = $this->getJsonFilenameFromDivisionName($divisionName);
+        $this->writeJsonData('/user-agents/' . $filename, $jsonData);
+    }
+
+    public function safeCopyValue($sourceProps, $sourcePropName, &$destProps, $destPropName)
+    {
+        if (isset($sourceProps[$sourcePropName])) {
+            $destProps[$destPropName] = $sourceProps[$sourcePropName];
+        }
+    }
+}

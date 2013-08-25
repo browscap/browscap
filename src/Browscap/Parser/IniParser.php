@@ -60,7 +60,7 @@ class IniParser implements ParserInterface
             throw new \Exception("File not found: {$filename}");
         }
 
-        $fileLines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        return file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     }
 
     public function setFileLines(array $fileLines)
