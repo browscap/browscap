@@ -78,11 +78,8 @@ class BuildCommand extends Command
         file_put_contents($buildFolder . '/browscap.ini', $generator->generate($userAgents));
         $this->output->writeln('<info>Generated build/browscap.ini</info>');
 
-        file_put_contents($buildFolder . '/browscap2.ini', $generator->generate($userAgents));
-        $this->output->writeln('<info>Generated build/browscap2.ini</info>');
-
-        file_put_contents($buildFolder . '/php_browscap.ini', $generator->generate($userAgents, true));
-        $this->output->writeln('<info>Generated build/php_browscap.ini</info>');
+        //file_put_contents($buildFolder . '/php_browscap.ini', $generator->generate($userAgents, true));
+        //$this->output->writeln('<info>Generated build/php_browscap.ini</info>');
     }
 
     /**

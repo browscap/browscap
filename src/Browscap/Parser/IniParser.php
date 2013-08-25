@@ -1,0 +1,112 @@
+<?php
+
+namespace Browscap\Parser;
+
+class IniParser implements ParserInterface
+{
+
+    /**
+     * @var string
+     */
+    protected $filename;
+
+    /**
+     * @var bool
+     */
+    protected $shouldSort = false;
+
+    /**
+     * @var array
+     */
+    protected $data;
+
+    public function __construct($filename)
+    {
+        $this->filename = $filename;
+    }
+
+    /**
+     * @param bool $shouldSort
+     * @return \Browscap\Parser\IniParser
+     */
+    public function setShouldSort($shouldSort)
+    {
+        $this->shouldSort = (bool)$shouldSort;
+        return $this;
+    }
+
+    public function shouldSort()
+    {
+        return $this->shouldSort;
+    }
+
+    public function getParsed()
+    {
+        return $this->data;
+    }
+
+    public function getFilename()
+    {
+        return $this->filename;
+    }
+
+    public function parse()
+    {
+        $filename = $this->filename;
+
+        if (!file_exists($filename)) {
+            throw new \Exception("File not found: {$filename}");
+        }
+
+        $fileLines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+        $data = array();
+
+        $currentSection = '';
+
+        for ($line = 0; $line < count($fileLines); $line++) {
+
+            $currentLine = ($fileLines[$line]);
+            $currentLineLength = strlen($currentLine);
+
+            // We only skip comments that *start* with semicolon
+            if ($currentLine[0] == ';') {
+                continue;
+            }
+
+            if ($currentLine[0] == '[') {
+                $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
+                continue;
+            }
+
+
+            $bits = explode("=", $currentLine);
+
+            if (count($bits) > 2) {
+                throw new \Exception("Too many equals in line: {$currentLine}");
+            }
+
+            $data[$currentSection][$bits[0]] = $bits[1];
+        }
+
+        if ($this->shouldSort()) {
+            $data = $this->sortArrayAndChildArrays($data);
+        }
+
+        $this->data = $data;
+
+        return $data;
+    }
+
+    protected function sortArrayAndChildArrays(&$array)
+    {
+        ksort($array);
+
+        foreach ($array as $key => $childArray)
+        {
+            ksort($array[$key]);
+        }
+
+        return $array;
+    }
+}

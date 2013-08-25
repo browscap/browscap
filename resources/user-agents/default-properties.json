@@ -3,6 +3,6 @@
   "properties": {
     "frames": false,
     "iframes": false,
-    "javascript": false
+    "js": false
   }
 }

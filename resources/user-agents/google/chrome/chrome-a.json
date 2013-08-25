@@ -9,6 +9,6 @@
   "properties": {
     "frames": true,
     "iframes": true,
-    "javascript": true
+    "js": true
   }
 }

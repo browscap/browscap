@@ -5,6 +5,7 @@ namespace Browscap\Command;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Browscap\Generator\BrowscapIniGenerator;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -39,6 +40,10 @@ class LegacyImportCommand extends Command
     }
 
     /**
+     *
+     * ALTER TABLE  `PropertyValues` CHANGE  `JAVAApplets`  `JavaApplets` INT( 11 ) NOT NULL DEFAULT  '2'
+     * ALTER TABLE  `UserAgents` CHANGE  `CSS_Version`  `CssVersion` VARCHAR( 10 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT  ''
+     *
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
@@ -55,16 +60,16 @@ class LegacyImportCommand extends Command
         $passwd = $dialog->askHiddenResponse($output, '<info>Please enter DB password</info>: ', false);
         $this->outputDirectory = $dialog->ask($output, "<info>Please enter the output directory</info> [{$defaultOutputDirectory}]: ", $defaultOutputDirectory);
 
-        if (!file_exists($this->outputDirectory))
-        {
+        if (!file_exists($this->outputDirectory)) {
             mkdir($this->outputDirectory, 0755, true);
         }
 
         $this->db = new \PDO($dsn, $username, $passwd);
 
-        $this->generateDevicesJson();
-        $this->generatePlatformsJson();
-        $this->generateRenderingEnginesJson();
+        #$this->generateDevicesJson();
+        #$this->generatePlatformsJson();
+        #$this->generateRenderingEnginesJson();
+        #$this->generateUserAgentsJson();
     }
 
     public function writeJsonData($filename, $jsonData)
@@ -76,7 +81,7 @@ class LegacyImportCommand extends Command
         $fullpath = $this->outputDirectory . $filename;
         file_put_contents($fullpath, $jsonEncoded);
     }
-
+/*
     public function generateDevicesJson()
     {
         $stmt = $this->db->prepare('SELECT * FROM Devices');
@@ -150,5 +155,43 @@ class LegacyImportCommand extends Command
 
         $this->writeJsonData('/rendering-engines.json', $jsonData);
     }
+
+    public function generateUserAgentsJson()
+    {
+        /*$uaDir = '/user-agents/legacy';
+
+        if (!file_exists($this->outputDirectory . $uaDir)) {
+            mkdir($this->outputDirectory . $uaDir, 0755, true);
+        }
+
+        $sql =  'SELECT *';
+        $sql .= 'FROM UserAgents ';
+        $sql .= '  JOIN PropertyValues USING (UserAgentID) ';
+        $sql .= 'WHERE Parent LIKE \'Chrome 26.0%\' ';
+
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute();
+        $originalUAs = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+        foreach ($originalUAs as $originalUA) {
+            $jsonData = array();
+            #$jsonData['name'] = $originalUA['Browser'];
+            $jsonData['parent'] = ($originalUA['MasterParent'] ? 'DefaultProperties' : $originalUA['Parent']);
+            $jsonData['match'] = $originalUA['UserAgent'];
+            $jsonData['versions'] = array($originalUA['Version']);
+            $jsonData['renderingEngines'] = array(3);
+            $jsonData['platforms'] = array();
+            $jsonData['devices'] = array();
+            $jsonData['properties'] = array();
+
+            foreach (BrowscapIniGenerator::$propMap as $originalProp => $newProp) {
+                if (isset($originalUA[$originalProp]) && $originalUA[$originalProp] > 0) {
+                    $jsonData['properties'][$newProp] = $originalUA[$originalProp];
+                }
+            }
+
+            $this->writeJsonData($uaDir . '/' . $originalUA['UserAgentID'] . '.json', $jsonData);
+        }
+    }*/
 }
 
