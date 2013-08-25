@@ -20,6 +20,8 @@ class IniParser implements ParserInterface
      */
     protected $data;
 
+    protected $fileLines;
+
     public function __construct($filename)
     {
         $this->filename = $filename;
@@ -50,7 +52,7 @@ class IniParser implements ParserInterface
         return $this->filename;
     }
 
-    public function parse()
+    public function getLinesFromFile()
     {
         $filename = $this->filename;
 
@@ -59,6 +61,20 @@ class IniParser implements ParserInterface
         }
 
         $fileLines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    }
+
+    public function setFileLines(array $fileLines)
+    {
+        $this->fileLines = $fileLines;
+    }
+
+    public function parse()
+    {
+        if (!$this->fileLines) {
+            $fileLines = $this->getLinesFromFile();
+        } else {
+            $fileLines = $this->fileLines;
+        }
 
         $data = array();
 
@@ -68,6 +84,10 @@ class IniParser implements ParserInterface
 
             $currentLine = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);
+
+            if ($currentLineLength == 0) {
+                continue;
+            }
 
             // We only skip comments that *start* with semicolon
             if ($currentLine[0] == ';') {
