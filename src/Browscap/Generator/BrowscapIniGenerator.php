@@ -101,9 +101,11 @@ class BrowscapIniGenerator extends AbstractIniGenerator
 
     public function generateHeader($version = '5020')
     {
-        $version = '5020'; //@todo
+        $version = '5020'; //@todo this should be an input param
         $dateUtc = date('l, F j, Y \a\t h:i A T');
         $date = date('r');
+
+        $date = 'Mon, 29 Jul 2013 22:22:31 -0000'; //@todo remove this
 
         $header = "";
 
