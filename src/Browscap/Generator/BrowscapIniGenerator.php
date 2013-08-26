@@ -29,7 +29,7 @@ class BrowscapIniGenerator extends AbstractIniGenerator
 
     public function generate(array $userAgents, $escapeStrings = false)
     {
-        $output = '';
+        $output = $this->generateHeader();
 
         $this->iniFormat = ($escapeStrings ? "%s=\"%s\"\n" : "%s=%s\n");
 
@@ -60,6 +60,9 @@ class BrowscapIniGenerator extends AbstractIniGenerator
                     if (is_array($userAgent->renderingEngines)) {
                         $renderingEngine = reset($userAgent->renderingEngines);
                     }
+
+                    $output .= sprintf($this->iniFormat, "RenderingEngine_Name", $renderingEngine->name);
+                    $output .= sprintf($this->iniFormat, "RenderingEngine_Description", $renderingEngine->description);
 
                     if (is_array($userAgent->platforms)) {
                         foreach ($userAgent->platforms as $platform)
@@ -94,6 +97,32 @@ class BrowscapIniGenerator extends AbstractIniGenerator
         }
 
         return $output;
+    }
+
+    public function generateHeader($version = '5020')
+    {
+        $version = '5020'; //@todo
+        $dateUtc = date('l, F j, Y \a\t h:i A T');
+        $date = date('r');
+
+        $header = "";
+
+        $header .= ";;; Provided courtesy of http://tempdownloads.browserscap.com/\n";
+        $header .= ";;; Created on {$dateUtc}\n\n";
+
+        $header .= ";;; Keep up with the latest goings-on with the project:\n";
+        $header .= ";;; Follow us on Twitter <https://twitter.com/browscap>, or...\n";
+        $header .= ";;; Like us on Facebook <https://facebook.com/browscap>, or...\n";
+        $header .= ";;; Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...\n";
+        $header .= ";;; Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.\n\n";
+
+        $header .= ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version\n\n";
+
+        $header .= "[GJK_Browscap_Version]\n";
+        $header .= "Version={$version}\n";
+        $header .= "Released={$date}\n\n";
+
+        return $header;
     }
 
     public function renderProperties(UserAgent $userAgent)
