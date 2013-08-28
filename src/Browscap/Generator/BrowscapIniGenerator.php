@@ -25,6 +25,9 @@ class BrowscapIniGenerator extends AbstractIniGenerator
         'SyndicationReader' => 'rssreader',
         'Crawler' => 'crawler',
         'CssVersion' => 'cssVersion',
+        'Alpha' => 'alpha',
+        'AolVersion' => 'aolVersion',
+        'Beta' => 'beta',
     );
 
     public function generate(array $userAgents, $escapeStrings = false)
@@ -91,12 +94,34 @@ class BrowscapIniGenerator extends AbstractIniGenerator
                 $output .= sprintf($this->iniFormat, "MinorVer", "0");
 
                 $output .= $this->renderProperties($userAgent);
+
+                if ($userAgent->name == 'DefaultProperties') {
+                    $output .= $this->generateDefaultProperties();
+                }
             }
 
             $output .= "\n";
         }
 
         return $output;
+    }
+
+    public function generateDefaultProperties()
+    {
+        $defaultProperties = '';
+
+        $defaultProperties .= sprintf($this->iniFormat, "Device_Maker", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "Device_Name", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "Platform", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "Platform_Description", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "Platform_Version", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "RenderingEngine_Description", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "RenderingEngine_Name", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "RenderingEngine_Version", "unknown");
+        $defaultProperties .= sprintf($this->iniFormat, "isMobileDevice", "false");
+        $defaultProperties .= sprintf($this->iniFormat, "isSyndicationReader", "false");
+
+        return $defaultProperties;
     }
 
     public function generateHeader($version = '5020')
@@ -154,7 +179,7 @@ class BrowscapIniGenerator extends AbstractIniGenerator
 
         if (!isset($propMap[$propertyName])) {
             $msg = sprintf('Property %s was not mapped in %s', $propertyName, __CLASS__);
-            throw new \Exception($msg);
+            throw new Exception\UnmappedPropertyException($msg);
         }
 
         return $propMap[$propertyName];
@@ -183,12 +208,15 @@ class BrowscapIniGenerator extends AbstractIniGenerator
             case 'mobile':
             case 'rssreader':
             case 'crawler':
+            case 'alpha':
+            case 'beta':
                 return 'boolean';
             case 'cssVersion':
+            case 'aolVersion':
                 return 'string';
             default:
                 $msg = sprintf('Property type for %s was not defined in %s', $propertyName, __CLASS__);
-                throw new \Exception($msg);
+                throw new Exception\UndefinedPropertyException($msg);
         }
     }
 }

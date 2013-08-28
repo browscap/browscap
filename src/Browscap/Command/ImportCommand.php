@@ -74,6 +74,8 @@ class ImportCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $this->output = $output;
+
         $filename = $input->getArgument('iniFile');
         $fileContents = file_get_contents($filename);
 
@@ -145,6 +147,9 @@ class ImportCommand extends Command
         }
 
         $this->writeJsonData('/rendering-engines.json', $jsonData);
+
+        $msg = sprintf('<info>%d rendering engines saved.</info>', count($this->renderingEngines));
+        $this->output->writeln($msg);
     }
 
     public function saveDevices()
@@ -158,6 +163,9 @@ class ImportCommand extends Command
         }
 
         $this->writeJsonData('/devices.json', $jsonData);
+
+        $msg = sprintf('<info>%d devices saved.</info>', count($this->devices));
+        $this->output->writeln($msg);
     }
 
     public function savePlatforms()
@@ -171,6 +179,9 @@ class ImportCommand extends Command
         }
 
         $this->writeJsonData('/platforms.json', $jsonData);
+
+        $msg = sprintf('<info>%d platforms saved.</info>', count($this->platforms));
+        $this->output->writeln($msg);
     }
 
     public function parseDivison($divisionName, $divisonData)
@@ -178,10 +189,10 @@ class ImportCommand extends Command
         $jsonData = array();
 
         foreach ($divisonData as $sectionName => $sectionProperties) {
-            #var_dump($sectionName, $sectionProperties);
+
+            $this->output->writeln("Section: {$sectionName}");
 
             $this->safeCopyValue($sectionProperties, 'Browser', $jsonData, 'name');
-
             $this->safeCopyValue($sectionProperties, 'Comment', $jsonData, 'comment');
             $this->safeCopyValue($sectionProperties, 'Parent', $jsonData, 'parent');
             $this->safeCopyValue($sectionProperties, 'Browser', $jsonData, 'browser');
@@ -195,7 +206,13 @@ class ImportCommand extends Command
                     continue;
                 }
 
-                $type = $this->generator->propertyType($newProp);
+                try {
+                    $type = $this->generator->propertyType($newProp);
+                } catch (\Browscap\Generator\Exception\UndefinedPropertyException $undefinedPropertyException) {
+                    $msg = sprintf('<error>Exception on section [%s], property "%s"</error>', $sectionName, $newProp);
+                    $this->output->writeln($msg);
+                    throw $undefinedPropertyException;
+                }
 
                 switch ($type) {
                     case 'boolean':
@@ -269,8 +286,16 @@ class ImportCommand extends Command
                     $this->platforms[$platformKey] = $platform;
                 }
 
-                $jsonData['platforms'] = array($this->platforms[$platformKey]->platformId);
+                if (isset($jsonData['platforms']) && is_array($jsonData['platforms'])) {
+                    $jsonData['platforms'][] = $this->platforms[$platformKey]->platformId;
+                } else {
+                    $jsonData['platforms'] = array($this->platforms[$platformKey]->platformId);
+                }
             }
+        }
+
+        if (isset($jsonData['platforms']) && is_array($jsonData['platforms'])) {
+            $jsonData['platforms'] = array_values(array_unique($jsonData['platforms']));
         }
 
         $filename = $this->getJsonFilenameFromDivisionName($divisionName);

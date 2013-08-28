@@ -22,6 +22,12 @@ class UserAgentAdapter
     {
         $sourceUserAgent = $this->parser->getParsed();
 
+        if (!isset($sourceUserAgent->name))
+        {
+            var_dump($sourceUserAgent);
+            die();
+        }
+
         $userAgent = new UserAgent();
         $userAgent->name = $sourceUserAgent->name;
 
