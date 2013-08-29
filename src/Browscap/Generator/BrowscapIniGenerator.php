@@ -48,11 +48,11 @@ class BrowscapIniGenerator
         return false;
     }
 
-    public function generateBrowscapIni()
+    public function generateBrowscapIni($version)
     {
         $this->sortDivisions();
 
-        $output = $this->generateHeader();
+        $output = $this->generateHeader($version);
 
         foreach ($this->divisions as $division) {
             if ($division['division'] == 'Browscap Version') continue;
@@ -73,7 +73,7 @@ class BrowscapIniGenerator
         return $output;
     }
 
-    public function generateHeader($version = '5021')
+    public function generateHeader($version)
     {
         $dateUtc = date('l, F j, Y \a\t h:i A T');
         $date = date('r');

@@ -6,6 +6,7 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Browscap\Generator\BrowscapIniGenerator;
+use Symfony\Component\Console\Input\InputArgument;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -36,6 +37,7 @@ class BuildCommand extends Command
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
+            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
         ;
     }
 
@@ -48,6 +50,7 @@ class BuildCommand extends Command
         $this->output = $output;
         $this->resourceFolder = './resources';
         $this->buildFolder = __DIR__ . '/../../../build';
+        $version = $input->getArgument('version');
 
         $generator = new BrowscapIniGenerator();
 
@@ -64,7 +67,7 @@ class BuildCommand extends Command
         }
 
         $this->output->writeln('<info>Generating browscap.ini</info>');
-        file_put_contents($this->buildFolder . '/browscapTest.ini', $generator->generateBrowscapIni());
+        file_put_contents($this->buildFolder . '/browscapTest.ini', $generator->generateBrowscapIni($version));
         $this->output->writeln('<info>All done.</info>');
     }
 
