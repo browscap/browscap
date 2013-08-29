@@ -1,5 +1,6 @@
 {
   "division": "Browscap Version",
+  "divisionIndex": 0,
   "userAgents": [
     {
       "userAgent": "GJK_Browscap_Version",

@@ -1,5 +1,6 @@
 {
   "division": "Chrome 26.0",
+  "divisionIndex": 2,
   "userAgents": [
     {
       "userAgent": "Chrome 26.0",

@@ -93,6 +93,7 @@ class ImportCommand extends Command
     {
         $jsonData = array();
         $jsonData['division'] = $divisionName;
+        $jsonData['divisionIndex'] = $divisionId;
         $jsonData['userAgents'] = array();
 
         foreach ($userAgents as $section => $userAgent) {
