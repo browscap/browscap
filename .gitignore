@@ -5,3 +5,4 @@ vendor/
 .project
 composer.phar
 resources_test/
+src/Browscap_OLD
