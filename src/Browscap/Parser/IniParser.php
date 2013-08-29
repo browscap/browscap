@@ -79,6 +79,7 @@ class IniParser implements ParserInterface
         $data = array();
 
         $currentSection = '';
+        $currentDivision = '';
 
         for ($line = 0; $line < count($fileLines); $line++) {
 
@@ -86,6 +87,11 @@ class IniParser implements ParserInterface
             $currentLineLength = strlen($currentLine);
 
             if ($currentLineLength == 0) {
+                continue;
+            }
+
+            if (substr($currentLine, 0, 40) == ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
+                $currentDivision = trim(substr($currentLine, 41));
                 continue;
             }
 
@@ -107,6 +113,7 @@ class IniParser implements ParserInterface
             }
 
             $data[$currentSection][$bits[0]] = $bits[1];
+            $data[$currentSection]['Division'] = $currentDivision;
         }
 
         if ($this->shouldSort()) {

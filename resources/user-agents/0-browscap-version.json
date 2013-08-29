@@ -1,0 +1,12 @@
+{
+  "division": "Browscap Version",
+  "userAgents": [
+    {
+      "userAgent": "GJK_Browscap_Version",
+      "properties": {
+        "Version": "5020",
+        "Released": "Mon, 29 Jul 2013 22:22:31 -0000"
+      }
+    }
+  ]
+}
