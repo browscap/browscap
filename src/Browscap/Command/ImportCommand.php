@@ -59,6 +59,8 @@ class ImportCommand extends Command
 
         $divisionId = 0;
         foreach ($divisions as $divisionName => $userAgents) {
+            if ($divisionName == 'Browscap Version') continue;
+
             $this->saveDivision($divisionId++, $divisionName, $userAgents);
         }
     }
@@ -93,7 +95,7 @@ class ImportCommand extends Command
     {
         $jsonData = array();
         $jsonData['division'] = $divisionName;
-        $jsonData['divisionIndex'] = $divisionId;
+        $jsonData['sortIndex'] = ($divisionId * 10);
         $jsonData['userAgents'] = array();
 
         foreach ($userAgents as $section => $userAgent) {
@@ -107,7 +109,7 @@ class ImportCommand extends Command
         }
 
         $filename = $this->getJsonFilenameFromDivisionName($divisionName);
-        $this->writeJsonData('/user-agents/' . $divisionId . '-' . $filename, $jsonData);
+        $this->writeJsonData('/user-agents/' . $filename, $jsonData);
 
         $msg = sprintf('<info>Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
         $this->output->writeln($msg);

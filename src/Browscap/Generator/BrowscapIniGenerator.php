@@ -23,26 +23,29 @@ class BrowscapIniGenerator
         $fileContent = file_get_contents($src);
         $json = json_decode($fileContent, true);
 
-        $this->divisions[$json['divisionIndex']] = $json;
+        $this->divisions[] = $json;
     }
 
     /**
      * Sort the divisions (if they haven't already been sorted)
-     *
-     * @todo Change the way the sorting works. Currently it's a "unique" ID sorting
-     * but we should do this by having a general "sort order" value instead so that
-     * collisions don't matter, and if we wanted to insert a division after Default
-     * Properties for example, we'd have to renumber all the other UAs!!! carnage.
      *
      * @return boolean
      */
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            if (ksort($this->divisions, SORT_NUMERIC)) {
-                $this->divisionsHaveBeenSorted = true;
-                return true;
-            }
+            usort($this->divisions, function($arrayA, $arrayB) {
+                $a = $arrayA['sortIndex'];
+                $b = $arrayB['sortIndex'];
+
+                if ($a < $b) {
+                    return -1;
+                } else if ($a > $b) {
+                    return +1;
+                } else {
+                    return 0;
+                }
+            });
         }
 
         return false;
