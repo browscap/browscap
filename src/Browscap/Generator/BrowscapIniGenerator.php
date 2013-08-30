@@ -10,6 +10,22 @@ class BrowscapIniGenerator
 
     protected $divisionsHaveBeenSorted = false;
 
+    /**
+     * @var string
+     */
+    protected $version;
+
+    /**
+     * @var \DateTime
+     */
+    protected $generationDate;
+
+    public function __construct($version)
+    {
+        $this->version = $version;
+        $this->generationDate = new \DateTime();
+    }
+
     public function addPlatformsFile($src)
     {
         if (!file_exists($src)) {
@@ -73,11 +89,11 @@ class BrowscapIniGenerator
         return false;
     }
 
-    public function generateBrowscapIni($version)
+    public function generateBrowscapIni()
     {
         $this->sortDivisions();
 
-        $output = $this->generateHeader($version);
+        $output = $this->generateHeader();
 
         foreach ($this->divisions as $division) {
             if ($division['division'] == 'Browscap Version') continue;
@@ -92,10 +108,11 @@ class BrowscapIniGenerator
         return $output;
     }
 
-    public function generateHeader($version)
+    public function generateHeader()
     {
-        $dateUtc = date('l, F j, Y \a\t h:i A T');
-        $date = date('r');
+        $version = $this->version;
+        $dateUtc = $this->generationDate->format('l, F j, Y \a\t h:i A T');
+        $date = $this->generationDate->format('r');
 
         $header = "";
 

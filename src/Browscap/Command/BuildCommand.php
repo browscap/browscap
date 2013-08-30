@@ -52,7 +52,7 @@ class BuildCommand extends Command
         $this->buildFolder = __DIR__ . '/../../../build';
         $version = $input->getArgument('version');
 
-        $generator = new BrowscapIniGenerator();
+        $generator = new BrowscapIniGenerator($version);
         $generator->addPlatformsFile($this->resourceFolder . '/platforms.json');
 
         $uaSourceDirectory = $this->resourceFolder . '/user-agents';
@@ -68,7 +68,7 @@ class BuildCommand extends Command
         }
 
         $this->output->writeln('<info>Generating browscap.ini</info>');
-        file_put_contents($this->buildFolder . '/browscapTest.ini', $generator->generateBrowscapIni($version));
+        file_put_contents($this->buildFolder . '/browscapTest.ini', $generator->generateBrowscapIni());
         $this->output->writeln('<info>All done.</info>');
     }
 
