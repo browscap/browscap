@@ -20,7 +20,15 @@ class BrowscapIniGenerator
      */
     protected $generationDate;
 
-    protected $shouldQuoteStringProperties;
+    /**
+     * @var bool
+     */
+    protected $quoteStringProperties;
+
+    /**
+     * @var bool
+     */
+    protected $includeExtraProperties;
 
     public function __construct($version)
     {
@@ -91,11 +99,12 @@ class BrowscapIniGenerator
         return false;
     }
 
-    public function generateBrowscapIni($shouldQuoteStringProperties)
+    public function generateBrowscapIni($quoteStringProperties, $includeExtraProperties)
     {
         $this->sortDivisions();
 
-        $this->shouldQuoteStringProperties = $shouldQuoteStringProperties;
+        $this->quoteStringProperties = $quoteStringProperties;
+        $this->includeExtraProperties = $includeExtraProperties;
 
         $output = $this->generateHeader();
 
@@ -170,8 +179,12 @@ class BrowscapIniGenerator
     {
         $output = '';
         foreach ($properties as $property => $value) {
+            if ((!$this->includeExtraProperties) && $this->isExtraProperty($property)) {
+                echo "Skipping property $property\n";
+                continue;
+            }
 
-            if ($this->shouldQuoteStringProperties && $this->getPropertyType($property) == 'string') {
+            if ($this->quoteStringProperties && $this->getPropertyType($property) == 'string') {
                 $format = "%s=\"%s\"\n";
             } else {
                 $format = "%s=%s\n";
@@ -226,6 +239,22 @@ class BrowscapIniGenerator
 
             default:
                 throw new \Exception("Property {$propertyName} did not have a defined property type");
+        }
+    }
+
+    public function isExtraProperty($propertyName)
+    {
+        switch ($propertyName) {
+            case 'Device_Name':
+            case 'Device_Maker':
+            case 'Platform_Description':
+            case 'RenderingEngine_Name':
+            case 'RenderingEngine_Version':
+            case 'RenderingEngine_Description':
+                return true;
+
+            default:
+                return false;
         }
     }
 }

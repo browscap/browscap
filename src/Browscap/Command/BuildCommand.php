@@ -68,13 +68,15 @@ class BuildCommand extends Command
         }
 
         $formats = array(
-            ['browscapTest_asp_full.ini', 'ASP/FULL', false],
-            ['browscapTest_php_full.ini', 'PHP/FULL', true],
+            ['browscapTest_asp_full.ini', 'ASP/FULL', false, true],
+            ['browscapTest_php_full.ini', 'PHP/FULL', true, true],
+            ['browscapTest_asp.ini', 'ASP', false, false],
+            ['browscapTest_php.ini', 'PHP', true, false],
         );
 
         foreach ($formats as $format) {
             $this->output->writeln('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
-            file_put_contents($this->buildFolder . '/' . $format[0], $generator->generateBrowscapIni($format[2]));
+            file_put_contents($this->buildFolder . '/' . $format[0], $generator->generateBrowscapIni($format[2], $format[3]));
         }
 
         $this->output->writeln('<info>All done.</info>');
