@@ -20,6 +20,8 @@ class BrowscapIniGenerator
      */
     protected $generationDate;
 
+    protected $shouldQuoteStringProperties;
+
     public function __construct($version)
     {
         $this->version = $version;
@@ -89,9 +91,11 @@ class BrowscapIniGenerator
         return false;
     }
 
-    public function generateBrowscapIni()
+    public function generateBrowscapIni($shouldQuoteStringProperties)
     {
         $this->sortDivisions();
+
+        $this->shouldQuoteStringProperties = $shouldQuoteStringProperties;
 
         $output = $this->generateHeader();
 
@@ -166,8 +170,62 @@ class BrowscapIniGenerator
     {
         $output = '';
         foreach ($properties as $property => $value) {
-            $output .= sprintf("%s=%s\n", $property, $value);
+
+            if ($this->shouldQuoteStringProperties && $this->getPropertyType($property) == 'string') {
+                $format = "%s=\"%s\"\n";
+            } else {
+                $format = "%s=%s\n";
+            }
+
+            $output .= sprintf($format, $property, $value);
         }
         return $output;
+    }
+
+    public function getPropertyType($propertyName)
+    {
+        switch ($propertyName) {
+            case 'Parent':
+            case 'Comment':
+            case 'Browser':
+            case 'Platform':
+            case 'Platform_Version':
+            case 'Platform_Description':
+            case 'Device_Name':
+            case 'Device_Maker':
+            case 'RenderingEngine_Name':
+            case 'RenderingEngine_Version':
+            case 'RenderingEngine_Description':
+                return 'string';
+
+            case 'Version':
+            case 'MajorVer':
+            case 'MinorVer':
+            case 'CssVersion':
+            case 'AolVersion':
+                return 'number';
+
+            case 'Alpha':
+            case 'Beta':
+            case 'Win16':
+            case 'Win32':
+            case 'Win64':
+            case 'Frames':
+            case 'IFrames':
+            case 'Tables':
+            case 'Cookies':
+            case 'BackgroundSounds':
+            case 'JavaScript':
+            case 'VBScript':
+            case 'JavaApplets':
+            case 'ActiveXControls':
+            case 'isMobileDevice':
+            case 'isSyndicationReader':
+            case 'Crawler':
+                return 'boolean';
+
+            default:
+                throw new \Exception("Property {$propertyName} did not have a defined property type");
+        }
     }
 }

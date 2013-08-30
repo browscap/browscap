@@ -67,8 +67,16 @@ class BuildCommand extends Command
         	$generator->addSourceFile($file->getPathname());
         }
 
-        $this->output->writeln('<info>Generating browscap.ini</info>');
-        file_put_contents($this->buildFolder . '/browscapTest.ini', $generator->generateBrowscapIni());
+        $formats = array(
+            ['browscapTest_asp_full.ini', 'ASP/FULL', false],
+            ['browscapTest_php_full.ini', 'PHP/FULL', true],
+        );
+
+        foreach ($formats as $format) {
+            $this->output->writeln('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
+            file_put_contents($this->buildFolder . '/' . $format[0], $generator->generateBrowscapIni($format[2]));
+        }
+
         $this->output->writeln('<info>All done.</info>');
     }
 
