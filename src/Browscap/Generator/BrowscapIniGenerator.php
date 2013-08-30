@@ -4,9 +4,27 @@ namespace Browscap\Generator;
 
 class BrowscapIniGenerator
 {
+    protected $platforms;
+
     protected $divisions;
 
     protected $divisionsHaveBeenSorted = false;
+
+    public function addPlatformsFile($src)
+    {
+        if (!file_exists($src)) {
+            throw new \Exception("File {$src} does not exist.");
+        }
+
+        $fileContent = file_get_contents($src);
+        $json = json_decode($fileContent, true);
+
+        $this->platforms = $json['platforms'];
+
+        if (is_null($this->platforms)) {
+            throw new \Exception("File {$src} had invalid JSON.");
+        }
+    }
 
     /**
      * Load a JSON file, parse it's JSON and add it to our divisions list
@@ -24,6 +42,10 @@ class BrowscapIniGenerator
         $json = json_decode($fileContent, true);
 
         $this->divisions[] = $json;
+
+        if (is_null($json)) {
+            throw new \Exception("File {$src} had invalid JSON.");
+        }
     }
 
     /**
@@ -63,13 +85,7 @@ class BrowscapIniGenerator
             $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division['division'] . "\n\n";
 
             foreach ($division['userAgents'] as $uaData) {
-                $output .= '[' . $uaData['userAgent'] . "]\n";
-
-                foreach ($uaData['properties'] as $property => $value) {
-                    $output .= sprintf("%s=%s\n", $property, $value);
-                }
-
-                $output .= "\n";
+                $output .= $this->renderUserAgent($uaData);
             }
         }
 
@@ -99,5 +115,42 @@ class BrowscapIniGenerator
         $header .= "Released={$date}\n\n";
 
         return $header;
+    }
+
+    public function renderUserAgent(array $uaData)
+    {
+        $ua = $uaData['userAgent'];
+
+        $output = "[" . $ua . "]\n";
+        $output .= $this->renderProperties($uaData['properties']);
+        $output .= "\n";
+
+        if (isset($uaData['children'])) {
+            $uaBase = $uaData['children']['match'];
+
+            // @todo This needs work here. What if we specify platforms AND versions?
+            // We need to make it so it does as many permutations as necessary.
+            if (isset($uaData['children']['platforms'])) {
+                foreach ($uaData['children']['platforms'] as $platform) {
+                    $platformData = $this->platforms[$platform];
+
+                    $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
+                    $output .= $this->renderProperties(['Parent' => $ua]);
+                    $output .= $this->renderProperties($platformData['properties']);
+                    $output .= "\n";
+                }
+            }
+        }
+
+        return $output;
+    }
+
+    public function renderProperties(array $properties)
+    {
+        $output = '';
+        foreach ($properties as $property => $value) {
+            $output .= sprintf("%s=%s\n", $property, $value);
+        }
+        return $output;
     }
 }

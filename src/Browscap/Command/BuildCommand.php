@@ -53,6 +53,7 @@ class BuildCommand extends Command
         $version = $input->getArgument('version');
 
         $generator = new BrowscapIniGenerator();
+        $generator->addPlatformsFile($this->resourceFolder . '/platforms.json');
 
         $uaSourceDirectory = $this->resourceFolder . '/user-agents';
 
