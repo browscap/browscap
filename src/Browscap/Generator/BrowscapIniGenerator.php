@@ -180,7 +180,6 @@ class BrowscapIniGenerator
         $output = '';
         foreach ($properties as $property => $value) {
             if ((!$this->includeExtraProperties) && $this->isExtraProperty($property)) {
-                echo "Skipping property $property\n";
                 continue;
             }
 
