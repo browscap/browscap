@@ -111,10 +111,30 @@ class BrowscapIniGenerator
         foreach ($this->divisions as $division) {
             if ($division['division'] == 'Browscap Version') continue;
 
-            $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division['division'] . "\n\n";
+            if (isset($division['versions']) && is_array($division['versions'])) {
+                foreach ($division['versions'] as $version) {
+                    $dotPos = strpos($version, ".");
+                    if ($dotPos === false) {
+                        $majorVer = $version;
+                        $minorVer = '0';
+                    } else {
+                        $majorVer = substr($version, 0, $dotPos);
+                        $minorVer = substr($version, ($dotPos+1));
+                    }
 
-            foreach ($division['userAgents'] as $uaData) {
-                $output .= $this->renderUserAgent($uaData);
+                    $tmp = json_encode($division['userAgents']);
+                    $tmp = str_replace('#MAJORVER#', $majorVer, $tmp);
+                    $tmp = str_replace('#MINORVER#', $minorVer, $tmp);
+
+                    $userAgents = json_decode($tmp, true);
+
+                    $divisionName = str_replace('#MAJORVER#', $majorVer, $division['division']);
+                    $divisionName = str_replace('#MINORVER#', $minorVer, $divisionName);
+
+                    $output .= $this->renderDivision($userAgents, $divisionName);
+                }
+            } else {
+                $output .= $this->renderDivision($division['userAgents'], $division['division']);
             }
         }
 
@@ -145,6 +165,17 @@ class BrowscapIniGenerator
         $header .= "Released={$date}\n\n";
 
         return $header;
+    }
+
+    public function renderDivision($userAgents, $divisionName)
+    {
+        $output = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $divisionName . "\n\n";
+
+        foreach ($userAgents as $uaData) {
+            $output .= $this->renderUserAgent($uaData);
+        }
+
+        return $output;
     }
 
     public function renderUserAgent(array $uaData)
