@@ -68,10 +68,10 @@ class BuildCommand extends Command
         }
 
         $formats = array(
-            ['browscapTest_asp_full.ini', 'ASP/FULL', false, true],
-            ['browscapTest_php_full.ini', 'PHP/FULL', true, true],
-            ['browscapTest_asp.ini', 'ASP', false, false],
-            ['browscapTest_php.ini', 'PHP', true, false],
+            ['full_asp_browscap.ini', 'ASP/FULL', false, true],
+            ['full_php_browscap.ini', 'PHP/FULL', true, true],
+            ['browscap.ini', 'ASP', false, false],
+            ['php_browscap.ini', 'PHP', true, false],
         );
 
         foreach ($formats as $format) {
