@@ -228,18 +228,20 @@ class BrowscapIniGenerator
     public function getPropertyType($propertyName)
     {
         switch ($propertyName) {
-            case 'Parent':
             case 'Comment':
             case 'Browser':
             case 'Platform':
-            case 'Platform_Version':
             case 'Platform_Description':
             case 'Device_Name':
             case 'Device_Maker':
             case 'RenderingEngine_Name':
-            case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
                 return 'string';
+
+            case 'Parent':
+            case 'Platform_Version':
+            case 'RenderingEngine_Version':
+                return 'generic';
 
             case 'Version':
             case 'MajorVer':
