@@ -1,0 +1,43 @@
+{
+  "division": "Nutch",
+  "sortIndex": 290,
+  "userAgents": [
+    {
+      "userAgent": "Nutch",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nutch",
+        "Browser": "Nutch",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*Nutch*",
+      "properties": {
+        "Parent": "Nutch"
+      }
+    },
+    {
+      "userAgent": "CazoodleBot\/*",
+      "properties": {
+        "Parent": "Nutch",
+        "Browser": "CazoodleBot"
+      }
+    },
+    {
+      "userAgent": "LOOQ\/0.1*",
+      "properties": {
+        "Parent": "Nutch",
+        "Browser": "LOOQ"
+      }
+    },
+    {
+      "userAgent": "Nutch\/0.? (OpenX Spider)",
+      "properties": {
+        "Parent": "Nutch"
+      }
+    }
+  ]
+}

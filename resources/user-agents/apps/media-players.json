@@ -1,0 +1,92 @@
+{
+  "division": "Media Players",
+  "sortIndex": 1530,
+  "userAgents": [
+    {
+      "userAgent": "Media Players",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Media Players",
+        "Browser": "Media Players",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Microsoft NetShow(TM) Player with RealVideo(R)",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "Microsoft NetShow"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; PPC Mac OS X; *) AppleWebKit\/* RealPlayer",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "RealPlayer",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "MPlayer 0.9*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer",
+        "Version": "0.9",
+        "MajorVer": "0",
+        "MinorVer": "9"
+      }
+    },
+    {
+      "userAgent": "MPlayer 1.*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "MPlayer HEAD CVS",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer"
+      }
+    },
+    {
+      "userAgent": "RealPlayer*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "RealPlayer"
+      }
+    },
+    {
+      "userAgent": "RMA\/*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "RMA"
+      }
+    },
+    {
+      "userAgent": "VLC media player*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "VLC"
+      }
+    },
+    {
+      "userAgent": "vobsub",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "vobsub"
+      }
+    },
+    {
+      "userAgent": "WinampMPEG\/*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "WinAmp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "division": "Emacs\/W3",
+  "sortIndex": 2340,
+  "userAgents": [
+    {
+      "userAgent": "Emacs\/W3",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Emacs\/W3",
+        "Browser": "Emacs\/W3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "default"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/2.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Platform": "Unix"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/2.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/3.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "Unix"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/3.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/4.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform": "Unix"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/4.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

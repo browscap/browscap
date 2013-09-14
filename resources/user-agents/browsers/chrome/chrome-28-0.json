@@ -1,0 +1,278 @@
+{
+  "division": "Chrome 28.0",
+  "sortIndex": 1080,
+  "userAgents": [
+    {
+      "userAgent": "Chrome 28.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome 28.0",
+        "Browser": "Chrome",
+        "Version": "28.0",
+        "MajorVer": "28",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*CrOS*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.0.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "ChromeOS",
+        "Platform_Description": "Google Chrome OS",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Intel Mac OS X*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.0*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "1.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.1*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "1.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.5*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "1.5",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.6*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "1.6",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.0*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "2.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.1*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "2.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.2*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 4.0*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 4.1*)*AppleWebKit\/*(*KHTML, like Gecko*)*Chrome\/28.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 28.0",
+        "Platform": "Android",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    }
+  ]
+}

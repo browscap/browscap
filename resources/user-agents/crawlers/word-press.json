@@ -1,0 +1,66 @@
+{
+  "division": "Word Press",
+  "sortIndex": 310,
+  "userAgents": [
+    {
+      "userAgent": "Word Press",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Word Press",
+        "Browser": "Word Press",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "WordPress-B-\/2.*",
+      "properties": {
+        "Parent": "Word Press",
+        "Browser": "WordPress-B"
+      }
+    },
+    {
+      "userAgent": "WordPress-Do-P-\/2.*",
+      "properties": {
+        "Parent": "Word Press",
+        "Browser": "WordPress-Do-P"
+      }
+    },
+    {
+      "userAgent": "BlueCoat ProxySG",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "BlueCoat ProxySG"
+      }
+    },
+    {
+      "userAgent": "CerberianDrtrs\/*",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Inne: Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Bluecoat DRTR)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Bluecoat"
+      }
+    }
+  ]
+}

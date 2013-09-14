@@ -1,0 +1,30 @@
+{
+  "division": "Boxee",
+  "sortIndex": 2160,
+  "userAgents": [
+    {
+      "userAgent": "Boxee",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Boxee",
+        "Browser": "Boxee",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Name": "Boxee",
+        "Device_Maker": "D-Link"
+      }
+    },
+    {
+      "userAgent": "curl\/* (Linux * intel.*dlink.dsm* *; *; beta) boxee\/*",
+      "properties": {
+        "Parent": "Boxee",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

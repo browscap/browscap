@@ -1,0 +1,74 @@
+{
+  "division": "Google+ App",
+  "sortIndex": 2000,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Comment": "Google+ App",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_0* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Version": "0",
+        "MajorVer": "0",
+        "Platform_Version": "5.0",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_0* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.0",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_0* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/5.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.0",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Version": "0",
+        "MajorVer": "0",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/5.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "division": "Facebook",
+  "sortIndex": 140,
+  "userAgents": [
+    {
+      "userAgent": "Facebook",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Facebook",
+        "Browser": "Facebook",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "Facebook",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "facebookexternalhit\/1.1 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "Facebook",
+        "Browser": "FacebookExternalHit",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    }
+  ]
+}

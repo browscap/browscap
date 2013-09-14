@@ -1,0 +1,72 @@
+{
+  "division": "Maxthon 3.0",
+  "sortIndex": 2680,
+  "userAgents": [
+    {
+      "userAgent": "Maxthon 3.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon 3.0",
+        "Browser": "Maxthon",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.0; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 3.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 3.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.2; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 3.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 3.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 3.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    }
+  ]
+}

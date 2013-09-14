@@ -1,0 +1,933 @@
+{
+  "division": "Rippers",
+  "sortIndex": 480,
+  "userAgents": [
+    {
+      "userAgent": "Rippers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rippers",
+        "Browser": "Ripper",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*grub*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "grub"
+      }
+    },
+    {
+      "userAgent": "*ickHTTP*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "IP*Works"
+      }
+    },
+    {
+      "userAgent": "*java*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Generic Java Crawler"
+      }
+    },
+    {
+      "userAgent": "*libwww*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "libwww"
+      }
+    },
+    {
+      "userAgent": "*WebGrabber*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebGrabber"
+      }
+    },
+    {
+      "userAgent": "*WinHttpRequest*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WinHttp"
+      }
+    },
+    {
+      "userAgent": "3D-FTP\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "3D-FTP"
+      }
+    },
+    {
+      "userAgent": "3wGet\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "3wGet"
+      }
+    },
+    {
+      "userAgent": "ActiveRefresh*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ActiveRefresh"
+      }
+    },
+    {
+      "userAgent": "Ad Muncher*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Ad Muncher"
+      }
+    },
+    {
+      "userAgent": "Artera (Version *)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Artera"
+      }
+    },
+    {
+      "userAgent": "AutoHotkey",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AutoHotkey"
+      }
+    },
+    {
+      "userAgent": "b2w\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "b2w"
+      }
+    },
+    {
+      "userAgent": "BasicHTTP\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BasicHTTP"
+      }
+    },
+    {
+      "userAgent": "BlockNote.Net",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BlockNote.Net"
+      }
+    },
+    {
+      "userAgent": "CAST",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "CAST"
+      }
+    },
+    {
+      "userAgent": "CFNetwork\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "CFNetwork"
+      }
+    },
+    {
+      "userAgent": "CFSCHEDULE*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ColdFusion Task Scheduler"
+      }
+    },
+    {
+      "userAgent": "CobWeb\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "CobWeb"
+      }
+    },
+    {
+      "userAgent": "ColdFusion*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ColdFusion"
+      }
+    },
+    {
+      "userAgent": "Crawl_Application",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Crawl_Application"
+      }
+    },
+    {
+      "userAgent": "CTerm\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "CTerm"
+      }
+    },
+    {
+      "userAgent": "curl*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "cURL"
+      }
+    },
+    {
+      "userAgent": "Custo*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Custo"
+      }
+    },
+    {
+      "userAgent": "DataCha0s\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "DataCha0s"
+      }
+    },
+    {
+      "userAgent": "DeepIndexer*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "DeepIndexer"
+      }
+    },
+    {
+      "userAgent": "DISCo Pump *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "DISCo Pump"
+      }
+    },
+    {
+      "userAgent": "eStyleSearch * (compatible; MSIE 6.0; Windows NT 5.0)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "eStyleSearch",
+        "Platform_Version": "5.0",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "ezic.com http agent *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Ezic.com"
+      }
+    },
+    {
+      "userAgent": "fetch libfetch\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "fetch libfetch"
+      }
+    },
+    {
+      "userAgent": "FGet*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "FGet"
+      }
+    },
+    {
+      "userAgent": "findfiles.net\/* (Robot;test_robot@gmx-topmail.de)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "FindFiles"
+      }
+    },
+    {
+      "userAgent": "Flaming AttackBot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Flaming AttackBot"
+      }
+    },
+    {
+      "userAgent": "Foobot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Foobot"
+      }
+    },
+    {
+      "userAgent": "GameSpyHTTP\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "GameSpyHTTP"
+      }
+    },
+    {
+      "userAgent": "gnome-vfs\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "gnome-vfs"
+      }
+    },
+    {
+      "userAgent": "Harvest\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Harvest"
+      }
+    },
+    {
+      "userAgent": "hcat\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "hcat"
+      }
+    },
+    {
+      "userAgent": "HLoader",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HLoader"
+      }
+    },
+    {
+      "userAgent": "Holmes\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Holmes"
+      }
+    },
+    {
+      "userAgent": "HTMLParser\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTMLParser"
+      }
+    },
+    {
+      "userAgent": "http generic",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "http generic"
+      }
+    },
+    {
+      "userAgent": "http:\/\/arachnode.net*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "arachnode"
+      }
+    },
+    {
+      "userAgent": "httpclient*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "httpclient"
+      }
+    },
+    {
+      "userAgent": "httperf\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "httperf"
+      }
+    },
+    {
+      "userAgent": "HTTPFetch\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTTPFetch"
+      }
+    },
+    {
+      "userAgent": "HTTPGrab",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTTPGrab"
+      }
+    },
+    {
+      "userAgent": "HttpSession",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HttpSession"
+      }
+    },
+    {
+      "userAgent": "httpunit\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HttpUnit"
+      }
+    },
+    {
+      "userAgent": "ICE_GetFile",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ICE_GetFile"
+      }
+    },
+    {
+      "userAgent": "iexplore.exe",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "iexplore.exe"
+      }
+    },
+    {
+      "userAgent": "Inet - Eureka App",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Inet - Eureka App"
+      }
+    },
+    {
+      "userAgent": "INetURL\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "INetURL"
+      }
+    },
+    {
+      "userAgent": "InetURL:\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "InetURL"
+      }
+    },
+    {
+      "userAgent": "Internet Exploiter\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Internet Exploiter"
+      }
+    },
+    {
+      "userAgent": "Internet Explore *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Internet Explorer *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "IP*Works!*\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "IP*Works!"
+      }
+    },
+    {
+      "userAgent": "IrssiUrlLog\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "IrssiUrlLog"
+      }
+    },
+    {
+      "userAgent": "JPluck\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "JPluck"
+      }
+    },
+    {
+      "userAgent": "Kapere (http:\/\/www.kapere.com)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Kapere"
+      }
+    },
+    {
+      "userAgent": "LeechFTP",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "LeechFTP"
+      }
+    },
+    {
+      "userAgent": "LeechGet*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "LeechGet"
+      }
+    },
+    {
+      "userAgent": "libcurl-agent\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "libcurl"
+      }
+    },
+    {
+      "userAgent": "libWeb\/clsHTTP*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "libWeb\/clsHTTP"
+      }
+    },
+    {
+      "userAgent": "lwp*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "lwp"
+      }
+    },
+    {
+      "userAgent": "MFC_Tear_Sample",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "MFC_Tear_Sample"
+      }
+    },
+    {
+      "userAgent": "Moozilla",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Moozilla"
+      }
+    },
+    {
+      "userAgent": "MovableType\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "MovableType Web Log"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; OffByOne; Windows*) Webster Pro V3.*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "OffByOne",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (compatible; NEWT ActiveX; Win32)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "NEWT ActiveX",
+        "Platform": "Win32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (compatible; Indy Library)",
+      "properties": {
+        "Parent": "Rippers",
+        "Cookies": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; BorderManager*)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Novell BorderManager"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; IPCheck Server Monitor*)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "IPCheck Server Monitor"
+      }
+    },
+    {
+      "userAgent": "OCN-SOC\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "OCN-SOC"
+      }
+    },
+    {
+      "userAgent": "Offline Explorer*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Offline Explorer"
+      }
+    },
+    {
+      "userAgent": "Open Web Analytics Bot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Open Web Analytics Bot"
+      }
+    },
+    {
+      "userAgent": "OSSProxy*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "OSSProxy"
+      }
+    },
+    {
+      "userAgent": "Pageload*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PageLoad"
+      }
+    },
+    {
+      "userAgent": "PageNest\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PageNest"
+      }
+    },
+    {
+      "userAgent": "pavuk\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Pavuk"
+      }
+    },
+    {
+      "userAgent": "PEAR HTTP_Request*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PEAR-PHP"
+      }
+    },
+    {
+      "userAgent": "PHP*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PHP"
+      }
+    },
+    {
+      "userAgent": "PigBlock (Windows NT 5.1; U)*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PigBlock",
+        "Platform_Version": "5.1",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Pockey*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Pockey-GetHTML"
+      }
+    },
+    {
+      "userAgent": "POE-Component-Client-HTTP\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "POE-Component-Client-HTTP"
+      }
+    },
+    {
+      "userAgent": "PycURL\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PycURL"
+      }
+    },
+    {
+      "userAgent": "Python*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Python"
+      }
+    },
+    {
+      "userAgent": "RepoMonkey*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "RepoMonkey"
+      }
+    },
+    {
+      "userAgent": "SBL-BOT*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BlackWidow"
+      }
+    },
+    {
+      "userAgent": "ScoutAbout*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ScoutAbout"
+      }
+    },
+    {
+      "userAgent": "sherlock\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Sherlock"
+      }
+    },
+    {
+      "userAgent": "SiteParser\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SiteParser"
+      }
+    },
+    {
+      "userAgent": "SiteSnagger*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SiteSnagger"
+      }
+    },
+    {
+      "userAgent": "SiteSucker\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SiteSucker"
+      }
+    },
+    {
+      "userAgent": "SiteWinder*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SiteWinder"
+      }
+    },
+    {
+      "userAgent": "Snoopy*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Snoopy"
+      }
+    },
+    {
+      "userAgent": "SOFTWING_TEAR_AGENT*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AspTear"
+      }
+    },
+    {
+      "userAgent": "SuperHTTP\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SuperHTTP"
+      }
+    },
+    {
+      "userAgent": "Tcl http client package*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Tcl http client package"
+      }
+    },
+    {
+      "userAgent": "Twisted PageGetter",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Twisted PageGetter"
+      }
+    },
+    {
+      "userAgent": "URL2File\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "URL2File"
+      }
+    },
+    {
+      "userAgent": "UtilMind HTTPGet",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "UtilMind HTTPGet"
+      }
+    },
+    {
+      "userAgent": "VCI WebViewer*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "VCI WebViewer"
+      }
+    },
+    {
+      "userAgent": "Web Downloader*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Web Downloader"
+      }
+    },
+    {
+      "userAgent": "Web Downloader\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Web Downloader"
+      }
+    },
+    {
+      "userAgent": "Web Magnet*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Web Magnet"
+      }
+    },
+    {
+      "userAgent": "WebAuto\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebAuto"
+      }
+    },
+    {
+      "userAgent": "webbandit\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "webbandit"
+      }
+    },
+    {
+      "userAgent": "WebCopier*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebCopier"
+      }
+    },
+    {
+      "userAgent": "WebDownloader*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebDownloader"
+      }
+    },
+    {
+      "userAgent": "WebFetch",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebFetch"
+      }
+    },
+    {
+      "userAgent": "webfetch\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebFetch"
+      }
+    },
+    {
+      "userAgent": "WebGatherer*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebGatherer"
+      }
+    },
+    {
+      "userAgent": "WebGet",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebGet"
+      }
+    },
+    {
+      "userAgent": "WebReaper*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebReaper"
+      }
+    },
+    {
+      "userAgent": "WebRipper",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebRipper"
+      }
+    },
+    {
+      "userAgent": "WebSauger*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebSauger"
+      }
+    },
+    {
+      "userAgent": "Website Downloader*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Website Downloader"
+      }
+    },
+    {
+      "userAgent": "Website eXtractor*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Website eXtractor"
+      }
+    },
+    {
+      "userAgent": "Website Quester",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Website Quester"
+      }
+    },
+    {
+      "userAgent": "WebsiteExtractor*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Website eXtractor"
+      }
+    },
+    {
+      "userAgent": "WebSnatcher*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebSnatcher"
+      }
+    },
+    {
+      "userAgent": "Webster Pro*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Webster Pro"
+      }
+    },
+    {
+      "userAgent": "WebStripper*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebStripper"
+      }
+    },
+    {
+      "userAgent": "WebWhacker*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WebWhacker"
+      }
+    },
+    {
+      "userAgent": "WinHttp*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WinHttp"
+      }
+    },
+    {
+      "userAgent": "WinScripter iNet Tools",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WinScripter iNet Tools"
+      }
+    },
+    {
+      "userAgent": "WWW-Mechanize\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WWW-Mechanize"
+      }
+    },
+    {
+      "userAgent": "Zend_Http_Client",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Zend_Http_Client"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "division": "Offline Browsers",
+  "sortIndex": 440,
+  "userAgents": [
+    {
+      "userAgent": "Offline Browsers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Offline Browsers",
+        "Browser": "Offline Browsers",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*Check&Get*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "Check&Get"
+      }
+    },
+    {
+      "userAgent": "*HTTrack*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "HTTrack"
+      }
+    },
+    {
+      "userAgent": "*MSIECrawler*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "IE Offline Browser"
+      }
+    },
+    {
+      "userAgent": "*TweakMASTER*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "TweakMASTER"
+      }
+    },
+    {
+      "userAgent": "BackStreet Browser *",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "BackStreet Browser"
+      }
+    },
+    {
+      "userAgent": "Go-Ahead-Got-It*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "Go Ahead Got-It"
+      }
+    },
+    {
+      "userAgent": "iGetter\/*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "iGetter"
+      }
+    },
+    {
+      "userAgent": "Teleport*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "Teleport"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "division": "Konqueror 3.0",
+  "sortIndex": 2490,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror 3.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror 3.0",
+        "Browser": "Konqueror",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Description": "For Konqueror."
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.*",
+      "properties": {
+        "Parent": "Konqueror 3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "IFrames": "false"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.*FreeBSD*",
+      "properties": {
+        "Parent": "Konqueror 3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "FreeBSD",
+        "IFrames": "false"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.*Linux*",
+      "properties": {
+        "Parent": "Konqueror 3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.*OpenBSD*",
+      "properties": {
+        "Parent": "Konqueror 3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "OpenBSD"
+      }
+    }
+  ]
+}

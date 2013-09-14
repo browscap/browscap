@@ -1,0 +1,32 @@
+{
+  "division": "Webaroo",
+  "sortIndex": 300,
+  "userAgents": [
+    {
+      "userAgent": "Webaroo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Webaroo",
+        "Browser": "Webaroo",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Webaroo\/*)",
+      "properties": {
+        "Parent": "Webaroo",
+        "Browser": "Webaroo",
+        "Platform_Version": "6.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko\/* Firefox\/* webaroo\/*",
+      "properties": {
+        "Parent": "Webaroo",
+        "Browser": "Webaroo"
+      }
+    }
+  ]
+}

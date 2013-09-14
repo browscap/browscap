@@ -1,0 +1,40 @@
+{
+  "division": "Chromium 6.0",
+  "sortIndex": 850,
+  "userAgents": [
+    {
+      "userAgent": "Chromium 6.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chromium 6.0",
+        "Browser": "Chromium",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0",
+        "Platform": "Linux",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/6.*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 6.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/6.*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 6.0",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

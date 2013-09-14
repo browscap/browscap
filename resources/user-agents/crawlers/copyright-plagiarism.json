@@ -1,0 +1,99 @@
+{
+  "division": "Copyright\/Plagiarism",
+  "sortIndex": 320,
+  "userAgents": [
+    {
+      "userAgent": "Copyright\/Plagiarism",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Copyright\/Plagiarism",
+        "Browser": "Copyright\/Plagiarism",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "BDFetch",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "BDFetch"
+      }
+    },
+    {
+      "userAgent": "copyright sheriff (*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "copyright sheriff"
+      }
+    },
+    {
+      "userAgent": "CopyRightCheck*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "CopyRightCheck"
+      }
+    },
+    {
+      "userAgent": "FairAd Client*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "FairAd Client"
+      }
+    },
+    {
+      "userAgent": "iCopyright Conductor*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "iCopyright Conductor"
+      }
+    },
+    {
+      "userAgent": "IPiumBot laurion(dot)com",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "IPiumBot"
+      }
+    },
+    {
+      "userAgent": "IWAgent\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "Brand Protect"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; DKIMRepBot\/*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "DKIMRepBot"
+      }
+    },
+    {
+      "userAgent": "oBot",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "oBot"
+      }
+    },
+    {
+      "userAgent": "SlySearch\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "SlySearch"
+      }
+    },
+    {
+      "userAgent": "TurnitinBot\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TurnitinBot"
+      }
+    },
+    {
+      "userAgent": "TutorGigBot\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TutorGig"
+      }
+    }
+  ]
+}

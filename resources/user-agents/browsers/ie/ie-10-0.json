@@ -1,0 +1,60 @@
+{
+  "division": "IE 10.0",
+  "sortIndex": 3850,
+  "userAgents": [
+    {
+      "userAgent": "IE 10.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 10.0",
+        "Browser": "IE",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "MinorVer": "0",
+        "Beta": "true",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 10.*Windows NT 6.1*64*Trident\/6.0*)*",
+      "properties": {
+        "Parent": "IE 10.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 10.*Windows NT 6.1*Trident\/6.0*)*",
+      "properties": {
+        "Parent": "IE 10.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 10.*Windows NT 6.2*Trident\/6.0*)*",
+      "properties": {
+        "Parent": "IE 10.0",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8"
+      }
+    }
+  ]
+}

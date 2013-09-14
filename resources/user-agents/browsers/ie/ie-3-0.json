@@ -1,0 +1,87 @@
+{
+  "division": "IE 3.0",
+  "sortIndex": 3870,
+  "userAgents": [
+    {
+      "userAgent": "IE 3.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 3.0",
+        "Browser": "IE",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Mac_PowerPC*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 3.1*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 3.11*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.11"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 95*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 3.1*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "WinNT",
+        "Platform_Version": "3.1",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 3.5*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "WinNT",
+        "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    }
+  ]
+}

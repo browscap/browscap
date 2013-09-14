@@ -1,0 +1,34 @@
+{
+  "division": "Microsoft Zune",
+  "sortIndex": 1540,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Zune",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Zune",
+        "Browser": "",
+        "Win32": "true",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; Microsoft ZuneHD 4.*)",
+      "properties": {
+        "Parent": "Microsoft Zune",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; ZuneHD 4.*)",
+      "properties": {
+        "Parent": "Microsoft Zune",
+        "Browser": "ZuneHD",
+        "Version": "4",
+        "MajorVer": "4"
+      }
+    }
+  ]
+}

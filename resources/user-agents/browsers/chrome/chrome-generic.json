@@ -1,0 +1,136 @@
+{
+  "division": "Chrome Generic",
+  "sortIndex": 1170,
+  "userAgents": [
+    {
+      "userAgent": "Chrome Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome Generic",
+        "Browser": "Chrome",
+        "CssVersion": "1",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Intel Mac OS X*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    }
+  ]
+}

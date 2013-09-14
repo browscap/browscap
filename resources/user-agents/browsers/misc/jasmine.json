@@ -1,0 +1,42 @@
+{
+  "division": "Jasmine",
+  "sortIndex": 1720,
+  "userAgents": [
+    {
+      "userAgent": "Jasmine",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jasmine",
+        "Browser": "Jasmine",
+        "Platform": "JAVA",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "Device_Name": "Samsung",
+        "Device_Maker": "Samsung",
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Description": "For Access NetFront."
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT*Jasmine\/0.8*SMM-MMS\/*\/MIDP*",
+      "properties": {
+        "Parent": "Jasmine",
+        "Version": "0.8",
+        "MajorVer": "0",
+        "MinorVer": "8"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT*Jasmine\/1.0*SMM-MMS\/*\/MIDP*",
+      "properties": {
+        "Parent": "Jasmine",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

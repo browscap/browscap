@@ -1,0 +1,190 @@
+{
+  "division": "E-Mail Harvesters",
+  "sortIndex": 350,
+  "userAgents": [
+    {
+      "userAgent": "E-Mail Harvesters",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "E-Mail Harvesters",
+        "Browser": "E-Mail Harvesters",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*E-Mail Address Extractor*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "E-Mail Address Extractor"
+      }
+    },
+    {
+      "userAgent": "*Larbin*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Larbin"
+      }
+    },
+    {
+      "userAgent": "*www4mail\/*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "www4mail"
+      }
+    },
+    {
+      "userAgent": "8484 Boston Project*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "8484 Boston Project"
+      }
+    },
+    {
+      "userAgent": "Atomic_Email",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Atomic_Email"
+      }
+    },
+    {
+      "userAgent": "Atomic_Email_Hunter\/*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Atomic Email Hunter"
+      }
+    },
+    {
+      "userAgent": "CherryPicker*\/*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "CherryPickerElite"
+      }
+    },
+    {
+      "userAgent": "Chilkat\/*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Chilkat"
+      }
+    },
+    {
+      "userAgent": "ContactBot\/*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "ContactBot"
+      }
+    },
+    {
+      "userAgent": "eCatch*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "eCatch"
+      }
+    },
+    {
+      "userAgent": "EmailCollector*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "E-Mail Collector"
+      }
+    },
+    {
+      "userAgent": "EMAILsearcher",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "EMAILsearcher"
+      }
+    },
+    {
+      "userAgent": "EmailSiphon*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "E-Mail Siphon"
+      }
+    },
+    {
+      "userAgent": "EmailWolf*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "EMailWolf"
+      }
+    },
+    {
+      "userAgent": "Epsilon SoftWorks' MailMunky",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "MailMunky"
+      }
+    },
+    {
+      "userAgent": "ExtractorPro*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "ExtractorPro"
+      }
+    },
+    {
+      "userAgent": "Franklin Locator*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Franklin Locator"
+      }
+    },
+    {
+      "userAgent": "Missigua Locator*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Missigua Locator"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Advanced Email Extractor*)",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Advanced Email Extractor"
+      }
+    },
+    {
+      "userAgent": "Netprospector*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Netprospector"
+      }
+    },
+    {
+      "userAgent": "ProWebWalker*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "ProWebWalker"
+      }
+    },
+    {
+      "userAgent": "sna-0.0.*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Mike Elliott's E-Mail Harvester"
+      }
+    },
+    {
+      "userAgent": "WebEnhancer*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "WebEnhancer"
+      }
+    },
+    {
+      "userAgent": "WebMiner*",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "WebMiner"
+      }
+    },
+    {
+      "userAgent": "ZIBB Crawler (email address \/ WWW address)",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "ZIBB Crawler"
+      }
+    }
+  ]
+}

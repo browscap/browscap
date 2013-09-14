@@ -1,0 +1,67 @@
+{
+  "division": "Konqueror 4.6",
+  "sortIndex": 2520,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror 4.6",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror 4.6",
+        "Browser": "Konqueror",
+        "Version": "4.6",
+        "MajorVer": "4",
+        "MinorVer": "6",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Description": "For Konqueror."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*) KHTML\/4.6* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*; *Linux*) KHTML\/4.6* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.6",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*; Debian) KHTML\/4.6* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.6",
+        "Platform": "Debian"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*; FreeBSD) KHTML\/4.6* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.6",
+        "Platform": "FreeBSD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*; NetBSD) KHTML\/4.6* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.6",
+        "Platform": "NetBSD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.6*; Windows) KHTML\/4.6* (like Gecko)",
+      "properties": {
+        "Parent": "Konqueror 4.6",
+        "Platform": "Win",
+        "Win32": "true"
+      }
+    }
+  ]
+}

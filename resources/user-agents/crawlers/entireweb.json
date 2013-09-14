@@ -1,0 +1,36 @@
+{
+  "division": "Entireweb",
+  "sortIndex": 110,
+  "userAgents": [
+    {
+      "userAgent": "Entireweb",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Entireweb",
+        "Browser": "Entireweb",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Speedy Spider; http:\/\/www.entireweb.com\/about\/search_tech\/speedy_spider\/)",
+      "properties": {
+        "Parent": "Entireweb"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; en-US) Speedy Spider (http:\/\/www.entireweb.com\/about\/search_tech\/speedy_spider\/)",
+      "properties": {
+        "Parent": "Entireweb",
+        "Platform_Version": "5.1"
+      }
+    },
+    {
+      "userAgent": "Speedy Spider (http:\/\/www.entireweb.com\/about\/search_tech\/speedy_spider\/)",
+      "properties": {
+        "Parent": "Entireweb"
+      }
+    }
+  ]
+}
