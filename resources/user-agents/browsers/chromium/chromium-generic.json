@@ -12,18 +12,12 @@
         "CssVersion": "1",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/*Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Chromium Generic"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/*Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Chromium Generic"
+      },
+      "children": {
+        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/*Chrome\/*Safari\/*",
+        "platforms": [
+          "Linux_32", "Linux_64" 
+        ]
       }
     }
   ]

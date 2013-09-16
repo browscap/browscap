@@ -1,16 +1,17 @@
 {
-  "division": "Chromium 16.0",
-  "sortIndex": 680,
+  "division": "Chromium #MAJORVER#.#MINORVER#",
+  "versions": [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32],
+  "sortIndex": 880,
   "userAgents": [
     {
-      "userAgent": "Chromium 16.0",
+      "userAgent": "Chromium #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chromium 16.0",
+        "Comment": "Chromium #MAJORVER#.#MINORVER#",
         "Browser": "Chromium",
-        "Version": "16.0",
-        "MajorVer": "16",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Platform": "Linux",
         "Frames": "true",
         "IFrames": "true",
@@ -21,18 +22,12 @@
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/16.*Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Chromium 16.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/16.*Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Chromium 16.0"
+      },
+      "children": {
+        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+        "platforms": [
+          "Linux_32", "Linux_64" 
+        ]
       }
     }
   ]
