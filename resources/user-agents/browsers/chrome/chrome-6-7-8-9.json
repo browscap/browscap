@@ -1,19 +1,30 @@
 {
-  "division": "Chrome Generic",
-  "sortIndex": 1170,
+  "division": "Chrome #MAJORVER#.#MINORVER#",
+  "versions": [6,7,8,9],
+  "sortIndex": 1130,
   "userAgents": [
     {
-      "userAgent": "Chrome Generic",
+      "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chrome Generic",
+        "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
-        "CssVersion": "1",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": {
-        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*",
+        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
         "platforms": [
           "OSX", "Linux_32", "Linux_64", "NT4", "Win2000",
           "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
