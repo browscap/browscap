@@ -5,8 +5,9 @@ namespace Browscap\Command;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Browscap\Generator\BrowscapIniGenerator;
 use Symfony\Component\Console\Input\InputArgument;
+use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\DataCollection;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -52,20 +53,49 @@ class BuildCommand extends Command
         $this->buildFolder = __DIR__ . '/../../../build';
         $version = $input->getArgument('version');
 
-        $generator = new BrowscapIniGenerator($version);
-        $generator->addPlatformsFile($this->resourceFolder . '/platforms.json');
+        $collection = $this->createDataCollection($version, $this->resourceFolder);
 
-        $uaSourceDirectory = $this->resourceFolder . '/user-agents';
+        $this->writeIniFiles($collection, $this->buildFolder);
+
+        $this->output->writeln('<info>All done.</info>');
+    }
+
+    /**
+     * Create and populate a data collection object from a resource folder
+     *
+     * @param string $resourceFolder
+     * @return \Browscap\Generator\DataCollection
+     */
+    public function createDataCollection($version, $resourceFolder)
+    {
+        $collection = new DataCollection($version);
+        $collection->addPlatformsFile($resourceFolder . '/platforms.json');
+
+        $uaSourceDirectory = $resourceFolder . '/user-agents';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-        	if (!$file->isFile() || $file->getExtension() != 'json') continue;
+            if (!$file->isFile() || $file->getExtension() != 'json') continue;
 
-        	$msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
-        	$this->output->writeln($msg);
-        	$generator->addSourceFile($file->getPathname());
+            $msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
+            $this->output->writeln($msg);
+            $collection->addSourceFile($file->getPathname());
         }
+
+        return $collection;
+    }
+
+    /**
+     * Write out the various INI file formats
+     *
+     * @param \Browscap\Generator\DataCollection $collection
+     * @param string $buildFolder
+     */
+    public function writeIniFiles(DataCollection $collection, $buildFolder)
+    {
+        $iniGenerator = new BrowscapIniGenerator();
+        $iniGenerator->setDataCollection($collection);
 
         $formats = array(
             ['full_asp_browscap.ini', 'ASP/FULL', false, true],
@@ -76,10 +106,12 @@ class BuildCommand extends Command
 
         foreach ($formats as $format) {
             $this->output->writeln('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
-            file_put_contents($this->buildFolder . '/' . $format[0], $generator->generateBrowscapIni($format[2], $format[3]));
+
+            $outputFile = $this->buildFolder . '/' . $format[0];
+
+            $iniGenerator->setOptions($format[2], $format[3]);
+
+            file_put_contents($outputFile, $iniGenerator->generate());
         }
-
-        $this->output->writeln('<info>All done.</info>');
     }
-
 }

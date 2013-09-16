@@ -2,24 +2,8 @@
 
 namespace Browscap\Generator;
 
-class BrowscapIniGenerator
+class BrowscapIniGenerator implements GeneratorInterface
 {
-    protected $platforms;
-
-    protected $divisions;
-
-    protected $divisionsHaveBeenSorted = false;
-
-    /**
-     * @var string
-     */
-    protected $version;
-
-    /**
-     * @var \DateTime
-     */
-    protected $generationDate;
-
     /**
      * @var bool
      */
@@ -30,85 +14,72 @@ class BrowscapIniGenerator
      */
     protected $includeExtraProperties;
 
-    public function __construct($version)
+    /**
+     * @var \Browscap\Generator\DataCollection
+     */
+    protected $collection;
+
+    /**
+     * Set defaults
+     */
+    public function __construct()
     {
-        $this->version = $version;
-        $this->generationDate = new \DateTime();
-    }
-
-    public function addPlatformsFile($src)
-    {
-        if (!file_exists($src)) {
-            throw new \Exception("File {$src} does not exist.");
-        }
-
-        $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
-
-        $this->platforms = $json['platforms'];
-
-        if (is_null($this->platforms)) {
-            throw new \Exception("File {$src} had invalid JSON.");
-        }
+        $this->quoteStringProperties = false;
+        $this->includeExtraProperties = true;
     }
 
     /**
-     * Load a JSON file, parse it's JSON and add it to our divisions list
+     * Set the data collection
      *
-     * @param string $src Name of the file
-     * @throws \Exception if the file does not exist
+     * @param \Browscap\Generator\DataCollection $collection
+     * @return \Browscap\Generator\BrowscapIniGenerator
      */
-    public function addSourceFile($src)
+    public function setDataCollection(DataCollection $collection)
     {
-        if (!file_exists($src)) {
-            throw new \Exception("File {$src} does not exist.");
-        }
-
-        $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
-
-        $this->divisions[] = $json;
-
-        if (is_null($json)) {
-            throw new \Exception("File {$src} had invalid JSON.");
-        }
+        $this->collection = $collection;
+        return $this;
     }
 
     /**
-     * Sort the divisions (if they haven't already been sorted)
+     * Get the data collection
      *
-     * @return boolean
+     * @throws \LogicException
+     * @return \Browscap\Generator\DataCollection
      */
-    public function sortDivisions()
+    public function getDataCollection()
     {
-        if (!$this->divisionsHaveBeenSorted) {
-            usort($this->divisions, function($arrayA, $arrayB) {
-                $a = $arrayA['sortIndex'];
-                $b = $arrayB['sortIndex'];
-
-                if ($a < $b) {
-                    return -1;
-                } else if ($a > $b) {
-                    return +1;
-                } else {
-                    return 0;
-                }
-            });
+        if (!isset($this->collection)) {
+            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
         }
 
-        return false;
+        return $this->collection;
     }
 
-    public function generateBrowscapIni($quoteStringProperties, $includeExtraProperties)
+    /**
+     * Set the options for generation
+     *
+     * @param boolean $quoteStringProperties
+     * @param boolean $includeExtraProperties
+     * @return \Browscap\Generator\BrowscapIniGenerator
+     */
+    public function setOptions($quoteStringProperties, $includeExtraProperties)
     {
-        $this->sortDivisions();
-
         $this->quoteStringProperties = $quoteStringProperties;
         $this->includeExtraProperties = $includeExtraProperties;
 
+        return $this;
+    }
+
+    /**
+     * Generate and return the formatted browscap data
+     *
+     * @return string
+     */
+    public function generate()
+    {
         $output = $this->generateHeader();
 
-        foreach ($this->divisions as $division) {
+        foreach ($this->getDataCollection()->getDivisions() as $division) {
             if ($division['division'] == 'Browscap Version') continue;
 
             if (isset($division['versions']) && is_array($division['versions'])) {
@@ -141,11 +112,16 @@ class BrowscapIniGenerator
         return $output;
     }
 
-    public function generateHeader()
+    /**
+     * Generate the header
+     *
+     * @return string
+     */
+    protected function generateHeader()
     {
-        $version = $this->version;
-        $dateUtc = $this->generationDate->format('l, F j, Y \a\t h:i A T');
-        $date = $this->generationDate->format('r');
+        $version = $this->getDataCollection()->getVersion();
+        $dateUtc = $this->getDataCollection()->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
+        $date = $this->getDataCollection()->getGenerationDate()->format('r');
 
         $header = "";
 
@@ -167,7 +143,14 @@ class BrowscapIniGenerator
         return $header;
     }
 
-    public function renderDivision($userAgents, $divisionName)
+    /**
+     * Render a single division
+     *
+     * @param array $userAgents
+     * @param string $divisionName
+     * @return string
+     */
+    protected function renderDivision(array $userAgents, $divisionName)
     {
         $output = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $divisionName . "\n\n";
 
@@ -178,6 +161,12 @@ class BrowscapIniGenerator
         return $output;
     }
 
+    /**
+     * Render a single User Agent block
+     *
+     * @param array $uaData
+     * @return string
+     */
     public function renderUserAgent(array $uaData)
     {
         $ua = $uaData['userAgent'];
@@ -193,7 +182,7 @@ class BrowscapIniGenerator
             // We need to make it so it does as many permutations as necessary.
             if (isset($uaData['children']['platforms'])) {
                 foreach ($uaData['children']['platforms'] as $platform) {
-                    $platformData = $this->platforms[$platform];
+                    $platformData = $this->getDataCollection()->getPlatform($platform);
 
                     $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                     $output .= $this->renderProperties(['Parent' => $ua]);
@@ -206,6 +195,12 @@ class BrowscapIniGenerator
         return $output;
     }
 
+    /**
+     * Render the properties of a single User Agent
+     *
+     * @param array $properties
+     * @return string
+     */
     public function renderProperties(array $properties)
     {
         $output = '';
@@ -225,6 +220,13 @@ class BrowscapIniGenerator
         return $output;
     }
 
+    /**
+     * Get the type of a property
+     *
+     * @param string $propertyName
+     * @throws \Exception
+     * @return string
+     */
     public function getPropertyType($propertyName)
     {
         switch ($propertyName) {
@@ -274,6 +276,13 @@ class BrowscapIniGenerator
         }
     }
 
+    /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in the "full" versions of the files)
+     *
+     * @param string $propertyName
+     * @return boolean
+     */
     public function isExtraProperty($propertyName)
     {
         switch ($propertyName) {
