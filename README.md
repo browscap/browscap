@@ -1,7 +1,5 @@
-Browser Capabilities Project
+Browser Capabilities Project [![Build Status](https://travis-ci.org/asgrim/browscap.png?branch=new-json-format)](https://travis-ci.org/asgrim/browscap)
 ============================
-
-Build status: [![Build Status](https://travis-ci.org/asgrim/browscap.png?branch=new-json-format)](https://travis-ci.org/asgrim/browscap)
 
 This tool is used to build and maintain browscap files.
 
