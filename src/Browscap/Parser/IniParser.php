@@ -138,7 +138,7 @@ class IniParser implements ParserInterface
 
         foreach ($array as $key => $childArray) {
             if (is_array($childArray) && !empty($childArray)) {
-                ksort($array[$key]);
+                $array[$key] = $this->sortArrayAndChildArrays($childArray);
             }
         }
 
