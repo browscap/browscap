@@ -28,6 +28,19 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         $this->assertAttributeEquals(false, 'shouldSort', $parser);
     }
 
+    public function testShouldSort()
+    {
+        $parser = new IniParser('');
+
+        $this->assertFalse($parser->shouldSort());
+
+        $parser->setShouldSort(true);
+        $this->assertTrue($parser->shouldSort());
+
+        $parser->setShouldSort(false);
+        $this->assertFalse($parser->shouldSort());
+    }
+
     public function sortArrayDataProvider()
     {
         return [
