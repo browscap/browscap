@@ -132,13 +132,14 @@ class IniParser implements ParserInterface
         return $data;
     }
 
-    protected function sortArrayAndChildArrays(&$array)
+    protected function sortArrayAndChildArrays($array)
     {
         ksort($array);
 
-        foreach ($array as $key => $childArray)
-        {
-            ksort($array[$key]);
+        foreach ($array as $key => $childArray) {
+            if (is_array($childArray) && !empty($childArray)) {
+                ksort($array[$key]);
+            }
         }
 
         return $array;
