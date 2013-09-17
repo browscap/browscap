@@ -68,13 +68,20 @@ class IniParser implements ParserInterface
         $this->fileLines = $fileLines;
     }
 
-    public function parse()
+    public function getFileLines()
     {
         if (!$this->fileLines) {
             $fileLines = $this->getLinesFromFile();
         } else {
             $fileLines = $this->fileLines;
         }
+
+        return $fileLines;
+    }
+
+    public function parse()
+    {
+        $fileLines = $this->getFileLines();
 
         $data = array();
 
