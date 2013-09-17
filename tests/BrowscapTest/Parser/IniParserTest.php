@@ -3,8 +3,15 @@
 namespace BrowscapTest\Parser;
 
 use Browscap\Parser\IniParser;
+
 class IniParserTest extends \PHPUnit_Framework_TestCase
 {
+    public function testConstructorSetsFilename()
+    {
+        $parser = new IniParser('foobar');
+        $this->assertSame('foobar', $parser->getFilename());
+    }
+
     public function sortArrayDataProvider()
     {
         return [
