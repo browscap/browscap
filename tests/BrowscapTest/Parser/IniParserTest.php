@@ -12,6 +12,22 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('foobar', $parser->getFilename());
     }
 
+    public function testSetShouldSort()
+    {
+        $parser = new IniParser('');
+
+        // Test the default value
+        $this->assertAttributeEquals(false, 'shouldSort', $parser);
+
+        // Test setting it to true
+        $parser->setShouldSort(true);
+        $this->assertAttributeEquals(true, 'shouldSort', $parser);
+
+        // Test setting it back to false
+        $parser->setShouldSort(false);
+        $this->assertAttributeEquals(false, 'shouldSort', $parser);
+    }
+
     public function sortArrayDataProvider()
     {
         return [
