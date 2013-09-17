@@ -107,7 +107,7 @@ class BuildCommand extends Command
         foreach ($formats as $format) {
             $this->output->writeln('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
 
-            $outputFile = $this->buildFolder . '/' . $format[0];
+            $outputFile = $buildFolder . '/' . $format[0];
 
             $iniGenerator->setOptions($format[2], $format[3]);
 
