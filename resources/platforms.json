@@ -224,6 +224,22 @@
         "Win32": "false",
         "isMobileDevice": "true"
       }
+    },
+    "WinCE": {
+      "match": "*Windows CE",
+      "properties": {
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "isMobileDevice": "true"
+      }
+    },
+    "WinPhone8": {
+      "match": "*Windows Phone 8*",
+      "properties": {
+        "Platform": "WinPhone8",
+        "Platform_Version": "8.0",
+        "isMobileDevice": "true"
+      }
     }
   }
 }

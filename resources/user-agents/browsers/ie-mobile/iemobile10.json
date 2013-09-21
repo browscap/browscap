@@ -1,0 +1,20 @@
+{
+  "division": "IEMobile #MAJORVER#",
+  "versions": [10],
+  "sortIndex": 1714,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#",
+      "properties": {
+        "Parent": "IEMobile",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": {
+        "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#.*)",
+        "platforms": ["WinPhone8"]
+      }
+    }
+  ]
+}
