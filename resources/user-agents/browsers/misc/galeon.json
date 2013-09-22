@@ -1,0 +1,57 @@
+{
+  "division": "Galeon",
+  "sortIndex": 2370,
+  "userAgents": [
+    {
+      "userAgent": "Galeon",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Galeon",
+        "Browser": "Galeon",
+        "Platform": "Linux",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux*) Gecko\/* Galeon\/1.*",
+      "properties": {
+        "Parent": "Galeon",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux*) Gecko\/* Galeon\/2.*",
+      "properties": {
+        "Parent": "Galeon",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Galeon\/1.* (X11; Linux*)*",
+      "properties": {
+        "Parent": "Galeon",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Galeon\/2.* (X11; Linux*)*",
+      "properties": {
+        "Parent": "Galeon",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "division": "Pocket PC",
+  "sortIndex": 1830,
+  "userAgents": [
+    {
+      "userAgent": "Pocket PC",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pocket PC",
+        "Browser": "Pocket PC",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "*(compatible; MSIE *.*; Windows CE; PPC; *)",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    },
+    {
+      "userAgent": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    },
+    {
+      "userAgent": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    },
+    {
+      "userAgent": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    },
+    {
+      "userAgent": "Windows CE (Pocket PC) - Version *.*",
+      "properties": {
+        "Parent": "Pocket PC"
+      }
+    }
+  ]
+}

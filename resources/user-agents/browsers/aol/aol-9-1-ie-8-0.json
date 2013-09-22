@@ -1,0 +1,120 @@
+{
+  "division": "AOL 9.1\/IE 8.0",
+  "sortIndex": 3790,
+  "userAgents": [
+    {
+      "userAgent": "AOL 9.1\/IE 8.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AOL 9.1\/IE 8.0",
+        "Browser": "IE",
+        "Version": "8.0",
+        "MajorVer": "8",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "2",
+        "AolVersion": "9",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Win 9x 4.90*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows 95*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows 98*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows 98; Win 9x 4.90*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinME",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 4.0*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 5.0*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 5.1*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 5.2*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 6.0*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 8.0; *AOL 9.1*; *Windows NT 6.1*",
+      "properties": {
+        "Parent": "AOL 9.1\/IE 8.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    }
+  ]
+}

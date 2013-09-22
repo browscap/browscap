@@ -1,0 +1,78 @@
+{
+  "division": "Fennec 1.0",
+  "sortIndex": 3420,
+  "userAgents": [
+    {
+      "userAgent": "Fennec 1.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec 1.0",
+        "Browser": "Fennec",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.9",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10.*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*X11*Linux*rv:1.9*)*Gecko\/*Fennec\/1.*",
+      "properties": {
+        "Parent": "Fennec 1.0",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

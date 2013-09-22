@@ -1,2 +1,6 @@
-/build/
-/vendor/
+build/
+vendor/
+.buildpath
+.settings
+.project
+composer.phar

@@ -1,0 +1,45 @@
+{
+  "division": "Facebook App",
+  "sortIndex": 1990,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit*(*KHTML, like Gecko*)*Mobile*FB*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Comment": "Facebook App",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Version": "0",
+        "MajorVer": "0",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/5.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    }
+  ]
+}

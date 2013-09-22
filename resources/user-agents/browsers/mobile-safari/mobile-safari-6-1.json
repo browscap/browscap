@@ -1,0 +1,103 @@
+{
+  "division": "Mobile Safari 6.1",
+  "sortIndex": 2020,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari 6.1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari 6.1",
+        "Browser": "Safari",
+        "Version": "6.1",
+        "MajorVer": "6",
+        "MinorVer": "1",
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPad",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPad",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/6.1.*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPad",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/6.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Version": "0",
+        "MajorVer": "0",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 6_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/6.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 6.1",
+        "Device_Name": "iPod",
+        "Device_Maker": "Apple"
+      }
+    }
+  ]
+}

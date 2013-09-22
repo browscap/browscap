@@ -1,0 +1,27 @@
+{
+  "division": "KDDI",
+  "sortIndex": 1730,
+  "userAgents": [
+    {
+      "userAgent": "KDDI",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "KDDI",
+        "Browser": "KDDI",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "KDDI-* UP.Browser\/* (GUI) MMP\/*",
+      "properties": {
+        "Parent": "KDDI"
+      }
+    }
+  ]
+}

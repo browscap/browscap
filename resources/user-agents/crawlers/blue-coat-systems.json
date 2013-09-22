@@ -1,0 +1,15 @@
+{
+  "division": "Blue Coat Systems",
+  "sortIndex": 550,
+  "userAgents": [
+    {
+      "userAgent": "Blue Coat Systems",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Blue Coat Systems",
+        "Browser": "Blue Coat Systems",
+        "Crawler": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "division": "Opera Mobile",
+  "sortIndex": 2130,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile",
+        "Browser": "Opera Mobi",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Windows CE*)*Opera?*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Browser": "Opera Mobile",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Android 4.*Linux*Opera Mobi\/ADR-1205181138*)*Presto\/2.10*Version\/12.*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Version": "12.00",
+        "MajorVer": "12",
+        "MinorVer": "00",
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "CssVersion": "3",
+        "Device_Name": "Galaxy Nexus",
+        "Device_Maker": "Samsung",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.10",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Android*Opera Mobi*)*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Platform": "Win"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Symbian*Opera Mobi*)*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Platform": "SymbianOS"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*SymbOS*Opera Mobi*)*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Platform": "SymbianOS"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows Mobile*Opera Mobi*)*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(Android 4.0*Linux*Opera Mobi\/*)*Presto\/2.10*Version\/12.00*",
+      "properties": {
+        "Parent": "Opera Mobile",
+        "Version": "12.00",
+        "MajorVer": "12",
+        "MinorVer": "00",
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.10",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    }
+  ]
+}

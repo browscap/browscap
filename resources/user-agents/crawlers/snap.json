@@ -1,0 +1,31 @@
+{
+  "division": "Snap",
+  "sortIndex": 210,
+  "userAgents": [
+    {
+      "userAgent": "Snap",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snap",
+        "Browser": "Snap",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SnapPreviewBot) Gecko\/* Firefox\/*",
+      "properties": {
+        "Parent": "Snap",
+        "Browser": "SnapPreviewBot"
+      }
+    },
+    {
+      "userAgent": "Snapbot\/*",
+      "properties": {
+        "Parent": "Snap",
+        "Browser": "Snapbot"
+      }
+    }
+  ]
+}

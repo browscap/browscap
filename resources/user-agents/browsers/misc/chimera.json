@@ -1,0 +1,32 @@
+{
+  "division": "Chimera",
+  "sortIndex": 2320,
+  "userAgents": [
+    {
+      "userAgent": "Chimera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chimera",
+        "Browser": "Chimera",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Chimera\/*",
+      "properties": {
+        "Parent": "Chimera",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Gecko\/* Chimera\/*",
+      "properties": {
+        "Parent": "Chimera"
+      }
+    }
+  ]
+}

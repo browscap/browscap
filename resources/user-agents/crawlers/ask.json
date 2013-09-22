@@ -1,0 +1,32 @@
+{
+  "division": "Ask",
+  "sortIndex": 10,
+  "userAgents": [
+    {
+      "userAgent": "Ask",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ask",
+        "Browser": "Ask",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; Ask Jeeves\/Teoma*)",
+      "properties": {
+        "Parent": "Ask",
+        "Browser": "Teoma"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (compatible; Ask Jeeves)",
+      "properties": {
+        "Parent": "Ask",
+        "Browser": "AskJeeves"
+      }
+    }
+  ]
+}

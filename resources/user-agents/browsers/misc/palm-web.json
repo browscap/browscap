@@ -1,0 +1,69 @@
+{
+  "division": "Palm Web",
+  "sortIndex": 1810,
+  "userAgents": [
+    {
+      "userAgent": "Palm Web",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Palm Web",
+        "Browser": "Palm Web",
+        "Platform": "webOS",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/1.*",
+      "properties": {
+        "Parent": "Palm Web",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "CssVersion": "2",
+        "Device_Name": "Pixi",
+        "Device_Maker": "Palm"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/2.*",
+      "properties": {
+        "Parent": "Palm Web",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "CssVersion": "2",
+        "Device_Name": "Pixi",
+        "Device_Maker": "Palm"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pre\/2.*",
+      "properties": {
+        "Parent": "Palm Web",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "CssVersion": "2",
+        "Device_Name": "Pre",
+        "Device_Maker": "Palm"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* Safari\/* *Pre\/1.*",
+      "properties": {
+        "Parent": "Palm Web",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "CssVersion": "2",
+        "Device_Name": "Pre",
+        "Device_Maker": "Palm"
+      }
+    }
+  ]
+}

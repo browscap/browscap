@@ -1,0 +1,29 @@
+{
+  "division": "Netbox",
+  "sortIndex": 2180,
+  "userAgents": [
+    {
+      "userAgent": "Netbox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netbox",
+        "Browser": "Netbox",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1",
+        "Device_Name": "Netbox",
+        "Device_Maker": "Sony"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
+      "properties": {
+        "Parent": "Netbox",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

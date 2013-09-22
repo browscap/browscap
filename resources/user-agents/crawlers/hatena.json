@@ -1,0 +1,66 @@
+{
+  "division": "Hatena",
+  "sortIndex": 270,
+  "userAgents": [
+    {
+      "userAgent": "Hatena",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Hatena",
+        "Browser": "Hatena",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Feed::Find\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Feed Find",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Hatena Antenna\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Antenna"
+      }
+    },
+    {
+      "userAgent": "Hatena Bookmark\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Bookmark"
+      }
+    },
+    {
+      "userAgent": "Hatena RSS\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena RSS",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Hatena::Crawler\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Crawler"
+      }
+    },
+    {
+      "userAgent": "HatenaScreenshot*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "HatenaScreenshot"
+      }
+    },
+    {
+      "userAgent": "URI::Fetch\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "URI::Fetch"
+      }
+    }
+  ]
+}

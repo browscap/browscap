@@ -1,0 +1,35 @@
+{
+  "division": "Mozilla 1.0",
+  "sortIndex": 3640,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 1.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mozilla 1.0",
+        "Browser": "Mozilla",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.0",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:1.0.*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.0"
+      }
+    }
+  ]
+}

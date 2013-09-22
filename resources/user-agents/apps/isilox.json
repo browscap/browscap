@@ -1,0 +1,104 @@
+{
+  "division": "iSiloX",
+  "sortIndex": 2410,
+  "userAgents": [
+    {
+      "userAgent": "iSiloX",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iSiloX",
+        "Browser": "iSiloX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.0* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.0* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform": "Win32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.1* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.1* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "Win32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.2* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.2* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "Win32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.3* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.3* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3",
+        "Platform": "Win32",
+        "Win32": "true"
+      }
+    }
+  ]
+}

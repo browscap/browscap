@@ -1,0 +1,68 @@
+{
+  "division": "Opera Mini Generic",
+  "sortIndex": 2120,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini Generic",
+        "Browser": "Opera Mini",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(Android*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "BlackBerry OS",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(iPhone*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "JAVA"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(Series 60*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "SymbianOS"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "WinMobile"
+      }
+    }
+  ]
+}

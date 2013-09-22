@@ -1,0 +1,35 @@
+{
+  "division": "Ilse",
+  "sortIndex": 170,
+  "userAgents": [
+    {
+      "userAgent": "Ilse",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ilse",
+        "Browser": "Ilse",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "IlseBot\/*",
+      "properties": {
+        "Parent": "Ilse"
+      }
+    },
+    {
+      "userAgent": "INGRID\/?.0*",
+      "properties": {
+        "Parent": "Ilse"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (INGRID\/*",
+      "properties": {
+        "Parent": "Ilse"
+      }
+    }
+  ]
+}

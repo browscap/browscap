@@ -1,0 +1,658 @@
+{
+  "division": "Opera Generic",
+  "sortIndex": 2930,
+  "userAgents": [
+    {
+      "userAgent": "Opera Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Generic",
+        "Browser": "Opera",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*FreeBSD*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Linux*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Mac OS X*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Macintosh*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacPPC",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*SunOS*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*UNIX*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Unix",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Win 9x 4.90*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows 2000*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows 95*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows 98*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows CE*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows ME*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 5.2*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 6.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows NT 6.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Opera?*Windows XP*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.*(*Windows CE*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*FreeBSD*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Linux*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Mac OS X*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Macintosh*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacPPC",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*SunOS*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*UNIX*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Unix",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Win 9x 4.90*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows 2000*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows 95*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows 98*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows ME*Opera*)*",
+      "properties": {
+        "Parent": "Opera Generic"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 4.0*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 5.0*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 5.1*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 5.2*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 6.0*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows NT 6.1*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.**(*Windows XP*)*Opera*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*FreeBSD*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Linux*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Mac OS X*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Macintosh*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacPPC",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*SunOS*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*UNIX*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Unix",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Win 9x 4.90*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows 2000*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows 95*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows 98*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows CE*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows ME*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 5.2*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 6.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows NT 6.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows XP*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*FreeBSD*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Linux*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Mac OS X*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Macintosh*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "MacPPC",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*SunOS*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*UNIX*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Unix",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Win 9x 4.90*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows 2000*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows 95*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows 98*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows CE*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows ME*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 5.2*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 6.0*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows NT 6.1*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.80*(*Windows XP*)*",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Platform": "WinXP",
+        "Platform_Description": "Windows XP"
+      }
+    }
+  ]
+}

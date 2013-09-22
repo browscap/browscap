@@ -1,0 +1,32 @@
+{
+  "division": "Openwave Mobile Browser",
+  "sortIndex": 1800,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser",
+        "Browser": "Openwave Mobile Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "*UP.Browser\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "*UP.Link\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    }
+  ]
+}

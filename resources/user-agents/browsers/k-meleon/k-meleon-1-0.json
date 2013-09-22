@@ -1,0 +1,98 @@
+{
+  "division": "K-Meleon 1.0",
+  "sortIndex": 2450,
+  "userAgents": [
+    {
+      "userAgent": "K-Meleon 1.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "K-Meleon 1.0",
+        "Browser": "K-Meleon",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; Win95; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; Win98; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.0; *; rv:1.*) Gecko\/* K-Meleon?1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.1; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.2; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; *; WinNT4.0; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
+      "properties": {
+        "Parent": "K-Meleon 1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    }
+  ]
+}

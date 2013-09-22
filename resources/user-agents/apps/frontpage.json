@@ -1,0 +1,31 @@
+{
+  "division": "FrontPage",
+  "sortIndex": 2360,
+  "userAgents": [
+    {
+      "userAgent": "FrontPage",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FrontPage",
+        "Browser": "FrontPage",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?* (compatible; MS FrontPage*)",
+      "properties": {
+        "Parent": "FrontPage"
+      }
+    },
+    {
+      "userAgent": "MSFrontPage\/*",
+      "properties": {
+        "Parent": "FrontPage"
+      }
+    }
+  ]
+}

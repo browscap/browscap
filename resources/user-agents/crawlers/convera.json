@@ -1,0 +1,41 @@
+{
+  "division": "Convera",
+  "sortIndex": 90,
+  "userAgents": [
+    {
+      "userAgent": "Convera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Convera",
+        "Browser": "Convera",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser": "ConveraCrawler"
+      }
+    },
+    {
+      "userAgent": "ConveraMultiMediaCrawler\/0.1*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser": "ConveraMultiMediaCrawler",
+        "Version": "0.1",
+        "MajorVer": "0",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "CrawlConvera*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser": "CrawlConvera"
+      }
+    }
+  ]
+}

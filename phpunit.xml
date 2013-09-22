@@ -1,0 +1,10 @@
+<phpunit bootstrap="tests/Bootstrap.php">
+  <testsuite name="Browscap Test Suite">
+    <directory>./tests</directory>
+  </testsuite>
+  <filter>
+    <whitelist>
+      <directory>./src</directory>
+    </whitelist>
+  </filter>
+</phpunit>

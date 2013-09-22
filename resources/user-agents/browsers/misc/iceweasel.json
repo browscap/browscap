@@ -1,0 +1,66 @@
+{
+  "division": "Iceweasel",
+  "sortIndex": 3630,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceweasel",
+        "Browser": "Iceweasel",
+        "Platform": "Debian",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.8.*) Gecko\/* Iceweasel\/2.0* (Debian-*)*",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "RenderingEngine_Version": "1.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.9.*) Gecko\/* Iceweasel\/3.0* (Debian-*)*",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Platform": "Debian",
+        "CssVersion": "2",
+        "RenderingEngine_Version": "1.9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.9.*) Gecko\/* Iceweasel\/3.5* (Debian-*)",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "RenderingEngine_Version": "1.9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *; rv:1.9.*) Gecko\/* Iceweasel\/3.6* (like Firefox\/3.6)*",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Version": "3.6",
+        "MajorVer": "3",
+        "MinorVer": "6",
+        "RenderingEngine_Version": "1.9"
+      }
+    }
+  ]
+}

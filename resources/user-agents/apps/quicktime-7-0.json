@@ -1,0 +1,118 @@
+{
+  "division": "QuickTime 7.0",
+  "sortIndex": 1600,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime 7.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickTime 7.0",
+        "Browser": "QuickTime",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows 98*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows Me*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 4.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 5.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 5.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 5.2*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 6.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*;os=Windows NT 6.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*os=Mac 10.*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*os=Mac 9.*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "MacPPC",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "QuickTime*(qtver=7.*os=Windows 95*)",
+      "properties": {
+        "Parent": "QuickTime 7.0",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    }
+  ]
+}
