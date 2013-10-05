@@ -135,6 +135,24 @@
         "Win64": "true"
       }
     },
+    "Win8_1_32": {
+      "match": "*Windows NT 6.3*",
+      "properties": {
+        "Platform": "Win8_1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1"
+      }
+    },
+    "Win8_1_64": {
+      "match": "*Windows NT 6.3*WOW64*",
+      "properties": {
+        "Platform": "Win8_1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Android_1_0": {
       "match": "Linux*Android 1.0*",
       "properties": {
