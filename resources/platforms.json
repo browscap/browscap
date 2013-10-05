@@ -258,6 +258,59 @@
         "Platform_Version": "8.0",
         "isMobileDevice": "true"
       }
+    },
+    "AndroidMobile": {
+      "match": "*Android*Mobile*",
+      "properties": {
+        "Platform": "Android",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    "AndroidTablet": {
+      "match": "*Android*Tablet*",
+      "properties": {
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    "FreeBSD": {
+      "match": "*FreeBSD*",
+      "properties": {
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    "HPUX": {
+      "match": "*HP-UX*",
+      "properties": {
+        "Platform": "HP-UX",
+        "Win32": "false"
+      }
+    },
+    "OpenBSD": {
+      "match": "*OpenBSD*",
+      "properties": {
+        "Platform": "OpenBSD",
+        "Win32": "false"
+      }
+    },
+    "SunOS": {
+      "match": "*SunOS*",
+      "properties": {
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    },
+    "IRIX64": {
+      "match": "*IRIX64*",
+      "properties": {
+        "Platform": "IRIX64",
+        "Win32": "false"
+      }
     }
   }
 }
