@@ -1,0 +1,96 @@
+{
+  "division": "Arora 0.8",
+  "sortIndex": 1500,
+  "userAgents": [
+    {
+      "userAgent": "Arora 0.8",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Arora 0.8",
+        "Browser": "Arora",
+        "Version": "0.8",
+        "MajorVer": "0",
+        "MinorVer": "8",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.8*",
+      "properties": {
+        "Parent": "Arora 0.8",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    }
+  ]
+}

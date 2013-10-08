@@ -1,0 +1,41 @@
+{
+  "division": "BlackBerry",
+  "sortIndex": 1920,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry",
+        "Browser": "BlackBerry",
+        "Platform": "BlackBerry OS",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "*BlackBerry*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform_Version": "1.0"
+      }
+    },
+    {
+      "userAgent": "*PlayBook*RIM Tablet OS 1.0.*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "1.0",
+        "Device_Name": "Playbook",
+        "Device_Maker": "RIM"
+      }
+    }
+  ]
+}

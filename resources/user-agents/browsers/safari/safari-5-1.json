@@ -1,0 +1,121 @@
+{
+  "division": "Safari 5.1",
+  "sortIndex": 2590,
+  "userAgents": [
+    {
+      "userAgent": "Safari 5.1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari 5.1",
+        "Browser": "Safari",
+        "Version": "5.1",
+        "MajorVer": "5",
+        "MinorVer": "1",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*CentOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "CentOS"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*SymbianOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "SymbianOS",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*) AppleWebKit\/* (KHTML, like Gecko) *Version\/5.1* Safari\/*",
+      "properties": {
+        "Parent": "Safari 5.1",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "division": "Playstation",
+  "sortIndex": 1820,
+  "userAgents": [
+    {
+      "userAgent": "Playstation",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Playstation",
+        "Browser": "Playstation",
+        "Platform": "WAP",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "Device_Name": "Playstation",
+        "Device_Maker": "Sony"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PLAYSTATION*)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Sony PS3",
+        "Frames": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Sony PSP"
+      }
+    },
+    {
+      "userAgent": "Sony PS2 (Linux)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Sony PS2",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

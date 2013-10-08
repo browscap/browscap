@@ -1,0 +1,33 @@
+{
+  "division": "Kindle Nook",
+  "sortIndex": 1760,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*NOOK*)*AppleWebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "properties": {
+        "Parent": "Kindle",
+        "Comment": "Kindle Nook",
+        "Browser": "Kindle Nook",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform_Version": "2.3",
+        "Device_Name": "Kindle",
+        "Device_Maker": "Amazon",
+        "RenderingEngine_Version": "533.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*NookColor*)*AppleWebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "properties": {
+        "Parent": "Kindle",
+        "Browser": "Kindle Nook",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform_Version": "2.3",
+        "RenderingEngine_Version": "533.1"
+      }
+    }
+  ]
+}

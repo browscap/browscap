@@ -1,0 +1,31 @@
+{
+  "division": "PowerTV",
+  "sortIndex": 2190,
+  "userAgents": [
+    {
+      "userAgent": "PowerTV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PowerTV",
+        "Browser": "PowerTV",
+        "Platform": "PowerTV",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Name": "PowerTV",
+        "Device_Maker": "Scientific Atlanta"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 PowerTV\/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
+      "properties": {
+        "Parent": "PowerTV",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5"
+      }
+    }
+  ]
+}

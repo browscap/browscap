@@ -1,0 +1,16 @@
+{
+  "division": "NCSA Mosaic",
+  "sortIndex": 2240,
+  "userAgents": [
+    {
+      "userAgent": "Mosaic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NCSA Mosaic",
+        "Browser": "Mosaic",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    }
+  ]
+}

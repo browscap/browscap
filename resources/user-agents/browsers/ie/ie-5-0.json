@@ -1,0 +1,150 @@
+{
+  "division": "IE 5.0",
+  "sortIndex": 3890,
+  "userAgents": [
+    {
+      "userAgent": "IE 5.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 5.0",
+        "Browser": "IE",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Mac_PowerPC*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "MacPPC",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 3.1*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 3.11*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.11"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 95*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98; Win 9x 4.90*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 3.1*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinNT",
+        "Platform_Version": "3.1",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 3.5*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinNT",
+        "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.2*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 6.0*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 6.1*)*",
+      "properties": {
+        "Parent": "IE 5.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    }
+  ]
+}

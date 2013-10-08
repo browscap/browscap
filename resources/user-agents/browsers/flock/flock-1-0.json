@@ -1,0 +1,88 @@
+{
+  "division": "Flock 1.0",
+  "sortIndex": 3100,
+  "userAgents": [
+    {
+      "userAgent": "Flock 1.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flock 1.0",
+        "Browser": "Flock",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Win 9x 4.90; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.0*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.2*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1*; *; rv:1.*) Gecko\/* Firefox\/2.* Flock\/1.*",
+      "properties": {
+        "Parent": "Flock 1.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    }
+  ]
+}

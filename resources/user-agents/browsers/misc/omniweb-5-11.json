@@ -1,0 +1,39 @@
+{
+  "division": "OmniWeb 5.11",
+  "sortIndex": 2710,
+  "userAgents": [
+    {
+      "userAgent": "OmniWeb 5.11",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OmniWeb 5.11",
+        "Browser": "OmniWeb",
+        "Version": "5.11",
+        "MajorVer": "5",
+        "MinorVer": "11",
+        "Platform": "MacOSX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Version\/5.11* *OmniWeb\/*",
+      "properties": {
+        "Parent": "OmniWeb 5.11",
+        "Comment": "OmniWeb 5.11",
+        "Browser": "OmniWeb",
+        "Version": "5.11",
+        "MajorVer": "5",
+        "MinorVer": "11",
+        "CssVersion": "3"
+      }
+    }
+  ]
+}

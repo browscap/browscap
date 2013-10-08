@@ -1,0 +1,37 @@
+{
+  "division": "Flock 3.0",
+  "sortIndex": 3120,
+  "userAgents": [
+    {
+      "userAgent": "Flock 3.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flock 3.0",
+        "Browser": "Flock",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *) AppleWebKit\/* (KHTML, like Gecko) Flock\/3.* Chrome\/* Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.0",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "Platform": "MacOSX"
+      }
+    }
+  ]
+}

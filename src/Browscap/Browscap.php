@@ -9,11 +9,11 @@ class Browscap extends Application
 
     public function __construct()
     {
-        parent::__construct('Browser Capabilities Project', null);
+        parent::__construct('Browser Capabilities Project', 'dev-master');
 
         $commands = array(
-            new \Browscap\Command\PropertyCommand(),
             new \Browscap\Command\BuildCommand(),
+            new \Browscap\Command\DiffCommand(),
         );
 
         foreach ($commands as $command) {

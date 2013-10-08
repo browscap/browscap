@@ -1,0 +1,81 @@
+{
+  "division": "Polaris",
+  "sortIndex": 1840,
+  "userAgents": [
+    {
+      "userAgent": "Polaris",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Polaris",
+        "Browser": "Polaris",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "LG-* Polaris\/5.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris LG",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "LG-* Polaris\/6.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris LG",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "LG-* Polaris\/7.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris LG",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Polaris\/5.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris Samsung",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Polaris\/6.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris Samsung",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Polaris\/7.* MMP\/2.*",
+      "properties": {
+        "Parent": "Polaris",
+        "Browser": "Polaris Samsung",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

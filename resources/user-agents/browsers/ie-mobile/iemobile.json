@@ -1,0 +1,23 @@
+{
+  "division": "IEMobile",
+  "sortIndex": 1710,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile",
+        "Browser": "IEMobile",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2"
+      }
+    }
+  ]
+}

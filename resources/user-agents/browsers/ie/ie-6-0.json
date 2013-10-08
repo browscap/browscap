@@ -1,0 +1,94 @@
+{
+  "division": "IE 6.0",
+  "sortIndex": 3900,
+  "userAgents": [
+    {
+      "userAgent": "IE 6.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 6.0",
+        "Browser": "IE",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "1",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (*MSIE 6*)*",
+      "properties": {
+        "Parent": "IE 6.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2; *Win64*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2; *WOW64*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 6.0*)*",
+      "properties": {
+        "Parent": "IE 6.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    }
+  ]
+}

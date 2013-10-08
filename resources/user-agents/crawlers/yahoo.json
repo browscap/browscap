@@ -1,0 +1,379 @@
+{
+  "division": "Yahoo",
+  "sortIndex": 50,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Y!J; for robot study*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMC\/* (Y!J-AGENT))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMF\/* (Y!J-AGENT))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMF"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMI\/* (Y!J-AGENT; 1.0))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMI"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! DE Slurp; http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Directory Engine"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! SearchMonkey*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Search Monkey"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*;*http:\/\/misc.yahoo.com.cn\/help.html)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Slurp China"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Slurp",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Verifier\/*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Verifier",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo!-AdCrawler;*http:\/\/help.yahoo.com\/yahoo_adcrawler)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo!-AdCrawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YahooSeeker\/M1A1-R2D2*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooSeeker-Mobile"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Yahoo-MMCrawler\/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMCrawler",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Yahoo-Test\/*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-Test"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (YahooYSMcm*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooYSMcm"
+      }
+    },
+    {
+      "userAgent": "mp3Spider cn-search-devel at yahoo-inc dot com",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Media"
+      }
+    },
+    {
+      "userAgent": "My Browser",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! My Browser"
+      }
+    },
+    {
+      "userAgent": "Scooter*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Scooter"
+      }
+    },
+    {
+      "userAgent": "Scooter\/*Y!CrawlX",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Scooter\/3.3Y!CrawlX",
+        "Version": "3.3",
+        "MajorVer": "3",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "slurp",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "slurp"
+      }
+    },
+    {
+      "userAgent": "Y!J SearchMonkey*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRE*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRG\/GSC*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRI*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRO\/YFSJ*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRP\/YFSBJ*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRQ\/DLCK*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-BSC*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-DSC*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-NSC*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-PSC*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J-SRD*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Y!J-VSC\/ViSe*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!OASIS*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!OASIS"
+      }
+    },
+    {
+      "userAgent": "Yahoo Mindset",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Mindset"
+      }
+    },
+    {
+      "userAgent": "Yahoo Pipes*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Pipes"
+      }
+    },
+    {
+      "userAgent": "Yahoo! Mindset",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Mindset"
+      }
+    },
+    {
+      "userAgent": "Yahoo! Slurp\/Site Explorer",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Site Explorer"
+      }
+    },
+    {
+      "userAgent": "Yahoo-Blogs*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-Blogs"
+      }
+    },
+    {
+      "userAgent": "Yahoo-MMAudVid*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMAudVid"
+      }
+    },
+    {
+      "userAgent": "Yahoo-MMCrawler*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMCrawler"
+      }
+    },
+    {
+      "userAgent": "YahooExternalCache",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooExternalCache"
+      }
+    },
+    {
+      "userAgent": "YahooFeedSeeker*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooFeedSeeker",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooSeeker",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker\/CafeKelsa*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooSeeker\/CafeKelsa"
+      }
+    },
+    {
+      "userAgent": "YahooVideoSearch*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooVideoSearch"
+      }
+    },
+    {
+      "userAgent": "YahooYSMcm*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooYSMcm"
+      }
+    },
+    {
+      "userAgent": "YRL_ODP_CRAWLER",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YRL_ODP_CRAWLER"
+      }
+    }
+  ]
+}

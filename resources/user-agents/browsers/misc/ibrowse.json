@@ -1,0 +1,95 @@
+{
+  "division": "IBrowse",
+  "sortIndex": 2390,
+  "userAgents": [
+    {
+      "userAgent": "IBrowse",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IBrowse",
+        "Browser": "IBrowse",
+        "Platform": "Amiga",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      }
+    },
+    {
+      "userAgent": "Arexx (compatible; MSIE 6.0; AmigaOS5.0) IBrowse 4.0",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "IBrowse\/1.22 (AmigaOS *)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "1.22",
+        "MajorVer": "1",
+        "MinorVer": "22"
+      }
+    },
+    {
+      "userAgent": "IBrowse\/2.1 (AmigaOS *)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "IBrowse\/2.2 (AmigaOS *)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "IBrowse\/2.3 (AmigaOS *)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.1 (AmigaOS 3.1)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1",
+        "Platform_Version": "98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.2 (AmigaOS 3.1)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "Platform_Version": "98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.3 (AmigaOS 3.1)",
+      "properties": {
+        "Parent": "IBrowse",
+        "Version": "2.3",
+        "MajorVer": "2",
+        "MinorVer": "3",
+        "Platform_Version": "98"
+      }
+    }
+  ]
+}

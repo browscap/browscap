@@ -1,0 +1,86 @@
+{
+  "division": "Shiira",
+  "sortIndex": 2440,
+  "userAgents": [
+    {
+      "userAgent": "Shiira",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Shiira",
+        "Browser": "Shiira",
+        "Platform": "MacOSX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/0.9*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "0.9",
+        "MajorVer": "0",
+        "MinorVer": "9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/1.0*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/1.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/1.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/2.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/2.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) *AppleWebKit\/* *Shiira\/2.3*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "2.3",
+        "MajorVer": "2",
+        "MinorVer": "3"
+      }
+    }
+  ]
+}

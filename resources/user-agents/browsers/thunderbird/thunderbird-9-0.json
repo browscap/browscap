@@ -1,0 +1,96 @@
+{
+  "division": "Thunderbird 9.0",
+  "sortIndex": 3620,
+  "userAgents": [
+    {
+      "userAgent": "Thunderbird 9.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thunderbird 9.0",
+        "Browser": "Thunderbird",
+        "Version": "9.0",
+        "MajorVer": "9",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "9.0",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*)*Gecko\/*Thunderbird\/9.*",
+      "properties": {
+        "Parent": "Thunderbird 9.0",
+        "Platform": "Win8",
+        "Platform_Description": "Windows 8"
+      }
+    }
+  ]
+}

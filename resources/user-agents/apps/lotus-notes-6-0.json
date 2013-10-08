@@ -1,0 +1,25 @@
+{
+  "division": "Lotus Notes 6.0",
+  "sortIndex": 1630,
+  "userAgents": [
+    {
+      "userAgent": "Lotus Notes 6.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lotus Notes 6.0",
+        "Browser": "Lotus Notes",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Lotus-Notes\/6.0; Windows-NT)",
+      "properties": {
+        "Parent": "Lotus Notes 6.0",
+        "Platform": "WinNT",
+        "Platform_Description": "Windows NT"
+      }
+    }
+  ]
+}

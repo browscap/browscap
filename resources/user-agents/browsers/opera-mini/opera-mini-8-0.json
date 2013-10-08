@@ -1,0 +1,80 @@
+{
+  "division": "Opera Mini 8.0",
+  "sortIndex": 2100,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini 8.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini 8.0",
+        "Browser": "Opera Mini",
+        "Version": "8.0",
+        "MajorVer": "8",
+        "MinorVer": "0",
+        "Beta": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Android*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Platform": "BlackBerry OS",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*iPad*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Device_Name": "iPad",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*iPhone*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*J2ME\/MIDP*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Platform": "JAVA"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Series 60*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Platform": "SymbianOS"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Windows Mobile*Opera Mini\/8.*)*",
+      "properties": {
+        "Parent": "Opera Mini 8.0",
+        "Platform": "WinMobile"
+      }
+    }
+  ]
+}

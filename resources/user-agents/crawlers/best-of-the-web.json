@@ -1,0 +1,32 @@
+{
+  "division": "Best of the Web",
+  "sortIndex": 70,
+  "userAgents": [
+    {
+      "userAgent": "Best of the Web",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Best of the Web",
+        "Browser": "Best of the Web",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; BOTW Feed Grabber; *http:\/\/botw.org)",
+      "properties": {
+        "Parent": "Best of the Web",
+        "Browser": "BOTW Feed Grabber",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; BOTW Spider; *http:\/\/botw.org)",
+      "properties": {
+        "Parent": "Best of the Web",
+        "Browser": "BOTW Spider"
+      }
+    }
+  ]
+}

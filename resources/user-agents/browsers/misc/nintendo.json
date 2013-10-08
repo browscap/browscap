@@ -1,0 +1,42 @@
+{
+  "division": "Nintendo",
+  "sortIndex": 1550,
+  "userAgents": [
+    {
+      "userAgent": "Nintendo Wii",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nintendo",
+        "Browser": "",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
+      "properties": {
+        "Parent": "Nintendo Wii",
+        "Browser": "DSi"
+      }
+    },
+    {
+      "userAgent": "Opera\/* (Nintendo Wii; U; *)",
+      "properties": {
+        "Parent": "Nintendo Wii",
+        "Browser": "Wii"
+      }
+    },
+    {
+      "userAgent": "VLC Media Player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "VLC Media Player"
+      }
+    },
+    {
+      "userAgent": "vlc\/*",
+      "properties": {
+        "Parent": "VLC Media Player"
+      }
+    }
+  ]
+}

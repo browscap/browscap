@@ -1,0 +1,52 @@
+{
+  "division": "AOL Generic",
+  "sortIndex": 3820,
+  "userAgents": [
+    {
+      "userAgent": "AOL Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AOL Generic",
+        "Browser": "IE",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "1",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE*America Online Browser*",
+      "properties": {
+        "Parent": "AOL Generic"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE*AOL*",
+      "properties": {
+        "Parent": "AOL Generic"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE*AOL*Mac*",
+      "properties": {
+        "Parent": "AOL Generic",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE*AOL*Win*",
+      "properties": {
+        "Parent": "AOL Generic",
+        "Platform": "Win"
+      }
+    }
+  ]
+}

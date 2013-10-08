@@ -1,0 +1,118 @@
+{
+  "division": "Camino",
+  "sortIndex": 2310,
+  "userAgents": [
+    {
+      "userAgent": "Camino",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Camino",
+        "Browser": "Camino",
+        "Platform": "MacOSX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Intel Mac OS X*; *; rv:1.9.*) Gecko\/* Camino\/2.0*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/0.7*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "0.7",
+        "MajorVer": "0",
+        "MinorVer": "7",
+        "Beta": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/0.8*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "0.8",
+        "MajorVer": "0",
+        "MinorVer": "8",
+        "Beta": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/0.9*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "0.9",
+        "MajorVer": "0",
+        "MinorVer": "9",
+        "Beta": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.0*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.2*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.3*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.3",
+        "MajorVer": "1",
+        "MinorVer": "3",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.4*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.5*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/1.6*",
+      "properties": {
+        "Parent": "Camino",
+        "Version": "1.6",
+        "MajorVer": "1",
+        "MinorVer": "6",
+        "Platform": "MacOSX"
+      }
+    }
+  ]
+}

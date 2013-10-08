@@ -1,0 +1,29 @@
+{
+  "division": "NetPositive",
+  "sortIndex": 2430,
+  "userAgents": [
+    {
+      "userAgent": "NetPositive",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetPositive",
+        "Browser": "NetPositive",
+        "Platform": "BeOS",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      }
+    },
+    {
+      "userAgent": "*NetPositive\/2.2*",
+      "properties": {
+        "Parent": "NetPositive",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    }
+  ]
+}

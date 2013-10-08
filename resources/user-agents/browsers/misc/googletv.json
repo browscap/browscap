@@ -1,0 +1,29 @@
+{
+  "division": "GoogleTV",
+  "sortIndex": 2170,
+  "userAgents": [
+    {
+      "userAgent": "GoogleTV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GoogleTV",
+        "Browser": "GoogleTV",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Name": "GoogleTV",
+        "Device_Maker": "Google"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U: Linux i686; *) AppleWebKit\/* (KHTML, like Gecko) Chrome\/5.* Large Screen Safari\/* GoogleTV\/*",
+      "properties": {
+        "Parent": "GoogleTV",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

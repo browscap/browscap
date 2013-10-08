@@ -1,0 +1,130 @@
+{
+  "division": "Yandex",
+  "sortIndex": 60,
+  "userAgents": [
+    {
+      "userAgent": "Yandex",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex",
+        "Browser": "Yandex",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexAddurl\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexAddURL"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexBlogs\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexBlogs"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexBot\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexBot\/*; MirrorDetector*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "Yandex MirrorDetector"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexCatalog\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexCatalog"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexDirect\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexDirect-Dyatel"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexFavicons\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexFavicons"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexImageResizer\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexImageResizer"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexImages\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexImages"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexMedia\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexMedia"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexMetrika\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexMetrika"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexNews\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexNews"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexVideo\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexVideo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexWebmaster\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexWebmaster"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexZakladki\/*)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexZakladki"
+      }
+    },
+    {
+      "userAgent": "Yandex\/1.01.001 (compatible; Win16; *)",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "Yandex"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "division": "General RSS",
+  "sortIndex": 380,
+  "userAgents": [
+    {
+      "userAgent": "General RSS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General RSS",
+        "Browser": "General RSS",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "AideRSS\/1.0 (aiderss.com); * subscribers",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "AideRSS",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "BlijbolReallySimpleAggregator\/2.0*",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "BlijbolReallySimpleAggregator"
+      }
+    },
+    {
+      "userAgent": "CC Metadata Scaper http:\/\/wiki.creativecommons.org\/Metadata_Scraper",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "CC Metadata Scaper"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible) GM RSS Panel",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "RSS Panel"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 http:\/\/www.inclue.com; graeme@inclue.com",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "Inclue"
+      }
+    },
+    {
+      "userAgent": "Runnk online rss reader : http:\/\/www.runnk.com\/ : RSS favorites : RSS ranking : RSS aggregator*",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "Ruunk"
+      }
+    },
+    {
+      "userAgent": "UniversalFeedParser\/4.* +http:\/\/feedparser.org\/",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "UniversalFeedParser"
+      }
+    },
+    {
+      "userAgent": "Windows-RSS-Platform\/2.0 (MSIE ?.0; Windows NT *.*)",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "Windows-RSS-Platform",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Platform": "Win32"
+      }
+    }
+  ]
+}
