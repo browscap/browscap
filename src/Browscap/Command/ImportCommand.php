@@ -44,7 +44,7 @@ class ImportCommand extends Command
     {
         $this->output = $output;
 
-        $this->outputDirectory = './resources';
+        $this->outputDirectory = __DIR__ . '/../../../resources';
 
         if (!file_exists($this->outputDirectory . '/user-agents')) {
             mkdir($this->outputDirectory . '/user-agents', 0755, true);
