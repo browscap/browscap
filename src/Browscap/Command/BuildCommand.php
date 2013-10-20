@@ -38,8 +38,7 @@ class BuildCommand extends Command
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
-            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
-        ;
+            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply");
     }
 
     /**
@@ -76,7 +75,9 @@ class BuildCommand extends Command
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            if (!$file->isFile() || $file->getExtension() != 'json') continue;
+            if (!$file->isFile() || $file->getExtension() != 'json') {
+                continue;
+            }
 
             $msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
             $this->output->writeln($msg);

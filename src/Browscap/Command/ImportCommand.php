@@ -32,8 +32,7 @@ class ImportCommand extends Command
         $this
             ->setName('import')
             ->setDescription('Import from the legacy browscap database into the new JSON format')
-            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to import from - note you should parse the FULL browscap INI files')
-        ;
+            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to import from - note you should parse the FULL browscap INI files');
     }
 
     /**
@@ -59,7 +58,9 @@ class ImportCommand extends Command
 
         $divisionId = 0;
         foreach ($divisions as $divisionName => $userAgents) {
-            if ($divisionName == 'Browscap Version') continue;
+            if ($divisionName == 'Browscap Version') {
+                continue;
+            }
 
             $this->saveDivision($divisionId++, $divisionName, $userAgents);
         }

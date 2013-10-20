@@ -6,7 +6,6 @@ use Symfony\Component\Console\Application;
 
 class Browscap extends Application
 {
-
     public function __construct()
     {
         parent::__construct('Browser Capabilities Project', 'dev-master');
@@ -20,5 +19,4 @@ class Browscap extends Application
             $this->add($command);
         }
     }
-
 }

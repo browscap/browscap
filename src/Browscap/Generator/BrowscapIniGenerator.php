@@ -80,7 +80,9 @@ class BrowscapIniGenerator implements GeneratorInterface
         $output = $this->generateHeader();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            if ($division['division'] == 'Browscap Version') continue;
+            if ($division['division'] == 'Browscap Version') {
+                continue;
+            }
 
             if (isset($division['versions']) && is_array($division['versions'])) {
                 foreach ($division['versions'] as $version) {
@@ -239,19 +241,16 @@ class BrowscapIniGenerator implements GeneratorInterface
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
                 return 'string';
-
             case 'Parent':
             case 'Platform_Version':
             case 'RenderingEngine_Version':
                 return 'generic';
-
             case 'Version':
             case 'MajorVer':
             case 'MinorVer':
             case 'CssVersion':
             case 'AolVersion':
                 return 'number';
-
             case 'Alpha':
             case 'Beta':
             case 'Win16':
@@ -270,7 +269,6 @@ class BrowscapIniGenerator implements GeneratorInterface
             case 'isSyndicationReader':
             case 'Crawler':
                 return 'boolean';
-
             default:
                 throw new \Exception("Property {$propertyName} did not have a defined property type");
         }
@@ -293,7 +291,6 @@ class BrowscapIniGenerator implements GeneratorInterface
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
                 return true;
-
             default:
                 return false;
         }
