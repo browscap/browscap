@@ -114,30 +114,30 @@ class DiffCommand extends Command
 
         if (isset($leftPropsDifferences)) {
             foreach ($leftPropsDifferences as $prop => $value) {
-            	if (isset($rightProps[$prop])) {
-            		$msg = sprintf('<error>"%s" differs (L / R): %s / %s</error>', $prop, $value, $rightProps[$prop]);
-            		$this->output->writeln($msg);
-            		$this->diffsFound++;
-            	} else {
-            		$msg = sprintf('<error>"%s" is only on the LEFT</error>', $prop);
-            		$this->output->writeln($msg);
-            		$this->diffsFound++;
-            	}
+                if (isset($rightProps[$prop])) {
+                    $msg = sprintf('<error>"%s" differs (L / R): %s / %s</error>', $prop, $value, $rightProps[$prop]);
+                    $this->output->writeln($msg);
+                    $this->diffsFound++;
+                } else {
+                    $msg = sprintf('<error>"%s" is only on the LEFT</error>', $prop);
+                    $this->output->writeln($msg);
+                    $this->diffsFound++;
+                }
 
-            	$propsRead[] = $prop;
+                $propsRead[] = $prop;
             }
         }
 
         if (isset($rightPropsDifferences)) {
-        	foreach ($rightPropsDifferences as $prop => $value) {
-        		if (in_array($prop, $propsRead)) {
-        			continue;
-        		}
+            foreach ($rightPropsDifferences as $prop => $value) {
+                if (in_array($prop, $propsRead)) {
+                    continue;
+                }
 
-        		$msg = sprintf('<error>"%s" is only on the RIGHT</error>', $prop);
-        		$this->output->writeln($msg);
-        		$this->diffsFound++;
-        	}
+                $msg = sprintf('<error>"%s" is only on the RIGHT</error>', $prop);
+                $this->output->writeln($msg);
+                $this->diffsFound++;
+            }
         }
     }
 
