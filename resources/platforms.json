@@ -243,6 +243,33 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_2": {
+      "match": "Linux*Android 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3": {
+      "match": "Linux*Android 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4": {
+      "match": "Linux*Android 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "WinCE": {
       "match": "*Windows CE",
       "properties": {
