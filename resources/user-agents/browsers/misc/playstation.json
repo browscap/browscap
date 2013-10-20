@@ -24,6 +24,7 @@
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony PS3",
+        "Platform": "CellOS",
         "Frames": "false"
       }
     },
