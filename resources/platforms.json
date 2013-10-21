@@ -15,8 +15,16 @@
         "Win32": "false"
       }
     },
+    "iOS": {
+      "match": "*(iPod|iPhone|iPad); CPU iPhone OS .* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "Apple iOS",
+        "Win32": "false"
+      }
+    },
     "Linux_32": {
-      "match": "*Linux i686*",
+      "match": "*Linux i(5|6)86*",
       "properties": {
         "Platform": "Linux",
         "Win32": "false"
@@ -27,6 +35,30 @@
       "properties": {
         "Platform": "Linux",
         "Win32": "false"
+      }
+    },
+    "Win95": {
+      "match": "*Windows 95",
+      "properties": {
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    "Win98": {
+      "match": "*Windows 98*",
+      "properties": {
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    "WinME": {
+      "match": "*Windows *",
+      "properties": {
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Description": "Windows ME"
       }
     },
     "NT4": {
@@ -225,6 +257,33 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_3_0": {
+      "match": "Linux*Android 3.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "3.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_3_1": {
+      "match": "Linux*Android 3.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "3.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_3_2": {
+      "match": "Linux*Android 3.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "3.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_0": {
       "match": "Linux*Android 4.0*",
       "properties": {
@@ -275,6 +334,22 @@
       "properties": {
         "Platform": "WinCE",
         "Platform_Description": "Windows CE",
+        "isMobileDevice": "true"
+      }
+    },
+    "WinMobile": {
+      "match": "*Windows Mobile",
+      "properties": {
+        "Platform": "WinMobile",
+        "Platform_Description": "Windows Mobile",
+        "isMobileDevice": "true"
+      }
+    },
+    "WinPhone7": {
+      "match": "*Windows Phone 7*",
+      "properties": {
+        "Platform": "WinPhone7",
+        "Platform_Version": "7.0",
         "isMobileDevice": "true"
       }
     },
@@ -336,6 +411,20 @@
       "match": "*IRIX64*",
       "properties": {
         "Platform": "IRIX64",
+        "Win32": "false"
+      }
+    },
+    "OS2": {
+      "match": "*OS/2*",
+      "properties": {
+        "Platform": "OS/2",
+        "Win32": "false"
+      }
+    },
+    "RIMOS": {
+      "match": "*BlackBerry; U*",
+      "properties": {
+        "Platform": "RIM OS",
         "Win32": "false"
       }
     }

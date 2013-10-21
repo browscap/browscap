@@ -1,14 +1,14 @@
 {
-  "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [20,21,22,23,24,25,26,27,28,29,30,31,32],
-  "sortIndex": 1120,
+  "division": "Qt #MAJORVER#.#MINORVER#",
+  "versions": [4.0,4.1,4.2,4.3,4.4,4.5,4.6],
+  "sortIndex": 1910,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
-        "Browser": "Chrome",
+        "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -22,10 +22,11 @@
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      },
+      }
+    },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#\.#MINORVER#.*Safari\/*",
           "platforms": [
             "ChromeOS", "OSX", "Linux_32", "Linux_64", "NT4", "Win2000",
             "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
@@ -35,14 +36,7 @@
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
           ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
-          "platforms": [
-            "iOS"
-          ]
         }
       ]
-    }
   ]
 }
