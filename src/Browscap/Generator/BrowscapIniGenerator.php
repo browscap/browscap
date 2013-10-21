@@ -178,8 +178,10 @@ class BrowscapIniGenerator implements GeneratorInterface
         $output .= "\n";
 
         if (isset($uaData['children'])) {
-            if (is_array()) {
+            if (is_array($uaData['children']) && is_numeric(array_keys($uaData['children'])[0])) {
+                
                 foreach ($uaData['children'] as $child) {
+                    if (!is_array($child)) var_dump($uaData, $child);
                     $output .= $this->renderChildren($ua, $child);
                 }
             } else {

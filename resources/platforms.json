@@ -16,7 +16,7 @@
       }
     },
     "iOS": {
-      "match": "*(iPod|iPhone|iPad); CPU iPhone OS .* like Mac OS X*",
+      "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Description": "Apple iOS",
@@ -24,7 +24,14 @@
       }
     },
     "Linux_32": {
-      "match": "*Linux i(5|6)86*",
+      "match": "*Linux i686*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    "Linux_32_x586": {
+      "match": "*Linux i586*",
       "properties": {
         "Platform": "Linux",
         "Win32": "false"
@@ -149,6 +156,16 @@
         "Win64": "true"
       }
     },
+    "Win7_x64": {
+      "match": "*Windows NT 6.1*Win64; x64*",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Win8_32": {
       "match": "*Windows NT 6.2*",
       "properties": {
@@ -167,6 +184,16 @@
         "Win64": "true"
       }
     },
+    "Win8_x64": {
+      "match": "*Windows NT 6.2*Win64; x64*",
+      "properties": {
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Win8_1_32": {
       "match": "*Windows NT 6.3*",
       "properties": {
@@ -177,6 +204,16 @@
     },
     "Win8_1_64": {
       "match": "*Windows NT 6.3*WOW64*",
+      "properties": {
+        "Platform": "Win8_1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Win8_1_x64": {
+      "match": "*Windows NT 6.3*Win64; x64*",
       "properties": {
         "Platform": "Win8_1",
         "Platform_Version": "6.3",
