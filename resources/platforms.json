@@ -15,6 +15,13 @@
         "Win32": "false"
       }
     },
+    "CentOS": {
+      "match": "*CentOS*",
+      "properties": {
+        "Platform": "CentOS",
+        "Win32": "false"
+      }
+    },
     "Linux_32": {
       "match": "*Linux i686*",
       "properties": {
@@ -337,6 +344,13 @@
       "properties": {
         "Platform": "IRIX64",
         "Win32": "false"
+      }
+    },
+    "SymbianOS": {
+      "match": "*SymbianOS*",
+      "properties": {
+        "Platform": "SymbianOS",
+        "isMobileDevice": "true"
       }
     }
   }
