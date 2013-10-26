@@ -99,10 +99,12 @@ class BuildCommand extends Command
         $iniGenerator->setDataCollection($collection);
 
         $formats = array(
-            ['full_asp_browscap.ini', 'ASP/FULL', false, true],
-            ['full_php_browscap.ini', 'PHP/FULL', true, true],
-            ['browscap.ini', 'ASP', false, false],
-            ['php_browscap.ini', 'PHP', true, false],
+            ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
+            ['full_php_browscap.ini', 'PHP/FULL', true, true, false],
+            ['browscap.ini', 'ASP', false, false, false],
+            ['php_browscap.ini', 'PHP', true, false, false],
+            ['lite_asp_browscap.ini', 'ASP/LITE', false, false, true],
+            ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
         );
 
         foreach ($formats as $format) {
@@ -110,7 +112,7 @@ class BuildCommand extends Command
 
             $outputFile = $buildFolder . '/' . $format[0];
 
-            $iniGenerator->setOptions($format[2], $format[3]);
+            $iniGenerator->setOptions($format[2], $format[3], $format[4]);
 
             file_put_contents($outputFile, $iniGenerator->generate());
         }
