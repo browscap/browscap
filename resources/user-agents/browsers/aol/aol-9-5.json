@@ -1,6 +1,7 @@
 {
   "division": "AOL 9.5",
   "sortIndex": 3800,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "AOL 9.5",

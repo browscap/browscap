@@ -1,6 +1,7 @@
 {
   "division": "Firefox 7.0",
   "sortIndex": 3390,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Firefox 7.0",

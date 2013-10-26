@@ -1,6 +1,7 @@
 {
   "division": "Default Browser",
   "sortIndex": 2147000000,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "*",

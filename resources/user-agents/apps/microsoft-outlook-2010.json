@@ -1,6 +1,7 @@
 {
   "division": "Microsoft Outlook 2010",
   "sortIndex": 1650,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2010",

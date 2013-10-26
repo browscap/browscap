@@ -1,6 +1,7 @@
 {
   "division": "Nutch",
   "sortIndex": 290,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Nutch",

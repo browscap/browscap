@@ -1,6 +1,7 @@
 {
   "division": "Chrome Generic",
   "sortIndex": 1170,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Chrome Generic",

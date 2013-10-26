@@ -1,6 +1,7 @@
 {
   "division": "Netbox",
   "sortIndex": 2180,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Netbox",

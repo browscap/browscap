@@ -1,6 +1,7 @@
 {
   "division": "BlackBerry",
   "sortIndex": 1920,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "BlackBerry",

@@ -1,6 +1,7 @@
 {
   "division": "Yandex",
   "sortIndex": 60,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Yandex",

@@ -1,6 +1,7 @@
 {
   "division": "Konqueror 3.0",
   "sortIndex": 2490,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Konqueror 3.0",

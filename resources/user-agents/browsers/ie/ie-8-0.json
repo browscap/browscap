@@ -1,6 +1,7 @@
 {
   "division": "IE 8.0",
   "sortIndex": 3920,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "IE 8.0",

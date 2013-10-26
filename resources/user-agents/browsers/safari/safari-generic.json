@@ -1,6 +1,7 @@
 {
   "division": "Safari Generic",
   "sortIndex": 2630,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Safari Generic",

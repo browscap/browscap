@@ -1,6 +1,7 @@
 {
   "division": "Access NetFront 2.0",
   "sortIndex": 2140,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "NetFront 2.0",

@@ -1,6 +1,7 @@
 {
   "division": "Yahoo",
   "sortIndex": 50,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Yahoo",

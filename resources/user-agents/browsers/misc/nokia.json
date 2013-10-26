@@ -1,6 +1,7 @@
 {
   "division": "Nokia",
   "sortIndex": 1790,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Nokia",

@@ -1,6 +1,7 @@
 {
   "division": "Shiira",
   "sortIndex": 2440,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Shiira",

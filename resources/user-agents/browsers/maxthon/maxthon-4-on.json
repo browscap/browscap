@@ -2,6 +2,7 @@
   "division": "Maxthon #MAJORVER#.#MINORVER#",
   "versions": [4, "4.1"],
   "sortIndex": 2681,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

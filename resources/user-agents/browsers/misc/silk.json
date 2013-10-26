@@ -1,6 +1,7 @@
 {
   "division": "Silk",
   "sortIndex": 1860,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Silk",

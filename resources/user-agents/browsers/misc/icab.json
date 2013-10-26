@@ -1,6 +1,7 @@
 {
   "division": "iCab",
   "sortIndex": 2400,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "iCab",

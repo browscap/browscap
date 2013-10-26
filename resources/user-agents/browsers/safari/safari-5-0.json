@@ -1,6 +1,7 @@
 {
   "division": "Safari 5.0",
   "sortIndex": 2580,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Safari 5.0",

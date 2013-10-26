@@ -1,6 +1,7 @@
 {
   "division": "IE 6.0",
   "sortIndex": 3900,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "IE 6.0",

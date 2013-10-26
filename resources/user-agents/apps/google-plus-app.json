@@ -1,6 +1,7 @@
 {
   "division": "Google+ App",
   "sortIndex": 2000,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",

@@ -1,6 +1,7 @@
 {
   "division": "Palm Web",
   "sortIndex": 1810,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Palm Web",

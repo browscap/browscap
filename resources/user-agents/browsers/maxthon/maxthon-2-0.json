@@ -1,6 +1,7 @@
 {
   "division": "Maxthon 2.0",
   "sortIndex": 2670,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Maxthon 2.0",

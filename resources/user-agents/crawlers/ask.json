@@ -1,6 +1,7 @@
 {
   "division": "Ask",
   "sortIndex": 10,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Ask",

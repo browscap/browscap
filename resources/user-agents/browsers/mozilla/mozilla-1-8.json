@@ -1,6 +1,7 @@
 {
   "division": "Mozilla 1.8",
   "sortIndex": 3720,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla 1.8",

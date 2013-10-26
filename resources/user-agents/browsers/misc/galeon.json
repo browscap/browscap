@@ -1,6 +1,7 @@
 {
   "division": "Galeon",
   "sortIndex": 2370,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Galeon",

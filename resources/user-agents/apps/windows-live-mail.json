@@ -1,6 +1,7 @@
 {
   "division": "Windows Live Mail",
   "sortIndex": 1660,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Windows Live Mail",

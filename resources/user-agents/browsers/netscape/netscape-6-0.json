@@ -1,6 +1,7 @@
 {
   "division": "Netscape 6.0",
   "sortIndex": 2970,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Netscape 6.0",

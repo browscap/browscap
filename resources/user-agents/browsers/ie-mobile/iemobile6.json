@@ -1,6 +1,7 @@
 {
   "division": "IEMobile6",
   "sortIndex": 1711,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.*)*",

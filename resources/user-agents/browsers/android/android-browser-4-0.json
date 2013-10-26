@@ -1,6 +1,7 @@
 {
   "division": "Android Browser 4.0",
   "sortIndex": 1910,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Android Browser 4.0",

@@ -1,6 +1,7 @@
 {
   "division": "DoCoMo",
   "sortIndex": 1690,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "DoCoMo",

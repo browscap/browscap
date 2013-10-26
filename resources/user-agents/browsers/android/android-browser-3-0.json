@@ -1,6 +1,7 @@
 {
   "division": "Android Browser 3.0",
   "sortIndex": 1900,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Android Browser 3.0",
