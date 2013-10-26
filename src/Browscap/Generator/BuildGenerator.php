@@ -23,8 +23,27 @@ class BuildGenerator
 
     public function __construct($resourceFolder, $buildFolder)
     {
-        $this->resourceFolder = $resourceFolder;
-        $this->buildFolder = $buildFolder;
+        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
+        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
+    }
+
+    protected function checkDirectoryExists($directory, $type)
+    {
+        if (!isset($directory)) {
+            throw new \Exception("You must specify a {$type} folder");
+        }
+
+        $realDirectory = realpath($directory);
+
+        if ($realDirectory === false) {
+            throw new \Exception("The directory '{$directory}' does not exist, or we cannot access it");
+        }
+
+        if (!is_dir($realDirectory)) {
+            throw new \Exception("The path '{$realDirectory}' did not resolve to a directory");
+        }
+
+        return $realDirectory;
     }
 
     /**
@@ -34,6 +53,9 @@ class BuildGenerator
      */
     public function generateBuilds($version)
     {
+        $this->output('<info>Resource folder: ' . $this->resourceFolder . '</info>');
+        $this->output('<info>Build folder: ' . $this->buildFolder . '</info>');
+
         $collection = $this->createDataCollection($version, $this->resourceFolder);
 
         $this->writeIniFiles($collection, $this->buildFolder);
