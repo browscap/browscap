@@ -1,6 +1,7 @@
 {
   "division": "Fennec 10.0",
   "sortIndex": 3430,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Fennec 10.0",

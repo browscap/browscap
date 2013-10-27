@@ -1,6 +1,7 @@
 {
   "division": "UC Browser",
   "sortIndex": 1890,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "UC Browser",

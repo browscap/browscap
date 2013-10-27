@@ -1,6 +1,7 @@
 {
   "division": "Fast\/AllTheWeb",
   "sortIndex": 150,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Fast\/AllTheWeb",

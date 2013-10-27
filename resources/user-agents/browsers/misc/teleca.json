@@ -1,6 +1,7 @@
 {
   "division": "Teleca",
   "sortIndex": 1880,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Teleca",

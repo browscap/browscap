@@ -2,6 +2,7 @@
   "division": "Opera #MAJORVER#.#MINORVER#",
   "versions": [15,16,17],
   "sortIndex": 2841,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

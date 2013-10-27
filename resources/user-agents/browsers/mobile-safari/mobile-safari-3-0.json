@@ -1,6 +1,7 @@
 {
   "division": "Mobile Safari 3.0",
   "sortIndex": 1940,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mobile Safari 3.0",

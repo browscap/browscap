@@ -1,6 +1,7 @@
 {
   "division": "Dolfin",
   "sortIndex": 1700,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Dolfin",

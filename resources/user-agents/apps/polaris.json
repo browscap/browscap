@@ -1,6 +1,7 @@
 {
   "division": "Polaris",
   "sortIndex": 1840,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Polaris",

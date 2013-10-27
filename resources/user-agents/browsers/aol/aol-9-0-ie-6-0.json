@@ -1,6 +1,7 @@
 {
   "division": "AOL 9.0\/IE 6.0",
   "sortIndex": 3750,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "AOL 9.0\/IE 6.0",

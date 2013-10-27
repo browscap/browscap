@@ -1,6 +1,7 @@
 {
   "division": "Facebook App",
   "sortIndex": 1990,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit*(*KHTML, like Gecko*)*Mobile*FB*",

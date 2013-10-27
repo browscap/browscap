@@ -6,8 +6,8 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
-use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\DataCollection;
+use Browscap\Generator\BuildGenerator;
+use Symfony\Component\Console\Input\InputOption;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -15,30 +15,20 @@ use Browscap\Generator\DataCollection;
 class BuildCommand extends Command
 {
     /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     */
-    protected $output;
-
-    /**
-     * @var string
-     */
-    protected $resourceFolder;
-
-    /**
-     * @var string
-     */
-    protected $buildFolder;
-
-    /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
+        $defaultBuildFolder = __DIR__ . '/../../../build';
+        $defaultResourceFolder = __DIR__ . '/../../../resources';
+
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
-            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply");
+            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
+            ->addOption('output', null, InputOption::VALUE_REQUIRED, "Where to output the build files to", $defaultBuildFolder)
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, "Where the resource files are located", $defaultResourceFolder);
     }
 
     /**
@@ -47,72 +37,14 @@ class BuildCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->output = $output;
-        $this->resourceFolder = __DIR__ . '/../../../resources';
-        $this->buildFolder = __DIR__ . '/../../../build';
+        $resourceFolder = $input->getOption('resources');
+        $buildFolder = $input->getOption('output');
         $version = $input->getArgument('version');
 
-        $collection = $this->createDataCollection($version, $this->resourceFolder);
+        $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
+        $buildGenerator->setOutput($output);
+        $buildGenerator->generateBuilds($version);
 
-        $this->writeIniFiles($collection, $this->buildFolder);
-
-        $this->output->writeln('<info>All done.</info>');
-    }
-
-    /**
-     * Create and populate a data collection object from a resource folder
-     *
-     * @param string $resourceFolder
-     * @return \Browscap\Generator\DataCollection
-     */
-    public function createDataCollection($version, $resourceFolder)
-    {
-        $collection = new DataCollection($version);
-        $collection->addPlatformsFile($resourceFolder . '/platforms.json');
-
-        $uaSourceDirectory = $resourceFolder . '/user-agents';
-
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            if (!$file->isFile() || $file->getExtension() != 'json') {
-                continue;
-            }
-
-            $msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
-            $this->output->writeln($msg);
-            $collection->addSourceFile($file->getPathname());
-        }
-
-        return $collection;
-    }
-
-    /**
-     * Write out the various INI file formats
-     *
-     * @param \Browscap\Generator\DataCollection $collection
-     * @param string $buildFolder
-     */
-    public function writeIniFiles(DataCollection $collection, $buildFolder)
-    {
-        $iniGenerator = new BrowscapIniGenerator();
-        $iniGenerator->setDataCollection($collection);
-
-        $formats = array(
-            ['full_asp_browscap.ini', 'ASP/FULL', false, true],
-            ['full_php_browscap.ini', 'PHP/FULL', true, true],
-            ['browscap.ini', 'ASP', false, false],
-            ['php_browscap.ini', 'PHP', true, false],
-        );
-
-        foreach ($formats as $format) {
-            $this->output->writeln('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
-
-            $outputFile = $buildFolder . '/' . $format[0];
-
-            $iniGenerator->setOptions($format[2], $format[3]);
-
-            file_put_contents($outputFile, $iniGenerator->generate());
-        }
+        $output->writeln('<info>All done.</info>');
     }
 }

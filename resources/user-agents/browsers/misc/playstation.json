@@ -1,6 +1,7 @@
 {
   "division": "Playstation",
   "sortIndex": 1820,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Playstation",

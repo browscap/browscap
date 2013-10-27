@@ -1,6 +1,7 @@
 {
   "division": "DefaultProperties",
   "sortIndex": 0,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "DefaultProperties",

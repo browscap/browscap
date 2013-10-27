@@ -15,6 +15,11 @@ class BrowscapIniGenerator implements GeneratorInterface
     protected $includeExtraProperties;
 
     /**
+     * @var bool
+     */
+    protected $liteOnly;
+
+    /**
      * @var \Browscap\Generator\DataCollection
      */
     protected $collection;
@@ -26,6 +31,7 @@ class BrowscapIniGenerator implements GeneratorInterface
     {
         $this->quoteStringProperties = false;
         $this->includeExtraProperties = true;
+        $this->liteOnly = false;
     }
 
     /**
@@ -60,12 +66,14 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
+     * @param boolean $liteOnly
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
-    public function setOptions($quoteStringProperties, $includeExtraProperties)
+    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
-        $this->quoteStringProperties = $quoteStringProperties;
-        $this->includeExtraProperties = $includeExtraProperties;
+        $this->quoteStringProperties = (bool)$quoteStringProperties;
+        $this->includeExtraProperties = (bool)$includeExtraProperties;
+        $this->liteOnly = (bool)$liteOnly;
 
         return $this;
     }
@@ -81,6 +89,10 @@ class BrowscapIniGenerator implements GeneratorInterface
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
             if ($division['division'] == 'Browscap Version') {
+                continue;
+            }
+
+            if ($this->liteOnly && (!isset($division['lite']) || $division['lite'] == false)) {
                 continue;
             }
 

@@ -1,6 +1,7 @@
 {
   "division": "Seamonkey 2.5",
   "sortIndex": 3090,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Seamonkey 2.5",

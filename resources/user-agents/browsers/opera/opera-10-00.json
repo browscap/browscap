@@ -1,6 +1,7 @@
 {
   "division": "Opera 10.00",
   "sortIndex": 2720,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera 10.00",

@@ -1,6 +1,7 @@
 {
   "division": "Word Press",
   "sortIndex": 310,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Word Press",

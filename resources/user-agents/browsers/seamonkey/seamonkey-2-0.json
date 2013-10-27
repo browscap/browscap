@@ -1,6 +1,7 @@
 {
   "division": "SeaMonkey 2.0",
   "sortIndex": 3040,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "SeaMonkey 2.0",

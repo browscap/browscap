@@ -1,6 +1,7 @@
 {
   "division": "Mobile Safari 6.1",
   "sortIndex": 2020,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mobile Safari 6.1",

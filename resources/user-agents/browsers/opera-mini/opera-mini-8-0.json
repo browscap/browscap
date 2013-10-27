@@ -1,6 +1,7 @@
 {
   "division": "Opera Mini 8.0",
   "sortIndex": 2100,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini 8.0",

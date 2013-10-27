@@ -1,6 +1,7 @@
 {
   "division": "Boxee",
   "sortIndex": 2160,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Boxee",

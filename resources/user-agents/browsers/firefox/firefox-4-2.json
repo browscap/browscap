@@ -1,6 +1,7 @@
 {
   "division": "Firefox 4.2",
   "sortIndex": 3360,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Firefox 4.2",

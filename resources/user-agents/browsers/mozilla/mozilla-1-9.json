@@ -1,6 +1,7 @@
 {
   "division": "Mozilla 1.9",
   "sortIndex": 3730,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla 1.9",

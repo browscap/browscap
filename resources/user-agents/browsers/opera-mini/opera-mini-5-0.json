@@ -1,6 +1,7 @@
 {
   "division": "Opera Mini 5.0",
   "sortIndex": 2070,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini 5.0",

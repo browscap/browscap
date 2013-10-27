@@ -1,6 +1,7 @@
 {
   "division": "Camino",
   "sortIndex": 2310,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Camino",

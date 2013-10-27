@@ -1,6 +1,7 @@
 {
   "division": "GoogleTV",
   "sortIndex": 2170,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "GoogleTV",

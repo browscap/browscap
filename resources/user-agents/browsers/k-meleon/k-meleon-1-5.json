@@ -1,6 +1,7 @@
 {
   "division": "K-Meleon 1.5",
   "sortIndex": 2470,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "K-Meleon 1.5",

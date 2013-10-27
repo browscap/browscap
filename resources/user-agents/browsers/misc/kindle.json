@@ -1,6 +1,7 @@
 {
   "division": "Kindle",
   "sortIndex": 1740,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Kindle",

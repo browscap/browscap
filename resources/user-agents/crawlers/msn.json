@@ -1,6 +1,7 @@
 {
   "division": "MSN",
   "sortIndex": 40,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "MSN",
