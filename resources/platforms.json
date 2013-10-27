@@ -19,7 +19,7 @@
       "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {
         "Platform": "iOS",
-        "Platform_Description": "Apple iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
         "Win32": "false"
       }
     },
