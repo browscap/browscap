@@ -222,7 +222,7 @@
     "Win8_1_x64": {
       "match": "*Windows NT 6.3*Win64; x64*",
       "properties": {
-        "Platform": "Win8_1",
+        "Platform": "Win8.1",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
         "Win32": "false",
