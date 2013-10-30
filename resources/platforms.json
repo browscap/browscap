@@ -37,6 +37,22 @@
         "Win32": "false"
       }
     },
+    "iOS_2": {
+      "match": "*CPU like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_3": {
+      "match": "*CPU*OS*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {

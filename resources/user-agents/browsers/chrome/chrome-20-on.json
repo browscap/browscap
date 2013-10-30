@@ -41,7 +41,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "platforms": [
-            "iOS"
+            "iOS", "iOS_2", "iOS_3"
           ]
         }
       ]
