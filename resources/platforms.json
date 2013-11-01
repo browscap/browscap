@@ -160,6 +160,14 @@
         "Platform_Description": "Windows 2000"
       }
     },
+    "Win2000_3": {
+      "match": "*Windows NT 5.01*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.01",
+        "Platform_Description": "Windows 2000"
+      }
+    },
     "Win2000_2": {
       "match": "*Windows 2000*",
       "properties": {
