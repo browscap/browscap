@@ -231,7 +231,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                 $output .= "\n";
             }
         } else {
-            $output .= '[' . $uaBase) . "]\n";
+            $output .= '[' . $uaBase . "]\n";
             $output .= $this->renderProperties(['Parent' => $ua]);
             $output .= "\n";
         }
