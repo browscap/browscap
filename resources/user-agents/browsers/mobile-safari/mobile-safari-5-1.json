@@ -23,7 +23,15 @@
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*)*Version\/5.1.*Mobile\/*Safari\/*",
+          "platforms": [
+            "iOS", "iOS_2", "iOS_3"
+          ]
+        }
+      ]
     },
     {
       "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 5_0* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
@@ -108,6 +116,35 @@
       "properties": {
         "Parent": "Mobile Safari 5.1",
         "Platform_Version": "5.0",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Version": "0",
+        "MajorVer": "0",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/5.1*Mobile\/*Safari\/*",
+      "properties": {
+        "Parent": "Mobile Safari 5.1",
+        "Platform_Version": "5.1",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
       }

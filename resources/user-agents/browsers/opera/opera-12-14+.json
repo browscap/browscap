@@ -1,7 +1,8 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": [5.00],
-  "sortIndex": 2880,
+  "versions": [12.14,12.15,12.16,12.17],
+  "sortIndex": 2840,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
@@ -19,7 +20,10 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2"
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.12.388",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
       },
       "children": [
         {
@@ -40,6 +44,14 @@
         },
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "platforms": [
+            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",

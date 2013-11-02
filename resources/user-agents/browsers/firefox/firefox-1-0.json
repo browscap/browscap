@@ -1,16 +1,17 @@
 {
-  "division": "Firefox 1.0",
+  "division": "Firefox #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 3140,
   "userAgents": [
     {
-      "userAgent": "Firefox 1.0",
+      "userAgent": "Firefox #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox 1.0",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
@@ -20,175 +21,23 @@
         "JavaApplets": "true",
         "CssVersion": "2",
         "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.0",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; *; PPC*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "MacPPC",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *; *Mac OS X*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "MacOSX",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (OS\/2; *; Warp*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "OS\/2",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Win 9x 4.90*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "WinME",
-        "Platform_Description": "Windows ME"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Win95; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Win95",
-        "Platform_Version": "95",
-        "Platform_Description": "Windows 95"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Win98; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Win98",
-        "Platform_Version": "98",
-        "Platform_Description": "Windows 98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.0; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.1; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.1; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.2; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Win2003",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows 2003"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 6.0*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; *; WinNT4.0; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "WinNT",
-        "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; *Linux*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Linux",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; *Linux*; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "Linux",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; DragonFly*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; FreeBSD*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "FreeBSD",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; HP-UX*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "HP-UX",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; IRIX64*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "IRIX64",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; OpenBSD*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "OpenBSD",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; *; SunOS*; *; rv:1.*) Gecko\/* Firefox\/1.*",
-      "properties": {
-        "Parent": "Firefox 1.0",
-        "Platform": "SunOS",
-        "Win32": "false"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
+          "platforms": [
+            "FreeBSD", "HPUX", "IRIX64",
+            "Linux", "OSX", "OpenBSD", "SunOS", "Win95", "Win98", "WinME", "NT4_2",
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64", "MacPPC", "OS2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; *; DragonFly*; *; rv:1.*) Gecko\/* Firefox\/#MAJORVER#.*",
+          "platforms": []
+        }
+      ]
     }
   ]
 }

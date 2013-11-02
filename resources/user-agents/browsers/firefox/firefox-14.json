@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [3.5],
-  "sortIndex": 3330,
+  "versions": [14],
+  "sortIndex": 3190,
   "lite": true,
   "userAgents": [
     {
@@ -21,18 +21,20 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "1.9.1",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64",
+            "AndroidMobile", "FreeBSD", "HPUX", "IRIX64",
             "Linux", "OSX", "OpenBSD", "SunOS", "Win2000", "WinXPa_32",
-            "WinXPa_x64_2", "WinXPb_32", "WinXPb_x64_2", "Vista_32",
-            "Vista_x64_2", "Win7_32", "Win7_x64_2"
+            "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
+            "Win7_32", "Win7_64", "Win8_32", "Win8_64"
           ]
         }
       ]

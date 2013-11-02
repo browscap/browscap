@@ -190,22 +190,52 @@ class BrowscapIniGenerator implements GeneratorInterface
         $output .= "\n";
 
         if (isset($uaData['children'])) {
-            $uaBase = $uaData['children']['match'];
+            if (is_array($uaData['children']) && is_numeric(array_keys($uaData['children'])[0])) {
+                
+                foreach ($uaData['children'] as $child) {
+                    if (!is_array($child)) {
+                        continue;
+                    }
 
-            // @todo This needs work here. What if we specify platforms AND versions?
-            // We need to make it so it does as many permutations as necessary.
-            if (isset($uaData['children']['platforms'])) {
-                foreach ($uaData['children']['platforms'] as $platform) {
-                    $platformData = $this->getDataCollection()->getPlatform($platform);
-
-                    $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
-                    $output .= $this->renderProperties(['Parent' => $ua]);
-                    $output .= $this->renderProperties($platformData['properties']);
-                    $output .= "\n";
+                    $output .= $this->renderChildren($ua, $child);
                 }
+            } else {
+                $output .= $this->renderChildren($ua, $uaData['children']);
             }
         }
 
+        return $output;
+    }
+    
+    /**
+     * Render the children section in a single User Agent block
+     *
+     * @param string $ua
+     * @param array  $uaDataChild
+     * @return string
+     */
+    private function renderChildren($ua, array $uaDataChild)
+    {
+        $uaBase = $uaDataChild['match'];
+        $output = '';
+
+        // @todo This needs work here. What if we specify platforms AND versions?
+        // We need to make it so it does as many permutations as necessary.
+        if (isset($uaDataChild['platforms'])) {
+            foreach ($uaDataChild['platforms'] as $platform) {
+                $platformData = $this->getDataCollection()->getPlatform($platform);
+
+                $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
+                $output .= $this->renderProperties(['Parent' => $ua]);
+                $output .= $this->renderProperties($platformData['properties']);
+                $output .= "\n";
+            }
+        } else {
+            $output .= '[' . $uaBase . "]\n";
+            $output .= $this->renderProperties(['Parent' => $ua]);
+            $output .= "\n";
+        }
+        
         return $output;
     }
 

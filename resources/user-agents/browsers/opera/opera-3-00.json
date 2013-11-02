@@ -1,7 +1,7 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": [5.00],
-  "sortIndex": 2880,
+  "versions": [3.00],
+  "sortIndex": 2860,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
@@ -16,10 +16,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "2"
+        "Cookies": "true"
       },
       "children": [
         {

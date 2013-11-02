@@ -58,7 +58,7 @@ class DataCollection
         $this->platforms = $json['platforms'];
 
         if (is_null($this->platforms)) {
-            throw new \Exception("File {$src} had invalid JSON.");
+            throw new \Exception('File "' . $src . '" had invalid JSON.');
         }
     }
 
@@ -80,7 +80,7 @@ class DataCollection
         $this->divisions[] = $json;
 
         if (is_null($json)) {
-            throw new \Exception("File {$src} had invalid JSON.");
+            throw new \Exception('File "' . $src . '" had invalid JSON.');
         }
     }
 
