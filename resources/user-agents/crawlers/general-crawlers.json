@@ -1375,6 +1375,13 @@
         "Parent": "Image Crawlers",
         "Browser": "FOTOCHECKER"
       }
+    },
+    {
+      "userAgent": "QuerySeekerSpider ( http:\/\/queryseeker.com\/bot.html )",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "QuerySeekerSpider"
+      }
     }
   ]
 }

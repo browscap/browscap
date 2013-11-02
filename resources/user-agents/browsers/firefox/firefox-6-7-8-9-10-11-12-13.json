@@ -29,7 +29,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/#MAJORVER#.*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64",
             "Linux", "OSX", "OpenBSD", "SunOS", "Win2000", "WinXPa_32",

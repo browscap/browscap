@@ -152,6 +152,14 @@
         "Platform_Description": "Windows NT"
       }
     },
+    "NT4_1": {
+      "match": "*Windows NT 4.1*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.1",
+        "Platform_Description": "Windows NT"
+      }
+    },
     "Win2000": {
       "match": "*Windows NT 5.0*",
       "properties": {
