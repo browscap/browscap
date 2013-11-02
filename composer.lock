@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "42ea86e3f63e1af6d6ecbecdd68f251a",
+    "hash": "4794e5ff62ef10f59e493f983fd96817",
     "packages": [
         {
             "name": "symfony/console",
@@ -54,6 +54,57 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "browscap/browscap-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/browscap/browscap-php.git",
+                "reference": "f0b5882a3e7c3ec275646290daca8775599de71b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/f0b5882a3e7c3ec275646290daca8775599de71b",
+                "reference": "f0b5882a3e7c3ec275646290daca8775599de71b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "phpbrowscap": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Stoppani",
+                    "email": "jonathan.stoppani@gmail.com"
+                }
+            ],
+            "description": "Standalone replacement for php's native get_browser() function",
+            "homepage": "https://github.com/browscap/browscap-php",
+            "keywords": [
+                "browser",
+                "capabilities",
+                "get_browser",
+                "user agent"
+            ],
+            "time": "2013-09-14 20:33:36"
+        },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.13",
@@ -473,9 +524,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "browscap/browscap-php": 20
+    },
     "platform": {
         "php": ">= 5.4.0"
     },
