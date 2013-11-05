@@ -25,14 +25,14 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/*",
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*)*AppleWebKit*(*KHTML, like Gecko*)*OmniWeb\/*",
       "properties": {
         "Parent": "OmniWeb 5.0",
         "CssVersion": "1"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*)*AppleWebKit*(*KHTML, like Gecko*)*OmniWeb\/v558.*",
       "properties": {
         "Parent": "OmniWeb 5.0",
         "Version": "5.0",

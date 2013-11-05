@@ -72,7 +72,7 @@
       }
     },
     {
-      "userAgent": "SonyEricsson*; Mozilla\/5.0 (*SymbianOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/3.* *Safari\/*",
+      "userAgent": "SonyEricsson*; Mozilla\/5.0 (*SymbianOS*)*AppleWebKit*(*KHTML, like Gecko*)*Version\/3.* *Safari\/*",
       "properties": {
         "Parent": "NetFront 3.0",
         "Platform": "SymbianOS"

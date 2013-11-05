@@ -210,7 +210,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*",
+      "userAgent": "Mozilla\/* (*)*AppleWebKit*(*KHTML, like Gecko*) BingPreview\/*",
       "properties": {
         "Parent": "MSN",
         "Browser": "BingPreview"

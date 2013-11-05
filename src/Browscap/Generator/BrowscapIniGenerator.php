@@ -199,7 +199,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                     $output .= $this->renderChildren($ua, $child);
                 }
-            } else {
+            } elseif (is_array($uaData['children'])) {
                 $output .= $this->renderChildren($ua, $uaData['children']);
             }
         }
@@ -227,12 +227,29 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                 $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                 $output .= $this->renderProperties(['Parent' => $ua]);
-                $output .= $this->renderProperties($platformData['properties']);
+                
+                if (isset($uaDataChild['properties'])
+                    && is_array($uaDataChild['properties'])
+                ) {
+                    $output .= $this->renderProperties(
+                        $uaDataChild['properties'] + $platformData['properties']
+                    );
+                } else {
+                    $output .= $this->renderProperties($platformData['properties']);
+                }
+                
                 $output .= "\n";
             }
         } else {
             $output .= '[' . $uaBase . "]\n";
             $output .= $this->renderProperties(['Parent' => $ua]);
+            
+            if (isset($uaDataChild['properties'])
+                && is_array($uaDataChild['properties'])
+            ) {
+                $output .= $this->renderProperties($uaDataChild['properties']);
+            }
+            
             $output .= "\n";
         }
         

@@ -24,7 +24,7 @@
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": {
-        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+        "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#* Safari\/*",
         "platforms": [
           "CentOS", "Linux_64", "Linux_32", "OSX", "SymbianOS",
           "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",

@@ -21,7 +21,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *)*AppleWebKit*(*KHTML, like Gecko*) RockMelt\/* Chrome\/* Safari\/*",
       "properties": {
         "Parent": "Rockmelt",
         "Platform": "MacOSX",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *)*AppleWebKit*(*KHTML, like Gecko*) RockMelt\/* Chrome\/* Safari\/*",
       "properties": {
         "Parent": "Rockmelt",
         "Platform": "WinXP",
@@ -38,7 +38,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *)*AppleWebKit*(*KHTML, like Gecko*) RockMelt\/* Chrome\/* Safari\/*",
       "properties": {
         "Parent": "Rockmelt",
         "Platform": "WinVista",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *)*AppleWebKit*(*KHTML, like Gecko*) RockMelt\/* Chrome\/* Safari\/*",
       "properties": {
         "Parent": "Rockmelt",
         "Platform": "Win7",
