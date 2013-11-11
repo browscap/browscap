@@ -81,6 +81,13 @@
         "Win32": "false"
       }
     },
+    "Linux_32_x86": {
+      "match": "*Linux x86*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
     "Linux_64": {
       "match": "*Linux x86_64*",
       "properties": {

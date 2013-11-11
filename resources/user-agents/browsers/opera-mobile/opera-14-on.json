@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [14,15,16,17],
+  "versions": ["14.0","15.0","16.0","17.0"],
   "sortIndex": 2940,
   "lite": true,
   "userAgents": [
@@ -24,15 +24,17 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
-      "children": {
-        "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*)*Chrome\/*Safari\/*OPR\/#MAJORVER#.#MINORVER#*",
-        "platforms": [
-          "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*)*Chrome\/*Safari\/*OPR\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
-        ]
-      }
+          ]
+        }
+      ]
     }
   ]
 }
