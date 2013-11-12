@@ -29,7 +29,7 @@
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": {
-        "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#*",
+        "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
         "platforms": [
           "AndroidMobile", "AndroidTablet", "FreeBSD", "HPUX", "IRIX64",
           "Linux_32", "Linux_64", "OSX", "OpenBSD", "SunOS", "Win2000", "NT4_1",
