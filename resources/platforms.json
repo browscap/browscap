@@ -67,13 +67,6 @@
         "Win32": "false"
       }
     },
-    "Debian": {
-      "match": "*Linux*",
-      "properties": {
-        "Platform": "Debian",
-        "Win32": "false"
-      }
-    },
     "Linux_32": {
       "match": "*Linux i686*",
       "properties": {
@@ -99,13 +92,6 @@
       "match": "*Linux x86_64*",
       "properties": {
         "Platform": "Linux",
-        "Win32": "false"
-      }
-    },
-    "Debian_64": {
-      "match": "*Linux x86_64*",
-      "properties": {
-        "Platform": "Debian",
         "Win32": "false"
       }
     },
