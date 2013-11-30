@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*)*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Safari\/*",
           "platforms": [
             "ChromeOS", "OSX", "Linux_32", "Linux_64", "Win2000",
             "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
