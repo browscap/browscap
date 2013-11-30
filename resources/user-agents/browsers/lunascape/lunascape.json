@@ -30,7 +30,7 @@
         "properties": {
           "RenderingEngine_Name": "Gecko",
           "RenderingEngine_Description": "For Lunascape, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-        },
+        }
         "platforms": [
           "FreeBSD", "HPUX", "IRIX64",
           "Linux_32", "Linux_64", "OSX", "OpenBSD", "SunOS", "Win2000", "NT4_1",
