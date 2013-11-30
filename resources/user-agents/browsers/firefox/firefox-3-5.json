@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [3.5],
+  "versions": ["3.5"],
   "sortIndex": 3330,
   "lite": true,
   "userAgents": [
@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64",
             "Linux", "OSX", "OpenBSD", "SunOS", "Win2000", "WinXPa_32",

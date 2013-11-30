@@ -1,15 +1,15 @@
 {
-  "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["11.60","12.00","12.10","12.11","12.12","12.13"],
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": [11.60,12.00,12.10,12.11,12.12,12.13],
   "sortIndex": 2820,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Browser": "Opera",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
