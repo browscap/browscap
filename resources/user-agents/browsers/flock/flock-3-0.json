@@ -24,7 +24,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *)*AppleWebKit*(*KHTML, like Gecko*) Flock\/3.* Chrome\/* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *) AppleWebKit\/* (KHTML, like Gecko) Flock\/3.* Chrome\/* Safari\/*",
       "properties": {
         "Parent": "Flock 3.0",
         "Version": "3.5",

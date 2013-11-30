@@ -413,7 +413,7 @@
       }
     },
     "Android_1_0": {
-      "match": "*Linux*Android 1.0*",
+      "match": "Linux*Android 1.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "1.0",
@@ -422,7 +422,7 @@
       }
     },
     "Android_1_1": {
-      "match": "*Linux*Android 1.1*",
+      "match": "Linux*Android 1.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "1.1",
@@ -431,7 +431,7 @@
       }
     },
     "Android_1_5": {
-      "match": "*Linux*Android 1.5*",
+      "match": "Linux*Android 1.5*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "1.5",
@@ -440,7 +440,7 @@
       }
     },
     "Android_1_6": {
-      "match": "*Linux*Android 1.6*",
+      "match": "Linux*Android 1.6*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "1.6",
@@ -449,7 +449,7 @@
       }
     },
     "Android_2_0": {
-      "match": "*Linux*Android 2.0*",
+      "match": "Linux*Android 2.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.0",
@@ -458,7 +458,7 @@
       }
     },
     "Android_2_1": {
-      "match": "*Linux*Android 2.1*",
+      "match": "Linux*Android 2.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.1",
@@ -467,7 +467,7 @@
       }
     },
     "Android_2_2": {
-      "match": "*Linux*Android 2.2*",
+      "match": "Linux*Android 2.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.2",
@@ -476,7 +476,7 @@
       }
     },
     "Android_2_3": {
-      "match": "*Linux*Android 2.3*",
+      "match": "Linux*Android 2.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.3",
@@ -485,7 +485,7 @@
       }
     },
     "Android_3_0": {
-      "match": "*Linux*Android 3.0*",
+      "match": "Linux*Android 3.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "3.0",
@@ -494,7 +494,7 @@
       }
     },
     "Android_3_1": {
-      "match": "*Linux*Android 3.1*",
+      "match": "Linux*Android 3.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "3.1",
@@ -503,7 +503,7 @@
       }
     },
     "Android_3_2": {
-      "match": "*Linux*Android 3.2*",
+      "match": "Linux*Android 3.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "3.2",
@@ -512,7 +512,7 @@
       }
     },
     "Android_4_0": {
-      "match": "*Linux*Android 4.0*",
+      "match": "Linux*Android 4.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.0",
@@ -521,7 +521,7 @@
       }
     },
     "Android_4_1": {
-      "match": "*Linux*Android 4.1*",
+      "match": "Linux*Android 4.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.1",
@@ -530,7 +530,7 @@
       }
     },
     "Android_4_2": {
-      "match": "*Linux*Android 4.2*",
+      "match": "Linux*Android 4.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.2",
@@ -539,7 +539,7 @@
       }
     },
     "Android_4_3": {
-      "match": "*Linux*Android 4.3*",
+      "match": "Linux*Android 4.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.3",
@@ -548,7 +548,7 @@
       }
     },
     "Android_4_4": {
-      "match": "*Linux*Android 4.4*",
+      "match": "Linux*Android 4.4*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.4",

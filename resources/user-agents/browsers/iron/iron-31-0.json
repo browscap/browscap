@@ -24,7 +24,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Intel Mac OS X*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Intel Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "MacOSX",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Linux i686*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "Linux",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "Linux",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "WinXP",
@@ -57,13 +57,13 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "Win2003",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "WinVista",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*)*AppleWebKit*(*KHTML, like Gecko*)*Iron\/31.* Safari\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML, like Gecko) *Iron\/31.* Safari\/*",
       "properties": {
         "Parent": "Iron 31.0",
         "Platform": "Win7",

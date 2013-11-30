@@ -20,7 +20,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11; U: Linux i686; *)*AppleWebKit*(*KHTML, like Gecko*) Chrome\/5.* Large Screen Safari\/* GoogleTV\/*",
+      "userAgent": "Mozilla\/5.0 (X11; U: Linux i686; *) AppleWebKit\/* (KHTML, like Gecko) Chrome\/5.* Large Screen Safari\/* GoogleTV\/*",
       "properties": {
         "Parent": "GoogleTV",
         "Platform": "Linux"

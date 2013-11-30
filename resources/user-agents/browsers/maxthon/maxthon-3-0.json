@@ -25,7 +25,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.0; *)*AppleWebKit*(*KHTML, like Gecko*) Maxthon\/3.0 Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.0; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
       "properties": {
         "Parent": "Maxthon 3.0",
         "Platform": "Win2000",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *)*AppleWebKit*(*KHTML, like Gecko*) Maxthon\/3.0 Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
       "properties": {
         "Parent": "Maxthon 3.0",
         "Platform": "WinXP",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.2; *)*AppleWebKit*(*KHTML, like Gecko*) Maxthon\/3.0 Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.2; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
       "properties": {
         "Parent": "Maxthon 3.0",
         "Platform": "WinXP",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *)*AppleWebKit*(*KHTML, like Gecko*) Maxthon\/3.0 Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
       "properties": {
         "Parent": "Maxthon 3.0",
         "Platform": "WinVista",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *)*AppleWebKit*(*KHTML, like Gecko*) Maxthon\/3.0 Safari\/*",
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) Maxthon\/3.0 Safari\/*",
       "properties": {
         "Parent": "Maxthon 3.0",
         "Platform": "Win7",
