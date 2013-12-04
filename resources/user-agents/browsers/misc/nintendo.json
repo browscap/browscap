@@ -26,7 +26,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/* (Nintendo WiiU)*AppleWebKit*(*KHTML, like Gecko*)*",
+      "userAgent": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
       "properties": {
         "Parent": "Nintendo Wii",
         "Browser": "WiiU"

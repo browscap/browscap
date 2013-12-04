@@ -19,7 +19,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*webOS*)*AppleWebKit*(*KHTML, like Gecko*)*Version\/1.* *Safari\/* *Pixi\/1.*",
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/1.*",
       "properties": {
         "Parent": "Palm Web",
         "Version": "1.0",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*webOS*)*AppleWebKit*(*KHTML, like Gecko*)*Version\/1.* *Safari\/* *Pixi\/2.*",
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/2.*",
       "properties": {
         "Parent": "Palm Web",
         "Version": "2.0",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*webOS*)*AppleWebKit*(*KHTML, like Gecko*)*Version\/1.* *Safari\/* *Pre\/2.*",
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pre\/2.*",
       "properties": {
         "Parent": "Palm Web",
         "Version": "2.0",
@@ -55,7 +55,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*webOS*)*AppleWebKit*(*KHTML, like Gecko*)*Version\/1.* Safari\/* *Pre\/1.*",
+      "userAgent": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* Safari\/* *Pre\/1.*",
       "properties": {
         "Parent": "Palm Web",
         "Version": "1.0",

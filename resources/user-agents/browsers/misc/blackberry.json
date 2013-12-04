@@ -49,13 +49,13 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (BB10; Touch)*AppleWebKit*(*KHTML, like Gecko*) Version\/* Mobile Safari\/*",
+      "userAgent": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile Safari\/*",
       "properties": {
         "Parent": "BlackBerry"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (BB10; Kbd)*AppleWebKit*(*KHTML, like Gecko*) Version\/* Mobile Safari\/*",
+      "userAgent": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile Safari\/*",
       "properties": {
         "Parent": "BlackBerry"
       }

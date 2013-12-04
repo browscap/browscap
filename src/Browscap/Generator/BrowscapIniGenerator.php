@@ -191,7 +191,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
         if (isset($uaData['children'])) {
             if (is_array($uaData['children']) && is_numeric(array_keys($uaData['children'])[0])) {
-                
+
                 foreach ($uaData['children'] as $child) {
                     if (!is_array($child)) {
                         continue;
@@ -206,7 +206,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
         return $output;
     }
-    
+
     /**
      * Render the children section in a single User Agent block
      *
@@ -227,7 +227,8 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                 $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                 $output .= $this->renderProperties(['Parent' => $ua]);
-                
+                $output .= $this->renderProperties($platformData['properties']);
+
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
                 ) {
@@ -237,22 +238,22 @@ class BrowscapIniGenerator implements GeneratorInterface
                 } else {
                     $output .= $this->renderProperties($platformData['properties']);
                 }
-                
+
                 $output .= "\n";
             }
         } else {
             $output .= '[' . $uaBase . "]\n";
             $output .= $this->renderProperties(['Parent' => $ua]);
-            
+
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
                 $output .= $this->renderProperties($uaDataChild['properties']);
             }
-            
+
             $output .= "\n";
         }
-        
+
         return $output;
     }
 

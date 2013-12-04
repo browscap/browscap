@@ -17,6 +17,11 @@
             "homepage": "http://www.jamestitcumb.com"
         },
         {
+            "name": "Thomas Müller",
+            "homepage": "https://github.com/mimmi20",
+            "role": "Developer"
+        },
+        {
             "name": "Contributors",
             "homepage": "https://github.com/browscap/browscap/graphs/contributors"
         }
