@@ -43,6 +43,13 @@
         "Browser": "Sony PS2",
         "Platform": "Linux"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (PlayStation Vita*)*",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Sony Playstation Vita"
+      }
     }
   ]
 }

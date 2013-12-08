@@ -208,6 +208,13 @@
         "Parent": "MSN",
         "Browser": "Windows-Live-Social-Object-Extractor-Eng"
       }
+    },
+    {
+      "userAgent": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "BingPreview"
+      }
     }
   ]
 }

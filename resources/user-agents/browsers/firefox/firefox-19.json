@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Firefox\/#MAJORVER#.*anonymized by Abelssoft*"
+          "match": "Firefox\/#MAJORVER#*anonymized by Abelssoft*"
         }
       ]
     }

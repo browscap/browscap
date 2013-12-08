@@ -28,14 +28,30 @@
         "Device_Name": "PC",
         "Device_Maker": "Various"
       },
-      "children": {
-        "match": "Mozilla\/*(#PLATFORM#*Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
-        "platforms": [
-          "Win7_32", "Win7_64",
-          "Win8_32", "Win8_64",
-          "Win8_1_32", "Win8_1_64"
-        ]
-      }
+      "children": [
+        {
+          "match": "Mozilla\/*(#PLATFORM#*Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Win7_32", "Win7_64",
+            "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(compatible; MSIE 10.0; #PLATFORM#*Trident\/7.0*)*",
+          "platforms": [
+            "Win7_32", "Win7_64",
+            "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(*#PLATFORM#; ARM; Trident\/7.0*)",
+          "platforms": [
+            "Win8_1_32", "Win8_1_64", "Win8_1_x64"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -37,6 +37,28 @@
         "Device_Name": "Playbook",
         "Device_Maker": "RIM"
       }
+    },
+    {
+      "userAgent": "*PlayBook*RIM Tablet OS 2.1.*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "2.1",
+        "Device_Name": "Playbook",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry"
+      }
     }
   ]
 }

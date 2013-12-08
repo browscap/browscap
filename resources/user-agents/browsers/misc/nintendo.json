@@ -26,6 +26,13 @@
       }
     },
     {
+      "userAgent": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
+      "properties": {
+        "Parent": "Nintendo Wii",
+        "Browser": "WiiU"
+      }
+    },
+    {
       "userAgent": "VLC Media Player",
       "properties": {
         "Parent": "DefaultProperties",
@@ -36,6 +43,13 @@
       "userAgent": "vlc\/*",
       "properties": {
         "Parent": "VLC Media Player"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+      "properties": {
+        "Parent": "Nintendo Wii",
+        "Browser": "Nintendo 3DS"
       }
     }
   ]
