@@ -1,0 +1,8 @@
+# .coveralls.yml configuration
+
+service_name: travis-ci # travis-ci or travis-pro
+
+# for php-coveralls
+src_dir: src
+coverage_clover: builds/logs/clover.xml
+json_path: builds/logs/coveralls-upload.json

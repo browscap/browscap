@@ -3,3 +3,4 @@ vendor/
 .settings
 .project
 composer.phar
+builds/
