@@ -1,13 +1,10 @@
 <?php
+/**
+ * This makes our life easier when dealing with paths. Everything is relative
+ * to the application root now.
+ */
+chdir(dirname(__DIR__));
 
-$autoloadPaths = array(
-	__DIR__ . '/../vendor/autoload.php',
-	__DIR__ . '/../../../../vendor/autoload.php'
-);
+require 'vendor/autoload.php';
 
-foreach ($autoloadPaths as $path) {
-	if (file_exists($path)) {
-		require_once $path;
-		break;
-	}
-}
+ini_set('memory_limit', '1240M');
