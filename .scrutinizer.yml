@@ -3,8 +3,17 @@ before_commands:
 
 tools:
     # Code Coverage
+    external_code_coverage:
+        enabled: true
+        timeout: 300
+        filter:
+            excluded_paths:
+                - 'vendor/*'
+                - 'tests/*'
+
+
     php_code_coverage:
-        enabled:              true
+        enabled:              false
         test_command:         phpunit
         filter:
             excluded_paths:
