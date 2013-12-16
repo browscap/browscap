@@ -4,3 +4,4 @@ vendor/
 .project
 composer.phar
 builds/
+result.txt

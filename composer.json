@@ -39,7 +39,11 @@
         "browscap/browscap-php": "*@dev",
         "mikey179/vfsStream": "1.3.*@dev",
         "satooshi/php-coveralls": "dev-master",
-        "phpunit/phpcov": "2.0.*@dev"
+        "phpunit/phpcov": "2.0.*@dev",
+        "squizlabs/php_codesniffer": "dev-master",
+        "phpmd/phpmd": "dev-master",
+        "sebastian/phpcpd": "2.0.*@dev",
+        "pdepend/pdepend": "dev-master"
     },
     "autoload": {
         "psr-0": { "": "src/" }
