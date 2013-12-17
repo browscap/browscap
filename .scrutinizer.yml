@@ -4,7 +4,7 @@ before_commands:
 tools:
     # Code Coverage
     external_code_coverage:
-        enabled: true
+        enabled: false
         timeout: 300
         filter:
             excluded_paths:
