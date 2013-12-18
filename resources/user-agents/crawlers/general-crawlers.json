@@ -1382,6 +1382,13 @@
         "Parent": "General Crawlers",
         "Browser": "QuerySeekerSpider"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SISTRIX"
+      }
     }
   ]
 }
