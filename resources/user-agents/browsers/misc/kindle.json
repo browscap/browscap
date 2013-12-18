@@ -21,6 +21,15 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U;*) AppleWebKit\/528.5+ (KHTML, like Gecko, Safari\/528.5+) Version\/4.0 Kindle\/3.0*",
+      "properties": {
+        "Parent": "Kindle",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
     }
   ]
 }
