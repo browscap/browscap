@@ -227,7 +227,6 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                 $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                 $output .= $this->renderProperties(['Parent' => $ua]);
-                $output .= $this->renderProperties($platformData['properties']);
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
