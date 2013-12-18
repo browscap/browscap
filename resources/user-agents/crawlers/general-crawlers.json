@@ -583,7 +583,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; ezooms.bot@gmail.com)",
+      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; *)",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Ezooms",
