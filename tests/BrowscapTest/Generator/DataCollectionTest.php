@@ -7,7 +7,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 {
     public function getPlatformsJsonFixture()
     {
-        return __DIR__ . '/../../fixtures/platforms.json';
+        return __DIR__ . '/../../fixtures/platforms/platforms.json';
     }
 
     public function testAddPlatformsFile()
