@@ -1,0 +1,19 @@
+{
+  "platforms": {
+    "Platform1": {
+      "match": "*Platform1*",
+      "properties": {
+        "Platform": "Platform1",
+        "Platform_Description": "The first test platform",
+        "Win32": "false"
+      }
+    },
+    "Platform2": {
+      "match": "*Platform2*",
+      "properties": {
+        "Platform": "Platform2",
+        "Win32": "false"
+      }
+    }
+  }
+}
