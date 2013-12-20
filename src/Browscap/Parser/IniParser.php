@@ -57,7 +57,7 @@ class IniParser implements ParserInterface
         $filename = $this->filename;
 
         if (!file_exists($filename)) {
-            throw new \Exception("File not found: {$filename}");
+            throw new \InvalidArgumentException("File not found: {$filename}");
         }
 
         return file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
@@ -116,7 +116,7 @@ class IniParser implements ParserInterface
             $bits = explode("=", $currentLine);
 
             if (count($bits) > 2) {
-                throw new \Exception("Too many equals in line: {$currentLine}");
+                throw new \RuntimeException("Too many equals in line: {$currentLine}");
             }
 
             $data[$currentSection][$bits[0]] = $bits[1];
