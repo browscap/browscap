@@ -548,7 +548,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; aiHitBot*\/*; +http:\/\/www.aihit.com\/)",
+      "userAgent": "Mozilla\/5.0 (compatible; aiHitBot*\/*)",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "aiHitBot"
@@ -583,7 +583,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; ezooms.bot@gmail.com)",
+      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; *)",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Ezooms",
@@ -670,7 +670,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.0;*)",
+      "userAgent": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.*;*)",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Seznam screenshot-generator"
@@ -1381,6 +1381,13 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "QuerySeekerSpider"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SISTRIX"
       }
     }
   ]

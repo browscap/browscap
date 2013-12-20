@@ -21,5 +21,6 @@ class BrowscapTest extends \PHPUnit_Framework_TestCase
 
         $this->assertAppHasCommand($app, 'build');
         $this->assertAppHasCommand($app, 'diff');
+        $this->assertAppHasCommand($app, 'grep');
     }
 }

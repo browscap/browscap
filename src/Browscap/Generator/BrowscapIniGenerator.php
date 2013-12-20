@@ -85,7 +85,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     public function generate()
     {
-        $output = $this->generateHeader();
+        $output = $this->renderHeader();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
             if ($division['division'] == 'Browscap Version') {
@@ -131,7 +131,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @return string
      */
-    protected function generateHeader()
+    protected function renderHeader()
     {
         $version = $this->getDataCollection()->getVersion();
         $dateUtc = $this->getDataCollection()->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
@@ -181,7 +181,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @param array $uaData
      * @return string
      */
-    public function renderUserAgent(array $uaData)
+    protected function renderUserAgent(array $uaData)
     {
         $ua = $uaData['userAgent'];
 
@@ -214,7 +214,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @param array  $uaDataChild
      * @return string
      */
-    private function renderChildren($ua, array $uaDataChild)
+    protected function renderChildren($ua, array $uaDataChild)
     {
         $uaBase = $uaDataChild['match'];
         $output = '';
@@ -227,7 +227,6 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                 $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                 $output .= $this->renderProperties(['Parent' => $ua]);
-                $output .= $this->renderProperties($platformData['properties']);
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
@@ -263,7 +262,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @param array $properties
      * @return string
      */
-    public function renderProperties(array $properties)
+    protected function renderProperties(array $properties)
     {
         $output = '';
         foreach ($properties as $property => $value) {

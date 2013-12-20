@@ -97,7 +97,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *rv:1.8*) Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1; *rv:1.8*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.8",
         "Platform": "WinXP",

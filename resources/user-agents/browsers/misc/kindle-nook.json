@@ -29,6 +29,30 @@
         "Platform_Version": "2.3",
         "RenderingEngine_Version": "533.1"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.2*NOOK*)*Apple*WebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "properties": {
+        "Parent": "Kindle",
+        "Browser": "Kindle Nook",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform_Version": "2.2",
+        "RenderingEngine_Version": "533.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.2*NookColor*)*Apple*WebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "properties": {
+        "Parent": "Kindle",
+        "Browser": "Kindle Nook",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Platform_Version": "2.2",
+        "RenderingEngine_Version": "533.1"
+      }
     }
   ]
 }

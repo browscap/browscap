@@ -499,7 +499,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*; +http:\/\/ahrefs.com\/robot\/)",
+      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
       "properties": {
         "Parent": "Search Engines",
         "Browser": "AhrefsBot"

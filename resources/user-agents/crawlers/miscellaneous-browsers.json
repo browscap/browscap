@@ -208,6 +208,13 @@
         "Parent": "Netcraft",
         "Browser": "Netcraft Webserver Survey"
       }
+    },
+    {
+      "userAgent": "*CaptiveNetworkSupport*wispr*",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "WISPr"
+      }
     }
   ]
 }

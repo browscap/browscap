@@ -35,7 +35,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; ?; *Mac OS X*; *rv:1.9*) Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*; *rv:1.9*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.9",
         "Platform": "MacOSX",

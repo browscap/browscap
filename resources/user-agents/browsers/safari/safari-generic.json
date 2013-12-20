@@ -30,6 +30,12 @@
           ]
         }
       ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML, like Gecko)",
+      "properties": {
+        "Parent": "Safari Generic"
+      }
     }
   ]
 }

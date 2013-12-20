@@ -411,6 +411,13 @@
         "Parent": "Feeds Syndicators",
         "Browser": "Wizz"
       }
+    },
+    {
+      "userAgent": "Mozilla\/* (*Genieo*\/*)",
+      "properties": {
+        "Parent": "Feeds Syndicators",
+        "Browser": "Genieo RSS Reader"
+      }
     }
   ]
 }
