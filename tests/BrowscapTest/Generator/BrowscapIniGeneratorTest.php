@@ -19,7 +19,7 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         return [
             $dir . '/default-properties.json',
             $dir . '/test1.json',
-            $dir . '/test2.json',
+            $dir . '/test4.json',
             $dir . '/default-browser.json',
         ];
     }
@@ -78,17 +78,32 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->markTestIncomplete();
     }
 
-    public function testGenerate()
+    public function generateDataProvider()
     {
-        $this->markTestIncomplete();
-        // Test still WIP..
-/*
+        return [
+            'asp_full' => ['full_asp_browscap.ini', false, true, false],
+            'php_full' => ['full_php_browscap.ini', true, true, false],
+            'asp_std' => ['browscap.ini', false, false, false],
+            'php_std' => ['php_browscap.ini', true, false, false],
+            'asp_lite' => ['lite_asp_browscap.ini', false, false, true],
+            'php_lite' => ['lite_php_browscap.ini', true, false, true],
+        ];
+    }
+
+    /**
+     * @dataProvider generateDataProvider
+     */
+    public function testGenerate($filename, $quoteStringProperties, $includeExtraProperties, $liteOnly)
+    {
         $generator = new BrowscapIniGenerator();
         $generator->setDataCollection($this->getDataCollection());
+        $generator->setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly);
 
         $ini = $generator->generate();
 
-        $expectedFilename = __DIR__ . '/../../fixtures/ini/asp-full.ini';
-        $this->assertStringEqualsFile($expectedFilename, $ini);*/
+        $expectedFilename = __DIR__ . '/../../fixtures/ini/' . $filename;
+
+        #file_put_contents($expectedFilename, $ini);
+        $this->assertStringEqualsFile($expectedFilename, $ini);
     }
 }
