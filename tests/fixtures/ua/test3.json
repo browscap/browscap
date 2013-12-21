@@ -1,0 +1,17 @@
+{
+  "division": "Division3",
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "UA3",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA3",
+        "Browser": "UA3",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

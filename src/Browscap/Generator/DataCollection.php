@@ -71,7 +71,7 @@ class DataCollection
     public function addSourceFile($src)
     {
         if (!file_exists($src)) {
-            throw new \Exception("File {$src} does not exist.");
+            throw new \RuntimeException("File {$src} does not exist.");
         }
 
         $fileContent = file_get_contents($src);
@@ -80,7 +80,7 @@ class DataCollection
         $this->divisions[] = $json;
 
         if (is_null($json)) {
-            throw new \Exception('File "' . $src . '" had invalid JSON.');
+            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
     }
 
