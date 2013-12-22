@@ -136,8 +136,6 @@ return [
         [
             'Browser' => 'Sony PS3',
             'Platform' => 'CellOS',
-            'Device_Name' => 'Playstation',
-            'Device_Maker' => 'Sony',
         ],
     ],
 ];
