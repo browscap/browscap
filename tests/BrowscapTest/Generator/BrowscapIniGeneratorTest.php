@@ -54,17 +54,22 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testSetDataCollection()
     {
-        $this->markTestIncomplete();
+        $dataCollection = new DataCollection('1234');
+
+        $generator = new BrowscapIniGenerator();
+        $generator->setDataCollection($dataCollection);
+
+        $this->assertAttributeSame($dataCollection, 'collection', $generator);
     }
 
     public function testGetDataCollection()
     {
-        $this->markTestIncomplete();
-    }
+        $dataCollection = new DataCollection('1234');
 
-    public function testSetOptions()
-    {
-        $this->markTestIncomplete();
+        $generator = new BrowscapIniGenerator();
+        $generator->setDataCollection($dataCollection);
+
+        $this->assertSame($dataCollection, $generator->getDataCollection());
     }
 
     public function generateFormatsDataProvider()
