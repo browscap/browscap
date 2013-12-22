@@ -1,7 +1,7 @@
 {
   "division": "Division #MAJORVER#.#MINORVER#",
-  "versions": [4,"5.0","5.5"],
-  "sortIndex": 400,
+  "versions": [1,"1.1","1.2"],
+  "sortIndex": 100,
   "userAgents": [
     {
       "userAgent": "UA #MAJORVER#.#MINORVER#",
@@ -12,12 +12,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
-      },
-      "children": {
-        "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
-        "platforms": [
-          "Platform1", "Platform2"
-        ]
       }
     }
   ]

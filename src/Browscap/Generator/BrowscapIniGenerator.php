@@ -329,7 +329,7 @@ class BrowscapIniGenerator implements GeneratorInterface
             case 'Crawler':
                 return 'boolean';
             default:
-                throw new \Exception("Property {$propertyName} did not have a defined property type");
+                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
         }
     }
 

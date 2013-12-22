@@ -1,0 +1,14 @@
+{
+  "division": "Division",
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "UA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA",
+        "Browser": "UA"
+      }
+    }
+  ]
+}
