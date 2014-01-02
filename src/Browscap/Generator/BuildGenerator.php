@@ -64,12 +64,13 @@ class BuildGenerator
     /**
      * Sets the optional output interface
      *
-     * @param \Symfony\Component\Console\Output\OutputInterface $outputInterface
+     * @param  \Symfony\Component\Console\Output\OutputInterface $outputInterface
      * @return \Browscap\Generator\BuildGenerator
      */
     public function setOutput(OutputInterface $outputInterface)
     {
         $this->output = $outputInterface;
+
         return $this;
     }
 
@@ -80,16 +81,17 @@ class BuildGenerator
      */
     protected function output($messages)
     {
-    	if (isset($this->output) && $this->output instanceof OutputInterface) {
-    	    return $this->output->writeln($messages);
-    	}
-    	return null;
+        if (isset($this->output) && $this->output instanceof OutputInterface) {
+            return $this->output->writeln($messages);
+        }
+
+        return null;
     }
 
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param string $resourceFolder
+     * @param  string                             $resourceFolder
      * @return \Browscap\Generator\DataCollection
      */
     protected function createDataCollection($version, $resourceFolder)
@@ -118,7 +120,7 @@ class BuildGenerator
      * Write out the various INI file formats
      *
      * @param \Browscap\Generator\DataCollection $collection
-     * @param string $buildFolder
+     * @param string                             $buildFolder
      */
     protected function writeIniFiles(DataCollection $collection, $buildFolder)
     {

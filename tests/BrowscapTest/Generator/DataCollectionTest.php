@@ -10,6 +10,19 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         return __DIR__ . '/../../fixtures/platforms/platforms.json';
     }
 
+    private function getUserAgentFixtures()
+    {
+        $dir = __DIR__ . '/../../fixtures/ua';
+
+        return [
+            $dir . '/default-properties.json',
+            $dir . '/test1.json',
+            $dir . '/test2.json',
+            $dir . '/test3.json',
+            $dir . '/default-browser.json',
+        ];
+    }
+
     public function testAddPlatformsFile()
     {
         $data = new DataCollection('1234');
@@ -106,6 +119,45 @@ HERE;
 
     public function testAddSourceFile()
     {
-        $this->markTestIncomplete();
+        $data = new DataCollection('1234');
+
+        $files = $this->getUserAgentFixtures();
+        foreach ($files as $file) {
+            $data->addSourceFile($file);
+        }
+
+        $divisions = $data->getDivisions();
+
+        $expected = require_once __DIR__ . '/../../fixtures/DataCollectionTestArray.php';
+
+        $this->assertEquals($expected, $divisions);
+    }
+
+    public function testAddSourceFileThrowsExceptionIfFileDoesNotExist()
+    {
+        $data = new DataCollection('1234');
+
+        $file = '/hopefully/this/file/does/not/exist';
+
+        $this->setExpectedException('\RuntimeException', 'File ' . $file . ' does not exist');
+        $data->addSourceFile($file);
+    }
+
+    public function testAddSourceFileThrowsExceptionIfFileContainsInvalidJson()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+this is not valid JSON
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $data = new DataCollection('1234');
+
+        $this->setExpectedException('\RuntimeException', 'File "' . $tmpfile . '" had invalid JSON.');
+        $data->addSourceFile($tmpfile);
+
+        unlink($tmpfile);
     }
 }

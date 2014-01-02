@@ -1,0 +1,20 @@
+{
+  "division": "Division",
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "UA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA",
+        "Browser": "UA"
+      },
+      "children": {
+        "match": "UA String",
+        "properties": {
+          "RenderingEngine_Name": "Foobar"
+        }
+      }
+    }
+  ]
+}

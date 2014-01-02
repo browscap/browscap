@@ -28,12 +28,13 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @param bool $shouldSort
+     * @param  bool                       $shouldSort
      * @return \Browscap\Parser\IniParser
      */
     public function setShouldSort($shouldSort)
     {
-        $this->shouldSort = (bool)$shouldSort;
+        $this->shouldSort = (bool) $shouldSort;
+
         return $this;
     }
 
@@ -111,7 +112,6 @@ class IniParser implements ParserInterface
                 $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
                 continue;
             }
-
 
             $bits = explode("=", $currentLine);
 

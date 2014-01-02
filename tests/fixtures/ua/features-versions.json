@@ -1,0 +1,18 @@
+{
+  "division": "Division #MAJORVER#.#MINORVER#",
+  "versions": [1,"1.1","1.2"],
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "UA #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA #MAJORVER#.#MINORVER#",
+        "Browser": "UA #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      }
+    }
+  ]
+}

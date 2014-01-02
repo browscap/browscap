@@ -43,7 +43,7 @@ class DataCollection
     /**
      * Load a platforms.json file and parse it into the platforms data array
      *
-     * @param string $src Name of the file
+     * @param  string     $src Name of the file
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
@@ -65,13 +65,13 @@ class DataCollection
     /**
      * Load a JSON file, parse it's JSON and add it to our divisions list
      *
-     * @param string $src Name of the file
+     * @param  string     $src Name of the file
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)
     {
         if (!file_exists($src)) {
-            throw new \Exception("File {$src} does not exist.");
+            throw new \RuntimeException("File {$src} does not exist.");
         }
 
         $fileContent = file_get_contents($src);
@@ -80,7 +80,7 @@ class DataCollection
         $this->divisions[] = $json;
 
         if (is_null($json)) {
-            throw new \Exception('File "' . $src . '" had invalid JSON.');
+            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
     }
 
@@ -92,7 +92,7 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            usort($this->divisions, function($arrayA, $arrayB) {
+            usort($this->divisions, function ($arrayA, $arrayB) {
                 $a = $arrayA['sortIndex'];
                 $b = $arrayB['sortIndex'];
 
@@ -134,7 +134,7 @@ class DataCollection
     /**
      * Get a single platform data array
      *
-     * @param string $platform
+     * @param  string $platform
      * @return array
      */
     public function getPlatform($platform)

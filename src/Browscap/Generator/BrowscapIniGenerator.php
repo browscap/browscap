@@ -37,12 +37,13 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Set the data collection
      *
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param  \Browscap\Generator\DataCollection       $collection
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
     public function setDataCollection(DataCollection $collection)
     {
         $this->collection = $collection;
+
         return $this;
     }
 
@@ -64,16 +65,16 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Set the options for generation
      *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
+     * @param  boolean                                  $quoteStringProperties
+     * @param  boolean                                  $includeExtraProperties
+     * @param  boolean                                  $liteOnly
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
+        $this->quoteStringProperties = (bool) $quoteStringProperties;
+        $this->includeExtraProperties = (bool) $includeExtraProperties;
+        $this->liteOnly = (bool) $liteOnly;
 
         return $this;
     }
@@ -160,8 +161,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render a single division
      *
-     * @param array $userAgents
-     * @param string $divisionName
+     * @param  array  $userAgents
+     * @param  string $divisionName
      * @return string
      */
     protected function renderDivision(array $userAgents, $divisionName)
@@ -178,7 +179,7 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render a single User Agent block
      *
-     * @param array $uaData
+     * @param  array  $uaData
      * @return string
      */
     protected function renderUserAgent(array $uaData)
@@ -210,8 +211,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render the children section in a single User Agent block
      *
-     * @param string $ua
-     * @param array  $uaDataChild
+     * @param  string $ua
+     * @param  array  $uaDataChild
      * @return string
      */
     protected function renderChildren($ua, array $uaDataChild)
@@ -259,7 +260,7 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render the properties of a single User Agent
      *
-     * @param array $properties
+     * @param  array  $properties
      * @return string
      */
     protected function renderProperties(array $properties)
@@ -278,13 +279,14 @@ class BrowscapIniGenerator implements GeneratorInterface
 
             $output .= sprintf($format, $property, $value);
         }
+
         return $output;
     }
 
     /**
      * Get the type of a property
      *
-     * @param string $propertyName
+     * @param  string     $propertyName
      * @throws \Exception
      * @return string
      */
@@ -329,7 +331,7 @@ class BrowscapIniGenerator implements GeneratorInterface
             case 'Crawler':
                 return 'boolean';
             default:
-                throw new \Exception("Property {$propertyName} did not have a defined property type");
+                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
         }
     }
 
@@ -337,7 +339,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *
-     * @param string $propertyName
+     * @param  string  $propertyName
      * @return boolean
      */
     public function isExtraProperty($propertyName)
