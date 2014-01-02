@@ -31,7 +31,7 @@ return [
     'issue-47-phpbrowscap-5' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
         [
-            'Browser' => 'MSIE',
+            'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win8.1',
             'isMobileDevice' => false,
@@ -49,7 +49,7 @@ return [
     'issue-47-phpbrowscap-3' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
         [
-            'Browser' => 'MSIE',
+            'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win7',
             'isMobileDevice' => false,
