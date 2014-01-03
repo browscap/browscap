@@ -1,6 +1,24 @@
 <?php
 
 return [
+    'issue-51-3' => [
+        'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',
+        [
+            'Browser' => 'grapeFX',
+        ],
+    ],
+    'issue-51-2' => [
+        'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
+        [
+            'Browser' => 'GrapeshotCrawler',
+        ],
+    ],
+    'issue-51-1' => [
+        '---',
+        [
+            'Browser' => 'NikiBot',
+        ],
+    ],
     'issue-7' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36',
         [

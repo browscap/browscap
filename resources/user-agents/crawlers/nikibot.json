@@ -1,0 +1,25 @@
+{
+  "division": "NikiBot",
+  "sortIndex": 41,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "NikiBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NikiBot",
+        "Browser": "NikiBot",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "---",
+      "properties": {
+        "Parent": "NikiBot"
+      }
+    }
+  ]
+}
