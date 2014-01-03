@@ -19,6 +19,15 @@ return [
             'Browser' => 'NikiBot',
         ],
     ],
+    'issue-52' => [
+        'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
+        [
+            'Browser' => 'Waterfox',
+            'Version' => '26.0',
+            'Platform' => 'WinNT',
+            'isMobileDevice' => false,
+        ],
+    ],
     'issue-7' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36',
         [
