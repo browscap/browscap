@@ -14,7 +14,8 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "isMobileDevice": "true"
       },
       "children": [
         {
