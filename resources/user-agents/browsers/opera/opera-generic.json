@@ -20,7 +20,8 @@
         {
           "match": "Mozilla\/?.*(*Opera?#PLATFORM#)*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux", "OSX", "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Unix", "WinCE"
           ]
@@ -28,7 +29,8 @@
         {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux", "OSX", "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Unix", "WinCE"
           ]
@@ -36,7 +38,8 @@
         {
           "match": "Opera?*(#PLATFORM#)*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux", "OSX", "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Unix", "WinCE"
           ]
@@ -44,7 +47,8 @@
         {
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux", "OSX", "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Unix", "WinCE"
           ]

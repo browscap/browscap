@@ -1,6 +1,36 @@
 <?php
 
 return [
+    'issue-49' => [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11',
+        [
+            'Browser' => 'Safari',
+            'Version' => '7.0',
+            'Platform' => 'MacOsX',
+            'Platform_Version' => '10.9',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-38-b' => [
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/11A501 Safari/8536.25',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '30.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'isMobileDevice' => true,
+        ],
+    ],
+    'issue-38-a' => [
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.16 Mobile/11A4449d Safari/8536.25',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '28.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'isMobileDevice' => true,
+        ],
+    ],
     'issue-7' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36',
         [
