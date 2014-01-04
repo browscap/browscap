@@ -6,7 +6,7 @@ return [
         [
             'Browser' => 'Safari',
             'Version' => '7.0',
-            'Platform' => 'MacOsX',
+            'Platform' => 'MacOSX',
             'Platform_Version' => '10.9',
             'isMobileDevice' => false,
         ],
