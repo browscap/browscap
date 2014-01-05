@@ -15,7 +15,7 @@
         "Win32": "false"
       }
     },
-    "OSX_10_4": {
+    "OSX_10_4_A": {
       "match": "*Mac OS X 10_4*",
       "properties": {
         "Platform": "MacOSX",
@@ -23,7 +23,15 @@
         "Win32": "false"
       }
     },
-    "OSX_10_5": {
+    "OSX_10_4_B": {
+      "match": "*Mac OS X 10.4*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.4",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_5_A": {
       "match": "*Mac OS X 10_5*",
       "properties": {
         "Platform": "MacOSX",
@@ -31,7 +39,15 @@
         "Win32": "false"
       }
     },
-    "OSX_10_6": {
+    "OSX_10_5_B": {
+      "match": "*Mac OS X 10.5*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.5",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_6_A": {
       "match": "*Mac OS X 10_6*",
       "properties": {
         "Platform": "MacOSX",
@@ -39,7 +55,15 @@
         "Win32": "false"
       }
     },
-    "OSX_10_7": {
+    "OSX_10_6_B": {
+      "match": "*Mac OS X 10.6*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.6",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_7_A": {
       "match": "*Mac OS X 10_7*",
       "properties": {
         "Platform": "MacOSX",
@@ -47,7 +71,15 @@
         "Win32": "false"
       }
     },
-    "OSX_10_8": {
+    "OSX_10_7_B": {
+      "match": "*Mac OS X 10.7*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.7",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_8_A": {
       "match": "*Mac OS X 10_8*",
       "properties": {
         "Platform": "MacOSX",
@@ -55,8 +87,24 @@
         "Win32": "false"
       }
     },
-    "OSX_10_9": {
+    "OSX_10_8_B": {
+      "match": "*Mac OS X 10.8*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.8",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_9_A": {
       "match": "*Mac OS X 10_9*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.9",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_9_B": {
+      "match": "*Mac OS X 10.9*",
       "properties": {
         "Platform": "MacOSX",
         "Platform_Version": "10.9",
