@@ -1,6 +1,25 @@
 <?php
 
 return [
+    'chrome34' => [
+        'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1760.0 Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '34.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-53' => [
+        'Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 4 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '18.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.2',
+            'isMobileDevice' => true,
+        ],
+    ],
     'issue-7' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36',
         [
