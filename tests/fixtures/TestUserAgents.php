@@ -131,6 +131,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '3.6',
             'Platform' => 'MacOSX',
+            'Platform_Version' => '10.5',
         ],
     ],
     'issue-32' => [
