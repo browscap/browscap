@@ -23,18 +23,21 @@ return [
         'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',
         [
             'Browser' => 'grapeFX',
+            'Crawler' => true,
         ],
     ],
     'issue-51-2' => [
         'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
         [
             'Browser' => 'GrapeshotCrawler',
+            'Crawler' => true,
         ],
     ],
     'issue-51-1' => [
-        '---',
+        'niki-bot',
         [
             'Browser' => 'NikiBot',
+            'Crawler' => true,
         ],
     ],
     'issue-52' => [
@@ -89,6 +92,8 @@ return [
         [
             'Browser' => 'Chrome',
             'Version' => '31.0',
+            'Platform' => 'Linux',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-46-a' => [
@@ -107,6 +112,7 @@ return [
         'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',
         [
             'Browser' => 'SISTRIX',
+            'Crawler' => true
         ],
     ],
     'issue-42' => [
@@ -114,6 +120,7 @@ return [
         [
             'Browser' => 'BlackBerry',
             'Platform' => 'BlackBerry OS',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-41' => [
@@ -122,6 +129,7 @@ return [
             'Browser' => 'Opera',
             'Version' => '18.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-39' => [
@@ -130,6 +138,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '2.0',
             'Platform' => 'WinXP',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-36' => [
@@ -138,6 +147,7 @@ return [
             'Browser' => 'Chrome',
             'Version' => '33.0',
             'Platform' => 'Win7',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-33' => [
@@ -146,6 +156,8 @@ return [
             'Browser' => 'Firefox',
             'Version' => '3.6',
             'Platform' => 'MacOSX',
+            'Platform_Version' => '10.5',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-32' => [
@@ -154,6 +166,7 @@ return [
             'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-29' => [
@@ -162,6 +175,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '18.0',
             'Platform' => 'FirefoxOS',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-26' => [
@@ -170,6 +184,7 @@ return [
             'Browser' => 'Chrome',
             'Version' => '30.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-25' => [
@@ -179,6 +194,7 @@ return [
             'Version' => '4.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-13' => [
@@ -196,6 +212,7 @@ return [
             'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-12-b' => [
@@ -204,6 +221,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '24.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-11' => [
@@ -212,6 +230,7 @@ return [
             'Browser' => 'Opera',
             'Version' => '16.0',
             'Platform' => 'Win8',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-4' => [

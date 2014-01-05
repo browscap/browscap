@@ -16,7 +16,7 @@
       }
     },
     {
-      "userAgent": "---",
+      "userAgent": "niki-bot",
       "properties": {
         "Parent": "NikiBot"
       }
