@@ -27,7 +27,7 @@
           "platforms": [
             "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
@@ -35,7 +35,7 @@
           "platforms": [
             "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
@@ -43,7 +43,7 @@
           "platforms": [
             "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         }
       ]
