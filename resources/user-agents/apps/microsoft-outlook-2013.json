@@ -72,6 +72,54 @@
         "RenderingEngine_Name": "Trident",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 6.2; Trident\/?.0; *MSOffice 15)",
+      "properties": {
+        "Parent": "Microsoft Outlook 2013",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 6.2; Win64; x64; Trident\/?.0; *MSOffice 15)",
+      "properties": {
+        "Parent": "Microsoft Outlook 2013",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Win32": "false",
+        "Win64": "true",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 6.3; Trident\/?.0; *MSOffice 15)",
+      "properties": {
+        "Parent": "Microsoft Outlook 2013",
+        "Platform": "Win8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 6.3; Win64; x64; Trident\/?.0; *MSOffice 15)",
+      "properties": {
+        "Parent": "Microsoft Outlook 2013",
+        "Platform": "Win8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Win32": "false",
+        "Win64": "true",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
     }
   ]
 }

@@ -1,12 +1,132 @@
 <?php
 
 return [
+    'issue-50-2' => [
+        'Mozilla/5.0 (X11; Linux) AppleWebKit/531.2+ Midori/0.3',
+        [
+            'Browser' => 'Midori',
+            'Version' => '0.3',
+            'Platform' => 'Linux',
+            'isMobileDevice' => true,
+        ],
+    ],
+    'issue-50-1' => [
+        'Mozilla/5.0 (X11; Linux) AppleWebKit/537.32 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.32 Midori/0.5',
+        [
+            'Browser' => 'Midori',
+            'Version' => '0.5',
+            'Platform' => 'Linux',
+            'isMobileDevice' => true,
+        ],
+    ],
+    'issue-51-3' => [
+        'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',
+        [
+            'Browser' => 'grapeFX',
+            'Crawler' => true,
+        ],
+    ],
+    'issue-51-2' => [
+        'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
+        [
+            'Browser' => 'GrapeshotCrawler',
+            'Crawler' => true,
+        ],
+    ],
+    'issue-51-1' => [
+        'niki-bot',
+        [
+            'Browser' => 'NikiBot',
+            'Crawler' => true,
+        ],
+    ],
+    'issue-52' => [
+        'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
+        [
+            'Browser' => 'Waterfox',
+            'Version' => '26.0',
+            'Platform' => 'WinNT',
+            'isMobileDevice' => false,
+        ],
+    ],
     'chrome34' => [
         'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1760.0 Safari/537.36',
         [
             'Browser' => 'Chrome',
-            'Version' => '34.0',
+            'Version' => '31.0',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-8' => [
+        'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '31.0',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-7' => [
+        'Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '26.0',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-6' => [
+        'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 OPR/18.0.1284.49',
+        [
+            'Browser' => 'Opera',
+            'Version' => '18.0',
+            'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-5' => [
+        'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
+        [
+            'Browser' => 'IE',
+            'Version' => '11.0',
+            'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-4' => [
+        'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '31.0',
+            'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-3' => [
+        'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+        [
+            'Browser' => 'IE',
+            'Version' => '11.0',
             'Platform' => 'Win7',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-2' => [
+        'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '25.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+        ],
+    ],
+    'issue-47-phpbrowscap-1' => [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0 FirePHP/0.7.4',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '25.0',
+            'Platform' => 'MacOSX',
             'isMobileDevice' => false,
         ],
     ],
@@ -18,6 +138,15 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+        ],
+    ],
+    'chrome34' => [
+        'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1760.0 Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '34.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-7' => [
@@ -44,6 +173,8 @@ return [
         [
             'Browser' => 'Chrome',
             'Version' => '31.0',
+            'Platform' => 'Linux',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-46-a' => [
@@ -62,6 +193,7 @@ return [
         'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',
         [
             'Browser' => 'SISTRIX',
+            'Crawler' => true
         ],
     ],
     'issue-42' => [
@@ -69,6 +201,7 @@ return [
         [
             'Browser' => 'BlackBerry',
             'Platform' => 'BlackBerry OS',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-41' => [
@@ -77,6 +210,7 @@ return [
             'Browser' => 'Opera',
             'Version' => '18.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-39' => [
@@ -85,6 +219,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '2.0',
             'Platform' => 'WinXP',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-36' => [
@@ -93,6 +228,7 @@ return [
             'Browser' => 'Chrome',
             'Version' => '33.0',
             'Platform' => 'Win7',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-33' => [
@@ -101,6 +237,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '3.6',
             'Platform' => 'MacOSX',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-32' => [
@@ -109,6 +246,7 @@ return [
             'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-29' => [
@@ -117,6 +255,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '18.0',
             'Platform' => 'FirefoxOS',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-26' => [
@@ -125,6 +264,7 @@ return [
             'Browser' => 'Chrome',
             'Version' => '30.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-25' => [
@@ -134,6 +274,7 @@ return [
             'Version' => '4.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-13' => [
@@ -151,6 +292,7 @@ return [
             'Browser' => 'IE',
             'Version' => '11.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-12-b' => [
@@ -159,6 +301,7 @@ return [
             'Browser' => 'Firefox',
             'Version' => '24.0',
             'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-11' => [
@@ -167,6 +310,7 @@ return [
             'Browser' => 'Opera',
             'Version' => '16.0',
             'Platform' => 'Win8',
+            'isMobileDevice' => false,
         ],
     ],
     'issue-4' => [
