@@ -11,9 +11,9 @@ class Browscap extends Application
         parent::__construct('Browser Capabilities Project', 'dev-master');
 
         $commands = array(
-            new \Browscap\Command\BuildCommand(),
-            new \Browscap\Command\DiffCommand(),
-            new \Browscap\Command\GrepCommand(),
+            new Command\BuildCommand(),
+            new Command\DiffCommand(),
+            new Command\GrepCommand(),
         );
 
         foreach ($commands as $command) {

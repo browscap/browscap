@@ -385,6 +385,25 @@
         "Platform_Description": "Windows NT"
       }
     },
+    "NT4_64": {
+      "match": "*Windows NT; *WOW64*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.1",
+        "Platform_Description": "Windows NT",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "NT4_x64": {
+      "match": "*Windows NT; Win64; x64*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Description": "Windows NT",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Win2000": {
       "match": "*Windows NT 5.0*",
       "properties": {
