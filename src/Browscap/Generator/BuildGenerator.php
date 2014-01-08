@@ -77,19 +77,24 @@ class BuildGenerator
      * If an output interface has been set, write to it. This does nothing if setOutput has not been called.
      *
      * @param string|array $messages
+     *
+     * @return null
      */
     protected function output($messages)
     {
-    	if (isset($this->output) && $this->output instanceof OutputInterface) {
-    	    return $this->output->writeln($messages);
-    	}
-    	return null;
+        if (isset($this->output) && $this->output instanceof OutputInterface) {
+            return $this->output->writeln($messages);
+        }
+
+        return null;
     }
 
     /**
      * Create and populate a data collection object from a resource folder
      *
+     * @param        $version
      * @param string $resourceFolder
+     *
      * @return \Browscap\Generator\DataCollection
      */
     protected function createDataCollection($version, $resourceFolder)
@@ -102,6 +107,7 @@ class BuildGenerator
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
             if (!$file->isFile() || $file->getExtension() != 'json') {
                 continue;
             }
