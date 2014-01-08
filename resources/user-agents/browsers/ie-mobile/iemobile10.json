@@ -12,10 +12,12 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
       },
-      "children": {
-        "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
-        "platforms": ["WinPhone8"]
-      }
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
+          "platforms": ["WinPhone8"]
+        }
+      ]
     }
   ]
 }
