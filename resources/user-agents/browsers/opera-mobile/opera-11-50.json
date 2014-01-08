@@ -20,6 +20,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
+        "isMobileDevice": "true",
         "CssVersion": "3",
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "2.9",

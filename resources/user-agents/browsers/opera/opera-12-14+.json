@@ -29,7 +29,10 @@
         {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
             "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
@@ -38,7 +41,10 @@
         {
           "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
             "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
@@ -47,7 +53,10 @@
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#*)*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
             "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
@@ -56,7 +65,10 @@
         {
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "Linux", "OSX", "SunOS", "Win2000_2",
+            "FreeBSD", "Linux",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
             "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
