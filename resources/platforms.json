@@ -15,6 +15,102 @@
         "Win32": "false"
       }
     },
+    "OSX_10_4_A": {
+      "match": "*Mac OS X 10_4*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.4",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_4_B": {
+      "match": "*Mac OS X 10.4*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.4",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_5_A": {
+      "match": "*Mac OS X 10_5*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.5",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_5_B": {
+      "match": "*Mac OS X 10.5*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.5",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_6_A": {
+      "match": "*Mac OS X 10_6*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.6",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_6_B": {
+      "match": "*Mac OS X 10.6*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.6",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_7_A": {
+      "match": "*Mac OS X 10_7*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.7",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_7_B": {
+      "match": "*Mac OS X 10.7*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.7",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_8_A": {
+      "match": "*Mac OS X 10_8*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.8",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_8_B": {
+      "match": "*Mac OS X 10.8*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.8",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_9_A": {
+      "match": "*Mac OS X 10_9*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.9",
+        "Win32": "false"
+      }
+    },
+    "OSX_10_9_B": {
+      "match": "*Mac OS X 10.9*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Version": "10.9",
+        "Win32": "false"
+      }
+    },
     "MacPPC": {
       "match": "*PPC*",
       "properties": {
@@ -29,7 +125,7 @@
         "Win32": "false"
       }
     },
-    "iOS": {
+    "iOS_A": {
       "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {
         "Platform": "iOS",
@@ -37,7 +133,115 @@
         "Win32": "false"
       }
     },
-    "iOS_2": {
+    "iOS_A_3_0": {
+      "match": "*CPU iPhone OS 3_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_3_1": {
+      "match": "*CPU iPhone OS 3_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_3_2": {
+      "match": "*CPU iPhone OS 3_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.2",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_4_0": {
+      "match": "*CPU iPhone OS 4_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_4_1": {
+      "match": "*CPU iPhone OS 4_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_4_2": {
+      "match": "*CPU iPhone OS 4_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.2",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_4_3": {
+      "match": "*CPU iPhone OS 4_3* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_5_0": {
+      "match": "*CPU iPhone OS 5_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_5_1": {
+      "match": "*CPU iPhone OS 5_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_6_0": {
+      "match": "*CPU iPhone OS 6_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_6_1": {
+      "match": "*CPU iPhone OS 6_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_A_7_0": {
+      "match": "*CPU iPhone OS 7_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "properties": {
         "Platform": "iOS",
@@ -45,7 +249,7 @@
         "Win32": "false"
       }
     },
-    "iOS_3": {
+    "iOS_C": {
       "match": "*CPU*OS*",
       "properties": {
         "Platform": "iOS",

@@ -33,7 +33,9 @@
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
-            "Win8_1_32", "Win8_1_64", "Win8_1_x64", "OSX"
+            "Win8_1_32", "Win8_1_64", "Win8_1_x64",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B"
           ]
         },
         {
