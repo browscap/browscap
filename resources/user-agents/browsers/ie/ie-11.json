@@ -38,6 +38,22 @@
           ]
         },
         {
+          "match": "Mozilla\/*(compatible; MSIE 7.0; #PLATFORM#*Trident\/7.0*)*",
+          "platforms": [
+            "Win7_32", "Win7_64",
+            "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(compatible; MSIE 8.0; #PLATFORM#*Trident\/7.0*)*",
+          "platforms": [
+            "Win7_32", "Win7_64",
+            "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
           "match": "Mozilla\/*(compatible; MSIE 9.0; #PLATFORM#*Trident\/7.0*)*",
           "platforms": [
             "Win7_32", "Win7_64",
