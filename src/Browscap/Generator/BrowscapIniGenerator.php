@@ -100,7 +100,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
             if (isset($division['versions']) && is_array($division['versions'])) {
                 foreach ($division['versions'] as $version) {
-                    $dots = explode($version, '.', 2);
+                    $dots = explode('.', $version, 2);
 
                     $majorVer = $dots[0];
                     $minorVer = (isset($dots[1]) ? $dots[1] : 0);
@@ -114,125 +114,21 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                     $userAgents = json_decode($tmp, true);
 
-                    $allDivisions += $this->renderDivision($userAgents);
+                    $allDivisions += $this->parseDivision($userAgents, $majorVer, $minorVer);
                 }
             } else {
-                $allDivisions += $this->renderDivision($division['userAgents']);
+                $allDivisions += $this->parseDivision($division['userAgents'], 0, 0);
             }
         }
 
-        $allProperties = array_keys($allDivisions['DefaultProperties']);
+        $allProperties = array_keys(array('Parent' => '') + $allDivisions['DefaultProperties']);
 
         /*
          * full expand of all data
          *
          *
          */
-
-        foreach ($allDivisions as $key => $properties) {
-            if (!isset($properties['Parent'])) {
-                continue;
-            }
-
-            $userAgent = $key;
-            $parents   = array($userAgent);
-
-            while (isset($allDivisions[$userAgent]['Parent'])) {
-                if ($userAgent === $allDivisions[$userAgent]['Parent']) {
-                    break;
-                }
-
-                $parents[] = $allDivisions[$userAgent]['Parent'];
-                $userAgent = $allDivisions[$userAgent]['Parent'];
-            }
-            unset($userAgent);
-
-            $parents     = array_reverse($parents);
-            $browserData = array();
-
-            foreach ($parents as $parent) {
-                if (!isset($allDivisions[$parent])) {
-                    continue;
-                }
-
-                if (!is_array($allDivisions[$parent])) {
-                    continue;
-                }
-
-                $browserData = array_merge($browserData, $allDivisions[$parent]);
-            }
-
-            array_pop($parents);
-            $browserData['Parents'] = implode(',', $parents);
-
-            foreach ($browserData as $propertyName => $propertyValue) {
-                switch ($propertyValue) {
-                    case 'true':
-                        $properties[$propertyName] = true;
-                        break;
-                    case 'false':
-                        $properties[$propertyName] = false;
-                        break;
-                    default:
-                        $properties[$propertyName] = trim($propertyValue);
-                        break;
-                }
-            }
-
-            if (!isset($properties['Version']) || !isset($properties['Browser'])) {
-                continue;
-            }
-
-            $allDivisions[$key] = $properties;
-
-            $completeVersions = explode('.', $properties['Version'], 2);
-
-            $properties['MajorVer'] = (int)$completeVersions[0];
-
-            if (isset($completeVersions[1])) {
-                $properties['MinorVer'] = $completeVersions[1];
-            } else {
-                $properties['MinorVer'] = 0;
-            }
-
-            $properties['isMobileDevice']        = false;
-            $properties['Platform_Description']  = '';
-
-            if ('DefaultProperties' !== $key
-                && '*' !== $key
-            ) {
-                switch ($properties['Platform']) {
-                    case 'RIM OS':
-                        $properties['isMobileDevice']        = true;
-                        break;
-                    case 'WinMobile':
-                    case 'Windows Mobile OS':
-                        $properties['isMobileDevice']        = true;
-                        $properties['Platform']              = 'Windows Mobile OS';
-
-                        break;
-                    case 'Windows Phone OS':
-                        $properties['isMobileDevice']        = true;
-                        break;
-                    case 'Symbian OS':
-                    case 'SymbianOS':
-                        $properties['isMobileDevice']        = true;
-                        break;
-                    case 'iOS':
-                        $properties['isMobileDevice']        = true;
-                        break;
-                    case 'Android':
-                    case 'Dalvik':
-                        $properties['isMobileDevice']        = true;
-                        break;
-                    default:
-                        $properties['Platform_Description'] = '';
-                        break;
-                }
-            }
-
-            $allDivisions[$key] = $properties;
-        }
+        $allDivisions = $this->expandProperties($allDivisions);
 
         foreach ($allDivisions as $key => $properties) {
             if (!empty($properties['Parents'])) {
@@ -240,11 +136,13 @@ class BrowscapIniGenerator implements GeneratorInterface
             }
         }
 
+        /*
         //sort
         $sort1  = array();
         $sort2  = array();
         $sort3  = array();
         $sort4  = array();
+        $sort5  = array();
         $sort7  = array();
         $sort8  = array();
         $sort10 = array();
@@ -261,6 +159,7 @@ class BrowscapIniGenerator implements GeneratorInterface
             }
 
             $sort1[$key] = $x;
+            $sort5[$key] = (isset($properties['sortIndex']) ? $properties['sortIndex'] : 0 );
 
             if (!empty($properties['Browser'])) {
                 $sort2[$key] = strtolower($properties['Browser']);
@@ -300,6 +199,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
         array_multisort(
             $sort1, SORT_ASC,
+            $sort5, SORT_ASC, // sortIndex
             $sort7, SORT_ASC, // Parents
             $sort8, SORT_ASC, // Parent first
             $sort2, SORT_ASC, // Browser Name
@@ -308,102 +208,9 @@ class BrowscapIniGenerator implements GeneratorInterface
             $sort10, SORT_ASC,
             $allDivisions
         );
+        /**/
 
-        foreach ($allDivisions as $key => $properties) {
-            if (!isset($properties['Version'])) {
-                continue;
-            }
-
-            if (!isset($properties['Parent'])
-                && 'DefaultProperties' !== $key
-                && '*' !== $key
-            ) {
-                continue;
-            }
-
-            if ('DefaultProperties' !== $key
-                && '*' !== $key
-            ) {
-                if (!isset($allDivisions[$properties['Parent']])) {
-                    continue;
-                }
-
-                $parent = $allDivisions[$properties['Parent']];
-            } else {
-                $parent = array();
-            }
-
-            $propertiesToOutput = $properties;
-
-            foreach ($propertiesToOutput as $property => $value) {
-                if (!isset($parent[$property])) {
-                    continue;
-                }
-
-                if ($parent[$property] != $value) {
-                    continue;
-                }
-
-                unset($propertiesToOutput[$property]);
-            }
-
-            // create output - php
-
-            if ('DefaultProperties' == $key
-                || empty($properties['Parent'])
-                || 'DefaultProperties' == $properties['Parent']
-            ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;' . "\n" . '; '
-                    . $key . "\n" . ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;'
-                    . "\n\n"
-                ;
-            }
-
-            if ('DefaultProperties' != $key
-                && !empty($properties['Parent'])
-                && 'DefaultProperties' != $properties['Parent']
-            ) {
-                if (false !== strpos($key, ' on ')) {
-                    $output .= '; ' . $key . "\n\n";
-                } else {
-                    $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $key . "\n\n";
-                }
-            }
-
-            $output .= '[' . $key . ']' . "\n";
-
-            foreach ($allProperties as $property) {
-                if (!isset($propertiesToOutput[$property])) {
-                    continue;
-                }
-
-                $value = $propertiesToOutput[$property];
-
-                if (true === $value || $value === 'true') {
-                    $valuePhp = 'true';
-                } elseif (false === $value || $value === 'false') {
-                    $valuePhp = 'false';
-                } elseif ('0' === $value
-                    || 'Parent' === $property
-                    || 'Version' === $property
-                    || 'MajorVer' === $property
-                    || 'MinorVer' === $property
-                    || 'RenderingEngine_Version' === $property
-                    || 'Platform_Version' === $property
-                    || 'Browser_Version' === $property
-                ) {
-                    $valuePhp = $value;
-                } else {
-                    $valuePhp = '"' . $value . '"';
-                }
-
-                $output .= $property . '=' . $valuePhp . "\n";
-            }
-
-            $output .= "\n";
-        }
-
-        return $output;
+        return $this->render($allDivisions, $output, $allProperties);
     }
 
     /**
@@ -440,15 +247,18 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render a single division
      *
-     * @param array $userAgents
+     * @param array  $userAgents
+     * @param string $majorVer
+     * @param string $minorVer
+     *
      * @return array
      */
-    protected function renderDivision(array $userAgents)
+    protected function parseDivision(array $userAgents, $majorVer, $minorVer)
     {
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $output += $this->renderUserAgent($uaData);
+            $output += $this->parseUserAgent($uaData, $majorVer, $minorVer);
         }
 
         return $output;
@@ -457,27 +267,29 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render a single User Agent block
      *
-     * @param array $uaData
+     * @param array  $uaData
+     * @param string $majorVer
+     * @param string $minorVer
+     *
+     * @internal param array $uaData
      * @return array
      */
-    protected function renderUserAgent(array $uaData)
+    protected function parseUserAgent(array $uaData, $majorVer, $minorVer)
     {
-        $ua = $uaData['userAgent'];
+        $output = array($uaData['userAgent'] => $this->parseProperties($uaData['properties'], $majorVer, $minorVer));
 
-        $output = array($uaData['userAgent'] => $this->renderProperties($uaData['properties']));
-
-        if (isset($uaData['children'])) {
-            if (is_array($uaData['children']) && is_numeric(array_keys($uaData['children'])[0])) {
-
+        if (isset($uaData['children']) && is_array($uaData['children'])) {
+            if (isset($uaData['children']['match'])) {
+                $output += $this->parseChildren($uaData['userAgent'], $uaData['children'], $majorVer, $minorVer);
+            } else {
                 foreach ($uaData['children'] as $child) {
-                    if (!is_array($child)) {
+                    if (!is_array($child) || !isset($child['match'])) {
                         continue;
                     }
 
-                    $output += $this->renderChildren($ua, $child);
+                    $co = $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
+                    $output += $co;
                 }
-            } elseif (is_array($uaData['children'])) {
-                $output += $this->renderChildren($ua, $uaData['children']);
             }
         }
 
@@ -489,44 +301,48 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @param string $ua
      * @param array  $uaDataChild
+     * @param string $majorVer
+     * @param string $minorVer
+     *
      * @return string
      */
-    protected function renderChildren($ua, array $uaDataChild)
+    protected function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
     {
-        $uaBase = $uaDataChild['match'];
         $output = array();
 
         // @todo This needs work here. What if we specify platforms AND versions?
         // We need to make it so it does as many permutations as necessary.
-        if (isset($uaDataChild['platforms'])) {
+        if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $platformData = $this->getDataCollection()->getPlatform($platform);
+                $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
-                $ua         = '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . ']';
-                $properties = $this->renderProperties(['Parent' => $ua]);
+                $platformData = $this->getDataCollection()->getPlatform($platform);
+                $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
                 ) {
-                    $properties += $this->renderProperties(
-                        $uaDataChild['properties'] + $platformData['properties']
+                    $properties += $this->parseProperties(
+                        ($uaDataChild['properties'] + $platformData['properties']),
+                        $majorVer,
+                        $minorVer
                     );
                 } else {
-                    $properties +=  $this->renderProperties($platformData['properties']);
+                    $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
                 }
 
-                $output[$ua] = $properties;
+                $output[$uaBase] = $properties;
             }
         } else {
-            $properties = $this->renderProperties(['Parent' => $ua]);
+            $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
-                $properties += $this->renderProperties($uaDataChild['properties']);
+                $properties += $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
             }
 
-            $output[$uaBase] = $properties;
+            $output[$uaDataChild['match']] = $properties;
         }
 
         return $output;
@@ -535,16 +351,25 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render the properties of a single User Agent
      *
-     * @param array $properties
+     * @param array  $properties
+     * @param string $majorVer
+     * @param string $minorVer
+     *
      * @return array
      */
-    protected function renderProperties(array $properties)
+    protected function parseProperties(array $properties, $majorVer, $minorVer)
     {
         $output = array();
         foreach ($properties as $property => $value) {
             if ((!$this->includeExtraProperties) && $this->isExtraProperty($property)) {
                 continue;
             }
+
+            $value = str_replace(
+                array('#MAJORVER#', '#MINORVER#'),
+                array($majorVer, $minorVer),
+                $value
+            );
 
             $output[$property] = $value;
         }
@@ -623,5 +448,215 @@ class BrowscapIniGenerator implements GeneratorInterface
             default:
                 return false;
         }
+    }
+
+    /**
+     * expands all properties for all useragents to make sure all properties are set and make it possible to skip
+     * incomplete properties and remove duplicate definitions
+     *
+     * @param array $allInputDivisions
+     *
+     * @return array
+     */
+    private function expandProperties(array $allInputDivisions)
+    {
+        $allDivisions = array();
+
+        foreach ($allInputDivisions as $key => $properties) {
+
+            if (!isset($properties['Parent'])
+                && 'DefaultProperties' !== $key
+                && '*' !== $key
+            ) {
+                continue;
+            }
+
+            $userAgent = $key;
+            $parents   = array($userAgent);
+
+            while (isset($allInputDivisions[$userAgent]['Parent'])) {
+                if ($userAgent === $allInputDivisions[$userAgent]['Parent']) {
+                    break;
+                }
+
+                $parents[] = $allInputDivisions[$userAgent]['Parent'];
+                $userAgent = $allInputDivisions[$userAgent]['Parent'];
+            }
+            unset($userAgent);
+
+            $parents     = array_reverse($parents);
+            $browserData = array();
+
+            foreach ($parents as $parent) {
+                if (!isset($allInputDivisions[$parent])) {
+                    continue;
+                }
+
+                if (!is_array($allInputDivisions[$parent])) {
+                    continue;
+                }
+
+                $browserData = array_merge($browserData, $allInputDivisions[$parent]);
+            }
+
+            array_pop($parents);
+            $browserData['Parents'] = implode(',', $parents);
+
+            foreach ($browserData as $propertyName => $propertyValue) {
+                switch ((string) $propertyValue) {
+                    case 'true':
+                        $properties[$propertyName] = true;
+                        break;
+                    case 'false':
+                        $properties[$propertyName] = false;
+                        break;
+                    default:
+                        $properties[$propertyName] = trim($propertyValue);
+                        break;
+                }
+            }
+
+            $allDivisions[$key] = $properties;
+
+            if (!isset($properties['Version'])) {
+                continue;
+            }
+
+            $completeVersions = explode('.', $properties['Version'], 2);
+
+            $properties['MajorVer'] = (string) $completeVersions[0];
+
+            if (isset($completeVersions[1])) {
+                $properties['MinorVer'] = (string) $completeVersions[1];
+            } else {
+                $properties['MinorVer'] = 0;
+            }
+
+            $allDivisions[$key] = $properties;
+        }
+
+        return $allDivisions;
+    }
+
+    /**
+     * renders all found useragents into a string
+     *
+     * @param $allDivisions
+     * @param $output
+     * @param $allProperties
+     *
+     * @return string
+     */
+    private function render($allDivisions, $output, $allProperties)
+    {
+        foreach ($allDivisions as $key => $properties) {
+            if (!isset($properties['Version'])) {
+                continue;
+            }
+
+            if (!isset($properties['Parent'])
+                && 'DefaultProperties' !== $key
+                && '*' !== $key
+            ) {
+                continue;
+            }
+
+            if ('DefaultProperties' !== $key && '*' !== $key) {
+                if (!isset($allDivisions[$properties['Parent']])) {
+                    continue;
+                }
+
+                $parent = $allDivisions[$properties['Parent']];
+            } else {
+                $parent = array();
+            }
+
+            if (isset($parent['Version'])) {
+                $completeVersions = explode('.', $parent['Version'], 2);
+
+                $parent['MajorVer'] = (string) $completeVersions[0];
+
+                if (isset($completeVersions[1])) {
+                    $parent['MinorVer'] = (string) $completeVersions[1];
+                } else {
+                    $parent['MinorVer'] = 0;
+                }
+            }
+
+            $propertiesToOutput = $properties;
+
+            foreach ($propertiesToOutput as $property => $value) {
+                if (!isset($parent[$property])) {
+                    continue;
+                }
+
+                $parentProperty = $parent[$property];
+
+                switch ((string) $parentProperty) {
+                    case 'true':
+                        $parentProperty = true;
+                        break;
+                    case 'false':
+                        $parentProperty = false;
+                        break;
+                    default:
+                        $parentProperty = trim($parentProperty);
+                        break;
+                }
+
+                if ($parentProperty != $value) {
+                    continue;
+                }
+
+                unset($propertiesToOutput[$property]);
+            }
+
+            // create output - php
+
+            if ('DefaultProperties' === $key
+                || '*' === $key || empty($properties['Parent'])
+                || 'DefaultProperties' == $properties['Parent']
+            ) {
+                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $key . "\n\n";
+            }
+
+            $output .= '[' . $key . ']' . "\n";
+
+            foreach ($allProperties as $property) {
+                if (!isset($propertiesToOutput[$property])) {
+                    continue;
+                    //$value    = '!! not set';
+                } else {
+
+                    $value = $propertiesToOutput[$property];
+                }
+                $valuePhp = $value;
+
+                switch ($this->getPropertyType($property)) {
+                    case 'string':
+                        if ($this->quoteStringProperties) {
+                            $valuePhp = '"' . $value . '"';
+                        }
+                        break;
+                    case 'boolean':
+                        if (true === $value || $value === 'true') {
+                            $valuePhp = 'true';
+                        } elseif (false === $value || $value === 'false') {
+                            $valuePhp = 'false';
+                        }
+                        break;
+                    case 'generic':
+                    case 'number':
+                    default:
+                        // nothing t do here
+                        break;
+                }
+
+                $output .= $property . '=' . $valuePhp . "\n";
+            }
+
+            $output .= "\n";
+        }
+        return $output;
     }
 }
