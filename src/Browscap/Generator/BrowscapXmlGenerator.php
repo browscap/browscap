@@ -295,34 +295,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 }
             }
 
-            $propertiesToOutput = $properties;
-
-            foreach ($propertiesToOutput as $property => $value) {
-                if (!isset($parent[$property])) {
-                    continue;
-                }
-
-                $parentProperty = $parent[$property];
-
-                switch ((string) $parentProperty) {
-                    case 'true':
-                        $parentProperty = true;
-                        break;
-                    case 'false':
-                        $parentProperty = false;
-                        break;
-                    default:
-                        $parentProperty = trim($parentProperty);
-                        break;
-                }
-
-                if ($parentProperty != $value) {
-                    continue;
-                }
-
-                unset($propertiesToOutput[$property]);
-            }
-
             // create output - xml
 
             $output .= '<browscapitem name="' . $key . '">' . "\n";
@@ -344,7 +316,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '" />' . "\n";
 
             foreach ($allProperties as $property) {
-                if (!isset($propertiesToOutput[$property])) {
+                if (!isset($properties[$property])) {
                     continue;
                 }
 
@@ -352,7 +324,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     continue;
                 }
 
-                $value       = $propertiesToOutput[$property];
+                $value       = $properties[$property];
                 $valueOutput = $value;
 
                 switch ($this->getPropertyType($property)) {
@@ -369,6 +341,10 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     default:
                         // nothing t do here
                         break;
+                }
+
+                if ('unknown' === $valueOutput) {
+                    $valueOutput = '';
                 }
 
                 $output .= '<item name="' . $property . '" value="' . $valueOutput . '" />' . "\n";
