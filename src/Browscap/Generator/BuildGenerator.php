@@ -128,8 +128,23 @@ class BuildGenerator
      */
     protected function writeIniFiles(DataCollection $collection, $buildFolder)
     {
-        $iniGenerator = new BrowscapIniGenerator();
-        $iniGenerator->setDataCollection($collection);
+        $collectionParser = new CollectionParser();
+        $iniGenerator     = new BrowscapIniGenerator();
+        $xmlGenerator     = new BrowscapXmlGenerator();
+
+        $version = $collection->getVersion();
+        $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
+        $date    = $collection->getGenerationDate()->format('r');
+
+        $comments = array(
+            'Provided courtesy of http://tempdownloads.browserscap.com/',
+            'Created on ' . $dateUtc,
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
+        );
 
         $formats = array(
             ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
@@ -140,14 +155,33 @@ class BuildGenerator
             ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
         );
 
+        $collectionParser->setDataCollection($collection);
+        $collectionData = $collectionParser->parse();
+
+        $iniGenerator->setCollectionData($collectionData);
+
         foreach ($formats as $format) {
             $this->output('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
 
             $outputFile = $buildFolder . '/' . $format[0];
 
-            $iniGenerator->setOptions($format[2], $format[3], $format[4]);
+            $iniGenerator
+                ->setOptions($format[2], $format[3], $format[4])
+                ->setComments($comments)
+                ->setVersionData(array('version' => $version, 'released' => $date))
+            ;
 
             file_put_contents($outputFile, $iniGenerator->generate());
         }
+
+        $this->output('<info>Generating browscap.xml [XML]</info>');
+
+        $xmlGenerator->setCollectionData($collectionData);
+        $xmlGenerator
+            ->setComments($comments)
+            ->setVersionData(array('version' => $version, 'released' => $date))
+        ;
+
+        file_put_contents($buildFolder . '/browscap.xml', $xmlGenerator->generate());
     }
 }

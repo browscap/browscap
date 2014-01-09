@@ -2,7 +2,7 @@
 
 namespace Browscap\Generator;
 
-class BrowscapIniGenerator implements GeneratorInterface
+class BrowscapXmlGenerator implements GeneratorInterface
 {
     /**
      * @var bool
@@ -149,22 +149,20 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function renderHeader()
     {
-        $header = '';
+        $header = '<comments>' . "\n";
 
         foreach ($this->getComments() as $comment) {
-            $header .= ';;; ' . $comment . "\n";
+            $header .= '<comment>' . $comment . '</comment>' . "\n";
         }
 
-        $header .= "\n";
-
-        $header .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . "\n\n";
-
-        $header .= '[GJK_Browscap_Version]' . "\n";
+        $header .= '</comments>' . "\n";
+        $header .= '<gjk_browscap_version>' . "\n";
 
         $versionData = $this->getVersionData();
 
-        $header .= 'Version=' . $versionData['version'] . "\n";
-        $header .= 'Released=' . $versionData['released'] . "\n\n";
+        $header .= '<item name="Version" value="' . $versionData['version'] . '" />' . "\n";
+        $header .= '<item name="Released" value="' . $versionData['released'] . '" />' . "\n";
+        $header .= '</gjk_browscap_version>' . "\n";
 
         return $header;
     }
@@ -254,7 +252,16 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function render($allDivisions, $output, $allProperties)
     {
+        $output = '<?xml version="1.0" encoding="utf-8" ?>' . "\n"
+            . '<browsercaps>' . "\n"
+            . $output
+            . '<browsercapitems>' . "\n";
+
+        $counter = 1;
+
         foreach ($allDivisions as $key => $properties) {
+            $counter++;
+
             if (!isset($properties['Version'])) {
                 continue;
             }
@@ -263,10 +270,6 @@ class BrowscapIniGenerator implements GeneratorInterface
                 && 'DefaultProperties' !== $key
                 && '*' !== $key
             ) {
-                continue;
-            }
-
-            if ($this->liteOnly && (!isset($properties['lite']) || !$properties['lite'])) {
                 continue;
             }
 
@@ -320,16 +323,25 @@ class BrowscapIniGenerator implements GeneratorInterface
                 unset($propertiesToOutput[$property]);
             }
 
-            // create output - php
+            // create output - xml
+
+            $output .= '<browscapitem name="' . $key . '">' . "\n";
+            $output .= '<item name="PropertyName" value="' . $key . '" />' . "\n";
+            $output .= '<item name="AgentID" value="' . $counter . '" />' . "\n";
 
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']
             ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $key . "\n\n";
+                $masterParent = 'true';
+            } else {
+                $masterParent = 'false';
             }
 
-            $output .= '[' . $key . ']' . "\n";
+            $output .= '<item name="MasterParent" value="' . $masterParent . '" />' . "\n";
+
+            $output .= '<item name="LiteMode" value="'
+                . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '" />' . "\n";
 
             foreach ($allProperties as $property) {
                 if (!isset($propertiesToOutput[$property])) {
@@ -344,11 +356,6 @@ class BrowscapIniGenerator implements GeneratorInterface
                 $valueOutput = $value;
 
                 switch ($this->getPropertyType($property)) {
-                    case 'string':
-                        if ($this->quoteStringProperties) {
-                            $valueOutput = '"' . $value . '"';
-                        }
-                        break;
                     case 'boolean':
                         if (true === $value || $value === 'true') {
                             $valueOutput = 'true';
@@ -356,6 +363,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                             $valueOutput = 'false';
                         }
                         break;
+                    case 'string':
                     case 'generic':
                     case 'number':
                     default:
@@ -363,10 +371,10 @@ class BrowscapIniGenerator implements GeneratorInterface
                         break;
                 }
 
-                $output .= $property . '=' . $valueOutput . "\n";
+                $output .= '<item name="' . $property . '" value="' . $valueOutput . '" />' . "\n";
             }
 
-            $output .= "\n";
+            $output .= '</browscapitem>' . "\n";
         }
 
         return $output;

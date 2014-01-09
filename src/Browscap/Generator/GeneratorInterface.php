@@ -5,18 +5,20 @@ namespace Browscap\Generator;
 interface GeneratorInterface
 {
     /**
-     * Set the source data collection object
+     * Set the data collection
      *
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param array $collectionData
+     * @return \Browscap\Generator\GeneratorInterface
      */
-    public function setDataCollection(DataCollection $collection);
+    public function setCollectionData(array $collectionData);
 
     /**
      * Get the data collection
      *
-     * @return \Browscap\Generator\DataCollection
+     * @throws \LogicException
+     * @return array
      */
-    public function getDataCollection();
+    public function getCollectionData();
 
     /**
      * Generate and a string containing formatted Browscap data
