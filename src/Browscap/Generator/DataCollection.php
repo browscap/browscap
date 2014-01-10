@@ -12,7 +12,7 @@ class DataCollection
     /**
      * @var array
      */
-    protected $divisions;
+    protected $divisions = array();
 
     /**
      * @var boolean
@@ -135,6 +135,8 @@ class DataCollection
      * Get a single platform data array
      *
      * @param string $platform
+     *
+     * @throws \OutOfBoundsException
      * @return array
      */
     public function getPlatform($platform)

@@ -157,14 +157,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
         $header .= "\n";
 
-        $header .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . "\n\n";
-
-        $header .= '[GJK_Browscap_Version]' . "\n";
-
-        $versionData = $this->getVersionData();
-
-        $header .= 'Version=' . $versionData['version'] . "\n";
-        $header .= 'Released=' . $versionData['released'] . "\n\n";
+        $header .= $this->renderVersion();
 
         return $header;
     }
@@ -370,5 +363,32 @@ class BrowscapIniGenerator implements GeneratorInterface
         }
 
         return $output;
+    }
+
+    /**
+     * renders the version information
+     *
+     * @return string
+     */
+    private function renderVersion()
+    {
+        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . "\n\n";
+
+        $header .= '[GJK_Browscap_Version]' . "\n";
+
+        $versionData = $this->getVersionData();
+
+        if (!isset($versionData['version'])) {
+            $versionData['version'] = '0';
+        }
+
+        if (!isset($versionData['released'])) {
+            $versionData['released'] = '';
+        }
+
+        $header .= 'Version=' . $versionData['version'] . "\n";
+        $header .= 'Released=' . $versionData['released'] . "\n\n";
+
+        return $header;
     }
 }

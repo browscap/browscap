@@ -124,7 +124,7 @@ HERE;
         $files = $this->getUserAgentFixtures();
         foreach ($files as $file)
         {
-        	$data->addSourceFile($file);
+            $data->addSourceFile($file);
         }
 
         $divisions = $data->getDivisions();

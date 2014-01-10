@@ -42,7 +42,7 @@ class GrepCommand extends Command
         $iniFile = $input->getArgument('iniFile');
 
         if (!file_exists($iniFile)) {
-        	throw new \Exception('INI File "' . $iniFile . '" does not exist, or cannot access');
+            throw new \Exception('INI File "' . $iniFile . '" does not exist, or cannot access');
         }
 
         $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';

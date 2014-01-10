@@ -156,13 +156,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
         }
 
         $header .= '</comments>' . "\n";
-        $header .= '<gjk_browscap_version>' . "\n";
-
-        $versionData = $this->getVersionData();
-
-        $header .= '<item name="Version" value="' . $versionData['version'] . '" />' . "\n";
-        $header .= '<item name="Released" value="' . $versionData['released'] . '" />' . "\n";
-        $header .= '</gjk_browscap_version>' . "\n";
+        $header .= $this->renderVersion();
 
         return $header;
     }
@@ -354,5 +348,31 @@ class BrowscapXmlGenerator implements GeneratorInterface
         }
 
         return $output;
+    }
+
+    /**
+     * renders the version information
+     *
+     * @return string
+     */
+    private function renderVersion()
+    {
+        $header = '<gjk_browscap_version>' . "\n";
+
+        $versionData = $this->getVersionData();
+
+        if (!isset($versionData['version'])) {
+            $versionData['version'] = '0';
+        }
+
+        if (!isset($versionData['released'])) {
+            $versionData['released'] = '';
+        }
+
+        $header .= '<item name="Version" value="' . $versionData['version'] . '" />' . "\n";
+        $header .= '<item name="Released" value="' . $versionData['released'] . '" />' . "\n";
+        $header .= '</gjk_browscap_version>' . "\n";
+
+        return $header;
     }
 }
