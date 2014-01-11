@@ -131,6 +131,7 @@ class BuildGenerator
         $collectionParser = new CollectionParser();
         $iniGenerator     = new BrowscapIniGenerator();
         $xmlGenerator     = new BrowscapXmlGenerator();
+        $csvGenerator     = new BrowscapCsvGenerator();
 
         $version = $collection->getVersion();
         $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
@@ -176,12 +177,22 @@ class BuildGenerator
 
         $this->output('<info>Generating browscap.xml [XML]</info>');
 
-        $xmlGenerator->setCollectionData($collectionData);
         $xmlGenerator
+            ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => $version, 'released' => $date))
         ;
 
         file_put_contents($buildFolder . '/browscap.xml', $xmlGenerator->generate());
+
+        $this->output('<info>Generating browscap.csv [CSV]</info>');
+
+        $csvGenerator
+            ->setCollectionData($collectionData)
+            ->setComments($comments)
+            ->setVersionData(array('version' => $version, 'released' => $date))
+        ;
+
+        file_put_contents($buildFolder . '/browscap.csv', $csvGenerator->generate());
     }
 }
