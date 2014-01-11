@@ -225,7 +225,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
 
             $output .= ',"' . $masterParent . '"'; // MasterParent
 
-            $output .= ','
+            $output .= ',"'
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
 
             foreach ($allProperties as $property) {
