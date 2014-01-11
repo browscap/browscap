@@ -266,9 +266,6 @@ class BrowscapCsvGenerator implements GeneratorInterface
             $output .= "\r\n";
         }
 
-        $output .= '</browsercapitems>' . "\n";
-        $output .= '</browsercaps>' . "\n\n";
-
         return $output;
     }
 
