@@ -1,15 +1,15 @@
 {
   "division": "Maxthon #MAJORVER#.#MINORVER#",
   "versions": [4, "4.1"],
-  "sortIndex": 2681,
+  "sortIndex": 2672,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Browser": "Opera",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Browser": "Maxthon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -22,7 +22,6 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Version": "2.12.388",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [

@@ -1,0 +1,69 @@
+{
+    "division": "Konqueror #MAJORVER#.#MINORVER#",
+    "versions": ["4.5","4.6","4.7","4.8","4.9","4.10","4.11"],
+    "sortIndex": 2492,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Konqueror #MAJORVER#.#MINORVER#",
+                "Browser": "Konqueror",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "MajorVer": "#MAJORVER#",
+                "MinorVer": "#MINORVER#",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "CssVersion": "2",
+                "RenderingEngine_Name": "KHTML",
+                "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+                "RenderingEngine_Description": "For Konqueror."
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; *Linux*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#",
+                "Platform": "Linux"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#",
+                "Platform": "Debian"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#",
+                "Platform": "FreeBSD"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#",
+                "Platform": "NetBSD"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
+            "properties": {
+                "Parent": "Konqueror #MAJORVER#.#MINORVER#",
+                "Platform": "Win"
+            }
+        }
+    ]
+}

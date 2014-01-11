@@ -9,17 +9,17 @@ class BuildGenerator
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface
      */
-    protected $output;
+    private $output;
 
     /**
      * @var string
      */
-    protected $resourceFolder;
+    private $resourceFolder;
 
     /**
      * @var string
      */
-    protected $buildFolder;
+    private $buildFolder;
 
     public function __construct($resourceFolder, $buildFolder)
     {
@@ -27,7 +27,7 @@ class BuildGenerator
         $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
-    protected function checkDirectoryExists($directory, $type)
+    private function checkDirectoryExists($directory, $type)
     {
         if (!isset($directory)) {
             throw new \Exception("You must specify a {$type} folder");
@@ -58,7 +58,7 @@ class BuildGenerator
 
         $collection = $this->createDataCollection($version, $this->resourceFolder);
 
-        $this->writeIniFiles($collection, $this->buildFolder);
+        $this->writeFiles($collection, $this->buildFolder);
     }
 
     /**
@@ -80,7 +80,7 @@ class BuildGenerator
      *
      * @return null
      */
-    protected function output($messages)
+    private function output($messages)
     {
         if (isset($this->output) && $this->output instanceof OutputInterface) {
             return $this->output->writeln($messages);
@@ -97,7 +97,7 @@ class BuildGenerator
      *
      * @return \Browscap\Generator\DataCollection
      */
-    protected function createDataCollection($version, $resourceFolder)
+    private function createDataCollection($version, $resourceFolder)
     {
         $collection = new DataCollection($version);
         $collection->addPlatformsFile($resourceFolder . '/platforms.json');
@@ -121,12 +121,12 @@ class BuildGenerator
     }
 
     /**
-     * Write out the various INI file formats
+     * Write out the various INI file formats and the XML file format
      *
      * @param \Browscap\Generator\DataCollection $collection
      * @param string $buildFolder
      */
-    protected function writeIniFiles(DataCollection $collection, $buildFolder)
+    private function writeFiles(DataCollection $collection, $buildFolder)
     {
         $collectionParser = new CollectionParser();
         $iniGenerator     = new BrowscapIniGenerator();

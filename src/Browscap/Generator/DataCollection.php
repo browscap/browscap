@@ -7,27 +7,27 @@ class DataCollection
     /**
      * @var array
      */
-    protected $platforms;
+    private $platforms;
 
     /**
      * @var array
      */
-    protected $divisions = array();
+    private $divisions = array();
 
     /**
      * @var boolean
      */
-    protected $divisionsHaveBeenSorted = false;
+    private $divisionsHaveBeenSorted = false;
 
     /**
      * @var string
      */
-    protected $version;
+    private $version;
 
     /**
      * @var \DateTime
      */
-    protected $generationDate;
+    private $generationDate;
 
     /**
      * Create a new data collection for the specified version
@@ -36,7 +36,7 @@ class DataCollection
      */
     public function __construct($version)
     {
-        $this->version = $version;
+        $this->version        = $version;
         $this->generationDate = new \DateTime();
     }
 
@@ -44,44 +44,48 @@ class DataCollection
      * Load a platforms.json file and parse it into the platforms data array
      *
      * @param string $src Name of the file
+     *
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
     {
         if (!file_exists($src)) {
-            throw new \RuntimeException("File {$src} does not exist.");
+            throw new \RuntimeException('File "' . $src . '" does not exist.');
         }
 
         $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
+        $json        = json_decode($fileContent, true);
 
-        $this->platforms = $json['platforms'];
-
-        if (is_null($this->platforms)) {
+        if (is_null($json)) {
             throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
+
+        $this->platforms = $json['platforms'];
     }
 
     /**
      * Load a JSON file, parse it's JSON and add it to our divisions list
      *
      * @param string $src Name of the file
+     *
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)
     {
         if (!file_exists($src)) {
-            throw new \RuntimeException("File {$src} does not exist.");
+            throw new \RuntimeException('File "' . $src . '" does not exist.');
         }
 
         $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
-
-        $this->divisions[] = $json;
+        $json        = json_decode($fileContent, true);
 
         if (is_null($json)) {
             throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
+
+        $this->divisions[] = $json;
+
+        $this->divisionsHaveBeenSorted = false;
     }
 
     /**
@@ -92,21 +96,24 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            usort($this->divisions, function($arrayA, $arrayB) {
-                $a = $arrayA['sortIndex'];
-                $b = $arrayB['sortIndex'];
+            usort(
+                $this->divisions,
+                function ($arrayA, $arrayB) {
+                    $a = (isset($arrayA['sortIndex']) ? $arrayA['sortIndex'] : 0);
+                    $b = (isset($arrayB['sortIndex']) ? $arrayB['sortIndex'] : 0);
 
-                if ($a < $b) {
-                    return -1;
-                } elseif ($a > $b) {
-                    return +1;
-                } else {
-                    return 0;
+                    if ($a < $b) {
+                        return -1;
+                    } elseif ($a > $b) {
+                        return +1;
+                    } else {
+                        return 0;
+                    }
                 }
-            });
-        }
+            );
 
-        return false;
+            $this->divisionsHaveBeenSorted = true;
+        }
     }
 
     /**
@@ -142,7 +149,7 @@ class DataCollection
     public function getPlatform($platform)
     {
         if (!array_key_exists($platform, $this->platforms)) {
-            throw new \OutOfBoundsException("Platform '{$platform}' does not exist in data");
+            throw new \OutOfBoundsException('Platform "' . $platform . '" does not exist in data');
         }
 
         return $this->platforms[$platform];

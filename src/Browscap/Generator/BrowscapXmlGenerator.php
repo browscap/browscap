@@ -152,87 +152,13 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $header = '<comments>' . "\n";
 
         foreach ($this->getComments() as $comment) {
-            $header .= '<comment>' . $comment . '</comment>' . "\n";
+            $header .= '<comment><![CDATA[' . $comment . ']]></comment>' . "\n";
         }
 
         $header .= '</comments>' . "\n";
         $header .= $this->renderVersion();
 
         return $header;
-    }
-
-    /**
-     * Get the type of a property
-     *
-     * @param string $propertyName
-     * @throws \Exception
-     * @return string
-     */
-    public function getPropertyType($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Comment':
-            case 'Browser':
-            case 'Platform':
-            case 'Platform_Description':
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Description':
-                return 'string';
-            case 'Parent':
-            case 'Platform_Version':
-            case 'RenderingEngine_Version':
-                return 'generic';
-            case 'Version':
-            case 'MajorVer':
-            case 'MinorVer':
-            case 'CssVersion':
-            case 'AolVersion':
-                return 'number';
-            case 'Alpha':
-            case 'Beta':
-            case 'Win16':
-            case 'Win32':
-            case 'Win64':
-            case 'Frames':
-            case 'IFrames':
-            case 'Tables':
-            case 'Cookies':
-            case 'BackgroundSounds':
-            case 'JavaScript':
-            case 'VBScript':
-            case 'JavaApplets':
-            case 'ActiveXControls':
-            case 'isMobileDevice':
-            case 'isSyndicationReader':
-            case 'Crawler':
-                return 'boolean';
-            default:
-                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
-        }
-    }
-
-    /**
-     * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
-     *
-     * @param string $propertyName
-     * @return boolean
-     */
-    public function isExtraProperty($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'Platform_Description':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Version':
-            case 'RenderingEngine_Description':
-                return true;
-            default:
-                return false;
-        }
     }
 
     /**
@@ -314,14 +240,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     continue;
                 }
 
-                if ('lite' === $property || 'sortIndex' === $property || 'Parents' === $property) {
+                if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
                     continue;
                 }
 
                 $value       = $properties[$property];
                 $valueOutput = $value;
 
-                switch ($this->getPropertyType($property)) {
+                switch (CollectionParser::getPropertyType($property)) {
                     case 'boolean':
                         if (true === $value || $value === 'true') {
                             $valueOutput = 'true';
@@ -346,6 +272,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             $output .= '</browscapitem>' . "\n";
         }
+
+        $output .= '</browsercapitems>' . "\n";
+        $output .= '</browsercaps>' . "\n\n";
 
         return $output;
     }

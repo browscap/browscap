@@ -65,28 +65,46 @@ class CollectionParser
                     $majorVer = $dots[0];
                     $minorVer = (isset($dots[1]) ? $dots[1] : 0);
 
-                    $tmp = json_encode($division['userAgents']);
-                    $tmp = str_replace(
+                    $userAgents = json_encode($division['userAgents']);
+                    $userAgents = str_replace(
                         array('#MAJORVER#', '#MINORVER#'),
                         array($majorVer, $minorVer),
-                        $tmp
+                        $userAgents
                     );
 
-                    $userAgents = json_decode($tmp, true);
+                    $divisionName = str_replace(
+                        array('#MAJORVER#', '#MINORVER#'),
+                        array($majorVer, $minorVer),
+                        $division['division']
+                    );
 
-                    $allDivisions += $this->parseDivision($userAgents, $majorVer, $minorVer, $lite, $sortIndex);
+                    $userAgents = json_decode($userAgents, true);
+
+                    $allDivisions += $this->parseDivision(
+                        $userAgents,
+                        $majorVer,
+                        $minorVer,
+                        $lite,
+                        $sortIndex,
+                        $divisionName
+                    );
                 }
             } else {
-                $allDivisions += $this->parseDivision($division['userAgents'], 0, 0, $lite, $sortIndex);
+                $allDivisions += $this->parseDivision(
+                    $division['userAgents'],
+                    0,
+                    0,
+                    $lite,
+                    $sortIndex,
+                    $division['division']
+                );
             }
         }
 
-        /*
-         * full expand of all data
-         *
-         *
-         */
-        return $this->expandProperties($allDivisions);
+        // full expand of all data
+        $allDivisions = $this->expandProperties($allDivisions);
+
+        return $allDivisions;
     }
 
     /**
@@ -97,15 +115,16 @@ class CollectionParser
      * @param string  $minorVer
      * @param boolean $lite
      * @param integer $sortIndex
+     * @param string  $divisionName
      *
      * @return array
      */
-    private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex)
+    private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $output += $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex);
+            $output += $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
         }
 
         return $output;
@@ -119,16 +138,17 @@ class CollectionParser
      * @param string  $minorVer
      * @param boolean $lite
      * @param integer $sortIndex
+     * @param string  $divisionName
      *
-     * @internal param array $uaData
      * @return array
      */
-    private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex)
+    private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
         $output = array(
             $uaData['userAgent'] => array(
                     'lite' => $lite,
-                    'sortIndex' => $sortIndex
+                    'sortIndex' => $sortIndex,
+                    'division' => $divisionName
                 ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
 
@@ -311,5 +331,79 @@ class CollectionParser
         }
 
         return $allDivisions;
+    }
+
+    /**
+     * Get the type of a property
+     *
+     * @param string $propertyName
+     * @throws \Exception
+     * @return string
+     */
+    public static function getPropertyType($propertyName)
+    {
+        switch ($propertyName) {
+            case 'Comment':
+            case 'Browser':
+            case 'Platform':
+            case 'Platform_Description':
+            case 'Device_Name':
+            case 'Device_Maker':
+            case 'RenderingEngine_Name':
+            case 'RenderingEngine_Description':
+                return 'string';
+            case 'Parent':
+            case 'Platform_Version':
+            case 'RenderingEngine_Version':
+                return 'generic';
+            case 'Version':
+            case 'CssVersion':
+            case 'AolVersion':
+            case 'MajorVer':
+            case 'MinorVer':
+                return 'number';
+            case 'Alpha':
+            case 'Beta':
+            case 'Win16':
+            case 'Win32':
+            case 'Win64':
+            case 'Frames':
+            case 'IFrames':
+            case 'Tables':
+            case 'Cookies':
+            case 'BackgroundSounds':
+            case 'JavaScript':
+            case 'VBScript':
+            case 'JavaApplets':
+            case 'ActiveXControls':
+            case 'isMobileDevice':
+            case 'isSyndicationReader':
+            case 'Crawler':
+                return 'boolean';
+            default:
+                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
+        }
+    }
+
+    /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in the "full" versions of the files)
+     *
+     * @param string $propertyName
+     * @return boolean
+     */
+    public static function isExtraProperty($propertyName)
+    {
+        switch ($propertyName) {
+            case 'Device_Name':
+            case 'Device_Maker':
+            case 'Platform_Description':
+            case 'RenderingEngine_Name':
+            case 'RenderingEngine_Version':
+            case 'RenderingEngine_Description':
+                return true;
+            default:
+                return false;
+        }
     }
 }

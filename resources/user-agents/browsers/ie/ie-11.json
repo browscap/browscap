@@ -1,7 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": [11],
-  "sortIndex": 3851,
+  "sortIndex": 3841,
   "lite": true,
   "userAgents": [
     {
@@ -26,7 +26,10 @@
         "ActiveXControls": "true",
         "CssVersion": "3",
         "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "7.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       },
       "children": [
         {

@@ -135,10 +135,17 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     public function generate()
     {
+        if (!empty($this->collectionData['DefaultProperties'])) {
+            $defaultPropertiyData = $this->collectionData['DefaultProperties'];
+        } else {
+            $defaultPropertiyData = array();
+        }
+
+
         return $this->render(
             $this->collectionData,
             $this->renderHeader(),
-            array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
+            array_keys(array('Parent' => '') + $defaultPropertiyData)
         );
     }
 
@@ -160,80 +167,6 @@ class BrowscapIniGenerator implements GeneratorInterface
         $header .= $this->renderVersion();
 
         return $header;
-    }
-
-    /**
-     * Get the type of a property
-     *
-     * @param string $propertyName
-     * @throws \Exception
-     * @return string
-     */
-    public function getPropertyType($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Comment':
-            case 'Browser':
-            case 'Platform':
-            case 'Platform_Description':
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Description':
-                return 'string';
-            case 'Parent':
-            case 'Platform_Version':
-            case 'RenderingEngine_Version':
-                return 'generic';
-            case 'Version':
-            case 'MajorVer':
-            case 'MinorVer':
-            case 'CssVersion':
-            case 'AolVersion':
-                return 'number';
-            case 'Alpha':
-            case 'Beta':
-            case 'Win16':
-            case 'Win32':
-            case 'Win64':
-            case 'Frames':
-            case 'IFrames':
-            case 'Tables':
-            case 'Cookies':
-            case 'BackgroundSounds':
-            case 'JavaScript':
-            case 'VBScript':
-            case 'JavaApplets':
-            case 'ActiveXControls':
-            case 'isMobileDevice':
-            case 'isSyndicationReader':
-            case 'Crawler':
-                return 'boolean';
-            default:
-                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
-        }
-    }
-
-    /**
-     * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
-     *
-     * @param string $propertyName
-     * @return boolean
-     */
-    public function isExtraProperty($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'Platform_Description':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Version':
-            case 'RenderingEngine_Description':
-                return true;
-            default:
-                return false;
-        }
     }
 
     /**
@@ -319,7 +252,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']
             ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $key . "\n\n";
+                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . "\n\n";
             }
 
             $output .= '[' . $key . ']' . "\n";
@@ -329,14 +262,18 @@ class BrowscapIniGenerator implements GeneratorInterface
                     continue;
                 }
 
-                if ('lite' === $property || 'sortIndex' === $property || 'Parents' === $property) {
+                if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                    continue;
+                }
+
+                if ((!$this->includeExtraProperties) && CollectionParser::isExtraProperty($property)) {
                     continue;
                 }
 
                 $value       = $propertiesToOutput[$property];
                 $valueOutput = $value;
 
-                switch ($this->getPropertyType($property)) {
+                switch (CollectionParser::getPropertyType($property)) {
                     case 'string':
                         if ($this->quoteStringProperties) {
                             $valueOutput = '"' . $value . '"';
