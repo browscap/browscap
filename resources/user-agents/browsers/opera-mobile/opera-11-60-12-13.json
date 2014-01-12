@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": [11.60,12.00,12.10,12.11,12.12,12.13],
-  "sortIndex": 2854,
+  "sortIndex": 2874,
   "lite": true,
   "userAgents": [
     {

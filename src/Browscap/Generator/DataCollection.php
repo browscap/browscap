@@ -96,20 +96,18 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            usort(
-                $this->divisions,
-                function ($arrayA, $arrayB) {
-                    $a = (isset($arrayA['sortIndex']) ? $arrayA['sortIndex'] : 0);
-                    $b = (isset($arrayB['sortIndex']) ? $arrayB['sortIndex'] : 0);
+            $sortIndex    = array();
+            $sortPosition = array();
 
-                    if ($a < $b) {
-                        return -1;
-                    } elseif ($a > $b) {
-                        return +1;
-                    } else {
-                        return 0;
-                    }
-                }
+            foreach ($this->divisions as $key => $division) {
+                $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
+                $sortPosition[$key] = $key;
+            }
+
+            array_multisort(
+                $sortIndex, SORT_ASC,
+                $sortPosition, SORT_DESC, // if the sortIndex is identical the later added file comes first
+                $this->divisions
             );
 
             $this->divisionsHaveBeenSorted = true;
