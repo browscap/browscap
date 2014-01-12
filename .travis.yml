@@ -1,8 +1,8 @@
 language: php
 
 php:
-  - 5.5
   - 5.4
+  - 5.5
   - hhvm
 
 matrix:
@@ -13,9 +13,9 @@ before_script:
   - composer self-update
   - composer install --dev --prefer-source
   - php vendor/autoload.php
+  - mkdir -p builds/logs
 
 script:
-  - mkdir -p builds/logs
   - phpunit --configuration travis.phpunit.xml.dist --colors --verbose
 
 after_script:

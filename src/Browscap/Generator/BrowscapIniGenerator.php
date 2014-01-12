@@ -2,7 +2,8 @@
 
 namespace Browscap\Generator;
 
-class BrowscapIniGenerator implements GeneratorInterface
+class BrowscapIniGenerator
+    implements GeneratorInterface
 {
     /**
      * @var bool
@@ -29,15 +30,16 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     public function __construct()
     {
-        $this->quoteStringProperties = false;
+        $this->quoteStringProperties  = false;
         $this->includeExtraProperties = true;
-        $this->liteOnly = false;
+        $this->liteOnly               = false;
     }
 
     /**
      * Set the data collection
      *
-     * @param  \Browscap\Generator\DataCollection       $collection
+     * @param  \Browscap\Generator\DataCollection $collection
+     *
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
     public function setDataCollection(DataCollection $collection)
@@ -65,16 +67,17 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Set the options for generation
      *
-     * @param  boolean                                  $quoteStringProperties
-     * @param  boolean                                  $includeExtraProperties
-     * @param  boolean                                  $liteOnly
+     * @param  boolean $quoteStringProperties
+     * @param  boolean $includeExtraProperties
+     * @param  boolean $liteOnly
+     *
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
-        $this->quoteStringProperties = (bool) $quoteStringProperties;
+        $this->quoteStringProperties  = (bool) $quoteStringProperties;
         $this->includeExtraProperties = (bool) $includeExtraProperties;
-        $this->liteOnly = (bool) $liteOnly;
+        $this->liteOnly               = (bool) $liteOnly;
 
         return $this;
     }
@@ -88,7 +91,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     {
         $output = $this->renderHeader();
 
-        foreach ($this->getDataCollection()->getDivisions() as $division) {
+        foreach ($this->getDataCollection()
+                     ->getDivisions() as $division) {
             if ($division['division'] == 'Browscap Version') {
                 continue;
             }
@@ -105,7 +109,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                         $minorVer = '0';
                     } else {
                         $majorVer = substr($version, 0, $dotPos);
-                        $minorVer = substr($version, ($dotPos+1));
+                        $minorVer = substr($version, ($dotPos + 1));
                     }
 
                     $tmp = json_encode($division['userAgents']);
@@ -134,9 +138,14 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     protected function renderHeader()
     {
-        $version = $this->getDataCollection()->getVersion();
-        $dateUtc = $this->getDataCollection()->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
-        $date = $this->getDataCollection()->getGenerationDate()->format('r');
+        $version = $this->getDataCollection()
+            ->getVersion();
+        $dateUtc = $this->getDataCollection()
+            ->getGenerationDate()
+            ->format('l, F j, Y \a\t h:i A T');
+        $date    = $this->getDataCollection()
+            ->getGenerationDate()
+            ->format('r');
 
         $header = "";
 
@@ -163,6 +172,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @param  array  $userAgents
      * @param  string $divisionName
+     *
      * @return string
      */
     protected function renderDivision(array $userAgents, $divisionName)
@@ -179,7 +189,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render a single User Agent block
      *
-     * @param  array  $uaData
+     * @param  array $uaData
+     *
      * @return string
      */
     protected function renderUserAgent(array $uaData)
@@ -213,6 +224,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @param  string $ua
      * @param  array  $uaDataChild
+     *
      * @return string
      */
     protected function renderChildren($ua, array $uaDataChild)
@@ -224,13 +236,13 @@ class BrowscapIniGenerator implements GeneratorInterface
         // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $platformData = $this->getDataCollection()->getPlatform($platform);
+                $platformData = $this->getDataCollection()
+                    ->getPlatform($platform);
 
                 $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
                 $output .= $this->renderProperties(['Parent' => $ua]);
 
-                if (isset($uaDataChild['properties'])
-                    && is_array($uaDataChild['properties'])
+                if (isset($uaDataChild['properties']) && is_array($uaDataChild['properties'])
                 ) {
                     $output .= $this->renderProperties(
                         $uaDataChild['properties'] + $platformData['properties']
@@ -245,8 +257,7 @@ class BrowscapIniGenerator implements GeneratorInterface
             $output .= '[' . $uaBase . "]\n";
             $output .= $this->renderProperties(['Parent' => $ua]);
 
-            if (isset($uaDataChild['properties'])
-                && is_array($uaDataChild['properties'])
+            if (isset($uaDataChild['properties']) && is_array($uaDataChild['properties'])
             ) {
                 $output .= $this->renderProperties($uaDataChild['properties']);
             }
@@ -260,7 +271,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Render the properties of a single User Agent
      *
-     * @param  array  $properties
+     * @param  array $properties
+     *
      * @return string
      */
     protected function renderProperties(array $properties)
@@ -286,7 +298,8 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Get the type of a property
      *
-     * @param  string     $propertyName
+     * @param  string $propertyName
+     *
      * @throws \Exception
      * @return string
      */
@@ -339,7 +352,8 @@ class BrowscapIniGenerator implements GeneratorInterface
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *
-     * @param  string  $propertyName
+     * @param  string $propertyName
+     *
      * @return boolean
      */
     public function isExtraProperty($propertyName)

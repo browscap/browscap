@@ -2,16 +2,17 @@
 
 namespace Browscap\Command;
 
+use Browscap\Parser\IniParser;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Input\InputArgument;
-use Browscap\Parser\IniParser;
 
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class DiffCommand extends Command
+class DiffCommand
+    extends Command
 {
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface
@@ -25,12 +26,12 @@ class DiffCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $this
-            ->setName('diff')
+        $this->setName('diff')
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::REQUIRED, 'The right .ini file to compare');
@@ -38,21 +39,24 @@ class DiffCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->diffsFound = 0;
-        $this->output = $output;
+        $this->output     = $output;
 
-        $leftFilename = $input->getArgument('left');
+        $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
         $iniParserLeft = new IniParser($leftFilename);
-        $leftFile = $iniParserLeft->setShouldSort(true)->parse();
+        $leftFile      = $iniParserLeft->setShouldSort(true)
+            ->parse();
 
         $iniParserRight = new IniParser($rightFilename);
-        $rightFile = $iniParserRight->setShouldSort(true)->parse();
+        $rightFile      = $iniParserRight->setShouldSort(true)
+            ->parse();
 
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);
         $rtlDiff = $this->recursiveArrayDiff($rightFile, $leftFile);
@@ -70,9 +74,19 @@ class DiffCommand extends Command
 
             foreach ($ltrDiff as $section => $props) {
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
-                    $this->compareSectionProperties($section, $props, $leftFile[$section], (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
+                    $this->compareSectionProperties(
+                        $section,
+                        $props,
+                        $leftFile[$section],
+                        (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null),
+                        $rightFile[$section]
+                    );
                 } else {
-                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on LEFT</error>', $section, "\n");
+                    $msg = sprintf(
+                        '<comment>[%s]</comment>%s<error>Whole section only on LEFT</error>',
+                        $section,
+                        "\n"
+                    );
                     $this->output->writeln("\n" . $msg);
                     $this->diffsFound++;
                 }
@@ -88,23 +102,44 @@ class DiffCommand extends Command
                 }
 
                 if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
-                    $this->compareSectionProperties($section, (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null), $leftFile[$section], $props, $rightFile[$section]);
+                    $this->compareSectionProperties(
+                        $section,
+                        (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null),
+                        $leftFile[$section],
+                        $props,
+                        $rightFile[$section]
+                    );
                 } else {
-                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on RIGHT</error>', $section, "\n");
+                    $msg = sprintf(
+                        '<comment>[%s]</comment>%s<error>Whole section only on RIGHT</error>',
+                        $section,
+                        "\n"
+                    );
                     $this->output->writeln("\n" . $msg);
                     $this->diffsFound++;
                 }
             }
 
-            $msg = sprintf('%sThere %s %d difference%s found in the comparison.', "\n", ($this->diffsFound == 1 ? 'was'  : 'were'), $this->diffsFound, ($this->diffsFound == 1 ? '' : 's'));
+            $msg = sprintf(
+                '%sThere %s %d difference%s found in the comparison.',
+                "\n",
+                ($this->diffsFound == 1 ? 'was' : 'were'),
+                $this->diffsFound,
+                ($this->diffsFound == 1 ? '' : 's')
+            );
             $this->output->writeln($msg);
         } else {
             $this->output->writeln('<info>No differences found, hooray!</info>');
         }
     }
 
-    public function compareSectionProperties($section, $leftPropsDifferences, $leftProps, $rightPropsDifferences, $rightProps)
-    {
+    public function compareSectionProperties(
+        $section,
+        $leftPropsDifferences,
+        $leftProps,
+        $rightPropsDifferences,
+        $rightProps
+    ) {
         $msg = sprintf('<comment>[%s]</comment>', $section);
         $this->output->writeln("\n" . $msg);
 

@@ -36,14 +36,15 @@ class DataCollection
      */
     public function __construct($version)
     {
-        $this->version = $version;
+        $this->version        = $version;
         $this->generationDate = new \DateTime();
     }
 
     /**
      * Load a platforms.json file and parse it into the platforms data array
      *
-     * @param  string     $src Name of the file
+     * @param  string $src Name of the file
+     *
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
@@ -53,7 +54,7 @@ class DataCollection
         }
 
         $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
+        $json        = json_decode($fileContent, true);
 
         $this->platforms = $json['platforms'];
 
@@ -65,7 +66,8 @@ class DataCollection
     /**
      * Load a JSON file, parse it's JSON and add it to our divisions list
      *
-     * @param  string     $src Name of the file
+     * @param  string $src Name of the file
+     *
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)
@@ -75,7 +77,7 @@ class DataCollection
         }
 
         $fileContent = file_get_contents($src);
-        $json = json_decode($fileContent, true);
+        $json        = json_decode($fileContent, true);
 
         $this->divisions[] = $json;
 
@@ -92,18 +94,21 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            usort($this->divisions, function ($arrayA, $arrayB) {
-                $a = $arrayA['sortIndex'];
-                $b = $arrayB['sortIndex'];
+            usort(
+                $this->divisions,
+                function ($arrayA, $arrayB) {
+                    $a = $arrayA['sortIndex'];
+                    $b = $arrayB['sortIndex'];
 
-                if ($a < $b) {
-                    return -1;
-                } elseif ($a > $b) {
-                    return +1;
-                } else {
-                    return 0;
+                    if ($a < $b) {
+                        return -1;
+                    } elseif ($a > $b) {
+                        return +1;
+                    } else {
+                        return 0;
+                    }
                 }
-            });
+            );
         }
 
         return false;
@@ -135,6 +140,8 @@ class DataCollection
      * Get a single platform data array
      *
      * @param  string $platform
+     *
+     * @throws \OutOfBoundsException
      * @return array
      */
     public function getPlatform($platform)

@@ -24,7 +24,7 @@ class BuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     protected function checkDirectoryExists($directory, $type)
@@ -65,6 +65,7 @@ class BuildGenerator
      * Sets the optional output interface
      *
      * @param  \Symfony\Component\Console\Output\OutputInterface $outputInterface
+     *
      * @return \Browscap\Generator\BuildGenerator
      */
     public function setOutput(OutputInterface $outputInterface)
@@ -78,6 +79,8 @@ class BuildGenerator
      * If an output interface has been set, write to it. This does nothing if setOutput has not been called.
      *
      * @param string|array $messages
+     *
+     * @return string|null
      */
     protected function output($messages)
     {
@@ -91,7 +94,9 @@ class BuildGenerator
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param  string                             $resourceFolder
+     * @param  string $version
+     * @param  string $resourceFolder
+     *
      * @return \Browscap\Generator\DataCollection
      */
     protected function createDataCollection($version, $resourceFolder)
@@ -104,6 +109,7 @@ class BuildGenerator
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
             if (!$file->isFile() || $file->getExtension() != 'json') {
                 continue;
             }

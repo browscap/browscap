@@ -35,7 +35,7 @@
         "symfony/console": "2.2.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
+        "phpunit/phpunit": "3.7.*",
         "browscap/browscap-php": "*@dev"
     },
     "autoload": {
