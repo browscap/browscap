@@ -36,9 +36,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "browscap/browscap-php": "*@dev",
-        "satooshi/php-coveralls": "dev-master",
-        "phpunit/phpcov": "2.0.*@dev"
+        "browscap/browscap-php": "*@dev"
     },
     "autoload": {
         "psr-0": { "": "src/" }
