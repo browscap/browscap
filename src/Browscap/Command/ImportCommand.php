@@ -11,8 +11,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class ImportCommand
-    extends Command
+class ImportCommand extends Command
 {
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface

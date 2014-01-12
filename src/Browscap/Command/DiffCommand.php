@@ -11,8 +11,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class DiffCommand
-    extends Command
+class DiffCommand extends Command
 {
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface

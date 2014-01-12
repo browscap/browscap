@@ -2,8 +2,7 @@
 
 namespace Browscap\Generator;
 
-class BrowscapIniGenerator
-    implements GeneratorInterface
+class BrowscapIniGenerator implements GeneratorInterface
 {
     /**
      * @var bool

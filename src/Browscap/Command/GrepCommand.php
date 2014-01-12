@@ -12,8 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class GrepCommand
-    extends Command
+class GrepCommand extends Command
 {
     /**
      * @var \phpbrowscap\Browscap

@@ -12,8 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * @author James Titcumb <james@asgrim.com>
  */
-class BuildCommand
-    extends Command
+class BuildCommand extends Command
 {
     /**
      * (non-PHPdoc)
