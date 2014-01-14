@@ -318,7 +318,8 @@
       "properties": {
         "Platform": "Win95",
         "Platform_Version": "95",
-        "Platform_Description": "Windows 95"
+        "Platform_Description": "Windows 95",
+        "Win32": "true"
       }
     },
     "Win95_2": {
@@ -326,7 +327,8 @@
       "properties": {
         "Platform": "Win95",
         "Platform_Version": "95",
-        "Platform_Description": "Windows 95"
+        "Platform_Description": "Windows 95",
+        "Win32": "true"
       }
     },
     "Win98": {
@@ -334,7 +336,8 @@
       "properties": {
         "Platform": "Win98",
         "Platform_Version": "98",
-        "Platform_Description": "Windows 98"
+        "Platform_Description": "Windows 98",
+        "Win32": "true"
       }
     },
     "Win98_2": {
@@ -342,7 +345,8 @@
       "properties": {
         "Platform": "Win98",
         "Platform_Version": "98",
-        "Platform_Description": "Windows 98"
+        "Platform_Description": "Windows 98",
+        "Win32": "true"
       }
     },
     "WinME": {
@@ -350,7 +354,8 @@
       "properties": {
         "Platform": "WinME",
         "Platform_Version": "ME",
-        "Platform_Description": "Windows ME"
+        "Platform_Description": "Windows ME",
+        "Win32": "true"
       }
     },
     "WinME_2": {
@@ -358,7 +363,8 @@
       "properties": {
         "Platform": "WinME",
         "Platform_Version": "ME",
-        "Platform_Description": "Windows ME"
+        "Platform_Description": "Windows ME",
+        "Win32": "true"
       }
     },
     "NT4": {
@@ -366,7 +372,8 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
       }
     },
     "NT4_2": {
@@ -374,7 +381,8 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
       }
     },
     "NT4_1": {
@@ -382,7 +390,8 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Version": "4.1",
-        "Platform_Description": "Windows NT"
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
       }
     },
     "NT4_64": {
@@ -409,7 +418,8 @@
       "properties": {
         "Platform": "Win2000",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
       }
     },
     "Win2000_3": {
@@ -417,7 +427,8 @@
       "properties": {
         "Platform": "Win2000",
         "Platform_Version": "5.01",
-        "Platform_Description": "Windows 2000"
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
       }
     },
     "Win2000_2": {
@@ -425,7 +436,8 @@
       "properties": {
         "Platform": "Win2000",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
       }
     },
     "Win2000_64": {
@@ -453,7 +465,8 @@
       "properties": {
         "Platform": "WinXP",
         "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
+        "Platform_Description": "Windows XP",
+        "Win32": "true"
       }
     },
     "WinXPa_64": {
@@ -491,7 +504,8 @@
       "properties": {
         "Platform": "WinXP",
         "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP"
+        "Platform_Description": "Windows XP",
+        "Win32": "true"
       }
     },
     "WinXPb_64": {
@@ -529,7 +543,8 @@
       "properties": {
         "Platform": "WinVista",
         "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
+        "Platform_Description": "Windows Vista",
+        "Win32": "true"
       }
     },
     "Vista_64": {
@@ -567,7 +582,8 @@
       "properties": {
         "Platform": "Win7",
         "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
+        "Platform_Description": "Windows 7",
+        "Win32": "true"
       }
     },
     "Win7_64": {
@@ -605,7 +621,8 @@
       "properties": {
         "Platform": "Win8",
         "Platform_Version": "6.2",
-        "Platform_Description": "Windows 8"
+        "Platform_Description": "Windows 8",
+        "Win32": "true"
       }
     },
     "Win8_64": {
@@ -633,7 +650,8 @@
       "properties": {
         "Platform": "Win8.1",
         "Platform_Version": "6.3",
-        "Platform_Description": "Windows 8.1"
+        "Platform_Description": "Windows 8.1",
+        "Win32": "true"
       }
     },
     "Win8_1_64": {
@@ -812,7 +830,7 @@
       "match": "*Windows Mobile",
       "properties": {
         "Platform": "WinMobile",
-        "Platform_Description": "Windows Mobile",
+        "Platform_Description": "Windows Mobile OS",
         "isMobileDevice": "true"
       }
     },
@@ -821,6 +839,7 @@
       "properties": {
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
+        "Platform_Description": "Windows Phone OS 7",
         "isMobileDevice": "true"
       }
     },
@@ -829,7 +848,9 @@
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
-        "isMobileDevice": "true"
+        "Platform_Description": "Windows Phone OS 8",
+        "isMobileDevice": "true",
+        "Win32": "false"
       }
     },
     "AndroidMobile": {
@@ -847,7 +868,8 @@
       "properties": {
         "Platform": "Android",
         "Device_Name": "Android",
-        "Device_Maker": "Google"
+        "Device_Maker": "Google",
+        "Win32": "false"
       }
     },
     "FreeBSD": {
@@ -896,13 +918,15 @@
       "match": "*BlackBerry; U*",
       "properties": {
         "Platform": "RIM OS",
-        "Win32": "false"
+        "Win32": "false",
+        "isMobileDevice": "true"
       }
     },
     "SymbianOS": {
       "match": "*SymbianOS*",
       "properties": {
         "Platform": "SymbianOS",
+        "Win32": "false",
         "isMobileDevice": "true"
       }
     },
@@ -910,6 +934,7 @@
       "match": "*UNIX*",
       "properties": {
         "Platform": "Unix",
+        "Win32": "false",
         "isMobileDevice": "false"
       }
     }

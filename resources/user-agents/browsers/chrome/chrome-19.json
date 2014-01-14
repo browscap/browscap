@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [19],
-  "sortIndex": 990,
+  "sortIndex": 1134,
   "lite": true,
   "userAgents": [
     {
@@ -40,7 +40,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# on Android",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Version": "#MAJORVER#.#MINORVER#",

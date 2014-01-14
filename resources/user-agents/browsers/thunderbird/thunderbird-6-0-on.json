@@ -1,0 +1,97 @@
+{
+  "division": "Thunderbird #MAJORVER#.#MINORVER#",
+  "versions": [6,7,8,9,10,11,12,13,14,15,16,17,24,"24.1","24.2"],
+  "sortIndex": 3486,
+  "userAgents": [
+    {
+      "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Browser": "Thunderbird",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT #MAJORVER#.#MINORVER#*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "WinVista",
+        "Platform_Version": "#MAJORVER#.#MINORVER#",
+        "Platform_Description": "Windows Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Platform": "Win8",
+        "Platform_Description": "Windows 8"
+      }
+    }
+  ]
+}

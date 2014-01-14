@@ -1,7 +1,7 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
   "versions": ["3.5"],
-  "sortIndex": 3330,
+  "sortIndex": 3370,
   "lite": true,
   "userAgents": [
     {
