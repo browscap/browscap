@@ -61,7 +61,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 
         $file = '/hopefully/this/file/does/not/exist';
 
-        $this->setExpectedException('\RuntimeException', 'File ' . $file . ' does not exist');
+        $this->setExpectedException('\RuntimeException', 'File "' . $file . '" does not exist');
         $data->addPlatformsFile($file);
     }
 
@@ -89,7 +89,7 @@ HERE;
 
         $data->addPlatformsFile($this->getPlatformsJsonFixture());
 
-        $this->setExpectedException('\OutOfBoundsException', 'Platform \'NotExists\' does not exist in data');
+        $this->setExpectedException('\OutOfBoundsException', 'Platform "NotExists" does not exist in data');
         $data->getPlatform('NotExists');
     }
 
@@ -122,6 +122,7 @@ HERE;
         $data = new DataCollection('1234');
 
         $files = $this->getUserAgentFixtures();
+
         foreach ($files as $file) {
             $data->addSourceFile($file);
         }
@@ -139,7 +140,7 @@ HERE;
 
         $file = '/hopefully/this/file/does/not/exist';
 
-        $this->setExpectedException('\RuntimeException', 'File ' . $file . ' does not exist');
+        $this->setExpectedException('\RuntimeException', 'File "' . $file . '" does not exist');
         $data->addSourceFile($file);
     }
 

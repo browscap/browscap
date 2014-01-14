@@ -1,7 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": [11],
-  "sortIndex": 3851,
+  "sortIndex": 3841,
   "lite": true,
   "userAgents": [
     {
@@ -26,11 +26,14 @@
         "ActiveXControls": "true",
         "CssVersion": "3",
         "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "7.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       },
       "children": [
         {
-          "match": "Mozilla\/*(#PLATFORM#*Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Win7_32", "Win7_64",
             "Win8_32", "Win8_64",
@@ -38,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(compatible; MSIE 7.0; #PLATFORM#*Trident\/7.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 7.0; #PLATFORM#Trident\/7.0*)*",
           "platforms": [
             "Win7_32", "Win7_64",
             "Win8_32", "Win8_64",
@@ -46,7 +49,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(compatible; MSIE 8.0; #PLATFORM#*Trident\/7.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 8.0; #PLATFORM#Trident\/7.0*)*",
           "platforms": [
             "Win7_32", "Win7_64",
             "Win8_32", "Win8_64",
@@ -54,7 +57,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(compatible; MSIE 9.0; #PLATFORM#*Trident\/7.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 9.0; #PLATFORM#Trident\/7.0*)*",
           "platforms": [
             "Win7_32", "Win7_64",
             "Win8_32", "Win8_64",
@@ -62,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(compatible; MSIE 10.0; #PLATFORM#*Trident\/7.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 10.0; #PLATFORM#Trident\/7.0*)*",
           "platforms": [
             "Win7_32", "Win7_64",
             "Win8_32", "Win8_64",
@@ -70,7 +73,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*#PLATFORM#; ARM; Trident\/7.0*)",
+          "match": "Mozilla\/*(#PLATFORM#; ARM; Trident\/7.0*)",
           "platforms": [
             "Win8_1_32", "Win8_1_64", "Win8_1_x64"
           ]

@@ -7,22 +7,32 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * @var bool
      */
-    protected $quoteStringProperties;
+    private $quoteStringProperties;
 
     /**
      * @var bool
      */
-    protected $includeExtraProperties;
+    private $includeExtraProperties;
 
     /**
      * @var bool
      */
-    protected $liteOnly;
+    private $liteOnly;
 
     /**
-     * @var \Browscap\Generator\DataCollection
+     * @var array
      */
-    protected $collection;
+    private $collectionData;
+
+    /**
+     * @var array
+     */
+    private $comments = array();
+
+    /**
+     * @var array
+     */
+    private $versionData = array();
 
     /**
      * Set defaults
@@ -37,13 +47,13 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * Set the data collection
      *
-     * @param  \Browscap\Generator\DataCollection $collection
+     * @param array $collectionData
      *
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
-    public function setDataCollection(DataCollection $collection)
+    public function setCollectionData(array $collectionData)
     {
-        $this->collection = $collection;
+        $this->collectionData = $collectionData;
 
         return $this;
     }
@@ -52,15 +62,55 @@ class BrowscapIniGenerator implements GeneratorInterface
      * Get the data collection
      *
      * @throws \LogicException
-     * @return \Browscap\Generator\DataCollection
+     * @return array
      */
-    public function getDataCollection()
+    public function getCollectionData()
     {
-        if (!isset($this->collection)) {
+        if (!isset($this->collectionData)) {
             throw new \LogicException("Data collection has not been set yet - call setDataCollection");
         }
 
-        return $this->collection;
+        return $this->collectionData;
+    }
+
+    /**
+     * @param array $comments
+     *
+     * @return \Browscap\Generator\BrowscapIniGenerator
+     */
+    public function setComments(array $comments)
+    {
+        $this->comments = $comments;
+
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getComments()
+    {
+        return $this->comments;
+    }
+
+    /**
+     * @param array $versionData
+     *
+     * @return \Browscap\Generator\BrowscapIniGenerator
+     */
+    public function setVersionData(array $versionData)
+    {
+        $this->versionData = $versionData;
+
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getVersionData()
+    {
+        return $this->versionData;
     }
 
     /**
@@ -88,46 +138,18 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     public function generate()
     {
-        $output = $this->renderHeader();
-
-        foreach ($this->getDataCollection()
-                     ->getDivisions() as $division) {
-            if ($division['division'] == 'Browscap Version') {
-                continue;
-            }
-
-            if ($this->liteOnly && (!isset($division['lite']) || $division['lite'] == false)) {
-                continue;
-            }
-
-            if (isset($division['versions']) && is_array($division['versions'])) {
-                foreach ($division['versions'] as $version) {
-                    $dotPos = strpos($version, ".");
-                    if ($dotPos === false) {
-                        $majorVer = $version;
-                        $minorVer = '0';
-                    } else {
-                        $majorVer = substr($version, 0, $dotPos);
-                        $minorVer = substr($version, ($dotPos + 1));
-                    }
-
-                    $tmp = json_encode($division['userAgents']);
-                    $tmp = str_replace('#MAJORVER#', $majorVer, $tmp);
-                    $tmp = str_replace('#MINORVER#', $minorVer, $tmp);
-
-                    $userAgents = json_decode($tmp, true);
-
-                    $divisionName = str_replace('#MAJORVER#', $majorVer, $division['division']);
-                    $divisionName = str_replace('#MINORVER#', $minorVer, $divisionName);
-
-                    $output .= $this->renderDivision($userAgents, $divisionName);
-                }
-            } else {
-                $output .= $this->renderDivision($division['userAgents'], $division['division']);
-            }
+        if (!empty($this->collectionData['DefaultProperties'])) {
+            $defaultPropertiyData = $this->collectionData['DefaultProperties'];
+        } else {
+            $defaultPropertiyData = array();
         }
 
-        return $output;
+
+        return $this->render(
+            $this->collectionData,
+            $this->renderHeader(),
+            array_keys(array('Parent' => '') + $defaultPropertiyData)
+        );
     }
 
     /**
@@ -135,130 +157,146 @@ class BrowscapIniGenerator implements GeneratorInterface
      *
      * @return string
      */
-    protected function renderHeader()
+    private function renderHeader()
     {
-        $version = $this->getDataCollection()
-            ->getVersion();
-        $dateUtc = $this->getDataCollection()
-            ->getGenerationDate()
-            ->format('l, F j, Y \a\t h:i A T');
-        $date    = $this->getDataCollection()
-            ->getGenerationDate()
-            ->format('r');
+        $header = '';
 
-        $header = "";
+        foreach ($this->getComments() as $comment) {
+            $header .= ';;; ' . $comment . "\n";
+        }
 
-        $header .= ";;; Provided courtesy of http://tempdownloads.browserscap.com/\n";
-        $header .= ";;; Created on {$dateUtc}\n\n";
+        $header .= "\n";
 
-        $header .= ";;; Keep up with the latest goings-on with the project:\n";
-        $header .= ";;; Follow us on Twitter <https://twitter.com/browscap>, or...\n";
-        $header .= ";;; Like us on Facebook <https://facebook.com/browscap>, or...\n";
-        $header .= ";;; Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...\n";
-        $header .= ";;; Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.\n\n";
-
-        $header .= ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version\n\n";
-
-        $header .= "[GJK_Browscap_Version]\n";
-        $header .= "Version={$version}\n";
-        $header .= "Released={$date}\n\n";
+        $header .= $this->renderVersion();
 
         return $header;
     }
 
     /**
-     * Render a single division
+     * renders all found useragents into a string
      *
-     * @param  array  $userAgents
-     * @param  string $divisionName
-     *
-     * @return string
-     */
-    protected function renderDivision(array $userAgents, $divisionName)
-    {
-        $output = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $divisionName . "\n\n";
-
-        foreach ($userAgents as $uaData) {
-            $output .= $this->renderUserAgent($uaData);
-        }
-
-        return $output;
-    }
-
-    /**
-     * Render a single User Agent block
-     *
-     * @param  array $uaData
+     * @param $allDivisions
+     * @param $output
+     * @param $allProperties
      *
      * @return string
      */
-    protected function renderUserAgent(array $uaData)
+    private function render($allDivisions, $output, $allProperties)
     {
-        $ua = $uaData['userAgent'];
-
-        $output = "[" . $ua . "]\n";
-        $output .= $this->renderProperties($uaData['properties']);
-        $output .= "\n";
-
-        if (isset($uaData['children'])) {
-            if (is_array($uaData['children']) && is_numeric(array_keys($uaData['children'])[0])) {
-
-                foreach ($uaData['children'] as $child) {
-                    if (!is_array($child)) {
-                        continue;
-                    }
-
-                    $output .= $this->renderChildren($ua, $child);
-                }
-            } elseif (is_array($uaData['children'])) {
-                $output .= $this->renderChildren($ua, $uaData['children']);
+        foreach ($allDivisions as $key => $properties) {
+            if (!isset($properties['Version'])) {
+                continue;
             }
-        }
 
-        return $output;
-    }
-
-    /**
-     * Render the children section in a single User Agent block
-     *
-     * @param  string $ua
-     * @param  array  $uaDataChild
-     *
-     * @return string
-     */
-    protected function renderChildren($ua, array $uaDataChild)
-    {
-        $uaBase = $uaDataChild['match'];
-        $output = '';
-
-        // @todo This needs work here. What if we specify platforms AND versions?
-        // We need to make it so it does as many permutations as necessary.
-        if (isset($uaDataChild['platforms'])) {
-            foreach ($uaDataChild['platforms'] as $platform) {
-                $platformData = $this->getDataCollection()
-                    ->getPlatform($platform);
-
-                $output .= '[' . str_replace('#PLATFORM#', $platformData['match'], $uaBase) . "]\n";
-                $output .= $this->renderProperties(['Parent' => $ua]);
-
-                if (isset($uaDataChild['properties']) && is_array($uaDataChild['properties'])
-                ) {
-                    $output .= $this->renderProperties(
-                        $uaDataChild['properties'] + $platformData['properties']
-                    );
-                } else {
-                    $output .= $this->renderProperties($platformData['properties']);
-                }
-
-                $output .= "\n";
-            }
-        } else {
-            $output .= '[' . $uaBase . "]\n";
-            $output .= $this->renderProperties(['Parent' => $ua]);
-
-            if (isset($uaDataChild['properties']) && is_array($uaDataChild['properties'])
+            if (!isset($properties['Parent'])
+                && 'DefaultProperties' !== $key
+                && '*' !== $key
             ) {
-                $output .= $this->renderProperties($uaDataChild['properties']);
+                continue;
+            }
+
+            if ($this->liteOnly && (!isset($properties['lite']) || !$properties['lite'])) {
+                continue;
+            }
+
+            if ('DefaultProperties' !== $key && '*' !== $key) {
+                if (!isset($allDivisions[$properties['Parent']])) {
+                    continue;
+                }
+
+                $parent = $allDivisions[$properties['Parent']];
+            } else {
+                $parent = array();
+            }
+
+            if (isset($parent['Version'])) {
+                $completeVersions = explode('.', $parent['Version'], 2);
+
+                $parent['MajorVer'] = (string) $completeVersions[0];
+
+                if (isset($completeVersions[1])) {
+                    $parent['MinorVer'] = (string) $completeVersions[1];
+                } else {
+                    $parent['MinorVer'] = 0;
+                }
+            }
+
+            $propertiesToOutput = $properties;
+
+            foreach ($propertiesToOutput as $property => $value) {
+                if (!isset($parent[$property])) {
+                    continue;
+                }
+
+                $parentProperty = $parent[$property];
+
+                switch ((string) $parentProperty) {
+                    case 'true':
+                        $parentProperty = true;
+                        break;
+                    case 'false':
+                        $parentProperty = false;
+                        break;
+                    default:
+                        $parentProperty = trim($parentProperty);
+                        break;
+                }
+
+                if ($parentProperty != $value) {
+                    continue;
+                }
+
+                unset($propertiesToOutput[$property]);
+            }
+
+            // create output - php
+
+            if ('DefaultProperties' === $key
+                || '*' === $key || empty($properties['Parent'])
+                || 'DefaultProperties' == $properties['Parent']
+            ) {
+                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . "\n\n";
+            }
+
+            $output .= '[' . $key . ']' . "\n";
+
+            foreach ($allProperties as $property) {
+                if (!isset($propertiesToOutput[$property])) {
+                    continue;
+                }
+
+                if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                    continue;
+                }
+
+                if ((!$this->includeExtraProperties) && CollectionParser::isExtraProperty($property)) {
+                    continue;
+                }
+
+                $value       = $propertiesToOutput[$property];
+                $valueOutput = $value;
+
+                switch (CollectionParser::getPropertyType($property)) {
+                    case 'string':
+                        if ($this->quoteStringProperties) {
+                            $valueOutput = '"' . $value . '"';
+                        }
+                        break;
+                    case 'boolean':
+                        if (true === $value || $value === 'true') {
+                            $valueOutput = 'true';
+                        } elseif (false === $value || $value === 'false') {
+                            $valueOutput = 'false';
+                        }
+                        break;
+                    case 'generic':
+                    case 'number':
+                    default:
+                        // nothing t do here
+                        break;
+                }
+
+                $output .= $property . '=' . $valueOutput . "\n";
             }
 
             $output .= "\n";
@@ -268,105 +306,29 @@ class BrowscapIniGenerator implements GeneratorInterface
     }
 
     /**
-     * Render the properties of a single User Agent
-     *
-     * @param  array $properties
+     * renders the version information
      *
      * @return string
      */
-    protected function renderProperties(array $properties)
+    private function renderVersion()
     {
-        $output = '';
-        foreach ($properties as $property => $value) {
-            if ((!$this->includeExtraProperties) && $this->isExtraProperty($property)) {
-                continue;
-            }
+        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . "\n\n";
 
-            if ($this->quoteStringProperties && $this->getPropertyType($property) == 'string') {
-                $format = "%s=\"%s\"\n";
-            } else {
-                $format = "%s=%s\n";
-            }
+        $header .= '[GJK_Browscap_Version]' . "\n";
 
-            $output .= sprintf($format, $property, $value);
+        $versionData = $this->getVersionData();
+
+        if (!isset($versionData['version'])) {
+            $versionData['version'] = '0';
         }
 
-        return $output;
-    }
-
-    /**
-     * Get the type of a property
-     *
-     * @param  string $propertyName
-     *
-     * @throws \Exception
-     * @return string
-     */
-    public function getPropertyType($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Comment':
-            case 'Browser':
-            case 'Platform':
-            case 'Platform_Description':
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Description':
-                return 'string';
-            case 'Parent':
-            case 'Platform_Version':
-            case 'RenderingEngine_Version':
-                return 'generic';
-            case 'Version':
-            case 'MajorVer':
-            case 'MinorVer':
-            case 'CssVersion':
-            case 'AolVersion':
-                return 'number';
-            case 'Alpha':
-            case 'Beta':
-            case 'Win16':
-            case 'Win32':
-            case 'Win64':
-            case 'Frames':
-            case 'IFrames':
-            case 'Tables':
-            case 'Cookies':
-            case 'BackgroundSounds':
-            case 'JavaScript':
-            case 'VBScript':
-            case 'JavaApplets':
-            case 'ActiveXControls':
-            case 'isMobileDevice':
-            case 'isSyndicationReader':
-            case 'Crawler':
-                return 'boolean';
-            default:
-                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
+        if (!isset($versionData['released'])) {
+            $versionData['released'] = '';
         }
-    }
 
-    /**
-     * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
-     *
-     * @param  string $propertyName
-     *
-     * @return boolean
-     */
-    public function isExtraProperty($propertyName)
-    {
-        switch ($propertyName) {
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'Platform_Description':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Version':
-            case 'RenderingEngine_Description':
-                return true;
-            default:
-                return false;
-        }
+        $header .= 'Version=' . $versionData['version'] . "\n";
+        $header .= 'Released=' . $versionData['released'] . "\n\n";
+
+        return $header;
     }
 }

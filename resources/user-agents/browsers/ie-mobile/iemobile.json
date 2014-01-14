@@ -17,7 +17,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       }
     }
   ]

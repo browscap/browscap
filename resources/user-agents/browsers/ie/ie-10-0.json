@@ -1,6 +1,6 @@
 {
   "division": "IE 10.0",
-  "sortIndex": 3850,
+  "sortIndex": 3840,
   "lite": true,
   "userAgents": [
     {
@@ -25,11 +25,14 @@
         "ActiveXControls": "true",
         "CssVersion": "3",
         "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "6.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       },
       "children": [
         {
-          "match": "Mozilla\/*(*MSIE 10.*#PLATFORM#*Trident\/6.0*)*",
+          "match": "Mozilla\/*(*MSIE 10.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
@@ -39,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 9.*#PLATFORM#*Trident\/6.0*)*",
+          "match": "Mozilla\/*(*MSIE 9.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
@@ -47,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 8.*#PLATFORM#*Trident\/6.0*)*",
+          "match": "Mozilla\/*(*MSIE 8.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
@@ -55,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 7.*#PLATFORM#*Trident\/6.0*)*",
+          "match": "Mozilla\/*(*MSIE 7.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
