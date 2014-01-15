@@ -194,5 +194,21 @@ class BuildGenerator
         ;
 
         file_put_contents($buildFolder . '/browscap.csv', $csvGenerator->generate());
+
+        $this->output('<info>Generating browscap.zip [ZIP]</info>');
+
+        $zip = new ZipArchive();
+        $zip->open($buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
+
+        $zip->addFile($buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
+        $zip->addFile($buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
+        $zip->addFile($buildFolder . '/browscap.ini', 'browscap.ini');
+        $zip->addFile($buildFolder . '/php_browscap.ini', 'php_browscap.ini');
+        $zip->addFile($buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
+        $zip->addFile($buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+        $zip->addFile($buildFolder . '/browscap.xml', 'browscap.xml');
+        $zip->addFile($buildFolder . '/browscap.csv', 'browscap.csv');
+
+        $zip->close();
     }
 }
