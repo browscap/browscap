@@ -3,6 +3,7 @@
 namespace Browscap\Generator;
 
 use Symfony\Component\Console\Output\OutputInterface;
+use ZipArchive;
 
 class BuildGenerator
 {
@@ -197,7 +198,7 @@ class BuildGenerator
 
         $this->output('<info>Generating browscap.zip [ZIP]</info>');
 
-        $zip = new \ZipArchive();
+        $zip = new ZipArchive();
         $zip->open($buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
         $zip->addFile($buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
