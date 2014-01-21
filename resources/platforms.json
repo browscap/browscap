@@ -782,8 +782,26 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_0_B": {
+      "match": "JUC (Linux; U; 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_1": {
       "match": "*Linux*Android 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_1_B": {
+      "match": "JUC (Linux; U; 4.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.1",
