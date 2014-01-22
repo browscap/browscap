@@ -136,16 +136,16 @@ class BrowscapIniGenerator implements GeneratorInterface
     public function generate()
     {
         if (!empty($this->collectionData['DefaultProperties'])) {
-            $defaultPropertiyData = $this->collectionData['DefaultProperties'];
+            $defaultPropertityData = $this->collectionData['DefaultProperties'];
         } else {
-            $defaultPropertiyData = array();
+            $defaultPropertityData = array();
         }
 
 
         return $this->render(
             $this->collectionData,
             $this->renderHeader(),
-            array_keys(array('Parent' => '') + $defaultPropertiyData)
+            array_keys(array('Parent' => '') + $defaultPropertityData)
         );
     }
 
@@ -244,6 +244,28 @@ class BrowscapIniGenerator implements GeneratorInterface
                 }
 
                 unset($propertiesToOutput[$property]);
+            }
+
+            if (!$this->includeExtraProperties) {
+                // check if only extra properties are in the actual division
+                // skip that division if the extra properties are not in the output
+                $propertiesToCheck = $propertiesToOutput;
+
+                unset($propertiesToCheck['Parent']);
+                unset($propertiesToCheck['lite']);
+                unset($propertiesToCheck['sortIndex']);
+                unset($propertiesToCheck['Parents']);
+                unset($propertiesToCheck['division']);
+
+                foreach (array_keys($propertiesToCheck) as $property) {
+                    if (CollectionParser::isExtraProperty($property)) {
+                        unset($propertiesToCheck[$property]);
+                    }
+                }
+
+                if (empty($propertiesToCheck)) {
+                    continue;
+                }
             }
 
             // create output - php
