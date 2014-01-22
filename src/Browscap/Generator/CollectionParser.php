@@ -344,26 +344,52 @@ class CollectionParser
     {
         switch ($propertyName) {
             case 'Comment':
+            case 'Category':
+            case 'SubCategory':
+            case 'Browser_Type':
+            case 'Browser_SubType':
             case 'Browser':
+            case 'Browser_Name':
+            case 'Browser_Full':
+            case 'Browser_Description':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
+            case 'Browser_Icon':
             case 'Platform':
+            case 'Platform_Name':
+            case 'Platform_Full':
             case 'Platform_Description':
+            case 'Platform_Maker':
+            case 'Platform_Icon':
+            case 'Device_Type':
+            case 'Device_Code_Name':
+            case 'Device_Maker':
+            case 'Device_Brand_Name':
             case 'Device_Name':
             case 'Device_Maker':
             case 'RenderingEngine_Name':
+            case 'RenderingEngine_Full':
             case 'RenderingEngine_Description':
-                return 'string';
+            case 'RenderingEngine_Maker':
+            case 'RenderingEngine_Icon':
             case 'Parent':
+                return 'string';
             case 'Platform_Version':
             case 'RenderingEngine_Version':
                 return 'generic';
             case 'Version':
+            case 'Browser_Version':
+            case 'Browser_Bits':
+            case 'Platform_Bits':
             case 'CssVersion':
             case 'AolVersion':
             case 'MajorVer':
             case 'MinorVer':
                 return 'number';
             case 'Alpha':
+            case 'Browser_isAlpha':
             case 'Beta':
+            case 'Browser_isBeta':
             case 'Win16':
             case 'Win32':
             case 'Win64':
@@ -377,8 +403,15 @@ class CollectionParser
             case 'JavaApplets':
             case 'ActiveXControls':
             case 'isMobileDevice':
+            case 'Device_isMobileDevice':
+            case 'Device_isTablet':
+            case 'Device_isDesktop':
+            case 'Device_isTv':
             case 'isSyndicationReader':
+            case 'Browser_isSyndicationReader':
             case 'Crawler':
+            case 'Browser_isBot':
+            case 'Browser_isTanscoder':
                 return 'boolean';
             default:
                 throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
@@ -395,12 +428,44 @@ class CollectionParser
     public static function isExtraProperty($propertyName)
     {
         switch ($propertyName) {
-            case 'Device_Name':
-            case 'Device_Maker':
+            case 'Category':
+            case 'SubCategory':
+            case 'Browser_Type':
+            case 'Browser_SubType':
+            case 'Browser_Name':
+            case 'Browser_Full':
+            case 'Browser_Version':
+            case 'Browser_Description':
+            case 'Browser_Bits':
+            case 'Browser_isSyndicationReader':
+            case 'Browser_isBot':
+            case 'Browser_isTanscoder':
+            case 'Browser_isAlpha':
+            case 'Browser_isBeta':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
+            case 'Browser_Icon':
+            case 'Platform_Name':
+            case 'Platform_Full':
             case 'Platform_Description':
+            case 'Platform_Bits':
+            case 'Platform_Maker':
+            case 'Platform_Icon':
+            case 'Device_Type':
+            case 'Device_Code_Name':
+            case 'Device_Maker':
+            case 'Device_Brand_Name':
+            case 'Device_Name':
+            case 'Device_isMobileDevice':
+            case 'Device_isTablet':
+            case 'Device_isDesktop':
+            case 'Device_isTv':
             case 'RenderingEngine_Name':
+            case 'RenderingEngine_Full':
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
+            case 'RenderingEngine_Icon':
                 return true;
             default:
                 return false;
