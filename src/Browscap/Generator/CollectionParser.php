@@ -242,6 +242,40 @@ class CollectionParser
 
             $output[$property] = $value;
         }
+
+        // add prefixed duplicates if the original exists
+        if (isset($output['Browser'])) {
+            $output['Browser_Name'] = $output['Browser'];
+        }
+
+        if (isset($output['Version'])) {
+            $output['Browser_Version'] = $output['Version'];
+        }
+
+        if (isset($output['isSyndicationReader'])) {
+            $output['Browser_isSyndicationReader'] = $output['isSyndicationReader'];
+        }
+
+        if (isset($output['Crawler'])) {
+            $output['Browser_isBot'] = $output['Crawler'];
+        }
+
+        if (isset($output['Alpha'])) {
+            $output['Browser_isAlpha'] = $output['Alpha'];
+        }
+
+        if (isset($output['Beta'])) {
+            $output['Browser_isBeta'] = $output['Beta'];
+        }
+
+        if (isset($output['isMobileDevice'])) {
+            $output['Device_isMobileDevice'] = $output['isMobileDevice'];
+        }
+
+        if (isset($output['isTablet'])) {
+            $output['Device_isTablet'] = $output['isTablet'];
+        }
+
         return $output;
     }
 

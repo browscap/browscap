@@ -96,15 +96,55 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
+            $sortCategory = array();
             $sortIndex    = array();
             $sortPosition = array();
 
             foreach ($this->divisions as $key => $division) {
+                $category = 0;
+
+                if (!empty($properties['Category'])) {
+                    switch ($properties['Category']) {
+                        case 'Bot/Crawler':
+                            $category = 1;
+                            break;
+                        case 'Application':
+                            $category = 2;
+                            break;
+                        case 'Email Client':
+                            $category = 3;
+                            break;
+                        case 'Library':
+                            $category = 4;
+                            break;
+                        case 'Browser':
+                            $category = 8;
+                            break;
+                            break;
+                        case 'all':
+                            $category = 10;
+                            break;
+                        case 'unknown':
+                        default:
+                            // nothing to do here
+                            break;
+                    }
+                }
+
+                if ('DefaultProperties' === $key) {
+                    $category = -1;
+                }
+
+                if ('*' === $key) {
+                    $category = 11;
+                }
+                $sortCategory[$key] = $category;
                 $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
                 $sortPosition[$key] = $key;
             }
 
             array_multisort(
+                $sortCategory, SORT_ASC,
                 $sortIndex, SORT_ASC,
                 $sortPosition, SORT_DESC, // if the sortIndex is identical the later added file comes first
                 $this->divisions

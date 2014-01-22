@@ -38,8 +38,8 @@ class BuildCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $resourceFolder = $input->getOption('resources');
-        $buildFolder = $input->getOption('output');
-        $version = $input->getArgument('version');
+        $buildFolder    = $input->getOption('output');
+        $version        = $input->getArgument('version');
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator->setOutput($output);
