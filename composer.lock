@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e7ea1d94d9281628bf4ce90bba433b56",
+    "hash": "5e345f637f53f01cf73dc8eaba8bfd01",
     "packages": [
         {
             "name": "symfony/console",
@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "f0b5882a3e7c3ec275646290daca8775599de71b"
+                "reference": "f0ac617a3e060013dbf4070adeadec7d4b081b3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/f0b5882a3e7c3ec275646290daca8775599de71b",
-                "reference": "f0b5882a3e7c3ec275646290daca8775599de71b",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/f0ac617a3e060013dbf4070adeadec7d4b081b3a",
+                "reference": "f0ac617a3e060013dbf4070adeadec7d4b081b3a",
                 "shasum": ""
             },
             "require": {
@@ -103,7 +103,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2013-09-14 20:33:36"
+            "time": "2014-01-22 11:36:03"
         },
         {
             "name": "phpunit/php-code-coverage",
