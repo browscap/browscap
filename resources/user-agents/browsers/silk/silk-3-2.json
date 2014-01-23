@@ -9,7 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Browser": "Silk #MAJORVER#.#MINORVER#",
+        "Browser": "Silk",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
