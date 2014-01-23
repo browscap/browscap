@@ -1,0 +1,37 @@
+{
+  "division": "FlyFlow #MAJORVER#.#MINORVER#",
+  "versions": ["2.2", "2.3", "2.4", "2.5"],
+  "sortIndex": 1707,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
+        "Browser": "FlyFlow",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "T5",
+        "RenderingEngine_Description": "a WebKit Fork by Baidu"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version/4.0 *Safari\/* T5\/2.0*",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1"
+          ]
+        }
+      ]
+    }
+  ]
+}
