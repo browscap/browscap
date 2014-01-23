@@ -1,6 +1,16 @@
 <?php
 
 return [
+    'issue-mobiles-C' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-I9100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0 Mobile Safari/534.30',
+        [
+            'Browser' => 'Dolfin',
+            'Version' => '1.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+        ],
+    ],
     'issue-mobiles-B' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; GT-I9100 Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Mobile Safari/535.7',
         [
