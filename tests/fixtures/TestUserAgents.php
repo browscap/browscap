@@ -46,6 +46,7 @@ return [
         [
             'Browser' => 'Integrity',
             'Crawler' => true,
+            'Platform' => 'MacOSX',
         ],
     ],
     'issue-77-A' => [

@@ -183,7 +183,9 @@
       "userAgent": "integrity/*",
       "properties": {
         "Parent": "Link Checkers",
-        "Browser": "Integrity"
+        "Browser": "Integrity",
+        "Platform": "MacOSX",
+        "Win32": "false"
       }
     },
     {
