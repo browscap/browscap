@@ -1,6 +1,26 @@
 <?php
 
 return [
+    'issue-mobiles-E' => [
+        'Dalvik/1.6.0 (Linux; U; Android 4.0.4; GT-I9100 Build/IMM76D)',
+        [
+            'Browser' => 'Dalvik',
+            'Version' => '1.6',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+        ],
+    ],
+    'issue-mobiles-D' => [
+        'Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-I9100G Build/GINGERBREAD)',
+        [
+            'Browser' => 'Dalvik',
+            'Version' => '1.4',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+        ],
+    ],
     'issue-mobiles-C' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-I9100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0 Mobile Safari/534.30',
         [

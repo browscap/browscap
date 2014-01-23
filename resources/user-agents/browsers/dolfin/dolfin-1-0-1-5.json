@@ -14,7 +14,6 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Platform": "JAVA",
-        "Platform_Description": "Samsung Bada",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
