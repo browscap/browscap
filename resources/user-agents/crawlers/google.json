@@ -1,240 +1,240 @@
 {
-    "division": "Google",
-    "sortIndex": 30,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Google",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Google",
-                "Browser": "Google",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "*Google Web Preview*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Web Preview"
-            }
-        },
-        {
-            "userAgent": "*Googlebot-Mobile\/2.*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot-Mobile",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Googlebot-Mobile\/2.1*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot-Mobile",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot-Mobile",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "*Googlebot\/2.*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Googlebot\/2.1*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "AdsBot-Google*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "AdsBot-Google"
-            }
-        },
-        {
-            "userAgent": "AdsBot-Google-Mobile*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "AdsBot-Google-Mobile"
-            }
-        },
-        {
-            "userAgent": "AppEngine-Google*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "AppEngine-Google"
-            }
-        },
-        {
-            "userAgent": "Feedfetcher-Google*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Feedfetcher-Google",
-                "isSyndicationReader": "true"
-            }
-        },
-        {
-            "userAgent": "Feedfetcher-Google-iGoogleGadgets*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "iGoogleGadgets",
-                "isSyndicationReader": "true"
-            }
-        },
-        {
-            "userAgent": "google (*Enterprise*)",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Enterprise"
-            }
-        },
-        {
-            "userAgent": "Google OpenSocial agent*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google OpenSocial"
-            }
-        },
-        {
-            "userAgent": "Google-Site-Verification*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google-Site-Verification\/1.0",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "Google-Sitemaps*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google-Sitemaps"
-            }
-        },
-        {
-            "userAgent": "Googlebot-Image*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot-Image"
-            }
-        },
-        {
-            "userAgent": "Googlebot-News*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot-News"
-            }
-        },
-        {
-            "userAgent": "googlebot-urlconsole",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "googlebot-urlconsole"
-            }
-        },
-        {
-            "userAgent": "Googlebot-Video*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google-Video"
-            }
-        },
-        {
-            "userAgent": "Googlebot\/Test*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Googlebot\/Test"
-            }
-        },
-        {
-            "userAgent": "GoogleFriendConnect*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Friend Connect"
-            }
-        },
-        {
-            "userAgent": "gsa-crawler*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Search Appliance"
-            }
-        },
-        {
-            "userAgent": "Mediapartners-Google*",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Mediapartners-Google"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Feedfetcher"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*Google Desktop*)",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*Google Keyword Tool*)",
-            "properties": {
-                "Parent": "Google",
-                "Browser": "Google Keyword Tool"
-            }
-        }
-    ]
+  "division": "Google",
+  "sortIndex": 30,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Google",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser": "Google",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*Google Web Preview*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Web Preview"
+      }
+    },
+    {
+      "userAgent": "*Googlebot-Mobile\/2.*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Googlebot-Mobile\/2.1*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "*Googlebot\/2.*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Googlebot\/2.1*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "AdsBot-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AdsBot-Google"
+      }
+    },
+    {
+      "userAgent": "AdsBot-Google-Mobile*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AdsBot-Google-Mobile"
+      }
+    },
+    {
+      "userAgent": "AppEngine-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AppEngine-Google"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Feedfetcher-Google",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google-iGoogleGadgets*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "iGoogleGadgets",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "google (*Enterprise*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Enterprise"
+      }
+    },
+    {
+      "userAgent": "Google OpenSocial agent*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google OpenSocial"
+      }
+    },
+    {
+      "userAgent": "Google-Site-Verification*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Site-Verification\/1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Google-Sitemaps*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Sitemaps"
+      }
+    },
+    {
+      "userAgent": "Googlebot-Image*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-Image"
+      }
+    },
+    {
+      "userAgent": "Googlebot-News*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-News"
+      }
+    },
+    {
+      "userAgent": "googlebot-urlconsole",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "googlebot-urlconsole"
+      }
+    },
+    {
+      "userAgent": "Googlebot-Video*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Video"
+      }
+    },
+    {
+      "userAgent": "Googlebot\/Test*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot\/Test"
+      }
+    },
+    {
+      "userAgent": "GoogleFriendConnect*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Friend Connect"
+      }
+    },
+    {
+      "userAgent": "gsa-crawler*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Search Appliance"
+      }
+    },
+    {
+      "userAgent": "Mediapartners-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Mediapartners-Google"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Feedfetcher"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Desktop*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Keyword Tool*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Keyword Tool"
+      }
+    }
+  ]
 }

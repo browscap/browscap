@@ -28,29 +28,25 @@
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.16"
+        "Parent": "Silk #MAJORVER#.#MINORVER#"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.1"
+        "Parent": "Silk #MAJORVER#.#MINORVER#"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.1"
+        "Parent": "Silk #MAJORVER#.#MINORVER#"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.1"
+        "Parent": "Silk #MAJORVER#.#MINORVER#"
       }
     }
   ]
