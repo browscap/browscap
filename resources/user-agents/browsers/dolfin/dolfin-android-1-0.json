@@ -1,0 +1,39 @@
+{
+  "division": "Dolfin Android #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1704,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Dolfin Android #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
+        "Browser": "Dolfin",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Win32": "false",
+        "Device_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "platforms": [
+            "Android_4_0"
+          ]
+        }
+      ]
+    }
+  ]
+}
