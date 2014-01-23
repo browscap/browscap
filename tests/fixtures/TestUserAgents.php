@@ -1,6 +1,26 @@
 <?php
 
 return [
+    'issue-mobiles-B' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; GT-I9100 Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Mobile Safari/535.7',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '16.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+        ],
+    ],
+    'issue-mobiles-A' => [
+        'Mozilla/5.0 (Linux; U; de-de; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+        ],
+    ],
     'issue-71-C' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.4; de-de; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 Maxthon/4.0.3.3000',
         [

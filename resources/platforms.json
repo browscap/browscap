@@ -746,6 +746,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_3_B": {
+      "match": "*Linux* Build/GINGERBREAD*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android 3.0*",
       "properties": {
