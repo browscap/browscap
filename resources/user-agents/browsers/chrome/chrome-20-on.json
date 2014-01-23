@@ -40,7 +40,7 @@
       ]
     },
     {
-      "userAgent": "Chrome #MAJORVER#.#MINORVER# Android",
+      "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "userAgent": "Chrome #MAJORVER#.#MINORVER# iOS",
+      "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
