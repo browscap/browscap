@@ -18,7 +18,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ['Device_Maker', 'string'],
             ['RenderingEngine_Name', 'string'],
             ['RenderingEngine_Description', 'string'],
-            ['Parent', 'generic'],
+            ['Parent', 'string'],
             ['Platform_Version', 'generic'],
             ['RenderingEngine_Version', 'generic'],
             ['Version', 'number'],

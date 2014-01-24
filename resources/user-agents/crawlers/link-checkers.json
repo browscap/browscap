@@ -180,6 +180,15 @@
       }
     },
     {
+      "userAgent": "integrity/*",
+      "properties": {
+        "Parent": "Link Checkers",
+        "Browser": "Integrity",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
       "userAgent": "JCheckLinks\/*",
       "properties": {
         "Parent": "Link Checkers",

@@ -400,7 +400,6 @@ class CollectionParser
             case 'Device_Maker':
             case 'Device_Brand_Name':
             case 'Device_Name':
-            case 'Device_Maker':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Full':
             case 'RenderingEngine_Description':
