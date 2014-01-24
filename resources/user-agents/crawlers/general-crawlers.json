@@ -337,7 +337,21 @@
       }
     },
     {
+      "userAgent": "ZmEu",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ZmEu"
+      }
+    },
+    {
       "userAgent": "Made by ZmEu @ WhiteHat v0.* (www.WhiteHat.ro)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ZmEu"
+      }
+    },
+    {
+      "userAgent": "Made by ZmEu @ WhiteHat*",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "ZmEu"
@@ -1388,6 +1402,36 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "SISTRIX"
+      }
+    },
+    {
+      "userAgent": "woobot\/1.1*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WooRank",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "masscan\/1.0*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Download Accelerator",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux i686; U;rv: 1.7.13) Gecko\/* Kazehakase\/0.4*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Kazehakase",
+        "Version": "0.4",
+        "MajorVer": "0",
+        "MinorVer": "4"
       }
     }
   ]
