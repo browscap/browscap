@@ -351,8 +351,8 @@ class CollectionParser
             case 'Device_Maker':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
-                return 'string';
             case 'Parent':
+                return 'string';
             case 'Platform_Version':
             case 'RenderingEngine_Version':
                 return 'generic';
