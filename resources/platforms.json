@@ -746,6 +746,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_3_B": {
+      "match": "*Linux* Build/GINGERBREAD*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android 3.0*",
       "properties": {
@@ -954,6 +963,39 @@
         "Platform": "Unix",
         "Win32": "false",
         "isMobileDevice": "false"
+      }
+    },
+    "Bada_1_0": {
+      "match": "*Bada/1.*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "1.0",
+        "Platform_Description": "Samsung Bada",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung"
+      }
+    },
+    "Bada_1_2": {
+      "match": "*Bada/1.2*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "1.2",
+        "Platform_Description": "Samsung Bada",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung"
+      }
+    },
+    "Bada_2_0": {
+      "match": "*Bada/2.*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "2.0",
+        "Platform_Description": "Samsung Bada",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung"
       }
     }
   }
