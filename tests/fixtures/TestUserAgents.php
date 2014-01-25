@@ -37,8 +37,9 @@ return [
         'Mozilla/5.0 (X11; Linux i686; U;rv: 1.7.13) Gecko/20070322 Kazehakase/0.4.4.1',
         [
             'Browser' => 'Kazehakase',
+            'Platform' => 'Linux',
             'Version' => '0.4',
-            'Crawler' => true,
+            'Crawler' => false,
         ],
     ],
     'issue-81-C' => [
