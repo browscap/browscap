@@ -1,0 +1,35 @@
+{
+  "division": "Arora 0.6",
+  "sortIndex": 1181,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "properties": {
+        "Parent": "Google Code",
+        "Comment": "Arora 0.6",
+        "Browser": "Arora",
+        "Version": "0.6",
+        "MajorVer": "0",
+        "MinorVer": "6",
+        "Platform": "Win32",
+        "Win32": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "properties": {
+        "Parent": "Google Code",
+        "Browser": "Arora",
+        "Version": "0.6",
+        "MajorVer": "0",
+        "MinorVer": "6",
+        "Platform": "Linux",
+        "Win32": "false",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    }
+  ]
+}
