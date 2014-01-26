@@ -235,6 +235,13 @@
         "Parent": "Google",
         "Browser": "Google Keyword Tool"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Page Speed"
+      }
     }
   ]
 }

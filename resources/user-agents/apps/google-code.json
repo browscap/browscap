@@ -9,50 +9,6 @@
         "Comment": "Google Code",
         "Browser": "Google Code"
       }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
-      "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.8.*",
-      "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.8.0",
-        "MajorVer": "0",
-        "MinorVer": "8.0",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
-      "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6",
-        "Platform": "Linux"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.8.*",
-      "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.8.0",
-        "MajorVer": "0",
-        "MinorVer": "8.0",
-        "Platform": "Linux"
-      }
     }
   ]
 }
