@@ -141,13 +141,13 @@ class BuildGenerator
         $date    = $collection->getGenerationDate()->format('r');
 
         $comments = array(
-            'Provided courtesy of http://tempdownloads.browserscap.com/',
+            'Provided courtesy of http://browscap.org/',
             'Created on ' . $dateUtc,
             'Keep up with the latest goings-on with the project:',
             'Follow us on Twitter <https://twitter.com/browscap>, or...',
             'Like us on Facebook <https://facebook.com/browscap>, or...',
-            'Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
+            'Collaborate on GitHub <https://github.com/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
         );
 
         $formats = array(
