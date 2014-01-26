@@ -420,14 +420,14 @@
       }
     },
     {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.0; *Trident/4.0*",
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/4.0*",
       "properties": {
         "Parent": "Rippers",
         "Browser": "Fake IE"
       }
     },
     {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.0; *Trident/5.0*",
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/5.0*",
       "properties": {
         "Parent": "Rippers",
         "Browser": "Fake IE"
