@@ -415,7 +415,7 @@ class CollectionParser
             case 'Browser_SubType':
             case 'Browser':
             case 'Browser_Name':
-            case 'Browser_Full':
+            case 'Browser_FullName':
             case 'Browser_Description':
             case 'Browser_Maker':
             case 'Browser_Modus':
