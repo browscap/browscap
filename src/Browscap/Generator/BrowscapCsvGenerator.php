@@ -166,6 +166,11 @@ class BrowscapCsvGenerator implements GeneratorInterface
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
+
+            if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                continue;
+            }
+
             $output .= ',"' . $property . '"';
         }
 
