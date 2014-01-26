@@ -266,7 +266,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
                     $valueOutput = '';
                 }
 
-                $output .= ',"' . $valueOutput . '"';
+                $output .= ',"[' . $property . ']' . $valueOutput . '"';
             }
 
             $output .= "\r\n";
