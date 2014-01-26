@@ -431,6 +431,7 @@ class CollectionParser
             case 'Device_Maker':
             case 'Device_Brand_Name':
             case 'Device_Name':
+            case 'Device_FullName':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_FullName':
             case 'RenderingEngine_Description':
@@ -497,7 +498,7 @@ class CollectionParser
             case 'Browser_Type':
             case 'Browser_SubType':
             case 'Browser_Name':
-            case 'Browser_Full':
+            case 'Browser_FullName':
             case 'Browser_Version':
             case 'Browser_Description':
             case 'Browser_Bits':
@@ -520,6 +521,7 @@ class CollectionParser
             case 'Device_Maker':
             case 'Device_Brand_Name':
             case 'Device_Name':
+            case 'Device_FullName':
             case 'Device_isMobileDevice':
             case 'Device_isTablet':
             case 'Device_isDesktop':
