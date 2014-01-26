@@ -152,11 +152,17 @@ class BrowscapXmlGenerator implements GeneratorInterface
     {
         $comments = $dom->createElement('comments');
 
+        $linebreak = $dom->createTextNode("\n");
+        $comments->appendChild($linebreak);
+
         foreach ($this->getComments() as $text) {
             $comment = $dom->createElement('comment');
             $cdata   = $dom->createCDATASection($text);
             $comment->appendChild($cdata);
             $comments->appendChild($comment);
+
+            $linebreak = $dom->createTextNode("\n");
+            $comments->appendChild($linebreak);
         }
 
         return $comments;
@@ -176,9 +182,19 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $xmlRoot  = $dom->createElement('browsercaps');
 
         $xmlRoot->appendChild($this->renderHeader($dom));
+
+        $linebreak = $dom->createTextNode("\n");
+        $xmlRoot->appendChild($linebreak);
+
         $xmlRoot->appendChild($this->renderVersion($dom));
 
+        $linebreak = $dom->createTextNode("\n");
+        $xmlRoot->appendChild($linebreak);
+
         $items = $dom->createElement('browsercapitems');
+
+        $linebreak = $dom->createTextNode("\n");
+        $items->appendChild($linebreak);
 
         $counter = 1;
 
@@ -225,6 +241,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $name->value = htmlentities($key);
             $browscapitem->appendChild($name);
 
+            $linebreak = $dom->createTextNode("\n");
+            $browscapitem->appendChild($linebreak);
+
             $item = $dom->createTextNode('item');
             $name = $dom->createAttribute('name');
             $name->value = 'PropertyName';
@@ -232,7 +251,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $value = $dom->createAttribute('value');
             $value->value = htmlentities($key);
             $item->appendChild($value);
+
+            $linebreak = $dom->createTextNode("\n");
+            $item->appendChild($linebreak);
+
             $browscapitem->appendChild($item);
+
+            $linebreak = $dom->createTextNode("\n");
+            $browscapitem->appendChild($linebreak);
 
             $item = $dom->createTextNode('item');
             $name = $dom->createAttribute('name');
@@ -241,7 +267,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $value = $dom->createAttribute('value');
             $value->value = htmlentities($counter);
             $item->appendChild($value);
+
+            $linebreak = $dom->createTextNode("\n");
+            $item->appendChild($linebreak);
+
             $browscapitem->appendChild($item);
+
+            $linebreak = $dom->createTextNode("\n");
+            $browscapitem->appendChild($linebreak);
 
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
@@ -259,7 +292,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $value = $dom->createAttribute('value');
             $value->value = $masterParent;
             $item->appendChild($value);
+
+            $linebreak = $dom->createTextNode("\n");
+            $item->appendChild($linebreak);
+
             $browscapitem->appendChild($item);
+
+            $linebreak = $dom->createTextNode("\n");
+            $browscapitem->appendChild($linebreak);
 
             $item = $dom->createTextNode('item');
             $name = $dom->createAttribute('name');
@@ -268,7 +308,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $value = $dom->createAttribute('value');
             $value->value = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
             $item->appendChild($value);
+
+            $linebreak = $dom->createTextNode("\n");
+            $item->appendChild($linebreak);
+
             $browscapitem->appendChild($item);
+
+            $linebreak = $dom->createTextNode("\n");
+            $browscapitem->appendChild($linebreak);
 
             foreach ($allProperties as $property) {
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
@@ -310,20 +357,30 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 $value = $dom->createAttribute('value');
                 $value->value = htmlentities($valueOutput);
                 $item->appendChild($value);
+
+                $linebreak = $dom->createTextNode("\n");
+                $item->appendChild($linebreak);
+
                 $browscapitem->appendChild($item);
+
+                $linebreak = $dom->createTextNode("\n");
+                $browscapitem->appendChild($linebreak);
             }
 
             $items->appendChild($browscapitem);
         }
 
         $xmlRoot->appendChild($items);
+
+        $linebreak = $dom->createTextNode("\n");
+        $xmlRoot->appendChild($linebreak);
+
         $dom->appendChild($xmlRoot);
 
-        return str_replace(
-            array('>', ']]>' . PHP_EOL, '<comment>' . PHP_EOL),
-            array('>' . PHP_EOL, ']]>', '<comment>'),
-            $dom->saveXML()
-        );
+        $linebreak = $dom->createTextNode("\n");
+        $dom->appendChild($linebreak);
+
+        return  $dom->saveXML();
     }
 
     /**
@@ -346,6 +403,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
+        $linebreak = $dom->createTextNode("\n");
+        $version->appendChild($linebreak);
+
         $item = $dom->createElement('item');
         $name = $dom->createAttribute('name');
         $name->value = 'Version';
@@ -355,6 +415,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($value);
         $version->appendChild($item);
 
+        $linebreak = $dom->createTextNode("\n");
+        $version->appendChild($linebreak);
+
         $item = $dom->createElement('item');
         $name = $dom->createAttribute('name');
         $name->value = 'Released';
@@ -363,6 +426,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($name);
         $item->appendChild($value);
         $version->appendChild($item);
+
+        $linebreak = $dom->createTextNode("\n");
+        $version->appendChild($linebreak);
 
         return $version;
     }
