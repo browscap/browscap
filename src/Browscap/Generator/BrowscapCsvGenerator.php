@@ -155,13 +155,13 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param $allDivisions
-     * @param $output
-     * @param $allProperties
+     * @param array  $allDivisions
+     * @param string $output
+     * @param array  $allProperties
      *
      * @return string
      */
-    private function render($allDivisions, $output, $allProperties)
+    private function render(array $allDivisions, $output, array $allProperties)
     {
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
