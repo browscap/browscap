@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <browsercaps>
 <comments>
 <comment><![CDATA[Provided courtesy of http://tempdownloads.browserscap.com/]]></comment>
@@ -10,7 +10,7 @@
 <comment><![CDATA[Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.]]></comment>
 </comments>
 <gjk_browscap_version>
-<item name="Version" value="1234" />
-<item name="Released" value="Fri, 31 Dec 2010 12:34:56 +0000" />
+<item name="Version" value="1234"/>
+<item name="Released" value="Fri, 31 Dec 2010 12:34:56 +0000"/>
 </gjk_browscap_version>
 </browsercaps>
