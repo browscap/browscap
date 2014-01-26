@@ -371,11 +371,11 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
     /**
      * @param \DOMDocument $dom
-     * @param \DOMElement  $browscapitem
+     * @param \DOMNode     $browscapitem
      * @param string       $property
      * @param mixed        $valueOutput
      */
-    private function createItem(\DOMDocument $dom, \DOMElement $browscapitem, $property, $valueOutput)
+    private function createItem(\DOMDocument $dom, \DOMNode $browscapitem, $property, $valueOutput)
     {
         $item        = $dom->createTextNode('item');
 
