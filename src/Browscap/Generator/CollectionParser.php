@@ -380,7 +380,14 @@ class CollectionParser
                 }
             }
 
-            $properties['Device_FullName']          = trim($properties['Device_Brand_Name'] . ' ' . $properties['Device_Name']);
+            if (isset($properties['Device_Brand_Name'])) {
+                $properties['Device_FullName'] = trim($properties['Device_Brand_Name'] . ' ' . $properties['Device_Name']);
+            } elseif (isset($properties['Device_Maker'])) {
+                $properties['Device_FullName'] = trim($properties['Device_Maker'] . ' ' . $properties['Device_Name']);
+            } else {
+                $properties['Device_FullName'] = $properties['Device_Name'];
+            }
+
             $properties['RenderingEngine_FullName'] = trim(
                 $properties['RenderingEngine_Name'] . ' ' . $properties['RenderingEngine_Version']
             );
