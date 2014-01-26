@@ -1,36 +1,36 @@
 {
-    "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-    "versions": ["1.4", "1.5", "2.0", "2.2", "2.3", "3.2", "3.9"],
-    "sortIndex": 1791,
-    "lite": true,
-    "userAgents": [
+  "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+  "versions": ["1.4", "1.5", "2.0", "2.2", "2.3", "3.2", "3.9"],
+  "sortIndex": 1791,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Nokia Proxy Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Platform": "SymbianOS",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Name": "Nokia",
+        "Device_Maker": "Nokia",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
         {
-            "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-                "Browser": "Nokia Proxy Browser",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "Platform": "SymbianOS",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Name": "Nokia",
-                "Device_Maker": "Nokia",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (Series40; *) Gecko/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
-                }
-            ]
+          "match": "Mozilla\/5.0 (Series40; *) Gecko/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         }
-    ]
+      ]
+    }
+  ]
 }
