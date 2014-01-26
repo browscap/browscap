@@ -234,15 +234,16 @@ class BrowscapCsvGenerator implements GeneratorInterface
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
 
             foreach ($allProperties as $property) {
-                if (!isset($properties[$property])) {
-                    continue;
-                }
-
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
                     continue;
                 }
 
-                $value       = $properties[$property];
+                if (!isset($properties[$property])) {
+                    $value = '';
+                } else {
+                    $value = $properties[$property];
+                }
+
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {

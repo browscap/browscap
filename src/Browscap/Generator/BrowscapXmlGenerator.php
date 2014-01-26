@@ -271,15 +271,16 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $browscapitem->appendChild($item);
 
             foreach ($allProperties as $property) {
-                if (!isset($properties[$property])) {
-                    continue;
-                }
-
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
                     continue;
                 }
 
-                $value       = $properties[$property];
+                if (!isset($properties[$property])) {
+                    $value = '';
+                } else {
+                    $value = $properties[$property];
+                }
+
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
