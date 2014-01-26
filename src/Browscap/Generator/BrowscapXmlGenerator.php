@@ -162,6 +162,25 @@ class BrowscapXmlGenerator implements GeneratorInterface
     }
 
     /**
+     * Quick nasty method that escapes the main XML entities
+     *
+     * @param string $value
+     * @return string
+     */
+    protected function escapeXml($value)
+    {
+        $translations = array(
+            '&' => '&amp;',
+            '"' => '&quot;',
+            "'" => '&apos;',
+            '<' => '&lt;',
+            '>' => '&gt;',
+        );
+
+        return strtr($value, $translations);
+    }
+
+    /**
      * renders all found useragents into a string
      *
      * @param $allDivisions
@@ -217,8 +236,8 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             // create output - xml
 
-            $output .= '<browscapitem name="' . $key . '">' . "\n";
-            $output .= '<item name="PropertyName" value="' . $key . '" />' . "\n";
+            $output .= '<browscapitem name="' . $this->escapeXml($key) . '">' . "\n";
+            $output .= '<item name="PropertyName" value="' . $this->escapeXml($key) . '" />' . "\n";
             $output .= '<item name="AgentID" value="' . $counter . '" />' . "\n";
 
             if ('DefaultProperties' === $key
@@ -230,7 +249,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 $masterParent = 'false';
             }
 
-            $output .= '<item name="MasterParent" value="' . $masterParent . '" />' . "\n";
+            $output .= '<item name="MasterParent" value="' . $this->escapeXml($masterParent) . '" />' . "\n";
 
             $output .= '<item name="LiteMode" value="'
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '" />' . "\n";
@@ -267,7 +286,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     $valueOutput = '';
                 }
 
-                $output .= '<item name="' . $property . '" value="' . $valueOutput . '" />' . "\n";
+                $output .= '<item name="' . $property . '" value="' . $this->escapeXml($valueOutput) . '" />' . "\n";
             }
 
             $output .= '</browscapitem>' . "\n";
