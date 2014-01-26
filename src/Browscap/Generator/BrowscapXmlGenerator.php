@@ -222,7 +222,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             $browscapitem = $dom->createTextNode('browscapitem');
             $name = $dom->createAttribute('name');
-            $name->value = $key;
+            $name->value = htmlentities($key);
             $browscapitem->appendChild($name);
 
             $item = $dom->createTextNode('item');
@@ -230,7 +230,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $name->value = 'PropertyName';
             $item->appendChild($name);
             $value = $dom->createAttribute('value');
-            $value->value = $key;
+            $value->value = htmlentities($key);
             $item->appendChild($value);
             $browscapitem->appendChild($item);
 
@@ -239,7 +239,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $name->value = 'AgentID';
             $item->appendChild($name);
             $value = $dom->createAttribute('value');
-            $value->value = $counter;
+            $value->value = htmlentities($counter);
             $item->appendChild($value);
             $browscapitem->appendChild($item);
 
@@ -304,10 +304,10 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
                 $item = $dom->createTextNode('item');
                 $name = $dom->createAttribute('name');
-                $name->value = $property;
+                $name->value = htmlentities($property);
                 $item->appendChild($name);
                 $value = $dom->createAttribute('value');
-                $value->value = $valueOutput;
+                $value->value = htmlentities($valueOutput);
                 $item->appendChild($value);
                 $browscapitem->appendChild($item);
             }
