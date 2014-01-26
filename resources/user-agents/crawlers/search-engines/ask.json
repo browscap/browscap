@@ -6,7 +6,7 @@
     {
       "userAgent": "Ask",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Search Engines",
         "Comment": "Ask",
         "Browser": "Ask",
         "Frames": "true",

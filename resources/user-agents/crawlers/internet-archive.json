@@ -5,7 +5,7 @@
     {
       "userAgent": "Internet Archive",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Internet Archive",
         "Browser": "Internet Archive",
         "Frames": "true",

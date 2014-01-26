@@ -6,7 +6,7 @@
     {
       "userAgent": "Yandex",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Yandex",
         "Browser": "Yandex",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Thunderbird 5.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Email Client",
         "Comment": "Thunderbird 5.0",
         "Browser": "Thunderbird",
         "Version": "5.0",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Lycoris Desktop\/LX",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Application",
         "Comment": "Lycoris Desktop\/LX",
         "Browser": "Lycoris Desktop\/LX",
         "Frames": "true",

@@ -1,6 +1,6 @@
 {
     "division": "General Browser",
-    "sortIndex": 2,
+    "sortIndex": 50000,
     "lite": true,
     "userAgents": [
         {
@@ -14,7 +14,7 @@
                 "Comment": "General Browser",
                 "Browser": "General Browser",
                 "Browser_Name": "General Browser",
-                "Browser_Full": "General Browser",
+                "Browser_FullName": "General Browser",
                 "Device_Type": "general Device",
                 "Crawler": "false"
             }

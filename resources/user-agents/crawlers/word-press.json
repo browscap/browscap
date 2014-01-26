@@ -6,7 +6,7 @@
     {
       "userAgent": "Word Press",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Word Press",
         "Browser": "Word Press",
         "Frames": "true",

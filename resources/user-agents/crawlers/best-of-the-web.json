@@ -5,7 +5,7 @@
     {
       "userAgent": "Best of the Web",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Best of the Web",
         "Browser": "Best of the Web",
         "Frames": "true",

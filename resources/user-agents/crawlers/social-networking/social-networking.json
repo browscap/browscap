@@ -1,11 +1,11 @@
 {
-  "division": "Social Bookmarkers",
+  "division": "Social Networking",
   "sortIndex": 500,
   "userAgents": [
     {
       "userAgent": "Social Networking",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Social Bookmarkers",
         "Browser": "Social Bookmarkers",
         "Crawler": "true"

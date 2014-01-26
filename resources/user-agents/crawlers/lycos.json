@@ -5,7 +5,7 @@
     {
       "userAgent": "Lycos",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Search Engines",
         "Comment": "Lycos",
         "Browser": "Lycos",
         "Frames": "true",

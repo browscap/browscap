@@ -5,7 +5,7 @@
     {
       "userAgent": "ContextAd Bot",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "ContextAd Bot",
         "Browser": "ContextAd Bot",
         "Frames": "true",

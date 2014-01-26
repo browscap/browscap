@@ -1,0 +1,23 @@
+{
+    "division": "General Email Client",
+    "sortIndex": 35000,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "General Email Client",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Category": "Email Client",
+                "SubCategory": "Email Client",
+                "Browser_Type": "Email Client",
+                "Browser_SubType": "Email Client",
+                "Comment": "General Email Client",
+                "Browser": "General Email Client",
+                "Browser_Name": "General Email Client",
+                "Browser_FullName": "General Email Client",
+                "Device_Type": "general Device",
+                "Crawler": "false"
+            }
+        }
+    ]
+}

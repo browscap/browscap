@@ -96,11 +96,24 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            $sortCategory = array();
-            $sortIndex    = array();
-            $sortPosition = array();
+            $sortCategory     = array();
+            $sortParents      = array();
+            $sortParentsFirst = array();
+            $sortName         = array();
+            $sortVersion      = array();
+            $sortIndex        = array();
+            $sortPosition     = array();
 
-            foreach ($this->divisions as $key => $division) {
+            $groups = array();
+
+            foreach ($this->divisions as $key => $properties) {
+                if (!empty($properties['Parents'])) {
+                    $groups[$properties['Parents']][] = $key;
+                }
+            }
+
+
+            foreach ($this->divisions as $key => $properties) {
                 $category = 0;
 
                 if (!empty($properties['Category'])) {
@@ -139,14 +152,93 @@ class DataCollection
                     $category = 11;
                 }
                 $sortCategory[$key] = $category;
-                $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
+
+                $parents = (empty($properties['Parents']) ? '' : $properties['Parents'] . ',') . $key;
+
+                if (!empty($groups[$parents])) {
+                    $group    = $parents;
+                    $subgroup = 0;
+                } elseif (!empty($properties['Parents'])) {
+                    $group    = $properties['Parents'];
+                    $subgroup = 1;
+                } else {
+                    $group    = '';
+                    $subgroup = 2;
+                }
+
+                $sortParents[$key]      = strtolower($group);
+                $sortParentsFirst[$key] = strtolower($subgroup);
+
+                if (!empty($properties['Browser_Name'])) {
+                    $sortName[$key] = strtolower($properties['Browser_Name']);
+                } elseif (!empty($properties['Browser'])) {
+                    $sortName[$key] = strtolower($properties['Browser']);
+                } else {
+                    $sortName[$key] = '';
+                }
+
+                if (!empty($properties['Browser_Version'])) {
+                    $version = $properties['Browser_Version'];
+                } elseif (!empty($properties['Version'])) {
+                    $version = $properties['Version'];
+                } else {
+                    $version = 0.0;
+                }
+
+                switch ($version) {
+                    case '3.1':
+                        $version = 3.1;
+                        break;
+                    case '95':
+                        $version = 3.2;
+                        break;
+                    case 'NT':
+                        $version = 4.0;
+                        break;
+                    case '98':
+                        $version = 4.1;
+                        break;
+                    case 'ME':
+                        $version = 4.2;
+                        break;
+                    case '2000':
+                        $version = 4.3;
+                        break;
+                    case 'XP':
+                        $version = 4.4;
+                        break;
+                    case '2003':
+                        $version = 4.5;
+                        break;
+                    case 'Vista':
+                        $version = 6.0;
+                        break;
+                    case '7':
+                        $version = 7.0;
+                        break;
+                    case '8':
+                        $version = 8.0;
+                        break;
+                    default:
+                        $version = (float)$version;
+                        break;
+                }
+
+                $sortVersion[$key] = $version;
+
+
+                $sortIndex[$key]    = (isset($properties['sortIndex']) ? $properties['sortIndex'] : 0);
                 $sortPosition[$key] = $key;
             }
 
             array_multisort(
-                $sortCategory, SORT_ASC,
-                $sortIndex, SORT_ASC,
-                $sortPosition, SORT_DESC, // if the sortIndex is identical the later added file comes first
+                $sortCategory, SORT_ASC, SORT_NUMERIC,
+                $sortParents, SORT_ASC, SORT_STRING,
+                $sortParentsFirst, SORT_ASC, SORT_NUMERIC,
+                $sortName, SORT_ASC, SORT_STRING,
+                $sortVersion, SORT_ASC, SORT_NUMERIC,
+                $sortIndex, SORT_ASC, SORT_NUMERIC,
+                $sortPosition, SORT_DESC, SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
                 $this->divisions
             );
 

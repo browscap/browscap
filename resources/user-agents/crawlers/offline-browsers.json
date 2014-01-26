@@ -5,7 +5,7 @@
     {
       "userAgent": "Offline Browsers",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Offline Browsers",
         "Browser": "Offline Browsers",
         "Crawler": "true"

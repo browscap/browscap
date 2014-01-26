@@ -6,7 +6,7 @@
     {
       "userAgent": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Browser": "Bot",
         "Crawler": "true"
       }
@@ -14,7 +14,7 @@
     {
       "userAgent": "Mozilla\/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko Minefield\/3.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Browser": "Bot",
         "Crawler": "true"
       }

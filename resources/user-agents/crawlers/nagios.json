@@ -5,7 +5,7 @@
     {
       "userAgent": "Nagios",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Nagios",
         "Browser": "Nagios",
         "Crawler": "true"

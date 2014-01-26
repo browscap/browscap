@@ -6,7 +6,7 @@
     {
       "userAgent": "Baidu",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Search Engines",
         "Comment": "Baidu",
         "Browser": "Baidu",
         "Frames": "true",

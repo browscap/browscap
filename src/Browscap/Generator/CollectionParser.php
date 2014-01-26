@@ -248,9 +248,14 @@ class CollectionParser
             $output['Browser_Name'] = $output['Browser'];
         }
 
+        $output['Browser_FullName'] = $output['Browser'];
+
         if (isset($output['Version'])) {
-            $output['Browser_Version'] = $output['Version'];
+            $output['Browser_Version']   = $output['Version'];
+            $output['Browser_FullName'] .= ' ' . $output['Version'];
         }
+
+        $output['Browser_FullName'] = trim($output['Browser_FullName']);
 
         if (isset($output['isSyndicationReader'])) {
             $output['Browser_isSyndicationReader'] = $output['isSyndicationReader'];
@@ -275,6 +280,21 @@ class CollectionParser
         if (isset($output['isTablet'])) {
             $output['Device_isTablet'] = $output['isTablet'];
         }
+
+        if (isset($output['Platform'])) {
+            $output['Platform_Name'] = $output['Platform'];
+        }
+
+        if ('Win' === substr($output['Platform_Name'], 0, 3) && 'Windows' !== $output['Platform_Name']) {
+            $output['Platform_FullName'] = $output['Platform_Name'];
+        } else {
+            $output['Platform_FullName'] = trim($output['Platform_Name'] . ' ' . $output['Platform_Version']);
+        }
+
+        $output['Device_FullName']          = trim($output['Device_Brand_Name'] . ' ' . $output['Device_Name']);
+        $output['RenderingEngine_FullName'] = trim(
+            $output['RenderingEngine_Name'] . ' ' . $output['RenderingEngine_Version']
+        );
 
         return $output;
     }
@@ -391,7 +411,7 @@ class CollectionParser
             case 'Browser_Icon':
             case 'Platform':
             case 'Platform_Name':
-            case 'Platform_Full':
+            case 'Platform_FullName':
             case 'Platform_Description':
             case 'Platform_Maker':
             case 'Platform_Icon':
@@ -401,7 +421,7 @@ class CollectionParser
             case 'Device_Brand_Name':
             case 'Device_Name':
             case 'RenderingEngine_Name':
-            case 'RenderingEngine_Full':
+            case 'RenderingEngine_FullName':
             case 'RenderingEngine_Description':
             case 'RenderingEngine_Maker':
             case 'RenderingEngine_Icon':
@@ -479,7 +499,7 @@ class CollectionParser
             case 'Browser_Modus':
             case 'Browser_Icon':
             case 'Platform_Name':
-            case 'Platform_Full':
+            case 'Platform_FullName':
             case 'Platform_Description':
             case 'Platform_Bits':
             case 'Platform_Maker':
@@ -494,7 +514,7 @@ class CollectionParser
             case 'Device_isDesktop':
             case 'Device_isTv':
             case 'RenderingEngine_Name':
-            case 'RenderingEngine_Full':
+            case 'RenderingEngine_FullName':
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
             case 'RenderingEngine_Maker':

@@ -5,7 +5,7 @@
     {
       "userAgent": "Snap",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Snap",
         "Browser": "Snap",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Become",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Become",
         "Browser": "Become",
         "isSyndicationReader": "true",

@@ -1,0 +1,23 @@
+{
+    "division": "General Application",
+    "sortIndex": 25000,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "General Application",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Category": "Application",
+                "SubCategory": "Application",
+                "Browser_Type": "Application",
+                "Browser_SubType": "Application",
+                "Comment": "General Application",
+                "Browser": "General Application",
+                "Browser_Name": "General Application",
+                "Browser_FullName": "General Application",
+                "Device_Type": "general Device",
+                "Crawler": "false"
+            }
+        }
+    ]
+}

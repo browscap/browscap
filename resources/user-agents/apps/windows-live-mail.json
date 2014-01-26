@@ -6,7 +6,7 @@
     {
       "userAgent": "Windows Live Mail",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Email Client",
         "Comment": "Windows Live Mail",
         "Browser": "Windows Live Mail",
         "Version": "7.0",

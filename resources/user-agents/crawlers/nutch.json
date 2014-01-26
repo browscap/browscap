@@ -6,7 +6,7 @@
     {
       "userAgent": "Nutch",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Nutch",
         "Browser": "Nutch",
         "Frames": "true",

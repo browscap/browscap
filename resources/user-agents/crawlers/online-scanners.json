@@ -5,7 +5,7 @@
     {
       "userAgent": "Online Scanners",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Online Scanners",
         "Browser": "Online Scanners"
       }

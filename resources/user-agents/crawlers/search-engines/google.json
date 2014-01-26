@@ -6,7 +6,7 @@
     {
       "userAgent": "Google",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Search Engines",
         "Comment": "Google",
         "Browser": "Google",
         "Frames": "true",

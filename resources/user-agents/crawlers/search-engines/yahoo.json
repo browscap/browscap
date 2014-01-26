@@ -6,7 +6,7 @@
     {
       "userAgent": "Yahoo",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Yahoo",
         "Browser": "Yahoo",
         "Frames": "true",
