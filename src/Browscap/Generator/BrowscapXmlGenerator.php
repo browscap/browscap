@@ -239,7 +239,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             // create output - xml
 
-            $browscapitem = $dom->createTextNode('browscapitem');
+            $browscapitem = $dom->createElement('browscapitem');
             $name = $dom->createAttribute('name');
             $name->value = htmlentities($key);
             $browscapitem->appendChild($name);
@@ -377,7 +377,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      */
     private function createItem(\DOMDocument $dom, \DOMNode $browscapitem, $property, $valueOutput)
     {
-        $item        = $dom->createTextNode('item');
+        $item        = $dom->createElement('item');
 
         $name        = $dom->createAttribute('name');
         $name->value = htmlentities($property);
