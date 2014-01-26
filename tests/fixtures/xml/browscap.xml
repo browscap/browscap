@@ -52,8 +52,8 @@
 <item name="RenderingEngine_Version" value="" />
 <item name="RenderingEngine_Description" value="" />
 </browscapitem>
-<browscapitem name="Division1">
-<item name="PropertyName" value="Division1" />
+<browscapitem name="UA1">
+<item name="PropertyName" value="UA1" />
 <item name="AgentID" value="3" />
 <item name="MasterParent" value="true" />
 <item name="LiteMode" value="true" />
