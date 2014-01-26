@@ -152,7 +152,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     {
         $comments = $dom->createElement('comments');
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $comments->appendChild($linebreak);
 
         foreach ($this->getComments() as $text) {
@@ -161,7 +161,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $comment->appendChild($cdata);
             $comments->appendChild($comment);
 
-            $linebreak = $dom->createTextNode("\n");
+            $linebreak = $dom->createTextNode(PHP_EOL);
             $comments->appendChild($linebreak);
         }
 
@@ -181,22 +181,22 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $dom      = new \DOMDocument('1.0', 'utf-8');
         $xmlRoot  = $dom->createElement('browsercaps');
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $xmlRoot->appendChild($linebreak);
 
         $xmlRoot->appendChild($this->renderHeader($dom));
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $xmlRoot->appendChild($linebreak);
 
         $xmlRoot->appendChild($this->renderVersion($dom));
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $xmlRoot->appendChild($linebreak);
 
         $items = $dom->createElement('browsercapitems');
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $items->appendChild($linebreak);
 
         $counter = 1;
@@ -244,7 +244,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $name->value = htmlentities($key);
             $browscapitem->appendChild($name);
 
-            $linebreak = $dom->createTextNode("\n");
+            $linebreak = $dom->createTextNode(PHP_EOL);
             $browscapitem->appendChild($linebreak);
 
             $this->createItem($dom, $browscapitem, 'PropertyName', $key);
@@ -302,18 +302,18 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             $items->appendChild($browscapitem);
 
-            $linebreak = $dom->createTextNode("\n");
+            $linebreak = $dom->createTextNode(PHP_EOL);
             $items->appendChild($linebreak);
         }
 
         $xmlRoot->appendChild($items);
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $xmlRoot->appendChild($linebreak);
 
         $dom->appendChild($xmlRoot);
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $dom->appendChild($linebreak);
 
         return  $dom->saveXML();
@@ -339,7 +339,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $version->appendChild($linebreak);
 
         $item = $dom->createElement('item');
@@ -351,7 +351,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($value);
         $version->appendChild($item);
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $version->appendChild($linebreak);
 
         $item = $dom->createElement('item');
@@ -363,7 +363,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($value);
         $version->appendChild($item);
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $version->appendChild($linebreak);
 
         return $version;
@@ -389,7 +389,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
         $browscapitem->appendChild($item);
 
-        $linebreak = $dom->createTextNode("\n");
+        $linebreak = $dom->createTextNode(PHP_EOL);
         $browscapitem->appendChild($linebreak);
     }
 }
