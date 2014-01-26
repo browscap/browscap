@@ -159,10 +159,10 @@ class BrowscapIniGenerator implements GeneratorInterface
         $header = '';
 
         foreach ($this->getComments() as $comment) {
-            $header .= ';;; ' . $comment . "\n";
+            $header .= ';;; ' . $comment . PHP_EOL;
         }
 
-        $header .= "\n";
+        $header .= PHP_EOL;
 
         $header .= $this->renderVersion();
 
@@ -252,10 +252,10 @@ class BrowscapIniGenerator implements GeneratorInterface
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']
             ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . "\n\n";
+                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . PHP_EOL . PHP_EOL;
             }
 
-            $output .= '[' . $key . ']' . "\n";
+            $output .= '[' . $key . ']' . PHP_EOL;
 
             foreach ($allProperties as $property) {
                 if (!isset($propertiesToOutput[$property])) {
@@ -293,10 +293,10 @@ class BrowscapIniGenerator implements GeneratorInterface
                         break;
                 }
 
-                $output .= $property . '=' . $valueOutput . "\n";
+                $output .= $property . '=' . $valueOutput . PHP_EOL;
             }
 
-            $output .= "\n";
+            $output .= PHP_EOL;
         }
 
         return $output;
@@ -309,9 +309,9 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
-        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . "\n\n";
+        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL;
 
-        $header .= '[GJK_Browscap_Version]' . "\n";
+        $header .= '[GJK_Browscap_Version]' . PHP_EOL;
 
         $versionData = $this->getVersionData();
 
@@ -323,8 +323,8 @@ class BrowscapIniGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $header .= 'Version=' . $versionData['version'] . "\n";
-        $header .= 'Released=' . $versionData['released'] . "\n\n";
+        $header .= 'Version=' . $versionData['version'] . PHP_EOL;
+        $header .= 'Released=' . $versionData['released'] . PHP_EOL . PHP_EOL;
 
         return $header;
     }

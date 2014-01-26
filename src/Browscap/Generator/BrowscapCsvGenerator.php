@@ -174,7 +174,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
             $output .= ',"' . $property . '"';
         }
 
-        $output .= "\r\n";
+        $output .= PHP_EOL;
 
         $counter = 1;
 
@@ -269,7 +269,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
                 $output .= ',"' . $valueOutput . '"';
             }
 
-            $output .= "\r\n";
+            $output .= PHP_EOL;
         }
 
         return $output;
@@ -282,7 +282,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
-        $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . "\r\n";
+        $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL;
 
         $versionData = $this->getVersionData();
 
@@ -294,7 +294,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . "\r\n";
+        $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL;
 
         return $header;
     }

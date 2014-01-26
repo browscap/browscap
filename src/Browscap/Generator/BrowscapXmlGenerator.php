@@ -319,7 +319,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $xmlRoot->appendChild($items);
         $dom->appendChild($xmlRoot);
 
-        return $dom->saveXML();
+        return str_replace('>', '>' . PHP_EOL, $dom->saveXML());
     }
 
     /**
