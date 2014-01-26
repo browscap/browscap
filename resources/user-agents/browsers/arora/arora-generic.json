@@ -1,14 +1,13 @@
 {
   "division": "Arora Generic",
-  "sortIndex": 1501,
+  "sortIndex": 1183,
   "userAgents": [
     {
       "userAgent": "Arora Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Google Code",
         "Comment": "Arora Generic",
         "Browser": "Arora",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

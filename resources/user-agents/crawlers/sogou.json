@@ -83,6 +83,23 @@
       }
     },
     {
+      "userAgent": "Sogou web spider*",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "sogou web spider"
+      }
+    },
+    {
+      "userAgent": "Sogou web spider/4.0*",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "sogou web spider",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
       "userAgent": "Sogou-Test-Spider\/*",
       "properties": {
         "Parent": "Sogou",

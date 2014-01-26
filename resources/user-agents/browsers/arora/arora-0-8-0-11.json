@@ -1,18 +1,17 @@
 {
   "division": "Arora #MAJORVER#.#MINORVER#",
   "versions": ["0.8", "0.9", "0.10", "0.11"],
-  "sortIndex": 1500,
+  "sortIndex": 1182,
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Google Code",
         "Comment": "Arora #MAJORVER#.#MINORVER#",
         "Browser": "Arora",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

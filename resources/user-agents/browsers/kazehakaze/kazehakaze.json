@@ -1,0 +1,37 @@
+{
+  "division": "Kazehakaze #MAJORVER#.#MINORVER#",
+  "versions": ["0.4", "0.5"],
+  "sortIndex": 2460,
+  "userAgents": [
+    {
+      "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kazehakase #MAJORVER#.#MINORVER#",
+        "Browser": "Kazehakase",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Description": "For Lunascape, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+          },
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
