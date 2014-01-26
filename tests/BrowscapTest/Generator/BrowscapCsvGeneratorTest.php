@@ -132,8 +132,8 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
         return [
-            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'csv/browscap.csv'],
-            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'csv/features-basic.ini'],
+            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'csv/features-bcv.csv'],
+            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'csv/features-basic.csv'],
             'single-child' => [$fixturesDir . 'ua/features-single-child.json', $fixturesDir . 'csv/features-single-child.csv'],
             'multi-child' => [$fixturesDir . 'ua/features-multi-child.json', $fixturesDir . 'csv/features-multi-child.csv'],
             'versions' => [$fixturesDir . 'ua/features-versions.json', $fixturesDir . 'csv/features-versions.csv'],
