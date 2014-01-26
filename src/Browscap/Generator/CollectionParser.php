@@ -243,61 +243,6 @@ class CollectionParser
             $output[$property] = $value;
         }
 
-        // add prefixed duplicates if the original exists
-        if (isset($output['Browser'])) {
-            $output['Browser_Name'] = $output['Browser'];
-        }
-
-        $output['Browser_FullName'] = $output['Browser'];
-
-        if (isset($output['Version'])) {
-            $output['Browser_Version']   = $output['Version'];
-            $output['Browser_FullName'] .= ' ' . $output['Version'];
-        }
-
-        $output['Browser_FullName'] = trim($output['Browser_FullName']);
-
-        if (isset($output['isSyndicationReader'])) {
-            $output['Browser_isSyndicationReader'] = $output['isSyndicationReader'];
-        }
-
-        if (isset($output['Crawler'])) {
-            $output['Browser_isBot'] = $output['Crawler'];
-        }
-
-        if (isset($output['Alpha'])) {
-            $output['Browser_isAlpha'] = $output['Alpha'];
-        }
-
-        if (isset($output['Beta'])) {
-            $output['Browser_isBeta'] = $output['Beta'];
-        }
-
-        if (isset($output['isMobileDevice'])) {
-            $output['Device_isMobileDevice'] = $output['isMobileDevice'];
-        }
-
-        if (isset($output['isTablet'])) {
-            $output['Device_isTablet'] = $output['isTablet'];
-        }
-
-        if (isset($output['Platform'])) {
-            $output['Platform_Name'] = $output['Platform'];
-        }
-
-        if (('Win' !== substr($output['Platform'], 0, 3) || 'Windows' === $output['Platform'])
-            && isset($output['Platform_Version'])
-        ) {
-            $output['Platform_FullName'] = trim($output['Platform'] . ' ' . $output['Platform_Version']);
-        } else {
-            $output['Platform_FullName'] = $output['Platform'];
-        }
-
-        $output['Device_FullName']          = trim($output['Device_Brand_Name'] . ' ' . $output['Device_Name']);
-        $output['RenderingEngine_FullName'] = trim(
-            $output['RenderingEngine_Name'] . ' ' . $output['RenderingEngine_Version']
-        );
-
         return $output;
     }
 
@@ -382,6 +327,63 @@ class CollectionParser
             } else {
                 $properties['MinorVer'] = 0;
             }
+
+            // add prefixed duplicates if the original exists
+            if (isset($properties['Browser'])) {
+                $properties['Browser_Name'] = $properties['Browser'];
+            }
+
+            $properties['Browser_FullName'] = $properties['Browser'];
+
+            if (isset($properties['Version'])) {
+                $properties['Browser_Version']   = $properties['Version'];
+                $properties['Browser_FullName'] .= ' ' . $properties['Version'];
+            }
+
+            $properties['Browser_FullName'] = trim($properties['Browser_FullName']);
+
+            if (isset($properties['isSyndicationReader'])) {
+                $properties['Browser_isSyndicationReader'] = $properties['isSyndicationReader'];
+            }
+
+            if (isset($properties['Crawler'])) {
+                $properties['Browser_isBot'] = $properties['Crawler'];
+            }
+
+            if (isset($properties['Alpha'])) {
+                $properties['Browser_isAlpha'] = $properties['Alpha'];
+            }
+
+            if (isset($properties['Beta'])) {
+                $properties['Browser_isBeta'] = $properties['Beta'];
+            }
+
+            if (isset($properties['isMobileDevice'])) {
+                $properties['Device_isMobileDevice'] = $properties['isMobileDevice'];
+            }
+
+            if (isset($properties['isTablet'])) {
+                $properties['Device_isTablet'] = $properties['isTablet'];
+            }
+
+            if (isset($properties['Platform'])) {
+                $properties['Platform_Name'] = $properties['Platform'];
+            }
+
+            if (isset($properties['Platform'])) {
+                if (('Win' !== substr($properties['Platform'], 0, 3) || 'Windows' === $properties['Platform'])
+                    && isset($properties['Platform_Version'])
+                ) {
+                    $properties['Platform_FullName'] = trim($properties['Platform'] . ' ' . $properties['Platform_Version']);
+                } else {
+                    $properties['Platform_FullName'] = $properties['Platform'];
+                }
+            }
+
+            $properties['Device_FullName']          = trim($properties['Device_Brand_Name'] . ' ' . $properties['Device_Name']);
+            $properties['RenderingEngine_FullName'] = trim(
+                $properties['RenderingEngine_Name'] . ' ' . $properties['RenderingEngine_Version']
+            );
 
             $allDivisions[$key] = $properties;
         }
