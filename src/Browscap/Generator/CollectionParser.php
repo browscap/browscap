@@ -285,10 +285,12 @@ class CollectionParser
             $output['Platform_Name'] = $output['Platform'];
         }
 
-        if ('Win' === substr($output['Platform_Name'], 0, 3) && 'Windows' !== $output['Platform_Name']) {
-            $output['Platform_FullName'] = $output['Platform_Name'];
+        if (('Win' !== substr($output['Platform'], 0, 3) || 'Windows' === $output['Platform'])
+            && isset($output['Platform_Version'])
+        ) {
+            $output['Platform_FullName'] = trim($output['Platform'] . ' ' . $output['Platform_Version']);
         } else {
-            $output['Platform_FullName'] = trim($output['Platform_Name'] . ' ' . $output['Platform_Version']);
+            $output['Platform_FullName'] = $output['Platform'];
         }
 
         $output['Device_FullName']          = trim($output['Device_Brand_Name'] . ' ' . $output['Device_Name']);
