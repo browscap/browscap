@@ -55,8 +55,11 @@ return [
     'issue-84-B' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; es-sa; LG-D805 Build/JDQ39B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30',
         [
-            'Browser' => 'Fake IE',
-            'Crawler' => true,
+            'Browser' => 'Android',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.2',
+            'isMobileDevice' => true,
         ],
     ],
     'issue-84-A' => [
