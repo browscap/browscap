@@ -48,7 +48,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * Set the data collection
      *
      * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setCollectionData(array $collectionData)
     {
@@ -74,7 +74,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * @param array $comments
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setComments(array $comments)
     {
@@ -94,7 +94,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * @param array $versionData
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setVersionData(array $versionData)
     {
@@ -117,7 +117,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
@@ -180,6 +180,9 @@ class BrowscapXmlGenerator implements GeneratorInterface
     {
         $dom      = new \DOMDocument('1.0', 'utf-8');
         $xmlRoot  = $dom->createElement('browsercaps');
+
+        $linebreak = $dom->createTextNode("\n");
+        $xmlRoot->appendChild($linebreak);
 
         $xmlRoot->appendChild($this->renderHeader($dom));
 
@@ -244,37 +247,8 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $linebreak = $dom->createTextNode("\n");
             $browscapitem->appendChild($linebreak);
 
-            $item = $dom->createTextNode('item');
-            $name = $dom->createAttribute('name');
-            $name->value = 'PropertyName';
-            $item->appendChild($name);
-            $value = $dom->createAttribute('value');
-            $value->value = htmlentities($key);
-            $item->appendChild($value);
-
-            $linebreak = $dom->createTextNode("\n");
-            $item->appendChild($linebreak);
-
-            $browscapitem->appendChild($item);
-
-            $linebreak = $dom->createTextNode("\n");
-            $browscapitem->appendChild($linebreak);
-
-            $item = $dom->createTextNode('item');
-            $name = $dom->createAttribute('name');
-            $name->value = 'AgentID';
-            $item->appendChild($name);
-            $value = $dom->createAttribute('value');
-            $value->value = htmlentities($counter);
-            $item->appendChild($value);
-
-            $linebreak = $dom->createTextNode("\n");
-            $item->appendChild($linebreak);
-
-            $browscapitem->appendChild($item);
-
-            $linebreak = $dom->createTextNode("\n");
-            $browscapitem->appendChild($linebreak);
+            $this->createItem($dom, $browscapitem, 'PropertyName', $key);
+            $this->createItem($dom, $browscapitem, 'AgentID', $counter);
 
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
@@ -285,37 +259,10 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 $masterParent = 'false';
             }
 
-            $item = $dom->createTextNode('item');
-            $name = $dom->createAttribute('name');
-            $name->value = 'MasterParent';
-            $item->appendChild($name);
-            $value = $dom->createAttribute('value');
-            $value->value = $masterParent;
-            $item->appendChild($value);
+            $this->createItem($dom, $browscapitem, 'MasterParent', $masterParent);
 
-            $linebreak = $dom->createTextNode("\n");
-            $item->appendChild($linebreak);
-
-            $browscapitem->appendChild($item);
-
-            $linebreak = $dom->createTextNode("\n");
-            $browscapitem->appendChild($linebreak);
-
-            $item = $dom->createTextNode('item');
-            $name = $dom->createAttribute('name');
-            $name->value = 'LiteMode';
-            $item->appendChild($name);
-            $value = $dom->createAttribute('value');
-            $value->value = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
-            $item->appendChild($value);
-
-            $linebreak = $dom->createTextNode("\n");
-            $item->appendChild($linebreak);
-
-            $browscapitem->appendChild($item);
-
-            $linebreak = $dom->createTextNode("\n");
-            $browscapitem->appendChild($linebreak);
+            $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
+            $this->createItem($dom, $browscapitem, 'LiteMode', $valueOutput);
 
             foreach ($allProperties as $property) {
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
@@ -350,24 +297,13 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     $valueOutput = '';
                 }
 
-                $item = $dom->createTextNode('item');
-                $name = $dom->createAttribute('name');
-                $name->value = htmlentities($property);
-                $item->appendChild($name);
-                $value = $dom->createAttribute('value');
-                $value->value = htmlentities($valueOutput);
-                $item->appendChild($value);
-
-                $linebreak = $dom->createTextNode("\n");
-                $item->appendChild($linebreak);
-
-                $browscapitem->appendChild($item);
-
-                $linebreak = $dom->createTextNode("\n");
-                $browscapitem->appendChild($linebreak);
+                $this->createItem($dom, $browscapitem, $property, $valueOutput);
             }
 
             $items->appendChild($browscapitem);
+
+            $linebreak = $dom->createTextNode("\n");
+            $items->appendChild($linebreak);
         }
 
         $xmlRoot->appendChild($items);
@@ -431,5 +367,29 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $version->appendChild($linebreak);
 
         return $version;
+    }
+
+    /**
+     * @param \DOMDocument $dom
+     * @param \DOMElement  $browscapitem
+     * @param string       $property
+     * @param mixed        $valueOutput
+     */
+    private function createItem(\DOMDocument $dom, \DOMElement $browscapitem, $property, $valueOutput)
+    {
+        $item        = $dom->createTextNode('item');
+
+        $name        = $dom->createAttribute('name');
+        $name->value = htmlentities($property);
+        $item->appendChild($name);
+
+        $value        = $dom->createAttribute('value');
+        $value->value = htmlentities($valueOutput);
+        $item->appendChild($value);
+
+        $browscapitem->appendChild($item);
+
+        $linebreak = $dom->createTextNode("\n");
+        $browscapitem->appendChild($linebreak);
     }
 }

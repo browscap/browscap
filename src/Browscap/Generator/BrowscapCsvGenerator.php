@@ -48,7 +48,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * Set the data collection
      *
      * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setCollectionData(array $collectionData)
     {
@@ -74,7 +74,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * @param array $comments
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setComments(array $comments)
     {
@@ -94,7 +94,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * @param array $versionData
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setVersionData(array $versionData)
     {
@@ -117,7 +117,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
