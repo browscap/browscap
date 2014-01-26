@@ -19,6 +19,7 @@
 <item name="AgentID" value="2"/>
 <item name="MasterParent" value="true"/>
 <item name="LiteMode" value="true"/>
+<item name="Parent" value=""/>
 <item name="Comment" value="DefaultProperties"/>
 <item name="Browser" value="DefaultProperties"/>
 <item name="Version" value="0.0"/>
@@ -71,9 +72,9 @@
 <item name="Win16" value="false"/>
 <item name="Win32" value="false"/>
 <item name="Win64" value="false"/>
-<item name="Frames" value="true"/>
-<item name="IFrames" value="true"/>
-<item name="Tables" value="true"/>
+<item name="Frames" value="false"/>
+<item name="IFrames" value="false"/>
+<item name="Tables" value="false"/>
 <item name="Cookies" value="false"/>
 <item name="BackgroundSounds" value="false"/>
 <item name="JavaScript" value="false"/>
@@ -82,7 +83,7 @@
 <item name="ActiveXControls" value="false"/>
 <item name="isMobileDevice" value="false"/>
 <item name="isSyndicationReader" value="false"/>
-<item name="Crawler" value="true"/>
+<item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
 <item name="Device_Name" value=""/>
@@ -93,9 +94,10 @@
 </browscapitem>
 <browscapitem name="*">
 <item name="PropertyName" value="*"/>
-<item name="AgentID" value="10488"/>
+<item name="AgentID" value="4"/>
 <item name="MasterParent" value="true"/>
 <item name="LiteMode" value="true"/>
+<item name="Parent" value=""/>
 <item name="Comment" value="Default Browser"/>
 <item name="Browser" value="Default Browser"/>
 <item name="Version" value="0.0"/>
