@@ -6,7 +6,7 @@
     {
       "userAgent": "Netscape 8.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Netscape 8.0",
         "Browser": "Netscape",
         "Version": "8.0",

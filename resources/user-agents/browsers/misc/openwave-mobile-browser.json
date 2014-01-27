@@ -6,7 +6,7 @@
     {
       "userAgent": "Openwave Mobile Browser",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Openwave Mobile Browser",
         "Browser": "Openwave Mobile Browser",
         "Frames": "true",

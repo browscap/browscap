@@ -6,7 +6,7 @@
     {
       "userAgent": "GoogleTV",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "GoogleTV",
         "Browser": "GoogleTV",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Links",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Links",
         "Browser": "Links",
         "Frames": "true",

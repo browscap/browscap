@@ -7,7 +7,7 @@
     {
       "userAgent": "Midori #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Midori #MAJORVER#.#MINORVER#",
         "Browser": "Midori",
         "Version": "#MAJORVER#.#MINORVER#",

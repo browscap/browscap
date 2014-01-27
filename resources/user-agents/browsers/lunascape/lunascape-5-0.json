@@ -5,7 +5,7 @@
     {
       "userAgent": "Lunascape 5.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Lunascape 5.0",
         "Browser": "Lunascape",
         "Version": "5.0",

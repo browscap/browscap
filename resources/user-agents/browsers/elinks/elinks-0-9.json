@@ -5,7 +5,7 @@
     {
       "userAgent": "ELinks 0.9",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "ELinks 0.9",
         "Browser": "ELinks",
         "Version": "0.9",

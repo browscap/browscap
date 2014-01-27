@@ -7,7 +7,7 @@
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
         "Browser": "Opera",
         "Version": "#MAJORVER#.#MINORVER#",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Maxthon 3.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Maxthon 3.0",
         "Browser": "Maxthon",
         "Version": "3.0",

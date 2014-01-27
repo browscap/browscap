@@ -7,7 +7,7 @@
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Proxy Browser",
         "Version": "#MAJORVER#.#MINORVER#",

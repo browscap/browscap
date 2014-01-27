@@ -6,7 +6,7 @@
     {
       "userAgent": "SEMC Browser",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "SEMC Browser",
         "Browser": "SEMC Browser",
         "Platform": "JAVA",

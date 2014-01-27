@@ -5,7 +5,7 @@
     {
       "userAgent": "Microsoft Zune",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Microsoft Zune",
         "Browser": "",
         "Win32": "true",

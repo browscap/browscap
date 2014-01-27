@@ -5,7 +5,7 @@
     {
       "userAgent": "Fennec 6.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Fennec 6.0",
         "Browser": "Fennec",
         "Version": "6.0",

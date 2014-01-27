@@ -5,7 +5,7 @@
     {
       "userAgent": "Iron Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Iron Generic",
         "Browser": "Iron",
         "Win32": "true",

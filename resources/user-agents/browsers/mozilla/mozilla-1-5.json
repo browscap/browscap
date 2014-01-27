@@ -6,7 +6,7 @@
     {
       "userAgent": "Mozilla 1.5",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Mozilla 1.5",
         "Browser": "Mozilla",
         "Version": "1.5",

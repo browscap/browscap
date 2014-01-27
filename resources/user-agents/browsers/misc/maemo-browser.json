@@ -6,7 +6,7 @@
     {
       "userAgent": "Maemo",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Maemo Browser",
         "Browser": "Maemo",
         "Frames": "true",

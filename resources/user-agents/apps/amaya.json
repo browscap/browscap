@@ -5,7 +5,7 @@
     {
       "userAgent": "Amaya",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Amaya",
         "Browser": "Amaya",
         "Frames": "true",

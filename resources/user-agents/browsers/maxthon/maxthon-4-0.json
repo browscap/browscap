@@ -7,7 +7,7 @@
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Browser": "Maxthon",
         "Version": "#MAJORVER#.#MINORVER#",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Chimera",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Chimera",
         "Browser": "Chimera",
         "Frames": "true",

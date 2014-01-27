@@ -6,7 +6,7 @@
     {
       "userAgent": "Opera Mobile",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Opera Mobile",
         "Browser": "Opera Mobi",
         "Frames": "true",

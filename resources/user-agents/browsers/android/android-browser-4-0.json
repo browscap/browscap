@@ -7,7 +7,7 @@
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
         "Browser": "Android",
         "Version": "#MAJORVER#.#MINORVER#",

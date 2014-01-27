@@ -6,7 +6,7 @@
     {
       "userAgent": "iCab",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "iCab",
         "Browser": "iCab",
         "Frames": "true",

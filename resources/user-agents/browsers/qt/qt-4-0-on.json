@@ -6,7 +6,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#",

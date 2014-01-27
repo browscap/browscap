@@ -5,7 +5,7 @@
     {
       "userAgent": "Lynx",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Lynx",
         "Browser": "Lynx",
         "Frames": "true",

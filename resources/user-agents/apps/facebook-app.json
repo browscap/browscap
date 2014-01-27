@@ -6,7 +6,7 @@
     {
       "userAgent": "Facebook App",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Facebook App",
         "Browser": "Safari",
         "Version": "5.1",

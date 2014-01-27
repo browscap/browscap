@@ -6,7 +6,7 @@
     {
       "userAgent": "K-Meleon 1.5",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "K-Meleon 1.5",
         "Browser": "K-Meleon",
         "Version": "1.5",

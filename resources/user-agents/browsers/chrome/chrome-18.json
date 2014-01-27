@@ -7,7 +7,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Chrome Generic",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Version": "#MAJORVER#.#MINORVER#",

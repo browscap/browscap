@@ -6,7 +6,7 @@
     {
       "userAgent": "Blazer",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Handspring Blazer",
         "Browser": "Handspring Blazer",
         "Platform": "Palm",

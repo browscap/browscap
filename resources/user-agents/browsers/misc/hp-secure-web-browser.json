@@ -5,7 +5,7 @@
     {
       "userAgent": "HP Secure Web Browser",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "HP Secure Web Browser",
         "Browser": "HP Secure Web Browser",
         "Platform": "OpenVMS",

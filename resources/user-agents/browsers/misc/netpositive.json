@@ -5,7 +5,7 @@
     {
       "userAgent": "NetPositive",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "NetPositive",
         "Browser": "NetPositive",
         "Platform": "BeOS",

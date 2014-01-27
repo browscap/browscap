@@ -7,7 +7,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
         "Browser": "Fennec",
         "Version": "#MAJORVER#.#MINORVER#",

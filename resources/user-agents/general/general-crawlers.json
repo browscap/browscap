@@ -6,7 +6,7 @@
     {
       "userAgent": "General Crawlers",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Category": "Bot/Crawler",
         "SubCategory": "Bot/Crawler",
         "Browser_Type": "Bot/Crawler",

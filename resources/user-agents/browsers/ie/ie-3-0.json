@@ -5,7 +5,7 @@
     {
       "userAgent": "IE 3.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "IE 3.0",
         "Browser": "IE",
         "Version": "3.0",

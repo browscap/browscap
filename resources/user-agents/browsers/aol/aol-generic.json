@@ -6,7 +6,7 @@
     {
       "userAgent": "AOL Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "AOL Generic",
         "Browser": "IE",
         "Frames": "true",

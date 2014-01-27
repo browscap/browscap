@@ -5,7 +5,7 @@
     {
       "userAgent": "Qt Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Qt Generic",
         "Browser": "Qt",
         "CssVersion": "1",

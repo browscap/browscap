@@ -6,7 +6,7 @@
     {
       "userAgent": "WebTV",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "WebTV\/MSNTV",
         "Browser": "WebTV\/MSNTV",
         "Platform": "WebTV",

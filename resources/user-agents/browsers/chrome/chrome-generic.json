@@ -6,7 +6,7 @@
     {
       "userAgent": "Chrome Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Chrome Generic",
         "Browser": "Chrome",
         "CssVersion": "1",

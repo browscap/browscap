@@ -6,7 +6,7 @@
     {
       "userAgent": "Boxee",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Boxee",
         "Browser": "Boxee",
         "Frames": "true",

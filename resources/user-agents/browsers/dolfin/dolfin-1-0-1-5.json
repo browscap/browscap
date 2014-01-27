@@ -7,7 +7,7 @@
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
         "Browser": "Dolfin",
         "Version": "#MAJORVER#.#MINORVER#",

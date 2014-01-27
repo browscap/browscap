@@ -5,7 +5,7 @@
     {
       "userAgent": "Dillo",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Dillo",
         "Browser": "Dillo",
         "Platform": "Linux",

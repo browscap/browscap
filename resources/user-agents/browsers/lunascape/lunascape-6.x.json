@@ -7,7 +7,7 @@
     {
       "userAgent": "Lunascape #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Lunascape #MAJORVER#.#MINORVER#",
         "Browser": "Lunascape",
         "Version": "#MAJORVER#.#MINORVER#",

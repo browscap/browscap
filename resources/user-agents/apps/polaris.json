@@ -6,7 +6,7 @@
     {
       "userAgent": "Polaris",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Polaris",
         "Browser": "Polaris",
         "Frames": "true",

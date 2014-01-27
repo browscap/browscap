@@ -6,7 +6,7 @@
     {
       "userAgent": "OmniWeb 5.10",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "OmniWeb 5.10",
         "Browser": "OmniWeb",
         "Version": "5.10",

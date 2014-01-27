@@ -5,7 +5,7 @@
     {
       "userAgent": "Chromium Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Chromium Generic",
         "Browser": "Chromium",
         "Platform": "Linux",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Mozilla 1.8",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Mozilla 1.8",
         "Browser": "Mozilla",
         "Version": "1.8",

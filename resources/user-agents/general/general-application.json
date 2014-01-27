@@ -6,7 +6,7 @@
         {
             "userAgent": "General Application",
             "properties": {
-                "Parent": "DefaultProperties",
+                "Parent": "General Browser",
                 "Category": "Application",
                 "SubCategory": "Application",
                 "Browser_Type": "Application",

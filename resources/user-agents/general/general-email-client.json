@@ -6,7 +6,7 @@
         {
             "userAgent": "General Email Client",
             "properties": {
-                "Parent": "DefaultProperties",
+                "Parent": "General Browser",
                 "Category": "Email Client",
                 "SubCategory": "Email Client",
                 "Browser_Type": "Email Client",

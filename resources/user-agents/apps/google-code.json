@@ -5,7 +5,7 @@
     {
       "userAgent": "Google Code",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Google Code",
         "Browser": "Google Code"
       }

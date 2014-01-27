@@ -6,7 +6,7 @@
     {
       "userAgent": "Nokia",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Nokia",
         "Browser": "Nokia",
         "Frames": "true",

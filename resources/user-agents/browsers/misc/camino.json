@@ -6,7 +6,7 @@
     {
       "userAgent": "Camino",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Camino",
         "Browser": "Camino",
         "Platform": "MacOSX",

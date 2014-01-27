@@ -5,7 +5,7 @@
     {
       "userAgent": "Mosaic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "NCSA Mosaic",
         "Browser": "Mosaic",
         "Frames": "true",

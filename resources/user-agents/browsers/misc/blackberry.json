@@ -6,7 +6,7 @@
     {
       "userAgent": "BlackBerry",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "BlackBerry",
         "Browser": "BlackBerry",
         "Platform": "BlackBerry OS",

@@ -5,7 +5,7 @@
     {
       "userAgent": "MQQBrowser Generic",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "MQQBrowser Generic",
         "Browser": "MQQBrowser",
         "CssVersion": "1",

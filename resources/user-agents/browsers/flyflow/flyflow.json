@@ -7,7 +7,7 @@
     {
       "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
         "Browser": "FlyFlow",
         "Version": "#MAJORVER#.#MINORVER#",

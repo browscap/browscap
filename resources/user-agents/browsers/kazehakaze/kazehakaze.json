@@ -6,7 +6,7 @@
     {
       "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Kazehakase #MAJORVER#.#MINORVER#",
         "Browser": "Kazehakase",
         "Version": "#MAJORVER#.#MINORVER#",

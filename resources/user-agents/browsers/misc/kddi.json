@@ -6,7 +6,7 @@
     {
       "userAgent": "KDDI",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "KDDI",
         "Browser": "KDDI",
         "Frames": "true",

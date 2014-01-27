@@ -6,7 +6,7 @@
     {
       "userAgent": "Playstation",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Playstation",
         "Browser": "Playstation",
         "Platform": "WAP",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Konqueror 3.0",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Browser",
         "Comment": "Konqueror 3.0",
         "Browser": "Konqueror",
         "Version": "3.0",
