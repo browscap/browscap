@@ -1,17 +1,18 @@
 {
-  "division": "Android Browser 4.0",
+  "division": "Android Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.0", "4.1", "4.2"],
   "sortIndex": 1910,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Android Browser 4.0",
+      "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Android Browser 4.0",
+        "Comment": "Android Browser #MAJORVER#.#MINORVER#",
         "Browser": "Android",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Platform": "Android",
         "Frames": "true",
         "IFrames": "true",
@@ -27,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.0*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
