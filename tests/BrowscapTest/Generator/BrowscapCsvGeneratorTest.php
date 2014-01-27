@@ -25,11 +25,11 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @param $files
+     * @param array $files
      *
      * @return \Browscap\Generator\DataCollection
      */
-    private function getCollectionData($files)
+    private function getCollectionData(array $files)
     {
         $dataCollection = new DataCollection('1234');
         $dataCollection->addPlatformsFile($this->getPlatformsJsonFixture());
@@ -98,15 +98,27 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testGenerateWithDifferentFormattingOptions($filename, $quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
-        $this->markTestSkipped();
-
         $collectionParser = new CollectionParser();
         $collectionParser->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()));
         $collectionData = $collectionParser->parse();
 
+        $comments = array(
+            'Provided courtesy of http://tempdownloads.browserscap.com/',
+            'Created on Friday, December 31, 2010 at 12:34 PM UTC',
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
+        );
+
         $generator = new BrowscapCsvGenerator();
-        $generator->setCollectionData($collectionData);
-        $generator->setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly);
+        $generator
+            ->setCollectionData($collectionData)
+            ->setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
+            ->setComments($comments)
+            ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
+        ;
 
         $ini = $generator->generate();
 
@@ -120,26 +132,50 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
         return [
-            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'csv/browscap.csv'],
+            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'csv/features-bcv.csv'],
+            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'csv/features-basic.csv'],
+            'single-child' => [$fixturesDir . 'ua/features-single-child.json', $fixturesDir . 'csv/features-single-child.csv'],
+            'multi-child' => [$fixturesDir . 'ua/features-multi-child.json', $fixturesDir . 'csv/features-multi-child.csv'],
+            'versions' => [$fixturesDir . 'ua/features-versions.json', $fixturesDir . 'csv/features-versions.csv'],
+            'platforms' => [$fixturesDir . 'ua/features-platforms.json', $fixturesDir . 'csv/features-platforms.csv'],
+            'child-props' => [$fixturesDir . 'ua/features-child-props.json', $fixturesDir . 'csv/features-child-props.csv'],
+            'platform-props' => [$fixturesDir . 'ua/features-platform-props.json', $fixturesDir . 'csv/features-platform-props.csv'],
+            'skip-invalid-children' => [$fixturesDir . 'ua/features-skip-invalid-children.json', $fixturesDir . 'csv/features-skip-invalid-children.csv'],
         ];
     }
 
     /**
      * @dataProvider generateFeaturesDataProvider
      */
-    public function testGenerateFeatures($jsonFile, $expectedIni)
+    public function testGenerateFeatures($jsonFile, $expectedCsv)
     {
-        $this->markTestSkipped();
+        $fixturesDir = __DIR__ . '/../../fixtures/';
 
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($this->getCollectionData([$jsonFile]));
+        $collectionParser->setDataCollection(
+            $this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $jsonFile])
+        );
         $collectionData = $collectionParser->parse();
 
+        $comments = array(
+            'Provided courtesy of http://tempdownloads.browserscap.com/',
+            'Created on Friday, December 31, 2010 at 12:34 PM UTC',
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
+        );
+
         $generator = new BrowscapCsvGenerator();
-        $generator->setCollectionData($collectionData);
+        $generator
+            ->setCollectionData($collectionData)
+            ->setComments($comments)
+            ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
+        ;
 
-        $xml = $generator->generate();
+        $csv = $generator->generate();
 
-        self::assertStringEqualsFile($expectedIni, $xml);
+        self::assertStringEqualsFile($expectedCsv, $csv);
     }
 }

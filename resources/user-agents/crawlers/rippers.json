@@ -399,6 +399,13 @@
       }
     },
     {
+      "userAgent": "Microsoft Internet Explorer",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
       "userAgent": "Internet Explore *",
       "properties": {
         "Parent": "Rippers",
@@ -407,6 +414,27 @@
     },
     {
       "userAgent": "Internet Explorer *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/4.0*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/5.0*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident/?.0*",
       "properties": {
         "Parent": "Rippers",
         "Browser": "Fake IE"
