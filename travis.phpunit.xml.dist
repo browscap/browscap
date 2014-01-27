@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/Bootstrap.php"
-         verbose="false"
-         stopOnError="false"
-         stopOnFailure="false"
-         stopOnIncomplete="false"
-         stopOnSkipped="false"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         colors="false"
-         forceCoversAnnotation="false"
-         strict="false"
-         processIsolation="false">
+<phpunit bootstrap="tests/Bootstrap.php">
     <testsuites>
         <testsuite name="Browscap Test Suite">
             <directory>./tests/BrowscapTest/</directory>
