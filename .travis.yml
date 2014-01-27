@@ -9,7 +9,7 @@ before_script:
   - composer self-update
   - composer install --dev --prefer-source
   - php vendor/autoload.php
-  - mkdir -p builds/logs
+  - mkdir -p build/logs
 
 script:
   - phpunit --configuration travis.phpunit.xml.dist --colors --verbose
