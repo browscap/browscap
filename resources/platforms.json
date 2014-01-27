@@ -1,1878 +1,1893 @@
 {
-    "platforms": {
-        "ChromeOS": {
-            "match": "*CrOS*",
-            "properties": {
-                "Platform": "ChromeOS",
-                "Platform_Name": "ChromeOS",
-                "Platform_FullName": "ChromeOS",
-                "Platform_Description": "Google Chrome OS",
-                "Platform_Maker": "Google Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX": {
-            "match": "*Mac OS X*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10",
-                "Platform_Version": "10",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_4_A": {
-            "match": "*Mac OS X 10_4*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.4",
-                "Platform_Version": "10.4",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_4_B": {
-            "match": "*Mac OS X 10.4*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.4",
-                "Platform_Version": "10.4",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_5_A": {
-            "match": "*Mac OS X 10_5*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.5",
-                "Platform_Version": "10.5",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_5_B": {
-            "match": "*Mac OS X 10.5*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.5",
-                "Platform_Version": "10.5",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_6_A": {
-            "match": "*Mac OS X 10_6*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.6",
-                "Platform_Version": "10.6",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_6_B": {
-            "match": "*Mac OS X 10.6*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.6",
-                "Platform_Version": "10.6",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_7_A": {
-            "match": "*Mac OS X 10_7*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.7",
-                "Platform_Version": "10.7",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_7_B": {
-            "match": "*Mac OS X 10.7*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.7",
-                "Platform_Version": "10.7",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_8_A": {
-            "match": "*Mac OS X 10_8*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.8",
-                "Platform_Version": "10.8",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_8_B": {
-            "match": "*Mac OS X 10.8*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.8",
-                "Platform_Version": "10.8",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_9_A": {
-            "match": "*Mac OS X 10_9*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.9",
-                "Platform_Version": "10.9",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OSX_10_9_B": {
-            "match": "*Mac OS X 10.9*",
-            "properties": {
-                "Platform": "MacOSX",
-                "Platform_Name": "Mac OS X",
-                "Platform_FullName": "Mac OS X 10.9",
-                "Platform_Version": "10.9",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "MacPPC": {
-            "match": "*PPC*",
-            "properties": {
-                "Platform": "MacPPC",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "MacPPC_2": {
-            "match": "*Mac_PowerPC*",
-            "properties": {
-                "Platform": "MacPPC",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A": {
-            "match": "*CPU iPhone OS * like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_3_0": {
-            "match": "*CPU iPhone OS 3_0* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 3.0",
-                "Platform_Version": "3.0",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_3_1": {
-            "match": "*CPU iPhone OS 3_1* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 3.1",
-                "Platform_Version": "3.1",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_3_2": {
-            "match": "*CPU iPhone OS 3_2* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 3.2",
-                "Platform_Version": "3.2",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_4_0": {
-            "match": "*CPU iPhone OS 4_0* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 4.0",
-                "Platform_Version": "4.0",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_4_1": {
-            "match": "*CPU iPhone OS 4_1* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 4.1",
-                "Platform_Version": "4.1",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_4_2": {
-            "match": "*CPU iPhone OS 4_2* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 4.2",
-                "Platform_Version": "4.2",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_4_3": {
-            "match": "*CPU iPhone OS 4_3* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 4.3",
-                "Platform_Version": "4.3",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_5_0": {
-            "match": "*CPU iPhone OS 5_0* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 5.0",
-                "Platform_Version": "5.0",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_5_1": {
-            "match": "*CPU iPhone OS 5_1* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 5.1",
-                "Platform_Version": "5.1",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_6_0": {
-            "match": "*CPU iPhone OS 6_0* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 6.0",
-                "Platform_Version": "6.0",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_6_1": {
-            "match": "*CPU iPhone OS 6_1* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 6.1",
-                "Platform_Version": "6.1",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_A_7_0": {
-            "match": "*CPU iPhone OS 7_0* like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS 7.0",
-                "Platform_Version": "7.0",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_B": {
-            "match": "*CPU like Mac OS X*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "iOS_C": {
-            "match": "*CPU*OS*",
-            "properties": {
-                "Platform": "iOS",
-                "Platform_Description": "iPod, iPhone & iPad",
-                "Platform_Name": "iOS",
-                "Platform_FullName": "iOS",
-                "Platform_Maker": "Apple Inc",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "CentOS": {
-            "match": "*CentOS*",
-            "properties": {
-                "Platform": "CentOS",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "CentOS",
-                "Platform_FullName": "CentOS",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Linux": {
-            "match": "*Linux*",
-            "properties": {
-                "Platform": "Linux",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Linux",
-                "Platform_FullName": "Linux",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Debian": {
-            "match": "*Linux*",
-            "properties": {
-                "Platform": "Debian",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Debian",
-                "Platform_FullName": "Debian",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Linux_32": {
-            "match": "*Linux i686*",
-            "properties": {
-                "Platform": "Linux",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Linux",
-                "Platform_FullName": "Linux",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Linux_32_x586": {
-            "match": "*Linux i586*",
-            "properties": {
-                "Platform": "Linux",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Linux",
-                "Platform_FullName": "Linux",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Linux_32_x86": {
-            "match": "*Linux x86*",
-            "properties": {
-                "Platform": "Linux",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Linux",
-                "Platform_FullName": "Linux",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Linux_64": {
-            "match": "*Linux x86_64*",
-            "properties": {
-                "Platform": "Linux",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Linux",
-                "Platform_FullName": "Linux",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Debian_64": {
-            "match": "*Linux x86_64*",
-            "properties": {
-                "Platform": "Debian",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Debian",
-                "Platform_FullName": "Debian",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win95": {
-            "match": "*Win95*",
-            "properties": {
-                "Platform": "Win95",
-                "Platform_Version": "95",
-                "Platform_Description": "Windows 95",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 95",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win95_2": {
-            "match": "*Windows 95*",
-            "properties": {
-                "Platform": "Win95",
-                "Platform_Version": "95",
-                "Platform_Description": "Windows 95",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 95",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win98": {
-            "match": "*Win98*",
-            "properties": {
-                "Platform": "Win98",
-                "Platform_Version": "98",
-                "Platform_Description": "Windows 98",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 98",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win98_2": {
-            "match": "*Windows 98*",
-            "properties": {
-                "Platform": "Win98",
-                "Platform_Version": "98",
-                "Platform_Description": "Windows 98",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 98",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinME": {
-            "match": "*Win 9x 4.90*",
-            "properties": {
-                "Platform": "WinME",
-                "Platform_Version": "ME",
-                "Platform_Description": "Windows ME",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows ME",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinME_2": {
-            "match": "*Windows ME*",
-            "properties": {
-                "Platform": "WinME",
-                "Platform_Version": "ME",
-                "Platform_Description": "Windows ME",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows ME",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "NT4": {
-            "match": "*Windows NT 4.0*",
-            "properties": {
-                "Platform": "WinNT",
-                "Platform_Version": "4.0",
-                "Platform_Description": "Windows NT",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows NT 4.0",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "NT4_2": {
-            "match": "*WinNT4.0*",
-            "properties": {
-                "Platform": "WinNT",
-                "Platform_Version": "4.0",
-                "Platform_Description": "Windows NT",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows NT 4.0",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "NT4_1": {
-            "match": "*Windows NT 4.1*",
-            "properties": {
-                "Platform": "WinNT",
-                "Platform_Version": "4.1",
-                "Platform_Description": "Windows NT",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows NT 4.1",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "NT4_64": {
-            "match": "*Windows NT; *WOW64*",
-            "properties": {
-                "Platform": "WinNT",
-                "Platform_Version": "4.1",
-                "Platform_Description": "Windows NT",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows NT 4.1",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "NT4_x64": {
-            "match": "*Windows NT; Win64; x64*",
-            "properties": {
-                "Platform": "WinNT",
-                "Platform_Description": "Windows NT",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows NT",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win2000": {
-            "match": "*Windows NT 5.0*",
-            "properties": {
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 2000",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win2000_3": {
-            "match": "*Windows NT 5.01*",
-            "properties": {
-                "Platform": "Win2000",
-                "Platform_Version": "5.01",
-                "Platform_Description": "Windows 2000",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 2000",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win2000_2": {
-            "match": "*Windows 2000*",
-            "properties": {
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 2000",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win2000_64": {
-            "match": "*Windows NT 5.0; *WOW64*",
-            "properties": {
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 2000",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win2000_x64": {
-            "match": "*Windows NT 5.0;*Win64; x64*",
-            "properties": {
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 2000",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPa_32": {
-            "match": "*Windows NT 5.1*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.1",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinXPa_64": {
-            "match": "*Windows NT 5.1*WOW64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.1",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPa_x64": {
-            "match": "*Windows NT 5.1;*Win64; x64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.1",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPa_x64_2": {
-            "match": "*Windows NT 5.1 x64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.1",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPb_32": {
-            "match": "*Windows NT 5.2*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.2",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinXPb_64": {
-            "match": "*Windows NT 5.2*WOW64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.2",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPb_x64": {
-            "match": "*Windows NT 5.2;*Win64; x64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.2",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "WinXPb_x64_2": {
-            "match": "*Windows NT 5.2 x64*",
-            "properties": {
-                "Platform": "WinXP",
-                "Platform_Version": "5.2",
-                "Platform_Description": "Windows XP",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows XP",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Vista_32": {
-            "match": "*Windows NT 6.0*",
-            "properties": {
-                "Platform": "WinVista",
-                "Platform_Version": "6.0",
-                "Platform_Description": "Windows Vista",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows Vista",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Vista_64": {
-            "match": "*Windows NT 6.0*WOW64*",
-            "properties": {
-                "Platform": "WinVista",
-                "Platform_Version": "6.0",
-                "Platform_Description": "Windows Vista",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows Vista",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "Vista_x64": {
-            "match": "*Windows NT 6.0;*Win64; x64*",
-            "properties": {
-                "Platform": "WinVista",
-                "Platform_Version": "6.0",
-                "Platform_Description": "Windows Vista",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows Vista",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Vista_x64_2": {
-            "match": "*Windows NT 6.0 x64*",
-            "properties": {
-                "Platform": "WinVista",
-                "Platform_Version": "6.0",
-                "Platform_Description": "Windows Vista",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows Vista",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win7_32": {
-            "match": "*Windows NT 6.1*",
-            "properties": {
-                "Platform": "Win7",
-                "Platform_Version": "6.1",
-                "Platform_Description": "Windows 7",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 7",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win7_64": {
-            "match": "*Windows NT 6.1*WOW64*",
-            "properties": {
-                "Platform": "Win7",
-                "Platform_Version": "6.1",
-                "Platform_Description": "Windows 7",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 7",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win7_x64": {
-            "match": "*Windows NT 6.1*Win64; x64*",
-            "properties": {
-                "Platform": "Win7",
-                "Platform_Version": "6.1",
-                "Platform_Description": "Windows 7",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 7",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win7_x64_2": {
-            "match": "*Windows NT 6.1 x64*",
-            "properties": {
-                "Platform": "Win7",
-                "Platform_Version": "6.1",
-                "Platform_Description": "Windows 7",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 7",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win8_32": {
-            "match": "*Windows NT 6.2*",
-            "properties": {
-                "Platform": "Win8",
-                "Platform_Version": "6.2",
-                "Platform_Description": "Windows 8",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win8_64": {
-            "match": "*Windows NT 6.2*WOW64*",
-            "properties": {
-                "Platform": "Win8",
-                "Platform_Version": "6.2",
-                "Platform_Description": "Windows 8",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win8_x64": {
-            "match": "*Windows NT 6.2*Win64; x64*",
-            "properties": {
-                "Platform": "Win8",
-                "Platform_Version": "6.2",
-                "Platform_Description": "Windows 8",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win8_1_32": {
-            "match": "*Windows NT 6.3*",
-            "properties": {
-                "Platform": "Win8.1",
-                "Platform_Version": "6.3",
-                "Platform_Description": "Windows 8.1",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8.1",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Win8_1_64": {
-            "match": "*Windows NT 6.3*WOW64*",
-            "properties": {
-                "Platform": "Win8.1",
-                "Platform_Version": "6.3",
-                "Platform_Description": "Windows 8.1",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8.1",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "32",
-                "Platform_Bits": "64"
-            }
-        },
-        "Win8_1_x64": {
-            "match": "*Windows NT 6.3*Win64; x64*",
-            "properties": {
-                "Platform": "Win8.1",
-                "Platform_Version": "6.3",
-                "Platform_Description": "Windows 8.1",
-                "Platform_Maker": "Microsoft Inc",
-                "Platform_FullName": "Windows 8.1",
-                "Win32": "false",
-                "Win64": "true",
-                "Device_Type": "Desktop",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "Android_1_0": {
-            "match": "*Linux*Android 1.0*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "1.0",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_1_1": {
-            "match": "*Linux*Android 1.1*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "1.1",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_1_5": {
-            "match": "*Linux*Android 1.5*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "1.5",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_1_6": {
-            "match": "*Linux*Android 1.6*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "1.6",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_2_0": {
-            "match": "*Linux*Android 2.0*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "2.0",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_2_1": {
-            "match": "*Linux*Android 2.1*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "2.1",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_2_2": {
-            "match": "*Linux*Android 2.2*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "2.2",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_2_3": {
-            "match": "*Linux*Android 2.3*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "2.3",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_2_3_B": {
-            "match": "*Linux* Build/GINGERBREAD*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "2.3",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_3_0": {
-            "match": "*Linux*Android 3.0*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "3.0",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_3_1": {
-            "match": "*Linux*Android 3.1*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "3.1",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_3_2": {
-            "match": "*Linux*Android 3.2*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "3.2",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_0": {
-            "match": "*Linux*Android 4.0*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.0",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_0_B": {
-            "match": "JUC (Linux; U; 4.0*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.0",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_1": {
-            "match": "*Linux*Android 4.1*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.1",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_1_B": {
-            "match": "JUC (Linux; U; 4.1*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.1",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_2": {
-            "match": "*Linux*Android 4.2*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.2",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_3": {
-            "match": "*Linux*Android 4.3*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.3",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Android_4_4": {
-            "match": "*Linux*Android 4.4*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Platform_Version": "4.4",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinCE": {
-            "match": "*Windows CE",
-            "properties": {
-                "Platform": "WinCE",
-                "Platform_Description": "Windows CE",
-                "Platform_Maker": "Microsoft Inc",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinMobile": {
-            "match": "*Windows Mobile",
-            "properties": {
-                "Platform": "WinMobile",
-                "Platform_Description": "Windows Mobile OS",
-                "Platform_Maker": "Microsoft Inc",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinPhone7": {
-            "match": "*Windows Phone 7*",
-            "properties": {
-                "Platform": "WinPhone7",
-                "Platform_Version": "7.0",
-                "Platform_Description": "Windows Phone OS 7",
-                "Platform_Maker": "Microsoft Inc",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "WinPhone8": {
-            "match": "*Windows Phone 8*",
-            "properties": {
-                "Platform": "WinPhone8",
-                "Platform_Version": "8.0",
-                "Platform_Description": "Windows Phone OS 8",
-                "Platform_Maker": "Microsoft Inc",
-                "isMobileDevice": "true",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "AndroidMobile": {
-            "match": "*Android*Mobile*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Maker": "Google",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "AndroidTablet": {
-            "match": "*Android*Tablet*",
-            "properties": {
-                "Platform": "Android",
-                "Platform_Maker": "Google Inc",
-                "Device_Maker": "Google",
-                "Win32": "false",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "FreeBSD": {
-            "match": "*FreeBSD*",
-            "properties": {
-                "Platform": "FreeBSD",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "FreeBSD",
-                "Platform_FullName": "FreeBSD",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "HPUX": {
-            "match": "*HP-UX*",
-            "properties": {
-                "Platform": "HP-UX",
-                "Platform_Maker": "HP Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "HP-UX",
-                "Platform_FullName": "HP-UX",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "OpenBSD": {
-            "match": "*OpenBSD*",
-            "properties": {
-                "Platform": "OpenBSD",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "OpenBSD",
-                "Platform_FullName": "OpenBSD",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "SunOS": {
-            "match": "*SunOS*",
-            "properties": {
-                "Platform": "SunOS",
-                "Platform_Maker": "Oracle Inc",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Sun OS",
-                "Platform_FullName": "Sun OS",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "IRIX64": {
-            "match": "*IRIX64*",
-            "properties": {
-                "Platform": "IRIX64",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "IRIX64",
-                "Platform_FullName": "IRIX64",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        "OS2": {
-            "match": "*OS/2*",
-            "properties": {
-                "Platform": "OS/2",
-                "Platform_Maker": "IBM",
-                "Win32": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "OS/2",
-                "Platform_FullName": "OS/2",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "RIMOS": {
-            "match": "*BlackBerry; U*",
-            "properties": {
-                "Platform": "RIM OS",
-                "Platform_Maker": "BlackBerry Inc",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Device_Maker": "BlackBerry Inc",
-                "Device_Band_Name": "BlackBerry",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "SymbianOS": {
-            "match": "*SymbianOS*",
-            "properties": {
-                "Platform": "SymbianOS",
-                "Platform_Name": "Symbian OS",
-                "Platform_Maker": "Symbian Foundation",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Unix": {
-            "match": "*UNIX*",
-            "properties": {
-                "Platform": "Unix",
-                "Win32": "false",
-                "isMobileDevice": "false",
-                "Device_Type": "Desktop",
-                "Device_isDesktop": "true",
-                "Platform_Name": "Unix",
-                "Platform_FullName": "Unix",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "unknown",
-                "Device_Brand_Name": "unknown",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Bada_1_0": {
-            "match": "*Bada/1.*",
-            "properties": {
-                "Platform": "Bada",
-                "Platform_Version": "1.0",
-                "Platform_Description": "Samsung Bada",
-                "Platform_Maker": "Samsung",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Maker": "Samsung",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Bada_1_2": {
-            "match": "*Bada/1.2*",
-            "properties": {
-                "Platform": "Bada",
-                "Platform_Version": "1.2",
-                "Platform_Description": "Samsung Bada",
-                "Platform_Maker": "Samsung",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Maker": "Samsung",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        "Bada_2_0": {
-            "match": "*Bada/2.*",
-            "properties": {
-                "Platform": "Bada",
-                "Platform_Version": "2.0",
-                "Platform_Description": "Samsung Bada",
-                "Platform_Maker": "Samsung",
-                "Win32": "false",
-                "isMobileDevice": "true",
-                "Device_Maker": "Samsung",
-                "Device_Type": "general Mobile Device",
-                "Device_Code_Name": "general Mobile Device",
-                "Device_Name": "general Mobile Device",
-                "Device_isMobileDevice": "true",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        }
+  "platforms": {
+    "ChromeOS": {
+      "match": "*CrOS*",
+      "properties": {
+        "Platform": "ChromeOS",
+        "Platform_Name": "ChromeOS",
+        "Platform_FullName": "ChromeOS",
+        "Platform_Description": "Google Chrome OS",
+        "Platform_Maker": "Google Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX": {
+      "match": "*Mac OS X*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_4_A": {
+      "match": "*Mac OS X 10_4*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_4_B": {
+      "match": "*Mac OS X 10.4*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_5_A": {
+      "match": "*Mac OS X 10_5*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_5_B": {
+      "match": "*Mac OS X 10.5*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_6_A": {
+      "match": "*Mac OS X 10_6*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_6_B": {
+      "match": "*Mac OS X 10.6*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_7_A": {
+      "match": "*Mac OS X 10_7*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_7_B": {
+      "match": "*Mac OS X 10.7*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_8_A": {
+      "match": "*Mac OS X 10_8*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_8_B": {
+      "match": "*Mac OS X 10.8*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_9_A": {
+      "match": "*Mac OS X 10_9*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OSX_10_9_B": {
+      "match": "*Mac OS X 10.9*",
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "MacPPC": {
+      "match": "*PPC*",
+      "properties": {
+        "Platform": "MacPPC",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "MacPPC_2": {
+      "match": "*Mac_PowerPC*",
+      "properties": {
+        "Platform": "MacPPC",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A": {
+      "match": "*CPU iPhone OS * like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_3_0": {
+      "match": "*CPU iPhone OS 3_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 3.0",
+        "Platform_Version": "3.0",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_3_1": {
+      "match": "*CPU iPhone OS 3_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 3.1",
+        "Platform_Version": "3.1",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_3_2": {
+      "match": "*CPU iPhone OS 3_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 3.2",
+        "Platform_Version": "3.2",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_4_0": {
+      "match": "*CPU iPhone OS 4_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_4_1": {
+      "match": "*CPU iPhone OS 4_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_4_2": {
+      "match": "*CPU iPhone OS 4_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 4.2",
+        "Platform_Version": "4.2",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_4_3": {
+      "match": "*CPU iPhone OS 4_3* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 4.3",
+        "Platform_Version": "4.3",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_5_0": {
+      "match": "*CPU iPhone OS 5_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 5.0",
+        "Platform_Version": "5.0",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_5_1": {
+      "match": "*CPU iPhone OS 5_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 5.1",
+        "Platform_Version": "5.1",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_6_0": {
+      "match": "*CPU iPhone OS 6_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 6.0",
+        "Platform_Version": "6.0",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_6_1": {
+      "match": "*CPU iPhone OS 6_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_A_7_0": {
+      "match": "*CPU iPhone OS 7_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 7.0",
+        "Platform_Version": "7.0",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_B": {
+      "match": "*CPU like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "iOS_C": {
+      "match": "*CPU*OS*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "CentOS": {
+      "match": "*CentOS*",
+      "properties": {
+        "Platform": "CentOS",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "CentOS",
+        "Platform_FullName": "CentOS",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Linux": {
+      "match": "*Linux*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Debian": {
+      "match": "*Linux*",
+      "properties": {
+        "Platform": "Debian",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Debian",
+        "Platform_FullName": "Debian",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Linux_32": {
+      "match": "*Linux i686*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Linux_32_x586": {
+      "match": "*Linux i586*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Linux_32_x86": {
+      "match": "*Linux x86*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Linux_64": {
+      "match": "*Linux x86_64*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Debian_64": {
+      "match": "*Linux x86_64*",
+      "properties": {
+        "Platform": "Debian",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Debian",
+        "Platform_FullName": "Debian",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win95": {
+      "match": "*Win95*",
+      "properties": {
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 95",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win95_2": {
+      "match": "*Windows 95*",
+      "properties": {
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 95",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win98": {
+      "match": "*Win98*",
+      "properties": {
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 98",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win98_2": {
+      "match": "*Windows 98*",
+      "properties": {
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 98",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinME": {
+      "match": "*Win 9x 4.90*",
+      "properties": {
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Description": "Windows ME",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows ME",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinME_2": {
+      "match": "*Windows ME*",
+      "properties": {
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Description": "Windows ME",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows ME",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NT4": {
+      "match": "*Windows NT 4.0*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows NT 4.0",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NT4_2": {
+      "match": "*WinNT4.0*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows NT 4.0",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NT4_1": {
+      "match": "*Windows NT 4.1*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.1",
+        "Platform_Description": "Windows NT",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows NT 4.1",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "NT4_64": {
+      "match": "*Windows NT; *WOW64*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "4.1",
+        "Platform_Description": "Windows NT",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows NT 4.1",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "NT4_x64": {
+      "match": "*Windows NT; Win64; x64*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Description": "Windows NT",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows NT",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win2000": {
+      "match": "*Windows NT 5.0*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 2000",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win2000_3": {
+      "match": "*Windows NT 5.01*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.01",
+        "Platform_Description": "Windows 2000",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 2000",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win2000_2": {
+      "match": "*Windows 2000*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 2000",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win2000_64": {
+      "match": "*Windows NT 5.0; *WOW64*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 2000",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win2000_x64": {
+      "match": "*Windows NT 5.0;*Win64; x64*",
+      "properties": {
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 2000",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPa_32": {
+      "match": "*Windows NT 5.1*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinXPa_64": {
+      "match": "*Windows NT 5.1*WOW64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPa_x64": {
+      "match": "*Windows NT 5.1;*Win64; x64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPa_x64_2": {
+      "match": "*Windows NT 5.1 x64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPb_32": {
+      "match": "*Windows NT 5.2*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinXPb_64": {
+      "match": "*Windows NT 5.2*WOW64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPb_x64": {
+      "match": "*Windows NT 5.2;*Win64; x64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "WinXPb_x64_2": {
+      "match": "*Windows NT 5.2 x64*",
+      "properties": {
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows XP",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Vista_32": {
+      "match": "*Windows NT 6.0*",
+      "properties": {
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows Vista",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Vista_64": {
+      "match": "*Windows NT 6.0*WOW64*",
+      "properties": {
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "Vista_x64": {
+      "match": "*Windows NT 6.0;*Win64; x64*",
+      "properties": {
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Vista_x64_2": {
+      "match": "*Windows NT 6.0 x64*",
+      "properties": {
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win7_32": {
+      "match": "*Windows NT 6.1*",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 7",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win7_64": {
+      "match": "*Windows NT 6.1*WOW64*",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 7",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win7_x64": {
+      "match": "*Windows NT 6.1*Win64; x64*",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 7",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win7_x64_2": {
+      "match": "*Windows NT 6.1 x64*",
+      "properties": {
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 7",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win8_32": {
+      "match": "*Windows NT 6.2*",
+      "properties": {
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win8_64": {
+      "match": "*Windows NT 6.2*WOW64*",
+      "properties": {
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win8_x64": {
+      "match": "*Windows NT 6.2*Win64; x64*",
+      "properties": {
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win8_1_32": {
+      "match": "*Windows NT 6.3*",
+      "properties": {
+        "Platform": "Win8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8.1",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Win8_1_64": {
+      "match": "*Windows NT 6.3*WOW64*",
+      "properties": {
+        "Platform": "Win8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8.1",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    "Win8_1_x64": {
+      "match": "*Windows NT 6.3*Win64; x64*",
+      "properties": {
+        "Platform": "Win8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows 8.1",
+        "Platform_Maker": "Microsoft Inc",
+        "Platform_FullName": "Windows 8.1",
+        "Win32": "false",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Android": {
+      "match": "*Linux*Android*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_1_0": {
+      "match": "*Linux*Android 1.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "1.0",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_1_1": {
+      "match": "*Linux*Android 1.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "1.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_1_5": {
+      "match": "*Linux*Android 1.5*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "1.5",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_1_6": {
+      "match": "*Linux*Android 1.6*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "1.6",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_2_0": {
+      "match": "*Linux*Android 2.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "2.0",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_2_1": {
+      "match": "*Linux*Android 2.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "2.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_2_2": {
+      "match": "*Linux*Android 2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_2_3": {
+      "match": "*Linux*Android 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_2_3_B": {
+      "match": "*Linux* Build/GINGERBREAD*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_3_0": {
+      "match": "*Linux*Android 3.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "3.0",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_3_1": {
+      "match": "*Linux*Android 3.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "3.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_3_2": {
+      "match": "*Linux*Android 3.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "3.2",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_0": {
+      "match": "*Linux*Android 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_0_B": {
+      "match": "JUC (Linux; U; 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_1": {
+      "match": "*Linux*Android 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_1_B": {
+      "match": "JUC (Linux; U; 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_2": {
+      "match": "*Linux*Android 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_3": {
+      "match": "*Linux*Android 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Android_4_4": {
+      "match": "*Linux*Android 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinCE": {
+      "match": "*Windows CE",
+      "properties": {
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "Platform_Maker": "Microsoft Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinMobile": {
+      "match": "*Windows Mobile",
+      "properties": {
+        "Platform": "WinMobile",
+        "Platform_Description": "Windows Mobile OS",
+        "Platform_Maker": "Microsoft Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinPhone7": {
+      "match": "*Windows Phone 7*",
+      "properties": {
+        "Platform": "WinPhone7",
+        "Platform_Version": "7.0",
+        "Platform_Description": "Windows Phone OS 7",
+        "Platform_Maker": "Microsoft Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WinPhone8": {
+      "match": "*Windows Phone 8*",
+      "properties": {
+        "Platform": "WinPhone8",
+        "Platform_Version": "8.0",
+        "Platform_Description": "Windows Phone OS 8",
+        "Platform_Maker": "Microsoft Inc",
+        "isMobileDevice": "true",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "AndroidMobile": {
+      "match": "*Android*Mobile*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Google",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "AndroidTablet": {
+      "match": "*Android*Tablet*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Maker": "Google Inc",
+        "Device_Maker": "Google",
+        "Win32": "false",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "FreeBSD": {
+      "match": "*FreeBSD*",
+      "properties": {
+        "Platform": "FreeBSD",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "HPUX": {
+      "match": "*HP-UX*",
+      "properties": {
+        "Platform": "HP-UX",
+        "Platform_Maker": "HP Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "HP-UX",
+        "Platform_FullName": "HP-UX",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "OpenBSD": {
+      "match": "*OpenBSD*",
+      "properties": {
+        "Platform": "OpenBSD",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "SunOS": {
+      "match": "*SunOS*",
+      "properties": {
+        "Platform": "SunOS",
+        "Platform_Maker": "Oracle Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Sun OS",
+        "Platform_FullName": "Sun OS",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "IRIX64": {
+      "match": "*IRIX64*",
+      "properties": {
+        "Platform": "IRIX64",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "IRIX64",
+        "Platform_FullName": "IRIX64",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "OS2": {
+      "match": "*OS/2*",
+      "properties": {
+        "Platform": "OS/2",
+        "Platform_Maker": "IBM",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "OS/2",
+        "Platform_FullName": "OS/2",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "RIMOS": {
+      "match": "*BlackBerry; U*",
+      "properties": {
+        "Platform": "RIM OS",
+        "Platform_Maker": "BlackBerry Inc",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Device_Maker": "BlackBerry Inc",
+        "Device_Band_Name": "BlackBerry",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "SymbianOS": {
+      "match": "*SymbianOS*",
+      "properties": {
+        "Platform": "SymbianOS",
+        "Platform_Name": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Unix": {
+      "match": "*UNIX*",
+      "properties": {
+        "Platform": "Unix",
+        "Win32": "false",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Bada_1_0": {
+      "match": "*Bada/1.*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "1.0",
+        "Platform_Description": "Samsung Bada",
+        "Platform_Maker": "Samsung",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Bada_1_2": {
+      "match": "*Bada/1.2*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "1.2",
+        "Platform_Description": "Samsung Bada",
+        "Platform_Maker": "Samsung",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Bada_2_0": {
+      "match": "*Bada/2.*",
+      "properties": {
+        "Platform": "Bada",
+        "Platform_Version": "2.0",
+        "Platform_Description": "Samsung Bada",
+        "Platform_Maker": "Samsung",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Samsung",
+        "Device_Type": "general Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
     }
+  }
 }
