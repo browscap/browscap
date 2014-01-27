@@ -48,7 +48,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * Set the data collection
      *
      * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setCollectionData(array $collectionData)
     {
@@ -74,7 +74,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * @param array $comments
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setComments(array $comments)
     {
@@ -94,7 +94,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * @param array $versionData
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setVersionData(array $versionData)
     {
@@ -117,7 +117,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
@@ -137,7 +137,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
     {
         return $this->render(
             $this->collectionData,
-            $this->renderHeader(),
             array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
         );
     }
@@ -145,56 +144,60 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * Generate the header
      *
-     * @return string
+     * @param \DOMDocument $dom
+     *
+     * @return \DOMElement
      */
-    private function renderHeader()
+    private function renderHeader(\DOMDocument $dom)
     {
-        $header = '<comments>' . "\n";
+        $comments = $dom->createElement('comments');
 
-        foreach ($this->getComments() as $comment) {
-            $header .= '<comment><![CDATA[' . $comment . ']]></comment>' . "\n";
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $comments->appendChild($linebreak);
+
+        foreach ($this->getComments() as $text) {
+            $comment = $dom->createElement('comment');
+            $cdata   = $dom->createCDATASection($text);
+            $comment->appendChild($cdata);
+            $comments->appendChild($comment);
+
+            $linebreak = $dom->createTextNode(PHP_EOL);
+            $comments->appendChild($linebreak);
         }
 
-        $header .= '</comments>' . "\n";
-        $header .= $this->renderVersion();
-
-        return $header;
-    }
-
-    /**
-     * Quick nasty method that escapes the main XML entities
-     *
-     * @param string $value
-     * @return string
-     */
-    protected function escapeXml($value)
-    {
-        $translations = array(
-            '&' => '&amp;',
-            '"' => '&quot;',
-            "'" => '&apos;',
-            '<' => '&lt;',
-            '>' => '&gt;',
-        );
-
-        return strtr($value, $translations);
+        return $comments;
     }
 
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
-     * @param string $output
-     * @param array  $allProperties
+     * @param array $allDivisions
+     * @param array $allProperties
      *
      * @return string
      */
-    private function render($allDivisions, $output, $allProperties)
+    private function render(array $allDivisions, array $allProperties)
     {
-        $output = '<?xml version="1.0" encoding="utf-8" ?>' . "\n"
-            . '<browsercaps>' . "\n"
-            . $output
-            . '<browsercapitems>' . "\n";
+        $dom      = new \DOMDocument('1.0', 'utf-8');
+        $xmlRoot  = $dom->createElement('browsercaps');
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $xmlRoot->appendChild($linebreak);
+
+        $xmlRoot->appendChild($this->renderHeader($dom));
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $xmlRoot->appendChild($linebreak);
+
+        $xmlRoot->appendChild($this->renderVersion($dom));
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $xmlRoot->appendChild($linebreak);
+
+        $items = $dom->createElement('browsercapitems');
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $items->appendChild($linebreak);
 
         $counter = 1;
 
@@ -236,9 +239,16 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
             // create output - xml
 
-            $output .= '<browscapitem name="' . $this->escapeXml($key) . '">' . "\n";
-            $output .= '<item name="PropertyName" value="' . $this->escapeXml($key) . '" />' . "\n";
-            $output .= '<item name="AgentID" value="' . $counter . '" />' . "\n";
+            $browscapitem = $dom->createElement('browscapitem');
+            $name = $dom->createAttribute('name');
+            $name->value = htmlentities($key);
+            $browscapitem->appendChild($name);
+
+            $linebreak = $dom->createTextNode(PHP_EOL);
+            $browscapitem->appendChild($linebreak);
+
+            $this->createItem($dom, $browscapitem, 'PropertyName', $key);
+            $this->createItem($dom, $browscapitem, 'AgentID', $counter);
 
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
@@ -249,21 +259,22 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 $masterParent = 'false';
             }
 
-            $output .= '<item name="MasterParent" value="' . $this->escapeXml($masterParent) . '" />' . "\n";
+            $this->createItem($dom, $browscapitem, 'MasterParent', $masterParent);
 
-            $output .= '<item name="LiteMode" value="'
-                . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '" />' . "\n";
+            $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
+            $this->createItem($dom, $browscapitem, 'LiteMode', $valueOutput);
 
             foreach ($allProperties as $property) {
-                if (!isset($properties[$property])) {
-                    continue;
-                }
-
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
                     continue;
                 }
 
-                $value       = $properties[$property];
+                if (!isset($properties[$property])) {
+                    $value = '';
+                } else {
+                    $value = $properties[$property];
+                }
+
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
@@ -286,27 +297,38 @@ class BrowscapXmlGenerator implements GeneratorInterface
                     $valueOutput = '';
                 }
 
-                $output .= '<item name="' . $property . '" value="' . $this->escapeXml($valueOutput) . '" />' . "\n";
+                $this->createItem($dom, $browscapitem, $property, $valueOutput);
             }
 
-            $output .= '</browscapitem>' . "\n";
+            $items->appendChild($browscapitem);
+
+            $linebreak = $dom->createTextNode(PHP_EOL);
+            $items->appendChild($linebreak);
         }
 
-        $output .= '</browsercapitems>' . "\n";
-        $output .= '</browsercaps>' . "\n\n";
+        $xmlRoot->appendChild($items);
 
-        return $output;
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $xmlRoot->appendChild($linebreak);
+
+        $dom->appendChild($xmlRoot);
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $dom->appendChild($linebreak);
+
+        return  $dom->saveXML();
     }
 
     /**
      * renders the version information
      *
-     * @return string
+     * @param \DOMDocument $dom
+     *
+     * @return \DOMElement
      */
-    private function renderVersion()
+    private function renderVersion(\DOMDocument $dom)
     {
-        $header = '<gjk_browscap_version>' . "\n";
-
+        $version     = $dom->createElement('gjk_browscap_version');
         $versionData = $this->getVersionData();
 
         if (!isset($versionData['version'])) {
@@ -317,10 +339,57 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $header .= '<item name="Version" value="' . $versionData['version'] . '" />' . "\n";
-        $header .= '<item name="Released" value="' . $versionData['released'] . '" />' . "\n";
-        $header .= '</gjk_browscap_version>' . "\n";
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $version->appendChild($linebreak);
 
-        return $header;
+        $item = $dom->createElement('item');
+        $name = $dom->createAttribute('name');
+        $name->value = 'Version';
+        $value = $dom->createAttribute('value');
+        $value->value = $versionData['version'];
+        $item->appendChild($name);
+        $item->appendChild($value);
+        $version->appendChild($item);
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $version->appendChild($linebreak);
+
+        $item = $dom->createElement('item');
+        $name = $dom->createAttribute('name');
+        $name->value = 'Released';
+        $value = $dom->createAttribute('value');
+        $value->value = $versionData['released'];
+        $item->appendChild($name);
+        $item->appendChild($value);
+        $version->appendChild($item);
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $version->appendChild($linebreak);
+
+        return $version;
+    }
+
+    /**
+     * @param \DOMDocument $dom
+     * @param \DOMNode     $browscapitem
+     * @param string       $property
+     * @param mixed        $valueOutput
+     */
+    private function createItem(\DOMDocument $dom, \DOMNode $browscapitem, $property, $valueOutput)
+    {
+        $item        = $dom->createElement('item');
+
+        $name        = $dom->createAttribute('name');
+        $name->value = htmlentities($property);
+        $item->appendChild($name);
+
+        $value        = $dom->createAttribute('value');
+        $value->value = htmlentities($valueOutput);
+        $item->appendChild($value);
+
+        $browscapitem->appendChild($item);
+
+        $linebreak = $dom->createTextNode(PHP_EOL);
+        $browscapitem->appendChild($linebreak);
     }
 }

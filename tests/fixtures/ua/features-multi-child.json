@@ -15,6 +15,9 @@
         },
         {
           "match": "UA Child 2"
+        },
+        {
+          "match": "UA Child 3 & Test"
         }
       ]
     }

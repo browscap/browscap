@@ -48,7 +48,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * Set the data collection
      *
      * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setCollectionData(array $collectionData)
     {
@@ -74,7 +74,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * @param array $comments
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setComments(array $comments)
     {
@@ -94,7 +94,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * @param array $versionData
      *
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setVersionData(array $versionData)
     {
@@ -117,7 +117,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
     {
@@ -155,21 +155,26 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param $allDivisions
-     * @param $output
-     * @param $allProperties
+     * @param array  $allDivisions
+     * @param string $output
+     * @param array  $allProperties
      *
      * @return string
      */
-    private function render($allDivisions, $output, $allProperties)
+    private function render(array $allDivisions, $output, array $allProperties)
     {
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
+
+            if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                continue;
+            }
+
             $output .= ',"' . $property . '"';
         }
 
-        $output .= "\r\n";
+        $output .= PHP_EOL;
 
         $counter = 1;
 
@@ -229,15 +234,16 @@ class BrowscapCsvGenerator implements GeneratorInterface
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
 
             foreach ($allProperties as $property) {
-                if (!isset($properties[$property])) {
-                    continue;
-                }
-
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
                     continue;
                 }
 
-                $value       = $properties[$property];
+                if (!isset($properties[$property])) {
+                    $value = '';
+                } else {
+                    $value = $properties[$property];
+                }
+
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
@@ -263,7 +269,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
                 $output .= ',"' . $valueOutput . '"';
             }
 
-            $output .= "\r\n";
+            $output .= PHP_EOL;
         }
 
         return $output;
@@ -276,7 +282,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
-        $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . "\r\n";
+        $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL;
 
         $versionData = $this->getVersionData();
 
@@ -288,7 +294,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . "\r\n";
+        $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL;
 
         return $header;
     }

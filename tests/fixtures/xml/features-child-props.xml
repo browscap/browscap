@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <browsercaps>
 <comments>
 <comment><![CDATA[Provided courtesy of http://tempdownloads.browserscap.com/]]></comment>
-<comment><![CDATA[Created on Friday, January 10, 2014 at 12:43 AM CET]]></comment>
+<comment><![CDATA[Created on Friday, December 31, 2010 at 12:34 PM UTC]]></comment>
 <comment><![CDATA[Keep up with the latest goings-on with the project:]]></comment>
 <comment><![CDATA[Follow us on Twitter <https://twitter.com/browscap>, or...]]></comment>
 <comment><![CDATA[Like us on Facebook <https://facebook.com/browscap>, or...]]></comment>
@@ -10,88 +10,128 @@
 <comment><![CDATA[Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.]]></comment>
 </comments>
 <gjk_browscap_version>
-<item name="Version" value="1234" />
-<item name="Released" value="Fri, 31 Dec 2010 12:34:56 +0000" />
+<item name="Version" value="1234"/>
+<item name="Released" value="Fri, 31 Dec 2010 12:34:56 +0000"/>
 </gjk_browscap_version>
 <browsercapitems>
+<browscapitem name="DefaultProperties">
+<item name="PropertyName" value="DefaultProperties"/>
+<item name="AgentID" value="2"/>
+<item name="MasterParent" value="true"/>
+<item name="LiteMode" value="true"/>
+<item name="Parent" value=""/>
+<item name="Comment" value="DefaultProperties"/>
+<item name="Browser" value="DefaultProperties"/>
+<item name="Version" value="0.0"/>
+<item name="MajorVer" value="0"/>
+<item name="MinorVer" value="0"/>
+<item name="Platform" value=""/>
+<item name="Platform_Version" value=""/>
+<item name="Platform_Description" value=""/>
+<item name="Alpha" value="false"/>
+<item name="Beta" value="false"/>
+<item name="Win16" value="false"/>
+<item name="Win32" value="false"/>
+<item name="Win64" value="false"/>
+<item name="Frames" value="false"/>
+<item name="IFrames" value="false"/>
+<item name="Tables" value="false"/>
+<item name="Cookies" value="false"/>
+<item name="BackgroundSounds" value="false"/>
+<item name="JavaScript" value="false"/>
+<item name="VBScript" value="false"/>
+<item name="JavaApplets" value="false"/>
+<item name="ActiveXControls" value="false"/>
+<item name="isMobileDevice" value="false"/>
+<item name="isSyndicationReader" value="false"/>
+<item name="Crawler" value="false"/>
+<item name="CssVersion" value="0"/>
+<item name="AolVersion" value="0"/>
+<item name="Device_Name" value=""/>
+<item name="Device_Maker" value=""/>
+<item name="RenderingEngine_Name" value=""/>
+<item name="RenderingEngine_Version" value=""/>
+<item name="RenderingEngine_Description" value=""/>
+</browscapitem>
 <browscapitem name="UA">
-<item name="PropertyName" value="UA" />
-<item name="AgentID" value="3" />
-<item name="MasterParent" value="true" />
-<item name="LiteMode" value="true" />
-<item name="Parent" value="DefaultProperties" />
-<item name="Comment" value="UA" />
-<item name="Browser" value="UA" />
-<item name="Version" value="0.0" />
-<item name="MajorVer" value="0" />
-<item name="MinorVer" value="0" />
-<item name="Platform" value="" />
-<item name="Platform_Version" value="" />
-<item name="Platform_Description" value="" />
-<item name="Alpha" value="false" />
-<item name="Beta" value="false" />
-<item name="Win16" value="false" />
-<item name="Win32" value="false" />
-<item name="Win64" value="false" />
-<item name="Frames" value="true" />
-<item name="IFrames" value="true" />
-<item name="Tables" value="true" />
-<item name="Cookies" value="false" />
-<item name="BackgroundSounds" value="false" />
-<item name="JavaScript" value="false" />
-<item name="VBScript" value="false" />
-<item name="JavaApplets" value="false" />
-<item name="ActiveXControls" value="false" />
-<item name="isMobileDevice" value="false" />
-<item name="isSyndicationReader" value="false" />
-<item name="Crawler" value="true" />
-<item name="CssVersion" value="0" />
-<item name="AolVersion" value="0" />
-<item name="Device_Name" value="" />
-<item name="Device_Maker" value="" />
-<item name="RenderingEngine_Name" value="" />
-<item name="RenderingEngine_Version" value="" />
-<item name="RenderingEngine_Description" value="" />
+<item name="PropertyName" value="UA"/>
+<item name="AgentID" value="3"/>
+<item name="MasterParent" value="true"/>
+<item name="LiteMode" value="false"/>
+<item name="Parent" value="DefaultProperties"/>
+<item name="Comment" value="UA"/>
+<item name="Browser" value="UA"/>
+<item name="Version" value="0.0"/>
+<item name="MajorVer" value="0"/>
+<item name="MinorVer" value="0"/>
+<item name="Platform" value=""/>
+<item name="Platform_Version" value=""/>
+<item name="Platform_Description" value=""/>
+<item name="Alpha" value="false"/>
+<item name="Beta" value="false"/>
+<item name="Win16" value="false"/>
+<item name="Win32" value="false"/>
+<item name="Win64" value="false"/>
+<item name="Frames" value="false"/>
+<item name="IFrames" value="false"/>
+<item name="Tables" value="false"/>
+<item name="Cookies" value="false"/>
+<item name="BackgroundSounds" value="false"/>
+<item name="JavaScript" value="false"/>
+<item name="VBScript" value="false"/>
+<item name="JavaApplets" value="false"/>
+<item name="ActiveXControls" value="false"/>
+<item name="isMobileDevice" value="false"/>
+<item name="isSyndicationReader" value="false"/>
+<item name="Crawler" value="false"/>
+<item name="CssVersion" value="0"/>
+<item name="AolVersion" value="0"/>
+<item name="Device_Name" value=""/>
+<item name="Device_Maker" value=""/>
+<item name="RenderingEngine_Name" value=""/>
+<item name="RenderingEngine_Version" value=""/>
+<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA String">
-<item name="PropertyName" value="UA String" />
-<item name="AgentID" value="10488" />
-<item name="MasterParent" value="true" />
-<item name="LiteMode" value="true" />
-<item name="Parent" value="UA" />
-<item name="Comment" value="UA" />
-<item name="Browser" value="UA" />
-<item name="Version" value="0.0" />
-<item name="MajorVer" value="0" />
-<item name="MinorVer" value="0" />
-<item name="Platform" value="" />
-<item name="Platform_Version" value="" />
-<item name="Platform_Description" value="" />
-<item name="Alpha" value="false" />
-<item name="Beta" value="false" />
-<item name="Win16" value="false" />
-<item name="Win32" value="false" />
-<item name="Win64" value="false" />
-<item name="Frames" value="false" />
-<item name="IFrames" value="false" />
-<item name="Tables" value="false" />
-<item name="Cookies" value="false" />
-<item name="BackgroundSounds" value="false" />
-<item name="JavaScript" value="false" />
-<item name="VBScript" value="false" />
-<item name="JavaApplets" value="false" />
-<item name="ActiveXControls" value="false" />
-<item name="isMobileDevice" value="false" />
-<item name="isSyndicationReader" value="false" />
-<item name="Crawler" value="false" />
-<item name="CssVersion" value="0" />
-<item name="AolVersion" value="0" />
-<item name="Device_Name" value="" />
-<item name="Device_Maker" value="" />
-<item name="RenderingEngine_Name" value="Foobar" />
-<item name="RenderingEngine_Version" value="" />
-<item name="RenderingEngine_Description" value="" />
+<item name="PropertyName" value="UA String"/>
+<item name="AgentID" value="4"/>
+<item name="MasterParent" value="false"/>
+<item name="LiteMode" value="false"/>
+<item name="Parent" value="UA"/>
+<item name="Comment" value="UA"/>
+<item name="Browser" value="UA"/>
+<item name="Version" value="0.0"/>
+<item name="MajorVer" value="0"/>
+<item name="MinorVer" value="0"/>
+<item name="Platform" value=""/>
+<item name="Platform_Version" value=""/>
+<item name="Platform_Description" value=""/>
+<item name="Alpha" value="false"/>
+<item name="Beta" value="false"/>
+<item name="Win16" value="false"/>
+<item name="Win32" value="false"/>
+<item name="Win64" value="false"/>
+<item name="Frames" value="false"/>
+<item name="IFrames" value="false"/>
+<item name="Tables" value="false"/>
+<item name="Cookies" value="false"/>
+<item name="BackgroundSounds" value="false"/>
+<item name="JavaScript" value="false"/>
+<item name="VBScript" value="false"/>
+<item name="JavaApplets" value="false"/>
+<item name="ActiveXControls" value="false"/>
+<item name="isMobileDevice" value="false"/>
+<item name="isSyndicationReader" value="false"/>
+<item name="Crawler" value="false"/>
+<item name="CssVersion" value="0"/>
+<item name="AolVersion" value="0"/>
+<item name="Device_Name" value=""/>
+<item name="Device_Maker" value=""/>
+<item name="RenderingEngine_Name" value="Foobar"/>
+<item name="RenderingEngine_Version" value=""/>
+<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 </browsercapitems>
 </browsercaps>
+
 

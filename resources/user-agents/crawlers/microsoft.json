@@ -62,13 +62,6 @@
       }
     },
     {
-      "userAgent": "Microsoft Internet Explorer",
-      "properties": {
-        "Parent": "Microsoft",
-        "Browser": "Fake IE"
-      }
-    },
-    {
       "userAgent": "Microsoft Office Existence Discovery",
       "properties": {
         "Parent": "Microsoft",
