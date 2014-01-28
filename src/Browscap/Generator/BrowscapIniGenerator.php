@@ -5,19 +5,14 @@ namespace Browscap\Generator;
 class BrowscapIniGenerator implements GeneratorInterface
 {
     /**
-     * @var bool
+     * @var string
      */
-    private $quoteStringProperties;
+    private $format = BuildGenerator::OUTPUT_FORMAT_PHP;
 
     /**
-     * @var bool
+     * @var string
      */
-    private $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    private $liteOnly;
+    private $type = BuildGenerator::OUTPUT_TYPE_FULL;
 
     /**
      * @var array
@@ -33,16 +28,6 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
-
-    /**
-     * Set defaults
-     */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
 
     /**
      * Set the data collection
@@ -112,29 +97,18 @@ class BrowscapIniGenerator implements GeneratorInterface
     }
 
     /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapIniGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
-    }
-
-    /**
      * Generate and return the formatted browscap data
+     *
+     * @param string $format
+     * @param string $type
      *
      * @return string
      */
-    public function generate()
+    public function generate($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
+        $this->format = $format;
+        $this->type   = $type;
+
         if (!empty($this->collectionData['DefaultProperties'])) {
             $defaultPropertiyData = $this->collectionData['DefaultProperties'];
         } else {
@@ -192,7 +166,9 @@ class BrowscapIniGenerator implements GeneratorInterface
                 continue;
             }
 
-            if ($this->liteOnly && (!isset($properties['lite']) || !$properties['lite'])) {
+            if (BuildGenerator::OUTPUT_TYPE_LITE === $this->type
+                && (!isset($properties['lite']) || !$properties['lite'])
+            ) {
                 continue;
             }
 
@@ -252,7 +228,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']
             ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . PHP_EOL . PHP_EOL;
+                $output .= $this->renderDivisionHeader($properties['division']);
             }
 
             $output .= '[' . $key . ']' . PHP_EOL;
@@ -266,7 +242,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                     continue;
                 }
 
-                if ((!$this->includeExtraProperties) && CollectionParser::isExtraProperty($property)) {
+                if (BuildGenerator::OUTPUT_TYPE_FULL === $this->type && CollectionParser::isExtraProperty($property)) {
                     continue;
                 }
 
@@ -275,7 +251,7 @@ class BrowscapIniGenerator implements GeneratorInterface
 
                 switch (CollectionParser::getPropertyType($property)) {
                     case 'string':
-                        if ($this->quoteStringProperties) {
+                        if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
                             $valueOutput = '"' . $value . '"';
                         }
                         break;
@@ -309,7 +285,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
-        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL;
+        $header = $this->renderDivisionHeader('Browscap Version');
 
         $header .= '[GJK_Browscap_Version]' . PHP_EOL;
 
@@ -324,8 +300,20 @@ class BrowscapIniGenerator implements GeneratorInterface
         }
 
         $header .= 'Version=' . $versionData['version'] . PHP_EOL;
-        $header .= 'Released=' . $versionData['released'] . PHP_EOL . PHP_EOL;
+        $header .= 'Released=' . $versionData['released'] . PHP_EOL;
+        $header .= 'Format=' . $this->format . PHP_EOL;
+        $header .= 'Type=' . $this->type . PHP_EOL . PHP_EOL;
 
         return $header;
+    }
+
+    /**
+     * @param string $division
+     *
+     * @return string
+     */
+    private function renderDivisionHeader($division)
+    {
+        return ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL;
     }
 }

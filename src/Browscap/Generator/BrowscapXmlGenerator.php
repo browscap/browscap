@@ -5,21 +5,6 @@ namespace Browscap\Generator;
 class BrowscapXmlGenerator implements GeneratorInterface
 {
     /**
-     * @var bool
-     */
-    private $quoteStringProperties;
-
-    /**
-     * @var bool
-     */
-    private $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    private $liteOnly;
-
-    /**
      * @var array
      */
     private $collectionData;
@@ -33,16 +18,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
-
-    /**
-     * Set defaults
-     */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
 
     /**
      * Set the data collection
@@ -109,23 +84,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
     public function getVersionData()
     {
         return $this->versionData;
-    }
-
-    /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
     }
 
     /**

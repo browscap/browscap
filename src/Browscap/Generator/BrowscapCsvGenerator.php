@@ -5,21 +5,6 @@ namespace Browscap\Generator;
 class BrowscapCsvGenerator implements GeneratorInterface
 {
     /**
-     * @var bool
-     */
-    private $quoteStringProperties;
-
-    /**
-     * @var bool
-     */
-    private $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    private $liteOnly;
-
-    /**
      * @var array
      */
     private $collectionData;
@@ -33,16 +18,6 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
-
-    /**
-     * Set defaults
-     */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
 
     /**
      * Set the data collection
@@ -112,23 +87,6 @@ class BrowscapCsvGenerator implements GeneratorInterface
     }
 
     /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapCsvGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
-    }
-
-    /**
      * Generate and return the formatted browscap data
      *
      * @return string
@@ -137,19 +95,9 @@ class BrowscapCsvGenerator implements GeneratorInterface
     {
         return $this->render(
             $this->collectionData,
-            $this->renderHeader(),
+            $this->renderVersion(),
             array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
         );
-    }
-
-    /**
-     * Generate the header
-     *
-     * @return string
-     */
-    private function renderHeader()
-    {
-        return $this->renderVersion();
     }
 
     /**
