@@ -242,7 +242,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                     continue;
                 }
 
-                if (BuildGenerator::OUTPUT_TYPE_FULL === $this->type && CollectionParser::isExtraProperty($property)) {
+                if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && CollectionParser::isExtraProperty($property)) {
                     continue;
                 }
 
