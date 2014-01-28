@@ -18,7 +18,7 @@ class BuildGenerator
      * @var string
      */
     const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'default';
+    const OUTPUT_TYPE_DEFAULT = 'normal';
     const OUTPUT_TYPE_LITE    = 'lite';
     /**@-*/
 
