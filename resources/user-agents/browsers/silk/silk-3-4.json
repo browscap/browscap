@@ -30,25 +30,49 @@
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire 7",
+        "Device_Maker": "Amazon"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire 7",
+        "Device_Maker": "Amazon"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon"
       }
     }
   ]
