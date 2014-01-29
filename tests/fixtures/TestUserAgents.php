@@ -1,6 +1,365 @@
 <?php
 
 return [
+    'issue-96-AI' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.2.349 U3/0.8.0 Mobile Safari/534.31',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.3',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AH' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.12 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.12',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AG' => [
+        'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '29.0',
+            'Platform' => 'Win8.1',
+            'Win64' => true,
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AF' => [
+        'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
+        [
+            'Browser' => 'Dolfin',
+            'Version' => '1.5',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AE' => [
+        'OneBrowser/4.2.0/Adr(Linux; U; Android 4.0.4; en-gb; GT-S7562 Build/IMM76I) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+        [
+            'Browser' => 'OneBrowser',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AD' => [
+        'Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AC' => [
+        'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '29.0',
+            'Platform' => 'Win7',
+            'Win64' => true,
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AB' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.2',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AA' => [
+        'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:29.0) Gecko/20100101 Firefox/29.0',
+        [
+            'Browser' => 'Firefox',
+            'Version' => '29.0',
+            'Platform' => 'Win7',
+            'Win64' => true,
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-Z' => [
+        'Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; ALCATEL ONE TOUCH 4030D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.1',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-Y' => [
+        'MT6515M-A1+/1.0 Linux/2.6.35.7 Android 2.3.6 Release/12.09.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
+        [
+            'Browser' => 'Android',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-X' => [
+        'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '8.8',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-W' => [
+        'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '8.8',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-V' => [
+        'SAMSUNG-GT-S3802 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32830/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '7.1',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-U' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.3',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-T' => [
+        'MicromaxX650 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Sync/SyncClient1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; U; en-US) Presto/2.5.28 Version/10.10',
+        [
+            'Browser' => 'Opera',
+            'Version' => '10.10',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-S' => [
+        'SAMSUNG-GT-C6712/C6712DDKG1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B',
+        [
+            'Browser' => 'Dolfin',
+            'Version' => '2.0',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-R' => [
+        'Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.27510/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '6.5',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-Q' => [
+        'SAMSUNG-GT-C3262 Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.30281/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '7.0',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-P' => [
+        'iBrowser/2.7 Mozilla/5.0 (Linux; U; Android 2.3.6; en-in; A1+ Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
+        [
+            'Browser' => 'iBrowser',
+            'Version' => '2.7',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-O' => [
+        'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.1',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-N' => [
+        'SAMSUNG-GT-E2202 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.32420/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-M' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.11',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-L' => [
+        'SAMSUNG-GT-E2252 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29595/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-K' => [
+        'Mozilla/5.0 (Linux;U; Android 2.3.5; en-us; Micromax A40 Build/IML74K) AppleWebKit/534.30(khtml,LIKE Gecko) Version/4.0 Mobile Safari/534.30',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-J' => [
+        'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1016; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-I' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFSOWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.8',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-H' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.8',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-G' => [
+        'Mastone_G9_TD/V2.00 Release/3.19.2012 Mozilla/5.0 (Linux; U; Android 2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-F' => [
+        'Opera/9.80 (SpreadTrum; Opera Mini/4.4.31492/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-E' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.11',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-D' => [
+        'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
+        [
+            'Browser' => 'Silk',
+            'Version' => '3.8',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-C' => [
+        'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-B' => [
+        'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A35 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-A' => [
+        'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A27 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
+        [
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
     'issue-84-H' => [
         'Mozilla/5.0 (Linux; U) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4',
         [
