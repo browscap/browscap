@@ -19,6 +19,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
+        "isMobileDevice": "true",
         "CssVersion": "3"
       },
       "children": [

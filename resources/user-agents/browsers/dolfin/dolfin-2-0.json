@@ -37,6 +37,19 @@
         },
         {
           "match": "Samsung-* Dolphin/#MAJORVER#.*"
+        },
+        {
+          "match": "Samsung-* Dolfin/#MAJORVER#.*"
+        },
+        {
+          "match": "SAMSUNG-* Dolfin/#MAJORVER#.*"
+        },
+        {
+          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*",
+          "properties": {
+            "Device_Name": "GT-C6712",
+            "Device_Maker": "Samsung"
+          }
         }
       ]
     }
