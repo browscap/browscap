@@ -31,14 +31,14 @@
       ]
     },
     {
-      "userAgent": "SAMSUNG-GT-*Dolfin\/1.5*MIDP*",
+      "userAgent": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620"
       }
     },
     {
-      "userAgent": "SAMSUNG-GT-S5620\/*Dolfin\/1.5*MIDP*",
+      "userAgent": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "userAgent": "SAMSUNG-GT-B7722\/*Dolfin/1.5*MIDP*",
+      "userAgent": "SAMSUNG-GT-B7722\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-B7722",
