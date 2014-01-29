@@ -36,6 +36,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*MIDP*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
           "match": "Samsung-* Dolphin/#MAJORVER#.*"
         },
         {
