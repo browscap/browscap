@@ -35,6 +35,9 @@
           "platforms": [
             "Android_4_1_C"
           ]
+        },
+        {
+          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile"
         }
       ]
     }

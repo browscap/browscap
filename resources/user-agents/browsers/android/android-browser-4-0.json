@@ -44,6 +44,24 @@
           "platforms": [
             "Android_2_3"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Micromax A35"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Micromax A40"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
         }
       ]
     }
