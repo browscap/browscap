@@ -818,6 +818,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_1_C": {
+      "match": "*; U; Adr 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_2": {
       "match": "*Linux*Android 4.2*",
       "properties": {

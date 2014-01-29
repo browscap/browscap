@@ -31,10 +31,25 @@
       ]
     },
     {
+      "userAgent": "SAMSUNG-GT-*Dolfin\/1.5*MIDP*",
+      "properties": {
+        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
+        "Device_Name": "GT-S5620"
+      }
+    },
+    {
       "userAgent": "SAMSUNG-GT-S5620\/*Dolfin\/1.5*MIDP*",
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620",
+        "Device_Maker": "Samsung"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7722\/*Dolfin/1.5*MIDP*",
+      "properties": {
+        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
+        "Device_Name": "GT-B7722",
         "Device_Maker": "Samsung"
       }
     }

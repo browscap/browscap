@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini Generic",
-  "sortIndex": 2048,
+  "sortIndex": 2040,
   "lite": true,
   "userAgents": [
     {
@@ -19,7 +19,7 @@
       }
     },
     {
-      "userAgent": "Opera\/*(Android*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(Android*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Platform": "Android",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(BlackBerry*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Platform": "BlackBerry OS",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "userAgent": "Opera\/*(iPhone*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(iPhone*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Device_Name": "iPhone",
@@ -45,21 +45,21 @@
       }
     },
     {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Platform": "JAVA"
       }
     },
     {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(Series 60*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Platform": "SymbianOS"
       }
     },
     {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/*)*",
+      "userAgent": "Opera\/*(Windows Mobile*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
         "Platform": "WinMobile"
