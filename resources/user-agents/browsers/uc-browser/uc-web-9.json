@@ -56,7 +56,7 @@
         {
           "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
           "platforms": [
-            "Android_4_1_C"
+            "Android_2_3_D", "Android_4_0_C", "Android_4_1_C"
           ]
         },
         {

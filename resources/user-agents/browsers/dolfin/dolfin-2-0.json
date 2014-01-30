@@ -57,6 +57,14 @@
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung"
           }
+        },
+        {
+          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*MIDP*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-C6712",
+            "Device_Maker": "Samsung"
+          }
         }
       ]
     }

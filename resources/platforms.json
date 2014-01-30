@@ -764,6 +764,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_3_D": {
+      "match": "*; U; Adr 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android 3.0*",
       "properties": {
@@ -802,6 +811,15 @@
     },
     "Android_4_0_B": {
       "match": "JUC (Linux; U; 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_0_C": {
+      "match": "*; U; Adr 4.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.0",
