@@ -1,0 +1,433 @@
+{
+  "division": "IEMobile 4.01",
+  "sortIndex": 5880,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 4.01",
+      "properties": {
+        "Parent": "IEMobile Generic",
+        "Browser_FullName": "IEMobile 4.01",
+        "Browser_Version": "4.01",
+        "Version": "4.01",
+        "MajorVer": "4",
+        "MinorVer": "01"
+      }
+    },
+    {
+      "userAgent": "AUDIOVOX-SMT5600\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "BenQ P50 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod565 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod575 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod575\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod595\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod818\/4.21.1088\/WAP1.2 *?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod818\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod818Pro\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320; Dopod818 Pro)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod838 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod838Pro\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*; Dopod838*Pro)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dopod900 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*; Dopod900)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodC700\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodC720W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodD810\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodP800W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodS300\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "DopodS301\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HPiPAQhw6900\/1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_P3400-Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_P4350-Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch2_T3333 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "LENOVO-ET980\/*\/WAP2.0 *\/ (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MIO8390\/R41 Profile\/MIDP-1.0 MIDP-2.0 Configuration\/CLDC-1.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx\/1.0* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx220* (*compatible*;*MSIE 4.01; Windows CE;*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx220\/* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx220\/0.3* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx220\/1.* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx220\/3* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MOT-MPx230\/* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda 2mini*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda 2s;*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda II;*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xphone II*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xphone*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Xda neo*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 MPx (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-I607\/I607FG1 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod586\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod710\/5.1.195\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod830\/5.1.70\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "dopod838\/5.1.65\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "htc900\/ (*compatible*;*MSIE 4.01; Windows CE*)",
+      "properties": {
+        "Parent": "IEMobile 4.01",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

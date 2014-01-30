@@ -1,0 +1,27 @@
+{
+  "division": "BenQ",
+  "sortIndex": 2280,
+  "userAgents": [
+    {
+      "userAgent": "BenQ",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "BenQ",
+        "Browser_Name": "BenQ",
+        "Browser_FullName": "BenQ",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "BenQ P31\/R101 *",
+      "properties": {
+        "Parent": "BenQ"
+      }
+    }
+  ]
+}

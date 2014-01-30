@@ -1,0 +1,38 @@
+{
+  "division": "Flock 3.6",
+  "sortIndex": 4860,
+  "userAgents": [
+    {
+      "userAgent": "Flock 3.6",
+      "properties": {
+        "Parent": "Flock Generic",
+        "Browser_FullName": "Flock 3.6",
+        "Browser_Version": "3.6",
+        "Version": "3.6",
+        "MajorVer": "3",
+        "MinorVer": "6",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.6* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.6",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

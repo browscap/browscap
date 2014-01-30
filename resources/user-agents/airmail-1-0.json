@@ -1,0 +1,34 @@
+{
+  "division": "Airmail 1.0",
+  "sortIndex": 1630,
+  "userAgents": [
+    {
+      "userAgent": "Airmail 1.0",
+      "properties": {
+        "Parent": "Airmail",
+        "Browser_FullName": "Airmail 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Airmail 1.0* (Macintosh; Mac OS X 10.8*",
+      "properties": {
+        "Parent": "Airmail 1.0",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    }
+  ]
+}

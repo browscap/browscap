@@ -1,0 +1,46 @@
+{
+  "division": "Iceweasel 19.0",
+  "sortIndex": 5570,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel 19.0",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Browser_FullName": "Iceweasel 19.0",
+        "Browser_Version": "19.0",
+        "Version": "19.0",
+        "MajorVer": "19",
+        "RenderingEngine_FullName": "Gecko 19.0",
+        "RenderingEngine_Version": "19.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Firefox\/* Iceweasel\/19.0*",
+      "properties": {
+        "Parent": "Iceweasel 19.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/19.0* (like Firefox\/*",
+      "properties": {
+        "Parent": "Iceweasel 19.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Firefox\/* Iceweasel\/19.0*",
+      "properties": {
+        "Parent": "Iceweasel 19.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/19.0* (like Firefox\/*",
+      "properties": {
+        "Parent": "Iceweasel 19.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

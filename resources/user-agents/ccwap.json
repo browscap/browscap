@@ -1,0 +1,27 @@
+{
+  "division": "ccWAP",
+  "sortIndex": 2590,
+  "userAgents": [
+    {
+      "userAgent": "ccWAP",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "ccWAP",
+        "Browser_Name": "ccWAP",
+        "Browser_FullName": "ccWAP",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "ccWAP-Browser",
+      "properties": {
+        "Parent": "ccWAP"
+      }
+    }
+  ]
+}

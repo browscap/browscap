@@ -1,0 +1,31 @@
+{
+  "division": "LetsCrawl.com",
+  "sortIndex": 650,
+  "userAgents": [
+    {
+      "userAgent": "LetsCrawl.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LetsCrawl.com",
+        "Browser_Name": "LetsCrawl.com",
+        "Browser_FullName": "LetsCrawl.com"
+      }
+    },
+    {
+      "userAgent": "LetsCrawl.com\/*",
+      "properties": {
+        "Parent": "LetsCrawl.com"
+      }
+    },
+    {
+      "userAgent": "LetsCrawl.com\/1.0*",
+      "properties": {
+        "Parent": "LetsCrawl.com",
+        "Browser_FullName": "LetsCrawl.com 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

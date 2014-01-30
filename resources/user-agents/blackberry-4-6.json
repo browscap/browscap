@@ -1,0 +1,75 @@
+{
+  "division": "BlackBerry 4.6",
+  "sortIndex": 2440,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.6",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 4.6",
+        "Browser_Version": "4.6",
+        "Version": "4.6",
+        "MajorVer": "4",
+        "MinorVer": "6",
+        "Platform_FullName": "RIM OS 4.6",
+        "Platform_Version": "4.6"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8220\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8220",
+        "Device_Name": "BlackBerry 8220"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8230\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8230",
+        "Device_Name": "BlackBerry 8230"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8230f\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8230f",
+        "Device_Name": "BlackBerry 8230f"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8350i\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8350i",
+        "Device_Name": "BlackBerry 8350i"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8520\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8520",
+        "Device_Name": "Curve"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8900\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 8900",
+        "Device_Name": "BlackBerry 8900"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9000\/4.6*",
+      "properties": {
+        "Parent": "BlackBerry 4.6",
+        "Device_Code_Name": "BlackBerry 9000",
+        "Device_Name": "Bold"
+      }
+    }
+  ]
+}

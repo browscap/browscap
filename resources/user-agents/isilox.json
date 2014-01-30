@@ -1,0 +1,199 @@
+{
+  "division": "iSiloX",
+  "sortIndex": 6350,
+  "userAgents": [
+    {
+      "userAgent": "iSiloX",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "iSiloX",
+        "Browser_Name": "iSiloX",
+        "Browser_FullName": "iSiloX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.0* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_FullName": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.0* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.0",
+        "Browser_Version": "4.0",
+        "Browser_Bits": "32",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.1* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_FullName": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.1* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.1",
+        "Browser_Version": "4.1",
+        "Browser_Bits": "32",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.2* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.2",
+        "Browser_Version": "4.2",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_FullName": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.2* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.2",
+        "Browser_Version": "4.2",
+        "Browser_Bits": "32",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.3* MacOS",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.3",
+        "Browser_Version": "4.3",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "iSiloX\/4.3* Windows\/32",
+      "properties": {
+        "Parent": "iSiloX",
+        "Browser_FullName": "iSiloX 4.3",
+        "Browser_Version": "4.3",
+        "Browser_Bits": "32",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

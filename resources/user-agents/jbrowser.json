@@ -1,0 +1,33 @@
+{
+  "division": "jBrowser",
+  "sortIndex": 6410,
+  "userAgents": [
+    {
+      "userAgent": "jBrowser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "jBrowser",
+        "Browser_Name": "jBrowser",
+        "Browser_FullName": "jBrowser",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "jBrowser-WAP\/1.0.4",
+      "properties": {
+        "Parent": "jBrowser"
+      }
+    },
+    {
+      "userAgent": "jBrowser\/J2ME *",
+      "properties": {
+        "Parent": "jBrowser"
+      }
+    }
+  ]
+}

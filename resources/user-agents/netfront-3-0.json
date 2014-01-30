@@ -1,0 +1,170 @@
+{
+  "division": "NetFront 3.0",
+  "sortIndex": 7710,
+  "userAgents": [
+    {
+      "userAgent": "NetFront 3.0",
+      "properties": {
+        "Parent": "NetFront Generic",
+        "Browser_FullName": "NetFront 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "IFrames": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew 3.0",
+        "Platform_Version": "3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone; BREW\/*.*NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-*?NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SEC-SGH*\/1.0 NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC902\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC905\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i2\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK800i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonT715\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU10i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1iv\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5iv\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5u\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350iv\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW580i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW595\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW705\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW760i\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW980\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW995\/* Browser\/NetFront\/3.0*",
+      "properties": {
+        "Parent": "NetFront 3.0"
+      }
+    }
+  ]
+}

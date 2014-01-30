@@ -1,0 +1,377 @@
+{
+  "division": "SonyEricsson",
+  "sortIndex": 10660,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "SEMC",
+        "Browser_Name": "SEMC",
+        "Browser_FullName": "SEMC",
+        "Platform": "Symbian OS",
+        "Platform_Name": "Symbian OS",
+        "Platform_FullName": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "EricssonA2628s\/R2A",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "A2628s",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "A2628s"
+      }
+    },
+    {
+      "userAgent": "EricssonR520\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "R520",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "R520"
+      }
+    },
+    {
+      "userAgent": "EricssonT20\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "T20",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "T20"
+      }
+    },
+    {
+      "userAgent": "EricssonT39\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "T39",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "T39"
+      }
+    },
+    {
+      "userAgent": "EricssonT65*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "T65",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "T65"
+      }
+    },
+    {
+      "userAgent": "EricssonT68*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "T68",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Name": "T68"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC510\/R1*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "C510",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "C510"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC902\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "C902",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "C902"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC905\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "C905",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "C905"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i2\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "J10i2",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J10i2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ200i\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "J200i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J200i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ210c\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "J210c",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J210c"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ210i\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "J210i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J210i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK550i*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "K550i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "K550i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK800i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "K800i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "K800i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonT715\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "T715",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "T715"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU10i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U10i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U10i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U1i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U1i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1iv\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U1iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U1iv"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5iv\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U5iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U5iv"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5u\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U5u",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U5u"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8a\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U8a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U8a"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8a\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U8a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U8a",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U8i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U8i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "U8i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U8i",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W350i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W350i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350iv\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "Android",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Android"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW580i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W580i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W580i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW595\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W595",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W595"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW705\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W705",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W705"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW760i\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W760i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W760i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW910i\/R1FA*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W910i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W910i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW980\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W980",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W980"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW995\/*(SymbianOS\/*",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Device_Code_Name": "W995",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W995"
+      }
+    }
+  ]
+}

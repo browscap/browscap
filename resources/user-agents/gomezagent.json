@@ -1,0 +1,16 @@
+{
+  "division": "GomezAgent",
+  "sortIndex": 510,
+  "userAgents": [
+    {
+      "userAgent": "GomezAgent",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "GomezAgent",
+        "Browser_Name": "GomezAgent",
+        "Browser_FullName": "GomezAgent",
+        "Browser_Maker": "Compuware APM"
+      }
+    }
+  ]
+}

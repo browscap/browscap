@@ -1,0 +1,45 @@
+{
+  "division": "BIRD",
+  "sortIndex": 2320,
+  "userAgents": [
+    {
+      "userAgent": "BIRD",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "BIRD",
+        "Browser_Name": "BIRD",
+        "Browser_FullName": "BIRD",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "BIRD.D220\/SW3.09.1015\/WAP2.0 *",
+      "properties": {
+        "Parent": "BIRD"
+      }
+    },
+    {
+      "userAgent": "BIRD.S580\/3.03\/WAP1.2.1",
+      "properties": {
+        "Parent": "BIRD"
+      }
+    },
+    {
+      "userAgent": "BIRD_D660\/V1.0.0\/2.0 *",
+      "properties": {
+        "Parent": "BIRD"
+      }
+    },
+    {
+      "userAgent": "BIRD_D716\/V1.0.0\/2.0 *",
+      "properties": {
+        "Parent": "BIRD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "division": "IEMobile 7.11",
+  "sortIndex": 5930,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 7.11",
+      "properties": {
+        "Parent": "IEMobile Generic",
+        "Browser_FullName": "IEMobile 7.11",
+        "Browser_Version": "7.11",
+        "Version": "7.11",
+        "MajorVer": "7",
+        "MinorVer": "11"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_HD_T8282\/480x800 (compatible*; MSIE 6.0; Windows CE; IEMobile 7.11)",
+      "properties": {
+        "Parent": "IEMobile 7.11",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch HD T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch HD T8282"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 7.11) Vodafone\/1.0\/HPiPAQDataMessenger\/* Browser\/VF-Browser\/*",
+      "properties": {
+        "Parent": "IEMobile 7.11",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 7.11) Vodafone\/1.0\/HTC_Touch_Pro\/*",
+      "properties": {
+        "Parent": "IEMobile 7.11",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch Pro",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Pro"
+      }
+    }
+  ]
+}

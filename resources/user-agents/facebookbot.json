@@ -1,0 +1,42 @@
+{
+  "division": "FaceBookBot",
+  "sortIndex": 360,
+  "userAgents": [
+    {
+      "userAgent": "FaceBookBot",
+      "properties": {
+        "Parent": "Facebook",
+        "Browser": "FaceBook Bot",
+        "Browser_Name": "FaceBook Bot",
+        "Browser_FullName": "FaceBook Bot"
+      }
+    },
+    {
+      "userAgent": "facebookexternalhit\/* (?http:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "FaceBookBot"
+      }
+    },
+    {
+      "userAgent": "facebookexternalhit\/1.0 (?http:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "FaceBookBot",
+        "Browser_FullName": "FaceBook Bot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "facebookexternalhit\/1.1 (?http:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "FaceBookBot",
+        "Browser_FullName": "FaceBook Bot 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    }
+  ]
+}

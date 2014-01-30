@@ -1,0 +1,32 @@
+{
+  "division": "Group Sense PDA",
+  "sortIndex": 5120,
+  "userAgents": [
+    {
+      "userAgent": "Group Sense PDA",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "GSPDA",
+        "Browser_Name": "GSPDA",
+        "Browser_FullName": "GSPDA",
+        "Platform": "PalmOS",
+        "Platform_Name": "PalmOS",
+        "Platform_FullName": "PalmOS",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Xplore G 18 *",
+      "properties": {
+        "Parent": "Group Sense PDA"
+      }
+    },
+    {
+      "userAgent": "Xplore M28 *",
+      "properties": {
+        "Parent": "Group Sense PDA"
+      }
+    }
+  ]
+}

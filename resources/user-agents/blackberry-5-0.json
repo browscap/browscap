@@ -1,0 +1,146 @@
+{
+  "division": "BlackBerry 5.0",
+  "sortIndex": 2460,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 5.0",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 5.0",
+        "Browser_Version": "5.0",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "Platform_FullName": "RIM OS 5.0",
+        "Platform_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8330\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 8330",
+        "Device_Name": "BlackBerry 8330"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8520\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 8520",
+        "Device_Name": "Curve"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8530\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 8530",
+        "Device_Name": "BlackBerry 8530"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8900\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 8900",
+        "Device_Name": "BlackBerry 8900"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8980\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 8980",
+        "Device_Name": "BlackBerry 8980"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9000\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9000",
+        "Device_Name": "Bold"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9100\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9100",
+        "Device_Name": "BlackBerry 9100"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9105\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9105",
+        "Device_Name": "BlackBerry 9105"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9300\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9300",
+        "Device_Name": "Curve 3G"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9500\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9500",
+        "Device_Name": "Storm"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9520\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9520",
+        "Device_Name": "BlackBerry 9520"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9530\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9530",
+        "Device_Name": "BlackBerry 9530"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9550\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9550",
+        "Device_Name": "BlackBerry 9550"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9630\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9630",
+        "Device_Name": "BlackBerry 9630"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9650\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9650",
+        "Device_Name": "BlackBerry 9650"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9700\/5.0*",
+      "properties": {
+        "Parent": "BlackBerry 5.0",
+        "Device_Code_Name": "BlackBerry 9700",
+        "Device_Name": "Bold"
+      }
+    }
+  ]
+}

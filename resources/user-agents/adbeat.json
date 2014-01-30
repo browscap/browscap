@@ -1,0 +1,31 @@
+{
+  "division": "Adbeat",
+  "sortIndex": 30,
+  "userAgents": [
+    {
+      "userAgent": "Adbeat",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Adbeat",
+        "Browser_Name": "Adbeat",
+        "Browser_FullName": "Adbeat",
+        "Browser_Maker": "adbeat.com"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux x86; *) adbeat.com* Gecko\/* Ubuntu\/* Firefox\/*AppleWebKit\/*Safari\/*",
+      "properties": {
+        "Parent": "Adbeat",
+        "Browser_Bits": "32",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu",
+        "Platform_Maker": "Canonical Ltd",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

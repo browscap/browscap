@@ -1,0 +1,42 @@
+{
+  "division": "Googlebot-Mobile",
+  "sortIndex": 1170,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Bot Mobile",
+        "Browser_Name": "Google Bot Mobile",
+        "Browser_FullName": "Google Bot Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "AdsBot Google-Mobile ( http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*)",
+      "properties": {
+        "Parent": "Googlebot-Mobile"
+      }
+    },
+    {
+      "userAgent": "KDDI-Googlebot-Mobile",
+      "properties": {
+        "Parent": "Googlebot-Mobile"
+      }
+    },
+    {
+      "userAgent": "*Googlebot-Mobile\/2.*",
+      "properties": {
+        "Parent": "Googlebot-Mobile",
+        "Browser_FullName": "Google Bot Mobile 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

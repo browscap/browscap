@@ -1,0 +1,185 @@
+{
+  "division": "BlackBerry 4.1",
+  "sortIndex": 2400,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.1",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform_FullName": "RIM OS 4.1",
+        "Platform_Version": "4.1"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7100\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7100",
+        "Device_Name": "BlackBerry 7100"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7100i\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7100i",
+        "Device_Name": "BlackBerry 7100i"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7130\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7130",
+        "Device_Name": "BlackBerry 7130"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7130e\/4.1* VendorID\/10?",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7130e",
+        "Device_Name": "BlackBerry 7130e"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7250\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7250",
+        "Device_Name": "BlackBerry 7250"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7290\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7290",
+        "Device_Name": "BlackBerry 7290"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7520\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 7520",
+        "Device_Name": "BlackBerry 7520"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8700\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 8700",
+        "Device_Name": "BlackBerry 8700"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8700\/4.1* VendorID\/15*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 8700",
+        "Device_Name": "BlackBerry 8700"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8700c\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 8700c",
+        "Device_Name": "BlackBerry 8700c"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8703e\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 8703e",
+        "Device_Name": "BlackBerry 8703e"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8707\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Device_Code_Name": "BlackBerry 8707",
+        "Device_Name": "BlackBerry 8707"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7100i\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "BlackBerry 7100i",
+        "Device_Name": "BlackBerry 7100i"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8700\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "BlackBerry 8700",
+        "Device_Name": "BlackBerry 8700"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8703e\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "BlackBerry 8703e",
+        "Device_Name": "BlackBerry 8703e"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.8* (Windows NT 5.0; U) BlackBerry7100i\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "BlackBerry 7100i",
+        "Device_Name": "BlackBerry 7100i"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8700\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows Mobile OS",
+        "Platform_Name": "Windows Mobile OS",
+        "Platform_FullName": "Windows Mobile OS 6.0",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Code_Name": "BlackBerry 8700",
+        "Device_Name": "BlackBerry 8700"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8707\/4.1*",
+      "properties": {
+        "Parent": "BlackBerry 4.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows Mobile OS",
+        "Platform_Name": "Windows Mobile OS",
+        "Platform_FullName": "Windows Mobile OS 6.0",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Code_Name": "BlackBerry 8707",
+        "Device_Name": "BlackBerry 8707"
+      }
+    }
+  ]
+}

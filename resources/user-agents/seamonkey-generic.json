@@ -1,0 +1,31 @@
+{
+  "division": "SeaMonkey Generic",
+  "sortIndex": 10190,
+  "userAgents": [
+    {
+      "userAgent": "SeaMonkey Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "SeaMonkey",
+        "Browser_Name": "SeaMonkey",
+        "Browser_FullName": "SeaMonkey",
+        "Browser_Maker": "Mozilla Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    }
+  ]
+}

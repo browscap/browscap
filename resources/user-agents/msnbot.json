@@ -1,0 +1,198 @@
+{
+  "division": "MSNBot",
+  "sortIndex": 1260,
+  "userAgents": [
+    {
+      "userAgent": "MSNBot",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot",
+        "Browser_Name": "msnbot",
+        "Browser_FullName": "msnbot"
+      }
+    },
+    {
+      "userAgent": "MSMOBOT\/1.1*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "MSNBot-Academic\/1.0*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "MSRBOT*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1 (*)",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "msnbot-UDiscovery\/*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "msnbot\/*",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "renlifangbot\/1.0 (?http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSNBot"
+      }
+    },
+    {
+      "userAgent": "msnbot\/1.0*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser_FullName": "msnbot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "msnbot\/1.1*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser_FullName": "msnbot 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "msnbot\/2.0*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser_FullName": "msnbot 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "msnbot\/2.0b*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser_FullName": "msnbot 2.0b",
+        "Browser_Version": "2.0b",
+        "Version": "2.0b",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/1.1*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-media",
+        "Browser_Name": "msnbot-media",
+        "Browser_FullName": "msnbot-media 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "MSNBot-News\/*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "MSNBot-News",
+        "Browser_Name": "MSNBot-News",
+        "Browser_FullName": "MSNBot-News"
+      }
+    },
+    {
+      "userAgent": "MSNBot-News\/1.0*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "MSNBot-News",
+        "Browser_Name": "MSNBot-News",
+        "Browser_FullName": "MSNBot-News 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "MSNBot-NewsBlogs\/*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-NewsBlogs",
+        "Browser_Name": "msnbot-NewsBlogs",
+        "Browser_FullName": "msnbot-NewsBlogs"
+      }
+    },
+    {
+      "userAgent": "MSNBot-NewsBlogs\/1.0*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "MSNBot-NewsBlogs",
+        "Browser_Name": "MSNBot-NewsBlogs",
+        "Browser_FullName": "MSNBot-NewsBlogs 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "msnbot-NewsBlogs\/2.* (+http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-NewsBlogs",
+        "Browser_Name": "msnbot-NewsBlogs",
+        "Browser_FullName": "msnbot-NewsBlogs 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "msnbot-products",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-products",
+        "Browser_Name": "msnbot-products",
+        "Browser_FullName": "msnbot-products"
+      }
+    },
+    {
+      "userAgent": "msnbot-webmaster\/*",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-webmaster tools",
+        "Browser_Name": "msnbot-webmaster tools",
+        "Browser_FullName": "msnbot-webmaster tools"
+      }
+    },
+    {
+      "userAgent": "msnbot-webmaster\/1.0 (*http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSNBot",
+        "Browser": "msnbot-webmaster tools",
+        "Browser_Name": "msnbot-webmaster tools",
+        "Browser_FullName": "msnbot-webmaster tools"
+      }
+    }
+  ]
+}

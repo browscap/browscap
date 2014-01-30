@@ -1,0 +1,27 @@
+{
+  "division": "80Legs",
+  "sortIndex": 20,
+  "userAgents": [
+    {
+      "userAgent": "80Legs",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "80Legs",
+        "Browser_Name": "80Legs",
+        "Browser_FullName": "80Legs"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/spider.html;) Gecko\/*",
+      "properties": {
+        "Parent": "80Legs"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/webcrawler.html) Gecko\/*",
+      "properties": {
+        "Parent": "80Legs"
+      }
+    }
+  ]
+}

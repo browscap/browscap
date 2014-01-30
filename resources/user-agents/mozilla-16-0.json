@@ -1,0 +1,22 @@
+{
+  "division": "Mozilla 16.0",
+  "sortIndex": 7530,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 16.0",
+      "properties": {
+        "Parent": "Mozilla Generic",
+        "Browser_FullName": "Mozilla 16.0",
+        "Browser_Version": "16.0",
+        "Version": "16.0",
+        "MajorVer": "16"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:16.0*Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 16.0"
+      }
+    }
+  ]
+}

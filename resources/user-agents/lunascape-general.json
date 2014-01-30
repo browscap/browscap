@@ -1,0 +1,30 @@
+{
+  "division": "Lunascape General",
+  "sortIndex": 6780,
+  "userAgents": [
+    {
+      "userAgent": "Lunascape General",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Lunascape",
+        "Browser_Name": "Lunascape",
+        "Browser_FullName": "Lunascape",
+        "Browser_Maker": "Lunascape Corporation",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Maker": "Microsoft Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

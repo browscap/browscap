@@ -1,0 +1,225 @@
+{
+  "division": "Chrome 6.0",
+  "sortIndex": 2910,
+  "userAgents": [
+    {
+      "userAgent": "Chrome 6.0",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Browser_FullName": "Chrome 6.0",
+        "Browser_Version": "6.0",
+        "Version": "6.0",
+        "MajorVer": "6"
+      }
+    },
+    {
+      "userAgent": "Chrome 6.0 on FreeBSD",
+      "properties": {
+        "Parent": "Chrome 6.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.0*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on FreeBSD",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Chrome 6.0 on Linux",
+      "properties": {
+        "Parent": "Chrome 6.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Chrome 6.0 on Mac OS X",
+      "properties": {
+        "Parent": "Chrome 6.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Chrome 6.0 on Windows",
+      "properties": {
+        "Parent": "Chrome 6.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/* Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 6.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

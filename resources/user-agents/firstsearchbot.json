@@ -1,0 +1,31 @@
+{
+  "division": "FirstSearchBot",
+  "sortIndex": 440,
+  "userAgents": [
+    {
+      "userAgent": "FirstSearchBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "FirstSearchBot",
+        "Browser_Name": "FirstSearchBot",
+        "Browser_FullName": "FirstSearchBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/*)",
+      "properties": {
+        "Parent": "FirstSearchBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
+      "properties": {
+        "Parent": "FirstSearchBot",
+        "Browser_FullName": "FirstSearchBot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

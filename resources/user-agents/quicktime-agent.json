@@ -1,0 +1,21 @@
+{
+  "division": "QuickTime Agent",
+  "sortIndex": 7110,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime Agent",
+      "properties": {
+        "Parent": "QuickTime Generic",
+        "Browser": "QuickTime Agent",
+        "Browser_Name": "QuickTime Agent",
+        "Browser_FullName": "QuickTime Agent"
+      }
+    },
+    {
+      "userAgent": "Apple?iPhone*",
+      "properties": {
+        "Parent": "QuickTime Agent"
+      }
+    }
+  ]
+}

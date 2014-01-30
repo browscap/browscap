@@ -1,0 +1,286 @@
+{
+  "division": "Dolphin 1.0",
+  "sortIndex": 3880,
+  "userAgents": [
+    {
+      "userAgent": "Dolphin 1.0",
+      "properties": {
+        "Parent": "Dolfin Generic",
+        "Browser_FullName": "Dolfin 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 2.3*; GT-I9001 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Dolphin\/INT-1.0*Safari\/*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "2.3",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Code_Name": "GT-I9001",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I9001"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.0*; GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Dolphin\/INT-1.0*Safari\/*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-C3050*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "C3050",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "C3050"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-3210*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-3210",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-3210"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3310*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-B3310",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3310"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3410*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-B3410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7610*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-B7610",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B7610"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-E2550*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-E2550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-E2550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I6410*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-I6410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I6410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I8320*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3370*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S3370",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3370"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3650*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S3650",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3650"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5230*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S5230",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5230"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5560*?Dolfin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S5560",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5560"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5560*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S5560",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5560"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S7550*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S7550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-i8000*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-I8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8000*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E250*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH E250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH E250"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH F480",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH F480"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-G800*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH G800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH G800"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U700*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH U700",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH U700"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U900*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH U900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH U900"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-i900*?Dolphin\/1.0*",
+      "properties": {
+        "Parent": "Dolphin 1.0",
+        "Device_Code_Name": "SGH I900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH I900"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Dolphin\/1.0* ",
+      "properties": {
+        "Parent": "Dolphin 1.0"
+      }
+    }
+  ]
+}

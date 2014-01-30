@@ -1,0 +1,55 @@
+{
+  "division": "Silk 3.2",
+  "sortIndex": 10590,
+  "userAgents": [
+    {
+      "userAgent": "Silk 3.2",
+      "properties": {
+        "Parent": "Silk",
+        "Browser_FullName": "Silk 3.2",
+        "Browser_Version": "3.2",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.2* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.2",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.2* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.2",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/* (KHTML, like Gecko) Silk\/3.2*",
+      "properties": {
+        "Parent": "Silk 3.2",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java 4.0",
+        "Platform_Maker": "Oracle",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "PlayStation Vita"
+      }
+    }
+  ]
+}

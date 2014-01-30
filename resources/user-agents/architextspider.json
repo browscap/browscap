@@ -1,0 +1,21 @@
+{
+  "division": "ArchitextSpider",
+  "sortIndex": 70,
+  "userAgents": [
+    {
+      "userAgent": "ArchitextSpider",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ArchitextSpider",
+        "Browser_Name": "ArchitextSpider",
+        "Browser_FullName": "ArchitextSpider"
+      }
+    },
+    {
+      "userAgent": "ArchitextSpider*",
+      "properties": {
+        "Parent": "ArchitextSpider"
+      }
+    }
+  ]
+}

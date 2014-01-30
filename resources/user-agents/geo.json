@@ -1,0 +1,23 @@
+{
+  "division": "GEO",
+  "sortIndex": 5030,
+  "userAgents": [
+    {
+      "userAgent": "GEO",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "GEO",
+        "Browser_Name": "GEO",
+        "Browser_FullName": "GEO",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "GEO GC800 *",
+      "properties": {
+        "Parent": "GEO"
+      }
+    }
+  ]
+}

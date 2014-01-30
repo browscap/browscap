@@ -1,0 +1,119 @@
+{
+  "division": "Emacs\/W3",
+  "sortIndex": 4010,
+  "userAgents": [
+    {
+      "userAgent": "Emacs\/W3",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Emacs\/W3",
+        "Browser_Name": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/2.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/2.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/3.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/3.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/4.* (X11*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Emacs\/W3\/4.* (Unix*",
+      "properties": {
+        "Parent": "Emacs\/W3",
+        "Browser_FullName": "Emacs\/W3 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Device_Type": "Desktop"
+      }
+    }
+  ]
+}

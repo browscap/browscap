@@ -1,0 +1,23 @@
+{
+  "division": "FLY",
+  "sortIndex": 4870,
+  "userAgents": [
+    {
+      "userAgent": "FLY",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "FLY",
+        "Browser_Name": "FLY",
+        "Browser_FullName": "FLY",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "FLY-MX200",
+      "properties": {
+        "Parent": "FLY"
+      }
+    }
+  ]
+}

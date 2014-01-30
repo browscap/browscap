@@ -1,0 +1,176 @@
+{
+  "division": "NetFront 2.0",
+  "sortIndex": 7690,
+  "userAgents": [
+    {
+      "userAgent": "NetFront 2.0",
+      "properties": {
+        "Parent": "NetFront Generic",
+        "Comment": "Access NetFront 2.0",
+        "Browser_FullName": "NetFront 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "IFrames": "true",
+        "JavaApplets": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW *.*; NetFront\/2.*",
+      "properties": {
+        "Parent": "NetFront 2.0",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone; BREW\/*.*NetFront\/2.*",
+      "properties": {
+        "Parent": "NetFront 2.0",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "*NetFront\/2.*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/2.*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-*?NetFront\/2.*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SEC-SGH*\/1.0 NetFront\/2.? *",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC902\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC905\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i2\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK800i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonT715\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU10i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1iv\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5iv\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5u\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350iv\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW580i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW595\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW705\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW760i\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW980\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW995\/* Browser\/NetFront\/2*",
+      "properties": {
+        "Parent": "NetFront 2.0"
+      }
+    }
+  ]
+}

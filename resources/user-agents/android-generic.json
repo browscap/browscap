@@ -1,0 +1,38 @@
+{
+  "division": "Android Generic",
+  "sortIndex": 2070,
+  "userAgents": [
+    {
+      "userAgent": "Android Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Android Webkit",
+        "Browser_Name": "Android Webkit",
+        "Browser_FullName": "Android Webkit",
+        "Browser_Bits": "32",
+        "Browser_Maker": "Google Inc",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    }
+  ]
+}

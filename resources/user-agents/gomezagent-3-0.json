@@ -1,0 +1,48 @@
+{
+  "division": "GomezAgent 3.0",
+  "sortIndex": 520,
+  "userAgents": [
+    {
+      "userAgent": "GomezAgent 3.0",
+      "properties": {
+        "Parent": "GomezAgent",
+        "Browser_FullName": "GomezAgent 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.0; *GomezAgent 3.0)*",
+      "properties": {
+        "Parent": "GomezAgent 3.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.2; WOW64; Trident\/4.0; *GomezAgent 3.0)",
+      "properties": {
+        "Parent": "GomezAgent 3.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.1; WOW64; Trident\/4.0; *GomezAgent 3.0)",
+      "properties": {
+        "Parent": "GomezAgent 3.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:*; GomezAgent 3.0) Gecko\/* Firefox\/*",
+      "properties": {
+        "Parent": "GomezAgent 3.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

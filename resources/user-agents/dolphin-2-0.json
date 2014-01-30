@@ -1,0 +1,131 @@
+{
+  "division": "Dolphin 2.0",
+  "sortIndex": 3900,
+  "userAgents": [
+    {
+      "userAgent": "Dolphin 2.0",
+      "properties": {
+        "Parent": "Dolfin Generic",
+        "Browser_FullName": "Dolfin 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "Platform": "Bada",
+        "Platform_Name": "Bada",
+        "Platform_FullName": "Bada 1.0",
+        "Platform_Version": "1.0",
+        "Platform_Maker": "Samsung",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250\/*; U; Bada\/1.0*AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S5250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5250"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250\/S5250XXJ*; U; Bada\/1.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S5250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5250"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5330\/*; U; Bada\/1.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S5330",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5330"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E-VODAFONE\/*; U; Bada\/1.0*AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S7230E",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7230E"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E\/*; U; Bada\/1.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S7230E",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7230E"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500*\/*; U; Bada\/1.0* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S8500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500-VODAFONE\/*; U; Bada\/1.0* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S8500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500L\/*; U; Bada\/1.0* (KHTML,*like Gecko*) Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S8500L",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8500L"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B2710\/* SHP\/VPP\/R5 Dolfin\/2.0 *",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-B2710",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B2710"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5260\/* Dolfin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0",
+        "Device_Code_Name": "GT-S5260",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Star II"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Dolphin\/2.0*",
+      "properties": {
+        "Parent": "Dolphin 2.0"
+      }
+    }
+  ]
+}

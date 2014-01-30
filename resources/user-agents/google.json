@@ -1,0 +1,125 @@
+{
+  "division": "Google",
+  "sortIndex": 1070,
+  "userAgents": [
+    {
+      "userAgent": "Google",
+      "properties": {
+        "Parent": "Search Engines",
+        "Comment": "Google",
+        "Browser": "Google",
+        "Browser_Name": "Google",
+        "Browser_FullName": "Google",
+        "Browser_Maker": "Google Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "AdsBot Google-Mobile*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AdsBot Google-Mobile",
+        "Browser_Name": "AdsBot Google-Mobile",
+        "Browser_FullName": "AdsBot Google-Mobile"
+      }
+    },
+    {
+      "userAgent": "Mediapartners-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AdSense Bot",
+        "Browser_Name": "AdSense Bot",
+        "Browser_FullName": "AdSense Bot"
+      }
+    },
+    {
+      "userAgent": "AdsBot Google-Mobile (?http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*) Mobile Safari",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "GoogleFriendConnect*",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "Googlebot-Video*",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "Kml-Google; (+http:\/\/code.google.com\/apis\/kml)*",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; GoogleToolbar*)",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; *) Version\/3.1 Safari\/*",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "gsa-crawler*",
+      "properties": {
+        "Parent": "Google"
+      }
+    },
+    {
+      "userAgent": "google (*Enterprise*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Enterprise",
+        "Browser_Name": "Google Enterprise",
+        "Browser_FullName": "Google Enterprise"
+      }
+    },
+    {
+      "userAgent": "Google OpenSocial agent*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google OpenSocial",
+        "Browser_Name": "Google OpenSocial",
+        "Browser_FullName": "Google OpenSocial"
+      }
+    },
+    {
+      "userAgent": "*Google Wireless Transcoder*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Wireless Transcoder",
+        "Browser_Name": "Google Wireless Transcoder",
+        "Browser_FullName": "Google Wireless Transcoder"
+      }
+    },
+    {
+      "userAgent": "Google-Site-Verification*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Site-Verification",
+        "Browser_Name": "Google-Site-Verification",
+        "Browser_FullName": "Google-Site-Verification"
+      }
+    },
+    {
+      "userAgent": "Google-Sitemaps*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Sitemaps",
+        "Browser_Name": "Google-Sitemaps",
+        "Browser_FullName": "Google-Sitemaps"
+      }
+    }
+  ]
+}

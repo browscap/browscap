@@ -1,0 +1,64 @@
+{
+  "division": "Chrome 1.0",
+  "sortIndex": 2650,
+  "userAgents": [
+    {
+      "userAgent": "Chrome 1.0",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Browser_FullName": "Chrome 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Chrome 1.0 on Windows",
+      "properties": {
+        "Parent": "Chrome 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/1.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 1.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/1.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 1.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/1.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 1.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/1.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 1.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    }
+  ]
+}

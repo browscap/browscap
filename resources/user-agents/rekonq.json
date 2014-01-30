@@ -1,0 +1,49 @@
+{
+  "division": "rekonq",
+  "sortIndex": 9920,
+  "userAgents": [
+    {
+      "userAgent": "rekonq",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "rekonq",
+        "Browser_Name": "rekonq",
+        "Browser_FullName": "rekonq",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
+      "properties": {
+        "Parent": "rekonq"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
+      "properties": {
+        "Parent": "rekonq",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

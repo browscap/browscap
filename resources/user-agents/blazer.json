@@ -1,0 +1,102 @@
+{
+  "division": "Blazer",
+  "sortIndex": 2510,
+  "userAgents": [
+    {
+      "userAgent": "Blazer",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Handspring Blazer",
+        "Browser_Name": "Handspring Blazer",
+        "Browser_FullName": "Handspring Blazer",
+        "Platform": "Palm",
+        "Platform_Name": "Palm",
+        "Platform_FullName": "Palm",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16;160x160",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 3.0",
+        "Browser_Version": "3.0",
+        "Browser_Bits": "32",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.0) 16;320x448",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 4.0",
+        "Browser_Version": "4.0",
+        "Browser_Bits": "32",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.1) 16;320x320",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 4.1",
+        "Browser_Version": "4.1",
+        "Browser_Bits": "32",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.2) 16;320x320",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 4.2",
+        "Browser_Version": "4.2",
+        "Browser_Bits": "32",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.4) 16;320x320",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 4.4",
+        "Browser_Version": "4.4",
+        "Browser_Bits": "32",
+        "Version": "4.4",
+        "MajorVer": "4",
+        "MinorVer": "4",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.5) 16;320x320",
+      "properties": {
+        "Parent": "Blazer",
+        "Browser_FullName": "Handspring Blazer 4.5",
+        "Browser_Version": "4.5",
+        "Browser_Bits": "32",
+        "Version": "4.5",
+        "MajorVer": "4",
+        "MinorVer": "5",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

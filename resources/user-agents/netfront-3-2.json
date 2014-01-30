@@ -1,0 +1,243 @@
+{
+  "division": "NetFront 3.2",
+  "sortIndex": 7730,
+  "userAgents": [
+    {
+      "userAgent": "NetFront 3.2",
+      "properties": {
+        "Parent": "NetFront Generic",
+        "Browser_FullName": "NetFront 3.2",
+        "Browser_Version": "3.2",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2",
+        "IFrames": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew 3.0",
+        "Platform_Version": "3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone; BREW\/*.*NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "AMOI-V810 NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "HUAWEI-M750\/001.00 ACS-NetFront\/3.2",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-*?NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X808\/NF3 3.2\/*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SEC-SGH*\/1.0 NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SGH-Z130\/1.0 NF3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC902\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC905\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i2\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK800i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonT715\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU10i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1iv\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5iv\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5u\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350iv\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW580i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW595\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW705\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW760i\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW980\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW995\/* Browser\/NetFront\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/1.0\/SamsungSGHX680V\/X680BUFG4 Browser\/NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/SamsungSGHE860V\/E860AEEH6\/Browser\/NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/SamsungSGHE860V\/E860AEFA2\/Browser\/NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/SamsungSGHE860V\/E860JBEH4\/Browser\/NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/SamsungSGHE860V\/E860JBFA2\/Browser\/NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "ZTE-F152\/1.0 ACS-NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "ZTE-F153\/1.0 ACS-NF\/3.2 QTV5.02 *",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "ZTE-F866\/1.0 ACS-NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    },
+    {
+      "userAgent": "ZTE-F869\/1.0 ACS-NF\/3.2*",
+      "properties": {
+        "Parent": "NetFront 3.2"
+      }
+    }
+  ]
+}

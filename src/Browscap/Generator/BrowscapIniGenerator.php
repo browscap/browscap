@@ -4,6 +4,16 @@ namespace Browscap\Generator;
 
 class BrowscapIniGenerator implements GeneratorInterface
 {
+    const OUTPUT_FORMAT_PHP = 'php';
+    const OUTPUT_FORMAT_ASP = 'asp';
+    
+    const OUTPUT_SET_LITE   = 'lite';
+    const OUTPUT_SET_NORMAL = 'normal';
+    const OUTPUT_SET_FULL   = 'full';
+    
+    private $outputFormat = self::OUTPUT_FORMAT_PHP;
+    private $outputSet    = self::OUTPUT_SET_NORMAL;
+    
     /**
      * @var bool
      */

@@ -1,0 +1,48 @@
+{
+  "division": "Google Earth 6.0",
+  "sortIndex": 5080,
+  "userAgents": [
+    {
+      "userAgent": "Google Earth 6.0",
+      "properties": {
+        "Parent": "Google Earth Generic",
+        "Browser_FullName": "Google Earth 6.0",
+        "Browser_Version": "6.0",
+        "Version": "6.0",
+        "MajorVer": "6"
+      }
+    },
+    {
+      "userAgent": "GoogleEarth\/6.0*(Windows;Microsoft Windows (6.1*);*)*",
+      "properties": {
+        "Parent": "Google Earth 6.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*) Google Earth\/6.*Safari\/*",
+      "properties": {
+        "Parent": "Google Earth 6.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

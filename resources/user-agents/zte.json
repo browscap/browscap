@@ -1,0 +1,38 @@
+{
+  "division": "ZTE",
+  "sortIndex": 11100,
+  "userAgents": [
+    {
+      "userAgent": "ZTE",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "ZTE",
+        "Browser_Name": "ZTE",
+        "Browser_FullName": "ZTE",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/*",
+      "properties": {
+        "Parent": "ZTE"
+      }
+    },
+    {
+      "userAgent": "ZTE-C78\/1.0 SMIT-Browser\/2.0*",
+      "properties": {
+        "Parent": "ZTE"
+      }
+    }
+  ]
+}

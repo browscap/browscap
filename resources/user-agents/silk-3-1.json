@@ -1,0 +1,41 @@
+{
+  "division": "Silk 3.1",
+  "sortIndex": 10580,
+  "userAgents": [
+    {
+      "userAgent": "Silk 3.1",
+      "properties": {
+        "Parent": "Silk",
+        "Browser_FullName": "Silk 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.1* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.1",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.1* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.1",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
+      }
+    }
+  ]
+}

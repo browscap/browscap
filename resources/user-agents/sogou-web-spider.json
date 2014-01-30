@@ -1,0 +1,37 @@
+{
+  "division": "Sogou web spider",
+  "sortIndex": 1490,
+  "userAgents": [
+    {
+      "userAgent": "Sogou web spider",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou Web Spider",
+        "Browser_Name": "Sogou Web Spider",
+        "Browser_FullName": "Sogou Web Spider"
+      }
+    },
+    {
+      "userAgent": "Sogou web spider*",
+      "properties": {
+        "Parent": "Sogou web spider"
+      }
+    },
+    {
+      "userAgent": "sogou web spider*",
+      "properties": {
+        "Parent": "Sogou web spider"
+      }
+    },
+    {
+      "userAgent": "Sogou web spider\/4.0*",
+      "properties": {
+        "Parent": "Sogou web spider",
+        "Browser_FullName": "Sogou Web Spider 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    }
+  ]
+}

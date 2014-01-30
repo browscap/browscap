@@ -1,0 +1,65 @@
+{
+  "division": "Dolphin 3.0",
+  "sortIndex": 3920,
+  "userAgents": [
+    {
+      "userAgent": "Dolphin 3.0",
+      "properties": {
+        "Parent": "Dolfin Generic",
+        "Browser_FullName": "Dolfin 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Bada",
+        "Platform_Name": "Bada",
+        "Platform_FullName": "Bada 2.0",
+        "Platform_Version": "2.0",
+        "Platform_Maker": "Samsung",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5380\/S5380*; U; Bada\/2.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/3.0*",
+      "properties": {
+        "Parent": "Dolphin 3.0",
+        "Device_Code_Name": "GT-S5380",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5380"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500\/*; U; Bada\/2.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/3.0*",
+      "properties": {
+        "Parent": "Dolphin 3.0",
+        "Device_Code_Name": "GT-S8500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530\/*; U; Bada\/2.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/3.0*",
+      "properties": {
+        "Parent": "Dolphin 3.0",
+        "Device_Code_Name": "GT-S8530",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8600\/*; U; Bada\/2.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/3.0*",
+      "properties": {
+        "Parent": "Dolphin 3.0",
+        "Device_Code_Name": "GT-S8600",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 3"
+      }
+    }
+  ]
+}

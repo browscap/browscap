@@ -1,0 +1,26 @@
+{
+  "division": "Jasmine Generic",
+  "sortIndex": 6380,
+  "userAgents": [
+    {
+      "userAgent": "Jasmine Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Jasmine",
+        "Browser_Name": "Jasmine",
+        "Browser_FullName": "Jasmine",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_isMobileDevice": "true"
+      }
+    }
+  ]
+}

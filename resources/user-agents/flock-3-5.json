@@ -1,0 +1,134 @@
+{
+  "division": "Flock 3.5",
+  "sortIndex": 4850,
+  "userAgents": [
+    {
+      "userAgent": "Flock 3.5",
+      "properties": {
+        "Parent": "Flock Generic",
+        "Browser_FullName": "Flock 3.5",
+        "Browser_Version": "3.5",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_4*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_5*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_6*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_7*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_8*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X 10_9*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.5* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

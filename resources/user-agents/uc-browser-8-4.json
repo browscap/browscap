@@ -1,0 +1,53 @@
+{
+  "division": "UC Browser 8.4",
+  "sortIndex": 10920,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser 8.4",
+      "properties": {
+        "Parent": "UC Browser",
+        "Browser_FullName": "UC Browser 8.4",
+        "Browser_Version": "8.4",
+        "Version": "8.4",
+        "MajorVer": "8",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; *; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/8.4* Mobile Safari\/*",
+      "properties": {
+        "Parent": "UC Browser 8.4",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; *; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/8.4* Mobile Safari\/*",
+      "properties": {
+        "Parent": "UC Browser 8.4",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    }
+  ]
+}

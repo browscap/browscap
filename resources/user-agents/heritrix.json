@@ -1,0 +1,36 @@
+{
+  "division": "Heritrix",
+  "sortIndex": 550,
+  "userAgents": [
+    {
+      "userAgent": "Heritrix",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Heritrix",
+        "Browser_Name": "Heritrix",
+        "Browser_FullName": "Heritrix",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "*Mozilla\/5.0 compatible; heritrix\/*",
+      "properties": {
+        "Parent": "Heritrix"
+      }
+    },
+    {
+      "userAgent": "*heritrix*",
+      "properties": {
+        "Parent": "Heritrix"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; *; heritrix\/*",
+      "properties": {
+        "Parent": "Heritrix"
+      }
+    }
+  ]
+}

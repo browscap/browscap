@@ -1,0 +1,41 @@
+{
+  "division": "DomainCrawler",
+  "sortIndex": 210,
+  "userAgents": [
+    {
+      "userAgent": "DomainCrawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "DomainCrawler",
+        "Browser_Name": "DomainCrawler",
+        "Browser_FullName": "DomainCrawler"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/*",
+      "properties": {
+        "Parent": "DomainCrawler"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/1.*",
+      "properties": {
+        "Parent": "DomainCrawler",
+        "Browser_FullName": "DomainCrawler 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/2.*",
+      "properties": {
+        "Parent": "DomainCrawler",
+        "Browser_FullName": "DomainCrawler 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "division": "HTMLParser",
+  "sortIndex": 970,
+  "userAgents": [
+    {
+      "userAgent": "HTMLParser",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTMLParser",
+        "Browser_Name": "HTMLParser",
+        "Browser_FullName": "HTMLParser"
+      }
+    },
+    {
+      "userAgent": "HTMLParser\/*",
+      "properties": {
+        "Parent": "HTMLParser"
+      }
+    },
+    {
+      "userAgent": "HTMLParser\/1.*",
+      "properties": {
+        "Parent": "HTMLParser",
+        "Browser_FullName": "HTMLParser 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "HTMLParser\/2.*",
+      "properties": {
+        "Parent": "HTMLParser",
+        "Browser_FullName": "HTMLParser 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

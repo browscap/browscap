@@ -1,0 +1,44 @@
+{
+  "division": "Google Desktop",
+  "sortIndex": 5050,
+  "userAgents": [
+    {
+      "userAgent": "Google Desktop",
+      "properties": {
+        "Parent": "General Browser",
+        "Comment": "Google",
+        "Browser": "Google Desktop",
+        "Browser_Name": "Google Desktop",
+        "Browser_FullName": "Google Desktop",
+        "Browser_Maker": "Google Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Desktop*)",
+      "properties": {
+        "Parent": "Google Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; Google Desktop*)",
+      "properties": {
+        "Parent": "Google Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Google Desktop\/5.9*)",
+      "properties": {
+        "Parent": "Google Desktop",
+        "Browser_FullName": "Google Desktop 5.9",
+        "Browser_Version": "5.9",
+        "Version": "5.9",
+        "MajorVer": "5",
+        "MinorVer": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "division": "Hatena",
+  "sortIndex": 540,
+  "userAgents": [
+    {
+      "userAgent": "Hatena",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Hatena Crawler",
+        "Browser_Name": "Hatena Crawler",
+        "Browser_FullName": "Hatena Crawler"
+      }
+    },
+    {
+      "userAgent": "Hatena Antenna\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Antenna",
+        "Browser_Name": "Hatena Antenna",
+        "Browser_FullName": "Hatena Antenna"
+      }
+    },
+    {
+      "userAgent": "Hatena Bookmark\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Bookmark",
+        "Browser_Name": "Hatena Bookmark",
+        "Browser_FullName": "Hatena Bookmark"
+      }
+    },
+    {
+      "userAgent": "Hatena::Crawler\/*",
+      "properties": {
+        "Parent": "Hatena"
+      }
+    },
+    {
+      "userAgent": "Feed::Find\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena Feed Find",
+        "Browser_Name": "Hatena Feed Find",
+        "Browser_FullName": "Hatena Feed Find"
+      }
+    },
+    {
+      "userAgent": "Hatena RSS\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena RSS",
+        "Browser_Name": "Hatena RSS",
+        "Browser_FullName": "Hatena RSS"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway\/1.2; +http:\/\/mgw.hatena.ne.jp\/help)",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena-Mobile-Gateway",
+        "Browser_Name": "Hatena-Mobile-Gateway",
+        "Browser_FullName": "Hatena-Mobile-Gateway 1.2",
+        "Browser_Version": "1.2",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Hatena::Bookmark\/2.00",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "Hatena::Bookmark",
+        "Browser_Name": "Hatena::Bookmark",
+        "Browser_FullName": "Hatena::Bookmark 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "HatenaScreenshot*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "HatenaScreenshot",
+        "Browser_Name": "HatenaScreenshot",
+        "Browser_FullName": "HatenaScreenshot"
+      }
+    },
+    {
+      "userAgent": "URI::Fetch\/*",
+      "properties": {
+        "Parent": "Hatena",
+        "Browser": "URI::Fetch",
+        "Browser_Name": "URI::Fetch",
+        "Browser_FullName": "URI::Fetch"
+      }
+    }
+  ]
+}

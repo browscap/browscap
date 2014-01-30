@@ -1,0 +1,50 @@
+{
+  "division": "Pic Collage",
+  "sortIndex": 9770,
+  "userAgents": [
+    {
+      "userAgent": "Pic Collage",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Pic Collage",
+        "Browser_Name": "Pic Collage",
+        "Browser_FullName": "Pic Collage",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Pic%20Collage\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Pic Collage"
+      }
+    },
+    {
+      "userAgent": "Pic%20Collage\/2.10* CFNetwork\/485.12* Darwin\/11.4*",
+      "properties": {
+        "Parent": "Pic Collage",
+        "Browser_FullName": "Pic Collage 2.10",
+        "Browser_Version": "2.10",
+        "Version": "2.10",
+        "MajorVer": "2",
+        "MinorVer": "10",
+        "Platform_FullName": "Darwin 11.4",
+        "Platform_Version": "11.4",
+        "RenderingEngine_FullName": "WebKit 485.12",
+        "RenderingEngine_Version": "485.12"
+      }
+    }
+  ]
+}

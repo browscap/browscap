@@ -1,0 +1,38 @@
+{
+  "division": "Vodafone",
+  "sortIndex": 10970,
+  "userAgents": [
+    {
+      "userAgent": "Vodafone",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Vodafone",
+        "Browser_Name": "Vodafone",
+        "Browser_FullName": "Vodafone",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "J-PHONE\/4.0\/J-SH51\/*",
+      "properties": {
+        "Parent": "Vodafone"
+      }
+    },
+    {
+      "userAgent": "J-PHONE\/4.3\/V602T\/*",
+      "properties": {
+        "Parent": "Vodafone"
+      }
+    }
+  ]
+}

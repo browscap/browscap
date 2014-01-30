@@ -1,0 +1,1260 @@
+{
+  "division": "Motorola Internet Browser 2.2",
+  "sortIndex": 7350,
+  "userAgents": [
+    {
+      "userAgent": "Motorola Internet Browser 2.2",
+      "properties": {
+        "Parent": "Motorola Internet Browser",
+        "Browser_FullName": "Motorola Internet Browser 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "Platform": "Linux Smartphone OS",
+        "Platform_Name": "Linux Smartphone OS",
+        "Platform_FullName": "Linux Smartphone OS",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Mobile Phone"
+      }
+    },
+    {
+      "userAgent": "MOT-280\/00.00.00 MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "280",
+        "Device_Name": "280"
+      }
+    },
+    {
+      "userAgent": "MOT-?Hybrid?\/0E.30.1ER MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2"
+      }
+    },
+    {
+      "userAgent": "MOT-A630\/0B.81.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A630",
+        "Device_Name": "A630"
+      }
+    },
+    {
+      "userAgent": "MOT-A728\/* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A728",
+        "Device_Name": "A728"
+      }
+    },
+    {
+      "userAgent": "MOT-A760\/R501_G_00.*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A760",
+        "Device_Name": "A760"
+      }
+    },
+    {
+      "userAgent": "MOT-A760i\/R501_G_00.*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A760i",
+        "Device_Name": "A760i"
+      }
+    },
+    {
+      "userAgent": "MOT-A768\/A768_G_0*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A768",
+        "Device_Name": "A768"
+      }
+    },
+    {
+      "userAgent": "MOT-A768\/EZX_G_0*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A768",
+        "Device_Name": "A768"
+      }
+    },
+    {
+      "userAgent": "MOT-A768\/R503_G_0*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A768",
+        "Device_Name": "A768"
+      }
+    },
+    {
+      "userAgent": "MOT-A768\/R51_G_0*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A768",
+        "Device_Name": "A768"
+      }
+    },
+    {
+      "userAgent": "MOT-A768i\/R503_G_00.17.A1R*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A768i",
+        "Device_Name": "A768i"
+      }
+    },
+    {
+      "userAgent": "MOT-A835\/7?.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A835",
+        "Device_Name": "A835"
+      }
+    },
+    {
+      "userAgent": "MOT-A845\/74.07.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "A845",
+        "Device_Name": "A845"
+      }
+    },
+    {
+      "userAgent": "MOT-C380\/0B.D?.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C380",
+        "Device_Name": "C380"
+      }
+    },
+    {
+      "userAgent": "MOT-C381\/0B.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C381",
+        "Device_Name": "C381"
+      }
+    },
+    {
+      "userAgent": "MOT-C381p\/0B.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C381p",
+        "Device_Name": "C381p"
+      }
+    },
+    {
+      "userAgent": "MOT-C385\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C385",
+        "Device_Name": "C385"
+      }
+    },
+    {
+      "userAgent": "MOT-C390\/0B.A0.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C390",
+        "Device_Name": "C390"
+      }
+    },
+    {
+      "userAgent": "MOT-C450\/0A.03.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C450",
+        "Device_Name": "C450"
+      }
+    },
+    {
+      "userAgent": "MOT-C450\/0A.04.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C450",
+        "Device_Name": "C450"
+      }
+    },
+    {
+      "userAgent": "MOT-C550\/0A.10.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C550",
+        "Device_Name": "C550"
+      }
+    },
+    {
+      "userAgent": "MOT-C650\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C650",
+        "Device_Name": "C650"
+      }
+    },
+    {
+      "userAgent": "MOT-C650\/0B.D2.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C650",
+        "Device_Name": "C650"
+      }
+    },
+    {
+      "userAgent": "MOT-C975\/8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C975",
+        "Device_Name": "C975"
+      }
+    },
+    {
+      "userAgent": "MOT-C980\/80.2E.2A. MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "C980",
+        "Device_Name": "C980"
+      }
+    },
+    {
+      "userAgent": "MOT-Canary\/SJUG1361AA 08.02.27I\/* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "Canary",
+        "Device_Name": "Canary"
+      }
+    },
+    {
+      "userAgent": "MOT-E1 iTunes\/0E.30.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E1 iTunes",
+        "Device_Name": "E1 iTunes"
+      }
+    },
+    {
+      "userAgent": "MOT-E1 iTunes\/0E.30.44R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E1 iTunes",
+        "Device_Name": "E1 iTunes"
+      }
+    },
+    {
+      "userAgent": "MOT-E1000\/8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E1000",
+        "Device_Name": "E1000"
+      }
+    },
+    {
+      "userAgent": "MOT-E1000M\/8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E1000M",
+        "Device_Name": "E1000M"
+      }
+    },
+    {
+      "userAgent": "MOT-E1070\/85.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E1070",
+        "Device_Name": "E1070"
+      }
+    },
+    {
+      "userAgent": "MOT-E375\/0E.23.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E375",
+        "Device_Name": "E375"
+      }
+    },
+    {
+      "userAgent": "MOT-E380\/0A.0* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E380",
+        "Device_Name": "E380"
+      }
+    },
+    {
+      "userAgent": "MOT-E398 ROKR\/0E.30.4* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E398",
+        "Device_Name": "E398"
+      }
+    },
+    {
+      "userAgent": "MOT-E398\/0E.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E398",
+        "Device_Name": "E398"
+      }
+    },
+    {
+      "userAgent": "MOT-E398B\/0E.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E398B",
+        "Device_Name": "E398B"
+      }
+    },
+    {
+      "userAgent": "MOT-E550\/08.83.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E550",
+        "Device_Name": "E550"
+      }
+    },
+    {
+      "userAgent": "MOT-E550\/0E.6* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E550",
+        "Device_Name": "E550"
+      }
+    },
+    {
+      "userAgent": "MOT-E680\/R51_G_0F.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E680",
+        "Device_Name": "E680"
+      }
+    },
+    {
+      "userAgent": "MOT-E770\/85.8* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E770",
+        "Device_Name": "E770"
+      }
+    },
+    {
+      "userAgent": "MOT-E770\/85.9* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E770",
+        "Device_Name": "E770"
+      }
+    },
+    {
+      "userAgent": "MOT-E770v\/85.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E770v",
+        "Device_Name": "E770v"
+      }
+    },
+    {
+      "userAgent": "MOT-E770v\/85.8* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E770v",
+        "Device_Name": "E770v"
+      }
+    },
+    {
+      "userAgent": "MOT-E770v\/85.92.701 MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E770v",
+        "Device_Name": "E770v"
+      }
+    },
+    {
+      "userAgent": "MOT-E790\/0E.30.34R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E790",
+        "Device_Name": "E790"
+      }
+    },
+    {
+      "userAgent": "MOT-E8\/*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E8",
+        "Device_Name": "E8"
+      }
+    },
+    {
+      "userAgent": "MOT-E825\/03.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "E825",
+        "Device_Name": "E825"
+      }
+    },
+    {
+      "userAgent": "MOT-K1\/* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "K1",
+        "Device_Name": "IdeaPad K1"
+      }
+    },
+    {
+      "userAgent": "MOT-K1\/08.22.0* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "K1",
+        "Device_Name": "IdeaPad K1"
+      }
+    },
+    {
+      "userAgent": "MOT-K1v\/08.* MIB\/BER2.2 * EGE\/1.0*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "K1v",
+        "Device_Name": "K1v"
+      }
+    },
+    {
+      "userAgent": "MOT-KLGO iTunes\/0E.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "KLGO iTunes",
+        "Device_Name": "KLGO iTunes"
+      }
+    },
+    {
+      "userAgent": "MOT-KLGO\/0E.30.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "KLGO",
+        "Device_Name": "KLGO"
+      }
+    },
+    {
+      "userAgent": "MOT-L2\/0A.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L2",
+        "Device_Name": "L2"
+      }
+    },
+    {
+      "userAgent": "MOT-L6\/0A.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6",
+        "Device_Name": "L6"
+      }
+    },
+    {
+      "userAgent": "MOT-L6\/0A.52.45R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6",
+        "Device_Name": "L6"
+      }
+    },
+    {
+      "userAgent": "MOT-L6\/0A.53.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6",
+        "Device_Name": "L6"
+      }
+    },
+    {
+      "userAgent": "MOT-L6i\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6i",
+        "Device_Name": "L6i"
+      }
+    },
+    {
+      "userAgent": "MOT-L6i\/0A.64.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6i",
+        "Device_Name": "L6i"
+      }
+    },
+    {
+      "userAgent": "MOT-L6i\/0A.65.03R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L6i",
+        "Device_Name": "L6i"
+      }
+    },
+    {
+      "userAgent": "MOT-L7\/08.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L7",
+        "Device_Name": "L7"
+      }
+    },
+    {
+      "userAgent": "MOT-L7i\/* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L7i",
+        "Device_Name": "L7i"
+      }
+    },
+    {
+      "userAgent": "MOT-L7v\/08.B7.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L7v",
+        "Device_Name": "L7v"
+      }
+    },
+    {
+      "userAgent": "MOT-L7v\/08.B7.5DR MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "L7v",
+        "Device_Name": "L7v"
+      }
+    },
+    {
+      "userAgent": "MOT-PEBL U6\/08.83.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "PEBL U6",
+        "Device_Name": "PEBL U6"
+      }
+    },
+    {
+      "userAgent": "MOT-PEBL U6\/08.84.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "PEBL U6",
+        "Device_Name": "PEBL U6"
+      }
+    },
+    {
+      "userAgent": "MOT-RAZRV3x\/85.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "RAZRV3x",
+        "Device_Name": "RAZRV3x"
+      }
+    },
+    {
+      "userAgent": "MOT-RAZRV3xv\/85.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "RAZRV3xv",
+        "Device_Name": "RAZRV3xv"
+      }
+    },
+    {
+      "userAgent": "MOT-RAZRV3xv\/85.9* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "RAZRV3xv",
+        "Device_Name": "RAZRV3xv"
+      }
+    },
+    {
+      "userAgent": "MOT-ROKR E1\/0E.30.1ER MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "ROKR E1",
+        "Device_Name": "ROKR E1"
+      }
+    },
+    {
+      "userAgent": "MOT-U15\/* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "U15",
+        "Device_Name": "U15"
+      }
+    },
+    {
+      "userAgent": "MOT-U15\/71.2* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "U15",
+        "Device_Name": "U15"
+      }
+    },
+    {
+      "userAgent": "MOT-Unx\/0B.D1.1FR MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "Unx",
+        "Device_Name": "Unx"
+      }
+    },
+    {
+      "userAgent": "MOT-V1050\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V1050",
+        "Device_Name": "V1050"
+      }
+    },
+    {
+      "userAgent": "MOT-V180\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V180",
+        "Device_Name": "V180"
+      }
+    },
+    {
+      "userAgent": "MOT-V180ENS\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V180ENS",
+        "Device_Name": "V180ENS"
+      }
+    },
+    {
+      "userAgent": "MOT-V185\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V185",
+        "Device_Name": "V185"
+      }
+    },
+    {
+      "userAgent": "MOT-V186\/08.3* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V186",
+        "Device_Name": "V186"
+      }
+    },
+    {
+      "userAgent": "MOT-V188\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V188",
+        "Device_Name": "V188"
+      }
+    },
+    {
+      "userAgent": "MOT-V190\/0A.5* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V190",
+        "Device_Name": "V190"
+      }
+    },
+    {
+      "userAgent": "MOT-V191\/0A.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V191",
+        "Device_Name": "V191"
+      }
+    },
+    {
+      "userAgent": "MOT-V191\/0A.52.47R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V191",
+        "Device_Name": "V191"
+      }
+    },
+    {
+      "userAgent": "MOT-V220\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V220",
+        "Device_Name": "V220"
+      }
+    },
+    {
+      "userAgent": "MOT-V220\/0B.D2.2* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V220",
+        "Device_Name": "V220"
+      }
+    },
+    {
+      "userAgent": "MOT-V220ENS\/0B.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V220ENS",
+        "Device_Name": "V220ENS"
+      }
+    },
+    {
+      "userAgent": "MOT-V235\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V235",
+        "Device_Name": "V235"
+      }
+    },
+    {
+      "userAgent": "MOT-V235\/0A.3* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V235",
+        "Device_Name": "V235"
+      }
+    },
+    {
+      "userAgent": "MOT-V270\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V270",
+        "Device_Name": "V270"
+      }
+    },
+    {
+      "userAgent": "MOT-V280\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V280",
+        "Device_Name": "V280"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.40.3ER MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.40.6* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.40.7* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.40.9* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.42.0* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V3\/0E.42.0DR MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    },
+    {
+      "userAgent": "MOT-V300\/0B.08* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V300",
+        "Device_Name": "V300"
+      }
+    },
+    {
+      "userAgent": "MOT-V300\/0B.09* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V300",
+        "Device_Name": "V300"
+      }
+    },
+    {
+      "userAgent": "MOT-V300\/0B.09.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V300",
+        "Device_Name": "V300"
+      }
+    },
+    {
+      "userAgent": "MOT-V303\/* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V303",
+        "Device_Name": "V303"
+      }
+    },
+    {
+      "userAgent": "MOT-V303\/0B.91.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V303",
+        "Device_Name": "V303"
+      }
+    },
+    {
+      "userAgent": "MOT-V360\/08.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360"
+      }
+    },
+    {
+      "userAgent": "MOT-V360\/08.B7.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360"
+      }
+    },
+    {
+      "userAgent": "MOT-V360\/08.B7.8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360"
+      }
+    },
+    {
+      "userAgent": "MOT-V360\/08.C* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360"
+      }
+    },
+    {
+      "userAgent": "MOT-V360\/08.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360"
+      }
+    },
+    {
+      "userAgent": "MOT-V360v\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360v",
+        "Device_Name": "V360v"
+      }
+    },
+    {
+      "userAgent": "MOT-V360v\/01.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V360v",
+        "Device_Name": "V360v"
+      }
+    },
+    {
+      "userAgent": "MOT-V361\/08.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V361",
+        "Device_Name": "V361"
+      }
+    },
+    {
+      "userAgent": "MOT-V365\/08.CC.13R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V365",
+        "Device_Name": "V365"
+      }
+    },
+    {
+      "userAgent": "MOT-V3e\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3e",
+        "Device_Name": "V3e"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i\/08.B4.3* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i\/08.B4.8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i\/08.D8.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i\/0E.42.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i_iTunes\/08.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i iTunes",
+        "Device_Name": "V3i iTunes"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i_iTunes\/08.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i"
+      }
+    },
+    {
+      "userAgent": "MOT-V3i_iTunes\/08.B4.2* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3i iTunes",
+        "Device_Name": "V3i iTunes"
+      }
+    },
+    {
+      "userAgent": "MOT-V3ire\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3ire",
+        "Device_Name": "V3ire"
+      }
+    },
+    {
+      "userAgent": "MOT-V3r*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3r",
+        "Device_Name": "V3r"
+      }
+    },
+    {
+      "userAgent": "MOT-V3r\/08.BD.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3r",
+        "Device_Name": "V3r"
+      }
+    },
+    {
+      "userAgent": "MOT-V3r\/08.BD.D* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3r",
+        "Device_Name": "V3r"
+      }
+    },
+    {
+      "userAgent": "MOT-V3re\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3re",
+        "Device_Name": "V3re"
+      }
+    },
+    {
+      "userAgent": "MOT-V3re\/0E.41.22R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3re",
+        "Device_Name": "V3re"
+      }
+    },
+    {
+      "userAgent": "MOT-V400\/0B.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V400",
+        "Device_Name": "V400"
+      }
+    },
+    {
+      "userAgent": "MOT-V500\/0B.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V500",
+        "Device_Name": "V500"
+      }
+    },
+    {
+      "userAgent": "MOT-V500\/R1.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V500",
+        "Device_Name": "V500"
+      }
+    },
+    {
+      "userAgent": "MOT-V505\/0B.09.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V505",
+        "Device_Name": "V505"
+      }
+    },
+    {
+      "userAgent": "MOT-V505\/0B.09.4DR MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V505",
+        "Device_Name": "V505"
+      }
+    },
+    {
+      "userAgent": "MOT-V525M\/0B.09.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V525M",
+        "Device_Name": "V525M"
+      }
+    },
+    {
+      "userAgent": "MOT-V535\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V535",
+        "Device_Name": "V535"
+      }
+    },
+    {
+      "userAgent": "MOT-V545\/0E.66.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V545",
+        "Device_Name": "V545"
+      }
+    },
+    {
+      "userAgent": "MOT-V547\/08.1* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V547",
+        "Device_Name": "V547"
+      }
+    },
+    {
+      "userAgent": "MOT-V550\/0E.6* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V550",
+        "Device_Name": "V550"
+      }
+    },
+    {
+      "userAgent": "MOT-V551\/* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V551",
+        "Device_Name": "V551"
+      }
+    },
+    {
+      "userAgent": "MOT-V551J\/08.18.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V551J",
+        "Device_Name": "V551J"
+      }
+    },
+    {
+      "userAgent": "MOT-V555\/08.1* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V555",
+        "Device_Name": "V555"
+      }
+    },
+    {
+      "userAgent": "MOT-V557\/08.2* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V557",
+        "Device_Name": "V557"
+      }
+    },
+    {
+      "userAgent": "MOT-V557p\/08.27.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V557p",
+        "Device_Name": "V557p"
+      }
+    },
+    {
+      "userAgent": "MOT-V6\/08.83.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V6",
+        "Device_Name": "V6"
+      }
+    },
+    {
+      "userAgent": "MOT-V600\/0* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V600",
+        "Device_Name": "V600"
+      }
+    },
+    {
+      "userAgent": "MOT-V600\/0B.* MIB\/2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V600",
+        "Device_Name": "V600"
+      }
+    },
+    {
+      "userAgent": "MOT-V600i\/0E.65.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V600i",
+        "Device_Name": "V600i"
+      }
+    },
+    {
+      "userAgent": "MOT-V620\/0* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V620",
+        "Device_Name": "V620"
+      }
+    },
+    {
+      "userAgent": "MOT-V635\/08.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V635",
+        "Device_Name": "V635"
+      }
+    },
+    {
+      "userAgent": "MOT-V8\/08.B7.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V8",
+        "Device_Name": "V8"
+      }
+    },
+    {
+      "userAgent": "MOT-V80\/0* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V80",
+        "Device_Name": "V80"
+      }
+    },
+    {
+      "userAgent": "MOT-V975\/8* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V975",
+        "Device_Name": "V975"
+      }
+    },
+    {
+      "userAgent": "MOT-V975\/82.31.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V975",
+        "Device_Name": "V975"
+      }
+    },
+    {
+      "userAgent": "MOT-V980\/80.2* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V980",
+        "Device_Name": "V980"
+      }
+    },
+    {
+      "userAgent": "MOT-V980M\/80.2F.63? MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V980M",
+        "Device_Name": "V980M"
+      }
+    },
+    {
+      "userAgent": "MOT-V980M\/83.* MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V980M",
+        "Device_Name": "V980M"
+      }
+    },
+    {
+      "userAgent": "MOT-W490\/* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "W490",
+        "Device_Name": "W490"
+      }
+    },
+    {
+      "userAgent": "MOT-Z3\/08.00.* MIB\/BER2.2 *",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "Z3",
+        "Device_Name": "Z3"
+      }
+    },
+    {
+      "userAgent": "mot-V3\/OE.40.79R MIB\/2.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 2.2",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "division": "i-mobile",
+  "sortIndex": 5240,
+  "userAgents": [
+    {
+      "userAgent": "i-mobile",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "i-mobile",
+        "Browser_Name": "i-mobile",
+        "Browser_FullName": "i-mobile",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "i-mobile 608\/1.0 *",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile601 MIC\/WAP2.0 *",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile606",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile901",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    }
+  ]
+}

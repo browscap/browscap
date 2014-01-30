@@ -1,0 +1,109 @@
+{
+  "division": "iTunes",
+  "sortIndex": 6360,
+  "userAgents": [
+    {
+      "userAgent": "iTunes",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "iTunes",
+        "Browser_Name": "iTunes",
+        "Browser_FullName": "iTunes",
+        "Browser_Maker": "Apple Inc",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "iTunes\/* (Windows*",
+      "properties": {
+        "Parent": "iTunes",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "Windows Desktop",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "iTunes\/4.7* (Macintosh*",
+      "properties": {
+        "Parent": "iTunes",
+        "Browser_FullName": "iTunes 4.7",
+        "Browser_Version": "4.7",
+        "Version": "4.7",
+        "MajorVer": "4",
+        "MinorVer": "7",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Name": "Macintosh",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "iTunes\/7.1* (Macintosh*",
+      "properties": {
+        "Parent": "iTunes",
+        "Browser_FullName": "iTunes 7.1",
+        "Browser_Version": "7.1",
+        "Version": "7.1",
+        "MajorVer": "7",
+        "MinorVer": "1",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Name": "Macintosh",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "iTunes\/10.1* (Macintosh*",
+      "properties": {
+        "Parent": "iTunes",
+        "Browser_FullName": "iTunes 10.1",
+        "Browser_Version": "10.1",
+        "Version": "10.1",
+        "MajorVer": "10",
+        "MinorVer": "1",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Name": "Macintosh",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

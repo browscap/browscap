@@ -1,0 +1,30 @@
+{
+  "division": "YaBrowser",
+  "sortIndex": 11040,
+  "userAgents": [
+    {
+      "userAgent": "YaBrowser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Yandex Browser",
+        "Browser_Name": "Yandex Browser",
+        "Browser_FullName": "Yandex Browser",
+        "Browser_Maker": "Yandex",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    }
+  ]
+}

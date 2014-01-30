@@ -1,0 +1,299 @@
+{
+  "division": "Teleca-Obigo",
+  "sortIndex": 10720,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo",
+      "properties": {
+        "Parent": "Teleca",
+        "Browser_FullName": "Teleca-Obigo 1.0",
+        "Browser_Version": "1.0",
+        "Browser_Maker": "Obigo",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "LG-CU500 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "CU500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "CU500"
+      }
+    },
+    {
+      "userAgent": "LG-G922 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "G922",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G922"
+      }
+    },
+    {
+      "userAgent": "LG-GB230\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GB230",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GB230"
+      }
+    },
+    {
+      "userAgent": "LG-GM360\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GM360",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GM360"
+      }
+    },
+    {
+      "userAgent": "LG-GM360i\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GM360i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GM360i"
+      }
+    },
+    {
+      "userAgent": "LG-GS290\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GS290",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GS290"
+      }
+    },
+    {
+      "userAgent": "LG-GT350\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GT350",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GT350"
+      }
+    },
+    {
+      "userAgent": "LG-GU230\/V10a Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GU230",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GU230"
+      }
+    },
+    {
+      "userAgent": "LG-GW300FD\/V100 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GW300FD",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GW300FD"
+      }
+    },
+    {
+      "userAgent": "LG-GX500\/* Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "GX500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GX500"
+      }
+    },
+    {
+      "userAgent": "LG-KE970 MIC\/1.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "KE970",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KE970"
+      }
+    },
+    {
+      "userAgent": "LG-KG220\/V09a Obigo\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "KG220",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KG220"
+      }
+    },
+    {
+      "userAgent": "LG-KM900\/* Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "KM900",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KM900"
+      }
+    },
+    {
+      "userAgent": "LG-KP210 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "KP210",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KP210"
+      }
+    },
+    {
+      "userAgent": "LG-KU886 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "KU886",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KU886"
+      }
+    },
+    {
+      "userAgent": "LG-TU720 Obigo\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "TU720",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "TU720"
+      }
+    },
+    {
+      "userAgent": "LG-U8210\/V080 Obigo\/WAP2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "U8210",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "U8210"
+      }
+    },
+    {
+      "userAgent": "MOT-EX112 Obigo\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "EX112",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "EX112"
+      }
+    },
+    {
+      "userAgent": "PHILIPS 535 \/ Teleca-Obigo *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Code_Name": "535",
+        "Device_Maker": "Philips",
+        "Device_Brand_Name": "Philips",
+        "Device_Name": "535"
+      }
+    },
+    {
+      "userAgent": "AU-MIC\/1.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "CODACOM C100\/4.6 AU.MIC\/1.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MinorVer": "1",
+        "Device_Code_Name": "C100",
+        "Device_Maker": "Godacom",
+        "Device_Brand_Name": "Godacom",
+        "Device_Name": "C100"
+      }
+    },
+    {
+      "userAgent": "LG-KG99 MIC\/1.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MinorVer": "1",
+        "Device_Code_Name": "KG99",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KG99"
+      }
+    },
+    {
+      "userAgent": "TSM-6\/Teleca\/1.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MinorVer": "1",
+        "Device_Code_Name": "6",
+        "Device_Maker": "TSM",
+        "Device_Brand_Name": "TSM",
+        "Device_Name": "6"
+      }
+    },
+    {
+      "userAgent": "AU-MIC\/2.0 MMP\/2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "LG-G1800 MIC\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Device_Code_Name": "G1800",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G1800"
+      }
+    },
+    {
+      "userAgent": "LG-KM900\/V10x Browser\/Obigo-Q7.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Browser_FullName": "Teleca-Obigo 7.1",
+        "Browser_Version": "7.1",
+        "Version": "7.1",
+        "MajorVer": "7",
+        "MinorVer": "1",
+        "Device_Code_Name": "KM900",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KM900"
+      }
+    }
+  ]
+}

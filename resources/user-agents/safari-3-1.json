@@ -1,0 +1,311 @@
+{
+  "division": "Safari 3.1",
+  "sortIndex": 10070,
+  "userAgents": [
+    {
+      "userAgent": "Safari 3.1",
+      "properties": {
+        "Parent": "Safari General",
+        "Browser_FullName": "Safari 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*CentOS*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "CentOS",
+        "Platform_Name": "CentOS",
+        "Platform_FullName": "CentOS",
+        "Platform_Version": "",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 2_* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.0",
+        "Platform_Version": "2.0",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 2_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.1",
+        "Platform_Version": "2.1",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 2_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.2",
+        "Platform_Version": "2.2",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod; *CPU iPhone OS 2_* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.0",
+        "Platform_Version": "2.0",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "iPod",
+        "Device_Name": "iPod",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod; *CPU iPhone OS 2_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.1",
+        "Platform_Version": "2.1",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "iPod",
+        "Device_Name": "iPod",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPod; *CPU iPhone OS 2_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.1* Mobile\/* Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 2.2",
+        "Platform_Version": "2.2",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "iPod",
+        "Device_Name": "iPod",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_4*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_5*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*SymbianOS*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Platform": "Symbian OS",
+        "Platform_Name": "Symbian OS",
+        "Platform_FullName": "Symbian OS",
+        "Platform_Version": "",
+        "Platform_Maker": "Symbian Foundation",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*) *Version\/3.1*Safari\/*",
+      "properties": {
+        "Parent": "Safari 3.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    }
+  ]
+}

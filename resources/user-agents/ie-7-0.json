@@ -1,0 +1,413 @@
+{
+  "division": "IE 7.0",
+  "sortIndex": 5810,
+  "userAgents": [
+    {
+      "userAgent": "IE 7.0",
+      "properties": {
+        "Parent": "IE Generic",
+        "Browser_FullName": "IE 7.0",
+        "Browser_Version": "7.0",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "BackgroundSounds": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 7.0*Windows 98*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 98",
+        "Platform_Version": "98",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 7.0*Windows 98; Win 9x 4.90;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows ME",
+        "Platform_Version": "ME",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 4.0*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 4.1*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.0*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.01*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.1*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.1; *Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.1; *Mozilla\/4.0*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.2*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.0*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1; *Mozilla\/4.0 (compatible*; MSIE 6.0;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.2*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*Windows NT 6.0; *Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; GoogleToolbar*; Windows XP 5.1; MSIE 7.0*)*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; GoogleToolbar*; Windows XP 6.1; MSIE 7.0*)*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; GoogleToolbar*; Windows* 6.0; MSIE 7.0*)*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U;*MSIE 7.0; Windows NT 6.0*)",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 7.0*; Windows NT 5.1;*)*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "T-Online Browser6.0 (compatible*; MSIE 7.0; Windows NT 5.1*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.2;*WOW64*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.0; WOW64*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.0; WOW64; *Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1; WOW64*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.2; WOW64*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 5.2;*Win64*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "64",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1; Win64; x64; *Mozilla\/4.0 (compatible*; MSIE 6.0;*",
+      "properties": {
+        "Parent": "IE 7.0",
+        "Browser_Bits": "64",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true"
+      }
+    }
+  ]
+}

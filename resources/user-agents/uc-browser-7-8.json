@@ -1,0 +1,45 @@
+{
+  "division": "UC Browser 7.8",
+  "sortIndex": 10890,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser 7.8",
+      "properties": {
+        "Parent": "UC Browser",
+        "Browser_FullName": "UC Browser 7.8",
+        "Browser_Version": "7.8",
+        "Version": "7.8",
+        "MajorVer": "7",
+        "MinorVer": "8"
+      }
+    },
+    {
+      "userAgent": "JUC(Linux;?;2.2*;XT702*)UCWEB7.8*",
+      "properties": {
+        "Parent": "UC Browser 7.8",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 2.2",
+        "Platform_Version": "2.2",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT702",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "XT702"
+      }
+    },
+    {
+      "userAgent": "NokiaN8-00\/UC Browser7.8*",
+      "properties": {
+        "Parent": "UC Browser 7.8"
+      }
+    },
+    {
+      "userAgent": "lg-c105\/UC Browser7.8*",
+      "properties": {
+        "Parent": "UC Browser 7.8"
+      }
+    }
+  ]
+}

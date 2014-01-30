@@ -1,0 +1,51 @@
+{
+  "division": "BlackBerry 4.3",
+  "sortIndex": 2420,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.3",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 4.3",
+        "Browser_Version": "4.3",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3",
+        "Platform_FullName": "RIM OS 4.3",
+        "Platform_Version": "4.3"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8110\/4.3*",
+      "properties": {
+        "Parent": "BlackBerry 4.3",
+        "Device_Code_Name": "BlackBerry 8110",
+        "Device_Name": "BlackBerry 8110"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8120\/4.3*",
+      "properties": {
+        "Parent": "BlackBerry 4.3",
+        "Device_Code_Name": "BlackBerry 8120",
+        "Device_Name": "BlackBerry 8120"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8130\/4.3*",
+      "properties": {
+        "Parent": "BlackBerry 4.3",
+        "Device_Code_Name": "BlackBerry 8130",
+        "Device_Name": "BlackBerry 8130"
+      }
+    },
+    {
+      "userAgent": "BlackBerry8330\/4.3*",
+      "properties": {
+        "Parent": "BlackBerry 4.3",
+        "Device_Code_Name": "BlackBerry 8330",
+        "Device_Name": "BlackBerry 8330"
+      }
+    }
+  ]
+}

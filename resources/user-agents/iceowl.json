@@ -1,0 +1,36 @@
+{
+  "division": "Iceowl",
+  "sortIndex": 5450,
+  "userAgents": [
+    {
+      "userAgent": "Iceowl",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Iceowl",
+        "Browser_Name": "Iceowl",
+        "Browser_FullName": "Iceowl",
+        "Browser_Maker": "Debian",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    }
+  ]
+}

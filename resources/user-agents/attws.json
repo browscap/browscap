@@ -1,0 +1,23 @@
+{
+  "division": "ATTWS",
+  "sortIndex": 2230,
+  "userAgents": [
+    {
+      "userAgent": "ATTWS",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "ATTWS",
+        "Browser_Name": "ATTWS",
+        "Browser_FullName": "ATTWS",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "ATTWS\/2.0 N515i-10(c100;TB)",
+      "properties": {
+        "Parent": "ATTWS"
+      }
+    }
+  ]
+}

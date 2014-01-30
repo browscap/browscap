@@ -1,0 +1,31 @@
+{
+  "division": "Pete-Spider",
+  "sortIndex": 870,
+  "userAgents": [
+    {
+      "userAgent": "Pete-Spider",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Pete-Spider",
+        "Browser_Name": "Pete-Spider",
+        "Browser_FullName": "Pete-Spider"
+      }
+    },
+    {
+      "userAgent": "Pete-Spider\/*",
+      "properties": {
+        "Parent": "Pete-Spider"
+      }
+    },
+    {
+      "userAgent": "Pete-Spider\/1.*",
+      "properties": {
+        "Parent": "Pete-Spider",
+        "Browser_FullName": "Pete-Spider 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

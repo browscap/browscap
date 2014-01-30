@@ -1,0 +1,97 @@
+{
+  "division": "Googlebot 2.1",
+  "sortIndex": 1150,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot 2.1",
+      "properties": {
+        "Parent": "Googlebot",
+        "Browser_FullName": "Google Bot 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "*Googlebot\/2.1*",
+      "properties": {
+        "Parent": "Googlebot 2.1"
+      }
+    },
+    {
+      "userAgent": "Googlebot v2.1*",
+      "properties": {
+        "Parent": "Googlebot 2.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Googlebot\/2.1; ?http:\/\/www.google.com\/bot.html)",
+      "properties": {
+        "Parent": "Googlebot 2.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?2.1 (+http:\/\/www.google.com\/bot.html)",
+      "properties": {
+        "Parent": "Googlebot 2.1",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Googlebot?2.1*",
+      "properties": {
+        "Parent": "Googlebot 2.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Googlebot?2.1*",
+      "properties": {
+        "Parent": "Googlebot 2.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Googlebot?2.1*",
+      "properties": {
+        "Parent": "Googlebot 2.1",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

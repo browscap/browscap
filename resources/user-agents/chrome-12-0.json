@@ -1,0 +1,577 @@
+{
+  "division": "Chrome 12.0",
+  "sortIndex": 2680,
+  "userAgents": [
+    {
+      "userAgent": "Chrome 12.0",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Browser_FullName": "Chrome 12.0",
+        "Browser_Version": "12.0",
+        "Version": "12.0",
+        "MajorVer": "12"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One SV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One SV",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; HTC One SV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One SV",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Android",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Android 4.0",
+      "properties": {
+        "Parent": "Chrome 12.0 on Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Android 4.1",
+      "properties": {
+        "Parent": "Chrome 12.0 on Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Android 4.2",
+      "properties": {
+        "Parent": "Chrome 12.0 on Android",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Chrome OS",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Platform": "Chrome OS",
+        "Platform_Name": "Chrome OS",
+        "Platform_FullName": "Chrome OS",
+        "Platform_Maker": "Google Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*CrOS i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Chrome OS",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; CrOS i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Chrome OS",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*CrOS x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Chrome OS",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on FreeBSD",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; FreeBSD*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on FreeBSD"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Linux",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Mac OS X",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_4*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_5*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9"
+      }
+    },
+    {
+      "userAgent": "Chrome 12.0 on Windows",
+      "properties": {
+        "Parent": "Chrome 12.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 12.0 on Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

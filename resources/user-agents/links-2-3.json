@@ -1,0 +1,69 @@
+{
+  "division": "Links 2.3",
+  "sortIndex": 6770,
+  "userAgents": [
+    {
+      "userAgent": "Links 2.3",
+      "properties": {
+        "Parent": "Links Generic",
+        "Browser_FullName": "Links 2.3",
+        "Browser_Version": "2.3",
+        "Version": "2.3",
+        "MajorVer": "2",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Links (2.3*; FreeBSD*)",
+      "properties": {
+        "Parent": "Links 2.3",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.3*; Linux *)",
+      "properties": {
+        "Parent": "Links 2.3",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.3*; Linux *x86_64*)",
+      "properties": {
+        "Parent": "Links 2.3",
+        "Browser_Bits": "64",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.3*; OpenBSD*)",
+      "properties": {
+        "Parent": "Links 2.3",
+        "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop"
+      }
+    }
+  ]
+}

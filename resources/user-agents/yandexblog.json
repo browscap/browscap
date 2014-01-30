@@ -1,0 +1,29 @@
+{
+  "division": "YandexBlog",
+  "sortIndex": 1590,
+  "userAgents": [
+    {
+      "userAgent": "YandexBlog",
+      "properties": {
+        "Parent": "Yandex",
+        "Browser": "YandexBlog",
+        "Browser_Name": "YandexBlog",
+        "Browser_FullName": "YandexBlog",
+        "Browser_isSyndicationReader": "true",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; YandexBlogs\/*; robot)",
+      "properties": {
+        "Parent": "YandexBlog"
+      }
+    },
+    {
+      "userAgent": "YandexBlog\/*",
+      "properties": {
+        "Parent": "YandexBlog"
+      }
+    }
+  ]
+}

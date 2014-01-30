@@ -1,0 +1,272 @@
+{
+  "division": "LG",
+  "sortIndex": 6700,
+  "userAgents": [
+    {
+      "userAgent": "LG",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "LG",
+        "Browser_Name": "LG",
+        "Browser_FullName": "LG",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "G1251C\/(2005.11.23)1.0\/WAP2.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG G8000\/1.0 PDK\/2.5*",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G1800",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G210\/SW100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G220\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G232\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G282\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G622\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G660\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G692\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G828\/V100\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G920\/V112\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-G933\/V084\/WAP2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG-GD580\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8100",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8110\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8110\/v1.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8110\/v2.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8110\/v2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8120\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8120\/v1.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8120C\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8130\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8138\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8138\/v1.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8138\/v2.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8180\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8330\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8330\/v1.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8360\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8380\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U8550\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U880\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LG\/U990\/v1.0",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LGE\/U8150",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LGE\/U8150*",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LGE\/U8150\/1.0 Profile\/MIDP-2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LGE\/U8150\/1.1 Profile\/MIDP-2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "LGE\/U8210\/1.0 Profile\/MIDP-2.0 *",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "SIE-C62\/*",
+      "properties": {
+        "Parent": "LG"
+      }
+    },
+    {
+      "userAgent": "SIE-C62\/8*",
+      "properties": {
+        "Parent": "LG"
+      }
+    }
+  ]
+}

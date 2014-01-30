@@ -1,0 +1,63 @@
+{
+  "division": "Links 2.1",
+  "sortIndex": 6750,
+  "userAgents": [
+    {
+      "userAgent": "Links 2.1",
+      "properties": {
+        "Parent": "Links Generic",
+        "Browser_FullName": "Links 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Links (2.1*; FreeBSD*)",
+      "properties": {
+        "Parent": "Links 2.1",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.1*; Linux *)",
+      "properties": {
+        "Parent": "Links 2.1",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.1*; NetBSD*)",
+      "properties": {
+        "Parent": "Links 2.1",
+        "Platform": "NetBSD",
+        "Platform_Name": "NetBSD",
+        "Platform_FullName": "NetBSD",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (2.1*; OpenBSD*)",
+      "properties": {
+        "Parent": "Links 2.1",
+        "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop"
+      }
+    }
+  ]
+}

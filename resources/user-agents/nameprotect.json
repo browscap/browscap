@@ -1,0 +1,33 @@
+{
+  "division": "NameProtect",
+  "sortIndex": 780,
+  "userAgents": [
+    {
+      "userAgent": "NameProtect",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NameProtect",
+        "Browser_Name": "NameProtect",
+        "Browser_FullName": "NameProtect"
+      }
+    },
+    {
+      "userAgent": "NP\/*",
+      "properties": {
+        "Parent": "NameProtect"
+      }
+    },
+    {
+      "userAgent": "NPBot*",
+      "properties": {
+        "Parent": "NameProtect"
+      }
+    },
+    {
+      "userAgent": "abot\/*",
+      "properties": {
+        "Parent": "NameProtect"
+      }
+    }
+  ]
+}

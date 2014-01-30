@@ -1,0 +1,33 @@
+{
+  "division": "Bellwave",
+  "sortIndex": 2270,
+  "userAgents": [
+    {
+      "userAgent": "Bellwave",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Bellwave",
+        "Browser_Name": "Bellwave",
+        "Browser_FullName": "Bellwave",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "BELLWAVE_NEO200_MT",
+      "properties": {
+        "Parent": "Bellwave"
+      }
+    },
+    {
+      "userAgent": "Bellwave_HTG100_R10",
+      "properties": {
+        "Parent": "Bellwave"
+      }
+    }
+  ]
+}

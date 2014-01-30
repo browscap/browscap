@@ -1,0 +1,33 @@
+{
+  "division": "Gigabot",
+  "sortIndex": 490,
+  "userAgents": [
+    {
+      "userAgent": "Gigabot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "Gigabot",
+        "Browser": "Gigabot",
+        "Browser_Name": "Gigabot",
+        "Browser_FullName": "Gigabot",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "Gigabot*",
+      "properties": {
+        "Parent": "Gigabot"
+      }
+    },
+    {
+      "userAgent": "GigabotSiteSearch\/*",
+      "properties": {
+        "Parent": "Gigabot",
+        "Browser": "GigabotSiteSearch",
+        "Browser_Name": "GigabotSiteSearch",
+        "Browser_FullName": "GigabotSiteSearch"
+      }
+    }
+  ]
+}

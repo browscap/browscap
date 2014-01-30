@@ -1,0 +1,150 @@
+{
+  "division": "Yahoo",
+  "sortIndex": 1300,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo",
+      "properties": {
+        "Parent": "Search Engines",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo",
+        "Browser_Name": "Yahoo",
+        "Browser_FullName": "Yahoo",
+        "Browser_Maker": "Yahoo",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "Y!%20Messenger\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "KDDI-CA33 UP.Browser\/6.2* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "KDDI-HI21 UP.Browser\/6.0* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Yahoo-Test\/*)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (YahooYSMcm*)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*KHTML\/* (like Gecko)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "My Browser",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Scooter*",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Scooter\/*Y!CrawlX",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Y!OASIS*",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "YRL_ODP_CRAWLER",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Yahoo Pipes*",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Yahoo-Blogs*",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "YahooCacheSystem",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "YahooExternalCache",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "YahooYSMcm*",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 5.0; Windows NT)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

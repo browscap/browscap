@@ -1,0 +1,21 @@
+{
+  "division": "Unister",
+  "sortIndex": 11120,
+  "userAgents": [
+    {
+      "userAgent": "Unister",
+      "properties": {
+        "Parent": "General Browser",
+        "Category": "Unister",
+        "SubCategory": "Unister",
+        "Browser_Type": "Unister",
+        "Browser_SubType": "Unister",
+        "Browser": "Unister",
+        "Browser_Name": "Unister",
+        "Browser_FullName": "Unister",
+        "Browser_Maker": "Unister",
+        "Platform_Version": ""
+      }
+    }
+  ]
+}

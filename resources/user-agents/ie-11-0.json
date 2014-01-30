@@ -1,0 +1,149 @@
+{
+  "division": "IE 11.0",
+  "sortIndex": 5720,
+  "userAgents": [
+    {
+      "userAgent": "IE 11.0",
+      "properties": {
+        "Parent": "IE Generic",
+        "Browser_FullName": "IE 11.0",
+        "Browser_Version": "11.0",
+        "Version": "11.0",
+        "MajorVer": "11",
+        "BackgroundSounds": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "3",
+        "RenderingEngine_FullName": "Trident 7",
+        "RenderingEngine_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.3; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8.1",
+        "Platform_Version": "8.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.3; WOW64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8.1",
+        "Platform_Version": "8.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "64",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; Win64; x64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "64",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.3; Win64; x64; Trident\/7.0*; rv:11.0*) like Gecko",
+      "properties": {
+        "Parent": "IE 11.0",
+        "Browser_Bits": "64",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8.1",
+        "Platform_Version": "8.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true"
+      }
+    }
+  ]
+}

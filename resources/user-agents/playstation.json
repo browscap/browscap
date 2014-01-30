@@ -1,0 +1,108 @@
+{
+  "division": "Playstation",
+  "sortIndex": 9780,
+  "userAgents": [
+    {
+      "userAgent": "Playstation",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Playstation",
+        "Browser_Name": "Playstation",
+        "Browser_FullName": "Playstation",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "Device_Code_Name": "Playstation",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "Playstation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
+      "properties": {
+        "Parent": "Playstation",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "PlayStation Portable",
+        "Device_Name": "PlayStation Portable",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PlayStation Vita*)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "PlayStation",
+        "Browser_Name": "PlayStation",
+        "Browser_FullName": "PlayStation",
+        "Frames": "false",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Name": "PlayStation Vita",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "PlayStation",
+        "Browser_Name": "PlayStation",
+        "Browser_FullName": "PlayStation",
+        "Frames": "false",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Name": "PlayStation Vita",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PLAYSTATION *)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Playstation Browser",
+        "Browser_Name": "Playstation Browser",
+        "Browser_FullName": "Playstation Browser",
+        "Frames": "false",
+        "Device_Code_Name": "Playstation 3",
+        "Device_Name": "Playstation 3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (PLAYSTATION 3*)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Playstation Browser",
+        "Browser_Name": "Playstation Browser",
+        "Browser_FullName": "Playstation Browser",
+        "Frames": "false",
+        "Device_Code_Name": "Playstation 3",
+        "Device_Name": "Playstation 3"
+      }
+    },
+    {
+      "userAgent": "Sony PS2 (Linux)",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Sony PS2",
+        "Browser_Name": "Sony PS2",
+        "Browser_FullName": "Sony PS2",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Code_Name": "PlayStation 2",
+        "Device_Name": "PlayStation 2"
+      }
+    }
+  ]
+}

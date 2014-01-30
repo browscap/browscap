@@ -1,0 +1,51 @@
+{
+  "division": "E28",
+  "sortIndex": 3940,
+  "userAgents": [
+    {
+      "userAgent": "E28",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "E28",
+        "Browser_Name": "E28",
+        "Browser_FullName": "E28",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "E28-MPG1\/2.6.0.0 Browser\/WAP *",
+      "properties": {
+        "Parent": "E28"
+      }
+    },
+    {
+      "userAgent": "E28-MPG1\/A.2.8.0.0\/WAP1.2 *",
+      "properties": {
+        "Parent": "E28"
+      }
+    },
+    {
+      "userAgent": "E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1,E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "E28"
+      }
+    },
+    {
+      "userAgent": "E2808\/1.0.0.0(2004.09.09)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "E28"
+      }
+    },
+    {
+      "userAgent": "e28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "E28"
+      }
+    }
+  ]
+}

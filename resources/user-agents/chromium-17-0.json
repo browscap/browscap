@@ -1,0 +1,103 @@
+{
+  "division": "Chromium 17.0",
+  "sortIndex": 3030,
+  "userAgents": [
+    {
+      "userAgent": "Chromium 17.0",
+      "properties": {
+        "Parent": "Chromium Generic",
+        "Browser_FullName": "Chromium 17.0",
+        "Browser_Version": "17.0",
+        "Version": "17.0",
+        "MajorVer": "17",
+        "CssVersion": "3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/17.*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/17.*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu* Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu\/10.10 Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu 10.10",
+        "Platform_Version": "10.10",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu\/12.04 Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu 12.04",
+        "Platform_Version": "12.04",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu* Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "64",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu\/10.10 Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "64",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu 10.10",
+        "Platform_Version": "10.10",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu\/12.04 Chromium\/17.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Chromium 17.0",
+        "Browser_Bits": "64",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu 12.04",
+        "Platform_Version": "12.04",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    }
+  ]
+}

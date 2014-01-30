@@ -1,0 +1,31 @@
+{
+  "division": "Offline Pages",
+  "sortIndex": 840,
+  "userAgents": [
+    {
+      "userAgent": "Offline Pages",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Offline Pages",
+        "Browser_Name": "Offline Pages",
+        "Browser_FullName": "Offline Pages"
+      }
+    },
+    {
+      "userAgent": "OfflinePages\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Offline Pages",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

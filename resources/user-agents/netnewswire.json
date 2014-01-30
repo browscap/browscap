@@ -1,0 +1,49 @@
+{
+  "division": "NetNewsWire",
+  "sortIndex": 420,
+  "userAgents": [
+    {
+      "userAgent": "NetNewsWire",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NetNewsWire",
+        "Browser_Name": "NetNewsWire",
+        "Browser_FullName": "NetNewsWire",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "*NetNewsWire\/*",
+      "properties": {
+        "Parent": "NetNewsWire"
+      }
+    },
+    {
+      "userAgent": "NetNewsWire*\/*",
+      "properties": {
+        "Parent": "NetNewsWire"
+      }
+    },
+    {
+      "userAgent": "*NetNewsWire\/3.3*",
+      "properties": {
+        "Parent": "NetNewsWire",
+        "Browser_FullName": "NetNewsWire 3.3",
+        "Browser_Version": "3.3",
+        "Version": "3.3",
+        "MajorVer": "3",
+        "MinorVer": "3"
+      }
+    }
+  ]
+}

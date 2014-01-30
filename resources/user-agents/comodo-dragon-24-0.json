@@ -1,0 +1,99 @@
+{
+  "division": "Comodo Dragon 24.0",
+  "sortIndex": 3610,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon 24.0",
+      "properties": {
+        "Parent": "Comodo Dragon Generic",
+        "Browser_FullName": "Comodo Dragon 24.0",
+        "Browser_Version": "24.0",
+        "Version": "24.0",
+        "MajorVer": "24"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*) Ubuntu\/* Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "64",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu",
+        "Platform_Maker": "Canonical Ltd"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*) Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*) Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*) Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*) Comodo_Dragon\/24.* Chrome\/24.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 24.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

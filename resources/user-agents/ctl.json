@@ -1,0 +1,33 @@
+{
+  "division": "CTL",
+  "sortIndex": 3750,
+  "userAgents": [
+    {
+      "userAgent": "CTL",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "CTL",
+        "Browser_Name": "CTL",
+        "Browser_FullName": "CTL",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "CTL-ROCKET\/1.0\/WAP1.2 Profile\/MIDP-1.0 Configuration\/CLDC-1.1",
+      "properties": {
+        "Parent": "CTL"
+      }
+    },
+    {
+      "userAgent": "CTL\/(2004.07.01)SW2.0.0\/WAP1.2 *",
+      "properties": {
+        "Parent": "CTL"
+      }
+    }
+  ]
+}

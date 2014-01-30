@@ -1,0 +1,29 @@
+{
+  "division": "Fennec Generic",
+  "sortIndex": 4130,
+  "userAgents": [
+    {
+      "userAgent": "Fennec Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Firefox Mobile",
+        "Browser_Name": "Firefox Mobile",
+        "Browser_FullName": "Firefox Mobile",
+        "Browser_Maker": "Mozilla Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    }
+  ]
+}

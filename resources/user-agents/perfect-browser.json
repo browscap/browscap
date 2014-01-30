@@ -1,0 +1,214 @@
+{
+  "division": "PERFECT Browser",
+  "sortIndex": 9750,
+  "userAgents": [
+    {
+      "userAgent": "PERFECT Browser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "PERFECT Browser",
+        "Browser_Name": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/1.0* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.1* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.2* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.6* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.6",
+        "Browser_Version": "2.6",
+        "Version": "2.6",
+        "MajorVer": "2",
+        "MinorVer": "6",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.7* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.7",
+        "Browser_Version": "2.7",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.8* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.8",
+        "Browser_Version": "2.8",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser-iPad\/2.9* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 2.9",
+        "Browser_Version": "2.9",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser\/4.6* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 4.6",
+        "Browser_Version": "4.6",
+        "Version": "4.6",
+        "MajorVer": "4",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser\/5.1* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 5.1",
+        "Browser_Version": "5.1",
+        "Version": "5.1",
+        "MajorVer": "5",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Perfect%20Browser\/5.6* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "PERFECT Browser",
+        "Browser_FullName": "PERFECT Browser 5.6",
+        "Browser_Version": "5.6",
+        "Version": "5.6",
+        "MajorVer": "5",
+        "MinorVer": "6"
+      }
+    }
+  ]
+}

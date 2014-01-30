@@ -1,0 +1,90 @@
+{
+  "division": "Dillo",
+  "sortIndex": 3840,
+  "userAgents": [
+    {
+      "userAgent": "Dillo",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Dillo",
+        "Browser_Name": "Dillo",
+        "Browser_FullName": "Dillo",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Dillo\/0.6*",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 0.6",
+        "Browser_Version": "0.6",
+        "Version": "0.6",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "Dillo\/0.7*",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 0.7",
+        "Browser_Version": "0.7",
+        "Version": "0.7",
+        "MinorVer": "7"
+      }
+    },
+    {
+      "userAgent": "Dillo\/0.8*",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 0.8",
+        "Browser_Version": "0.8",
+        "Version": "0.8",
+        "MinorVer": "8"
+      }
+    },
+    {
+      "userAgent": "Dillo\/2.0",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Dillo\/3.0",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; X11; Dillo\/3.0*)",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    }
+  ]
+}

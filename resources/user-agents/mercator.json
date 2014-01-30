@@ -1,0 +1,27 @@
+{
+  "division": "Mercator",
+  "sortIndex": 7150,
+  "userAgents": [
+    {
+      "userAgent": "Mercator",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Mercator",
+        "Browser_Name": "Mercator",
+        "Browser_FullName": "Mercator",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mercator-2.0",
+      "properties": {
+        "Parent": "Mercator",
+        "Browser_FullName": "Mercator 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

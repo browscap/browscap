@@ -1,0 +1,36 @@
+{
+  "division": "Comodo Dragon Generic",
+  "sortIndex": 3450,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Comodo Dragon",
+        "Browser_Name": "Comodo Dragon",
+        "Browser_FullName": "Comodo Dragon",
+        "Browser_Maker": "Comodo Group Inc",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    }
+  ]
+}

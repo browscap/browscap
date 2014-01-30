@@ -1,0 +1,27 @@
+{
+  "division": "AdsBot Google",
+  "sortIndex": 1080,
+  "userAgents": [
+    {
+      "userAgent": "AdsBot Google",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AdsBot Google",
+        "Browser_Name": "AdsBot Google",
+        "Browser_FullName": "AdsBot Google"
+      }
+    },
+    {
+      "userAgent": "AdsBot Google*",
+      "properties": {
+        "Parent": "AdsBot Google"
+      }
+    },
+    {
+      "userAgent": "AdsBot-Google*",
+      "properties": {
+        "Parent": "AdsBot Google"
+      }
+    }
+  ]
+}

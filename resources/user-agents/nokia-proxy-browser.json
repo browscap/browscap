@@ -1,0 +1,30 @@
+{
+  "division": "Nokia Proxy Browser",
+  "sortIndex": 8020,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Nokia Proxy Browser",
+        "Browser_Name": "Nokia Proxy Browser",
+        "Browser_FullName": "Nokia Proxy Browser",
+        "Browser_Maker": "Nokia",
+        "Platform": "Symbian OS",
+        "Platform_Name": "Symbian OS",
+        "Platform_FullName": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko"
+      }
+    }
+  ]
+}

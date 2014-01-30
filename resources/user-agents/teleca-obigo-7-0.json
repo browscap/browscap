@@ -1,0 +1,156 @@
+{
+  "division": "Teleca-Obigo 7.0",
+  "sortIndex": 10770,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo 7.0",
+      "properties": {
+        "Parent": "Teleca",
+        "Browser_FullName": "Teleca-Obigo 7.0",
+        "Browser_Version": "7.0",
+        "Version": "7.0",
+        "MajorVer": "7"
+      }
+    },
+    {
+      "userAgent": "HTC_Smart_F3188 Mozilla\/5.0 (like Gecko) Obigo\/Q7",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "Smart F3188",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Smart F3188"
+      }
+    },
+    {
+      "userAgent": "LG-CF360\/V10h Teleca\/Q7.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "CF360",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "CF360"
+      }
+    },
+    {
+      "userAgent": "LG-GR500\/V10? Teleca\/Q7.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "GR500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GR500"
+      }
+    },
+    {
+      "userAgent": "LG-GT360 Teleca\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "GT360",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GT360"
+      }
+    },
+    {
+      "userAgent": "LG-GT365\/V10h Teleca\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "GT365",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GT365"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW150i\/R2AD032 TelecaBrowser\/Q07C1-1 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "W150i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W150i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonWT13i\/R3AD017 TelecaBrowser\/Q07C1-1 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Device_Code_Name": "WT13i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "WT13i"
+      }
+    },
+    {
+      "userAgent": "LG-GT400\/v10a Browser\/Teleca-Q7.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Browser_FullName": "Teleca-Obigo 7.1",
+        "Browser_Version": "7.1",
+        "Version": "7.1",
+        "MinorVer": "1",
+        "Device_Code_Name": "GT400",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GT400"
+      }
+    },
+    {
+      "userAgent": "LG\/KC910\/V10a Browser\/Obigo-Q7.1*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Browser_FullName": "Teleca-Obigo 7.1",
+        "Browser_Version": "7.1",
+        "Version": "7.1",
+        "MinorVer": "1",
+        "Device_Code_Name": "KC910",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KC910"
+      }
+    },
+    {
+      "userAgent": "LG-T300\/V100 Obigo\/Q7.3*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Browser_FullName": "Teleca-Obigo 7.3",
+        "Browser_Version": "7.3",
+        "Version": "7.3",
+        "MinorVer": "3",
+        "Device_Code_Name": "T300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "T300"
+      }
+    },
+    {
+      "userAgent": "LG-T310i\/V100 Obigo\/Q7.3*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Browser_FullName": "Teleca-Obigo 7.3",
+        "Browser_Version": "7.3",
+        "Version": "7.3",
+        "MinorVer": "3",
+        "Device_Code_Name": "T310i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "T310i"
+      }
+    },
+    {
+      "userAgent": "LG\/BL40\/V10a Browser\/Obigo-Q7.3*",
+      "properties": {
+        "Parent": "Teleca-Obigo 7.0",
+        "Browser_FullName": "Teleca-Obigo 7.3",
+        "Browser_Version": "7.3",
+        "Version": "7.3",
+        "MinorVer": "3",
+        "Device_Code_Name": "BL40",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "BL40"
+      }
+    }
+  ]
+}

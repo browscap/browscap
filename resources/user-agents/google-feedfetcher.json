@@ -1,0 +1,41 @@
+{
+  "division": "Google Feedfetcher",
+  "sortIndex": 1100,
+  "userAgents": [
+    {
+      "userAgent": "Google Feedfetcher",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Feedfetcher-Google",
+        "Browser_Name": "Feedfetcher-Google",
+        "Browser_FullName": "Feedfetcher-Google",
+        "Browser_isSyndicationReader": "true",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google*",
+      "properties": {
+        "Parent": "Google Feedfetcher"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google-iGoogleGadgets*",
+      "properties": {
+        "Parent": "Google Feedfetcher"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
+      "properties": {
+        "Parent": "Google Feedfetcher"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)",
+      "properties": {
+        "Parent": "Google Feedfetcher"
+      }
+    }
+  ]
+}

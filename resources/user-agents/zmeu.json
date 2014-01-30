@@ -1,0 +1,27 @@
+{
+  "division": "ZmEu",
+  "sortIndex": 1010,
+  "userAgents": [
+    {
+      "userAgent": "ZmEu",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ZmEu",
+        "Browser_Name": "ZmEu",
+        "Browser_FullName": "ZmEu"
+      }
+    },
+    {
+      "userAgent": "Made by ZmEu @ WhiteHat v0.* (www.WhiteHat.ro)",
+      "properties": {
+        "Parent": "ZmEu"
+      }
+    },
+    {
+      "userAgent": "Made by ZmEu @ WhiteHat*",
+      "properties": {
+        "Parent": "ZmEu"
+      }
+    }
+  ]
+}

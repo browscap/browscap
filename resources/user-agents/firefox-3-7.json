@@ -1,0 +1,237 @@
+{
+  "division": "Firefox 3.7",
+  "sortIndex": 4700,
+  "userAgents": [
+    {
+      "userAgent": "Firefox 3.7",
+      "properties": {
+        "Parent": "Firefox Generic",
+        "Browser_FullName": "Firefox 3.7",
+        "Browser_Version": "3.7",
+        "Version": "3.7",
+        "MajorVer": "3",
+        "MinorVer": "7",
+        "CssVersion": "3",
+        "RenderingEngine_FullName": "Gecko 1.9.3",
+        "RenderingEngine_Version": "1.9.3"
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on FreeBSD",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; FreeBSD*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on FreeBSD",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on HP-UX",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "HP-UX",
+        "Platform_Name": "HP-UX",
+        "Platform_FullName": "HP-UX",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; HP-UX*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on HP-UX",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on IRIX64",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "IRIX64",
+        "Platform_Name": "IRIX64",
+        "Platform_FullName": "IRIX64",
+        "Platform_Maker": "SGI",
+        "Device_Type": "Desktop",
+        "Device_Maker": "SGI",
+        "Device_Brand_Name": "SGI"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; IRIX64*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on IRIX64",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on Linux",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; ?*Linux*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on OpenBSD",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; OpenBSD*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on OpenBSD"
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on SunOS",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Platform": "SunOS",
+        "Platform_Name": "SunOS",
+        "Platform_FullName": "SunOS",
+        "Platform_Maker": "Oracle",
+        "Device_Type": "Desktop",
+        "Device_Brand_Name": "Oracle"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; SunOS*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on SunOS",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 3.7 on Windows",
+      "properties": {
+        "Parent": "Firefox 3.7",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1 x64*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Browser_Bits": "64",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2 x64*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Browser_Bits": "64",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0 x64*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Browser_Bits": "64",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1 x64*) Gecko\/* Minefield\/3.7*",
+      "properties": {
+        "Parent": "Firefox 3.7 on Windows",
+        "Browser_Bits": "64",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    }
+  ]
+}

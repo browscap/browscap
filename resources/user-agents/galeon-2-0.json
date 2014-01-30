@@ -1,0 +1,50 @@
+{
+  "division": "Galeon 2.0",
+  "sortIndex": 5020,
+  "userAgents": [
+    {
+      "userAgent": "Galeon 2.0",
+      "properties": {
+        "Parent": "Galeon",
+        "Browser_FullName": "Galeon 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko* Galeon\/2.*",
+      "properties": {
+        "Parent": "Galeon 2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*Gecko\/* Galeon\/2.*",
+      "properties": {
+        "Parent": "Galeon 2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Galeon\/2.* (X11; Linux*",
+      "properties": {
+        "Parent": "Galeon 2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686; *; rv:1.8.0*) Gecko\/* Galeon\/2.0* Firefox\/1.5*",
+      "properties": {
+        "Parent": "Galeon 2.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686; *; rv:1.8.1*) Gecko\/* Galeon\/2.0* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Galeon 2.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

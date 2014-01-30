@@ -1,0 +1,25 @@
+{
+  "division": "GSmart",
+  "sortIndex": 5130,
+  "userAgents": [
+    {
+      "userAgent": "GSmart",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "GSmart",
+        "Browser_Name": "GSmart",
+        "Browser_FullName": "GSmart",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "GSmart-S1205;Mozilla\/4.0 (*compatible*;*MSIE 6.0; PPC;240x400)",
+      "properties": {
+        "Parent": "GSmart",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

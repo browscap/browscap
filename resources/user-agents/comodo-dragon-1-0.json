@@ -1,0 +1,32 @@
+{
+  "division": "Comodo Dragon 1.0",
+  "sortIndex": 3460,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon 1.0",
+      "properties": {
+        "Parent": "Comodo Dragon Generic",
+        "Browser_FullName": "Comodo Dragon 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Comodo Dragon\/1.*0Chrome\/3.*Safari\/*",
+      "properties": {
+        "Parent": "Comodo Dragon 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

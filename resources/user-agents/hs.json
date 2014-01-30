@@ -1,0 +1,39 @@
+{
+  "division": "HS",
+  "sortIndex": 5210,
+  "userAgents": [
+    {
+      "userAgent": "HS",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "HS",
+        "Browser_Name": "HS",
+        "Browser_FullName": "HS",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "HS-G768\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "HS"
+      }
+    },
+    {
+      "userAgent": "HS-G769\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "HS"
+      }
+    },
+    {
+      "userAgent": "HS-G770\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
+      "properties": {
+        "Parent": "HS"
+      }
+    }
+  ]
+}

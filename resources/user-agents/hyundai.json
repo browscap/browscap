@@ -1,0 +1,23 @@
+{
+  "division": "Hyundai",
+  "sortIndex": 5230,
+  "userAgents": [
+    {
+      "userAgent": "Hyundai",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Hyundai",
+        "Browser_Name": "Hyundai",
+        "Browser_FullName": "Hyundai",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "HyundaiHG9000\/1.0 *",
+      "properties": {
+        "Parent": "Hyundai"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "division": "QuickTime 7.6",
+  "sortIndex": 7100,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime 7.6",
+      "properties": {
+        "Parent": "QuickTime Generic",
+        "Browser_FullName": "QuickTime 7.6",
+        "Browser_Version": "7.6",
+        "Version": "7.6",
+        "MajorVer": "7",
+        "MinorVer": "6",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "QuickTime?7.6.* (qtver=7.6.*;*;os=Mac 10.*",
+      "properties": {
+        "Parent": "QuickTime 7.6"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.6* (qtver=7.6*;os=Windows NT 5.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.6* (qtver=7.6*;os=Windows NT 5.2)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime?7.6* (qtver=7.6*;os=Windows NT 6.0)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime?7.6* (qtver=7.6*;os=Windows NT 6.1)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "division": "IEMobile Generic",
+  "sortIndex": 5850,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "IEMobile",
+        "Browser_Name": "IEMobile",
+        "Browser_FullName": "IEMobile",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform": "Windows Mobile OS",
+        "Platform_Name": "Windows Mobile OS",
+        "Platform_FullName": "Windows Mobile OS",
+        "Platform_Maker": "Microsoft Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "ActiveXControls": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "RenderingEngine_FullName": "Trident 3.1",
+        "RenderingEngine_Version": "3.1",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    }
+  ]
+}

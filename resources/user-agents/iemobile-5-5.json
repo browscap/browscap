@@ -1,0 +1,49 @@
+{
+  "division": "IEMobile 5.5",
+  "sortIndex": 5900,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 5.5",
+      "properties": {
+        "Parent": "IEMobile Generic",
+        "Browser_FullName": "IEMobile 5.5",
+        "Browser_Version": "5.5",
+        "Version": "5.5",
+        "MajorVer": "5",
+        "MinorVer": "5"
+      }
+    },
+    {
+      "userAgent": "HTC-2125\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; Smartphone; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 5.5",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; PPC; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 5.5",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; PPC; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 5.5",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 5.5*",
+      "properties": {
+        "Parent": "IEMobile 5.5",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

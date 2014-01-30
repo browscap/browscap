@@ -1,0 +1,26 @@
+{
+  "division": "Icedove 15.0",
+  "sortIndex": 5360,
+  "userAgents": [
+    {
+      "userAgent": "Icedove 15.0",
+      "properties": {
+        "Parent": "Icedove",
+        "Browser_FullName": "Icedove 15.0",
+        "Browser_Version": "15.0",
+        "Version": "15.0",
+        "MajorVer": "15",
+        "RenderingEngine_FullName": "Gecko 15",
+        "RenderingEngine_Version": "15"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux i686; rv:*) Gecko\/* Icedove\/15.*",
+      "properties": {
+        "Parent": "Icedove 15.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "VLC Media Player",
+  "sortIndex": 7130,
+  "userAgents": [
+    {
+      "userAgent": "VLC Media Player",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "VLC Media Player",
+        "Browser_Name": "VLC Media Player",
+        "Browser_FullName": "VLC Media Player"
+      }
+    },
+    {
+      "userAgent": "VLC media player*",
+      "properties": {
+        "Parent": "VLC Media Player"
+      }
+    },
+    {
+      "userAgent": "vlc\/*",
+      "properties": {
+        "Parent": "VLC Media Player"
+      }
+    }
+  ]
+}

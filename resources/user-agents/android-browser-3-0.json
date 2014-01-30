@@ -1,0 +1,200 @@
+{
+  "division": "Android Browser 3.0",
+  "sortIndex": 2080,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser 3.0",
+      "properties": {
+        "Parent": "Android Generic",
+        "Browser_FullName": "Android Webkit 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Android Browser 3.0 on Android",
+      "properties": {
+        "Parent": "Android Browser 3.0"
+      }
+    },
+    {
+      "userAgent": "Android Browser 3.0 on Android 1.0",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android",
+        "Platform_FullName": "Android 1.0",
+        "Platform_Version": "1.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A70BH*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "A70BH",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "A70BH"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A70BHT*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "A70BHT",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "A70BHT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A70CHT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "A70CHT",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "A70CHT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A70HB*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "A70HB",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "A70HB"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A7EB*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "70c",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "70c eReader"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; A80KSC*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "A80KSC",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Name": "A80KSC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; HTC_Dream*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "Dream",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Dream"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; Mobii 7*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "Mobii 7",
+        "Device_Name": "Mobii 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; STM7UC*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "STM7UC",
+        "Device_Name": "STM7UC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; STM7UH*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "STM7UH",
+        "Device_Name": "STM7UH"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; dream*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "Dream",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Dream"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*; generic*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.0*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android VillainROM*; HTC Hero Build\/ERE27) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0",
+        "Device_Code_Name": "Hero",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Hero"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.0*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.0"
+      }
+    },
+    {
+      "userAgent": "Android Browser 3.0 on Android 1.1",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android",
+        "Platform_FullName": "Android 1.1",
+        "Platform_Version": "1.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.1*; A101B*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.1",
+        "Device_Code_Name": "A101B",
+        "Device_Name": "A101B"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.1*; dream*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.1",
+        "Device_Code_Name": "Dream",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Dream"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 1.1*AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 1.1*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Safari\/*",
+      "properties": {
+        "Parent": "Android Browser 3.0 on Android 1.1"
+      }
+    }
+  ]
+}

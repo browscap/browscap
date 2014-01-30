@@ -1,0 +1,27 @@
+{
+  "division": "Google Keyword Tool",
+  "sortIndex": 1110,
+  "userAgents": [
+    {
+      "userAgent": "Google Keyword Tool",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Keyword Tool",
+        "Browser_Name": "Google Keyword Tool",
+        "Browser_FullName": "Google Keyword Tool"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Keyword Tool*)",
+      "properties": {
+        "Parent": "Google Keyword Tool"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Google Keyword Tool;*)",
+      "properties": {
+        "Parent": "Google Keyword Tool"
+      }
+    }
+  ]
+}

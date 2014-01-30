@@ -1,0 +1,72 @@
+{
+  "division": "Dolphin 2.2",
+  "sortIndex": 3910,
+  "userAgents": [
+    {
+      "userAgent": "Dolphin 2.2",
+      "properties": {
+        "Parent": "Dolfin Generic",
+        "Browser_FullName": "Dolfin 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "Platform": "Bada",
+        "Platform_Name": "Bada",
+        "Platform_FullName": "Bada 1.2",
+        "Platform_Version": "1.2",
+        "Platform_Maker": "Samsung",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500\/*; U; Bada\/1.2* (KHTML,*like Gecko*) Dolfin\/2.2*",
+      "properties": {
+        "Parent": "Dolphin 2.2",
+        "Device_Code_Name": "GT-S8500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500\/*; U; Bada\/1.2; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.2*",
+      "properties": {
+        "Parent": "Dolphin 2.2",
+        "Device_Code_Name": "GT-S8500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530-VODAFONE\/*; U; Bada\/1.2; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.2*",
+      "properties": {
+        "Parent": "Dolphin 2.2",
+        "Device_Code_Name": "GT-S8530",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530\/*; U; Bada\/1.2; *) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/2.2*",
+      "properties": {
+        "Parent": "Dolphin 2.2",
+        "Device_Code_Name": "GT-S8530",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Wave 2"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Dolphin\/2.2* ",
+      "properties": {
+        "Parent": "Dolphin 2.2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "division": "YahooFeedSeeker",
+  "sortIndex": 1410,
+  "userAgents": [
+    {
+      "userAgent": "YahooFeedSeeker",
+      "properties": {
+        "Parent": "Search Engines",
+        "Browser": "YahooFeedSeeker",
+        "Browser_Name": "YahooFeedSeeker",
+        "Browser_FullName": "YahooFeedSeeker",
+        "Browser_isSyndicationReader": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Y!J SearchMonkey*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRE*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRG\/GSC*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRI*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRO\/YFSJ*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRP\/YFSBJ*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BRQ\/DLCK*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-BSC*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-DSC*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-NSC*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-PSC*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-SRD*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "Y!J-VSC\/ViSe*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    },
+    {
+      "userAgent": "YahooFeedSeeker*",
+      "properties": {
+        "Parent": "YahooFeedSeeker"
+      }
+    }
+  ]
+}

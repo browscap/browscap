@@ -1,0 +1,51 @@
+{
+  "division": "Amoi",
+  "sortIndex": 2060,
+  "userAgents": [
+    {
+      "userAgent": "Amoi",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Amoi",
+        "Browser_Name": "Amoi",
+        "Browser_FullName": "Amoi",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "AMOI\/R1A",
+      "properties": {
+        "Parent": "Amoi"
+      }
+    },
+    {
+      "userAgent": "Amoi-A869\/Plat-V-FT\/WAP2.0\/MIDP2.0\/CLDC1.0",
+      "properties": {
+        "Parent": "Amoi"
+      }
+    },
+    {
+      "userAgent": "Amoi-H9\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
+      "properties": {
+        "Parent": "Amoi"
+      }
+    },
+    {
+      "userAgent": "Amoi-M6\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
+      "properties": {
+        "Parent": "Amoi"
+      }
+    },
+    {
+      "userAgent": "Amoi-M8\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
+      "properties": {
+        "Parent": "Amoi"
+      }
+    }
+  ]
+}

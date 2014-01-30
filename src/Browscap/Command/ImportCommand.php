@@ -86,7 +86,7 @@ class ImportCommand extends Command
     {
         $jsonEncoded = json_encode($jsonData, JSON_PRETTY_PRINT);
 
-        $jsonEncoded = str_replace('    ', '  ', $jsonEncoded);
+        $jsonEncoded = str_replace(array('    ', '"\"', '\""'), array('  ', '"', '"'), $jsonEncoded);
 
         $fullpath = $this->outputDirectory . $filename;
         file_put_contents($fullpath, $jsonEncoded);

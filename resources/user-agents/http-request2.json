@@ -1,0 +1,35 @@
+{
+  "division": "HTTP_Request2",
+  "sortIndex": 1990,
+  "userAgents": [
+    {
+      "userAgent": "HTTP_Request2",
+      "properties": {
+        "Parent": "PHP",
+        "Category": "Library",
+        "SubCategory": "Library",
+        "Browser_Type": "Library",
+        "Browser_SubType": "Library",
+        "Browser": "PEAR HTTP_Request2",
+        "Browser_Name": "PEAR HTTP_Request2",
+        "Browser_FullName": "PEAR HTTP_Request2"
+      }
+    },
+    {
+      "userAgent": "HTTP_Request2*",
+      "properties": {
+        "Parent": "HTTP_Request2"
+      }
+    },
+    {
+      "userAgent": "HTTP_Request2\/0.5*",
+      "properties": {
+        "Parent": "HTTP_Request2",
+        "Browser_FullName": "PEAR HTTP_Request2 0.5",
+        "Browser_Version": "0.5",
+        "Version": "0.5",
+        "MinorVer": "5"
+      }
+    }
+  ]
+}

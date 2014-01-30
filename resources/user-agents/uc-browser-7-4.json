@@ -1,0 +1,31 @@
+{
+  "division": "UC Browser 7.4",
+  "sortIndex": 10860,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser 7.4",
+      "properties": {
+        "Parent": "UC Browser",
+        "Browser_FullName": "UC Browser 7.4",
+        "Browser_Version": "7.4",
+        "Version": "7.4",
+        "MajorVer": "7",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "NOKIAN85\/UC Browser7.4*",
+      "properties": {
+        "Parent": "UC Browser 7.4"
+      }
+    },
+    {
+      "userAgent": "Nokia5230\/UC Browser7.4*",
+      "properties": {
+        "Parent": "UC Browser 7.4",
+        "Device_Code_Name": "5230",
+        "Device_Name": "Nuron"
+      }
+    }
+  ]
+}

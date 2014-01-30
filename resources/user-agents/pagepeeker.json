@@ -1,0 +1,36 @@
+{
+  "division": "PagePeeker",
+  "sortIndex": 860,
+  "userAgents": [
+    {
+      "userAgent": "PagePeeker",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PagePeeker",
+        "Browser_Name": "PagePeeker",
+        "Browser_FullName": "PagePeeker"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* Safari\/* PagePeeker\/*",
+      "properties": {
+        "Parent": "PagePeeker",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* Safari\/* PagePeeker\/2.1*",
+      "properties": {
+        "Parent": "PagePeeker",
+        "Browser_FullName": "PagePeeker 2.1",
+        "Browser_Version": "2.1",
+        "Browser_Bits": "64",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

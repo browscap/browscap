@@ -1,0 +1,86 @@
+{
+  "division": "Palemoon 4.0",
+  "sortIndex": 9670,
+  "userAgents": [
+    {
+      "userAgent": "Palemoon 4.0",
+      "properties": {
+        "Parent": "PaleMoon Generic",
+        "Browser_FullName": "PaleMoon 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "RenderingEngine_FullName": "Gecko 2.0",
+        "RenderingEngine_Version": "2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 5.1; rv:*) Gecko\/* Firefox\/* PaleMoon\/4.0*",
+      "properties": {
+        "Parent": "Palemoon 4.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.0; rv:*) Gecko\/* Firefox\/* PaleMoon\/4.0*",
+      "properties": {
+        "Parent": "Palemoon 4.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; rv:*) Gecko\/* Firefox\/* PaleMoon\/4.0*",
+      "properties": {
+        "Parent": "Palemoon 4.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1; *WOW64; rv:*) Gecko\/* Firefox\/* PaleMoon\/4.0*",
+      "properties": {
+        "Parent": "Palemoon 4.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

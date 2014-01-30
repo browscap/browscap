@@ -1,0 +1,29 @@
+{
+  "division": "bumblebee",
+  "sortIndex": 2540,
+  "userAgents": [
+    {
+      "userAgent": "bumblebee",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "bumblebee",
+        "Browser_Name": "bumblebee",
+        "Browser_FullName": "bumblebee",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "bumblebee\/1.0 (bumblebee@relevare.com; http:\/\/www.relevare.com\/)",
+      "properties": {
+        "Parent": "bumblebee"
+      }
+    },
+    {
+      "userAgent": "bumblebee@relevare.com",
+      "properties": {
+        "Parent": "bumblebee"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "division": "Shiira",
+  "sortIndex": 10440,
+  "userAgents": [
+    {
+      "userAgent": "Shiira",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Shiira",
+        "Browser_Name": "Shiira",
+        "Browser_FullName": "Shiira",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/0.9*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 0.9",
+        "Browser_Version": "0.9",
+        "Version": "0.9",
+        "MinorVer": "9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.0*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 1.2",
+        "Browser_Version": "1.2",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/2.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/2.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Browser_FullName": "Shiira 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    }
+  ]
+}

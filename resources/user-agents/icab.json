@@ -1,0 +1,506 @@
+{
+  "division": "iCab",
+  "sortIndex": 5270,
+  "userAgents": [
+    {
+      "userAgent": "iCab",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "iCab",
+        "Browser_Name": "iCab",
+        "Browser_FullName": "iCab",
+        "Platform_Maker": "Apple Inc",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_FullName": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.5*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.5",
+        "Browser_Version": "2.5",
+        "Browser_Bits": "32",
+        "Version": "2.5",
+        "MajorVer": "2",
+        "MinorVer": "5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.7*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.7",
+        "Browser_Version": "2.7",
+        "Browser_Bits": "32",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.7* (Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.7",
+        "Browser_Version": "2.7",
+        "Browser_Bits": "32",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.7*; Macintosh; ?; 68K*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.7",
+        "Browser_Version": "2.7",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "Mac68K",
+        "Platform_Name": "Mac68K",
+        "Platform_FullName": "Mac68K",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.7* (Macintosh; ?; 68K*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.7",
+        "Browser_Version": "2.7",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "Mac68K",
+        "Platform_Name": "Mac68K",
+        "Platform_FullName": "Mac68K",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.8*; Macintosh; ?*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.8",
+        "Browser_Version": "2.8",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.8* (Macintosh; ?*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.8",
+        "Browser_Version": "2.8",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.8*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.8",
+        "Browser_Version": "2.8",
+        "Browser_Bits": "32",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.8* (Macintosh; ?; PPC)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.8",
+        "Browser_Version": "2.8",
+        "Browser_Bits": "32",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.8* (Macintosh; ?; 68K*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.8",
+        "Browser_Version": "2.8",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "Mac68K",
+        "Platform_Name": "Mac68K",
+        "Platform_FullName": "Mac68K",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.9*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.9",
+        "Browser_Version": "2.9",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.9* (Macintosh; ?*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.9",
+        "Browser_Version": "2.9",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.9*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.9",
+        "Browser_Version": "2.9",
+        "Browser_Bits": "32",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.9* (Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.9",
+        "Browser_Version": "2.9",
+        "Browser_Bits": "32",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.9* (Macintosh; ?; 68K*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 2.9",
+        "Browser_Version": "2.9",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "Mac68K",
+        "Platform_Name": "Mac68K",
+        "Platform_FullName": "Mac68K",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; iCab 3.0*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/3.0* (Macintosh; ?*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; iCab 3.0*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 3.0",
+        "Browser_Version": "3.0",
+        "Browser_Bits": "32",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/3.0* (Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 3.0",
+        "Browser_Version": "3.0",
+        "Browser_Bits": "32",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/4.0 (Macintosh; U*Mac OS X)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.1*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 4.2*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.2",
+        "Browser_Version": "4.2",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.2*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.2",
+        "Browser_Version": "4.2",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.5*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.5",
+        "Browser_Version": "4.5",
+        "Version": "4.5",
+        "MajorVer": "4",
+        "MinorVer": "5",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.7*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.7",
+        "Browser_Version": "4.7",
+        "Version": "4.7",
+        "MajorVer": "4",
+        "MinorVer": "7",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": ""
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.8*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.8",
+        "Browser_Version": "4.8",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": ""
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.8 Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.8",
+        "Browser_Version": "4.8",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": ""
+      }
+    },
+    {
+      "userAgent": "iCab\/4.8 (Macintosh; U*Mac OS X)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_FullName": "iCab 4.8",
+        "Browser_Version": "4.8",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "Xerka WebBot",
+  "sortIndex": 1570,
+  "userAgents": [
+    {
+      "userAgent": "Xerka WebBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Xerka",
+        "Browser_Name": "Xerka",
+        "Browser_FullName": "Xerka"
+      }
+    },
+    {
+      "userAgent": "Xerka WebBot*",
+      "properties": {
+        "Parent": "Xerka WebBot"
+      }
+    },
+    {
+      "userAgent": "Xerka WebBot v1.*",
+      "properties": {
+        "Parent": "Xerka WebBot",
+        "Browser_FullName": "Xerka 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

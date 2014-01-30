@@ -1,0 +1,31 @@
+{
+  "division": "Mozdex",
+  "sortIndex": 760,
+  "userAgents": [
+    {
+      "userAgent": "Mozdex",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Mozdex",
+        "Browser_Name": "Mozdex",
+        "Browser_FullName": "Mozdex"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/*",
+      "properties": {
+        "Parent": "Mozdex"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/0.7*",
+      "properties": {
+        "Parent": "Mozdex",
+        "Browser_FullName": "Mozdex 0.7",
+        "Browser_Version": "0.7",
+        "Version": "0.7",
+        "MinorVer": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "division": "EuripBot",
+  "sortIndex": 320,
+  "userAgents": [
+    {
+      "userAgent": "EuripBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Europe Internet Portal",
+        "Browser_Name": "Europe Internet Portal",
+        "Browser_FullName": "Europe Internet Portal",
+        "Browser_Maker": "www.eurip.com"
+      }
+    },
+    {
+      "userAgent": "EuripBot\/*",
+      "properties": {
+        "Parent": "EuripBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; EuripBot*",
+      "properties": {
+        "Parent": "EuripBot"
+      }
+    },
+    {
+      "userAgent": "EuripBot\/2.0*",
+      "properties": {
+        "Parent": "EuripBot",
+        "Browser_FullName": "Europe Internet Portal 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; EuripBot\/2*",
+      "properties": {
+        "Parent": "EuripBot",
+        "Browser_FullName": "Europe Internet Portal 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

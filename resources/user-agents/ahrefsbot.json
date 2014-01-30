@@ -1,0 +1,43 @@
+{
+  "division": "AhrefsBot",
+  "sortIndex": 40,
+  "userAgents": [
+    {
+      "userAgent": "AhrefsBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "AhrefsBot",
+        "Browser_Name": "AhrefsBot",
+        "Browser_FullName": "AhrefsBot",
+        "Browser_Maker": "Ahrefs Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
+      "properties": {
+        "Parent": "AhrefsBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
+      "properties": {
+        "Parent": "AhrefsBot",
+        "Browser_FullName": "AhrefsBot 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
+      "properties": {
+        "Parent": "AhrefsBot",
+        "Browser_FullName": "AhrefsBot 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    }
+  ]
+}

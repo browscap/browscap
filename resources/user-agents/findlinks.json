@@ -1,0 +1,32 @@
+{
+  "division": "findlinks",
+  "sortIndex": 430,
+  "userAgents": [
+    {
+      "userAgent": "findlinks",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "findlinks",
+        "Browser_Name": "findlinks",
+        "Browser_FullName": "findlinks"
+      }
+    },
+    {
+      "userAgent": "findlinks\/*",
+      "properties": {
+        "Parent": "findlinks"
+      }
+    },
+    {
+      "userAgent": "findlinks\/2.6*",
+      "properties": {
+        "Parent": "findlinks",
+        "Browser_FullName": "findlinks 2.6",
+        "Browser_Version": "2.6",
+        "Version": "2.6",
+        "MajorVer": "2",
+        "MinorVer": "6"
+      }
+    }
+  ]
+}

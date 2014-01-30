@@ -1,0 +1,104 @@
+{
+  "division": "Feeds Blogs",
+  "sortIndex": 390,
+  "userAgents": [
+    {
+      "userAgent": "Feeds Blogs",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "Feeds Blogs",
+        "Browser": "Feeds Blogs",
+        "Browser_Name": "Feeds Blogs",
+        "Browser_FullName": "Feeds Blogs",
+        "Browser_isSyndicationReader": "true",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Bloglines Title Fetch\/*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Bloglines Title Fetch",
+        "Browser_Name": "Bloglines Title Fetch",
+        "Browser_FullName": "Bloglines Title Fetch"
+      }
+    },
+    {
+      "userAgent": "Bloglines\/* (http:\/\/www.bloglines.com*)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogLines Web",
+        "Browser_Name": "BlogLines Web",
+        "Browser_FullName": "BlogLines Web"
+      }
+    },
+    {
+      "userAgent": "BlogPulse (ISSpider-3.*)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogPulse",
+        "Browser_Name": "BlogPulse",
+        "Browser_FullName": "BlogPulse"
+      }
+    },
+    {
+      "userAgent": "BlogPulseLive (support@blogpulse.com)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogPulseLive",
+        "Browser_Name": "BlogPulseLive",
+        "Browser_FullName": "BlogPulseLive"
+      }
+    },
+    {
+      "userAgent": "blogsearchbot-pumpkin-2",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "blogsearchbot-pumpkin",
+        "Browser_Name": "blogsearchbot-pumpkin",
+        "Browser_FullName": "blogsearchbot-pumpkin",
+        "Browser_isSyndicationReader": "false",
+        "isSyndicationReader": "false"
+      }
+    },
+    {
+      "userAgent": "Irish Blogs Aggregator\/*1.0*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Irish Blogs Aggregator",
+        "Browser_Name": "Irish Blogs Aggregator",
+        "Browser_FullName": "Irish Blogs Aggregator 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "kinjabot (http:\/\/www.kinja.com; *)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "kinjabot",
+        "Browser_Name": "kinjabot",
+        "Browser_FullName": "kinjabot"
+      }
+    },
+    {
+      "userAgent": "Net::Trackback\/*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Net::Trackback",
+        "Browser_Name": "Net::Trackback",
+        "Browser_FullName": "Net::Trackback"
+      }
+    },
+    {
+      "userAgent": "Reblog*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Reblog",
+        "Browser_Name": "Reblog",
+        "Browser_FullName": "Reblog"
+      }
+    }
+  ]
+}

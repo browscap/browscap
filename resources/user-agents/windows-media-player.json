@@ -1,0 +1,145 @@
+{
+  "division": "Windows Media Player",
+  "sortIndex": 7140,
+  "userAgents": [
+    {
+      "userAgent": "Windows Media Player",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "Windows Media Player",
+        "Browser_Name": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player",
+        "Browser_Bits": "32",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "RenderingEngine_FullName": "Trident"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/4.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 4.0",
+        "Browser_Version": "4.0",
+        "Browser_Bits": "0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/7.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 7.0",
+        "Browser_Version": "7.0",
+        "Browser_Bits": "0",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "Windows-Media-Player\/7.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 7.0",
+        "Browser_Version": "7.0",
+        "Version": "7.0",
+        "MajorVer": "7"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/8.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 8.0",
+        "Browser_Version": "8.0",
+        "Browser_Bits": "0",
+        "Version": "8.0",
+        "MajorVer": "8",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "Windows-Media-Player\/8.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 8.0",
+        "Browser_Version": "8.0",
+        "Version": "8.0",
+        "MajorVer": "8"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/9.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 9.0",
+        "Browser_Version": "9.0",
+        "Browser_Bits": "0",
+        "Version": "9.0",
+        "MajorVer": "9",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "Windows-Media-Player\/9.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 9.0",
+        "Browser_Version": "9.0",
+        "Version": "9.0",
+        "MajorVer": "9"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/10.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 10.0",
+        "Browser_Version": "10.0",
+        "Browser_Bits": "0",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "Windows-Media-Player\/10.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 10.0",
+        "Browser_Version": "10.0",
+        "Version": "10.0",
+        "MajorVer": "10"
+      }
+    },
+    {
+      "userAgent": "NSPlayer\/11.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 11.0",
+        "Browser_Version": "11.0",
+        "Browser_Bits": "0",
+        "Version": "11.0",
+        "MajorVer": "11",
+        "Platform_Bits": "0"
+      }
+    },
+    {
+      "userAgent": "Windows-Media-Player\/11.*",
+      "properties": {
+        "Parent": "Windows Media Player",
+        "Browser_FullName": "Windows Media Player 11.0",
+        "Browser_Version": "11.0",
+        "Version": "11.0",
+        "MajorVer": "11"
+      }
+    }
+  ]
+}

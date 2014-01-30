@@ -1,0 +1,45 @@
+{
+  "division": "EZOS",
+  "sortIndex": 4090,
+  "userAgents": [
+    {
+      "userAgent": "EZOS",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "EZOS",
+        "Browser_Name": "EZOS",
+        "Browser_FullName": "EZOS",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "EZOS - EzWAP 2.1 for HPC\/2000",
+      "properties": {
+        "Parent": "EZOS"
+      }
+    },
+    {
+      "userAgent": "EZOS - EzWAP 2.1 for Pocket PC",
+      "properties": {
+        "Parent": "EZOS"
+      }
+    },
+    {
+      "userAgent": "EZOS - EzWAP 2.5 for Pocket PC",
+      "properties": {
+        "Parent": "EZOS"
+      }
+    },
+    {
+      "userAgent": "EZOS - M5 AlphaCell WAP Browser",
+      "properties": {
+        "Parent": "EZOS"
+      }
+    }
+  ]
+}

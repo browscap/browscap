@@ -1,0 +1,37 @@
+{
+  "division": "Nokia Browser 8.5",
+  "sortIndex": 8010,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Browser 8.5",
+      "properties": {
+        "Parent": "Nokia Browser",
+        "Browser_FullName": "Nokia Browser 8.5",
+        "Browser_Version": "8.5",
+        "Version": "8.5",
+        "MajorVer": "8",
+        "MinorVer": "5",
+        "Platform": "Symbian OS",
+        "Platform_Name": "Symbian OS",
+        "Platform_FullName": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.5*Safari\/534*",
+      "properties": {
+        "Parent": "Nokia Browser 8.5",
+        "Platform": "MeeGo",
+        "Platform_Name": "MeeGo",
+        "Platform_FullName": "MeeGo",
+        "Device_Type": "general Device",
+        "Device_Code_Name": "N9",
+        "Device_Name": "N9"
+      }
+    }
+  ]
+}

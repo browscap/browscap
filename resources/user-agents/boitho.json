@@ -1,0 +1,24 @@
+{
+  "division": "Boitho",
+  "sortIndex": 130,
+  "userAgents": [
+    {
+      "userAgent": "Boitho",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "Boitho",
+        "Browser": "Boitho",
+        "Browser_Name": "Boitho",
+        "Browser_FullName": "Boitho",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "boitho.com-*",
+      "properties": {
+        "Parent": "Boitho"
+      }
+    }
+  ]
+}

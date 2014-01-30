@@ -1,0 +1,28 @@
+{
+  "division": "Konqueror General",
+  "sortIndex": 6510,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror General",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Konqueror",
+        "Browser_Name": "Konqueror",
+        "Browser_FullName": "Konqueror",
+        "Browser_Maker": "KDE e.V.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_FullName": "KHTML",
+        "RenderingEngine_Description": "For Konqueror."
+      }
+    }
+  ]
+}

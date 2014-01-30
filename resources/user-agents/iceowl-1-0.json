@@ -1,0 +1,26 @@
+{
+  "division": "Iceowl 1.0",
+  "sortIndex": 5460,
+  "userAgents": [
+    {
+      "userAgent": "Iceowl 1.0",
+      "properties": {
+        "Parent": "Iceowl",
+        "Browser_FullName": "Iceowl 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "RenderingEngine_FullName": "Gecko 1.9.1",
+        "RenderingEngine_Version": "1.9.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux i686; *; rv:1.9.1*) Gecko\/* Iceowl\/1.* Icedove\/*",
+      "properties": {
+        "Parent": "Iceowl 1.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

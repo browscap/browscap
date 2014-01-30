@@ -1,0 +1,31 @@
+{
+  "division": "magpie-crawler",
+  "sortIndex": 700,
+  "userAgents": [
+    {
+      "userAgent": "magpie-crawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "magpie-crawler",
+        "Browser_Name": "magpie-crawler",
+        "Browser_FullName": "magpie-crawler"
+      }
+    },
+    {
+      "userAgent": "magpie-crawler\/*",
+      "properties": {
+        "Parent": "magpie-crawler"
+      }
+    },
+    {
+      "userAgent": "magpie-crawler\/1.*",
+      "properties": {
+        "Parent": "magpie-crawler",
+        "Browser_FullName": "magpie-crawler 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

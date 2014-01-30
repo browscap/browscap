@@ -1,0 +1,57 @@
+{
+  "division": "NewsGator",
+  "sortIndex": 410,
+  "userAgents": [
+    {
+      "userAgent": "NewsGator",
+      "properties": {
+        "Parent": "Feeds Syndicators",
+        "Browser": "NewsGator",
+        "Browser_Name": "NewsGator",
+        "Browser_FullName": "NewsGator"
+      }
+    },
+    {
+      "userAgent": "MarsEdit*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "MarsEdit",
+        "Browser_Name": "MarsEdit",
+        "Browser_FullName": "MarsEdit"
+      }
+    },
+    {
+      "userAgent": "NewsFire\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsFire",
+        "Browser_Name": "NewsFire",
+        "Browser_FullName": "NewsFire"
+      }
+    },
+    {
+      "userAgent": "NewsGator\/*",
+      "properties": {
+        "Parent": "NewsGator"
+      }
+    },
+    {
+      "userAgent": "NewsGator FetchLinks extension\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsGator FetchLinks",
+        "Browser_Name": "NewsGator FetchLinks",
+        "Browser_FullName": "NewsGator FetchLinks"
+      }
+    },
+    {
+      "userAgent": "NewsGatorOnline\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsGatorOnline",
+        "Browser_Name": "NewsGatorOnline",
+        "Browser_FullName": "NewsGatorOnline"
+      }
+    }
+  ]
+}

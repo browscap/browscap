@@ -1,0 +1,551 @@
+{
+  "division": "Firefox 2.0",
+  "sortIndex": 4550,
+  "userAgents": [
+    {
+      "userAgent": "Firefox 2.0",
+      "properties": {
+        "Parent": "Firefox Generic",
+        "Browser_FullName": "Firefox 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "RenderingEngine_FullName": "Gecko 1.8.1",
+        "RenderingEngine_Version": "1.8.1"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on AIX",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "AIX",
+        "Platform_Name": "AIX",
+        "Platform_FullName": "AIX",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop",
+        "Device_Maker": "IBM",
+        "Device_Brand_Name": "IBM"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; AIX*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on AIX"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on FreeBSD",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*; FreeBSD*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on FreeBSD",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on HP-UX",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "HP-UX",
+        "Platform_Name": "HP-UX",
+        "Platform_FullName": "HP-UX",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*; HP-UX*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on HP-UX",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on IRIX64",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "IRIX64",
+        "Platform_Name": "IRIX64",
+        "Platform_FullName": "IRIX64",
+        "Platform_Maker": "SGI",
+        "Device_Type": "Desktop",
+        "Device_Maker": "SGI",
+        "Device_Brand_Name": "SGI"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*; IRIX64*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on IRIX64",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on Linux",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*Linux*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* BonEcho\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Firefox(2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*Linux*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; PPC*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*Linux x86_64*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Version": "",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64; rv:*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Version": "",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on Mac OS X",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.4*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.6*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.7*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.8*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on OpenBSD",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*; OpenBSD*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on OpenBSD"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on OS\/2",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "OS\/2",
+        "Platform_Name": "OS\/2",
+        "Platform_FullName": "OS\/2",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (OS\/2*; Warp*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on OS\/2",
+        "Platform_FullName": "OS\/2 Warp 4.5",
+        "Platform_Version": "Warp 4.5"
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on SunOS",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "SunOS",
+        "Platform_Name": "SunOS",
+        "Platform_FullName": "SunOS",
+        "Platform_Maker": "Oracle",
+        "Device_Type": "Desktop",
+        "Device_Brand_Name": "Oracle"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*; SunOS*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on SunOS",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on Ubuntu",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Platform": "Ubuntu",
+        "Platform_Name": "Ubuntu",
+        "Platform_FullName": "Ubuntu",
+        "Platform_Maker": "Canonical Ltd",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*Linux x86_64*) Gecko\/* Firefox\/2.* (Ubuntu*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Ubuntu",
+        "Browser_Bits": "64",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11*Linux x86_64*) Gecko\/* Ubuntu\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Ubuntu",
+        "Browser_Bits": "64",
+        "Platform_Version": ""
+      }
+    },
+    {
+      "userAgent": "Firefox 2.0 on Windows",
+      "properties": {
+        "Parent": "Firefox 2.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Win 9x 4.90*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows ME",
+        "Platform_Version": "ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Win95*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 95",
+        "Platform_Version": "95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Win98*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 98",
+        "Platform_Version": "98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; WinNT4.0*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 6.0*; rv:1.8*Gecko\/* Firefox anonymized by*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ; Windows NT 5.2; rv:*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.8*) Gecko\/* Firefox*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.8*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9*) Gecko\/*Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9.1*) Gecko\/*Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9.2*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8*) Gecko\/* Firefox*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.8*) Gecko\/* Firefox*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.8*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.9.2*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0;*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *; rv:1.8*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *; rv:1.9.2*) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows;U;Windows NT 6.0; *) Gecko\/* Firefox\/2.0*",
+      "properties": {
+        "Parent": "Firefox 2.0 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    }
+  ]
+}

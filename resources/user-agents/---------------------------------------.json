@@ -1,0 +1,1928 @@
+{
+  "division": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "sortIndex": 0,
+  "userAgents": [
+    {
+      "userAgent": "DefaultProperties",
+      "properties": {
+        "Comment": "DefaultProperties",
+        "Category": "unknown",
+        "SubCategory": "unknown",
+        "Browser_Type": "unknown",
+        "Browser_SubType": "unknown",
+        "Browser": "DefaultProperties",
+        "Browser_Name": "DefaultProperties",
+        "Browser_FullName": "DefaultProperties",
+        "Browser_Version": "0.0",
+        "Browser_Description": "unknown",
+        "Browser_Bits": "0",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isBot": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Browser_Maker": "unknown",
+        "Browser_Modus": "",
+        "Browser_Icon": "",
+        "Version": "0.0",
+        "MajorVer": "0",
+        "MinorVer": "0",
+        "Platform": "unknown",
+        "Platform_Name": "unknown",
+        "Platform_FullName": "unknown",
+        "Platform_Version": "0.0",
+        "Platform_Description": "",
+        "Platform_Bits": "0",
+        "Platform_Maker": "unknown",
+        "Platform_Icon": "",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "0",
+        "Device_Type": "unknown",
+        "Device_Code_Name": "unknown",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "unknown",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false",
+        "RenderingEngine_Name": "unknown",
+        "RenderingEngine_FullName": "unknown",
+        "RenderingEngine_Version": "0.0",
+        "RenderingEngine_Description": "unknown",
+        "RenderingEngine_Maker": "unknown",
+        "RenderingEngine_Icon": ""
+      }
+    },
+    {
+      "userAgent": "General Crawlers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Bot\/Crawler",
+        "SubCategory": "Bot\/Crawler",
+        "Browser_Type": "Bot\/Crawler",
+        "Browser_SubType": "Bot\/Crawler",
+        "Browser": "General Crawlers",
+        "Browser_Name": "General Crawlers",
+        "Browser_FullName": "General Crawlers",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Device_Type": "Bot",
+        "Device_Code_Name": "general Bot",
+        "Device_Name": "general Bot",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false"
+      }
+    },
+    {
+      "userAgent": "A .NET Web Crawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "A .NET Web Crawler",
+        "Browser_Name": "A .NET Web Crawler",
+        "Browser_FullName": "A .NET Web Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AboutUsBot\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "AboutUsBot",
+        "Browser_Name": "AboutUsBot",
+        "Browser_FullName": "AboutUsBot"
+      }
+    },
+    {
+      "userAgent": "http:\/\/hilfe.acont.de\/bot.html ACONTBOT",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ACONTBOT",
+        "Browser_Name": "ACONTBOT",
+        "Browser_FullName": "ACONTBOT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AdHitz; http:\/\/adhitz.com\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "AdHitz",
+        "Browser_Name": "AdHitz",
+        "Browser_FullName": "AdHitz"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Adobe Dialog Manager",
+        "Browser_Name": "Adobe Dialog Manager",
+        "Browser_FullName": "Adobe Dialog Manager",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; aiHitBot*\/*; +http:\/\/www.aihit.com\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "aiHitBot",
+        "Browser_Name": "aiHitBot",
+        "Browser_FullName": "aiHitBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; Trident\/?.0; Alcohol Search*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Alcohol Search",
+        "Browser_Name": "Alcohol Search",
+        "Browser_FullName": "Alcohol Search",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "*altervista.org*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "altervista.org",
+        "Browser_Name": "altervista.org",
+        "Browser_FullName": "altervista.org"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; AugustBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "AugustBot",
+        "Browser_Name": "AugustBot",
+        "Browser_FullName": "AugustBot"
+      }
+    },
+    {
+      "userAgent": "awesomebot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Awesomebot",
+        "Browser_Name": "Awesomebot",
+        "Browser_FullName": "Awesomebot"
+      }
+    },
+    {
+      "userAgent": "BabalooSpider\/1.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "BabalooSpider",
+        "Browser_Name": "BabalooSpider",
+        "Browser_FullName": "BabalooSpider"
+      }
+    },
+    {
+      "userAgent": "BilgiBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "BilgiBot",
+        "Browser_Name": "BilgiBot",
+        "Browser_FullName": "BilgiBot"
+      }
+    },
+    {
+      "userAgent": "bot\/* (bot; *bot@bot.bot)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "bot",
+        "Browser_Name": "bot",
+        "Browser_FullName": "bot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BuzzRankingBot\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "BuzzRankingBot",
+        "Browser_Name": "BuzzRankingBot",
+        "Browser_FullName": "BuzzRankingBot"
+      }
+    },
+    {
+      "userAgent": "Camcrawler*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Camcrawler",
+        "Browser_Name": "Camcrawler",
+        "Browser_FullName": "Camcrawler"
+      }
+    },
+    {
+      "userAgent": "cisco-IOS",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "cisco-IOS",
+        "Browser_Name": "cisco-IOS",
+        "Browser_FullName": "cisco-IOS"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; ClixSense; http:\/\/www.clixsense.com\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ClixSense",
+        "Browser_Name": "ClixSense",
+        "Browser_FullName": "ClixSense"
+      }
+    },
+    {
+      "userAgent": "Cooby Bot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "CoobyBot",
+        "Browser_Name": "CoobyBot",
+        "Browser_FullName": "CoobyBot"
+      }
+    },
+    {
+      "userAgent": "Covario-IDS\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Covario-IDS\/*",
+        "Browser_Name": "Covario-IDS\/*",
+        "Browser_FullName": "Covario-IDS\/*"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot http:\/\/www.crystalsemantics.com\/service-navigation\/imprint\/useragent\/)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "CrystalSemanticsBot",
+        "Browser_Name": "CrystalSemanticsBot",
+        "Browser_FullName": "CrystalSemanticsBot",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "CyberPatrol*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "CyberPatrol",
+        "Browser_Name": "CyberPatrol",
+        "Browser_FullName": "CyberPatrol"
+      }
+    },
+    {
+      "userAgent": "cz32ts",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "cz32ts",
+        "Browser_Name": "cz32ts",
+        "Browser_FullName": "cz32ts"
+      }
+    },
+    {
+      "userAgent": "ddetailsbot (http:\/\/www.displaydetails.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ddetailsbot",
+        "Browser_Name": "ddetailsbot",
+        "Browser_FullName": "ddetailsbot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; DepSpid\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "DepSpid",
+        "Browser_Name": "DepSpid",
+        "Browser_FullName": "DepSpid"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Diffbot\/0.1; +http:\/\/www.diffbot.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Diffbot",
+        "Browser_Name": "Diffbot",
+        "Browser_FullName": "Diffbot 0.1",
+        "Browser_Version": "0.1",
+        "Version": "0.1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "DomainsDB.net MetaCrawler*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "DomainsDB",
+        "Browser_Name": "DomainsDB",
+        "Browser_FullName": "DomainsDB"
+      }
+    },
+    {
+      "userAgent": "DomainWatcher Bot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "DomainWatcher Bot",
+        "Browser_Name": "DomainWatcher Bot",
+        "Browser_FullName": "DomainWatcher Bot"
+      }
+    },
+    {
+      "userAgent": "Dumbot (version *)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Dumbfind",
+        "Browser_Name": "Dumbfind",
+        "Browser_FullName": "Dumbfind"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 7.0 ?http:\/\/www.europarchive.org)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Europe Web Archive",
+        "Browser_Name": "Europe Web Archive",
+        "Browser_FullName": "Europe Web Archive"
+      }
+    },
+    {
+      "userAgent": "eventax\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "eventax",
+        "Browser_Name": "eventax",
+        "Browser_FullName": "eventax"
+      }
+    },
+    {
+      "userAgent": "favorstarbot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "favorstarbot",
+        "Browser_Name": "favorstarbot",
+        "Browser_FullName": "favorstarbot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; FeedFinder-2.0; http:\/\/bloggz.se\/crawler)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "FeedFinder",
+        "Browser_Name": "FeedFinder",
+        "Browser_FullName": "FeedFinder",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "FollowSite.com (*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "FollowSite",
+        "Browser_Name": "FollowSite",
+        "Browser_FullName": "FollowSite"
+      }
+    },
+    {
+      "userAgent": "Gaisbot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Gaisbot",
+        "Browser_Name": "Gaisbot",
+        "Browser_FullName": "Gaisbot"
+      }
+    },
+    {
+      "userAgent": "Visited by http:\/\/tools.geek-tools.org",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "geek-tools.org",
+        "Browser_Name": "geek-tools.org",
+        "Browser_FullName": "geek-tools.org"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*",
+      "properties": {
+        "Parent": "General Crawlers"
+      }
+    },
+    {
+      "userAgent": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla\/4.0; Windows NT*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Scumbot\/*; Linux\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Generic Crawler",
+        "Browser_Name": "Generic Crawler",
+        "Browser_FullName": "Generic Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Spider; Linux)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Generic Crawler",
+        "Browser_Name": "Generic Crawler",
+        "Browser_FullName": "Generic Crawler"
+      }
+    },
+    {
+      "userAgent": "USER_AGENT",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Generic Crawler",
+        "Browser_Name": "Generic Crawler",
+        "Browser_FullName": "Generic Crawler"
+      }
+    },
+    {
+      "userAgent": "User*Agent:*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Generic Crawler",
+        "Browser_Name": "Generic Crawler",
+        "Browser_FullName": "Generic Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 4.01; Windows95)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Generic Crawler",
+        "Browser_Name": "Generic Crawler",
+        "Browser_FullName": "Generic Crawler",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "moget\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Goo",
+        "Browser_Name": "Goo",
+        "Browser_FullName": "Goo"
+      }
+    },
+    {
+      "userAgent": "gosospider Mozilla\/5.0 (compatible; GosoSpider*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "GosoSpider",
+        "Browser_Name": "GosoSpider",
+        "Browser_FullName": "GosoSpider"
+      }
+    },
+    {
+      "userAgent": "GSLFbot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "GSLFbot",
+        "Browser_Name": "GSLFbot",
+        "Browser_FullName": "GSLFbot"
+      }
+    },
+    {
+      "userAgent": "Healthbot\/Health_and_Longevity_Project_(HealthHaven.com) ",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Healthbot",
+        "Browser_Name": "Healthbot",
+        "Browser_FullName": "Healthbot"
+      }
+    },
+    {
+      "userAgent": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Healthdash",
+        "Browser_Name": "Healthdash",
+        "Browser_FullName": "Healthdash"
+      }
+    },
+    {
+      "userAgent": "hitcrawler_0.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "hitcrawler",
+        "Browser_Name": "hitcrawler",
+        "Browser_FullName": "hitcrawler"
+      }
+    },
+    {
+      "userAgent": "htdig\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ht:\/\/Dig",
+        "Browser_Name": "ht:\/\/Dig",
+        "Browser_FullName": "ht:\/\/Dig"
+      }
+    },
+    {
+      "userAgent": "HuaweiSymantecSpider\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "HuaweiSymantecSpider",
+        "Browser_Name": "HuaweiSymantecSpider",
+        "Browser_FullName": "HuaweiSymantecSpider"
+      }
+    },
+    {
+      "userAgent": "sitecheck.internetseer.com*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Internetseer",
+        "Browser_Name": "Internetseer",
+        "Browser_FullName": "Internetseer"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; JadynAveBot; *http:\/\/www.jadynave.com\/robot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "JadynAveBot",
+        "Browser_Name": "JadynAveBot",
+        "Browser_FullName": "JadynAveBot"
+      }
+    },
+    {
+      "userAgent": "JS-Kit URL Resolver, http:\/\/js-kit.com\/",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "JS-Kit\/Echo",
+        "Browser_Name": "JS-Kit\/Echo",
+        "Browser_FullName": "JS-Kit\/Echo"
+      }
+    },
+    {
+      "userAgent": "KakleBot - www.kakle.com\/0.1",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "KakleBot",
+        "Browser_Name": "KakleBot",
+        "Browser_FullName": "KakleBot"
+      }
+    },
+    {
+      "userAgent": "KBeeBot\/0.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "KBeeBot",
+        "Browser_Name": "KBeeBot",
+        "Browser_FullName": "KBeeBot"
+      }
+    },
+    {
+      "userAgent": "Keyword Density\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Keyword Density",
+        "Browser_Name": "Keyword Density",
+        "Browser_FullName": "Keyword Density"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Kyluka crawl; http:\/\/www.kyluka.com\/crawl.html; crawl@kyluka.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Kyluka",
+        "Browser_Name": "Kyluka",
+        "Browser_FullName": "Kyluka"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; LegalAnalysisAgent\/1.*; http:\/\/www.legalx.net)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LegalAnalysisAgent",
+        "Browser_Name": "LegalAnalysisAgent",
+        "Browser_FullName": "LegalAnalysisAgent"
+      }
+    },
+    {
+      "userAgent": "Lincoln State Web Browser",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Lincoln State Web Browser",
+        "Browser_Name": "Lincoln State Web Browser",
+        "Browser_FullName": "Lincoln State Web Browser"
+      }
+    },
+    {
+      "userAgent": "Links4US-Crawler,*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Links4US-Crawler",
+        "Browser_Name": "Links4US-Crawler",
+        "Browser_FullName": "Links4US-Crawler"
+      }
+    },
+    {
+      "userAgent": "Seeker.lookseek.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LookSeek",
+        "Browser_Name": "LookSeek",
+        "Browser_FullName": "LookSeek"
+      }
+    },
+    {
+      "userAgent": "Lorkyll *.* -- lorkyll@444.net",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Lorkyll",
+        "Browser_Name": "Lorkyll",
+        "Browser_FullName": "Lorkyll"
+      }
+    },
+    {
+      "userAgent": "Lsearch\/sondeur",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Lsearch\/sondeur",
+        "Browser_Name": "Lsearch\/sondeur",
+        "Browser_FullName": "Lsearch\/sondeur"
+      }
+    },
+    {
+      "userAgent": "MapoftheInternet.com?(?http:\/\/MapoftheInternet.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "MapoftheInternet",
+        "Browser_Name": "MapoftheInternet",
+        "Browser_FullName": "MapoftheInternet"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 7.0; MSIE 6.0; ScanAlert; +http:\/\/www.scanalert.com\/bot.jsp) Firefox\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "McAffee Scan Alert",
+        "Browser_Name": "McAffee Scan Alert",
+        "Browser_FullName": "McAffee Scan Alert"
+      }
+    },
+    {
+      "userAgent": "Metaspinner\/0.01 (Metaspinner; http:\/\/www.meta-spinner.de\/; support@meta-spinner.de\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Metaspinner",
+        "Browser_Name": "Metaspinner",
+        "Browser_FullName": "Metaspinner 0.01",
+        "Browser_Version": "0.01",
+        "Version": "0.01",
+        "MinorVer": "01"
+      }
+    },
+    {
+      "userAgent": "metatagsdir\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "metatagsdir",
+        "Browser_Name": "metatagsdir",
+        "Browser_FullName": "metatagsdir"
+      }
+    },
+    {
+      "userAgent": "Microsoft Windows Network Diagnostics",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Microsoft Windows Network Diagnostics",
+        "Browser_Name": "Microsoft Windows Network Diagnostics",
+        "Browser_FullName": "Microsoft Windows Network Diagnostics",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Miva (AlgoFeedback@miva.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Miva",
+        "Browser_Name": "Miva",
+        "Browser_FullName": "Miva"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MyFamilyBot\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "MyFamilyBot",
+        "Browser_Name": "MyFamilyBot",
+        "Browser_FullName": "MyFamilyBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; N-Stealth)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "N-Stealth",
+        "Browser_Name": "N-Stealth",
+        "Browser_FullName": "N-Stealth"
+      }
+    },
+    {
+      "userAgent": "n4p_bot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "n4p_bot",
+        "Browser_Name": "n4p_bot",
+        "Browser_FullName": "n4p_bot"
+      }
+    },
+    {
+      "userAgent": "nabot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Nabot",
+        "Browser_Name": "Nabot",
+        "Browser_FullName": "Nabot"
+      }
+    },
+    {
+      "userAgent": "NetCarta_WebMapper\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NetCarta_WebMapper",
+        "Browser_Name": "NetCarta_WebMapper",
+        "Browser_FullName": "NetCarta_WebMapper"
+      }
+    },
+    {
+      "userAgent": "Netchart Adv Crawler*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Netchart Adv Crawler",
+        "Browser_Name": "Netchart Adv Crawler",
+        "Browser_FullName": "Netchart Adv Crawler"
+      }
+    },
+    {
+      "userAgent": "NetID.com Bot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NetID.com Bot",
+        "Browser_Name": "NetID.com Bot",
+        "Browser_FullName": "NetID.com Bot"
+      }
+    },
+    {
+      "userAgent": "neTVision AG andreas.heidoetting@thomson-webcast.net",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "neTVision",
+        "Browser_Name": "neTVision",
+        "Browser_FullName": "neTVision"
+      }
+    },
+    {
+      "userAgent": "NextopiaBOT*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NextopiaBOT",
+        "Browser_Name": "NextopiaBOT",
+        "Browser_FullName": "NextopiaBOT"
+      }
+    },
+    {
+      "userAgent": "nicebot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "nicebot",
+        "Browser_Name": "nicebot",
+        "Browser_FullName": "nicebot"
+      }
+    },
+    {
+      "userAgent": "niXXieBot?Foster*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "niXXiebot-Foster",
+        "Browser_Name": "niXXiebot-Foster",
+        "Browser_FullName": "niXXiebot-Foster"
+      }
+    },
+    {
+      "userAgent": "Nozilla\/P.N (Just for IDS woring)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Nozilla\/P.N",
+        "Browser_Name": "Nozilla\/P.N",
+        "Browser_FullName": "Nozilla\/P.N"
+      }
+    },
+    {
+      "userAgent": "NSO_Debugger_User\/2.0",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NSO_Debugger_User",
+        "Browser_Name": "NSO_Debugger_User",
+        "Browser_FullName": "NSO_Debugger_User 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Nudelsalat\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Nudelsalat",
+        "Browser_Name": "Nudelsalat",
+        "Browser_FullName": "Nudelsalat"
+      }
+    },
+    {
+      "userAgent": "NV32ts",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NV32ts",
+        "Browser_Name": "NV32ts",
+        "Browser_FullName": "NV32ts"
+      }
+    },
+    {
+      "userAgent": "Ocelli\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Ocelli",
+        "Browser_Name": "Ocelli",
+        "Browser_FullName": "Ocelli"
+      }
+    },
+    {
+      "userAgent": "JetBrains*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Omea Pro",
+        "Browser_Name": "Omea Pro",
+        "Browser_FullName": "Omea Pro"
+      }
+    },
+    {
+      "userAgent": "OpenTaggerBot (http:\/\/www.opentagger.com\/opentaggerbot.htm)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "OpenTaggerBot",
+        "Browser_Name": "OpenTaggerBot",
+        "Browser_FullName": "OpenTaggerBot"
+      }
+    },
+    {
+      "userAgent": "Oracle Enterprise Search",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Oracle Enterprise Search",
+        "Browser_Name": "Oracle Enterprise Search",
+        "Browser_FullName": "Oracle Enterprise Search"
+      }
+    },
+    {
+      "userAgent": "Oracle Ultra Search",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Oracle Ultra Search",
+        "Browser_Name": "Oracle Ultra Search",
+        "Browser_FullName": "Oracle Ultra Search"
+      }
+    },
+    {
+      "userAgent": "Pajaczek\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Pajaczek",
+        "Browser_Name": "Pajaczek",
+        "Browser_FullName": "Pajaczek"
+      }
+    },
+    {
+      "userAgent": "panscient.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "panscient.com",
+        "Browser_Name": "panscient.com",
+        "Browser_FullName": "panscient.com"
+      }
+    },
+    {
+      "userAgent": "Patwebbot (http:\/\/www.herz-power.de\/technik.html)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Patwebbot",
+        "Browser_Name": "Patwebbot",
+        "Browser_FullName": "Patwebbot"
+      }
+    },
+    {
+      "userAgent": "PDFBot (crawler@pdfind.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PDFBot",
+        "Browser_Name": "PDFBot",
+        "Browser_FullName": "PDFBot"
+      }
+    },
+    {
+      "userAgent": "PlantyNet_WebRobot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PlantyNet",
+        "Browser_Name": "PlantyNet",
+        "Browser_FullName": "PlantyNet"
+      }
+    },
+    {
+      "userAgent": "PluckItCrawler\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PluckItCrawler",
+        "Browser_Name": "PluckItCrawler",
+        "Browser_FullName": "PluckItCrawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Plukkie\/1.?; http:\/\/www.botje.com\/plukkie.htm)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Plukkie",
+        "Browser_Name": "Plukkie",
+        "Browser_FullName": "Plukkie"
+      }
+    },
+    {
+      "userAgent": "PMAFind",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PMAFind",
+        "Browser_Name": "PMAFind",
+        "Browser_FullName": "PMAFind"
+      }
+    },
+    {
+      "userAgent": "Poodle_predictor_1.0",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Poodle Predictor",
+        "Browser_Name": "Poodle Predictor",
+        "Browser_FullName": "Poodle Predictor"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; proximic; +http:\/\/www.proximic.com\/info\/spider.php)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Proximic Spider",
+        "Browser_Name": "Proximic Spider",
+        "Browser_FullName": "Proximic Spider",
+        "Browser_Maker": "www.proximic.com"
+      }
+    },
+    {
+      "userAgent": "QuickFinder Crawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "QuickFinder",
+        "Browser_Name": "QuickFinder",
+        "Browser_FullName": "QuickFinder"
+      }
+    },
+    {
+      "userAgent": "Radiation Retriever*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Radiation Retriever",
+        "Browser_Name": "Radiation Retriever",
+        "Browser_FullName": "Radiation Retriever"
+      }
+    },
+    {
+      "userAgent": "RedCarpet\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "RedCarpet",
+        "Browser_Name": "RedCarpet",
+        "Browser_FullName": "RedCarpet"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Reddit",
+        "Browser_Name": "Reddit",
+        "Browser_FullName": "Reddit"
+      }
+    },
+    {
+      "userAgent": "RixBot (http:\/\/babelserver.org\/rix)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "RixBot",
+        "Browser_Name": "RixBot",
+        "Browser_FullName": "RixBot"
+      }
+    },
+    {
+      "userAgent": "roboobot\/1.* (roboo; http:\/\/wap.roboo.com; winter.pi@roboo.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "roboo",
+        "Browser_Name": "roboo",
+        "Browser_FullName": "roboo"
+      }
+    },
+    {
+      "userAgent": "FANGCrawl\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Safe-t.net Web Filtering Service",
+        "Browser_Name": "Safe-t.net Web Filtering Service",
+        "Browser_FullName": "Safe-t.net Web Filtering Service"
+      }
+    },
+    {
+      "userAgent": "ScollSpider\/2.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ScollSpider",
+        "Browser_Name": "ScollSpider",
+        "Browser_FullName": "ScollSpider"
+      }
+    },
+    {
+      "userAgent": "Search Fst",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Search Fst",
+        "Browser_Name": "Search Fst",
+        "Browser_FullName": "Search Fst"
+      }
+    },
+    {
+      "userAgent": "searchbot admin@google.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "searchbot",
+        "Browser_Name": "searchbot",
+        "Browser_FullName": "searchbot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SearchmetricsBot; http:\/\/www.searchmetrics.com\/en\/searchmetrics-bot\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Searchmetrics Bot",
+        "Browser_Name": "Searchmetrics Bot",
+        "Browser_FullName": "Searchmetrics Bot",
+        "Browser_Maker": "www.searchmetrics.com"
+      }
+    },
+    {
+      "userAgent": "semanticdiscovery\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Semantic Discovery",
+        "Browser_Name": "Semantic Discovery",
+        "Browser_FullName": "Semantic Discovery"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SEODat\/0.* http:\/\/crawler.seodat.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SEODat",
+        "Browser_Name": "SEODat",
+        "Browser_FullName": "SEODat"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SEOkicks Robot",
+        "Browser_Name": "SEOkicks Robot",
+        "Browser_FullName": "SEOkicks Robot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; spbot\/*; +http:\/\/www.seoprofiler.com\/bot\/ )",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SEOprofiler",
+        "Browser_Name": "SEOprofiler",
+        "Browser_FullName": "SEOprofiler"
+      }
+    },
+    {
+      "userAgent": "Shelob (shelob@gmx.net)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Shelob",
+        "Browser_Name": "Shelob",
+        "Browser_FullName": "Shelob"
+      }
+    },
+    {
+      "userAgent": "shelob v1.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "shelob",
+        "Browser_Name": "shelob",
+        "Browser_FullName": "shelob 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "ShopWiki\/1.0*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ShopWiki",
+        "Browser_Name": "ShopWiki",
+        "Browser_FullName": "ShopWiki 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "ShowXML\/1.0 libwww\/5.4.0",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ShowXML",
+        "Browser_Name": "ShowXML",
+        "Browser_FullName": "ShowXML 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SISTRIX Crawler; http:\/\/crawler.sistrix.net\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Sistrix Crawler",
+        "Browser_Name": "Sistrix Crawler",
+        "Browser_FullName": "Sistrix Crawler",
+        "Browser_Maker": "sistrix.net"
+      }
+    },
+    {
+      "userAgent": "SBIder\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SiteSell",
+        "Browser_Name": "SiteSell",
+        "Browser_FullName": "SiteSell"
+      }
+    },
+    {
+      "userAgent": "SMBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SMBot",
+        "Browser_Name": "SMBot",
+        "Browser_FullName": "SMBot"
+      }
+    },
+    {
+      "userAgent": "sohu*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "sohu-search",
+        "Browser_Name": "sohu-search",
+        "Browser_FullName": "sohu-search"
+      }
+    },
+    {
+      "userAgent": "SpankBot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SpankBot",
+        "Browser_Name": "SpankBot",
+        "Browser_FullName": "SpankBot"
+      }
+    },
+    {
+      "userAgent": "spider (tspyyp@tom.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spider (tspyyp@tom.com)",
+        "Browser_Name": "spider (tspyyp@tom.com)",
+        "Browser_FullName": "spider (tspyyp@tom.com)"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* Powered by Spider-Pig*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Spider-Pig",
+        "Browser_Name": "Spider-Pig",
+        "Browser_FullName": "Spider-Pig",
+        "Browser_Maker": "www.tinfoilsecurity.com"
+      }
+    },
+    {
+      "userAgent": "*Spinn3r*http:\/\/spinn3r.com\/robot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Spinn3r",
+        "Browser_Name": "Spinn3r",
+        "Browser_FullName": "Spinn3r"
+      }
+    },
+    {
+      "userAgent": "*SqwidgeBot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SqwidgeBot",
+        "Browser_Name": "SqwidgeBot",
+        "Browser_FullName": "SqwidgeBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SuchbaerBot\/0.*; +http:\/\/bot.suchbaer.de\/info.html)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SuchbaerBot",
+        "Browser_Name": "SuchbaerBot",
+        "Browser_FullName": "SuchbaerBot"
+      }
+    },
+    {
+      "userAgent": "Sunrise\/0.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Sunrise",
+        "Browser_Name": "Sunrise",
+        "Browser_FullName": "Sunrise"
+      }
+    },
+    {
+      "userAgent": "Superpages URL Verification Engine",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Superpages",
+        "Browser_Name": "Superpages",
+        "Browser_FullName": "Superpages"
+      }
+    },
+    {
+      "userAgent": "Surf Knight",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Surf Knight",
+        "Browser_Name": "Surf Knight",
+        "Browser_FullName": "Surf Knight"
+      }
+    },
+    {
+      "userAgent": "SurveyBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SurveyBot",
+        "Browser_Name": "SurveyBot",
+        "Browser_FullName": "SurveyBot"
+      }
+    },
+    {
+      "userAgent": "SynapticSearch\/AI Crawler 1.?",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SynapticSearch",
+        "Browser_Name": "SynapticSearch",
+        "Browser_FullName": "SynapticSearch 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "SyncMgr",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SyncMgr",
+        "Browser_Name": "SyncMgr",
+        "Browser_FullName": "SyncMgr"
+      }
+    },
+    {
+      "userAgent": "Tagyu Agent\/1.0",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Tagyu",
+        "Browser_Name": "Tagyu",
+        "Browser_FullName": "Tagyu 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Talkro Web-Shot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Talkro Web-Shot",
+        "Browser_Name": "Talkro Web-Shot",
+        "Browser_FullName": "Talkro Web-Shot"
+      }
+    },
+    {
+      "userAgent": "Tasap-image-robot\/0.* (http:\/\/www.tasap.com)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Tasap-image-robot",
+        "Browser_Name": "Tasap-image-robot",
+        "Browser_FullName": "Tasap-image-robot"
+      }
+    },
+    {
+      "userAgent": "Tecomi Bot (http:\/\/www.tecomi.com\/bot.htm)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Tecomi",
+        "Browser_Name": "Tecomi",
+        "Browser_FullName": "Tecomi"
+      }
+    },
+    {
+      "userAgent": "TencentTraveler*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "TencentTraveler",
+        "Browser_Name": "TencentTraveler",
+        "Browser_FullName": "TencentTraveler"
+      }
+    },
+    {
+      "userAgent": "TheInformant*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "TheInformant",
+        "Browser_Name": "TheInformant",
+        "Browser_FullName": "TheInformant"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux x86_64; *; rv:*) Gecko\/* ThumbShotsBot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "ThumbShotsBot",
+        "Browser_Name": "ThumbShotsBot",
+        "Browser_FullName": "ThumbShotsBot",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Rome Client (http:\/\/tinyurl.com\/64t5n) Ver: 0.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "TinyURL",
+        "Browser_Name": "TinyURL",
+        "Browser_FullName": "TinyURL"
+      }
+    },
+    {
+      "userAgent": "Toata dragostea*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Toata dragostea",
+        "Browser_Name": "Toata dragostea",
+        "Browser_FullName": "Toata dragostea"
+      }
+    },
+    {
+      "userAgent": "Tutorial Crawler*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Tutorial Crawler",
+        "Browser_Name": "Tutorial Crawler",
+        "Browser_FullName": "Tutorial Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Twingly Recon; http:\/\/www.twingly.com\/)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Twingly Recon",
+        "Browser_Name": "Twingly Recon",
+        "Browser_FullName": "Twingly Recon"
+      }
+    },
+    {
+      "userAgent": "Twitterbot\/0.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Twitterbot",
+        "Browser_Name": "Twitterbot",
+        "Browser_FullName": "Twitterbot"
+      }
+    },
+    {
+      "userAgent": "UbiCrawler\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "UbiCrawler",
+        "Browser_Name": "UbiCrawler",
+        "Browser_FullName": "UbiCrawler"
+      }
+    },
+    {
+      "userAgent": "UCmore",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "UCmore",
+        "Browser_Name": "UCmore",
+        "Browser_FullName": "UCmore"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Win32)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Unknown Crawler",
+        "Browser_Name": "Unknown Crawler",
+        "Browser_FullName": "Unknown Crawler",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; unwrapbot\/2.*; +http:\/\/www.unwrap.jp*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "UnWrap",
+        "Browser_Name": "UnWrap",
+        "Browser_FullName": "UnWrap"
+      }
+    },
+    {
+      "userAgent": "VadixBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "VadixBot",
+        "Browser_Name": "VadixBot",
+        "Browser_FullName": "VadixBot"
+      }
+    },
+    {
+      "userAgent": "VengaBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "VengaBot",
+        "Browser_Name": "VengaBot",
+        "Browser_FullName": "VengaBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Vermut*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Vermut",
+        "Browser_Name": "Vermut",
+        "Browser_FullName": "Vermut"
+      }
+    },
+    {
+      "userAgent": "West Wind Internet Protocols*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Versatel",
+        "Browser_Name": "Versatel",
+        "Browser_FullName": "Versatel",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Viralheat Bot\/*) ",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Viralheat",
+        "Browser_Name": "Viralheat",
+        "Browser_FullName": "Viralheat"
+      }
+    },
+    {
+      "userAgent": "Visicom Toolbar",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Visicom Toolbar",
+        "Browser_Name": "Visicom Toolbar",
+        "Browser_FullName": "Visicom Toolbar"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 4.01; Vonna.com b o t)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Vonna.com",
+        "Browser_Name": "Vonna.com",
+        "Browser_FullName": "Vonna.com"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Webbot\/*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Webbot.ru",
+        "Browser_Name": "Webbot.ru",
+        "Browser_FullName": "Webbot.ru"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; WebCapture*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WebCapture",
+        "Browser_Name": "WebCapture",
+        "Browser_FullName": "WebCapture"
+      }
+    },
+    {
+      "userAgent": "Webclipping.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Webclipping.com",
+        "Browser_Name": "Webclipping.com",
+        "Browser_FullName": "Webclipping.com"
+      }
+    },
+    {
+      "userAgent": "webcollage*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WebCollage",
+        "Browser_Name": "WebCollage",
+        "Browser_FullName": "WebCollage"
+      }
+    },
+    {
+      "userAgent": "WebCrawler_1.*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WebCrawler",
+        "Browser_Name": "WebCrawler",
+        "Browser_FullName": "WebCrawler 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "WebFilter Robot*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WebFilter Robot",
+        "Browser_Name": "WebFilter Robot",
+        "Browser_FullName": "WebFilter Robot"
+      }
+    },
+    {
+      "userAgent": "WeBoX\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WeBoX",
+        "Browser_Name": "WeBoX",
+        "Browser_FullName": "WeBoX"
+      }
+    },
+    {
+      "userAgent": "WebTrends\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WebTrends",
+        "Browser_Name": "WebTrends",
+        "Browser_FullName": "WebTrends"
+      }
+    },
+    {
+      "userAgent": "WhizBang",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WhizBang",
+        "Browser_Name": "WhizBang",
+        "Browser_FullName": "WhizBang"
+      }
+    },
+    {
+      "userAgent": "Willow Internet Crawler by Twotrees V*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Willow Internet Crawler",
+        "Browser_Name": "Willow Internet Crawler",
+        "Browser_FullName": "Willow Internet Crawler"
+      }
+    },
+    {
+      "userAgent": "WIRE\/* (Linux*Bot,Robot,Spider,Crawler)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WIRE",
+        "Browser_Name": "WIRE",
+        "Browser_FullName": "WIRE"
+      }
+    },
+    {
+      "userAgent": "www.fi crawler, contact crawler@www.fi",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "www.fi crawler",
+        "Browser_Name": "www.fi crawler",
+        "Browser_FullName": "www.fi crawler"
+      }
+    },
+    {
+      "userAgent": "XML Sitemaps Generator*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "XML Sitemaps Generator",
+        "Browser_Name": "XML Sitemaps Generator",
+        "Browser_FullName": "XML Sitemaps Generator"
+      }
+    },
+    {
+      "userAgent": "XSpider*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "XSpider",
+        "Browser_Name": "XSpider",
+        "Browser_FullName": "XSpider"
+      }
+    },
+    {
+      "userAgent": "http:\/\/www.yellowpages.com*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Yellow Pages",
+        "Browser_Name": "Yellow Pages",
+        "Browser_FullName": "Yellow Pages"
+      }
+    },
+    {
+      "userAgent": "yp-crawl@attinteractive.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "YellowPages",
+        "Browser_Name": "YellowPages",
+        "Browser_FullName": "YellowPages"
+      }
+    },
+    {
+      "userAgent": "YooW!\/* (?http:\/\/www.yoow.eu)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "YooW!",
+        "Browser_Name": "YooW!",
+        "Browser_FullName": "YooW!"
+      }
+    },
+    {
+      "userAgent": "General Application",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Application",
+        "SubCategory": "Application",
+        "Browser_Type": "Application",
+        "Browser_SubType": "Application",
+        "Browser": "General Application",
+        "Browser_Name": "General Application",
+        "Browser_FullName": "General Application",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isBot": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false"
+      }
+    },
+    {
+      "userAgent": "General Email Client",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Email Client",
+        "SubCategory": "Email Client",
+        "Browser_Type": "Email Client",
+        "Browser_SubType": "Email Client",
+        "Browser": "General Email Client",
+        "Browser_Name": "General Email Client",
+        "Browser_FullName": "General Email Client",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isBot": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false"
+      }
+    },
+    {
+      "userAgent": "General Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Browser_SubType": "Browser",
+        "Browser": "General Browser",
+        "Browser_Name": "General Browser",
+        "Browser_FullName": "General Browser",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isBot": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false"
+      }
+    },
+    {
+      "userAgent": "*",
+      "properties": {
+        "Comment": "Default Browser",
+        "Category": "all",
+        "SubCategory": "all",
+        "Browser_Type": "all",
+        "Browser_SubType": "all",
+        "Browser": "Default Browser",
+        "Browser_Name": "Default Browser",
+        "Browser_FullName": "Default Browser",
+        "Browser_Version": "0.0",
+        "Browser_Description": "Default Browser",
+        "Browser_Bits": "0",
+        "Browser_isSyndicationReader": "false",
+        "Browser_isBot": "false",
+        "Browser_isTanscoder": "false",
+        "Browser_isAlpha": "false",
+        "Browser_isBeta": "false",
+        "Browser_Maker": "unknown",
+        "Browser_Modus": "",
+        "Browser_Icon": "",
+        "Version": "0.0",
+        "MajorVer": "0",
+        "MinorVer": "0",
+        "Platform": "unknown",
+        "Platform_Name": "unknown",
+        "Platform_FullName": "unknown",
+        "Platform_Version": "0.0",
+        "Platform_Description": "",
+        "Platform_Bits": "0",
+        "Platform_Maker": "unknown",
+        "Platform_Icon": "",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "0",
+        "Device_Type": "unknown",
+        "Device_Code_Name": "unknown",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "Generic",
+        "Device_Name": "unknown",
+        "Device_isMobileDevice": "false",
+        "Device_isTablet": "false",
+        "Device_isDesktop": "false",
+        "Device_isTv": "false",
+        "RenderingEngine_Name": "unknown",
+        "RenderingEngine_FullName": "unknown",
+        "RenderingEngine_Version": "0.0",
+        "RenderingEngine_Description": "unknown",
+        "RenderingEngine_Maker": "unknown",
+        "RenderingEngine_Icon": ""
+      }
+    }
+  ]
+}

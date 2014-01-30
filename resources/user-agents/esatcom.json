@@ -1,0 +1,27 @@
+{
+  "division": "ESATCOM",
+  "sortIndex": 4050,
+  "userAgents": [
+    {
+      "userAgent": "ESATCOM",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "ESATCOM",
+        "Browser_Name": "ESATCOM",
+        "Browser_FullName": "ESATCOM",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "ESATCOM-ES2100\/(2005.9.13)SW3.0\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0",
+      "properties": {
+        "Parent": "ESATCOM"
+      }
+    }
+  ]
+}

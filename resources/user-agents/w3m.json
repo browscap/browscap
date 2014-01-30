@@ -1,0 +1,85 @@
+{
+  "division": "w3m",
+  "sortIndex": 10980,
+  "userAgents": [
+    {
+      "userAgent": "w3m",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "w3m",
+        "Browser_Name": "w3m",
+        "Browser_FullName": "w3m",
+        "Frames": "true",
+        "Tables": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Emacs-w3m\/*",
+      "properties": {
+        "Parent": "w3m"
+      }
+    },
+    {
+      "userAgent": "w3m\/*",
+      "properties": {
+        "Parent": "w3m"
+      }
+    },
+    {
+      "userAgent": "w3m\/0.1*",
+      "properties": {
+        "Parent": "w3m",
+        "Browser_FullName": "w3m 0.1",
+        "Browser_Version": "0.1",
+        "Version": "0.1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "w3m\/0.2*",
+      "properties": {
+        "Parent": "w3m",
+        "Browser_FullName": "w3m 0.2",
+        "Browser_Version": "0.2",
+        "Version": "0.2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "w3m\/0.3*",
+      "properties": {
+        "Parent": "w3m",
+        "Browser_FullName": "w3m 0.3",
+        "Browser_Version": "0.3",
+        "Version": "0.3",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "w3m\/0.4*",
+      "properties": {
+        "Parent": "w3m",
+        "Browser_FullName": "w3m 0.4",
+        "Browser_Version": "0.4",
+        "Version": "0.4",
+        "MinorVer": "4",
+        "Cookies": "true"
+      }
+    },
+    {
+      "userAgent": "w3m\/0.5*",
+      "properties": {
+        "Parent": "w3m",
+        "Browser_FullName": "w3m 0.5",
+        "Browser_Version": "0.5",
+        "Version": "0.5",
+        "MinorVer": "5",
+        "Cookies": "true"
+      }
+    }
+  ]
+}

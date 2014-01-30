@@ -1,0 +1,25 @@
+{
+  "division": "Nokia Proxy Browser 3.2",
+  "sortIndex": 8080,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser 3.2",
+      "properties": {
+        "Parent": "Nokia Proxy Browser",
+        "Browser_FullName": "Nokia Proxy Browser 3.2",
+        "Browser_Version": "3.2",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Series40; Nokia113\/*) Gecko\/* S40OviBrowser\/3.2*",
+      "properties": {
+        "Parent": "Nokia Proxy Browser 3.2",
+        "Device_Code_Name": "113",
+        "Device_Name": "113"
+      }
+    }
+  ]
+}

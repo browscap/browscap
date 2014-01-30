@@ -1,0 +1,33 @@
+{
+  "division": "Nintendo",
+  "sortIndex": 7900,
+  "userAgents": [
+    {
+      "userAgent": "Nintendo",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Nintendo",
+        "Browser_Name": "Nintendo",
+        "Browser_FullName": "Nintendo",
+        "Browser_Maker": "Nintendo",
+        "isMobileDevice": "true",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Nintendo 3DS; U; *) Version\/*",
+      "properties": {
+        "Parent": "Nintendo",
+        "Browser": "Nintendo 3DS Internet Browser",
+        "Browser_Name": "Nintendo 3DS Internet Browser",
+        "Browser_FullName": "Nintendo 3DS Internet Browser",
+        "Device_Code_Name": "3DS",
+        "Device_Name": "3DS",
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_FullName": "NetFront"
+      }
+    }
+  ]
+}

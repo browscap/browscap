@@ -1,0 +1,51 @@
+{
+  "division": "BlackBerry 3.7",
+  "sortIndex": 2370,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 3.7",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 3.7",
+        "Browser_Version": "3.7",
+        "Version": "3.7",
+        "MajorVer": "3",
+        "MinorVer": "7",
+        "Platform_FullName": "RIM OS 3.7",
+        "Platform_Version": "3.7"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7210\/3.7*",
+      "properties": {
+        "Parent": "BlackBerry 3.7",
+        "Device_Code_Name": "BlackBerry 7210",
+        "Device_Name": "BlackBerry 7210"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7230\/3.7*",
+      "properties": {
+        "Parent": "BlackBerry 3.7",
+        "Device_Code_Name": "BlackBerry 7230",
+        "Device_Name": "BlackBerry 7230"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7280\/3.7*",
+      "properties": {
+        "Parent": "BlackBerry 3.7",
+        "Device_Code_Name": "BlackBerry 7280",
+        "Device_Name": "BlackBerry 7280"
+      }
+    },
+    {
+      "userAgent": "BlackBerry7730\/3.7*",
+      "properties": {
+        "Parent": "BlackBerry 3.7",
+        "Device_Code_Name": "BlackBerry 7730",
+        "Device_Name": "BlackBerry 7730"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "division": "AndroidDownloadManager",
+  "sortIndex": 2120,
+  "userAgents": [
+    {
+      "userAgent": "AndroidDownloadManager",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Android Download Manager",
+        "Browser_Name": "Android Download Manager",
+        "Browser_FullName": "Android Download Manager",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_isMobileDevice": "true"
+      }
+    }
+  ]
+}

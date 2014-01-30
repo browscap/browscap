@@ -1,0 +1,57 @@
+{
+  "division": "Anonymizied",
+  "sortIndex": 50,
+  "userAgents": [
+    {
+      "userAgent": "Anonymizied",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Anonymizied",
+        "Browser_Name": "Anonymizied",
+        "Browser_FullName": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymisiert durch AlMiSoft Browser-Maulkorb (Anonymisier*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymisiert*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymizer\/*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymizied*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymous*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "Anonymous\/*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    },
+    {
+      "userAgent": "http:\/\/Anonymouse.org\/*",
+      "properties": {
+        "Parent": "Anonymizied"
+      }
+    }
+  ]
+}

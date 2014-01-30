@@ -1,0 +1,44 @@
+{
+  "division": "NetFront 2.2",
+  "sortIndex": 7700,
+  "userAgents": [
+    {
+      "userAgent": "NetFront 2.2",
+      "properties": {
+        "Parent": "NetFront Generic",
+        "Browser_FullName": "NetFront 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "IFrames": "true",
+        "JavaApplets": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 2.3*; MB525 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 NetFrontLifeBrowser\/2.2*",
+      "properties": {
+        "Parent": "NetFront 2.2",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android 2.3",
+        "Platform_Version": "2.3",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "*NetFront\/2.2*",
+      "properties": {
+        "Parent": "NetFront 2.2"
+      }
+    }
+  ]
+}

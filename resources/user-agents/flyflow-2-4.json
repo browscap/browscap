@@ -1,0 +1,41 @@
+{
+  "division": "FlyFlow 2.4",
+  "sortIndex": 4910,
+  "userAgents": [
+    {
+      "userAgent": "FlyFlow 2.4",
+      "properties": {
+        "Parent": "FlyFlow Generic",
+        "Browser_FullName": "FlyFlow 2.4",
+        "Browser_Version": "2.4",
+        "Version": "2.4",
+        "MajorVer": "2",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.1*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/2.4 Version\/4.0 Mobile Safari\/* T5\/2.0*",
+      "properties": {
+        "Parent": "FlyFlow 2.4",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.1*; GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/2.4 Version\/4.0 Mobile Safari\/* T5\/2.0*",
+      "properties": {
+        "Parent": "FlyFlow 2.4",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I9300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III"
+      }
+    }
+  ]
+}

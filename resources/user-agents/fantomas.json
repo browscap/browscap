@@ -1,0 +1,77 @@
+{
+  "division": "fantomas",
+  "sortIndex": 4110,
+  "userAgents": [
+    {
+      "userAgent": "fantomas",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "fantomas",
+        "Browser_Name": "fantomas",
+        "Browser_FullName": "fantomas",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (cloakBrowser)",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas cloakBrowser",
+        "Browser_Name": "fantomas cloakBrowser",
+        "Browser_FullName": "fantomas cloakBrowser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (fantomBrowser)",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas fantomBrowser",
+        "Browser_Name": "fantomas fantomBrowser",
+        "Browser_FullName": "fantomas fantomBrowser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (fantomCrew Browser)",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas fantomCrew Browser",
+        "Browser_Name": "fantomas fantomCrew Browser",
+        "Browser_FullName": "fantomas fantomCrew Browser"
+      }
+    },
+    {
+      "userAgent": "multiBlocker browser*",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas multiBlocker browser",
+        "Browser_Name": "fantomas multiBlocker browser",
+        "Browser_FullName": "fantomas multiBlocker browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (fantomas shadowMaker Browser)",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas shadowMaker Browser",
+        "Browser_Name": "fantomas shadowMaker Browser",
+        "Browser_FullName": "fantomas shadowMaker Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (stealthBrowser)",
+      "properties": {
+        "Parent": "fantomas",
+        "Browser": "fantomas stealthBrowser",
+        "Browser_Name": "fantomas stealthBrowser",
+        "Browser_FullName": "fantomas stealthBrowser"
+      }
+    }
+  ]
+}

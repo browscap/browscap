@@ -1,0 +1,31 @@
+{
+  "division": "SpellCheck Bot",
+  "sortIndex": 1500,
+  "userAgents": [
+    {
+      "userAgent": "SpellCheck Bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SpellCheck Bot",
+        "Browser_Name": "SpellCheck Bot",
+        "Browser_FullName": "SpellCheck Bot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot*",
+      "properties": {
+        "Parent": "SpellCheck Bot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot 0.9*",
+      "properties": {
+        "Parent": "SpellCheck Bot",
+        "Browser_FullName": "SpellCheck Bot 0.9",
+        "Browser_Version": "0.9",
+        "Version": "0.9",
+        "MinorVer": "9"
+      }
+    }
+  ]
+}

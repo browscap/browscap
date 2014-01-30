@@ -1,0 +1,690 @@
+{
+  "division": "NetFront 3.5",
+  "sortIndex": 7760,
+  "userAgents": [
+    {
+      "userAgent": "NetFront 3.5",
+      "properties": {
+        "Parent": "NetFront Generic",
+        "Browser_FullName": "NetFront 3.5",
+        "Browser_Version": "3.5",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "IFrames": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; Sanyo; NetFront\/3.5*) *SCP6760*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew",
+        "Device_Code_Name": "SCP6760",
+        "Device_Maker": "Sanyo",
+        "Device_Brand_Name": "Sanyo",
+        "Device_Name": "SCP6760"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; Sanyo; NetFront\/3.5*) Sprint SCP-*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew",
+        "Device_Code_Name": "Sprint SCP *",
+        "Device_Maker": "Sanyo",
+        "Device_Brand_Name": "Sanyo",
+        "Device_Name": "Sprint SCP *"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (BREW 3.*; Sanyo; NetFront\/3.5*) Sprint SCP-2700*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew",
+        "Device_Code_Name": "Sprint SCP 2700",
+        "Device_Maker": "Sanyo",
+        "Device_Brand_Name": "Sanyo",
+        "Device_Name": "Sprint SCP 2700"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone; BREW\/*.*NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0(compatible; Access NetFront\/3.5*; BREW 3.*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew"
+      }
+    },
+    {
+      "userAgent": "*NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5"
+      }
+    },
+    {
+      "userAgent": "LGE-VM510 NetFront\/3.5* (GUI) MMP\/2.0*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "VM510",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "VM510"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/3.5 MMP\/2.0*",
+      "properties": {
+        "Parent": "NetFront 3.5"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-*?NetFront\/3.6*",
+      "properties": {
+        "Parent": "NetFront 3.5"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-C3050*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "C3050",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "C3050"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-3210*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-3210",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-3210"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3310*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-B3310",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3310"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3410*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "B3410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "B3410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B5722\/* NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "B5722",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "B5722"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7610*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-B7610",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B7610"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-C3303* NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-C3303",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-C3303"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-C3530* NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-C3530",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-C3530"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-E2550*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-E2550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-E2550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I6410*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-II6410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-II6410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I8320*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-M8800\/* NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-M8800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-M8800"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3370*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S3370",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3370"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3650*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S3650",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3650"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5230*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S5230",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5230"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5560*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S5560",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5560"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S7550*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S7550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-i8000*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-I8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S7350*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S7350",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7350"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8000*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300-Vodafone\/S8300* SHP\/VPP\/R5 NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300\/S8300* SHP\/VPP\/R5 NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E250*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-E250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-E250"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH F480",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH F480"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480I-Vodafone\/*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-F480I",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-F480I"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480i*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-F480i",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-F480i"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-G800*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-G800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-G800"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U700*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-U700",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-U700"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U900*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-U900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-U900"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-i900*?NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "SGH-I900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-I900"
+      }
+    },
+    {
+      "userAgent": "SEC-SGH*\/1.0 NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC902\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "C902",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "C902"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonC905\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "C905",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "C905"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ108a\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J108a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J108a"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ108a\/R7DA Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-J108a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "GT-J108a"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ108i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J108i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J108i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J10i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J10i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ10i2\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J10i2",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J10i2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ20i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J20i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J20i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonJ20i\/R7CA Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "J20i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "J20i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK800i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "K800i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "K800i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonT715\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-T715",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "GT-T715"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU10i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U10i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U10i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U1i",
+        "Device_Maker": "SonyG",
+        "Device_Brand_Name": "SonyG",
+        "Device_Name": "U1i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU1iv\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U1iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U1iv"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5iv\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U5iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U5iv"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU5u\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U5a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U5a"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonU8i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "U8i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "U8i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW20i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W20i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W20i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W350i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W350i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW350iv\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "GT-W350iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "GT-W350iv"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW580i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W480i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W480i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW595\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W595",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W595"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW705\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W705",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W705"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW760i\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W760i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W760i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW980\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W980",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W980"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW995\/* Browser\/NetFront\/3.5*",
+      "properties": {
+        "Parent": "NetFront 3.5",
+        "Device_Code_Name": "W995",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W995"
+      }
+    }
+  ]
+}

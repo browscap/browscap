@@ -1,0 +1,94 @@
+{
+  "division": "Links 1.0",
+  "sortIndex": 6730,
+  "userAgents": [
+    {
+      "userAgent": "Links 1.0",
+      "properties": {
+        "Parent": "Links Generic",
+        "Browser_FullName": "Links 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; FreeBSD*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; Linux*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; OS\/2*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Platform": "OS\/2",
+        "Platform_Name": "OS\/2",
+        "Platform_FullName": "OS\/2 Warp 4.5",
+        "Platform_Version": "Warp 4.5",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; Unix*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; CYGWIN_NT-5.1*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Links (1.0*; Win32*)",
+      "properties": {
+        "Parent": "Links 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

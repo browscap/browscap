@@ -1,0 +1,69 @@
+{
+  "division": "QuickLook",
+  "sortIndex": 9870,
+  "userAgents": [
+    {
+      "userAgent": "QuickLook",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "QuickLook",
+        "Browser_Name": "QuickLook",
+        "Browser_FullName": "QuickLook",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+      "properties": {
+        "Parent": "QuickLook",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+      "properties": {
+        "Parent": "QuickLook",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+      "properties": {
+        "Parent": "QuickLook",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+      "properties": {
+        "Parent": "QuickLook",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+      "properties": {
+        "Parent": "QuickLook",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

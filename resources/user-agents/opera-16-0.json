@@ -1,0 +1,122 @@
+{
+  "division": "Opera 16.0",
+  "sortIndex": 8630,
+  "userAgents": [
+    {
+      "userAgent": "Opera 16.0",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Browser_FullName": "Opera 16.0",
+        "Browser_Version": "16.0",
+        "Version": "16.0",
+        "MajorVer": "16",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit"
+      }
+    },
+    {
+      "userAgent": "Opera 16.0 on FreeBSD",
+      "properties": {
+        "Parent": "Opera 16.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Opera 16.0 on Linux",
+      "properties": {
+        "Parent": "Opera 16.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Opera 16.0 on SunOS",
+      "properties": {
+        "Parent": "Opera 16.0",
+        "Platform": "SunOS",
+        "Platform_Name": "SunOS",
+        "Platform_FullName": "SunOS",
+        "Platform_Maker": "Oracle",
+        "Device_Type": "Desktop",
+        "Device_Brand_Name": "Oracle"
+      }
+    },
+    {
+      "userAgent": "Opera 16.0 on Mac OS X",
+      "properties": {
+        "Parent": "Opera 16.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/* OPR\/16.0*",
+      "properties": {
+        "Parent": "Opera 16.0 on Mac OS X",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/* OPR\/16.0*",
+      "properties": {
+        "Parent": "Opera 16.0 on Mac OS X",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Opera 16.0 on Windows",
+      "properties": {
+        "Parent": "Opera 16.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* Safari\/* OPR\/16.*",
+      "properties": {
+        "Parent": "Opera 16.0 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/*Safari\/* OPR\/16.*",
+      "properties": {
+        "Parent": "Opera 16.0 on Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

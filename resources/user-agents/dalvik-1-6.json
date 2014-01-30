@@ -1,0 +1,209 @@
+{
+  "division": "Dalvik 1.6",
+  "sortIndex": 3810,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik 1.6",
+      "properties": {
+        "Parent": "Dalvik Generic",
+        "Browser_FullName": "Dalvik 1.6",
+        "Browser_Version": "1.6",
+        "Version": "1.6",
+        "MajorVer": "1",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux* Android 4.1*; Nexus S Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Nexus S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus S"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux* Android 4.2*; Nexus S Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Nexus S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus S"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.0*; * Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.0*; Cynus T2 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Cynus T2",
+        "Device_Maker": "Mobistel",
+        "Device_Brand_Name": "Mobistel",
+        "Device_Name": "Cynus T2"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.0*; HTC Desire C Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Desire C",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Desire C"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.0*; GT-I9100 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.0*; Transformer Prime TF201 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Eee Pad TF201",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Name": "Transformer Prime",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.1*; * Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.1*; HTC Desire C Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Desire C",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Desire C"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.1*; Transformer Prime TF201 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Eee Pad TF201",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Name": "Transformer Prime",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.2*; * Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux*; Android 4.3*; * Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.3",
+        "Platform_Version": "4.3",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux; U; Android 4.2*; Nexus 10 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Nexus 10",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus 10",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.6* (Linux; U; Android 4.3*; Nexus 10 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 4.3",
+        "Platform_Version": "4.3",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Nexus 10",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus 10",
+        "Device_isTablet": "true"
+      }
+    }
+  ]
+}

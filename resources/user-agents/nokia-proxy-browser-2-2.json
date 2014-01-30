@@ -1,0 +1,25 @@
+{
+  "division": "Nokia Proxy Browser 2.2",
+  "sortIndex": 8060,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser 2.2",
+      "properties": {
+        "Parent": "Nokia Proxy Browser",
+        "Browser_FullName": "Nokia Proxy Browser 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Series40; Nokia200\/*) Gecko\/* S40OviBrowser\/2.2*",
+      "properties": {
+        "Parent": "Nokia Proxy Browser 2.2",
+        "Device_Code_Name": "200",
+        "Device_Name": "200"
+      }
+    }
+  ]
+}

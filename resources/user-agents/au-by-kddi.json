@@ -1,0 +1,272 @@
+{
+  "division": "AU by KDDI",
+  "sortIndex": 2240,
+  "userAgents": [
+    {
+      "userAgent": "AU by KDDI",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "AU",
+        "Browser_Name": "AU",
+        "Browser_FullName": "AU 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "BIRD.S580 AU.Browser\/1.2*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 1.2",
+        "Browser_Version": "1.2",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2",
+        "Device_Code_Name": "S580",
+        "Device_Maker": "BIRD",
+        "Device_Brand_Name": "BIRD",
+        "Device_Name": "S580"
+      }
+    },
+    {
+      "userAgent": "EZ400\/BSI AU.Browser\/2.0*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Device_Code_Name": "EZ400",
+        "Device_Maker": "EZZE",
+        "Device_Brand_Name": "EZZE",
+        "Device_Name": "EZ400"
+      }
+    },
+    {
+      "userAgent": "EZZE-MP100-\/BSI AU.Browser\/2.0*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Device_Code_Name": "MP100",
+        "Device_Maker": "EZZE",
+        "Device_Brand_Name": "EZZE",
+        "Device_Name": "MP100"
+      }
+    },
+    {
+      "userAgent": "HG7000\/1.0*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "Hg7000",
+        "Device_Maker": "EZZE",
+        "Device_Brand_Name": "EZZE",
+        "Device_Name": "Hg7000"
+      }
+    },
+    {
+      "userAgent": "LG-C3100 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "C3100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "C3100"
+      }
+    },
+    {
+      "userAgent": "LG-F7100 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "F7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "F7100"
+      }
+    },
+    {
+      "userAgent": "LG-G1600 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G1600",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G1600"
+      }
+    },
+    {
+      "userAgent": "LG-G1610 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G1610",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G1610"
+      }
+    },
+    {
+      "userAgent": "LG-G3100 AU\/4.10*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G3100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G3100"
+      }
+    },
+    {
+      "userAgent": "LG-G5300 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G5300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G5300"
+      }
+    },
+    {
+      "userAgent": "LG-G5300i\/JM AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G5300i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G5300i"
+      }
+    },
+    {
+      "userAgent": "LG-G5310\/JM AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G5310",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G5310"
+      }
+    },
+    {
+      "userAgent": "LG-G5400 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G5400",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G5400"
+      }
+    },
+    {
+      "userAgent": "LG-G7000 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G7000",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G7000"
+      }
+    },
+    {
+      "userAgent": "LG-G7070 AU\/4.1*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G7070",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G7070"
+      }
+    },
+    {
+      "userAgent": "LG-G7100 AU\/4.1* Profile\/MIDP-1.0*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G7100"
+      }
+    },
+    {
+      "userAgent": "LG-G7100 AU\/4.1* Profile\/MIDP-2.0*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Device_Code_Name": "G7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G7100"
+      }
+    },
+    {
+      "userAgent": "LG-G1500 AU\/4.2*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 4.2",
+        "Browser_Version": "4.2",
+        "Version": "4.2",
+        "MinorVer": "2",
+        "Device_Code_Name": "G1500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G1500"
+      }
+    },
+    {
+      "userAgent": "LG-G510 AU\/4.2*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 4.2",
+        "Browser_Version": "4.2",
+        "Version": "4.2",
+        "MinorVer": "2",
+        "Device_Code_Name": "G510",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G510"
+      }
+    },
+    {
+      "userAgent": "LG-MG191a AU\/4.8*",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 4.8",
+        "Browser_Version": "4.8",
+        "Version": "4.8",
+        "MinorVer": "8",
+        "Device_Code_Name": "MG191a",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "MG191a"
+      }
+    },
+    {
+      "userAgent": "LG-G4010 AU\/4.12 *",
+      "properties": {
+        "Parent": "AU by KDDI",
+        "Browser_FullName": "AU 4.12",
+        "Browser_Version": "4.12",
+        "Version": "4.12",
+        "MinorVer": "12",
+        "Device_Code_Name": "G4010",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "G4010"
+      }
+    }
+  ]
+}

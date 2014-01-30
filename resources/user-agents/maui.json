@@ -1,0 +1,47 @@
+{
+  "division": "MAUI",
+  "sortIndex": 6900,
+  "userAgents": [
+    {
+      "userAgent": "MAUI",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "MAUI Wap Browser",
+        "Browser_Name": "MAUI Wap Browser",
+        "Browser_FullName": "MAUI Wap Browser",
+        "Platform": "MTK\/Nucleus OS",
+        "Platform_Name": "MTK\/Nucleus OS",
+        "Platform_FullName": "MTK\/Nucleus OS",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "MAUI WAP Browser MAUI WAP Browser",
+      "properties": {
+        "Parent": "MAUI"
+      }
+    },
+    {
+      "userAgent": "MAUI WAP Browser*",
+      "properties": {
+        "Parent": "MAUI"
+      }
+    },
+    {
+      "userAgent": "MAUI_WAP_Browser",
+      "properties": {
+        "Parent": "MAUI"
+      }
+    },
+    {
+      "userAgent": "MAUI?WAP?Browser Novarra-Vision\/8.0",
+      "properties": {
+        "Parent": "MAUI",
+        "Platform": "unknown",
+        "Platform_Name": "unknown",
+        "Platform_FullName": "unknown"
+      }
+    }
+  ]
+}

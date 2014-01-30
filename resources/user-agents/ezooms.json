@@ -1,0 +1,32 @@
+{
+  "division": "Ezooms",
+  "sortIndex": 340,
+  "userAgents": [
+    {
+      "userAgent": "Ezooms",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Ezooms",
+        "Browser_Name": "Ezooms",
+        "Browser_FullName": "Ezooms",
+        "Browser_Maker": "dotnetdotcom.org"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/*; ezooms.bot@gmail.com)",
+      "properties": {
+        "Parent": "Ezooms"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.*; ezooms.bot@gmail.com)",
+      "properties": {
+        "Parent": "Ezooms",
+        "Browser_FullName": "Ezooms 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

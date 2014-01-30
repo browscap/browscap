@@ -138,7 +138,7 @@ class BuildGenerator
         $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
         $date    = $collection->getGenerationDate()->format('r');
 
-        $comments = array(
+        $comments = [
             'Provided courtesy of http://browscap.org/',
             'Created on ' . $dateUtc,
             'Keep up with the latest goings-on with the project:',
@@ -146,34 +146,65 @@ class BuildGenerator
             'Like us on Facebook <https://facebook.com/browscap>, or...',
             'Collaborate on GitHub <https://github.com/browscap>, or...',
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-        );
+        ];
 
-        $formats = array(
-            ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
-            ['full_php_browscap.ini', 'PHP/FULL', true, true, false],
-            ['browscap.ini', 'ASP', false, false, false],
-            ['php_browscap.ini', 'PHP', true, false, false],
-            ['lite_asp_browscap.ini', 'ASP/LITE', false, false, true],
-            ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
-        );
+        $formats = [
+            [
+                'file'   => 'full_asp_browscap.ini',
+                'info'   => 'ASP/FULL',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_FULL,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+            ],
+            [
+                'file'   => 'full_php_browscap.ini',
+                'info'   => 'PHP/FULL',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_FULL,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+            ],
+            [
+                'file'   => 'browscap.ini',
+                'info'   => 'ASP',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_NORMAL,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+            ],
+            [
+                'file'   => 'php_browscap.ini',
+                'info'   => 'PHP',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_NORMAL,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+            ],
+            [
+                'file'   => 'lite_asp_browscap.ini',
+                'info'   => 'ASP/LITE',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_LITE,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+            ],
+            [
+                'file'   => 'lite_php_browscap.ini',
+                'info'   => 'PHP/LITE',
+                'set'    => BrowscapIniGenerator::OUTPUT_SET_LITE,
+                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+            ],
+        ];
 
         $collectionParser->setDataCollection($collection);
         $collectionData = $collectionParser->parse();
 
-        $iniGenerator->setCollectionData($collectionData);
+        $iniGenerator
+            ->setCollectionData($collectionData)
+            ->setComments($comments)
+        ;
 
         foreach ($formats as $format) {
-            $this->output('<info>Generating ' . $format[0] . ' [' . $format[1] . ']</info>');
+            $this->output('<info>Generating ' . $format['file'] . ' [' . $format['info'] . ']</info>');
 
-            $outputFile = $buildFolder . '/' . $format[0];
+            $outputFile = $buildFolder . '/' . $format['file'];
 
             $iniGenerator
-                ->setOptions($format[2], $format[3], $format[4])
-                ->setComments($comments)
                 ->setVersionData(array('version' => $version, 'released' => $date))
             ;
 
-            file_put_contents($outputFile, $iniGenerator->generate());
+            file_put_contents($outputFile, $iniGenerator->generate($format['set'], $format['format']));
         }
 
         $this->output('<info>Generating browscap.xml [XML]</info>');

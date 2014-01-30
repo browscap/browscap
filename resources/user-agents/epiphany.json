@@ -1,0 +1,66 @@
+{
+  "division": "Epiphany",
+  "sortIndex": 4020,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Epiphany",
+        "Browser_Name": "Epiphany",
+        "Browser_FullName": "Epiphany",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.4*Gecko\/* Epiphany\/1.0*",
+      "properties": {
+        "Parent": "Epiphany",
+        "Browser_FullName": "Epiphany 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.7*Gecko\/* Epiphany\/1.4*",
+      "properties": {
+        "Parent": "Epiphany",
+        "Browser_FullName": "Epiphany 1.4",
+        "Browser_Version": "1.4",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.8*Gecko\/* Epiphany\/2.1*",
+      "properties": {
+        "Parent": "Epiphany",
+        "Browser_FullName": "Epiphany 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    }
+  ]
+}

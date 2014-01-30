@@ -1,0 +1,1964 @@
+{
+  "division": "Chrome 17.0",
+  "sortIndex": 2730,
+  "userAgents": [
+    {
+      "userAgent": "Chrome 17.0",
+      "properties": {
+        "Parent": "Chrome Generic",
+        "Browser_FullName": "Chrome 17.0",
+        "Browser_Version": "17.0",
+        "Version": "17.0",
+        "MajorVer": "17"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android *) AppleWebKit\/* (KHTML,*like Gecko*) CrMo\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Windows",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 4.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Anonymisiert durch*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Chrome anonymized by*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Android",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Android 4.0",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android",
+        "Platform_FullName": "Android 4.0",
+        "Platform_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; A200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "A200",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Name": "Picasso_E"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; A210 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A210",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Name": "A210",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; A510 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "A510",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Name": "A510"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; ALCATEL ONE TOUCH 997D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "OT-997D",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Name": "One Touch 997D"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; AT300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "AT300",
+        "Device_Maker": "Toshiba",
+        "Device_Brand_Name": "Toshiba",
+        "Device_Name": "Regza AT300",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I8190 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-I8190",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III Mini"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-I9100G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100T",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-I9305 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-I9305",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III LTE International"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 8.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N7000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-N7000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N7100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8010",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8013",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-N8020 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8020",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1 LTE",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-P3110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P3110",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 7.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-P5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-P5110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "JavaApplets": "false",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5110",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; GT-P5113 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "JavaApplets": "false",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5113",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1 WiFi",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC Desire X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "T328E",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Desire X"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One SV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "One SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One SV"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One V Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "One V",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One V"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC One X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "PJ83100",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One X"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC Sensation XE with Beats Audio Z715e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "Sensation XE Beats Z715e",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Sensation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HTC Sensation Z710e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "Z710e",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Sensation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "U8666E",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Name": "Ascend Y201 Pro"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LG-P700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "P700",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus L7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LG-P705 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "P705",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus L7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LG-P880 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "P880",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus 4X HD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LIFETAB_P9514 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab P9514",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Name": "LifeTab P9514",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LIFETAB_S9512 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab S9512",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Name": "LifeTab S9512",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LIFETAB_S9714 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab S9714",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Name": "LifeTab S9714",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "LT18i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Xperia Arc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "LT26i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Xperia Arc HD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; LT30p Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "LT30p",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "Xperia T"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; MD_LIFETAB_P9516 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab P9516",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Name": "LifeTab P9516",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; MZ601 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MZ601",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "Xoom",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; MZ604 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MZ604",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "Xoom",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "Nexus S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; SAMSUNG GT-N7100\/N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; Sony Tablet S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "Tablet S",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "Tablet S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; XT890 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "XT890",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "XT890"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "XT910",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "RAZR XT910 Spider"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.0*; XT925 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.0",
+        "Device_Code_Name": "XT925",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "XT925"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Android 4.1",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android",
+        "Platform_FullName": "Android 4.1",
+        "Platform_Version": "4.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; A210 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A210",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Name": "A210",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; A510 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "A510",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Name": "A510"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-I8190 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "GT-I8190",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III Mini"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100T",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-I9305 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "GT-I9305",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III LTE International"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 8.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N7000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "GT-N7000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N7100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8010",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8013",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-N8020 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8020",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1 LTE",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-P3110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P3110",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 7.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-P5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-P5110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "JavaApplets": "false",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5110",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; GT-P5113 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "JavaApplets": "false",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5113",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1 WiFi",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "Galaxy Nexus",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Nexus"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; HTC One SV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "One SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One SV"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; HTC One X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "PJ83100",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One X"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; LG-P880 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "P880",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus 4X HD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "LT18i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Xperia Arc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "LT26i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Xperia Arc HD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; LT30p Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "LT30p",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "Xperia T"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "Nexus S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Name": "Nexus S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; SAMSUNG GT-N7100\/N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; XT890 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "XT890",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "XT890"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.1*; XT925 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.1",
+        "Device_Code_Name": "XT925",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "XT925"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Android 4.2",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android",
+        "Platform_FullName": "Android 4.2",
+        "Platform_Version": "4.2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100T",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S III"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-N5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 8.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-N7000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "GT-N7000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8010",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8013",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-N8020 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8020",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1 LTE",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-P3110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P3110",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 7.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; GT-P5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Tab 2 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; LG-P880 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "P880",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus 4X HD"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; SAMSUNG GT-N7100\/N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.2",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Android 4.3",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android",
+        "Platform_FullName": "Android 4.3",
+        "Platform_Version": "4.3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "JavaApplets": "false",
+        "Device_Code_Name": "GT-I9100T",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy S II"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-N5100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N5100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 8.0",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8010",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8013",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; GT-N8020 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8020",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note 10.1 LTE",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "Device_Code_Name": "PJ401",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "One S"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; SAMSUNG GT-N7100\/N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Android 4.3",
+        "Device_Code_Name": "GT-N7100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Galaxy Note II"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Chrome OS",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Platform": "Chrome OS",
+        "Platform_Name": "Chrome OS",
+        "Platform_FullName": "Chrome OS",
+        "Platform_Maker": "Google Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; CrOS armv*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Chrome OS",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; CrOS i686*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Chrome OS",
+        "Browser_Bits": "32",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; CrOS i686*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Chrome OS",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; CrOS i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Chrome OS",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on FreeBSD",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; FreeBSD*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on FreeBSD"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on iOS",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "true",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_isMobileDevice": "true",
+        "Device_isDesktop": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad; *CPU OS 5_0* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 5.0",
+        "Platform_Version": "5.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad; *CPU OS 5_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 5.1",
+        "Platform_Version": "5.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad; *CPU OS 6_0* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.0",
+        "Platform_Version": "6.0",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad; *CPU OS 6_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 5_0* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 5.0",
+        "Platform_Version": "5.0",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 5_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 5.1",
+        "Platform_Version": "5.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 6_0* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.0",
+        "Platform_Version": "6.0",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 6_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; CPU OS 6_0* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.0",
+        "Platform_Version": "6.0",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone; CPU OS 6_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) CriOS\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Linux",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Linux",
+        "Browser_Bits": "32",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Linux",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Chrome 17.0 on Mac OS X",
+      "properties": {
+        "Parent": "Chrome 17.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*Safari\/*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_4*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.4",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_5*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.5",
+        "Platform_Version": "10.5"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/17.*",
+      "properties": {
+        "Parent": "Chrome 17.0 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9"
+      }
+    }
+  ]
+}

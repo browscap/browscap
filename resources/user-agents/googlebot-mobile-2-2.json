@@ -1,0 +1,23 @@
+{
+  "division": "Googlebot-Mobile 2.2",
+  "sortIndex": 1190,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile 2.2",
+      "properties": {
+        "Parent": "Googlebot-Mobile",
+        "Browser_FullName": "Google Bot Mobile 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.2; http:\/\/www.google.com\/bot.html)",
+      "properties": {
+        "Parent": "Googlebot-Mobile 2.2"
+      }
+    }
+  ]
+}

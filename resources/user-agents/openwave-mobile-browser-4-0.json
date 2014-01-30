@@ -1,0 +1,22 @@
+{
+  "division": "Openwave Mobile Browser 4.0",
+  "sortIndex": 8140,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser 4.0",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    },
+    {
+      "userAgent": "UPG1* UP.Browser\/4.0*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.0"
+      }
+    }
+  ]
+}

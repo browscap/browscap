@@ -1,0 +1,23 @@
+{
+  "division": "IAC",
+  "sortIndex": 5250,
+  "userAgents": [
+    {
+      "userAgent": "IAC",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "IAC",
+        "Browser_Name": "IAC",
+        "Browser_FullName": "IAC",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "IAC-S858\/20040326aIOL20301341\/WAP2.0 *",
+      "properties": {
+        "Parent": "IAC"
+      }
+    }
+  ]
+}

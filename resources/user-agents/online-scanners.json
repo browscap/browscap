@@ -1,0 +1,60 @@
+{
+  "division": "Online Scanners",
+  "sortIndex": 850,
+  "userAgents": [
+    {
+      "userAgent": "Online Scanners",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Online Scanners",
+        "Browser_Name": "Online Scanners",
+        "Browser_FullName": "Online Scanners"
+      }
+    },
+    {
+      "userAgent": "JoeDog\/* (X11; I; Siege *)",
+      "properties": {
+        "Parent": "Online Scanners",
+        "Browser": "JoeDog",
+        "Browser_Name": "JoeDog",
+        "Browser_FullName": "JoeDog"
+      }
+    },
+    {
+      "userAgent": "Morfeus Fucking Scanner",
+      "properties": {
+        "Parent": "Online Scanners",
+        "Browser": "Morfeus Fucking Scanner",
+        "Browser_Name": "Morfeus Fucking Scanner",
+        "Browser_FullName": "Morfeus Fucking Scanner"
+      }
+    },
+    {
+      "userAgent": "Titanium 2005 (4.02.01)",
+      "properties": {
+        "Parent": "Online Scanners",
+        "Browser": "Panda Antivirus Titanium",
+        "Browser_Name": "Panda Antivirus Titanium",
+        "Browser_FullName": "Panda Antivirus Titanium"
+      }
+    },
+    {
+      "userAgent": "virus_detector*",
+      "properties": {
+        "Parent": "Online Scanners",
+        "Browser": "Secure Computing Corporation",
+        "Browser_Name": "Secure Computing Corporation",
+        "Browser_FullName": "Secure Computing Corporation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Trend Micro tmdr 1.*",
+      "properties": {
+        "Parent": "Online Scanners",
+        "Browser": "Trend Micro",
+        "Browser_Name": "Trend Micro",
+        "Browser_FullName": "Trend Micro"
+      }
+    }
+  ]
+}

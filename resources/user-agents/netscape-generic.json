@@ -1,0 +1,24 @@
+{
+  "division": "Netscape Generic",
+  "sortIndex": 7790,
+  "userAgents": [
+    {
+      "userAgent": "Netscape Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Netscape",
+        "Browser_Name": "Netscape",
+        "Browser_FullName": "Netscape",
+        "Browser_Maker": "Netscape Communications",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "1",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

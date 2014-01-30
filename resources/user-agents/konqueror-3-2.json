@@ -1,0 +1,74 @@
+{
+  "division": "Konqueror 3.2",
+  "sortIndex": 6540,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror 3.2",
+      "properties": {
+        "Parent": "Konqueror General",
+        "Browser_FullName": "Konqueror 3.2",
+        "Browser_Version": "3.2",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.2*FreeBSD*",
+      "properties": {
+        "Parent": "Konqueror 3.2",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "IFrames": "false",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "del.icio.us-thumbnails\/1.0 Mozilla\/5.0 (compatible; Konqueror\/3.2; FreeBSD) KHTML\/3.2* (like Gecko)",
+      "properties": {
+        "Parent": "Konqueror 3.2",
+        "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "IFrames": "false",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.2*Linux*",
+      "properties": {
+        "Parent": "Konqueror 3.2",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.2*OpenBSD*",
+      "properties": {
+        "Parent": "Konqueror 3.2",
+        "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "*Konqueror\/3.2*",
+      "properties": {
+        "Parent": "Konqueror 3.2",
+        "IFrames": "false"
+      }
+    }
+  ]
+}

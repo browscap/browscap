@@ -1,0 +1,48 @@
+{
+  "division": "Huawei",
+  "sortIndex": 5220,
+  "userAgents": [
+    {
+      "userAgent": "Huawei",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Huawei",
+        "Browser_Name": "Huawei",
+        "Browser_FullName": "Huawei 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "Platform": "Brew",
+        "Platform_Name": "Brew",
+        "Platform_FullName": "Brew",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *",
+      "properties": {
+        "Parent": "Huawei"
+      }
+    },
+    {
+      "userAgent": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *",
+      "properties": {
+        "Parent": "Huawei"
+      }
+    },
+    {
+      "userAgent": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *",
+      "properties": {
+        "Parent": "Huawei"
+      }
+    }
+  ]
+}

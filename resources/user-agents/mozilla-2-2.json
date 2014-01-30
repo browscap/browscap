@@ -1,0 +1,23 @@
+{
+  "division": "Mozilla 2.2",
+  "sortIndex": 7580,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 2.2",
+      "properties": {
+        "Parent": "Mozilla Generic",
+        "Browser_FullName": "Mozilla 2.2",
+        "Browser_Version": "2.2",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:2.2*Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 2.2"
+      }
+    }
+  ]
+}

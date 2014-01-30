@@ -1,0 +1,59 @@
+{
+  "division": "Hitpad",
+  "sortIndex": 5150,
+  "userAgents": [
+    {
+      "userAgent": "Hitpad",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Hitpad",
+        "Browser_Name": "Hitpad",
+        "Browser_FullName": "Hitpad",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Hitpad* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hitpad"
+      }
+    },
+    {
+      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hitpad",
+        "Browser_FullName": "Hitpad 1.4",
+        "Browser_Version": "1.4",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/11.*",
+      "properties": {
+        "Parent": "Hitpad",
+        "Browser_FullName": "Hitpad 1.4",
+        "Browser_Version": "1.4",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4",
+        "Platform_FullName": "Darwin 11.0",
+        "Platform_Version": "11.0"
+      }
+    }
+  ]
+}

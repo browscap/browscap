@@ -1,0 +1,48 @@
+{
+  "division": "QuickLook 4.0",
+  "sortIndex": 9880,
+  "userAgents": [
+    {
+      "userAgent": "QuickLook 4.0",
+      "properties": {
+        "Parent": "QuickLook",
+        "Browser_FullName": "QuickLook 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_FullName": "Mac OS X 10.6",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_FullName": "Mac OS X 10.7",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_FullName": "Mac OS X 10.8",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_FullName": "Mac OS X 10.9",
+        "Platform_Version": "10.9"
+      }
+    }
+  ]
+}

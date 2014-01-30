@@ -1,0 +1,43 @@
+{
+  "division": "BlackBerry 4.7",
+  "sortIndex": 2450,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.7",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Browser_FullName": "BlackBerry 4.7",
+        "Browser_Version": "4.7",
+        "Version": "4.7",
+        "MajorVer": "4",
+        "MinorVer": "7",
+        "Platform_FullName": "RIM OS 4.7",
+        "Platform_Version": "4.7"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9500\/4.7*",
+      "properties": {
+        "Parent": "BlackBerry 4.7",
+        "Device_Code_Name": "BlackBerry 9500",
+        "Device_Name": "Storm"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9530\/4.7*",
+      "properties": {
+        "Parent": "BlackBerry 4.7",
+        "Device_Code_Name": "BlackBerry 8520",
+        "Device_Name": "Curve"
+      }
+    },
+    {
+      "userAgent": "BlackBerry9630\/4.7*",
+      "properties": {
+        "Parent": "BlackBerry 4.7",
+        "Device_Code_Name": "BlackBerry 9630",
+        "Device_Name": "BlackBerry 9630"
+      }
+    }
+  ]
+}

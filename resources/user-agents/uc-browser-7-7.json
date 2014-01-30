@@ -1,0 +1,29 @@
+{
+  "division": "UC Browser 7.7",
+  "sortIndex": 10880,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser 7.7",
+      "properties": {
+        "Parent": "UC Browser",
+        "Browser_FullName": "UC Browser 7.7",
+        "Browser_Version": "7.7",
+        "Version": "7.7",
+        "MajorVer": "7",
+        "MinorVer": "7"
+      }
+    },
+    {
+      "userAgent": "NokiaN97\/UC Browser7.7*",
+      "properties": {
+        "Parent": "UC Browser 7.7"
+      }
+    },
+    {
+      "userAgent": "S8500 UCWEB6.0\/UC Browser7.7*",
+      "properties": {
+        "Parent": "UC Browser 7.7"
+      }
+    }
+  ]
+}

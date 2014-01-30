@@ -1,0 +1,59 @@
+{
+  "division": "GooglePlus",
+  "sortIndex": 11110,
+  "userAgents": [
+    {
+      "userAgent": "GooglePlus",
+      "properties": {
+        "Parent": "Google",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Browser_SubType": "Browser",
+        "Browser": "GooglePlus App",
+        "Browser_Name": "GooglePlus App",
+        "Browser_FullName": "GooglePlus App"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad2,5; iPad; U; CPU OS 6_1* like Mac OS X; *) com.google.GooglePlus\/* (KHTML,*like Gecko*) Mobile\/*",
+      "properties": {
+        "Parent": "GooglePlus",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPad3,6; iPad; U; CPU OS 6_1* like Mac OS X; *) com.google.GooglePlus\/* (KHTML,*like Gecko*) Mobile\/*",
+      "properties": {
+        "Parent": "GooglePlus",
+        "Platform": "iOS",
+        "Platform_Name": "iOS",
+        "Platform_FullName": "iOS 6.1",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "iPad",
+        "Device_isMobileDevice": "true",
+        "Device_isTablet": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "division": "Facebook",
+  "sortIndex": 350,
+  "userAgents": [
+    {
+      "userAgent": "Facebook",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "Facebook",
+        "Browser": "Facebook",
+        "Browser_Name": "Facebook",
+        "Browser_FullName": "Facebook",
+        "Browser_Maker": "Facebook",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "Facebook share follower",
+      "properties": {
+        "Parent": "Facebook"
+      }
+    },
+    {
+      "userAgent": "facebookplatform\/1.0 *",
+      "properties": {
+        "Parent": "Facebook",
+        "Browser_FullName": "Facebook 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Facebook API PHP5 Client 1.1 (curl)*",
+      "properties": {
+        "Parent": "Facebook",
+        "Browser_FullName": "Facebook 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    }
+  ]
+}

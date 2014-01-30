@@ -1,0 +1,31 @@
+{
+  "division": "Mahalobot",
+  "sortIndex": 710,
+  "userAgents": [
+    {
+      "userAgent": "Mahalobot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Mahalobot",
+        "Browser_Name": "Mahalobot",
+        "Browser_FullName": "Mahalobot"
+      }
+    },
+    {
+      "userAgent": "Mahalobot\/* (?http:\/\/www.mahalo.com\/)",
+      "properties": {
+        "Parent": "Mahalobot"
+      }
+    },
+    {
+      "userAgent": "Mahalobot\/1.0 (?http:\/\/www.mahalo.com\/)",
+      "properties": {
+        "Parent": "Mahalobot",
+        "Browser_FullName": "Mahalobot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

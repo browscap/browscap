@@ -1,0 +1,31 @@
+{
+  "division": "Seznam Screenshot Generator",
+  "sortIndex": 1420,
+  "userAgents": [
+    {
+      "userAgent": "Seznam Screenshot Generator",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Seznam Screenshot Generator",
+        "Browser_Name": "Seznam Screenshot Generator",
+        "Browser_FullName": "Seznam Screenshot Generator"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Seznam screenshot-generator*",
+      "properties": {
+        "Parent": "Seznam Screenshot Generator"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.0;*)",
+      "properties": {
+        "Parent": "Seznam Screenshot Generator",
+        "Browser_FullName": "Seznam Screenshot Generator 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

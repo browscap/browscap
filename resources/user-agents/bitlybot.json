@@ -1,0 +1,31 @@
+{
+  "division": "bitlybot",
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "bitlybot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "BitlyBot",
+        "Browser_Name": "BitlyBot",
+        "Browser_FullName": "BitlyBot"
+      }
+    },
+    {
+      "userAgent": "bitlybot\/*",
+      "properties": {
+        "Parent": "bitlybot"
+      }
+    },
+    {
+      "userAgent": "bitlybot\/2.*",
+      "properties": {
+        "Parent": "bitlybot",
+        "Browser_FullName": "BitlyBot 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
+}

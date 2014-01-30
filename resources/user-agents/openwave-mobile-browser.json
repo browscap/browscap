@@ -1,0 +1,124 @@
+{
+  "division": "Openwave Mobile Browser",
+  "sortIndex": 8130,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Openwave Mobile Browser",
+        "Browser_Name": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "AUDIOVOX-PM8920KIT",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonS312\/R1FB Browser\/OpenWave\/1.0 *",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Device_Code_Name": "S312",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "S312"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW395\/R1FA Browser\/OpenWave\/1.0 *",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Device_Code_Name": "W395",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W395"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.01-IG01 UP.Link\/3.2.3.4",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.04-SN17 UP.Link\/3.4.5.6",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-DS15 UP.Link\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-NZ01 UP.Link\/*.1",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-SC02 UP.Link\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 3.1",
+        "Browser_Version": "3.1",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Openwave Mobile Browser 6.4",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 6.4",
+        "Browser_Version": "6.4",
+        "Version": "6.4",
+        "MajorVer": "6",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/7.0.2.3.119 (GUI) MMP\/2.0 Push\/PO",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 7.0",
+        "Browser_Version": "7.0",
+        "Version": "7.0",
+        "MajorVer": "7"
+      }
+    }
+  ]
+}

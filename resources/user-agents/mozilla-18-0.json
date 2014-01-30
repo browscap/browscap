@@ -1,0 +1,22 @@
+{
+  "division": "Mozilla 18.0",
+  "sortIndex": 7550,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 18.0",
+      "properties": {
+        "Parent": "Mozilla Generic",
+        "Browser_FullName": "Mozilla 18.0",
+        "Browser_Version": "18.0",
+        "Version": "18.0",
+        "MajorVer": "18"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:18.0*Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 18.0"
+      }
+    }
+  ]
+}

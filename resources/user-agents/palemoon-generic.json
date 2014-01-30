@@ -1,0 +1,31 @@
+{
+  "division": "PaleMoon Generic",
+  "sortIndex": 9520,
+  "userAgents": [
+    {
+      "userAgent": "PaleMoon Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "PaleMoon",
+        "Browser_Name": "PaleMoon",
+        "Browser_FullName": "PaleMoon",
+        "Browser_Maker": "Moonchild Productions",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    }
+  ]
+}

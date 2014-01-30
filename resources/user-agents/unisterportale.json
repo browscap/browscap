@@ -1,0 +1,77 @@
+{
+  "division": "UnisterPortale",
+  "sortIndex": 11140,
+  "userAgents": [
+    {
+      "userAgent": "UnisterPortale",
+      "properties": {
+        "Parent": "Unister",
+        "Browser": "UnisterPortale",
+        "Browser_Name": "UnisterPortale",
+        "Browser_FullName": "UnisterPortale",
+        "Browser_isBot": "true",
+        "Crawler": "true",
+        "Device_Type": "Bot",
+        "Device_Code_Name": "general Bot",
+        "Device_Name": "general Bot"
+      }
+    },
+    {
+      "userAgent": "Core_Class_HttpClient_Cached*",
+      "properties": {
+        "Parent": "UnisterPortale",
+        "Browser": "Core_Class_HttpClient_Cached",
+        "Browser_Name": "Core_Class_HttpClient_Cached",
+        "Browser_FullName": "Core_Class_HttpClient_Cached"
+      }
+    },
+    {
+      "userAgent": "Geld_Class_Service_KfzComeback*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "auto.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "finanzen.shopping.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "insurance.preisvergleich.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "www.auto.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "www.geld.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "www.kredit.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    },
+    {
+      "userAgent": "www.versicherungen.de*",
+      "properties": {
+        "Parent": "UnisterPortale"
+      }
+    }
+  ]
+}

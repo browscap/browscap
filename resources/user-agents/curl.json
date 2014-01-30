@@ -1,0 +1,65 @@
+{
+  "division": "cURL",
+  "sortIndex": 940,
+  "userAgents": [
+    {
+      "userAgent": "cURL",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "cURL",
+        "Browser_Name": "cURL",
+        "Browser_FullName": "cURL"
+      }
+    },
+    {
+      "userAgent": "PycURL\/*",
+      "properties": {
+        "Parent": "cURL"
+      }
+    },
+    {
+      "userAgent": "curl*",
+      "properties": {
+        "Parent": "cURL"
+      }
+    },
+    {
+      "userAgent": "libcurl-agent\/*",
+      "properties": {
+        "Parent": "cURL"
+      }
+    },
+    {
+      "userAgent": "curl\/7.19*linux*",
+      "properties": {
+        "Parent": "cURL",
+        "Browser_FullName": "cURL 7.19",
+        "Browser_Version": "7.19",
+        "Version": "7.19",
+        "MajorVer": "7",
+        "MinorVer": "19",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
+      }
+    },
+    {
+      "userAgent": "curl\/7.19*x86_64*linux*",
+      "properties": {
+        "Parent": "cURL",
+        "Browser_FullName": "cURL 7.19",
+        "Browser_Version": "7.19",
+        "Browser_Bits": "64",
+        "Version": "7.19",
+        "MajorVer": "7",
+        "MinorVer": "19",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Linux Foundation"
+      }
+    }
+  ]
+}

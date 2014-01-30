@@ -1,0 +1,35 @@
+{
+  "division": "Openwave Mobile Browser 5.1",
+  "sortIndex": 8170,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser 5.1",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 5.1",
+        "Browser_Version": "5.1",
+        "Version": "5.1",
+        "MajorVer": "5",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Amoi-V600\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Link\/5.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 5.1"
+      }
+    },
+    {
+      "userAgent": "Haier-P7 UP.Link\/5.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 5.1"
+      }
+    },
+    {
+      "userAgent": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 5.1"
+      }
+    }
+  ]
+}

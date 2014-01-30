@@ -1,0 +1,39 @@
+{
+  "division": "Sony",
+  "sortIndex": 10650,
+  "userAgents": [
+    {
+      "userAgent": "Sony",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Sony",
+        "Browser_Name": "Sony",
+        "Browser_FullName": "Sony",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)",
+      "properties": {
+        "Parent": "Sony"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)",
+      "properties": {
+        "Parent": "Sony"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)",
+      "properties": {
+        "Parent": "Sony"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "Marvin",
+  "sortIndex": 730,
+  "userAgents": [
+    {
+      "userAgent": "Marvin",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Marvin",
+        "Browser_Name": "Marvin",
+        "Browser_FullName": "Marvin"
+      }
+    },
+    {
+      "userAgent": "Marvin v*",
+      "properties": {
+        "Parent": "Marvin"
+      }
+    },
+    {
+      "userAgent": "Marvin v0.3",
+      "properties": {
+        "Parent": "Marvin",
+        "Browser_FullName": "Marvin 0.3",
+        "Browser_Version": "0.3",
+        "Version": "0.3",
+        "MinorVer": "3"
+      }
+    }
+  ]
+}

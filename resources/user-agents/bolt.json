@@ -1,0 +1,46 @@
+{
+  "division": "Bolt",
+  "sortIndex": 2520,
+  "userAgents": [
+    {
+      "userAgent": "Bolt",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Bolt",
+        "Browser_Name": "Bolt",
+        "Browser_FullName": "Bolt",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isMobileDevice": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
+      "properties": {
+        "Parent": "Bolt",
+        "Browser_FullName": "Bolt 0.862",
+        "Browser_Version": "0.862",
+        "Version": "0.862",
+        "MinorVer": "862",
+        "Platform": "Linux Smartphone OS",
+        "Platform_Name": "Linux Smartphone OS",
+        "Platform_FullName": "Linux Smartphone OS",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Mobile Phone"
+      }
+    }
+  ]
+}

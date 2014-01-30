@@ -1,0 +1,51 @@
+{
+  "division": "Opera Generic",
+  "sortIndex": 8250,
+  "userAgents": [
+    {
+      "userAgent": "Opera Generic",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Opera",
+        "Browser_Name": "Opera",
+        "Browser_FullName": "Opera",
+        "Browser_Maker": "Opera Software ASA",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Maker": "Opera Software ASA",
+        "RenderingEngine_FullName": "Presto",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    },
+    {
+      "userAgent": "Opera\/* (Nintendo DSi; Opera\/*)",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Device_Code_Name": "DSi",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Name": "DSi"
+      }
+    },
+    {
+      "userAgent": "Opera\/* (Nintendo Wii; U*)",
+      "properties": {
+        "Parent": "Opera Generic",
+        "Device_Code_Name": "Wii",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Name": "Wii"
+      }
+    }
+  ]
+}

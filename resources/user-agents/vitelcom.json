@@ -1,0 +1,49 @@
+{
+  "division": "Vitelcom",
+  "sortIndex": 10960,
+  "userAgents": [
+    {
+      "userAgent": "Vitelcom",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Vitelcom",
+        "Browser_Name": "Vitelcom",
+        "Browser_FullName": "Vitelcom 1.2.1",
+        "Browser_Version": "1.2.1",
+        "Version": "1.2.1",
+        "MajorVer": "1",
+        "MinorVer": "2.1",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "TSM-100\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM-100v\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM-30\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM340\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    }
+  ]
+}

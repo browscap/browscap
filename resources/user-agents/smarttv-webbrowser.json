@@ -1,0 +1,37 @@
+{
+  "division": "SmartTV WebBrowser",
+  "sortIndex": 10620,
+  "userAgents": [
+    {
+      "userAgent": "SmartTV WebBrowser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "SmartTV WebBrowser",
+        "Browser_Name": "SmartTV WebBrowser",
+        "Browser_FullName": "SmartTV WebBrowser",
+        "Platform": "Linux Smartphone OS",
+        "Platform_Name": "Linux Smartphone OS",
+        "Platform_FullName": "Linux Smartphone OS",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
+      "properties": {
+        "Parent": "SmartTV WebBrowser",
+        "Browser_FullName": "SmartTV WebBrowser 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

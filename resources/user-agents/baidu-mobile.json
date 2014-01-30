@@ -1,0 +1,29 @@
+{
+  "division": "Baidu Mobile",
+  "sortIndex": 1060,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Mobile",
+      "properties": {
+        "Parent": "Baidu",
+        "Browser": "BaiDu Mobile",
+        "Browser_Name": "BaiDu Mobile",
+        "Browser_FullName": "BaiDu Mobile",
+        "isMobileDevice": "true",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "*Baiduspider-mobile*",
+      "properties": {
+        "Parent": "Baidu Mobile"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider\/1.0; ?http:\/\/www.baidu.jp\/spider\/)",
+      "properties": {
+        "Parent": "Baidu Mobile"
+      }
+    }
+  ]
+}

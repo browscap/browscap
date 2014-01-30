@@ -1,0 +1,31 @@
+{
+  "division": "masidani_bot",
+  "sortIndex": 740,
+  "userAgents": [
+    {
+      "userAgent": "masidani_bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "masidani_bot",
+        "Browser_Name": "masidani_bot",
+        "Browser_FullName": "masidani_bot"
+      }
+    },
+    {
+      "userAgent": "masidani_bot_v*",
+      "properties": {
+        "Parent": "masidani_bot"
+      }
+    },
+    {
+      "userAgent": "masidani_bot_v0.6*",
+      "properties": {
+        "Parent": "masidani_bot",
+        "Browser_FullName": "masidani_bot 0.6",
+        "Browser_Version": "0.6",
+        "Version": "0.6",
+        "MinorVer": "6"
+      }
+    }
+  ]
+}

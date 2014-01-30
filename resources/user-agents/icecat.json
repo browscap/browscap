@@ -1,0 +1,342 @@
+{
+  "division": "IceCat",
+  "sortIndex": 5290,
+  "userAgents": [
+    {
+      "userAgent": "IceCat",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "IceCat",
+        "Browser_Name": "IceCat",
+        "Browser_FullName": "IceCat",
+        "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_FullName": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/1.5*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 1.5",
+        "Browser_Version": "1.5",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5",
+        "RenderingEngine_FullName": "Gecko 1.8.0",
+        "RenderingEngine_Version": "1.8.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/2.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "RenderingEngine_FullName": "Gecko 1.8.1",
+        "RenderingEngine_Version": "1.8.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "RenderingEngine_FullName": "Gecko 1.9.0",
+        "RenderingEngine_Version": "1.9.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.5*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.5",
+        "Browser_Version": "3.5",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "RenderingEngine_FullName": "Gecko 1.9.1",
+        "RenderingEngine_Version": "1.9.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.5* Firefox\/3.5*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.5",
+        "Browser_Version": "3.5",
+        "Version": "3.5",
+        "MajorVer": "3",
+        "MinorVer": "5",
+        "RenderingEngine_FullName": "Gecko 1.9.1",
+        "RenderingEngine_Version": "1.9.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.6* (like Firefox\/3.6*)*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.6",
+        "Browser_Version": "3.6",
+        "Version": "3.6",
+        "MajorVer": "3",
+        "MinorVer": "6",
+        "RenderingEngine_FullName": "Gecko 1.9.2",
+        "RenderingEngine_Version": "1.9.2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.6* Firefox\/3.6*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.6",
+        "Browser_Version": "3.6",
+        "Version": "3.6",
+        "MajorVer": "3",
+        "MinorVer": "6",
+        "RenderingEngine_FullName": "Gecko 1.9.2",
+        "RenderingEngine_Version": "1.9.2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (GNU; rv:*) Gecko\/* IceCat\/3.6* (like Firefox\/4.0)*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 3.6",
+        "Browser_Version": "3.6",
+        "Version": "3.6",
+        "MajorVer": "3",
+        "MinorVer": "6",
+        "RenderingEngine_FullName": "Gecko 4.0",
+        "RenderingEngine_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/4.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "RenderingEngine_FullName": "Gecko 4.0",
+        "RenderingEngine_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/5.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 5.0",
+        "Browser_Version": "5.0",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "RenderingEngine_FullName": "Gecko 5.0",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/6.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 6.0",
+        "Browser_Version": "6.0",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "RenderingEngine_FullName": "Gecko 6.0",
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/7.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 7.0",
+        "Browser_Version": "7.0",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "RenderingEngine_FullName": "Gecko 7.0",
+        "RenderingEngine_Version": "7.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/8.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 8.0",
+        "Browser_Version": "8.0",
+        "Version": "8.0",
+        "MajorVer": "8",
+        "RenderingEngine_FullName": "Gecko 8.0",
+        "RenderingEngine_Version": "8.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/9.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 9.0",
+        "Browser_Version": "9.0",
+        "Version": "9.0",
+        "MajorVer": "9",
+        "RenderingEngine_FullName": "Gecko 9.0",
+        "RenderingEngine_Version": "9.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/10.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 10.0",
+        "Browser_Version": "10.0",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "RenderingEngine_FullName": "Gecko 10.0",
+        "RenderingEngine_Version": "10.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/11.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 11.0",
+        "Browser_Version": "11.0",
+        "Version": "11.0",
+        "MajorVer": "11",
+        "RenderingEngine_FullName": "Gecko 11.0",
+        "RenderingEngine_Version": "11.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/12.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 12.0",
+        "Browser_Version": "12.0",
+        "Version": "12.0",
+        "MajorVer": "12",
+        "RenderingEngine_FullName": "Gecko 12.0",
+        "RenderingEngine_Version": "12.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/13.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 13.0",
+        "Browser_Version": "13.0",
+        "Version": "13.0",
+        "MajorVer": "13",
+        "RenderingEngine_FullName": "Gecko 13.0",
+        "RenderingEngine_Version": "13.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/14.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 14.0",
+        "Browser_Version": "14.0",
+        "Version": "14.0",
+        "MajorVer": "14",
+        "RenderingEngine_FullName": "Gecko 14.0",
+        "RenderingEngine_Version": "14.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/15.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 15.0",
+        "Browser_Version": "15.0",
+        "Version": "15.0",
+        "MajorVer": "15",
+        "RenderingEngine_FullName": "Gecko 15.0",
+        "RenderingEngine_Version": "15.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/16.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 16.0",
+        "Browser_Version": "16.0",
+        "Version": "16.0",
+        "MajorVer": "16",
+        "RenderingEngine_FullName": "Gecko 16.0",
+        "RenderingEngine_Version": "16.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/17.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 17.0",
+        "Browser_Version": "17.0",
+        "Version": "17.0",
+        "MajorVer": "17",
+        "RenderingEngine_FullName": "Gecko 17.0",
+        "RenderingEngine_Version": "17.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/18.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 18.0",
+        "Browser_Version": "18.0",
+        "Version": "18.0",
+        "MajorVer": "18",
+        "RenderingEngine_FullName": "Gecko 18.0",
+        "RenderingEngine_Version": "18.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/19.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 19.0",
+        "Browser_Version": "19.0",
+        "Version": "19.0",
+        "MajorVer": "19",
+        "RenderingEngine_FullName": "Gecko 19.0",
+        "RenderingEngine_Version": "19.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/20.0*",
+      "properties": {
+        "Parent": "IceCat",
+        "Browser_FullName": "IceCat 20.0",
+        "Browser_Version": "20.0",
+        "Version": "20.0",
+        "MajorVer": "20",
+        "RenderingEngine_FullName": "Gecko 20.0",
+        "RenderingEngine_Version": "20.0"
+      }
+    }
+  ]
+}

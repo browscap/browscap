@@ -1,0 +1,619 @@
+{
+  "division": "Openwave Mobile Browser 4.1",
+  "sortIndex": 8150,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser 4.1",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Browser_FullName": "Openwave Mobile Browser 4.1",
+        "Browser_Version": "4.1",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "ALAV UP\/4.1* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "Alcatel-BF3\/1.0 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "BF3",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Name": "BF3"
+      }
+    },
+    {
+      "userAgent": "GSD-550\/1.0 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "IAC KM100\/168 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "IAC\/KM15\/UP.Link\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "IAC\/KM178\/UP.Link\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "IM1K UP\/4.1* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-K4xxN\/MY1002 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-K4xxN\/MY1003 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-KE414\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-KX414c\/1.0.39 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-KX414c\/1.0.46 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-KX414c\/1.0.48 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-KX444c-BC\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-SE44\/1.0.08 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-SE44\/1.0.11 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "KWC-SE44\/1.0.22 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "LG-C810\/1.0 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "C810",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "C810"
+      }
+    },
+    {
+      "userAgent": "LGE-AD5235\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "AD5235",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "AD5235"
+      }
+    },
+    {
+      "userAgent": "LGE-AX3200 UP.Browser\/4.1.26*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "AX3200",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "AX3200"
+      }
+    },
+    {
+      "userAgent": "LGE-AX5450 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "AX5450",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "AX5450"
+      }
+    },
+    {
+      "userAgent": "LGE-CU8080\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "CU8080",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "CU8080"
+      }
+    },
+    {
+      "userAgent": "LGE-LG3200 UP.Browser\/4.1.27*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "3200",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "3200"
+      }
+    },
+    {
+      "userAgent": "LGE-TM520\/1.0 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "TM520",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "TM520"
+      }
+    },
+    {
+      "userAgent": "LGE-VX6000 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "VX6000",
+        "Device_Maker": "LGE",
+        "Device_Brand_Name": "LGE",
+        "Device_Name": "VX6000"
+      }
+    },
+    {
+      "userAgent": "MOT-1.2.0* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "120",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "120"
+      }
+    },
+    {
+      "userAgent": "MOT-1.2.2\/* UP.Browser\/4.1.25*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "122",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "122"
+      }
+    },
+    {
+      "userAgent": "MOT-76\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "76",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "76"
+      }
+    },
+    {
+      "userAgent": "MOT-A-0A\/00.0? UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "A-0A",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "A-0A"
+      }
+    },
+    {
+      "userAgent": "MOT-A-1F\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A-1F",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "A-1F"
+      }
+    },
+    {
+      "userAgent": "MOT-A-2B\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A-2B",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "A-2B"
+      }
+    },
+    {
+      "userAgent": "MOT-A-88\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A-88",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "A-88"
+      }
+    },
+    {
+      "userAgent": "MOT-AF\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AF",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "AF"
+      }
+    },
+    {
+      "userAgent": "MOT-AF\/* UP\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AF",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "AF"
+      }
+    },
+    {
+      "userAgent": "MOT-C4\/* UP\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C4",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "C4"
+      }
+    },
+    {
+      "userAgent": "MOT-D5\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D5",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "D5"
+      }
+    },
+    {
+      "userAgent": "MOT-F5\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F5",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "F5"
+      }
+    },
+    {
+      "userAgent": "MOT-F6\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F6",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "F6"
+      }
+    },
+    {
+      "userAgent": "MOT-FE\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "FE",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "FE"
+      }
+    },
+    {
+      "userAgent": "MOT-MCCB\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MCCB",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "MCCB"
+      }
+    },
+    {
+      "userAgent": "MOT-PAN4_* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAN4",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "PAN4"
+      }
+    },
+    {
+      "userAgent": "MOT-SAP4A* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SAP4A",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "SAP4A"
+      }
+    },
+    {
+      "userAgent": "MOT-SAP4_* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SAP4",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "SAP4"
+      }
+    },
+    {
+      "userAgent": "NOKIA-NPD-4AW\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "NPD-4AW",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "NPD-4AW"
+      }
+    },
+    {
+      "userAgent": "NOKIA-RH-17\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RH-17",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "RH-17"
+      }
+    },
+    {
+      "userAgent": "NOKIA-RH-44\/* D126V* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RH-44",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "RH-44"
+      }
+    },
+    {
+      "userAgent": "Nokia2112\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2112",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "2112"
+      }
+    },
+    {
+      "userAgent": "Nokia6016i\/* (*UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6016i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "6016i"
+      }
+    },
+    {
+      "userAgent": "OWG1 UP\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "QC-2255\/1.0.* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "QC-2325\/1.0.* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "QC-5135\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "QC07 UP.Browser\/4.1.26l",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-A300\/* UP\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH A300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH A300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-N620\/1.0 UP\/4.1.19k UP.Browser\/4.1.19k-XXXX*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-T100\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Code_Name": "SGH-T100",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-T100"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHQ200\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH Q200",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH Q200"
+      }
+    },
+    {
+      "userAgent": "SEC-scha650 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH A650",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH A650"
+      }
+    },
+    {
+      "userAgent": "SEC-scha670 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH A670",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH A670"
+      }
+    },
+    {
+      "userAgent": "SEC-schn391 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH N391",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH N391"
+      }
+    },
+    {
+      "userAgent": "SEC-schx199 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH X199",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH X199"
+      }
+    },
+    {
+      "userAgent": "SEC-schx339 UP.Browser\/4.1.26*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH X339",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH X339"
+      }
+    },
+    {
+      "userAgent": "SEC-schx609 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH X609",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH X609"
+      }
+    },
+    {
+      "userAgent": "SEC-schx659 UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH X659",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SCH X659"
+      }
+    },
+    {
+      "userAgent": "SEC-spha500 UP.Browser\/4.1.26*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPH A500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SPH A500"
+      }
+    },
+    {
+      "userAgent": "ZTE-C880\/* UP.Browser\/4.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 4.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C880",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTR",
+        "Device_Name": "C880"
+      }
+    }
+  ]
+}

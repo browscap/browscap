@@ -1,0 +1,21 @@
+{
+  "division": "Yahoo Mindset",
+  "sortIndex": 1340,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Mindset",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Mindset",
+        "Browser_Name": "Yahoo! Mindset",
+        "Browser_FullName": "Yahoo! Mindset"
+      }
+    },
+    {
+      "userAgent": "Yahoo! Mindset",
+      "properties": {
+        "Parent": "Yahoo Mindset"
+      }
+    }
+  ]
+}

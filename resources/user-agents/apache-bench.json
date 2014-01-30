@@ -1,0 +1,21 @@
+{
+  "division": "Apache Bench",
+  "sortIndex": 60,
+  "userAgents": [
+    {
+      "userAgent": "Apache Bench",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Apache Bench",
+        "Browser_Name": "Apache Bench",
+        "Browser_FullName": "Apache Bench"
+      }
+    },
+    {
+      "userAgent": "ApacheBench\/*",
+      "properties": {
+        "Parent": "Apache Bench"
+      }
+    }
+  ]
+}

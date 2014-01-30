@@ -1,0 +1,31 @@
+{
+  "division": "DomainsBotBot",
+  "sortIndex": 220,
+  "userAgents": [
+    {
+      "userAgent": "DomainsBotBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "DomainsBotBot",
+        "Browser_Name": "DomainsBotBot",
+        "Browser_FullName": "DomainsBotBot"
+      }
+    },
+    {
+      "userAgent": "DomainsBotBot\/*",
+      "properties": {
+        "Parent": "DomainsBotBot"
+      }
+    },
+    {
+      "userAgent": "DomainsBotBot\/1.*",
+      "properties": {
+        "Parent": "DomainsBotBot",
+        "Browser_FullName": "DomainsBotBot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
+}

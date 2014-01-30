@@ -1,0 +1,65 @@
+{
+  "division": "Microsoft Excel",
+  "sortIndex": 7170,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Excel",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Excel",
+        "Browser_Name": "Excel",
+        "Browser_FullName": "Excel",
+        "Browser_Maker": "Microsoft Corporation",
+        "Tables": "true",
+        "CssVersion": "2",
+        "Device_Maker": "Microsoft",
+        "Device_Brand_Name": "Microsoft",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "RenderingEngine_FullName": "Trident"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Excel\/12.*",
+      "properties": {
+        "Parent": "Microsoft Excel",
+        "Browser_FullName": "Excel 12.0",
+        "Browser_Version": "12.0",
+        "Version": "12.0",
+        "MajorVer": "12",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Excel\/14.*",
+      "properties": {
+        "Parent": "Microsoft Excel",
+        "Browser_FullName": "Excel 14.0",
+        "Browser_Version": "14.0",
+        "Version": "14.0",
+        "MajorVer": "14",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

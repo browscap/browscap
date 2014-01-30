@@ -1,0 +1,22 @@
+{
+  "division": "UC Browser",
+  "sortIndex": 10830,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "UC Browser",
+        "Browser_Name": "UC Browser",
+        "Browser_FullName": "UC Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_isMobileDevice": "true"
+      }
+    }
+  ]
+}

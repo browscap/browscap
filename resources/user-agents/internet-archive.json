@@ -1,0 +1,37 @@
+{
+  "division": "Internet Archive",
+  "sortIndex": 610,
+  "userAgents": [
+    {
+      "userAgent": "Internet Archive",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Internet Archive",
+        "Browser_Name": "Internet Archive",
+        "Browser_FullName": "Internet Archive",
+        "Browser_Maker": "www.archive.org",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "InternetArchive\/*",
+      "properties": {
+        "Parent": "Internet Archive"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; archive.org_bot*)",
+      "properties": {
+        "Parent": "Internet Archive"
+      }
+    },
+    {
+      "userAgent": "ia_archiver*",
+      "properties": {
+        "Parent": "Internet Archive"
+      }
+    }
+  ]
+}

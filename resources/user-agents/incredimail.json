@@ -1,0 +1,18 @@
+{
+  "division": "Incredimail",
+  "sortIndex": 1650,
+  "userAgents": [
+    {
+      "userAgent": "Incredimail",
+      "properties": {
+        "Parent": "General Email Client",
+        "Browser": "Incredimail",
+        "Browser_Name": "Incredimail",
+        "Browser_FullName": "Incredimail",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit"
+      }
+    }
+  ]
+}
