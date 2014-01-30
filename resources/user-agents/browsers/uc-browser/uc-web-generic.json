@@ -25,6 +25,12 @@
           "platforms": [
             "Android_4_1_C"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) UC AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "platforms": [
+            "Android_2_3"
+          ]
         }
       ]
     }

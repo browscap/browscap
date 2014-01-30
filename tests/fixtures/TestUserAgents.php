@@ -1,6 +1,81 @@
 <?php
 
 return [
+    'issue-96-AP' => [
+        'Opera/9.80 (Bada; Opera Mini/6.5/34.1016; U; tr) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '6.5',
+            'Platform' => 'Bada',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AO' => [
+        'Opera/9.80 (BREW; Opera Mini/6.5/34.1016; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '6.5',
+            'Platform' => 'Brew',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AN' => [
+        'UCWEB/2.0 (Linux; U; Adr 4.1.1; en-US; AURUS III) U2/1.0.0 UCBrowser/9.3.0.321 U2/1.0.0 Mobile',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.3',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AM' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Safari/535.7',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '16.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AL' => [
+        'JUC(Linux;U;Android2.3.5;Zh_cn;Micromax A35;480*800;)UCWEB7.8.0.95/139/444',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '7.8',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AK' => [
+        'OneBrowser/4.2.0/Adr(Linux; U; Android 2.3.5; en-us; Micromax A27 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+        [
+            'Browser' => 'OneBrowser',
+            'Version' => '4.2',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AJ' => [
+        'UCWEB/2.0 (Linux; U; Adr 2.3.5; en-US; Micromax A27) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.3',
+            'Platform' => 'Android',
+            'Platform_Version' => '2.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
     'issue-96-AI' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.2.349 U3/0.8.0 Mobile Safari/534.31',
         [
@@ -235,6 +310,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.11',
             'Platform' => 'Android',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -274,6 +350,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.8',
             'Platform' => 'Android',
+            'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -284,6 +361,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.8',
             'Platform' => 'Android',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -314,6 +392,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.11',
             'Platform' => 'Android',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -324,6 +403,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.8',
             'Platform' => 'Android',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],

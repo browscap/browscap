@@ -755,6 +755,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_3_C": {
+      "match": "JUC(Linux;U;Android2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android 3.0*",
       "properties": {
@@ -1005,6 +1014,17 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Maker": "Samsung"
+      }
+    },
+    "Brew": {
+      "match": "*BREW*",
+      "properties": {
+        "Platform": "Brew",
+        "Platform_Version": "2.0",
+        "Platform_Description": "Qualcomm Brew",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Qualcomm"
       }
     }
   }

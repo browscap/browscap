@@ -1,6 +1,6 @@
 {
   "division": "iBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7"],
+  "versions": ["2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "3.0", "3.1"],
   "sortIndex": 1706,
   "lite": true,
   "userAgents": [
@@ -27,8 +27,14 @@
         {
           "match": "iBrowser\/#MAJORVER#.#MINORVER#* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
+        },
+        {
+          "match": "iBrowser\/#MAJORVER#.#MINORVER#,Lava-Discover132\/*"
+        },
+        {
+          "match": "iBrowser\/Mini#MAJORVER#.#MINORVER# (*)*"
         }
       ]
     }
