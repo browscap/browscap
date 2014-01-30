@@ -1,6 +1,36 @@
 <?php
 
 return [
+    'issue-96-AS' => [
+        'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
+        [
+            'Browser' => 'UC Browser',
+            'Version' => '9.3',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AR' => [
+        'MicromaxX650 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Sync/SyncClient1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; U; en-US) Presto/2.5.28 Version/10.10',
+        [
+            'Browser' => 'Opera',
+            'Version' => '10.10',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-96-AQ' => [
+        'Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31762/34.1000; U; en) Presto/2.8.119 Version/11.10',
+        [
+            'Browser' => 'Opera Mini',
+            'Version' => '4.4',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+        ],
+    ],
     'issue-96-AP' => [
         'Opera/9.80 (Bada; Opera Mini/6.5/34.1016; U; tr) Presto/2.8.119 Version/11.10',
         [
