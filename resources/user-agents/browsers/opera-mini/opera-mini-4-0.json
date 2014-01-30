@@ -89,12 +89,6 @@
       }
     },
     {
-      "userAgent": "Opera\/*(MAUI Runtime; Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
       "userAgent": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
