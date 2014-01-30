@@ -1,60 +1,177 @@
 {
-  "division": "Maxthon #MAJORVER#.#MINORVER#",
-  "versions": [4],
-  "sortIndex": 2672,
-  "lite": true,
+  "division": "Maxthon 4.0",
+  "sortIndex": 6990,
   "userAgents": [
     {
-      "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
+      "userAgent": "Maxthon 4.0",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
-        "Browser": "Maxthon",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
+        "Parent": "Maxthon",
+        "Comment": "Maxthon 4.0",
+        "Browser_FullName": "Maxthon 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "CssVersion": "2",
         "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Version": "",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
-          "platforms": [
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "Linux_32", "Linux_64",
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
-            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
-            "Win8_1_32", "Win8_1_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)Maxthon AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
-          ]
-        }
-      ]
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 5.1) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.0) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.2; *) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 5.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "64",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.0; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "64",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "64",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Maxthon\/4.0* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Maxthon 4.0",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 8",
+        "Platform_Version": "8",
+        "Platform_Bits": "64",
+        "Win32": "true"
+      }
     }
   ]
 }

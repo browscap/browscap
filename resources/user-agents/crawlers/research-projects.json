@@ -1,42 +1,41 @@
 {
   "division": "Research Projects",
-  "sortIndex": 470,
+  "sortIndex": 920,
   "userAgents": [
     {
       "userAgent": "Research Projects",
       "properties": {
         "Parent": "General Crawlers",
-        "Comment": "Research Projects",
         "Browser": "Research Projects",
-        "Crawler": "true"
+        "Browser_Name": "Research Projects",
+        "Browser_FullName": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "JUST-CRAWLER(*)",
+      "properties": {
+        "Parent": "Research Projects",
+        "Browser": "Just-Crawler",
+        "Browser_Name": "Just-Crawler",
+        "Browser_FullName": "Just-Crawler"
       }
     },
     {
       "userAgent": "*research*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Generic Research Crawler"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "AcadiaUniversityWebCensusClient",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "AcadiaUniversityWebCensusClient"
+        "Parent": "Research Projects"
       }
     },
     {
-      "userAgent": "Amico Alpha * (*) Gecko\/* AmicoAlpha\/*",
+      "userAgent": "Amico Alpha * (*Gecko\/* AmicoAlpha\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Amico Alpha"
-      }
-    },
-    {
-      "userAgent": "annotate_google; http:\/\/ponderer.org\/*",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Annotate Google"
+        "Parent": "Research Projects"
       }
     },
     {
@@ -46,174 +45,141 @@
       }
     },
     {
-      "userAgent": "e-SocietyRobot(http:\/\/www.yama.info.waseda.ac.jp\/~yamana\/es\/)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "e-SocietyRobot"
-      }
-    },
-    {
       "userAgent": "Forschungsportal\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Forschungsportal"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Gulper Web *",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Gulper Web Bot"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "HooWWWer\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "HooWWWer"
+        "Parent": "Research Projects"
       }
     },
     {
-      "userAgent": "inetbot\/* (?http:\/\/www.inetbot.com\/bot.html)",
+      "userAgent": "IRLbot\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "inetbot"
-      }
-    },
-    {
-      "userAgent": "IRLbot\/1.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "IRLbot",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "IRLbot\/2.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "IRLbot\/3.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "JUST-CRAWLER(*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "JUST-CRAWLER"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Lachesis",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Lachesis"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; nextthing.org\/*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "nextthing.org",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Theophrastus\/*)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Theophrastus"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Webscan v0.*; +http:\/\/otc.dyndns.org\/webscan\/)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Webscan"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "MQbot*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "MQbot"
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Theophrastus\/*)",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Webscan v0.*; +http:\/\/otc.dyndns.org\/webscan\/)",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; nextthing.org\/*)",
+      "properties": {
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "OutfoxBot\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "OutfoxBot"
-      }
-    },
-    {
-      "userAgent": "polybot?*",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Polybot"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Shim?Crawler*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Shim Crawler"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Steeler\/*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Steeler"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Taiga web spider",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Taiga"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "Theme Spider*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Theme Spider"
-      }
-    },
-    {
-      "userAgent": "UofTDB_experiment* (leehyun@cs.toronto.edu)",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "UofTDB Experiment"
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "USyd-NLP-Spider*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "USyd-NLP-Spider"
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "UofTDB_experiment* (leehyun@cs.toronto.edu)",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "Zao-Crawler",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "Zao\/*",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "annotate_google; http:\/\/ponderer.org\/*",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "e-SocietyRobot(http:\/\/www.yama.info.waseda.ac.jp\/~yamana\/es\/)",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "inetbot\/* (?http:\/\/www.inetbot.com\/bot.html)",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "polybot?*",
+      "properties": {
+        "Parent": "Research Projects"
       }
     },
     {
       "userAgent": "woriobot*",
       "properties": {
-        "Parent": "Research Projects",
-        "Browser": "woriobot"
+        "Parent": "Research Projects"
       }
     },
     {
@@ -221,21 +187,8 @@
       "properties": {
         "Parent": "Research Projects",
         "Browser": "wwwster",
-        "Beta": "true"
-      }
-    },
-    {
-      "userAgent": "Zao-Crawler",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Zao-Crawler"
-      }
-    },
-    {
-      "userAgent": "Zao\/*",
-      "properties": {
-        "Parent": "Research Projects",
-        "Browser": "Zao"
+        "Browser_Name": "wwwster",
+        "Browser_FullName": "wwwster"
       }
     }
   ]

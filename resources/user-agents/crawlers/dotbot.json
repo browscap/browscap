@@ -1,6 +1,6 @@
 {
   "division": "DotBot",
-  "sortIndex": 100,
+  "sortIndex": 230,
   "userAgents": [
     {
       "userAgent": "DotBot",
@@ -8,9 +8,11 @@
         "Parent": "General Crawlers",
         "Comment": "DotBot",
         "Browser": "DotBot",
+        "Browser_Name": "DotBot",
+        "Browser_FullName": "DotBot",
+        "Browser_Maker": "dotnetdotcom.org",
         "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
+        "Tables": "true"
       }
     },
     {

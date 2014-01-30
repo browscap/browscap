@@ -1,6 +1,6 @@
 {
   "division": "Boitho",
-  "sortIndex": 80,
+  "sortIndex": 130,
   "userAgents": [
     {
       "userAgent": "Boitho",
@@ -8,23 +8,16 @@
         "Parent": "General Crawlers",
         "Comment": "Boitho",
         "Browser": "Boitho",
+        "Browser_Name": "Boitho",
+        "Browser_FullName": "Boitho",
         "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
+        "Tables": "true"
       }
     },
     {
-      "userAgent": "boitho.com-dc\/*",
+      "userAgent": "boitho.com-*",
       "properties": {
-        "Parent": "Boitho",
-        "Browser": "boitho.com-dc"
-      }
-    },
-    {
-      "userAgent": "boitho.com-robot\/*",
-      "properties": {
-        "Parent": "Boitho",
-        "Browser": "boitho.com-robot"
+        "Parent": "Boitho"
       }
     }
   ]

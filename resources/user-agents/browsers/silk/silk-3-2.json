@@ -1,50 +1,54 @@
 {
-  "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.2"],
-  "sortIndex": 1862,
-  "lite": true,
+  "division": "Silk 3.2",
+  "sortIndex": 10590,
   "userAgents": [
     {
-      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "userAgent": "Silk 3.2",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Browser": "Silk",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Platform": "Android",
-        "Platform_Version": "4.0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Parent": "Silk",
+        "Browser_FullName": "Silk 3.2",
+        "Browser_Version": "3.2",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.2* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.2",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.2* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.2",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#*",
+      "userAgent": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/* (KHTML, like Gecko) Silk\/3.2*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "PlayStation Vita",
-        "Device_Maker": "Sony"
+        "Parent": "Silk 3.2",
+        "Platform": "Java",
+        "Platform_Name": "Java",
+        "Platform_FullName": "Java 4.0",
+        "Platform_Maker": "Oracle",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "PlayStation Vita"
       }
     }
   ]

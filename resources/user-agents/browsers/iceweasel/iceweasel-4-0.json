@@ -1,44 +1,46 @@
 {
-  "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [4],
-  "sortIndex": 3390,
-  "lite": true,
+  "division": "Iceweasel 4.0",
+  "sortIndex": 5630,
   "userAgents": [
     {
-      "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
+      "userAgent": "Iceweasel 4.0",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
-        "Browser": "Iceweasel",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Platform": "Debian",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "2",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "2.0",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Iceweasel\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Debian", "Debian_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#* (like Firefox\/#MAJORVER#.#MINORVER#)*",
-          "platforms": [
-            "Debian", "Debian_64"
-          ]
-        }
-      ]
+        "Parent": "Iceweasel",
+        "Browser_FullName": "Iceweasel 4.0",
+        "Browser_Version": "4.0",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "RenderingEngine_FullName": "Gecko 4.0",
+        "RenderingEngine_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Firefox\/* Iceweasel\/4.0*",
+      "properties": {
+        "Parent": "Iceweasel 4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/4.0* (like Firefox\/*",
+      "properties": {
+        "Parent": "Iceweasel 4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Firefox\/* Iceweasel\/4.0*",
+      "properties": {
+        "Parent": "Iceweasel 4.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/4.0* (like Firefox\/*",
+      "properties": {
+        "Parent": "Iceweasel 4.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
     }
   ]
 }

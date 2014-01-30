@@ -1,6 +1,6 @@
 {
   "division": "Envolk",
-  "sortIndex": 120,
+  "sortIndex": 300,
   "userAgents": [
     {
       "userAgent": "Envolk",
@@ -8,9 +8,10 @@
         "Parent": "General Crawlers",
         "Comment": "Envolk",
         "Browser": "Envolk",
+        "Browser_Name": "Envolk",
+        "Browser_FullName": "Envolk",
         "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
+        "Tables": "true"
       }
     },
     {

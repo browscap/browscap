@@ -1,37 +1,37 @@
 {
-  "division": "Flock #MAJORVER#.#MINORVER#",
-  "versions": [3,"3.5"],
-  "sortIndex": 3102,
+  "division": "Flock 3.0",
+  "sortIndex": 4840,
   "userAgents": [
     {
-      "userAgent": "Flock #MAJORVER#.#MINORVER#",
+      "userAgent": "Flock 3.0",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Flock #MAJORVER#.#MINORVER#",
-        "Browser": "Flock",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
+        "Parent": "Flock Generic",
+        "Browser_FullName": "Flock 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Flock\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
-          "platforms": [
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B"
-          ]
-        }
-      ]
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*) Flock\/3.* Chrome\/*Safari\/*",
+      "properties": {
+        "Parent": "Flock 3.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
     }
   ]
 }

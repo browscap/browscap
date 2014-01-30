@@ -1,54 +1,66 @@
 {
-  "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "3.10", "3.11"],
-  "sortIndex": 1864,
-  "lite": true,
+  "division": "Silk 3.4",
+  "sortIndex": 10610,
   "userAgents": [
     {
-      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "userAgent": "Silk 3.4",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Browser": "Silk",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Platform": "Android",
-        "Platform_Version": "4.0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Parent": "Silk",
+        "Browser_FullName": "Silk 3.4",
+        "Browser_Version": "3.4",
+        "Version": "3.4",
+        "MajorVer": "3",
+        "MinorVer": "4"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.4",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.4",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.0*; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.0*; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
       "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
+        "Parent": "Silk 3.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
       }
     }
   ]

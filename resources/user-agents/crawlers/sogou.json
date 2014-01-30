@@ -1,6 +1,6 @@
 {
   "division": "Sogou",
-  "sortIndex": 220,
+  "sortIndex": 1480,
   "userAgents": [
     {
       "userAgent": "Sogou",
@@ -8,30 +8,10 @@
         "Parent": "General Crawlers",
         "Comment": "Sogou",
         "Browser": "Sogou",
+        "Browser_Name": "Sogou",
+        "Browser_FullName": "Sogou",
         "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "shaboyi spider",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou\/Shaboyi Spider"
-      }
-    },
-    {
-      "userAgent": "Sogou develop spider\/*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou Develop Spider"
-      }
-    },
-    {
-      "userAgent": "Sogou head spider*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou Head Spider"
+        "Tables": "true"
       }
     },
     {
@@ -41,69 +21,84 @@
       }
     },
     {
+      "userAgent": "Sogou develop spider\/*",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou Develop Spider",
+        "Browser_Name": "Sogou Develop Spider",
+        "Browser_FullName": "Sogou Develop Spider"
+      }
+    },
+    {
+      "userAgent": "Sogou head spider*",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou Head Spider",
+        "Browser_Name": "Sogou Head Spider",
+        "Browser_FullName": "Sogou Head Spider"
+      }
+    },
+    {
       "userAgent": "Sogou Orion spider\/*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou Orion spider"
+        "Browser": "Sogou Orion spider",
+        "Browser_Name": "Sogou Orion spider",
+        "Browser_FullName": "Sogou Orion spider"
       }
     },
     {
-      "userAgent": "Sogou Pic Agent",
+      "userAgent": "Sogou Pic Spider*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou\/Image Crawler"
+        "Browser": "Sogou Pic Spider",
+        "Browser_Name": "Sogou Pic Spider",
+        "Browser_FullName": "Sogou Pic Spider"
       }
     },
     {
-      "userAgent": "Sogou Pic Spider\/*",
+      "userAgent": "Sogou Push Spider*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou Pic Spider"
-      }
-    },
-    {
-      "userAgent": "Sogou Push Spider\/*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou Push Spider"
-      }
-    },
-    {
-      "userAgent": "sogou spider",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou\/Spider"
-      }
-    },
-    {
-      "userAgent": "sogou web spider*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "sogou web spider"
-      }
-    },
-    {
-      "userAgent": "Sogou web spider*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "sogou web spider"
-      }
-    },
-    {
-      "userAgent": "Sogou web spider/4.0*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "sogou web spider",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0"
+        "Browser": "Sogou Push Spider",
+        "Browser_Name": "Sogou Push Spider",
+        "Browser_FullName": "Sogou Push Spider"
       }
     },
     {
       "userAgent": "Sogou-Test-Spider\/*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou-Test-Spider"
+        "Browser": "Sogou-Test-Spider",
+        "Browser_Name": "Sogou-Test-Spider",
+        "Browser_FullName": "Sogou-Test-Spider"
+      }
+    },
+    {
+      "userAgent": "Sogou Pic Agent",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou\/Image Crawler",
+        "Browser_Name": "Sogou\/Image Crawler",
+        "Browser_FullName": "Sogou\/Image Crawler"
+      }
+    },
+    {
+      "userAgent": "shaboyi spider",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou\/Shaboyi Spider",
+        "Browser_Name": "Sogou\/Shaboyi Spider",
+        "Browser_FullName": "Sogou\/Shaboyi Spider"
+      }
+    },
+    {
+      "userAgent": "sogou spider*",
+      "properties": {
+        "Parent": "Sogou",
+        "Browser": "Sogou\/Spider",
+        "Browser_Name": "Sogou\/Spider",
+        "Browser_FullName": "Sogou\/Spider"
       }
     }
   ]

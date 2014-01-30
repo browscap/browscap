@@ -1,119 +1,74 @@
 {
   "division": "Proxy Servers",
-  "sortIndex": 460,
+  "sortIndex": 910,
   "userAgents": [
     {
       "userAgent": "Proxy Servers",
       "properties": {
         "Parent": "General Crawlers",
-        "Comment": "Proxy Servers",
-        "Browser": "Proxy Servers"
-      }
-    },
-    {
-      "userAgent": "*squid*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "Anonymisiert*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymizer\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizer"
-      }
-    },
-    {
-      "userAgent": "Anonymizied*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymous*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymous"
-      }
-    },
-    {
-      "userAgent": "Anonymous\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymous"
+        "Browser": "Proxy Servers",
+        "Browser_Name": "Proxy Servers",
+        "Browser_FullName": "Proxy Servers"
       }
     },
     {
       "userAgent": "CE-Preload",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "CE-Preload"
+        "Browser": "CE-Preload",
+        "Browser_Name": "CE-Preload",
+        "Browser_FullName": "CE-Preload"
       }
     },
     {
-      "userAgent": "http:\/\/Anonymouse.org\/*",
+      "userAgent": "CoralWebPrx*",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "Anonymouse"
-      }
-    },
-    {
-      "userAgent": "IE\/6.01 (CP\/M; 8-bit*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
+        "Browser": "CoralWeb Proxy",
+        "Browser_Name": "CoralWeb Proxy",
+        "Browser_FullName": "CoralWeb Proxy"
       }
     },
     {
       "userAgent": "Mozilla\/* (TuringOS; Turing Machine; 0.0)",
       "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizer"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; SaferSurf*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SaferSurf"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*; *) KHTML\/* (like Gecko)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Yahoo!",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Nutscrape",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "Nutscrape\/* (CP\/M; 8-bit*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
+        "Parent": "Proxy Servers"
       }
     },
     {
       "userAgent": "Privoxy\/*",
       "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Privoxy"
+        "Parent": "Proxy Servers"
+      }
+    },
+    {
+      "userAgent": "SilentSurf*",
+      "properties": {
+        "Parent": "Proxy Servers"
+      }
+    },
+    {
+      "userAgent": "SmallProxy*",
+      "properties": {
+        "Parent": "Proxy Servers"
+      }
+    },
+    {
+      "userAgent": "Space*Bison\/*",
+      "properties": {
+        "Parent": "Proxy Servers"
+      }
+    },
+    {
+      "userAgent": "Sqworm\/*",
+      "properties": {
+        "Parent": "Proxy Servers"
+      }
+    },
+    {
+      "userAgent": "SurfControl",
+      "properties": {
+        "Parent": "Proxy Servers"
       }
     },
     {
@@ -121,42 +76,57 @@
       "properties": {
         "Parent": "Proxy Servers",
         "Browser": "ProxyTester",
-        "Crawler": "true"
+        "Browser_Name": "ProxyTester",
+        "Browser_FullName": "ProxyTester"
       }
     },
     {
-      "userAgent": "SilentSurf*",
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "SilentSurf"
+        "Browser": "SaferSurf",
+        "Browser_Name": "SaferSurf",
+        "Browser_FullName": "SaferSurf"
       }
     },
     {
-      "userAgent": "SmallProxy*",
+      "userAgent": "*squid*",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "SmallProxy"
+        "Browser": "Squid",
+        "Browser_Name": "Squid",
+        "Browser_FullName": "Squid"
       }
     },
     {
-      "userAgent": "Space*Bison\/*",
+      "userAgent": "Nutscrape",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "Proxomitron"
+        "Browser": "Squid",
+        "Browser_Name": "Squid",
+        "Browser_FullName": "Squid"
       }
     },
     {
-      "userAgent": "Sqworm\/*",
+      "userAgent": "IE\/6.01 (CP\/M; 8-bit*)",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "Websense"
+        "Browser": "Squid",
+        "Browser_Name": "Squid",
+        "Browser_FullName": "Squid",
+        "Browser_Bits": "8",
+        "Platform_Bits": "8"
       }
     },
     {
-      "userAgent": "SurfControl",
+      "userAgent": "Nutscrape\/* (CP\/M; 8-bit*)",
       "properties": {
         "Parent": "Proxy Servers",
-        "Browser": "SurfControl"
+        "Browser": "Squid",
+        "Browser_Name": "Squid",
+        "Browser_FullName": "Squid",
+        "Browser_Bits": "8",
+        "Platform_Bits": "8"
       }
     }
   ]

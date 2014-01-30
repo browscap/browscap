@@ -1,6 +1,6 @@
 {
   "division": "YodaoBot",
-  "sortIndex": 230,
+  "sortIndex": 1600,
   "userAgents": [
     {
       "userAgent": "YodaoBot",
@@ -8,22 +8,16 @@
         "Parent": "General Crawlers",
         "Comment": "YodaoBot",
         "Browser": "YodaoBot",
+        "Browser_Name": "YodaoBot",
+        "Browser_FullName": "YodaoBot",
         "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
+        "Tables": "true"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)",
       "properties": {
         "Parent": "YodaoBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
-      "properties": {
-        "Parent": "YodaoBot",
-        "Browser": "YodaoBot-Image"
       }
     },
     {
@@ -39,25 +33,12 @@
       }
     },
     {
-      "userAgent": "Best Whois (http:\/\/www.bestwhois.net\/)",
+      "userAgent": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
       "properties": {
-        "Parent": "DNS Tools",
-        "Browser": "Best Whois"
-      }
-    },
-    {
-      "userAgent": "DNSGroup\/*",
-      "properties": {
-        "Parent": "DNS Tools",
-        "Browser": "DNS Group Crawler"
-      }
-    },
-    {
-      "userAgent": "TouchStone",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "TouchStone",
-        "isSyndicationReader": "true"
+        "Parent": "YodaoBot",
+        "Browser": "YodaoBot-Image",
+        "Browser_Name": "YodaoBot-Image",
+        "Browser_FullName": "YodaoBot-Image"
       }
     }
   ]

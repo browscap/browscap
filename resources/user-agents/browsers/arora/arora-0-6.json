@@ -1,34 +1,46 @@
 {
   "division": "Arora 0.6",
-  "sortIndex": 1181,
+  "sortIndex": 2180,
   "userAgents": [
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "userAgent": "Arora 0.6",
       "properties": {
-        "Parent": "Google Code",
-        "Comment": "Arora 0.6",
-        "Browser": "Arora",
+        "Parent": "Arora Generic",
+        "Browser_FullName": "Arora 0.6",
+        "Browser_Version": "0.6",
         "Version": "0.6",
-        "MajorVer": "0",
         "MinorVer": "6",
-        "Platform": "Win32",
-        "Win32": "true",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "JavaApplets": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "userAgent": "Mozilla\/5.0 (*Linux*AppleWebKit\/* (KHTML, like Gecko, Safari\/*Arora\/0.6*",
       "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6",
+        "Parent": "Arora 0.6",
         "Platform": "Linux",
-        "Win32": "false",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U*AppleWebKit\/* (KHTML, like Gecko, Safari\/*Arora\/0.6*",
+      "properties": {
+        "Parent": "Arora 0.6",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
       }
     }
   ]

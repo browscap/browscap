@@ -1,48 +1,56 @@
 {
   "division": "IE 1.0",
-  "sortIndex": 3830,
+  "sortIndex": 5700,
   "userAgents": [
     {
       "userAgent": "IE 1.0",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "IE 1.0",
-        "Browser": "IE",
+        "Parent": "IE Generic",
+        "Browser_FullName": "IE 1.0",
+        "Browser_Version": "1.0",
         "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "VBScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "MajorVer": "1"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 3.1*)*",
+      "userAgent": "Mozilla\/*(*compatible*;*MSIE 1.*Windows 3.11*",
       "properties": {
         "Parent": "IE 1.0",
-        "Platform": "WinNT",
+        "Browser_Bits": "16",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 3.1",
         "Platform_Version": "3.1",
-        "Platform_Description": "Windows NT"
+        "Platform_Bits": "16",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win16": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 3.11*)*",
+      "userAgent": "Mozilla\/1.*(*compatible*;*MSIE 1.*Windows 95*",
       "properties": {
         "Parent": "IE 1.0",
-        "Platform": "WinNT",
-        "Platform_Version": "3.11",
-        "Platform_Description": "Windows NT"
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows 95",
+        "Platform_Version": "95",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 95*)*",
+      "userAgent": "Mozilla\/1.*(*compatible*;*MSIE 1.*Windows NT*",
       "properties": {
         "Parent": "IE 1.0",
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows NT",
+        "Platform_Version": "NT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
       }
     }

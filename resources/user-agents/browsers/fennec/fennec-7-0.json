@@ -1,97 +1,86 @@
 {
   "division": "Fennec 7.0",
-  "sortIndex": 3424,
+  "sortIndex": 4310,
   "userAgents": [
     {
       "userAgent": "Fennec 7.0",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Fennec 7.0",
-        "Browser": "Fennec",
+        "Parent": "Fennec Generic",
+        "Browser_FullName": "Firefox Mobile 7.0",
+        "Browser_Version": "7.0",
         "Version": "7.0",
         "MajorVer": "7",
-        "MinorVer": "0",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "1.9",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "RenderingEngine_FullName": "Gecko 7.0",
+        "RenderingEngine_Version": "7.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Android; Linux*; rv:2.*) Gecko\/* Firefox\/* Fennec\/7.0*",
+      "userAgent": "Mozilla\/5.0 (Android; Linux*) Gecko\/* Firefox\/* Fennec\/7.*",
       "properties": {
         "Parent": "Fennec 7.0",
+        "Browser_Bits": "32",
         "Platform": "Android",
-        "Win32": "false",
-        "RenderingEngine_Version": "2.0"
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*; rv:2.1*) Gecko\/* Firefox\/* Fennec\/7.*",
+      "userAgent": "Mozilla\/5.0 (Android; Mobile; rv:*) Gecko\/* Firefox\/* Fennec\/7.*",
       "properties": {
         "Parent": "Fennec 7.0",
-        "Platform": "MacOSX",
-        "Win32": "false",
-        "RenderingEngine_Version": "2.1"
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1;*rv:1.9*) Gecko\/* Firefox\/* Fennec\/7.*",
+      "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:*) Gecko\/* Firefox\/* Fennec\/7.*",
       "properties": {
         "Parent": "Fennec 7.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isTablet": "true"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.2;*rv:1.9*) Gecko\/* Firefox\/* Fennec\/7.*",
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Firefox\/* Fennec\/7.*",
       "properties": {
         "Parent": "Fennec 7.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0;*rv:1.9*) Gecko\/* Firefox\/* Fennec\/7.*",
-      "properties": {
-        "Parent": "Fennec 7.0",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1;*rv:1.9*) Gecko\/* Firefox\/* Fennec\/7.*",
-      "properties": {
-        "Parent": "Fennec 7.0",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.2;*rv:1.9*) Gecko\/* Firefox\/* Fennec\/7.*",
-      "properties": {
-        "Parent": "Fennec 7.0",
-        "Platform": "Win8",
-        "Platform_Version": "6.2",
-        "Platform_Description": "Windows 8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux*) Gecko\/* Fennec\/7.*",
-      "properties": {
-        "Parent": "Fennec 7.0",
-        "Platform": "Linux"
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
       }
     }
   ]

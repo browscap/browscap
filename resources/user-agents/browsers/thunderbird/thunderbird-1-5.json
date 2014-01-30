@@ -1,95 +1,125 @@
 {
   "division": "Thunderbird 1.5",
-  "sortIndex": 3481,
+  "sortIndex": 1780,
   "userAgents": [
     {
       "userAgent": "Thunderbird 1.5",
       "properties": {
-        "Parent": "General Email Client",
-        "Comment": "Thunderbird 1.5",
-        "Browser": "Thunderbird",
+        "Parent": "Thunderbird Generic",
+        "Browser_FullName": "Thunderbird 1.5",
+        "Browser_Version": "1.5",
         "Version": "1.5",
         "MajorVer": "1",
         "MinorVer": "5",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "1.8",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "RenderingEngine_FullName": "Gecko 1.8.0",
+        "RenderingEngine_Version": "1.8.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Linux*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Thunderbird 1.5 on Linux",
       "properties": {
         "Parent": "Thunderbird 1.5",
         "Platform": "Linux",
-        "Win32": "false"
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Maker": "Linux Foundation"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Thunderbird\/1.5*",
       "properties": {
-        "Parent": "Thunderbird 1.5",
-        "Platform": "MacOSX",
-        "Win32": "false"
+        "Parent": "Thunderbird 1.5 on Linux",
+        "Platform_Version": "",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Thunderbird 1.5 on Mac OS X",
       "properties": {
         "Parent": "Thunderbird 1.5",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X; U*) Gecko\/* Thunderbird\/1.5*",
       "properties": {
-        "Parent": "Thunderbird 1.5",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
+        "Parent": "Thunderbird 1.5 on Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Thunderbird 1.5 on Windows",
       "properties": {
         "Parent": "Thunderbird 1.5",
-        "Platform": "Win2003",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows 2003"
+        "Browser_Bits": "32",
+        "Platform": "Windows",
+        "Platform_Name": "Windows",
+        "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0*) Gecko\/* Thunderbird\/1.5*",
       "properties": {
-        "Parent": "Thunderbird 1.5",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*) Gecko\/* Thunderbird\/1.5*",
       "properties": {
-        "Parent": "Thunderbird 1.5",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*)*Gecko\/*Thunderbird\/1.5*",
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Thunderbird\/1.5*",
       "properties": {
-        "Parent": "Thunderbird 1.5",
-        "Platform": "Win8",
-        "Platform_Description": "Windows 8"
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*) Gecko\/* Thunderbird\/1.5*",
+      "properties": {
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*) Gecko\/* Thunderbird\/1.5*",
+      "properties": {
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*) Gecko\/* Thunderbird\/1.5*",
+      "properties": {
+        "Parent": "Thunderbird 1.5 on Windows",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7"
       }
     }
   ]
