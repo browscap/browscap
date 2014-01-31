@@ -54,6 +54,23 @@
       }
     },
     {
+      "userAgent": "DAP *",
+      "properties": {
+        "Parent": "Download Managers",
+        "Browser": "Download Accelerator Plus"
+      }
+    },
+    {
+      "userAgent": "masscan\/1.0*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Download Accelerator",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
       "userAgent": "Download Demon*",
       "properties": {
         "Parent": "Download Managers",

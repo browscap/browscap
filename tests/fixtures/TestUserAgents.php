@@ -1,6 +1,15 @@
 <?php
 
 return [
+    'issue-99-C' => [
+        'DavClnt',
+        [
+            'Browser' => 'Microsoft-WebDAV',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-99-B' => [
         'XING-contenttabreceiver/2.0',
         [
