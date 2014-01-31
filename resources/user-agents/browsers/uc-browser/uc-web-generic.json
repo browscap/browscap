@@ -9,6 +9,7 @@
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
         "CssVersion": "1",
+        "isMobileDevice": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -17,6 +18,18 @@
           "match": "#PLATFORM#) UCWEB*",
           "platforms": [
             "Android_4_0_B", "Android_4_1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/* U2\/* Mobile",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) UC AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "platforms": [
+            "Android_2_3"
           ]
         }
       ]
