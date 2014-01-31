@@ -45,7 +45,7 @@
       "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 5.0*win9x\/NT 4.90*",
       "properties": {
         "Parent": "IE 5.0",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -57,7 +57,7 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -71,7 +71,7 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win95",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 95",
         "Platform_Version": "95",
@@ -85,7 +85,7 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win98",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 98",
         "Platform_Version": "98",
@@ -99,7 +99,7 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -113,10 +113,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -127,10 +127,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -141,10 +141,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -155,10 +155,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -169,10 +169,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -183,7 +183,7 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -197,10 +197,10 @@
       "properties": {
         "Parent": "IE 5.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"

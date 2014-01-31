@@ -87,7 +87,7 @@
       "properties": {
         "Parent": "Konqueror 4.9",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",

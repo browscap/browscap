@@ -149,7 +149,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win95",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 95",
         "Platform_Version": "95",
@@ -166,7 +166,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -183,7 +183,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win98",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 98",
         "Platform_Version": "98",
@@ -200,7 +200,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -217,10 +217,10 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
@@ -234,10 +234,10 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
@@ -251,7 +251,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinME",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows ME",
         "Platform_Version": "ME",
@@ -268,7 +268,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win3.1",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 3.1",
         "Platform_Version": "3.1",
@@ -285,7 +285,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win95",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 95",
         "Platform_Version": "95",
@@ -302,7 +302,7 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win98",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 98",
         "Platform_Version": "98",
@@ -319,10 +319,10 @@
       "properties": {
         "Parent": "Netscape 4.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",

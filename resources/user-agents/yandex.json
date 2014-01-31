@@ -57,10 +57,10 @@
       "properties": {
         "Parent": "Yandex",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",

@@ -17,7 +17,9 @@
       "properties": {
         "Parent": "GomezAgent 3.0",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0"
       }
     },
     {
@@ -25,7 +27,9 @@
       "properties": {
         "Parent": "GomezAgent 3.0",
         "Browser_Bits": "32",
-        "Platform_Bits": "64"
+        "Platform_Bits": "64",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2"
       }
     },
     {
@@ -33,7 +37,9 @@
       "properties": {
         "Parent": "GomezAgent 3.0",
         "Browser_Bits": "32",
-        "Platform_Bits": "64"
+        "Platform_Bits": "64",
+        "Platform": "Win7",
+        "Platform_Version": "6.1"
       }
     },
     {
@@ -41,7 +47,9 @@
       "properties": {
         "Parent": "GomezAgent 3.0",
         "Browser_Bits": "32",
-        "Platform_Bits": "64"
+        "Platform_Bits": "64",
+        "Platform": "Win7",
+        "Platform_Version": "6.1"
       }
     }
   ]

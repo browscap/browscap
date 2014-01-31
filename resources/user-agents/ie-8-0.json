@@ -22,10 +22,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -37,10 +37,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -52,10 +52,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -67,10 +67,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -82,10 +82,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -97,10 +97,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -111,7 +111,7 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
@@ -124,10 +124,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -138,10 +138,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -152,10 +152,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -166,10 +166,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -180,10 +180,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -194,10 +194,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -208,10 +208,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -222,10 +222,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -236,10 +236,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -250,10 +250,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -264,10 +264,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -278,10 +278,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -292,10 +292,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -306,10 +306,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -320,10 +320,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -334,10 +334,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -348,10 +348,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -362,10 +362,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -376,10 +376,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -391,10 +391,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -406,10 +406,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -421,10 +421,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -436,10 +436,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -450,10 +450,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -464,10 +464,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -478,10 +478,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -492,10 +492,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -506,10 +506,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -520,10 +520,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -534,10 +534,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -548,10 +548,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true"
@@ -563,10 +563,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -578,10 +578,10 @@
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
         "Browser_Modus": "IE 7 Compatibility Mode",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -592,10 +592,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "Win2000",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -606,10 +606,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -620,10 +620,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -634,10 +634,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "WinVista",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -648,10 +648,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -662,10 +662,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "Win7",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"
@@ -676,10 +676,10 @@
       "properties": {
         "Parent": "IE 8.0",
         "Browser_Bits": "64",
-        "Platform": "Windows",
+        "Platform": "Win8",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win64": "true"

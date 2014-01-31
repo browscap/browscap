@@ -304,7 +304,7 @@
       "properties": {
         "Parent": "Opera 10.61",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
@@ -319,48 +319,60 @@
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.0*Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.1*Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.2*Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.0*Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.1*Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows NT 5.1; U; *) Gecko\/* Firefox\/* Opera 10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
@@ -375,8 +387,10 @@
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows 2000*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
@@ -407,48 +421,60 @@
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 4.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 5.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 5.1*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 5.2*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 6.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Opera\/10.61*Windows NT 6.1*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
@@ -463,8 +489,10 @@
       "userAgent": "Mozilla\/?.*(*Windows 2000*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
@@ -495,48 +523,60 @@
       "userAgent": "Mozilla\/?.*(*Windows NT 4.0*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Windows NT 5.0*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Windows NT 5.1*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Windows NT 5.2*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Windows NT 6.0*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/?.*(*Windows NT 6.1*Opera?10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
@@ -551,8 +591,10 @@
       "userAgent": "Opera\/10.61*(*Windows 2000*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
@@ -583,48 +625,60 @@
       "userAgent": "Opera\/10.61*(*Windows NT 4.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Opera\/10.61*(*Windows NT 5.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Opera\/10.61*(*Windows NT 5.1*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Opera\/10.61*(*Windows NT 5.2*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Opera\/10.61*(*Windows NT 6.0*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Opera\/10.61*(*Windows NT 6.1*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
@@ -639,8 +693,10 @@
       "userAgent": "Opera\/9.80*(*Windows 2000*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
@@ -671,56 +727,70 @@
       "userAgent": "Opera\/9.80*(*Windows NT 4.0*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 5.0*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 5.1*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 5.2*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 6.0*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 6.1*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Opera\/9.80*(*Windows NT 5.1; WOW64*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "64"
       }
     },
@@ -728,8 +798,10 @@
       "userAgent": "Opera\/9.80*(*Windows NT 6.0; WOW64*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64"
       }
     },
@@ -737,8 +809,10 @@
       "userAgent": "Opera\/9.80*(*Windows NT 6.1; WOW64*Version\/10.61*",
       "properties": {
         "Parent": "Opera 10.61 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64"
       }
     },
@@ -747,8 +821,10 @@
       "properties": {
         "Parent": "Opera 10.61 on Windows",
         "Browser_Bits": "64",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64",
         "Win32": "false",
         "Win64": "true"

@@ -2571,7 +2571,7 @@
       "properties": {
         "Parent": "Chrome 21.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
@@ -2586,136 +2586,170 @@
       "userAgent": "Mozilla\/5.0 (*Windows NT 4.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 4.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Anonymisiert durch*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Chrome anonymized by*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Anonymisiert durch*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Chrome anonymized by*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Anonymisiert durch*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Chrome anonymized by*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Anonymisiert durch*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win8",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8"
+        "Platform_Version": "6.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Chrome anonymized by*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win8",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8"
+        "Platform_Version": "6.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win8",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8"
+        "Platform_Version": "6.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "64"
       }
     },
@@ -2723,8 +2757,10 @@
       "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "64"
       }
     },
@@ -2732,8 +2768,10 @@
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64"
       }
     },
@@ -2741,8 +2779,10 @@
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64"
       }
     },
@@ -2750,8 +2790,10 @@
       "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*WOW64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/21.*Safari\/*",
       "properties": {
         "Parent": "Chrome 21.0 on Windows",
+        "Platform": "Win8",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64"
       }
     }

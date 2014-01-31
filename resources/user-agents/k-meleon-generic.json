@@ -9,9 +9,10 @@
         "Browser": "K-Meleon",
         "Browser_Name": "K-Meleon",
         "Browser_FullName": "K-Meleon",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
+        "Platform_Bits": "32",
         "Platform_Version": "",
         "Platform_Maker": "Microsoft Corporation",
         "Frames": "true",
@@ -36,8 +37,10 @@
       "properties": {
         "Parent": "K-Meleon Generic",
         "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -69,8 +72,10 @@
       "properties": {
         "Parent": "K-Meleon Generic",
         "Browser_Bits": "32",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -80,8 +85,10 @@
       "properties": {
         "Parent": "K-Meleon Generic",
         "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -91,8 +98,10 @@
       "properties": {
         "Parent": "K-Meleon Generic",
         "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -102,8 +111,10 @@
       "properties": {
         "Parent": "K-Meleon Generic",
         "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Win32": "true"
       }

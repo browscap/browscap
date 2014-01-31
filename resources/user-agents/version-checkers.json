@@ -136,7 +136,9 @@
         "Browser_Name": "Subtext",
         "Browser_FullName": "Subtext",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2"
       }
     },
     {

@@ -17,10 +17,10 @@
       "properties": {
         "Parent": "IEMobile 6.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Win32": "true",
         "isMobileDevice": "false",

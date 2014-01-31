@@ -133,10 +133,10 @@
       "properties": {
         "Parent": "Yahoo",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "WinNT",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
+        "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",

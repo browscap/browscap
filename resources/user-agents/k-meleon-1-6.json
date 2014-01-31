@@ -18,8 +18,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
+        "Platform_Version": "5.0",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -29,8 +31,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -40,8 +44,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -51,8 +57,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -62,8 +70,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Win32": "true"
       }
@@ -73,8 +83,10 @@
       "properties": {
         "Parent": "K-Meleon 1.6",
         "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Win32": "true"
       }

@@ -64,10 +64,10 @@
       "userAgent": "Links (1.0*; CYGWIN_NT-5.1*)",
       "properties": {
         "Parent": "Links 1.0",
-        "Platform": "Windows",
+        "Platform": "WinXP",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Maker": "Microsoft Corporation",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
@@ -79,7 +79,7 @@
       "properties": {
         "Parent": "Links 1.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",

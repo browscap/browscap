@@ -396,7 +396,7 @@
       "properties": {
         "Parent": "Firefox 3.5",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
@@ -411,168 +411,210 @@
       "userAgent": "Mozilla\/5.0 (Windows NT 5.1; U; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows*; WinNT4.0*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinNT",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT"
+        "Platform_Version": "4.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "Win2000",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Platform_Version": "5.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.8*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9*) Gecko\/*Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9.1*) Gecko\/* Firefox*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9.1*) Gecko\/*Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:1.9.2*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; rv:*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Platform_Version": "5.2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.8*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.9.1*) Gecko\/* Firefox *",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.9.1*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *; rv:1.9.2*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Platform_Version": "6.0"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *; rv:1.8*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *; rv:1.9.1*) Gecko\/* Firefox *",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *; rv:1.9.2*) Gecko\/* Firefox\/3.5*",
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Platform_Version": "6.1"
       }
     },
     {
@@ -580,8 +622,10 @@
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
         "Browser_Bits": "64",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.1",
         "Platform_Bits": "64",
         "Win32": "false",
         "Win64": "true"
@@ -592,8 +636,10 @@
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
         "Browser_Bits": "64",
+        "Platform": "WinXP",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
+        "Platform_Version": "5.2",
         "Platform_Bits": "64",
         "Win32": "false",
         "Win64": "true"
@@ -604,8 +650,10 @@
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
         "Browser_Bits": "64",
+        "Platform": "WinVista",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
+        "Platform_Version": "6.0",
         "Platform_Bits": "64",
         "Win32": "false",
         "Win64": "true"
@@ -616,8 +664,10 @@
       "properties": {
         "Parent": "Firefox 3.5 on Windows",
         "Browser_Bits": "64",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Win32": "false",
         "Win64": "true"

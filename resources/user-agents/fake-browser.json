@@ -1096,7 +1096,9 @@
       "properties": {
         "Parent": "Fake Browser",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1"
       }
     },
     {
@@ -1104,7 +1106,9 @@
       "properties": {
         "Parent": "Fake Browser",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2"
       }
     },
     {
@@ -1432,7 +1436,9 @@
       "properties": {
         "Parent": "Fake Browser",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1"
       }
     },
     {
@@ -1440,7 +1446,9 @@
       "properties": {
         "Parent": "Fake Browser",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2"
       }
     },
     {
@@ -1448,7 +1456,9 @@
       "properties": {
         "Parent": "Fake Browser",
         "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Platform_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1"
       }
     },
     {

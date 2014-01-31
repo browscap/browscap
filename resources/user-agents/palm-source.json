@@ -13,7 +13,7 @@
       "properties": {
         "Parent": "Palm Source",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win98",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 98",
         "Platform_Version": "98",
@@ -32,7 +32,7 @@
       "properties": {
         "Parent": "Palm Source",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win98",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows 98",
         "Platform_Version": "98",

@@ -71,7 +71,7 @@
       "properties": {
         "Parent": "Opera 18.0",
         "Browser_Bits": "32",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
@@ -86,8 +86,10 @@
       "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* Safari\/* OPR\/18.*",
       "properties": {
         "Parent": "Opera 18.0 on Windows",
+        "Platform": "Win7",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
+        "Platform_Version": "6.1",
         "Platform_Bits": "64"
       }
     },
@@ -95,8 +97,10 @@
       "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/*Safari\/* OPR\/18.*",
       "properties": {
         "Parent": "Opera 18.0 on Windows",
+        "Platform": "Win8",
+        "Platform_Name": "Windows",
         "Platform_FullName": "Windows 8",
-        "Platform_Version": "8",
+        "Platform_Version": "6.2",
         "Platform_Bits": "64"
       }
     }

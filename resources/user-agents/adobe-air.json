@@ -36,7 +36,7 @@
         "Version": "3.8",
         "MajorVer": "3",
         "MinorVer": "8",
-        "Platform": "Windows",
+        "Platform": "Win32",
         "Platform_Name": "Windows",
         "Platform_FullName": "Windows",
         "Platform_Bits": "32",
