@@ -1,15 +1,16 @@
 {
-  "division": "Opera Mini 6.0",
-  "sortIndex": 2044,
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5"],
+  "sortIndex": 2045,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mini 6.0",
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini 6.0",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
         "Browser": "Opera Mini",
-        "Version": "6.0",
+        "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "6",
         "MinorVer": "0",
         "Frames": "true",
@@ -22,58 +23,114 @@
       }
     },
     {
-      "userAgent": "Opera\/*(*Android*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Android",
         "Device_Name": "Android",
         "Device_Maker": "Google"
       }
     },
     {
-      "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "BlackBerry OS",
         "Device_Name": "Blackberry",
         "Device_Maker": "RIM"
       }
     },
     {
-      "userAgent": "Opera\/*(*iPad*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Device_Name": "iPad",
         "Device_Maker": "Apple"
       }
     },
     {
-      "userAgent": "Opera\/*(*iPhone*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
       }
     },
     {
-      "userAgent": "Opera\/*(*J2ME\/MIDP*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA"
       }
     },
     {
-      "userAgent": "Opera\/*(*Series 60*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "SymbianOS"
       }
     },
     {
-      "userAgent": "Opera\/*(*Windows Mobile*Opera Mini\/6.*)*",
+      "userAgent": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 6.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "WinMobile"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Bada"
+      }
+    },
+    {
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA",
+        "Device_Maker": "Samsung"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-C3312 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA",
+        "Device_Maker": "Samsung",
+        "Device_Name": "GT-C3312"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5222 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA",
+        "Device_Maker": "Samsung",
+        "Device_Name": "GT-S5222"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5222R Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA",
+        "Device_Maker": "Samsung",
+        "Device_Name": "GT-S5222R"
       }
     }
   ]
