@@ -1432,6 +1432,24 @@
         "Platform_Bits": "32"
       }
     },
+    "Android_2_3_C": {
+      "match": "JUC(Linux;U;Android2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_3_D": {
+      "match": "*; U; Adr 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android 3.0*",
       "properties": {
@@ -1512,6 +1530,15 @@
         "Platform_Bits": "32"
       }
     },
+    "Android_4_0_C": {
+      "match": "*; U; Adr 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_1": {
       "match": "*Linux*Android 4.1*",
       "properties": {
@@ -1542,6 +1569,15 @@
         "Device_isMobileDevice": "true",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "Android_4_1_C": {
+      "match": "*; U; Adr 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
       }
     },
     "Android_4_2": {
@@ -1887,6 +1923,17 @@
         "Device_isMobileDevice": "true",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "Brew": {
+      "match": "*BREW*",
+      "properties": {
+        "Platform": "Brew",
+        "Platform_Version": "2.0",
+        "Platform_Description": "Qualcomm Brew",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Maker": "Qualcomm"
       }
     }
   }

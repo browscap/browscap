@@ -34,7 +34,51 @@
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-
+          ]
+        },
+        {
+          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Mastone G9"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Micromax A27"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Micromax A35"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Micromax A40"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "MT6515M* Linux\/* Android 2.3* Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "properties": {
+            "Device_Name": "MT6515M"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         }
       ]

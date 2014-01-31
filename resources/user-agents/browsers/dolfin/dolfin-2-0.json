@@ -36,7 +36,35 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*MIDP*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
           "match": "Samsung-* Dolphin/#MAJORVER#.*"
+        },
+        {
+          "match": "Samsung-* Dolfin/#MAJORVER#.*"
+        },
+        {
+          "match": "SAMSUNG-* Dolfin/#MAJORVER#.*"
+        },
+        {
+          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*",
+          "properties": {
+            "Device_Name": "GT-C6712",
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*MIDP*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-C6712",
+            "Device_Maker": "Samsung"
+          }
         }
       ]
     }

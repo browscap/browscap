@@ -1,24 +1,23 @@
 {
-  "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.8", "7.9"],
-  "sortIndex": 1176,
+  "division": "OneBrowser #MAJORVER#.#MINORVER#",
+  "versions": ["4.0", "4.1", "4.2"],
+  "sortIndex": 1705,
+  "lite": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Browser": "OneBrowser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
@@ -26,15 +25,12 @@
       },
       "children": [
         {
-          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "platforms": [
-            "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
-          ]
-        },
-        {
-          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0",
+            "RIMOS"
           ]
         }
       ]
