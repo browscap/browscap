@@ -63,7 +63,7 @@
     {
       "userAgent": "masscan\/1.0*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "Download Managers",
         "Browser": "Download Accelerator",
         "Version": "1.0",
         "MajorVer": "1",
