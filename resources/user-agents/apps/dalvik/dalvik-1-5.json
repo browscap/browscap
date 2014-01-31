@@ -1,271 +1,33 @@
 {
-  "division": "Dalvik 1.5",
-  "sortIndex": 3800,
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.5"],
+  "sortIndex": 2214,
   "userAgents": [
     {
-      "userAgent": "Dalvik 1.5",
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Dalvik Generic",
-        "Browser_FullName": "Dalvik 1.5",
-        "Browser_Version": "1.5",
-        "Version": "1.5",
-        "MajorVer": "1",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.0*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.0",
-        "Platform_Version": "3.0",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.0*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.0",
-        "Platform_Version": "3.0",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.1*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.1",
-        "Platform_Version": "3.1",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.1*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.1",
-        "Platform_Version": "3.1",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.1*; GT-P7510 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.1",
-        "Platform_Version": "3.1",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "GT-P7510",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy Tab 10.1"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.2*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.2",
-        "Platform_Version": "3.2",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.2*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.2",
-        "Platform_Version": "3.2",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.2*; Transformer TF101 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.2",
-        "Platform_Version": "3.2",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "TF101",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Name": "Eee Pad Transformer TF101",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.3*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.3",
-        "Platform_Version": "3.3",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.3*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.3",
-        "Platform_Version": "3.3",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.4*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.4",
-        "Platform_Version": "3.4",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 3.4*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 3.4",
-        "Platform_Version": "3.4",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.0*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.0",
-        "Platform_Version": "4.0",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.0*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.0",
-        "Platform_Version": "4.0",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.0*; Transformer TF101 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.0",
-        "Platform_Version": "4.0",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "TF101",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Name": "Eee Pad Transformer TF101",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.1*)",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.1",
-        "Platform_Version": "4.1",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.1*; A500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.1",
-        "Platform_Version": "4.1",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A500",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Name": "Picasso",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.5* (Linux*; Android 4.1*; Transformer TF101 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.5",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.1",
-        "Platform_Version": "4.1",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "TF101",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Name": "Eee Pad Transformer TF101",
-        "Device_isTablet": "true"
-      }
+        "Parent": "General Browser",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Browser": "Dalvik",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_3_0", "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "division": "Dalvik 1.1",
+  "sortIndex": 3770,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik 1.1",
+      "properties": {
+        "Parent": "Dalvik Generic",
+        "Browser_FullName": "Dalvik 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.1* (Linux*; Android 2.1*",
+      "properties": {
+        "Parent": "Dalvik 1.1",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 2.1",
+        "Platform_Version": "2.1",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.1* (Linux*; Android 2.1*; Garmin-Asus A50 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.1",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 2.1",
+        "Platform_Version": "2.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "A50",
+        "Device_Maker": "Garmin-Asus",
+        "Device_Brand_Name": "Garmin-Asus",
+        "Device_Name": "A50"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.1* (Linux*; Android 2.1*; MB525 Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.1",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 2.1",
+        "Platform_Version": "2.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "MB525",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "DEFY"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.1* (Linux*; Android 2.1*; Milestone Build\/*",
+      "properties": {
+        "Parent": "Dalvik 1.1",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 2.1",
+        "Platform_Version": "2.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Milestone",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "Milestone"
+      }
+    },
+    {
+      "userAgent": "Dalvik\/1.1* (Linux*; Android 2.1*; X10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/*",
+      "properties": {
+        "Parent": "Dalvik 1.1",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Android 2.1",
+        "Platform_Version": "2.1",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "X10i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "Xperia X10"
+      }
+    }
+  ]
+}

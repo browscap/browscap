@@ -1,95 +1,83 @@
 {
   "division": "IE 2.0",
-  "sortIndex": 5730,
+  "sortIndex": 3832,
   "userAgents": [
     {
       "userAgent": "IE 2.0",
       "properties": {
-        "Parent": "IE Generic",
-        "Browser_FullName": "IE 2.0",
-        "Browser_Version": "2.0",
+        "Parent": "General Browser",
+        "Comment": "IE 2.0",
+        "Browser": "IE",
         "Version": "2.0",
-        "MajorVer": "2"
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*",
-      "properties": {
-        "Parent": "IE 2.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*Windows 3.1*",
+      "userAgent": "Mozilla\/*(*MSIE 2.*Mac_PowerPC*)*",
       "properties": {
         "Parent": "IE 2.0",
-        "Browser_Bits": "16",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 3.1",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows 3.1*)*",
+      "properties": {
+        "Parent": "IE 2.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows 3.11*)*",
+      "properties": {
+        "Parent": "IE 2.0",
+        "Platform": "Win31",
+        "Platform_Version": "3.11"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows 95*)*",
+      "properties": {
+        "Parent": "IE 2.0",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows NT 3.1*)*",
+      "properties": {
+        "Parent": "IE 2.0",
+        "Platform": "WinNT",
         "Platform_Version": "3.1",
-        "Platform_Bits": "16",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win16": "true"
+        "Platform_Description": "Windows NT"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*Windows 95*",
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows NT 3.5*)*",
       "properties": {
         "Parent": "IE 2.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 95",
-        "Platform_Version": "95",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
+        "Platform": "WinNT",
+        "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*Windows 98*",
+      "userAgent": "Mozilla\/*(*MSIE 2.*Windows NT 4.0*)*",
       "properties": {
         "Parent": "IE 2.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 98",
-        "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*Windows NT*",
-      "properties": {
-        "Parent": "IE 2.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 2.*Windows CE*",
-      "properties": {
-        "Parent": "IE 2.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Name": "Windows Mobile OS",
-        "Platform_FullName": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_isMobileDevice": "true",
-        "Device_isDesktop": "false"
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
       }
     }
   ]

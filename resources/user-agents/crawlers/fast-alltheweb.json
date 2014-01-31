@@ -1,6 +1,7 @@
 {
   "division": "Fast\/AllTheWeb",
-  "sortIndex": 370,
+  "sortIndex": 150,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Fast\/AllTheWeb",
@@ -8,106 +9,79 @@
         "Parent": "General Crawlers",
         "Comment": "Fast\/AllTheWeb",
         "Browser": "Fast\/AllTheWeb",
-        "Browser_Name": "Fast\/AllTheWeb",
-        "Browser_FullName": "Fast\/AllTheWeb",
         "Frames": "true",
-        "Tables": "true"
-      }
-    },
-    {
-      "userAgent": "FAST Data Search Document Retriever\/4.0*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST Data Search Document Retriever",
-        "Browser_Name": "FAST Data Search Document Retriever",
-        "Browser_FullName": "FAST Data Search Document Retriever"
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
       "userAgent": "*FAST Enterprise Crawler*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST Enterprise Crawler",
-        "Browser_Name": "FAST Enterprise Crawler",
-        "Browser_FullName": "FAST Enterprise Crawler"
+        "Browser": "FAST Enterprise Crawler"
+      }
+    },
+    {
+      "userAgent": "FAST Data Search Document Retriever\/4.0*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST Data Search Document Retriever"
       }
     },
     {
       "userAgent": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST MetaWeb Crawler",
-        "Browser_Name": "FAST MetaWeb Crawler",
-        "Browser_FullName": "FAST MetaWeb Crawler"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*\/PartnerSite*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST PartnerSite",
-        "Browser_Name": "FAST PartnerSite",
-        "Browser_FullName": "FAST PartnerSite"
+        "Browser": "FAST MetaWeb Crawler"
       }
     },
     {
       "userAgent": "Fast PartnerSite Crawler*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST PartnerSite",
-        "Browser_Name": "FAST PartnerSite",
-        "Browser_FullName": "FAST PartnerSite"
+        "Browser": "FAST PartnerSite"
       }
     },
     {
       "userAgent": "FAST-WebCrawler\/*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler",
-        "Browser_Name": "FAST-WebCrawler",
-        "Browser_FullName": "FAST-WebCrawler"
+        "Browser": "FAST-WebCrawler"
       }
     },
     {
       "userAgent": "FAST-WebCrawler\/*\/FirstPage*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/FirstPage",
-        "Browser_Name": "FAST-WebCrawler\/FirstPage",
-        "Browser_FullName": "FAST-WebCrawler\/FirstPage"
+        "Browser": "FAST-WebCrawler\/FirstPage"
       }
     },
     {
       "userAgent": "FAST-WebCrawler\/*\/Fresh*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/Fresh",
-        "Browser_Name": "FAST-WebCrawler\/Fresh",
-        "Browser_FullName": "FAST-WebCrawler\/Fresh"
+        "Browser": "FAST-WebCrawler\/Fresh"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*\/PartnerSite*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST PartnerSite"
       }
     },
     {
       "userAgent": "FAST-WebCrawler\/*?Multimedia*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/Multimedia",
-        "Browser_Name": "FAST-WebCrawler\/Multimedia",
-        "Browser_FullName": "FAST-WebCrawler\/Multimedia"
-      }
-    },
-    {
-      "userAgent": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb"
+        "Browser": "FAST-WebCrawler\/Multimedia"
       }
     },
     {
       "userAgent": "FastSearch Web Crawler for*",
       "properties": {
         "Parent": "Fast\/AllTheWeb",
-        "Browser": "FastSearch Web Crawler",
-        "Browser_Name": "FastSearch Web Crawler",
-        "Browser_FullName": "FastSearch Web Crawler"
+        "Browser": "FastSearch Web Crawler"
       }
     }
   ]

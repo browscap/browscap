@@ -1,0 +1,101 @@
+{
+  "division": "Fennec 5.0",
+  "sortIndex": 4290,
+  "userAgents": [
+    {
+      "userAgent": "Fennec 5.0",
+      "properties": {
+        "Parent": "Fennec Generic",
+        "Browser_FullName": "Firefox Mobile 5.0",
+        "Browser_Version": "5.0",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "RenderingEngine_FullName": "Gecko 5.0",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Linux*) Gecko\/* Firefox\/* Fennec\/5.*",
+      "properties": {
+        "Parent": "Fennec 5.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Mobile; rv:*) Gecko\/* Firefox\/* Fennec\/5.*",
+      "properties": {
+        "Parent": "Fennec 5.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:*) Gecko\/* Firefox\/* Fennec\/5.*",
+      "properties": {
+        "Parent": "Fennec 5.0",
+        "Browser_Bits": "32",
+        "Platform": "Android",
+        "Platform_Name": "Android",
+        "Platform_FullName": "Android",
+        "Platform_Version": "",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Google Inc",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Maemo; Linux*) Gecko\/* Firefox\/* Fennec\/5.*",
+      "properties": {
+        "Parent": "Fennec 5.0",
+        "Platform": "Linux Smartphone OS",
+        "Platform_Name": "Linux Smartphone OS",
+        "Platform_FullName": "Linux Smartphone OS",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Firefox\/* Fennec\/5.*",
+      "properties": {
+        "Parent": "Fennec 5.0",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isMobileDevice": "false",
+        "Device_isDesktop": "true"
+      }
+    }
+  ]
+}

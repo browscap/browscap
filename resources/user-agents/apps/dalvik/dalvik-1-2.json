@@ -1,251 +1,33 @@
 {
-  "division": "Dalvik 1.2",
-  "sortIndex": 3780,
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 2212,
   "userAgents": [
     {
-      "userAgent": "Dalvik 1.2",
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Dalvik Generic",
-        "Browser_FullName": "Dalvik 1.2",
-        "Browser_Version": "1.2",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; Desire HD Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "Desire HD",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "Desire HD"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; GT-I5500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "GT-I5500",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy 5"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; GT-I9000 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "GT-I9000",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy S"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; GT-P1000 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "GT-P1000",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy Tab",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; GT-P1010 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "GT-P1010",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy Tab",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; HTC Desire Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "Desire",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "Desire"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; HTC Legend Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "Legend",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "Legend"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; LG-P500 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "P500",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Name": "Optimus One"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; PC36100 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; SC-02B Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; Vortex Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.2*; smartpad Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.2",
-        "Platform_Version": "2.2",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "Smartpad",
-        "Device_Maker": "1 & 1",
-        "Device_Brand_Name": "1 & 1",
-        "Device_Name": "Smartpad"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 2.3*; GT-P1010 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 2.3",
-        "Platform_Version": "2.3",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "GT-P1010",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy Tab",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 4.0*; GT-I9000 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.0",
-        "Platform_Version": "4.0",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "GT-I9000",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy S"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 4.0*; GT-P1010 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.0",
-        "Platform_Version": "4.0",
-        "Platform_Bits": "32",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "GT-P1010",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy Tab",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "Dalvik\/1.2* (Linux*; Android 4.1*; GT-I9000 Build\/*",
-      "properties": {
-        "Parent": "Dalvik 1.2",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Android 4.1",
-        "Platform_Version": "4.1",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "GT-I9000",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "Galaxy S"
-      }
+        "Parent": "General Browser",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Browser": "Dalvik",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1"
+          ]
+        }
+      ]
     }
   ]
 }

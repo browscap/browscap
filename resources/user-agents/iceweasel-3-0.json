@@ -1,0 +1,74 @@
+{
+  "division": "Iceweasel 3.0",
+  "sortIndex": 5600,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel 3.0",
+      "properties": {
+        "Parent": "Iceweasel",
+        "Browser_FullName": "Iceweasel 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "RenderingEngine_FullName": "Gecko 1.9.0",
+        "RenderingEngine_Version": "1.9.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/3.0* (Debian-*",
+      "properties": {
+        "Parent": "Iceweasel 3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/3.0* (Zenwalk GNU Linux)",
+      "properties": {
+        "Parent": "Iceweasel 3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/3.0* (f*-3.0*)",
+      "properties": {
+        "Parent": "Iceweasel 3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/3.0* (like Firefox\/*)",
+      "properties": {
+        "Parent": "Iceweasel 3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/3.0* (Debian-*",
+      "properties": {
+        "Parent": "Iceweasel 3.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/3.0* (Zenwalk GNU Linux)",
+      "properties": {
+        "Parent": "Iceweasel 3.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/3.0* (f*-3.0*)",
+      "properties": {
+        "Parent": "Iceweasel 3.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/3.0* (like Firefox\/*)",
+      "properties": {
+        "Parent": "Iceweasel 3.0",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
+}

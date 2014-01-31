@@ -1,0 +1,103 @@
+{
+  "division": "MSN",
+  "sortIndex": 1220,
+  "userAgents": [
+    {
+      "userAgent": "MSN",
+      "properties": {
+        "Parent": "Search Engines",
+        "Comment": "MSN",
+        "Browser": "MSN",
+        "Browser_Name": "MSN",
+        "Browser_FullName": "MSN",
+        "Browser_Maker": "Microsoft Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "adidxbot",
+        "Browser_Name": "adidxbot",
+        "Browser_FullName": "adidxbot 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Danger",
+        "Browser_Name": "Danger",
+        "Browser_FullName": "Danger 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "librabot\/1.0 (*)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "librabot",
+        "Browser_Name": "librabot",
+        "Browser_FullName": "librabot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "llssbot\/1.0",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "llssbot",
+        "Browser_Name": "llssbot",
+        "Browser_FullName": "llssbot 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Microsoft Bing Mobile SocialStreams Bot",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Microsoft Bing Mobile SocialStreams Bot",
+        "Browser_Name": "Microsoft Bing Mobile SocialStreams Bot",
+        "Browser_FullName": "Microsoft Bing Mobile SocialStreams Bot"
+      }
+    },
+    {
+      "userAgent": "MSR-ISRCCrawler",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "Windows-Live-Social-Object-Extractor-Engine\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Vancouver*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Vancouver",
+        "Browser_Name": "Vancouver",
+        "Browser_FullName": "Vancouver",
+        "Browser_isSyndicationReader": "true",
+        "isSyndicationReader": "true"
+      }
+    }
+  ]
+}

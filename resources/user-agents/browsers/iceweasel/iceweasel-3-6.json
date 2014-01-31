@@ -1,47 +1,44 @@
 {
-  "division": "Iceweasel 3.6",
-  "sortIndex": 5620,
+  "division": "Iceweasel #MAJORVER#.#MINORVER#",
+  "versions": ["3.6"],
+  "sortIndex": 3380,
+  "lite": true,
   "userAgents": [
     {
-      "userAgent": "Iceweasel 3.6",
+      "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Iceweasel",
-        "Browser_FullName": "Iceweasel 3.6",
-        "Browser_Version": "3.6",
-        "Version": "3.6",
-        "MajorVer": "3",
-        "MinorVer": "6",
-        "RenderingEngine_FullName": "Gecko 1.9.2",
-        "RenderingEngine_Version": "1.9.2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Firefox\/* Iceweasel\/3.6*",
-      "properties": {
-        "Parent": "Iceweasel 3.6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceweasel\/3.6* (like Firefox\/*",
-      "properties": {
-        "Parent": "Iceweasel 3.6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Firefox\/* Iceweasel\/3.6*",
-      "properties": {
-        "Parent": "Iceweasel 3.6",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/* Iceweasel\/3.6* (like Firefox\/3.6)*",
-      "properties": {
-        "Parent": "Iceweasel 3.6",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
-      }
+        "Parent": "General Browser",
+        "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
+        "Browser": "Iceweasel",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Debian",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.9.2",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Iceweasel\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Debian", "Debian_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#* (like Firefox\/#MAJORVER#.#MINORVER#)*",
+          "platforms": [
+            "Debian", "Debian_64"
+          ]
+        }
+      ]
     }
   ]
 }

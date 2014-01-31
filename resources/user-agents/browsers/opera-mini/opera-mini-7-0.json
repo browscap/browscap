@@ -1,151 +1,79 @@
 {
   "division": "Opera Mini 7.0",
-  "sortIndex": 9200,
+  "sortIndex": 2045,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini 7.0",
       "properties": {
-        "Parent": "Opera Mini Generic",
-        "Browser_FullName": "Opera Mini 7.0",
-        "Browser_Version": "7.0",
+        "Parent": "General Browser",
+        "Comment": "Opera Mini 7.0",
+        "Browser": "Opera Mini",
         "Version": "7.0",
         "MajorVer": "7",
-        "RenderingEngine_FullName": "Presto 2.8",
-        "RenderingEngine_Version": "2.8"
+        "MinorVer": "0",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
       }
     },
     {
-      "userAgent": "Opera\/*(Android*Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*Android*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Browser_Bits": "32",
         "Platform": "Android",
-        "Platform_Name": "Android",
-        "Platform_FullName": "Android",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Google Inc"
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
       }
     },
     {
-      "userAgent": "Opera\/9.80 (Android; Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Browser_Bits": "32",
-        "Platform": "Android",
-        "Platform_Name": "Android",
-        "Platform_FullName": "Android",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Google Inc"
+        "Platform": "BlackBerry OS",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM"
       }
     },
     {
-      "userAgent": "Opera\/*(*iPad*Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*iPad*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Platform": "iOS",
-        "Platform_Name": "iOS",
-        "Platform_FullName": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
         "Device_Name": "iPad",
-        "Device_isTablet": "true"
+        "Device_Maker": "Apple"
       }
     },
     {
-      "userAgent": "Opera\/*(*iPhone*Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*iPhone*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Platform": "iOS",
-        "Platform_Name": "iOS",
-        "Platform_FullName": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "Device_Code_Name": "iPhone",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "iPhone"
+        "Device_Name": "iPhone",
+        "Device_Maker": "Apple"
       }
     },
     {
-      "userAgent": "Opera\/9.80 (iPad; Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*J2ME\/MIDP*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Platform": "iOS",
-        "Platform_Name": "iOS",
-        "Platform_FullName": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "iPad",
-        "Device_isTablet": "true"
+        "Platform": "JAVA"
       }
     },
     {
-      "userAgent": "Opera\/9.80 (iPhone; Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*Series 60*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Platform": "iOS",
-        "Platform_Name": "iOS",
-        "Platform_FullName": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "Device_Code_Name": "iPhone",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "iPhone"
+        "Platform": "SymbianOS"
       }
     },
     {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/7.*",
+      "userAgent": "Opera\/*(*Windows Mobile*Opera Mini\/7.*)*",
       "properties": {
         "Parent": "Opera Mini 7.0",
-        "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
-        "Platform_Maker": "Oracle"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/7.*",
-      "properties": {
-        "Parent": "Opera Mini 7.0",
-        "Platform": "RIM OS",
-        "Platform_Name": "RIM OS",
-        "Platform_FullName": "RIM OS",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Code_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/7.*",
-      "properties": {
-        "Parent": "Opera Mini 7.0",
-        "Platform": "Symbian OS",
-        "Platform_Name": "Symbian OS",
-        "Platform_FullName": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Windows*Opera Mini\/7.*",
-      "properties": {
-        "Parent": "Opera Mini 7.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Name": "Windows Mobile OS",
-        "Platform_FullName": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation"
+        "Platform": "WinMobile"
       }
     }
   ]

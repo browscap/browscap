@@ -1,126 +1,86 @@
 {
   "division": "IE 3.0",
-  "sortIndex": 5740,
+  "sortIndex": 3833,
   "userAgents": [
     {
       "userAgent": "IE 3.0",
       "properties": {
-        "Parent": "IE Generic",
-        "Browser_FullName": "IE 3.0",
-        "Browser_Version": "3.0",
+        "Parent": "General Browser",
+        "Comment": "IE 3.0",
+        "Browser": "IE",
         "Version": "3.0",
-        "MajorVer": "3"
+        "MajorVer": "3",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Mac_PowerPC*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Mac_PowerPC*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "RenderingEngine_Name": "Tasman",
-        "RenderingEngine_FullName": "Tasman 4.0",
-        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+        "Platform": "MacPPC"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Mac_PPC*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 3.1*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Browser_Bits": "32",
-        "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "RenderingEngine_Name": "Tasman",
-        "RenderingEngine_FullName": "Tasman 4.0",
-        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+        "Platform": "Win31",
+        "Platform_Version": "3.1"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*",
-      "properties": {
-        "Parent": "IE 3.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*win9x\/NT 4.90*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 3.11*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows ME",
-        "Platform_Version": "ME",
-        "Platform_Maker": "Microsoft Corporation"
+        "Platform": "Win31",
+        "Platform_Version": "3.11"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Windows 3.1*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows 95*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Browser_Bits": "16",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 3.1",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 3.1*)*",
+      "properties": {
+        "Parent": "IE 3.0",
+        "Platform": "WinNT",
         "Platform_Version": "3.1",
-        "Platform_Bits": "16",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win16": "true"
+        "Platform_Description": "Windows NT"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Windows 95*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 3.5*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 95",
-        "Platform_Version": "95",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
+        "Platform": "WinNT",
+        "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT"
       }
     },
     {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Windows 98*",
+      "userAgent": "Mozilla\/*(*MSIE 3.*Windows NT 4.0*)*",
       "properties": {
         "Parent": "IE 3.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 98",
-        "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*compatible*;*MSIE 3.*Windows NT*",
-      "properties": {
-        "Parent": "IE 3.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true"
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
       }
     }
   ]

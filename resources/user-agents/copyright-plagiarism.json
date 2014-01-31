@@ -1,0 +1,115 @@
+{
+  "division": "Copyright\/Plagiarism",
+  "sortIndex": 150,
+  "userAgents": [
+    {
+      "userAgent": "Copyright\/Plagiarism",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "Copyright\/Plagiarism",
+        "Browser": "Copyright\/Plagiarism",
+        "Browser_Name": "Copyright\/Plagiarism",
+        "Browser_FullName": "Copyright\/Plagiarism"
+      }
+    },
+    {
+      "userAgent": "BDFetch",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "BDFetch",
+        "Browser_Name": "BDFetch",
+        "Browser_FullName": "BDFetch"
+      }
+    },
+    {
+      "userAgent": "IWAgent\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "Brand Protect",
+        "Browser_Name": "Brand Protect",
+        "Browser_FullName": "Brand Protect"
+      }
+    },
+    {
+      "userAgent": "copyright sheriff (*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "copyright sheriff",
+        "Browser_Name": "copyright sheriff",
+        "Browser_FullName": "copyright sheriff"
+      }
+    },
+    {
+      "userAgent": "CopyRightCheck*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "CopyRightCheck",
+        "Browser_Name": "CopyRightCheck",
+        "Browser_FullName": "CopyRightCheck"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; DKIMRepBot\/*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "DKIMRepBot",
+        "Browser_Name": "DKIMRepBot",
+        "Browser_FullName": "DKIMRepBot"
+      }
+    },
+    {
+      "userAgent": "FairAd Client*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "FairAd Client",
+        "Browser_Name": "FairAd Client",
+        "Browser_FullName": "FairAd Client"
+      }
+    },
+    {
+      "userAgent": "iCopyright Conductor*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "iCopyright Conductor",
+        "Browser_Name": "iCopyright Conductor",
+        "Browser_FullName": "iCopyright Conductor"
+      }
+    },
+    {
+      "userAgent": "IPiumBot laurion(dot)com",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "IPiumBot",
+        "Browser_Name": "IPiumBot",
+        "Browser_FullName": "IPiumBot"
+      }
+    },
+    {
+      "userAgent": "oBot",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "oBot",
+        "Browser_Name": "oBot",
+        "Browser_FullName": "oBot"
+      }
+    },
+    {
+      "userAgent": "SlySearch\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "SlySearch",
+        "Browser_Name": "SlySearch",
+        "Browser_FullName": "SlySearch"
+      }
+    },
+    {
+      "userAgent": "TutorGigBot\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TutorGig",
+        "Browser_Name": "TutorGig",
+        "Browser_FullName": "TutorGig"
+      }
+    }
+  ]
+}

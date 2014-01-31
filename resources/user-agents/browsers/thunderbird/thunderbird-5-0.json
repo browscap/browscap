@@ -1,217 +1,179 @@
 {
   "division": "Thunderbird 5.0",
-  "sortIndex": 1920,
+  "sortIndex": 3485,
   "userAgents": [
     {
       "userAgent": "Thunderbird 5.0",
       "properties": {
-        "Parent": "Thunderbird Generic",
-        "Browser_FullName": "Thunderbird 5.0",
-        "Browser_Version": "5.0",
+        "Parent": "General Email Client",
+        "Comment": "Thunderbird 5.0",
+        "Browser": "Thunderbird",
         "Version": "5.0",
         "MajorVer": "5",
-        "RenderingEngine_FullName": "Gecko 5.0",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*rv:2.*)*Gecko\/*Thunderbird\/5.*",
+      "properties": {
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Linux",
+        "Win32": "false",
+        "RenderingEngine_Version": "2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*rv:5.*)*Gecko\/*Thunderbird\/5.*",
+      "properties": {
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Linux",
         "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Thunderbird 5.0 on Linux",
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
         "Parent": "Thunderbird 5.0",
-        "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
-        "Platform_Maker": "Linux Foundation"
+        "Platform": "MacOSX",
+        "Win32": "false",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Linux",
-        "Platform_Version": "",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; Linux*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Linux",
-        "Platform_Version": "",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; Linux i686; rv:*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Linux",
-        "Browser_Bits": "32",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; Linux x86_64; rv:5.0) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Linux",
-        "Browser_Bits": "64",
-        "Platform_Version": "",
-        "Platform_Bits": "64",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Thunderbird 5.0 on Mac OS X",
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
         "Parent": "Thunderbird 5.0",
-        "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Platform": "MacOSX",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X; U*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10"
-      }
-    },
-    {
-      "userAgent": "Thunderbird 5.0 on Windows",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
         "Parent": "Thunderbird 5.0",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 5.1; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 5.2; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.0; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "7"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "RenderingEngine_Version": "5.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 5.1; WOW64; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*rv:2.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "64"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "RenderingEngine_Version": "2.0"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.0; WOW64; rv:*) Gecko\/* Thunderbird\/5.*",
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.2*rv:5.*)*Gecko\/*Thunderbird\/5.*",
       "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
-        "Platform_Bits": "64"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:*) Gecko\/* Thunderbird\/5.*",
-      "properties": {
-        "Parent": "Thunderbird 5.0 on Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
-        "Platform_Bits": "64"
+        "Parent": "Thunderbird 5.0",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows 8",
+        "RenderingEngine_Version": "5.0"
       }
     }
   ]

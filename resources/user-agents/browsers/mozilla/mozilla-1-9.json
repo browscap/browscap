@@ -1,288 +1,158 @@
 {
   "division": "Mozilla 1.9",
-  "sortIndex": 7460,
+  "sortIndex": 3649,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Mozilla 1.9",
       "properties": {
-        "Parent": "Mozilla Generic",
-        "Browser_FullName": "Mozilla 1.9",
-        "Browser_Version": "1.9",
+        "Parent": "General Browser",
+        "Comment": "Mozilla 1.9",
+        "Browser": "Mozilla",
         "Version": "1.9",
         "MajorVer": "1",
-        "MinorVer": "9"
+        "MinorVer": "9",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.9",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11*FreeBSD*rv:1.9*Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (*rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win 9x 4.90; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.1; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform_Version": "3.1",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.11; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "Win31",
+        "Platform_Version": "3.11",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win95; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win98; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT4.0; *rv:1.9*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.9",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; *FreeBSD*; *rv:1.9*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.9",
         "Platform": "FreeBSD",
-        "Platform_Name": "FreeBSD",
-        "Platform_FullName": "FreeBSD",
-        "Platform_Version": "",
-        "Platform_Maker": "FreeBSD Foundation",
-        "Device_Type": "Desktop"
+        "Win32": "false"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.9*) Gecko *",
+      "userAgent": "Mozilla\/5.0 (X11; *Linux*; *rv:1.9*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.9",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
+        "Win32": "false"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11*Linux*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; ?*Mac OS X*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11*OpenBSD*rv:1.9*Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (X11; *OpenBSD*; *rv:1.9*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.9",
         "Platform": "OpenBSD",
-        "Platform_Name": "OpenBSD",
-        "Platform_FullName": "OpenBSD",
-        "Device_Type": "Desktop"
+        "Win32": "false"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11*SunOS*rv:1.9*Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (X11; *SunOS*; *rv:1.9*) Gecko\/*",
       "properties": {
         "Parent": "Mozilla 1.9",
         "Platform": "SunOS",
-        "Platform_Name": "SunOS",
-        "Platform_FullName": "SunOS",
-        "Platform_Version": "",
-        "Platform_Maker": "Oracle",
-        "Device_Type": "Desktop",
-        "Device_Brand_Name": "Oracle"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.1*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "16",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 3.1",
-        "Platform_Version": "3.1",
-        "Platform_Bits": "16",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win16": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.11*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "16",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 3.1",
-        "Platform_Version": "3.1",
-        "Platform_Bits": "16",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win16": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win 9x 4.90*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows ME",
-        "Platform_Version": "ME",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win95*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 95",
-        "Platform_Version": "95",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win98*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 98",
-        "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT4.0*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*rv:1.9*Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "Vista",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*rv:1.9*Gecko*",
-      "properties": {
-        "Parent": "Mozilla 1.9",
-        "Browser_Bits": "32",
-        "Platform": "Windows",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "7",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
+        "Win32": "false"
       }
     }
   ]

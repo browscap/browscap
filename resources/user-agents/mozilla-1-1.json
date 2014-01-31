@@ -1,0 +1,23 @@
+{
+  "division": "Mozilla 1.1",
+  "sortIndex": 7380,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 1.1",
+      "properties": {
+        "Parent": "Mozilla Generic",
+        "Browser_FullName": "Mozilla 1.1",
+        "Browser_Version": "1.1",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:1.1.*Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.1"
+      }
+    }
+  ]
+}

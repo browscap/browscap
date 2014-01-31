@@ -1,0 +1,31 @@
+{
+  "division": "DotBot",
+  "sortIndex": 230,
+  "userAgents": [
+    {
+      "userAgent": "DotBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "DotBot",
+        "Browser": "DotBot",
+        "Browser_Name": "DotBot",
+        "Browser_FullName": "DotBot",
+        "Browser_Maker": "dotnetdotcom.org",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "DotBot\/* (http:\/\/www.dotnetdotcom.org\/*)",
+      "properties": {
+        "Parent": "DotBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; DotBot\/*; http:\/\/www.dotnetdotcom.org\/*)",
+      "properties": {
+        "Parent": "DotBot"
+      }
+    }
+  ]
+}

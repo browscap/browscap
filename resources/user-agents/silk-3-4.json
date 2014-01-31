@@ -1,0 +1,67 @@
+{
+  "division": "Silk 3.4",
+  "sortIndex": 10610,
+  "userAgents": [
+    {
+      "userAgent": "Silk 3.4",
+      "properties": {
+        "Parent": "Silk",
+        "Browser_FullName": "Silk 3.4",
+        "Browser_Version": "3.4",
+        "Version": "3.4",
+        "MajorVer": "3",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.4",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.4",
+        "Browser_Modus": "Desktop Mode",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.0*; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; Android 4.0*; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/3.4* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk 3.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_isTablet": "true"
+      }
+    }
+  ]
+}

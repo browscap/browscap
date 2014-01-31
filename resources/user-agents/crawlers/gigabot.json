@@ -1,6 +1,6 @@
 {
   "division": "Gigabot",
-  "sortIndex": 490,
+  "sortIndex": 160,
   "userAgents": [
     {
       "userAgent": "Gigabot",
@@ -8,10 +8,9 @@
         "Parent": "General Crawlers",
         "Comment": "Gigabot",
         "Browser": "Gigabot",
-        "Browser_Name": "Gigabot",
-        "Browser_FullName": "Gigabot",
         "Frames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
@@ -24,9 +23,7 @@
       "userAgent": "GigabotSiteSearch\/*",
       "properties": {
         "Parent": "Gigabot",
-        "Browser": "GigabotSiteSearch",
-        "Browser_Name": "GigabotSiteSearch",
-        "Browser_FullName": "GigabotSiteSearch"
+        "Browser": "GigabotSiteSearch"
       }
     }
   ]

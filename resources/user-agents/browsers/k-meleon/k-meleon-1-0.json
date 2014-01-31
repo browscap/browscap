@@ -1,92 +1,98 @@
 {
   "division": "K-Meleon 1.0",
-  "sortIndex": 6430,
+  "sortIndex": 2450,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "K-Meleon 1.0",
       "properties": {
-        "Parent": "K-Meleon Generic",
-        "Browser_FullName": "K-Meleon 1.0",
-        "Browser_Version": "1.0",
+        "Parent": "General Browser",
+        "Comment": "K-Meleon 1.0",
+        "Browser": "K-Meleon",
         "Version": "1.0",
-        "MajorVer": "1"
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       }
     },
     {
-      "userAgent": "K-Meleon\/1.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Mozilla\/5.0",
+      "userAgent": "Mozilla\/5.0 (Windows; *; Win95; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "32",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows*; Win95*; rv:1.*Gecko\/* K-Meleon\/1.0*",
-      "properties": {
-        "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows 95",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win95",
         "Platform_Version": "95",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Platform_Description": "Windows 95"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows*; Win98*; rv:1.*Gecko\/* K-Meleon\/1.0*",
+      "userAgent": "Mozilla\/5.0 (Windows; *; Win98; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows 98",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win98",
         "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Platform_Description": "Windows 98"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows*; WinNT4.0*; rv:1.*Gecko\/* K-Meleon\/1.0*",
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.0; *; rv:1.*) Gecko\/* K-Meleon?1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows NT",
-        "Platform_Version": "NT",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.0*; rv:1.*Gecko\/* K-Meleon?1.0*",
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.1; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows 2000",
-        "Platform_Version": "2000",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.1*; rv:1.*Gecko\/* K-Meleon\/1.0*",
+      "userAgent": "Mozilla\/5.0 (Windows; *; Windows NT 5.2; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.2*; rv:1.*Gecko\/* K-Meleon\/1.0*",
+      "userAgent": "Mozilla\/5.0 (Windows; *; WinNT4.0; *; rv:1.*) Gecko\/* K-Meleon\/1.0*",
       "properties": {
         "Parent": "K-Meleon 1.0",
-        "Browser_Bits": "32",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "XP",
-        "Platform_Bits": "32",
-        "Win32": "true"
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
       }
     }
   ]

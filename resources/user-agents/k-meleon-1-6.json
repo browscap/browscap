@@ -1,0 +1,83 @@
+{
+  "division": "K-Meleon 1.6",
+  "sortIndex": 6460,
+  "userAgents": [
+    {
+      "userAgent": "K-Meleon 1.6",
+      "properties": {
+        "Parent": "K-Meleon Generic",
+        "Browser_FullName": "K-Meleon 1.6",
+        "Browser_Version": "1.6",
+        "Version": "1.6",
+        "MajorVer": "1",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.0*Gecko\/* K-Meleon?1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 2000",
+        "Platform_Version": "2000",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.1*Gecko\/* K-Meleon\/1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 5.2*Gecko\/* K-Meleon\/1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows XP",
+        "Platform_Version": "XP",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 6.0*Gecko\/* K-Meleon\/1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows Vista",
+        "Platform_Version": "Vista",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows*; Windows NT 6.1*Gecko\/* K-Meleon\/1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) Gecko K-Meleon\/1.6*",
+      "properties": {
+        "Parent": "K-Meleon 1.6",
+        "Browser_Bits": "32",
+        "Platform_FullName": "Windows 7",
+        "Platform_Version": "7",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    }
+  ]
+}
