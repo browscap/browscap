@@ -516,13 +516,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
-      "properties": {
-        "Parent": "Search Engines",
-        "Browser": "AhrefsBot"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (compatible; ayna-crawler*)",
       "properties": {
         "Parent": "Search Engines",

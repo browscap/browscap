@@ -5,13 +5,19 @@
     {
       "userAgent": "AhrefsBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "Search Engines",
         "Browser": "AhrefsBot",
         "Browser_Name": "AhrefsBot",
         "Browser_FullName": "AhrefsBot",
         "Browser_Maker": "Ahrefs Inc"
       }
     },
+      {
+          "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
+          "properties": {
+              "Parent": "AhrefsBot"
+          }
+      },
     {
       "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
       "properties": {

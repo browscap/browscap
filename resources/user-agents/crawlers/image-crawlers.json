@@ -29,7 +29,9 @@
       "userAgent": "Camcrawler*",
       "properties": {
         "Parent": "Image Crawlers",
-        "Browser": "Camcrawler"
+          "Browser": "Camcrawler",
+          "Browser_Name": "Camcrawler",
+          "Browser_FullName": "Camcrawler"
       }
     },
     {

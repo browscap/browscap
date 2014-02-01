@@ -17,27 +17,12 @@
       }
     },
     {
-      "userAgent": "AdsBot Google-Mobile*",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "AdsBot Google-Mobile",
-        "Browser_Name": "AdsBot Google-Mobile",
-        "Browser_FullName": "AdsBot Google-Mobile"
-      }
-    },
-    {
       "userAgent": "Mediapartners-Google*",
       "properties": {
         "Parent": "Google",
         "Browser": "AdSense Bot",
         "Browser_Name": "AdSense Bot",
         "Browser_FullName": "AdSense Bot"
-      }
-    },
-    {
-      "userAgent": "AdsBot Google-Mobile (?http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*) Mobile Safari",
-      "properties": {
-        "Parent": "Google"
       }
     },
     {

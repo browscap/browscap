@@ -17,12 +17,6 @@
       }
     },
     {
-      "userAgent": "AdsBot Google-Mobile ( http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*)",
-      "properties": {
-        "Parent": "Googlebot-Mobile"
-      }
-    },
-    {
       "userAgent": "KDDI-Googlebot-Mobile",
       "properties": {
         "Parent": "Googlebot-Mobile"
