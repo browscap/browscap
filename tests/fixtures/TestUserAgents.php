@@ -1,6 +1,34 @@
 <?php
 
 return [
+    'issue-99-C' => [
+        'DavClnt',
+        [
+            'Browser' => 'Microsoft-WebDAV',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-99-B' => [
+        'XING-contenttabreceiver/2.0',
+        [
+            'Browser' => 'XING Contenttabreceiver',
+            'Version' => '2.0',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-99-A' => [
+        'Opera/9.60 (Windows NT 5.1; U; de) Presto/2.1.1',
+        [
+            'Browser' => 'Opera',
+            'Version' => '9.60',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
     'issue-96-AS' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
         [
