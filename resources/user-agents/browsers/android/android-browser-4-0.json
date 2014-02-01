@@ -1204,8 +1204,8 @@
                     "match": "Mozilla\/5.0 (#PLATFORM#; POV Mobii 7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
                     "properties": {
                         "Device_Code_Name": "Mobii 7",
-                        "Device_Maker": "POV",
-                        "Device_Brand_Name": "POV",
+                        "Device_Maker": "Point of View",
+                        "Device_Brand_Name": "Point of View",
                         "Device_Name": "Mobii 7"
                     },
                     "platforms": [
@@ -3500,333 +3500,515 @@
                     "platforms": [
                         "Android_2_3"
                     ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; HUAWEI SONIC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "U8650",
+                        "Device_Maker": "Huawei",
+                        "Device_Brand_Name": "Huawei",
+                        "Device_Name": "Sonic"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "U8666E",
+                        "Device_Maker": "Huawei",
+                        "Device_Brand_Name": "Huawei",
+                        "Device_Name": "Ascend Y201 Pro"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8950N-1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "U8950N",
+                        "Device_Maker": "Huawei",
+                        "Device_Brand_Name": "Huawei",
+                        "Device_Name": "Ascend G600"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; INM803HC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "INM803HC",
+                        "Device_Maker": "Lalsoft",
+                        "Device_Brand_Name": "Lalsoft",
+                        "Device_Name": "INM803HC"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; IncredibleS_S710e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "S710E",
+                        "Device_Maker": "HTC",
+                        "Device_Brand_Name": "HTC",
+                        "Device_Name": "Incredible S"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LG-E400* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "E400",
+                        "Device_Maker": "LG",
+                        "Device_Brand_Name": "LG",
+                        "Device_Name": "Optimus L3"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LG-E510* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "E510",
+                        "Device_Maker": "LG",
+                        "Device_Brand_Name": "LG",
+                        "Device_Name": "Optimus Hub"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LG-P690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "P690",
+                        "Device_Maker": "LG",
+                        "Device_Brand_Name": "LG",
+                        "Device_Name": "Optimus Spirit"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT18i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT18i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT18iv",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT22i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia P LT22i"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT22i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia P LT22i"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT26i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc HD"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT26i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc HD"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "LT26i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Arc HD"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MB526",
+                        "Device_Maker": "Motorola",
+                        "Device_Brand_Name": "Motorola",
+                        "Device_Name": "MB526"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MotoMB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MB526",
+                        "Device_Maker": "Motorola",
+                        "Device_Brand_Name": "Motorola",
+                        "Device_Name": "MB526"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MEDION LIFE P4310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "isTablet": "true",
+                        "Device_Type": "Tablet",
+                        "Device_Code_Name": "LifeTab P4310",
+                        "Device_Maker": "Medion",
+                        "Device_Brand_Name": "Medion",
+                        "Device_Name": "LifeTab P4310",
+                        "Device_isTablet": "true"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MEDION Smartphone LIFE E3501 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "Life E3501",
+                        "Device_Maker": "Medion",
+                        "Device_Brand_Name": "Medion",
+                        "Device_Name": "Life E3501"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MID1125 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "isTablet": "true",
+                        "Device_Type": "Tablet",
+                        "Device_Code_Name": "MID1125",
+                        "Device_Maker": "Coby",
+                        "Device_Brand_Name": "Coby",
+                        "Device_Name": "Kyros MID1125",
+                        "Device_isTablet": "true"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MID1126 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "isTablet": "true",
+                        "Device_Type": "Tablet",
+                        "Device_Code_Name": "MID1126",
+                        "Device_Maker": "Coby",
+                        "Device_Brand_Name": "Coby",
+                        "Device_Name": "Kyros MID1126",
+                        "Device_isTablet": "true"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MID7022 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MID7022",
+                        "Device_Maker": "Coby",
+                        "Device_Brand_Name": "Coby",
+                        "Device_Name": "Kyros MID7022"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MID_Serials Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "XT910",
+                        "Device_Maker": "Motorola",
+                        "Device_Brand_Name": "Motorola",
+                        "Device_Name": "RAZR XT910 Spider"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT15i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Neo"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT15i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Neo"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT15iv",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Neo"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT27i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Sola"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT27i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia Sola"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; MT791 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "MT791",
+                        "Device_Maker": "Keen High",
+                        "Device_Brand_Name": "Keen High",
+                        "Device_Name": "MT791"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "Nexus S",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Google",
+                        "Device_Name": "Nexus S"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; NexusHD2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "HD2",
+                        "Device_Maker": "HTC",
+                        "Device_Brand_Name": "HTC",
+                        "Device_Name": "HD2"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; Odys-Loox Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "Loox",
+                        "Device_Maker": "Odys",
+                        "Device_Brand_Name": "Odys",
+                        "Device_Name": "Loox"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; PMP5080B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "PMP5080B",
+                        "Device_Maker": "Multipad",
+                        "Device_Brand_Name": "Multipad",
+                        "Device_Name": "PMP5080B"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; POV_TAB-PROTAB30-IPS10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "Protab 3 XXL",
+                        "Device_Maker": "Point of View",
+                        "Device_Brand_Name": "Point of View",
+                        "Device_Name": "Protab 3 XXL"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; R800i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "R800i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia PLAY"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonR800i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "R800i",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia PLAY"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonR800iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "R800iv",
+                        "Device_Maker": "SonyEricsson",
+                        "Device_Brand_Name": "SonyEricsson",
+                        "Device_Name": "Xperia PLAY"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SAMSUNG GT-I9070* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "GT-I9070",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S Advance"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SAMSUNG GT-I9210* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "GT-I9210",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II LTE"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#; SH80F Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "SH80F",
+                        "Device_Maker": "Sharp",
+                        "Device_Brand_Name": "Sharp",
+                        "Device_Name": "SH80F"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
                 }
             ]
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI SONIC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "U8650",
-                "Device_Maker": "Huawei",
-                "Device_Brand_Name": "Huawei",
-                "Device_Name": "Sonic"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "U8666E",
-                "Device_Maker": "Huawei",
-                "Device_Brand_Name": "Huawei",
-                "Device_Name": "Ascend Y201 Pro"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8950N-1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "U8950N",
-                "Device_Maker": "Huawei",
-                "Device_Brand_Name": "Huawei",
-                "Device_Name": "Ascend G600"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; INM803HC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "INM803HC",
-                "Device_Maker": "Lalsoft",
-                "Device_Brand_Name": "Lalsoft",
-                "Device_Name": "INM803HC"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; IncredibleS_S710e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "S710E",
-                "Device_Maker": "HTC",
-                "Device_Brand_Name": "HTC",
-                "Device_Name": "Incredible S"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LG-E400* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "E400",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "Optimus L3"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LG-E510* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "E510",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "Optimus Hub"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LG-P690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "P690",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "Optimus Spirit"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MB526",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "MB526"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MEDION LIFE P4310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "LifeTab P4310",
-                "Device_Maker": "Medion",
-                "Device_Brand_Name": "Medion",
-                "Device_Name": "LifeTab P4310",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MEDION Smartphone LIFE E3501 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "Life E3501",
-                "Device_Maker": "Medion",
-                "Device_Brand_Name": "Medion",
-                "Device_Name": "Life E3501"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1125 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1125",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1125",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1126 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1126",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1126",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID7022 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MID7022",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID7022"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID_Serials Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "XT910",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "RAZR XT910 Spider"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT15i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Neo"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT27i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Sola"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MT791 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT791",
-                "Device_Maker": "Keen High",
-                "Device_Brand_Name": "Keen High",
-                "Device_Name": "MT791"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MotoMB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MB526",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "MB526"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "Nexus S",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Google",
-                "Device_Name": "Nexus S"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; NexusHD2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "HD2",
-                "Device_Maker": "HTC",
-                "Device_Brand_Name": "HTC",
-                "Device_Name": "HD2"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; Odys-Loox Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "Loox",
-                "Device_Maker": "Odys",
-                "Device_Brand_Name": "Odys",
-                "Device_Name": "Loox"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; PMP5080B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "PMP5080B",
-                "Device_Maker": "Multipad",
-                "Device_Brand_Name": "Multipad",
-                "Device_Name": "PMP5080B"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; POV_TAB-PROTAB30-IPS10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "Protab 3 XXL",
-                "Device_Maker": "Point of View",
-                "Device_Brand_Name": "Point of View",
-                "Device_Name": "Protab 3 XXL"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; R800i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "R800i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia PLAY"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SAMSUNG GT-I9070* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "GT-I9070",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Samsung",
-                "Device_Name": "Galaxy S Advance"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SAMSUNG GT-I9210\/I9210* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "GT-I9210",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Samsung",
-                "Device_Name": "Galaxy S II LTE"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SH80F Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "SH80F",
-                "Device_Maker": "Sharp",
-                "Device_Brand_Name": "Sharp",
-                "Device_Name": "SH80F"
-            }
         },
         {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; SK17i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
@@ -3889,46 +4071,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT18iv",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMK16i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 2.3",
@@ -3956,56 +4098,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "MT15a"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT15i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Neo"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT15iv",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Neo"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "MT27i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Sola"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonR800i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "R800i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia PLAY"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonR800iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "R800iv",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia PLAY"
             }
         },
         {
@@ -4106,16 +4198,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "Live"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 2.3",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -6114,30 +6196,10 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "U8666E",
-                "Device_Maker": "Huawei",
-                "Device_Brand_Name": "Huawei",
-                "Device_Name": "Ascend Y201 Pro"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8950D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.0",
                 "Device_Code_Name": "U8950D",
-                "Device_Maker": "Huawei",
-                "Device_Brand_Name": "Huawei",
-                "Device_Name": "Ascend G600"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; HUAWEI U8950N-1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "U8950N",
                 "Device_Maker": "Huawei",
                 "Device_Brand_Name": "Huawei",
                 "Device_Name": "Ascend G600"
@@ -6203,16 +6265,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; IncredibleS_S710e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "S710E",
-                "Device_Maker": "HTC",
-                "Device_Brand_Name": "HTC",
-                "Device_Name": "Incredible S"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; K1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.0",
@@ -6223,16 +6275,6 @@
                 "Device_Brand_Name": "Lenovo",
                 "Device_Name": "IdeaPad K1",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LG-E510* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "E510",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "Optimus Hub"
             }
         },
         {
@@ -6273,16 +6315,6 @@
                 "Device_Maker": "LG",
                 "Device_Brand_Name": "LG",
                 "Device_Name": "LS860"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LG-P690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "P690",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "Optimus Spirit"
             }
         },
         {
@@ -6385,26 +6417,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.0",
@@ -6412,16 +6424,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "Xperia V"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -6510,55 +6512,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MEDION LIFE P4310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "LifeTab P4310",
-                "Device_Maker": "Medion",
-                "Device_Brand_Name": "Medion",
-                "Device_Name": "LifeTab P4310",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1125 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1125",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1125",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1126 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1126",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1126",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID7022 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "MID7022",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID7022"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; MK16i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.0",
@@ -6566,26 +6519,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "MK16i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "XT910",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "RAZR XT910 Spider"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "MT27i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Sola"
             }
         },
         {
@@ -6687,16 +6620,6 @@
                 "Device_Brand_Name": "Google",
                 "Device_Name": "Nexus 7",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "Nexus S",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Google",
-                "Device_Name": "Nexus S"
             }
         },
         {
@@ -7117,46 +7040,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT18iv",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT28h Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.0",
@@ -7184,36 +7067,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "Xperia Neo V"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "MT15i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Neo"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT15iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "MT15iv",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Neo"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonMT27i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "MT27i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Sola"
             }
         },
         {
@@ -7314,16 +7167,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "Live"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.0",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -8774,26 +8617,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.1",
@@ -8801,16 +8624,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "Xperia V"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -8873,42 +8686,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1125 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1125",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1125",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID1126 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "isTablet": "true",
-                "Device_Type": "Tablet",
-                "Device_Code_Name": "MID1126",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID1126",
-                "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MID7022 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "MID7022",
-                "Device_Maker": "Coby",
-                "Device_Brand_Name": "Coby",
-                "Device_Name": "Kyros MID7022"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; MK16i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.1",
@@ -8916,16 +8693,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "MK16i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "XT910",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "RAZR XT910 Spider"
             }
         },
         {
@@ -9024,16 +8791,6 @@
                 "Device_Brand_Name": "Google",
                 "Device_Name": "Nexus 7",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "Nexus S",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Google",
-                "Device_Name": "Nexus S"
             }
         },
         {
@@ -9318,36 +9075,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonLT28h Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.1",
@@ -9385,16 +9112,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "ST27i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (#PLATFORM#; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.1",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -10426,26 +10143,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; LT25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.2",
@@ -10489,16 +10186,6 @@
                 "Device_Brand_Name": "Asus",
                 "Device_Name": "Fonepad ME371MG",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "XT910",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "RAZR XT910 Spider"
             }
         },
         {
@@ -10584,16 +10271,6 @@
                 "Device_Brand_Name": "Google",
                 "Device_Name": "Nexus 7",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "Nexus S",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Google",
-                "Device_Name": "Nexus S"
             }
         },
         {
@@ -10792,26 +10469,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "LT18i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; SonyEricssonLT28h Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.2",
@@ -10829,16 +10486,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "ST27i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.2*; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.2",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
@@ -11658,16 +11305,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.3",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; LT25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.3",
@@ -11711,16 +11348,6 @@
                 "Device_Brand_Name": "Asus",
                 "Device_Name": "Fonepad ME371MG",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; MOT-XT910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.3",
-                "Device_Code_Name": "XT910",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "RAZR XT910 Spider"
             }
         },
         {
@@ -11806,16 +11433,6 @@
                 "Device_Brand_Name": "Google",
                 "Device_Name": "Nexus 7",
                 "Device_isTablet": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; Nexus S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.3",
-                "Device_Code_Name": "Nexus S",
-                "Device_Maker": "Samsung",
-                "Device_Brand_Name": "Google",
-                "Device_Name": "Nexus S"
             }
         },
         {
@@ -11938,16 +11555,6 @@
             }
         },
         {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.3",
-                "Device_Code_Name": "LT22i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia P LT22i"
-            }
-        },
-        {
             "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; SonyEricssonLT28h Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
             "properties": {
                 "Parent": "Android Browser 4.0 on Android 4.3",
@@ -11965,16 +11572,6 @@
                 "Device_Maker": "SonyEricsson",
                 "Device_Brand_Name": "SonyEricsson",
                 "Device_Name": "ST27i"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Linux*; Android 4.3*; SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-            "properties": {
-                "Parent": "Android Browser 4.0 on Android 4.3",
-                "Device_Code_Name": "LT26i",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "Xperia Arc HD"
             }
         },
         {
