@@ -17,6 +17,7 @@
       "userAgent": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
       "properties": {
         "Parent": "Facebook",
+        "Browser": "FacebookExternalHit",
         "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0"

@@ -1774,16 +1774,6 @@
       }
     },
     {
-      "userAgent": "masscan\/1.0*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Download Accelerator",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
       "userAgent": "Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)*",
       "properties": {
           "Parent": "General Crawlers",
