@@ -35,7 +35,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#* (like Firefox\/*",
           "platforms": [
-            "Debian"
+            "Debian", "Debian_64"
           ]
         }
       ]
