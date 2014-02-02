@@ -1,6 +1,6 @@
 {
   "division": "Boitho",
-  "sortIndex": 80,
+  "sortIndex": 130,
   "userAgents": [
     {
       "userAgent": "Boitho",
@@ -11,6 +11,12 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "boitho.com-*",
+      "properties": {
+        "Parent": "Boitho"
       }
     },
     {

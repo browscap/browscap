@@ -5,7 +5,7 @@
     {
       "userAgent": "AndroidDownloadManager",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "Download Managers",
         "Browser": "Android Download Manager",
         "Browser_Name": "Android Download Manager",
         "Browser_FullName": "Android Download Manager",

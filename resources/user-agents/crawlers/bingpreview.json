@@ -12,6 +12,12 @@
       }
     },
     {
+      "userAgent": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*",
+      "properties": {
+        "Parent": "BingPreview"
+      }
+    },
+    {
       "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0*",
       "properties": {
         "Parent": "BingPreview",

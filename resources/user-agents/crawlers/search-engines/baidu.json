@@ -1,6 +1,6 @@
 {
   "division": "Baidu",
-  "sortIndex": 20,
+  "sortIndex": 1050,
   "lite": true,
   "userAgents": [
     {
@@ -9,10 +9,36 @@
         "Parent": "Search Engines",
         "Comment": "Baidu",
         "Browser": "Baidu",
+        "Browser_Name": "Baiduspider",
+        "Browser_FullName": "Baiduspider",
+        "Browser_Maker": "Baidu",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Baiduspider-image*",
+      "properties": {
+        "Parent": "Baidu",
+        "Browser": "Baidu Image Search",
+        "Browser_Name": "Baidu Image Search",
+        "Browser_FullName": "Baidu Image Search"
+      }
+    },
+    {
+      "userAgent": "Baiduspider*",
+      "properties": {
+        "Parent": "Baidu",
+        "Browser": "BaiDu"
+      }
+    },
+    {
+      "userAgent": "baidu bot*",
+      "properties": {
+        "Parent": "Baidu",
+        "Browser": "BaiDu"
       }
     },
     {
@@ -26,7 +52,7 @@
       "userAgent": "*Baiduspider-ads*",
       "properties": {
         "Parent": "Baidu",
-        "Browser": "Baidu Business search"
+        "Browser": "Baidu Business Search"
       }
     },
     {
@@ -47,14 +73,7 @@
       "userAgent": "*Baiduspider-image*",
       "properties": {
         "Parent": "Baidu",
-        "Browser": "Baidu Image search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-mobile*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Mobile search"
+        "Browser": "Baidu Image Search"
       }
     },
     {
@@ -90,9 +109,21 @@
       "properties": {
         "Parent": "Baidu",
         "Browser": "Baiduspider",
+        "Browser_FullName": "Baiduspider 2.0",
+        "Browser_Version": "2.0",
         "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
+      "properties": {
+        "Parent": "Baidu",
+        "Browser": "Baiduspider",
+        "Browser_FullName": "Baiduspider 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2"
       }
     }
   ]

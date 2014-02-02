@@ -15,6 +15,21 @@
         "Platform_Bits": "32"
       }
     },
+    "ChromeOS_i686": {
+      "match": "*CrOS i686*",
+      "properties": {
+        "Platform": "ChromeOS",
+        "Platform_Name": "ChromeOS",
+        "Platform_FullName": "ChromeOS",
+        "Platform_Description": "Google Chrome OS",
+        "Platform_Maker": "Google Inc",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "OSX": {
       "match": "*Mac OS X*",
       "properties": {
@@ -1731,6 +1746,24 @@
         "Device_isDesktop": "true",
         "Platform_Name": "FreeBSD",
         "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "FreeBSD_386": {
+      "match": "*FreeBSD i386*",
+      "properties": {
+        "Platform": "FreeBSD",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
         "Device_Code_Name": "general Desktop",
         "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",

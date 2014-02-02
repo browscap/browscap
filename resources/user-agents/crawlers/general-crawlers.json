@@ -76,13 +76,6 @@
       }
     },
     {
-      "userAgent": "bitlybot\/2.*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "BitlyBot"
-      }
-    },
-    {
       "userAgent": "bot\/* (bot; *bot@bot.bot)",
       "properties": {
           "Parent": "General Crawlers",

@@ -1,6 +1,6 @@
 {
   "division": "Blue Coat Systems",
-  "sortIndex": 550,
+  "sortIndex": 120,
   "userAgents": [
     {
       "userAgent": "Blue Coat Systems",
@@ -8,7 +8,53 @@
         "Parent": "General Crawlers",
         "Comment": "Blue Coat Systems",
         "Browser": "Blue Coat Systems",
+        "Browser_Name": "Blue Coat Systems",
+        "Browser_FullName": "Blue Coat Systems",
         "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Bluecoat DRTR)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Bluecoat",
+        "Browser_Name": "Bluecoat",
+        "Browser_FullName": "Bluecoat"
+      }
+    },
+    {
+      "userAgent": "BlueCoat ProxySG",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "BlueCoat ProxySG"
+      }
+    },
+    {
+      "userAgent": "CerberianDrtrs\/*",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Inne: Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Cerberian"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Bluecoat DRTR)",
+      "properties": {
+        "Parent": "Blue Coat Systems",
+        "Browser": "Bluecoat"
       }
     }
   ]

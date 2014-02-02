@@ -1,20 +1,26 @@
 {
   "division": "Arora Generic",
-  "sortIndex": 1183,
+  "sortIndex": 2150,
   "userAgents": [
     {
       "userAgent": "Arora Generic",
       "properties": {
         "Parent": "Google Code",
-        "Comment": "Arora Generic",
         "Browser": "Arora",
+        "Browser_Name": "Arora",
+        "Browser_FullName": "Arora",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_isDesktop": "true",
         "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [

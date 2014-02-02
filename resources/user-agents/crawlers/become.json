@@ -1,13 +1,15 @@
 {
   "division": "Become",
-  "sortIndex": 540,
+  "sortIndex": 80,
   "userAgents": [
     {
       "userAgent": "Become",
       "properties": {
         "Parent": "General Crawlers",
-        "Comment": "Become",
         "Browser": "Become",
+        "Browser_Name": "Become",
+        "Browser_FullName": "Become",
+        "Browser_isSyndicationReader": "true",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }
@@ -16,35 +18,55 @@
       "userAgent": "*BecomeBot\/*",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeBot"
+        "Browser": "BecomeBot",
+        "Browser_Name": "BecomeBot",
+        "Browser_FullName": "BecomeBot"
       }
     },
     {
       "userAgent": "*BecomeBot@exava.com*",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeBot"
+        "Browser": "BecomeBot",
+        "Browser_Name": "BecomeBot",
+        "Browser_FullName": "BecomeBot"
       }
     },
     {
       "userAgent": "*Exabot@exava.com*",
       "properties": {
         "Parent": "Become",
-        "Browser": "Exabot"
+        "Browser": "Exabot",
+        "Browser_Name": "Exabot",
+        "Browser_FullName": "Exabot",
+        "Browser_Maker": "www.exabot.com"
       }
     },
     {
       "userAgent": "MonkeyCrawl\/*",
       "properties": {
         "Parent": "Become",
-        "Browser": "MonkeyCrawl"
+        "Browser": "MonkeyCrawl",
+        "Browser_Name": "MonkeyCrawl",
+        "Browser_FullName": "MonkeyCrawl"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeJPBot"
+        "Browser": "BecomeJPBot",
+        "Browser_Name": "BecomeJPBot",
+        "Browser_FullName": "BecomeJPBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*)",
+      "properties": {
+        "Parent": "Become",
+        "Browser": "BecomeJPBot",
+        "Browser_Name": "BecomeJPBot",
+        "Browser_FullName": "BecomeJPBot"
       }
     }
   ]

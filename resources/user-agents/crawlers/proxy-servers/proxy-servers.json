@@ -18,52 +18,10 @@
       }
     },
     {
-      "userAgent": "Anonymisiert*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymizer\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizer"
-      }
-    },
-    {
-      "userAgent": "Anonymizied*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymous*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymous"
-      }
-    },
-    {
-      "userAgent": "Anonymous\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymous"
-      }
-    },
-    {
       "userAgent": "CE-Preload",
       "properties": {
         "Parent": "Proxy Servers",
         "Browser": "CE-Preload"
-      }
-    },
-    {
-      "userAgent": "http:\/\/Anonymouse.org\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymouse"
       }
     },
     {

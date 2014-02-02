@@ -23,6 +23,20 @@
         "Device_Code_Name": "Z10",
         "Device_Name": "Z10"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko)*",
+      "properties": {
+        "Parent": "BlackBerry 10.0",
+        "Platform_Version": "10"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*",
+      "properties": {
+        "Parent": "BlackBerry 10.0",
+        "Platform_Version": "10"
+      }
     }
   ]
 }

@@ -19,13 +19,6 @@
       }
     },
     {
-      "userAgent": "AndroidDownloadManager",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Android Download Manager"
-      }
-    },
-    {
       "userAgent": "AutoMate5",
       "properties": {
         "Parent": "Download Managers",

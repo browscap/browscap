@@ -16,13 +16,15 @@
     {
       "userAgent": "*Baiduspider-mobile*",
       "properties": {
-        "Parent": "Baidu Mobile"
+        "Parent": "Baidu Mobile",
+        "Browser": "Baidu Mobile search"
       }
     },
     {
       "userAgent": "DoCoMo\/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider\/1.0; ?http:\/\/www.baidu.jp\/spider\/)",
       "properties": {
-        "Parent": "Baidu Mobile"
+        "Parent": "Baidu Mobile",
+        "Browser": "Baidu Mobile search"
       }
     }
   ]
