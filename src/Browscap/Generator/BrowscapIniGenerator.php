@@ -290,12 +290,10 @@ class BrowscapIniGenerator implements GeneratorInterface
 
             foreach ($allProperties as $property) {
                 if (!isset($propertiesToOutput[$property])) {
-                    $this->log('skipping property "' . $property . '" from output - not selected for output');
                     continue;
                 }
 
                 if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
-                    $this->log('skipping property "' . $property . '" from output - only available to help');
                     continue;
                 }
 
