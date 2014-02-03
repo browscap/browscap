@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use ZipArchive;
 
@@ -22,12 +24,69 @@ class BuildGenerator
      */
     private $buildFolder;
 
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
+     * @param string $resourceFolder
+     * @param string $buildFolder
+     */
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
+    /**
+     * Entry point for generating builds for a specified version
+     *
+     * @param string $version
+     */
+    public function generateBuilds($version)
+    {
+        $this->output('<info>Resource folder: ' . $this->resourceFolder . '</info>');
+        $this->output('<info>Build folder: ' . $this->buildFolder . '</info>');
+
+        $this->log('creating data collection');
+        $collection = $this->createDataCollection($version, $this->resourceFolder);
+
+        $this->log('writing data collection to build folder');
+        $this->writeFiles($collection, $this->buildFolder);
+    }
+
+    /**
+     * Sets the optional output interface
+     *
+     * @param \Symfony\Component\Console\Output\OutputInterface $outputInterface
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setOutput(OutputInterface $outputInterface)
+    {
+        $this->output = $outputInterface;
+        return $this;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @param string $directory
+     * @param string $type
+     *
+     * @return string
+     * @throws \Exception
+     */
     private function checkDirectoryExists($directory, $type)
     {
         if (!isset($directory)) {
@@ -45,33 +104,6 @@ class BuildGenerator
         }
 
         return $realDirectory;
-    }
-
-    /**
-     * Entry point for generating builds for a specified version
-     *
-     * @param string $version
-     */
-    public function generateBuilds($version)
-    {
-        $this->output('<info>Resource folder: ' . $this->resourceFolder . '</info>');
-        $this->output('<info>Build folder: ' . $this->buildFolder . '</info>');
-
-        $collection = $this->createDataCollection($version, $this->resourceFolder);
-
-        $this->writeFiles($collection, $this->buildFolder);
-    }
-
-    /**
-     * Sets the optional output interface
-     *
-     * @param \Symfony\Component\Console\Output\OutputInterface $outputInterface
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setOutput(OutputInterface $outputInterface)
-    {
-        $this->output = $outputInterface;
-        return $this;
     }
 
     /**
@@ -100,9 +132,11 @@ class BuildGenerator
      */
     private function createDataCollection($version, $resourceFolder)
     {
+        $this->log('adding platform file');
         $collection = new DataCollection($version);
         $collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
+        $this->log('reading source folder');
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -113,8 +147,7 @@ class BuildGenerator
                 continue;
             }
 
-            #$msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
-            #$this->output($msg);
+            $this->log('Processing file ' . $file->getPathname() . ' ...');
             $collection->addSourceFile($file->getPathname());
         }
 
@@ -129,11 +162,15 @@ class BuildGenerator
      */
     private function writeFiles(DataCollection $collection, $buildFolder)
     {
+        $this->log('initializing collection parser');
         $collectionParser = new CollectionParser();
+
+        $this->log('initializing Generators');
         $iniGenerator     = new BrowscapIniGenerator();
         $xmlGenerator     = new BrowscapXmlGenerator();
         $csvGenerator     = new BrowscapCsvGenerator();
 
+        $this->log('parsing version and date');
         $version = $collection->getVersion();
         $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
         $date    = $collection->getGenerationDate()->format('r');
@@ -157,6 +194,7 @@ class BuildGenerator
             ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
         );
 
+        $this->log('parsing data collection');
         $collectionParser->setDataCollection($collection);
         $collectionData = $collectionParser->parse();
 
@@ -171,6 +209,7 @@ class BuildGenerator
                 ->setOptions($format[2], $format[3], $format[4])
                 ->setComments($comments)
                 ->setVersionData(array('version' => $version, 'released' => $date))
+                ->setLogger($this->logger)
             ;
 
             file_put_contents($outputFile, $iniGenerator->generate());
@@ -182,6 +221,7 @@ class BuildGenerator
             ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => $version, 'released' => $date))
+            ->setLogger($this->logger)
         ;
 
         file_put_contents($buildFolder . '/browscap.xml', $xmlGenerator->generate());
@@ -192,6 +232,7 @@ class BuildGenerator
             ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => $version, 'released' => $date))
+            ->setLogger($this->logger)
         ;
 
         file_put_contents($buildFolder . '/browscap.csv', $csvGenerator->generate());
@@ -201,15 +242,46 @@ class BuildGenerator
         $zip = new ZipArchive();
         $zip->open($buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
+        $this->log('adding file "' . $buildFolder . '/full_asp_browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/full_php_browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/browscap.ini', 'browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/php_browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/php_browscap.ini', 'php_browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/lite_asp_browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/lite_php_browscap.ini" to zip  archive');
         $zip->addFile($buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+
+        $this->log('adding file "' . $buildFolder . '/browscap.xml" to zip  archive');
         $zip->addFile($buildFolder . '/browscap.xml', 'browscap.xml');
+
+        $this->log('adding file "' . $buildFolder . '/browscap.csv" to zip  archive');
         $zip->addFile($buildFolder . '/browscap.csv', 'browscap.csv');
 
         $zip->close();
+    }
+
+    /**
+     * @param string $message
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    private function log($message)
+    {
+        if (null === $this->logger) {
+            return $this;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
+
+        return $this;
     }
 }

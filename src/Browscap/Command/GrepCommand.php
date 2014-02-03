@@ -2,6 +2,9 @@
 
 namespace Browscap\Command;
 
+use Monolog\Handler\NullHandler;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -20,6 +23,11 @@ class GrepCommand extends Command
     protected $browscap;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $logger = null;
+
+    /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
@@ -30,7 +38,9 @@ class GrepCommand extends Command
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to test against')
-            ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', 'unmatched');
+            ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', 'unmatched')
+            ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
+        ;
     }
 
     /**
@@ -40,10 +50,25 @@ class GrepCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $iniFile = $input->getArgument('iniFile');
+        $debug   = $input->getOption('debug');
 
         if (!file_exists($iniFile)) {
             throw new \Exception('INI File "' . $iniFile . '" does not exist, or cannot access');
         }
+
+        if ($debug) {
+            $logHandlers = array(
+                new StreamHandler('php://output', Logger::DEBUG)
+            );
+
+        } else {
+            $logHandlers = array(
+                new NullHandler(Logger::DEBUG)
+            );
+        }
+
+        /** @var $logger \Psr\Log\LoggerInterface */
+        $this->logger = new Logger('browscap', $logHandlers);
 
         $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
@@ -51,11 +76,12 @@ class GrepCommand extends Command
             mkdir($cache_dir, 0777, true);
         }
 
+        $this->logger->log(Logger::DEBUG, 'initialize Browscap');
         $this->browscap = new Browscap($cache_dir);
         $this->browscap->localFile = $iniFile;
 
         $inputFile = $input->getArgument('inputFile');
-        $mode = $input->getOption('mode');
+        $mode      = $input->getOption('mode');
 
         if (!in_array($mode, array('matched','unmatched'))) {
             throw new \Exception("Mode must be 'matched' or 'unmatched'");
@@ -70,12 +96,19 @@ class GrepCommand extends Command
         $uas = explode("\n", $fileContents);
 
         foreach ($uas as $ua) {
-            if ($ua == '') continue;
+            if ($ua == '') {
+                continue;
+            }
 
+            $this->logger->log(Logger::DEBUG, 'processing UA ' . $ua);
             $this->testUA($ua, $mode);
         }
     }
 
+    /**
+     * @param string $ua
+     * @param string $mode
+     */
     protected function testUA($ua, $mode)
     {
         $data = $this->browscap->getBrowser($ua, true);

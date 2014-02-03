@@ -2,10 +2,14 @@
 
 namespace Browscap\Command;
 
+use Monolog\Handler\NullHandler;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 use Browscap\Parser\IniParser;
 
 /**
@@ -24,6 +28,11 @@ class ImportCommand extends Command
     protected $outputDirectory;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $logger = null;
+
+    /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
@@ -32,7 +41,9 @@ class ImportCommand extends Command
         $this
             ->setName('import')
             ->setDescription('Import from the legacy browscap database into the new JSON format')
-            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to import from - note you should parse the FULL browscap INI files');
+            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to import from - note you should parse the FULL browscap INI files')
+            ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
+        ;
     }
 
     /**
@@ -41,48 +52,83 @@ class ImportCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->output = $output;
-
+        $this->output          = $output;
         $this->outputDirectory = __DIR__ . '/../../../resources';
 
+        $debug = $input->getOption('debug');
+
+        if ($debug) {
+            $logHandlers = array(
+                new StreamHandler('php://output', Logger::DEBUG)
+            );
+
+        } else {
+            $logHandlers = array(
+                new NullHandler(Logger::DEBUG)
+            );
+        }
+
+        /** @var $logger \Psr\Log\LoggerInterface */
+        $this->logger = new Logger('browscap', $logHandlers);
+
+        $this->logger->log(Logger::DEBUG, 'checking output directory');
         if (!file_exists($this->outputDirectory . '/user-agents')) {
             mkdir($this->outputDirectory . '/user-agents', 0755, true);
         }
 
         $filename = $input->getArgument('iniFile');
 
+        $this->logger->log(Logger::DEBUG, 'parse ini file: ' . $filename);
         $iniParser = new IniParser($filename);
-        $data = $iniParser->parse();
+        $data      = $iniParser->parse();
 
+        $this->logger->log(Logger::DEBUG, 'process parsing output');
         $divisions = $this->processArrayToDivisions($data);
 
+        $this->logger->log(Logger::DEBUG, 'save processed divisions');
         $divisionId = 0;
         foreach ($divisions as $divisionName => $userAgents) {
             if ($divisionName == 'Browscap Version') {
                 continue;
             }
 
+            $this->logger->log(Logger::DEBUG, 'process division ' . $divisionName);
             $this->saveDivision($divisionId++, $divisionName, $userAgents);
         }
     }
 
+    /**
+     * @param array $data
+     *
+     * @return array
+     */
     public function processArrayToDivisions(array $data)
     {
         $divisions = array();
 
         foreach ($data as $section => $properties) {
+            $this->logger->log(Logger::DEBUG, 'process division ' . $properties['Division']);
             $divisions[$properties['Division']][$section] = $properties;
         }
 
         return $divisions;
     }
 
+    /**
+     * @param string $divisionName
+     *
+     * @return string
+     */
     public function getJsonFilenameFromDivisionName($divisionName)
     {
         return preg_replace('/[^a-z0-9]/', '-', strtolower($divisionName)) . '.json';
     }
 
-    public function writeJsonData($filename, $jsonData)
+    /**
+     * @param string $filename
+     * @param array  $jsonData
+     */
+    public function writeJsonData($filename, array $jsonData)
     {
         $jsonEncoded = json_encode($jsonData, JSON_PRETTY_PRINT);
 
@@ -92,7 +138,12 @@ class ImportCommand extends Command
         file_put_contents($fullpath, $jsonEncoded);
     }
 
-    public function saveDivision($divisionId, $divisionName, $userAgents)
+    /**
+     * @param integer $divisionId
+     * @param string  $divisionName
+     * @param array   $userAgents
+     */
+    public function saveDivision($divisionId, $divisionName, array $userAgents)
     {
         $jsonData = array();
         $jsonData['division'] = $divisionName;
@@ -114,5 +165,17 @@ class ImportCommand extends Command
 
         $msg = sprintf('<info>Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
         $this->output->writeln($msg);
+    }
+
+    /**
+     * @param string $message
+     */
+    protected function log($message)
+    {
+        if (null === $this->logger) {
+            return;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
     }
 }
