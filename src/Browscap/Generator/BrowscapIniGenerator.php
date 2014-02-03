@@ -251,7 +251,6 @@ class BrowscapIniGenerator implements GeneratorInterface
 
             foreach ($propertiesToOutput as $property => $value) {
                 if (!isset($parent[$property])) {
-                    $this->log('adding property "' . $property . '" to output - not available for parent');
                     continue;
                 }
 
@@ -270,7 +269,6 @@ class BrowscapIniGenerator implements GeneratorInterface
                 }
 
                 if ($parentProperty != $value) {
-                    $this->log('adding property "' . $property . '" to output - different from parent value');
                     continue;
                 }
 
