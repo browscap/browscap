@@ -86,7 +86,8 @@ class GrepCommand extends Command
             $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
 
             $this->logger->log(Logger::DEBUG, 'creating data collection');
-            $collection = $collectionParser->createDataCollection('temporary-version', $resourceFolder);
+            $collectionParser = new CollectionParser();
+            $collection       = $collectionParser->createDataCollection('temporary-version', $resourceFolder);
 
             $this->logger->log(Logger::DEBUG, 'parsing version and date');
             $version = $collection->getVersion();
