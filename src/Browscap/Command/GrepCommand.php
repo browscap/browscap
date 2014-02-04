@@ -20,7 +20,7 @@ class GrepCommand extends Command
 {
     const MODE_MATCHED = 'matched';
     const MODE_UNMATCHED = 'unmatched';
-    
+
     /**
      * @var \Symfony\Component\Console\Output\OutputInterface
      */
@@ -46,7 +46,7 @@ class GrepCommand extends Command
             ->setName('grep')
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
-            ->addOption('iniFile', null, InputOption::VALUE_REQUIRED, 'The INI file to test against', null)
+            ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
             ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
         ;
@@ -59,7 +59,7 @@ class GrepCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->output = $output;
-        
+
         $debug = $input->getOption('debug');
 
         if ($debug) {
@@ -80,20 +80,54 @@ class GrepCommand extends Command
             mkdir($cache_dir, 0777, true);
         }
 
-        $iniFile = $input->getOption('iniFile');
-        
+        $iniFile = $input->getArgument('iniFile');
+
         if (!$iniFile || !file_exists($iniFile)) {
             $this->logger->log(Logger::DEBUG, 'iniFile Option not set or invalid');
             $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
-            
+
+            $this->log('creating data collection');
+            $collection = $collectionParser->createDataCollection('temporary-version', $resourceFolder);
+
+            $this->log('parsing version and date');
+            $version = $collection->getVersion();
+            $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
+            $date    = $collection->getGenerationDate()->format('r');
+
+            $comments = array(
+                'Provided courtesy of http://browscap.org/',
+                'Created on ' . $dateUtc,
+                'Keep up with the latest goings-on with the project:',
+                'Follow us on Twitter <https://twitter.com/browscap>, or...',
+                'Like us on Facebook <https://facebook.com/browscap>, or...',
+                'Collaborate on GitHub <https://github.com/browscap>, or...',
+                'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+            );
+
+            $this->log('parsing data collection');
+            $collectionData = $collectionParser->parse();
+
+            $this->log('initializing Generators');
+            $iniGenerator = new BrowscapIniGenerator();
+            $iniGenerator->setCollectionData($collectionData);
+
             $buildGenerator = new BuildGenerator($resourceFolder, $cache_dir);
             $buildGenerator
                 ->setOutput($this->output)
                 ->setLogger($this->logger)
                 ->generateBuilds('temporary-version')
             ;
-            
+
             $iniFile = $cache_dir . 'full_php_browscap.ini';
+
+            $iniGenerator
+                ->setOptions(true, true, false)
+                ->setComments($comments)
+                ->setVersionData(array('version' => $version, 'released' => $date))
+                ->setLogger($this->logger)
+            ;
+
+            file_put_contents($iniFile, $iniGenerator->generate());
         }
 
         $this->logger->log(Logger::DEBUG, 'initialize Browscap');
