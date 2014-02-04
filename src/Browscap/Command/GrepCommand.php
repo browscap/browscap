@@ -2,18 +2,17 @@
 
 namespace Browscap\Command;
 
+use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
 use phpbrowscap\Browscap;
-use Browscap\Generator\BuildGenerator;
-use Browscap\Generator\CollectionParser;
-use Browscap\Generator\BrowscapIniGenerator;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -144,7 +143,7 @@ class GrepCommand extends Command
         $fileContents = file_get_contents($inputFile);
 
         $uas = explode(PHP_EOL, $fileContents);
-        
+
         $matchedCounter   = 0;
         $unmatchedCounter = 0;
         $invisibleCounter = 0;
@@ -167,7 +166,7 @@ class GrepCommand extends Command
                 $invisibleCounter++;
             }
         }
-        
+
         if ($mode == self::MODE_UNMATCHED) {
             $this->output->writeln('<info>' . $unmatchedCounter . ' unmatched UAs found</info>');
         } else {
