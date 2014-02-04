@@ -2,6 +2,9 @@
 
 namespace Browscap\Generator;
 
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+
 class BrowscapIniGenerator implements GeneratorInterface
 {
     /**
@@ -33,6 +36,11 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * Set defaults
@@ -117,6 +125,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
+     *
      * @return \Browscap\Generator\BrowscapIniGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
@@ -124,6 +133,18 @@ class BrowscapIniGenerator implements GeneratorInterface
         $this->quoteStringProperties = (bool)$quoteStringProperties;
         $this->includeExtraProperties = (bool)$includeExtraProperties;
         $this->liteOnly = (bool)$liteOnly;
+
+        return $this;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BrowscapIniGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
 
         return $this;
     }
@@ -141,7 +162,7 @@ class BrowscapIniGenerator implements GeneratorInterface
             $defaultPropertiyData = array();
         }
 
-
+        $this->log('start parsing');
         return $this->render(
             $this->collectionData,
             $this->renderHeader(),
@@ -158,6 +179,7 @@ class BrowscapIniGenerator implements GeneratorInterface
     {
         $header = '';
 
+        $this->log('rendering comments');
         foreach ($this->getComments() as $comment) {
             $header .= ';;; ' . $comment . PHP_EOL;
         }
@@ -180,8 +202,12 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
+        $this->log('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             if (!isset($properties['Version'])) {
+                $this->log('skipping division "' . $properties['division'] . '" - version information is missing');
                 continue;
             }
 
@@ -189,15 +215,18 @@ class BrowscapIniGenerator implements GeneratorInterface
                 && 'DefaultProperties' !== $key
                 && '*' !== $key
             ) {
+                $this->log('skipping division "' . $properties['division'] . '" - no parent defined');
                 continue;
             }
 
             if ($this->liteOnly && (!isset($properties['lite']) || !$properties['lite'])) {
+                $this->log('skipping division "' . $properties['division'] . '" - not available for lite mode');
                 continue;
             }
 
             if ('DefaultProperties' !== $key && '*' !== $key) {
                 if (!isset($allDivisions[$properties['Parent']])) {
+                    $this->log('skipping division "' . $properties['division'] . '" - parent not found');
                     continue;
                 }
 
@@ -267,6 +296,7 @@ class BrowscapIniGenerator implements GeneratorInterface
                 }
 
                 if ((!$this->includeExtraProperties) && CollectionParser::isExtraProperty($property)) {
+                    $this->log('skipping property "' . $property . '" from output - is not an extra property');
                     continue;
                 }
 
@@ -309,6 +339,7 @@ class BrowscapIniGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
+        $this->log('rendering version information');
         $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL;
 
         $header .= '[GJK_Browscap_Version]' . PHP_EOL;
@@ -327,5 +358,21 @@ class BrowscapIniGenerator implements GeneratorInterface
         $header .= 'Released=' . $versionData['released'] . PHP_EOL . PHP_EOL;
 
         return $header;
+    }
+
+    /**
+     * @param string $message
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    private function log($message)
+    {
+        if (null === $this->logger) {
+            return $this;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
+
+        return $this;
     }
 }

@@ -2,6 +2,9 @@
 
 namespace Browscap\Generator;
 
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+
 class BrowscapXmlGenerator implements GeneratorInterface
 {
     /**
@@ -33,6 +36,11 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * Set defaults
@@ -117,6 +125,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
+     *
      * @return \Browscap\Generator\BrowscapXmlGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
@@ -124,6 +133,18 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $this->quoteStringProperties = (bool)$quoteStringProperties;
         $this->includeExtraProperties = (bool)$includeExtraProperties;
         $this->liteOnly = (bool)$liteOnly;
+
+        return $this;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BrowscapXmlGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
 
         return $this;
     }
@@ -150,6 +171,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      */
     private function renderHeader(\DOMDocument $dom)
     {
+        $this->log('rendering comments');
         $comments = $dom->createElement('comments');
 
         $linebreak = $dom->createTextNode(PHP_EOL);
@@ -178,6 +200,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      */
     private function render(array $allDivisions, array $allProperties)
     {
+        $this->log('rendering XML structure');
         $dom      = new \DOMDocument('1.0', 'utf-8');
         $xmlRoot  = $dom->createElement('browsercaps');
 
@@ -201,10 +224,14 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
         $counter = 1;
 
+        $this->log('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             $counter++;
 
             if (!isset($properties['Version'])) {
+                $this->log('skipping division "' . $properties['division'] . '" - version information is missing');
                 continue;
             }
 
@@ -212,11 +239,13 @@ class BrowscapXmlGenerator implements GeneratorInterface
                 && 'DefaultProperties' !== $key
                 && '*' !== $key
             ) {
+                $this->log('skipping division "' . $properties['division'] . '" - no parent defined');
                 continue;
             }
 
             if ('DefaultProperties' !== $key && '*' !== $key) {
                 if (!isset($allDivisions[$properties['Parent']])) {
+                    $this->log('skipping division "' . $properties['division'] . '" - parent not found');
                     continue;
                 }
 
@@ -328,6 +357,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      */
     private function renderVersion(\DOMDocument $dom)
     {
+        $this->log('rendering version information');
         $version     = $dom->createElement('gjk_browscap_version');
         $versionData = $this->getVersionData();
 
@@ -391,5 +421,21 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
         $linebreak = $dom->createTextNode(PHP_EOL);
         $browscapitem->appendChild($linebreak);
+    }
+
+    /**
+     * @param string $message
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    private function log($message)
+    {
+        if (null === $this->logger) {
+            return $this;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
+
+        return $this;
     }
 }

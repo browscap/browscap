@@ -2,12 +2,52 @@
 
 namespace Browscap\Generator;
 
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+
 class CollectionParser
 {
     /**
      * @var \Browscap\Generator\DataCollection
      */
     private $collection;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
+     * Create and populate a data collection object from a resource folder
+     *
+     * @param        $version
+     * @param string $resourceFolder
+     *
+     * @return \Browscap\Generator\DataCollection
+     */
+    public function createDataCollection($version, $resourceFolder)
+    {
+        $this->log('adding platform file');
+        $this->collection = new DataCollection($version);
+        $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
+
+        $this->log('reading source folder');
+        $uaSourceDirectory = $resourceFolder . '/user-agents';
+
+        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
+
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || $file->getExtension() != 'json') {
+                continue;
+            }
+
+            $this->log('Processing file ' . $file->getPathname() . ' ...');
+            $this->collection->addSourceFile($file->getPathname());
+        }
+
+        return $this->collection;
+    }
 
     /**
      * Set the data collection
@@ -34,6 +74,18 @@ class CollectionParser
         }
 
         return $this->collection;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
     }
 
     /**
@@ -405,5 +457,21 @@ class CollectionParser
             default:
                 return false;
         }
+    }
+
+    /**
+     * @param string $message
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    private function log($message)
+    {
+        if (null === $this->logger) {
+            return $this;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
+
+        return $this;
     }
 }

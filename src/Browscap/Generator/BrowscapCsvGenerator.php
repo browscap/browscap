@@ -2,6 +2,9 @@
 
 namespace Browscap\Generator;
 
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+
 class BrowscapCsvGenerator implements GeneratorInterface
 {
     /**
@@ -33,6 +36,11 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * @var array
      */
     private $versionData = array();
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * Set defaults
@@ -117,6 +125,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      * @param boolean $quoteStringProperties
      * @param boolean $includeExtraProperties
      * @param boolean $liteOnly
+     *
      * @return \Browscap\Generator\BrowscapCsvGenerator
      */
     public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
@@ -124,6 +133,18 @@ class BrowscapCsvGenerator implements GeneratorInterface
         $this->quoteStringProperties = (bool)$quoteStringProperties;
         $this->includeExtraProperties = (bool)$includeExtraProperties;
         $this->liteOnly = (bool)$liteOnly;
+
+        return $this;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BrowscapCsvGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
 
         return $this;
     }
@@ -163,6 +184,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
+        $this->log('rendering CSV header');
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
@@ -178,10 +200,14 @@ class BrowscapCsvGenerator implements GeneratorInterface
 
         $counter = 1;
 
+        $this->log('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             $counter++;
 
             if (!isset($properties['Version'])) {
+                $this->log('skipping division "' . $properties['division'] . '" - version information is missing');
                 continue;
             }
 
@@ -189,11 +215,13 @@ class BrowscapCsvGenerator implements GeneratorInterface
                 && 'DefaultProperties' !== $key
                 && '*' !== $key
             ) {
+                $this->log('skipping division "' . $properties['division'] . '" - no parent defined');
                 continue;
             }
 
             if ('DefaultProperties' !== $key && '*' !== $key) {
                 if (!isset($allDivisions[$properties['Parent']])) {
+                    $this->log('skipping division "' . $properties['division'] . '" - parent not found');
                     continue;
                 }
 
@@ -282,6 +310,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
      */
     private function renderVersion()
     {
+        $this->log('rendering version information');
         $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL;
 
         $versionData = $this->getVersionData();
@@ -297,5 +326,21 @@ class BrowscapCsvGenerator implements GeneratorInterface
         $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL;
 
         return $header;
+    }
+
+    /**
+     * @param string $message
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    private function log($message)
+    {
+        if (null === $this->logger) {
+            return $this;
+        }
+
+        $this->logger->log(Logger::DEBUG, $message);
+
+        return $this;
     }
 }
