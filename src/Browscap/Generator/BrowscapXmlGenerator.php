@@ -226,7 +226,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
 
         $this->log('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
-            $this->log('rendering division "' . $properties['division'] . '"');
+            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
 
             $counter++;
 

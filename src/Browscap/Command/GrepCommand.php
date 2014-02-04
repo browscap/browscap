@@ -17,6 +17,14 @@ use phpbrowscap\Browscap;
  */
 class GrepCommand extends Command
 {
+    const MODE_MATCHED = 'matched';
+    const MODE_UNMATCHED = 'unmatched';
+    
+    /**
+     * @var \Symfony\Component\Console\Output\OutputInterface
+     */
+    protected $output;
+
     /**
      * @var \phpbrowscap\Browscap
      */
@@ -38,7 +46,7 @@ class GrepCommand extends Command
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to test against')
-            ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', 'unmatched')
+            ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
             ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
         ;
     }
@@ -49,6 +57,8 @@ class GrepCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $this->output = $output;
+        
         $iniFile = $input->getArgument('iniFile');
         $debug   = $input->getOption('debug');
 
@@ -83,7 +93,7 @@ class GrepCommand extends Command
         $inputFile = $input->getArgument('inputFile');
         $mode      = $input->getOption('mode');
 
-        if (!in_array($mode, array('matched','unmatched'))) {
+        if (!in_array($mode, array(self::MODE_MATCHED, self::MODE_UNMATCHED))) {
             throw new \Exception("Mode must be 'matched' or 'unmatched'");
         }
 
@@ -113,10 +123,10 @@ class GrepCommand extends Command
     {
         $data = $this->browscap->getBrowser($ua, true);
 
-        if ($mode == 'unmatched' && $data['Browser'] == 'Default Browser') {
-            echo $ua . "\n";
-        } else if ($mode == 'matched' && $data['Browser'] != 'Default Browser') {
-            echo $ua . "\n";
+        if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
+            $this->output->writeln($ua);
+        } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
+            $this->output->writeln($ua);
         }
     }
 }

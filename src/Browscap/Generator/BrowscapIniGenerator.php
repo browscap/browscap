@@ -204,7 +204,7 @@ class BrowscapIniGenerator implements GeneratorInterface
     {
         $this->log('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
-            $this->log('rendering division "' . $properties['division'] . '"');
+            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
 
             if (!isset($properties['Version'])) {
                 $this->log('skipping division "' . $properties['division'] . '" - version information is missing');

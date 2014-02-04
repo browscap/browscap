@@ -112,11 +112,14 @@ class IniParser implements ParserInterface
                 continue;
             }
 
-
             $bits = explode("=", $currentLine);
 
             if (count($bits) > 2) {
                 throw new \RuntimeException("Too many equals in line: {$currentLine}");
+            }
+
+            if (count($bits) < 2) {
+                throw new \RuntimeException("Too few equals in line: {$currentLine}");
             }
 
             $data[$currentSection][$bits[0]] = $bits[1];
