@@ -85,10 +85,10 @@ class GrepCommand extends Command
             $this->logger->log(Logger::DEBUG, 'iniFile Option not set or invalid');
             $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
 
-            $this->log('creating data collection');
+            $this->logger->log('creating data collection');
             $collection = $collectionParser->createDataCollection('temporary-version', $resourceFolder);
 
-            $this->log('parsing version and date');
+            $this->logger->log('parsing version and date');
             $version = $collection->getVersion();
             $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
             $date    = $collection->getGenerationDate()->format('r');
@@ -103,20 +103,14 @@ class GrepCommand extends Command
                 'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
             );
 
-            $this->log('parsing data collection');
+            $this->logger->log('parsing data collection');
             $collectionData = $collectionParser->parse();
 
-            $this->log('initializing Generators');
+            $this->logger->log('initializing Generators');
             $iniGenerator = new BrowscapIniGenerator();
             $iniGenerator->setCollectionData($collectionData);
 
-            $buildGenerator = new BuildGenerator($resourceFolder, $cache_dir);
-            $buildGenerator
-                ->setOutput($this->output)
-                ->setLogger($this->logger)
-                ->generateBuilds('temporary-version')
-            ;
-
+            $this->logger->log('Generating full_php_browscap.ini [PHP/FULL]');
             $iniFile = $cache_dir . 'full_php_browscap.ini';
 
             $iniGenerator
