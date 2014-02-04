@@ -19,7 +19,7 @@ class BuildCommand extends Command
 {
     const DEFAULT_BUILD_FOLDER     = '/../../../build';
     const DEFAULT_RESSOURCE_FOLDER = '/../../../resources';
-    
+
     /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
@@ -54,7 +54,6 @@ class BuildCommand extends Command
             $logHandlers = array(
                 new StreamHandler('php://output', Logger::DEBUG)
             );
-
         } else {
             $logHandlers = array(
                 new NullHandler(Logger::DEBUG)

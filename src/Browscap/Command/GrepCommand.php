@@ -66,7 +66,6 @@ class GrepCommand extends Command
             $logHandlers = array(
                 new StreamHandler('php://output', Logger::DEBUG)
             );
-
         } else {
             $logHandlers = array(
                 new NullHandler(Logger::DEBUG)
