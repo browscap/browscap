@@ -68,7 +68,6 @@ class ImportCommand extends Command
             );
         }
 
-        /** @var $logger \Psr\Log\LoggerInterface */
         $this->logger = new Logger('browscap', $logHandlers);
 
         $this->logger->log(Logger::DEBUG, 'checking output directory');

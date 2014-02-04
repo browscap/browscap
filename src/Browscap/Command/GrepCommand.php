@@ -11,6 +11,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use phpbrowscap\Browscap;
+use Browscap\Generator\BuildGenerator;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -45,7 +46,7 @@ class GrepCommand extends Command
             ->setName('grep')
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
-            ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to test against')
+            ->addOption('iniFile', null, InputOption::VALUE_REQUIRED, 'The INI file to test against', null)
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
             ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
         ;
@@ -59,12 +60,7 @@ class GrepCommand extends Command
     {
         $this->output = $output;
         
-        $iniFile = $input->getArgument('iniFile');
-        $debug   = $input->getOption('debug');
-
-        if (!file_exists($iniFile)) {
-            throw new \Exception('INI File "' . $iniFile . '" does not exist, or cannot access');
-        }
+        $debug = $input->getOption('debug');
 
         if ($debug) {
             $logHandlers = array(
@@ -77,13 +73,27 @@ class GrepCommand extends Command
             );
         }
 
-        /** @var $logger \Psr\Log\LoggerInterface */
         $this->logger = new Logger('browscap', $logHandlers);
-
-        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
+        $cache_dir    = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
         if (!file_exists($cache_dir)) {
             mkdir($cache_dir, 0777, true);
+        }
+
+        $iniFile = $input->getOption('iniFile');
+        
+        if (!$iniFile || !file_exists($iniFile)) {
+            $this->logger->log(Logger::DEBUG, 'iniFile Option not set or invalid');
+            $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
+            
+            $buildGenerator = new BuildGenerator($resourceFolder, $cache_dir);
+            $buildGenerator
+                ->setOutput($this->output)
+                ->setLogger($this->logger)
+                ->generateBuilds('temporary-version')
+            ;
+            
+            $iniFile = $cache_dir . 'full_php_browscap.ini';
         }
 
         $this->logger->log(Logger::DEBUG, 'initialize Browscap');

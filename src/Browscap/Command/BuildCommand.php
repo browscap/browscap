@@ -17,14 +17,17 @@ use Symfony\Component\Console\Input\InputOption;
  */
 class BuildCommand extends Command
 {
+    const DEFAULT_BUILD_FOLDER     = '/../../../build';
+    const DEFAULT_RESSOURCE_FOLDER = '/../../../resources';
+    
     /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $defaultBuildFolder = __DIR__ . '/../../../build';
-        $defaultResourceFolder = __DIR__ . '/../../../resources';
+        $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
+        $defaultResourceFolder = __DIR__ . self::DEFAULT_RESSOURCE_FOLDER;
 
         $this
             ->setName('build')
@@ -68,6 +71,6 @@ class BuildCommand extends Command
             ->generateBuilds($version)
         ;
 
-        $output->writeln('<info>All done.</info>');
+        $output->writeln('<info>Build done.</info>');
     }
 }
