@@ -12,6 +12,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use phpbrowscap\Browscap;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\CollectionParser;
 
 /**
  * @author James Titcumb <james@asgrim.com>
