@@ -84,7 +84,7 @@ class GrepCommand extends Command
         $iniFile = $input->getArgument('iniFile');
 
         if (!$iniFile || !file_exists($iniFile)) {
-            $this->logger->log(Logger::DEBUG, 'iniFile Option not set or invalid');
+            $this->output->writeln('<info>iniFile Argument not set or invalid - creating iniFile from resources</info>');
             $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
 
             $this->logger->log(Logger::DEBUG, 'creating data collection');
@@ -143,7 +143,11 @@ class GrepCommand extends Command
 
         $fileContents = file_get_contents($inputFile);
 
-        $uas = explode("\n", $fileContents);
+        $uas = explode(PHP_EOL, $fileContents);
+        
+        $matchedCounter   = 0;
+        $unmatchedCounter = 0;
+        $invisibleCounter = 0;
 
         foreach ($uas as $ua) {
             if ($ua == '') {
@@ -151,22 +155,25 @@ class GrepCommand extends Command
             }
 
             $this->logger->log(Logger::DEBUG, 'processing UA ' . $ua);
-            $this->testUA($ua, $mode);
-        }
-    }
+            $data = $this->browscap->getBrowser($ua, true);
 
-    /**
-     * @param string $ua
-     * @param string $mode
-     */
-    protected function testUA($ua, $mode)
-    {
-        $data = $this->browscap->getBrowser($ua, true);
-
-        if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-            $this->output->writeln($ua);
-        } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-            $this->output->writeln($ua);
+            if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
+                $this->output->writeln($ua);
+                $unmatchedCounter++;
+            } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
+                $this->output->writeln($ua);
+                $matchedCounter++;
+            } else {
+                $invisibleCounter++;
+            }
         }
+        
+        if ($mode == self::MODE_UNMATCHED) {
+            $this->output->writeln('<info>' . $unmatchedCounter . ' unmatched UAs found</info>');
+        } else {
+            $this->output->writeln('<info>' . $matchedCounter . ' matched UAs found</info>');
+        }
+        $this->output->writeln('<info>' . $invisibleCounter . ' other UAs found</info>');
+        $this->output->writeln('<info>Grep done.</info>');
     }
 }
