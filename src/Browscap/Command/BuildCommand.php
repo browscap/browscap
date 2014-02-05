@@ -3,7 +3,6 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;

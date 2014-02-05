@@ -2,9 +2,6 @@
 
 namespace Browscap\Command;
 
-use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\CollectionParser;
-use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
