@@ -3,6 +3,9 @@
 namespace Browscap\Command;
 
 use Browscap\Parser\IniParser;
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
@@ -50,13 +53,13 @@ class DiffCommand extends Command
         $rightFilename = $input->getArgument('right');
 
         $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new \Monolog\Formatter\LineFormatter('%message%'));
+        $stream->setFormatter(new LineFormatter('%message%'));
 
         $this->logger = new Logger('browscap');
         $this->logger->pushHandler($stream);
-        $this->logger->pushHandler(new \Monolog\Logger\ErrorLogHandler(\Monolog\Logger\ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
 
-        \Monolog\Logger\ErrorHandler::register($this->logger);
+        ErrorHandler::register($this->logger);
 
         $iniParserLeft = new IniParser($leftFilename);
         $leftFile = $iniParserLeft->setShouldSort(true)->parse();

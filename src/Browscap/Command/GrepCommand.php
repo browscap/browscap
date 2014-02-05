@@ -2,6 +2,9 @@
 
 namespace Browscap\Command;
 
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
@@ -53,13 +56,13 @@ class GrepCommand extends Command
         }
 
         $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new \Monolog\Formatter\LineFormatter('%message%'));
+        $stream->setFormatter(new LineFormatter('%message%'));
 
         $this->logger = new Logger('browscap');
         $this->logger->pushHandler($stream);
-        $this->logger->pushHandler(new \Monolog\Logger\ErrorLogHandler(\Monolog\Logger\ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
 
-        \Monolog\Logger\ErrorHandler::register($this->logger);
+        ErrorHandler::register($this->logger);
 
         $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 

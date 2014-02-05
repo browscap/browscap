@@ -3,6 +3,9 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
@@ -44,14 +47,13 @@ class BuildCommand extends Command
         $version = $input->getArgument('version');
 
         $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new \Monolog\Formatter\LineFormatter('%message%'));
+        $stream->setFormatter(new LineFormatter('%message%'));
 
-        /** @var $logger \Psr\Log\LoggerInterface */
         $logger = new Logger('browscap');
         $logger->pushHandler($stream);
-        $logger->pushHandler(new \Monolog\Logger\ErrorLogHandler(\Monolog\Logger\ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+        $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
 
-        \Monolog\Logger\ErrorHandler::register($logger);
+        ErrorHandler::register($logger);
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator->setOutput($output);
