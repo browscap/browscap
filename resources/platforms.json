@@ -257,6 +257,60 @@
         "Win32": "false"
       }
     },
+    "iOS_D_5_0": {
+      "match": "*iOS; U; iPh OS 5_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_5_1": {
+      "match": "*iOS; U; iPh OS 5_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_6_0": {
+      "match": "*iOS; U; iPh OS 6_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_6_1": {
+      "match": "*iOS; U; iPh OS 6_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_7_0": {
+      "match": "*iOS; U; iPh OS 7_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_7_1": {
+      "match": "*iOS; U; iPh OS 7_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {
@@ -728,8 +782,44 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_1_B": {
+      "match": "JUC(Linux;U;Android2.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_1_C": {
+      "match": "*; U; Adr 2.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_2_2": {
       "match": "*Linux*Android 2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_B": {
+      "match": "JUC(Linux;U;Android2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_C": {
+      "match": "*; U; Adr 2.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.2",
@@ -766,6 +856,15 @@
     },
     "Android_2_3_D": {
       "match": "*; U; Adr 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_3_E": {
+      "match": "JUC (Linux; U; 2.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.3",
@@ -863,11 +962,47 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_2_B": {
+      "match": "JUC (Linux; U; 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_2_C": {
+      "match": "*; U; Adr 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_3": {
       "match": "*Linux*Android 4.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3_B": {
+      "match": "JUC (Linux; U; 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3_C": {
+      "match": "*; U; Adr 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.1",
         "Win32": "false",
         "isMobileDevice": "true"
       }
@@ -906,8 +1041,28 @@
         "isMobileDevice": "true"
       }
     },
+    "WinPhone7_B": {
+      "match": "*Windows; U; wds 7*",
+      "properties": {
+        "Platform": "WinPhone7",
+        "Platform_Version": "7.0",
+        "Platform_Description": "Windows Phone OS 7",
+        "isMobileDevice": "true",
+        "Win32": "false"
+      }
+    },
     "WinPhone8": {
       "match": "*Windows Phone 8*",
+      "properties": {
+        "Platform": "WinPhone8",
+        "Platform_Version": "8.0",
+        "Platform_Description": "Windows Phone OS 8",
+        "isMobileDevice": "true",
+        "Win32": "false"
+      }
+    },
+    "WinPhone8_B": {
+      "match": "*Windows; U; wds 8*",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
@@ -987,6 +1142,14 @@
     },
     "SymbianOS": {
       "match": "*SymbianOS*",
+      "properties": {
+        "Platform": "SymbianOS",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "SymbianOS_B": {
+      "match": "*Symbian; U; *",
       "properties": {
         "Platform": "SymbianOS",
         "Win32": "false",
