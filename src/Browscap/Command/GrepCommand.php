@@ -2,12 +2,17 @@
 
 namespace Browscap\Command;
 
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
+use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
+use Monolog\Handler\NullHandler;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 use phpbrowscap\Browscap;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -18,6 +23,11 @@ class GrepCommand extends Command
      * @var \phpbrowscap\Browscap
      */
     protected $browscap;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $logger = null;
 
     /**
      * (non-PHPdoc)
@@ -45,6 +55,15 @@ class GrepCommand extends Command
             throw new \Exception('INI File "' . $iniFile . '" does not exist, or cannot access');
         }
 
+        $stream = new StreamHandler('php://output', Logger::INFO);
+        $stream->setFormatter(new \Monolog\Formatter\LineFormatter('%message%'));
+
+        $this->logger = new Logger('browscap');
+        $this->logger->pushHandler($stream);
+        $this->logger->pushHandler(new \Monolog\Logger\ErrorLogHandler(\Monolog\Logger\ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+
+        \Monolog\Logger\ErrorHandler::register($this->logger);
+
         $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
         if (!file_exists($cache_dir)) {
@@ -70,7 +89,9 @@ class GrepCommand extends Command
         $uas = explode("\n", $fileContents);
 
         foreach ($uas as $ua) {
-            if ($ua == '') continue;
+            if ($ua == '') {
+                continue;
+            }
 
             $this->testUA($ua, $mode);
         }
@@ -81,9 +102,9 @@ class GrepCommand extends Command
         $data = $this->browscap->getBrowser($ua, true);
 
         if ($mode == 'unmatched' && $data['Browser'] == 'Default Browser') {
-            echo $ua . "\n";
+            $this->logger->log(Logger::INFO, $ua);
         } else if ($mode == 'matched' && $data['Browser'] != 'Default Browser') {
-            echo $ua . "\n";
+            $this->logger->log(Logger::INFO, $ua);
         }
     }
 }
