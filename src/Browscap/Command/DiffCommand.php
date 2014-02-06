@@ -53,7 +53,7 @@ class DiffCommand extends Command
         $rightFilename = $input->getArgument('right');
 
         $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%'));
+        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
 
         $this->logger = new Logger('browscap');
         $this->logger->pushHandler($stream);

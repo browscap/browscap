@@ -47,7 +47,7 @@ class BuildCommand extends Command
         $version = $input->getArgument('version');
 
         $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%'));
+        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
 
         $logger = new Logger('browscap');
         $logger->pushHandler($stream);
