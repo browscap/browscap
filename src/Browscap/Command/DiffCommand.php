@@ -2,6 +2,9 @@
 
 namespace Browscap\Command;
 
+use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -33,7 +36,7 @@ class DiffCommand extends Command
             ->setName('diff')
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
-            ->addArgument('right', InputArgument::REQUIRED, 'The right .ini file to compare');
+            ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare');
     }
 
     /**
@@ -50,6 +53,50 @@ class DiffCommand extends Command
 
         $iniParserLeft = new IniParser($leftFilename);
         $leftFile = $iniParserLeft->setShouldSort(true)->parse();
+
+        if (!$rightFilename || !file_exists($rightFilename)) {
+            $cache_dir = sys_get_temp_dir() . '/browscap-diff/' . microtime(true) . '/';
+
+            if (!file_exists($cache_dir)) {
+                mkdir($cache_dir, 0777, true);
+            }
+
+            $this->output->writeln('<info>right file not set or invalid - creating right file from resources</info>');
+            $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESOURCES_FOLDER;
+
+            $collection = CollectionCreator::createDataCollection('temporary-version', $resourceFolder);
+
+            $version = $collection->getVersion();
+            $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
+            $date    = $collection->getGenerationDate()->format('r');
+
+            $comments = array(
+                'Provided courtesy of http://browscap.org/',
+                'Created on ' . $dateUtc,
+                'Keep up with the latest goings-on with the project:',
+                'Follow us on Twitter <https://twitter.com/browscap>, or...',
+                'Like us on Facebook <https://facebook.com/browscap>, or...',
+                'Collaborate on GitHub <https://github.com/browscap>, or...',
+                'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+            );
+
+            $collectionParser = new CollectionParser();
+            $collectionParser->setDataCollection($collection);
+            $collectionData = $collectionParser->parse();
+
+            $iniGenerator = new BrowscapIniGenerator();
+            $iniGenerator->setCollectionData($collectionData);
+
+            $rightFilename = $cache_dir . 'full_php_browscap.ini';
+
+            $iniGenerator
+                ->setOptions(true, true, false)
+                ->setComments($comments)
+                ->setVersionData(array('version' => $version, 'released' => $date))
+            ;
+
+            file_put_contents($rightFilename, $iniGenerator->generate());
+        }
 
         $iniParserRight = new IniParser($rightFilename);
         $rightFile = $iniParserRight->setShouldSort(true)->parse();

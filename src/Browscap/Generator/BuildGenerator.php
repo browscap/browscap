@@ -2,6 +2,7 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Helper\CollectionCreator;
 use Symfony\Component\Console\Output\OutputInterface;
 use ZipArchive;
 
@@ -57,7 +58,7 @@ class BuildGenerator
         $this->output('<info>Resource folder: ' . $this->resourceFolder . '</info>');
         $this->output('<info>Build folder: ' . $this->buildFolder . '</info>');
 
-        $collection = $this->createDataCollection($version, $this->resourceFolder);
+        $collection = CollectionCreator::createDataCollection($version, $this->resourceFolder);
 
         $this->writeFiles($collection, $this->buildFolder);
     }
@@ -88,37 +89,6 @@ class BuildGenerator
         }
 
         return null;
-    }
-
-    /**
-     * Create and populate a data collection object from a resource folder
-     *
-     * @param        $version
-     * @param string $resourceFolder
-     *
-     * @return \Browscap\Generator\DataCollection
-     */
-    private function createDataCollection($version, $resourceFolder)
-    {
-        $collection = new DataCollection($version);
-        $collection->addPlatformsFile($resourceFolder . '/platforms.json');
-
-        $uaSourceDirectory = $resourceFolder . '/user-agents';
-
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() != 'json') {
-                continue;
-            }
-
-            #$msg = sprintf('<info>Processing file %s ...</info>', $file->getPathname());
-            #$this->output($msg);
-            $collection->addSourceFile($file->getPathname());
-        }
-
-        return $collection;
     }
 
     /**

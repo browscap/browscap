@@ -14,14 +14,17 @@ use Symfony\Component\Console\Input\InputOption;
  */
 class BuildCommand extends Command
 {
+    const DEFAULT_BUILD_FOLDER = '/../../../build';
+    const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
+
     /**
      * (non-PHPdoc)
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $defaultBuildFolder = __DIR__ . '/../../../build';
-        $defaultResourceFolder = __DIR__ . '/../../../resources';
+        $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
+        $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
         $this
             ->setName('build')
