@@ -178,11 +178,8 @@ class BrowscapXmlGenerator implements GeneratorInterface
      */
     private function render(array $allDivisions, array $allProperties)
     {
-        $dom = new \DOMDocument('1.0', 'utf-8');
-        $dom->preserveWhiteSpace = false;
-        $dom->formatOutput = true;
-
-        $xmlRoot = $dom->createElement('browsercaps');
+        $dom      = new \DOMDocument('1.0', 'utf-8');
+        $xmlRoot  = $dom->createElement('browsercaps');
 
         $linebreak = $dom->createTextNode(PHP_EOL);
         $xmlRoot->appendChild($linebreak);
