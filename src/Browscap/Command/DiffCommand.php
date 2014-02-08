@@ -73,11 +73,11 @@ class DiffCommand extends Command
 
         $this->logger->log(Logger::DEBUG, 'parsing left file ' . $leftFilename);
         $iniParserLeft = new IniParser($leftFilename);
-        $leftFile      = $iniParserLeft->setShouldSort(true)->parse();
+        $leftFile = $iniParserLeft->setShouldSort(true)->parse();
 
         $this->logger->log(Logger::DEBUG, 'parsing right file ' . $rightFilename);
         $iniParserRight = new IniParser($rightFilename);
-        $rightFile      = $iniParserRight->setShouldSort(true)->parse();
+        $rightFile = $iniParserRight->setShouldSort(true)->parse();
 
         $this->logger->log(Logger::DEBUG, 'build diffs between files');
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);

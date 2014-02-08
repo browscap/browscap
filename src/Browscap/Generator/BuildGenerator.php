@@ -214,7 +214,7 @@ class BuildGenerator
      */
     public function setLogger(LoggerInterface $logger)
     {
-        $this->logger->logger = $logger;
+        $this->logger = $logger;
 
         return $this;
     }
