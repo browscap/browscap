@@ -59,11 +59,11 @@ class DiffCommand extends Command
 
         if ($debug) {
             $stream = new StreamHandler('php://output', Logger::DEBUG);
+            $stream->setFormatter(new LineFormatter('[%datetime%] %channel%.%level_name%: %message%' . "\n"));
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
+            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
         }
-
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
 
         $this->logger = new Logger('browscap');
         $this->logger->pushHandler($stream);
@@ -83,11 +83,11 @@ class DiffCommand extends Command
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);
         $rtlDiff = $this->recursiveArrayDiff($rightFile, $leftFile);
 
-        $this->logger->log(Logger::DEBUG, 'LTR');
-        $this->logger->log(Logger::DEBUG, var_export($ltrDiff, true));
+        // $this->logger->log(Logger::DEBUG, 'LTR');
+        // $this->logger->log(Logger::DEBUG, var_export($ltrDiff, true));
 
-        $this->logger->log(Logger::DEBUG, 'RTL');
-        $this->logger->log(Logger::DEBUG, var_export($rtlDiff, true));
+        // $this->logger->log(Logger::DEBUG, 'RTL');
+        // $this->logger->log(Logger::DEBUG, var_export($rtlDiff, true));
 
         if (count($ltrDiff) || count($rtlDiff)) {
             $this->logger->log(Logger::INFO, 'The following differences have been found:');
@@ -98,7 +98,7 @@ class DiffCommand extends Command
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
                     $this->compareSectionProperties($section, $props, (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
                 } else {
-                    $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on LEFT');
+                    $this->logger->log(Logger::INFO, '[' . $section . ']' . "\n" . 'Whole section only on LEFT');
                     $this->diffsFound++;
                 }
 
@@ -119,7 +119,7 @@ class DiffCommand extends Command
                         $rightFile[$section]
                     );
                 } else {
-                    $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on RIGHT');
+                    $this->logger->log(Logger::INFO, '[' . $section . ']' . "\n" . 'Whole section only on RIGHT');
                     $this->diffsFound++;
                 }
             }

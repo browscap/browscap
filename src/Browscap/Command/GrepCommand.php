@@ -25,11 +25,6 @@ class GrepCommand extends Command
     const MODE_UNMATCHED = 'unmatched';
 
     /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     */
-    protected $output;
-
-    /**
      * @var \phpbrowscap\Browscap
      */
     protected $browscap;
@@ -61,17 +56,15 @@ class GrepCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->output = $output;
-
         $debug = $input->getOption('debug');
 
         if ($debug) {
             $stream = new StreamHandler('php://output', Logger::DEBUG);
+            $stream->setFormatter(new LineFormatter('[%datetime%] %channel%.%level_name%: %message%' . "\n"));
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
+            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
         }
-
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
 
         $this->logger = new Logger('browscap');
         $this->logger->pushHandler($stream);

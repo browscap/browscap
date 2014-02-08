@@ -19,7 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class BuildCommand extends Command
 {
-    const DEFAULT_BUILD_FOLDER     = '/../../../build';
+    const DEFAULT_BUILD_FOLDER = '/../../../build';
     const DEFAULT_RESSOURCE_FOLDER = '/../../../resources';
 
     /**
@@ -28,7 +28,7 @@ class BuildCommand extends Command
      */
     protected function configure()
     {
-        $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
+        $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESSOURCE_FOLDER;
 
         $this
@@ -48,17 +48,17 @@ class BuildCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $resourceFolder = $input->getOption('resources');
-        $buildFolder    = $input->getOption('output');
-        $debug          = $input->getOption('debug');
-        $version        = $input->getArgument('version');
+        $buildFolder = $input->getOption('output');
+        $debug = $input->getOption('debug');
+        $version = $input->getArgument('version');
 
         if ($debug) {
             $stream = new StreamHandler('php://output', Logger::DEBUG);
+            $stream->setFormatter(new LineFormatter('[%datetime%] %channel%.%level_name%: %message%' . "\n"));
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
+            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
         }
-
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
 
         /** @var $logger \Monolog\Logger */
         $logger = new Logger('browscap');
