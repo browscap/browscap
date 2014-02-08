@@ -76,7 +76,7 @@ class DiffCommand extends Command
 
             foreach ($ltrDiff as $section => $props) {
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
-                    $this->compareSectionProperties($section, $props, $leftFile[$section], (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
+                    $this->compareSectionProperties($section, $props, (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
                 } else {
                     $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on LEFT');
                     $this->diffsFound++;
@@ -91,7 +91,7 @@ class DiffCommand extends Command
                 }
 
                 if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
-                    $this->compareSectionProperties($section, (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null), $leftFile[$section], $props, $rightFile[$section]);
+                    $this->compareSectionProperties($section, (isset($ltrDiff[$section]) ? $ltrDiff[$section] : null), $props, $rightFile[$section]);
                 } else {
                     $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on RIGHT');
                     $this->diffsFound++;
@@ -112,7 +112,7 @@ class DiffCommand extends Command
      * @param array  $rightPropsDifferences
      * @param array  $rightProps
      */
-    public function compareSectionProperties($section, $leftPropsDifferences, $leftProps, $rightPropsDifferences, $rightProps)
+    public function compareSectionProperties($section, $leftPropsDifferences, $rightPropsDifferences, $rightProps)
     {
         $this->logger->log(Logger::INFO, $section);
 
