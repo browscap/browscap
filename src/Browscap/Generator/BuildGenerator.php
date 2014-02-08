@@ -2,7 +2,8 @@
 
 namespace Browscap\Generator;
 
-use Symfony\Component\Console\Output\OutputInterface;
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
 use ZipArchive;
 
 class BuildGenerator
@@ -23,11 +24,6 @@ class BuildGenerator
     /**@-*/
 
     /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     */
-    private $output;
-
-    /**
      * @var string
      */
     private $resourceFolder;
@@ -36,6 +32,11 @@ class BuildGenerator
      * @var string
      */
     private $buildFolder;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * @param string $resourceFolder
@@ -48,8 +49,8 @@ class BuildGenerator
     }
 
     /**
-     * @param $directory
-     * @param $type
+     * @param string $directory
+     * @param string $type
      *
      * @return string
      * @throws \Exception
@@ -80,40 +81,12 @@ class BuildGenerator
      */
     public function generateBuilds($version)
     {
-        $this->output('<info>Resource folder: ' . $this->resourceFolder . '</info>');
-        $this->output('<info>Build folder: ' . $this->buildFolder . '</info>');
+        $this->logger->log(Logger::INFO, 'Resource folder: ' . $this->resourceFolder . '');
+        $this->logger->log(Logger::INFO, 'Build folder: ' . $this->buildFolder . '');
 
         $collection = $this->createDataCollection($version, $this->resourceFolder);
 
         $this->writeFiles($collection, $this->buildFolder);
-    }
-
-    /**
-     * Sets the optional output interface
-     *
-     * @param \Symfony\Component\Console\Output\OutputInterface $outputInterface
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setOutput(OutputInterface $outputInterface)
-    {
-        $this->output = $outputInterface;
-        return $this;
-    }
-
-    /**
-     * If an output interface has been set, write to it. This does nothing if setOutput has not been called.
-     *
-     * @param string|array $messages
-     *
-     * @return string|null
-     */
-    private function output($messages)
-    {
-        if (isset($this->output) && $this->output instanceof OutputInterface) {
-            return $this->output->writeln($messages);
-        }
-
-        return null;
     }
 
     /**
@@ -146,7 +119,8 @@ class BuildGenerator
     }
 
     /**
-     * Write out the various INI file formats and the XML file format
+     * Write out the various INI file formats, the XML file format, the CSV file format and packs all files to a
+     * zip archive
      *
      * @param \Browscap\Generator\DataCollection $collection
      * @param string $buildFolder
@@ -220,7 +194,7 @@ class BuildGenerator
         ;
 
         foreach ($formats as $format) {
-            $this->output('<info>Generating ' . $format['file'] . ' [' . $format['info'] . ']</info>');
+            $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
 
             $outputFile = $buildFolder . '/' . $format['file'];
 
@@ -229,7 +203,7 @@ class BuildGenerator
             file_put_contents($outputFile, $iniGenerator->generate($format['format'], $format['type']));
         }
 
-        $this->output('<info>Generating browscap.xml [XML]</info>');
+        $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
 
         $xmlGenerator
             ->setCollectionData($collectionData)
@@ -239,7 +213,7 @@ class BuildGenerator
 
         file_put_contents($buildFolder . '/browscap.xml', $xmlGenerator->generate());
 
-        $this->output('<info>Generating browscap.csv [CSV]</info>');
+        $this->logger->log(Logger::INFO, 'Generating browscap.csv [CSV]');
 
         $csvGenerator
             ->setCollectionData($collectionData)
@@ -249,7 +223,7 @@ class BuildGenerator
 
         file_put_contents($buildFolder . '/browscap.csv', $csvGenerator->generate());
 
-        $this->output('<info>Generating browscap.zip [ZIP]</info>');
+        $this->logger->log(Logger::INFO, 'Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();
         $zip->open($buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
@@ -264,5 +238,17 @@ class BuildGenerator
         $zip->addFile($buildFolder . '/browscap.csv', 'browscap.csv');
 
         $zip->close();
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
     }
 }

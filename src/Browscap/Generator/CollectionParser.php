@@ -13,7 +13,7 @@ class CollectionParser
      * Set the data collection
      *
      * @param \Browscap\Generator\DataCollection $collection
-     * @return \Browscap\Generator\BrowscapIniGenerator
+     * @return \Browscap\Generator\CollectionParser
      */
     public function setDataCollection(DataCollection $collection)
     {
@@ -133,12 +133,12 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param array   $uaData
-     * @param string  $majorVer
-     * @param string  $minorVer
-     * @param boolean $lite
-     * @param integer $sortIndex
-     * @param string  $divisionName
+     * @param string[] $uaData
+     * @param string   $majorVer
+     * @param string   $minorVer
+     * @param boolean  $lite
+     * @param integer  $sortIndex
+     * @param string   $divisionName
      *
      * @return array
      */
@@ -177,7 +177,7 @@ class CollectionParser
      * @param string $majorVer
      * @param string $minorVer
      *
-     * @return array
+     * @return array[]
      */
     private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
     {
@@ -228,7 +228,7 @@ class CollectionParser
      * @param string $majorVer
      * @param string $minorVer
      *
-     * @return array
+     * @return string[]
      */
     private function parseProperties(array $properties, $majorVer, $minorVer)
     {

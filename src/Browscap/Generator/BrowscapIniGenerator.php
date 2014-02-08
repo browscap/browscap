@@ -2,100 +2,8 @@
 
 namespace Browscap\Generator;
 
-class BrowscapIniGenerator implements GeneratorInterface
+class BrowscapIniGenerator extends AbstractGenerator
 {
-    /**
-     * @var string
-     */
-    private $format = BuildGenerator::OUTPUT_FORMAT_PHP;
-
-    /**
-     * @var string
-     */
-    private $type = BuildGenerator::OUTPUT_TYPE_FULL;
-
-    /**
-     * @var array
-     */
-    private $collectionData;
-
-    /**
-     * @var array
-     */
-    private $comments = array();
-
-    /**
-     * @var array
-     */
-    private $versionData = array();
-
-    /**
-     * Set the data collection
-     *
-     * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapIniGenerator
-     */
-    public function setCollectionData(array $collectionData)
-    {
-        $this->collectionData = $collectionData;
-        return $this;
-    }
-
-    /**
-     * Get the data collection
-     *
-     * @throws \LogicException
-     * @return array
-     */
-    public function getCollectionData()
-    {
-        if (!isset($this->collectionData)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
-        }
-
-        return $this->collectionData;
-    }
-
-    /**
-     * @param array $comments
-     *
-     * @return \Browscap\Generator\BrowscapIniGenerator
-     */
-    public function setComments(array $comments)
-    {
-        $this->comments = $comments;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getComments()
-    {
-        return $this->comments;
-    }
-
-    /**
-     * @param array $versionData
-     *
-     * @return \Browscap\Generator\BrowscapIniGenerator
-     */
-    public function setVersionData(array $versionData)
-    {
-        $this->versionData = $versionData;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getVersionData()
-    {
-        return $this->versionData;
-    }
-
     /**
      * Generate and return the formatted browscap data
      *
@@ -146,9 +54,9 @@ class BrowscapIniGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
+     * @param array[]  $allDivisions
      * @param string $output
-     * @param array  $allProperties
+     * @param array[]  $allProperties
      *
      * @return string
      */
