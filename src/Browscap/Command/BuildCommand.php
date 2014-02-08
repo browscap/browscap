@@ -34,10 +34,10 @@ class BuildCommand extends Command
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
-            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
-            ->addOption('output', null, InputOption::VALUE_REQUIRED, "Where to output the build files to", $defaultBuildFolder)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, "Where the resource files are located", $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
+            ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
+            ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
         ;
     }
 

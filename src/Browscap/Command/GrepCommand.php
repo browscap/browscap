@@ -51,7 +51,7 @@ class GrepCommand extends Command
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
-            ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
         ;
     }
 

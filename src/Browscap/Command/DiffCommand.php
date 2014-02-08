@@ -40,7 +40,7 @@ class DiffCommand extends Command
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::REQUIRED, 'The right .ini file to compare')
-            ->addOption('debug', null, InputOption::VALUE_NONE, "Should the debug mode entered?")
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
         ;
     }
 
