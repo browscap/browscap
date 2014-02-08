@@ -2,7 +2,6 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
 
 class CollectionParserTest extends \PHPUnit_Framework_TestCase
@@ -59,6 +58,13 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     {
         $this->setExpectedException('\InvalidArgumentException', 'Property Foobar did not have a defined property type');
         CollectionParser::getPropertyType('Foobar');
+    }
+
+    public function testGetDataCollectionThrowsExceptionIfCollectionIsNotSet()
+    {
+        $this->setExpectedException('\LogicException', 'Data collection has not been set yet - call setDataCollection');
+        $parser = new CollectionParser();
+        $parser->getDataCollection();
     }
 
     public function extraPropertiesDataProvider()

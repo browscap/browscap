@@ -260,8 +260,7 @@ class CollectionParser
         foreach ($allInputDivisions as $key => $properties) {
 
             if (!isset($properties['Parent'])
-                && 'DefaultProperties' !== $key
-                && '*' !== $key
+                && !in_array($key, array('DefaultProperties', '*'))
             ) {
                 continue;
             }
