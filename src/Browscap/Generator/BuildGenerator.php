@@ -2,7 +2,7 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
@@ -70,68 +70,25 @@ class BuildGenerator
         $this->logger->log(Logger::INFO, 'Resource folder: ' . $this->resourceFolder . '');
         $this->logger->log(Logger::INFO, 'Build folder: ' . $this->buildFolder . '');
 
-        $collection = CollectionCreator::createDataCollection($version, $this->resourceFolder);
-
-        $this->writeFiles($collection, $this->buildFolder);
-    }
-
-    /**
-     * Create and populate a data collection object from a resource folder
-     *
-     * @param string $version
-     * @param string $resourceFolder
-     *
-     * @return \Browscap\Generator\DataCollection
-     */
-    private function createDataCollection($version, $resourceFolder)
-    {
-        $collection = new DataCollection($version);
-        $collection->addPlatformsFile($resourceFolder . '/platforms.json');
-
-        $uaSourceDirectory = $resourceFolder . '/user-agents';
-
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() != 'json') {
-                continue;
-            }
-
-            $collection->addSourceFile($file->getPathname());
-        }
-
-        return $collection;
+        $this->writeFiles($version, $this->buildFolder);
     }
 
     /**
      * Write out the various INI file formats, the XML file format, the CSV file format and packs all files to a
      * zip archive
->>>>>>> 13dea30d3c4632cf61290ef32a1e176db6f9e66f
      *
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param string $version
      * @param string $buildFolder
      */
-    private function writeFiles(DataCollection $collection, $buildFolder)
+    private function writeFiles($version, $buildFolder)
     {
-        $collectionParser = new CollectionParser();
-        $iniGenerator     = new BrowscapIniGenerator();
-        $xmlGenerator     = new BrowscapXmlGenerator();
-        $csvGenerator     = new BrowscapCsvGenerator();
-
-        $version = $collection->getVersion();
-        $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
-        $date    = $collection->getGenerationDate()->format('r');
-
-        $comments = array(
-            'Provided courtesy of http://browscap.org/',
-            'Created on ' . $dateUtc,
-            'Keep up with the latest goings-on with the project:',
-            'Follow us on Twitter <https://twitter.com/browscap>, or...',
-            'Like us on Facebook <https://facebook.com/browscap>, or...',
-            'Collaborate on GitHub <https://github.com/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-        );
+        $generatorHelper = new Generator();
+        $generatorHelper
+            ->setVersion($version)
+            ->setResourceFolder($this->resourceFolder)
+            ->createCollection()
+            ->parseCollection()
+        ;
 
         $formats = array(
             ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
@@ -142,44 +99,29 @@ class BuildGenerator
             ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
         );
 
-        $collectionParser->setDataCollection($collection);
-        $collectionData = $collectionParser->parse();
-
-        $iniGenerator->setCollectionData($collectionData);
+        $iniGenerator = new BrowscapIniGenerator();
 
         foreach ($formats as $format) {
             $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
 
-            $outputFile = $buildFolder . '/' . $format[0];
+            $iniGenerator->setOptions($format[2], $format[3], $format[4]);
 
-            $iniGenerator
-                ->setOptions($format[2], $format[3], $format[4])
-                ->setComments($comments)
-                ->setVersionData(array('version' => $version, 'released' => $date))
-            ;
+            $generatorHelper->setGenerator($iniGenerator);
 
-            file_put_contents($outputFile, $iniGenerator->generate());
+            file_put_contents($buildFolder . '/' . $format[0], $generatorHelper->create());
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
 
-        $xmlGenerator
-            ->setCollectionData($collectionData)
-            ->setComments($comments)
-            ->setVersionData(array('version' => $version, 'released' => $date))
-        ;
-
-        file_put_contents($buildFolder . '/browscap.xml', $xmlGenerator->generate());
+        $xmlGenerator = new BrowscapXmlGenerator();
+        $generatorHelper->setGenerator($xmlGenerator);
+        file_put_contents($buildFolder . '/browscap.xml', $generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.csv [CSV]');
 
-        $csvGenerator
-            ->setCollectionData($collectionData)
-            ->setComments($comments)
-            ->setVersionData(array('version' => $version, 'released' => $date))
-        ;
-
-        file_put_contents($buildFolder . '/browscap.csv', $csvGenerator->generate());
+        $csvGenerator = new BrowscapCsvGenerator();
+        $generatorHelper->setGenerator($csvGenerator);
+        file_put_contents($buildFolder . '/browscap.csv', $generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.zip [ZIP]');
 

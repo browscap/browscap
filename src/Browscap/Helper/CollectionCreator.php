@@ -14,7 +14,7 @@ class CollectionCreator
      *
      * @return \Browscap\Generator\DataCollection
      */
-    public static function createDataCollection($version, $resourceFolder)
+    public function createDataCollection($version, $resourceFolder)
     {
         $collection = new DataCollection($version);
         $collection->addPlatformsFile($resourceFolder . '/platforms.json');

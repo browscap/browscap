@@ -3,17 +3,14 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\CollectionParser;
-use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
+use Browscap\Helper\LoggerHelper;
 use Browscap\Parser\IniParser;
-use Monolog\ErrorHandler;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Handler\ErrorLogHandler;
-use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
@@ -37,11 +34,14 @@ class DiffCommand extends Command
      */
     protected function configure()
     {
+        $defaultResourceFolder = __DIR__ . BuildCommand::DEFAULT_RESOURCES_FOLDER;
+
         $this
             ->setName('diff')
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
-            ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare');
+            ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare')
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -55,14 +55,8 @@ class DiffCommand extends Command
         $leftFilename = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
-        $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
-
-        $this->logger = new Logger('browscap');
-        $this->logger->pushHandler($stream);
-        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
-
-        ErrorHandler::register($this->logger);
+        $loggerHelper = new LoggerHelper();
+        $this->logger = $loggerHelper->create();
 
         $iniParserLeft = new IniParser($leftFilename);
         $leftFile = $iniParserLeft->setShouldSort(true)->parse();
@@ -75,40 +69,23 @@ class DiffCommand extends Command
             }
 
             $this->logger->log(Logger::INFO, 'right file not set or invalid - creating right file from resources');
-            $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESOURCES_FOLDER;
+            $resourceFolder = $input->getOption('resources');
 
-            $collection = CollectionCreator::createDataCollection('temporary-version', $resourceFolder);
-
-            $version = $collection->getVersion();
-            $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
-            $date    = $collection->getGenerationDate()->format('r');
-
-            $comments = array(
-                'Provided courtesy of http://browscap.org/',
-                'Created on ' . $dateUtc,
-                'Keep up with the latest goings-on with the project:',
-                'Follow us on Twitter <https://twitter.com/browscap>, or...',
-                'Like us on Facebook <https://facebook.com/browscap>, or...',
-                'Collaborate on GitHub <https://github.com/browscap>, or...',
-                'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-            );
-
-            $collectionParser = new CollectionParser();
-            $collectionParser->setDataCollection($collection);
-            $collectionData = $collectionParser->parse();
+            $generatorHelper = new Generator();
+            $generatorHelper
+                ->setVersion('temporary-version')
+                ->setResourceFolder($resourceFolder)
+                ->createCollection()
+                ->parseCollection()
+            ;
 
             $iniGenerator = new BrowscapIniGenerator();
-            $iniGenerator->setCollectionData($collectionData);
+            $iniGenerator->setOptions(true, true, false);
+            $generatorHelper->setGenerator($iniGenerator);
 
             $rightFilename = $cache_dir . 'full_php_browscap.ini';
 
-            $iniGenerator
-                ->setOptions(true, true, false)
-                ->setComments($comments)
-                ->setVersionData(array('version' => $version, 'released' => $date))
-            ;
-
-            file_put_contents($rightFilename, $iniGenerator->generate());
+            file_put_contents($rightFilename, $generatorHelper->create());
         }
 
         $iniParserRight = new IniParser($rightFilename);

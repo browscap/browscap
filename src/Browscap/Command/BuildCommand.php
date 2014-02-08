@@ -3,10 +3,7 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Monolog\ErrorHandler;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Handler\ErrorLogHandler;
-use Monolog\Handler\StreamHandler;
+use Browscap\Helper\LoggerHelper;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -34,9 +31,9 @@ class BuildCommand extends Command
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
-            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
-            ->addOption('output', null, InputOption::VALUE_REQUIRED, "Where to output the build files to", $defaultBuildFolder)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, "Where the resource files are located", $defaultResourceFolder);
+            ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
+            ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -49,14 +46,8 @@ class BuildCommand extends Command
         $buildFolder = $input->getOption('output');
         $version = $input->getArgument('version');
 
-        $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
-
-        $logger = new Logger('browscap');
-        $logger->pushHandler($stream);
-        $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
-
-        ErrorHandler::register($logger);
+        $loggerHelper = new LoggerHelper();
+        $logger = $loggerHelper->create();
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator->setLogger($logger);
