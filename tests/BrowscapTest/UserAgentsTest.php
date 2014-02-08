@@ -29,6 +29,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator->generateBuilds($buildNumber);
+        $buildGenerator->setLogger($logger);
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         $browscap = new Browscap($buildFolder);

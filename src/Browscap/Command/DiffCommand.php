@@ -143,8 +143,6 @@ class DiffCommand extends Command
      * @param array  $leftPropsDifferences
      * @param array  $rightPropsDifferences
      * @param array  $rightProps
-     *
-     * @internal param array $leftProps
      */
     public function compareSectionProperties($section, array $leftPropsDifferences, array $rightPropsDifferences, array $rightProps)
     {
