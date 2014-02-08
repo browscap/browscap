@@ -52,7 +52,7 @@ class DiffCommand extends Command
     {
         $this->diffsFound = 0;
 
-        $leftFilename  = $input->getArgument('left');
+        $leftFilename = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
         $debug = $input->getOption('debug');

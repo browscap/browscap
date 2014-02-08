@@ -88,7 +88,7 @@ class GrepCommand extends Command
         $iniFile = $input->getArgument('iniFile');
 
         if (!$iniFile || !file_exists($iniFile)) {
-            $this->output->writeln('<info>iniFile Argument not set or invalid - creating iniFile from resources</info>');
+            $this->logger->log(Logger::INFO, 'iniFile Argument not set or invalid - creating iniFile from resources');
             $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
 
             $this->logger->log(Logger::DEBUG, 'creating data collection');
