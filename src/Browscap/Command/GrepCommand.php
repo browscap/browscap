@@ -5,12 +5,17 @@ namespace Browscap\Command;
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 use phpbrowscap\Browscap;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -24,6 +29,11 @@ class GrepCommand extends Command
      * @var \phpbrowscap\Browscap
      */
     protected $browscap;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $logger = null;
 
     /**
      * (non-PHPdoc)
@@ -50,6 +60,15 @@ class GrepCommand extends Command
         if (!file_exists($cache_dir)) {
             mkdir($cache_dir, 0777, true);
         }
+
+        $stream = new StreamHandler('php://output', Logger::INFO);
+        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+
+        $this->logger = new Logger('browscap');
+        $this->logger->pushHandler($stream);
+        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+
+        ErrorHandler::register($this->logger);
 
         $iniFile = $input->getArgument('iniFile');
 
@@ -125,9 +144,9 @@ class GrepCommand extends Command
         $data = $this->browscap->getBrowser($ua, true);
 
         if ($mode == 'unmatched' && $data['Browser'] == 'Default Browser') {
-            echo $ua . "\n";
+            $this->logger->log(Logger::INFO, $ua);
         } else if ($mode == 'matched' && $data['Browser'] != 'Default Browser') {
-            echo $ua . "\n";
+            $this->logger->log(Logger::INFO, $ua);
         }
     }
 }
