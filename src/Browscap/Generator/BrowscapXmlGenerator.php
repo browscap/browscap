@@ -2,6 +2,9 @@
 
 namespace Browscap\Generator;
 
+use DOMDocument;
+use DOMNode;
+
 class BrowscapXmlGenerator extends AbstractGenerator
 {
     /**
@@ -24,7 +27,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      *
      * @return \DOMElement
      */
-    private function renderHeader(\DOMDocument $dom)
+    private function renderHeader(DOMDocument $dom)
     {
         $comments = $dom->createElement('comments');
 
@@ -48,7 +51,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, array $allProperties)
     {
-        $dom = new \DOMDocument('1.0', 'utf-8');
+        $dom = new DOMDocument('1.0', 'utf-8');
         $dom->preserveWhiteSpace = false;
         $dom->formatOutput = true;
 
@@ -171,7 +174,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      *
      * @return \DOMElement
      */
-    private function renderVersion(\DOMDocument $dom)
+    private function renderVersion(DOMDocument $dom)
     {
         $version     = $dom->createElement('gjk_browscap_version');
         $versionData = $this->getVersionData();
@@ -211,7 +214,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      * @param string       $property
      * @param mixed        $valueOutput
      */
-    private function createItem(\DOMDocument $dom, \DOMNode $browscapitem, $property, $valueOutput)
+    private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
     {
         $item        = $dom->createElement('item');
 
