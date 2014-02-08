@@ -380,8 +380,10 @@ class CollectionParser
             case 'Crawler':
                 return 'boolean';
             default:
-                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
+                // do nothing here
         }
+
+        throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
     }
 
     /**
@@ -402,7 +404,31 @@ class CollectionParser
             case 'RenderingEngine_Description':
                 return true;
             default:
-                return false;
+                // do nothing here
         }
+
+        return false;
+    }
+
+    /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in the "full" versions of the files)
+     *
+     * @param string $propertyName
+     * @return boolean
+     */
+    public static function isOutputProperty($propertyName)
+    {
+        switch ($propertyName) {
+            case 'lite':
+            case 'sortIndex':
+            case 'Parents':
+            case 'division':
+                return false;
+            default:
+                // do nothing here
+        }
+
+        return true;
     }
 }
