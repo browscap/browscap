@@ -151,4 +151,25 @@ class Generator
 
         return $this->generator->generate();
     }
+
+    /**
+     * @param string $resourceFolder
+     *
+     * @return string
+     */
+    public function createTemporaryFile($resourceFolder)
+    {
+        $this
+            ->setVersion('temporary-version')
+            ->setResourceFolder($resourceFolder)
+            ->createCollection()
+            ->parseCollection()
+        ;
+
+        $iniGenerator = new BrowscapIniGenerator();
+        $iniGenerator->setOptions(true, true, false);
+        $this->setGenerator($iniGenerator);
+
+        return $this->create();
+    }
 }

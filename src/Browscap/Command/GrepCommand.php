@@ -70,20 +70,10 @@ class GrepCommand extends Command
             $resourceFolder = $input->getOption('resources');
 
             $generatorHelper = new Generator();
-            $generatorHelper
-                ->setVersion('temporary-version')
-                ->setResourceFolder($resourceFolder)
-                ->createCollection()
-                ->parseCollection()
-            ;
-
-            $iniGenerator = new BrowscapIniGenerator();
-            $iniGenerator->setOptions(true, true, false);
-            $generatorHelper->setGenerator($iniGenerator);
 
             $iniFile = $cache_dir . 'full_php_browscap.ini';
 
-            file_put_contents($iniFile, $generatorHelper->create());
+            file_put_contents($iniFile, $generatorHelper->createTemporaryFile($resourceFolder));
         }
 
         $this->browscap = new Browscap($cache_dir);

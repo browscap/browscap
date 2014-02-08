@@ -63,6 +63,7 @@ class DiffCommand extends Command
 
         if (!$rightFilename || !file_exists($rightFilename)) {
             $cache_dir = sys_get_temp_dir() . '/browscap-diff/' . microtime(true) . '/';
+            $rightFilename = $cache_dir . 'full_php_browscap.ini';
 
             if (!file_exists($cache_dir)) {
                 mkdir($cache_dir, 0777, true);
@@ -72,20 +73,7 @@ class DiffCommand extends Command
             $resourceFolder = $input->getOption('resources');
 
             $generatorHelper = new Generator();
-            $generatorHelper
-                ->setVersion('temporary-version')
-                ->setResourceFolder($resourceFolder)
-                ->createCollection()
-                ->parseCollection()
-            ;
-
-            $iniGenerator = new BrowscapIniGenerator();
-            $iniGenerator->setOptions(true, true, false);
-            $generatorHelper->setGenerator($iniGenerator);
-
-            $rightFilename = $cache_dir . 'full_php_browscap.ini';
-
-            file_put_contents($rightFilename, $generatorHelper->create());
+            file_put_contents($rightFilename, $generatorHelper->createTemporaryFile($resourceFolder));
         }
 
         $iniParserRight = new IniParser($rightFilename);
