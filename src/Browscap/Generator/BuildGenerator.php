@@ -140,6 +140,7 @@ class BuildGenerator
             ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
         );
 
+        $collectionParser->setDataCollection($collection);
         $collectionData = $collectionParser->parse();
 
         $iniGenerator->setCollectionData($collectionData);
