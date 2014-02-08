@@ -56,7 +56,6 @@ class BuildCommand extends Command
         ErrorHandler::register($logger);
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
-        $buildGenerator->setOutput($output);
         $buildGenerator->setLogger($logger);
         $buildGenerator->generateBuilds($version);
 
