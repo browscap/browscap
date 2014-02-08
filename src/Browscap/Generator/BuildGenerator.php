@@ -97,7 +97,7 @@ class BuildGenerator
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param        $version
+     * @param string $version
      * @param string $resourceFolder
      *
      * @return \Browscap\Generator\DataCollection
