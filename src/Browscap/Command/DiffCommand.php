@@ -108,7 +108,6 @@ class DiffCommand extends Command
     /**
      * @param string $section
      * @param array  $leftPropsDifferences
-     * @param array  $leftProps
      * @param array  $rightPropsDifferences
      * @param array  $rightProps
      */
