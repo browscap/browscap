@@ -80,7 +80,7 @@ class BrowscapCsvGenerator implements GeneratorInterface
     }
 
     /**
-     * @param array $comments
+     * @param string[] $comments
      *
      * @return \Browscap\Generator\BrowscapCsvGenerator
      */
@@ -176,9 +176,9 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
+     * @param array[]  $allDivisions
      * @param string $output
-     * @param array  $allProperties
+     * @param array[]  $allProperties
      *
      * @return string
      */

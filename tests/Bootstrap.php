@@ -15,7 +15,7 @@ foreach ($autoloadPaths as $path) {
     if (file_exists($path)) {
         require $path;
         $foundVendorAutoload = true;
-	    break;
+        break;
     }
 }
 

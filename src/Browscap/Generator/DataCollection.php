@@ -110,8 +110,6 @@ class DataCollection
 
     /**
      * Sort the divisions (if they haven't already been sorted)
-     *
-     * @return boolean
      */
     public function sortDivisions()
     {

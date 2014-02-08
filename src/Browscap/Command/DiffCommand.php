@@ -3,7 +3,9 @@
 namespace Browscap\Command;
 
 use Browscap\Parser\IniParser;
-use Monolog\Handler\NullHandler;
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
@@ -17,11 +19,6 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class DiffCommand extends Command
 {
-    /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     */
-    protected $output;
-
     /**
      * @var int Number of differences found in total
      */
@@ -54,24 +51,25 @@ class DiffCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->diffsFound = 0;
-        $this->output = $output;
 
         $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
-        $debug          = $input->getOption('debug');
+        $debug = $input->getOption('debug');
 
         if ($debug) {
-            $logHandlers = array(
-                new StreamHandler('php://output', Logger::DEBUG)
-            );
+            $stream = new StreamHandler('php://output', Logger::DEBUG);
         } else {
-            $logHandlers = array(
-                new NullHandler(Logger::DEBUG)
-            );
+            $stream = new StreamHandler('php://output', Logger::INFO);
         }
 
-        $this->logger = new Logger('browscap', $logHandlers);
+        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+
+        $this->logger = new Logger('browscap');
+        $this->logger->pushHandler($stream);
+        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+
+        ErrorHandler::register($this->logger);
 
         $this->logger->log(Logger::DEBUG, 'parsing left file ' . $leftFilename);
         $iniParserLeft = new IniParser($leftFilename);
@@ -92,17 +90,15 @@ class DiffCommand extends Command
         $this->logger->log(Logger::DEBUG, var_export($rtlDiff, true));
 
         if (count($ltrDiff) || count($rtlDiff)) {
-            $this->output->writeln('The following differences have been found:');
+            $this->logger->log(Logger::INFO, 'The following differences have been found:');
             $sectionsRead = array();
 
             $this->logger->log(Logger::DEBUG, 'Pass 1 (LTR)');
-
             foreach ($ltrDiff as $section => $props) {
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
-                    $this->compareSectionProperties($section, $props, $leftFile[$section], (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
+                    $this->compareSectionProperties($section, $props, (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
                 } else {
-                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on LEFT</error>', $section, "\n");
-                    $this->output->writeln("\n" . $msg);
+                    $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on LEFT');
                     $this->diffsFound++;
                 }
 
@@ -110,7 +106,6 @@ class DiffCommand extends Command
             }
 
             $this->logger->log(Logger::DEBUG, 'Pass 2 (RTL)');
-
             foreach ($rtlDiff as $section => $props) {
                 if (in_array($section, $sectionsRead)) {
                     continue;
@@ -120,13 +115,11 @@ class DiffCommand extends Command
                     $this->compareSectionProperties(
                         $section,
                         (isset($ltrDiff[$section]) ? $ltrDiff[$section] : array()),
-                        $leftFile[$section],
                         $props,
                         $rightFile[$section]
                     );
                 } else {
-                    $msg = sprintf('<comment>[%s]</comment>%s<error>Whole section only on RIGHT</error>', $section, "\n");
-                    $this->output->writeln("\n" . $msg);
+                    $this->logger->log(Logger::INFO, $section . "\n" . 'Whole section only on RIGHT');
                     $this->diffsFound++;
                 }
             }
@@ -138,23 +131,24 @@ class DiffCommand extends Command
                 $this->diffsFound,
                 ($this->diffsFound == 1 ? '' : 's')
             );
-            $this->output->writeln($msg);
+
+            $this->logger->log(Logger::INFO, $msg);
         } else {
-            $this->output->writeln('<info>No differences found, hooray!</info>');
+            $this->logger->log(Logger::INFO, 'No differences found, hooray!');
         }
     }
 
     /**
      * @param string $section
      * @param array  $leftPropsDifferences
-     * @param array  $leftProps
      * @param array  $rightPropsDifferences
      * @param array  $rightProps
+     *
+     * @internal param array $leftProps
      */
-    public function compareSectionProperties($section, array $leftPropsDifferences, array $leftProps, array $rightPropsDifferences, array $rightProps)
+    public function compareSectionProperties($section, array $leftPropsDifferences, array $rightPropsDifferences, array $rightProps)
     {
-        $msg = sprintf('<comment>[%s]</comment>', $section);
-        $this->output->writeln("\n" . $msg);
+        $this->logger->log(Logger::INFO, $section);
 
         // Diff the properties
         $propsRead = array();
@@ -162,12 +156,12 @@ class DiffCommand extends Command
         if (isset($leftPropsDifferences)) {
             foreach ($leftPropsDifferences as $prop => $value) {
                 if (isset($rightProps[$prop])) {
-                    $msg = sprintf('<error>"%s" differs (L / R): %s / %s</error>', $prop, $value, $rightProps[$prop]);
+                    $msg = sprintf('"%s" differs (L / R): %s / %s', $prop, $value, $rightProps[$prop]);
                 } else {
-                    $msg = sprintf('<error>"%s" is only on the LEFT</error>', $prop);
+                    $msg = sprintf('"%s" is only on the LEFT', $prop);
                 }
 
-                $this->output->writeln($msg);
+                $this->logger->log(Logger::INFO, $msg);
                 $this->diffsFound++;
 
                 $propsRead[] = $prop;
@@ -180,13 +174,9 @@ class DiffCommand extends Command
                     continue;
                 }
 
-                if (isset($leftProps[$prop])) {
-                    $msg = sprintf('<error>"%s" differs (R / L): %s / %s</error>', $prop, $value, $leftProps[$prop]);
-                } else {
-                    $msg = sprintf('<error>"%s" is only on the RIGHT</error>', $prop);
-                }
+                $msg = sprintf('"%s" is only on the RIGHT', $prop);
+                $this->logger->log(Logger::INFO, $msg);
 
-                $this->output->writeln($msg);
                 $this->diffsFound++;
             }
         }

@@ -4,7 +4,9 @@ namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
-use Monolog\Handler\NullHandler;
+use Monolog\ErrorHandler;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
@@ -64,17 +66,20 @@ class GrepCommand extends Command
         $debug = $input->getOption('debug');
 
         if ($debug) {
-            $logHandlers = array(
-                new StreamHandler('php://output', Logger::DEBUG)
-            );
+            $stream = new StreamHandler('php://output', Logger::DEBUG);
         } else {
-            $logHandlers = array(
-                new NullHandler(Logger::DEBUG)
-            );
+            $stream = new StreamHandler('php://output', Logger::INFO);
         }
 
-        $this->logger = new Logger('browscap', $logHandlers);
-        $cache_dir    = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
+        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+
+        $this->logger = new Logger('browscap');
+        $this->logger->pushHandler($stream);
+        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+
+        ErrorHandler::register($this->logger);
+
+        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
         if (!file_exists($cache_dir)) {
             mkdir($cache_dir, 0777, true);
@@ -144,6 +149,7 @@ class GrepCommand extends Command
 
         $uas = explode(PHP_EOL, $fileContents);
 
+
         $matchedCounter   = 0;
         $unmatchedCounter = 0;
         $invisibleCounter = 0;
@@ -157,22 +163,17 @@ class GrepCommand extends Command
             $data = $this->browscap->getBrowser($ua, true);
 
             if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-                $this->output->writeln($ua);
+                $this->logger->log(Logger::INFO, $ua);
                 $unmatchedCounter++;
             } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-                $this->output->writeln($ua);
+                $this->logger->log(Logger::INFO, $ua);
                 $matchedCounter++;
             } else {
                 $invisibleCounter++;
             }
         }
 
-        if ($mode == self::MODE_UNMATCHED) {
-            $this->output->writeln('<info>' . $unmatchedCounter . ' unmatched UAs found</info>');
-        } else {
-            $this->output->writeln('<info>' . $matchedCounter . ' matched UAs found</info>');
-        }
-        $this->output->writeln('<info>' . $invisibleCounter . ' other UAs found</info>');
-        $this->output->writeln('<info>Grep done.</info>');
+        $this->logger->log(Logger::INFO, $invisibleCounter . ' other UAs found');
+        $this->logger->log(Logger::INFO, 'Grep done.');
     }
 }

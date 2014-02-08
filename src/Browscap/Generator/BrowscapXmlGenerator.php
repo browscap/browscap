@@ -80,7 +80,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     }
 
     /**
-     * @param array $comments
+     * @param string[] $comments
      *
      * @return \Browscap\Generator\BrowscapXmlGenerator
      */
@@ -174,17 +174,11 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $this->log('rendering comments');
         $comments = $dom->createElement('comments');
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $comments->appendChild($linebreak);
-
         foreach ($this->getComments() as $text) {
             $comment = $dom->createElement('comment');
             $cdata   = $dom->createCDATASection($text);
             $comment->appendChild($cdata);
             $comments->appendChild($comment);
-
-            $linebreak = $dom->createTextNode(PHP_EOL);
-            $comments->appendChild($linebreak);
         }
 
         return $comments;
@@ -193,34 +187,24 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
-     * @param array  $allProperties
+     * @param array[] $allDivisions
+     * @param array[] $allProperties
      *
      * @return string
      */
     private function render(array $allDivisions, array $allProperties)
     {
         $this->log('rendering XML structure');
-        $dom      = new \DOMDocument('1.0', 'utf-8');
-        $xmlRoot  = $dom->createElement('browsercaps');
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $xmlRoot->appendChild($linebreak);
+        $dom = new \DOMDocument('1.0', 'utf-8');
+        $dom->preserveWhiteSpace = false;
+        $dom->formatOutput = true;
 
+        $xmlRoot   = $dom->createElement('browsercaps');
         $xmlRoot->appendChild($this->renderHeader($dom));
-
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $xmlRoot->appendChild($linebreak);
-
         $xmlRoot->appendChild($this->renderVersion($dom));
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $xmlRoot->appendChild($linebreak);
-
         $items = $dom->createElement('browsercapitems');
-
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $items->appendChild($linebreak);
 
         $counter = 1;
 
@@ -267,14 +251,10 @@ class BrowscapXmlGenerator implements GeneratorInterface
             }
 
             // create output - xml
-
             $browscapitem = $dom->createElement('browscapitem');
             $name = $dom->createAttribute('name');
             $name->value = htmlentities($key);
             $browscapitem->appendChild($name);
-
-            $linebreak = $dom->createTextNode(PHP_EOL);
-            $browscapitem->appendChild($linebreak);
 
             $this->createItem($dom, $browscapitem, 'PropertyName', $key);
             $this->createItem($dom, $browscapitem, 'AgentID', $counter);
@@ -330,22 +310,12 @@ class BrowscapXmlGenerator implements GeneratorInterface
             }
 
             $items->appendChild($browscapitem);
-
-            $linebreak = $dom->createTextNode(PHP_EOL);
-            $items->appendChild($linebreak);
         }
 
         $xmlRoot->appendChild($items);
-
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $xmlRoot->appendChild($linebreak);
-
         $dom->appendChild($xmlRoot);
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $dom->appendChild($linebreak);
-
-        return  $dom->saveXML();
+        return str_replace('  ', '', $dom->saveXML());
     }
 
     /**
@@ -369,9 +339,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
             $versionData['released'] = '';
         }
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $version->appendChild($linebreak);
-
         $item = $dom->createElement('item');
         $name = $dom->createAttribute('name');
         $name->value = 'Version';
@@ -381,9 +348,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($value);
         $version->appendChild($item);
 
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $version->appendChild($linebreak);
-
         $item = $dom->createElement('item');
         $name = $dom->createAttribute('name');
         $name->value = 'Released';
@@ -392,9 +356,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($name);
         $item->appendChild($value);
         $version->appendChild($item);
-
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $version->appendChild($linebreak);
 
         return $version;
     }
@@ -418,9 +379,6 @@ class BrowscapXmlGenerator implements GeneratorInterface
         $item->appendChild($value);
 
         $browscapitem->appendChild($item);
-
-        $linebreak = $dom->createTextNode(PHP_EOL);
-        $browscapitem->appendChild($linebreak);
     }
 
     /**
