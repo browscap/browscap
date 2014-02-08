@@ -4,17 +4,10 @@ namespace Browscap\Generator;
 
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
-use Symfony\Component\Console\Output\OutputInterface;
 use ZipArchive;
 
 class BuildGenerator
 {
-    /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     * @deprecated
-     */
-    private $output;
-
     /**
      * @var string
      */
@@ -79,19 +72,6 @@ class BuildGenerator
         $collection = $this->createDataCollection($version, $this->resourceFolder);
 
         $this->writeFiles($collection, $this->buildFolder);
-    }
-
-    /**
-     * Sets the optional output interface
-     *
-     * @param \Symfony\Component\Console\Output\OutputInterface $outputInterface
-     * @return \Browscap\Generator\BuildGenerator
-     * @deprecated
-     */
-    public function setOutput(OutputInterface $outputInterface)
-    {
-        $this->output = $outputInterface;
-        return $this;
     }
 
     /**

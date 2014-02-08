@@ -3,152 +3,11 @@
 namespace Browscap\Generator;
 
 use Monolog\Logger;
-use Psr\Log\LoggerInterface;
+use DOMDocument;
+use DOMNode;
 
-class BrowscapXmlGenerator implements GeneratorInterface
+class BrowscapXmlGenerator extends AbstractGenerator
 {
-    /**
-     * @var bool
-     */
-    private $quoteStringProperties;
-
-    /**
-     * @var bool
-     */
-    private $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    private $liteOnly;
-
-    /**
-     * @var array
-     */
-    private $collectionData;
-
-    /**
-     * @var array
-     */
-    private $comments = array();
-
-    /**
-     * @var array
-     */
-    private $versionData = array();
-
-    /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger = null;
-
-    /**
-     * Set defaults
-     */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
-
-    /**
-     * Set the data collection
-     *
-     * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setCollectionData(array $collectionData)
-    {
-        $this->collectionData = $collectionData;
-        return $this;
-    }
-
-    /**
-     * Get the data collection
-     *
-     * @throws \LogicException
-     * @return array
-     */
-    public function getCollectionData()
-    {
-        if (!isset($this->collectionData)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
-        }
-
-        return $this->collectionData;
-    }
-
-    /**
-     * @param string[] $comments
-     *
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setComments(array $comments)
-    {
-        $this->comments = $comments;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getComments()
-    {
-        return $this->comments;
-    }
-
-    /**
-     * @param array $versionData
-     *
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setVersionData(array $versionData)
-    {
-        $this->versionData = $versionData;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getVersionData()
-    {
-        return $this->versionData;
-    }
-
-    /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     *
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Generator\BrowscapXmlGenerator
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
     /**
      * Generate and return the formatted browscap data
      *
@@ -169,7 +28,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      *
      * @return \DOMElement
      */
-    private function renderHeader(\DOMDocument $dom)
+    private function renderHeader(DOMDocument $dom)
     {
         $this->log('rendering comments');
         $comments = $dom->createElement('comments');
@@ -187,8 +46,8 @@ class BrowscapXmlGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param array[] $allDivisions
-     * @param array[] $allProperties
+     * @param array $allDivisions
+     * @param array $allProperties
      *
      * @return string
      */
@@ -196,7 +55,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
     {
         $this->log('rendering XML structure');
 
-        $dom = new \DOMDocument('1.0', 'utf-8');
+        $dom = new DOMDocument('1.0', 'utf-8');
         $dom->preserveWhiteSpace = false;
         $dom->formatOutput = true;
 
@@ -325,7 +184,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      *
      * @return \DOMElement
      */
-    private function renderVersion(\DOMDocument $dom)
+    private function renderVersion(DOMDocument $dom)
     {
         $this->log('rendering version information');
         $version     = $dom->createElement('gjk_browscap_version');
@@ -366,7 +225,7 @@ class BrowscapXmlGenerator implements GeneratorInterface
      * @param string       $property
      * @param mixed        $valueOutput
      */
-    private function createItem(\DOMDocument $dom, \DOMNode $browscapitem, $property, $valueOutput)
+    private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
     {
         $item        = $dom->createElement('item');
 
