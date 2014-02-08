@@ -1,5 +1,4 @@
-before_commands:
-    - "composer install --prefer-source"
+inherit: true
 
 tools:
     # Code Coverage

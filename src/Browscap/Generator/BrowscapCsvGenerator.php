@@ -2,132 +2,8 @@
 
 namespace Browscap\Generator;
 
-class BrowscapCsvGenerator implements GeneratorInterface
+class BrowscapCsvGenerator extends AbstractGenerator
 {
-    /**
-     * @var bool
-     */
-    private $quoteStringProperties;
-
-    /**
-     * @var bool
-     */
-    private $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    private $liteOnly;
-
-    /**
-     * @var array
-     */
-    private $collectionData;
-
-    /**
-     * @var array
-     */
-    private $comments = array();
-
-    /**
-     * @var array
-     */
-    private $versionData = array();
-
-    /**
-     * Set defaults
-     */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
-
-    /**
-     * Set the data collection
-     *
-     * @param array $collectionData
-     * @return \Browscap\Generator\BrowscapCsvGenerator
-     */
-    public function setCollectionData(array $collectionData)
-    {
-        $this->collectionData = $collectionData;
-        return $this;
-    }
-
-    /**
-     * Get the data collection
-     *
-     * @throws \LogicException
-     * @return array
-     */
-    public function getCollectionData()
-    {
-        if (!isset($this->collectionData)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
-        }
-
-        return $this->collectionData;
-    }
-
-    /**
-     * @param array $comments
-     *
-     * @return \Browscap\Generator\BrowscapCsvGenerator
-     */
-    public function setComments(array $comments)
-    {
-        $this->comments = $comments;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getComments()
-    {
-        return $this->comments;
-    }
-
-    /**
-     * @param array $versionData
-     *
-     * @return \Browscap\Generator\BrowscapCsvGenerator
-     */
-    public function setVersionData(array $versionData)
-    {
-        $this->versionData = $versionData;
-
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getVersionData()
-    {
-        return $this->versionData;
-    }
-
-    /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     * @return \Browscap\Generator\BrowscapCsvGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
-    }
-
     /**
      * Generate and return the formatted browscap data
      *
@@ -155,9 +31,9 @@ class BrowscapCsvGenerator implements GeneratorInterface
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
+     * @param array[]  $allDivisions
      * @param string $output
-     * @param array  $allProperties
+     * @param array[]  $allProperties
      *
      * @return string
      */
