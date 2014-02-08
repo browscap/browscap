@@ -112,7 +112,7 @@ class GrepCommand extends Command
             $this->testUA($ua, $mode);
         }
 
-        $output->writeln('<info>All done.</info>');
+        $this->logger->log(Logger::INFO, 'Grep done.');
     }
 
     protected function testUA($ua, $mode)
