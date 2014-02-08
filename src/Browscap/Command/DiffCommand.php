@@ -127,7 +127,7 @@ class DiffCommand extends Command
      */
     public function compareSectionProperties($section, $leftPropsDifferences, $rightPropsDifferences, $rightProps)
     {
-        $this->logger->log(Logger::INFO, $section);
+        $this->logger->log(Logger::INFO, '[' . $section . ']');
 
         // Diff the properties
         $propsRead = array();
