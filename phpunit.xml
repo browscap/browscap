@@ -1,4 +1,4 @@
-<phpunit bootstrap="tests/Bootstrap.php" colors="true">
+<phpunit bootstrap="tests/Bootstrap.php">
   <testsuite name="Browscap Test Suite">
     <directory>./tests</directory>
   </testsuite>
@@ -7,4 +7,7 @@
       <directory>./src</directory>
     </whitelist>
   </filter>
+  <logging>
+    <log type="coverage-html" target="./build/coverage/" title="PHP Coveralls" charset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70"/>
+  </logging>
 </phpunit>

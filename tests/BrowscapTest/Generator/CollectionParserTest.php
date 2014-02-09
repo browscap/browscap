@@ -114,4 +114,65 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $actualValue = CollectionParser::isExtraProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
     }
+
+    public function outputPropertiesDataProvider()
+    {
+        return [
+            ['Comment', true],
+            ['Browser', true],
+            ['Platform', true],
+            ['Platform_Description', true],
+            ['Device_Name', true],
+            ['Device_Maker', true],
+            ['RenderingEngine_Name', true],
+            ['RenderingEngine_Description', true],
+            ['Parent', true],
+            ['Platform_Version', true],
+            ['RenderingEngine_Version', true],
+            ['Version', true],
+            ['MajorVer', true],
+            ['MinorVer', true],
+            ['CssVersion', true],
+            ['AolVersion', true],
+            ['Alpha', true],
+            ['Beta', true],
+            ['Win16', true],
+            ['Win32', true],
+            ['Win64', true],
+            ['Frames', true],
+            ['IFrames', true],
+            ['Tables', true],
+            ['Cookies', true],
+            ['BackgroundSounds', true],
+            ['JavaScript', true],
+            ['VBScript', true],
+            ['JavaApplets', true],
+            ['ActiveXControls', true],
+            ['isMobileDevice', true],
+            ['isSyndicationReader', true],
+            ['Crawler', true],
+            ['lite', false],
+            ['sortIndex', false],
+            ['Parents', false],
+            ['division', false],
+        ];
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     */
+    public function testIsOutputProperty($propertyName, $isExtra)
+    {
+        $actualValue = CollectionParser::isOutputProperty($propertyName);
+        self::assertSame($isExtra, $actualValue);
+    }
+
+    public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
+    {
+        $collection = new \Browscap\Generator\DataCollection('test-version');
+        
+        $parser = new CollectionParser();
+        self::assertSame($parser, $parser->setDataCollection($collection));
+        self::assertSame($collection, $parser->getDataCollection());
+    }
 }
