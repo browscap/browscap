@@ -71,7 +71,7 @@ class BuildGenerator
         $this->logger->log(Logger::INFO, 'Resource folder: ' . $this->resourceFolder . '');
         $this->logger->log(Logger::INFO, 'Build folder: ' . $this->buildFolder . '');
 
-        $this->writeFiles($version, $this->buildFolder);
+        $this->writeFiles($version);
     }
 
     /**
@@ -79,9 +79,8 @@ class BuildGenerator
      * zip archive
      *
      * @param string $version
-     * @param string $buildFolder
      */
-    private function writeFiles($version, $buildFolder)
+    private function writeFiles($version)
     {
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
@@ -114,34 +113,34 @@ class BuildGenerator
 
             $generatorHelper->setGenerator($iniGenerator);
 
-            file_put_contents($buildFolder . '/' . $format[0], $generatorHelper->create());
+            file_put_contents($this->buildFolder . '/' . $format[0], $generatorHelper->create());
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
 
         $xmlGenerator = new BrowscapXmlGenerator();
         $generatorHelper->setGenerator($xmlGenerator);
-        file_put_contents($buildFolder . '/browscap.xml', $generatorHelper->create());
+        file_put_contents($this->buildFolder . '/browscap.xml', $generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.csv [CSV]');
 
         $csvGenerator = new BrowscapCsvGenerator();
         $generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($buildFolder . '/browscap.csv', $generatorHelper->create());
+        file_put_contents($this->buildFolder . '/browscap.csv', $generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();
-        $zip->open($buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
+        $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
-        $zip->addFile($buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        $zip->addFile($buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        $zip->addFile($buildFolder . '/browscap.ini', 'browscap.ini');
-        $zip->addFile($buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        $zip->addFile($buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        $zip->addFile($buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        $zip->addFile($buildFolder . '/browscap.xml', 'browscap.xml');
-        $zip->addFile($buildFolder . '/browscap.csv', 'browscap.csv');
+        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
+        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
+        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
+        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
 
         $zip->close();
     }
