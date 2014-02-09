@@ -6,7 +6,17 @@
  */
 chdir(dirname(__DIR__));
 
-require 'vendor/autoload.php';
+$autoloadPaths = array(
+    'vendor/autoload.php',
+    '../../autoload.php',
+);
+
+foreach ($autoloadPaths as $path) {
+    if (file_exists($path)) {
+        require_once $path;
+        break;
+    }
+}
 
 ini_set('memory_limit', '-1');
 
