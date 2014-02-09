@@ -3,6 +3,8 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
@@ -57,9 +59,14 @@ class BuildCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger = $loggerHelper->create();
 
+        $collectionCreator = new CollectionCreator();
+        $collectionParser = new CollectionParser();
+
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator
             ->setLogger($logger)
+            ->setCollectionCreator($collectionCreator)
+            ->setCollectionParser($collectionParser)
             ->generateBuilds($version)
         ;
 

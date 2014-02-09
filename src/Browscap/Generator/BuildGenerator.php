@@ -26,6 +26,16 @@ class BuildGenerator
     private $logger = null;
 
     /**
+     * @var \Browscap\Helper\CollectionCreator
+     */
+    private $collectionCreator = null;
+
+    /**
+     * @var \Browscap\Generator\CollectionParser
+     */
+    private $collectionParser = null;
+
+    /**
      * @param string $resourceFolder
      * @param string $buildFolder
      */
@@ -82,15 +92,12 @@ class BuildGenerator
      */
     private function writeFiles($version)
     {
-        $collectionCreator = new CollectionCreator();
-        $collectionParser = new CollectionParser();
-
         $generatorHelper = new Generator();
         $generatorHelper
             ->setVersion($version)
             ->setResourceFolder($this->resourceFolder)
-            ->setCollectionCreator($collectionCreator)
-            ->setCollectionParser($collectionParser)
+            ->setCollectionCreator($this->collectionCreator)
+            ->setCollectionParser($this->collectionParser)
             ->createCollection()
             ->parseCollection()
         ;
@@ -153,6 +160,30 @@ class BuildGenerator
     public function setLogger(LoggerInterface $logger)
     {
         $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setCollectionCreator($collectionCreator)
+    {
+        $this->collectionCreator = $collectionCreator;
+
+        return $this;
+    }
+
+    /**
+     * @param \Browscap\Generator\CollectionParser $collectionParser
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setCollectionParser($collectionParser)
+    {
+        $this->collectionParser = $collectionParser;
 
         return $this;
     }
