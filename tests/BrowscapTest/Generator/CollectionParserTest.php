@@ -176,7 +176,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mock, $parser->getDataCollection());
     }
 
-    public function testDoesNothingOnEmptyDatacollection()
+    public function testParseDoesNothingOnEmptyDatacollection()
     {
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
         $mock->expects($this->once())
@@ -189,6 +189,173 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
         $result = $parser->parse();
         self::assertInternalType('array', $result);
-        self::assertCount(0, count($result));
+        self::assertCount(0, $result);
+    }
+
+    public function testParseSkipsEmptyOrInvalidDivisions()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties', 
+                'sortIndex' => 1,
+                'lite' => true, 
+                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
+            ),
+            array(
+                'division' => 'abc', 
+                'sortIndex' => 2,
+                'lite' => false, 
+                'userAgents' => array(array('userAgent' => 'test', 'properties' => array('Parent' => 'DefaultProperties')))
+            ),
+            array(
+                'division' => 'abc #MAJORVER#.#MINORVER#', 
+                'versions' => array('1.0'),
+                'sortIndex' => 3,
+                'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
+            ),
+            array(
+                'division' => 'abc #MAJORVER#.#MINORVER#', 
+                'versions' => array('2.0'),
+                'sortIndex' => 4,
+                'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
+            ),
+        );
+        
+        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+
+        $parser = new CollectionParser();
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $result = $parser->parse();
+        self::assertInternalType('array', $result);
+        
+        $expected = array (
+            'DefaultProperties' => array (
+                'lite' => '1',
+                'sortIndex' => '1',
+                'division' => 'DefaultProperties',
+                'Browser' => 'test',
+                'Parents' => '',
+            ),
+            'test' => array (
+                'lite' => '',
+                'sortIndex' => '2',
+                'division' => 'abc',
+                'Parent' => 'DefaultProperties',
+                'Browser' => 'test',
+                'Parents' => 'DefaultProperties',
+            ),
+            'test/1.*' => array (
+                'lite' => '',
+                'sortIndex' => '3',
+                'division' => 'abc 1.0',
+                'Parent' => 'abc',
+                'Version' => '1.0',
+                'Parents' => 'abc',
+                'MajorVer' => '1',
+                'MinorVer' => '0',
+            )
+        );
+        self::assertSame($expected, $result);
+    }
+
+    public function testParseParsesChildren()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties', 
+                'sortIndex' => 1,
+                'lite' => true, 
+                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
+            ),
+            array(
+                'division' => 'abc', 
+                'sortIndex' => 2,
+                'lite' => false, 
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test', 
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'platforms' => array()
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+        );
+        
+        $platform = array(
+            'match' => '*TestOS*',
+            'properties' => array(
+                'Platform' => 'TestOS'
+            )
+        );
+        
+        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false);
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+        $mock->expects($this->once())
+            ->method('getPlatform')
+            ->will(self::returnValue($platform))
+        ;
+
+        $parser = new CollectionParser();
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $result = $parser->parse();
+        self::assertInternalType('array', $result);
+        
+        $expected = array (
+            'DefaultProperties' => array (
+                'lite' => '1',
+                'sortIndex' => '1',
+                'division' => 'DefaultProperties',
+                'Browser' => 'test',
+                'Parents' => '',
+            ),
+            'test' => array (
+                'lite' => '',
+                'sortIndex' => '2',
+                'division' => 'abc',
+                'Parent' => 'DefaultProperties',
+                'Browser' => 'test',
+                'Parents' => 'DefaultProperties',
+            ),
+            'abc/*TestOS**' => array (
+                'Parent' => 'test',
+                'Platform' => 'TestOS',
+                'lite' => '',
+                'sortIndex' => '2',
+                'division' => 'abc',
+                'Browser' => 'test',
+                'Parents' => 'DefaultProperties,test',
+            ),
+            'abc/1.0* (#PLATFORM#)' => array (
+                'Parent' => 'test',
+                'lite' => '',
+                'sortIndex' => '2',
+                'division' => 'abc',
+                'Browser' => 'test',
+                'Parents' => 'DefaultProperties,test',
+            )
+        );
+        self::assertSame($expected, $result);
     }
 }
