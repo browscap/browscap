@@ -169,10 +169,26 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $collection = new \Browscap\Generator\DataCollection('test-version');
-        
+        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
+
         $parser = new CollectionParser();
-        self::assertSame($parser, $parser->setDataCollection($collection));
-        self::assertSame($collection, $parser->getDataCollection());
+        self::assertSame($parser, $parser->setDataCollection($mock));
+        self::assertSame($mock, $parser->getDataCollection());
+    }
+
+    public function testDoesNothingOnEmptyDatacollection()
+    {
+        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue(array()))
+        ;
+
+        $parser = new CollectionParser();
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $result = $parser->parse();
+        self::assertInternalType('array', $result);
+        self::assertCount(0, count($result));
     }
 }
