@@ -194,7 +194,7 @@ class BuildGenerator
         ;
 
         foreach ($formats as $format) {
-            $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
+            $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
             $outputFile = $buildFolder . '/' . $format['file'];
 
