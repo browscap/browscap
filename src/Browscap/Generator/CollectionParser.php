@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Class CollectionParser
+ *
+ * @package Browscap\Generator
+ */
 class CollectionParser
 {
     /**
@@ -40,6 +45,7 @@ class CollectionParser
      * Generate and return the formatted browscap data
      *
      * @return array
+     * @throws \LogicException
      */
     public function parse()
     {

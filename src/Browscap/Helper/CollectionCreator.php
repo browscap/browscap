@@ -4,6 +4,12 @@ namespace Browscap\Helper;
 
 use Browscap\Generator\DataCollection;
 
+/**
+ * Class CollectionCreator
+ *
+ * @package Browscap\Helper
+ * @author Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ */
 class CollectionCreator
 {
     /**

@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Class AbstractGenerator
+ *
+ * @package Browscap\Generator
+ */
 abstract class AbstractGenerator implements GeneratorInterface
 {
     /**

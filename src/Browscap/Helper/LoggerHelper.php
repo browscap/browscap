@@ -9,7 +9,8 @@ use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 
 /**
- * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Helper
+ * @author Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class LoggerHelper
 {

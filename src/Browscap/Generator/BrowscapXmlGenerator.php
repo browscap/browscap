@@ -5,6 +5,11 @@ namespace Browscap\Generator;
 use DOMDocument;
 use DOMNode;
 
+/**
+ * Class BrowscapXmlGenerator
+ *
+ * @package Browscap\Generator
+ */
 class BrowscapXmlGenerator extends AbstractGenerator
 {
     /**

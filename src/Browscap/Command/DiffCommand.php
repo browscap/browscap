@@ -3,6 +3,8 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Parser\IniParser;
@@ -15,6 +17,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Command
  */
 class DiffCommand extends Command
 {
@@ -62,6 +65,8 @@ class DiffCommand extends Command
         $leftFile = $iniParserLeft->setShouldSort(true)->parse();
 
         if (!$rightFilename || !file_exists($rightFilename)) {
+            $this->logger->log(Logger::INFO, 'right file not set or invalid - creating right file from resources');
+
             $cache_dir = sys_get_temp_dir() . '/browscap-diff/' . microtime(true) . '/';
             $rightFilename = $cache_dir . 'full_php_browscap.ini';
 
@@ -69,11 +74,24 @@ class DiffCommand extends Command
                 mkdir($cache_dir, 0777, true);
             }
 
-            $this->logger->log(Logger::INFO, 'right file not set or invalid - creating right file from resources');
             $resourceFolder = $input->getOption('resources');
 
+            $collectionCreator = new CollectionCreator();
+            $collectionParser = new CollectionParser();
+            $iniGenerator = new BrowscapIniGenerator();
+
             $generatorHelper = new Generator();
-            file_put_contents($rightFilename, $generatorHelper->createTemporaryFile($resourceFolder));
+            $generatorHelper
+                ->setVersion('temporary-version')
+                ->setResourceFolder($resourceFolder)
+                ->setCollectionCreator($collectionCreator)
+                ->setCollectionParser($collectionParser)
+                ->createCollection()
+                ->parseCollection()
+                ->setGenerator($iniGenerator->setOptions(true, true, false))
+            ;
+
+            file_put_contents($rightFilename, $generatorHelper->create());
         }
 
         $iniParserRight = new IniParser($rightFilename);

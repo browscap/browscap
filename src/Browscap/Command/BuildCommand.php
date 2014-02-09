@@ -13,10 +13,18 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Command
  */
 class BuildCommand extends Command
 {
+    /**
+     * @var string
+     */
     const DEFAULT_BUILD_FOLDER = '/../../../build';
+
+    /**
+     * @var string
+     */
     const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
     /**
@@ -50,8 +58,10 @@ class BuildCommand extends Command
         $logger = $loggerHelper->create();
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
-        $buildGenerator->setLogger($logger);
-        $buildGenerator->generateBuilds($version);
+        $buildGenerator
+            ->setLogger($logger)
+            ->generateBuilds($version)
+        ;
 
         $logger->log(Logger::INFO, 'Build done.');
     }

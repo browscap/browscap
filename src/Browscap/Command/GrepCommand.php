@@ -3,6 +3,8 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
 use Monolog\Logger;
@@ -15,10 +17,19 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Command
+ *
  */
 class GrepCommand extends Command
 {
+    /**
+     * @var string
+     */
     const MODE_MATCHED = 'matched';
+
+    /**
+     * @var string
+     */
     const MODE_UNMATCHED = 'unmatched';
 
     /**
@@ -67,13 +78,26 @@ class GrepCommand extends Command
 
         if (!$iniFile || !file_exists($iniFile)) {
             $this->logger->log(Logger::INFO, 'iniFile Argument not set or invalid - creating iniFile from resources');
-            $resourceFolder = $input->getOption('resources');
-
-            $generatorHelper = new Generator();
 
             $iniFile = $cache_dir . 'full_php_browscap.ini';
+            $resourceFolder = $input->getOption('resources');
 
-            file_put_contents($iniFile, $generatorHelper->createTemporaryFile($resourceFolder));
+            $collectionCreator = new CollectionCreator();
+            $collectionParser = new CollectionParser();
+            $iniGenerator = new BrowscapIniGenerator();
+
+            $generatorHelper = new Generator();
+            $generatorHelper
+                ->setVersion('temporary-version')
+                ->setResourceFolder($resourceFolder)
+                ->setCollectionCreator($collectionCreator)
+                ->setCollectionParser($collectionParser)
+                ->createCollection()
+                ->parseCollection()
+                ->setGenerator($iniGenerator->setOptions(true, true, false))
+            ;
+
+            file_put_contents($iniFile, $generatorHelper->create());
         }
 
         $this->browscap = new Browscap($cache_dir);
@@ -105,6 +129,10 @@ class GrepCommand extends Command
         $this->logger->log(Logger::INFO, 'Grep done.');
     }
 
+    /**
+     * @param string $ua
+     * @param string $mode
+     */
     protected function testUA($ua, $mode)
     {
         $data = $this->browscap->getBrowser($ua, true);

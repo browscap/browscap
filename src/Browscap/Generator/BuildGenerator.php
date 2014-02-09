@@ -2,6 +2,7 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
@@ -82,10 +83,15 @@ class BuildGenerator
      */
     private function writeFiles($version, $buildFolder)
     {
+        $collectionCreator = new CollectionCreator();
+        $collectionParser = new CollectionParser();
+
         $generatorHelper = new Generator();
         $generatorHelper
             ->setVersion($version)
             ->setResourceFolder($this->resourceFolder)
+            ->setCollectionCreator($collectionCreator)
+            ->setCollectionParser($collectionParser)
             ->createCollection()
             ->parseCollection()
         ;

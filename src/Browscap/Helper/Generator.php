@@ -5,7 +5,8 @@ namespace Browscap\Helper;
 use Browscap\Generator\CollectionParser;
 
 /**
- * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Helper
+ * @author Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Generator
 {
@@ -33,6 +34,16 @@ class Generator
      * @var array
      */
     private $collectionData = null;
+
+    /**
+     * @var \Browscap\Helper\CollectionCreator
+     */
+    private $collectionCreator = null;
+
+    /**
+     * @var \Browscap\Generator\CollectionParser
+     */
+    private $collectionParser = null;
 
     /**
      * @param \Browscap\Generator\AbstractGenerator $generator
@@ -71,11 +82,27 @@ class Generator
     }
 
     /**
-     * @return \Browscap\Generator\AbstractGenerator
+     * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     *
+     * @return \Browscap\Helper\Generator
      */
-    public function getGenerator()
+    public function setCollectionCreator(CollectionCreator $collectionCreator)
     {
-        return $this->generator;
+        $this->collectionCreator = $collectionCreator;
+
+        return $this;
+    }
+
+    /**
+     * @param \Browscap\Generator\CollectionParser $collectionParser
+     *
+     * @return \Browscap\Helper\Generator
+     */
+    public function setCollectionParser(CollectionParser $collectionParser)
+    {
+        $this->collectionParser = $collectionParser;
+
+        return $this;
     }
 
     /**
@@ -97,12 +124,22 @@ class Generator
     /**
      * creates the required data collection
      *
+     * @throws \LogicException
      * @return \Browscap\Helper\Generator
      */
     public function createCollection()
     {
-        $collectionCreator = new CollectionCreator();
-        $this->collection = $collectionCreator->createDataCollection($this->getVersion(), $this->getResourceFolder());
+        if (null === $this->collectionCreator) {
+            throw new \LogicException(
+                'An instance of \\Browscap\\Helper\\CollectionCreator is required for this function. '
+                . 'Please set it with setCollectionCreator'
+            );
+        }
+
+        $this->collection = $this->collectionCreator->createDataCollection(
+            $this->getVersion(),
+            $this->getResourceFolder()
+        );
 
         return $this;
     }
@@ -110,13 +147,20 @@ class Generator
     /**
      * parses the data collection into an array
      *
+     * @throws \LogicException
      * @return \Browscap\Helper\Generator
      */
     public function parseCollection()
     {
-        $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($this->collection);
-        $this->collectionData = $collectionParser->parse();
+        if (null === $this->collectionParser) {
+            throw new \LogicException(
+                'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. '
+                . 'Please set it with setCollectionParser'
+            );
+        }
+
+        $this->collectionParser->setDataCollection($this->collection);
+        $this->collectionData = $this->collectionParser->parse();
 
         return $this;
     }
@@ -150,26 +194,5 @@ class Generator
         ;
 
         return $this->generator->generate();
-    }
-
-    /**
-     * @param string $resourceFolder
-     *
-     * @return string
-     */
-    public function createTemporaryFile($resourceFolder)
-    {
-        $this
-            ->setVersion('temporary-version')
-            ->setResourceFolder($resourceFolder)
-            ->createCollection()
-            ->parseCollection()
-        ;
-
-        $iniGenerator = new BrowscapIniGenerator();
-        $iniGenerator->setOptions(true, true, false);
-        $this->setGenerator($iniGenerator);
-
-        return $this->create();
     }
 }
