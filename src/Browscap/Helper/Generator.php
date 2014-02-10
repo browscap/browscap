@@ -4,6 +4,7 @@ namespace Browscap\Helper;
 
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\DataCollection;
 
 /**
  * @package Browscap\Helper
@@ -137,14 +138,11 @@ class Generator
             );
         }
 
-        $this->collection = new \Browscap\Generator\DataCollection($this->getVersion());
+        $this->collection = new DataCollection($this->getVersion());
 
         $this->collectionCreator
             ->setDataCollection($this->collection)
-            ->createDataCollection(
-                $this->getVersion(),
-                $this->getResourceFolder()
-            );
+            ->createDataCollection($this->getResourceFolder());
 
         return $this;
     }
