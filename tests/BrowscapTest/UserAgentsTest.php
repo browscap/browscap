@@ -41,6 +41,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     public function userAgentDataProvider()
     {
         $data = require_once __DIR__ . '/../fixtures/TestUserAgents.php';
+
         return $data;
     }
 
@@ -50,15 +51,13 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function testUserAgents($ua, $props)
     {
-        if (!is_array($props) || !count($props))
-        {
+        if (!is_array($props) || !count($props)) {
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
         $actualProps = self::$browscap->getBrowser($ua, true);
 
-        foreach ($props as $propName => $propValue)
-        {
+        foreach ($props as $propName => $propValue) {
             $this->assertArrayHasKey($propName, $actualProps, "Actual properties did not have {$propName} property");
             $this->assertSame($propValue, $actualProps[$propName], "Expected actual {$propName} to be {$propValue} (was {$actualProps[$propName]})");
         }

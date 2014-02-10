@@ -31,12 +31,12 @@ class GrepCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $this
-            ->setName('grep')
+        $this->setName('grep')
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::REQUIRED, 'The INI file to test against')
@@ -45,6 +45,7 @@ class GrepCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -70,13 +71,13 @@ class GrepCommand extends Command
             mkdir($cache_dir, 0777, true);
         }
 
-        $this->browscap = new Browscap($cache_dir);
+        $this->browscap            = new Browscap($cache_dir);
         $this->browscap->localFile = $iniFile;
 
         $inputFile = $input->getArgument('inputFile');
-        $mode = $input->getOption('mode');
+        $mode      = $input->getOption('mode');
 
-        if (!in_array($mode, array('matched','unmatched'))) {
+        if (!in_array($mode, array('matched', 'unmatched'))) {
             throw new \Exception("Mode must be 'matched' or 'unmatched'");
         }
 
