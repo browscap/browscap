@@ -10,7 +10,7 @@ before_script:
   - composer install
 
 script:
-  - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose --syntax-check
+  - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
