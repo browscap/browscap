@@ -5,6 +5,7 @@ namespace BrowscapTest;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
 use phpbrowscap\Browscap;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
@@ -31,12 +32,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
+        $generatorHelper = new Generator();
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
         $buildGenerator
             ->setLogger($logger)
             ->setCollectionCreator($collectionCreator)
             ->setCollectionParser($collectionParser)
+            ->setGeneratorHelper($generatorHelper)
             ->generateBuilds($buildNumber)
         ;
 

@@ -135,11 +135,15 @@ class Generator
                 . 'Please set it with setCollectionCreator'
             );
         }
+        
+        $this->collection = new \Browscap\Generator\DataCollection($this->getVersion());
 
-        $this->collection = $this->collectionCreator->createDataCollection(
-            $this->getVersion(),
-            $this->getResourceFolder()
-        );
+        $this->collectionCreator
+            ->setDataCollection($this->collection)
+            ->createDataCollection(
+                $this->getVersion(),
+                $this->getResourceFolder()
+            );
 
         return $this;
     }
@@ -172,6 +176,13 @@ class Generator
      */
     public function create()
     {
+        if (null === $this->generator) {
+            throw new \LogicException(
+                'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. '
+                . 'Please set it with setGenerator'
+            );
+        }
+
         $comments = array(
             'Provided courtesy of http://browscap.org/',
             'Created on ' . $this->collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),

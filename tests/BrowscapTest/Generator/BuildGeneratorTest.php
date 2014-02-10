@@ -76,6 +76,14 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setCollectionParser($mock));
     }
 
+    public function testSetGeneratorHelper()
+    {
+        $mock = $this->getMock('\\Browscap\\Helper\\Generator', array(), array(), '', false);
+
+        $generator = new BuildGenerator('.', '.');
+        self::assertSame($generator, $generator->setGeneratorHelper($mock));
+    }
+
     public function testBuild()
     {
         $mockLogger = $this->getMock('\\Monolog\\Logger', array('log'), array(), '', false);
@@ -83,15 +91,27 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('log')
             ->will(self::returnCallback(array($this, 'mockLog')))
         ;
-
-        $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('addPlatformsFile', 'addSourceFile'), array(), '', false);
-        $mockCreator->expects($this->any())
-            ->method('addPlatformsFile')
-            ->will(self::returnValue(true))
+        
+        $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockCollection->expects($this->any())
+            ->method('getGenerationDate')
+            ->will(self::returnValue(new \DateTime()))
         ;
+        
+        $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection'), array(), '', false);
         $mockCreator->expects($this->any())
-            ->method('addSourceFile')
-            ->will(self::returnValue(true))
+            ->method('createDataCollection')
+            ->will(self::returnValue($mockCollection))
+        ;
+        
+        $mockGenerator = $this->getMock('\\Browscap\\Helper\\Generator', array('setVersion', 'create'), array(), '', false);
+        $mockGenerator->expects($this->any())
+            ->method('setVersion')
+            ->will(self::returnSelf())
+        ;
+        $mockGenerator->expects($this->any())
+            ->method('create')
+            ->will(self::returnValue('This is a test'))
         ;
 
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
@@ -100,6 +120,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setLogger($mockLogger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
+        self::assertSame($generator, $generator->setGeneratorHelper($mockGenerator));
 
         $generator->generateBuilds('test');
     }

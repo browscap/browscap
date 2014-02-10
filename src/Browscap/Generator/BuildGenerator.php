@@ -34,6 +34,11 @@ class BuildGenerator
      * @var \Browscap\Generator\CollectionParser
      */
     private $collectionParser = null;
+    
+    /**
+     * @var \Browscap\Helper\Generator
+     */
+    private $generatorHelper = null;
 
     /**
      * @param string $resourceFolder
@@ -92,8 +97,7 @@ class BuildGenerator
      */
     private function writeFiles($version)
     {
-        $generatorHelper = new Generator();
-        $generatorHelper
+        $this->generatorHelper
             ->setVersion($version)
             ->setResourceFolder($this->resourceFolder)
             ->setCollectionCreator($this->collectionCreator)
@@ -118,22 +122,22 @@ class BuildGenerator
 
             $iniGenerator->setOptions($format[2], $format[3], $format[4]);
 
-            $generatorHelper->setGenerator($iniGenerator);
+            $this->generatorHelper->setGenerator($iniGenerator);
 
-            file_put_contents($this->buildFolder . '/' . $format[0], $generatorHelper->create());
+            file_put_contents($this->buildFolder . '/' . $format[0], $this->generatorHelper->create());
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
 
         $xmlGenerator = new BrowscapXmlGenerator();
-        $generatorHelper->setGenerator($xmlGenerator);
-        file_put_contents($this->buildFolder . '/browscap.xml', $generatorHelper->create());
+        $this->generatorHelper->setGenerator($xmlGenerator);
+        file_put_contents($this->buildFolder . '/browscap.xml', $this->generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.csv [CSV]');
 
         $csvGenerator = new BrowscapCsvGenerator();
-        $generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($this->buildFolder . '/browscap.csv', $generatorHelper->create());
+        $this->generatorHelper->setGenerator($csvGenerator);
+        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
 
         $this->logger->log(Logger::INFO, 'Generating browscap.zip [ZIP]');
 
@@ -184,6 +188,18 @@ class BuildGenerator
     public function setCollectionParser($collectionParser)
     {
         $this->collectionParser = $collectionParser;
+
+        return $this;
+    }
+
+    /**
+     * @param \Browscap\Helper\Generator $generatorHelper
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setGeneratorHelper($generatorHelper)
+    {
+        $this->generatorHelper = $generatorHelper;
 
         return $this;
     }
