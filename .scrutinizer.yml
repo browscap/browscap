@@ -1,11 +1,4 @@
 inherit: true
 
 tools:
-    # Code Coverage
-    external_code_coverage:
-        enabled: true
-        timeout: 600
-        filter:
-            excluded_paths:
-                - 'vendor/*'
-                - 'tests/*'
+    external_code_coverage: true
