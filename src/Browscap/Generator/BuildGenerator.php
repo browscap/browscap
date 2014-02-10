@@ -8,6 +8,21 @@ use ZipArchive;
 
 class BuildGenerator
 {
+    /**@+
+     * @var string
+     */
+    const OUTPUT_FORMAT_PHP = 'php';
+    const OUTPUT_FORMAT_ASP = 'asp';
+    /**@-*/
+
+    /**@+
+     * @var string
+     */
+    const OUTPUT_TYPE_FULL    = 'full';
+    const OUTPUT_TYPE_DEFAULT = 'normal';
+    const OUTPUT_TYPE_LITE    = 'lite';
+    /**@-*/
+
     /**
      * @var string
      */
@@ -43,17 +58,17 @@ class BuildGenerator
     private function checkDirectoryExists($directory, $type)
     {
         if (!isset($directory)) {
-            throw new \Exception("You must specify a {$type} folder");
+            throw new \Exception('You must specify a ' . $type . ' folder');
         }
 
         $realDirectory = realpath($directory);
 
         if ($realDirectory === false) {
-            throw new \Exception("The directory '{$directory}' does not exist, or we cannot access it");
+            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
         if (!is_dir($realDirectory)) {
-            throw new \Exception("The path '{$realDirectory}' did not resolve to a directory");
+            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 
         return $realDirectory;
@@ -121,7 +136,7 @@ class BuildGenerator
         $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
         $date    = $collection->getGenerationDate()->format('r');
 
-        $comments = array(
+        $comments = [
             'Provided courtesy of http://browscap.org/',
             'Created on ' . $dateUtc,
             'Keep up with the latest goings-on with the project:',
@@ -129,33 +144,63 @@ class BuildGenerator
             'Like us on Facebook <https://facebook.com/browscap>, or...',
             'Collaborate on GitHub <https://github.com/browscap>, or...',
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-        );
+        ];
 
-        $formats = array(
-            ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
-            ['full_php_browscap.ini', 'PHP/FULL', true, true, false],
-            ['browscap.ini', 'ASP', false, false, false],
-            ['php_browscap.ini', 'PHP', true, false, false],
-            ['lite_asp_browscap.ini', 'ASP/LITE', false, false, true],
-            ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
-        );
+        $formats = [
+            [
+                'file' => 'full_asp_browscap.ini',
+                'info' => 'ASP/FULL',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'full_php_browscap.ini',
+                'info' => 'PHP/FULL',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'browscap.ini',
+                'info' => 'ASP',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'php_browscap.ini',
+                'info' => 'PHP',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'lite_asp_browscap.ini',
+                'info' => 'ASP/LITE',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+            [
+                'file' => 'lite_php_browscap.ini',
+                'info' => 'PHP/LITE',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+        ];
 
         $collectionParser->setDataCollection($collection);
         $collectionData = $collectionParser->parse();
 
-        $iniGenerator->setCollectionData($collectionData);
+        $iniGenerator
+            ->setCollectionData($collectionData)
+            ->setComments($comments)
+        ;
 
         foreach ($formats as $format) {
-            $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
+            $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
-            $outputFile = $this->buildFolder . '/' . $format[0];
+            $outputFile = $buildFolder . '/' . $format['file'];
 
-            $iniGenerator
-                ->setOptions($format[2], $format[3], $format[4])
-                ->setComments($comments)
-                ->setVersionData(array('version' => $version, 'released' => $date));
+            $iniGenerator->setVersionData(array('version' => $version, 'released' => $date));
 
-            file_put_contents($outputFile, $iniGenerator->generate());
+            file_put_contents($outputFile, $iniGenerator->generate($format['format'], $format['type']));
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');

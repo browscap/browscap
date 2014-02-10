@@ -3,6 +3,7 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
 
@@ -89,19 +90,19 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
     public function generateFormatsDataProvider()
     {
         return [
-            'asp_full' => ['full_asp_browscap.ini', false, true, false],
-            'php_full' => ['full_php_browscap.ini', true, true, false],
-            'asp_std' => ['browscap.ini', false, false, false],
-            'php_std' => ['php_browscap.ini', true, false, false],
-            'asp_lite' => ['lite_asp_browscap.ini', false, false, true],
-            'php_lite' => ['lite_php_browscap.ini', true, false, true],
+            'asp_full' => ['full_asp_browscap.ini', BuildGenerator::OUTPUT_FORMAT_ASP, BuildGenerator::OUTPUT_TYPE_FULL],
+            'php_full' => ['full_php_browscap.ini', BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL],
+            'asp_std' => ['browscap.ini', BuildGenerator::OUTPUT_FORMAT_ASP, BuildGenerator::OUTPUT_TYPE_DEFAULT],
+            'php_std' => ['php_browscap.ini', BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_DEFAULT],
+            'asp_lite' => ['lite_asp_browscap.ini', BuildGenerator::OUTPUT_FORMAT_ASP, BuildGenerator::OUTPUT_TYPE_LITE],
+            'php_lite' => ['lite_php_browscap.ini', BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_LITE],
         ];
     }
 
     /**
      * @dataProvider generateFormatsDataProvider
      */
-    public function testGenerateWithDifferentFormattingOptions($filename, $quoteStringProperties, $includeExtraProperties, $liteOnly)
+    public function testGenerateWithDifferentFormattingOptions($filename, $format, $type)
     {
         $collectionParser = new CollectionParser();
         $collectionParser->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()));
@@ -120,12 +121,11 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $generator = new BrowscapIniGenerator();
         $generator
             ->setCollectionData($collectionData)
-            ->setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
             ->setComments($comments)
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $ini = $generator->generate();
+        $ini = $generator->generate($format, $type);
 
         $expectedFilename = __DIR__ . '/../../fixtures/ini/' . $filename;
 
@@ -179,7 +179,7 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $ini = $generator->generate();
+        $ini = $generator->generate(BuildGenerator::OUTPUT_FORMAT_ASP, BuildGenerator::OUTPUT_TYPE_FULL);
 
         self::assertStringEqualsFile($expectedIni, $ini);
     }
