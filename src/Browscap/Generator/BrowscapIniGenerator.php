@@ -17,10 +17,16 @@ class BrowscapIniGenerator extends AbstractGenerator
     /**
      * Generate and return the formatted browscap data
      *
+     * @param string $format
+     * @param string $type
+     *
      * @return string
      */
-    public function generate()
+    public function generate($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
+        $this->format = $format;
+        $this->type   = $type;
+
         if (!empty($this->collectionData['DefaultProperties'])) {
             $defaultPropertityData = $this->collectionData['DefaultProperties'];
         } else {
@@ -78,7 +84,9 @@ class BrowscapIniGenerator extends AbstractGenerator
                 continue;
             }
 
-            if ($this->liteOnly && (!isset($properties['lite']) || !$properties['lite'])) {
+            if (BuildGenerator::OUTPUT_TYPE_LITE === $this->type
+                && (!isset($properties['lite']) || !$properties['lite'])
+            ) {
                 continue;
             }
 
@@ -160,7 +168,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']
             ) {
-                $output .= ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $properties['division'] . PHP_EOL . PHP_EOL;
+                $output .= $this->renderDivisionHeader($properties['division']);
             }
 
             $output .= '[' . $key . ']' . PHP_EOL;
@@ -174,7 +182,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                     continue;
                 }
 
-                if ((!$this->includeExtraProperties) && CollectionParser::isExtraProperty($property)) {
+                if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && CollectionParser::isExtraProperty($property)) {
                     continue;
                 }
 
@@ -183,7 +191,7 @@ class BrowscapIniGenerator extends AbstractGenerator
 
                 switch (CollectionParser::getPropertyType($property)) {
                     case 'string':
-                        if ($this->quoteStringProperties) {
+                        if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
                             $valueOutput = '"' . $value . '"';
                         }
                         break;
@@ -217,7 +225,7 @@ class BrowscapIniGenerator extends AbstractGenerator
      */
     private function renderVersion()
     {
-        $header = ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL;
+        $header = $this->renderDivisionHeader('Browscap Version');
 
         $header .= '[GJK_Browscap_Version]' . PHP_EOL;
 
@@ -232,8 +240,20 @@ class BrowscapIniGenerator extends AbstractGenerator
         }
 
         $header .= 'Version=' . $versionData['version'] . PHP_EOL;
-        $header .= 'Released=' . $versionData['released'] . PHP_EOL . PHP_EOL;
+        $header .= 'Released=' . $versionData['released'] . PHP_EOL;
+        $header .= 'Format=' . $this->format . PHP_EOL;
+        $header .= 'Type=' . $this->type . PHP_EOL . PHP_EOL;
 
         return $header;
+    }
+
+    /**
+     * @param string $division
+     *
+     * @return string
+     */
+    private function renderDivisionHeader($division)
+    {
+        return ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL;
     }
 }

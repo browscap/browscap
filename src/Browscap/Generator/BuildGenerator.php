@@ -43,17 +43,17 @@ class BuildGenerator
     private function checkDirectoryExists($directory, $type)
     {
         if (!isset($directory)) {
-            throw new \Exception("You must specify a {$type} folder");
+            throw new \Exception('You must specify a ' . $type . ' folder');
         }
 
         $realDirectory = realpath($directory);
 
         if ($realDirectory === false) {
-            throw new \Exception("The directory '{$directory}' does not exist, or we cannot access it");
+            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
         if (!is_dir($realDirectory)) {
-            throw new \Exception("The path '{$realDirectory}' did not resolve to a directory");
+            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 
         return $realDirectory;
@@ -179,15 +179,13 @@ class BuildGenerator
         ;
 
         foreach ($formats as $format) {
-            $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
+            $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
             $outputFile = $buildFolder . '/' . $format['file'];
 
-            $iniGenerator
-                ->setVersionData(array('version' => $version, 'released' => $date))
-            ;
+            $iniGenerator->setVersionData(array('version' => $version, 'released' => $date));
 
-            file_put_contents($outputFile, $iniGenerator->generate($format['set'], $format['format']));
+            file_put_contents($outputFile, $iniGenerator->generate($format['format'], $format['type']));
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
