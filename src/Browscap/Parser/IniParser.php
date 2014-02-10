@@ -28,12 +28,14 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @param bool $shouldSort
+     * @param  bool $shouldSort
+     *
      * @return \Browscap\Parser\IniParser
      */
     public function setShouldSort($shouldSort)
     {
-        $this->shouldSort = (bool)$shouldSort;
+        $this->shouldSort = (bool) $shouldSort;
+
         return $this;
     }
 
@@ -85,12 +87,12 @@ class IniParser implements ParserInterface
 
         $data = array();
 
-        $currentSection = '';
+        $currentSection  = '';
         $currentDivision = '';
 
         for ($line = 0; $line < count($fileLines); $line++) {
 
-            $currentLine = ($fileLines[$line]);
+            $currentLine       = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);
 
             if ($currentLineLength == 0) {

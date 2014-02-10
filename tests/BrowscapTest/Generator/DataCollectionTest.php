@@ -122,8 +122,8 @@ HERE;
         $data = new DataCollection('1234');
 
         $files = $this->getUserAgentFixtures();
-        foreach ($files as $file)
-        {
+
+        foreach ($files as $file) {
             $data->addSourceFile($file);
         }
 

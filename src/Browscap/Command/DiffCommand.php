@@ -31,12 +31,12 @@ class DiffCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $this
-            ->setName('diff')
+        $this->setName('diff')
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::REQUIRED, 'The right .ini file to compare')
@@ -46,13 +46,14 @@ class DiffCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->diffsFound = 0;
 
-        $leftFilename = $input->getArgument('left');
+        $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
         $debug = $input->getOption('debug');
@@ -73,11 +74,13 @@ class DiffCommand extends Command
 
         $this->logger->log(Logger::DEBUG, 'parsing left file ' . $leftFilename);
         $iniParserLeft = new IniParser($leftFilename);
-        $leftFile = $iniParserLeft->setShouldSort(true)->parse();
+        $leftFile      = $iniParserLeft->setShouldSort(true)
+            ->parse();
 
         $this->logger->log(Logger::DEBUG, 'parsing right file ' . $rightFilename);
         $iniParserRight = new IniParser($rightFilename);
-        $rightFile = $iniParserRight->setShouldSort(true)->parse();
+        $rightFile      = $iniParserRight->setShouldSort(true)
+            ->parse();
 
         $this->logger->log(Logger::DEBUG, 'build diffs between files');
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);

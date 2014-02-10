@@ -24,6 +24,7 @@ class BuildCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
@@ -31,8 +32,7 @@ class BuildCommand extends Command
         $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESSOURCE_FOLDER;
 
-        $this
-            ->setName('build')
+        $this->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
@@ -43,6 +43,7 @@ class BuildCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)

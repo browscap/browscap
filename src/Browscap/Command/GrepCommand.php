@@ -36,12 +36,12 @@ class GrepCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
     {
-        $this
-            ->setName('grep')
+        $this->setName('grep')
             ->setDescription('')
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
@@ -52,6 +52,7 @@ class GrepCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
