@@ -13,19 +13,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
     {
         return $this->render(
             $this->collectionData,
-            $this->renderHeader(),
+            $this->renderVersion(),
             array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
         );
-    }
-
-    /**
-     * Generate the header
-     *
-     * @return string
-     */
-    private function renderHeader()
-    {
-        return $this->renderVersion();
     }
 
     /**
