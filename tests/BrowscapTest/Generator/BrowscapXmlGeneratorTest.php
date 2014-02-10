@@ -89,14 +89,14 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
     public function generateFormatsDataProvider()
     {
         return [
-            'xml' => ['browscap.xml', false, true, false],
+            'xml' => ['browscap.xml'],
         ];
     }
 
     /**
      * @dataProvider generateFormatsDataProvider
      */
-    public function testGenerateWithDifferentFormattingOptions($filename, $quoteStringProperties, $includeExtraProperties, $liteOnly)
+    public function testGenerateWithDifferentFormattingOptions($filename)
     {
         $collectionParser = new CollectionParser();
         $collectionParser->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()));
@@ -115,7 +115,6 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         $generator = new BrowscapXmlGenerator();
         $generator
             ->setCollectionData($collectionData)
-            ->setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
             ->setComments($comments)
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;

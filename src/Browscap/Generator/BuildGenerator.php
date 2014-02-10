@@ -2,14 +2,32 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Helper\CollectionCreator;
-use Browscap\Helper\Generator;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
+/**
+ * Class BuildGenerator
+ *
+ * @package Browscap\Generator
+ */
 class BuildGenerator
 {
+    /**@+
+     * @var string
+     */
+    const OUTPUT_FORMAT_PHP = 'php';
+    const OUTPUT_FORMAT_ASP = 'asp';
+    /**@-*/
+
+    /**@+
+     * @var string
+     */
+    const OUTPUT_TYPE_FULL    = 'full';
+    const OUTPUT_TYPE_DEFAULT = 'normal';
+    const OUTPUT_TYPE_LITE    = 'lite';
+    /**@-*/
+
     /**
      * @var string
      */
@@ -34,7 +52,7 @@ class BuildGenerator
      * @var \Browscap\Generator\CollectionParser
      */
     private $collectionParser = null;
-    
+
     /**
      * @var \Browscap\Helper\Generator
      */
@@ -60,17 +78,17 @@ class BuildGenerator
     private function checkDirectoryExists($directory, $type)
     {
         if (!isset($directory)) {
-            throw new \Exception("You must specify a {$type} folder");
+            throw new \Exception('You must specify a ' . $type . ' folder');
         }
 
         $realDirectory = realpath($directory);
 
         if ($realDirectory === false) {
-            throw new \Exception("The directory '{$directory}' does not exist, or we cannot access it");
+            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
         if (!is_dir($realDirectory)) {
-            throw new \Exception("The path '{$realDirectory}' did not resolve to a directory");
+            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 
         return $realDirectory;
@@ -97,6 +115,7 @@ class BuildGenerator
      */
     private function writeFiles($version)
     {
+
         $this->generatorHelper
             ->setVersion($version)
             ->setResourceFolder($this->resourceFolder)
@@ -106,25 +125,53 @@ class BuildGenerator
             ->parseCollection()
         ;
 
-        $formats = array(
-            ['full_asp_browscap.ini', 'ASP/FULL', false, true, false],
-            ['full_php_browscap.ini', 'PHP/FULL', true, true, false],
-            ['browscap.ini', 'ASP', false, false, false],
-            ['php_browscap.ini', 'PHP', true, false, false],
-            ['lite_asp_browscap.ini', 'ASP/LITE', false, false, true],
-            ['lite_php_browscap.ini', 'PHP/LITE', true, false, true],
-        );
-
         $iniGenerator = new BrowscapIniGenerator();
 
-        foreach ($formats as $format) {
-            $this->logger->log(Logger::INFO, 'Generating ' . $format[0] . ' [' . $format[1] . ']');
+        $formats = [
+            [
+                'file' => 'full_asp_browscap.ini',
+                'info' => 'ASP/FULL',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'full_php_browscap.ini',
+                'info' => 'PHP/FULL',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'browscap.ini',
+                'info' => 'ASP',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'php_browscap.ini',
+                'info' => 'PHP',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'lite_asp_browscap.ini',
+                'info' => 'ASP/LITE',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+            [
+                'file' => 'lite_php_browscap.ini',
+                'info' => 'PHP/LITE',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+        ];
 
-            $iniGenerator->setOptions($format[2], $format[3], $format[4]);
+        foreach ($formats as $format) {
+            $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
             $this->generatorHelper->setGenerator($iniGenerator);
 
-            file_put_contents($this->buildFolder . '/' . $format[0], $this->generatorHelper->create());
+            file_put_contents($this->buildFolder . '/' . $format['file'], $this->generatorHelper->create($format['format'], $format['type']));
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');

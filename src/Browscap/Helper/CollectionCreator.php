@@ -16,7 +16,7 @@ class CollectionCreator
      * @var \Browscap\Generator\DataCollection
      */
     private $collection = null;
-    
+
     /**
      * @param \Browscap\Generator\DataCollection $collection
      *
@@ -25,19 +25,19 @@ class CollectionCreator
     public function setDataCollection(DataCollection $collection)
     {
         $this->collection = $collection;
-        
+
         return $this;
     }
-    
+
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param string $version
      * @param string $resourceFolder
      *
+     * @throws \LogicException
      * @return \Browscap\Generator\DataCollection
      */
-    public function createDataCollection($version, $resourceFolder)
+    public function createDataCollection($resourceFolder)
     {
         if (null === $this->collection) {
             throw new \LogicException(
@@ -45,7 +45,7 @@ class CollectionCreator
                 . 'Please set it with setDataCollection'
             );
         }
-        
+
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';

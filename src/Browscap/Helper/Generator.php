@@ -2,6 +2,7 @@
 
 namespace Browscap\Helper;
 
+use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 
 /**
@@ -135,7 +136,7 @@ class Generator
                 . 'Please set it with setCollectionCreator'
             );
         }
-        
+
         $this->collection = new \Browscap\Generator\DataCollection($this->getVersion());
 
         $this->collectionCreator
@@ -172,9 +173,13 @@ class Generator
     /**
      * creates the output file with an given generator
      *
+     * @param string $format
+     * @param string $type
+     *
+     * @throws \LogicException
      * @return string
      */
-    public function create()
+    public function create($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
         if (null === $this->generator) {
             throw new \LogicException(
@@ -204,6 +209,6 @@ class Generator
             )
         ;
 
-        return $this->generator->generate();
+        return $this->generator->generate($format, $type);
     }
 }
