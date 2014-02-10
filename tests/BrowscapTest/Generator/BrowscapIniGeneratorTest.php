@@ -39,7 +39,6 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $dateProperty->setAccessible(true);
         $dateProperty->setValue($dataCollection, new \DateTime('2010-12-31 12:34:56'));
 
-        $files = $files;
         foreach ($files as $file) {
             $dataCollection->addSourceFile($file);
         }

@@ -45,7 +45,7 @@ class BuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**
@@ -92,8 +92,8 @@ class BuildGenerator
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param  string $version
-     * @param  string $resourceFolder
+     * @param string $version
+     * @param string $resourceFolder
      *
      * @return \Browscap\Generator\DataCollection
      */
@@ -123,7 +123,7 @@ class BuildGenerator
      * zip archive
      *
      * @param \Browscap\Generator\DataCollection $collection
-     * @param string                             $buildFolder
+     * @param string $buildFolder
      */
     private function writeFiles(DataCollection $collection, $buildFolder)
     {

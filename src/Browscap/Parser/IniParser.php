@@ -28,7 +28,7 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @param  bool $shouldSort
+     * @param bool $shouldSort
      *
      * @return \Browscap\Parser\IniParser
      */
@@ -87,12 +87,12 @@ class IniParser implements ParserInterface
 
         $data = array();
 
-        $currentSection  = '';
+        $currentSection = '';
         $currentDivision = '';
 
         for ($line = 0; $line < count($fileLines); $line++) {
 
-            $currentLine       = ($fileLines[$line]);
+            $currentLine = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);
 
             if ($currentLineLength == 0) {
@@ -120,7 +120,7 @@ class IniParser implements ParserInterface
                 throw new \RuntimeException("Too many equals in line: {$currentLine}");
             }
 
-            $data[$currentSection][$bits[0]]   = $bits[1];
+            $data[$currentSection][$bits[0]] = $bits[1];
             $data[$currentSection]['Division'] = $currentDivision;
         }
 
