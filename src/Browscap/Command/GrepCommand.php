@@ -33,6 +33,11 @@ class GrepCommand extends Command
     const MODE_UNMATCHED = 'unmatched';
 
     /**
+     * @var string
+     */
+    const FOUND_INVISIBLE = 'invisible';
+
+    /**
      * @var \phpbrowscap\Browscap
      */
     protected $browscap;
@@ -118,14 +123,31 @@ class GrepCommand extends Command
 
         $uas = explode("\n", $fileContents);
 
+        $foundMode = 0;
+        $foundInvisible = 0;
+        $foundUnexpected = 0;
+
         foreach ($uas as $ua) {
             if ($ua == '') {
                 continue;
             }
 
-            $this->testUA($ua, $mode);
+            $check = $this->testUA($ua, $mode);
+
+            if ($check === $mode) {
+                $foundMode++;
+            } elseif ($check === self::FOUND_INVISIBLE) {
+                $foundInvisible++;
+            } else {
+                $foundUnexpected++;
+            }
         }
 
+        $this->logger->log(
+            Logger::INFO,
+            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
+            . ' UAs had unexpected results'
+        );
         $this->logger->log(Logger::INFO, 'Grep done.');
     }
 
@@ -137,10 +159,16 @@ class GrepCommand extends Command
     {
         $data = $this->browscap->getBrowser($ua, true);
 
-        if ($mode == 'unmatched' && $data['Browser'] == 'Default Browser') {
+        if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
             $this->logger->log(Logger::INFO, $ua);
-        } else if ($mode == 'matched' && $data['Browser'] != 'Default Browser') {
+
+            return self::MODE_UNMATCHED;
+        } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
             $this->logger->log(Logger::INFO, $ua);
+
+            return self::MODE_MATCHED;
         }
+
+        return self::FOUND_INVISIBLE;
     }
 }
