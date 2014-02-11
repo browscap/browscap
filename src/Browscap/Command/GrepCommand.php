@@ -154,6 +154,8 @@ class GrepCommand extends Command
     /**
      * @param string $ua
      * @param string $mode
+     *
+     * @return string
      */
     protected function testUA($ua, $mode)
     {
