@@ -3,6 +3,12 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BuildGenerator;
+
+/**
+ * Class BuildGeneratorTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     /**

@@ -3,6 +3,12 @@
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\Generator;
+
+/**
+ * Class GeneratorTest
+ *
+ * @package BrowscapTest\Helper
+ */
 class GeneratorTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -34,7 +40,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testSetVersion()
     {
         $version = 'test-version';
-        
+
         $generator = new Generator();
         self::assertSame($generator, $generator->setVersion($version));
         self::assertSame($version, $generator->getVersion());
@@ -68,7 +74,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testCreateCollectionThrowsExceptionIfNoCreatorIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Helper\\CollectionCreator is required for this function. Please set it with setCollectionCreator');
-        
+
         $generator = new Generator();
         $generator->createCollection();
     }
@@ -76,7 +82,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testCreateCollection()
     {
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
-        
+
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('setDataCollection', 'createDataCollection'), array(), '', false);
         $mockCreator->expects($this->any())
             ->method('setDataCollection')
@@ -86,7 +92,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($mockCollection))
         ;
-        
+
         $generator = new Generator();
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->createCollection());
@@ -95,7 +101,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testParseCollectionThrowsExceptionIfNoCreatorIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. Please set it with setCollectionParser');
-        
+
         $generator = new Generator();
         $generator->parseCollection();
     }
@@ -103,7 +109,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testParseCollection()
     {
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
-        
+
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection', 'setDataCollection'), array(), '', false);
         $mockCreator->expects($this->any())
             ->method('createDataCollection')
@@ -113,9 +119,9 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('setDataCollection')
             ->will(self::returnSelf())
         ;
-        
+
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
-        
+
         $generator = new Generator();
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
@@ -126,7 +132,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     public function testCreateThrowsExceptionIfNoCreatorIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. Please set it with setGenerator');
-        
+
         $generator = new Generator();
         $generator->create();
     }
@@ -138,7 +144,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
         ;
-        
+
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection', 'setDataCollection'), array(), '', false);
         $mockCreator->expects($this->any())
             ->method('createDataCollection')
@@ -148,13 +154,13 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('setDataCollection')
             ->will(self::returnSelf())
         ;
-        
+
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array('parse'), array(), '', false);
         $mockParser->expects($this->any())
             ->method('parse')
             ->will(self::returnValue(array()))
         ;
-        
+
         $mockGenerator = $this->getMock('\\Browscap\\Generator\\AbstractGenerator', array('setCollectionData', 'setComments', 'generate'), array(), '', false);
         $mockGenerator->expects($this->any())
             ->method('setCollectionData')
@@ -168,7 +174,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('generate')
             ->will(self::returnValue(''))
         ;
-        
+
         $generator = new Generator();
         self::assertSame($generator, $generator->setGenerator($mockGenerator));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));

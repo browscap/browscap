@@ -3,6 +3,12 @@
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\CollectionCreator;
+
+/**
+ * Class CollectionCreatorTest
+ *
+ * @package BrowscapTest\Helper
+ */
 class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
 {
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()

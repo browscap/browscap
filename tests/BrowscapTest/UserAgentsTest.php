@@ -10,6 +10,11 @@ use phpbrowscap\Browscap;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
+/**
+ * Class UserAgentsTest
+ *
+ * @package BrowscapTest
+ */
 class UserAgentsTest extends \PHPUnit_Framework_TestCase
 {
     /**

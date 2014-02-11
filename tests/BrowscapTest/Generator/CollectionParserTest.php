@@ -4,6 +4,11 @@ namespace BrowscapTest\Generator;
 
 use Browscap\Generator\CollectionParser;
 
+/**
+ * Class CollectionParserTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class CollectionParserTest extends \PHPUnit_Framework_TestCase
 {
     public function propertyNameTypeDataProvider()
@@ -197,31 +202,31 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $divisions = array(
             array('division' => 'Browscap Version'),
             array(
-                'division' => 'DefaultProperties', 
+                'division' => 'DefaultProperties',
                 'sortIndex' => 1,
-                'lite' => true, 
+                'lite' => true,
                 'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
             ),
             array(
-                'division' => 'abc', 
+                'division' => 'abc',
                 'sortIndex' => 2,
-                'lite' => false, 
+                'lite' => false,
                 'userAgents' => array(array('userAgent' => 'test', 'properties' => array('Parent' => 'DefaultProperties')))
             ),
             array(
-                'division' => 'abc #MAJORVER#.#MINORVER#', 
+                'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('1.0'),
                 'sortIndex' => 3,
                 'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
             ),
             array(
-                'division' => 'abc #MAJORVER#.#MINORVER#', 
+                'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('2.0'),
                 'sortIndex' => 4,
                 'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
             ),
         );
-        
+
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
         $mock->expects($this->once())
             ->method('getDivisions')
@@ -233,7 +238,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
         $result = $parser->parse();
         self::assertInternalType('array', $result);
-        
+
         $expected = array (
             'DefaultProperties' => array (
                 'lite' => '1',
@@ -269,18 +274,18 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $divisions = array(
             array('division' => 'Browscap Version'),
             array(
-                'division' => 'DefaultProperties', 
+                'division' => 'DefaultProperties',
                 'sortIndex' => 1,
-                'lite' => true, 
+                'lite' => true,
                 'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
             ),
             array(
-                'division' => 'abc', 
+                'division' => 'abc',
                 'sortIndex' => 2,
-                'lite' => false, 
+                'lite' => false,
                 'userAgents' => array(
                     array(
-                        'userAgent' => 'test', 
+                        'userAgent' => 'test',
                         'properties' => array('Parent' => 'DefaultProperties'),
                         'children' => array(
                             array(
@@ -298,14 +303,14 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 )
             ),
         );
-        
+
         $platform = array(
             'match' => '*TestOS*',
             'properties' => array(
                 'Platform' => 'TestOS'
             )
         );
-        
+
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false);
         $mock->expects($this->once())
             ->method('getDivisions')
@@ -321,7 +326,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
         $result = $parser->parse();
         self::assertInternalType('array', $result);
-        
+
         $expected = array (
             'DefaultProperties' => array (
                 'lite' => '1',
