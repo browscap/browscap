@@ -126,6 +126,7 @@ class BuildGenerator
         ;
 
         $iniGenerator = new BrowscapIniGenerator();
+        $this->generatorHelper->setGenerator($iniGenerator);
 
         $formats = [
             [
@@ -169,9 +170,10 @@ class BuildGenerator
         foreach ($formats as $format) {
             $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
-            $this->generatorHelper->setGenerator($iniGenerator);
-
-            file_put_contents($this->buildFolder . '/' . $format['file'], $this->generatorHelper->create($format['format'], $format['type']));
+            file_put_contents(
+                $this->buildFolder . '/' . $format['file'],
+                $this->generatorHelper->create($format['format'], $format['type'])
+            );
         }
 
         $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');

@@ -212,11 +212,8 @@ class BrowscapIniGenerator extends AbstractGenerator
     }
 
     /**
-<<<<<<< HEAD
      * renders the header for a division
      *
-=======
->>>>>>> 29201eb696c09a759c72c14cd4740058575a7591
      * @param string $division
      *
      * @return string
