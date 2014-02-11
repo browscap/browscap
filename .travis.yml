@@ -9,15 +9,10 @@ php:
 before_script:
   - composer self-update
   - composer install --dev --prefer-source
-  - php vendor/autoload.php
-  - mkdir -p build/logs
 
 script:
-  - phpunit --configuration travis.phpunit.xml.dist --colors --verbose
+  - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml
-
-notifications:
-  email: false

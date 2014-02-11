@@ -26,26 +26,15 @@ class BuildCommand extends Command
      */
     protected function configure()
     {
-        $defaultBuildFolder    = __DIR__ . '/../../../build';
+        $defaultBuildFolder = __DIR__ . '/../../../build';
         $defaultResourceFolder = __DIR__ . '/../../../resources';
 
-        $this->setName('build')
+        $this
+            ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
-            ->addOption(
-                'output',
-                null,
-                InputOption::VALUE_REQUIRED,
-                "Where to output the build files to",
-                $defaultBuildFolder
-            )
-            ->addOption(
-                'resources',
-                null,
-                InputOption::VALUE_REQUIRED,
-                "Where the resource files are located",
-                $defaultResourceFolder
-            );
+            ->addOption('output', null, InputOption::VALUE_REQUIRED, "Where to output the build files to", $defaultBuildFolder)
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, "Where the resource files are located", $defaultResourceFolder);
     }
 
     /**
@@ -56,8 +45,8 @@ class BuildCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $resourceFolder = $input->getOption('resources');
-        $buildFolder    = $input->getOption('output');
-        $version        = $input->getArgument('version');
+        $buildFolder = $input->getOption('output');
+        $version = $input->getArgument('version');
 
         $stream = new StreamHandler('php://output', Logger::INFO);
         $stream->setFormatter(new LineFormatter('%message%' . "\n"));
