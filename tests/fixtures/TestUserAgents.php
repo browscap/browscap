@@ -64,7 +64,7 @@ return [
     'issue-96-CC' => [
         'Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;en)/400x240 Samsung SCH-U820',
         [
-            'Browser' => 'Polaris',
+            'Browser' => 'Polaris Samsung',
             'Version' => '6.2',
             'Platform' => 'Brew',
             'Platform_Version' => '3.1',
@@ -89,7 +89,7 @@ return [
         'LG-GD350/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         [
             'Browser' => 'Obigo',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -132,7 +132,7 @@ return [
         [
             'Browser' => 'Dolfin',
             'Version' => '1.5',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -140,9 +140,9 @@ return [
     'issue-96-BV' => [
         'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         [
-            'Browser' => 'Openwave',
+            'Browser' => 'Openwave Mobile Browser',
             'Version' => '1.0',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -300,7 +300,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '4.4',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -586,7 +586,7 @@ return [
         [
             'Browser' => 'Dolfin',
             'Version' => '1.5',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -606,7 +606,7 @@ return [
         'Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.8.119 Version/11.10',
         [
             'Browser' => 'Opera Mini',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -690,7 +690,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '7.1',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -720,7 +720,7 @@ return [
         [
             'Browser' => 'Dolfin',
             'Version' => '2.0',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -730,7 +730,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '6.5',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -740,7 +740,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '7.0',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -772,7 +772,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '4.4',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
@@ -886,7 +886,7 @@ return [
         [
             'Browser' => 'Opera Mini',
             'Version' => '4.4',
-            'Platform' => 'Java',
+            'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
