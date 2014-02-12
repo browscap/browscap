@@ -24,7 +24,7 @@
       }
     },
     {
-      "userAgent": "*UP.Link\/*",
+      "userAgent": "* Browser\/OpenWave\/* Profile\/MIDP*",
       "properties": {
         "Parent": "Openwave Mobile Browser"
       }
