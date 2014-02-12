@@ -1,0 +1,161 @@
+{
+  "division": "Mozilla 1.7",
+  "sortIndex": 3647,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla 1.7",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mozilla 1.7",
+        "Browser": "Mozilla",
+        "Version": "1.7",
+        "MajorVer": "1",
+        "MinorVer": "7",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.7",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; ?; *Mac OS X*; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "MacOSX",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win 9x 4.90; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.1; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win31",
+        "Platform_Version": "3.1",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win3.11; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win31",
+        "Platform_Version": "3.11",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win95; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win95",
+        "Platform_Version": "95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Win98; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Description": "Windows 98",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Win2003",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows 2003"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT4.0; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; *FreeBSD*; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; *Linux*; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; *OpenBSD*; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "OpenBSD",
+        "Win32": "false"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; *SunOS*; *rv:1.7*) Gecko\/*",
+      "properties": {
+        "Parent": "Mozilla 1.7",
+        "Platform": "SunOS",
+        "Win32": "false"
+      }
+    }
+  ]
+}
