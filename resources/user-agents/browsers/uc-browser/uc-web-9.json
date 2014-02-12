@@ -73,10 +73,10 @@
           ]
         },
         {
-          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile"
+          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile"
+          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

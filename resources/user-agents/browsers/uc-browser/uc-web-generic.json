@@ -34,6 +34,12 @@
           "platforms": [
             "Android_2_3"
           ]
+        },
+        {
+          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+        },
+        {
+          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/*"
         }
       ]
     }
