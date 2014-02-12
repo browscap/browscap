@@ -1,6 +1,26 @@
 <?php
 
 return [
+    'issue-113-B' => [
+        'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; MAFSJS)',
+        [
+            'Browser' => 'IE',
+            'Version' => '11.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-113-A' => [
+        'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/6.0)',
+        [
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
     'issue-102' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.16) Gecko/20110322 Fedora/3.6.16-1.fc14 Firefox/3.6.16',
         [
