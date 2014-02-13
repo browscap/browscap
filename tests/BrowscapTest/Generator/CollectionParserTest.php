@@ -11,6 +11,17 @@ use Browscap\Generator\CollectionParser;
  */
 class CollectionParserTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger   = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
+        $this->messages = array();
+    }
+
     public function propertyNameTypeDataProvider()
     {
         return [
@@ -177,6 +188,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
 
         $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
         self::assertSame($parser, $parser->setDataCollection($mock));
         self::assertSame($mock, $parser->getDataCollection());
     }
@@ -190,6 +202,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         ;
 
         $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
         self::assertSame($parser, $parser->setDataCollection($mock));
 
         $result = $parser->parse();
@@ -234,6 +247,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         ;
 
         $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
         self::assertSame($parser, $parser->setDataCollection($mock));
 
         $result = $parser->parse();
@@ -322,6 +336,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         ;
 
         $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
         self::assertSame($parser, $parser->setDataCollection($mock));
 
         $result = $parser->parse();

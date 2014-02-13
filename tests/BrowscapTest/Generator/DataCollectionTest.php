@@ -11,6 +11,16 @@ use Browscap\Generator\DataCollection;
  */
 class DataCollectionTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
+    }
+
     public function getPlatformsJsonFixture()
     {
         return __DIR__ . '/../../fixtures/platforms/platforms.json';

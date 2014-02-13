@@ -16,8 +16,14 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     private $messages = array();
 
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
     public function setUp()
     {
+        $this->logger   = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
         $this->messages = array();
     }
 

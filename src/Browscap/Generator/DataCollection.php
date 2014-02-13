@@ -55,7 +55,7 @@ class DataCollection
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return \Browscap\Generator\DataCollection
      */
     public function setLogger(LoggerInterface $logger)
     {
