@@ -5,6 +5,11 @@ namespace Browscap\Generator;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 
+/**
+ * Class DataCollection
+ *
+ * @package Browscap\Generator
+ */
 class DataCollection
 {
     /**

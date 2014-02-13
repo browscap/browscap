@@ -4,6 +4,11 @@ namespace BrowscapTest\Parser;
 
 use Browscap\Parser\IniParser;
 
+/**
+ * Class IniParserTest
+ *
+ * @package BrowscapTest\Parser
+ */
 class IniParserTest extends \PHPUnit_Framework_TestCase
 {
     public function testConstructorSetsFilename()

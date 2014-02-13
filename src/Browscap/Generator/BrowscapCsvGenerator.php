@@ -4,6 +4,11 @@ namespace Browscap\Generator;
 
 use Monolog\Logger;
 
+/**
+ * Class BrowscapCsvGenerator
+ *
+ * @package Browscap\Generator
+ */
 class BrowscapCsvGenerator extends AbstractGenerator
 {
     /**
@@ -23,9 +28,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
     /**
      * renders all found useragents into a string
      *
-     * @param array  $allDivisions
-     * @param string $output
-     * @param array  $allProperties
+     * @param array[] $allDivisions
+     * @param string  $output
+     * @param array   $allProperties
      *
      * @return string
      */
@@ -53,95 +58,25 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             $counter++;
 
-            if (!isset($properties['Version'])) {
-                $this->log('skipping division "' . $properties['division'] . '" - version information is missing');
+            if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 continue;
-            }
-
-            if (!isset($properties['Parent'])
-                && 'DefaultProperties' !== $key
-                && '*' !== $key
-            ) {
-                $this->log('skipping division "' . $properties['division'] . '" - no parent defined');
-                continue;
-            }
-
-            if ('DefaultProperties' !== $key && '*' !== $key) {
-                if (!isset($allDivisions[$properties['Parent']])) {
-                    $this->log('skipping division "' . $properties['division'] . '" - parent not found');
-                    continue;
-                }
-
-                $parent = $allDivisions[$properties['Parent']];
-            } else {
-                $parent = array();
-            }
-
-            if (isset($parent['Version'])) {
-                $completeVersions = explode('.', $parent['Version'], 2);
-
-                $parent['MajorVer'] = (string) $completeVersions[0];
-
-                if (isset($completeVersions[1])) {
-                    $parent['MinorVer'] = (string) $completeVersions[1];
-                } else {
-                    $parent['MinorVer'] = 0;
-                }
             }
 
             // create output - csv
 
             $output .= '"' . $key . '"'; // PropertyName
             $output .= ',"' . $counter . '"'; // AgentID
-
-            if ('DefaultProperties' === $key
-                || '*' === $key || empty($properties['Parent'])
-                || 'DefaultProperties' == $properties['Parent']
-            ) {
-                $masterParent = 'true';
-            } else {
-                $masterParent = 'false';
-            }
-
-            $output .= ',"' . $masterParent . '"'; // MasterParent
+            $output .= ',"' . $this->detectMasterParent($key, $properties) . '"'; // MasterParent
 
             $output .= ',"'
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
 
             foreach ($allProperties as $property) {
-                if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                if (!CollectionParser::isOutputProperty($property)) {
                     continue;
                 }
 
-                if (!isset($properties[$property])) {
-                    $value = '';
-                } else {
-                    $value = $properties[$property];
-                }
-
-                $valueOutput = $value;
-
-                switch (CollectionParser::getPropertyType($property)) {
-                    case 'boolean':
-                        if (true === $value || $value === 'true') {
-                            $valueOutput = 'true';
-                        } elseif (false === $value || $value === 'false') {
-                            $valueOutput = 'false';
-                        }
-                        break;
-                    case 'string':
-                    case 'generic':
-                    case 'number':
-                    default:
-                        // nothing t do here
-                        break;
-                }
-
-                if ('unknown' === $valueOutput) {
-                    $valueOutput = '';
-                }
-
-                $output .= ',"' . $valueOutput . '"';
+                $output .= ',"' . $this->formatValue($property, $properties) . '"';
             }
 
             $output .= PHP_EOL;

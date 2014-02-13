@@ -7,6 +7,11 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
 
+/**
+ * Class BrowscapIniGeneratorTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     private function getPlatformsJsonFixture()

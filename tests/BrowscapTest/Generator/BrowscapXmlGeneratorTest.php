@@ -6,6 +6,11 @@ use Browscap\Generator\BrowscapXmlGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
 
+/**
+ * Class BrowscapXmlGeneratorTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     private function getPlatformsJsonFixture()
