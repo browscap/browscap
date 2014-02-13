@@ -17,12 +17,19 @@ class LoggerHelper
     /**
      * creates a \Monolo\Logger instance
      *
+     * @param boolean $debug If true the debug logging mode will be enabled
+     *
      * @return \Monolog\Logger
      */
-    public function create()
+    public function create($debug = false)
     {
-        $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+        if ($debug) {
+            $stream = new StreamHandler('php://output', Logger::DEBUG);
+            $stream->setFormatter(new LineFormatter('[%datetime%] %channel%.%level_name%: %message%' . "\n"));
+        } else {
+            $stream = new StreamHandler('php://output', Logger::INFO);
+            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+        }
 
         $logger = new Logger('browscap');
         $logger->pushHandler($stream);

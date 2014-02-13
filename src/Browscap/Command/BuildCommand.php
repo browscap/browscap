@@ -7,7 +7,6 @@ use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
-use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -40,12 +39,14 @@ class BuildCommand extends Command
         $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
-        $this->setName('build')
+        $this
+            ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
+        ;
     }
 
     /**
@@ -61,7 +62,7 @@ class BuildCommand extends Command
         $version = $input->getArgument('version');
 
         $loggerHelper = new LoggerHelper();
-        $logger = $loggerHelper->create();
+        $logger = $loggerHelper->create($debug);
 
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
@@ -76,6 +77,6 @@ class BuildCommand extends Command
             ->generateBuilds($version)
         ;
 
-        $logger->log(Logger::INFO, 'Build done.');
+        $logger->info('Build done.');
     }
 }

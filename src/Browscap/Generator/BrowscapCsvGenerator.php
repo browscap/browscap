@@ -2,8 +2,6 @@
 
 namespace Browscap\Generator;
 
-use Monolog\Logger;
-
 /**
  * Class BrowscapCsvGenerator
  *
@@ -18,6 +16,8 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     public function generate()
     {
+        $this->logger->debug('build output for csv file');
+
         return $this->render(
             $this->collectionData,
             $this->renderVersion(),
@@ -36,12 +36,12 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
-        $this->log('rendering CSV header');
+        $this->logger->debug('rendering CSV header');
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
 
-            if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+            if (!CollectionParser::isOutputProperty($property)) {
                 continue;
             }
 
@@ -52,13 +52,14 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
         $counter = 1;
 
-        $this->log('rendering all divisions');
+        $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
-            $this->log('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
 
             $counter++;
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
                 continue;
             }
 
@@ -73,6 +74,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
+                    $this->logger->debug(
+                        'property "' . $property . '" is defined to be in the output -> skipped'
+                    );
                     continue;
                 }
 
@@ -92,7 +96,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     private function renderVersion()
     {
-        $this->log('rendering version information');
+        $this->logger->debug('rendering version information');
         $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL;
 
         $versionData = $this->getVersionData();
@@ -108,21 +112,5 @@ class BrowscapCsvGenerator extends AbstractGenerator
         $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL;
 
         return $header;
-    }
-
-    /**
-     * @param string $message
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    private function log($message)
-    {
-        if (null === $this->logger) {
-            return $this;
-        }
-
-        $this->logger->log(Logger::DEBUG, $message);
-
-        return $this;
     }
 }

@@ -7,7 +7,6 @@ use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
-use Monolog\Logger;
 use phpbrowscap\Browscap;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -63,7 +62,8 @@ class GrepCommand extends Command
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
+        ;
     }
 
     /**
@@ -73,90 +73,6 @@ class GrepCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
-
-        if (!file_exists($cache_dir)) {
-            mkdir($cache_dir, 0777, true);
-        }
-
-        $loggerHelper = new LoggerHelper();
-        $this->logger = $loggerHelper->create();
-
-        $iniFile = $input->getArgument('iniFile');
-
-        if (!$iniFile || !file_exists($iniFile)) {
-            $this->logger->log(Logger::INFO, 'iniFile Argument not set or invalid - creating iniFile from resources');
-
-            $iniFile = $cache_dir . 'full_php_browscap.ini';
-            $resourceFolder = $input->getOption('resources');
-
-            $collectionCreator = new CollectionCreator();
-            $collectionParser = new CollectionParser();
-            $iniGenerator = new BrowscapIniGenerator();
-
-            $generatorHelper = new Generator();
-            $generatorHelper
-                ->setVersion('temporary-version')
-                ->setResourceFolder($resourceFolder)
-                ->setCollectionCreator($collectionCreator)
-                ->setCollectionParser($collectionParser)
-                ->createCollection()
-                ->parseCollection()
-                ->setGenerator($iniGenerator->setOptions(true, true, false))
-            ;
-
-            file_put_contents($iniFile, $generatorHelper->create());
-        }
-
-        $iniFile = $input->getArgument('iniFile');
-
-        if (!$iniFile || !file_exists($iniFile)) {
-            $this->logger->log(Logger::INFO, 'iniFile Argument not set or invalid - creating iniFile from resources');
-            $resourceFolder = __DIR__ . BuildCommand::DEFAULT_RESSOURCE_FOLDER;
-
-            $this->logger->log(Logger::DEBUG, 'creating data collection');
-            $collectionParser = new CollectionParser();
-            $collection       = $collectionParser->createDataCollection('temporary-version', $resourceFolder);
-
-            $this->logger->log(Logger::DEBUG, 'parsing version and date');
-            $version = $collection->getVersion();
-            $dateUtc = $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T');
-            $date    = $collection->getGenerationDate()->format('r');
-
-            $comments = array(
-                'Provided courtesy of http://browscap.org/',
-                'Created on ' . $dateUtc,
-                'Keep up with the latest goings-on with the project:',
-                'Follow us on Twitter <https://twitter.com/browscap>, or...',
-                'Like us on Facebook <https://facebook.com/browscap>, or...',
-                'Collaborate on GitHub <https://github.com/browscap>, or...',
-                'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-            );
-
-            $this->logger->log(Logger::DEBUG, 'parsing data collection');
-            $collectionData = $collectionParser->parse();
-
-            $this->logger->log(Logger::DEBUG, 'initializing Generators');
-            $iniGenerator = new BrowscapIniGenerator();
-            $iniGenerator->setCollectionData($collectionData);
-
-            $this->logger->log(Logger::DEBUG, 'Generating full_php_browscap.ini [PHP/FULL]');
-            $iniFile = $cache_dir . 'full_php_browscap.ini';
-
-            $iniGenerator
-                ->setOptions(true, true, false)
-                ->setComments($comments)
-                ->setVersionData(array('version' => $version, 'released' => $date))
-                ->setLogger($this->logger)
-            ;
-
-            file_put_contents($iniFile, $iniGenerator->generate());
-        }
-
-        $this->logger->log(Logger::DEBUG, 'initialize Browscap');
-        $this->browscap = new Browscap($cache_dir);
-        $this->browscap->localFile = $iniFile;
-
         $inputFile = $input->getArgument('inputFile');
         $mode      = $input->getOption('mode');
 
@@ -168,6 +84,48 @@ class GrepCommand extends Command
             throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
         }
 
+        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
+
+        if (!file_exists($cache_dir)) {
+            mkdir($cache_dir, 0777, true);
+        }
+
+        $debug = $input->getOption('debug');
+
+        $loggerHelper = new LoggerHelper();
+        $this->logger = $loggerHelper->create($debug);
+
+        $iniFile = $input->getArgument('iniFile');
+
+        if (!$iniFile || !file_exists($iniFile)) {
+            $this->logger->info('iniFile Argument not set or invalid - creating iniFile from resources');
+
+            $iniFile = $cache_dir . 'full_php_browscap.ini';
+            $resourceFolder = $input->getOption('resources');
+
+            $collectionCreator = new CollectionCreator();
+            $collectionParser = new CollectionParser();
+            $iniGenerator = new BrowscapIniGenerator();
+
+            $generatorHelper = new Generator();
+            $generatorHelper
+                ->setLogger($this->logger)
+                ->setVersion('temporary-version')
+                ->setResourceFolder($resourceFolder)
+                ->setCollectionCreator($collectionCreator)
+                ->setCollectionParser($collectionParser)
+                ->createCollection()
+                ->parseCollection()
+                ->setGenerator($iniGenerator)
+            ;
+
+            file_put_contents($iniFile, $generatorHelper->create());
+        }
+
+        $this->logger->debug('initialize Browscap');
+        $this->browscap = new Browscap($cache_dir);
+        $this->browscap->localFile = $iniFile;
+
         $fileContents = file_get_contents($inputFile);
 
         $uas = explode(PHP_EOL, $fileContents);
@@ -178,7 +136,7 @@ class GrepCommand extends Command
         $foundUnexpected = 0;
 
         foreach ($uas as $ua) {
-            if ($ua == '') {
+            if (!$ua) {
                 continue;
             }
 
@@ -192,6 +150,12 @@ class GrepCommand extends Command
                 $foundUnexpected++;
             }
         }
+
+        $this->logger->info(
+            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
+            . ' UAs had unexpected results'
+        );
+        $this->logger->info('Grep done.');
     }
 
     /**
@@ -205,11 +169,11 @@ class GrepCommand extends Command
         $data = $this->browscap->getBrowser($ua, true);
 
         if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-            $this->logger->log(Logger::INFO, $ua);
+            $this->logger->info($ua);
 
             return self::MODE_UNMATCHED;
         } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-            $this->logger->log(Logger::INFO, $ua);
+            $this->logger->info($ua);
 
             return self::MODE_MATCHED;
         }

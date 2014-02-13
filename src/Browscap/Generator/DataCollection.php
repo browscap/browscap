@@ -2,7 +2,6 @@
 
 namespace Browscap\Generator;
 
-use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -194,21 +193,5 @@ class DataCollection
     public function getGenerationDate()
     {
         return $this->generationDate;
-    }
-
-    /**
-     * @param string $message
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    private function log($message)
-    {
-        if (null === $this->logger) {
-            return $this;
-        }
-
-        $this->logger->log(Logger::DEBUG, $message);
-
-        return $this;
     }
 }

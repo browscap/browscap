@@ -8,7 +8,6 @@ use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Parser\IniParser;
-use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -46,7 +45,8 @@ class DiffCommand extends Command
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare')
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
+        ;
     }
 
     /**
@@ -60,17 +60,17 @@ class DiffCommand extends Command
 
         $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
+        $debug         = $input->getOption('debug');
 
         $loggerHelper = new LoggerHelper();
-        $this->logger = $loggerHelper->create();
+        $this->logger = $loggerHelper->create($debug);
 
-        $this->logger->log(Logger::DEBUG, 'parsing left file ' . $leftFilename);
+        $this->logger->debug('parsing left file ' . $leftFilename);
         $iniParserLeft = new IniParser($leftFilename);
-        $leftFile      = $iniParserLeft->setShouldSort(true)
-            ->parse();
+        $leftFile      = $iniParserLeft->setShouldSort(true)->parse();
 
         if (!$rightFilename || !file_exists($rightFilename)) {
-            $this->logger->log(Logger::INFO, 'right file not set or invalid - creating right file from resources');
+            $this->logger->info('right file not set or invalid - creating right file from resources');
 
             $cache_dir = sys_get_temp_dir() . '/browscap-diff/' . microtime(true) . '/';
             $rightFilename = $cache_dir . 'full_php_browscap.ini';
@@ -87,51 +87,56 @@ class DiffCommand extends Command
 
             $generatorHelper = new Generator();
             $generatorHelper
+                ->setLogger($this->logger)
                 ->setVersion('temporary-version')
                 ->setResourceFolder($resourceFolder)
                 ->setCollectionCreator($collectionCreator)
                 ->setCollectionParser($collectionParser)
                 ->createCollection()
                 ->parseCollection()
-                ->setGenerator($iniGenerator->setOptions(true, true, false))
+                ->setGenerator($iniGenerator)
             ;
 
             file_put_contents($rightFilename, $generatorHelper->create());
         }
 
 
-        $this->logger->log(Logger::DEBUG, 'parsing right file ' . $rightFilename);
+        $this->logger->debug('parsing right file ' . $rightFilename);
         $iniParserRight = new IniParser($rightFilename);
-        $rightFile      = $iniParserRight->setShouldSort(true)
-            ->parse();
+        $rightFile      = $iniParserRight->setShouldSort(true)->parse();
 
-        $this->logger->log(Logger::DEBUG, 'build diffs between files');
+        $this->logger->debug('build diffs between files');
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);
         $rtlDiff = $this->recursiveArrayDiff($rightFile, $leftFile);
 
-        $this->logger->log(Logger::DEBUG, 'LTR');
-        $this->logger->log(Logger::DEBUG, var_export($ltrDiff, true));
+        $this->logger->debug('LTR');
+        $this->logger->debug(var_export($ltrDiff, true));
 
-        $this->logger->log(Logger::DEBUG, 'RTL');
-        $this->logger->log(Logger::DEBUG, var_export($rtlDiff, true));
+        $this->logger->debug('RTL');
+        $this->logger->debug(var_export($rtlDiff, true));
 
         if (count($ltrDiff) || count($rtlDiff)) {
-            $this->logger->log(Logger::INFO, 'The following differences have been found:');
+            $this->logger->info('The following differences have been found:');
             $sectionsRead = array();
 
-            $this->logger->log(Logger::DEBUG, 'Pass 1 (LTR)');
+            $this->logger->debug('Pass 1 (LTR)');
             foreach ($ltrDiff as $section => $props) {
                 if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
-                    $this->compareSectionProperties($section, $props, (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null), $rightFile[$section]);
+                    $this->compareSectionProperties(
+                        $section,
+                        $props,
+                        (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null),
+                        $rightFile[$section]
+                    );
                 } else {
-                    $this->logger->log(Logger::INFO, '[' . $section . ']' . "\n" . 'Whole section only on LEFT');
+                    $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on LEFT');
                     $this->diffsFound++;
                 }
 
                 $sectionsRead[] = $section;
             }
 
-            $this->logger->log(Logger::DEBUG, 'Pass 2 (RTL)');
+            $this->logger->debug('Pass 2 (RTL)');
             foreach ($rtlDiff as $section => $props) {
                 if (in_array($section, $sectionsRead)) {
                     continue;
@@ -145,7 +150,7 @@ class DiffCommand extends Command
                         $rightFile[$section]
                     );
                 } else {
-                    $this->logger->log(Logger::INFO, '[' . $section . ']' . "\n" . 'Whole section only on RIGHT');
+                    $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on RIGHT');
                     $this->diffsFound++;
                 }
             }
@@ -158,12 +163,12 @@ class DiffCommand extends Command
                 ($this->diffsFound == 1 ? '' : 's')
             );
 
-            $this->logger->log(Logger::INFO, $msg);
+            $this->logger->info($msg);
         } else {
-            $this->logger->log(Logger::INFO, 'No differences found, hooray!');
+            $this->logger->info('No differences found, hooray!');
         }
 
-        $this->logger->log(Logger::INFO, 'Diff done.');
+        $this->logger->info('Diff done.');
     }
 
     /**
@@ -174,7 +179,7 @@ class DiffCommand extends Command
      */
     public function compareSectionProperties($section, array $leftPropsDifferences, array $rightPropsDifferences, array $rightProps)
     {
-        $this->logger->log(Logger::INFO, '[' . $section . ']');
+        $this->logger->info('[' . $section . ']');
 
         // Diff the properties
         $propsRead = array();
@@ -187,7 +192,7 @@ class DiffCommand extends Command
                     $msg = sprintf('"%s" is only on the LEFT', $prop);
                 }
 
-                $this->logger->log(Logger::INFO, $msg);
+                $this->logger->info($msg);
                 $this->diffsFound++;
 
                 $propsRead[] = $prop;
@@ -201,7 +206,7 @@ class DiffCommand extends Command
                 }
 
                 $msg = sprintf('"%s" is only on the RIGHT', $prop);
-                $this->logger->log(Logger::INFO, $msg);
+                $this->logger->info($msg);
 
                 $this->diffsFound++;
             }

@@ -2,7 +2,6 @@
 
 namespace Browscap\Generator;
 
-use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -32,11 +31,11 @@ class CollectionParser
      */
     public function createDataCollection($version, $resourceFolder)
     {
-        $this->log('adding platform file');
+        $this->logger->debug('adding platform file');
         $this->collection = new DataCollection($version);
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
-        $this->log('reading source folder');
+        $this->logger->debug('reading source folder');
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -47,7 +46,7 @@ class CollectionParser
                 continue;
             }
 
-            $this->log('Processing file ' . $file->getPathname() . ' ...');
+            $this->logger->debug('Processing file ' . $file->getPathname() . ' ...');
             $this->collection->addSourceFile($file->getPathname());
         }
 
@@ -84,7 +83,7 @@ class CollectionParser
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return \Browscap\Generator\CollectionParser
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -104,6 +103,8 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
+            $this->logger->debug('parse a data collection into an array');
+
             if ($division['division'] == 'Browscap Version') {
                 continue;
             }
@@ -313,9 +314,11 @@ class CollectionParser
      */
     private function expandProperties(array $allInputDivisions)
     {
+        $this->logger->debug('expand all properties');
         $allDivisions = array();
 
         foreach ($allInputDivisions as $key => $properties) {
+            $this->logger->debug('expand all properties for key "' . $key . '"');
 
             if (!isset($properties['Parent'])
                 && !in_array($key, array('DefaultProperties', '*'))
@@ -488,21 +491,5 @@ class CollectionParser
         }
 
         return true;
-    }
-
-    /**
-     * @param string $message
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    private function log($message)
-    {
-        if (null === $this->logger) {
-            return $this;
-        }
-
-        $this->logger->log(Logger::DEBUG, $message);
-
-        return $this;
     }
 }
