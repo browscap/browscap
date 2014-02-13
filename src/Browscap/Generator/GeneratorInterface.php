@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Interface GeneratorInterface
+ *
+ * @package Browscap\Generator
+ */
 interface GeneratorInterface
 {
     /**

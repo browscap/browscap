@@ -3,10 +3,10 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Monolog\ErrorHandler;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Handler\ErrorLogHandler;
-use Monolog\Handler\StreamHandler;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
+use Browscap\Helper\LoggerHelper;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -16,9 +16,20 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Command
  */
 class BuildCommand extends Command
 {
+    /**
+     * @var string
+     */
+    const DEFAULT_BUILD_FOLDER = '/../../../build';
+
+    /**
+     * @var string
+     */
+    const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
+
     /**
      * (non-PHPdoc)
      *
@@ -26,27 +37,15 @@ class BuildCommand extends Command
      */
     protected function configure()
     {
-        $defaultBuildFolder = __DIR__ . '/../../../build';
-        $defaultResourceFolder = __DIR__ . '/../../../resources';
+        $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
+        $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
         $this
             ->setName('build')
             ->setDescription('The JSON source files and builds the INI files')
-            ->addArgument('version', InputArgument::REQUIRED, "Version number to apply")
-            ->addOption(
-                'output',
-                null,
-                InputOption::VALUE_REQUIRED,
-                'Where to output the build files to',
-                $defaultBuildFolder
-            )
-            ->addOption(
-                'resources',
-                null,
-                InputOption::VALUE_REQUIRED,
-                'Where the resource files are located',
-                $defaultResourceFolder
-            );
+            ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
+            ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -60,18 +59,21 @@ class BuildCommand extends Command
         $buildFolder = $input->getOption('output');
         $version = $input->getArgument('version');
 
-        $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+        $loggerHelper = new LoggerHelper();
+        $logger = $loggerHelper->create();
 
-        $logger = new Logger('browscap');
-        $logger->pushHandler($stream);
-        $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
-
-        ErrorHandler::register($logger);
+        $collectionCreator = new CollectionCreator();
+        $collectionParser = new CollectionParser();
+        $generatorHelper = new Generator();
 
         $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
-        $buildGenerator->setLogger($logger);
-        $buildGenerator->generateBuilds($version);
+        $buildGenerator
+            ->setLogger($logger)
+            ->setCollectionCreator($collectionCreator)
+            ->setCollectionParser($collectionParser)
+            ->setGeneratorHelper($generatorHelper)
+            ->generateBuilds($version)
+        ;
 
         $logger->log(Logger::INFO, 'Build done.');
     }
