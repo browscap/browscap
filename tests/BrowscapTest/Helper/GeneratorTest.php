@@ -16,9 +16,15 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
      */
     private $messages = array();
 
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
     public function setUp()
     {
         $this->messages = array();
+        $this->logger   = new Logger('browscapTest', array(new NullHandler()));
     }
 
     public function mockLog($level, $message)
@@ -94,6 +100,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->createCollection());
     }
@@ -123,6 +130,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
         self::assertSame($generator, $generator->createCollection());
@@ -176,6 +184,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setGenerator($mockGenerator));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
