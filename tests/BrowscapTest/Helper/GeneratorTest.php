@@ -139,11 +139,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
 
-        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array('setLogger'), array(), '', false);
-        $mockParser->expects($this->any())
-            ->method('setLogger')
-            ->will(self::returnSelf())
-        ;
+        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
 
         $generator = new Generator();
         self::assertSame($generator, $generator->setLogger($this->logger));
