@@ -1,16 +1,17 @@
 {
-  "division": "Mozilla 1.2",
-  "sortIndex": 3642,
+  "division": "Mozilla #MAJORVER#.#MINORVER#",
+  "versions": ["1.0", "1.1", "1.2", "1.3"],
+  "sortIndex": 3640,
   "userAgents": [
     {
-      "userAgent": "Mozilla 1.2",
+      "userAgent": "Mozilla #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
-        "Comment": "Mozilla 1.2",
+        "Parent": "DefaultProperties",
+        "Comment": "Mozilla #MAJORVER#.#MINORVER#",
         "Browser": "Mozilla",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,14 +22,14 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "1.2",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*rv:1.2.*) Gecko\/*",
+      "userAgent": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#.*) Gecko\/*",
       "properties": {
-        "Parent": "Mozilla 1.2"
+        "Parent": "Mozilla #MAJORVER#.#MINORVER#"
       }
     }
   ]

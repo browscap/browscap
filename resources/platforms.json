@@ -737,6 +737,26 @@
         "Platform_Bits": "64"
       }
     },
+    "Win3.1": {
+      "match": "*Win3.1*",
+      "properties": {
+        "Platform": "Win31",
+        "Platform_Version": "3.1",
+        "Platform_Description": "Windows 3.1",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
+    "Win3.11": {
+      "match": "*Win3.11*",
+      "properties": {
+        "Platform": "Win31",
+        "Platform_Version": "3.11",
+        "Platform_Description": "Windows 3.11",
+        "Win16": "true",
+        "Win32": "false"
+      }
+    },
     "Win95": {
       "match": "*Win95*",
       "properties": {

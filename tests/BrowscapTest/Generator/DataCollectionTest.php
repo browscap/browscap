@@ -3,6 +3,12 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\DataCollection;
+
+/**
+ * Class DataCollectionTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class DataCollectionTest extends \PHPUnit_Framework_TestCase
 {
     public function getPlatformsJsonFixture()

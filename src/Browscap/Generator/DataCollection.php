@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Class DataCollection
+ *
+ * @package Browscap\Generator
+ */
 class DataCollection
 {
     /**

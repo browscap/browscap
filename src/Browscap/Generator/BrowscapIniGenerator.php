@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Class BrowscapIniGenerator
+ *
+ * @package Browscap\Generator
+ */
 class BrowscapIniGenerator extends AbstractGenerator
 {
     const OUTPUT_FORMAT_PHP = 'php';
@@ -14,6 +19,16 @@ class BrowscapIniGenerator extends AbstractGenerator
     private $outputFormat = self::OUTPUT_FORMAT_PHP;
     private $outputSet    = self::OUTPUT_SET_NORMAL;
     
+    /**
+     * @var string
+     */
+    private $format = null;
+
+    /**
+     * @var string
+     */
+    private $type = null;
+
     /**
      * Generate and return the formatted browscap data
      *
@@ -64,23 +79,16 @@ class BrowscapIniGenerator extends AbstractGenerator
     /**
      * renders all found useragents into a string
      *
-     * @param array[]  $allDivisions
-     * @param string $output
-     * @param array[]  $allProperties
+     * @param array[] $allDivisions
+     * @param string  $output
+     * @param array   $allProperties
      *
      * @return string
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
         foreach ($allDivisions as $key => $properties) {
-            if (!isset($properties['Version'])) {
-                continue;
-            }
-
-            if (!isset($properties['Parent'])
-                && 'DefaultProperties' !== $key
-                && '*' !== $key
-            ) {
+            if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 continue;
             }
 
@@ -90,26 +98,14 @@ class BrowscapIniGenerator extends AbstractGenerator
                 continue;
             }
 
-            if ('DefaultProperties' !== $key && '*' !== $key) {
-                if (!isset($allDivisions[$properties['Parent']])) {
-                    continue;
-                }
-
+            if (!in_array($key, array('DefaultProperties', '*'))) {
                 $parent = $allDivisions[$properties['Parent']];
             } else {
                 $parent = array();
             }
 
             if (isset($parent['Version'])) {
-                $completeVersions = explode('.', $parent['Version'], 2);
-
-                $parent['MajorVer'] = (string) $completeVersions[0];
-
-                if (isset($completeVersions[1])) {
-                    $parent['MinorVer'] = (string) $completeVersions[1];
-                } else {
-                    $parent['MinorVer'] = 0;
-                }
+                $this->extractVersion($parent);
             }
 
             $propertiesToOutput = $properties;
@@ -178,7 +174,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                     continue;
                 }
 
-                if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+                if (!CollectionParser::isOutputProperty($property)) {
                     continue;
                 }
 
@@ -248,6 +244,8 @@ class BrowscapIniGenerator extends AbstractGenerator
     }
 
     /**
+     * renders the header for a division
+     *
      * @param string $division
      *
      * @return string
