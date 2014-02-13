@@ -113,6 +113,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. Please set it with setCollectionParser');
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         $generator->parseCollection();
     }
 
@@ -149,6 +150,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. Please set it with setGenerator');
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         $generator->create();
     }
 
