@@ -223,11 +223,11 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('generate')
             ->will(self::returnValue(''))
         ;
-        $mockCreator->expects($this->any())
+        $mockGenerator->expects($this->any())
             ->method('setLogger')
             ->will(self::returnSelf())
         ;
-        $mockParser->expects($this->any())
+        $mockGenerator->expects($this->any())
             ->method('getLogger')
             ->will(self::returnValue($this->logger))
         ;
