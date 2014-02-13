@@ -3,6 +3,8 @@
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\Generator;
+use Monolog\Logger;
+use Monolog\Handler\NullHandler;
 
 /**
  * Class GeneratorTest
