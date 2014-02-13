@@ -5,6 +5,16 @@ namespace Browscap\Generator;
 class BrowscapIniGenerator extends AbstractGenerator
 {
     /**
+     * @var string
+     */
+    private $format = null;
+
+    /**
+     * @var string
+     */
+    private $type = null;
+
+    /**
      * Generate and return the formatted browscap data
      *
      * @param string $format
@@ -54,9 +64,9 @@ class BrowscapIniGenerator extends AbstractGenerator
     /**
      * renders all found useragents into a string
      *
-     * @param array[]  $allDivisions
-     * @param string $output
-     * @param array[]  $allProperties
+     * @param array[] $allDivisions
+     * @param string  $output
+     * @param array   $allProperties
      *
      * @return string
      */

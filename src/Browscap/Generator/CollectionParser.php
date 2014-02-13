@@ -133,7 +133,7 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param string[] $uaData
+     * @param array    $uaData
      * @param string   $majorVer
      * @param string   $minorVer
      * @param boolean  $lite

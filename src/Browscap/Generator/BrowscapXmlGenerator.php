@@ -45,7 +45,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      * renders all found useragents into a string
      *
      * @param array[] $allDivisions
-     * @param array[] $allProperties
+     * @param array   $allProperties
      *
      * @return string
      */

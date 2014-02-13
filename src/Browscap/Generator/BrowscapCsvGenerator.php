@@ -21,9 +21,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
     /**
      * renders all found useragents into a string
      *
-     * @param array[]  $allDivisions
-     * @param string $output
-     * @param array[]  $allProperties
+     * @param array[] $allDivisions
+     * @param string  $output
+     * @param array   $allProperties
      *
      * @return string
      */
