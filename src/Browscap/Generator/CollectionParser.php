@@ -31,11 +31,11 @@ class CollectionParser
      */
     public function createDataCollection($version, $resourceFolder)
     {
-        $this->logger->debug('adding platform file');
+        $this->getLogger()->debug('adding platform file');
         $this->collection = new DataCollection($version);
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
-        $this->logger->debug('reading source folder');
+        $this->getLogger()->debug('reading source folder');
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -46,7 +46,7 @@ class CollectionParser
                 continue;
             }
 
-            $this->logger->debug('Processing file ' . $file->getPathname() . ' ...');
+            $this->getLogger()->debug('Processing file ' . $file->getPathname() . ' ...');
             $this->collection->addSourceFile($file->getPathname());
         }
 
@@ -93,6 +93,14 @@ class CollectionParser
     }
 
     /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
      * Generate and return the formatted browscap data
      *
      * @return array
@@ -103,7 +111,7 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->logger->debug('parse a data collection into an array');
+            $this->getLogger()->debug('parse a data collection into an array');
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -314,11 +322,11 @@ class CollectionParser
      */
     private function expandProperties(array $allInputDivisions)
     {
-        $this->logger->debug('expand all properties');
+        $this->getLogger()->debug('expand all properties');
         $allDivisions = array();
 
         foreach ($allInputDivisions as $key => $properties) {
-            $this->logger->debug('expand all properties for key "' . $key . '"');
+            $this->getLogger()->debug('expand all properties for key "' . $key . '"');
 
             if (!isset($properties['Parent'])
                 && !in_array($key, array('DefaultProperties', '*'))
