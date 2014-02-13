@@ -3,3 +3,5 @@ vendor/
 .settings
 .project
 composer.phar
+browscap.*
+*browscap.ini
