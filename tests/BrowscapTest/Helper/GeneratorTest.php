@@ -84,6 +84,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Helper\\CollectionCreator is required for this function. Please set it with setCollectionCreator');
 
         $generator = new Generator();
+        self::assertSame($generator, $generator->setLogger($this->logger));
         $generator->createCollection();
     }
 
