@@ -5,6 +5,11 @@ namespace BrowscapTest;
 use Symfony\Component\Console\Application;
 use Browscap\Browscap;
 
+/**
+ * Class BrowscapTest
+ *
+ * @package BrowscapTest
+ */
 class BrowscapTest extends \PHPUnit_Framework_TestCase
 {
     public function assertAppHasCommand(Application $app, $command)

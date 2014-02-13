@@ -2,6 +2,11 @@
 
 namespace Browscap\Parser;
 
+/**
+ * Class IniParser
+ *
+ * @package Browscap\Parser
+ */
 class IniParser implements ParserInterface
 {
     /**

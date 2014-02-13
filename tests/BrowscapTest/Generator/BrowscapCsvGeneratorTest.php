@@ -6,6 +6,11 @@ use Browscap\Generator\BrowscapCsvGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
 
+/**
+ * Class BrowscapCsvGeneratorTest
+ *
+ * @package BrowscapTest\Generator
+ */
 class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     private function getPlatformsJsonFixture()

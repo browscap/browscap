@@ -2,19 +2,22 @@
 
 namespace Browscap\Command;
 
+use Browscap\Generator\BrowscapIniGenerator;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
+use Browscap\Helper\LoggerHelper;
 use Browscap\Parser\IniParser;
-use Monolog\ErrorHandler;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Handler\ErrorLogHandler;
-use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * @author James Titcumb <james@asgrim.com>
+ * @package Browscap\Command
  */
 class DiffCommand extends Command
 {
@@ -35,11 +38,14 @@ class DiffCommand extends Command
      */
     protected function configure()
     {
+        $defaultResourceFolder = __DIR__ . BuildCommand::DEFAULT_RESOURCES_FOLDER;
+
         $this
             ->setName('diff')
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
-            ->addArgument('right', InputArgument::REQUIRED, 'The right .ini file to compare');
+            ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare')
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -54,17 +60,41 @@ class DiffCommand extends Command
         $leftFilename = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
 
-        $stream = new StreamHandler('php://output', Logger::INFO);
-        $stream->setFormatter(new LineFormatter('%message%' . "\n"));
-
-        $this->logger = new Logger('browscap');
-        $this->logger->pushHandler($stream);
-        $this->logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
-
-        ErrorHandler::register($this->logger);
+        $loggerHelper = new LoggerHelper();
+        $this->logger = $loggerHelper->create();
 
         $iniParserLeft = new IniParser($leftFilename);
         $leftFile = $iniParserLeft->setShouldSort(true)->parse();
+
+        if (!$rightFilename || !file_exists($rightFilename)) {
+            $this->logger->log(Logger::INFO, 'right file not set or invalid - creating right file from resources');
+
+            $cache_dir = sys_get_temp_dir() . '/browscap-diff/' . microtime(true) . '/';
+            $rightFilename = $cache_dir . 'full_php_browscap.ini';
+
+            if (!file_exists($cache_dir)) {
+                mkdir($cache_dir, 0777, true);
+            }
+
+            $resourceFolder = $input->getOption('resources');
+
+            $collectionCreator = new CollectionCreator();
+            $collectionParser = new CollectionParser();
+            $iniGenerator = new BrowscapIniGenerator();
+
+            $generatorHelper = new Generator();
+            $generatorHelper
+                ->setVersion('temporary-version')
+                ->setResourceFolder($resourceFolder)
+                ->setCollectionCreator($collectionCreator)
+                ->setCollectionParser($collectionParser)
+                ->createCollection()
+                ->parseCollection()
+                ->setGenerator($iniGenerator->setOptions(true, true, false))
+            ;
+
+            file_put_contents($rightFilename, $generatorHelper->create());
+        }
 
         $iniParserRight = new IniParser($rightFilename);
         $rightFile = $iniParserRight->setShouldSort(true)->parse();
@@ -105,6 +135,8 @@ class DiffCommand extends Command
         } else {
             $this->logger->log(Logger::INFO, 'No differences found, hooray!');
         }
+
+        $this->logger->log(Logger::INFO, 'Diff done.');
     }
 
     /**
@@ -115,7 +147,7 @@ class DiffCommand extends Command
      */
     public function compareSectionProperties($section, $leftPropsDifferences, $rightPropsDifferences, $rightProps)
     {
-        $this->logger->log(Logger::INFO, $section);
+        $this->logger->log(Logger::INFO, '[' . $section . ']');
 
         // Diff the properties
         $propsRead = array();
