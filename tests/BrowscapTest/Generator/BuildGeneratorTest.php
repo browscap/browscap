@@ -3,6 +3,8 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BuildGenerator;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class BuildGeneratorTest
@@ -23,7 +25,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->logger   = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
+        $this->logger   = new Logger('browscapTest', array(new NullHandler()));
         $this->messages = array();
     }
 

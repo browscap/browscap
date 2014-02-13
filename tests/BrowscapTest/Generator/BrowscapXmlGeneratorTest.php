@@ -5,6 +5,8 @@ namespace BrowscapTest\Generator;
 use Browscap\Generator\BrowscapXmlGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class BrowscapXmlGeneratorTest
@@ -20,7 +22,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->logger = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
     }
 
     private function getPlatformsJsonFixture()

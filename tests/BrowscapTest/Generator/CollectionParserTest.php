@@ -3,6 +3,8 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\CollectionParser;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class CollectionParserTest
@@ -18,8 +20,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->logger   = new \Monolog\Logger('browscapTest', array(new \Monolog\Handler\NullHandler()));
-        $this->messages = array();
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
     }
 
     public function propertyNameTypeDataProvider()
