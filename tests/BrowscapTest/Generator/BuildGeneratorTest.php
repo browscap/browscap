@@ -122,7 +122,19 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('This is a test'))
         ;
 
-        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
+        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array('parse', 'setLogger', 'getLogger'), array(), '', false);
+        $mockParser->expects($this->any())
+            ->method('parse')
+            ->will(self::returnValue(array()))
+        ;
+        $mockParser->expects($this->any())
+            ->method('setLogger')
+            ->will(self::returnSelf())
+        ;
+        $mockParser->expects($this->any())
+            ->method('getLogger')
+            ->will(self::returnValue($this->logger))
+        ;
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
