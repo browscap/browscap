@@ -48,6 +48,14 @@ class CollectionCreator
     }
 
     /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
      * Create and populate a data collection object from a resource folder
      *
      * @param string $resourceFolder
@@ -64,7 +72,7 @@ class CollectionCreator
             );
         }
 
-        $this->logger->debug('add platform file');
+        $this->getLogger()->debug('add platform file');
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
@@ -77,7 +85,7 @@ class CollectionCreator
                 continue;
             }
 
-            $this->logger->debug('add source file ' . $file->getPathname());
+            $this->getLogger()->debug('add source file ' . $file->getPathname());
             $this->collection->addSourceFile($file->getPathname());
         }
 
