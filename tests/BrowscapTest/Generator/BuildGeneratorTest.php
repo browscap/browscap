@@ -100,12 +100,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        $mockLogger = $this->getMock('\\Monolog\\Logger', array('log'), array(), '', false);
-        $mockLogger->expects($this->any())
-            ->method('log')
-            ->will(self::returnCallback(array($this, 'mockLog')))
-        ;
-
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
         $mockCollection->expects($this->any())
             ->method('getGenerationDate')
@@ -131,7 +125,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
 
         $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($mockLogger));
+        self::assertSame($generator, $generator->setLogger($$this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
         self::assertSame($generator, $generator->setGeneratorHelper($mockGenerator));

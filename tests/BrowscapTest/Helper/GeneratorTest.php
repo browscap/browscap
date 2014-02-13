@@ -120,13 +120,17 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
 
-        $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection', 'setDataCollection'), array(), '', false);
+        $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection', 'setDataCollection', 'setLogger'), array(), '', false);
         $mockCreator->expects($this->any())
             ->method('createDataCollection')
             ->will(self::returnValue($mockCollection))
         ;
         $mockCreator->expects($this->any())
             ->method('setDataCollection')
+            ->will(self::returnSelf())
+        ;
+        $mockCreator->expects($this->any())
+            ->method('setLogger')
             ->will(self::returnSelf())
         ;
 
