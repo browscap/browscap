@@ -134,7 +134,10 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
     public function testGenerateWithDifferentFormattingOptions($filename, $format, $type)
     {
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()));
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()))
+        ;
         $collectionData = $collectionParser->parse();
 
         $comments = array(
@@ -149,6 +152,7 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BrowscapIniGenerator();
         $generator
+            ->setLogger($this->logger)
             ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
