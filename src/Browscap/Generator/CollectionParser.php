@@ -2,6 +2,11 @@
 
 namespace Browscap\Generator;
 
+/**
+ * Class CollectionParser
+ *
+ * @package Browscap\Generator
+ */
 class CollectionParser
 {
     /**
@@ -40,6 +45,7 @@ class CollectionParser
      * Generate and return the formatted browscap data
      *
      * @return array
+     * @throws \LogicException
      */
     public function parse()
     {
@@ -133,7 +139,7 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param string[] $uaData
+     * @param array    $uaData
      * @param string   $majorVer
      * @param string   $minorVer
      * @param boolean  $lite
@@ -260,8 +266,7 @@ class CollectionParser
         foreach ($allInputDivisions as $key => $properties) {
 
             if (!isset($properties['Parent'])
-                && 'DefaultProperties' !== $key
-                && '*' !== $key
+                && !in_array($key, array('DefaultProperties', '*'))
             ) {
                 continue;
             }
@@ -381,8 +386,10 @@ class CollectionParser
             case 'Crawler':
                 return 'boolean';
             default:
-                throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
+                // do nothing here
         }
+
+        throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
     }
 
     /**
@@ -403,7 +410,31 @@ class CollectionParser
             case 'RenderingEngine_Description':
                 return true;
             default:
-                return false;
+                // do nothing here
         }
+
+        return false;
+    }
+
+    /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in the "full" versions of the files)
+     *
+     * @param string $propertyName
+     * @return boolean
+     */
+    public static function isOutputProperty($propertyName)
+    {
+        switch ($propertyName) {
+            case 'lite':
+            case 'sortIndex':
+            case 'Parents':
+            case 'division':
+                return false;
+            default:
+                // do nothing here
+        }
+
+        return true;
     }
 }

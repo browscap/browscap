@@ -2,6 +2,11 @@
 
 namespace Browscap\Parser;
 
+/**
+ * Interface ParserInterface
+ *
+ * @package Browscap\Parser
+ */
 interface ParserInterface
 {
     /**
