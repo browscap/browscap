@@ -237,7 +237,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+      "userAgent": "Google Page Speed",
       "properties": {
         "Parent": "Google",
         "Browser": "Google Page Speed"
