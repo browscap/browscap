@@ -341,8 +341,6 @@ return [
         [
             'Browser' => 'UC Browser',
             'Version' => '8.8',
-            'Platform' => 'Android',
-            'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
         ],
