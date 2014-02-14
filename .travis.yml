@@ -9,8 +9,6 @@ php:
 before_script:
   - composer self-update
   - composer install --dev --prefer-source
-  - php vendor/autoload.php
-  - mkdir -p build/logs
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
@@ -18,3 +16,4 @@ script:
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+
