@@ -188,7 +188,6 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function formatValue($property, array $properties)
     {
-        $this->logger->debug('format the value of property "' . $property . '"');
         $value = '';
 
         if (!isset($properties[$property])) {
