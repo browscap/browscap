@@ -1420,6 +1420,13 @@
         "Parent": "General Crawlers",
         "Browser": "Proximic Spider"
       }
+    },
+    {
+      "userAgent": "netEstate NE Crawler (+http://www.website-datenbank.de/)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "netEstate NE Crawler"
+      }
     }
   ]
 }
