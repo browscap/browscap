@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'issue-117' => [
+        'netEstate NE Crawler (+http://www.website-datenbank.de/)',
+        [
+            'Browser' => 'netEstate NE Crawler',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-114-D' => [
         'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1200.0 Iron/21.0.1200.0 Safari/537.1',
         [
