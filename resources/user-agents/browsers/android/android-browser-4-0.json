@@ -118,7 +118,16 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/* Android *",
+          "match": "*#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/* Android *",
+          "properties": {
+            "Device_Name": "MT6515M"
+          },
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D"
+          ]
+        },
+        {
+          "match": "* #PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
             "Device_Name": "MT6515M"
           },

@@ -146,7 +146,7 @@ return [
     'issue-96-CA' => [
         'LG-GD350/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
         [
-            'Browser' => 'Obigo',
+            'Browser' => 'Teleca-Obigo',
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
@@ -209,7 +209,7 @@ return [
         'Firefox/25.0 (de); anonymized by Abelssoft 1704153795',
         [
             'Browser' => 'Firefox',
-            'Version' => '25',
+            'Version' => '25.0',
             'isMobileDevice' => false,
             'Crawler' => false,
         ],
@@ -429,7 +429,7 @@ return [
         [
             'Browser' => 'UC Browser',
             'Version' => '3.2',
-            'Platform' => 'Windows Phone OS',
+            'Platform' => 'WinPhone7',
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Crawler' => false,

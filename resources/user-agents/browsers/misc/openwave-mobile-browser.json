@@ -28,6 +28,15 @@
       "properties": {
         "Parent": "Openwave Mobile Browser"
       }
+    },
+    {
+      "userAgent": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
     }
   ]
 }

@@ -75,8 +75,17 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $actualProps = self::$browscap->getBrowser($ua, true);
 
         foreach ($props as $propName => $propValue) {
-            $this->assertArrayHasKey($propName, $actualProps, "Actual properties did not have {$propName} property");
-            $this->assertSame($propValue, $actualProps[$propName], "Expected actual {$propName} to be {$propValue} (was {$actualProps[$propName]})");
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual property did not have "' . $propName . '" property [' . serialize($actualProps) . ']'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")'
+            );
         }
     }
 }

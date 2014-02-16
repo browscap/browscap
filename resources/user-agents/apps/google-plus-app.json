@@ -14,9 +14,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
           "properties": {
             "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "properties": {
+            "Device_Name": "iPad",
             "Device_Maker": "Apple"
           },
           "platforms": [

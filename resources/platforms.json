@@ -250,7 +250,7 @@
       }
     },
     "iOS_C": {
-      "match": "*CPU*OS*",
+      "match": "*CPU*OS*like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Description": "iPod, iPhone & iPad",
@@ -258,7 +258,7 @@
       }
     },
     "iOS_C_5_0": {
-      "match": "*CPU OS 5*",
+      "match": "*CPU OS 5_0* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "5.0",
@@ -267,7 +267,7 @@
       }
     },
     "iOS_C_5_1": {
-      "match": "*CPU OS 5_1*",
+      "match": "*CPU OS 5_1* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "5.1",
@@ -276,7 +276,7 @@
       }
     },
     "iOS_C_6_0": {
-      "match": "*CPU OS 6*",
+      "match": "*CPU OS 6_0* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "6.0",
@@ -285,7 +285,7 @@
       }
     },
     "iOS_C_6_1": {
-      "match": "*CPU OS 6_1*",
+      "match": "*CPU OS 6_1* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "6.1",
@@ -294,7 +294,7 @@
       }
     },
     "iOS_C_7_0": {
-      "match": "*CPU OS 7*",
+      "match": "*CPU OS 7_0* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "7.0",
@@ -303,7 +303,7 @@
       }
     },
     "iOS_C_7_1": {
-      "match": "*CPU OS 7_1*",
+      "match": "*CPU OS 7_1* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "7.1",
