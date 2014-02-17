@@ -1151,6 +1151,27 @@
                 "isMobileDevice": "true",
                 "Device_Maker": "HP"
             }
+        },
+        "webOS_B": {
+            "match": "*hpwOS/*",
+            "properties": {
+                "Platform": "webOS",
+                "Platform_Description": "HP webOS",
+                "Win32": "false",
+                "isMobileDevice": "true",
+                "Device_Maker": "HP"
+            }
+        },
+        "webOS_B_30": {
+            "match": "*hpwOS/3.*",
+            "properties": {
+                "Platform": "webOS",
+                "Platform_Version": "3.0",
+                "Platform_Description": "HP webOS",
+                "Win32": "false",
+                "isMobileDevice": "true",
+                "Device_Maker": "HP"
+            }
         }
     }
 }
