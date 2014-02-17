@@ -1001,6 +1001,8 @@ return [
             'Platform' => 'iOS',
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
         ],
     ],
     'issue-38-a' => [
@@ -1011,6 +1013,8 @@ return [
             'Platform' => 'iOS',
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
         ],
     ],
     'issue-50-2' => [
