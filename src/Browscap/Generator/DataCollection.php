@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Psr\Log\LoggerInterface;
+
 /**
  * Class DataCollection
  *
@@ -35,6 +37,11 @@ class DataCollection
     private $generationDate;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
      * Create a new data collection for the specified version
      *
      * @param string $version
@@ -43,6 +50,18 @@ class DataCollection
     {
         $this->version        = $version;
         $this->generationDate = new \DateTime();
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\DataCollection
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
     }
 
     /**

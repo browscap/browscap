@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Psr\Log\LoggerInterface;
+
 /**
  * Class CollectionParser
  *
@@ -13,6 +15,11 @@ class CollectionParser
      * @var \Browscap\Generator\DataCollection
      */
     private $collection;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * Set the data collection
@@ -42,6 +49,26 @@ class CollectionParser
     }
 
     /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\CollectionParser
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
      * Generate and return the formatted browscap data
      *
      * @return array
@@ -52,6 +79,8 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
+            $this->getLogger()->debug('parse a data collection into an array');
+
             if ($division['division'] == 'Browscap Version') {
                 continue;
             }
@@ -261,9 +290,11 @@ class CollectionParser
      */
     private function expandProperties(array $allInputDivisions)
     {
+        $this->getLogger()->debug('expand all properties');
         $allDivisions = array();
 
         foreach ($allInputDivisions as $key => $properties) {
+            $this->getLogger()->debug('expand all properties for key "' . $key . '"');
 
             if (!isset($properties['Parent'])
                 && !in_array($key, array('DefaultProperties', '*'))

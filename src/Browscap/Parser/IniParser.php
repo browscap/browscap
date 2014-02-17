@@ -125,6 +125,10 @@ class IniParser implements ParserInterface
                 throw new \RuntimeException("Too many equals in line: {$currentLine}");
             }
 
+            if (count($bits) < 2) {
+                throw new \RuntimeException("Too few equals in line: {$currentLine}");
+            }
+
             $data[$currentSection][$bits[0]] = $bits[1];
             $data[$currentSection]['Division'] = $currentDivision;
         }

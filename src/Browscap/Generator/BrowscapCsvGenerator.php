@@ -16,6 +16,8 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     public function generate()
     {
+        $this->logger->debug('build output for csv file');
+
         return $this->render(
             $this->collectionData,
             $this->renderVersion(),
@@ -34,11 +36,12 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
+        $this->logger->debug('rendering CSV header');
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
 
-            if (in_array($property, array('lite', 'sortIndex', 'Parents', 'division'))) {
+            if (!CollectionParser::isOutputProperty($property)) {
                 continue;
             }
 
@@ -49,10 +52,14 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
         $counter = 1;
 
+        $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             $counter++;
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
                 continue;
             }
 
@@ -67,6 +74,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
+                    // );
                     continue;
                 }
 
@@ -86,6 +96,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
      */
     private function renderVersion()
     {
+        $this->logger->debug('rendering version information');
         $header = '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL;
 
         $versionData = $this->getVersionData();

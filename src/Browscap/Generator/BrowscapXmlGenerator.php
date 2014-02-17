@@ -19,6 +19,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     public function generate()
     {
+        $this->logger->debug('build output for xml file');
         return $this->render(
             $this->collectionData,
             array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
@@ -34,6 +35,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function renderHeader(DOMDocument $dom)
     {
+        $this->logger->debug('rendering comments');
         $comments = $dom->createElement('comments');
 
         foreach ($this->getComments() as $text) {
@@ -56,6 +58,8 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, array $allProperties)
     {
+        $this->logger->debug('rendering XML structure');
+
         $dom = new DOMDocument('1.0', 'utf-8');
         $dom->preserveWhiteSpace = false;
         $dom->formatOutput = true;
@@ -68,10 +72,14 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
         $counter = 1;
 
+        $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             $counter++;
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
                 continue;
             }
 
@@ -90,6 +98,9 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
+                    // );
                     continue;
                 }
 
@@ -114,6 +125,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function renderVersion(DOMDocument $dom)
     {
+        $this->logger->debug('rendering version information');
         $version     = $dom->createElement('gjk_browscap_version');
         $versionData = $this->getVersionData();
 
@@ -154,6 +166,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
     {
+        $this->logger->debug('create item for property "' . $property . '"');
         $item        = $dom->createElement('item');
 
         $name        = $dom->createAttribute('name');
