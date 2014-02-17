@@ -228,11 +228,11 @@ class CollectionParser
             $platformData = $this->getDataCollection()->getPlatform($platform);
             $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaData['userAgent']);
 
-            if (isset($uaDataChild['properties'])
-                && is_array($uaDataChild['properties'])
+            if (isset($uaData['properties'])
+                && is_array($uaData['properties'])
             ) {
                 $properties += $this->parseProperties(
-                    (array_merge($platformData['properties'], $uaDataChild['properties'])),
+                    (array_merge($platformData['properties'], $uaData['properties'])),
                     $majorVer,
                     $minorVer
                 );
