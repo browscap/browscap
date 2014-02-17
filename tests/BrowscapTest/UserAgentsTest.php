@@ -2,8 +2,9 @@
 
 namespace BrowscapTest;
 
-use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use phpbrowscap\Browscap;
@@ -37,20 +38,27 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
-        $generatorHelper = new Generator();
+        $iniGenerator = new BrowscapIniGenerator();
 
-        $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
-        $buildGenerator
+        $iniFile = $buildFolder . '/full_php_browscap.ini';
+
+        $generatorHelper = new Generator();
+        $generatorHelper
+            ->setVersion('temporary-version')
             ->setLogger($logger)
+            ->setResourceFolder($resourceFolder)
             ->setCollectionCreator($collectionCreator)
             ->setCollectionParser($collectionParser)
-            ->setGeneratorHelper($generatorHelper)
-            ->generateBuilds($buildNumber)
+            ->createCollection()
+            ->parseCollection()
+            ->setGenerator($iniGenerator)
         ;
+
+        file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         $browscap = new Browscap($buildFolder);
-        $browscap->localFile = $buildFolder . '/full_php_browscap.ini';
+        $browscap->localFile = $iniFile;
 
         self::$browscap = $browscap;
     }
@@ -75,8 +83,17 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $actualProps = self::$browscap->getBrowser($ua, true);
 
         foreach ($props as $propName => $propValue) {
-            $this->assertArrayHasKey($propName, $actualProps, "Actual properties did not have {$propName} property");
-            $this->assertSame($propValue, $actualProps[$propName], "Expected actual {$propName} to be {$propValue} (was {$actualProps[$propName]})");
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual property did not have "' . $propName . '" property [' . serialize($actualProps) . ']'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")'
+            );
         }
     }
 }
