@@ -86,7 +86,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
-                'Actual property did not have "' . $propName . '" property'
+                'Actual properties did not have "' . $propName . '" property'
             );
 
             self::assertSame(
