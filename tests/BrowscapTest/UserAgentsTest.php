@@ -39,17 +39,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
-        $generatorHelper = new Generator();
-
-        $collectionCreator = new CollectionCreator();
-        $collectionParser = new CollectionParser();
         $iniGenerator = new BrowscapIniGenerator();
-        
+
         $iniFile = $buildFolder . '/full_php_browscap.ini';
 
         $generatorHelper = new Generator();
         $generatorHelper
             ->setVersion('temporary-version')
+            ->setLogger($logger)
             ->setResourceFolder($resourceFolder)
             ->setCollectionCreator($collectionCreator)
             ->setCollectionParser($collectionParser)
