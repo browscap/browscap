@@ -10,6 +10,15 @@ return [
             'Crawler' => true,
         ],
     ],
+    'issue-122' => [
+        'Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)',
+        [
+            'Browser' => 'Google Web Snippet',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-120' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Version/6.0 Mobile/10A525 Safari/8536.25',
         [
