@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'issue-130' => [
+        'Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14',
+        [
+            'Browser' => 'Google Wireless Transcoder',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-128' => [
         'Mozilla/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)',
         [
