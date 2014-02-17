@@ -5,6 +5,7 @@ namespace Browscap\Helper;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
+use Psr\Log\LoggerInterface;
 
 /**
  * @package Browscap\Helper
@@ -46,6 +47,11 @@ class Generator
      * @var \Browscap\Generator\CollectionParser
      */
     private $collectionParser = null;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
 
     /**
      * @param \Browscap\Generator\AbstractGenerator $generator
@@ -124,6 +130,26 @@ class Generator
     }
 
     /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Helper\Generator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
      * creates the required data collection
      *
      * @throws \LogicException
@@ -131,6 +157,7 @@ class Generator
      */
     public function createCollection()
     {
+        $this->getLogger()->debug('create a data collection');
         if (null === $this->collectionCreator) {
             throw new \LogicException(
                 'An instance of \\Browscap\\Helper\\CollectionCreator is required for this function. '
@@ -141,6 +168,7 @@ class Generator
         $this->collection = new DataCollection($this->getVersion());
 
         $this->collectionCreator
+            ->setLogger($this->logger)
             ->setDataCollection($this->collection)
             ->createDataCollection($this->getResourceFolder());
 
@@ -155,6 +183,7 @@ class Generator
      */
     public function parseCollection()
     {
+        $this->getLogger()->debug('parse a data collection into an array');
         if (null === $this->collectionParser) {
             throw new \LogicException(
                 'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. '
@@ -162,7 +191,10 @@ class Generator
             );
         }
 
-        $this->collectionParser->setDataCollection($this->collection);
+        $this->collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection($this->collection)
+        ;
         $this->collectionData = $this->collectionParser->parse();
 
         return $this;
@@ -179,6 +211,7 @@ class Generator
      */
     public function create($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
+        $this->getLogger()->debug('create the output file');
         if (null === $this->generator) {
             throw new \LogicException(
                 'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. '
@@ -197,6 +230,7 @@ class Generator
         );
 
         $this->generator
+            ->setLogger($this->logger)
             ->setCollectionData($this->collectionData)
             ->setComments($comments)
             ->setVersionData(

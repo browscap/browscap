@@ -3,6 +3,7 @@
 namespace Browscap\Helper;
 
 use Browscap\Generator\DataCollection;
+use Psr\Log\LoggerInterface;
 
 /**
  * Class CollectionCreator
@@ -18,6 +19,11 @@ class CollectionCreator
     private $collection = null;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
      * @param \Browscap\Generator\DataCollection $collection
      *
      * @return \Browscap\Helper\CollectionCreator
@@ -27,6 +33,26 @@ class CollectionCreator
         $this->collection = $collection;
 
         return $this;
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Helper\CollectionCreator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
     }
 
     /**
@@ -46,6 +72,7 @@ class CollectionCreator
             );
         }
 
+        $this->getLogger()->debug('add platform file');
         $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
@@ -58,6 +85,7 @@ class CollectionCreator
                 continue;
             }
 
+            $this->getLogger()->debug('add source file ' . $file->getPathname());
             $this->collection->addSourceFile($file->getPathname());
         }
 
