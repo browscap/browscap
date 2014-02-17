@@ -210,6 +210,8 @@ return [
             'Platform_Version' => '3.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'TouchPad',
+            'Device_Maker' => 'HP',
         ],
     ],
     'issue-96-CC' => [
