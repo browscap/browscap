@@ -3,6 +3,8 @@
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\CollectionCreator;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class CollectionCreatorTest
@@ -11,6 +13,16 @@ use Browscap\Helper\CollectionCreator;
  */
 class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+    }
+
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\DataCollection is required for this function. Please set it with setDataCollection');
@@ -30,7 +42,10 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $creator = new CollectionCreator();
-        $creator->setDataCollection($mockCollection);
+        $creator
+            ->setLogger($this->logger)
+            ->setDataCollection($mockCollection)
+        ;
         $creator->createDataCollection('.');
     }
 
@@ -48,7 +63,10 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $creator = new CollectionCreator();
-        $creator->setDataCollection($mockCollection);
+        $creator
+            ->setLogger($this->logger)
+            ->setDataCollection($mockCollection)
+        ;
 
         $result = $creator->createDataCollection(__DIR__ . '/../../fixtures');
         self::assertInstanceOf('\\Browscap\\Generator\\DataCollection', $result);

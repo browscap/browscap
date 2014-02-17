@@ -6,6 +6,8 @@ use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class BrowscapIniGeneratorTest
@@ -14,6 +16,16 @@ use Browscap\Generator\DataCollection;
  */
 class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+    }
+
     private function getPlatformsJsonFixture()
     {
         return __DIR__ . '/../../fixtures/platforms/platforms.json';
@@ -38,7 +50,10 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
     private function getCollectionData(array $files)
     {
         $dataCollection = new DataCollection('1234');
-        $dataCollection->addPlatformsFile($this->getPlatformsJsonFixture());
+        $dataCollection
+            ->setLogger($this->logger)
+            ->addPlatformsFile($this->getPlatformsJsonFixture())
+        ;
 
         $dateProperty = new \ReflectionProperty(get_class($dataCollection), 'generationDate');
         $dateProperty->setAccessible(true);
@@ -64,13 +79,19 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $dataCollection = new DataCollection('1234');
 
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($dataCollection);
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection($dataCollection)
+        ;
         $collectionData = $collectionParser->parse();
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
         $generator = new BrowscapIniGenerator();
-        $generator->setCollectionData($collectionData);
+        $generator
+            ->setLogger($this->logger)
+            ->setCollectionData($collectionData)
+        ;
 
         self::assertAttributeSame($collectionData, 'collectionData', $generator);
     }
@@ -80,13 +101,19 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $dataCollection = new DataCollection('1234');
 
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($dataCollection);
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection($dataCollection)
+        ;
         $collectionData = $collectionParser->parse();
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
         $generator = new BrowscapIniGenerator();
-        $generator->setCollectionData($collectionData);
+        $generator
+            ->setLogger($this->logger)
+            ->setCollectionData($collectionData)
+        ;
 
         self::assertSame($collectionData, $generator->getCollectionData());
     }
@@ -109,7 +136,10 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
     public function testGenerateWithDifferentFormattingOptions($filename, $format, $type)
     {
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()));
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection($this->getCollectionData($this->getUserAgentFixtures()))
+        ;
         $collectionData = $collectionParser->parse();
 
         $comments = array(
@@ -124,6 +154,7 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BrowscapIniGenerator();
         $generator
+            ->setLogger($this->logger)
             ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
@@ -161,7 +192,9 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
         $collectionParser = new CollectionParser();
-        $collectionParser->setDataCollection(
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection(
             $this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $jsonFile])
         );
         $collectionData = $collectionParser->parse();
@@ -178,6 +211,7 @@ class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BrowscapIniGenerator();
         $generator
+            ->setLogger($this->logger)
             ->setCollectionData($collectionData)
             ->setComments($comments)
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))

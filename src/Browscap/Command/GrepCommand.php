@@ -8,7 +8,6 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
-use Monolog\Logger;
 use phpbrowscap\Browscap;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -63,7 +62,9 @@ class GrepCommand extends Command
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
+        ;
     }
 
     /**
@@ -73,19 +74,32 @@ class GrepCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $inputFile = $input->getArgument('inputFile');
+        $mode      = $input->getOption('mode');
+
+        if (!in_array($mode, array(self::MODE_MATCHED, self::MODE_UNMATCHED))) {
+            throw new \Exception('Mode must be "matched" or "unmatched"');
+        }
+
+        if (!file_exists($inputFile)) {
+            throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
+        }
+
         $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
         if (!file_exists($cache_dir)) {
             mkdir($cache_dir, 0777, true);
         }
 
+        $debug = $input->getOption('debug');
+
         $loggerHelper = new LoggerHelper();
-        $this->logger = $loggerHelper->create();
+        $this->logger = $loggerHelper->create($debug);
 
         $iniFile = $input->getArgument('iniFile');
 
         if (!$iniFile || !file_exists($iniFile)) {
-            $this->logger->log(Logger::INFO, 'iniFile Argument not set or invalid - creating iniFile from resources');
+            $this->logger->info('iniFile Argument not set or invalid - creating iniFile from resources');
 
             $iniFile = $cache_dir . 'full_php_browscap.ini';
             $resourceFolder = $input->getOption('resources');
@@ -96,6 +110,7 @@ class GrepCommand extends Command
 
             $generatorHelper = new Generator();
             $generatorHelper
+                ->setLogger($this->logger)
                 ->setVersion('temporary-version')
                 ->setResourceFolder($resourceFolder)
                 ->setCollectionCreator($collectionCreator)
@@ -108,6 +123,7 @@ class GrepCommand extends Command
             file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
+        $this->logger->debug('initialize Browscap');
         $this->browscap = new Browscap($cache_dir);
         $this->browscap->localFile = $iniFile;
 
@@ -124,14 +140,15 @@ class GrepCommand extends Command
 
         $fileContents = file_get_contents($inputFile);
 
-        $uas = explode("\n", $fileContents);
+        $uas = explode(PHP_EOL, $fileContents);
+
 
         $foundMode = 0;
         $foundInvisible = 0;
         $foundUnexpected = 0;
 
         foreach ($uas as $ua) {
-            if ($ua == '') {
+            if (!$ua) {
                 continue;
             }
 
@@ -146,12 +163,11 @@ class GrepCommand extends Command
             }
         }
 
-        $this->logger->log(
-            Logger::INFO,
+        $this->logger->info(
             'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
             . ' UAs had unexpected results'
         );
-        $this->logger->log(Logger::INFO, 'Grep done.');
+        $this->logger->info('Grep done.');
     }
 
     /**
@@ -165,11 +181,11 @@ class GrepCommand extends Command
         $data = $this->browscap->getBrowser($ua, true);
 
         if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-            $this->logger->log(Logger::INFO, $ua);
+            $this->logger->info($ua);
 
             return self::MODE_UNMATCHED;
         } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-            $this->logger->log(Logger::INFO, $ua);
+            $this->logger->info($ua);
 
             return self::MODE_MATCHED;
         }

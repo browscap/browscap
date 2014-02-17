@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Psr\Log\LoggerInterface;
+
 /**
  * Class AbstractGenerator
  *
@@ -9,21 +11,6 @@ namespace Browscap\Generator;
  */
 abstract class AbstractGenerator implements GeneratorInterface
 {
-    /**
-     * @var bool
-     */
-    protected $quoteStringProperties;
-
-    /**
-     * @var bool
-     */
-    protected $includeExtraProperties;
-
-    /**
-     * @var bool
-     */
-    protected $liteOnly;
-
     /**
      * @var array
      */
@@ -40,14 +27,9 @@ abstract class AbstractGenerator implements GeneratorInterface
     protected $versionData = array();
 
     /**
-     * Set defaults
+     * @var \Psr\Log\LoggerInterface
      */
-    public function __construct()
-    {
-        $this->quoteStringProperties = false;
-        $this->includeExtraProperties = true;
-        $this->liteOnly = false;
-    }
+    protected $logger = null;
 
     /**
      * Set the data collection
@@ -117,6 +99,18 @@ abstract class AbstractGenerator implements GeneratorInterface
     }
 
     /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\AbstractGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
      * @param string  $key
      * @param array   $properties
      * @param array[] $allDivisions
@@ -125,15 +119,19 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function firstCheckProperty($key, array $properties, array $allDivisions)
     {
+        $this->logger->debug('check if all required propeties are available');
         if (!isset($properties['Version'])) {
+            $this->logger->debug('Version is missing');
             return false;
         }
 
         if (!isset($properties['Parent']) && !in_array($key, array('DefaultProperties', '*'))) {
+            $this->logger->debug('Parent property is missing');
             return false;
         }
 
         if (!in_array($key, array('DefaultProperties', '*')) && !isset($allDivisions[$properties['Parent']])) {
+            $this->logger->debug('Parent property is set, but the parent element was not found');
             return false;
         }
 
@@ -147,6 +145,7 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function extractVersion(array &$parent)
     {
+        $this->logger->debug('extract major and minor version parts from version property');
         $completeVersions = explode('.', $parent['Version'], 2);
 
         $parent['MajorVer'] = (string) $completeVersions[0];
@@ -166,6 +165,7 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function detectMasterParent($key, array $properties)
     {
+        $this->logger->debug('check if the element can be marked as "MasterParent"');
         if (in_array($key, array('DefaultProperties', '*'))
             || empty($properties['Parent'])
             || 'DefaultProperties' == $properties['Parent']
