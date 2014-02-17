@@ -1767,7 +1767,7 @@
       }
     },
     {
-      "userAgent": "Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)*",
+      "userAgent": "Mozilla\/5.0 (compatible; proximic; +http:\/\/www.proximic.com\/info\/spider.php)*",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Proximic Spider",
@@ -1911,10 +1911,27 @@
       }
     },
     {
-      "userAgent": "netEstate NE Crawler (+http://www.website-datenbank.de/)*",
+      "userAgent": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "netEstate NE Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Another Web Mining Tool *; +none; awmt)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Another Web Mining Tool"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Another Web Mining Tool",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
       }
     }
   ]

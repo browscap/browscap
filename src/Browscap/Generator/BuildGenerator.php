@@ -2,7 +2,6 @@
 
 namespace Browscap\Generator;
 
-use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
@@ -50,7 +49,7 @@ class BuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**
@@ -86,8 +85,8 @@ class BuildGenerator
      */
     public function generateBuilds($version)
     {
-        $this->logger->log(Logger::INFO, 'Resource folder: ' . $this->resourceFolder . '');
-        $this->logger->log(Logger::INFO, 'Build folder: ' . $this->buildFolder . '');
+        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->logger->info('Build folder: ' . $this->buildFolder . '');
 
         $this->writeFiles($version);
     }
@@ -102,6 +101,7 @@ class BuildGenerator
     {
 
         $this->generatorHelper
+            ->setLogger($this->logger)
             ->setVersion($version)
             ->setResourceFolder($this->resourceFolder)
             ->setCollectionCreator($this->collectionCreator)
@@ -109,6 +109,7 @@ class BuildGenerator
             ->createCollection()
             ->parseCollection()
         ;
+
 
         $iniGenerator = new BrowscapIniGenerator();
         $this->generatorHelper->setGenerator($iniGenerator);
@@ -153,7 +154,7 @@ class BuildGenerator
         ];
 
         foreach ($formats as $format) {
-            $this->logger->log(Logger::INFO, 'Generating ' . $format['file'] . ' [' . $format['info'] . ']');
+            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
             file_put_contents(
                 $this->buildFolder . '/' . $format['file'],
@@ -161,19 +162,19 @@ class BuildGenerator
             );
         }
 
-        $this->logger->log(Logger::INFO, 'Generating browscap.xml [XML]');
+        $this->logger->info('Generating browscap.xml [XML]');
 
         $xmlGenerator = new BrowscapXmlGenerator();
         $this->generatorHelper->setGenerator($xmlGenerator);
         file_put_contents($this->buildFolder . '/browscap.xml', $this->generatorHelper->create());
 
-        $this->logger->log(Logger::INFO, 'Generating browscap.csv [CSV]');
+        $this->logger->info('Generating browscap.csv [CSV]');
 
         $csvGenerator = new BrowscapCsvGenerator();
         $this->generatorHelper->setGenerator($csvGenerator);
         file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
 
-        $this->logger->log(Logger::INFO, 'Generating browscap.zip [ZIP]');
+        $this->logger->info('Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);

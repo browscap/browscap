@@ -3,5 +3,7 @@ vendor/
 .settings
 .project
 composer.phar
+builds/
+result.txt
 browscap.*
 *browscap.ini

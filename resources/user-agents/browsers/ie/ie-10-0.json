@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 9.#PLATFORM#Trident\/6.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 9.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 8.#PLATFORM#Trident\/6.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 8.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(*MSIE 7.#PLATFORM#Trident\/6.0*)*",
+          "match": "Mozilla\/*(compatible; MSIE 7.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "Win7_32", "Win7_64", "Win7_x64",
             "Win8_32", "Win8_64", "Win8_x64",

@@ -7,7 +7,6 @@ use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
-use Monolog\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -32,6 +31,7 @@ class BuildCommand extends Command
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::configure()
      */
     protected function configure()
@@ -44,21 +44,25 @@ class BuildCommand extends Command
             ->setDescription('The JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
+        ;
     }
 
     /**
      * (non-PHPdoc)
+     *
      * @see \Symfony\Component\Console\Command\Command::execute()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $resourceFolder = $input->getOption('resources');
-        $buildFolder    = $input->getOption('output');
-        $version        = $input->getArgument('version');
+        $buildFolder = $input->getOption('output');
+        $debug = $input->getOption('debug');
+        $version = $input->getArgument('version');
 
         $loggerHelper = new LoggerHelper();
-        $logger = $loggerHelper->create();
+        $logger = $loggerHelper->create($debug);
 
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
@@ -73,6 +77,6 @@ class BuildCommand extends Command
             ->generateBuilds($version)
         ;
 
-        $logger->log(Logger::INFO, 'Build done.');
+        $logger->info('Build done.');
     }
 }
