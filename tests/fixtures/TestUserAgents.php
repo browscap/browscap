@@ -10,6 +10,15 @@ return [
             'Crawler' => true,
         ],
     ],
+    'issue-121' => [
+        'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com GoogleImageProxy)',
+        [
+            'Browser' => 'Google Image Proxy',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-122' => [
         'Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)',
         [
