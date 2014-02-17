@@ -3,13 +3,13 @@
 namespace BrowscapTest;
 
 use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\CollectionParser;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
-use phpbrowscap\Browscap;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
+use phpbrowscap\Browscap;
 
 /**
  * Class UserAgentsTest
@@ -86,7 +86,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
-                'Actual property did not have "' . $propName . '" property [' . serialize($actualProps) . ']'
+                'Actual property did not have "' . $propName . '" property'
             );
 
             self::assertSame(
