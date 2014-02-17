@@ -85,7 +85,7 @@
             "Device_Maker": "Apple"
           },
           "platforms": [
-              "iOS_C_7_0"
+              "iOS_C_7_0", "iOS_C_7_1"
           ]
         }
       ]

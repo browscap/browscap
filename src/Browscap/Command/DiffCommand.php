@@ -90,10 +90,10 @@ class DiffCommand extends Command
                 ->setCollectionParser($collectionParser)
                 ->createCollection()
                 ->parseCollection()
-                ->setGenerator($iniGenerator->setOptions(true, true, false))
+                ->setGenerator($iniGenerator)
             ;
 
-            file_put_contents($rightFilename, $generatorHelper->create());
+            file_put_contents($rightFilename, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
         $iniParserRight = new IniParser($rightFilename);

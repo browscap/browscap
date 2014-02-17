@@ -117,23 +117,6 @@ abstract class AbstractGenerator implements GeneratorInterface
     }
 
     /**
-     * Set the options for generation
-     *
-     * @param boolean $quoteStringProperties
-     * @param boolean $includeExtraProperties
-     * @param boolean $liteOnly
-     * @return \Browscap\Generator\AbstractGenerator
-     */
-    public function setOptions($quoteStringProperties, $includeExtraProperties, $liteOnly)
-    {
-        $this->quoteStringProperties = (bool)$quoteStringProperties;
-        $this->includeExtraProperties = (bool)$includeExtraProperties;
-        $this->liteOnly = (bool)$liteOnly;
-
-        return $this;
-    }
-
-    /**
      * @param string  $key
      * @param array   $properties
      * @param array[] $allDivisions

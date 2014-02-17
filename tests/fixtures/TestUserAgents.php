@@ -156,7 +156,6 @@ return [
         'Mozilla/5.0 (iPod touch; U; CPU iPhone OS 4_2_1 like Mac OS X; es_ES) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPod2,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/4.2.1;FBSS/1; FBCR/;FBID/phone;FBLC/es_ES;FBSF/1.0]',
         [
             'Browser' => 'Facebook App',
-            'Version' => '3.11',
             'Platform' => 'iOS',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
@@ -272,7 +271,7 @@ return [
     'issue-96-BO' => [
         'Mozilla/5.0 (X11; FreeBSD; U; Viera; pt-BR) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1',
         [
-            'Browser' => 'Viera Browser',
+            'Browser' => 'SmartViera',
             'Version' => '1.5',
             'Platform' => 'FreeBSD',
             'isMobileDevice' => false,

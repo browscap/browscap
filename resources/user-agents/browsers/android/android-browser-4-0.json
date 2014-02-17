@@ -118,10 +118,7 @@
           ]
         },
         {
-          "match": "*#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/* Android *",
-          "properties": {
-            "Device_Name": "MT6515M"
-          },
+          "match": "*#PLATFORM# Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
           "platforms": [
             "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D"
           ]
@@ -131,6 +128,12 @@
           "properties": {
             "Device_Name": "MT6515M"
           },
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D"
+          ]
+        },
+        {
+          "match": "*#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
           "platforms": [
             "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D"
           ]

@@ -1,14 +1,14 @@
 {
-  "division": "Google+ App",
+  "division": "douban App",
   "sortIndex": 2000,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Google+ App",
+      "userAgent": "douban App",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google+ App",
-        "Browser": "Google+ App",
+        "Comment": "douban App",
+        "Browser": "douban App",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,23 +21,20 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
-          },
+          "match": "com.douban.group\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "match": "com.douban.group\/2.2* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
           "properties": {
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         }
       ]

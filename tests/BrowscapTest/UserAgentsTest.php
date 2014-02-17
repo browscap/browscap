@@ -2,10 +2,12 @@
 
 namespace BrowscapTest;
 
-use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
+use Browscap\Helper\LoggerHelper;
 use phpbrowscap\Browscap;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
@@ -39,18 +41,28 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $collectionParser = new CollectionParser();
         $generatorHelper = new Generator();
 
-        $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
-        $buildGenerator
-            ->setLogger($logger)
+        $collectionCreator = new CollectionCreator();
+        $collectionParser = new CollectionParser();
+        $iniGenerator = new BrowscapIniGenerator();
+        
+        $iniFile = $buildFolder . '/full_php_browscap.ini';
+
+        $generatorHelper = new Generator();
+        $generatorHelper
+            ->setVersion('temporary-version')
+            ->setResourceFolder($resourceFolder)
             ->setCollectionCreator($collectionCreator)
             ->setCollectionParser($collectionParser)
-            ->setGeneratorHelper($generatorHelper)
-            ->generateBuilds($buildNumber)
+            ->createCollection()
+            ->parseCollection()
+            ->setGenerator($iniGenerator)
         ;
+
+        file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         $browscap = new Browscap($buildFolder);
-        $browscap->localFile = $buildFolder . '/full_php_browscap.ini';
+        $browscap->localFile = $iniFile;
 
         self::$browscap = $browscap;
     }

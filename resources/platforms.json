@@ -276,7 +276,7 @@
       }
     },
     "iOS_C_6_0": {
-      "match": "*CPU OS 6_0* like Mac OS X*",
+      "match": "*CPU OS 6* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "6.0",
@@ -294,7 +294,7 @@
       }
     },
     "iOS_C_7_0": {
-      "match": "*CPU OS 7_0* like Mac OS X*",
+      "match": "*CPU OS 7* like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "7.0",
@@ -1334,6 +1334,15 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Maker": "Qualcomm"
+      }
+    },
+    "Darwin": {
+      "match": "*Darwin/**",
+      "properties": {
+        "Platform": "Darwin",
+        "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
+        "Win32": "false",
+        "Device_Maker": "Apple"
       }
     }
   }
