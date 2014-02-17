@@ -9,16 +9,6 @@ namespace Browscap\Generator;
  */
 class BrowscapIniGenerator extends AbstractGenerator
 {
-    const OUTPUT_FORMAT_PHP = 'php';
-    const OUTPUT_FORMAT_ASP = 'asp';
-
-    const OUTPUT_SET_LITE   = 'lite';
-    const OUTPUT_SET_NORMAL = 'normal';
-    const OUTPUT_SET_FULL   = 'full';
-
-    private $outputFormat = self::OUTPUT_FORMAT_PHP;
-    private $outputSet    = self::OUTPUT_SET_NORMAL;
-
     /**
      * @var string
      */
@@ -146,7 +136,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                 unset($propertiesToOutput[$property]);
             }
 
-            if (!$this->includeExtraProperties) {
+            if ($this->type !== BuildGenerator::OUTPUT_TYPE_FULL) {
                 // check if only extra properties are in the actual division
                 // skip that division if the extra properties are not in the output
                 $propertiesToCheck = $propertiesToOutput;

@@ -12,6 +12,21 @@ use ZipArchive;
  */
 class BuildGenerator
 {
+    /**@+
+     * @var string
+     */
+    const OUTPUT_FORMAT_PHP = 'php';
+    const OUTPUT_FORMAT_ASP = 'asp';
+    /**@-*/
+
+    /**@+
+     * @var string
+     */
+    const OUTPUT_TYPE_FULL    = 'full';
+    const OUTPUT_TYPE_DEFAULT = 'normal';
+    const OUTPUT_TYPE_LITE    = 'lite';
+    /**@-*/
+
     /**
      * @var string
      */
@@ -49,7 +64,7 @@ class BuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**
@@ -116,40 +131,40 @@ class BuildGenerator
 
         $formats = [
             [
-                'file'   => 'full_asp_browscap.ini',
-                'info'   => 'ASP/FULL',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_FULL,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+                'file' => 'full_asp_browscap.ini',
+                'info' => 'ASP/FULL',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_FULL
             ],
             [
-                'file'   => 'full_php_browscap.ini',
-                'info'   => 'PHP/FULL',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_FULL,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+                'file' => 'full_php_browscap.ini',
+                'info' => 'PHP/FULL',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_FULL
             ],
             [
-                'file'   => 'browscap.ini',
-                'info'   => 'ASP',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_NORMAL,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+                'file' => 'browscap.ini',
+                'info' => 'ASP',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
             ],
             [
-                'file'   => 'php_browscap.ini',
-                'info'   => 'PHP',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_NORMAL,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+                'file' => 'php_browscap.ini',
+                'info' => 'PHP',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
             ],
             [
-                'file'   => 'lite_asp_browscap.ini',
-                'info'   => 'ASP/LITE',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_LITE,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_ASP
+                'file' => 'lite_asp_browscap.ini',
+                'info' => 'ASP/LITE',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_LITE
             ],
             [
-                'file'   => 'lite_php_browscap.ini',
-                'info'   => 'PHP/LITE',
-                'set'    => BrowscapIniGenerator::OUTPUT_SET_LITE,
-                'format' => BrowscapIniGenerator::OUTPUT_FORMAT_PHP
+                'file' => 'lite_php_browscap.ini',
+                'info' => 'PHP/LITE',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_LITE
             ],
         ];
 
