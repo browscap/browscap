@@ -8,7 +8,7 @@ php:
 
 before_script:
   - composer self-update
-  - composer install
+  - composer install --dev --prefer-source
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose

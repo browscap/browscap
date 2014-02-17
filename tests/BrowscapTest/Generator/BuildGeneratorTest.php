@@ -3,6 +3,8 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BuildGenerator;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class BuildGeneratorTest
@@ -16,8 +18,14 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     private $messages = array();
 
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
     public function setUp()
     {
+        $this->logger   = new Logger('browscapTest', array(new NullHandler()));
         $this->messages = array();
     }
 
@@ -92,12 +100,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        $mockLogger = $this->getMock('\\Monolog\\Logger', array('log'), array(), '', false);
-        $mockLogger->expects($this->any())
-            ->method('log')
-            ->will(self::returnCallback(array($this, 'mockLog')))
-        ;
-
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
         $mockCollection->expects($this->any())
             ->method('getGenerationDate')
@@ -120,10 +122,22 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('This is a test'))
         ;
 
-        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array(), array(), '', false);
+        $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array('parse', 'setLogger', 'getLogger'), array(), '', false);
+        $mockParser->expects($this->any())
+            ->method('parse')
+            ->will(self::returnValue(array()))
+        ;
+        $mockParser->expects($this->any())
+            ->method('setLogger')
+            ->will(self::returnSelf())
+        ;
+        $mockParser->expects($this->any())
+            ->method('getLogger')
+            ->will(self::returnValue($this->logger))
+        ;
 
         $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($mockLogger));
+        self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
         self::assertSame($generator, $generator->setGeneratorHelper($mockGenerator));

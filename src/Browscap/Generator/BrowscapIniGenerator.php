@@ -29,6 +29,7 @@ class BrowscapIniGenerator extends AbstractGenerator
      */
     public function generate($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
+        $this->logger->debug('build output for ini file');
         $this->format = $format;
         $this->type   = $type;
 
@@ -38,10 +39,9 @@ class BrowscapIniGenerator extends AbstractGenerator
             $defaultPropertiyData = array();
         }
 
-
         return $this->render(
             $this->collectionData,
-            $this->renderHeader(),
+            $this->renderHeader() . $this->renderVersion(),
             array_keys(array('Parent' => '') + $defaultPropertiyData)
         );
     }
@@ -53,6 +53,7 @@ class BrowscapIniGenerator extends AbstractGenerator
      */
     private function renderHeader()
     {
+        $this->logger->debug('rendering comments');
         $header = '';
 
         foreach ($this->getComments() as $comment) {
@@ -60,8 +61,6 @@ class BrowscapIniGenerator extends AbstractGenerator
         }
 
         $header .= PHP_EOL;
-
-        $header .= $this->renderVersion();
 
         return $header;
     }
@@ -77,14 +76,19 @@ class BrowscapIniGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
+        $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
+            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
                 continue;
             }
 
             if (BuildGenerator::OUTPUT_TYPE_LITE === $this->type
                 && (!isset($properties['lite']) || !$properties['lite'])
             ) {
+                $this->logger->debug('key "' . $key . '" is not enabled for lite mode -> skipped');
                 continue;
             }
 
@@ -102,6 +106,9 @@ class BrowscapIniGenerator extends AbstractGenerator
 
             foreach ($propertiesToOutput as $property => $value) {
                 if (!isset($parent[$property])) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not available on parent element -> not skipped'
+                    // );
                     continue;
                 }
 
@@ -120,6 +127,9 @@ class BrowscapIniGenerator extends AbstractGenerator
                 }
 
                 if ($parentProperty != $value) {
+                    // $this->logger->debug(
+                        // 'value for property "' . $property . '" did not change -> not skipped'
+                    // );
                     continue;
                 }
 
@@ -139,14 +149,23 @@ class BrowscapIniGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!isset($propertiesToOutput[$property])) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not available for output -> skipped'
+                    // );
                     continue;
                 }
 
                 if (!CollectionParser::isOutputProperty($property)) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
+                    // );
                     continue;
                 }
 
                 if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && CollectionParser::isExtraProperty($property)) {
+                    $this->logger->debug(
+                        'property "' . $property . '" is defined to be in the full output -> skipped'
+                    );
                     continue;
                 }
 
@@ -189,6 +208,7 @@ class BrowscapIniGenerator extends AbstractGenerator
      */
     private function renderVersion()
     {
+        $this->logger->debug('rendering version information');
         $header = $this->renderDivisionHeader('Browscap Version');
 
         $header .= '[GJK_Browscap_Version]' . PHP_EOL;

@@ -3,6 +3,8 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\DataCollection;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class DataCollectionTest
@@ -11,6 +13,16 @@ use Browscap\Generator\DataCollection;
  */
 class DataCollectionTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+    }
+
     public function getPlatformsJsonFixture()
     {
         return __DIR__ . '/../../fixtures/platforms/platforms.json';
@@ -128,8 +140,8 @@ HERE;
         $data = new DataCollection('1234');
 
         $files = $this->getUserAgentFixtures();
-        foreach ($files as $file)
-        {
+
+        foreach ($files as $file) {
             $data->addSourceFile($file);
         }
 
