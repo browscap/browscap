@@ -202,7 +202,7 @@ class CollectionParser
         }
 
         if (isset($uaData['platforms']) && is_array($uaData['platforms'])) {
-            $output += $this->parsePlatforms($uaData, $majorVer, $minorVer, $uaData['userAgent']);
+            $output += $this->parsePlatforms($uaData, $majorVer, $minorVer, $uaData['userAgent'], $uaData['userAgent']);
         }
 
         return $output;
@@ -215,10 +215,11 @@ class CollectionParser
      * @param string $majorVer
      * @param string $minorVer
      * @param string $ua
+     * @param string $match
      *
      * @return array
      */
-    private function parsePlatforms(array $uaData, $majorVer, $minorVer, $ua)
+    private function parsePlatforms(array $uaData, $majorVer, $minorVer, $ua, $match)
     {
         $output = array();
 
@@ -226,7 +227,7 @@ class CollectionParser
             $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
             $platformData = $this->getDataCollection()->getPlatform($platform);
-            $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaData['userAgent']);
+            $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $match);
 
             if (isset($uaData['properties'])
                 && is_array($uaData['properties'])
@@ -263,7 +264,7 @@ class CollectionParser
         // @todo This needs work here. What if we specify platforms AND versions?
         // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
-            $output = $this->parsePlatforms($uaDataChild, $majorVer, $minorVer, $ua);
+            $output = $this->parsePlatforms($uaDataChild, $majorVer, $minorVer, $ua, $uaDataChild['match']);
         } else {
             $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
