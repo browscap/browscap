@@ -5,7 +5,7 @@
     {
       "userAgent": "Feeds Blogs",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Feeds Blogs",
         "Browser": "Feeds Blogs",
         "isSyndicationReader": "true",

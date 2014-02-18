@@ -5,7 +5,7 @@
     {
       "userAgent": "Rippers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Rippers",
         "Browser": "Ripper",
         "Crawler": "true"

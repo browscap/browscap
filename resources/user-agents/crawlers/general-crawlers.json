@@ -1,20 +1,20 @@
 {
-  "division": "General Crawlers",
+  "division": "DefaultProperties",
   "sortIndex": 240,
   "userAgents": [
     {
-      "userAgent": "General Crawlers",
+      "userAgent": "DefaultProperties",
       "properties": {
-        "Parent": "General Crawlers",
-        "Comment": "General Crawlers",
-        "Browser": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "DefaultProperties",
+        "Browser": "DefaultProperties",
         "Crawler": "true"
       }
     },
     {
       "userAgent": "*altervista.org*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "altervista.org",
         "Browser_Name": "altervista.org",
         "Browser_FullName": "altervista.org"
@@ -23,14 +23,14 @@
     {
       "userAgent": "*naver*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NaverBot"
       }
     },
     {
       "userAgent": "*Spinn3r*http:\/\/spinn3r.com\/robot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Spinn3r",
         "Browser_Name": "Spinn3r",
         "Browser_FullName": "Spinn3r"
@@ -39,7 +39,7 @@
     {
       "userAgent": "*SqwidgeBot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SqwidgeBot",
         "Browser_Name": "SqwidgeBot",
         "Browser_FullName": "SqwidgeBot"
@@ -48,7 +48,7 @@
     {
       "userAgent": "A .NET Web Crawler",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "A .NET Web Crawler",
         "Browser_Name": "A .NET Web Crawler",
         "Browser_FullName": "A .NET Web Crawler"
@@ -57,7 +57,7 @@
     {
       "userAgent": "BabalooSpider\/1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "BabalooSpider",
         "Browser_Name": "BabalooSpider",
         "Browser_FullName": "BabalooSpider",
@@ -69,7 +69,7 @@
     {
       "userAgent": "BilgiBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "BilgiBot",
         "Browser_Name": "BilgiBot",
         "Browser_FullName": "BilgiBot"
@@ -78,7 +78,7 @@
     {
       "userAgent": "bot\/* (bot; *bot@bot.bot)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "bot",
         "Browser_Name": "bot",
         "Browser_FullName": "bot"
@@ -87,7 +87,7 @@
     {
       "userAgent": "cisco-IOS",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "cisco-IOS",
         "Browser_Name": "cisco-IOS",
         "Browser_FullName": "cisco-IOS"
@@ -96,7 +96,7 @@
     {
       "userAgent": "Covario-IDS\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Covario-IDS",
         "Browser_Name": "Covario-IDS",
         "Browser_FullName": "Covario-IDS"
@@ -105,7 +105,7 @@
     {
       "userAgent": "CyberPatrol*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "CyberPatrol",
         "Browser_Name": "CyberPatrol",
         "Browser_FullName": "CyberPatrol"
@@ -114,7 +114,7 @@
     {
       "userAgent": "Cynthia 1.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Cynthia",
         "Version": "1.0",
         "MajorVer": "1",
@@ -124,7 +124,7 @@
     {
       "userAgent": "cz32ts",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "cz32ts",
         "Browser_Name": "cz32ts",
         "Browser_FullName": "cz32ts"
@@ -133,7 +133,7 @@
     {
       "userAgent": "ddetailsbot (http:\/\/www.displaydetails.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ddetailsbot",
         "Browser_Name": "ddetailsbot",
         "Browser_FullName": "ddetailsbot"
@@ -142,21 +142,21 @@
     {
       "userAgent": "DomainCrawler\/1.0 (info@domaincrawler.com; http:\/\/www.domaincrawler.com\/domains\/view\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "DomainCrawler"
       }
     },
     {
       "userAgent": "DomainsBotBot\/1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "DomainsBotBot"
       }
     },
     {
       "userAgent": "DomainsDB.net MetaCrawler*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "DomainsDB",
         "Browser_Name": "DomainsDB",
         "Browser_FullName": "DomainsDB"
@@ -165,7 +165,7 @@
     {
       "userAgent": "DomainWatcher Bot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "DomainWatcher Bot",
         "Browser_Name": "DomainWatcher Bot",
         "Browser_FullName": "DomainWatcher Bot"
@@ -174,14 +174,14 @@
     {
       "userAgent": "Drupal (*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Drupal"
       }
     },
     {
       "userAgent": "Dumbot (version *)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Dumbfind",
         "Browser_Name": "Dumbfind",
         "Browser_FullName": "Dumbfind"
@@ -190,14 +190,14 @@
     {
       "userAgent": "EuripBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Europe Internet Portal"
       }
     },
     {
       "userAgent": "eventax\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "eventax",
         "Browser_Name": "eventax",
         "Browser_FullName": "eventax"
@@ -206,7 +206,7 @@
     {
       "userAgent": "FANGCrawl\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Safe-t.net Web Filtering Service",
         "Browser_Name": "Safe-t.net Web Filtering Service",
         "Browser_FullName": "Safe-t.net Web Filtering Service"
@@ -215,7 +215,7 @@
     {
       "userAgent": "favorstarbot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "favorstarbot",
         "Browser_Name": "favorstarbot",
         "Browser_FullName": "favorstarbot"
@@ -224,7 +224,7 @@
     {
       "userAgent": "FollowSite.com (*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "FollowSite",
         "Browser_Name": "FollowSite",
         "Browser_FullName": "FollowSite"
@@ -233,7 +233,7 @@
     {
       "userAgent": "Gaisbot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Gaisbot",
         "Browser_Name": "Gaisbot",
         "Browser_FullName": "Gaisbot"
@@ -242,7 +242,7 @@
     {
       "userAgent": "gosospider Mozilla\/5.0 (compatible; GosoSpider*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "GosoSpider",
         "Browser_Name": "GosoSpider",
         "Browser_FullName": "GosoSpider"
@@ -251,7 +251,7 @@
     {
       "userAgent": "Healthbot\/Health_and_Longevity_Project_(HealthHaven.com) ",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Healthbot",
         "Browser_Name": "Healthbot",
         "Browser_FullName": "Healthbot"
@@ -260,7 +260,7 @@
     {
       "userAgent": "hitcrawler_0.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "hitcrawler",
         "Browser_Name": "hitcrawler",
         "Browser_FullName": "hitcrawler"
@@ -269,7 +269,7 @@
     {
       "userAgent": "htdig\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ht:\/\/Dig",
         "Browser_Name": "ht:\/\/Dig",
         "Browser_FullName": "ht:\/\/Dig"
@@ -278,7 +278,7 @@
     {
       "userAgent": "http:\/\/hilfe.acont.de\/bot.html ACONTBOT",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ACONTBOT",
         "Browser_Name": "ACONTBOT",
         "Browser_FullName": "ACONTBOT"
@@ -287,7 +287,7 @@
     {
       "userAgent": "http:\/\/www.yellowpages.com*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Yellow Pages",
         "Browser_Name": "Yellow Pages",
         "Browser_FullName": "Yellow Pages"
@@ -296,7 +296,7 @@
     {
       "userAgent": "HuaweiSymantecSpider\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "HuaweiSymantecSpider",
         "Browser_Name": "HuaweiSymantecSpider",
         "Browser_FullName": "HuaweiSymantecSpider"
@@ -305,7 +305,7 @@
     {
       "userAgent": "JetBrains*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Omea Pro",
         "Browser_Name": "Omea Pro",
         "Browser_FullName": "Omea Pro"
@@ -314,7 +314,7 @@
     {
       "userAgent": "JS-Kit URL Resolver, http:\/\/js-kit.com\/",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "JS-Kit\/Echo",
         "Browser_Name": "JS-Kit\/Echo",
         "Browser_FullName": "JS-Kit\/Echo"
@@ -323,7 +323,7 @@
     {
       "userAgent": "KakleBot - www.kakle.com\/0.1",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "KakleBot",
         "Browser_Name": "KakleBot",
         "Browser_FullName": "KakleBot"
@@ -332,7 +332,7 @@
     {
       "userAgent": "KBeeBot\/0.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "KBeeBot",
         "Browser_Name": "KBeeBot",
         "Browser_FullName": "KBeeBot"
@@ -341,7 +341,7 @@
     {
       "userAgent": "Keyword Density\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Keyword Density",
         "Browser_Name": "Keyword Density",
         "Browser_FullName": "Keyword Density"
@@ -350,14 +350,14 @@
     {
       "userAgent": "LetsCrawl.com\/1.0*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "LetsCrawl.com"
       }
     },
     {
       "userAgent": "Lincoln State Web Browser",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Lincoln State Web Browser",
         "Browser_Name": "Lincoln State Web Browser",
         "Browser_FullName": "Lincoln State Web Browser"
@@ -366,14 +366,14 @@
     {
       "userAgent": "LinkedInBot\/1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "LinkedInBot"
       }
     },
     {
       "userAgent": "Links4US-Crawler,*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Links4US-Crawler",
         "Browser_Name": "Links4US-Crawler",
         "Browser_FullName": "Links4US-Crawler"
@@ -382,7 +382,7 @@
     {
       "userAgent": "Lorkyll *.* -- lorkyll@444.net",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Lorkyll",
         "Browser_Name": "Lorkyll",
         "Browser_FullName": "Lorkyll"
@@ -391,7 +391,7 @@
     {
       "userAgent": "Lsearch\/sondeur",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Lsearch\/sondeur",
         "Browser_Name": "Lsearch\/sondeur",
         "Browser_FullName": "Lsearch\/sondeur"
@@ -400,49 +400,49 @@
     {
       "userAgent": "LucidMedia ClickSense\/4.?",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "LucidMedia-ClickSense"
       }
     },
     {
       "userAgent": "ZmEu",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ZmEu"
       }
     },
     {
       "userAgent": "Made by ZmEu @ WhiteHat v0.* (www.WhiteHat.ro)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ZmEu"
       }
     },
     {
       "userAgent": "Made by ZmEu @ WhiteHat*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ZmEu"
       }
     },
     {
       "userAgent": "magpie-crawler\/1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "magpie-crawler"
       }
     },
     {
       "userAgent": "Mahalobot\/1.0 (?http:\/\/www.mahalo.com\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Mahalobot"
       }
     },
     {
       "userAgent": "MapoftheInternet.com?(?http:\/\/MapoftheInternet.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "MapoftheInternet",
         "Browser_Name": "MapoftheInternet",
         "Browser_FullName": "MapoftheInternet"
@@ -451,7 +451,7 @@
     {
       "userAgent": "Marvin v0.3",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "MedHunt",
         "Version": "0.3",
         "MajorVer": "0",
@@ -461,14 +461,14 @@
     {
       "userAgent": "masidani_bot_v0.6*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "masidani_bot"
       }
     },
     {
       "userAgent": "Metaspinner\/0.01 (Metaspinner; http:\/\/www.meta-spinner.de\/; support@meta-spinner.de\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Metaspinner",
         "Browser_Name": "Metaspinner",
         "Browser_FullName": "Metaspinner 0.01",
@@ -480,7 +480,7 @@
     {
       "userAgent": "metatagsdir\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "metatagsdir",
         "Browser_Name": "metatagsdir",
         "Browser_FullName": "metatagsdir"
@@ -489,7 +489,7 @@
     {
       "userAgent": "Microsoft Windows Network Diagnostics",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Microsoft Windows Network Diagnostics",
         "Browser_Name": "Microsoft Windows Network Diagnostics",
         "Browser_FullName": "Microsoft Windows Network Diagnostics",
@@ -500,7 +500,7 @@
     {
       "userAgent": "Miva (AlgoFeedback@miva.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Miva",
         "Browser_Name": "Miva",
         "Browser_FullName": "Miva"
@@ -509,7 +509,7 @@
     {
       "userAgent": "moget\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Goo",
         "Browser_Name": "Goo",
         "Browser_FullName": "Goo"
@@ -518,14 +518,14 @@
     {
       "userAgent": "Mozdex\/0.7*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Mozdex"
       }
     },
     {
       "userAgent": "Mozilla\/* (compatible; WebCapture*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WebCapture",
         "Browser_Name": "WebCapture",
         "Browser_FullName": "WebCapture"
@@ -534,7 +534,7 @@
     {
       "userAgent": "Mozilla\/*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Reddit",
         "Browser_Name": "Reddit",
         "Browser_FullName": "Reddit"
@@ -543,7 +543,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; DepSpid\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "DepSpid",
         "Browser_Name": "DepSpid",
         "Browser_FullName": "DepSpid"
@@ -552,7 +552,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; MSIE 4.01; Vonna.com b o t)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Vonna.com",
         "Browser_Name": "Vonna.com",
         "Browser_FullName": "Vonna.com"
@@ -561,7 +561,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; MSIE 4.01; Windows95)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Generic Crawler",
         "Win32": "true"
       }
@@ -569,7 +569,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; MyFamilyBot\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "MyFamilyBot",
         "Browser_Name": "MyFamilyBot",
         "Browser_FullName": "MyFamilyBot"
@@ -578,7 +578,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; N-Stealth)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "N-Stealth",
         "Browser_Name": "N-Stealth",
         "Browser_FullName": "N-Stealth"
@@ -587,7 +587,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; Scumbot\/*; Linux\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Scumbot",
         "Browser_Name": "Scumbot",
         "Browser_FullName": "Scumbot"
@@ -596,7 +596,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; Spider; Linux)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Generic Crawler",
         "Browser_Name": "Generic Crawler",
         "Browser_FullName": "Generic Crawler"
@@ -605,7 +605,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible; Win32)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Unknown Crawler",
         "Browser_Name": "Unknown Crawler",
         "Browser_FullName": "Unknown Crawler",
@@ -616,21 +616,21 @@
     {
       "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Gnomit"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "iCjobs Crawler"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Adobe Dialog Manager",
         "Browser_Name": "Adobe Dialog Manager",
         "Browser_FullName": "Adobe Dialog Manager",
@@ -650,7 +650,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SEOprofiler",
         "Browser_Name": "SEOprofiler",
         "Browser_FullName": "SEOprofiler"
@@ -659,7 +659,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; AboutUsBot\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "AboutUsBot",
         "Browser_Name": "AboutUsBot",
         "Browser_FullName": "AboutUsBot"
@@ -668,7 +668,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; AdHitz; http:\/\/adhitz.com\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "AdHitz",
         "Browser_Name": "AdHitz",
         "Browser_FullName": "AdHitz"
@@ -677,7 +677,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; aiHitBot*\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "aiHitBot",
         "Browser_Name": "aiHitBot",
         "Browser_FullName": "aiHitBot"
@@ -686,7 +686,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; BuzzRankingBot\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "BuzzRankingBot",
         "Browser_Name": "BuzzRankingBot",
         "Browser_FullName": "BuzzRankingBot"
@@ -695,7 +695,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; ClixSense; http:\/\/www.clixsense.com\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ClixSense",
         "Browser_Name": "ClixSense",
         "Browser_FullName": "ClixSense"
@@ -704,14 +704,14 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Crawly"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; Diffbot\/0.1; +http:\/\/www.diffbot.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Diffbot",
         "Browser_Name": "Diffbot",
         "Browser_FullName": "Diffbot 0.1",
@@ -723,7 +723,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; *)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Ezooms",
         "Version": "1.0",
         "MajorVer": "1",
@@ -733,14 +733,14 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "FirstSearchBot"
       }
     },
     {
       "userAgent": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Healthdash",
         "Browser_Name": "Healthdash",
         "Browser_FullName": "Healthdash"
@@ -749,7 +749,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; JadynAveBot; *http:\/\/www.jadynave.com\/robot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "JadynAveBot",
         "Browser_Name": "JadynAveBot",
         "Browser_FullName": "JadynAveBot"
@@ -758,7 +758,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Kyluka crawl; http:\/\/www.kyluka.com\/crawl.html; crawl@kyluka.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Kyluka",
         "Browser_Name": "Kyluka",
         "Browser_FullName": "Kyluka"
@@ -767,7 +767,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; LegalAnalysisAgent\/1.*; http:\/\/www.legalx.net)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "LegalAnalysisAgent",
         "Browser_Name": "LegalAnalysisAgent",
         "Browser_FullName": "LegalAnalysisAgent"
@@ -776,14 +776,14 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; MJ12bot\/v1.*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "MJ12bot"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; MSIE 7.0 ?http:\/\/www.europarchive.org)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Europe Web Archive",
         "Browser_Name": "Europe Web Archive",
         "Browser_FullName": "Europe Web Archive"
@@ -792,7 +792,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; MSIE 7.0; MSIE 6.0; ScanAlert; +http:\/\/www.scanalert.com\/bot.jsp) Firefox\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "McAffee Scan Alert",
         "Browser_Name": "McAffee Scan Alert",
         "Browser_FullName": "McAffee Scan Alert"
@@ -801,14 +801,14 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Nigma.ru\/*; crawler@nigma.ru)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Nigma.ru"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; Plukkie\/1.?; http:\/\/www.botje.com\/plukkie.htm)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Plukkie",
         "Browser_Name": "Plukkie",
         "Browser_FullName": "Plukkie"
@@ -817,7 +817,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; SEODat\/0.* http:\/\/crawler.seodat.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SEODat",
         "Browser_Name": "SEODat",
         "Browser_FullName": "SEODat"
@@ -826,14 +826,14 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.*;*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Seznam screenshot-generator"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; SuchbaerBot\/0.*; +http:\/\/bot.suchbaer.de\/info.html)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SuchbaerBot",
         "Browser_Name": "SuchbaerBot",
         "Browser_FullName": "SuchbaerBot"
@@ -842,7 +842,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0; +http:\/\/tweetedtimes.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "TweetedTimes Bot",
         "Version": "1.0",
         "MajorVer": "1",
@@ -852,7 +852,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Twingly Recon; http:\/\/www.twingly.com\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Twingly Recon",
         "Browser_Name": "Twingly Recon",
         "Browser_FullName": "Twingly Recon"
@@ -861,7 +861,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; unwrapbot\/2.*; +http:\/\/www.unwrap.jp*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "UnWrap",
         "Browser_Name": "UnWrap",
         "Browser_FullName": "UnWrap"
@@ -870,7 +870,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Vermut*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Vermut",
         "Browser_Name": "Vermut",
         "Browser_FullName": "Vermut"
@@ -879,7 +879,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Viralheat Bot\/*) ",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Viralheat",
         "Browser_Name": "Viralheat",
         "Browser_FullName": "Viralheat"
@@ -888,7 +888,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; Webbot\/*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Webbot.ru",
         "Browser_Name": "Webbot.ru",
         "Browser_FullName": "Webbot.ru"
@@ -897,7 +897,7 @@
     {
       "userAgent": "n4p_bot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "n4p_bot",
         "Browser_Name": "n4p_bot",
         "Browser_FullName": "n4p_bot"
@@ -906,7 +906,7 @@
     {
       "userAgent": "nabot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Nabot",
         "Browser_Name": "Nabot",
         "Browser_FullName": "Nabot"
@@ -915,7 +915,7 @@
     {
       "userAgent": "NetCarta_WebMapper\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NetCarta_WebMapper",
         "Browser_Name": "NetCarta_WebMapper",
         "Browser_FullName": "NetCarta_WebMapper"
@@ -924,7 +924,7 @@
     {
       "userAgent": "Netchart Adv Crawler*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Netchart Adv Crawler",
         "Browser_Name": "Netchart Adv Crawler",
         "Browser_FullName": "Netchart Adv Crawler"
@@ -933,7 +933,7 @@
     {
       "userAgent": "NetID.com Bot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NetID.com Bot",
         "Browser_Name": "NetID.com Bot",
         "Browser_FullName": "NetID.com Bot"
@@ -942,7 +942,7 @@
     {
       "userAgent": "neTVision AG andreas.heidoetting@thomson-webcast.net",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "neTVision",
         "Browser_Name": "neTVision",
         "Browser_FullName": "neTVision"
@@ -951,7 +951,7 @@
     {
       "userAgent": "NextopiaBOT*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NextopiaBOT",
         "Browser_Name": "NextopiaBOT",
         "Browser_FullName": "NextopiaBOT"
@@ -960,7 +960,7 @@
     {
       "userAgent": "nicebot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "nicebot",
         "Browser_Name": "nicebot",
         "Browser_FullName": "nicebot"
@@ -969,7 +969,7 @@
     {
       "userAgent": "niXXieBot?Foster*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "niXXiebot-Foster",
         "Browser_Name": "niXXiebot-Foster",
         "Browser_FullName": "niXXiebot-Foster"
@@ -978,7 +978,7 @@
     {
       "userAgent": "Nozilla\/P.N (Just for IDS woring)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Nozilla\/P.N",
         "Browser_Name": "Nozilla\/P.N",
         "Browser_FullName": "Nozilla\/P.N"
@@ -987,7 +987,7 @@
     {
       "userAgent": "NSO_Debugger_User\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NSO_Debugger_User",
         "Browser_Name": "NSO_Debugger_User",
         "Browser_FullName": "NSO_Debugger_User"
@@ -996,7 +996,7 @@
     {
       "userAgent": "NSO_Debugger_User\/2.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NSO_Debugger_User",
         "Browser_Name": "NSO_Debugger_User",
         "Browser_FullName": "NSO_Debugger_User 2.0",
@@ -1008,7 +1008,7 @@
     {
       "userAgent": "Nudelsalat\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Nudelsalat",
         "Browser_Name": "Nudelsalat",
         "Browser_FullName": "Nudelsalat"
@@ -1017,7 +1017,7 @@
     {
       "userAgent": "NV32ts",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "NV32ts",
         "Browser_Name": "NV32ts",
         "Browser_FullName": "NV32ts"
@@ -1026,7 +1026,7 @@
     {
       "userAgent": "Ocelli\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Ocelli",
         "Browser_Name": "Ocelli",
         "Browser_FullName": "Ocelli"
@@ -1035,7 +1035,7 @@
     {
       "userAgent": "OpenTaggerBot (http:\/\/www.opentagger.com\/opentaggerbot.htm)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "OpenTaggerBot",
         "Browser_Name": "OpenTaggerBot",
         "Browser_FullName": "OpenTaggerBot"
@@ -1044,7 +1044,7 @@
     {
       "userAgent": "Oracle Enterprise Search",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Oracle Enterprise Search",
         "Browser_Name": "Oracle Enterprise Search",
         "Browser_FullName": "Oracle Enterprise Search"
@@ -1053,7 +1053,7 @@
     {
       "userAgent": "Oracle Ultra Search",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Oracle Ultra Search",
         "Browser_Name": "Oracle Ultra Search",
         "Browser_FullName": "Oracle Ultra Search"
@@ -1062,7 +1062,7 @@
     {
       "userAgent": "Pajaczek\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Pajaczek",
         "Browser_Name": "Pajaczek",
         "Browser_FullName": "Pajaczek"
@@ -1071,7 +1071,7 @@
     {
       "userAgent": "panscient.com",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "panscient.com",
         "Browser_Name": "panscient.com",
         "Browser_FullName": "panscient.com"
@@ -1080,7 +1080,7 @@
     {
       "userAgent": "Patwebbot (http:\/\/www.herz-power.de\/technik.html)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Patwebbot",
         "Browser_Name": "Patwebbot",
         "Browser_FullName": "Patwebbot"
@@ -1089,7 +1089,7 @@
     {
       "userAgent": "PDFBot (crawler@pdfind.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "PDFBot",
         "Browser_Name": "PDFBot",
         "Browser_FullName": "PDFBot"
@@ -1098,21 +1098,21 @@
     {
       "userAgent": "Pete-Spider\/1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Pete-Spider"
       }
     },
     {
       "userAgent": "PhpDig\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "PhpDig"
       }
     },
     {
       "userAgent": "PlantyNet_WebRobot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "PlantyNet",
         "Browser_Name": "PlantyNet",
         "Browser_FullName": "PlantyNet"
@@ -1121,7 +1121,7 @@
     {
       "userAgent": "PluckItCrawler\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "PluckItCrawler",
         "Browser_Name": "PluckItCrawler",
         "Browser_FullName": "PluckItCrawler",
@@ -1131,7 +1131,7 @@
     {
       "userAgent": "PMAFind",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "PMAFind",
         "Browser_Name": "PMAFind",
         "Browser_FullName": "PMAFind"
@@ -1140,7 +1140,7 @@
     {
       "userAgent": "Poodle_predictor_1.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Poodle Predictor",
         "Browser_Name": "Poodle Predictor",
         "Browser_FullName": "Poodle Predictor"
@@ -1149,7 +1149,7 @@
     {
       "userAgent": "QuickFinder Crawler",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "QuickFinder",
         "Browser_Name": "QuickFinder",
         "Browser_FullName": "QuickFinder"
@@ -1158,7 +1158,7 @@
     {
       "userAgent": "Radiation Retriever*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Radiation Retriever",
         "Browser_Name": "Radiation Retriever",
         "Browser_FullName": "Radiation Retriever"
@@ -1167,7 +1167,7 @@
     {
       "userAgent": "RedCarpet\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "RedCarpet",
         "Browser_Name": "RedCarpet",
         "Browser_FullName": "RedCarpet"
@@ -1176,7 +1176,7 @@
     {
       "userAgent": "RixBot (http:\/\/babelserver.org\/rix)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "RixBot",
         "Browser_Name": "RixBot",
         "Browser_FullName": "RixBot"
@@ -1185,7 +1185,7 @@
     {
       "userAgent": "roboobot\/1.* (roboo; http:\/\/wap.roboo.com; winter.pi@roboo.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "roboo",
         "Browser_Name": "roboo",
         "Browser_FullName": "roboo"
@@ -1194,14 +1194,14 @@
     {
       "userAgent": "rogerbot\/* (http:\/\/www.seomoz.org, rogerbot-crawler@seomoz.org)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "rogerbot"
       }
     },
     {
       "userAgent": "Rome Client (http:\/\/tinyurl.com\/64t5n) Ver: 0.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "TinyURL",
         "Browser_Name": "TinyURL",
         "Browser_FullName": "TinyURL"
@@ -1210,7 +1210,7 @@
     {
       "userAgent": "SBIder\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SiteSell",
         "Browser_Name": "SiteSell",
         "Browser_FullName": "SiteSell"
@@ -1219,7 +1219,7 @@
     {
       "userAgent": "ScollSpider\/2.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ScollSpider",
         "Browser_Name": "ScollSpider",
         "Browser_FullName": "ScollSpider"
@@ -1228,7 +1228,7 @@
     {
       "userAgent": "Search Fst",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Search Fst",
         "Browser_Name": "Search Fst",
         "Browser_FullName": "Search Fst"
@@ -1237,7 +1237,7 @@
     {
       "userAgent": "searchbot admin@google.com",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "searchbot",
         "Browser_Name": "searchbot",
         "Browser_FullName": "searchbot"
@@ -1246,7 +1246,7 @@
     {
       "userAgent": "Seeker.lookseek.com",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "LookSeek",
         "Browser_Name": "LookSeek",
         "Browser_FullName": "LookSeek"
@@ -1255,7 +1255,7 @@
     {
       "userAgent": "semanticdiscovery\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Semantic Discovery",
         "Browser_Name": "Semantic Discovery",
         "Browser_FullName": "Semantic Discovery"
@@ -1264,14 +1264,14 @@
     {
       "userAgent": "SeznamBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SeznamBot"
       }
     },
     {
       "userAgent": "Shelob (shelob@gmx.net)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Shelob",
         "Browser_Name": "Shelob",
         "Browser_FullName": "Shelob"
@@ -1280,7 +1280,7 @@
     {
       "userAgent": "shelob v1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "shelob",
         "Browser_Name": "shelob",
         "Browser_FullName": "shelob 1.0",
@@ -1292,7 +1292,7 @@
     {
       "userAgent": "ShopWiki\/1.0*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ShopWiki",
         "Browser_Name": "ShopWiki",
         "Browser_FullName": "ShopWiki 1.0",
@@ -1304,7 +1304,7 @@
     {
       "userAgent": "ShowXML\/1.0 libwww\/5.4.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ShowXML",
         "Browser_Name": "ShowXML",
         "Browser_FullName": "ShowXML 1.0",
@@ -1316,7 +1316,7 @@
     {
       "userAgent": "sitecheck.internetseer.com*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Internetseer",
         "Browser_Name": "Internetseer",
         "Browser_FullName": "Internetseer"
@@ -1325,7 +1325,7 @@
     {
       "userAgent": "SMBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SMBot",
         "Browser_Name": "SMBot",
         "Browser_FullName": "SMBot"
@@ -1334,7 +1334,7 @@
     {
       "userAgent": "sohu*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "sohu-search",
         "Browser_Name": "sohu-search",
         "Browser_FullName": "sohu-search"
@@ -1343,7 +1343,7 @@
     {
       "userAgent": "SpankBot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SpankBot",
         "Browser_Name": "SpankBot",
         "Browser_FullName": "SpankBot"
@@ -1352,7 +1352,7 @@
     {
       "userAgent": "spider (tspyyp@tom.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "spider (tspyyp@tom.com)",
         "Browser_Name": "spider (tspyyp@tom.com)",
         "Browser_FullName": "spider (tspyyp@tom.com)"
@@ -1361,7 +1361,7 @@
     {
       "userAgent": "Sunrise\/0.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Sunrise",
         "Browser_Name": "Sunrise",
         "Browser_FullName": "Sunrise"
@@ -1370,7 +1370,7 @@
     {
       "userAgent": "Superpages URL Verification Engine",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Superpages",
         "Browser_Name": "Superpages",
         "Browser_FullName": "Superpages"
@@ -1379,7 +1379,7 @@
     {
       "userAgent": "Surf Knight",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Surf Knight",
         "Browser_Name": "Surf Knight",
         "Browser_FullName": "Surf Knight"
@@ -1388,7 +1388,7 @@
     {
       "userAgent": "SurveyBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SurveyBot",
         "Browser_Name": "SurveyBot",
         "Browser_FullName": "SurveyBot"
@@ -1397,7 +1397,7 @@
     {
       "userAgent": "SynapticSearch\/AI Crawler 1.?",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SynapticSearch",
         "Browser_Name": "SynapticSearch",
         "Browser_FullName": "SynapticSearch 1.0",
@@ -1409,7 +1409,7 @@
     {
       "userAgent": "SyncMgr",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SyncMgr",
         "Browser_Name": "SyncMgr",
         "Browser_FullName": "SyncMgr"
@@ -1418,7 +1418,7 @@
     {
       "userAgent": "Tagyu Agent\/1.0",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Tagyu",
         "Browser_Name": "Tagyu",
         "Browser_FullName": "Tagyu 1.0",
@@ -1430,7 +1430,7 @@
     {
       "userAgent": "Talkro Web-Shot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Talkro Web-Shot",
         "Browser_Name": "Talkro Web-Shot",
         "Browser_FullName": "Talkro Web-Shot"
@@ -1439,7 +1439,7 @@
     {
       "userAgent": "Tasap-image-robot\/0.* (http:\/\/www.tasap.com)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Tasap-image-robot",
         "Browser_Name": "Tasap-image-robot",
         "Browser_FullName": "Tasap-image-robot"
@@ -1448,7 +1448,7 @@
     {
       "userAgent": "Tecomi Bot (http:\/\/www.tecomi.com\/bot.htm)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Tecomi",
         "Browser_Name": "Tecomi",
         "Browser_FullName": "Tecomi"
@@ -1457,7 +1457,7 @@
     {
       "userAgent": "TencentTraveler*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "TencentTraveler",
         "Browser_Name": "TencentTraveler",
         "Browser_FullName": "TencentTraveler"
@@ -1466,7 +1466,7 @@
     {
       "userAgent": "TheInformant*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "TheInformant",
         "Browser_Name": "TheInformant",
         "Browser_FullName": "TheInformant"
@@ -1475,7 +1475,7 @@
     {
       "userAgent": "Toata dragostea*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Toata dragostea",
         "Browser_Name": "Toata dragostea",
         "Browser_FullName": "Toata dragostea"
@@ -1484,7 +1484,7 @@
     {
       "userAgent": "Tutorial Crawler*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Tutorial Crawler",
         "Browser_Name": "Tutorial Crawler",
         "Browser_FullName": "Tutorial Crawler"
@@ -1493,7 +1493,7 @@
     {
       "userAgent": "Twitterbot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Twitterbot",
         "Browser_Name": "Twitterbot",
         "Browser_FullName": "Twitterbot"
@@ -1502,7 +1502,7 @@
     {
       "userAgent": "UbiCrawler\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "UbiCrawler",
         "Browser_Name": "UbiCrawler",
         "Browser_FullName": "UbiCrawler"
@@ -1511,7 +1511,7 @@
     {
       "userAgent": "UCmore",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "UCmore",
         "Browser_Name": "UCmore",
         "Browser_FullName": "UCmore"
@@ -1520,7 +1520,7 @@
     {
       "userAgent": "User*Agent:*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Generic Crawler",
         "Browser_Name": "Generic Crawler",
         "Browser_FullName": "Generic Crawler"
@@ -1529,7 +1529,7 @@
     {
       "userAgent": "USER_AGENT",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Generic Crawler",
         "Browser_Name": "Generic Crawler",
         "Browser_FullName": "Generic Crawler"
@@ -1538,7 +1538,7 @@
     {
       "userAgent": "VadixBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "VadixBot",
         "Browser_Name": "VadixBot",
         "Browser_FullName": "VadixBot"
@@ -1547,7 +1547,7 @@
     {
       "userAgent": "VengaBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "VengaBot",
         "Browser_Name": "VengaBot",
         "Browser_FullName": "VengaBot"
@@ -1556,7 +1556,7 @@
     {
       "userAgent": "Visicom Toolbar",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Visicom Toolbar",
         "Browser_Name": "Visicom Toolbar",
         "Browser_FullName": "Visicom Toolbar"
@@ -1565,7 +1565,7 @@
     {
       "userAgent": "Visited by http:\/\/tools.geek-tools.org",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "geek-tools.org",
         "Browser_Name": "geek-tools.org",
         "Browser_FullName": "geek-tools.org"
@@ -1574,7 +1574,7 @@
     {
       "userAgent": "Webclipping.com",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Webclipping.com",
         "Browser_Name": "Webclipping.com",
         "Browser_FullName": "Webclipping.com"
@@ -1583,7 +1583,7 @@
     {
       "userAgent": "webcollage*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WebCollage",
         "Browser_Name": "WebCollage",
         "Browser_FullName": "WebCollage"
@@ -1592,7 +1592,7 @@
     {
       "userAgent": "WebCrawler_1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WebCrawler",
         "Browser_Name": "WebCrawler",
         "Browser_FullName": "WebCrawler 1.0",
@@ -1604,7 +1604,7 @@
     {
       "userAgent": "WebFilter Robot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WebFilter Robot",
         "Browser_Name": "WebFilter Robot",
         "Browser_FullName": "WebFilter Robot"
@@ -1613,7 +1613,7 @@
     {
       "userAgent": "WeBoX\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WeBoX",
         "Browser_Name": "WeBoX",
         "Browser_FullName": "WeBoX"
@@ -1622,7 +1622,7 @@
     {
       "userAgent": "WebTrends\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WebTrends",
         "Browser_Name": "WebTrends",
         "Browser_FullName": "WebTrends"
@@ -1631,14 +1631,14 @@
     {
       "userAgent": "Wepbot\/*(*)*Jakarta Commons-HttpClient\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Wepbot"
       }
     },
     {
       "userAgent": "West Wind Internet Protocols*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Versatel",
         "Browser_Name": "Versatel",
         "Browser_FullName": "Versatel",
@@ -1649,7 +1649,7 @@
     {
       "userAgent": "WhizBang",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WhizBang",
         "Browser_Name": "WhizBang",
         "Browser_FullName": "WhizBang"
@@ -1658,7 +1658,7 @@
     {
       "userAgent": "Willow Internet Crawler by Twotrees V*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Willow Internet Crawler",
         "Browser_Name": "Willow Internet Crawler",
         "Browser_FullName": "Willow Internet Crawler"
@@ -1667,7 +1667,7 @@
     {
       "userAgent": "WIRE\/* (Linux*Bot,Robot,Spider,Crawler)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WIRE",
         "Browser_Name": "WIRE",
         "Browser_FullName": "WIRE"
@@ -1676,7 +1676,7 @@
     {
       "userAgent": "www.fi crawler, contact crawler@www.fi",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "www.fi crawler",
         "Browser_Name": "www.fi crawler",
         "Browser_FullName": "www.fi crawler"
@@ -1685,14 +1685,14 @@
     {
       "userAgent": "Xerka WebBot v1.*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Xerka"
       }
     },
     {
       "userAgent": "XML Sitemaps Generator*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "XML Sitemaps Generator",
         "Browser_Name": "XML Sitemaps Generator",
         "Browser_FullName": "XML Sitemaps Generator"
@@ -1701,7 +1701,7 @@
     {
       "userAgent": "XSpider*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "XSpider",
         "Browser_Name": "XSpider",
         "Browser_FullName": "XSpider"
@@ -1710,7 +1710,7 @@
     {
       "userAgent": "YooW!\/* (?http:\/\/www.yoow.eu)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "YooW!",
         "Browser_Name": "YooW!",
         "Browser_FullName": "YooW!"
@@ -1719,7 +1719,7 @@
     {
       "userAgent": "yp-crawl@attinteractive.com",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "YellowPages",
         "Browser_Name": "YellowPages",
         "Browser_FullName": "YellowPages"
@@ -1742,14 +1742,14 @@
     {
       "userAgent": "QuerySeekerSpider ( http:\/\/queryseeker.com\/bot.html )",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "QuerySeekerSpider"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Sistrix Crawler",
         "Browser_Name": "Sistrix Crawler",
         "Browser_FullName": "Sistrix Crawler",
@@ -1759,7 +1759,7 @@
     {
       "userAgent": "woobot\/1.1*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WooRank",
         "Version": "1.1",
         "MajorVer": "1",
@@ -1769,7 +1769,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; proximic; +http:\/\/www.proximic.com\/info\/spider.php)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Proximic Spider",
         "Browser_Name": "Proximic Spider",
         "Browser_FullName": "Proximic Spider",
@@ -1779,7 +1779,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; Trident\/?.0; Alcohol Search*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Alcohol Search",
         "Browser_Name": "Alcohol Search",
         "Browser_FullName": "Alcohol Search",
@@ -1790,7 +1790,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; AugustBot\/*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "AugustBot",
         "Browser_Name": "AugustBot",
         "Browser_FullName": "AugustBot"
@@ -1799,7 +1799,7 @@
     {
       "userAgent": "awesomebot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Awesomebot",
         "Browser_Name": "Awesomebot",
         "Browser_FullName": "Awesomebot"
@@ -1808,7 +1808,7 @@
     {
       "userAgent": "Cooby Bot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "CoobyBot",
         "Browser_Name": "CoobyBot",
         "Browser_FullName": "CoobyBot"
@@ -1817,7 +1817,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot http:\/\/www.crystalsemantics.com\/service-navigation\/imprint\/useragent\/)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "CrystalSemanticsBot",
         "Browser_Name": "CrystalSemanticsBot",
         "Browser_FullName": "CrystalSemanticsBot",
@@ -1828,7 +1828,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; FeedFinder-2.0; http:\/\/bloggz.se\/crawler)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "FeedFinder",
         "Browser_Name": "FeedFinder",
         "Browser_FullName": "FeedFinder",
@@ -1839,13 +1839,13 @@
     {
       "userAgent": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*",
       "properties": {
-        "Parent": "General Crawlers"
+        "Parent": "DefaultProperties"
       }
     },
     {
       "userAgent": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla\/4.0; Windows NT*)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
@@ -1853,7 +1853,7 @@
     {
       "userAgent": "Mozilla\/4.0 (compatible*; MSIE 4.01; Windows95)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Generic Crawler",
         "Browser_Name": "Generic Crawler",
         "Browser_FullName": "Generic Crawler",
@@ -1864,7 +1864,7 @@
     {
       "userAgent": "GSLFbot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "GSLFbot",
         "Browser_Name": "GSLFbot",
         "Browser_FullName": "GSLFbot"
@@ -1873,7 +1873,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; SearchmetricsBot; http:\/\/www.searchmetrics.com\/en\/searchmetrics-bot\/)",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Searchmetrics Bot",
         "Browser_Name": "Searchmetrics Bot",
         "Browser_FullName": "Searchmetrics Bot",
@@ -1883,7 +1883,7 @@
     {
       "userAgent": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "SEOkicks Robot",
         "Browser_Name": "SEOkicks Robot",
         "Browser_FullName": "SEOkicks Robot"
@@ -1892,7 +1892,7 @@
     {
       "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* Powered by Spider-Pig*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Spider-Pig",
         "Browser_Name": "Spider-Pig",
         "Browser_FullName": "Spider-Pig",
@@ -1902,7 +1902,7 @@
     {
       "userAgent": "Mozilla\/5.0 (X11; U; Linux x86_64; *; rv:*) Gecko\/* ThumbShotsBot*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ThumbShotsBot",
         "Browser_Name": "ThumbShotsBot",
         "Browser_FullName": "ThumbShotsBot",
@@ -1913,21 +1913,21 @@
     {
       "userAgent": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "netEstate NE Crawler"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; Another Web Mining Tool *; +none; awmt)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Another Web Mining Tool"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Another Web Mining Tool",
         "Version": "1.0",
         "MajorVer": "1",

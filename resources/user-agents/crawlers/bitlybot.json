@@ -5,7 +5,7 @@
     {
       "userAgent": "bitlybot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "BitlyBot",
         "Browser_Name": "BitlyBot",
         "Browser_FullName": "BitlyBot"

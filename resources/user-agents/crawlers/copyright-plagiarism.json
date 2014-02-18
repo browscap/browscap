@@ -5,7 +5,7 @@
     {
       "userAgent": "Copyright\/Plagiarism",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Copyright\/Plagiarism",
         "Browser": "Copyright\/Plagiarism",
         "Crawler": "true"

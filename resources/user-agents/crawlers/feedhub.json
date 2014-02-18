@@ -5,7 +5,7 @@
     {
       "userAgent": "FeedHub",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "FeedHub",
         "Browser": "FeedHub",
         "isSyndicationReader": "true",

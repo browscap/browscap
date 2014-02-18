@@ -5,7 +5,7 @@
     {
       "userAgent": "YodaoBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "YodaoBot",
         "Browser": "YodaoBot",
         "Frames": "true",

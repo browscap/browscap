@@ -5,7 +5,7 @@
     {
       "userAgent": "Version Checkers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Version Checkers",
         "Browser": "Version Checkers",
         "Crawler": "true"

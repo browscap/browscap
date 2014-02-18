@@ -5,7 +5,7 @@
     {
       "userAgent": "HTML Validators",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Validation Checkers",
         "Browser": "HTML Validators",
         "Crawler": "true"

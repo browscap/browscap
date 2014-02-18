@@ -5,7 +5,7 @@
     {
       "userAgent": "Proxy Servers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Proxy Servers",
         "Browser": "Proxy Servers"
       }

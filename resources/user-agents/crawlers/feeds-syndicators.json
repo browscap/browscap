@@ -5,7 +5,7 @@
     {
       "userAgent": "Feeds Syndicators",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Feeds Syndicators",
         "Browser": "Feeds Syndicators",
         "isSyndicationReader": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Site Monitors",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Site Monitors",
         "Browser": "Site Monitors",
         "Crawler": "true"

@@ -5,7 +5,7 @@
     {
       "userAgent": "Webaroo",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Webaroo",
         "Browser": "Webaroo",
         "Frames": "true",

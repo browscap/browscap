@@ -5,7 +5,7 @@
     {
       "userAgent": "Envolk",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Envolk",
         "Browser": "Envolk",
         "Frames": "true",

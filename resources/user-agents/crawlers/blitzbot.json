@@ -5,7 +5,7 @@
     {
       "userAgent": "BlitzBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "BlitzBot",
         "Browser_Name": "BlitzBot",
         "Browser_FullName": "BlitzBot"

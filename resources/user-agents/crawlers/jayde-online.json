@@ -5,7 +5,7 @@
     {
       "userAgent": "Jayde Online",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Jayde Online",
         "Browser": "Jayde Online",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Boitho",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Boitho",
         "Browser": "Boitho",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "NewsGator",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "NewsGator",
         "Browser": "NewsGator",
         "isSyndicationReader": "true",

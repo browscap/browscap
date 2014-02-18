@@ -5,7 +5,7 @@
     {
       "userAgent": "NameProtect",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "NameProtect",
         "Browser": "NameProtect",
         "Crawler": "true"

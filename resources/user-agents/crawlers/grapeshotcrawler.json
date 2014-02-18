@@ -6,7 +6,7 @@
     {
       "userAgent": "GrapeshotCrawler",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "GrapeshotCrawler",
         "Browser": "GrapeshotCrawler",
         "Frames": "true",

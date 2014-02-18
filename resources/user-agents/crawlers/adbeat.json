@@ -5,7 +5,7 @@
     {
       "userAgent": "Adbeat",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Adbeat",
         "Browser_Name": "Adbeat",
         "Browser_FullName": "Adbeat",

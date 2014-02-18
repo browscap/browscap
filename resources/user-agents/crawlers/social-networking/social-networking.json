@@ -5,7 +5,7 @@
     {
       "userAgent": "Social Networking",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Social Bookmarkers",
         "Browser": "Social Bookmarkers",
         "Crawler": "true"

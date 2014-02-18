@@ -5,7 +5,7 @@
     {
       "userAgent": "Research Projects",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Research Projects",
         "Browser": "Research Projects",
         "Crawler": "true"

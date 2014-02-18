@@ -5,7 +5,7 @@
     {
       "userAgent": "Entireweb",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Entireweb",
         "Browser": "Entireweb",
         "Frames": "true",

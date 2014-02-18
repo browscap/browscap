@@ -5,7 +5,7 @@
     {
       "userAgent": "iVia Project",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "iVia Project",
         "Browser": "iVia Project",
         "Frames": "true",

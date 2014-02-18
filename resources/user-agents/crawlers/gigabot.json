@@ -5,7 +5,7 @@
     {
       "userAgent": "Gigabot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Gigabot",
         "Browser": "Gigabot",
         "Frames": "true",

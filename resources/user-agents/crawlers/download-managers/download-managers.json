@@ -5,7 +5,7 @@
     {
       "userAgent": "Download Managers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Download Managers",
         "Browser": "Download Managers",
         "Crawler": "true"

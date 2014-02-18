@@ -5,7 +5,7 @@
     {
       "userAgent": "Image Crawlers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Image Crawlers",
         "Browser": "Image Crawlers",
         "Crawler": "true"

@@ -5,7 +5,7 @@
     {
       "userAgent": "Facebook",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Facebook",
         "Browser": "Facebook",
         "Frames": "true",

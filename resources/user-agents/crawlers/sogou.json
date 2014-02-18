@@ -5,7 +5,7 @@
     {
       "userAgent": "Sogou",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Sogou",
         "Browser": "Sogou",
         "Frames": "true",

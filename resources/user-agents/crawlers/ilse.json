@@ -5,7 +5,7 @@
     {
       "userAgent": "Ilse",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Ilse",
         "Browser": "Ilse",
         "Frames": "true",

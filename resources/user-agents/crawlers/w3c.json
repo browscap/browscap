@@ -5,7 +5,7 @@
     {
       "userAgent": "W3C",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "W3C",
         "Browser": "W3C",
         "Crawler": "true"

@@ -5,7 +5,7 @@
     {
       "userAgent": "DotBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "DotBot",
         "Browser": "DotBot",
         "Frames": "true",

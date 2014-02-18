@@ -5,7 +5,7 @@
     {
       "userAgent": "BitTorrent Clients",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "BitTorrent Clients",
         "Browser": "",
         "Crawler": "true"

@@ -5,7 +5,7 @@
     {
       "userAgent": "Translators",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Translators",
         "Browser": "Translators",
         "Frames": "true",

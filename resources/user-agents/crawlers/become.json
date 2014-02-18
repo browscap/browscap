@@ -5,7 +5,7 @@
     {
       "userAgent": "Become",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Become",
         "Browser_Name": "Become",
         "Browser_FullName": "Become",

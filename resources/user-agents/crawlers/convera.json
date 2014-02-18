@@ -5,7 +5,7 @@
     {
       "userAgent": "Convera",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Convera",
         "Browser": "Convera",
         "Frames": "true",

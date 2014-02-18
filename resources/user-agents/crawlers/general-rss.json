@@ -5,7 +5,7 @@
     {
       "userAgent": "General RSS",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "General RSS",
         "Browser": "General RSS",
         "isSyndicationReader": "true",

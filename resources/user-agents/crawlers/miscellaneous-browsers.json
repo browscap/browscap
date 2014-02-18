@@ -5,7 +5,7 @@
     {
       "userAgent": "Miscellaneous Browsers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Miscellaneous Browsers",
         "Browser": "Miscellaneous Browsers",
         "Crawler": "true"
@@ -212,7 +212,7 @@
     {
       "userAgent": "*CaptiveNetworkSupport*wispr*",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "WISPr"
       }
     }

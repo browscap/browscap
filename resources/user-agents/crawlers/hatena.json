@@ -5,7 +5,7 @@
     {
       "userAgent": "Hatena",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Hatena",
         "Browser": "Hatena",
         "Crawler": "true"

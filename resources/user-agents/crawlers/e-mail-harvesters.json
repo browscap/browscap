@@ -5,7 +5,7 @@
     {
       "userAgent": "E-Mail Harvesters",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "E-Mail Harvesters",
         "Browser": "E-Mail Harvesters",
         "Crawler": "true"

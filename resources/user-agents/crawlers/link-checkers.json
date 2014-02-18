@@ -5,7 +5,7 @@
     {
       "userAgent": "Link Checkers",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Link Checkers",
         "Browser": "Link Checkers",
         "Crawler": "true"

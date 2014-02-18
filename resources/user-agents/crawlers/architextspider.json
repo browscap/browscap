@@ -5,7 +5,7 @@
     {
       "userAgent": "ArchitextSpider",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "ArchitextSpider",
         "Browser_Name": "ArchitextSpider",
         "Browser_FullName": "ArchitextSpider"

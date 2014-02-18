@@ -5,7 +5,7 @@
     {
       "userAgent": "Search Engines",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Search Engines",
         "Browser": "Search Engines",
         "Crawler": "true"

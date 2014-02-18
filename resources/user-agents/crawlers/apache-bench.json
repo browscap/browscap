@@ -5,7 +5,7 @@
     {
       "userAgent": "Apache Bench",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Browser": "Apache Bench",
         "Browser_Name": "Apache Bench",
         "Browser_FullName": "Apache Bench"

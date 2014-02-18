@@ -5,7 +5,7 @@
     {
       "userAgent": "Internet Content Rating Association",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Internet Content Rating Association",
         "Browser": "",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Netcraft",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Netcraft",
         "Browser": "Netcraft",
         "Crawler": "true"

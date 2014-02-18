@@ -5,7 +5,7 @@
     {
       "userAgent": "Exalead",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Exalead",
         "Browser": "Exalead",
         "Frames": "true",

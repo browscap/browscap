@@ -5,7 +5,7 @@
     {
       "userAgent": "DNS Tools",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "DNS Tools",
         "Browser": "DNS Tools",
         "Crawler": "true"

@@ -6,7 +6,7 @@
     {
       "userAgent": "NikiBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "NikiBot",
         "Browser": "NikiBot",
         "Frames": "true",
