@@ -176,6 +176,14 @@ class Generator
     }
 
     /**
+     * @return array
+     */
+    public function getCollectionData()
+    {
+        return $this->collectionData;
+    }
+
+    /**
      * parses the data collection into an array
      *
      * @throws \LogicException

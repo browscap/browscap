@@ -7,6 +7,10 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Browscap\Parser\IniParser;
+use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Helper\Generator;
+use Browscap\Helper\LoggerHelper;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -14,14 +18,14 @@ use Browscap\Parser\IniParser;
 class ImportCommand extends Command
 {
     /**
-     * @var \Symfony\Component\Console\Output\OutputInterface
-     */
-    protected $output;
-
-    /**
      * @var string
      */
     protected $outputDirectory;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $logger = null;
 
     /**
      * (non-PHPdoc)
@@ -41,20 +45,35 @@ class ImportCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->output = $output;
-
-        $this->outputDirectory = __DIR__ . '/../../../resources';
+        $this->outputDirectory = BuildCommand::DEFAULT_RESOURCES_FOLDER;
 
         if (!file_exists($this->outputDirectory . '/user-agents')) {
             mkdir($this->outputDirectory . '/user-agents', 0755, true);
         }
 
+        $loggerHelper = new LoggerHelper();
+        $this->logger = $loggerHelper->create();
+
+        $collectionCreator = new CollectionCreator();
+        $collectionParser = new CollectionParser();
+
+        $generatorHelper = new Generator();
+        $generatorHelper
+            ->setLogger($this->logger)
+            ->setVersion('temporary-version')
+            ->setResourceFolder($this->outputDirectory)
+            ->setCollectionCreator($collectionCreator)
+            ->setCollectionParser($collectionParser)
+            ->createCollection()
+            ->parseCollection()
+        ;
+
         $filename = $input->getArgument('iniFile');
 
         $iniParser = new IniParser($filename);
-        $data = $iniParser->parse();
+        $data      = $iniParser->parse();
 
-        $divisions = $this->processArrayToDivisions($data);
+        $divisions = $this->processArrayToDivisions($data, $generatorHelper->getCollectionData());
 
         $divisionId = 0;
         foreach ($divisions as $divisionName => $userAgents) {
@@ -66,23 +85,42 @@ class ImportCommand extends Command
         }
     }
 
-    public function processArrayToDivisions(array $data)
+    /**
+     * @param array $data
+     * @param array $collectionData
+     *
+     * @return array
+     */
+    public function processArrayToDivisions(array $data, array $collectionData = array())
     {
         $divisions = array();
 
         foreach ($data as $section => $properties) {
+            if (isset($collectionData[$section])) {
+                continue;
+            }
+
             $divisions[$properties['Division']][$section] = $properties;
         }
 
         return $divisions;
     }
 
+    /**
+     * @param string $divisionName
+     *
+     * @return string
+     */
     public function getJsonFilenameFromDivisionName($divisionName)
     {
         return preg_replace('/[^a-z0-9]/', '-', strtolower($divisionName)) . '.json';
     }
 
-    public function writeJsonData($filename, $jsonData)
+    /**
+     * @param string $filename
+     * @param array  $jsonData
+     */
+    public function writeJsonData($filename, array $jsonData)
     {
         $jsonEncoded = json_encode($jsonData, JSON_PRETTY_PRINT);
 
@@ -92,7 +130,12 @@ class ImportCommand extends Command
         file_put_contents($fullpath, $jsonEncoded);
     }
 
-    public function saveDivision($divisionId, $divisionName, $userAgents)
+    /**
+     * @param integer $divisionId
+     * @param string  $divisionName
+     * @param array   $userAgents
+     */
+    public function saveDivision($divisionId, $divisionName, array $userAgents)
     {
         $jsonData = array();
         $jsonData['division'] = $divisionName;
@@ -112,7 +155,7 @@ class ImportCommand extends Command
         $filename = $this->getJsonFilenameFromDivisionName($divisionName);
         $this->writeJsonData('/user-agents/' . $filename, $jsonData);
 
-        $msg = sprintf('<info>Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
-        $this->output->writeln($msg);
+        $msg = sprintf('Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
+        $this->logger->info($msg);
     }
 }
