@@ -64,6 +64,27 @@
         "Parent": "Opera Mini Generic",
         "Platform": "WinMobile"
       }
+    },
+    {
+      "userAgent": "Opera\/*(*BREW*Opera Mini*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Bada*Opera Mini*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "Bada"
+      }
+    },
+    {
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini*)*",
+      "properties": {
+        "Parent": "Opera Mini Generic",
+        "Platform": "JAVA"
+      }
     }
   ]
 }

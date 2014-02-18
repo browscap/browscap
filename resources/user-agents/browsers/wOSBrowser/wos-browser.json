@@ -79,7 +79,7 @@
                 {
                     "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSBrowser\/*Safari\/* TouchPad\/1.*",
                     "properties": {
-                        "Device_Name": "Touchpad",
+                        "Device_Name": "TouchPad",
                         "Device_Maker": "HP"
                     },
                     "platforms": [
@@ -89,7 +89,7 @@
                 {
                     "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSSystem\/*Safari\/* TouchPad\/1.*",
                     "properties": {
-                        "Device_Name": "Touchpad",
+                        "Device_Name": "TouchPad",
                         "Device_Maker": "HP"
                     },
                     "platforms": [

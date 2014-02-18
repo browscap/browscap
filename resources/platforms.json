@@ -241,6 +241,15 @@
         "Win32": "false"
       }
     },
+    "iOS_A_7_1": {
+      "match": "*CPU iPhone OS 7_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "properties": {
@@ -358,6 +367,69 @@
     },
     "iOS_D_7_1": {
       "match": "*iOS; U; iPh OS 7_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_4_3": {
+      "match": "*iPhone OS 4.3*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_5_0": {
+      "match": "*iPhone OS 5.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_5_1": {
+      "match": "*iPhone OS 5.1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_6_0": {
+      "match": "*iPhone OS 6.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_6_1": {
+      "match": "*iPhone OS 6.1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_7_0": {
+      "match": "*iPhone OS 7.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_7_1": {
+      "match": "*iPhone OS 7.1*",
       "properties": {
         "Platform": "iOS",
         "Platform_Version": "7.1",
@@ -911,7 +983,7 @@
       }
     },
     "Android_2_2_E": {
-      "match": "*Linux\/* Android 2.2*",
+      "match": "*Linux/* Android 2.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.2",
@@ -965,7 +1037,7 @@
       }
     },
     "Android_2_3_F": {
-      "match": "*Linux\/* Android 2.3*",
+      "match": "*Linux/* Android 2.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.3",
@@ -1028,7 +1100,7 @@
       }
     },
     "Android_4_0_D": {
-      "match": "*Linux\/* Android 4.0*",
+      "match": "*Linux/* Android 4.0*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.0",
@@ -1064,7 +1136,7 @@
       }
     },
     "Android_4_1_D": {
-      "match": "*Linux\/* Android 4.1*",
+      "match": "*Linux/* Android 4.1*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.1",
@@ -1100,7 +1172,7 @@
       }
     },
     "Android_4_2_D": {
-      "match": "*Linux\/* Android 4.2*",
+      "match": "*Linux/* Android 4.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.2",
@@ -1130,13 +1202,49 @@
       "match": "*; U; Adr 4.3*",
       "properties": {
         "Platform": "Android",
-        "Platform_Version": "4.1",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3_D": {
+      "match": "*Linux/* Android 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
         "Win32": "false",
         "isMobileDevice": "true"
       }
     },
     "Android_4_4": {
       "match": "*Linux*Android 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_B": {
+      "match": "JUC (Linux; U; 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_C": {
+      "match": "*; U; Adr 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_D": {
+      "match": "*Linux/* Android 4.4*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.4",

@@ -78,6 +78,27 @@
       }
     },
     {
+      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Bada"
+      }
+    },
+    {
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA"
+      }
+    },
+    {
       "userAgent": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -131,9 +152,9 @@
       }
     },
     {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Brew"
       }
     }

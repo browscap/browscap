@@ -76,6 +76,27 @@
         "Parent": "Opera Mini 9.0",
         "Platform": "WinMobile"
       }
+    },
+    {
+      "userAgent": "Opera\/*(*BREW*Opera Mini\/9.*)*",
+      "properties": {
+        "Parent": "Opera Mini 9.0",
+        "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Bada*Opera Mini\/9.*)*",
+      "properties": {
+        "Parent": "Opera Mini 9.0",
+        "Platform": "Bada"
+      }
+    },
+    {
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/9.*)*",
+      "properties": {
+        "Parent": "Opera Mini 9.0",
+        "Platform": "JAVA"
+      }
     }
   ]
 }

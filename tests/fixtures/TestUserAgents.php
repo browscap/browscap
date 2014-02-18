@@ -212,9 +212,9 @@ return [
     'issue-96-CD' => [
         'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; fr-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0',
         [
-            'Browser' => 'wOSBrowser',
-            'Version' => '6.2',
-            'Platform' => 'WebOS',
+            'Browser' => 'WebKit/webOS',
+            'Version' => '1.0',
+            'Platform' => 'webOS',
             'Platform_Version' => '3.0',
             'isMobileDevice' => true,
             'Crawler' => false,
