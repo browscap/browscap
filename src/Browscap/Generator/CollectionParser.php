@@ -231,7 +231,7 @@ class CollectionParser
                     && is_array($uaDataChild['properties'])
                 ) {
                     $properties += $this->parseProperties(
-                        ($uaDataChild['properties'] + $platformData['properties']),
+                        (array_merge($platformData['properties'], $uaDataChild['properties'])),
                         $majorVer,
                         $minorVer
                     );
