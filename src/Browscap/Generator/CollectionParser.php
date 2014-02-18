@@ -201,48 +201,6 @@ class CollectionParser
             }
         }
 
-        if (isset($uaData['platforms']) && is_array($uaData['platforms'])) {
-            $output += $this->parsePlatforms($uaData, $majorVer, $minorVer, $uaData['userAgent']);
-        }
-
-        return $output;
-    }
-
-    /**
-     * Renders a set of platforms inside a useragent block, or inside a child block
-     *
-     * @param array  $uaData
-     * @param string $majorVer
-     * @param string $minorVer
-     * @param string $ua
-     *
-     * @return array
-     */
-    private function parsePlatforms(array $uaData, $majorVer, $minorVer, $ua)
-    {
-        $output = array();
-
-        foreach ($uaData['platforms'] as $platform) {
-            $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
-
-            $platformData = $this->getDataCollection()->getPlatform($platform);
-            $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaData['userAgent']);
-
-            if (isset($uaDataChild['properties'])
-                && is_array($uaDataChild['properties'])
-            ) {
-                $properties += $this->parseProperties(
-                    (array_merge($platformData['properties'], $uaDataChild['properties'])),
-                    $majorVer,
-                    $minorVer
-                );
-            } else {
-                $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
-            }
-
-            $output[$uaBase] = $properties;
-        }
-
         return $output;
     }
 
@@ -263,7 +221,26 @@ class CollectionParser
         // @todo This needs work here. What if we specify platforms AND versions?
         // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
-            $output = $this->parsePlatforms($uaDataChild, $majorVer, $minorVer, $ua);
+            foreach ($uaDataChild['platforms'] as $platform) {
+                $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
+
+                $platformData = $this->getDataCollection()->getPlatform($platform);
+                $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
+
+                if (isset($uaDataChild['properties'])
+                    && is_array($uaDataChild['properties'])
+                ) {
+                    $properties += $this->parseProperties(
+                        (array_merge($platformData['properties'], $uaDataChild['properties'])),
+                        $majorVer,
+                        $minorVer
+                    );
+                } else {
+                    $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
+                }
+
+                $output[$uaBase] = $properties;
+            }
         } else {
             $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
