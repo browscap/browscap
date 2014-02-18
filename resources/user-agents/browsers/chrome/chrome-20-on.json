@@ -105,9 +105,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "iPad",
+            "Device_Name": "iPhone",
             "Device_Maker": "Apple"
           },
           "platforms": [
@@ -116,9 +116,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "iPhone",
+            "Device_Name": "iPad",
             "Device_Maker": "Apple"
           },
           "platforms": [

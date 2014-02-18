@@ -187,31 +187,6 @@ class CollectionParser
                 ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
 
-        // @todo This needs work here. What if we specify platforms AND versions?
-        // We need to make it so it does as many permutations as necessary.
-        if (isset($uaData['platforms']) && is_array($uaData['platforms'])) {
-            foreach ($uaData['platforms'] as $platform) {
-                $properties = $this->parseProperties(['Parent' => $uaData['userAgent']], $majorVer, $minorVer);
-
-                $platformData = $this->getDataCollection()->getPlatform($platform);
-                $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaData['userAgent']);
-
-                if (isset($uaData['properties'])
-                    && is_array($uaData['properties'])
-                ) {
-                    $properties += $this->parseProperties(
-                        (array_merge($uaData['properties'], $platformData['properties'])),
-                        $majorVer,
-                        $minorVer
-                    );
-                } else {
-                    $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
-                }
-
-                $output += $properties;
-            }
-        }
-
         if (isset($uaData['children']) && is_array($uaData['children'])) {
             if (isset($uaData['children']['match'])) {
                 $output += $this->parseChildren($uaData['userAgent'], $uaData['children'], $majorVer, $minorVer);
@@ -256,7 +231,7 @@ class CollectionParser
                     && is_array($uaDataChild['properties'])
                 ) {
                     $properties += $this->parseProperties(
-                        (array_merge($uaDataChild['properties'], $platformData['properties'])),
+                        (array_merge($platformData['properties'], $uaDataChild['properties'])),
                         $majorVer,
                         $minorVer
                     );
