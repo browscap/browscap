@@ -4,6 +4,7 @@ namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
