@@ -127,17 +127,6 @@ class GrepCommand extends Command
         $this->browscap = new Browscap($cache_dir);
         $this->browscap->localFile = $iniFile;
 
-        $inputFile = $input->getArgument('inputFile');
-        $mode = $input->getOption('mode');
-
-        if (!in_array($mode, array(self::MODE_MATCHED, self::MODE_UNMATCHED))) {
-            throw new \Exception('Mode must be "matched" or "unmatched"');
-        }
-
-        if (!file_exists($inputFile)) {
-            throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
-        }
-
         $fileContents = file_get_contents($inputFile);
 
         $uas = explode(PHP_EOL, $fileContents);

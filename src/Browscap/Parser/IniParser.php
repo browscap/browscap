@@ -30,7 +30,7 @@ class IniParser implements ParserInterface
     protected $fileLines;
 
     /**
-     * @param $filename
+     * @param string $filename
      */
     public function __construct($filename)
     {
@@ -120,12 +120,12 @@ class IniParser implements ParserInterface
 
         $data = array();
 
-        $currentSection = '';
+        $currentSection  = '';
         $currentDivision = '';
 
         for ($line = 0; $line < count($fileLines); $line++) {
 
-            $currentLine = ($fileLines[$line]);
+            $currentLine       = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);
 
             if ($currentLineLength == 0) {
