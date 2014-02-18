@@ -5,7 +5,7 @@
     {
       "userAgent": "Blazer",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Handspring Blazer",
         "Browser_Name": "Handspring Blazer",
         "Browser_FullName": "Handspring Blazer",

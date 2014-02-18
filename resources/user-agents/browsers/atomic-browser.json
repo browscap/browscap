@@ -5,7 +5,7 @@
     {
       "userAgent": "Atomic Browser",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Atomic Browser",
         "Browser_Name": "Atomic Browser",
         "Browser_FullName": "Atomic Browser",

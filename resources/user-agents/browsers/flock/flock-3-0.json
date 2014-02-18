@@ -6,7 +6,7 @@
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Flock #MAJORVER#.#MINORVER#",
         "Browser": "Flock",
         "Version": "#MAJORVER#.#MINORVER#",

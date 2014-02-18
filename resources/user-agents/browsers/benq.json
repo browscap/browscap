@@ -5,7 +5,7 @@
     {
       "userAgent": "BenQ",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "BenQ",
         "Browser_Name": "BenQ",
         "Browser_FullName": "BenQ",

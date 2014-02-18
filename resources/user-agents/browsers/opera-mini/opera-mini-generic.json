@@ -6,7 +6,7 @@
     {
       "userAgent": "Opera Mini Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Mini Generic",
         "Browser": "Opera Mini",
         "Frames": "true",

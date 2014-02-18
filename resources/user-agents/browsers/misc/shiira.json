@@ -6,7 +6,7 @@
     {
       "userAgent": "Shiira",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Shiira",
         "Browser": "Shiira",
         "Platform": "MacOSX",

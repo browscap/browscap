@@ -6,7 +6,7 @@
     {
       "userAgent": "Opera Mobile Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Mobile Generic",
         "Browser": "Opera Mobile",
         "Win32": "true",

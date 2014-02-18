@@ -7,7 +7,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
         "Browser": "IE",
         "Version": "#MAJORVER#.#MINORVER#",

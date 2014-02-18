@@ -6,7 +6,7 @@
     {
       "userAgent": "PowerTV",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "PowerTV",
         "Browser": "PowerTV",
         "Platform": "PowerTV",

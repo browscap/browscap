@@ -5,7 +5,7 @@
     {
       "userAgent": "fantomas",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "fantomas",
         "Browser": "fantomas",
         "Frames": "true",

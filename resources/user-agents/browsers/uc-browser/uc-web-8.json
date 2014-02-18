@@ -6,7 +6,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Version": "#MAJORVER#.#MINORVER#",

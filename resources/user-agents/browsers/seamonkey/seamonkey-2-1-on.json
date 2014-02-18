@@ -6,7 +6,7 @@
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
         "Browser": "SeaMonkey",
         "Version": "#MAJORVER#.#MINORVER#",

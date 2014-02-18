@@ -6,7 +6,7 @@
     {
       "userAgent": "UC Browser",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser",
         "Browser": "UC Browser",
         "Frames": "true",

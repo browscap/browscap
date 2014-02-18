@@ -6,7 +6,7 @@
         {
             "userAgent": "BlackBerry",
             "properties": {
-                "Parent": "General Browser",
+                "Parent": "DefaultProperties",
                 "Browser": "BlackBerry",
                 "Browser_Name": "BlackBerry",
                 "Browser_FullName": "BlackBerry",

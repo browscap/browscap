@@ -5,7 +5,7 @@
     {
       "userAgent": "iSiloX",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "iSiloX",
         "Browser": "iSiloX",
         "Frames": "true",

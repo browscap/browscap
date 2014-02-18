@@ -5,7 +5,7 @@
     {
       "userAgent": "QuickTime 10.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "QuickTime 10.0",
         "Browser": "QuickTime",
         "Version": "10.0",

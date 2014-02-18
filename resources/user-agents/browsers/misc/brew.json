@@ -6,7 +6,7 @@
     {
       "userAgent": "Brew",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Brew",
         "Browser": "Brew",
         "Frames": "true",

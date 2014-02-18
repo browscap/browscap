@@ -7,7 +7,7 @@
         {
             "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
             "properties": {
-                "Parent": "General Browser",
+                "Parent": "DefaultProperties",
                 "Comment": "Konqueror #MAJORVER#.#MINORVER#",
                 "Browser": "Konqueror",
                 "Version": "#MAJORVER#.#MINORVER#",

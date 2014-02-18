@@ -6,7 +6,7 @@
     {
       "userAgent": "Teleca",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Teleca",
         "Browser": "Teleca",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Nintendo Wii",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Nintendo",
         "Browser": "",
         "isMobileDevice": "true"
@@ -35,7 +35,7 @@
     {
       "userAgent": "VLC Media Player",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "VLC Media Player"
       }
     },

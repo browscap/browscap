@@ -6,7 +6,7 @@
     {
       "userAgent": "AOL 9.0\/IE 7.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "AOL 9.0\/IE 7.0",
         "Browser": "IE",
         "Version": "7.0",

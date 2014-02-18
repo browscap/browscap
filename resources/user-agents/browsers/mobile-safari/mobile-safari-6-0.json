@@ -6,7 +6,7 @@
     {
       "userAgent": "Mobile Safari 6.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Mobile Safari 6.0",
         "Browser": "Safari",
         "Version": "6.0",

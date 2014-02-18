@@ -5,7 +5,7 @@
     {
       "userAgent": "Alcatel",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Alcatel",
         "Browser_Name": "Alcatel",
         "Browser_FullName": "Alcatel",

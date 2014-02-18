@@ -5,7 +5,7 @@
     {
       "userAgent": "FrontPage",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "FrontPage",
         "Browser": "FrontPage",
         "Frames": "true",

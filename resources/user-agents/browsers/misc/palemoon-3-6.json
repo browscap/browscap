@@ -5,7 +5,7 @@
     {
       "userAgent": "Palemoon",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "PaleMoon 3.6",
         "Browser": "PaleMoon",
         "Version": "3.6",

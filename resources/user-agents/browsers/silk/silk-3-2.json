@@ -7,7 +7,7 @@
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
         "Browser": "Silk",
         "Version": "#MAJORVER#.#MINORVER#",

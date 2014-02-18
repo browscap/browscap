@@ -5,7 +5,7 @@
     {
       "userAgent": "UC Browser Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
         "CssVersion": "1",

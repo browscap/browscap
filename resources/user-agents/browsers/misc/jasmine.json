@@ -6,7 +6,7 @@
     {
       "userAgent": "Jasmine",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Jasmine",
         "Browser": "Jasmine",
         "Platform": "JAVA",

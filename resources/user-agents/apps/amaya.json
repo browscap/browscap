@@ -5,7 +5,7 @@
     {
       "userAgent": "Amaya",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Amaya",
         "Browser_Name": "Amaya",
         "Browser_FullName": "Amaya",

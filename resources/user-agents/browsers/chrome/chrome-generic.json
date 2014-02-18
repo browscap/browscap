@@ -6,7 +6,7 @@
     {
       "userAgent": "Chrome Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Chrome",
         "Browser_Name": "Chrome",
         "Browser_FullName": "Chrome",

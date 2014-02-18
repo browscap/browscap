@@ -5,7 +5,7 @@
     {
       "userAgent": "Lotus Notes 6.0",
       "properties": {
-        "Parent": "General Email Client",
+        "Parent": "DefaultProperties",
         "Comment": "Lotus Notes 6.0",
         "Browser": "Lotus Notes",
         "Version": "6.0",

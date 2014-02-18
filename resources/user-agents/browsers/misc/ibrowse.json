@@ -5,7 +5,7 @@
     {
       "userAgent": "IBrowse",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "IBrowse",
         "Browser": "IBrowse",
         "Platform": "Amiga",

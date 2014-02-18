@@ -5,7 +5,7 @@
     {
       "userAgent": "Emacs\/W3",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Emacs\/W3",
         "Browser": "Emacs\/W3",
         "Frames": "true",

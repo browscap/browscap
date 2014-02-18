@@ -5,7 +5,7 @@
     {
       "userAgent": "Bellwave",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Bellwave",
         "Browser_Name": "Bellwave",
         "Browser_FullName": "Bellwave",

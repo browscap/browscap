@@ -5,7 +5,7 @@
     {
       "userAgent": "Media Players",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Media Players",
         "Browser": "Media Players",
         "isMobileDevice": "true"

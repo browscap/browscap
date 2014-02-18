@@ -5,7 +5,7 @@
     {
       "userAgent": "BIRD",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "BIRD",
         "Browser_Name": "BIRD",
         "Browser_FullName": "BIRD",

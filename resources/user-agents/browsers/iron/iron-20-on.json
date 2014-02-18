@@ -7,7 +7,7 @@
     {
       "userAgent": "Iron #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Iron #MAJORVER#.#MINORVER#",
         "Browser": "Iron",
         "Version": "#MAJORVER#.#MINORVER#",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
         "Browser": "Iceweasel",
         "Version": "#MAJORVER#.#MINORVER#",

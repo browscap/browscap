@@ -7,7 +7,7 @@
     {
       "userAgent": "Dolfin Android #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
         "Browser": "Dolfin",
         "Version": "#MAJORVER#.#MINORVER#",

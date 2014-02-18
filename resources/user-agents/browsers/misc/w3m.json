@@ -5,7 +5,7 @@
     {
       "userAgent": "w3m",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "w3m",
         "Browser": "w3m",
         "Frames": "true",

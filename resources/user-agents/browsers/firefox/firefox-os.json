@@ -7,7 +7,7 @@
     {
       "userAgent": "FirefoxOS #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Version": "#MAJORVER#.#MINORVER#",

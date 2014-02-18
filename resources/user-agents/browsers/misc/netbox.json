@@ -6,7 +6,7 @@
     {
       "userAgent": "Netbox",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Netbox",
         "Browser": "Netbox",
         "Frames": "true",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Motorola Internet Browser",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser",
         "Browser": "Motorola Internet Browser",
         "Frames": "true",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Opera Mini 8.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Mini 8.0",
         "Browser": "Opera Mini",
         "Version": "8.0",

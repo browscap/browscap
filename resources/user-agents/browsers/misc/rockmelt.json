@@ -5,7 +5,7 @@
     {
       "userAgent": "Rockmelt",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "RockMelt",
         "Browser": "RockMelt",
         "Win32": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Bolt",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Bolt",
         "Browser_Name": "Bolt",
         "Browser_FullName": "Bolt",

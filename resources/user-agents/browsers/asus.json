@@ -5,7 +5,7 @@
     {
       "userAgent": "Asus",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Asus",
         "Browser_Name": "Asus",
         "Browser_FullName": "Asus",

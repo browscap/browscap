@@ -6,7 +6,7 @@
     {
       "userAgent": "IEMobile",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Platform": "WinCE",

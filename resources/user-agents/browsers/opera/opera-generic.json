@@ -6,7 +6,7 @@
     {
       "userAgent": "Opera Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Generic",
         "Browser": "Opera",
         "Win32": "true",

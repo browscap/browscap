@@ -6,7 +6,7 @@
     {
       "userAgent": "NetFront Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Access NetFront Generic",
         "Browser": "Access NetFront",
         "Frames": "true",

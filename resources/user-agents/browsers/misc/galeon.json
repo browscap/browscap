@@ -6,7 +6,7 @@
     {
       "userAgent": "Galeon",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Galeon",
         "Browser": "Galeon",
         "Platform": "Linux",

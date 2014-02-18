@@ -7,7 +7,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",

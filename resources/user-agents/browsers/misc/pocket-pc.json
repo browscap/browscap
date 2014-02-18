@@ -6,7 +6,7 @@
     {
       "userAgent": "Pocket PC",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Pocket PC",
         "Browser": "Pocket PC",
         "Platform": "WinCE",

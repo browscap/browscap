@@ -7,7 +7,7 @@
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Waterfox #MAJORVER#.#MINORVER#",
         "Browser": "Waterfox",
         "Version": "#MAJORVER#.#MINORVER#",

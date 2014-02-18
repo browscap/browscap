@@ -6,7 +6,7 @@
         {
             "userAgent": "Camino",
             "properties": {
-                "Parent": "General Browser",
+                "Parent": "DefaultProperties",
                 "Browser": "Camino",
                 "Browser_Name": "Camino",
                 "Browser_FullName": "Camino",

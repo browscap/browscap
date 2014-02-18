@@ -6,7 +6,7 @@
     {
       "userAgent": "Palm Web",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Palm Web",
         "Browser": "Palm Web",
         "Platform": "webOS",

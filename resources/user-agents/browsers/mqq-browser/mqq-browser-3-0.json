@@ -6,7 +6,7 @@
     {
       "userAgent": "MQQBrowser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
         "Browser": "MQQBrowser",
         "Version": "#MAJORVER#.#MINORVER#",

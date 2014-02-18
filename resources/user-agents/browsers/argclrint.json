@@ -5,7 +5,7 @@
     {
       "userAgent": "ArgClrInt",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "ArgClrInt",
         "Browser_Name": "ArgClrInt",
         "Browser_FullName": "ArgClrInt",

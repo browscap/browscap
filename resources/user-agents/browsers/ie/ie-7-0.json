@@ -6,7 +6,7 @@
     {
       "userAgent": "IE 7.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "IE 7.0",
         "Browser": "IE",
         "Version": "7.0",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Microsoft Outlook 2013",
       "properties": {
-        "Parent": "General Email Client",
+        "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2013",
         "Browser": "Microsoft Outlook",
         "Version": "2013",

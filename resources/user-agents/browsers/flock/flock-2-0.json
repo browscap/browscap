@@ -5,7 +5,7 @@
     {
       "userAgent": "Flock 2.0",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Flock 2.0",
         "Browser": "Flock",
         "Version": "2.0",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Skyfire",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Skyfire",
         "Browser": "Skyfire",
         "Frames": "true",

@@ -5,7 +5,7 @@
     {
       "userAgent": "AU by KDDI",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "AU",
         "Browser_Name": "AU",
         "Browser_FullName": "AU 4.1",

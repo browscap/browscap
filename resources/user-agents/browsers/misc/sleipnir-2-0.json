@@ -5,7 +5,7 @@
     {
       "userAgent": "Sleipnir",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Sleipnir 2.0",
         "Browser": "Sleipnir",
         "Version": "2.0",

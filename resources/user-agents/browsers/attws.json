@@ -5,7 +5,7 @@
     {
       "userAgent": "ATTWS",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "ATTWS",
         "Browser_Name": "ATTWS",
         "Browser_FullName": "ATTWS",

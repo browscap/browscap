@@ -5,7 +5,7 @@
     {
       "userAgent": "Amoi",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Amoi",
         "Browser_Name": "Amoi",
         "Browser_FullName": "Amoi",

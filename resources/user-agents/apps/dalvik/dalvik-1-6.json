@@ -6,7 +6,7 @@
     {
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
         "Browser": "Dalvik",
         "Version": "#MAJORVER#.#MINORVER#",

@@ -6,7 +6,7 @@
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "General Email Client",
+        "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
         "Browser": "Thunderbird",
         "Version": "#MAJORVER#.#MINORVER#",

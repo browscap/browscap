@@ -6,7 +6,7 @@
     {
       "userAgent": "Kindle",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Kindle",
         "Browser": "Kindle",
         "Platform": "Android",

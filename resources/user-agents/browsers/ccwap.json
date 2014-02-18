@@ -5,7 +5,7 @@
     {
       "userAgent": "ccWAP",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "ccWAP",
         "Browser_Name": "ccWAP",
         "Browser_FullName": "ccWAP",

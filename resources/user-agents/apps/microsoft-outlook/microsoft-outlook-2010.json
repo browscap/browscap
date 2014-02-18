@@ -6,7 +6,7 @@
     {
       "userAgent": "Microsoft Outlook 2010",
       "properties": {
-        "Parent": "General Email Client",
+        "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2010",
         "Browser": "Microsoft Outlook",
         "Version": "2010",

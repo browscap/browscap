@@ -5,7 +5,7 @@
     {
       "userAgent": "Windows Media Player",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
         "Browser": "Windows Media Player",
         "Win32": "true",

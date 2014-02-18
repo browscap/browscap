@@ -5,7 +5,7 @@
     {
       "userAgent": "Android Generic",
       "properties": {
-        "Parent": "General Browser",
+        "Parent": "DefaultProperties",
         "Browser": "Android Browser",
         "Browser_Name": "Android Browser",
         "Browser_FullName": "Android Browser",
