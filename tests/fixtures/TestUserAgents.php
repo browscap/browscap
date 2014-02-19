@@ -1,6 +1,15 @@
 <?php
 
 return [
+    'issue-135' => [
+        'Mozilla/5.0 (compatible; WBSearchBot/1.1; +http://www.warebay.com/bot.html)',
+        [
+            'Browser' => 'WBSearchBot',
+            'Version' => '1.1',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-130' => [
         'Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14',
         [
