@@ -36,18 +36,29 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "Device_Name": "Kindle Fire 7",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire 7",
+        "Device_Maker": "Amazon"
+      },
+      "platforms": [
+        "Android_4_0"
+      ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon"
       }
     },
@@ -58,6 +69,44 @@
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon"
+      },
+      "platforms": [
+        "Android_4_0"
+      ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+        "Device_Maker": "Amazon"
+      },
+      "platforms": [
+        "Android_4_0"
+      ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
@@ -78,20 +127,15 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+        "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-        "Device_Maker": "Amazon"
-      }
+      },
+      "platforms": [
+        "Android_4_2"
+      ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTHWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
@@ -110,43 +154,64 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire 7",
-        "Device_Maker": "Amazon"
-      },
-      "platforms": [
-        "Android_4_0"
-      ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
-      },
-      "platforms": [
-        "Android_4_0"
-      ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
-      },
-      "platforms": [
-        "Android_4_2"
-      ]
-    },
-    {
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "Device_Name": "Kindle Fire HDX 7",
+        "Device_Maker": "Amazon"
+      },
+      "platforms": [
+        "Android_4_0"
+      ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HDX 8.9",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HDX 8.9",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HDX 8.9",
+        "Device_Maker": "Amazon"
+      },
+      "platforms": [
+        "Android_4_0"
+      ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9",
+        "Device_Maker": "Amazon"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Device_Name": "Kindle Fire HD 8.9",
         "Device_Maker": "Amazon"
       },
       "platforms": [

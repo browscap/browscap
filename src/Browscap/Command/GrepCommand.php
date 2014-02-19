@@ -4,6 +4,7 @@ namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
@@ -119,23 +120,12 @@ class GrepCommand extends Command
                 ->setGenerator($iniGenerator)
             ;
 
-            file_put_contents($iniFile, $generatorHelper->create());
+            file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
         $this->logger->debug('initialize Browscap');
         $this->browscap = new Browscap($cache_dir);
         $this->browscap->localFile = $iniFile;
-
-        $inputFile = $input->getArgument('inputFile');
-        $mode = $input->getOption('mode');
-
-        if (!in_array($mode, array(self::MODE_MATCHED, self::MODE_UNMATCHED))) {
-            throw new \Exception('Mode must be "matched" or "unmatched"');
-        }
-
-        if (!file_exists($inputFile)) {
-            throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
-        }
 
         $fileContents = file_get_contents($inputFile);
 

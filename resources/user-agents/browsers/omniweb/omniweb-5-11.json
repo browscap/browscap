@@ -22,19 +22,16 @@
         "CssVersion": "3",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Version\/5.11* *OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Comment": "OmniWeb 5.11",
-        "Browser": "OmniWeb",
-        "Version": "5.11",
-        "MajorVer": "5",
-        "MinorVer": "11",
-        "CssVersion": "3"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) *Version\/5.11* *OmniWeb\/*",
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B"
+          ]
+        }
+      ]
     }
   ]
 }

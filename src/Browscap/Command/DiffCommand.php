@@ -4,6 +4,7 @@ namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
@@ -58,7 +59,7 @@ class DiffCommand extends Command
     {
         $this->diffsFound = 0;
 
-        $leftFilename = $input->getArgument('left');
+        $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
         $debug         = $input->getOption('debug');
 
@@ -67,7 +68,7 @@ class DiffCommand extends Command
 
         $this->logger->debug('parsing left file ' . $leftFilename);
         $iniParserLeft = new IniParser($leftFilename);
-        $leftFile = $iniParserLeft->setShouldSort(true)->parse();
+        $leftFile      = $iniParserLeft->setShouldSort(true)->parse();
 
         if (!$rightFilename || !file_exists($rightFilename)) {
             $this->logger->info('right file not set or invalid - creating right file from resources');
@@ -97,13 +98,13 @@ class DiffCommand extends Command
                 ->setGenerator($iniGenerator)
             ;
 
-            file_put_contents($rightFilename, $generatorHelper->create());
+            file_put_contents($rightFilename, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
 
         $this->logger->debug('parsing right file ' . $rightFilename);
         $iniParserRight = new IniParser($rightFilename);
-        $rightFile = $iniParserRight->setShouldSort(true)->parse();
+        $rightFile      = $iniParserRight->setShouldSort(true)->parse();
 
         $this->logger->debug('build diffs between files');
         $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);

@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [10.00],
+  "versions": ["10.00", "10.10"],
   "sortIndex": 2870,
   "lite": true,
   "userAgents": [
@@ -35,6 +35,15 @@
           ]
         }
       ]
+    },
+    {
+      "userAgent": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
     }
   ]
 }

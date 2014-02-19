@@ -41,6 +41,9 @@
         },
         {
           "match": "Firefox\/#MAJORVER#*anonymized by Abelssoft*"
+        },
+        {
+          "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/#MAJORVER#.*"
         }
       ]
     }
