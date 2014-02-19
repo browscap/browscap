@@ -52,6 +52,21 @@
         "Device_Name": "GT-B7722",
         "Device_Maker": "Samsung"
       }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+      "properties": {
+        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
+        "Device_Maker": "Samsung"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-T528g\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+      "properties": {
+        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
+        "Device_Name": "SGH-T528g",
+        "Device_Maker": "Samsung"
+      }
     }
   ]
 }

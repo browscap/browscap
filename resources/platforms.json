@@ -241,6 +241,15 @@
         "Win32": "false"
       }
     },
+    "iOS_A_7_1": {
+      "match": "*CPU iPhone OS 7_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "properties": {
@@ -250,9 +259,180 @@
       }
     },
     "iOS_C": {
-      "match": "*CPU*OS*",
+      "match": "*CPU*OS*like Mac OS X*",
       "properties": {
         "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_5_0": {
+      "match": "*CPU OS 5_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_5_1": {
+      "match": "*CPU OS 5_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_6_0": {
+      "match": "*CPU OS 6* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_6_1": {
+      "match": "*CPU OS 6_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_7_0": {
+      "match": "*CPU OS 7* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_7_1": {
+      "match": "*CPU OS 7_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_5_0": {
+      "match": "*iOS; U; iPh OS 5_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_5_1": {
+      "match": "*iOS; U; iPh OS 5_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_6_0": {
+      "match": "*iOS; U; iPh OS 6_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_6_1": {
+      "match": "*iOS; U; iPh OS 6_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_7_0": {
+      "match": "*iOS; U; iPh OS 7_0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_D_7_1": {
+      "match": "*iOS; U; iPh OS 7_1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_4_3": {
+      "match": "*iPhone OS 4.3*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_5_0": {
+      "match": "*iPhone OS 5.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_5_1": {
+      "match": "*iPhone OS 5.1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "5.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_6_0": {
+      "match": "*iPhone OS 6.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_6_1": {
+      "match": "*iPhone OS 6.1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_7_0": {
+      "match": "*iPhone OS 7.0*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_E_7_1": {
+      "match": "*iPhone OS 7.1*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "7.1",
         "Platform_Description": "iPod, iPhone & iPad",
         "Win32": "false"
       }
@@ -748,8 +928,62 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_2_1_B": {
+      "match": "JUC(Linux;U;Android2.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_1_C": {
+      "match": "*; U; Adr 2.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_2_2": {
       "match": "*Linux*Android 2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_B": {
+      "match": "JUC(Linux;U;Android2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_C": {
+      "match": "*; U; Adr 2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_D": {
+      "match": "JUC (Linux; U; 2.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_2_E": {
+      "match": "*Linux/* Android 2.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.2",
@@ -786,6 +1020,24 @@
     },
     "Android_2_3_D": {
       "match": "*; U; Adr 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_3_E": {
+      "match": "JUC (Linux; U; 2.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "2.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_2_3_F": {
+      "match": "*Linux/* Android 2.3*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.3",
@@ -847,6 +1099,15 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_0_D": {
+      "match": "*Linux/* Android 4.0*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.0",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_1": {
       "match": "*Linux*Android 4.1*",
       "properties": {
@@ -874,8 +1135,44 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_1_D": {
+      "match": "*Linux/* Android 4.1*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.1",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_2": {
       "match": "*Linux*Android 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_2_B": {
+      "match": "JUC (Linux; U; 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_2_C": {
+      "match": "*; U; Adr 4.2*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.2",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_2_D": {
+      "match": "*Linux/* Android 4.2*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.2",
@@ -892,8 +1189,62 @@
         "isMobileDevice": "true"
       }
     },
+    "Android_4_3_B": {
+      "match": "JUC (Linux; U; 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3_C": {
+      "match": "*; U; Adr 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_3_D": {
+      "match": "*Linux/* Android 4.3*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.3",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_4_4": {
       "match": "*Linux*Android 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_B": {
+      "match": "JUC (Linux; U; 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_C": {
+      "match": "*; U; Adr 4.4*",
+      "properties": {
+        "Platform": "Android",
+        "Platform_Version": "4.4",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "Android_4_4_D": {
+      "match": "*Linux/* Android 4.4*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "4.4",
@@ -926,8 +1277,28 @@
         "isMobileDevice": "true"
       }
     },
+    "WinPhone7_B": {
+      "match": "*Windows; U; wds 7*",
+      "properties": {
+        "Platform": "WinPhone7",
+        "Platform_Version": "7.0",
+        "Platform_Description": "Windows Phone OS 7",
+        "isMobileDevice": "true",
+        "Win32": "false"
+      }
+    },
     "WinPhone8": {
       "match": "*Windows Phone 8*",
+      "properties": {
+        "Platform": "WinPhone8",
+        "Platform_Version": "8.0",
+        "Platform_Description": "Windows Phone OS 8",
+        "isMobileDevice": "true",
+        "Win32": "false"
+      }
+    },
+    "WinPhone8_B": {
+      "match": "*Windows; U; wds 8*",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
@@ -1007,6 +1378,14 @@
     },
     "SymbianOS": {
       "match": "*SymbianOS*",
+      "properties": {
+        "Platform": "SymbianOS",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    "SymbianOS_B": {
+      "match": "*Symbian; U; *",
       "properties": {
         "Platform": "SymbianOS",
         "Win32": "false",
@@ -1171,6 +1550,15 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Maker": "HP"
+      }
+    },
+    "Darwin": {
+      "match": "*Darwin/**",
+      "properties": {
+        "Platform": "Darwin",
+        "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
+        "Win32": "false",
+        "Device_Maker": "Apple"
       }
     }
   }

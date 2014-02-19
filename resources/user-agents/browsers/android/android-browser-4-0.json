@@ -7,12 +7,24 @@
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Android Generic",
-        "Browser_FullName": "Android Webkit #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Android",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Name": "Android",
+        "Device_Maker": "Google",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [
         {
@@ -31,15 +43,6 @@
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Name": "Mastone G9"
-          },
-          "platforms": [
-            "Android_2_3"
           ]
         },
         {
@@ -64,6 +67,51 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "Micromax A40"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/*",
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
+          ]
+        },
+        {
+          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Name": "Mastone G9"
           },
           "platforms": [
             "Android_2_3"
@@ -7357,6 +7405,31 @@
           },
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
+          "platforms": [
+            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
+          ]
+        },
+        {
+          "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
+          "properties": {
+            "Device_Name": "AT-AS40SE"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "OPPO_R813T\/* Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
+          "properties": {
+            "Device_Name": "R813T",
+            "Device_Maker": "OPPO"
+          },
+          "platforms": [
+            "Android_4_0"
           ]
         }
       ]

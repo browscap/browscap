@@ -1,35 +1,37 @@
 {
-  "division": "MQQBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["3.0", "3.1", "3.2"],
-  "sortIndex": 1174,
+  "division": "SmartViera #MAJORVER#.#MINORVER#",
+  "versions": ["1.5", "3.1"],
+  "sortIndex": 1137,
+  "lite": true,
   "userAgents": [
     {
-      "userAgent": "MQQBrowser #MAJORVER#.#MINORVER#",
+      "userAgent": "SmartViera #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "MQQBrowser",
+        "Comment": "SmartViera #MAJORVER#.#MINORVER#",
+        "Browser": "SmartViera",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Platform": "FreeBSD",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
+        "isMobileDevice": "false",
+        "CssVersion": "2",
+        "Device_Name": "TV",
+        "Device_Maker": "Panasonic",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
+            "FreeBSD"
           ]
-        }
+       }
       ]
     }
   ]
