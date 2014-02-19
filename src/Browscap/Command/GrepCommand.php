@@ -4,6 +4,7 @@ namespace Browscap\Command;
 
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
+use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
@@ -119,7 +120,7 @@ class GrepCommand extends Command
                 ->setGenerator($iniGenerator)
             ;
 
-            file_put_contents($iniFile, $generatorHelper->create());
+            file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
         $this->logger->debug('initialize Browscap');

@@ -17,13 +17,16 @@
         {
           "match": "#PLATFORM#) UCWEB*",
           "platforms": [
-            "Android_4_0_B", "Android_4_1_B"
+            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]
         },
         {
-          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/* U2\/* Mobile",
+          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/* U2\/*",
           "platforms": [
-            "Android_4_1_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
+            "WinPhone7_B", "WinPhone8_B",
+            "SymbianOS_B"
           ]
         },
         {
@@ -31,6 +34,12 @@
           "platforms": [
             "Android_2_3"
           ]
+        },
+        {
+          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+        },
+        {
+          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/*"
         }
       ]
     }

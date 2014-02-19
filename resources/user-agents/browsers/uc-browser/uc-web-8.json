@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["8.0", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8"],
+  "versions": ["8.0", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "8.9"],
   "sortIndex": 1177,
   "userAgents": [
     {
@@ -26,19 +26,55 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "properties": {
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_4_0_B", "Android_4_1_B"
+            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]
         },
         {
-          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
-            "Android_4_1_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
+            "WinPhone7_B", "WinPhone8_B",
+            "SymbianOS_B"
           ]
         },
         {
-          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile"
+          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

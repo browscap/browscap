@@ -89,6 +89,27 @@
       }
     },
     {
+      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "Bada"
+      }
+    },
+    {
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA"
+      }
+    },
+    {
       "userAgent": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -112,6 +133,15 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-E2202",
+        "Device_Maker": "Samsung"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-E3309T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+      "properties": {
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Platform": "JAVA",
+        "Device_Name": "GT-E3309T",
         "Device_Maker": "Samsung"
       }
     }

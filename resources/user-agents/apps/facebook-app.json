@@ -8,13 +8,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Facebook App",
-        "Browser": "Safari",
-        "Version": "5.1",
-        "MajorVer": "5",
-        "MinorVer": "1",
-        "Platform": "iOS",
-        "Platform_Version": "5.1",
-        "Platform_Description": "iPod, iPhone & iPad",
+        "Browser": "Facebook App",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -34,28 +28,74 @@
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
+          "properties": {
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
+          "properties": {
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
+          "properties": {
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
+          "properties": {
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
         }
       ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 5_1* like Mac OS X*) AppleWebKit\/* (KHTML, like Gecko)*Mobile*FB*",
-      "properties": {
-        "Parent": "Facebook App",
-        "Comment": "Facebook App",
-        "Platform_Version": "5.1",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 5_1* like Mac OS X*) AppleWebKit\/* (KHTML, like Gecko)*Mobile*FB*",
-      "properties": {
-        "Parent": "Facebook App",
-        "Comment": "Facebook App",
-        "Platform_Version": "5.1",
-        "Device_Name": "iPad",
-        "Device_Maker": "Apple"
-      }
     }
   ]
 }

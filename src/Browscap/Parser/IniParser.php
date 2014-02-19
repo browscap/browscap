@@ -9,7 +9,6 @@ namespace Browscap\Parser;
  */
 class IniParser implements ParserInterface
 {
-
     /**
      * @var string
      */
@@ -25,15 +24,21 @@ class IniParser implements ParserInterface
      */
     protected $data;
 
+    /**
+     * @var array
+     */
     protected $fileLines;
 
+    /**
+     * @param string $filename
+     */
     public function __construct($filename)
     {
         $this->filename = $filename;
     }
 
     /**
-     * @param  bool $shouldSort
+     * @param bool $shouldSort
      *
      * @return \Browscap\Parser\IniParser
      */
@@ -44,21 +49,34 @@ class IniParser implements ParserInterface
         return $this;
     }
 
+    /**
+     * @return bool
+     */
     public function shouldSort()
     {
         return $this->shouldSort;
     }
 
+    /**
+     * @return array
+     */
     public function getParsed()
     {
         return $this->data;
     }
 
+    /**
+     * @return string
+     */
     public function getFilename()
     {
         return $this->filename;
     }
 
+    /**
+     * @return array
+     * @throws \InvalidArgumentException
+     */
     public function getLinesFromFile()
     {
         $filename = $this->filename;
@@ -70,11 +88,17 @@ class IniParser implements ParserInterface
         return file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     }
 
+    /**
+     * @param array $fileLines
+     */
     public function setFileLines(array $fileLines)
     {
         $this->fileLines = $fileLines;
     }
 
+    /**
+     * @return array
+     */
     public function getFileLines()
     {
         if (!$this->fileLines) {
@@ -86,6 +110,10 @@ class IniParser implements ParserInterface
         return $fileLines;
     }
 
+    /**
+     * @return array
+     * @throws \RuntimeException
+     */
     public function parse()
     {
         $fileLines = $this->getFileLines();
@@ -142,7 +170,12 @@ class IniParser implements ParserInterface
         return $data;
     }
 
-    protected function sortArrayAndChildArrays($array)
+    /**
+     * @param array $array
+     *
+     * @return array
+     */
+    protected function sortArrayAndChildArrays(array $array)
     {
         ksort($array);
 

@@ -33,6 +33,12 @@
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
           ]
+        },
+        {
+          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/9.80 (MTK; Nucleus; Opera Mobi\/*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_0"
+          ]
         }
       ]
     }
