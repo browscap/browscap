@@ -874,6 +874,14 @@
         "Win64": "true"
       }
     },
+    "Android": {
+      "match": "*Linux*Android*",
+      "properties": {
+        "Platform": "Android",
+        "Win32": "false",
+        "isMobileDevice": "true"
+      }
+    },
     "Android_1_0": {
       "match": "*Linux*Android 1.0*",
       "properties": {
