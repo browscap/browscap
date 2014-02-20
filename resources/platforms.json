@@ -8,6 +8,14 @@
         "Win32": "false"
       }
     },
+    "ChromeOS_i686": {
+      "match": "*CrOS*i686*",
+      "properties": {
+        "Platform": "ChromeOS",
+        "Platform_Description": "Google Chrome OS",
+        "Win32": "false"
+      }
+    },
     "OSX": {
       "match": "*Mac OS X*",
       "properties": {
@@ -1336,6 +1344,13 @@
     },
     "FreeBSD": {
       "match": "*FreeBSD*",
+      "properties": {
+        "Platform": "FreeBSD",
+        "Win32": "false"
+      }
+    },
+    "FreeBSD_386": {
+      "match": "*FreeBSD*i386*",
       "properties": {
         "Platform": "FreeBSD",
         "Win32": "false"
