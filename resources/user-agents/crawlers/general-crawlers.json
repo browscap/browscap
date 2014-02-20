@@ -1933,6 +1933,23 @@
         "MajorVer": "1",
         "MinorVer": "0"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; WBSearchBot\/*; +http:\/\/www.warebay.com\/bot.html)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WBSearchBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; WBSearchBot\/1.1*; +http:\/\/www.warebay.com\/bot.html)*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "WBSearchBot",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
     }
   ]
 }
