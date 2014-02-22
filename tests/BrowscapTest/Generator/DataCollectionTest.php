@@ -67,10 +67,10 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        $this->assertSame($expected, $platforms);
+        self::assertSame($expected, $platforms);
 
-        $this->assertSame($expected['Platform1'], $data->getPlatform('Platform1'));
-        $this->assertSame($expected['Platform2'], $data->getPlatform('Platform2'));
+        self::assertSame($expected['Platform1'], $data->getPlatform('Platform1'));
+        self::assertSame($expected['Platform2'], $data->getPlatform('Platform2'));
     }
 
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist()
@@ -114,7 +114,7 @@ HERE;
     public function testGetVersion()
     {
         $data = new DataCollection('1234');
-        $this->assertSame('1234', $data->getVersion());
+        self::assertSame('1234', $data->getVersion());
     }
 
     public function testGetGenerationDate()
@@ -128,11 +128,11 @@ HERE;
 
         $testDateTime = $data->getGenerationDate();
 
-        $this->assertInstanceOf('\DateTime', $testDateTime);
+        self::assertInstanceOf('\DateTime', $testDateTime);
 
         $testTime = $testDateTime->getTimestamp();
-        $this->assertGreaterThanOrEqual($minTime, $testTime);
-        $this->assertLessThanOrEqual($maxTime, $testTime);
+        self::assertGreaterThanOrEqual($minTime, $testTime);
+        self::assertLessThanOrEqual($maxTime, $testTime);
     }
 
     public function testAddSourceFile()
@@ -148,8 +148,8 @@ HERE;
         $divisions = $data->getDivisions();
 
         $expected = require_once __DIR__ . '/../../fixtures/DataCollectionTestArray.php';
-
-        $this->assertEquals($expected, $divisions);
+var_dump($expected, $divisions);
+        self::assertEquals($expected, $divisions);
     }
 
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist()
