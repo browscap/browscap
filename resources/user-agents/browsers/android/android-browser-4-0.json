@@ -39,6 +39,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "Micromax A27"
           },
           "platforms": [
@@ -48,6 +49,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "Micromax A35"
           },
           "platforms": [
@@ -57,6 +59,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "Micromax A40"
           },
           "platforms": [
@@ -102,6 +105,7 @@
         {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "Mastone G9"
           },
           "platforms": [
@@ -111,6 +115,7 @@
         {
           "match": "MT6515M* Linux\/* Android 2.3* Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "MT6515M"
           },
           "platforms": [
@@ -126,6 +131,7 @@
         {
           "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "AT-AS40SE"
           },
           "platforms": [
@@ -135,6 +141,7 @@
         {
           "match": "OPPO_R813T\/* Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
           "properties": {
+            "fullOnly": "true",
             "Device_Name": "R813T",
             "Device_Maker": "OPPO"
           },

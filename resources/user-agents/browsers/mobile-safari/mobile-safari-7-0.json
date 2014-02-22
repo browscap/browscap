@@ -38,6 +38,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPad",
         "Device_Maker": "Apple"
@@ -46,6 +47,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPad*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPad",
         "Device_Maker": "Apple"
@@ -62,6 +64,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
@@ -70,6 +73,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
@@ -78,6 +82,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPhone*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/7.0*Mobile\/*Safari\/*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
@@ -96,6 +101,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPod",
         "Device_Maker": "Apple"
@@ -104,6 +110,7 @@
     {
       "userAgent": "Mozilla\/5.0 (iPod*CPU*OS 7* like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/7.0*Mobile\/*Safari\/*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Mobile Safari 7.0",
         "Device_Name": "iPod",
         "Device_Maker": "Apple"

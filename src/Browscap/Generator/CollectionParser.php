@@ -461,6 +461,7 @@ class CollectionParser
             case 'sortIndex':
             case 'Parents':
             case 'division':
+            case 'fullOnly':
                 return false;
             default:
                 // do nothing here

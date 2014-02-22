@@ -33,13 +33,16 @@
     {
       "userAgent": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "GT-S5620"
+        "Device_Name": "GT-S5620",
+        "Device_Maker": "Samsung"
       }
     },
     {
       "userAgent": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620",
         "Device_Maker": "Samsung"
@@ -48,6 +51,7 @@
     {
       "userAgent": "SAMSUNG-GT-B7722\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-B7722",
         "Device_Maker": "Samsung"
@@ -56,6 +60,7 @@
     {
       "userAgent": "SAMSUNG-SGH-*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Maker": "Samsung"
       }
@@ -63,6 +68,7 @@
     {
       "userAgent": "SAMSUNG-SGH-T528g\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
+        "fullOnly": "true",
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "SGH-T528g",
         "Device_Maker": "Samsung"

@@ -73,6 +73,7 @@
         {
           "match": "MicromaxX650 ASTRO36_TD\/* MAUI\/* Release\/* Browser\/Opera *\/MIDP* Opera\/9.80 (*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "fullOnly": "true",
             "Parent": "Opera #MAJORVER#.#MINORVER#",
             "Platform": "JAVA",
             "Device_Name": "MicromaxX650"

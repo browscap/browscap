@@ -92,6 +92,14 @@ class BrowscapIniGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type
+                && isset($properties['fullOnly'])
+                && !$properties['fullOnly']
+            ) {
+                $this->logger->debug('key "' . $key . '" is not enabled for full mode -> skipped');
+                continue;
+            }
+
             if (!in_array($key, array('DefaultProperties', '*'))) {
                 $parent = $allDivisions[$properties['Parent']];
             } else {
