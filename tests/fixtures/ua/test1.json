@@ -12,6 +12,40 @@
         "MajorVer": "1",
         "MinorVer": "0"
       }
+    },
+    {
+      "userAgent": "UA2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "lite": "false",
+        "Comment": "UA2",
+        "Browser": "UA2",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "UA3",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "fullOnly": "false",
+        "Comment": "UA3",
+        "Browser": "UA3",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "UA4",
+      "properties": {
+        "fullOnly": "false",
+        "Comment": "UA4",
+        "Browser": "UA4",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
     }
   ]
 }
