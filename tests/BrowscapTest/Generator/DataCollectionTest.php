@@ -148,7 +148,7 @@ HERE;
         $divisions = $data->getDivisions();
 
         $expected = require_once __DIR__ . '/../../fixtures/DataCollectionTestArray.php';
-var_dump($expected, $divisions);
+
         self::assertEquals($expected, $divisions);
     }
 
