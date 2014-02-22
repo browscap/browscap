@@ -18,7 +18,7 @@ return [
         [
             'Browser' => 'Google+ App',
             'Platform' => 'iOS',
-            'Platform_Version' => '7.0',
+            'Platform_Version' => '7.1',
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
