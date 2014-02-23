@@ -454,6 +454,13 @@
         "Parent": "Link Checkers",
         "Browser": "Z-Add Link Checker"
       }
+    },
+    {
+      "userAgent": "Mozilla/5.0 TYPO3-linkvalidator*",
+      "properties": {
+        "Parent": "Link Checkers",
+        "Browser": "TYPO3 Linkvalidator"
+      }
     }
   ]
 }
