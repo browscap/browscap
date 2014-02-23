@@ -537,8 +537,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
-            'Device_Maker' => 'Samsung'
+            'Device_Name' => 'INM8002KP'
         ],
     ],
     'issue-96-BO' => [
