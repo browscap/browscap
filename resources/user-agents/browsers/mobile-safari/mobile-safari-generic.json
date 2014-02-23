@@ -1,188 +1,244 @@
 {
-  "division": "Mobile Safari Generic",
-  "sortIndex": 1939,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Mobile Safari Generic",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Mobile Safari Generic",
-        "Browser": "Safari",
-        "Platform": "iOS",
-        "Platform_Description": "iPod, iPhone & iPad",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      },
-      "children": [
+    "division": "Mobile Safari Generic",
+    "sortIndex": 1939,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1",
-            "iOS_F"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
-          "properties": {
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1",
-            "iOS_F"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
-          "properties": {
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1",
-            "iOS_F"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1",
-            "iOS_F"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
-          "properties": {
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
-          "properties": {
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_B",
-            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
-            "iOS_C_7_1"
-          ]
+            "userAgent": "Mobile Safari Generic",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Mobile Safari Generic",
+                "Browser": "Safari",
+                "Platform": "iOS",
+                "Platform_Description": "iPod, iPhone & iPad",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "3",
+                "RenderingEngine_Name": "WebKit",
+                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+                    "properties": {
+                        "Device_Name": "iPad",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+                    "properties": {
+                        "Device_Name": "iPhone",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*",
+                    "properties": {
+                        "Device_Name": "iPod Touch",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+                    "properties": {
+                        "Device_Name": "iPad",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+                    "properties": {
+                        "Device_Name": "iPhone",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
+                    "properties": {
+                        "Device_Name": "iPod Touch",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
+                    "properties": {
+                        "Device_Name": "iPad",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
+                    "properties": {
+                        "Device_Name": "iPhone",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/*",
+                    "properties": {
+                        "Device_Name": "iPod Touch",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*",
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*",
+                    "properties": {
+                        "Device_Name": "iPad",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*",
+                    "properties": {
+                        "Device_Name": "iPhone",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*",
+                    "properties": {
+                        "Device_Name": "iPod Touch",
+                        "Device_Maker": "Apple"
+                    },
+                    "platforms": [
+                        "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+                        "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+                        "iOS_B",
+                        "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+                        "iOS_C_7_1",
+                        "iOS_F"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
