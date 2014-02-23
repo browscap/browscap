@@ -266,6 +266,24 @@
         "Win32": "false"
       }
     },
+    "iOS_C_4_2": {
+      "match": "*CPU OS 4_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.2",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_4_3": {
+      "match": "*CPU OS 4_3* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "iOS_C_5_0": {
       "match": "*CPU OS 5_0* like Mac OS X*",
       "properties": {
