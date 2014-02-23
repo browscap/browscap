@@ -6,14 +6,66 @@ use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
 
 /**
  * Class BrowscapIniGeneratorTest
  *
  * @package BrowscapTest\Generator
  */
-class BrowscapIniGeneratorTest extends AbstractTestGenerator
+class BrowscapIniGeneratorTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    public function setUp()
+    {
+        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+    }
+
+    private function getPlatformsJsonFixture()
+    {
+        return __DIR__ . '/../../fixtures/platforms/platforms.json';
+    }
+
+    private function getUserAgentFixtures()
+    {
+        $dir = __DIR__ . '/../../fixtures/ua';
+
+        return [
+            $dir . '/default-properties.json',
+            $dir . '/test1.json',
+            $dir . '/default-browser.json',
+        ];
+    }
+
+    /**
+     * @param array $files
+     *
+     * @return \Browscap\Generator\DataCollection
+     */
+    private function getCollectionData(array $files)
+    {
+        $dataCollection = new DataCollection('1234');
+        $dataCollection
+            ->setLogger($this->logger)
+            ->addPlatformsFile($this->getPlatformsJsonFixture())
+        ;
+
+        $dateProperty = new \ReflectionProperty(get_class($dataCollection), 'generationDate');
+        $dateProperty->setAccessible(true);
+        $dateProperty->setValue($dataCollection, new \DateTime('2010-12-31 12:34:56'));
+
+        foreach ($files as $file) {
+            $dataCollection->addSourceFile($file);
+        }
+
+        return $dataCollection;
+    }
+
     public function testgetCollectionDataThrowsExceptionIfDataCollectionNotSet()
     {
         $generator = new BrowscapIniGenerator();
