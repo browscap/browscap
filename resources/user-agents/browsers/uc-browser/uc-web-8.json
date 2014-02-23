@@ -91,6 +91,16 @@
                     ]
                 },
                 {
+                    "match": "UCWEB\/* (#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7262",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+                    ]
+                },
+                {
                     "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
                 },
                 {

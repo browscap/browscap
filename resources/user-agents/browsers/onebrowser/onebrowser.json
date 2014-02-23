@@ -43,6 +43,26 @@
                     ]
                 },
                 {
+                    "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#Micromax A27*) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+                    "properties": {
+                        "Device_Name": "A27",
+                        "Device_Maker": "Micromax"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+                    ]
+                },
+                {
+                    "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S7562*) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+                    ]
+                },
+                {
                     "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
                     "platforms": [
                         "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
