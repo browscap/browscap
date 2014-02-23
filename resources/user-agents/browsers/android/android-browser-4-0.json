@@ -39,7 +39,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Micromax A27"
+            "Device_Name": "A27",
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -48,7 +49,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Micromax A35"
+            "Device_Name": "A35",
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -57,7 +59,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Micromax A40"
+            "Device_Name": "A40",
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"

@@ -429,7 +429,7 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'Kindle',
+            'Device_Name' => 'Kindle Fire HDX 8.9',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -441,7 +441,7 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'Kindle',
+            'Device_Name' => 'Kindle Fire HD 8.9',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -585,7 +585,7 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'R813T',
-            'Device_Maker' => 'Oppo'
+            'Device_Maker' => 'OPPO'
         ],
     ],
     'issue-96-BK' => [
@@ -870,7 +870,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -934,7 +934,7 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HDX 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1178,7 +1178,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1226,7 +1226,7 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1239,7 +1239,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1272,7 +1272,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1285,7 +1285,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
@@ -1617,7 +1617,7 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
-            'Device_Name' => 'GT-I9505',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon'
         ],
     ],
