@@ -34,7 +34,8 @@
       "userAgent": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "GT-S5620"
+        "Device_Name": "GT-S5620",
+        "Device_Maker": "Samsung"
       }
     },
     {
