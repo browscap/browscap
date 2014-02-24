@@ -95,6 +95,16 @@
                     "platforms": [
                         "Android_4_0"
                     ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-I9100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_4_0"
+                    ]
                 }
             ]
         }

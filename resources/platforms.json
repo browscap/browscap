@@ -1072,7 +1072,7 @@
             }
         },
         "Android_2_3_B": {
-            "match": "*Linux* Build/GINGERBREAD*",
+            "match": "* Build/GINGERBREAD*",
             "properties": {
                 "Platform": "Android",
                 "Platform_Version": "2.3",

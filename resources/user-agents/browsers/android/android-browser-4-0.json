@@ -87,10 +87,30 @@
                     ]
                 },
                 {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-I9100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_4_1"
+                    ]
+                },
+                {
                     "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
                     "properties": {
                         "Device_Name": "D805",
                         "Device_Maker": "LG"
+                    },
+                    "platforms": [
+                        "Android_4_2"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "One X",
+                        "Device_Maker": "HTC"
                     },
                     "platforms": [
                         "Android_4_2"
@@ -115,6 +135,16 @@
                         "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
                         "Android_3_0", "Android_3_1", "Android_3_2",
                         "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+                    ]
+                },
+                {
+                    "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-I9100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3_B"
                     ]
                 },
                 {

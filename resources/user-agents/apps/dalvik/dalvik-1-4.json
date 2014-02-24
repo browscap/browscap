@@ -1,33 +1,43 @@
 {
-  "division": "Dalvik #MAJORVER#.#MINORVER#",
-  "versions": ["1.4"],
-  "sortIndex": 2213,
-  "userAgents": [
-    {
-      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
-        "Browser": "Dalvik",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Platform": "Android",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true"
-      },
-      "children": [
+    "division": "Dalvik #MAJORVER#.#MINORVER#",
+    "versions": ["1.4"],
+    "sortIndex": 2213,
+    "userAgents": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
-          "platforms": [
-            "Android_2_3"
-          ]
+            "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+                "Browser": "Dalvik",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "MajorVer": "#MAJORVER#",
+                "MinorVer": "#MINORVER#",
+                "Platform": "Android",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true"
+            },
+            "children": [
+                {
+                    "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
+                    "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
+                    "properties": {
+                        "Device_Name": "GT-I9100G",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

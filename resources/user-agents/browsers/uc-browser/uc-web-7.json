@@ -42,6 +42,16 @@
                     ]
                 },
                 {
+                    "match": "#PLATFORM#GT-I9100*) UCWEB#MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "Device_Name": "GT-I9100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+                    ]
+                },
+                {
                     "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
                     "platforms": [
                         "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"

@@ -1896,7 +1896,7 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Device_Name' => 'Nexus 4',
-            'Device_Maker' => 'Asus'
+            'Device_Maker' => 'LG'
         ],
     ],
     'chrome34' => [
@@ -1917,7 +1917,7 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Device_Name' => 'Nexus 4',
-            'Device_Maker' => 'Asus'
+            'Device_Maker' => 'LG'
         ],
     ],
     'issue-48' => [
