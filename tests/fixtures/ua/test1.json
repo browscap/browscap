@@ -29,7 +29,6 @@
       "userAgent": "UA3",
       "properties": {
         "Parent": "DefaultProperties",
-        "fullOnly": "false",
         "Comment": "UA3",
         "Browser": "UA3",
         "Version": "1.0",
@@ -40,7 +39,6 @@
     {
       "userAgent": "UA4",
       "properties": {
-        "fullOnly": "false",
         "Comment": "UA4",
         "Browser": "UA4",
         "MajorVer": "1",

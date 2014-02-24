@@ -110,7 +110,6 @@ return array(
                 'userAgent'  => 'UA3',
                 'properties' => array(
                     'Parent'   => 'DefaultProperties',
-                    'fullOnly' => 'false',
                     'Comment'  => 'UA3',
                     'Browser'  => 'UA3',
                     'Version'  => '1.0',
@@ -121,7 +120,6 @@ return array(
             3 => array(
                 'userAgent'  => 'UA4',
                 'properties' => array(
-                    'fullOnly' => 'false',
                     'Comment'  => 'UA4',
                     'Browser'  => 'UA4',
                     'MajorVer' => '1',

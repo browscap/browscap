@@ -54,7 +54,6 @@
         {
           "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*",
           "properties": {
-            "fullOnly": "true",
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung"
           }
@@ -62,7 +61,6 @@
         {
           "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*MIDP*",
           "properties": {
-            "fullOnly": "true",
             "Platform": "JAVA",
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung"

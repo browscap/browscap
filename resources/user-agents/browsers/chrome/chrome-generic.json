@@ -88,7 +88,6 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/*Safari\/*",
           "properties": {
-            "fullOnly": "true",
             "Device_Name": "iPad",
             "Device_Maker": "Apple"
           },
@@ -100,7 +99,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/*Safari\/*",
           "properties": {
-            "fullOnly": "true",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple"
           },
