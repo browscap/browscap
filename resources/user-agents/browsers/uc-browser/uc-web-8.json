@@ -104,6 +104,13 @@
                     "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
                 },
                 {
+                    "match": "UCWEB\/* (Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "Device_Name": "GT-S7262",
+                        "Device_Maker": "Samsung"
+                    }
+                },
+                {
                     "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
                 }
             ]

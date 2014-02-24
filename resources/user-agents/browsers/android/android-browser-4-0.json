@@ -77,6 +77,26 @@
                     ]
                 },
                 {
+                    "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "OT-4030D",
+                        "Device_Maker": "Alcatel"
+                    },
+                    "platforms": [
+                        "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "D805",
+                        "Device_Maker": "LG"
+                    },
+                    "platforms": [
+                        "Android_4_2"
+                    ]
+                },
+                {
                     "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
                     "platforms": [
                         "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

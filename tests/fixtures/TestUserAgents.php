@@ -648,8 +648,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9505',
-            'Device_Maker' => 'Samsung'
+            'Device_Name' => 'B51+',
+            'Device_Maker' => 'sprd'
         ],
     ],
     'issue-96-BJ' => [
