@@ -57,6 +57,16 @@
                     ]
                 },
                 {
+                    "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "B51+",
+                        "Device_Maker": "sprd"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
                     "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
                     "properties": {
                         "Device_Name": "A40",

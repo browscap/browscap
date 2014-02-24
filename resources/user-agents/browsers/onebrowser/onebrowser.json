@@ -80,6 +80,16 @@
                     "platforms": [
                         "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
                     ]
+                },
+                {
+                    "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
+                    "properties": {
+                        "Device_Name": "A27",
+                        "Device_Maker": "Micromax"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+                    ]
                 }
             ]
         }
