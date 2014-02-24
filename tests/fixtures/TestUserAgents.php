@@ -140,6 +140,59 @@ return [
             'Device_Maker' => 'Samsung'
         ],
     ],
+    'issue-141' => [
+        'Mozilla/5.0 TYPO3-linkvalidator',
+        [
+            'Browser' => 'TYPO3 Linkvalidator',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-137' => [
+        'Mozilla/5.0 (compatible; Konqueror/2.2.2; Linux 2.4.14-xfs; X11; i686)',
+        [
+            'Browser' => 'Konqueror',
+            'Version' => '2.2',
+            'isMobileDevice' => false,
+            'Crawler' => false,
+        ],
+    ],
+    'issue-138C' => [
+        'Mozilla/5.0 (iPad3,1; iPad; U; CPU OS 7_0_4 like Mac OS X; en_GB) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J1AP (gzip)',
+        [
+            'Browser' => 'Google+ App',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPad',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-138B' => [
+        'Mozilla/5.0 (iPad2,5; iPad; U; CPU OS 7_1 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P105AP (gzip)',
+        [
+            'Browser' => 'Google+ App',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.1',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPad',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-138A' => [
+        'Mozilla/5.0 (iPhone3,1; iPhone; U; CPU OS 7_0_4 like Mac OS X; en_US) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N90AP (gzip)',
+        [
+            'Browser' => 'Google+ App',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
     'issue-135' => [
         'Mozilla/5.0 (compatible; WBSearchBot/1.1; +http://www.warebay.com/bot.html)',
         [
