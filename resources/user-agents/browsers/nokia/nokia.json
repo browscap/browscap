@@ -1,63 +1,63 @@
 {
-    "division": "Nokia",
-    "sortIndex": 1790,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Nokia",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Nokia",
-                "Browser": "Nokia",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "Device_Name": "Nokia",
-                "Device_Maker": "Nokia"
-            }
-        },
-        {
-            "userAgent": "*Nokia*\/*",
-            "properties": {
-                "Parent": "Nokia"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/* (SymbianOS\/*; ?; *) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-            "properties": {
-                "Parent": "Nokia",
-                "Platform": "SymbianOS"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/525 (KHTML, like Gecko) BrowserNG\/7.2.*",
-            "properties": {
-                "Parent": "Nokia",
-                "Browser": "BrowserNG",
-                "Version": "7.2",
-                "MajorVer": "7",
-                "MinorVer": "2",
-                "Platform": "SymbianOS",
-                "Platform_Version": "9.4",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Version": "525",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-            }
-        },
-        {
-            "userAgent": "Nokia7230\/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-            "properties": {
-                "Parent": "Nokia",
-                "Platform": "JAVA",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Version": "525",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-                "Device_Name": "7230",
-                "Device_Maker": "Nokia"
-            }
-        }
-    ]
+  "division": "Nokia",
+  "sortIndex": 1790,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia",
+        "Browser": "Nokia",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "Device_Name": "Nokia",
+        "Device_Maker": "Nokia"
+      }
+    },
+    {
+      "userAgent": "*Nokia*\/*",
+      "properties": {
+        "Parent": "Nokia"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (SymbianOS\/*; ?; *) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+      "properties": {
+        "Parent": "Nokia",
+        "Platform": "SymbianOS"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/525 (KHTML, like Gecko) BrowserNG\/7.2.*",
+      "properties": {
+        "Parent": "Nokia",
+        "Browser": "BrowserNG",
+        "Version": "7.2",
+        "MajorVer": "7",
+        "MinorVer": "2",
+        "Platform": "SymbianOS",
+        "Platform_Version": "9.4",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Version": "525",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Nokia7230\/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+      "properties": {
+        "Parent": "Nokia",
+        "Platform": "JAVA",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Version": "525",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "Device_Name": "7230",
+        "Device_Maker": "Nokia"
+      }
+    }
+  ]
 }
