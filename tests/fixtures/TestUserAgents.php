@@ -4,7 +4,7 @@ return [
     'issue-145' => [
         'Nokia7230/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
         [
-            'Browser' => 'Nokia Proxy Browser',
+            'Browser' => 'Nokia',
             'Version' => '3.9',
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
