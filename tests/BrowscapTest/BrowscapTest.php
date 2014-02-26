@@ -16,16 +16,16 @@ class BrowscapTest extends \PHPUnit_Framework_TestCase
     {
         $cmdObject = $app->get($command);
 
-        $this->assertInstanceOf('Symfony\Component\Console\Command\Command', $cmdObject);
-        $this->assertSame($command, $cmdObject->getName());
+        self::assertInstanceOf('Symfony\Component\Console\Command\Command', $cmdObject);
+        self::assertSame($command, $cmdObject->getName());
     }
 
     public function testConstructorAddsExpectedCommands()
     {
         $app = new Browscap();
 
-        $this->assertAppHasCommand($app, 'build');
-        $this->assertAppHasCommand($app, 'diff');
-        $this->assertAppHasCommand($app, 'grep');
+        self::assertAppHasCommand($app, 'build');
+        self::assertAppHasCommand($app, 'diff');
+        self::assertAppHasCommand($app, 'grep');
     }
 }

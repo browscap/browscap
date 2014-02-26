@@ -14,7 +14,7 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
     public function testConstructorSetsFilename()
     {
         $parser = new IniParser('foobar');
-        $this->assertSame('foobar', $parser->getFilename());
+        self::assertSame('foobar', $parser->getFilename());
     }
 
     public function testSetShouldSort()
@@ -22,28 +22,28 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         $parser = new IniParser('');
 
         // Test the default value
-        $this->assertAttributeEquals(false, 'shouldSort', $parser);
+        self::assertAttributeEquals(false, 'shouldSort', $parser);
 
         // Test setting it to true
         $parser->setShouldSort(true);
-        $this->assertAttributeEquals(true, 'shouldSort', $parser);
+        self::assertAttributeEquals(true, 'shouldSort', $parser);
 
         // Test setting it back to false
         $parser->setShouldSort(false);
-        $this->assertAttributeEquals(false, 'shouldSort', $parser);
+        self::assertAttributeEquals(false, 'shouldSort', $parser);
     }
 
     public function testShouldSort()
     {
         $parser = new IniParser('');
 
-        $this->assertFalse($parser->shouldSort());
+        self::assertFalse($parser->shouldSort());
 
         $parser->setShouldSort(true);
-        $this->assertTrue($parser->shouldSort());
+        self::assertTrue($parser->shouldSort());
 
         $parser->setShouldSort(false);
-        $this->assertFalse($parser->shouldSort());
+        self::assertFalse($parser->shouldSort());
     }
 
     public function sortArrayDataProvider()
@@ -69,7 +69,7 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
 
         $sortMethod = new \ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
         $sortMethod->setAccessible(true);
-        $this->assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
+        self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
 
     public function testGetLinesFromFileReturnsArrayWithLines()
@@ -97,7 +97,7 @@ HERE;
             'test=test',
         ];
 
-        $this->assertSame($expected, $out);
+        self::assertSame($expected, $out);
     }
 
     public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist()
@@ -133,7 +133,7 @@ HERE;
             'test=test',
         ];
 
-        $this->assertSame($expected, $out);
+        self::assertSame($expected, $out);
     }
 
     public function testGetFileLinesReturnsLinesFromPreviouslySetLines()
@@ -143,7 +143,7 @@ HERE;
         $parser = new IniParser('');
         $parser->setFileLines($lines);
 
-        $this->assertSame($lines, $parser->getFileLines());
+        self::assertSame($lines, $parser->getFileLines());
     }
 
     public function testParseWithoutSorting()
@@ -182,9 +182,9 @@ HERE;
 
         $data = $parser->parse();
 
-        $this->assertSame($data, $parser->getParsed());
+        self::assertSame($data, $parser->getParsed());
 
-        $this->assertEquals($expected, $data);
+        self::assertEquals($expected, $data);
     }
 
     public function testParseWithSorting()
@@ -223,7 +223,7 @@ HERE;
 
         $data = $parser->parse();
 
-        $this->assertSame($expected, $data);
+        self::assertSame($expected, $data);
     }
 
     public function testParseThrowsExceptionWhenInvalidFormatting()
