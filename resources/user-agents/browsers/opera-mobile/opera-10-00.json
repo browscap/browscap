@@ -1,58 +1,58 @@
 {
-    "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-    "versions": ["10.00", "10.10"],
-    "sortIndex": 2870,
-    "lite": true,
-    "userAgents": [
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["10.00", "10.10"],
+  "sortIndex": 2870,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.2",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      },
+      "children": [
         {
-            "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-                "Browser": "Opera Mobile",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Win32": "true",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "3",
-                "RenderingEngine_Name": "Presto",
-                "RenderingEngine_Version": "2.2",
-                "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-            },
-            "children": [
-                {
-                    "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-                        "Android_4_4"
-                    ]
-                }
-            ]
-        },
-        {
-            "userAgent": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-            "properties": {
-                "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
-                "Platform": "Android",
-                "Device_Name": "Android",
-                "Device_Maker": "Google"
-            }
-        },
-        {
-            "userAgent": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-            "properties": {
-                "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
-                "Platform": "Android",
-                "Device_Name": "G7300",
-                "Device_Maker": "Huawei"
-            }
+          "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "userAgent": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Platform": "Android",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
+    {
+      "userAgent": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+      "properties": {
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Platform": "Android",
+        "Device_Name": "G7300",
+        "Device_Maker": "Huawei"
+      }
+    }
+  ]
 }
