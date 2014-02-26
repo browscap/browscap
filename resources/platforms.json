@@ -16,6 +16,14 @@
         "Win32": "false"
       }
     },
+    "ChromeOS_x64": {
+      "match": "*CrOS x86_64*",
+      "properties": {
+        "Platform": "ChromeOS",
+        "Platform_Description": "Google Chrome OS",
+        "Win32": "false"
+      }
+    },
     "OSX": {
       "match": "*Mac OS X*",
       "properties": {
@@ -468,6 +476,13 @@
     },
     "Linux_32": {
       "match": "*Linux i686*",
+      "properties": {
+        "Platform": "Linux",
+        "Win32": "false"
+      }
+    },
+    "Linux_32_on_x64": {
+      "match": "*Linux i686 on x86_64*",
       "properties": {
         "Platform": "Linux",
         "Win32": "false"

@@ -1,0 +1,15 @@
+{
+  "division": "Y!J-AGENT",
+  "sortIndex": 1320,
+  "userAgents": [
+    {
+      "userAgent": "Y!J-AGENT",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT",
+        "Browser_Name": "Y!J-AGENT",
+        "Browser_FullName": "Y!J-AGENT"
+      }
+    }
+  ]
+}

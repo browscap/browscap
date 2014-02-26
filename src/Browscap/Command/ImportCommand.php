@@ -45,15 +45,16 @@ class ImportCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->outputDirectory = BuildCommand::DEFAULT_RESOURCES_FOLDER;
+        $this->outputDirectory = __DIR__ . BuildCommand::DEFAULT_RESOURCES_FOLDER;
 
         if (!file_exists($this->outputDirectory . '/user-agents')) {
             mkdir($this->outputDirectory . '/user-agents', 0755, true);
         }
 
         $loggerHelper = new LoggerHelper();
-        $this->logger = $loggerHelper->create();
+        $this->logger = $loggerHelper->create(true);
 
+        $this->logger->debug('parse existing resource files');
         $collectionCreator = new CollectionCreator();
         $collectionParser = new CollectionParser();
 
@@ -67,13 +68,14 @@ class ImportCommand extends Command
             ->createCollection()
             ->parseCollection()
         ;
-
+        
+        $this->logger->debug('initialize Ini Parser');
         $filename = $input->getArgument('iniFile');
 
         $iniParser = new IniParser($filename);
         $data      = $iniParser->parse();
 
-        $divisions = $this->processArrayToDivisions($data, $generatorHelper->getCollectionData());
+        $divisions = $this->processArrayToDivisions($data);
 
         $divisionId = 0;
         foreach ($divisions as $divisionName => $userAgents) {
@@ -81,25 +83,90 @@ class ImportCommand extends Command
                 continue;
             }
 
-            $this->saveDivision($divisionId++, $divisionName, $userAgents);
+            $this->logger->debug('working on division "' . $divisionName . '" ...');
+            $this->saveDivision($divisionId++, $divisionName, $userAgents, $generatorHelper->getCollectionData());
         }
     }
 
     /**
-     * @param array $data
-     * @param array $collectionData
-     *
-     * @return array
+     * @param integer $divisionId
+     * @param string  $divisionName
+     * @param array   $userAgents
+     * @param array   $collectionData
      */
-    public function processArrayToDivisions(array $data, array $collectionData = array())
+    private function saveDivision($divisionId, $divisionName, array $userAgents, array $collectionData = array())
     {
-        $divisions = array();
+        $jsonData = array();
+        $jsonData['division'] = $divisionName;
+        $jsonData['sortIndex'] = ($divisionId * 10);
+        $jsonData['userAgents'] = array();
 
-        foreach ($data as $section => $properties) {
+        foreach ($userAgents as $section => $userAgent) {
             if (isset($collectionData[$section])) {
                 continue;
             }
+            
+            $jsonUA = array();
+            $jsonUA['userAgent']  = $section;
+            $jsonUA['properties'] = $userAgent;
 
+            unset($jsonUA['properties']['Division']);
+            
+            $found = false;
+            $index = 0;
+            
+            foreach ($jsonData['userAgents'] as $index => $temp) {
+                if (isset($temp['properties']['Browser'])
+                    && isset($jsonUA['properties']['Browser'])
+                    && $temp['properties']['Browser'] == $jsonUA['properties']['Browser']
+                ) {
+                    $found = true;
+                    break;
+                }
+            }
+
+            if (!$found) {
+                $jsonData['userAgents'][] = $jsonUA;
+                continue;
+            }
+            
+            if (!isset($jsonData['userAgents'][$index]['children'])) {
+                $jsonData['userAgents'][$index]['children'][0] = array(
+                    'match'      => $jsonData['userAgents'][$index]['userAgent'],
+                    'properties' => $jsonData['userAgents'][$index]['properties']
+                );
+                
+                $jsonData['userAgents'][$index]['userAgent'] = $jsonData['userAgents'][$index]['properties']['Browser'];
+            }
+            
+            $jsonData['userAgents'][$index]['children'][] = array(
+                'match'      => $section,
+                'properties' => $userAgent
+            );
+        }
+        
+        if (!count($jsonData['userAgents'])) {
+            return;
+        }
+
+        $filename = $this->getJsonFilenameFromDivisionName($divisionName);
+        $this->writeJsonData('/user-agents/' . $filename, $jsonData);
+
+        $msg = sprintf('Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
+        $this->logger->info($msg);
+    }
+
+    /**
+     * @param array $data
+     *
+     * @return array
+     */
+    public function processArrayToDivisions(array $data)
+    {
+        $this->logger->debug('transform parsed data into an array');
+        $divisions = array();
+
+        foreach ($data as $section => $properties) {
             $divisions[$properties['Division']][$section] = $properties;
         }
 
@@ -128,34 +195,5 @@ class ImportCommand extends Command
 
         $fullpath = $this->outputDirectory . $filename;
         file_put_contents($fullpath, $jsonEncoded);
-    }
-
-    /**
-     * @param integer $divisionId
-     * @param string  $divisionName
-     * @param array   $userAgents
-     */
-    public function saveDivision($divisionId, $divisionName, array $userAgents)
-    {
-        $jsonData = array();
-        $jsonData['division'] = $divisionName;
-        $jsonData['sortIndex'] = ($divisionId * 10);
-        $jsonData['userAgents'] = array();
-
-        foreach ($userAgents as $section => $userAgent) {
-            $jsonUA = array();
-            $jsonUA['userAgent'] = $section;
-            $jsonUA['properties'] = $userAgent;
-
-            unset($jsonUA['properties']['Division']);
-
-            $jsonData['userAgents'][] = $jsonUA;
-        }
-
-        $filename = $this->getJsonFilenameFromDivisionName($divisionName);
-        $this->writeJsonData('/user-agents/' . $filename, $jsonData);
-
-        $msg = sprintf('Written %d user agents to JSON: %s', count($jsonData['userAgents']), $filename);
-        $this->logger->info($msg);
     }
 }

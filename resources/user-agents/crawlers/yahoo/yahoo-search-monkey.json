@@ -1,0 +1,15 @@
+{
+  "division": "Yahoo Search Monkey",
+  "sortIndex": 1370,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Search Monkey",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Search Monkey",
+        "Browser_Name": "Yahoo! Search Monkey",
+        "Browser_FullName": "Yahoo! Search Monkey"
+      }
+    }
+  ]
+}

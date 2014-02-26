@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [1, 2, 3],
-  "sortIndex": 2650,
+  "versions": ["0.2", "0.3", "0.4", "0.5"],
+  "sortIndex": 2640,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
@@ -27,17 +27,15 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "Linux", "Linux_32",
-            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux", "Linux_32",
-            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
         }
       ]

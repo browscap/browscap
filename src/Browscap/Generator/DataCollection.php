@@ -301,7 +301,7 @@ class DataCollection
     public function getPlatform($platform)
     {
         if (!array_key_exists($platform, $this->platforms)) {
-            throw new \OutOfBoundsException('Platform "' . $platform . '" does not exist in data');
+            throw new \OutOfBoundsException('Platform "' . $platform . '" does not exist in data, available platforms: ' . serialize(array_keys($this->platforms)));
         }
 
         return $this->platforms[$platform];

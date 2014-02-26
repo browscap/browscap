@@ -1,0 +1,15 @@
+{
+  "division": "Yahoo Verifier",
+  "sortIndex": 1390,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Verifier",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Verifier",
+        "Browser_Name": "Yahoo! Verifier",
+        "Browser_FullName": "Yahoo! Verifier"
+      }
+    }
+  ]
+}

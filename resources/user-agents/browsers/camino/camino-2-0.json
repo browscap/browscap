@@ -1,74 +1,54 @@
 {
-  "division": "Camino 2.0",
+  "division": "Camino #MAJORVER#.#MINORVER#",
+  "versions": ["2.0", "2.1", "2.2"],
   "sortIndex": 2560,
   "userAgents": [
     {
-      "userAgent": "Camino 2.0",
+      "userAgent": "Camino #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Camino",
-        "Browser_FullName": "Camino 2.0",
-        "Browser_Version": "2.0",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X*Gecko\/* Camino\/2.0*",
-      "properties": {
-        "Parent": "Camino 2.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.4*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0",
-        "Platform_FullName": "Mac OS X 10.4",
-        "Platform_Version": "10.4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0",
-        "Platform_FullName": "Mac OS X 10.5",
-        "Platform_Version": "10.5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.6*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0",
-        "Platform_FullName": "Mac OS X 10.6",
-        "Platform_Version": "10.6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.7*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0",
-        "Platform_FullName": "Mac OS X 10.7",
-        "Platform_Version": "10.7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.8*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0",
-        "Platform_FullName": "Mac OS X 10.8",
-        "Platform_Version": "10.8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*) Gecko\/* Camino\/2.0* (like Firefox\/*)",
-      "properties": {
-        "Parent": "Camino 2.0"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Camino #MAJORVER#.#MINORVER#",
+        "Browser_FullName": "Camino #MAJORVER#.#MINORVER#",
+        "Browser": "Camino",
+        "Browser_Name": "Camino",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Version": "#MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Mac OS X",
+        "Platform_Name": "Mac OS X",
+        "Platform_FullName": "Mac OS X 10",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#* (like Firefox\/*)",
+          "platforms": [
+            "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B"
+          ]
+        }
+      ]
     }
   ]
 }

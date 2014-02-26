@@ -1,0 +1,47 @@
+{
+  "division": "Naver",
+  "sortIndex": 800,
+  "userAgents": [
+    {
+      "userAgent": "Naver",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "NaverBot",
+        "Browser_Name": "NaverBot",
+        "Browser_FullName": "NaverBot",
+        "Frames": "true",
+        "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "Cowbot-* (NHN Corp*naver.com)",
+      "properties": {
+        "Parent": "Naver"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; NaverBot\/*)",
+      "properties": {
+        "Parent": "Naver"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; NaverBot\/*; nhnbot@naver.com)",
+      "properties": {
+        "Parent": "Naver"
+      }
+    },
+    {
+      "userAgent": "NaverBot-* (NHN Corp*naver.com)",
+      "properties": {
+        "Parent": "Naver"
+      }
+    },
+    {
+      "userAgent": "Yeti\/*",
+      "properties": {
+        "Parent": "Naver"
+      }
+    }
+  ]
+}

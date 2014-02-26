@@ -1,0 +1,20 @@
+{
+  "division": "YahooFeedSeeker",
+  "sortIndex": 1420,
+  "userAgents": [
+    {
+      "userAgent": "YahooFeedSeeker",
+      "properties": {
+        "Parent": "Search Engines",
+        "Browser": "YahooFeedSeeker",
+        "Browser_Name": "YahooFeedSeeker",
+        "Browser_FullName": "YahooFeedSeeker",
+        "Browser_isSyndicationReader": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "isSyndicationReader": "true"
+      }
+    }
+  ]
+}

@@ -1,179 +1,50 @@
 {
-  "division": "Chrome 4.0",
-  "sortIndex": 2890,
+  "division": "Chrome #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 2650,
   "userAgents": [
     {
-      "userAgent": "Chrome 4.0",
+      "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Chrome Generic",
-        "Browser_FullName": "Chrome 4.0",
-        "Browser_Version": "4.0",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Chrome 4.0 on Chrome OS",
-      "properties": {
-        "Parent": "Chrome 4.0",
-        "Platform": "Chrome OS",
-        "Platform_Name": "Chrome OS",
-        "Platform_FullName": "Chrome OS",
-        "Platform_Maker": "Google Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; CrOS i686 *AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0",
-        "Browser_Bits": "32",
-        "Platform": "Chrome OS",
-        "Platform_Name": "Chrome OS",
-        "Platform_FullName": "Chrome OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Google Inc"
-      }
-    },
-    {
-      "userAgent": "Chrome 4.0 on Linux",
-      "properties": {
-        "Parent": "Chrome 4.0",
-        "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
-        "Platform_Maker": "Linux Foundation"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Linux",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Linux",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Chrome 4.0 on Mac OS X",
-      "properties": {
-        "Parent": "Chrome 4.0",
-        "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
-        "Platform_Version": "10"
-      }
-    },
-    {
-      "userAgent": "Chrome 4.0 on Windows",
-      "properties": {
-        "Parent": "Chrome 4.0",
-        "Browser_Bits": "32",
-        "Platform": "Win32",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
+        "Comment": "Chrome #MAJORVER#.#MINORVER#",
+        "Browser": "Chrome",
+        "Browser_FullName": "Chrome #MAJORVER#.#MINORVER#",
+        "Browser_Version": "#MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 4.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "WinNT",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows NT",
-        "Platform_Version": "4.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "5.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
-        "Platform_Version": "5.2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "WinVista",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "6.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "WinVista",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows Vista",
-        "Platform_Version": "6.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1*AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*Safari\/*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "6.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/4.*",
-      "properties": {
-        "Parent": "Chrome 4.0 on Windows",
-        "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
-        "Platform_Version": "6.1"
-      }
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "ChromeOS", "ChromeOS_i686", "ChromeOS_x64",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux", "Linux_32",
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "ChromeOS", "ChromeOS_x64",
+            "Linux", "Linux_32",
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
     }
   ]
 }

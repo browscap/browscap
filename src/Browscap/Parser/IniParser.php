@@ -150,11 +150,12 @@ class IniParser implements ParserInterface
             $bits = explode("=", $currentLine);
 
             if (count($bits) > 2) {
-                throw new \RuntimeException("Too many equals in line: {$currentLine}");
+                throw new \RuntimeException("Too many equals in line: {$currentLine}, in Division: {$currentDivision}");
             }
 
             if (count($bits) < 2) {
-                throw new \RuntimeException("Too few equals in line: {$currentLine}");
+                //throw new \RuntimeException("Too few equals in line: {$currentLine}, in Division: {$currentDivision}");
+                $bits[1] = '';
             }
 
             $data[$currentSection][$bits[0]] = $bits[1];
