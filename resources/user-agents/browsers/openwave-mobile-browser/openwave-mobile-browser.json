@@ -1,54 +1,54 @@
 {
-    "division": "Openwave Mobile Browser",
-    "sortIndex": 1800,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Openwave Mobile Browser",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Openwave Mobile Browser",
-                "Browser": "Openwave Mobile Browser",
-                "Platform": "JAVA",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true"
-            }
-        },
-        {
-            "userAgent": "*UP.Browser\/*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser"
-            }
-        },
-        {
-            "userAgent": "* Browser\/OpenWave\/* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser"
-            }
-        },
-        {
-            "userAgent": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0",
-                "Device_Name": "S312",
-                "Device_Maker": "SonyEricsson"
-            }
-        }
-    ]
+  "division": "Openwave Mobile Browser",
+  "sortIndex": 1800,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser",
+        "Browser": "Openwave Mobile Browser",
+        "Platform": "JAVA",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "*UP.Browser\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "* Browser\/OpenWave\/* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Device_Name": "S312",
+        "Device_Maker": "SonyEricsson"
+      }
+    }
+  ]
 }

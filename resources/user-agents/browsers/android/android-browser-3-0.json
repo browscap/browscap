@@ -1,49 +1,49 @@
 {
-    "division": "Android Browser #MAJORVER#.#MINORVER#",
-    "versions": ["3.0", "3.1"],
-    "sortIndex": 1900,
-    "lite": true,
-    "userAgents": [
+  "division": "Android Browser #MAJORVER#.#MINORVER#",
+  "versions": ["3.0", "3.1"],
+  "sortIndex": 1900,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Android",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Android",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Name": "Android",
+        "Device_Maker": "Google",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
         {
-            "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Android Browser #MAJORVER#.#MINORVER#",
-                "Browser": "Android",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Platform": "Android",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "3",
-                "Device_Name": "Android",
-                "Device_Maker": "Google",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-                    "platforms": [
-                        "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1"
-                    ]
-                },
-                {
-                    "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
-                    "properties": {
-                        "Device_Name": "GT-I5700",
-                        "Device_Maker": "Samsung"
-                    },
-                    "platforms": [
-                        "Android_1_5"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "properties": {
+            "Device_Name": "GT-I5700",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_1_5"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

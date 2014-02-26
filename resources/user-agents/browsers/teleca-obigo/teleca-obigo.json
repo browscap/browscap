@@ -1,258 +1,258 @@
 {
-    "division": "Teleca-Obigo",
-    "sortIndex": 1880,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Teleca-Obigo",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Teleca-Obigo",
-                "Browser": "Teleca-Obigo",
-                "Platform": "JAVA",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "1"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.0*; U; *)*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Platform": "Brew",
-                "Platform_Version": "3.0"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.1*; U; *)*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Platform": "Brew",
-                "Platform_Version": "3.1"
-            }
-        },
-        {
-            "userAgent": "AU-MIC*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*MIC\/WAP2.0*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*Teleca\/WAP2.0*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*AU-MIC-*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "BIRD_D670\/1.00 Mtk6219\/V7-05A Release\/1.1.2005 Browser\/Teleca *",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Device_Name": "D670",
-                "Device_Maker": "BIRD"
-            }
-        },
-        {
-            "userAgent": "ZONDA-ZMNG1900\/REV 2.*\/Teleca Q03B1",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Device_Name": "ZMNG1900",
-                "Device_Maker": "ZONDA"
-            }
-        },
-        {
-            "userAgent": "*Obigo\/WAP2.0*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "LG-GD350\/V100 Obigo/WAP2.0*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Device_Name": "GD350",
-                "Device_Maker": "LG"
-            }
-        },
-        {
-            "userAgent": "*Teleca-Obigo*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*AU.MIC\/*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*MIC\/*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*Teleca\/*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*Browser\/Obigo*",
-            "properties": {
-                "Parent": "Teleca-Obigo"
-            }
-        },
-        {
-            "userAgent": "*ObigoInternetBrowser\/2*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Obigo Browser 2*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Teleca-Obigo 2*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*ObigoInternetBrowser\/Q03*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "3.0",
-                "MajorVer": "3",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Browser\/obigo-browser\/q03*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "3.0",
-                "MajorVer": "3",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Browser\/Obigo-Browser\/3*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "3.0",
-                "MajorVer": "3",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Obigo\/Q03*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "3.0",
-                "MajorVer": "3",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*TelecaBrowser\/4*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "4.0",
-                "MajorVer": "4",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Obigo\/Q05*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "5.0",
-                "MajorVer": "5",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Browser\/Obigo-Q05*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "5.0",
-                "MajorVer": "5",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Obigo\/Q7*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "7.0",
-                "MajorVer": "7",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Teleca\/Q7*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "7.0",
-                "MajorVer": "7",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*TelecaBrowser\/Q07*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "7.0",
-                "MajorVer": "7",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Browser\/Teleca-Q7*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "7.0",
-                "MajorVer": "7",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "*Browser\/Obigo-Q7*",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "7.0",
-                "MajorVer": "7",
-                "MinorVer": "0"
-            }
-        }
-    ]
+  "division": "Teleca-Obigo",
+  "sortIndex": 1880,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Teleca-Obigo",
+        "Browser": "Teleca-Obigo",
+        "Platform": "JAVA",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.0*; U; *)*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Platform": "Brew",
+        "Platform_Version": "3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.1*; U; *)*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Platform": "Brew",
+        "Platform_Version": "3.1"
+      }
+    },
+    {
+      "userAgent": "AU-MIC*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*MIC\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*Teleca\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*AU-MIC-*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "BIRD_D670\/1.00 Mtk6219\/V7-05A Release\/1.1.2005 Browser\/Teleca *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "D670",
+        "Device_Maker": "BIRD"
+      }
+    },
+    {
+      "userAgent": "ZONDA-ZMNG1900\/REV 2.*\/Teleca Q03B1",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "ZMNG1900",
+        "Device_Maker": "ZONDA"
+      }
+    },
+    {
+      "userAgent": "*Obigo\/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "LG-GD350\/V100 Obigo/WAP2.0*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "GD350",
+        "Device_Maker": "LG"
+      }
+    },
+    {
+      "userAgent": "*Teleca-Obigo*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*AU.MIC\/*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*MIC\/*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*Teleca\/*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*Browser\/Obigo*",
+      "properties": {
+        "Parent": "Teleca-Obigo"
+      }
+    },
+    {
+      "userAgent": "*ObigoInternetBrowser\/2*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Obigo Browser 2*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Teleca-Obigo 2*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*ObigoInternetBrowser\/Q03*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Browser\/obigo-browser\/q03*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Browser\/Obigo-Browser\/3*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Obigo\/Q03*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*TelecaBrowser\/4*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Obigo\/Q05*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Browser\/Obigo-Q05*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Obigo\/Q7*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Teleca\/Q7*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*TelecaBrowser\/Q07*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Browser\/Teleca-Q7*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "*Browser\/Obigo-Q7*",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "MinorVer": "0"
+      }
+    }
+  ]
 }
