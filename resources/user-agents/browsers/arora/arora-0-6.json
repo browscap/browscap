@@ -14,7 +14,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
       "properties": {
         "Parent": "Google Code",
         "Browser": "Arora",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U*AppleWebKit\/* (KHTML, like Gecko, Safari\/*Arora\/0.6*",
+      "userAgent": "Mozilla\/5.0 (Windows; U*AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
       "properties": {
         "Parent": "Arora 0.6",
         "Browser_Bits": "32",

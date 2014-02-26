@@ -55,6 +55,12 @@
                 "Device_Name": "Playbook",
                 "Device_Maker": "RIM"
             }
+        },
+        {
+          "userAgent": "*BlackBerrySimulator*",
+          "properties": {
+            "Parent": "BlackBerry"
+          }
         }
     ]
 }

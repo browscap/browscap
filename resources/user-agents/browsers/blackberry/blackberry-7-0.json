@@ -121,6 +121,70 @@
         "Device_Code_Name": "BlackBerry 9930",
         "Device_Name": "BlackBerry 9930"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9105",
+        "Device_Name": "BlackBerry 9105"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9300",
+        "Device_Name": "BlackBerry 9300"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9650",
+        "Device_Name": "BlackBerry 9650"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9670",
+        "Device_Name": "BlackBerry 9670"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9700",
+        "Device_Name": "Bold"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9780",
+        "Device_Name": "BlackBerry 9780"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9800",
+        "Device_Name": "Torch"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
+      "properties": {
+        "Parent": "BlackBerry 7.0",
+        "Device_Code_Name": "BlackBerry 9810",
+        "Device_Name": "Torch 4G"
+      }
     }
   ]
 }
