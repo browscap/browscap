@@ -157,6 +157,16 @@
                     ]
                 },
                 {
+                    "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "Device_Name": "B51+",
+                        "Device_Maker": "sprd"
+                    },
+                    "platforms": [
+                        "Android_2_3"
+                    ]
+                },
+                {
                     "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
                     "platforms": [
                         "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
