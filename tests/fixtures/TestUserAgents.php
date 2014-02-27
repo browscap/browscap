@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'issue-148' => [
+        'Yahoo:LinkExpander:Slingstone',
+        [
+            'Browser' => 'Yahoo Slingstone',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-141' => [
         'Mozilla/5.0 TYPO3-linkvalidator',
         [
