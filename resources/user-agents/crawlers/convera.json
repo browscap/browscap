@@ -37,5 +37,65 @@
         "Browser": "CrawlConvera"
       }
     }
+    {
+      "userAgent": "ConveraCrawler\/0.4*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.4",
+        "Browser_Version": "0.4",
+        "Version": "0.4",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/0.5*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.5",
+        "Browser_Version": "0.5",
+        "Version": "0.5",
+        "MinorVer": "5"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/0.6*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.6",
+        "Browser_Version": "0.6",
+        "Version": "0.6",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/0.7*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.7",
+        "Browser_Version": "0.7",
+        "Version": "0.7",
+        "MinorVer": "7"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/0.8*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.8",
+        "Browser_Version": "0.8",
+        "Version": "0.8",
+        "MinorVer": "8"
+      }
+    },
+    {
+      "userAgent": "ConveraCrawler\/0.9*",
+      "properties": {
+        "Parent": "Convera",
+        "Browser_FullName": "ConveraCrawler 0.9",
+        "Browser_Version": "0.9",
+        "Version": "0.9",
+        "MinorVer": "9"
+      }
+    }
   ]
 }

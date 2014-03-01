@@ -1,0 +1,29 @@
+{
+  "division": "VoilaBot",
+  "sortIndex": 1290,
+  "userAgents": [
+    {
+      "userAgent": "VoilaBot",
+      "properties": {
+        "Parent": "Search Engines",
+        "Browser": "VoilaBot",
+        "Browser_Name": "VoilaBot",
+        "Browser_FullName": "VoilaBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*VoilaBot*",
+      "properties": {
+        "Parent": "VoilaBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) VoilaBot*",
+      "properties": {
+        "Parent": "VoilaBot",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

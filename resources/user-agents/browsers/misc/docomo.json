@@ -1,0 +1,36 @@
+{
+  "division": "DoCoMo",
+  "sortIndex": 3880,
+  "userAgents": [
+    {
+      "userAgent": "DoCoMo\/1.0\/D503iS\/*",
+      "properties": {
+        "Parent": "DoCoMo"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/1.0\/N504i\/c10\/TB*",
+      "properties": {
+        "Parent": "DoCoMo"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/1.0\/N505i\/*",
+      "properties": {
+        "Parent": "DoCoMo"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/1.0\/N505i\/c20\/TB\/W24H12",
+      "properties": {
+        "Parent": "DoCoMo"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/1.0\/P504iS\/*",
+      "properties": {
+        "Parent": "DoCoMo"
+      }
+    }
+  ]
+}

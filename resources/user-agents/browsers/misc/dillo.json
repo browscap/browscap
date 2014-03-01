@@ -53,5 +53,25 @@
         "MinorVer": "0"
       }
     }
+    {
+      "userAgent": "Dillo\/3.0",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; X11; Dillo\/3.0*)",
+      "properties": {
+        "Parent": "Dillo",
+        "Browser_FullName": "Dillo 3.0",
+        "Browser_Version": "3.0",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    }
   ]
 }

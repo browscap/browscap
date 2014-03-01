@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Arora\/0.?*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.?*",
           "platforms": [
             "Linux_64", "Linux",
             "OSX",

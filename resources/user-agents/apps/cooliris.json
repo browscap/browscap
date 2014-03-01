@@ -1,0 +1,79 @@
+{
+  "division": "Cooliris",
+  "sortIndex": 3750,
+  "userAgents": [
+    {
+      "userAgent": "Cooliris",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Cooliris",
+        "Browser_Name": "Cooliris",
+        "Browser_FullName": "Cooliris",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Cooliris* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Cooliris"
+      }
+    },
+    {
+      "userAgent": "Cooliris?1.2 CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Cooliris",
+        "Browser_FullName": "Cooliris 1.2",
+        "Browser_Version": "1.2",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Cooliris?1.3 CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Cooliris",
+        "Browser_FullName": "Cooliris 1.3",
+        "Browser_Version": "1.3",
+        "Version": "1.3",
+        "MajorVer": "1",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Cooliris?1.4 CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Cooliris",
+        "Browser_FullName": "Cooliris 1.4",
+        "Browser_Version": "1.4",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Cooliris?1.5 CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Cooliris",
+        "Browser_FullName": "Cooliris 1.5",
+        "Browser_Version": "1.5",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5"
+      }
+    }
+  ]
+}

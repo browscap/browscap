@@ -1,0 +1,26 @@
+{
+  "division": "TurnitinBot",
+  "sortIndex": 170,
+  "userAgents": [
+    {
+      "userAgent": "TurnitinBot",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TurnitinBot",
+        "Browser_Name": "TurnitinBot",
+        "Browser_FullName": "TurnitinBot"
+      }
+    },
+    {
+      "userAgent": "TurnitinBot\/2.1*",
+      "properties": {
+        "Parent": "TurnitinBot",
+        "Browser_FullName": "TurnitinBot 2.1",
+        "Browser_Version": "2.1",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    }
+  ]
+}

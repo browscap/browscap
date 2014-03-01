@@ -1,0 +1,154 @@
+{
+  "division": "DoCoMo imode2",
+  "sortIndex": 3890,
+  "userAgents": [
+    {
+      "userAgent": "DoCoMo imode2",
+      "properties": {
+        "Parent": "DoCoMo",
+        "Browser": "i-mode Browser",
+        "Browser_Name": "i-mode Browser",
+        "Browser_FullName": "i-mode Browser 2.0",
+        "Browser_Version": "2.0",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "Platform": "DoCoMo",
+        "Platform_Name": "DoCoMo",
+        "Platform_FullName": "DoCoMo",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "D900i DoCoMo\/2.0 D900i(c100;TB;W20H10)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 *A3(*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 *B(*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 *C(*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 F900i(c100;TB;W18H10)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 F900i*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N2051(c100;TB)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N2102V(c100;TB)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N700i(c100;TB;W24H12)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N900i*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N900iS(c100;TB;W30H15)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N900iS*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N902iS(c100;TB;W24H12)(compatible; moba-crawler; http:\/\/crawler.dena.jp\/)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P06B*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P701iD*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P900i(c100;TB;W30H14)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P900i*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P900iV*",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 SH700iS(c100;TB;W24H12)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 SH900i(c100;TB;W24H12)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 SH903iTV(c100;TB;W24H16)",
+      "properties": {
+        "Parent": "DoCoMo imode2"
+      }
+    }
+  ]
+}

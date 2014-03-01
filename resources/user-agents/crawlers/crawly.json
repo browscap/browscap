@@ -1,0 +1,15 @@
+{
+  "division": "Crawly",
+  "sortIndex": 180,
+  "userAgents": [
+    {
+      "userAgent": "Crawly",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Crawly",
+        "Browser_Name": "Crawly",
+        "Browser_FullName": "Crawly"
+      }
+    }
+  ]
+}

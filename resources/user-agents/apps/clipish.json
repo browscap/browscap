@@ -1,0 +1,50 @@
+{
+  "division": "Clipish",
+  "sortIndex": 3250,
+  "userAgents": [
+    {
+      "userAgent": "Clipish",
+      "properties": {
+        "Parent": "General Browser",
+        "Browser": "Clipish",
+        "Browser_Name": "Clipish",
+        "Browser_FullName": "Clipish",
+        "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Device_isDesktop": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_FullName": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "Clipish\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Clipish"
+      }
+    },
+    {
+      "userAgent": "Clipish\/9.26* CFNetwork\/548.1* Darwin\/11*",
+      "properties": {
+        "Parent": "Clipish",
+        "Browser_FullName": "Clipish 9.26",
+        "Browser_Version": "9.26",
+        "Version": "9.26",
+        "MajorVer": "9",
+        "MinorVer": "26",
+        "Platform_FullName": "Darwin 11.0",
+        "Platform_Version": "11.0",
+        "RenderingEngine_FullName": "WebKit 548.1",
+        "RenderingEngine_Version": "548.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "division": "wget",
+  "sortIndex": 1560,
+  "userAgents": [
+    {
+      "userAgent": "wget",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "wget",
+        "Browser_Name": "wget",
+        "Browser_FullName": "wget"
+      }
+    },
+    {
+      "userAgent": "Wget\/1.*",
+      "properties": {
+        "Parent": "wget",
+        "Browser_FullName": "wget 1.0",
+        "Browser_Version": "1.0",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Wget\/1.10*",
+      "properties": {
+        "Parent": "wget",
+        "Browser_FullName": "wget 1.10",
+        "Browser_Version": "1.10",
+        "Version": "1.10",
+        "MajorVer": "1",
+        "MinorVer": "10"
+      }
+    },
+    {
+      "userAgent": "Wget\/1.11*",
+      "properties": {
+        "Parent": "wget",
+        "Browser_FullName": "wget 1.11",
+        "Browser_Version": "1.11",
+        "Version": "1.11",
+        "MajorVer": "1",
+        "MinorVer": "11"
+      }
+    },
+    {
+      "userAgent": "Wget\/1.12*",
+      "properties": {
+        "Parent": "wget",
+        "Browser_FullName": "wget 1.12",
+        "Browser_Version": "1.12",
+        "Version": "1.12",
+        "MajorVer": "1",
+        "MinorVer": "12"
+      }
+    },
+    {
+      "userAgent": "Wget\/1.13*",
+      "properties": {
+        "Parent": "wget",
+        "Browser_FullName": "wget 1.13",
+        "Browser_Version": "1.13",
+        "Version": "1.13",
+        "MajorVer": "1",
+        "MinorVer": "13"
+      }
+    }
+  ]
+}

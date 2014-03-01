@@ -1,0 +1,16 @@
+{
+  "division": "Elefent",
+  "sortIndex": 280,
+  "userAgents": [
+    {
+      "userAgent": "Elefent",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Elefent",
+        "Browser_Name": "Elefent",
+        "Browser_FullName": "Elefent",
+        "Browser_Maker": "elefent.eu"
+      }
+    }
+  ]
+}
