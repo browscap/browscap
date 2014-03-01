@@ -10,6 +10,14 @@ return [
             'Crawler' => true,
         ],
     ],
+    'issue-148' => [
+        'Yahoo:LinkExpander:Slingstone',
+        [
+            'Browser' => 'Yahoo Slingstone',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
     'issue-147' => [
         'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp',
         [

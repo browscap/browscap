@@ -375,6 +375,13 @@
         "Parent": "Yahoo",
         "Browser": "YRL_ODP_CRAWLER"
       }
+    },
+    {
+      "userAgent": "Yahoo:LinkExpander:Slingstone",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Slingstone"
+      }
     }
   ]
 }
