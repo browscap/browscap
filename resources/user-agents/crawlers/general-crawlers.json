@@ -1472,6 +1472,23 @@
         "Platform_Description": "Windows XP",
         "Win32": "true"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; PaperLiBot\/*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Paper.li Bot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; PaperLiBot\/2.1*",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Paper.li Bot",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
     }
   ]
 }
