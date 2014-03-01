@@ -140,6 +140,59 @@ return [
             'Device_Maker' => 'Samsung'
         ],
     ],
+    'issue-156' => [
+        'BOT/0.1 (BOT for JCE)',
+        [
+            'Browser' => 'BOT for JCE',
+            'Version' => '0.1',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-149' => [
+        'Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)',
+        [
+            'Browser' => 'Paper.li Bot',
+            'Version' => '2.1',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-148' => [
+        'Yahoo:LinkExpander:Slingstone',
+        [
+            'Browser' => 'Yahoo Slingstone',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-147' => [
+        'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp',
+        [
+            'Browser' => 'Yahoo! Slurp',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-146' => [
+        'Mozilla/4.0 (compatible; MSIE 7.0;Windows NT 5.1;.NET CLR 1.1.4322;.NET CLR 2.0.50727;.NET CLR 3.0.04506.30) Lightspeedsystems',
+        [
+            'Browser' => 'Lightspeedsystems',
+            'Platform' => 'WinXP',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
+    'issue-145' => [
+        'Nokia7230/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
+        [
+            'Browser' => 'Nokia',
+            'Platform' => 'JAVA',
+            'isMobileDevice' => true,
+            'Device_Name' => '7230',
+            'Device_Maker' => 'Nokia'
+        ],
+    ],
     'issue-141' => [
         'Mozilla/5.0 TYPO3-linkvalidator',
         [

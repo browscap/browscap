@@ -956,6 +956,25 @@
         "Parent": "Rippers",
         "Browser": "Zend_Http_Client"
       }
+    },
+    {
+      "userAgent": "BOT\/* (BOT for JCE)*",
+      "properties": {
+        "Parent": "Rippers",
+        "Comment": "JCE vulnerability scanner",
+        "Browser": "BOT for JCE"
+      }
+    },
+    {
+      "userAgent": "BOT\/0.1* (BOT for JCE)*",
+      "properties": {
+        "Parent": "Rippers",
+        "Comment": "JCE vulnerability scanner",
+        "Browser": "BOT for JCE",
+        "Version": "0.1",
+        "MajorVer": "0",
+        "MinorVer": "1"
+      }
     }
   ]
 }
