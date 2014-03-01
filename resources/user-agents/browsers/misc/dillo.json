@@ -1,13 +1,17 @@
 {
-  "division": "Dillo",
+  "division": "Dillo #MAJORVER#.#MINORVER#",
+  "versions": ["0.6", "0.7", "0.8", "2.0", "3.0"],
   "sortIndex": 2330,
   "userAgents": [
     {
-      "userAgent": "Dillo",
+      "userAgent": "Dillo #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Dillo",
+        "Comment": "Dillo #MAJORVER#.#MINORVER#",
         "Browser": "Dillo",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Platform": "Linux",
         "Frames": "true",
         "IFrames": "true",
@@ -15,63 +19,15 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.6*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.7*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.7",
-        "MajorVer": "0",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.8*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.8",
-        "MajorVer": "0",
-        "MinorVer": "8"
-      }
-    },
-    {
-      "userAgent": "Dillo\/2.0",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    }
-    {
-      "userAgent": "Dillo\/3.0",
-      "properties": {
-        "Parent": "Dillo",
-        "Browser_FullName": "Dillo 3.0",
-        "Browser_Version": "3.0",
-        "Version": "3.0",
-        "MajorVer": "3"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; X11; Dillo\/3.0*)",
-      "properties": {
-        "Parent": "Dillo",
-        "Browser_FullName": "Dillo 3.0",
-        "Browser_Version": "3.0",
-        "Version": "3.0",
-        "MajorVer": "3"
-      }
+      },
+      "children": [
+        {
+          "match": "Dillo\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; X11; Dillo\/#MAJORVER#.#MINORVER#*)"
+        }
+      ]
     }
   ]
 }
