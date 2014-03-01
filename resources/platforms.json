@@ -463,7 +463,16 @@
     "Linux": {
       "match": "*Linux*",
       "properties": {
+        "Browser_Bits": "32",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
@@ -477,35 +486,80 @@
     "Linux_32": {
       "match": "*Linux i686*",
       "properties": {
+        "Browser_Bits": "32",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
       "properties": {
+        "Browser_Bits": "32",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
     "Linux_32_x586": {
       "match": "*Linux i586*",
       "properties": {
+        "Browser_Bits": "32",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
     "Linux_32_x86": {
       "match": "*Linux x86*",
       "properties": {
+        "Browser_Bits": "32",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
     "Linux_64": {
       "match": "*Linux x86_64*",
       "properties": {
+        "Browser_Bits": "64",
         "Platform": "Linux",
+        "Platform_Name": "Linux",
+        "Platform_FullName": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Win32": "false"
       }
     },
@@ -1361,6 +1415,10 @@
       "match": "*FreeBSD*",
       "properties": {
         "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1368,6 +1426,10 @@
       "match": "*FreeBSD*i386*",
       "properties": {
         "Platform": "FreeBSD",
+        "Platform_Name": "FreeBSD",
+        "Platform_FullName": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1375,6 +1437,25 @@
       "match": "*HP-UX*",
       "properties": {
         "Platform": "HP-UX",
+        "Platform_Name": "HP-UX",
+        "Platform_FullName": "HP-UX",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Win32": "false"
+      }
+    },
+    "HPUX_2": {
+      "match": "*HPUX*",
+      "properties": {
+        "Platform": "HP-UX",
+        "Platform_Name": "HP-UX",
+        "Platform_FullName": "HP-UX",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
         "Win32": "false"
       }
     },
@@ -1382,6 +1463,19 @@
       "match": "*OpenBSD*",
       "properties": {
         "Platform": "OpenBSD",
+        "Platform_Name": "OpenBSD",
+        "Platform_FullName": "OpenBSD",
+        "Device_Type": "Desktop",
+        "Win32": "false"
+      }
+    },
+    "NetBSD": {
+      "match": "*NetBSD*",
+      "properties": {
+        "Platform": "NetBSD",
+        "Platform_Name": "NetBSD",
+        "Platform_FullName": "NetBSD",
+        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1389,6 +1483,12 @@
       "match": "*SunOS*",
       "properties": {
         "Platform": "SunOS",
+        "Platform_Name": "SunOS",
+        "Platform_FullName": "SunOS",
+        "Platform_Version": "",
+        "Platform_Maker": "Oracle",
+        "Device_Type": "Desktop",
+        "Device_Brand_Name": "Oracle",
         "Win32": "false"
       }
     },
@@ -1396,6 +1496,26 @@
       "match": "*IRIX64*",
       "properties": {
         "Platform": "IRIX64",
+        "Platform_Name": "IRIX64",
+        "Platform_FullName": "IRIX64",
+        "Platform_Maker": "SGI",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Maker": "SGI",
+        "Device_Brand_Name": "SGI",
+        "Win32": "false"
+      }
+    },
+    "IRIX64_2": {
+      "match": "*IRIX*",
+      "properties": {
+        "Platform": "IRIX",
+        "Platform_Name": "IRIX",
+        "Platform_FullName": "IRIX",
+        "Platform_Maker": "SGI",
+        "Device_Type": "Desktop",
+        "Device_Maker": "SGI",
+        "Device_Brand_Name": "SGI",
         "Win32": "false"
       }
     },
@@ -1403,6 +1523,10 @@
       "match": "*OS/2*",
       "properties": {
         "Platform": "OS/2",
+        "Platform_Name": "OS/2",
+        "Platform_FullName": "OS/2",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1434,8 +1558,11 @@
       "match": "*UNIX*",
       "properties": {
         "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
         "Win32": "false",
-        "isMobileDevice": "false"
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop"
       }
     },
     "Bada_1_0": {
@@ -1493,7 +1620,7 @@
       }
     },
     "webOS_10": {
-      "match": "*webOS/1.**",
+      "match": "*webOS/1.*",
       "properties": {
         "Platform": "webOS",
         "Platform_Version": "1.0",
@@ -1591,12 +1718,94 @@
       }
     },
     "Darwin": {
-      "match": "*Darwin/**",
+      "match": "*Darwin/*",
       "properties": {
         "Platform": "Darwin",
+        "Platform_Name": "Darwin",
+        "Platform_FullName": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
+        "Win32": "false"
+      }
+    },
+    "AIX": {
+      "match": "*AIX*",
+      "properties": {
+        "Platform": "AIX",
+        "Platform_Name": "AIX",
+        "Platform_FullName": "AIX",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop",
+        "Device_Maker": "IBM",
+        "Device_Brand_Name": "IBM",
+        "Win32": "false"
+      }
+    },
+    "BeOS": {
+      "match": "*BeOS*",
+      "properties": {
+        "Platform": "BeOS",
+        "Platform_Name": "BeOS",
+        "Platform_FullName": "BeOS",
+        "Platform_Maker": "Access",
+        "Device_Type": "Desktop",
+        "Win32": "false"
+      }
+    },
+    "CygWin": {
+      "match": "*CygWin*",
+      "properties": {
+        "Platform": "CygWin",
+        "Platform_Name": "CygWin",
+        "Platform_FullName": "CygWin",
         "Win32": "false",
-        "Device_Maker": "Apple"
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    "Digital_Unix": {
+      "match": "*Digital Unix*",
+      "properties": {
+        "Platform": "Tru64 UNIX",
+        "Platform_Name": "Tru64 UNIX",
+        "Platform_FullName": "Tru64 UNIX",
+        "Platform_Bits": "64",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Win32": "false",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP"
+      }
+    },
+    "RISC_OS": {
+      "match": "*RISC*",
+      "properties": {
+        "Platform": "RISC OS",
+        "Platform_Name": "RISC OS",
+        "Platform_FullName": "RISC OS",
+        "Device_Type": "Desktop",
+        "Win32": "false"
+      }
+    },
+    "Solaris": {
+      "match": "*Solaris*",
+      "properties": {
+        "Platform": "Solaris",
+        "Platform_Name": "Solaris",
+        "Platform_FullName": "Solaris",
+        "Platform_Maker": "Oracle",
+        "Device_Type": "Desktop",
+        "Win32": "false",
+        "Device_Maker": "Oracle",
+        "Device_Brand_Name": "Oracle"
       }
     }
   }
