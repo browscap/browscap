@@ -76,9 +76,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 continue;
             }
 
-            $fileData = require_once $file->getPathname();
+            $tests = require_once $file->getPathname();
 
-            $data = array_merge($data, $fileData);
+            foreach ($tests as $test) {
+                $data[] = $test;
+            }
         }
 
         return $data;
