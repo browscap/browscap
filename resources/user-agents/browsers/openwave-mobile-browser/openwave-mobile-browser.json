@@ -38,6 +38,17 @@
         "MajorVer": "1",
         "MinorVer": "0"
       }
+    },
+    {
+      "userAgent": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Device_Name": "S312",
+        "Device_Maker": "SonyEricsson"
+      }
     }
   ]
 }

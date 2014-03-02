@@ -44,6 +44,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "properties": {
+            "Device_Name": "GT-S7562",
+            "Device_Maker": "Samsung",
+            "RenderingEngine_Name": "U3",
+            "RenderingEngine_Description": "a WebKit Fork by UC Web"
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "RenderingEngine_Name": "WebKit",
@@ -70,6 +82,46 @@
             "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
             "WinPhone7_B", "WinPhone8_B",
             "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/* (#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1"
+          ]
+        },
+        {
+          "match": "UCWEB\/* (#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "properties": {
+            "Device_Name": "GT-S5360",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/* (#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "properties": {
+            "Device_Name": "GT-S7562",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/* (#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "properties": {
+            "Device_Name": "A27",
+            "Device_Maker": "Micromax"
+          },
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
           ]
         },
         {
