@@ -65,7 +65,21 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     public function userAgentDataProvider()
     {
-        $data = require_once __DIR__ . '/../fixtures/TestUserAgents.php';
+        $data = array();
+        $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
+
+        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
+
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || $file->getExtension() != 'php') {
+                continue;
+            }
+
+            $fileData = require_once $file->getPathname();
+
+            $data = array_merge($data, $fileData);
+        }
 
         return $data;
     }
