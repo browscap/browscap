@@ -1,6 +1,145 @@
 <?php
 
 return [
+    'issue-142K' => [
+        'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5',
+        [
+            'Browser' => 'Safari',
+            'Version' => '5.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '4.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142J' => [
+        'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+',
+        [
+            'Browser' => 'Safari',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142I' => [
+        'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7',
+        [
+            'Browser' => 'Safari',
+            'Version' => '4.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '4.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142H' => [
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3',
+        [
+            'Browser' => 'Safari',
+            'Version' => '5.1',
+            'Platform' => 'iOS',
+            'Platform_Version' => '5.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142G' => [
+        'Mozilla/5.0 (iPad; U; CPU like Mac OS X; en) AppleWebKit/420+',
+        [
+            'Browser' => 'Safari',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPad',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142F' => [
+        'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25',
+        [
+            'Browser' => 'Safari',
+            'Version' => '6.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '6.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPad',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142E' => [
+        'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53',
+        [
+            'Browser' => 'Safari',
+            'Version' => '7.0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '7.0',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'iPad',
+            'Device_Maker' => 'Apple'
+        ],
+    ],
+    'issue-142D' => [
+        'Dalvik/1.6.0 (Linux; U; Android 4.3; HTC One Build/JSS15J)',
+        [
+            'Browser' => 'Dalvik',
+            'Version' => '1.6',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'One',
+            'Device_Maker' => 'HTC'
+        ],
+    ],
+    'issue-142C' => [
+        'Mozilla/5.0 (Linux; Android 4.3; HTC One Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '32.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'One',
+            'Device_Maker' => 'HTC'
+        ],
+    ],
+    'issue-142B' => [
+        'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '32.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.2',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
+        ],
+    ],
+    'issue-142A' => [
+        'Mozilla/5.0 (Linux; Android 4.3; GT-I9505 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
+        [
+            'Browser' => 'Chrome',
+            'Version' => '32.0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.3',
+            'isMobileDevice' => true,
+            'Crawler' => false,
+            'Device_Name' => 'GT-I9505',
+            'Device_Maker' => 'Samsung'
+        ],
+    ],
     'issue-156' => [
         'BOT/0.1 (BOT for JCE)',
         [
@@ -225,6 +364,8 @@ return [
             'Platform_Version' => '6.0',
             'isMobileDevice' => true,
             'Crawler' => true,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
         ],
     ],
     'issue-117' => [
@@ -346,6 +487,8 @@ return [
             'Platform_Version' => '3.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'SCH-U820',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-CB' => [
@@ -368,6 +511,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GD350',
+            'Device_Maker' => 'LG'
         ],
     ],
     'issue-96-BZ' => [
@@ -390,6 +535,8 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HDX 8.9',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-BX' => [
@@ -400,6 +547,8 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HD 8.9',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-BW' => [
@@ -410,6 +559,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'SGH-T528g',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BV' => [
@@ -420,6 +571,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'S312',
+            'Device_Maker' => 'SonyEricsson'
         ],
     ],
     'issue-96-BU' => [
@@ -440,6 +593,8 @@ return [
             'Platform_Version' => '1.5',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-I5700',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BS' => [
@@ -451,6 +606,8 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-I5510',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BR' => [
@@ -473,6 +630,8 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-N7100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BP' => [
@@ -484,6 +643,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'INM8002KP'
         ],
     ],
     'issue-96-BO' => [
@@ -505,6 +665,8 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5570',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BM' => [
@@ -515,6 +677,8 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'G7300',
+            'Device_Maker' => 'Huawei'
         ],
     ],
     'issue-96-BL' => [
@@ -525,6 +689,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'R813T',
+            'Device_Maker' => 'OPPO'
         ],
     ],
     'issue-96-BK' => [
@@ -535,6 +701,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'B51+',
+            'Device_Maker' => 'sprd'
         ],
     ],
     'issue-96-BJ' => [
@@ -578,6 +746,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E3309T',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-BF' => [
@@ -639,6 +809,8 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
         ],
     ],
     'issue-96-AZ' => [
@@ -650,6 +822,8 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-I8350',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AY' => [
@@ -660,6 +834,8 @@ return [
             'Platform' => 'SymbianOS',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'U1',
+            'Device_Maker' => 'SonyEricsson'
         ],
     ],
     'issue-96-AX' => [
@@ -671,6 +847,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5302',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AW' => [
@@ -693,6 +871,8 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5570',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AU' => [
@@ -704,6 +884,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5360',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AT' => [
@@ -715,6 +897,8 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AS' => [
@@ -726,6 +910,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AR' => [
@@ -735,6 +921,8 @@ return [
             'Version' => '10.10',
             'isMobileDevice' => false,
             'Crawler' => false,
+            'Device_Name' => 'X650',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-AQ' => [
@@ -787,6 +975,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-AL' => [
@@ -798,6 +988,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A35',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-AK' => [
@@ -809,6 +1001,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-AJ' => [
@@ -820,6 +1014,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-AI' => [
@@ -831,6 +1027,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AH' => [
@@ -841,6 +1039,8 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HDX 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-AG' => [
@@ -862,6 +1062,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-B7722',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AE' => [
@@ -873,6 +1075,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AD' => [
@@ -904,6 +1108,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-AA' => [
@@ -926,6 +1132,8 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'OT-4030D',
+            'Device_Maker' => 'Alcatel'
         ],
     ],
     'issue-96-Y' => [
@@ -947,6 +1155,8 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-W' => [
@@ -956,6 +1166,8 @@ return [
             'Version' => '8.8',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-V' => [
@@ -966,6 +1178,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S3802',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-U' => [
@@ -977,6 +1191,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-T' => [
@@ -986,6 +1202,8 @@ return [
             'Version' => '10.10',
             'isMobileDevice' => false,
             'Crawler' => false,
+            'Device_Name' => 'X650',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-S' => [
@@ -996,6 +1214,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-C6712',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-R' => [
@@ -1016,6 +1236,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-C3262',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-P' => [
@@ -1048,6 +1270,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E2202',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-M' => [
@@ -1059,6 +1283,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-L' => [
@@ -1068,6 +1294,8 @@ return [
             'Version' => '4.4',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E2252',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-K' => [
@@ -1079,6 +1307,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A40',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-J' => [
@@ -1088,6 +1318,8 @@ return [
             'Version' => '4.4',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E1282T',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-I' => [
@@ -1099,6 +1331,8 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-H' => [
@@ -1110,6 +1344,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-G' => [
@@ -1141,6 +1377,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-D' => [
@@ -1152,6 +1390,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-96-C' => [
@@ -1162,6 +1402,8 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E1282T',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-96-B' => [
@@ -1173,6 +1415,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A35',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-96-A' => [
@@ -1184,6 +1428,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax'
         ],
     ],
     'issue-97' => [
@@ -1255,6 +1501,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+            'Device_Name' => 'D805',
+            'Device_Maker' => 'LG'
         ],
     ],
     'issue-84-A' => [
@@ -1271,6 +1519,8 @@ return [
             'Version' => '3.9',
             'Platform' => 'SymbianOS',
             'isMobileDevice' => true,
+            'Device_Name' => '306',
+            'Device_Maker' => 'Nokia'
         ],
     ],
     'issue-92-A' => [
@@ -1288,6 +1538,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100G',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-mobiles-E' => [
@@ -1298,6 +1550,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-mobiles-D' => [
@@ -1308,6 +1562,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100G',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-mobiles-C' => [
@@ -1318,6 +1574,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-mobiles-B' => [
@@ -1328,6 +1586,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-mobiles-A' => [
@@ -1338,6 +1598,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-82' => [
@@ -1460,6 +1722,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon'
         ],
     ],
     'issue-71-C' => [
@@ -1470,6 +1734,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-71-B' => [
@@ -1480,6 +1746,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-71-A' => [
@@ -1490,6 +1758,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung'
         ],
     ],
     'issue-69' => [
@@ -1678,6 +1948,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+            'Device_Name' => 'Nexus 4',
+            'Device_Maker' => 'LG'
         ],
     ],
     'chrome34' => [
@@ -1697,6 +1969,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+            'Device_Name' => 'Nexus 4',
+            'Device_Maker' => 'LG'
         ],
     ],
     'issue-48' => [
@@ -1814,11 +2088,13 @@ return [
     'issue-25' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HTC_One_X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Safari',
+            'Browser' => 'Android',
             'Version' => '4.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC'
         ],
     ],
     'issue-13' => [

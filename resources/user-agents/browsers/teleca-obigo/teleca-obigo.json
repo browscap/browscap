@@ -42,13 +42,13 @@
       }
     },
     {
-      "userAgent": "*MIC/WAP2.0*",
+      "userAgent": "*MIC\/WAP2.0*",
       "properties": {
         "Parent": "Teleca-Obigo"
       }
     },
     {
-      "userAgent": "*Teleca/WAP2.0*",
+      "userAgent": "*Teleca\/WAP2.0*",
       "properties": {
         "Parent": "Teleca-Obigo"
       }
@@ -60,21 +60,33 @@
       }
     },
     {
-      "userAgent": "BIRD_D670/1.00 Mtk6219/V7-05A Release/1.1.2005 Browser/Teleca *",
+      "userAgent": "BIRD_D670\/1.00 Mtk6219\/V7-05A Release\/1.1.2005 Browser\/Teleca *",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "D670",
+        "Device_Maker": "BIRD"
+      }
+    },
+    {
+      "userAgent": "ZONDA-ZMNG1900\/REV 2.*\/Teleca Q03B1",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "ZMNG1900",
+        "Device_Maker": "ZONDA"
+      }
+    },
+    {
+      "userAgent": "*Obigo\/WAP2.0*",
       "properties": {
         "Parent": "Teleca-Obigo"
       }
     },
     {
-      "userAgent": "ZONDA-ZMNG1900/REV 2.*/Teleca Q03B1",
+      "userAgent": "LG-GD350\/V100 Obigo/WAP2.0*",
       "properties": {
-        "Parent": "Teleca-Obigo"
-      }
-    },
-    {
-      "userAgent": "*Obigo/WAP2.0*",
-      "properties": {
-        "Parent": "Teleca-Obigo"
+        "Parent": "Teleca-Obigo",
+        "Device_Name": "GD350",
+        "Device_Maker": "LG"
       }
     },
     {

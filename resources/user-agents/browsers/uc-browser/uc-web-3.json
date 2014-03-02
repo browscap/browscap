@@ -73,6 +73,16 @@
           ]
         },
         {
+          "match": "UCWEB\/* (#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "properties": {
+            "Device_Name": "GT-I8350",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "WinPhone7_B", "WinPhone8_B"
+          ]
+        },
+        {
           "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
@@ -85,7 +95,7 @@
             "Device_Maker": "Apple"
           },
           "platforms": [
-              "iOS_C_7_0"
+            "iOS_C_7_0"
           ]
         }
       ]

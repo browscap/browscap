@@ -29,6 +29,13 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (Series40; *) Gecko/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Series40; Nokia306*) Gecko/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Name": "306",
+            "Device_Maker": "Nokia"
+          }
         }
       ]
     }
