@@ -40,6 +40,7 @@
       "userAgent": "Opera\/*(iPhone*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
+        "Platform": "iOS",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
       }

@@ -49,6 +49,16 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Name": "GT-I9100",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)Maxthon AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0"
