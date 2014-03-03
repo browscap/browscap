@@ -65,7 +65,27 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     public function userAgentDataProvider()
     {
-        $data = require_once __DIR__ . '/../fixtures/TestUserAgents.php';
+        $data = array();
+        $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
+
+        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
+
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || $file->getExtension() != 'php') {
+                continue;
+            }
+
+            $tests = require_once $file->getPathname();
+
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
+                }
+
+                $data[$key] = $test;
+            }
+        }
 
         return $data;
     }

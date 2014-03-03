@@ -173,7 +173,7 @@ class GrepCommand extends Command
             $this->logger->info($ua);
 
             return self::MODE_UNMATCHED;
-        } else if ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
+        } elseif ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
             $this->logger->info($ua);
 
             return self::MODE_MATCHED;
