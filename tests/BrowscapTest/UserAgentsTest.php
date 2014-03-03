@@ -78,8 +78,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
             $tests = require_once $file->getPathname();
 
-            foreach ($tests as $test) {
-                $data[] = $test;
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
+                }
+
+                $data[$key] = $test;
             }
         }
 
