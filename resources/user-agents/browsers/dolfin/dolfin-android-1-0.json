@@ -30,7 +30,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
           "platforms": [
-            "Android_4_0"
+            "Android", "Android_4_0"
           ]
         }
       ]

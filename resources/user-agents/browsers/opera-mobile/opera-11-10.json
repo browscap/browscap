@@ -30,7 +30,7 @@
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
           ]
         },

@@ -39,19 +39,19 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon",
           "platforms": [
-            "Android_2_3", "Android_4_0"
+            "Android", "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_2_3", "Android_4_0"
+            "Android", "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)Maxthon AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
-            "Android_2_3", "Android_4_0"
+            "Android", "Android_2_3", "Android_4_0"
           ]
         }
       ]

@@ -51,7 +51,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
@@ -78,7 +78,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
@@ -105,7 +105,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
@@ -134,7 +134,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_2"
+        "Android", "Android_4_2"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
@@ -188,7 +188,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
@@ -215,7 +215,7 @@
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     }
   ]
