@@ -75,7 +75,8 @@
           "properties": {
             "Parent": "Opera #MAJORVER#.#MINORVER#",
             "Platform": "JAVA",
-            "Device_Name": "MicromaxX650"
+            "Device_Name": "X650",
+            "Device_Maker": "Micromax"
           }
         }
       ]

@@ -314,6 +314,69 @@
         "Win32": "false"
       }
     },
+    "iOS_C_3_0": {
+      "match": "*CPU OS 3_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_3_1": {
+      "match": "*CPU OS 3_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_3_2": {
+      "match": "*CPU OS 3_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "3.2",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_4_0": {
+      "match": "*CPU OS 4_0* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.0",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_4_1": {
+      "match": "*CPU OS 4_1* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.1",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_4_2": {
+      "match": "*CPU OS 4_2* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.2",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
+    "iOS_C_4_3": {
+      "match": "*CPU OS 4_3* like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "iOS_C_5_0": {
       "match": "*CPU OS 5_0* like Mac OS X*",
       "properties": {
@@ -485,6 +548,14 @@
         "Win32": "false"
       }
     },
+    "iOS_F": {
+      "match": "*CPU like Mac OS X*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {
@@ -599,7 +670,8 @@
       "match": "*Linux x86_64*",
       "properties": {
         "Platform": "Debian",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win3.1": {
@@ -610,12 +682,12 @@
         "Platform_FullName": "Windows 3.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "3.1",
         "Platform_Description": "Windows 3.1",
         "Win16": "true",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win3.11": {
@@ -626,12 +698,12 @@
         "Platform_FullName": "Windows 3.11",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "3.11",
         "Platform_Description": "Windows 3.11",
         "Win16": "true",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win95": {
@@ -642,11 +714,11 @@
         "Platform_FullName": "Windows 95",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "95",
         "Platform_Description": "Windows 95",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "Win95_2": {
@@ -657,11 +729,11 @@
         "Platform_FullName": "Windows 95",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "95",
         "Platform_Description": "Windows 95",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "Win98": {
@@ -672,11 +744,11 @@
         "Platform_FullName": "Windows 98",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "98",
         "Platform_Description": "Windows 98",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "Win98_2": {
@@ -687,11 +759,11 @@
         "Platform_FullName": "Windows 98",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "98",
         "Platform_Description": "Windows 98",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "WinME": {
@@ -702,11 +774,11 @@
         "Platform_FullName": "Windows ME",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "ME",
         "Platform_Description": "Windows ME",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "WinME_2": {
@@ -717,11 +789,11 @@
         "Platform_FullName": "Windows ME",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "ME",
         "Platform_Description": "Windows ME",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "NT4": {
@@ -732,11 +804,11 @@
         "Platform_FullName": "Windows NT",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "4.0",
         "Platform_Description": "Windows NT",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "NT4_2": {
@@ -747,11 +819,11 @@
         "Platform_FullName": "Windows NT",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "4.0",
         "Platform_Description": "Windows NT",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "NT4_1": {
@@ -762,11 +834,11 @@
         "Platform_FullName": "Windows NT",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "4.1",
         "Platform_Description": "Windows NT",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "NT4_64": {
@@ -777,7 +849,6 @@
         "Platform_FullName": "Windows NT",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "4.1",
         "Platform_Description": "Windows NT",
@@ -793,7 +864,6 @@
         "Platform_FullName": "Windows NT",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Description": "Windows NT",
         "Win32": "false",
@@ -808,7 +878,6 @@
         "Platform_FullName": "Windows 2000",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
@@ -823,7 +892,6 @@
         "Platform_FullName": "Windows 2000",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.01",
         "Platform_Description": "Windows 2000",
@@ -838,7 +906,6 @@
         "Platform_FullName": "Windows 2000",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
@@ -853,7 +920,6 @@
         "Platform_FullName": "Windows 2000",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
@@ -869,7 +935,6 @@
         "Platform_FullName": "Windows 2000",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.0",
         "Platform_Description": "Windows 2000",
@@ -885,7 +950,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
@@ -900,7 +964,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
@@ -916,7 +979,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
@@ -932,7 +994,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.1",
         "Platform_Description": "Windows XP",
@@ -948,7 +1009,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
@@ -963,7 +1023,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
@@ -979,7 +1038,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
@@ -995,7 +1053,6 @@
         "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
@@ -1011,7 +1068,6 @@
         "Platform_FullName": "Windows Vista",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
@@ -1026,7 +1082,6 @@
         "Platform_FullName": "Windows Vista",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
@@ -1042,7 +1097,6 @@
         "Platform_FullName": "Windows Vista",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
@@ -1058,7 +1112,6 @@
         "Platform_FullName": "Windows Vista",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.0",
         "Platform_Description": "Windows Vista",
@@ -1074,7 +1127,6 @@
         "Platform_FullName": "Windows 7",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
@@ -1089,7 +1141,6 @@
         "Platform_FullName": "Windows 7",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
@@ -1105,7 +1156,6 @@
         "Platform_FullName": "Windows 7",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
@@ -1121,7 +1171,6 @@
         "Platform_FullName": "Windows 7",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.1",
         "Platform_Description": "Windows 7",
@@ -1137,7 +1186,6 @@
         "Platform_FullName": "Windows 8",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
@@ -1152,7 +1200,6 @@
         "Platform_FullName": "Windows 8",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
@@ -1168,7 +1215,6 @@
         "Platform_FullName": "Windows 8",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.2",
         "Platform_Description": "Windows 8",
@@ -1184,7 +1230,6 @@
         "Platform_FullName": "Windows 8.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
@@ -1199,7 +1244,6 @@
         "Platform_FullName": "Windows 8.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
@@ -1215,7 +1259,6 @@
         "Platform_FullName": "Windows 8.1",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
         "Device_Type": "Desktop",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows 8.1",
@@ -1358,7 +1401,7 @@
       }
     },
     "Android_2_3_B": {
-      "match": "*Linux* Build/GINGERBREAD*",
+      "match": "* Build/GINGERBREAD*",
       "properties": {
         "Platform": "Android",
         "Platform_Version": "2.3",

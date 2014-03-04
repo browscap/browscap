@@ -44,6 +44,7 @@
       "userAgent": "Opera\/*(*iPad*Opera Mini\/9.*)*",
       "properties": {
         "Parent": "Opera Mini 9.0",
+        "Platform": "iOS",
         "Device_Name": "iPad",
         "Device_Maker": "Apple"
       }
@@ -52,6 +53,7 @@
       "userAgent": "Opera\/*(*iPhone*Opera Mini\/9.*)*",
       "properties": {
         "Parent": "Opera Mini 9.0",
+        "Platform": "iOS",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple"
       }
