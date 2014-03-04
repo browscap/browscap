@@ -100,8 +100,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_1"

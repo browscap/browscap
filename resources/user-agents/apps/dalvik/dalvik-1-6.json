@@ -108,8 +108,10 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
           "properties": {
-            "Device_Name": "One",
-            "Device_Maker": "HTC"
+            "Device_Code_Name": "M7",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "One"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -118,8 +120,10 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 *",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
