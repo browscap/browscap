@@ -69,6 +69,26 @@
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
+        },
+        {
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "properties": {
+            "Device_Name": "GT-N7100",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1"
+          ]
+        },
+        {
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "properties": {
+            "Device_Name": "GT-I9100",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1"
+          ]
         }
       ]
     }
