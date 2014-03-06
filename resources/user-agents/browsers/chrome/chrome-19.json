@@ -28,7 +28,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
-            "ChromeOS", "ChromeOS_i686", "ChromeOS_ARM",
+            "ChromeOS", "ChromeOS_i686", "ChromeOS_ARM", "FreeBSD",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
             "Linux", "Linux_32", "Linux_64", "Linux_32_x86",
@@ -92,7 +92,7 @@
             "Android",
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -266,7 +266,7 @@
             "Device_Name": "Galaxy S II"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -988,7 +988,7 @@
             "Device_Name": "Galaxy Nexus"
           },
           "platforms": [
-            "Android_4_1"
+            "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -1561,6 +1561,124 @@
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 7 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "isTablet": "true",
+            "Device_Code_Name": "Nexus 7",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Google",
+            "Device_Name": "Nexus 7",
+            "Device_isTablet": "true"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SGP321 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "isTablet": "true",
+            "Device_Code_Name": "SGP321",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia Tablet Z LTE",
+            "Device_isTablet": "true"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SGP321 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "isTablet": "true",
+            "Device_Code_Name": "SGP321",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia Tablet Z LTE",
+            "Device_isTablet": "true"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "Device_Code_Name": "Nexus 4",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Name": "Nexus 4"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "Device_Code_Name": "C6603",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "Xperia Z"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6602 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "Device_Code_Name": "C6602",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "Xperia Z"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6503 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_isMobileDevice": "true",
+            "Device_isDesktop": "false",
+            "Device_Code_Name": "C6503",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "Xperia Z"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
           ]
         }
       ]
