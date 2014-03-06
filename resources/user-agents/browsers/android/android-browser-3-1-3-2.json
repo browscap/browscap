@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; GT-I5700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; GT-I5700-ORANGE\/* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I5700-ORANGE\/* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Galaxy Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Galaxy",
             "Device_Maker": "Samsung",
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; HTC * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "HTC",
             "Device_Maker": "HTC",
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; HTC Hero Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Hero Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Hero",
             "Device_Maker": "HTC",
@@ -124,7 +124,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; HTC Magic Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Magic Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Magic",
             "Device_Maker": "HTC",
@@ -136,7 +136,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; MB200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#MB200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "MB200",
             "Device_Maker": "Motorola",
@@ -148,7 +148,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; MB300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#MB300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "MB300",
             "Device_Maker": "Motorola",
@@ -160,7 +160,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Pulse Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Pulse Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Pulse",
             "Device_Maker": "T-Mobile",
@@ -172,7 +172,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SPH-M900 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SPH-M900 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "SPH M900",
             "Device_Maker": "Samsung",
@@ -184,7 +184,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; T-Mobile G1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#T-Mobile G1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "G1",
             "Device_Maker": "T-Mobile",
@@ -196,7 +196,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; T-Mobile_G2_Touch Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#T-Mobile_G2_Touch Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "G2 Touch",
             "Device_Maker": "T-Mobile",
@@ -208,7 +208,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; WS171 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#WS171 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "WS171",
             "Device_Name": "WS171"
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; desirec) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#desirec) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Desire C",
             "Device_Maker": "HTC",
@@ -230,7 +230,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Archos5 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Archos5 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "5",
             "Device_Maker": "Archos",
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; E10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#E10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
@@ -254,7 +254,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; HTC Dream G1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Dream G1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Dream",
             "Device_Maker": "HTC",
@@ -266,7 +266,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; HTC Tattoo Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Tattoo Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Tattoo",
             "Device_Maker": "HTC",
@@ -278,7 +278,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; LG KH5200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG KH5200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "KH5200",
             "Device_Maker": "LG",
@@ -290,7 +290,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; LG-GT540* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-GT540* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "GT540",
             "Device_Maker": "LG",
@@ -302,7 +302,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SH-10B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SH-10B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "10B",
             "Device_Maker": "Sharp",
@@ -314,7 +314,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonE10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
@@ -326,7 +326,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonE10iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "E10iv",
             "Device_Maker": "SonyEricsson",
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonE15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "E15i",
             "Device_Maker": "SonyEricsson",
@@ -350,7 +350,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonU20i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonU20i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
@@ -362,7 +362,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonU20iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonU20iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "U20iv",
             "Device_Maker": "SonyEricsson",
@@ -374,7 +374,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonX10a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonX10a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "X10a",
             "Device_Maker": "SonyEricsson",
@@ -386,7 +386,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; SonyEricssonX10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonX10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
@@ -398,7 +398,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Zio Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Zio Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Zio",
             "Device_Name": "Zio"
@@ -408,7 +408,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; edge Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#edge Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Edge",
             "Device_Name": "Edge"
