@@ -645,6 +645,7 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Bits": "32",
         "Device_Type": "Desktop",
+        "Device_isDesktop": "true",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
         "Win32": "false"

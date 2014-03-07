@@ -1,6 +1,6 @@
 {
   "division": "Adbeat",
-  "sortIndex": 30,
+  "sortIndex": 40,
   "userAgents": [
     {
       "userAgent": "Adbeat",
@@ -10,22 +10,18 @@
         "Browser_Name": "Adbeat",
         "Browser_FullName": "Adbeat",
         "Browser_Maker": "adbeat.com"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox\/*AppleWebKit\/*Safari\/*",
+          "platforms": [
+            "Linux_32_x86"
+          ]
+        }
+      ]
     },
     {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux x86; *) adbeat.com* Gecko\/* Ubuntu\/* Firefox\/*AppleWebKit\/*Safari\/*",
-      "properties": {
-        "Parent": "Adbeat",
-        "Browser_Bits": "32",
-        "Platform": "Ubuntu",
-        "Platform_Name": "Ubuntu",
-        "Platform_FullName": "Ubuntu",
-        "Platform_Maker": "Canonical Ltd",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
-      }
+      "userAgent": ""
     }
   ]
 }
