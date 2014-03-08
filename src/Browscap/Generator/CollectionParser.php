@@ -42,7 +42,7 @@ class CollectionParser
     public function getDataCollection()
     {
         if (!isset($this->collection)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
+            throw new \LogicException('Data collection has not been set yet - call setDataCollection');
         }
 
         return $this->collection;
@@ -79,7 +79,7 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse a data collection into an array');
+            $this->getLogger()->debug('parse a data collection into an array for division "' . $division['userAgents'][0]['userAgent'] . '"');
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -179,12 +179,16 @@ class CollectionParser
      */
     private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
+        if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
+            throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
+        }
+        
         $output = array(
             $uaData['userAgent'] => array(
-                    'lite' => $lite,
-                    'sortIndex' => $sortIndex,
-                    'division' => $divisionName
-                ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
+                'lite' => $lite,
+                'sortIndex' => $sortIndex,
+                'division' => $divisionName
+            ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
 
         if (isset($uaData['children']) && is_array($uaData['children'])) {
