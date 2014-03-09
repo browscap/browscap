@@ -9,8 +9,10 @@ return [
             'Platform' => 'iOS',
             'Platform_Version' => '7.0',
             'Win64' => false,
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'Crawler' => true,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple'
         ],
     ],
 ];
