@@ -19,6 +19,10 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "1.9",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
@@ -30,7 +34,9 @@
         "Parent": "Fennec 4.0",
         "Platform": "Android",
         "Win32": "false",
-        "RenderingEngine_Version": "2.0"
+        "RenderingEngine_Version": "2.0",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {

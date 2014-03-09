@@ -18,6 +18,10 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "KHTML",
         "RenderingEngine_Description": "For Konqueror."
       }

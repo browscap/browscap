@@ -1,173 +1,173 @@
 {
-  "division": "Netscape 6.0",
-  "sortIndex": 2943,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Netscape 6.0",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Netscape 6.0",
-        "Browser": "Netscape",
-        "Version": "6.0",
-        "MajorVer": "6",
-        "MinorVer": "0",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "2",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; ?; PPC;*) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "MacPPC",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win95;*) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win95",
-        "Platform_Version": "95",
-        "Platform_Description": "Windows 95"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win98; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win98",
-        "Platform_Version": "98",
-        "Platform_Description": "Windows 98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Win9x 4.90; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinME",
-        "Platform_Description": "Windows ME"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 4.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinNT",
-        "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT4.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinNT",
-        "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win2000",
-        "Platform_Description": "Windows 2000"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.1; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinXP",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.2; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinXP",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT6.0; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "WinVista",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT6.1; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Win7",
-        "Platform_Description": "Windows 7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; ?; *) Gecko\/* Netscape6\/6.*",
-      "properties": {
-        "Parent": "Netscape 6.0",
-        "Platform": "Linux",
-        "Win32": "false"
-      }
-    }
-  ]
+    "division": "Netscape 6.0",
+    "sortIndex": 2943,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "Netscape 6.0",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Netscape 6.0",
+                "Browser": "Netscape",
+                "Version": "6.0",
+                "MajorVer": "6",
+                "MinorVer": "0",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "2",
+                "RenderingEngine_Name": "Gecko",
+                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; ?; PPC;*) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "MacPPC",
+                "Win32": "false"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Win95;*) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win95",
+                "Platform_Version": "95",
+                "Platform_Description": "Windows 95"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Win98; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win98",
+                "Platform_Version": "98",
+                "Platform_Description": "Windows 98"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Win9x 4.90; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinME",
+                "Platform_Description": "Windows ME"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 4.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinNT",
+                "Platform_Version": "4.0",
+                "Platform_Description": "Windows NT"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win2000",
+                "Platform_Version": "5.0",
+                "Platform_Description": "Windows 2000"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinXP",
+                "Platform_Version": "5.1",
+                "Platform_Description": "Windows XP"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinXP",
+                "Platform_Version": "5.2",
+                "Platform_Description": "Windows XP"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinVista",
+                "Platform_Version": "6.0",
+                "Platform_Description": "Windows Vista"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 6.1; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win7",
+                "Platform_Version": "6.1",
+                "Platform_Description": "Windows 7"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT4.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinNT",
+                "Platform_Version": "4.0",
+                "Platform_Description": "Windows NT"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win2000",
+                "Platform_Description": "Windows 2000"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.1; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinXP",
+                "Platform_Description": "Windows XP"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT5.2; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinXP",
+                "Platform_Description": "Windows XP"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT6.0; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "WinVista",
+                "Platform_Description": "Windows Vista"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; ?; WinNT6.1; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Win7",
+                "Platform_Description": "Windows 7"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (X11; ?; *) Gecko\/* Netscape6\/6.*",
+            "properties": {
+                "Parent": "Netscape 6.0",
+                "Platform": "Linux",
+                "Win32": "false"
+            }
+        }
+    ]
 }

@@ -19,7 +19,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -46,7 +47,9 @@
         "Parent": "Opera Mini 9.0",
         "Platform": "iOS",
         "Device_Name": "iPad",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -55,7 +58,9 @@
         "Parent": "Opera Mini 9.0",
         "Platform": "iOS",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {

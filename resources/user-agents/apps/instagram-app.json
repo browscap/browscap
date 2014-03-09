@@ -23,13 +23,15 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
           "match": "Instagram #MAJORVER#.#MINORVER#* (#PLATFORM#) AppleWebKit\/*",
           "platforms": [
-            "iOS_A", 
+            "iOS_A",
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
             "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1"
           ]

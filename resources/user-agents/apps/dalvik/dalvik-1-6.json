@@ -18,7 +18,9 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
@@ -31,7 +33,9 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
           "properties": {
             "Device_Name": "One",
-            "Device_Maker": "HTC"
+            "Device_Maker": "HTC",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -40,8 +44,10 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 *",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy S II",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

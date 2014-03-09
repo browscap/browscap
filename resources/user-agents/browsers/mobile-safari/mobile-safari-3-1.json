@@ -21,6 +21,9 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -40,7 +43,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.0",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -51,7 +55,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.0",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -60,7 +65,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.0",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -69,7 +75,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.1",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -80,7 +87,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.1",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -89,7 +97,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.1",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -98,7 +107,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.2",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -109,7 +119,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.2",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mpbile Phone"
       }
     },
     {
@@ -118,7 +129,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.2",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -129,7 +141,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.0",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -138,7 +151,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.0",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -147,7 +161,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.0",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -158,7 +173,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.1",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -167,7 +183,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.1",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -176,7 +193,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.1",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -187,7 +205,8 @@
         "MajorVer": "0",
         "Platform_Version": "2.2",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -196,7 +215,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.2",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -205,7 +225,8 @@
         "Parent": "Mobile Safari 3.1",
         "Platform_Version": "2.2",
         "Device_Name": "iPod",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Device"
       }
     }
   ]

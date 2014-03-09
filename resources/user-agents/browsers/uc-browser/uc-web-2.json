@@ -20,7 +20,9 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "isMobileDevice": "true",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
@@ -85,7 +87,7 @@
             "Device_Maker": "Apple"
           },
           "platforms": [
-              "iOS_C_7_0", "iOS_C_7_1"
+            "iOS_C_7_0", "iOS_C_7_1"
           ]
         }
       ]

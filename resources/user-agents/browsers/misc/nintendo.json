@@ -1,56 +1,49 @@
 {
-  "division": "Nintendo",
-  "sortIndex": 1550,
-  "userAgents": [
-    {
-      "userAgent": "Nintendo Wii",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Nintendo",
-        "Browser": "",
-        "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
-      "properties": {
-        "Parent": "Nintendo Wii",
-        "Browser": "DSi"
-      }
-    },
-    {
-      "userAgent": "Opera\/* (Nintendo Wii; U; *)",
-      "properties": {
-        "Parent": "Nintendo Wii",
-        "Browser": "Wii"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
-      "properties": {
-        "Parent": "Nintendo Wii",
-        "Browser": "WiiU"
-      }
-    },
-    {
-      "userAgent": "VLC Media Player",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "vlc\/*",
-      "properties": {
-        "Parent": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
-      "properties": {
-        "Parent": "Nintendo Wii",
-        "Browser": "Nintendo 3DS"
-      }
-    }
-  ]
+    "division": "Nintendo",
+    "sortIndex": 1550,
+    "userAgents": [
+        {
+            "userAgent": "Nintendo Wii",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Nintendo",
+                "Browser": "",
+                "isMobileDevice": "true",
+                "Device_Name": "Wii",
+                "Device_Maker": "Nintendo",
+                "Device_Type": "Console"
+            }
+        },
+        {
+            "userAgent": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
+            "properties": {
+                "Parent": "Nintendo Wii",
+                "Browser": "DSi",
+                "Device_Name": "DSi"
+            }
+        },
+        {
+            "userAgent": "Opera\/* (Nintendo Wii; U; *)",
+            "properties": {
+                "Parent": "Nintendo Wii",
+                "Browser": "Wii"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
+            "properties": {
+                "Parent": "Nintendo Wii",
+                "Browser": "WiiU",
+                "Device_Name": "WiiU"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+            "properties": {
+                "Parent": "Nintendo Wii",
+                "Browser": "Nintendo 3DS",
+                "Device_Name": "3DS"
+            }
+        }
+    ]
 }

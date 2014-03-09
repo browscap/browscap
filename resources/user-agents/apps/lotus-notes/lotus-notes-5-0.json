@@ -10,7 +10,11 @@
         "Browser": "Lotus Notes",
         "Version": "5.0",
         "MajorVer": "5",
-        "MinorVer": "0"
+        "MinorVer": "0",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

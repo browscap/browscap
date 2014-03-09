@@ -18,7 +18,9 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

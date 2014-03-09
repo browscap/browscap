@@ -20,7 +20,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

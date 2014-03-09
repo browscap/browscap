@@ -1,6 +1,6 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["12.00","12.10","12.11","12.12","12.13","12.14","12.15","12.16","12.17"],
+  "versions": ["12.00", "12.10", "12.11", "12.12", "12.13", "12.14", "12.15", "12.16", "12.17"],
   "sortIndex": 2863,
   "lite": true,
   "userAgents": [
@@ -21,6 +21,10 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "2.12.388",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."

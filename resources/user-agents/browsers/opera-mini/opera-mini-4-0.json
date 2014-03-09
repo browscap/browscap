@@ -19,7 +19,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
       }
     },
     {

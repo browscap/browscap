@@ -9,7 +9,10 @@
         "Comment": "Links",
         "Browser": "Links",
         "Frames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
       }
     },
     {

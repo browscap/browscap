@@ -16,7 +16,8 @@
         "JavaScript": "true",
         "CssVersion": "1",
         "Device_Name": "Netbox",
-        "Device_Maker": "Sony"
+        "Device_Maker": "Sony",
+        "Device_Type": "TV"
       }
     },
     {

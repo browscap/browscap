@@ -1,51 +1,51 @@
 {
-  "division": "Become",
-  "sortIndex": 540,
-  "userAgents": [
-    {
-      "userAgent": "Become",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Become",
-        "Browser": "Become",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*BecomeBot\/*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "BecomeBot"
-      }
-    },
-    {
-      "userAgent": "*BecomeBot@exava.com*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "BecomeBot"
-      }
-    },
-    {
-      "userAgent": "*Exabot@exava.com*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "Exabot"
-      }
-    },
-    {
-      "userAgent": "MonkeyCrawl\/*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "MonkeyCrawl"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "BecomeJPBot"
-      }
-    }
-  ]
+    "division": "Become",
+    "sortIndex": 540,
+    "userAgents": [
+        {
+            "userAgent": "Become",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Become",
+                "Browser": "Become",
+                "isSyndicationReader": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*BecomeBot\/*",
+            "properties": {
+                "Parent": "Become",
+                "Browser": "BecomeBot"
+            }
+        },
+        {
+            "userAgent": "*BecomeBot@exava.com*",
+            "properties": {
+                "Parent": "Become",
+                "Browser": "BecomeBot"
+            }
+        },
+        {
+            "userAgent": "*Exabot@exava.com*",
+            "properties": {
+                "Parent": "Become",
+                "Browser": "Exabot"
+            }
+        },
+        {
+            "userAgent": "MonkeyCrawl\/*",
+            "properties": {
+                "Parent": "Become",
+                "Browser": "MonkeyCrawl"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
+            "properties": {
+                "Parent": "Become",
+                "Browser": "BecomeJPBot"
+            }
+        }
+    ]
 }

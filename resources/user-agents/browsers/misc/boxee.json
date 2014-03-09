@@ -15,7 +15,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "Device_Name": "Boxee",
-        "Device_Maker": "D-Link"
+        "Device_Maker": "D-Link",
+        "Device_Type": "TV"
       }
     },
     {

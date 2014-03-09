@@ -19,6 +19,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "2",
+        "Device_Type": "Mobile Device",
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Description": "For Access NetFront."
       }

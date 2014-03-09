@@ -1,57 +1,57 @@
 {
-  "division": "Dillo",
-  "sortIndex": 2330,
-  "userAgents": [
-    {
-      "userAgent": "Dillo",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Dillo",
-        "Browser": "Dillo",
-        "Platform": "Linux",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.6*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.7*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.7",
-        "MajorVer": "0",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "Dillo\/0.8*",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "0.8",
-        "MajorVer": "0",
-        "MinorVer": "8"
-      }
-    },
-    {
-      "userAgent": "Dillo\/2.0",
-      "properties": {
-        "Parent": "Dillo",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    }
-  ]
+    "division": "Dillo",
+    "sortIndex": 2330,
+    "userAgents": [
+        {
+            "userAgent": "Dillo",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Dillo",
+                "Browser": "Dillo",
+                "Platform": "Linux",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "CssVersion": "2"
+            }
+        },
+        {
+            "userAgent": "Dillo\/0.6*",
+            "properties": {
+                "Parent": "Dillo",
+                "Version": "0.6",
+                "MajorVer": "0",
+                "MinorVer": "6"
+            }
+        },
+        {
+            "userAgent": "Dillo\/0.7*",
+            "properties": {
+                "Parent": "Dillo",
+                "Version": "0.7",
+                "MajorVer": "0",
+                "MinorVer": "7"
+            }
+        },
+        {
+            "userAgent": "Dillo\/0.8*",
+            "properties": {
+                "Parent": "Dillo",
+                "Version": "0.8",
+                "MajorVer": "0",
+                "MinorVer": "8"
+            }
+        },
+        {
+            "userAgent": "Dillo\/2.0",
+            "properties": {
+                "Parent": "Dillo",
+                "Version": "2.0",
+                "MajorVer": "2",
+                "MinorVer": "0"
+            }
+        }
+    ]
 }

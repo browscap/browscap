@@ -16,7 +16,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "Device_Name": "PowerTV",
-        "Device_Maker": "Scientific Atlanta"
+        "Device_Maker": "Scientific Atlanta",
+        "Device_Type": "TV"
       }
     },
     {

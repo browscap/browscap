@@ -19,7 +19,9 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
@@ -33,7 +35,9 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -44,7 +48,9 @@
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -55,7 +61,9 @@
           "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -66,7 +74,9 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -77,7 +87,9 @@
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -88,7 +100,9 @@
           "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
