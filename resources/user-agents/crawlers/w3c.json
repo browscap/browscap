@@ -98,6 +98,13 @@
         "Parent": "W3C",
         "Browser": "W3CRobot"
       }
+    },
+    {
+      "userAgent": "Validator.nu/LV*",
+      "properties": {
+        "Parent": "W3C",
+        "Browser": "Validator.nu/LV"
+      }
     }
   ]
 }

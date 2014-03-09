@@ -96,6 +96,16 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Name": "Nexus 4",
+            "Device_Maker": "LG"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android", "Android_4_0"
