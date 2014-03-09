@@ -9,7 +9,6 @@
         "Category": "Library",
         "SubCategory": "Library",
         "Browser_Type": "Library",
-        "Browser_SubType": "Library",
         "Browser": "cURL PHP",
         "Browser_Name": "cURL PHP",
         "Browser_FullName": "cURL PHP",
