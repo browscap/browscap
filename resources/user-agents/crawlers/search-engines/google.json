@@ -213,6 +213,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "properties": {
+            "isMobileDevice": "true"
+          },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0"
@@ -222,7 +225,8 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/* Mobile\/* Safari\/*",
           "properties": {
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -234,7 +238,8 @@
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
-            "MinorVer": "2"
+            "MinorVer": "2",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -248,7 +253,8 @@
             "MajorVer": "3",
             "MinorVer": "2",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
