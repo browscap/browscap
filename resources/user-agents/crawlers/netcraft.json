@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Netcraft",
         "Browser": "Netcraft",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

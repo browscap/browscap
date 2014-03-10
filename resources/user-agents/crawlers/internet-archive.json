@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Internet Archive",
         "Browser": "Internet Archive",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

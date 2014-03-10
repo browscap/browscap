@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "WebTV\/MSNTV",
         "Browser": "WebTV\/MSNTV",
+        "Browser_Type": "Application",
         "Platform": "WebTV",
         "Frames": "true",
         "IFrames": "true",

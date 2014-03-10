@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "iSiloX",
         "Browser": "iSiloX",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

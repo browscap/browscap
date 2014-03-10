@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Amaya",
         "Browser": "Amaya",
+        "Browser_Type": "Application",
         "Frames": "true",
         "Tables": "true"
       }

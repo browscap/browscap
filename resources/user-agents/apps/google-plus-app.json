@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Google+ App",
         "Browser": "Google+ App",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

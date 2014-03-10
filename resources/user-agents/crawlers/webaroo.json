@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Webaroo",
         "Browser": "Webaroo",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

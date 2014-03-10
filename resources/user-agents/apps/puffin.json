@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Puffin",
         "Browser": "Puffin",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
         "Browser": "Windows Media Player",
+        "Browser_Type": "Application",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
         "Browser": "Dalvik",
+        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

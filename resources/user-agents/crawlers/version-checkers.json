@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Version Checkers",
         "Browser": "Version Checkers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Validation Checkers",
         "Browser": "HTML Validators",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

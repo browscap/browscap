@@ -9,6 +9,7 @@
         "Comment": "General RSS",
         "Browser": "General RSS",
         "isSyndicationReader": "true",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "douban App",
         "Browser": "douban App",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
