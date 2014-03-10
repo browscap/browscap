@@ -1,111 +1,115 @@
 {
-    "division": "Netscape 4.0",
-    "sortIndex": 2940,
-    "userAgents": [
-        {
-            "userAgent": "Netscape 4.0",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Netscape 4.0",
-                "Browser": "Netscape",
-                "Version": "4.0",
-                "MajorVer": "4",
-                "MinorVer": "0",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Macintosh*PPC*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "MacPPC"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Win2000*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Win32": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Win95*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "Win95",
-                "Platform_Description": "Windows 95"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Win98*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "Win98",
-                "Platform_Description": "Windows 98"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Windows NT 4.0*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "WinNT",
-                "Platform_Version": "4.0",
-                "Platform_Description": "Windows NT",
-                "Win32": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Windows NT 5.0*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Description": "Windows 2000",
-                "Win32": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(Windows NT 5.1*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "WinXP",
-                "Platform_Version": "5.1",
-                "Platform_Description": "Windows XP",
-                "Win32": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(WinNT*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "WinNT",
-                "Platform_Description": "Windows NT",
-                "Win32": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(X11*Linux*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "Linux"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.*(X11*SunOS*)*",
-            "properties": {
-                "Parent": "Netscape 4.0",
-                "Platform": "SunOS"
-            }
-        }
-    ]
+  "division": "Netscape 4.0",
+  "sortIndex": 2940,
+  "userAgents": [
+    {
+      "userAgent": "Netscape 4.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netscape 4.0",
+        "Browser": "Netscape",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Macintosh*PPC*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "MacPPC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Win2000*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Win95*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Win98*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "Win98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Windows NT 4.0*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Windows NT 5.0*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(Windows NT 5.1*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(WinNT*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "WinNT",
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(X11*Linux*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "Linux"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.*(X11*SunOS*)*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "SunOS"
+      }
+    }
+  ]
 }

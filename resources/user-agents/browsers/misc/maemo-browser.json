@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Maemo Browser",
         "Browser": "Maemo",
+        "Platform": "Maemo",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

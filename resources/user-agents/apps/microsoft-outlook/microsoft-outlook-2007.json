@@ -8,6 +8,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2007",
+        "Browser_Type": "Application",
         "Browser": "Microsoft Outlook",
         "Version": "2007",
         "MajorVer": "2007",

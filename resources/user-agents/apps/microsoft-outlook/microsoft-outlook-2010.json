@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2010",
         "Browser": "Microsoft Outlook",
+        "Browser_Type": "Application",
         "Version": "2010",
         "MajorVer": "2010",
         "Frames": "true",

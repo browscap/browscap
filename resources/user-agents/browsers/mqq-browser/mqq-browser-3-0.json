@@ -20,7 +20,6 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
-
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "QuickTime 10.0",
         "Browser": "QuickTime",
+        "Browser_Type": "Application",
         "Version": "10.0",
         "MajorVer": "10",
         "MinorVer": "0",

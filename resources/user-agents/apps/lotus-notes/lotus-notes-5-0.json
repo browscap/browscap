@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes 5.0",
         "Browser": "Lotus Notes",
+        "Browser_Type": "Application",
         "Version": "5.0",
         "MajorVer": "5",
         "MinorVer": "0",

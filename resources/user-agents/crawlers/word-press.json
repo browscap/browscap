@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Word Press",
         "Browser": "Word Press",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

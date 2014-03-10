@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Download Managers",
         "Browser": "Download Managers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

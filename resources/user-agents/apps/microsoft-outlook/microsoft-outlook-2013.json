@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2013",
         "Browser": "Microsoft Outlook",
+        "Browser_Type": "Application",
         "Version": "2013",
         "MajorVer": "2013",
         "Frames": "true",

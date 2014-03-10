@@ -1,44 +1,45 @@
 {
-    "division": "Dolfin #MAJORVER#.#MINORVER#",
-    "versions": ["2.2"],
-    "sortIndex": 1702,
-    "lite": true,
-    "userAgents": [
+  "division": "Dolfin #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
+  "sortIndex": 1702,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dolfin #MAJORVER#.#MINORVER#",
+        "Browser": "Dolfin",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Bada",
+        "Platform_Description": "Samsung Bada",
+        "Platform_Version": "1.2",
+        "Win32": "false",
+        "Device_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Device",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
         {
-            "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Dolfin #MAJORVER#.#MINORVER#",
-                "Browser": "Dolfin",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Platform": "Bada",
-                "Platform_Description": "Samsung Bada",
-                "Platform_Version": "1.2",
-                "Win32": "false",
-                "Device_Maker": "Samsung",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "3",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "Bada_1_2"
-                    ]
-                },
-                {
-                    "match": "Samsung-* Dolphin/#MAJORVER#.#MINORVER#*"
-                }
-            ]
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Samsung-* Dolphin/#MAJORVER#.#MINORVER#*"
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "E-Mail Harvesters",
         "Browser": "E-Mail Harvesters",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

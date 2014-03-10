@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Blue Coat Systems",
         "Browser": "Blue Coat Systems",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

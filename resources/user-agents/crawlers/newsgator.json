@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "NewsGator",
         "Browser": "NewsGator",
+        "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }

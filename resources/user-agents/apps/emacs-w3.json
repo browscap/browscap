@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Emacs\/W3",
         "Browser": "Emacs\/W3",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
