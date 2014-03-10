@@ -17,7 +17,14 @@
       },
       "children": [
         {
-          "match": "ELinks (#MAJORVER#.#MINORVER#*; *AIX*)",
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "platforms": [
+            "AIX", "BeOS", "CygWin", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2", "Linux",
+            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix", "SunOS"
+          ]
+        },
+        {
+          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "platforms": [
             "AIX", "BeOS", "CygWin", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2", "Linux",
             "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix", "SunOS"

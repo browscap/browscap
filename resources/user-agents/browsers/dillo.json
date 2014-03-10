@@ -1,0 +1,49 @@
+{
+  "division": "Dillo",
+  "sortIndex": 3840,
+  "userAgents": [
+    {
+      "userAgent": "Dillo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Dillo",
+        "Browser_Type": "Browser",
+        "Platform": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Dillo\/2.0",
+      "properties": {
+        "Parent": "Dillo",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Dillo\/3.0",
+      "properties": {
+        "Parent": "Dillo",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    }
+  ]
+}

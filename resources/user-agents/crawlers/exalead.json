@@ -12,6 +12,48 @@
         "Tables": "true",
         "Crawler": "true"
       }
+    }
+    {
+      "userAgent": "Exabot\/*",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Exabot\/*)",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Exabot-Images",
+      "properties": {
+        "Parent": "Exalead",
+        "Browser": "Exabot-Images"
+      },
+      "children": [
+        {
+          "match": "Exabot-Images\/*",
+          "properties": {
+            "Parent": "Exalead",
+            "Browser": "Exabot-Images"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)",
+          "properties": {
+            "Parent": "Exalead",
+            "Division": "Exalead",
+            "Browser": "Exabot-Images"
+          }
+        }
+      ]
     },
     {
       "userAgent": "Exabot-Images\/1.0",

@@ -1,0 +1,39 @@
+{
+  "division": "ESATCOM",
+  "sortIndex": 4050,
+  "userAgents": [
+    {
+      "userAgent": "ESATCOM",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "ESATCOM",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "ESATCOM-ES2100\/(2005.9.13)SW3.0\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0",
+      "properties": {
+        "Parent": "ESATCOM"
+      }
+    }
+  ]
+}

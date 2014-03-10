@@ -1,0 +1,33 @@
+{
+  "division": "Epiphany 2.22",
+  "sortIndex": 4030,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany 2.22",
+      "properties": {
+        "Parent": "Epiphany",
+        "Version": "2.22",
+        "MajorVer": "2",
+        "MinorVer": "22"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Epiphany\/2.22",
+      "properties": {
+        "Parent": "Epiphany 2.22"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) Gecko\/* Epiphany\/2.22 (Debian\/*)",
+      "properties": {
+        "Parent": "Epiphany 2.22"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.8*Gecko\/* Epiphany\/2.22*",
+      "properties": {
+        "Parent": "Epiphany 2.22"
+      }
+    }
+  ]
+}
