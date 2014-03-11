@@ -381,10 +381,13 @@ class CollectionParser
         switch ($propertyName) {
             case 'Comment':
             case 'Browser':
+            case 'Browser_Type':
             case 'Platform':
             case 'Platform_Description':
             case 'Device_Name':
             case 'Device_Maker':
+            case 'Device_Type':
+            case 'Device_Pointing_Method':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
             case 'Parent':
@@ -433,8 +436,11 @@ class CollectionParser
     public static function isExtraProperty($propertyName)
     {
         switch ($propertyName) {
+            case 'Browser_Type':
             case 'Device_Name':
             case 'Device_Maker':
+            case 'Device_Type':
+            case 'Device_Pointing_Method':
             case 'Platform_Description':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Version':
