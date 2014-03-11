@@ -34,10 +34,12 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
@@ -71,6 +73,18 @@
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9001 Build\/*) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "properties": {
+            "Device_Code_Name": "GT-I9001",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I9001"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         }
       ]

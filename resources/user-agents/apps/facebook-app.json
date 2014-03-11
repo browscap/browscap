@@ -32,6 +32,8 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple"
           },
@@ -43,6 +45,8 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple"
           },
@@ -54,6 +58,8 @@
         {
           "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple"
           },
@@ -65,6 +71,8 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple"
           },
@@ -76,6 +84,8 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple"
           },
@@ -87,7 +97,118 @@
         {
           "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML,*like Gecko*) Mobile ?FBAN\/FBForIPhone;*",
+          "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "iPod Touch",
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit (KHTML,*like Gecko*) Mobile ?FBAN\/FBForIPhone;FBAV\/4.1;*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* ?FBAN\/FBIOS;FBAV\/5.3;*",
+          "properties": {
+            "Version": "5.3",
+            "MajorVer": "5",
+            "MinorVer": "3",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* ?FBAN\/FBIOS;FBAV\/6.3;*",
+          "properties": {
+            "Version": "6.3",
+            "MajorVer": "6",
+            "MinorVer": "3",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* ?FBAN\/FBIOS;FBAV\/6.3;*",
+          "properties": {
+            "Version": "6.3",
+            "MajorVer": "6",
+            "MinorVer": "3",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* ?FBAN\/FBIOS;FBAV\/6.4*",
+          "properties": {
+            "Version": "6.4",
+            "MajorVer": "6",
+            "MinorVer": "4",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* ?FBAN\/FBIOS;FBAV\/6.4;*",
+          "properties": {
+            "Version": "6.4",
+            "MajorVer": "6",
+            "MinorVer": "4",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
             "Device_Maker": "Apple"
           },
           "platforms": [

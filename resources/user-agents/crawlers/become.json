@@ -33,16 +33,6 @@
       }
     },
     {
-      "userAgent": "*Exabot@exava.com*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "Exabot",
-        "Browser_Name": "Exabot",
-        "Browser_FullName": "Exabot",
-        "Browser_Maker": "www.exabot.com"
-      }
-    },
-    {
       "userAgent": "MonkeyCrawl\/*",
       "properties": {
         "Parent": "Become",

@@ -12,7 +12,7 @@
         "Tables": "true",
         "Crawler": "true"
       }
-    }
+    },
     {
       "userAgent": "Exabot\/*",
       "properties": {
@@ -39,31 +39,28 @@
       },
       "children": [
         {
-          "match": "Exabot-Images\/*",
+          "match": "Exabot-Images\/*"
+        },
+        {
+          "match": "Exabot-Images\/1.0*",
           "properties": {
-            "Parent": "Exalead",
-            "Browser": "Exabot-Images"
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)",
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
           "properties": {
-            "Parent": "Exalead",
-            "Division": "Exalead",
-            "Browser": "Exabot-Images"
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
           }
         }
       ]
-    },
-    {
-      "userAgent": "Exabot-Images\/1.0",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot-Images",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
     },
     {
       "userAgent": "Exabot-Test\/*",
@@ -101,16 +98,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot-Images",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
       "properties": {
         "Parent": "Exalead",
@@ -139,6 +126,16 @@
       "properties": {
         "Parent": "Exalead",
         "Browser": "Exalead Previewer"
+      }
+    },
+    {
+      "userAgent": "*Exabot@exava.com*",
+      "properties": {
+        "Parent": "Exalead",
+        "Browser": "Exabot",
+        "Browser_Name": "Exabot",
+        "Browser_FullName": "Exabot",
+        "Browser_Maker": "www.exabot.com"
       }
     }
   ]

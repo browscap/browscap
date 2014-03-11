@@ -14,6 +14,13 @@
       }
     },
     {
+      "userAgent": "facebookexternalhit\/* (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+      "properties": {
+        "Parent": "Facebook",
+        "Browser": "FacebookExternalHit"
+      }
+    },
+    {
       "userAgent": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
       "properties": {
         "Parent": "Facebook",
@@ -28,6 +35,29 @@
       "properties": {
         "Parent": "Facebook",
         "Browser": "FacebookExternalHit",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Facebook share follower",
+      "properties": {
+        "Parent": "Facebook"
+      }
+    },
+    {
+      "userAgent": "facebookplatform\/1.0 *",
+      "properties": {
+        "Parent": "Facebook",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Facebook API PHP5 Client 1.1 (curl)*",
+      "properties": {
+        "Parent": "Facebook",
         "Version": "1.1",
         "MajorVer": "1",
         "MinorVer": "1"

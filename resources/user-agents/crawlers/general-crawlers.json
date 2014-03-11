@@ -721,16 +721,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Ezooms\/1.0; *)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Ezooms",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
       "properties": {
         "Parent": "DefaultProperties",

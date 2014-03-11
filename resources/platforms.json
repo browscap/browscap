@@ -1718,6 +1718,16 @@
         "Device_Maker": "Google"
       }
     },
+    "AndroidLinux": {
+      "match": "*Android; Linux*",
+      "properties": {
+        "Platform": "Android",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Name": "Android",
+        "Device_Maker": "Google"
+      }
+    },
     "AndroidTablet": {
       "match": "*Android*Tablet*",
       "properties": {
@@ -1881,6 +1891,17 @@
         "Device_Type": "Desktop"
       }
     },
+    "Unix_B": {
+      "match": "*Unix*",
+      "properties": {
+        "Platform": "Unix",
+        "Platform_Name": "Unix",
+        "Platform_FullName": "Unix",
+        "Win32": "false",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop"
+      }
+    },
     "Bada_1_0": {
       "match": "*Bada/1.*",
       "properties": {
@@ -2034,7 +2055,7 @@
       }
     },
     "Darwin": {
-      "match": "*Darwin/*",
+      "match": "*Darwin*",
       "properties": {
         "Platform": "Darwin",
         "Platform_Name": "Darwin",
@@ -2122,6 +2143,18 @@
         "Win32": "false",
         "Device_Maker": "Oracle",
         "Device_Brand_Name": "Oracle"
+      }
+    },
+    "Maemo": {
+      "match": "*Maemo; Linux*",
+      "properties": {
+        "Platform": "Linux Smartphone OS",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Win32": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
       }
     }
   }
