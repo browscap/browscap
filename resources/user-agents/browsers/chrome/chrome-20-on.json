@@ -92,8 +92,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy S II",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",

@@ -101,7 +101,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
+            "Device_Name": "Galaxy S II",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
@@ -160,7 +160,7 @@
         {
           "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
+            "Device_Name": "Galaxy S II",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"

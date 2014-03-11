@@ -9,8 +9,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'Galaxy S II',
+            'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -23,8 +23,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'Galaxy S II',
+            'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -37,8 +37,8 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'Galaxy S II',
+            'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],

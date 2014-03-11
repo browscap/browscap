@@ -141,7 +141,7 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9100',
+            'Device_Name' => 'Galaxy S II',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
