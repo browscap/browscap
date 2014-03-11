@@ -72,13 +72,20 @@ class BrowscapIniGenerator extends AbstractGenerator
      * @param string  $output
      * @param array   $allProperties
      *
+     * @throws \InvalidArgumentException
      * @return string
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
         $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
-            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+            if (!isset($properties['division'])) {
+                throw new \InvalidArgumentException('"division" is missing for key "' . $key . '"');
+            }
+
+            $this->logger->debug(
+                'rendering division "' . $properties['division'] . '" - "' . $key . '"'
+            );
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
