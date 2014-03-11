@@ -59,14 +59,11 @@
       ]
     },
     {
-      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "userAgent": "Firefox Generic for Android",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
-        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "Firefox Generic",
+        "Comment": "Firefox Generic",
         "Browser": "Firefox",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
@@ -81,7 +78,6 @@
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "unknown",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": [
