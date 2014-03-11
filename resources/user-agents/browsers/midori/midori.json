@@ -21,7 +21,6 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "2",
-        "isMobileDevice": "true",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",

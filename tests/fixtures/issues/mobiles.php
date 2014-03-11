@@ -9,6 +9,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100G',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-mobiles-E' => [
@@ -19,6 +23,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-mobiles-D' => [
@@ -29,6 +37,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100G',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-mobiles-C' => [
@@ -39,6 +51,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-mobiles-B' => [
@@ -49,6 +65,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-mobiles-A' => [
@@ -59,6 +79,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
+            'Device_Name' => 'GT-I9100',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

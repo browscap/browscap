@@ -9,6 +9,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
+            'Device_Name' => 'Nexus 4',
+            'Device_Maker' => 'LG',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

@@ -10,6 +10,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-CD' => [
@@ -23,6 +27,8 @@ return [
             'Crawler' => false,
             'Device_Name' => 'TouchPad',
             'Device_Maker' => 'HP',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-CC' => [
@@ -34,6 +40,10 @@ return [
             'Platform_Version' => '3.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-CB' => [
@@ -46,7 +56,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-CA' => [
@@ -56,6 +68,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GD350',
+            'Device_Maker' => 'LG',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BZ' => [
@@ -67,7 +83,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPod Touch',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BY' => [
@@ -78,6 +96,10 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BX' => [
@@ -88,6 +110,10 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BW' => [
@@ -98,6 +124,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'SGH T528g',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BV' => [
@@ -108,6 +138,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'S312',
+            'Device_Maker' => 'SonyEricsson',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BU' => [
@@ -128,6 +162,10 @@ return [
             'Platform_Version' => '1.5',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BS' => [
@@ -139,6 +177,10 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BR' => [
@@ -161,6 +203,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BP' => [
@@ -172,6 +218,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BO' => [
@@ -193,6 +243,10 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BM' => [
@@ -203,6 +257,10 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'G7300',
+            'Device_Maker' => 'Huawei',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BL' => [
@@ -213,6 +271,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'R813T',
+            'Device_Maker' => 'OPPO',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BK' => [
@@ -223,6 +285,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BJ' => [
@@ -243,7 +309,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BH' => [
@@ -255,7 +323,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BG' => [
@@ -266,6 +336,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E3309T',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BF' => [
@@ -277,6 +351,10 @@ return [
             'Platform_Version' => '3.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BE' => [
@@ -297,6 +375,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BC' => [
@@ -306,6 +388,10 @@ return [
             'Version' => '8.8',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BB' => [
@@ -316,6 +402,10 @@ return [
             'Platform' => 'Brew',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'SCH-U750',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-BA' => [
@@ -327,6 +417,10 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AZ' => [
@@ -338,6 +432,10 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-I8350',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AY' => [
@@ -348,6 +446,10 @@ return [
             'Platform' => 'SymbianOS',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'U1',
+            'Device_Maker' => 'SonyEricsson',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AX' => [
@@ -359,6 +461,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5302',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AW' => [
@@ -381,6 +487,10 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5570',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AU' => [
@@ -392,6 +502,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S5360',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AT' => [
@@ -403,6 +517,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AS' => [
@@ -414,6 +532,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AR' => [
@@ -464,6 +586,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AM' => [
@@ -475,6 +601,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AL' => [
@@ -486,6 +616,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A35',
+            'Device_Maker' => 'Micromax',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AK' => [
@@ -497,6 +631,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AJ' => [
@@ -508,6 +646,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AI' => [
@@ -519,6 +661,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AH' => [
@@ -529,6 +675,10 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AG' => [
@@ -550,6 +700,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-B7722',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AE' => [
@@ -561,6 +715,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AD' => [
@@ -592,6 +750,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7562',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-AA' => [
@@ -614,6 +776,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'OT-4030D',
+            'Device_Maker' => 'Alcatesl',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-Y' => [
@@ -624,6 +790,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-X' => [
@@ -635,6 +805,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-W' => [
@@ -644,6 +818,10 @@ return [
             'Version' => '8.8',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-V' => [
@@ -654,6 +832,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S3802',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-U' => [
@@ -665,6 +847,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-S7262',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-T' => [
@@ -684,6 +870,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-C6712',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-R' => [
@@ -694,6 +884,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-Q' => [
@@ -704,6 +898,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-C3262',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-P' => [
@@ -715,6 +913,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-O' => [
@@ -726,6 +928,10 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-N' => [
@@ -736,6 +942,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'E2202',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-M' => [
@@ -747,6 +957,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-L' => [
@@ -756,6 +970,10 @@ return [
             'Version' => '4.4',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E2252',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-K' => [
@@ -776,6 +994,10 @@ return [
             'Version' => '4.4',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E1282',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-I' => [
@@ -787,6 +1009,10 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-H' => [
@@ -798,6 +1024,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-G' => [
@@ -809,6 +1039,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-F' => [
@@ -829,6 +1063,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-D' => [
@@ -840,6 +1078,10 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-C' => [
@@ -850,6 +1092,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'GT-E1282T',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-B' => [
@@ -861,6 +1107,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'A35',
+            'Device_Maker' => 'Micromax',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-A' => [
@@ -872,6 +1122,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'A27',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

@@ -8,6 +8,9 @@ return [
             'Version' => '3.9',
             'Platform' => 'SymbianOS',
             'isMobileDevice' => true,
+            'Device_Name' => '306',
+            'Device_Maker' => 'Nokia',
+            'Device_Type' => 'Mobile Phone',
         ],
     ],
     'issue-92-A' => [

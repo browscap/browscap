@@ -57,6 +57,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'One X',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

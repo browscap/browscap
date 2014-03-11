@@ -8,6 +8,9 @@ return [
             'Version' => '26.0',
             'Platform' => 'Android',
             'isMobileDevice' => true,
+            'Device_Name' => 'general Mobile Device',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];
