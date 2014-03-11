@@ -40,8 +40,8 @@ return [
             'Platform_Version' => '3.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'SCH-U820',
+            'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
