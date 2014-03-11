@@ -19,10 +19,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-84-F' => [

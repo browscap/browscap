@@ -22,6 +22,8 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
@@ -32,7 +34,25 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Mobile;*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Mobile;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Mobile;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Tablet;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Tablet;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
       }

@@ -10,7 +10,7 @@ return [
             'Device_Name' => '7230',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
 ];

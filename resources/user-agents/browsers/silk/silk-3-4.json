@@ -61,7 +61,9 @@
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
+        "Device_Maker": "Amazon",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -69,7 +71,9 @@
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
+        "Device_Maker": "Amazon",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -77,7 +81,9 @@
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "Device_Name": "Kindle Fire HD 7",
-        "Device_Maker": "Amazon"
+        "Device_Maker": "Amazon",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
         "Android_4_0"

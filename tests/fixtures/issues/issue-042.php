@@ -7,7 +7,7 @@ return [
             'Browser' => 'BlackBerry',
             'Platform' => 'BlackBerry OS',
             'isMobileDevice' => true,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Blackberry',
             'Device_Maker' => 'Blackberry',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
