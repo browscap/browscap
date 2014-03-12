@@ -78,6 +78,16 @@
       }
     },
     {
+      "userAgent": "Opera\/*(BREW*Opera Mini\/5.*)*Samsung SCH-U750*",
+      "properties": {
+        "Parent": "Opera Mini 5.0",
+        "Platform": "Brew",
+        "Device_Name": "Alias 2",
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
+      }
+    },
+    {
       "userAgent": "Opera\/*(*BREW*Opera Mini\/5.*)*",
       "properties": {
         "Parent": "Opera Mini 5.0",

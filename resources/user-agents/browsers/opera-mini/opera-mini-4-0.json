@@ -116,7 +116,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-E1282T",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -125,7 +126,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-E2252",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -134,7 +136,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-E2202",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -143,7 +146,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-E3309T",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     }
   ]

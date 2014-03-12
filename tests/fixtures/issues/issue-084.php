@@ -22,7 +22,7 @@ return [
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown'
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-84-F' => [

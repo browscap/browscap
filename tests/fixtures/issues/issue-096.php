@@ -10,9 +10,9 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -27,7 +27,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'TouchPad',
             'Device_Maker' => 'HP',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -71,7 +71,7 @@ return [
             'Device_Name' => 'GD350',
             'Device_Maker' => 'LG',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-BZ' => [
@@ -96,9 +96,9 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire HDX 8.9',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -110,9 +110,9 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire HD 8.9',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -124,7 +124,7 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'SGH T528g',
+            'Device_Name' => 'SGH-T528g',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -141,7 +141,7 @@ return [
             'Device_Name' => 'S312',
             'Device_Maker' => 'SonyEricsson',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-BU' => [
@@ -162,7 +162,7 @@ return [
             'Platform_Version' => '1.5',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Galaxy Spica',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -177,7 +177,7 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'GT-I5510',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -203,7 +203,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'GT-N7100',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -218,7 +218,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'INM8002KP',
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -243,7 +243,7 @@ return [
             'Platform_Version' => '2.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'GT-S5570',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -285,8 +285,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'B51+',
+            'Device_Maker' => 'sprd',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -351,8 +351,8 @@ return [
             'Platform_Version' => '3.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -375,8 +375,8 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'AT-AS40SE',
+            'Device_Maker' => 'Wolgang',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -388,8 +388,8 @@ return [
             'Version' => '8.8',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -402,7 +402,7 @@ return [
             'Platform' => 'Brew',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'SCH-U750',
+            'Device_Name' => 'Alias 2',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -586,8 +586,8 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -675,9 +675,9 @@ return [
             'Platform' => 'Android',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire HDX 7',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -777,7 +777,7 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'OT-4030D',
-            'Device_Maker' => 'Alcatesl',
+            'Device_Maker' => 'Alcatel',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -790,8 +790,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'MT6515M',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -835,7 +835,7 @@ return [
             'Device_Name' => 'GT-S3802',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-U' => [
@@ -847,7 +847,7 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-S7262',
+            'Device_Name' => 'GT-S7562',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -884,10 +884,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-Q' => [
@@ -913,10 +913,10 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-O' => [
@@ -928,10 +928,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-N' => [
@@ -942,10 +939,10 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'E2202',
+            'Device_Name' => 'GT-E2202',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-M' => [
@@ -957,9 +954,9 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire 7',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -994,7 +991,7 @@ return [
             'Version' => '4.4',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-E1282',
+            'Device_Name' => 'GT-E1282T',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
@@ -1009,9 +1006,9 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire HD 7',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -1024,9 +1021,9 @@ return [
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
+            'Device_Name' => 'Kindle Fire 7',
             'Device_Maker' => 'Amazon',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -1039,8 +1036,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'HTC',
+            'Device_Name' => 'G9',
+            'Device_Maker' => 'Mastone',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -1122,8 +1119,8 @@ return [
             'Platform_Version' => '2.3',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'One X',
-            'Device_Maker' => 'A27',
+            'Device_Name' => 'A27',
+            'Device_Maker' => 'Micromax',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],

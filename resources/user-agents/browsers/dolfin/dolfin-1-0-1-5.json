@@ -36,7 +36,8 @@
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -44,7 +45,8 @@
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-S5620",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -52,7 +54,8 @@
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "GT-B7722",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -67,7 +70,8 @@
       "properties": {
         "Parent": "Dolfin #MAJORVER#.#MINORVER#",
         "Device_Name": "SGH-T528g",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     }
   ]

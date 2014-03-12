@@ -211,7 +211,8 @@
         {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Mastone G9",
+            "Device_Name": "G9",
+            "Device_Maker": "Mastone",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
@@ -240,6 +241,7 @@
           "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
           "properties": {
             "Device_Name": "AT-AS40SE",
+            "Device_Maker": "Wolgang",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },

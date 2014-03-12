@@ -8,7 +8,7 @@ return [
             'Platform' => 'BlackBerry OS',
             'isMobileDevice' => true,
             'Device_Name' => 'Blackberry',
-            'Device_Maker' => 'Blackberry',
+            'Device_Maker' => 'RIM',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],

@@ -34,25 +34,25 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Mobile;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Android; Mobile;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Tablet;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Android; Tablet;#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
       }
