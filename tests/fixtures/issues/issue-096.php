@@ -700,7 +700,7 @@ return [
             'Device_Name' => 'GT-B7722',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-AE' => [
@@ -990,7 +990,7 @@ return [
             'Device_Name' => 'GT-E1282T',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-I' => [
