@@ -10,7 +10,7 @@ return [
             'Device_Name' => 'Blackberry',
             'Device_Maker' => 'RIM',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
 ];

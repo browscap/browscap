@@ -9,7 +9,7 @@ return [
             'Platform' => 'FirefoxOS',
             'isMobileDevice' => true,
             'Device_Name' => 'general Mobile Device',
-            'Device_Maker' => 'HTC',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],

@@ -10,9 +10,7 @@ return [
             'Platform_Version' => '4.1',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'unknown',
-            'Device_Maker' => 'unknown',
-            'Device_Type' => 'Tablet',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
@@ -127,7 +125,7 @@ return [
             'Device_Name' => 'SGH-T528g',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-BV' => [
@@ -219,7 +217,6 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'INM8002KP',
-            'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -339,7 +336,7 @@ return [
             'Device_Name' => 'GT-E3309T',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-BF' => [
@@ -405,7 +402,7 @@ return [
             'Device_Name' => 'Alias 2',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-BA' => [
@@ -791,7 +788,6 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'MT6515M',
-            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen'
         ],
@@ -873,7 +869,7 @@ return [
             'Device_Name' => 'GT-C6712',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-R' => [
@@ -886,7 +882,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'unknown'
         ],
     ],
@@ -901,7 +897,7 @@ return [
             'Device_Name' => 'GT-C3262',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-P' => [
@@ -916,7 +912,7 @@ return [
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown'
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-96-O' => [
@@ -970,7 +966,7 @@ return [
             'Device_Name' => 'GT-E2252',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-K' => [
@@ -1092,7 +1088,7 @@ return [
             'Device_Name' => 'GT-E1282T',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen'
+            'Device_Pointing_Method' => 'unknown'
         ],
     ],
     'issue-96-B' => [

@@ -48,13 +48,15 @@
     {
       "userAgent": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
+        "Device_Type": "Tablet"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
+        "Device_Type": "Tablet"
       }
     }
   ]
