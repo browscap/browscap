@@ -152,13 +152,6 @@
       }
     },
     {
-      "userAgent": "FindLinks\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "FindLinks"
-      }
-    },
-    {
       "userAgent": "Funnel Web Profiler*",
       "properties": {
         "Parent": "Link Checkers",

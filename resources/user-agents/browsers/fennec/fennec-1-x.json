@@ -31,6 +31,14 @@
             "OSX",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux",
+            "OSX",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
         }
       ]
     }

@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "general Mobile Device",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "general Mobile Device",
@@ -48,6 +48,20 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isMobileDevice": "false",
             "Device_Type": "Desktop",

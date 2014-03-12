@@ -1,8 +1,7 @@
 {
   "division": "Fennec #MAJORVER#.#MINORVER#",
-  "versions": [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
-  "sortIndex": 3425,
-  "lite": true,
+  "versions": ["4.0", "5.0"],
+  "sortIndex": 3421,
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
@@ -13,7 +12,7 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
+        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,12 +21,12 @@
         "isMobileDevice": "true",
         "CssVersion": "3",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Version": "2.0",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "general Mobile Device",
@@ -38,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "general Mobile Device",
@@ -46,6 +45,34 @@
           },
           "platforms": [
             "AndroidTablet"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Linux"
           ]
         },
         {

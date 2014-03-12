@@ -1,0 +1,34 @@
+{
+  "division": "findlinks",
+  "sortIndex": 440,
+  "userAgents": [
+    {
+      "userAgent": "findlinks",
+      "properties": {
+        "Parent": "Link Checkers",
+        "Browser": "FindLinks"
+      }
+    },
+    {
+      "userAgent": "FindLinks\/*",
+      "properties": {
+        "Parent": "findlinks"
+      }
+    },
+    {
+      "userAgent": "findlinks\/*",
+      "properties": {
+        "Parent": "findlinks"
+      }
+    },
+    {
+      "userAgent": "findlinks\/2.6*",
+      "properties": {
+        "Parent": "findlinks",
+        "Version": "2.6",
+        "MajorVer": "2",
+        "MinorVer": "6"
+      }
+    }
+  ]
+}
