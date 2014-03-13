@@ -180,20 +180,21 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
-                    case 'string':
+                    case CollectionParser::TYPE_STRING:
                         if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
                             $valueOutput = '"' . $value . '"';
                         }
                         break;
-                    case 'boolean':
+                    case CollectionParser::TYPE_BOOLEAN:
                         if (true === $value || $value === 'true') {
                             $valueOutput = 'true';
                         } elseif (false === $value || $value === 'false') {
                             $valueOutput = 'false';
                         }
                         break;
-                    case 'generic':
-                    case 'number':
+                    case CollectionParser::TYPE_IN_ARRAY:
+                        $valueOutput = CollectionParser::checkValueInArray($property, $value);
+                        break;
                     default:
                         // nothing t do here
                         break;

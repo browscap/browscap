@@ -229,6 +229,10 @@ return [
             'Platform' => 'FreeBSD',
             'isMobileDevice' => false,
             'Crawler' => false,
+            'Device_Name' => 'TV',
+            'Device_Maker' => 'Panasonic',
+            'Device_Type' => 'TV Device',
+            'Device_Pointing_Method' => 'mouse',
         ],
     ],
     'issue-96-BN' => [

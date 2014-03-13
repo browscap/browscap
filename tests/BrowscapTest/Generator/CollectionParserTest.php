@@ -26,39 +26,42 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     public function propertyNameTypeDataProvider()
     {
         return [
-            ['Comment', 'string'],
-            ['Browser', 'string'],
-            ['Platform', 'string'],
-            ['Platform_Description', 'string'],
-            ['Device_Name', 'string'],
-            ['Device_Maker', 'string'],
-            ['RenderingEngine_Name', 'string'],
-            ['RenderingEngine_Description', 'string'],
-            ['Parent', 'string'],
-            ['Platform_Version', 'generic'],
-            ['RenderingEngine_Version', 'generic'],
-            ['Version', 'number'],
-            ['MajorVer', 'number'],
-            ['MinorVer', 'number'],
-            ['CssVersion', 'number'],
-            ['AolVersion', 'number'],
-            ['Alpha', 'boolean'],
-            ['Beta', 'boolean'],
-            ['Win16', 'boolean'],
-            ['Win32', 'boolean'],
-            ['Win64', 'boolean'],
-            ['Frames', 'boolean'],
-            ['IFrames', 'boolean'],
-            ['Tables', 'boolean'],
-            ['Cookies', 'boolean'],
-            ['BackgroundSounds', 'boolean'],
-            ['JavaScript', 'boolean'],
-            ['VBScript', 'boolean'],
-            ['JavaApplets', 'boolean'],
-            ['ActiveXControls', 'boolean'],
-            ['isMobileDevice', 'boolean'],
-            ['isSyndicationReader', 'boolean'],
-            ['Crawler', 'boolean'],
+            ['Comment', CollectionParser::TYPE_STRING],
+            ['Browser', CollectionParser::TYPE_STRING],
+            ['Platform', CollectionParser::TYPE_STRING],
+            ['Platform_Description', CollectionParser::TYPE_STRING],
+            ['Device_Name', CollectionParser::TYPE_STRING],
+            ['Device_Maker', CollectionParser::TYPE_STRING],
+            ['RenderingEngine_Name', CollectionParser::TYPE_STRING],
+            ['RenderingEngine_Description', CollectionParser::TYPE_STRING],
+            ['Parent', CollectionParser::TYPE_STRING],
+            ['Platform_Version', CollectionParser::TYPE_GENERIC],
+            ['RenderingEngine_Version', CollectionParser::TYPE_GENERIC],
+            ['Version', CollectionParser::TYPE_NUMBER],
+            ['MajorVer', CollectionParser::TYPE_NUMBER],
+            ['MinorVer', CollectionParser::TYPE_NUMBER],
+            ['CssVersion', CollectionParser::TYPE_NUMBER],
+            ['AolVersion', CollectionParser::TYPE_NUMBER],
+            ['Alpha', CollectionParser::TYPE_BOOLEAN],
+            ['Beta', CollectionParser::TYPE_BOOLEAN],
+            ['Win16', CollectionParser::TYPE_BOOLEAN],
+            ['Win32', CollectionParser::TYPE_BOOLEAN],
+            ['Win64', CollectionParser::TYPE_BOOLEAN],
+            ['Frames', CollectionParser::TYPE_BOOLEAN],
+            ['IFrames', CollectionParser::TYPE_BOOLEAN],
+            ['Tables', CollectionParser::TYPE_BOOLEAN],
+            ['Cookies', CollectionParser::TYPE_BOOLEAN],
+            ['BackgroundSounds', CollectionParser::TYPE_BOOLEAN],
+            ['JavaScript', CollectionParser::TYPE_BOOLEAN],
+            ['VBScript', CollectionParser::TYPE_BOOLEAN],
+            ['JavaApplets', CollectionParser::TYPE_BOOLEAN],
+            ['ActiveXControls', CollectionParser::TYPE_BOOLEAN],
+            ['isMobileDevice', CollectionParser::TYPE_BOOLEAN],
+            ['isSyndicationReader', CollectionParser::TYPE_BOOLEAN],
+            ['Crawler', CollectionParser::TYPE_BOOLEAN],
+            ['Browser_Type', CollectionParser::TYPE_IN_ARRAY],
+            ['Device_Type', CollectionParser::TYPE_IN_ARRAY],
+            ['Device_Pointing_Method', CollectionParser::TYPE_IN_ARRAY],
         ];
     }
 
@@ -120,6 +123,9 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ['isMobileDevice', false],
             ['isSyndicationReader', false],
             ['Crawler', false],
+            ['Browser_Type', true],
+            ['Device_Type', true],
+            ['Device_Pointing_Method', true],
         ];
     }
 
@@ -172,6 +178,9 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ['sortIndex', false],
             ['Parents', false],
             ['division', false],
+            ['Browser_Type', true],
+            ['Device_Type', true],
+            ['Device_Pointing_Method', true],
         ];
     }
 
@@ -182,6 +191,42 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     {
         $actualValue = CollectionParser::isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
+    }
+
+    public function checkValueInArrayProvider()
+    {
+        return [
+            ['Browser_Type', 'Browser'],
+            ['Device_Type', 'Tablet'],
+            ['Device_Pointing_Method', 'touchscreen'],
+        ];
+    }
+
+    /**
+     * @dataProvider checkValueInArrayProvider
+     */
+    public function testCheckValueInArray($propertyName, $propertyValue)
+    {
+        $actualValue = CollectionParser::checkValueInArray($propertyName, $propertyValue);
+        self::assertSame($propertyValue, $actualValue);
+    }
+
+    /**
+     * @expectedException \InvalidArgumentException
+     * @expectedExceptionMessage Property "abc" is not defined to be validated
+     */
+    public function testCheckValueInArrayExceptionUndfinedProperty()
+    {
+        CollectionParser::checkValueInArray('abc', 'bcd');
+    }
+
+    /**
+     * @expectedException \InvalidArgumentException
+     * @expectedExceptionMessage invalid value given for Property "Browser_Type": given value "bcd", allowed:
+     */
+    public function testCheckValueInArrayExceptionWrongValue()
+    {
+        CollectionParser::checkValueInArray('Browser_Type', 'bcd');
     }
 
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
@@ -326,7 +371,9 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             )
         );
 
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false);
+        $mock = $this->getMock(
+            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+        );
         $mock->expects($this->once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
