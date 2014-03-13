@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [1],
+  "versions": ["1.0", "1.4", "1.5", "1.6"],
   "sortIndex": 3140,
   "userAgents": [
     {
@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (X11; *; DragonFly*; *; rv:1.*) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (X11*; DragonFly*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": []
         }
       ]

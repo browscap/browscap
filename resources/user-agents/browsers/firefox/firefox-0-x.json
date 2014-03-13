@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "FreeBSD_386", "NetBSD", "HPUX", "IRIX64", "Linux",
             "OSX", "OpenBSD", "SunOS", "OS2", "SunOS",
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (X11; *; DragonFly*; *; rv:1.*) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (X11*; DragonFly*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": []
         }
       ]
