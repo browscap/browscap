@@ -515,6 +515,7 @@ class CollectionParser
                     'Mobile Device',
                     'FonePad', // Tablet sized device with the capability to make phone calls
                     'Desktop',
+                    'Ebook Reader',
                     'unknown',
                 );
                 break;
