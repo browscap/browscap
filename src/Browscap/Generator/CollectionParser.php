@@ -502,7 +502,8 @@ class CollectionParser
                     'Feed Reader',
                     'Email Client',
                     'Bot/Crawler',
-                    'unknown'
+                    'Application',
+                    'unknown',
                 );
                 break;
             case 'Device_Type':
@@ -514,7 +515,7 @@ class CollectionParser
                     'Mobile Device',
                     'FonePad', // Tablet sized device with the capability to make phone calls
                     'Desktop',
-                    'unknown'
+                    'unknown',
                 );
                 break;
             case 'Device_Pointing_Method':

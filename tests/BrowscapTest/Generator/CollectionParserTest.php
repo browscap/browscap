@@ -222,7 +222,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage invalid value given for Property "Browser_Type": given value "bcd", allowed:
+     * @expectedExceptionMessage invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","unknown"]
      */
     public function testCheckValueInArrayExceptionWrongValue()
     {
