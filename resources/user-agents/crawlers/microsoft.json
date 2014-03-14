@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft",
         "Browser": "Microsoft",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

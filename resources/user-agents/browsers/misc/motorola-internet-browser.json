@@ -15,7 +15,8 @@
         "Cookies": "true",
         "isMobileDevice": "true",
         "Device_Name": "Motorola",
-        "Device_Maker": "Google"
+        "Device_Maker": "Motorola",
+        "Device_Type": "Mobile Phone"
       }
     },
     {

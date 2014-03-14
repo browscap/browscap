@@ -10,7 +10,9 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-38-a' => [
@@ -22,7 +24,9 @@ return [
             'Platform_Version' => '7.0',
             'isMobileDevice' => true,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

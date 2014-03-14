@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Feeds Syndicators",
         "Browser": "Feeds Syndicators",
+        "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }

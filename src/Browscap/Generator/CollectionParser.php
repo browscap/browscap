@@ -11,6 +11,12 @@ use Psr\Log\LoggerInterface;
  */
 class CollectionParser
 {
+    const TYPE_STRING = 'string';
+    const TYPE_GENERIC = 'generic';
+    const TYPE_NUMBER = 'number';
+    const TYPE_BOOLEAN = 'boolean';
+    const TYPE_IN_ARRAY = 'in_array';
+
     /**
      * @var \Browscap\Generator\DataCollection
      */
@@ -388,16 +394,20 @@ class CollectionParser
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
             case 'Parent':
-                return 'string';
+                return self::TYPE_STRING;
+            case 'Browser_Type':
+            case 'Device_Type':
+            case 'Device_Pointing_Method':
+                return self::TYPE_IN_ARRAY;
             case 'Platform_Version':
             case 'RenderingEngine_Version':
-                return 'generic';
+                return self::TYPE_GENERIC;
             case 'Version':
             case 'CssVersion':
             case 'AolVersion':
             case 'MajorVer':
             case 'MinorVer':
-                return 'number';
+                return self::TYPE_NUMBER;
             case 'Alpha':
             case 'Beta':
             case 'Win16':
@@ -415,7 +425,7 @@ class CollectionParser
             case 'isMobileDevice':
             case 'isSyndicationReader':
             case 'Crawler':
-                return 'boolean';
+                return self::TYPE_BOOLEAN;
             default:
                 // do nothing here
         }
@@ -433,8 +443,11 @@ class CollectionParser
     public static function isExtraProperty($propertyName)
     {
         switch ($propertyName) {
+            case 'Browser_Type':
             case 'Device_Name':
             case 'Device_Maker':
+            case 'Device_Type':
+            case 'Device_Pointing_Method':
             case 'Platform_Description':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Version':
@@ -467,5 +480,63 @@ class CollectionParser
         }
 
         return true;
+    }
+
+    /**
+     * @param string $property
+     * @param string $value
+     *
+     * @throws \InvalidArgumentException
+     * @return string
+     */
+    public static function checkValueInArray($property, $value)
+    {
+        switch ($property) {
+            case 'Browser_Type':
+                $allowedValues = array(
+                    'Useragent Anonymizer',
+                    'Browser',
+                    'Offline Browser',
+                    'Multimedia Player',
+                    'Library',
+                    'Feed Reader',
+                    'Email Client',
+                    'Bot/Crawler',
+                    'Application',
+                    'unknown',
+                );
+                break;
+            case 'Device_Type':
+                $allowedValues = array(
+                    'Console',
+                    'TV Device',
+                    'Tablet',
+                    'Mobile Phone',
+                    'Mobile Device',
+                    'FonePad', // Tablet sized device with the capability to make phone calls
+                    'Desktop',
+                    'Ebook Reader',
+                    'unknown',
+                );
+                break;
+            case 'Device_Pointing_Method':
+                // This property is taken from http://www.scientiamobile.com/wurflCapability
+                $allowedValues = array(
+                    'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown'
+                );
+                break;
+            default:
+                throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');
+                break;
+        }
+
+        if (in_array($value, $allowedValues)) {
+            return $value;
+        }
+
+        throw new \InvalidArgumentException(
+            'invalid value given for Property "' . $property . '": given value "' . (string) $value . '", allowed: '
+            . json_encode($allowedValues)
+        );
     }
 }

@@ -18,6 +18,8 @@
         "CssVersion": "2",
         "Device_Name": "Kindle",
         "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }

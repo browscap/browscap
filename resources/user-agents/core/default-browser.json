@@ -8,6 +8,7 @@
       "properties": {
         "Comment": "Default Browser",
         "Browser": "Default Browser",
+        "Browser_Type": "unknown",
         "Version": "0.0",
         "MajorVer": "0",
         "MinorVer": "0",
@@ -35,6 +36,8 @@
         "AolVersion": "0",
         "Device_Name": "unknown",
         "Device_Maker": "unknown",
+        "Device_Type": "unknown",
+        "Device_Pointing_Method": "unknown",
         "RenderingEngine_Name": "unknown",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown"

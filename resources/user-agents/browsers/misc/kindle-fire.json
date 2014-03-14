@@ -13,6 +13,10 @@
         "MajorVer": "4",
         "MinorVer": "0",
         "Platform_Version": "2.3",
+        "Device_Name": "Kindler Fire",
+        "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Version": "533.1"
       }
     }

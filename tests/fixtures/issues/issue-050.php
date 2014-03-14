@@ -7,7 +7,7 @@ return [
             'Browser' => 'Midori',
             'Version' => '0.3',
             'Platform' => 'Linux',
-            'isMobileDevice' => true,
+            'isMobileDevice' => false,
         ],
     ],
     'issue-50-1' => [
@@ -16,7 +16,7 @@ return [
             'Browser' => 'Midori',
             'Version' => '0.5',
             'Platform' => 'Linux',
-            'isMobileDevice' => true,
+            'isMobileDevice' => false,
         ],
     ],
 ];

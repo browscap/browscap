@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Media Players",
         "Browser": "Media Players",
-        "isMobileDevice": "true"
+        "Browser_Type": "Application"
       }
     },
     {
@@ -72,6 +72,19 @@
       "properties": {
         "Parent": "Media Players",
         "Browser": "VLC"
+      }
+    },
+    {
+      "userAgent": "VLC Media Player",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "VLC Media Player"
+      }
+    },
+    {
+      "userAgent": "vlc\/*",
+      "properties": {
+        "Parent": "VLC Media Player"
       }
     },
     {

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Best of the Web",
         "Browser": "Best of the Web",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "DNS Tools",
         "Browser": "DNS Tools",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

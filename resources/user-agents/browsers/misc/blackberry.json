@@ -18,7 +18,8 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -35,7 +36,8 @@
         "Platform": "RIM Tablet OS",
         "Platform_Version": "1.0",
         "Device_Name": "Playbook",
-        "Device_Maker": "RIM"
+        "Device_Maker": "RIM",
+        "Device_Type": "Tablet"
       }
     },
     {
@@ -45,7 +47,8 @@
         "Platform": "RIM Tablet OS",
         "Platform_Version": "2.1",
         "Device_Name": "Playbook",
-        "Device_Maker": "RIM"
+        "Device_Maker": "RIM",
+        "Device_Type": "Tablet"
       }
     },
     {

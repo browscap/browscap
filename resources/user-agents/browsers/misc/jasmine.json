@@ -17,6 +17,7 @@
         "isMobileDevice": "true",
         "Device_Name": "Samsung",
         "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Device",
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Description": "For Access NetFront."
       }

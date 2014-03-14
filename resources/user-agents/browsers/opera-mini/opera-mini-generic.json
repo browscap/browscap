@@ -15,7 +15,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -42,7 +43,9 @@
         "Parent": "Opera Mini Generic",
         "Platform": "iOS",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {

@@ -10,7 +10,10 @@
         "Browser": "Lynx",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
       }
     },
     {

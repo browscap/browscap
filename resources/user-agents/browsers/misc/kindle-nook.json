@@ -15,13 +15,15 @@
         "Platform_Version": "2.3",
         "Device_Name": "Kindle",
         "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Version": "533.1"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*NookColor*)*AppleWebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
       "properties": {
-        "Parent": "Kindle",
+        "Parent": "Kindle Nook",
         "Browser": "Kindle Nook",
         "Version": "4.0",
         "MajorVer": "4",
@@ -33,7 +35,7 @@
     {
       "userAgent": "Mozilla\/5.0 (Linux*Android 2.2*NOOK*)*Apple*WebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
       "properties": {
-        "Parent": "Kindle",
+        "Parent": "Kindle Nook",
         "Browser": "Kindle Nook",
         "Version": "4.0",
         "MajorVer": "4",
@@ -45,7 +47,7 @@
     {
       "userAgent": "Mozilla\/5.0 (Linux*Android 2.2*NookColor*)*Apple*WebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
       "properties": {
-        "Parent": "Kindle",
+        "Parent": "Kindle Nook",
         "Browser": "Kindle Nook",
         "Version": "4.0",
         "MajorVer": "4",

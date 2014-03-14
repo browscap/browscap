@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Convera",
         "Browser": "Convera",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

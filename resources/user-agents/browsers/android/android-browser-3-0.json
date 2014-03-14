@@ -23,6 +23,8 @@
         "CssVersion": "3",
         "Device_Name": "Android",
         "Device_Maker": "Google",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -36,8 +38,10 @@
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "properties": {
-            "Device_Name": "GT-I5700",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy Spica",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_5"
