@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Feeds Blogs",
         "Browser": "Feeds Blogs",
+        "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }

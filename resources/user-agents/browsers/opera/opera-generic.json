@@ -14,7 +14,11 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
@@ -26,7 +30,7 @@
             "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32",
-            "Unix", "WinCE"
+            "Unix"
           ]
         },
         {
@@ -38,7 +42,7 @@
             "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32",
-            "Unix", "WinCE"
+            "Unix"
           ]
         },
         {
@@ -50,7 +54,7 @@
             "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32",
-            "Unix", "WinCE"
+            "Unix"
           ]
         },
         {
@@ -62,7 +66,7 @@
             "SunOS", "Win2000_2",
             "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32",
-            "Unix", "WinCE"
+            "Unix"
           ]
         }
       ]

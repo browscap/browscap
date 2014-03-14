@@ -16,8 +16,10 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Device_Code_Name": "general TV Device",
-        "Device_Name": "general TV Device",
+        "Device_Name": "Boxee",
+        "Device_Maker": "D-Link",
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Boxee",
         "Device_isTv": "true"
       }
     },

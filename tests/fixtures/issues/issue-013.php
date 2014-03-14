@@ -6,8 +6,11 @@ return [
         [
             'Browser' => 'Firefox',
             'Version' => '23.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => false,
+            'Platform' => 'FirefoxOS',
+            'isMobileDevice' => true,
+            'Device_Name' => 'general Mobile Device',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [11.60,12.00,12.10,12.11,12.12,12.13],
+  "versions": [11.60, 12.00, 12.10, 12.11, 12.12, 12.13],
   "sortIndex": 2874,
   "lite": true,
   "userAgents": [
@@ -22,6 +22,8 @@
         "JavaApplets": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "2.10",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."

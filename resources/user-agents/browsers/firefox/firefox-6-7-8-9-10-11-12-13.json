@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [6,7,8,9,10,11,12,13],
+  "versions": [6, 7, 8, 9, 10, 11, 12, 13],
   "sortIndex": 3190,
   "lite": true,
   "userAgents": [
@@ -23,6 +23,8 @@
         "CssVersion": "3",
         "Device_Name": "PC",
         "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."

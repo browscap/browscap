@@ -23,6 +23,8 @@
         "CssVersion": "3",
         "Device_Name": "PC",
         "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
@@ -31,12 +33,47 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
-            "AndroidMobile", "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
+            "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
             "OpenBSD", "SunOS", "Win2000", "WinXPa_32",
             "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
             "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "properties": {
+        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Browser": "Firefox",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "Device_Name": "unknown",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "unknown",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
+          "platforms": [
+            "AndroidMobile"
           ]
         }
       ]

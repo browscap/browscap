@@ -8,6 +8,10 @@ return [
             'Version' => '18.0',
             'Platform' => 'FirefoxOS',
             'isMobileDevice' => true,
+            'Device_Name' => 'general Mobile Device',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

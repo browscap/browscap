@@ -199,16 +199,16 @@ abstract class AbstractGenerator implements GeneratorInterface
         $valueOutput = $value;
 
         switch (CollectionParser::getPropertyType($property)) {
-            case 'boolean':
+            case CollectionParser::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
                     $valueOutput = 'true';
                 } elseif (false === $value || $value === 'false') {
                     $valueOutput = 'false';
                 }
                 break;
-            case 'string':
-            case 'generic':
-            case 'number':
+            case CollectionParser::TYPE_IN_ARRAY:
+                $valueOutput = CollectionParser::checkValueInArray($property, $value);
+                break;
             default:
                 // nothing t do here
                 break;

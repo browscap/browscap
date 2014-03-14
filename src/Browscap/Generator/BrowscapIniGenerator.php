@@ -72,13 +72,20 @@ class BrowscapIniGenerator extends AbstractGenerator
      * @param string  $output
      * @param array   $allProperties
      *
+     * @throws \InvalidArgumentException
      * @return string
      */
     private function render(array $allDivisions, $output, array $allProperties)
     {
         $this->logger->debug('rendering all divisions');
         foreach ($allDivisions as $key => $properties) {
-            $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
+            if (!isset($properties['division'])) {
+                throw new \InvalidArgumentException('"division" is missing for key "' . $key . '"');
+            }
+
+            $this->logger->debug(
+                'rendering division "' . $properties['division'] . '" - "' . $key . '"'
+            );
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
@@ -195,20 +202,21 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
-                    case 'string':
+                    case CollectionParser::TYPE_STRING:
                         if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
                             $valueOutput = '"' . $value . '"';
                         }
                         break;
-                    case 'boolean':
+                    case CollectionParser::TYPE_BOOLEAN:
                         if (true === $value || $value === 'true') {
                             $valueOutput = 'true';
                         } elseif (false === $value || $value === 'false') {
                             $valueOutput = 'false';
                         }
                         break;
-                    case 'generic':
-                    case 'number':
+                    case CollectionParser::TYPE_IN_ARRAY:
+                        $valueOutput = CollectionParser::checkValueInArray($property, $value);
+                        break;
                     default:
                         // nothing t do here
                         break;

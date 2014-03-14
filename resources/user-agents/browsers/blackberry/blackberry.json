@@ -1,66 +1,66 @@
 {
-    "division": "BlackBerry",
-    "sortIndex": 2330,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "BlackBerry",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "BlackBerry",
-                "Browser_Name": "BlackBerry",
-                "Browser_FullName": "BlackBerry",
-                "Browser_Maker": "Research In Motion Limited",
-                "Platform": "RIM OS",
-                "Platform_Name": "RIM OS",
-                "Platform_FullName": "RIM OS",
-                "Platform_Maker": "Research In Motion Limited",
-                "Frames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "2",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "Blackberry",
-                "Device_Maker": "Research In Motion Limited",
-                "Device_Brand_Name": "Research In Motion Limited",
-                "Device_Name": "Blackberry",
-                "Device_isMobileDevice": "true"
-            }
-        },
-        {
-            "userAgent": "*BlackBerry*",
-            "properties": {
-                "Parent": "BlackBerry",
-                "Platform_Version": "1.0"
-            }
-        },
-        {
-            "userAgent": "*PlayBook*RIM Tablet OS 1.0.*",
-            "properties": {
-                "Parent": "BlackBerry",
-                "Platform": "RIM Tablet OS",
-                "Platform_Version": "1.0",
-                "Device_Name": "Playbook",
-                "Device_Maker": "RIM"
-            }
-        },
-        {
-            "userAgent": "*PlayBook*RIM Tablet OS 2.1.*",
-            "properties": {
-                "Parent": "BlackBerry",
-                "Platform": "RIM Tablet OS",
-                "Platform_Version": "2.1",
-                "Device_Name": "Playbook",
-                "Device_Maker": "RIM"
-            }
-        },
-        {
-          "userAgent": "*BlackBerrySimulator*",
-          "properties": {
-            "Parent": "BlackBerry"
-          }
-        }
-    ]
+  "division": "BlackBerry",
+  "sortIndex": 2330,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Name": "BlackBerry",
+        "Browser_FullName": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Name": "RIM OS",
+        "Platform_FullName": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
+        "Device_isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "*BlackBerry*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform_Version": "1.0"
+      }
+    },
+    {
+      "userAgent": "*PlayBook*RIM Tablet OS 1.0.*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "1.0",
+        "Device_Name": "Playbook",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "*PlayBook*RIM Tablet OS 2.1.*",
+      "properties": {
+        "Parent": "BlackBerry",
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "2.1",
+        "Device_Name": "Playbook",
+        "Device_Maker": "RIM"
+      }
+    },
+    {
+      "userAgent": "*BlackBerrySimulator*",
+      "properties": {
+      "Parent": "BlackBerry"
+      }
+    }
+  ]
 }

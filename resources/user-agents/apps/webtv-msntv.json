@@ -9,13 +9,15 @@
         "Parent": "DefaultProperties",
         "Comment": "WebTV\/MSNTV",
         "Browser": "WebTV\/MSNTV",
+        "Browser_Type": "Application",
         "Platform": "WebTV",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "Device_Name": "WebTV",
-        "Device_Maker": "Microsoft"
+        "Device_Maker": "Microsoft",
+        "Device_Type": "TV Device"
       }
     },
     {

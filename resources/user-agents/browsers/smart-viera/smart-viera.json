@@ -22,6 +22,8 @@
         "CssVersion": "2",
         "Device_Name": "TV",
         "Device_Maker": "Panasonic",
+        "Device_Type": "TV Device",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -31,7 +33,7 @@
           "platforms": [
             "FreeBSD"
           ]
-       }
+        }
       ]
     }
   ]

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "QuickTime 5.0",
         "Browser": "QuickTime",
+        "Browser_Type": "Application",
         "Version": "5.0",
         "MajorVer": "5",
         "MinorVer": "0",
@@ -15,7 +16,11 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true"
+        "Cookies": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

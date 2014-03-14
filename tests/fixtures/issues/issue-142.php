@@ -11,7 +11,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142J' => [
@@ -22,7 +24,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142I' => [
@@ -35,7 +39,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142H' => [
@@ -48,7 +54,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142G' => [
@@ -59,7 +67,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142F' => [
@@ -72,7 +82,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142E' => [
@@ -85,7 +97,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142D' => [
@@ -98,7 +112,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'One',
-            'Device_Maker' => 'HTC'
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142C' => [
@@ -111,7 +127,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'One',
-            'Device_Maker' => 'HTC'
+            'Device_Maker' => 'HTC',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142B' => [
@@ -123,8 +141,10 @@ return [
             'Platform_Version' => '4.2',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'GT-I9100',
-            'Device_Maker' => 'Samsung'
+            'Device_Name' => 'Galaxy S II',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-142A' => [
@@ -137,7 +157,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'GT-I9505',
-            'Device_Maker' => 'Samsung'
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

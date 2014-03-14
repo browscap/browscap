@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Exalead",
         "Browser": "Exalead",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

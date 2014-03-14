@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Link Checkers",
         "Browser": "Link Checkers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

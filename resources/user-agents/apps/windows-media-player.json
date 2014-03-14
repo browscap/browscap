@@ -8,11 +8,16 @@
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
         "Browser": "Windows Media Player",
+        "Browser_Type": "Application",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true"
+        "Cookies": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

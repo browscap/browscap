@@ -22,7 +22,9 @@
         "JavaApplets": "true",
         "ActiveXControls": "true",
         "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

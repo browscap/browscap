@@ -7,9 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Become",
-        "Browser_Name": "Become",
-        "Browser_FullName": "Become",
-        "Browser_isSyndicationReader": "true",
+        "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }

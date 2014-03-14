@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Fast\/AllTheWeb",
         "Browser": "Fast\/AllTheWeb",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Entireweb",
         "Browser": "Entireweb",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

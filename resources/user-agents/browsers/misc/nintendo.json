@@ -8,14 +8,18 @@
         "Parent": "DefaultProperties",
         "Comment": "Nintendo",
         "Browser": "",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Name": "Wii",
+        "Device_Maker": "Nintendo",
+        "Device_Type": "Console"
       }
     },
     {
       "userAgent": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
       "properties": {
         "Parent": "Nintendo Wii",
-        "Browser": "DSi"
+        "Browser": "DSi",
+        "Device_Name": "DSi"
       }
     },
     {
@@ -29,27 +33,16 @@
       "userAgent": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
       "properties": {
         "Parent": "Nintendo Wii",
-        "Browser": "WiiU"
-      }
-    },
-    {
-      "userAgent": "VLC Media Player",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "vlc\/*",
-      "properties": {
-        "Parent": "VLC Media Player"
+        "Browser": "WiiU",
+        "Device_Name": "WiiU"
       }
     },
     {
       "userAgent": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
       "properties": {
         "Parent": "Nintendo Wii",
-        "Browser": "Nintendo 3DS"
+        "Browser": "Nintendo 3DS",
+        "Device_Name": "3DS"
       }
     }
   ]

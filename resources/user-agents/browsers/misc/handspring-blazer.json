@@ -15,11 +15,11 @@
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_isMobileDevice": "true",
-        "Device_isDesktop": "true"
+        "Device_Name": "Windows Desktop"
       }
     },
     {

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Social Bookmarkers",
         "Browser": "Social Bookmarkers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

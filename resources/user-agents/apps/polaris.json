@@ -9,13 +9,15 @@
         "Parent": "DefaultProperties",
         "Comment": "Polaris",
         "Browser": "Polaris",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -101,7 +103,9 @@
         "Platform": "Brew",
         "Platform_Version": "3.1",
         "Device_Name": "SCH-U820",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -115,7 +119,9 @@
         "Platform": "Brew",
         "Platform_Version": "3.1",
         "Device_Name": "VX8575",
-        "Device_Maker": "LG"
+        "Device_Maker": "LG",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     }
   ]

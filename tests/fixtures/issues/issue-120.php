@@ -9,6 +9,10 @@ return [
             'Platform_Version' => '6.0',
             'isMobileDevice' => true,
             'Crawler' => true,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

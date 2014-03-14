@@ -23,6 +23,8 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -58,8 +60,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy S II",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

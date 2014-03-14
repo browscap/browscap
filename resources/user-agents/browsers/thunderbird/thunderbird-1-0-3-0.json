@@ -18,7 +18,11 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "3",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "1.0",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
@@ -28,7 +32,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_32",
-            "OSX", 
+            "OSX",
             "Win98", "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         }

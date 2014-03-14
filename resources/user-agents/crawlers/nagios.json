@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Nagios",
         "Browser": "Nagios",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

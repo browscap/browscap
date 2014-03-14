@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Offline Browsers",
         "Browser": "Offline Browsers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

@@ -6,8 +6,9 @@
       "userAgent": "DefaultProperties",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "DefaultProperties",
-        "Browser": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

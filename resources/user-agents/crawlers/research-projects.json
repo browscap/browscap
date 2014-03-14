@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Research Projects",
         "Browser": "Research Projects",
+        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       }
     },

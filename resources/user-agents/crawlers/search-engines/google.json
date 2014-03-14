@@ -9,6 +9,7 @@
         "Parent": "Search Engines",
         "Comment": "Google",
         "Browser": "Google",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -214,7 +215,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/* Mobile\/* Safari\/*",
           "properties": {
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -226,7 +229,9 @@
           "properties": {
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -239,7 +244,9 @@
             "Version": "3.2",
             "MajorVer": "3",
             "MinorVer": "2",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -254,7 +261,9 @@
             "MinorVer": "2",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -300,6 +309,12 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -314,7 +329,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
           "properties": {
             "Device_Maker": "Apple",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -326,7 +343,9 @@
           "properties": {
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -338,7 +357,9 @@
           "properties": {
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -356,6 +377,12 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Google (+https:\/\/developers.google.com\/+\/web\/snippet\/)*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -377,6 +404,12 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com GoogleImageProxy)*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
