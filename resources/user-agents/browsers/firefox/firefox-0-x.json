@@ -34,8 +34,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SunOS"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (X11*; DragonFly*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": []
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Mozilla Firebird\/0.6*",
+          "platforms": [
+            "Win2000"
+          ]
         }
       ]
     }

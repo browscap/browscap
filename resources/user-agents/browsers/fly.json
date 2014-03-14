@@ -1,0 +1,37 @@
+{
+  "division": "FLY",
+  "sortIndex": 4870,
+  "userAgents": [
+    {
+      "userAgent": "FLY",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "FLY",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "FLY-MX200",
+      "properties": {
+        "Parent": "FLY"
+      }
+    }
+  ]
+}

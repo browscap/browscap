@@ -1,0 +1,36 @@
+{
+  "division": "Foxconn",
+  "sortIndex": 4950,
+  "userAgents": [
+    {
+      "userAgent": "Foxconn",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Foxconn",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "Foxconn D910.0.3.53 FS_D910.0.2.48_DTC",
+      "properties": {
+        "Parent": "Foxconn"
+      }
+    }
+  ]
+}

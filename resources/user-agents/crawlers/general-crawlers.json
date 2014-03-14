@@ -721,13 +721,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "FirstSearchBot"
-      }
-    },
-    {
       "userAgent": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
       "properties": {
         "Parent": "DefaultProperties",
