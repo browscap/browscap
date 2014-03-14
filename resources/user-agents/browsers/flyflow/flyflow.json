@@ -20,7 +20,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
@@ -46,8 +48,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G *) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100G",
+            "Device_Name": "Galaxy S II",
             "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },

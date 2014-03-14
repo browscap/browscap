@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "iVia Project",
         "Browser": "iVia Project",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

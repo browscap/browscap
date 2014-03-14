@@ -22,6 +22,8 @@
         "JavaApplets": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "2.9",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."

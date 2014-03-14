@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "DoCoMo",
         "Browser": "DoCoMo",
+        "Browser_Type": "Bot/Crawler",
         "Platform": "DoCoMo",
         "Frames": "true",
         "IFrames": "true",

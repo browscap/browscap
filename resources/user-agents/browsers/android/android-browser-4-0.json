@@ -23,6 +23,8 @@
         "CssVersion": "3",
         "Device_Name": "Android",
         "Device_Maker": "Google",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -40,7 +42,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "A27",
-            "Device_Maker": "Micromax"
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -50,7 +54,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "A35",
-            "Device_Maker": "Micromax"
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -60,7 +66,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "B51+",
-            "Device_Maker": "sprd"
+            "Device_Maker": "sprd",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -70,7 +78,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "A40",
-            "Device_Maker": "Micromax"
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -80,7 +90,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "OT-4030D",
-            "Device_Maker": "Alcatel"
+            "Device_Maker": "Alcatel",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -89,8 +101,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy S II",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -100,7 +114,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "D805",
-            "Device_Maker": "LG"
+            "Device_Maker": "LG",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"
@@ -110,7 +126,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "One X",
-            "Device_Maker": "HTC"
+            "Device_Maker": "HTC",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"
@@ -128,7 +146,9 @@
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "INM8002KP"
+            "Device_Name": "INM8002KP",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -140,8 +160,10 @@
         {
           "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Name": "Galaxy S II",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3_B"
@@ -160,7 +182,9 @@
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "B51+",
-            "Device_Maker": "sprd"
+            "Device_Maker": "sprd",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -187,7 +211,10 @@
         {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Mastone G9"
+            "Device_Name": "G9",
+            "Device_Maker": "Mastone",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -196,7 +223,9 @@
         {
           "match": "MT6515M* Linux\/* Android 2.3* Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
-            "Device_Name": "MT6515M"
+            "Device_Name": "MT6515M",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -211,7 +240,10 @@
         {
           "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
           "properties": {
-            "Device_Name": "AT-AS40SE"
+            "Device_Name": "AT-AS40SE",
+            "Device_Maker": "Wolgang",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -221,7 +253,9 @@
           "match": "OPPO_R813T\/* Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
           "properties": {
             "Device_Name": "R813T",
-            "Device_Maker": "OPPO"
+            "Device_Maker": "OPPO",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

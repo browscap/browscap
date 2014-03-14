@@ -57,6 +57,10 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'isMobileDevice' => true,
+            'Device_Name' => 'Kindle Fire HD 7',
+            'Device_Maker' => 'Amazon',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

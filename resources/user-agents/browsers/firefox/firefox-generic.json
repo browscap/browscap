@@ -20,6 +20,8 @@
         "CssVersion": "3",
         "Device_Name": "PC",
         "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
@@ -27,7 +29,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
           "platforms": [
-            "AndroidMobile", "AndroidTablet", "FreeBSD", "HPUX", "IRIX64", "Linux_32", "Linux_64",
+            "FreeBSD", "HPUX", "IRIX64", "Linux_32", "Linux_64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
             "OpenBSD", "SunOS", "Win2000", "NT4_1",
@@ -39,7 +41,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
           "platforms": [
-            "AndroidMobile", "AndroidTablet", "FreeBSD", "HPUX", "IRIX64", "Linux_32", "Linux_64",
+            "FreeBSD", "HPUX", "IRIX64", "Linux_32", "Linux_64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
             "OpenBSD", "SunOS", "Win2000", "NT4_1",
@@ -53,6 +55,75 @@
         },
         {
           "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/*"
+        }
+      ]
+    },
+    {
+      "userAgent": "Firefox Generic for Android",
+      "properties": {
+        "Parent": "Firefox Generic",
+        "Comment": "Firefox Generic",
+        "Browser": "Firefox",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "Device_Name": "unknown",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "unknown",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "AndroidTablet"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "AndroidTablet"
+          ]
         }
       ]
     }

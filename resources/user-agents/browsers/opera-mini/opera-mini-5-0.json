@@ -18,7 +18,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -74,6 +75,16 @@
       "properties": {
         "Parent": "Opera Mini 5.0",
         "Platform": "Brew"
+      }
+    },
+    {
+      "userAgent": "Opera\/*(BREW*Opera Mini\/5.*)*Samsung SCH-U750*",
+      "properties": {
+        "Parent": "Opera Mini 5.0",
+        "Platform": "Brew",
+        "Device_Name": "Alias 2",
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {

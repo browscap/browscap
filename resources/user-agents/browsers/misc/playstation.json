@@ -17,7 +17,8 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "Device_Name": "Playstation",
-        "Device_Maker": "Sony"
+        "Device_Maker": "Sony",
+        "Device_Type": "Console"
       }
     },
     {
@@ -26,14 +27,16 @@
         "Parent": "Playstation",
         "Browser": "Sony PS3",
         "Platform": "CellOS",
-        "Frames": "false"
+        "Frames": "false",
+        "Device_Name": "PS3"
       }
     },
     {
       "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
       "properties": {
         "Parent": "Playstation",
-        "Browser": "Sony PSP"
+        "Browser": "Sony PSP",
+        "Device_Name": "PSP"
       }
     },
     {
@@ -41,14 +44,16 @@
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony PS2",
-        "Platform": "Linux"
+        "Platform": "Linux",
+        "Device_Name": "PS2"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (PlayStation Vita*)*",
       "properties": {
         "Parent": "Playstation",
-        "Browser": "Sony Playstation Vita"
+        "Browser": "Sony Playstation Vita",
+        "Device_Name": "PS Vita"
       }
     }
   ]

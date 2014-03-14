@@ -12,7 +12,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => true,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-169-B' => [
@@ -26,7 +28,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-169-C' => [
@@ -40,7 +44,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-169-D' => [
@@ -54,7 +60,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
     'issue-169-E' => [
@@ -68,7 +76,9 @@ return [
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'iPad',
-            'Device_Maker' => 'Apple'
+            'Device_Maker' => 'Apple',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen'
         ],
     ],
 ];

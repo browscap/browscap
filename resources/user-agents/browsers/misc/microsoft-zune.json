@@ -9,7 +9,11 @@
         "Comment": "Microsoft Zune",
         "Browser": "",
         "Win32": "true",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

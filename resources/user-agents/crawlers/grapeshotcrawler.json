@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "GrapeshotCrawler",
         "Browser": "GrapeshotCrawler",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

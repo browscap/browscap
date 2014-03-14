@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Internet Content Rating Association",
         "Browser": "",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

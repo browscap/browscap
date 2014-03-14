@@ -8,11 +8,15 @@
         "Parent": "DefaultProperties",
         "Comment": "Emacs\/W3",
         "Browser": "Emacs\/W3",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "default"
+        "JavaScript": "default",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
       }
     },
     {

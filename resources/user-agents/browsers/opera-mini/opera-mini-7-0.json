@@ -19,7 +19,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1"
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
       }
     },
     {
@@ -46,7 +47,9 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "iOS",
         "Device_Name": "iPad",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -55,7 +58,9 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "iOS",
         "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+        "Device_Maker": "Apple",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -114,7 +119,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-C3262",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -123,7 +129,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-S3802",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -132,7 +139,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-S5292",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -141,7 +149,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-C3312R",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {
@@ -150,7 +159,8 @@
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA",
         "Device_Name": "GT-S5222R",
-        "Device_Maker": "Samsung"
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Phone"
       }
     },
     {

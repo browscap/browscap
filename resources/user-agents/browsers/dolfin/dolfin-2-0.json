@@ -25,6 +25,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Type": "Mobile Device",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -55,7 +56,8 @@
           "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*",
           "properties": {
             "Device_Name": "GT-C6712",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
           }
         },
         {
@@ -63,7 +65,8 @@
           "properties": {
             "Platform": "JAVA",
             "Device_Name": "GT-C6712",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
           }
         }
       ]

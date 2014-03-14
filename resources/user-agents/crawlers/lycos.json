@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Lycos",
         "Browser": "Lycos",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

@@ -8,11 +8,16 @@
         "Parent": "DefaultProperties",
         "Comment": "FrontPage",
         "Browser": "FrontPage",
+        "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true"
+        "JavaScript": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

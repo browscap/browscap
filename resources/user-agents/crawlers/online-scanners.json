@@ -7,7 +7,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Online Scanners",
-        "Browser": "Online Scanners"
+        "Browser": "Online Scanners",
+        "Browser_Type": "Bot/Crawler"
       }
     },
     {

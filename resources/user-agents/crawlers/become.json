@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Become",
         "Browser": "Become",
+        "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       }

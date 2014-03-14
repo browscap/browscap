@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Nutch",
         "Browser": "Nutch",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

@@ -24,7 +24,9 @@
         "CssVersion": "2",
         "AolVersion": "9",
         "Device_Name": "PC",
-        "Device_Maker": "Various"
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       }
     },
     {

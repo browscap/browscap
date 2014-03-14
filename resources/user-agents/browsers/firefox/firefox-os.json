@@ -1,6 +1,6 @@
 {
   "division": "FirefoxOS #MAJORVER#.#MINORVER#",
-  "versions": [12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28],
+  "versions": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
   "sortIndex": 3240,
   "lite": true,
   "userAgents": [
@@ -22,8 +22,10 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
@@ -32,9 +34,29 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Mobile;*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#",
+      "userAgent": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
+        "Device_Type": "Tablet"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
+        "Device_Type": "Tablet"
       }
     }
   ]

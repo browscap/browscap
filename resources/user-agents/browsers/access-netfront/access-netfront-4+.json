@@ -20,6 +20,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "2",
+        "Device_Type": "Mobile Device",
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Description": "For Access NetFront."
       }
@@ -48,7 +49,8 @@
         "Parent": "NetFront #MAJORVER#.#MINORVER#",
         "Platform": "Android",
         "Device_Name": "Kindle",
-        "Device_Maker": "Amazon"
+        "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader"
       }
     },
     {
@@ -57,7 +59,8 @@
         "Parent": "NetFront #MAJORVER#.#MINORVER#",
         "Platform": "Linux",
         "Device_Name": "Kindle",
-        "Device_Maker": "Amazon"
+        "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader"
       }
     },
     {

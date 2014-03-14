@@ -12,7 +12,10 @@
         "MajorVer": "0",
         "MinorVer": "9",
         "Frames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
       }
     },
     {
