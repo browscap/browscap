@@ -111,10 +111,6 @@
       "children": [
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*Touch*rv:#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Surface",
-            "Device_Type": "Tablet"
-          },
           "platforms": [
             "WinRT8_32", "WinRT8_1_32"
           ]
