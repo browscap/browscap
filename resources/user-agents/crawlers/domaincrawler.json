@@ -5,7 +5,10 @@
     {
       "userAgent": "DomainCrawler",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "DomainCrawler"
       }
     },

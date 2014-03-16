@@ -5,7 +5,10 @@
     {
       "userAgent": "EuripBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "Europe Internet Portal",
         "Browser_Maker": "www.eurip.com"
       }

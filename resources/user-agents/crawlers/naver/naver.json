@@ -5,10 +5,13 @@
     {
       "userAgent": "Naver",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "NaverBot",
+        "Browser_Type": "Bot/Crawler",
         "Browser": "NaverBot",
         "Frames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
