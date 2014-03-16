@@ -6,7 +6,7 @@
     {
       "userAgent": "NetFront 2.0",
       "properties": {
-        "Parent": "Access NetFront Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Access NetFront 2.0",
         "Browser": "Access NetFront",
         "Version": "2.0",

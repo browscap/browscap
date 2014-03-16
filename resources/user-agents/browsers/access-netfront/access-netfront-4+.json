@@ -7,7 +7,7 @@
     {
       "userAgent": "NetFront #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Access NetFront Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
         "Browser": "Access NetFront",
         "Version": "#MAJORVER#.#MINORVER#",
