@@ -17,6 +17,12 @@
       }
     },
     {
+      "userAgent": "*Googlebot\/2.*",
+      "properties": {
+        "Parent": "Googlebot 2.0"
+      }
+    },
+    {
       "userAgent": "Mozilla\/5.0 (compatible; Googlebot\/2.0; ?http:\/\/www.google.com\/bot.html)",
       "properties": {
         "Parent": "Googlebot 2.0"

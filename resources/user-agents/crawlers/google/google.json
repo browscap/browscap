@@ -5,13 +5,15 @@
     {
       "userAgent": "Google",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
         "Comment": "Google",
         "Browser": "Google",
         "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
@@ -90,6 +92,336 @@
       "properties": {
         "Parent": "Google",
         "Browser": "Google-Sitemaps"
+      }
+    },
+    {
+      "userAgent": "*Google Web Preview*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Web Preview"
+      }
+    },
+    {
+      "userAgent": "AppEngine-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "AppEngine-Google"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Feedfetcher-Google",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Feedfetcher-Google-iGoogleGadgets*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "iGoogleGadgets",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "google (*Enterprise*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Enterprise"
+      }
+    },
+    {
+      "userAgent": "Google OpenSocial agent*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google OpenSocial"
+      }
+    },
+    {
+      "userAgent": "Google-Site-Verification*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Site-Verification\/1.0",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Google-Sitemaps*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Sitemaps"
+      }
+    },
+    {
+      "userAgent": "Googlebot-Image*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-Image"
+      }
+    },
+    {
+      "userAgent": "Googlebot-News*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot-News"
+      }
+    },
+    {
+      "userAgent": "googlebot-urlconsole",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "googlebot-urlconsole"
+      }
+    },
+    {
+      "userAgent": "Googlebot-Video*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google-Video"
+      }
+    },
+    {
+      "userAgent": "Googlebot\/Test*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Googlebot\/Test"
+      }
+    },
+    {
+      "userAgent": "GoogleFriendConnect*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Friend Connect"
+      }
+    },
+    {
+      "userAgent": "Google Search Appliance",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Search Appliance"
+      },
+      "children": [
+        {
+          "match": "gsa-crawler*"
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/3.2.* Mobile\/* Safari\/*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) GSA\/3.2.* Mobile\/* Safari\/*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Mediapartners-Google*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Mediapartners-Google"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Feedfetcher"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Desktop*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Google Keyword Tool*)",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Keyword Tool"
+      }
+    },
+    {
+      "userAgent": "Google Page Speed",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Page Speed"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "properties": {
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "properties": {
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Google Web Snippet",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Web Snippet"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Google (+https:\/\/developers.google.com\/+\/web\/snippet\/)*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Google Image Proxy",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Image Proxy"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com GoogleImageProxy)*",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Wireless Transcoder) Chrome\/* Safari\/*",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Wireless Transcoder"
       }
     }
   ]
