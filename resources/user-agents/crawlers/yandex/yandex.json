@@ -170,43 +170,34 @@
         "Parent": "Yandex",
         "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
         "Platform_Version": "5.2",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Windows Desktop"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexAddurl\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexAddURL",
-        "Browser_Name": "YandexAddURL",
-        "Browser_FullName": "YandexAddURL"
+        "Browser": "YandexAddURL"
       }
     },
     {
       "userAgent": "YandexBot",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexBot",
-        "Browser_Name": "YandexBot",
-        "Browser_FullName": "YandexBot"
+        "Browser": "YandexBot"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible; YandexBot\/*",
           "properties": {
             "Parent": "Yandex",
-            "Browser": "YandexBot",
-            "Browser_Name": "YandexBot",
-            "Browser_FullName": "YandexBot"
+            "Browser": "YandexBot"
           }
         },
         {
@@ -215,9 +206,6 @@
             "Parent": "Yandex",
             "Division": "Yandex",
             "Browser": "YandexBot",
-            "Browser_Name": "YandexBot",
-            "Browser_FullName": "YandexBot 3.0",
-            "Browser_Version": "3.0",
             "Version": "3.0",
             "MajorVer": "3"
           }
@@ -228,81 +216,63 @@
       "userAgent": "Mozilla\/5.0 (compatible; YandexCatalog\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexCatalog",
-        "Browser_Name": "YandexCatalog",
-        "Browser_FullName": "YandexCatalog"
+        "Browser": "YandexCatalog"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexDirect\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexDirect-Dyatel",
-        "Browser_Name": "YandexDirect-Dyatel",
-        "Browser_FullName": "YandexDirect-Dyatel"
+        "Browser": "YandexDirect-Dyatel"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexFavicons\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexFavicons",
-        "Browser_Name": "YandexFavicons",
-        "Browser_FullName": "YandexFavicons"
+        "Browser": "YandexFavicons"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexImageResizer\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexImageResizer",
-        "Browser_Name": "YandexImageResizer",
-        "Browser_FullName": "YandexImageResizer"
+        "Browser": "YandexImageResizer"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexImages\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexImages",
-        "Browser_Name": "YandexImages",
-        "Browser_FullName": "YandexImages"
+        "Browser": "YandexImages"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexMedia\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexMedia",
-        "Browser_Name": "YandexMedia",
-        "Browser_FullName": "YandexMedia"
+        "Browser": "YandexMedia"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexMetrika\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexMetrika",
-        "Browser_Name": "YandexMetrika",
-        "Browser_FullName": "YandexMetrika"
+        "Browser": "YandexMetrika"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexNews\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexNews",
-        "Browser_Name": "YandexNews",
-        "Browser_FullName": "YandexNews"
+        "Browser": "YandexNews"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; YandexVideo\/*",
       "properties": {
         "Parent": "Yandex",
-        "Browser": "YandexVideo",
-        "Browser_Name": "YandexVideo",
-        "Browser_FullName": "YandexVideo"
+        "Browser": "YandexVideo"
       }
     }
   ]

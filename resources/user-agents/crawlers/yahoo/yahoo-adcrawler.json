@@ -6,9 +6,7 @@
       "userAgent": "Yahoo AdCrawler",
       "properties": {
         "Parent": "Yahoo",
-        "Browser": "Yahoo!-AdCrawler",
-        "Browser_Name": "Yahoo!-AdCrawler",
-        "Browser_FullName": "Yahoo!-AdCrawler"
+        "Browser": "Yahoo!-AdCrawler"
       }
     }
   ]

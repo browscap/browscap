@@ -88,8 +88,7 @@
             "Device_Code_Name": "Eee Pad TF201",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
-            "Device_Name": "Transformer Prime",
-            "Device_isTablet": "true"
+            "Device_Name": "Transformer Prime"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -103,8 +102,7 @@
             "Device_Code_Name": "Nexus 10",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus 10",
-            "Device_isTablet": "true"
+            "Device_Name": "Nexus 10"
           },
           "platforms": [
             "Android_4_2", "Android_4_3"

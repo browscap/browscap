@@ -6,17 +6,8 @@
       "userAgent": "CTL",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Browser": "General Browser",
-        "Browser_Name": "General Browser",
-        "Browser_FullName": "General Browser",
-        "Browser_isSyndicationReader": "false",
-        "Browser_isBot": "false",
-        "Browser_isTanscoder": "false",
-        "Browser_isAlpha": "false",
-        "Browser_isBeta": "false",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -36,19 +27,10 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "general Device",
-        "Device_isMobileDevice": "false",
-        "Device_isTablet": "false",
-        "Device_isDesktop": "false",
-        "Device_isTv": "false",
         "Browser": "CTL",
-        "Browser_Name": "CTL",
-        "Browser_FullName": "CTL",
         "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
         "Platform_Maker": "Oracle",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {

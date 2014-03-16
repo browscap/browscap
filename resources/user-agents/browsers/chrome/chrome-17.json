@@ -106,8 +106,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "A200",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -122,14 +120,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "A210",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Name": "A210",
-            "Device_isTablet": "true"
+            "Device_Name": "A210"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -140,8 +135,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -156,8 +149,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "OT-997D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
@@ -172,14 +163,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "AT300",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Regza AT300",
-            "Device_isTablet": "true"
+            "Device_Name": "Regza AT300"
           },
           "platforms": [
             "Android_4_0"
@@ -190,8 +178,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-I8190",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -206,8 +192,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -223,8 +207,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -240,8 +222,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -256,8 +236,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9100T",
             "Device_Maker": "Samsung",
@@ -273,8 +251,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
@@ -290,8 +266,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-I9305",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -306,14 +280,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 8.0",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Note 8.0"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -324,8 +295,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-N7000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -340,8 +309,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -356,14 +323,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -374,14 +338,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -392,14 +353,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8013",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -410,14 +368,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8020",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1 LTE",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Note 10.1 LTE"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -428,14 +383,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-P3110",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab 2 7.0"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
@@ -446,14 +398,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-P5100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab 2 10.1"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
@@ -464,15 +413,12 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-P5110",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab 2 10.1"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -483,15 +429,12 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "JavaApplets": "false",
             "isTablet": "true",
             "Device_Code_Name": "GT-P5113",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 10.1 WiFi",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab 2 10.1 WiFi"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -502,8 +445,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Desire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -518,8 +459,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "T328E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -534,8 +473,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -550,8 +487,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -566,8 +501,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "One SV",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -582,8 +515,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "One V",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -598,8 +529,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "PJ83100",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -614,8 +543,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Sensation XE Beats Z715e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -630,8 +557,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Z710e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -646,8 +571,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -662,8 +585,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "U8666E",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
@@ -678,8 +599,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "P700",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
@@ -694,8 +613,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "P705",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
@@ -710,8 +627,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "P880",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
@@ -726,14 +641,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "LifeTab P9514",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab P9514",
-            "Device_isTablet": "true"
+            "Device_Name": "LifeTab P9514"
           },
           "platforms": [
             "Android_4_0"
@@ -744,14 +656,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "LifeTab S9512",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab S9512",
-            "Device_isTablet": "true"
+            "Device_Name": "LifeTab S9512"
           },
           "platforms": [
             "Android_4_0"
@@ -762,14 +671,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "LifeTab S9714",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab S9714",
-            "Device_isTablet": "true"
+            "Device_Name": "LifeTab S9714"
           },
           "platforms": [
             "Android_4_0"
@@ -780,8 +686,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "LT18i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
@@ -796,8 +700,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "LT26i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
@@ -812,8 +714,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "LT30p",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
@@ -828,14 +728,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "LifeTab P9516",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab P9516",
-            "Device_isTablet": "true"
+            "Device_Name": "LifeTab P9516"
           },
           "platforms": [
             "Android_4_0"
@@ -846,14 +743,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "MZ601",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "Xoom",
-            "Device_isTablet": "true"
+            "Device_Name": "Xoom"
           },
           "platforms": [
             "Android_4_0"
@@ -864,14 +758,11 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "isTablet": "true",
             "Device_Code_Name": "MZ604",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "Xoom",
-            "Device_isTablet": "true"
+            "Device_Name": "Xoom"
           },
           "platforms": [
             "Android_4_0"
@@ -882,8 +773,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Nexus S",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Google",
@@ -898,8 +787,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -914,8 +801,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Tablet S",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
@@ -930,8 +815,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "XT890",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
@@ -946,8 +829,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "XT910",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
@@ -962,8 +843,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "XT925",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
@@ -978,8 +857,6 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false",
             "Device_Code_Name": "Galaxy Nexus",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

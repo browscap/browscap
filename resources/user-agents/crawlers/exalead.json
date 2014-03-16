@@ -134,8 +134,6 @@
       "properties": {
         "Parent": "Exalead",
         "Browser": "Exabot",
-        "Browser_Name": "Exabot",
-        "Browser_FullName": "Exabot",
         "Browser_Maker": "www.exabot.com"
       }
     }

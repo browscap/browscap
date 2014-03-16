@@ -6,8 +6,6 @@
       "userAgent": "Googlebot-Mobile 2.1",
       "properties": {
         "Parent": "Googlebot-Mobile",
-        "Browser_FullName": "Google Bot Mobile 2.1",
-        "Browser_Version": "2.1",
         "Version": "2.1",
         "MajorVer": "2",
         "MinorVer": "1"
@@ -18,8 +16,6 @@
       "properties": {
         "Parent": "Googlebot-Mobile 2.1",
         "Platform": "iOS",
-        "Platform_Name": "iOS",
-        "Platform_FullName": "iOS 4.1",
         "Platform_Version": "4.1",
         "Platform_Maker": "Apple Inc",
         "Device_Maker": "Apple Inc",
@@ -31,8 +27,6 @@
       "properties": {
         "Parent": "Googlebot-Mobile 2.1",
         "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
         "Platform_Version": "",
         "Platform_Maker": "Oracle"
       }

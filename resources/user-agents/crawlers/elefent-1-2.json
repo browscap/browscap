@@ -6,8 +6,6 @@
       "userAgent": "Elefent 1.2",
       "properties": {
         "Parent": "Elefent",
-        "Browser_FullName": "Elefent 1.2",
-        "Browser_Version": "1.2",
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2"

@@ -8,8 +8,6 @@
         "Parent": "Search Engines",
         "Comment": "Google",
         "Browser": "Google",
-        "Browser_Name": "Google",
-        "Browser_FullName": "Google",
         "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
@@ -20,9 +18,7 @@
       "userAgent": "Mediapartners-Google*",
       "properties": {
         "Parent": "Google",
-        "Browser": "AdSense Bot",
-        "Browser_Name": "AdSense Bot",
-        "Browser_FullName": "AdSense Bot"
+        "Browser": "AdSense Bot"
       }
     },
     {
@@ -65,45 +61,35 @@
       "userAgent": "google (*Enterprise*)",
       "properties": {
         "Parent": "Google",
-        "Browser": "Google Enterprise",
-        "Browser_Name": "Google Enterprise",
-        "Browser_FullName": "Google Enterprise"
+        "Browser": "Google Enterprise"
       }
     },
     {
       "userAgent": "Google OpenSocial agent*",
       "properties": {
         "Parent": "Google",
-        "Browser": "Google OpenSocial",
-        "Browser_Name": "Google OpenSocial",
-        "Browser_FullName": "Google OpenSocial"
+        "Browser": "Google OpenSocial"
       }
     },
     {
       "userAgent": "*Google Wireless Transcoder*",
       "properties": {
         "Parent": "Google",
-        "Browser": "Google Wireless Transcoder",
-        "Browser_Name": "Google Wireless Transcoder",
-        "Browser_FullName": "Google Wireless Transcoder"
+        "Browser": "Google Wireless Transcoder"
       }
     },
     {
       "userAgent": "Google-Site-Verification*",
       "properties": {
         "Parent": "Google",
-        "Browser": "Google-Site-Verification",
-        "Browser_Name": "Google-Site-Verification",
-        "Browser_FullName": "Google-Site-Verification"
+        "Browser": "Google-Site-Verification"
       }
     },
     {
       "userAgent": "Google-Sitemaps*",
       "properties": {
         "Parent": "Google",
-        "Browser": "Google-Sitemaps",
-        "Browser_Name": "Google-Sitemaps",
-        "Browser_FullName": "Google-Sitemaps"
+        "Browser": "Google-Sitemaps"
       }
     }
   ]

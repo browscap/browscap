@@ -7,13 +7,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Android Browser",
-        "Browser_Name": "Android Browser",
-        "Browser_FullName": "Android Browser",
         "Browser_Bits": "32",
         "Browser_Maker": "Google Inc",
         "Platform": "Android",
-        "Platform_Name": "Android",
-        "Platform_FullName": "Android",
         "Platform_Version": "",
         "Platform_Bits": "32",
         "Platform_Maker": "Google Inc",
@@ -27,10 +23,8 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
-        "Device_isMobileDevice": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
     }

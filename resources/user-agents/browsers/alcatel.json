@@ -7,19 +7,14 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Alcatel",
-        "Browser_Name": "Alcatel",
-        "Browser_FullName": "Alcatel",
         "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
         "Platform_Maker": "Oracle",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_isMobileDevice": "true"
+        "CssVersion": "2"
       }
     },
     {

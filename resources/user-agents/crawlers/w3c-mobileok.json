@@ -6,9 +6,7 @@
       "userAgent": "W3C-mobileOK",
       "properties": {
         "Parent": "W3C",
-        "Browser": "W3C-mobileOK",
-        "Browser_Name": "W3C-mobileOK",
-        "Browser_FullName": "W3C-mobileOK"
+        "Browser": "W3C-mobileOK"
       }
     }
   ]

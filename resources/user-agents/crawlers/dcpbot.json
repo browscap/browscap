@@ -6,9 +6,7 @@
       "userAgent": "DCPbot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "DCPbot",
-        "Browser_Name": "DCPbot",
-        "Browser_FullName": "DCPbot"
+        "Browser": "DCPbot"
       }
     },
     {
@@ -21,8 +19,6 @@
       "userAgent": "DCPbot\/1.2*",
       "properties": {
         "Parent": "DCPbot",
-        "Browser_FullName": "DCPbot 1.2",
-        "Browser_Version": "1.2",
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2"

@@ -6,13 +6,10 @@
       "userAgent": "YahooSeeker-Mobile",
       "properties": {
         "Parent": "YahooSeeker",
-        "Browser": "YahooSeeker-Mobile",
-        "Browser_Name": "YahooSeeker-Mobile",
-        "Browser_FullName": "YahooSeeker-Mobile",
+        "Browser": "YahooSeeker-Mobile"
         "Frames": "false",
         "Tables": "false",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {

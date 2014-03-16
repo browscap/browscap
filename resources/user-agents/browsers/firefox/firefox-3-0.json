@@ -68,11 +68,23 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinXPa_32"
+            "Linux", "WinXPa_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox #MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Firefox #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinXPb_32"
           ]

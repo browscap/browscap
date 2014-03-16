@@ -6,12 +6,9 @@
       "userAgent": "BlackBerry 4.3",
       "properties": {
         "Parent": "BlackBerry",
-        "Browser_FullName": "BlackBerry 4.3",
-        "Browser_Version": "4.3",
         "Version": "4.3",
         "MajorVer": "4",
         "MinorVer": "3",
-        "Platform_FullName": "RIM OS 4.3",
         "Platform_Version": "4.3"
       }
     },

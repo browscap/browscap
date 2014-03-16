@@ -6,9 +6,7 @@
       "userAgent": "Cynthia",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Cynthia",
-        "Browser_Name": "Cynthia",
-        "Browser_FullName": "Cynthia"
+        "Browser": "Cynthia"
       }
     },
     {
@@ -21,8 +19,6 @@
       "userAgent": "Cynthia 1.*",
       "properties": {
         "Parent": "Cynthia",
-        "Browser_FullName": "Cynthia 1.0",
-        "Browser_Version": "1.0",
         "Version": "1.0",
         "MajorVer": "1"
       }

@@ -6,9 +6,7 @@
       "userAgent": "Xerka WebBot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Xerka",
-        "Browser_Name": "Xerka",
-        "Browser_FullName": "Xerka"
+        "Browser": "Xerka"
       }
     },
     {

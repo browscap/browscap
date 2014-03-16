@@ -6,9 +6,7 @@
       "userAgent": "WI Job Roboter",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "WI Job Roboter",
-        "Browser_Name": "WI Job Roboter",
-        "Browser_FullName": "WI Job Roboter"
+        "Browser": "WI Job Roboter"
       }
     },
     {
@@ -21,8 +19,6 @@
       "userAgent": "Mozilla\/5.0 (compatible;WI Job Roboter Spider Version 3*",
       "properties": {
         "Parent": "WI Job Roboter",
-        "Browser_FullName": "WI Job Roboter 3.0",
-        "Browser_Version": "3.0",
         "Version": "3.0",
         "MajorVer": "3"
       }

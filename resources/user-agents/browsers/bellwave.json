@@ -7,14 +7,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Bellwave",
-        "Browser_Name": "Bellwave",
-        "Browser_FullName": "Bellwave",
-        "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {

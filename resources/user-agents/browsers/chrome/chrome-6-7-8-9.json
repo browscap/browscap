@@ -10,8 +10,6 @@
         "Parent": "Chrome Generic",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
-        "Browser_FullName": "Chrome #MAJORVER#.#MINORVER#",
-        "Browser_Version": "#MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

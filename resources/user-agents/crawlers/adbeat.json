@@ -7,8 +7,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Adbeat",
-        "Browser_Name": "Adbeat",
-        "Browser_FullName": "Adbeat",
         "Browser_Maker": "adbeat.com"
       },
       "children": [

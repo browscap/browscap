@@ -10,13 +10,6 @@
         "SubCategory": "Email Client",
         "Browser_Type": "Email Client",
         "Browser": "General Email Client",
-        "Browser_Name": "General Email Client",
-        "Browser_FullName": "General Email Client",
-        "Browser_isSyndicationReader": "false",
-        "Browser_isBot": "false",
-        "Browser_isTanscoder": "false",
-        "Browser_isAlpha": "false",
-        "Browser_isBeta": "false",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -36,17 +29,10 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "general Device",
-        "Device_isMobileDevice": "false",
-        "Device_isTablet": "false",
-        "Device_isDesktop": "false",
-        "Device_isTv": "false",
         "Browser": "Airmail",
-        "Browser_Name": "Airmail",
-        "Browser_FullName": "Airmail",
         "Browser_Maker": "Bloop S.R.L.",
         "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit"
+        "RenderingEngine_Maker": "Apple Inc"
       }
     }
   ]

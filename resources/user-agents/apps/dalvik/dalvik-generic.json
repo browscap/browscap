@@ -7,12 +7,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Dalvik",
-        "Browser_Name": "Dalvik",
-        "Browser_FullName": "Dalvik",
         "Browser_Maker": "Google Inc",
         "Platform": "Android",
-        "Platform_Name": "Android",
-        "Platform_FullName": "Android",
         "Platform_Version": "",
         "Platform_Maker": "Google Inc",
         "Frames": "true",
@@ -25,10 +21,8 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
-        "Device_isMobileDevice": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
     },

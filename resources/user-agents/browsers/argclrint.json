@@ -7,32 +7,23 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ArgClrInt",
-        "Browser_Name": "ArgClrInt",
-        "Browser_FullName": "ArgClrInt",
         "Platform": "Win32",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows",
         "Platform_Bits": "32",
         "Platform_Version": "",
         "Platform_Maker": "Microsoft Corporation",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Windows Desktop"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible; ArgClrInt\/1.0; Windows NT 5.1*)",
       "properties": {
         "Parent": "ArgClrInt",
-        "Browser_FullName": "ArgClrInt 1.0",
-        "Browser_Version": "1.0",
         "Browser_Bits": "32",
         "Version": "1.0",
         "MajorVer": "1",
         "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
         "Platform_Version": "5.1",
         "Platform_Bits": "32",
         "Win32": "true"
@@ -42,14 +33,10 @@
       "userAgent": "Mozilla\/4.0 (compatible; ArgClrInt\/1.0; Windows NT 6.0*)",
       "properties": {
         "Parent": "ArgClrInt",
-        "Browser_FullName": "ArgClrInt 1.0",
-        "Browser_Version": "1.0",
         "Browser_Bits": "32",
         "Version": "1.0",
         "MajorVer": "1",
         "Platform": "WinVista",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows Vista",
         "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Win32": "true"
@@ -59,14 +46,10 @@
       "userAgent": "Mozilla\/4.0 (compatible; ArgClrInt\/1.0; Windows NT 6.1*)",
       "properties": {
         "Parent": "ArgClrInt",
-        "Browser_FullName": "ArgClrInt 1.0",
-        "Browser_Version": "1.0",
         "Browser_Bits": "32",
         "Version": "1.0",
         "MajorVer": "1",
         "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
         "Platform_Version": "6.1",
         "Platform_Bits": "32",
         "Win32": "true"
@@ -76,14 +59,10 @@
       "userAgent": "Mozilla\/4.0 (compatible; ArgClrInt\/1.0; Windows NT 6.1; WOW64*)",
       "properties": {
         "Parent": "ArgClrInt",
-        "Browser_FullName": "ArgClrInt 1.0",
-        "Browser_Version": "1.0",
         "Browser_Bits": "32",
         "Version": "1.0",
         "MajorVer": "1",
         "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
         "Platform_Version": "6.1",
         "Platform_Bits": "64",
         "Win32": "true"

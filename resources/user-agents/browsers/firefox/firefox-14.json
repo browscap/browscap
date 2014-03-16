@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -64,16 +64,28 @@
         "Device_Name": "unknown",
         "Device_Maker": "unknown",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone"
+          },
           "platforms": [
             "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Tablet"
+          },
+          "platforms": [
+            "AndroidTablet"
           ]
         }
       ]

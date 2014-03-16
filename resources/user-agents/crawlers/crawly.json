@@ -6,9 +6,7 @@
       "userAgent": "Crawly",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Crawly",
-        "Browser_Name": "Crawly",
-        "Browser_FullName": "Crawly"
+        "Browser": "Crawly"
       }
     }
   ]

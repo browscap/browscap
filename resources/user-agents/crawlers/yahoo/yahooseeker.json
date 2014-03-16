@@ -6,9 +6,7 @@
       "userAgent": "YahooSeeker",
       "properties": {
         "Parent": "Yahoo",
-        "Browser": "YahooSeeker",
-        "Browser_Name": "YahooSeeker",
-        "Browser_FullName": "YahooSeeker"
+        "Browser": "YahooSeeker"
       }
     },
     {
@@ -16,13 +14,10 @@
       "properties": {
         "Parent": "YahooSeeker",
         "Platform": "FreeBSD",
-        "Platform_Name": "FreeBSD",
-        "Platform_FullName": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
         "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "general Desktop"
       }
     }
   ]

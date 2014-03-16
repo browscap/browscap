@@ -7,13 +7,10 @@
       "properties": {
         "Parent": "Google",
         "Browser": "Google Bot Mobile",
-        "Browser_Name": "Google Bot Mobile",
-        "Browser_FullName": "Google Bot Mobile",
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {
@@ -26,8 +23,6 @@
       "userAgent": "*Googlebot-Mobile\/2.*",
       "properties": {
         "Parent": "Googlebot-Mobile",
-        "Browser_FullName": "Google Bot Mobile 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2"
       }

@@ -8,13 +8,13 @@
         "Parent": "General Crawlers",
         "Browser": "FirstSearchBot"
       }
-    }
+    },
     {
       "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
       "properties": {
         "Parent": "FirstSearchBot"
       }
-    },,
+    },
     {
       "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/*)",
       "properties": {

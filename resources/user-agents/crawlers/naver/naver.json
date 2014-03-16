@@ -7,10 +7,14 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "NaverBot",
-        "Browser_Name": "NaverBot",
-        "Browser_FullName": "NaverBot",
         "Frames": "true",
         "Tables": "true"
+      }
+    },
+    {
+      "userAgent": "*naver*",
+      "properties": {
+        "Parent": "Naver"
       }
     },
     {

@@ -74,8 +74,7 @@
             "Device_Code_Name": "GT-P1000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab"
           },
           "platforms": [
             "Android_2_2"
@@ -89,8 +88,7 @@
             "Device_Code_Name": "GT-P1010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"

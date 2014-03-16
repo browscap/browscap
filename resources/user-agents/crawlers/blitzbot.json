@@ -6,9 +6,7 @@
       "userAgent": "BlitzBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "BlitzBot",
-        "Browser_Name": "BlitzBot",
-        "Browser_FullName": "BlitzBot"
+        "Browser": "BlitzBot"
       }
     },
     {

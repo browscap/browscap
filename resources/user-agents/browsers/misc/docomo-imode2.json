@@ -7,14 +7,9 @@
       "properties": {
         "Parent": "DoCoMo",
         "Browser": "i-mode Browser",
-        "Browser_Name": "i-mode Browser",
-        "Browser_FullName": "i-mode Browser 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2",
         "Platform": "DoCoMo",
-        "Platform_Name": "DoCoMo",
-        "Platform_FullName": "DoCoMo",
         "CssVersion": "2"
       }
     },

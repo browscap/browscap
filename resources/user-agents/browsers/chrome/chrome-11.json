@@ -98,9 +98,7 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
@@ -114,9 +112,7 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"

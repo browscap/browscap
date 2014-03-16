@@ -20,9 +20,6 @@
       "properties": {
         "Parent": "Best of the Web",
         "Browser": "BOTW Feed Grabber",
-        "Browser_Name": "BOTW Feed Grabber",
-        "Browser_FullName": "BOTW Feed Grabber",
-        "Browser_isSyndicationReader": "true",
         "isSyndicationReader": "true"
       }
     },
@@ -31,9 +28,6 @@
       "properties": {
         "Parent": "Best of the Web",
         "Browser": "BOTW Feed Grabber",
-        "Browser_Name": "BOTW Feed Grabber",
-        "Browser_FullName": "BOTW Feed Grabber",
-        "Browser_isSyndicationReader": "true",
         "isSyndicationReader": "true"
       }
     },
@@ -41,18 +35,14 @@
       "userAgent": "Mozilla\/4.0 (compatible; BOTW Spider; *http:\/\/botw.org)",
       "properties": {
         "Parent": "Best of the Web",
-        "Browser": "BOTW Spider",
-        "Browser_Name": "BOTW Spider",
-        "Browser_FullName": "BOTW Spider"
+        "Browser": "BOTW Spider"
       }
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible; BOTW Spider*http:\/\/botw.org)",
       "properties": {
         "Parent": "Best of the Web",
-        "Browser": "BOTW Spider",
-        "Browser_Name": "BOTW Spider",
-        "Browser_FullName": "BOTW Spider"
+        "Browser": "BOTW Spider"
       }
     }
   ]

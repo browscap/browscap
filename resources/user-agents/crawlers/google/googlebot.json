@@ -7,8 +7,6 @@
       "properties": {
         "Parent": "Google",
         "Browser": "Google Bot",
-        "Browser_Name": "Google Bot",
-        "Browser_FullName": "Google Bot",
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false"
@@ -19,15 +17,12 @@
       "properties": {
         "Parent": "Googlebot",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       }
     },
     {
@@ -52,58 +47,44 @@
       "userAgent": "Google\/0.8* CFNetwork\/* Darwin\/*",
       "properties": {
         "Parent": "Googlebot",
-        "Browser_FullName": "Google Bot 0.8",
-        "Browser_Version": "0.8",
         "Version": "0.8",
         "MinorVer": "8",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       }
     },
     {
       "userAgent": "Google\/0.9* CFNetwork\/* Darwin\/*",
       "properties": {
         "Parent": "Googlebot",
-        "Browser_FullName": "Google Bot 0.9",
-        "Browser_Version": "0.9",
         "Version": "0.9",
         "MinorVer": "9",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       }
     },
     {
       "userAgent": "Googlebot-Image*",
       "properties": {
         "Parent": "Googlebot",
-        "Browser": "Googlebot-Image",
-        "Browser_Name": "Googlebot-Image",
-        "Browser_FullName": "Googlebot-Image"
+        "Browser": "Googlebot-Image"
       }
     },
     {
       "userAgent": "Googlebot-News*",
       "properties": {
         "Parent": "Googlebot",
-        "Browser": "Googlebot-News",
-        "Browser_Name": "Googlebot-News",
-        "Browser_FullName": "Googlebot-News"
+        "Browser": "Googlebot-News"
       }
     }
   ]

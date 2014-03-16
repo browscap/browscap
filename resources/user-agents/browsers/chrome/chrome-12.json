@@ -176,9 +176,7 @@
             "Device_Code_Name": "One SV",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One SV",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false"
+            "Device_Name": "One SV"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -192,9 +190,7 @@
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One S",
-            "Device_isMobileDevice": "true",
-            "Device_isDesktop": "false"
+            "Device_Name": "One S"
           },
           "platforms": [
             "Android_4_1"

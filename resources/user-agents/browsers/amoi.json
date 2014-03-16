@@ -7,14 +7,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Amoi",
-        "Browser_Name": "Amoi",
-        "Browser_FullName": "Amoi",
         "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
         "Platform_Maker": "Oracle",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {

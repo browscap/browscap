@@ -20,9 +20,6 @@
       "properties": {
         "Parent": "MSN",
         "Browser": "Danger",
-        "Browser_Name": "Danger",
-        "Browser_FullName": "Danger 3.0",
-        "Browser_Version": "3.0",
         "Version": "3.0",
         "MajorVer": "3"
       }
@@ -40,9 +37,6 @@
       "properties": {
         "Parent": "MSN",
         "Browser": "Vancouver",
-        "Browser_Name": "Vancouver",
-        "Browser_FullName": "Vancouver",
-        "Browser_isSyndicationReader": "true",
         "isSyndicationReader": "true"
       }
     },

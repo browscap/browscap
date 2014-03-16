@@ -6,12 +6,9 @@
       "userAgent": "AndroidDownloadManager 4.1",
       "properties": {
         "Parent": "AndroidDownloadManager",
-        "Browser_FullName": "Android Download Manager 4.1",
-        "Browser_Version": "4.1",
         "Version": "4.1",
         "MajorVer": "4",
         "MinorVer": "1",
-        "Platform_FullName": "Android 4.1",
         "Platform_Version": "4.1"
       }
     },
@@ -30,8 +27,7 @@
         "Device_Code_Name": "LifeTab S9714",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Name": "LifeTab S9714",
-        "Device_isTablet": "true"
+        "Device_Name": "LifeTab S9714"
       }
     },
     {
@@ -43,8 +39,7 @@
         "Device_Code_Name": "SGPT12",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Name": "Xperia Tablet S",
-        "Device_isTablet": "true"
+        "Device_Name": "Xperia Tablet S"
       }
     },
     {
@@ -56,8 +51,7 @@
         "Device_Code_Name": "TP10",
         "Device_Maker": "I-ONIK",
         "Device_Brand_Name": "I-ONIK",
-        "Device_Name": "TP10",
-        "Device_isTablet": "true"
+        "Device_Name": "TP10"
       }
     },
     {
@@ -69,8 +63,7 @@
         "Device_Code_Name": "Eee Pad TF201",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Name": "Transformer Prime",
-        "Device_isTablet": "true"
+        "Device_Name": "Transformer Prime"
       }
     }
   ]

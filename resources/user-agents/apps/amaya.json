@@ -11,16 +11,13 @@
         "Frames": "true",
         "Tables": "true",
         "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "general Desktop"
       }
     },
     {
       "userAgent": "amaya\/7.*",
       "properties": {
         "Parent": "Amaya",
-        "Browser_FullName": "Amaya 7.0",
-        "Browser_Version": "7.0",
         "Version": "7.0",
         "MajorVer": "7"
       }
@@ -29,8 +26,6 @@
       "userAgent": "amaya\/8.*",
       "properties": {
         "Parent": "Amaya",
-        "Browser_FullName": "Amaya 8.0",
-        "Browser_Version": "8.0",
         "Version": "8.0",
         "MajorVer": "8",
         "CssVersion": "2"
@@ -40,8 +35,6 @@
       "userAgent": "amaya\/9.*",
       "properties": {
         "Parent": "Amaya",
-        "Browser_FullName": "Amaya 9.0",
-        "Browser_Version": "9.0",
         "Version": "9.0",
         "MajorVer": "9",
         "CssVersion": "2"
@@ -51,8 +44,6 @@
       "userAgent": "amaya\/10.*",
       "properties": {
         "Parent": "Amaya",
-        "Browser_FullName": "Amaya 10.0",
-        "Browser_Version": "10.0",
         "Version": "10.0",
         "MajorVer": "10",
         "CssVersion": "2"
@@ -62,8 +53,6 @@
       "userAgent": "amaya\/11.*",
       "properties": {
         "Parent": "Amaya",
-        "Browser_FullName": "Amaya 11.0",
-        "Browser_Version": "11.0",
         "Version": "11.0",
         "MajorVer": "11",
         "CssVersion": "2"

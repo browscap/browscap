@@ -6,9 +6,7 @@
       "userAgent": "360Spider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "360Spider",
-        "Browser_Name": "360Spider",
-        "Browser_FullName": "360Spider"
+        "Browser": "360Spider"
       }
     },
     {

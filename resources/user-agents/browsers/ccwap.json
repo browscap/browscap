@@ -7,14 +7,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ccWAP",
-        "Browser_Name": "ccWAP",
-        "Browser_FullName": "ccWAP",
         "Platform": "Java",
-        "Platform_Name": "Java",
-        "Platform_FullName": "Java",
         "Platform_Maker": "Oracle",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "isMobileDevice": "true"
       }
     },
     {

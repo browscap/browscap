@@ -7,15 +7,10 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "AU",
-        "Browser_Name": "AU",
-        "Browser_FullName": "AU 4.1",
-        "Browser_Version": "4.1",
         "Version": "4.1",
         "MajorVer": "4",
         "MinorVer": "1",
         "Platform": "Brew",
-        "Platform_Name": "Brew",
-        "Platform_FullName": "Brew",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -23,16 +18,13 @@
         "JavaScript": "true",
         "VBScript": "true",
         "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_isMobileDevice": "true"
+        "CssVersion": "1"
       }
     },
     {
       "userAgent": "BIRD.S580 AU.Browser\/1.2*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 1.2",
-        "Browser_Version": "1.2",
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2",
@@ -46,8 +38,6 @@
       "userAgent": "EZ400\/BSI AU.Browser\/2.0*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2",
         "MinorVer": "0",
@@ -61,8 +51,6 @@
       "userAgent": "EZZE-MP100-\/BSI AU.Browser\/2.0*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2",
         "MinorVer": "0",
@@ -216,8 +204,6 @@
       "userAgent": "LG-G1500 AU\/4.2*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 4.2",
-        "Browser_Version": "4.2",
         "Version": "4.2",
         "MinorVer": "2",
         "Device_Code_Name": "G1500",
@@ -230,8 +216,6 @@
       "userAgent": "LG-G510 AU\/4.2*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 4.2",
-        "Browser_Version": "4.2",
         "Version": "4.2",
         "MinorVer": "2",
         "Device_Code_Name": "G510",
@@ -244,8 +228,6 @@
       "userAgent": "LG-MG191a AU\/4.8*",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 4.8",
-        "Browser_Version": "4.8",
         "Version": "4.8",
         "MinorVer": "8",
         "Device_Code_Name": "MG191a",
@@ -258,8 +240,6 @@
       "userAgent": "LG-G4010 AU\/4.12 *",
       "properties": {
         "Parent": "AU by KDDI",
-        "Browser_FullName": "AU 4.12",
-        "Browser_Version": "4.12",
         "Version": "4.12",
         "MinorVer": "12",
         "Device_Code_Name": "G4010",

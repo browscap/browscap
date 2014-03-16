@@ -9,8 +9,6 @@
                 "Parent": "Search Engines",
                 "Comment": "Ask",
                 "Browser": "Ask",
-                "Browser_Name": "Ask",
-                "Browser_FullName": "Ask",
                 "Browser_Maker": "Ask.com",
                 "Frames": "true",
                 "IFrames": "true",

@@ -6,10 +6,7 @@
       "userAgent": "YahooFeedSeeker",
       "properties": {
         "Parent": "Search Engines",
-        "Browser": "YahooFeedSeeker",
-        "Browser_Name": "YahooFeedSeeker",
-        "Browser_FullName": "YahooFeedSeeker",
-        "Browser_isSyndicationReader": "true",
+        "Browser": "YahooFeedSeeker"
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

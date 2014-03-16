@@ -8,17 +8,12 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Camino #MAJORVER#.#MINORVER#",
-        "Browser_FullName": "Camino #MAJORVER#.#MINORVER#",
         "Browser": "Camino",
-        "Browser_Name": "Camino",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Version": "#MAJORVER#.#MINORVER#",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Platform": "Mac OS X",
-        "Platform_Name": "Mac OS X",
-        "Platform_FullName": "Mac OS X 10",
         "Platform_Version": "10",
         "Platform_Maker": "Apple Inc",
         "Frames": "true",
@@ -32,8 +27,7 @@
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       },
       "children": [
         {

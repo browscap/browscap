@@ -6,11 +6,8 @@
       "userAgent": "Baidu Mobile",
       "properties": {
         "Parent": "Baidu",
-        "Browser": "BaiDu Mobile",
-        "Browser_Name": "BaiDu Mobile",
-        "Browser_FullName": "BaiDu Mobile",
-        "isMobileDevice": "true",
-        "Device_isMobileDevice": "true"
+        "Browser": "BaiDu Mobile"
+        "isMobileDevice": "true"
       }
     },
     {

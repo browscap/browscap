@@ -16,45 +16,35 @@
       "userAgent": "*BecomeBot\/*",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeBot",
-        "Browser_Name": "BecomeBot",
-        "Browser_FullName": "BecomeBot"
+        "Browser": "BecomeBot"
       }
     },
     {
       "userAgent": "*BecomeBot@exava.com*",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeBot",
-        "Browser_Name": "BecomeBot",
-        "Browser_FullName": "BecomeBot"
+        "Browser": "BecomeBot"
       }
     },
     {
       "userAgent": "MonkeyCrawl\/*",
       "properties": {
         "Parent": "Become",
-        "Browser": "MonkeyCrawl",
-        "Browser_Name": "MonkeyCrawl",
-        "Browser_FullName": "MonkeyCrawl"
+        "Browser": "MonkeyCrawl"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeJPBot",
-        "Browser_Name": "BecomeJPBot",
-        "Browser_FullName": "BecomeJPBot"
+        "Browser": "BecomeJPBot"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*)",
       "properties": {
         "Parent": "Become",
-        "Browser": "BecomeJPBot",
-        "Browser_Name": "BecomeJPBot",
-        "Browser_FullName": "BecomeJPBot"
+        "Browser": "BecomeJPBot"
       }
     }
   ]

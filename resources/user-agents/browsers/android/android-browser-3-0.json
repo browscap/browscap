@@ -208,7 +208,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#dream*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Platform_FullName": "Android 1.0",
             "Platform_Version": "1.0",
             "Device_Code_Name": "Dream",
             "Device_Maker": "HTC",

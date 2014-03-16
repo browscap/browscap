@@ -6,9 +6,7 @@
       "userAgent": "VoilaBot",
       "properties": {
         "Parent": "Search Engines",
-        "Browser": "VoilaBot",
-        "Browser_Name": "VoilaBot",
-        "Browser_FullName": "VoilaBot"
+        "Browser": "VoilaBot"
       }
     },
     {

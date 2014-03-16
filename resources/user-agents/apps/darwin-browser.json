@@ -10,13 +10,6 @@
         "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Browser": "General Browser",
-        "Browser_Name": "General Browser",
-        "Browser_FullName": "General Browser",
-        "Browser_isSyndicationReader": "false",
-        "Browser_isBot": "false",
-        "Browser_isTanscoder": "false",
-        "Browser_isAlpha": "false",
-        "Browser_isBeta": "false",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -36,26 +29,16 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "general Device",
-        "Device_isMobileDevice": "false",
-        "Device_isTablet": "false",
-        "Device_isDesktop": "false",
-        "Device_isTv": "false",
         "Browser": "Darwin Browser",
-        "Browser_Name": "Darwin Browser",
-        "Browser_FullName": "Darwin Browser",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh",
-        "Device_isDesktop": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
     },
@@ -69,7 +52,6 @@
       "userAgent": "browser\/* CFNetwork\/* Darwin\/10.4*",
       "properties": {
         "Parent": "Darwin Browser",
-        "Platform_FullName": "Darwin 10.4",
         "Platform_Version": "10.4"
       }
     },
@@ -77,7 +59,6 @@
       "userAgent": "browser\/* CFNetwork\/* Darwin\/11.*",
       "properties": {
         "Parent": "Darwin Browser",
-        "Platform_FullName": "Darwin 11.0",
         "Platform_Version": "11.0"
       }
     },
@@ -90,57 +71,46 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "iPad",
         "Device_Name": "iPad",
-        "Device_isMobileDevice": "true",
-        "Device_isTablet": "true",
-        "Device_isDesktop": "false"
+        "Device_isTablet": "true"
       }
     },
     {
       "userAgent": "browseripad\/* CFNetwork\/* Darwin\/10.4*",
       "properties": {
         "Parent": "Darwin Browser",
-        "Platform_FullName": "Darwin 10.4",
         "Platform_Version": "10.4",
         "isMobileDevice": "true",
         "isTablet": "true",
         "Device_Type": "Tablet",
         "Device_Code_Name": "iPad",
         "Device_Name": "iPad",
-        "Device_isMobileDevice": "true",
-        "Device_isTablet": "true",
-        "Device_isDesktop": "false"
+        "Device_isTablet": "true"
       }
     },
     {
       "userAgent": "browseripad\/* CFNetwork\/* Darwin\/11.*",
       "properties": {
         "Parent": "Darwin Browser",
-        "Platform_FullName": "Darwin 11.0",
         "Platform_Version": "11.0",
         "isMobileDevice": "true",
         "isTablet": "true",
         "Device_Type": "Tablet",
         "Device_Code_Name": "iPad",
         "Device_Name": "iPad",
-        "Device_isMobileDevice": "true",
-        "Device_isTablet": "true",
-        "Device_isDesktop": "false"
+        "Device_isTablet": "true"
       }
     },
     {
       "userAgent": "browseripad\/* CFNetwork\/* Darwin\/13.*",
       "properties": {
         "Parent": "Darwin Browser",
-        "Platform_FullName": "Darwin 13.0",
         "Platform_Version": "13.0",
         "isMobileDevice": "true",
         "isTablet": "true",
         "Device_Type": "Tablet",
         "Device_Code_Name": "iPad",
         "Device_Name": "iPad",
-        "Device_isMobileDevice": "true",
-        "Device_isTablet": "true",
-        "Device_isDesktop": "false"
+        "Device_isTablet": "true"
       }
     }
   ]

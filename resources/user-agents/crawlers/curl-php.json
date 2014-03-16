@@ -10,8 +10,6 @@
         "SubCategory": "Library",
         "Browser_Type": "Library",
         "Browser": "cURL PHP",
-        "Browser_Name": "cURL PHP",
-        "Browser_FullName": "cURL PHP",
         "Browser_Maker": "team Haxx"
       }
     },
@@ -25,8 +23,6 @@
       "userAgent": "Curl\/PHP 5.4*",
       "properties": {
         "Parent": "cURL PHP",
-        "Browser_FullName": "cURL PHP 5.4",
-        "Browser_Version": "5.4",
         "Version": "5.4",
         "MajorVer": "5",
         "MinorVer": "4"

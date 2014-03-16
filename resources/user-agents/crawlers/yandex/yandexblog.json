@@ -7,9 +7,6 @@
       "properties": {
         "Parent": "Yandex",
         "Browser": "YandexBlog",
-        "Browser_Name": "YandexBlog",
-        "Browser_FullName": "YandexBlog",
-        "Browser_isSyndicationReader": "true",
         "isSyndicationReader": "true"
       }
     },

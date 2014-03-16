@@ -8,8 +8,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Boxee",
-        "Browser_Name": "Boxee",
-        "Browser_FullName": "Boxee",
         "Browser_Maker": "Boxee, Inc.",
         "Frames": "true",
         "IFrames": "true",
@@ -19,8 +17,7 @@
         "Device_Name": "Boxee",
         "Device_Maker": "D-Link",
         "Device_Type": "TV Device",
-        "Device_Code_Name": "Boxee",
-        "Device_isTv": "true"
+        "Device_Code_Name": "Boxee"
       }
     },
     {
@@ -40,8 +37,6 @@
       "userAgent": "curl\/* (Linux * intel.*dlink.dsm*; beta) boxee\/1.*",
       "properties": {
         "Parent": "Boxee",
-        "Browser_FullName": "Boxee 1.0",
-        "Browser_Version": "1.0",
         "Version": "1.0",
         "MajorVer": "1",
         "Device_Code_Name": "General Dlink-TV Device",
@@ -54,8 +49,6 @@
       "userAgent": "curl\/* (Linux * intel.*dlink.dsm380*; beta) boxee\/1.2*",
       "properties": {
         "Parent": "Boxee",
-        "Browser_FullName": "Boxee 1.2",
-        "Browser_Version": "1.2",
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2",

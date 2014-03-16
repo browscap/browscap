@@ -10,13 +10,6 @@
         "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Browser": "General Browser",
-        "Browser_Name": "General Browser",
-        "Browser_FullName": "General Browser",
-        "Browser_isSyndicationReader": "false",
-        "Browser_isBot": "false",
-        "Browser_isTanscoder": "false",
-        "Browser_isAlpha": "false",
-        "Browser_isBeta": "false",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -36,13 +29,7 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "general Device",
-        "Device_isMobileDevice": "false",
-        "Device_isTablet": "false",
-        "Device_isDesktop": "false",
-        "Device_isTv": "false",
         "Browser": "Adobe AIR",
-        "Browser_Name": "Adobe AIR",
-        "Browser_FullName": "Adobe AIR",
         "Frames": "true",
         "Tables": "true"
       }
@@ -51,8 +38,6 @@
       "userAgent": "Mozilla\/5.0 (*Linux i686; *) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/2.7*",
       "properties": {
         "Parent": "Adobe AIR",
-        "Browser_FullName": "Adobe AIR 2.7",
-        "Browser_Version": "2.7",
         "Browser_Bits": "32",
         "Version": "2.7",
         "MajorVer": "2",
@@ -64,22 +49,17 @@
       "userAgent": "Mozilla\/5.0 (*Windows*) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/3.8*",
       "properties": {
         "Parent": "Adobe AIR",
-        "Browser_FullName": "Adobe AIR 3.8",
-        "Browser_Version": "3.8",
         "Browser_Bits": "32",
         "Version": "3.8",
         "MajorVer": "3",
         "MinorVer": "8",
         "Platform": "Win32",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Windows Desktop"
       }
     }
   ]

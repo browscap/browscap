@@ -6,13 +6,10 @@
       "userAgent": "BlackBerry 10.0",
       "properties": {
         "Parent": "BlackBerry",
-        "Browser_FullName": "BlackBerry 10.0",
-        "Browser_Version": "10.0",
         "Version": "10.0",
         "MajorVer": "10",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
     },

@@ -6,11 +6,8 @@
       "userAgent": "BlackBerry 5.0",
       "properties": {
         "Parent": "BlackBerry",
-        "Browser_FullName": "BlackBerry 5.0",
-        "Browser_Version": "5.0",
         "Version": "5.0",
         "MajorVer": "5",
-        "Platform_FullName": "RIM OS 5.0",
         "Platform_Version": "5.0"
       }
     },

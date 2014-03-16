@@ -7,8 +7,6 @@
       "properties": {
         "Parent": "Google Code",
         "Browser": "Arora",
-        "Browser_Name": "Arora",
-        "Browser_FullName": "Arora",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,7 +19,6 @@
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_FullName": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [

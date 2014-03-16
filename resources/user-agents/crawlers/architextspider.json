@@ -6,9 +6,7 @@
       "userAgent": "ArchitextSpider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "ArchitextSpider",
-        "Browser_Name": "ArchitextSpider",
-        "Browser_FullName": "ArchitextSpider"
+        "Browser": "ArchitextSpider"
       }
     },
     {

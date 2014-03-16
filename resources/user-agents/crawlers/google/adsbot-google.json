@@ -6,9 +6,7 @@
       "userAgent": "AdsBot Google",
       "properties": {
         "Parent": "Google",
-        "Browser": "AdsBot Google",
-        "Browser_Name": "AdsBot Google",
-        "Browser_FullName": "AdsBot Google"
+        "Browser": "AdsBot Google"
       }
     },
     {

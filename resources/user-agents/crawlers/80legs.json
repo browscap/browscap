@@ -6,9 +6,7 @@
       "userAgent": "80Legs",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "80Legs",
-        "Browser_Name": "80Legs",
-        "Browser_FullName": "80Legs"
+        "Browser": "80Legs"
       }
     },
     {

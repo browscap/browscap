@@ -6,8 +6,6 @@
       "userAgent": "Googlebot 1.0",
       "properties": {
         "Parent": "Googlebot",
-        "Browser_FullName": "Google Bot 1.0",
-        "Browser_Version": "1.0",
         "Version": "1.0",
         "MajorVer": "1"
       }
@@ -17,15 +15,12 @@
       "properties": {
         "Parent": "Googlebot 1.0",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       }
     },
     {

@@ -6,9 +6,7 @@
       "userAgent": "Yahoo Search Monkey",
       "properties": {
         "Parent": "Yahoo",
-        "Browser": "Yahoo! Search Monkey",
-        "Browser_Name": "Yahoo! Search Monkey",
-        "Browser_FullName": "Yahoo! Search Monkey"
+        "Browser": "Yahoo! Search Monkey"
       }
     }
   ]

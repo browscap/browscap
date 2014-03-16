@@ -6,8 +6,6 @@
       "userAgent": "Extras4iMovie 9",
       "properties": {
         "Parent": "Extras4iMovie",
-        "Browser_FullName": "Extras4iMovie 9.0",
-        "Browser_Version": "9.0",
         "Version": "9.0",
         "MajorVer": "9"
       }
@@ -22,11 +20,8 @@
       "userAgent": "Extras4iMovie\/9.07* CFNetwork\/* Darwin\/10.*",
       "properties": {
         "Parent": "Extras4iMovie 9",
-        "Browser_FullName": "Extras4iMovie 9.07",
-        "Browser_Version": "9.07",
         "Version": "9.07",
         "MinorVer": "07",
-        "Platform_FullName": "Darwin 10.0",
         "Platform_Version": "10.0"
       }
     },
@@ -34,11 +29,8 @@
       "userAgent": "Extras4iMovie\/9.07* CFNetwork\/* Darwin\/10.4.*",
       "properties": {
         "Parent": "Extras4iMovie 9",
-        "Browser_FullName": "Extras4iMovie 9.07",
-        "Browser_Version": "9.07",
         "Version": "9.07",
         "MinorVer": "07",
-        "Platform_FullName": "Darwin 10.4",
         "Platform_Version": "10.4"
       }
     }

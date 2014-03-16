@@ -6,12 +6,9 @@
       "userAgent": "BlackBerry 4.2",
       "properties": {
         "Parent": "BlackBerry",
-        "Browser_FullName": "BlackBerry 4.2",
-        "Browser_Version": "4.2",
         "Version": "4.2",
         "MajorVer": "4",
         "MinorVer": "2",
-        "Platform_FullName": "RIM OS 4.2",
         "Platform_Version": "4.2"
       }
     },
@@ -261,8 +258,6 @@
         "Parent": "BlackBerry 4.2",
         "Browser_Bits": "32",
         "Platform": "Windows Mobile OS",
-        "Platform_Name": "Windows Mobile OS",
-        "Platform_FullName": "Windows Mobile OS 6.0",
         "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
@@ -276,8 +271,6 @@
         "Parent": "BlackBerry 4.2",
         "Browser_Bits": "32",
         "Platform": "Windows Mobile OS",
-        "Platform_Name": "Windows Mobile OS",
-        "Platform_FullName": "Windows Mobile OS 6.0",
         "Platform_Version": "6.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",

@@ -7,8 +7,6 @@
       "properties": {
         "Parent": "Search Engines",
         "Browser": "YaCy Bot",
-        "Browser_Name": "YaCy Bot",
-        "Browser_FullName": "YaCy Bot",
         "Frames": "true",
         "Tables": "true"
       }
@@ -24,14 +22,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "32",
         "Platform_Bits": "32",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -39,14 +34,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "32",
         "Platform_Bits": "32",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -54,14 +46,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -69,11 +58,8 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux 3.2",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "64",
-        "Platform_Version": "3.2",
         "Platform_Bits": "64"
       }
     },
@@ -82,14 +68,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -97,14 +80,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -112,14 +92,11 @@
       "properties": {
         "Parent": "YaCy",
         "Platform": "Linux",
-        "Platform_Name": "Linux",
-        "Platform_FullName": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Linux Desktop"
       }
     },
     {
@@ -128,15 +105,12 @@
         "Parent": "YaCy",
         "Browser_Bits": "32",
         "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true",
         "Platform_Version": "6.1"
       }
     },
@@ -146,15 +120,12 @@
         "Parent": "YaCy",
         "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true",
         "Platform_Version": "5.1"
       }
     },
@@ -164,15 +135,12 @@
         "Parent": "YaCy",
         "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows XP",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true",
         "Platform_Version": "5.1"
       }
     },
@@ -182,15 +150,12 @@
         "Parent": "YaCy",
         "Browser_Bits": "64",
         "Platform": "WinVista",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows Vista",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true",
         "Platform_Version": "6.0",
         "Win64": "true"
       }
@@ -201,15 +166,12 @@
         "Parent": "YaCy",
         "Browser_Bits": "64",
         "Platform": "Win7",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows 7",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true",
         "Platform_Version": "6.1",
         "Win64": "true"
       }

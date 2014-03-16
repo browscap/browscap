@@ -6,8 +6,6 @@
       "userAgent": "billigFluegeFinal 1.6",
       "properties": {
         "Parent": "billigFluegeFinal",
-        "Browser_FullName": "billigFluegeFinal App 1.6",
-        "Browser_Version": "1.6",
         "Version": "1.6",
         "MajorVer": "1",
         "MinorVer": "6"
@@ -23,7 +21,6 @@
       "userAgent": "billigFluegeFinal\/1.6* CFNetwork\/* Darwin\/11.*",
       "properties": {
         "Parent": "billigFluegeFinal 1.6",
-        "Platform_FullName": "Darwin 11.0",
         "Platform_Version": "11.0"
       }
     }

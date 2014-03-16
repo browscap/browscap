@@ -38,8 +38,7 @@
             "Device_Code_Name": "A500",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Name": "Picasso",
-            "Device_isTablet": "true"
+            "Device_Name": "Picasso"
           },
           "platforms": [
             "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1"
@@ -53,8 +52,7 @@
             "Device_Code_Name": "GT-P7510",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 10.1",
-            "Device_isTablet": "true"
+            "Device_Name": "Galaxy Tab 10.1"
           },
           "platforms": [
             "Android_3_1"
@@ -68,8 +66,7 @@
             "Device_Code_Name": "TF101",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
-            "Device_Name": "Eee Pad Transformer TF101",
-            "Device_isTablet": "true"
+            "Device_Name": "Eee Pad Transformer TF101"
           },
           "platforms": [
             "Android_3_2", "Android_4_0", "Android_4_1"

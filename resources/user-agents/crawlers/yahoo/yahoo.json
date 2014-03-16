@@ -7,15 +7,12 @@
       "properties": {
         "Parent": "Yahoo",
         "Platform": "Darwin",
-        "Platform_Name": "Darwin",
-        "Platform_FullName": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_isDesktop": "true"
+        "Device_Name": "Macintosh"
       }
     },
     {
@@ -54,16 +51,13 @@
         "Parent": "Yahoo",
         "Browser_Bits": "32",
         "Platform": "WinNT",
-        "Platform_Name": "Windows",
-        "Platform_FullName": "Windows NT",
         "Platform_Version": "4.0",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Win32": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_isDesktop": "true"
+        "Device_Name": "Windows Desktop"
       }
     }
   ]

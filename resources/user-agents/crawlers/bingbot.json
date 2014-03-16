@@ -6,9 +6,7 @@
             "userAgent": "BingBot",
             "properties": {
                 "Parent": "MSN",
-                "Browser": "BingBot",
-                "Browser_Name": "BingBot",
-                "Browser_FullName": "BingBot"
+                "Browser": "BingBot"
             }
         },
         {
@@ -16,23 +14,18 @@
             "properties": {
                 "Parent": "BingBot",
                 "Platform": "Darwin",
-                "Platform_Name": "Darwin",
-                "Platform_FullName": "Darwin",
                 "Platform_Maker": "Apple Inc",
                 "Device_Type": "Desktop",
                 "Device_Code_Name": "Macintosh",
                 "Device_Maker": "Apple Inc",
                 "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true"
+                "Device_Name": "Macintosh"
             }
         },
         {
             "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
             "properties": {
                 "Parent": "BingBot",
-                "Browser_FullName": "BingBot 2.0",
-                "Browser_Version": "2.0",
                 "Version": "2.0",
                 "MajorVer": "2"
             }
@@ -41,9 +34,7 @@
             "userAgent": "adidxbot\/*",
             "properties": {
                 "Parent": "BingBot",
-                "Browser": "adidxbot",
-                "Browser_Name": "adidxbot",
-                "Browser_FullName": "adidxbot"
+                "Browser": "adidxbot"
             }
         },
         {
@@ -51,9 +42,6 @@
             "properties": {
                 "Parent": "BingBot",
                 "Browser": "adidxbot",
-                "Browser_Name": "adidxbot",
-                "Browser_FullName": "adidxbot 1.1",
-                "Browser_Version": "1.1",
                 "Version": "1.1",
                 "MajorVer": "1",
                 "MinorVer": "1"
@@ -64,9 +52,6 @@
             "properties": {
                 "Parent": "BingBot",
                 "Browser": "adidxbot",
-                "Browser_Name": "adidxbot",
-                "Browser_FullName": "adidxbot 2.0",
-                "Browser_Version": "2.0",
                 "Version": "2.0",
                 "MajorVer": "2"
             }
@@ -75,22 +60,17 @@
             "userAgent": "Bing\/2.2* CFNetwork\/* Darwin\/11.0*",
             "properties": {
                 "Parent": "BingBot",
-                "Browser_FullName": "BingBot 2.2",
-                "Browser_Version": "2.2",
                 "Version": "2.2",
                 "MajorVer": "2",
                 "MinorVer": "2",
                 "Platform": "Darwin",
-                "Platform_Name": "Darwin",
-                "Platform_FullName": "Darwin 11.0",
                 "Platform_Version": "11.0",
                 "Platform_Maker": "Apple Inc",
                 "Device_Type": "Desktop",
                 "Device_Code_Name": "Macintosh",
                 "Device_Maker": "Apple Inc",
                 "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "Device_isDesktop": "true"
+                "Device_Name": "Macintosh"
             }
         }
     ]

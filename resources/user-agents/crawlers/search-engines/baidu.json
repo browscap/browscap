@@ -21,9 +21,7 @@
       "userAgent": "Baiduspider-image*",
       "properties": {
         "Parent": "Baidu",
-        "Browser": "Baidu Image Search",
-        "Browser_Name": "Baidu Image Search",
-        "Browser_FullName": "Baidu Image Search"
+        "Browser": "Baidu Image Search"
       }
     },
     {
@@ -108,8 +106,6 @@
       "properties": {
         "Parent": "Baidu",
         "Browser": "Baiduspider",
-        "Browser_FullName": "Baiduspider 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2"
       }
@@ -119,8 +115,6 @@
       "properties": {
         "Parent": "Baidu",
         "Browser": "Baiduspider",
-        "Browser_FullName": "Baiduspider 2.0",
-        "Browser_Version": "2.0",
         "Version": "2.0",
         "MajorVer": "2"
       }
