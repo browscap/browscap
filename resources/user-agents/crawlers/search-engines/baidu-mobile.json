@@ -6,7 +6,7 @@
       "userAgent": "Baidu Mobile",
       "properties": {
         "Parent": "Baidu",
-        "Browser": "BaiDu Mobile"
+        "Browser": "BaiDu Mobile",
         "isMobileDevice": "true"
       }
     },
