@@ -9,7 +9,6 @@
         "Category": "Browser",
         "SubCategory": "Browser",
         "Browser_Type": "Browser",
-        "Browser": "General Browser",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -24,11 +23,10 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "general Device",
+        "Device_Type": "Mobile Device",
         "Browser": "bumblebee",
         "isMobileDevice": "true"
       }
