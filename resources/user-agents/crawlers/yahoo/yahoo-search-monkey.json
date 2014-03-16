@@ -8,6 +8,13 @@
         "Parent": "Yahoo",
         "Browser": "Yahoo! Search Monkey"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! SearchMonkey*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Search Monkey"
+      }
     }
   ]
 }

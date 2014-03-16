@@ -19,6 +19,21 @@
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop"
       }
+    },
+    {
+      "userAgent": "YahooSeeker*",
+      "properties": {
+        "Parent": "YahooSeeker",
+        "Browser": "YahooSeeker",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker\/CafeKelsa*",
+      "properties": {
+        "Parent": "YahooSeeker",
+        "Browser": "YahooSeeker\/CafeKelsa"
+      }
     }
   ]
 }

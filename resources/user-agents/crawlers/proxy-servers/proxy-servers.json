@@ -47,14 +47,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*; *) KHTML\/* (like Gecko)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Yahoo!",
-        "Crawler": "true"
-      }
-    },
-    {
       "userAgent": "Nutscrape",
       "properties": {
         "Parent": "Proxy Servers",

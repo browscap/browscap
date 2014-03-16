@@ -3,6 +3,26 @@
   "sortIndex": 1310,
   "userAgents": [
     {
+      "userAgent": "Yahoo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Y!J; for robot study*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J"
+      }
+    },
+    {
       "userAgent": "Y!%20Messenger\/* CFNetwork\/* Darwin\/*",
       "properties": {
         "Parent": "Yahoo",
@@ -40,6 +60,12 @@
       }
     },
     {
+      "userAgent": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*; *) KHTML\/* (like Gecko)",
+      "properties": {
+        "Parent": "Yahoo"
+      }
+    },
+    {
       "userAgent": "YahooCacheSystem",
       "properties": {
         "Parent": "Yahoo"
@@ -58,6 +84,145 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Yahoo-MMCrawler\/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMCrawler",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Yahoo-Test\/*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-Test"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (YahooYSMcm*)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooYSMcm"
+      }
+    },
+    {
+      "userAgent": "mp3Spider cn-search-devel at yahoo-inc dot com",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Media"
+      }
+    },
+    {
+      "userAgent": "My Browser",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! My Browser"
+      }
+    },
+    {
+      "userAgent": "Scooter*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Scooter"
+      }
+    },
+    {
+      "userAgent": "Scooter\/*Y!CrawlX",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Scooter\/3.3Y!CrawlX",
+        "Version": "3.3",
+        "MajorVer": "3",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Y!OASIS*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!OASIS"
+      }
+    },
+    {
+      "userAgent": "Yahoo Mindset",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Mindset"
+      }
+    },
+    {
+      "userAgent": "Yahoo Pipes*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Pipes"
+      }
+    },
+    {
+      "userAgent": "Yahoo! Mindset",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo! Mindset"
+      }
+    },
+    {
+      "userAgent": "Yahoo-Blogs*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-Blogs"
+      }
+    },
+    {
+      "userAgent": "Yahoo-MMAudVid*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMAudVid"
+      }
+    },
+    {
+      "userAgent": "Yahoo-MMCrawler*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo-MMCrawler"
+      }
+    },
+    {
+      "userAgent": "YahooExternalCache",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooExternalCache"
+      }
+    },
+    {
+      "userAgent": "YahooVideoSearch*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooVideoSearch"
+      }
+    },
+    {
+      "userAgent": "YahooYSMcm*",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooYSMcm"
+      }
+    },
+    {
+      "userAgent": "YRL_ODP_CRAWLER",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YRL_ODP_CRAWLER"
+      }
+    },
+    {
+      "userAgent": "Yahoo:LinkExpander:Slingstone",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo Slingstone"
       }
     }
   ]
