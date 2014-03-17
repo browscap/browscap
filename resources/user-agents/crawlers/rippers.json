@@ -27,13 +27,6 @@
       }
     },
     {
-      "userAgent": "*java*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Generic Java Crawler"
-      }
-    },
-    {
       "userAgent": "*libwww*",
       "properties": {
         "Parent": "Rippers",
@@ -292,13 +285,6 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "Holmes"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "HTMLParser"
       }
     },
     {

@@ -60,7 +60,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:1.9*) Gecko\/* Firefox anonymized by*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:1.9*) Gecko\/* Firefox anonymized*",
           "platforms": [
             "Win7_32"
           ]
@@ -80,13 +80,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox #MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinXPb_32"
+            "WinXPa_32", "WinXPb_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Firefox #MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinXPb_32"
+            "WinXPa_32", "WinXPb_32"
           ]
         }
       ]

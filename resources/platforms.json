@@ -28,6 +28,8 @@
       "match": "*CrOS x86_64*",
       "properties": {
         "Platform": "Chrome OS",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
         "Device_Type": "Desktop",
@@ -575,14 +577,6 @@
         "Win32": "false"
       }
     },
-    "Debian": {
-      "match": "*Linux*",
-      "properties": {
-        "Browser_Bits": "32",
-        "Platform": "Debian",
-        "Win32": "false"
-      }
-    },
     "Linux_32": {
       "match": "*Linux i686*",
       "properties": {
@@ -598,6 +592,19 @@
     },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Platform_Bits": "64",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Win32": "false"
+      }
+    },
+    "Linux_32_on_x64_2": {
+      "match": "*Linux i686 (x86_64)*",
       "properties": {
         "Browser_Bits": "32",
         "Platform": "Linux",
@@ -648,15 +655,6 @@
         "Win32": "false"
       }
     },
-    "Debian_64": {
-      "match": "*Linux x86_64*",
-      "properties": {
-        "Browser_Bits": "64",
-        "Platform": "Debian",
-        "Win32": "false",
-        "Win64": "false"
-      }
-    },
     "Linux_PPC": {
       "match": "*Linux*; PPC*",
       "properties": {
@@ -664,6 +662,42 @@
         "Platform": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Platform_Bits": "32",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Win32": "false"
+      }
+    },
+    "Debian": {
+      "match": "*Linux*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Debian",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    "Debian_64": {
+      "match": "*Linux x86_64*",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Platform": "Debian",
+        "Win32": "false",
+        "Win64": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    "Debian_32_on_x64_2": {
+      "match": "*Linux i686 (x86_64)*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Debian",
+        "Platform_Bits": "64",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
@@ -1746,6 +1780,17 @@
         "Win32": "false"
       }
     },
+    "FreeBSD_64": {
+      "match": "*FreeBSD x86_64*",
+      "properties": {
+        "Platform": "FreeBSD",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop",
+        "Win32": "false"
+      }
+    },
     "OpenBSD": {
       "match": "*OpenBSD*",
       "properties": {
@@ -1785,6 +1830,7 @@
       "properties": {
         "Platform": "IRIX64",
         "Platform_Maker": "SGI",
+        "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Device_Type": "Desktop",
         "Device_Maker": "SGI",
@@ -1796,6 +1842,8 @@
       "match": "*IRIX*",
       "properties": {
         "Platform": "IRIX",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64",
         "Platform_Maker": "SGI",
         "Device_Type": "Desktop",
         "Device_Maker": "SGI",
@@ -2087,12 +2135,24 @@
       "match": "*Maemo; Linux*",
       "properties": {
         "Platform": "Linux Smartphone OS",
-        "Platform_Version": "",
         "Platform_Maker": "Linux Foundation",
         "Win32": "false",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device"
+      }
+    },
+    "Maemo_ARM": {
+      "match": "*Linux armv*",
+      "properties": {
+        "Platform": "Linux Smartphone OS",
+        "Platform_Maker": "Linux Foundation",
+        "Win32": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
       }
     }
   }

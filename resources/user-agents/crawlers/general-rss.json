@@ -75,6 +75,20 @@
         "MinorVer": "0",
         "Platform": "Win32"
       }
+    },
+    {
+      "userAgent": "RSSOwl\/*",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "RSSOwl"
+      }
+    },
+    {
+      "userAgent": "HiddenMarket-*",
+      "properties": {
+        "Parent": "General RSS",
+        "Browser": "HiddenMarket"
+      }
     }
   ]
 }

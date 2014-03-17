@@ -1,0 +1,23 @@
+{
+  "division": "Icedove 7.0",
+  "sortIndex": 5400,
+  "userAgents": [
+    {
+      "userAgent": "Icedove 7.0",
+      "properties": {
+        "Parent": "Icedove",
+        "Version": "7.0",
+        "MajorVer": "7",
+        "RenderingEngine_Version": "7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686*) Gecko\/* Icedove\/7.*",
+      "properties": {
+        "Parent": "Icedove 7.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

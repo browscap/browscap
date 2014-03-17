@@ -144,6 +144,13 @@
         "Parent": "Image Crawlers",
         "Browser": "Custo"
       }
+    },
+    {
+      "userAgent": "FOTOCHECKER",
+      "properties": {
+        "Parent": "Image Crawlers",
+        "Browser": "FOTOCHECKER"
+      }
     }
   ]
 }

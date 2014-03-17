@@ -47,6 +47,12 @@
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:2.0*) Gecko\/* Firefox *",
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }

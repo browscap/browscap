@@ -1,118 +1,41 @@
 {
-  "division": "Flock 0.7",
+  "division": "Flock #MAJORVER#.#MINORVER#",
+  "versions": ["0.7"],
   "sortIndex": 4810,
   "userAgents": [
     {
-      "userAgent": "Flock 0.7",
+      "userAgent": "Flock #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Flock Generic",
-        "Version": "0.7",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U*Mac OS X*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.0*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
+        "Parent": "DefaultProperties",
+        "Comment": "Flock #MAJORVER#.#MINORVER#",
+        "Browser": "Flock",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Win 9x 4.90*; rv:1.*Gecko\/* Firefox\/1.* Flock\/0.7*",
-      "properties": {
-        "Parent": "Flock 0.7",
-        "Browser_Bits": "32",
-        "Platform": "WinME",
-        "Platform_Version": "ME",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/1.* Flock\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX",
+            "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
     }
   ]
 }

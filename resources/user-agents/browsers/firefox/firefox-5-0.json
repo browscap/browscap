@@ -84,7 +84,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER*",
           "properties": {
             "Device_Type": "Mobile Phone"
           },
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER*",
           "properties": {
             "Device_Type": "Tablet"
           },

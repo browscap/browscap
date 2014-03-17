@@ -1,0 +1,37 @@
+{
+  "division": "IAC",
+  "sortIndex": 5250,
+  "userAgents": [
+    {
+      "userAgent": "IAC",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "IAC",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "IAC-S858\/20040326aIOL20301341\/WAP2.0 *",
+      "properties": {
+        "Parent": "IAC"
+      }
+    }
+  ]
+}
