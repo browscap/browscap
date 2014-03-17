@@ -81,6 +81,41 @@
           ]
         }
       ]
+    },
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
+      "properties": {
+        "Parent": "IE #MAJORVER#.#MINORVER#",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Browser": "IE",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "Device_Name": "unknown",
+        "Device_Maker": "Microsoft",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "7.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*Touch*rv:#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "WinRT8_32", "WinRT8_1_32"
+          ]
+        }
+      ]
     }
   ]
 }

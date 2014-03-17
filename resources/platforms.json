@@ -1270,6 +1270,34 @@
         "Win64": "true"
       }
     },
+    "WinRT8_32": {
+      "match": "*Windows NT 6.2; ARM*",
+      "properties": {
+        "Platform": "WinRT8",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows RT 8.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Name": "Surface",
+        "Device_Type": "Tablet",
+        "Device_Maker": "Microsoft",
+        "Device_Pointing_Method": "touchscreen"
+      }
+    },
+    "WinRT8_1_32": {
+      "match": "*Windows NT 6.3; ARM*",
+      "properties": {
+        "Platform": "WinRT8.1",
+        "Platform_Version": "6.3",
+        "Platform_Description": "Windows RT 8.1",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Name": "Surface",
+        "Device_Type": "Tablet",
+        "Device_Maker": "Microsoft",
+        "Device_Pointing_Method": "touchscreen"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "properties": {

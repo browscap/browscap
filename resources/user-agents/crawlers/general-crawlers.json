@@ -537,7 +537,104 @@
       "userAgent": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "SEOprofiler"
+        "Browser": "spbot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/OpenLinkProfiler.org\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/1.0*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/1.2*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/1.1*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/2.0*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/2.1*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/3.0*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/3.1*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/www.seoprofiler.com\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/OpenLinkProfiler.org\/bot*)",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "spbot",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "MinorVer": "0"
       }
     },
     {
