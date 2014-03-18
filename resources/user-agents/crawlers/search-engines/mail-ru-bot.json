@@ -12,13 +12,13 @@
     {
       "userAgent": "Mail.Ru\/1.0",
       "properties": {
-        "Parent": "Mail.Ru Bot",
+        "Parent": "Mail.Ru Bot"
       }
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; Mail.RU\/*)",
       "properties": {
-        "Parent": "Mail.Ru Bot",
+        "Parent": "Mail.Ru Bot"
       }
     },
     {
