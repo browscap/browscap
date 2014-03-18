@@ -25,7 +25,7 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Device_Type": "general Device",
+        "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "RenderingEngine_Name": "Trident",
