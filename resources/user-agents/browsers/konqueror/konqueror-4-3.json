@@ -1,0 +1,97 @@
+{
+  "division": "Konqueror 4.3",
+  "sortIndex": 6620,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror 4.3",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Konqueror",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "general Device",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Description": "For Konqueror.",
+        "Version": "4.3",
+        "MajorVer": "4",
+        "MinorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*; FreeBSD) KHTML\/4.3* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.3",
+        "Platform": "FreeBSD",
+        "Platform_Version": "",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*; Debian) KHTML\/4.3* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.3",
+        "Platform": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*Linux*KHTML\/4.3* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.3",
+        "Platform": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*; NetBSD) KHTML\/4.3* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.3",
+        "Platform": "NetBSD",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*KHTML\/4.3* (like Gecko)*",
+      "properties": {
+        "Parent": "Konqueror 4.3"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/4.3*; Windows) KHTML\/4.3* (like Gecko)",
+      "properties": {
+        "Parent": "Konqueror 4.3",
+        "Browser_Bits": "32",
+        "Platform": "Win32",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

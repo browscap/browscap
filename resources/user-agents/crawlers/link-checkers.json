@@ -218,13 +218,6 @@
       }
     },
     {
-      "userAgent": "LinkChecker\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkChecker"
-      }
-    },
-    {
       "userAgent": "LinkextractorPro*",
       "properties": {
         "Parent": "Link Checkers",

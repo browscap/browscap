@@ -1,0 +1,57 @@
+{
+  "division": "i-mobile",
+  "sortIndex": 5240,
+  "userAgents": [
+    {
+      "userAgent": "i-mobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "i-mobile",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "i-mobile 608\/1.0 *",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile601 MIC\/WAP2.0 *",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile606",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    },
+    {
+      "userAgent": "i-mobile901",
+      "properties": {
+        "Parent": "i-mobile"
+      }
+    }
+  ]
+}

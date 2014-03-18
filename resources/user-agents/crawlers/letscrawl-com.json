@@ -1,0 +1,25 @@
+{
+  "division": "LetsCrawl.com",
+  "sortIndex": 660,
+  "userAgents": [
+    {
+      "userAgent": "LetsCrawl.com",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LetsCrawl.com"
+      }
+    },
+    {
+      "userAgent": "LetsCrawl.com\/*",
+      "properties": {
+        "Parent": "LetsCrawl.com"
+      }
+    },
+    {
+      "userAgent": "LetsCrawl.com\/1.0*",
+      "properties": {
+        "Parent": "LetsCrawl.com"
+      }
+    }
+  ]
+}

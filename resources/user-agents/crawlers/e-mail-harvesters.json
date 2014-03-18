@@ -20,13 +20,6 @@
       }
     },
     {
-      "userAgent": "*Larbin*",
-      "properties": {
-        "Parent": "E-Mail Harvesters",
-        "Browser": "Larbin"
-      }
-    },
-    {
       "userAgent": "*www4mail\/*",
       "properties": {
         "Parent": "E-Mail Harvesters",

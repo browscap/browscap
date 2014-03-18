@@ -1,0 +1,81 @@
+{
+  "division": "KONKA",
+  "sortIndex": 6500,
+  "userAgents": [
+    {
+      "userAgent": "KONKA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "KONKA",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "KONKA R669",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA V7*",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA-A66\/*\/WAP1.2 *",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA-SW010-A66\/*",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA-V8\/*\/WAP2.0 *",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA-V8\/*\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA_A99 KWAP1.0",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    },
+    {
+      "userAgent": "KONKA_V7\/KAA7* Linux\/2.4 KNaP\/1.0 * Browser\/Buffalo1.0 *",
+      "properties": {
+        "Parent": "KONKA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "division": "kejian",
+  "sortIndex": 6470,
+  "userAgents": [
+    {
+      "userAgent": "kejian",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "kejian",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "kejian-k368*",
+      "properties": {
+        "Parent": "kejian"
+      }
+    },
+    {
+      "userAgent": "kejian-k606*",
+      "properties": {
+        "Parent": "kejian"
+      }
+    }
+  ]
+}

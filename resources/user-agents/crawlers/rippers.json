@@ -27,13 +27,6 @@
       }
     },
     {
-      "userAgent": "*libwww*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "libwww"
-      }
-    },
-    {
       "userAgent": "*WebGrabber*",
       "properties": {
         "Parent": "Rippers",
@@ -457,13 +450,6 @@
       }
     },
     {
-      "userAgent": "lwp*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "lwp"
-      }
-    },
-    {
       "userAgent": "MFC_Tear_Sample",
       "properties": {
         "Parent": "Rippers",
@@ -577,13 +563,6 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "PEAR-PHP"
-      }
-    },
-    {
-      "userAgent": "PHP*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "PHP"
       }
     },
     {

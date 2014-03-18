@@ -1,0 +1,35 @@
+{
+  "division": "LucidMedia ClickSense",
+  "sortIndex": 690,
+  "userAgents": [
+    {
+      "userAgent": "LucidMedia ClickSense",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LucidMedia-ClickSense"
+      }
+    },
+    {
+      "userAgent": "LucidMedia ClickSense\/*",
+      "properties": {
+        "Parent": "LucidMedia ClickSense"
+      }
+    },
+    {
+      "userAgent": "LucidMedia ClickSense\/4.?",
+      "properties": {
+        "Parent": "LucidMedia ClickSense",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    },
+    {
+      "userAgent": "LucidMedia ClickSense\/4.*",
+      "properties": {
+        "Parent": "LucidMedia ClickSense",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    }
+  ]
+}

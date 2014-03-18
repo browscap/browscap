@@ -1,0 +1,27 @@
+{
+  "division": "Mail",
+  "sortIndex": 730,
+  "userAgents": [
+    {
+      "userAgent": "Mail",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "News",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "Mail\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Mail",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

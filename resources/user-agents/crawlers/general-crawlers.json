@@ -278,24 +278,10 @@
       }
     },
     {
-      "userAgent": "LetsCrawl.com\/1.0*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "LetsCrawl.com"
-      }
-    },
-    {
       "userAgent": "Lincoln State Web Browser",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Lincoln State Web Browser"
-      }
-    },
-    {
-      "userAgent": "LinkedInBot\/1.*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "LinkedInBot"
       }
     },
     {
@@ -320,13 +306,6 @@
       }
     },
     {
-      "userAgent": "LucidMedia ClickSense\/4.?",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "LucidMedia-ClickSense"
-      }
-    },
-    {
       "userAgent": "ZmEu",
       "properties": {
         "Parent": "General Crawlers",
@@ -348,41 +327,10 @@
       }
     },
     {
-      "userAgent": "magpie-crawler\/1.*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "magpie-crawler"
-      }
-    },
-    {
-      "userAgent": "Mahalobot\/1.0 (?http:\/\/www.mahalo.com\/)",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Mahalobot"
-      }
-    },
-    {
       "userAgent": "MapoftheInternet.com?(?http:\/\/MapoftheInternet.com)",
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "MapoftheInternet"
-      }
-    },
-    {
-      "userAgent": "Marvin v0.3",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "MedHunt",
-        "Version": "0.3",
-        "MajorVer": "0",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "masidani_bot_v0.6*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "masidani_bot"
       }
     },
     {
@@ -509,13 +457,6 @@
         "Browser": "Unknown Crawler",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "iCjobs Crawler"
       }
     },
     {
@@ -728,13 +669,6 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "LegalAnalysisAgent"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; MJ12bot\/v1.*)",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "MJ12bot"
       }
     },
     {
@@ -1425,13 +1359,6 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "WebTrends"
-      }
-    },
-    {
-      "userAgent": "Wepbot\/*(*)*Jakarta Commons-HttpClient\/*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Wepbot"
       }
     },
     {

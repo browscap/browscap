@@ -1,0 +1,25 @@
+{
+  "division": "Mahalobot",
+  "sortIndex": 720,
+  "userAgents": [
+    {
+      "userAgent": "Mahalobot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Mahalobot"
+      }
+    },
+    {
+      "userAgent": "Mahalobot\/* (?http:\/\/www.mahalo.com\/)",
+      "properties": {
+        "Parent": "Mahalobot"
+      }
+    },
+    {
+      "userAgent": "Mahalobot\/1.0 (?http:\/\/www.mahalo.com\/)",
+      "properties": {
+        "Parent": "Mahalobot"
+      }
+    }
+  ]
+}

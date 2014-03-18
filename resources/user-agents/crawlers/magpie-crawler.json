@@ -1,0 +1,25 @@
+{
+  "division": "magpie-crawler",
+  "sortIndex": 710,
+  "userAgents": [
+    {
+      "userAgent": "magpie-crawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "magpie-crawler"
+      }
+    },
+    {
+      "userAgent": "magpie-crawler\/*",
+      "properties": {
+        "Parent": "magpie-crawler"
+      }
+    },
+    {
+      "userAgent": "magpie-crawler\/1.*",
+      "properties": {
+        "Parent": "magpie-crawler"
+      }
+    }
+  ]
+}

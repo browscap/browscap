@@ -405,30 +405,6 @@
       }
     },
     {
-      "userAgent": "Mail.Ru\/1.0",
-      "properties": {
-        "Parent": "Search Engines",
-        "Browser": "Mail.Ru"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Mail.RU\/*)",
-      "properties": {
-        "Parent": "Search Engines",
-        "Browser": "Mail.RU"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Linux x86_64; Mail.RU_Bot\/2.0*",
-      "properties": {
-        "Parent": "Search Engines",
-        "Browser": "Mail.RU",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    },
-    {
       "userAgent": "MaSagool\/*",
       "properties": {
         "Parent": "Search Engines",

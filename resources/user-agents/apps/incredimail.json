@@ -1,0 +1,34 @@
+{
+  "division": "Incredimail",
+  "sortIndex": 1660,
+  "userAgents": [
+    {
+      "userAgent": "Incredimail",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Incredimail",
+        "Browser_Type": "Email Client",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    }
+  ]
+}

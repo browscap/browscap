@@ -1,0 +1,258 @@
+{
+  "division": "IEMobile 6.0",
+  "sortIndex": 5910,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 6.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "IEMobile",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform": "Windows Mobile OS",
+        "Platform_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaApplets": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "3.1",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.*)*",
+      "properties": {
+        "Parent": "IEMobile 6.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 5.1; *; mobile version65)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Win32": "true",
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "ASUS1210\/1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320; ASUS1210)*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Debussy\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 176x220; HPiPAQ510\/1.0)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HPiPAQ610\/1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; PPC)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC-3100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; PPC; 240x320)*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_P4350 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_S620 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "HTC_S710-Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320; Smartphone)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "S710",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "S710"
+      }
+    },
+    {
+      "userAgent": "HTC_TyTN Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.12)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "TyTN",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "TyTN"
+      }
+    },
+    {
+      "userAgent": "HTC_X7500 Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.12) PPC; MDA Touch\/1.0 *",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600\/1.0 *",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "P3600",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Elf"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_Elf\/*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Elf",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Elf"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_VPACompactIV\/*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "VPA Compact IV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Name": "Herald\/Wing\/Atlas"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T3333",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1; HTC_Touch_HD_T8282; Windows Phone 6.5)*",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch HD"
+      }
+    },
+    {
+      "userAgent": "Xda orbit; 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "acer_S200 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.1; Windows Phone 6.*)",
+      "properties": {
+        "Parent": "IEMobile 6.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5 HTC_HD2\/1.0)",
+      "properties": {
+        "Parent": "IEMobile",
+        "Version": "6.0",
+        "MajorVer": "6",
+        "MinorVer": "0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    }
+  ]
+}
