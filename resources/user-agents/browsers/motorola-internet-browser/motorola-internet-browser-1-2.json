@@ -1,0 +1,79 @@
+{
+  "division": "Motorola Internet Browser 1.2",
+  "sortIndex": 7320,
+  "userAgents": [
+    {
+      "userAgent": "Motorola Internet Browser 1.2",
+      "properties": {
+        "Parent": "Motorola Internet Browser",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "MOT-TA02\/* MIB\/1.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "TA02",
+        "Device_Name": "TA02"
+      }
+    },
+    {
+      "userAgent": "MOT-V60M\/03.* MIB\/1.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "V60M",
+        "Device_Name": "V60M"
+      }
+    },
+    {
+      "userAgent": "MOT-V66M\/03.* MIB\/1.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "V66M",
+        "Device_Name": "V66M"
+      }
+    },
+    {
+      "userAgent": "MOT-V730\/1.0 MIB1.2\/*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "V730",
+        "Device_Name": "V730"
+      }
+    },
+    {
+      "userAgent": "MOT-V860\/1.0 MIB1.2\/*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "V860",
+        "Device_Name": "V860"
+      }
+    },
+    {
+      "userAgent": "MOT-V868\/1.0 MIB1.2\/*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "V868",
+        "Device_Name": "V868"
+      }
+    },
+    {
+      "userAgent": "MOT-ta02\/06.04.2fr_columbia_3mnc_fix MIB\/1.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "TA02",
+        "Device_Name": "TA02"
+      }
+    },
+    {
+      "userAgent": "MOT-ta02\/E-G_C_* MIB\/1.2*",
+      "properties": {
+        "Parent": "Motorola Internet Browser 1.2",
+        "Device_Code_Name": "TA02",
+        "Device_Name": "TA02"
+      }
+    }
+  ]
+}

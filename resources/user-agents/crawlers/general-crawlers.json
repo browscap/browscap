@@ -373,13 +373,6 @@
       }
     },
     {
-      "userAgent": "Mozdex\/0.7*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Mozdex"
-      }
-    },
-    {
       "userAgent": "Mozilla\/* (compatible; WebCapture*)",
       "properties": {
         "Parent": "General Crawlers",

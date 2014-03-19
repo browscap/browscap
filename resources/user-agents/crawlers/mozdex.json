@@ -1,0 +1,25 @@
+{
+  "division": "Mozdex",
+  "sortIndex": 770,
+  "userAgents": [
+    {
+      "userAgent": "Mozdex",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Mozdex"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/*",
+      "properties": {
+        "Parent": "Mozdex"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/0.7*",
+      "properties": {
+        "Parent": "Mozdex"
+      }
+    }
+  ]
+}
