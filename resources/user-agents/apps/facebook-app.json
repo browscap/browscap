@@ -42,7 +42,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -56,8 +57,8 @@
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -71,8 +72,8 @@
             "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -87,7 +88,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -101,8 +103,8 @@
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -116,8 +118,8 @@
             "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -130,7 +132,8 @@
             "Device_Type": "Mobile Device",
             "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -148,7 +151,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -166,7 +170,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -182,7 +187,8 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -200,7 +206,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -216,7 +223,8 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -234,7 +242,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

@@ -15,7 +15,6 @@
       "userAgent": "*Googlebot-Mobile\/2.1*",
       "properties": {
         "Parent": "Googlebot-Mobile 2.1",
-        "Browser": "Googlebot-Mobile",
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
@@ -36,14 +35,14 @@
           "Device_Name": "iPhone",
           "Device_Maker": "Apple",
           "Device_Brand_Name": "Apple",
-          "Device_Pointing_Method": "touchscreen"
+          "Device_Pointing_Method": "touchscreen",
+          "isMobileDevice": "true"
       }
     },
     {
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
       "properties": {
         "Parent": "Googlebot-Mobile 2.1",
-        "Browser": "Googlebot-Mobile",
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
@@ -58,7 +57,8 @@
           "Device_Name": "iPhone",
           "Device_Maker": "Apple",
           "Device_Brand_Name": "Apple",
-          "Device_Pointing_Method": "touchscreen"
+          "Device_Pointing_Method": "touchscreen",
+          "isMobileDevice": "true"
       }
     },
     {

@@ -66,10 +66,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I5700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica"
+              "Device_Code_Name": "GT-I5700",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy Spica",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_1_5"
@@ -78,10 +81,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5700-ORANGE\/* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I5700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica"
+              "Device_Code_Name": "GT-I5700",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy Spica",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_1_5"

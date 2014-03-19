@@ -904,7 +904,8 @@
               "Device_Brand_Name": "Samsung",
               "Device_Name": "Galaxy S4",
               "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -963,7 +964,8 @@
               "Device_Brand_Name": "Samsung",
               "Device_Name": "Galaxy S4",
               "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -1148,7 +1150,8 @@
               "Device_Brand_Name": "Samsung",
               "Device_Name": "Galaxy S4",
               "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -1162,7 +1165,8 @@
               "Device_Brand_Name": "Samsung",
               "Device_Name": "Galaxy S4",
               "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2331,7 +2335,8 @@
               "Device_Name": "iPhone",
               "Device_Maker": "Apple",
               "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

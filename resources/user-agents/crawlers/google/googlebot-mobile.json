@@ -23,7 +23,6 @@
       "userAgent": "*Googlebot-Mobile\/2.*",
       "properties": {
         "Parent": "Googlebot-Mobile",
-        "Browser": "Googlebot-Mobile",
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",

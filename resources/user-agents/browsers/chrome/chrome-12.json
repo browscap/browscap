@@ -134,7 +134,8 @@
               "Device_Brand_Name": "Samsung",
               "Device_Name": "Galaxy S4",
               "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+              "Device_Pointing_Method": "touchscreen",
+              "isMobileDevice": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",

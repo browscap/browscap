@@ -47,7 +47,8 @@
           "Device_Name": "iPhone",
           "Device_Maker": "Apple",
           "Device_Brand_Name": "Apple",
-          "Device_Pointing_Method": "touchscreen"
+          "Device_Pointing_Method": "touchscreen",
+          "isMobileDevice": "true"
       }
     },
     {
