@@ -1517,21 +1517,21 @@
       }
     },
     {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/4.0*",
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*",
       "properties": {
         "Parent": "Fake Browser",
         "Browser": "Fake IE"
       }
     },
     {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/5.0*",
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*",
       "properties": {
         "Parent": "Fake Browser",
         "Browser": "Fake IE"
       }
     },
     {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident/?.0*",
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*",
       "properties": {
         "Parent": "Fake Browser",
         "Browser": "Fake IE"
