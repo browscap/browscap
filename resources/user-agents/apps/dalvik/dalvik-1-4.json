@@ -33,10 +33,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
           "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -48,7 +50,9 @@
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+            "Device_Name": "Galaxy S II",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -105,8 +109,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
           "properties": {
-            "Device_Name": "GT-I9100G",
-            "Device_Maker": "Samsung"
+              "Device_Code_Name": "GT-I9100G",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -115,8 +123,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
           "properties": {
-            "Device_Name": "GT-I9100G",
-            "Device_Maker": "Samsung"
+              "Device_Code_Name": "GT-I9100G",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -125,8 +137,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
           "properties": {
-            "Device_Name": "GT-I9100G",
-            "Device_Maker": "Samsung"
+              "Device_Code_Name": "GT-I9100G",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -135,10 +151,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
           "properties": {
-            "Device_Name": "Galaxy S II",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+              "Device_Code_Name": "GT-I9100G",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"

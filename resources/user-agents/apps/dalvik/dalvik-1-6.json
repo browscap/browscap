@@ -111,10 +111,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
           "properties": {
-            "Device_Code_Name": "M7",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One"
+              "Device_Code_Name": "M7",
+              "Device_Maker": "HTC",
+              "Device_Brand_Name": "HTC",
+              "Device_Name": "One",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"

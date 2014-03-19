@@ -35,7 +35,7 @@
       "userAgent": "Opera\/*(BlackBerry*Opera Mini\/5.*)*",
       "properties": {
         "Parent": "Opera Mini 5.0",
-        "Platform": "BlackBerry OS",
+        "Platform": "RIM OS",
         "Device_Name": "Blackberry",
         "Device_Maker": "RIM"
       }
@@ -45,8 +45,12 @@
       "properties": {
         "Parent": "Opera Mini 5.0",
         "Platform": "iOS",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+          "Device_Type": "Mobile Phone",
+          "Device_Code_Name": "iPhone",
+          "Device_Name": "iPhone",
+          "Device_Maker": "Apple",
+          "Device_Brand_Name": "Apple",
+          "Device_Pointing_Method": "touchscreen"
       }
     },
     {

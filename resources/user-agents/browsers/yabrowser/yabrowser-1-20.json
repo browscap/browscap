@@ -150,7 +150,13 @@
     {
       "userAgent": "Mozilla\/5.0 (Linux; Android*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
       "properties": {
-        "Parent": "YaBrowser 1.20 on Android"
+        "Parent": "YaBrowser 1.20 on Android",
+          "Device_Code_Name": "M7",
+          "Device_Maker": "HTC",
+          "Device_Brand_Name": "HTC",
+          "Device_Name": "One",
+          "Device_Type": "Mobile Phone",
+          "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -170,10 +176,12 @@
       "userAgent": "Mozilla\/5.0 (Linux; Android 4.0*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
       "properties": {
         "Parent": "YaBrowser 1.20 on Android 4.0",
-        "Device_Code_Name": "M7",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "One"
+          "Device_Code_Name": "M7",
+          "Device_Maker": "HTC",
+          "Device_Brand_Name": "HTC",
+          "Device_Name": "One",
+          "Device_Type": "Mobile Phone",
+          "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -193,10 +201,12 @@
       "userAgent": "Mozilla\/5.0 (Linux; Android 4.1*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
       "properties": {
         "Parent": "YaBrowser 1.20 on Android 4.1",
-        "Device_Code_Name": "M7",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "One"
+          "Device_Code_Name": "M7",
+          "Device_Maker": "HTC",
+          "Device_Brand_Name": "HTC",
+          "Device_Name": "One",
+          "Device_Type": "Mobile Phone",
+          "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -216,10 +226,12 @@
       "userAgent": "Mozilla\/5.0 (Linux; Android 4.2*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
       "properties": {
         "Parent": "YaBrowser 1.20 on Android 4.2",
-        "Device_Code_Name": "M7",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "One"
+          "Device_Code_Name": "M7",
+          "Device_Maker": "HTC",
+          "Device_Brand_Name": "HTC",
+          "Device_Name": "One",
+          "Device_Type": "Mobile Phone",
+          "Device_Pointing_Method": "touchscreen"
       }
     },
     {
@@ -239,10 +251,12 @@
       "userAgent": "Mozilla\/5.0 (Linux; Android 4.3*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
       "properties": {
         "Parent": "YaBrowser 1.20 on Android 4.3",
-        "Device_Code_Name": "M7",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "One"
+          "Device_Code_Name": "M7",
+          "Device_Maker": "HTC",
+          "Device_Brand_Name": "HTC",
+          "Device_Name": "One",
+          "Device_Type": "Mobile Phone",
+          "Device_Pointing_Method": "touchscreen"
       }
     }
   ]

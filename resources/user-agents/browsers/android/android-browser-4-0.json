@@ -146,8 +146,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -2648,10 +2652,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#*GT-I9100*\/I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
@@ -2660,10 +2666,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2672,11 +2680,12 @@
         {
           "match": "Mozilla\/5.0 (Linux*; GT-I9100 Build\/GINGERBREAD) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2685,10 +2694,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+              "Device_Code_Name": "GT-I9100G",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2700,7 +2711,9 @@
             "Device_Code_Name": "GT-I9100P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC"
+            "Device_Name": "Galaxy S II NFC",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2712,7 +2725,9 @@
             "Device_Code_Name": "GT-I9100T",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+            "Device_Name": "Galaxy S II",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5682,7 +5697,9 @@
             "Device_Code_Name": "GT-I9505",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4"
+            "Device_Name": "Galaxy S4",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5691,10 +5708,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG GT-I9505* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Code_Name": "GT-I9505",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4"
+              "Device_Code_Name": "GT-I9505",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S4",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6008,7 +6027,9 @@
             "Device_Code_Name": "M7",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One"
+            "Device_Name": "One",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"

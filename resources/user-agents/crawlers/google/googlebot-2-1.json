@@ -36,10 +36,12 @@
         "Platform": "iOS",
         "Platform_Version": "6.0",
         "Platform_Maker": "Apple Inc",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Type": "Mobile Phone",
+          "Device_Type": "Mobile Phone",
+          "Device_Code_Name": "iPhone",
+          "Device_Name": "iPhone",
+          "Device_Maker": "Apple",
+          "Device_Brand_Name": "Apple",
+          "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true"
       }
     },

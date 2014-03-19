@@ -99,8 +99,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "One",
-            "Device_Maker": "HTC"
+              "Device_Code_Name": "M7",
+              "Device_Maker": "HTC",
+              "Device_Brand_Name": "HTC",
+              "Device_Name": "One",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -110,10 +114,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "Galaxy S II",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+              "Device_Code_Name": "GT-I9100",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S II",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -123,9 +129,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "GT-I9505",
-            "Device_Maker": "Samsung",
-            "Device_Pointing_Method": "touchscreen"
+              "Device_Code_Name": "GT-I9505",
+              "Device_Maker": "Samsung",
+              "Device_Brand_Name": "Samsung",
+              "Device_Name": "Galaxy S4",
+              "Device_Type": "Mobile Phone",
+              "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
