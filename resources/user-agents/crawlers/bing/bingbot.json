@@ -38,16 +38,6 @@
             }
         },
         {
-            "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
-            "properties": {
-                "Parent": "BingBot",
-                "Browser": "adidxbot",
-                "Version": "1.1",
-                "MajorVer": "1",
-                "MinorVer": "1"
-            }
-        },
-        {
             "userAgent": "adidxbot\/2.0*",
             "properties": {
                 "Parent": "BingBot",

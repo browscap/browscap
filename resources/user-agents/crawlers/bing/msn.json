@@ -54,10 +54,23 @@
       }
     },
     {
+        "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+        "properties": {
+            "Parent": "MSN",
+            "Browser": "adidxbot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+        }
+    },
+    {
       "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
       "properties": {
         "Parent": "MSN",
-        "Browser": "adidxbot"
+        "Browser": "adidxbot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
       }
     },
     {
@@ -236,13 +249,6 @@
       }
     },
     {
-      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*) MSNBOT-MOBILE\/1.1 (*)",
-      "properties": {
-        "Parent": "MSN",
-        "Browser": "msnbot-mobile"
-      }
-    },
-    {
       "userAgent": "Windows-Live-Social-Object-Extractor-Engine\/1.0",
       "properties": {
         "Parent": "MSN",
@@ -254,6 +260,66 @@
       "properties": {
         "Parent": "MSN",
         "Browser": "BingPreview"
+      }
+    },,
+    {
+      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1 (*)",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*) MSNBOT-MOBILE\/1.1 (*)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-mobile"
+      }
+    },
+    {
+      "userAgent": "msnbot-UDiscovery\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot\/2.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "MSNBot-News\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSNBot-News"
+      }
+    },
+    {
+      "userAgent": "MSNBot-NewsBlogs\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-NewsBlogs"
+      }
+    },
+    {
+      "userAgent": "msnbot-webmaster\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-webmaster tools"
       }
     }
   ]

@@ -25,6 +25,13 @@
         "Parent": "Netcraft",
         "Browser": "NetcraftSurveyAgent"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
+      "properties": {
+        "Parent": "Netcraft",
+        "Browser": "NetcraftSurveyAgent"
+      }
     }
   ]
 }

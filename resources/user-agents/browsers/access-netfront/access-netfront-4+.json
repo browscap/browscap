@@ -68,6 +68,9 @@
           "platforms": [
             "SymbianOS"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Sample; MFC Simulator\/#MAJORVER#.#MINORVER#*; like Gecko) NetFront\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
