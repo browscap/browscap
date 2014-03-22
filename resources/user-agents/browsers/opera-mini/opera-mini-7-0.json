@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["7.0", "7.1"],
+  "versions": ["7.0", "7.1", "7.2", "7.3", "7.4", "7.5"],
   "sortIndex": 2046,
   "lite": true,
   "userAgents": [

@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [11.00],
-  "sortIndex": 2871,
+  "versions": [11.50],
+  "sortIndex": 2873,
   "lite": true,
   "userAgents": [
     {
@@ -25,15 +25,17 @@
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Version": "2.7",
+        "RenderingEngine_Version": "2.9",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
       },
       "children": [
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4"
+            "Android", "AndroidLinux",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "SymbianOS_C",
+            "WinMobile"
           ]
         }
       ]

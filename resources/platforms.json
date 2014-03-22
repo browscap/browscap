@@ -1077,6 +1077,20 @@
         "Win64": "true"
       }
     },
+    "WinXPa_v2": {
+      "match": "*Windows XP*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "WinXPb_32": {
       "match": "*Windows NT 5.2*",
       "properties": {
@@ -1969,7 +1983,8 @@
       "properties": {
         "Platform": "SymbianOS",
         "Win32": "false",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Platform_Maker": "Symbian Foundation"
       }
     },
     "SymbianOS_B": {
@@ -1977,7 +1992,17 @@
       "properties": {
         "Platform": "SymbianOS",
         "Win32": "false",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Platform_Maker": "Symbian Foundation"
+      }
+    },
+    "SymbianOS_C": {
+      "match": "*SymbOS*",
+      "properties": {
+        "Platform": "SymbianOS",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Platform_Maker": "Symbian Foundation"
       }
     },
     "Unix": {
@@ -2264,6 +2289,16 @@
         "Device_Name": "general Desktop",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "JAVA": {
+      "match": "*/MIDP*",
+      "properties": {
+        "Platform": "JAVA",
+        "Platform_Maker": "Oracle",
+        "Win32": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop"
       }
     }
   }
