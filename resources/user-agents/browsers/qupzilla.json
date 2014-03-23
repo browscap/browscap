@@ -21,7 +21,7 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3",
-        "Device_Type": "general Device",
+        "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
         "RenderingEngine_Name": "WebKit",

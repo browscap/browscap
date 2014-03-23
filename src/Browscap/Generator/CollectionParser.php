@@ -180,13 +180,14 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param array    $uaData
-     * @param string   $majorVer
-     * @param string   $minorVer
-     * @param boolean  $lite
-     * @param integer  $sortIndex
-     * @param string   $divisionName
+     * @param array   $uaData
+     * @param string  $majorVer
+     * @param string  $minorVer
+     * @param boolean $lite
+     * @param integer $sortIndex
+     * @param string  $divisionName
      *
+     * @throws \LogicException
      * @return array
      */
     private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)

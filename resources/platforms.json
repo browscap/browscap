@@ -181,13 +181,6 @@
         "Win32": "false"
       }
     },
-    "MacPPC_3": {
-      "match": "*PPC MacOS X*",
-      "properties": {
-        "Platform": "MacPPC",
-        "Win32": "false"
-      }
-    },
     "iOS_A": {
       "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {

@@ -6,7 +6,6 @@
       "userAgent": "UnisterBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "Unister",
         "Browser_Type": "Unister",
         "Browser_Maker": "Unister",
         "Platform_Version": "",
