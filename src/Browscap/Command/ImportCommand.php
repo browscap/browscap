@@ -68,7 +68,7 @@ class ImportCommand extends Command
             ->createCollection()
             ->parseCollection()
         ;
-        
+
         $this->logger->debug('initialize Ini Parser');
         $filename = $input->getArgument('iniFile');
 
@@ -105,16 +105,16 @@ class ImportCommand extends Command
             if (isset($collectionData[$section])) {
                 continue;
             }
-            
+
             $jsonUA = array();
             $jsonUA['userAgent']  = $section;
             $jsonUA['properties'] = $userAgent;
 
             unset($jsonUA['properties']['Division']);
-            
+
             $found = false;
             $index = 0;
-            
+
             foreach ($jsonData['userAgents'] as $index => $temp) {
                 if (isset($temp['properties']['Browser'])
                     && isset($jsonUA['properties']['Browser'])
@@ -129,22 +129,22 @@ class ImportCommand extends Command
                 $jsonData['userAgents'][] = $jsonUA;
                 continue;
             }
-            
+
             if (!isset($jsonData['userAgents'][$index]['children'])) {
                 $jsonData['userAgents'][$index]['children'][0] = array(
                     'match'      => $jsonData['userAgents'][$index]['userAgent'],
                     'properties' => $jsonData['userAgents'][$index]['properties']
                 );
-                
+
                 $jsonData['userAgents'][$index]['userAgent'] = $jsonData['userAgents'][$index]['properties']['Browser'];
             }
-            
+
             $jsonData['userAgents'][$index]['children'][] = array(
                 'match'      => $section,
                 'properties' => $userAgent
             );
         }
-        
+
         if (!count($jsonData['userAgents'])) {
             return;
         }
