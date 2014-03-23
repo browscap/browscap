@@ -136,7 +136,10 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($this->logger))
         ;
 
-        $generator = new BuildGenerator('.', '.');
+        $buildDir = sys_get_temp_dir() . '/bcap-build-generator-test/';
+        mkdir($buildDir);
+
+        $generator = new BuildGenerator('.', $buildDir);
         self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
