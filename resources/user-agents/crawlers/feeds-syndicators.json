@@ -389,17 +389,6 @@
       }
     },
     {
-      "userAgent": "Windows-RSS-Platform\/1.0*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Windows-RSS-Platform",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "Win32": "true"
-      }
-    },
-    {
       "userAgent": "Wizz RSS News Reader",
       "properties": {
         "Parent": "Feeds Syndicators",

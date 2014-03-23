@@ -1,0 +1,60 @@
+{
+  "division": "Vitelcom",
+  "sortIndex": 10960,
+  "userAgents": [
+    {
+      "userAgent": "Vitelcom",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Vitelcom",
+        "Browser_Type": "Browser",
+        "Version": "1.2.1",
+        "MajorVer": "1",
+        "MinorVer": "2.1",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "general Device"
+      }
+    },
+    {
+      "userAgent": "TSM-100\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM-100v\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM-30\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    },
+    {
+      "userAgent": "TSM340\/* Browser\/1.2.1 *",
+      "properties": {
+        "Parent": "Vitelcom"
+      }
+    }
+  ]
+}

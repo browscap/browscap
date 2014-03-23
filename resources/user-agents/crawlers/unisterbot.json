@@ -1,0 +1,70 @@
+{
+  "division": "UnisterBot",
+  "sortIndex": 11130,
+  "userAgents": [
+    {
+      "userAgent": "UnisterBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Unister",
+        "Browser_Type": "Unister",
+        "Browser_Maker": "Unister",
+        "Platform_Version": "",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Browser": "UnisterBot",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    }
+  ]
+}

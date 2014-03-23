@@ -77,6 +77,17 @@
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*,
+          "properties": {
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false"
+          },
+          "platforms": [
+            "Linux", "Linux_64", "OSX", "Vista_32", "Win7_32", "Win7_64"
+          ]
         }
       ]
     }

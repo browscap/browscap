@@ -32,6 +32,13 @@
       }
     },
     {
+      "userAgent": "WebIndexer\/* (Web Indexer*)",
+      "properties": {
+        "Parent": "Translators",
+        "Browser": "WorldLingo"
+      }
+    },
+    {
       "userAgent": "WebIndexer\/* (Web Indexer; *)",
       "properties": {
         "Parent": "Translators",
@@ -43,6 +50,13 @@
       "properties": {
         "Parent": "Translators",
         "Browser": "WebTrans"
+      }
+    },
+    {
+      "userAgent": "ATA-Translation-Service",
+      "properties": {
+        "Parent": "Translators",
+        "Browser": "ATA-Translation-Service"
       }
     }
   ]

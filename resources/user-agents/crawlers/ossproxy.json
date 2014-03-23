@@ -1,0 +1,29 @@
+{
+  "division": "OSSProxy",
+  "sortIndex": 1010,
+  "userAgents": [
+    {
+      "userAgent": "OSSProxy",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "OSSProxy",
+        "Browser_Maker": "Marketscore"
+      }
+    },
+    {
+      "userAgent": "OSSProxy*",
+      "properties": {
+        "Parent": "OSSProxy"
+      }
+    },
+    {
+      "userAgent": "OSSProxy 1.3*",
+      "properties": {
+        "Parent": "OSSProxy",
+        "Version": "1.3",
+        "MajorVer": "1",
+        "MinorVer": "3"
+      }
+    }
+  ]
+}

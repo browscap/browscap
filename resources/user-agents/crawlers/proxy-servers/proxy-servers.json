@@ -109,6 +109,20 @@
         "Parent": "Proxy Servers",
         "Browser": "SurfControl"
       }
+    },
+    {
+      "userAgent": "CoralWebPrx*",
+      "properties": {
+        "Parent": "Proxy Servers",
+        "Browser": "CoralWeb Proxy"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
+      "properties": {
+        "Parent": "Proxy Servers",
+        "Browser": "SaferSurf"
+      }
     }
   ]
 }

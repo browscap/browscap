@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.0"],
+  "versions": ["2.0", "2.1", "2.2", "2.3"],
   "sortIndex": 1178,
   "userAgents": [
     {
@@ -90,6 +90,24 @@
           },
           "platforms": [
             "iOS_C_7_0", "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-P970 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Android",
+            "Platform_Version": "2.3",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Google Inc",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P970",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "Optimus Black"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         }
       ]

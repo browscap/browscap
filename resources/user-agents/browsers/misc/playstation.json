@@ -49,12 +49,78 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (PlayStation Vita*)*",
+      "userAgent": "Playstation Vita",
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony Playstation Vita",
+        "Frames": "false",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "PlayStation Vita",
         "Device_Name": "PS Vita"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PlayStation Vita*)",
+          "properties": {
+            "Frames": "false",
+            "isMobileDevice": "true",
+            "Device_Code_Name": "PlayStation Vita",
+            "Device_Name": "PlayStation Vita"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (PlayStation Vita*)*",
+          "properties": {
+            "Browser": "Sony Playstation Vita",
+            "Device_Name": "PS Vita"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
+          "properties": {
+            "Frames": "false",
+            "isMobileDevice": "true",
+            "Device_Code_Name": "PlayStation Vita",
+            "Device_Name": "PlayStation Vita",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "Playstation Browser",
+      "properties": {
+        "Parent": "Playstation",
+        "Browser": "Playstation Browser",
+        "Frames": "false",
+        "Device_Code_Name": "Playstation 3",
+        "Device_Name": "Playstation 3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PLAYSTATION *)",
+          "properties": {
+            "Parent": "Playstation",
+            "Browser": "Playstation Browser",
+            "Frames": "false",
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3"
+          }
+        },
+        {
+          "match": "Mozilla\/* (PLAYSTATION 3*)",
+          "properties": {
+            "Parent": "Playstation",
+            "Division": "Playstation",
+            "Browser": "Playstation Browser",
+            "Frames": "false",
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3"
+          }
+        }
+      ]
     }
   ]
 }

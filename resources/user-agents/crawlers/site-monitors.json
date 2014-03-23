@@ -195,6 +195,27 @@
         "Parent": "Site Monitors",
         "Browser": "websitepulse checker"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Chirp\/*; +http:\/\/www.binarycanary.com\/chirp.cfm)",
+      "properties": {
+        "Parent": "Site Monitors",
+        "Browser": "BinaryCanary"
+      }
+    },
+    {
+      "userAgent": "BMC Link Validator (http:\/\/www.briansmodelcars.com\/links\/)",
+      "properties": {
+        "Parent": "Site Monitors",
+        "Browser": "BMC Link Validator"
+      }
+    },
+    {
+      "userAgent": "Pingdom GIGRIB*",
+      "properties": {
+        "Parent": "Site Monitors",
+        "Browser": "Pingdom"
+      }
     }
   ]
 }

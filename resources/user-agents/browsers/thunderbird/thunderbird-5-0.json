@@ -33,7 +33,7 @@
             "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
           },
           "platforms": [
-            "Linux_32", "Linux_64",
+            "Linux", "Linux_32", "Linux_64",
             "OSX", 
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
             "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
@@ -44,7 +44,7 @@
             "RenderingEngine_Version": "2.0"
           },
           "platforms": [
-            "Linux_32", "Linux_64",
+            "Linux", "Linux_32", "Linux_64",
             "OSX", 
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
             "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
@@ -56,7 +56,7 @@
             "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
           },
           "platforms": [
-            "Linux_32", "Linux_64",
+            "Linux", "Linux_32", "Linux_64",
             "OSX", 
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
             "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"

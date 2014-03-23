@@ -571,6 +571,15 @@
         "Win32": "false"
       }
     },
+    "iOS_G_4_3": {
+      "match": "IUC(U;iOS 4.3*)*",
+      "properties": {
+        "Platform": "iOS",
+        "Platform_Version": "4.3",
+        "Platform_Description": "iPod, iPhone & iPad",
+        "Win32": "false"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {

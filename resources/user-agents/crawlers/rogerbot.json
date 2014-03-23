@@ -1,0 +1,34 @@
+{
+  "division": "rogerbot",
+  "sortIndex": 1030,
+  "userAgents": [
+    {
+      "userAgent": "rogerbot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Rogerbot",
+        "Browser_Maker": "SEOmoz"
+      }
+    },
+    {
+      "userAgent": "rogerbot\/*",
+      "properties": {
+        "Parent": "rogerbot"
+      }
+    },
+    {
+      "userAgent": "rogerbot\/1.*",
+      "properties": {
+        "Parent": "rogerbot",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "rogerbot\/* (http:\/\/www.seomoz.org, rogerbot-crawler@seomoz.org)",
+      "properties": {
+        "Parent": "rogerbot"
+      }
+    }
+  ]
+}

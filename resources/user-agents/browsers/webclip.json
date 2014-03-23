@@ -1,0 +1,104 @@
+{
+  "division": "WebClip",
+  "sortIndex": 10990,
+  "userAgents": [
+    {
+      "userAgent": "WebClip",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "WebClip",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "general Device",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.0",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_4*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.4",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_5*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.5",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.6",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.7",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.8",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+      "properties": {
+        "Parent": "WebClip",
+        "Platform": "MacOSX",
+        "Platform_Version": "10.9",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop"
+      }
+    }
+  ]
+}

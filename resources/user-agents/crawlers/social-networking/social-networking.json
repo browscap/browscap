@@ -67,6 +67,20 @@
         "Parent": "Social Networking",
         "Browser": "WinkBot"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; FriendFeedBot\/*; +Http:\/\/friendfeed.com\/about\/bot)",
+      "properties": {
+        "Parent": "Social Networking",
+        "Browser": "FriendFeedBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+      "properties": {
+        "Parent": "Social Networking",
+        "Browser": "OneRiot"
+      }
     }
   ]
 }

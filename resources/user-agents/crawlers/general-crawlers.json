@@ -929,13 +929,6 @@
       }
     },
     {
-      "userAgent": "Pete-Spider\/1.*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Pete-Spider"
-      }
-    },
-    {
       "userAgent": "PhpDig\/*",
       "properties": {
         "Parent": "General Crawlers",
@@ -1007,13 +1000,6 @@
       }
     },
     {
-      "userAgent": "rogerbot\/* (http:\/\/www.seomoz.org, rogerbot-crawler@seomoz.org)",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "rogerbot"
-      }
-    },
-    {
       "userAgent": "Rome Client (http:\/\/tinyurl.com\/64t5n) Ver: 0.*",
       "properties": {
         "Parent": "General Crawlers",
@@ -1060,13 +1046,6 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Semantic Discovery"
-      }
-    },
-    {
-      "userAgent": "SeznamBot\/*",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "SeznamBot"
       }
     },
     {

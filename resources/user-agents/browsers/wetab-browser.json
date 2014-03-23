@@ -1,0 +1,45 @@
+{
+  "division": "WeTab-Browser",
+  "sortIndex": 11010,
+  "userAgents": [
+    {
+      "userAgent": "WeTab-Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "WeTab Browser",
+        "Browser_Type": "Browser",
+        "Platform": "MeeGo",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "general Device",
+        "Device_Code_Name": "WeTab",
+        "Device_Maker": "WeTab GmbH",
+        "Device_Brand_Name": "WeTab GmbH",
+        "Device_Name": "WeTab",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (X11; U; Linux i686; *) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
+      "properties": {
+        "Parent": "WeTab-Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

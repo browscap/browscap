@@ -119,6 +119,82 @@
         "Parent": "Version Checkers",
         "Browser": "WCC Browscap Updater"
       }
+    },
+    {
+      "userAgent": "Automated Browscap.ini Updater. To report issues contact us at*http:\/\/www.skycomp.ca",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "Automated Browscap.ini Updater"
+      }
+    },
+    {
+      "userAgent": "Browser Capabilities Project - PHP Browscap\/*",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "BCP - PHP Browscap"
+      }
+    },
+    {
+      "userAgent": "Browscap Mirror System\/* (browscap.giantrealm.com)",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "Browscap Mirror System"
+      }
+    },
+    {
+      "userAgent": "BrowscapUpdater*",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "BrowscapUpdater"
+      }
+    },
+    {
+      "userAgent": "Code Sample Web Client",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "Code Sample Web Client"
+      }
+    },
+    {
+      "userAgent": "Subtext Version 1.9* - http:\/\/subtextproject.com\/ (Microsoft Windows NT 5.2.*)",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "Subtext",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "TherapeuticResearch",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "TherapeuticResearch"
+      }
+    },
+    {
+      "userAgent": "Rewmi\/*",
+      "properties": {
+        "Parent": "Version Checkers"
+      }
+    },
+    {
+      "userAgent": "browsers.garykeith.com browscap.ini bot BETA",
+      "properties": {
+        "Parent": "Version Checkers"
+      }
+    },
+    {
+      "userAgent": "www.substancia.com AutoHTTPAgent (ver *)",
+      "properties": {
+        "Parent": "Version Checkers",
+        "Browser": "www.substancia.com"
+      }
     }
   ]
 }
