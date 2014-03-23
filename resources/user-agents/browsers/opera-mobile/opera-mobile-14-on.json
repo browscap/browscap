@@ -49,7 +49,7 @@
             "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
-            "Android", "Android_4_0"
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -63,7 +63,7 @@
             "Device_Name": "Galaxy Tab 2 7.0"
           },
           "platforms": [
-            "Android", "Android_4_0"
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -81,20 +81,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.1",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android", "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
             "Parent": "Opera Mobile 14.0 on Android 4.1",
@@ -105,109 +91,11 @@
             "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
-            "Android", "Android_4_1"
+            "Android", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.1",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P3100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0"
-          },
-          "platforms": [
-            "Android", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.2*GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.2",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.2*GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.2",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8013",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.2*GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.2",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P3100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0"
-          },
-          "platforms": [
-            "Android", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.3*GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.3",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.3*GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.3",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8013",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android" "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.3*GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
-          "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.3",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P3100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0"
-          },
-          "platforms": [
-            "Android", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*Android 2.3*GT-I9100G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
             "Parent": "Opera Mobile 14.0 on Android 2.3",
             "Device_Code_Name": "GT-I9100G",
