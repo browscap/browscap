@@ -139,12 +139,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "properties": {
-              "Device_Code_Name": "GT-I9100",
-              "Device_Maker": "Samsung",
-              "Device_Brand_Name": "Samsung",
-              "Device_Name": "Galaxy S II",
-              "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

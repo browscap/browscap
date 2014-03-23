@@ -41,7 +41,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.0",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-N8010",
             "Device_Maker": "Samsung",
@@ -55,7 +54,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.0",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P3100",
             "Device_Maker": "Samsung",
@@ -69,7 +67,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Slider SL101 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.0",
             "Device_Type": "Tablet",
             "Device_Code_Name": "SL101",
             "Device_Maker": "Asus",
@@ -83,7 +80,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 4.1",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-N8013",
             "Device_Maker": "Samsung",
@@ -97,7 +93,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "Parent": "Opera Mobile 14.0 on Android 2.3",
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

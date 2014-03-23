@@ -1,6 +1,6 @@
 {
   "division": "CometBird #MAJORVER#.#MINORVER#",
-  "versions": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "versions": [10, 11],
   "sortIndex": 3260,
   "userAgents": [
     {

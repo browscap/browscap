@@ -3,7 +3,7 @@
     "ChromeOS": {
       "match": "*CrOS*",
       "properties": {
-        "Platform": "Chrome OS",
+        "Platform": "ChromeOS",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
         "Device_Type": "Desktop",
@@ -15,7 +15,7 @@
     "ChromeOS_i686": {
       "match": "*CrOS*i686*",
       "properties": {
-        "Platform": "Chrome OS",
+        "Platform": "ChromeOS",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
         "Device_Type": "Desktop",
@@ -27,7 +27,7 @@
     "ChromeOS_x64": {
       "match": "*CrOS x86_64*",
       "properties": {
-        "Platform": "Chrome OS",
+        "Platform": "ChromeOS",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Platform_Description": "Google Chrome OS",
@@ -41,7 +41,7 @@
     "ChromeOS_ARM": {
       "match": "*CrOS armv*",
       "properties": {
-        "Platform": "Chrome OS",
+        "Platform": "ChromeOS",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
         "Device_Type": "Desktop",

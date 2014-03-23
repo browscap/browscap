@@ -5,50 +5,60 @@
     {
       "userAgent": "BlackBerry 3.6",
       "properties": {
-        "Parent": "BlackBerry",
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
         "Version": "3.6",
         "MajorVer": "3",
         "MinorVer": "6",
         "Platform_Version": "3.6"
-      }
-    },
-    {
-      "userAgent": "BlackBerry5810\/3.6*",
-      "properties": {
-        "Parent": "BlackBerry 3.6",
-        "Device_Code_Name": "BlackBerry 5810",
-        "Device_Name": "BlackBerry 5810"
-      }
-    },
-    {
-      "userAgent": "BlackBerry5820\/3.6*",
-      "properties": {
-        "Parent": "BlackBerry 3.6",
-        "Device_Code_Name": "BlackBerry 5820",
-        "Device_Name": "BlackBerry 5820"
-      }
-    },
-    {
-      "userAgent": "BlackBerry6220\/3.6*",
-      "properties": {
-        "Parent": "BlackBerry 3.6",
-        "Device_Code_Name": "BlackBerry 6220",
-        "Device_Name": "BlackBerry 6220"
-      }
-    },
-    {
-      "userAgent": "BlackBerry6720\/3.6*",
-      "properties": {
-        "Parent": "BlackBerry 3.6",
-        "Device_Code_Name": "BlackBerry 6720",
-        "Device_Name": "BlackBerry 6720"
-      }
-    },
-    {
-      "userAgent": "BlackBerrySimulator\/3.6*",
-      "properties": {
-        "Parent": "BlackBerry 3.6"
-      }
+      },
+      "children": [
+        {
+          "match": "BlackBerry5810\/3.6*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 5810",
+            "Device_Name": "BlackBerry 5810"
+          }
+        },
+        {
+          "match": "BlackBerry5820\/3.6*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 5820",
+            "Device_Name": "BlackBerry 5820"
+          }
+        },
+        {
+          "match": "BlackBerry6220\/3.6*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 6220",
+            "Device_Name": "BlackBerry 6220"
+          }
+        },
+        {
+          "match": "BlackBerry6720\/3.6*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 6720",
+            "Device_Name": "BlackBerry 6720"
+          }
+        },
+        {
+          "match": "BlackBerrySimulator\/3.6*"
+        }
+      ]
     }
   ]
 }

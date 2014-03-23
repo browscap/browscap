@@ -28,7 +28,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "FreeBSD_386", "NetBSD", "HPUX", "IRIX64", "Linux",
+            "FreeBSD", "FreeBSD_386", "NetBSD", "DragonFlyBSD", "HPUX", "IRIX64", "Linux",
             "OSX", "OpenBSD", "SunOS", "OS2", "SunOS",
             "WinME", "Win95", "Win98", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
@@ -40,11 +40,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (X11*; DragonFly*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "platforms": []
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Mozilla Firebird\/0.6*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Mozilla Firebird\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win2000"
           ]

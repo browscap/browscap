@@ -28,33 +28,41 @@
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.4*Gecko\/* Epiphany\/1.0*",
-      "properties": {
-        "Parent": "Epiphany",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.7*Gecko\/* Epiphany\/1.4*",
-      "properties": {
-        "Parent": "Epiphany",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*; rv:1.8*Gecko\/* Epiphany\/2.1*",
-      "properties": {
-        "Parent": "Epiphany",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Linux*; rv:1.4*Gecko\/* Epiphany\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*; rv:1.7*Gecko\/* Epiphany\/1.4*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*; rv:1.8*Gecko\/* Epiphany\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
     }
   ]
 }

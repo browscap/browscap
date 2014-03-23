@@ -5,113 +5,39 @@
     {
       "userAgent": "Iron 5.0",
       "properties": {
-        "Parent": "Iron Generic",
+        "Parent": "DefaultProperties",
+        "Comment": "Iron Generic",
+        "Browser": "Iron",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Version": "5.0",
         "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.0* Chrome\/0*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.* Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.*Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) AppleWebKit\/* (KHTML,*like Gecko*) Iron\/5.*Safari\/*",
-      "properties": {
-        "Parent": "Iron 5.0",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/4.*Safari\/*",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Linux", "Linux_32", "Linux_64", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/4.*Chrome\/*Safari\/*",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Linux", "Linux_32", "Linux_64", "OSX"
+          ]
+        }
+      ]
     }
   ]
 }

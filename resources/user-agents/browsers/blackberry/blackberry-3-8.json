@@ -5,44 +5,55 @@
     {
       "userAgent": "BlackBerry 3.8",
       "properties": {
-        "Parent": "BlackBerry",
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
         "Version": "3.8",
         "MajorVer": "3",
         "MinorVer": "8",
         "Platform_Version": "3.8"
-      }
-    },
-    {
-      "userAgent": "BlackBerry7100\/3.8*",
-      "properties": {
-        "Parent": "BlackBerry 3.8",
-        "Device_Code_Name": "BlackBerry 7100",
-        "Device_Name": "BlackBerry 7100"
-      }
-    },
-    {
-      "userAgent": "BlackBerry7290\/3.8*",
-      "properties": {
-        "Parent": "BlackBerry 3.8",
-        "Device_Code_Name": "BlackBerry 7290",
-        "Device_Name": "BlackBerry 7290"
-      }
-    },
-    {
-      "userAgent": "BlackBerrySiemens SK65\/3.8*",
-      "properties": {
-        "Parent": "BlackBerry 3.8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/3.8*",
-      "properties": {
-        "Parent": "BlackBerry 3.8",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "BlackBerry 7290",
-        "Device_Name": "BlackBerry 7290"
-      }
+      },
+      "children": [
+        {
+          "match": "BlackBerry7100\/3.8*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7100",
+            "Device_Name": "BlackBerry 7100"
+          }
+        },
+        {
+          "match": "BlackBerry7290\/3.8*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7290",
+            "Device_Name": "BlackBerry 7290"
+          }
+        },
+        {
+          "match": "BlackBerrySiemens SK65\/3.8*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/3.8*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "BlackBerry 7290",
+            "Device_Name": "BlackBerry 7290"
+          }
+        }
+      ]
     }
   ]
 }

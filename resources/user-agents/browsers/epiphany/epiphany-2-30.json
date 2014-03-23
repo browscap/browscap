@@ -5,69 +5,59 @@
     {
       "userAgent": "Epiphany 2.30",
       "properties": {
-        "Parent": "Epiphany",
+        "Parent": "DefaultProperties",
+        "Browser": "Epiphany",
+        "Browser_Type": "Browser",
+        "Platform": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "Version": "2.30",
         "MajorVer": "2",
         "MinorVer": "30",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; FreeBSD*AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30",
-        "Platform": "FreeBSD",
-        "Platform_Maker": "FreeBSD Foundation",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/2.30*Safari\/*",
-      "properties": {
-        "Parent": "Epiphany 2.30",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*SunOS*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Epiphany 2.30",
-        "Platform": "SunOS",
-        "Platform_Maker": "Oracle",
-        "Device_Code_Name": "general Desktop",
-        "Device_Brand_Name": "Oracle",
-        "Device_Name": "general Desktop"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
+          "platforms": [
+            "Linux", "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/2.30.*",
+          "platforms": [
+            "Linux", "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/2.30.*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/2.30*Safari\/*",
+          "platforms": [
+            "Linux_64"
+          ]
+        }
+      ]
     }
   ]
 }

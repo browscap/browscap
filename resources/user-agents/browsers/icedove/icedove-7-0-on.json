@@ -1,12 +1,17 @@
 {
-  "division": "Icedove",
-  "sortIndex": 5300,
+  "division": "Icedove #MAJORVER#.#MINORVER#",
+  "versions": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+  "sortIndex": 5401,
   "userAgents": [
     {
-      "userAgent": "Icedove",
+      "userAgent": "Icedove #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Icedove #MAJORVER#.#MINORVER#",
         "Browser": "Icedove",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Debian",
         "Platform": "Linux",
@@ -27,10 +32,18 @@
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
-      }
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Icedove\/#MAJORVER#.*",
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
     }
   ]
 }

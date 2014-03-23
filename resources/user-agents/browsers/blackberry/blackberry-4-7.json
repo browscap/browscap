@@ -5,36 +5,50 @@
     {
       "userAgent": "BlackBerry 4.7",
       "properties": {
-        "Parent": "BlackBerry",
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
         "Version": "4.7",
         "MajorVer": "4",
         "MinorVer": "7",
         "Platform_Version": "4.7"
-      }
-    },
-    {
-      "userAgent": "BlackBerry9500\/4.7*",
-      "properties": {
-        "Parent": "BlackBerry 4.7",
-        "Device_Code_Name": "BlackBerry 9500",
-        "Device_Name": "Storm"
-      }
-    },
-    {
-      "userAgent": "BlackBerry9530\/4.7*",
-      "properties": {
-        "Parent": "BlackBerry 4.7",
-        "Device_Code_Name": "BlackBerry 8520",
-        "Device_Name": "Curve"
-      }
-    },
-    {
-      "userAgent": "BlackBerry9630\/4.7*",
-      "properties": {
-        "Parent": "BlackBerry 4.7",
-        "Device_Code_Name": "BlackBerry 9630",
-        "Device_Name": "BlackBerry 9630"
-      }
+      },
+      "children": [
+        {
+          "match": "BlackBerry9500\/4.7*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9500",
+            "Device_Name": "Storm"
+          }
+        },
+        {
+          "match": "BlackBerry9530\/4.7*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8520",
+            "Device_Name": "Curve"
+          }
+        },
+        {
+          "match": "BlackBerry9630\/4.7*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9630",
+            "Device_Name": "BlackBerry 9630"
+          }
+        }
+      ]
     }
   ]
 }

@@ -56,118 +56,61 @@
           "match": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Parent": "NetFront #MAJORVER#.#MINORVER#"
-          }
+          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
