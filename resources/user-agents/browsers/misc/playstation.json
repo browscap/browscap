@@ -90,10 +90,10 @@
       ]
     },
     {
-      "userAgent": "Playstation Browser",
+      "userAgent": "Sony PS3",
       "properties": {
         "Parent": "Playstation",
-        "Browser": "Playstation Browser",
+        "Browser": "Sony PS3",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
         "Device_Name": "Playstation 3"
@@ -103,7 +103,7 @@
           "match": "Mozilla\/* (PLAYSTATION *)",
           "properties": {
             "Parent": "Playstation",
-            "Browser": "Playstation Browser",
+            "Browser": "Sony PS3",
             "Frames": "false",
             "Device_Code_Name": "Playstation 3",
             "Device_Name": "Playstation 3"
@@ -114,7 +114,7 @@
           "properties": {
             "Parent": "Playstation",
             "Division": "Playstation",
-            "Browser": "Playstation Browser",
+            "Browser": "Sony PS3",
             "Frames": "false",
             "Device_Code_Name": "Playstation 3",
             "Device_Name": "Playstation 3"

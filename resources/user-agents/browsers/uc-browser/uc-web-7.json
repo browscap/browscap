@@ -162,7 +162,7 @@
           }
         },
         {
-          "match": "IUC(U;iOS 4.3*)\/UCWEB7.9*",
+          "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
             "Platform": "iOS",
             "Platform_Version": "4.3",
@@ -178,7 +178,7 @@
           ]
         },
         {
-          "match": "JUC (Linux; U; 4.0*; *) UCWEB7.9*",
+          "match": "JUC (Linux; U; 4.0*; *) UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
             "Platform": "Android",
             "Platform_Version": "4.0",
@@ -190,7 +190,7 @@
           ]
         },
         {
-          "match": "JUC (Linux; U; 4.0*; GT-I9100; *) UCWEB7.9*",
+          "match": "JUC (Linux; U; 4.0*; GT-I9100; *) UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9100",
