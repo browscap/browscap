@@ -10,7 +10,11 @@
         "SubCategory": "Library",
         "Browser_Type": "Library",
         "Browser": "cURL PHP",
-        "Browser_Maker": "team Haxx"
+        "Browser_Maker": "team Haxx",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

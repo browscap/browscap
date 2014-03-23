@@ -6,7 +6,12 @@
       "userAgent": "80Legs",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "80Legs"
+        "Browser": "80Legs",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

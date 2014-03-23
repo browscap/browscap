@@ -6,7 +6,12 @@
       "userAgent": "LetsCrawl.com",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "LetsCrawl.com"
+        "Browser": "LetsCrawl.com",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

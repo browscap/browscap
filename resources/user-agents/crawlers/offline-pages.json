@@ -6,7 +6,12 @@
       "userAgent": "Offline Pages",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Offline Pages"
+        "Browser": "Offline Pages",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

@@ -7,7 +7,12 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Ichiro Mobile Bot",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

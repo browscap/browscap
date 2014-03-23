@@ -6,7 +6,6 @@
       "userAgent": "UnisterBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Type": "Unister",
         "Browser_Maker": "Unister",
         "Platform_Version": "",
         "Alpha": "false",
@@ -14,9 +13,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
         "Cookies": "false",
         "BackgroundSounds": "false",
         "JavaScript": "false",
@@ -26,6 +22,10 @@
         "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Browser": "UnisterBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       }
     },

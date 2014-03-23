@@ -6,7 +6,12 @@
       "userAgent": "MJ12bot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "MJ12bot"
+        "Browser": "MJ12bot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

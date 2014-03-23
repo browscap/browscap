@@ -7,7 +7,12 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Rogerbot",
-        "Browser_Maker": "SEOmoz"
+        "Browser_Maker": "SEOmoz",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

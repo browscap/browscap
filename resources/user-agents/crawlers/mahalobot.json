@@ -6,7 +6,12 @@
       "userAgent": "Mahalobot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Mahalobot"
+        "Browser": "Mahalobot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

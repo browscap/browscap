@@ -6,7 +6,12 @@
       "userAgent": "findlinks",
       "properties": {
         "Parent": "Link Checkers",
-        "Browser": "FindLinks"
+        "Browser": "FindLinks",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

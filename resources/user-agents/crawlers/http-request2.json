@@ -7,7 +7,11 @@
       "properties": {
         "Parent": "PHP",
         "Browser": "PEAR HTTP_Request2",
-        "Browser_Type": "Library"
+        "Browser_Type": "Library",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

@@ -6,7 +6,12 @@
       "userAgent": "libwww",
       "properties": {
         "Parent": "Rippers",
-        "Browser": "libwww"
+        "Browser": "libwww",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

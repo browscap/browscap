@@ -6,7 +6,12 @@
       "userAgent": "TurnitinBot",
       "properties": {
         "Parent": "Copyright\/Plagiarism",
-        "Browser": "TurnitinBot"
+        "Browser": "TurnitinBot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

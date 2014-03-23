@@ -6,7 +6,12 @@
       "userAgent": "360Spider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "360Spider"
+        "Browser": "360Spider",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {

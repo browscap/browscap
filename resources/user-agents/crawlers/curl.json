@@ -6,7 +6,12 @@
       "userAgent": "cURL",
       "properties": {
         "Parent": "Rippers",
-        "Browser": "cURL"
+        "Browser": "cURL",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

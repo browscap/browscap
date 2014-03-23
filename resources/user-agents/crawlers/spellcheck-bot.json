@@ -6,7 +6,12 @@
       "userAgent": "SpellCheck Bot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "SpellCheck Bot"
+        "Browser": "SpellCheck Bot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

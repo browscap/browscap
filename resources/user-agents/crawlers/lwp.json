@@ -6,7 +6,12 @@
       "userAgent": "lwp",
       "properties": {
         "Parent": "Rippers",
-        "Browser": "lwp"
+        "Browser": "lwp",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

@@ -7,7 +7,12 @@
       "properties": {
         "Parent": "General Crawlers",
         "Browser": "Sindice Fetcher",
-        "Browser_Maker": "Sindice"
+        "Browser_Maker": "Sindice",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

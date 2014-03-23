@@ -6,7 +6,12 @@
       "userAgent": "Gnomit",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "Gnomit"
+        "Browser": "Gnomit",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

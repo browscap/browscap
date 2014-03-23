@@ -6,7 +6,12 @@
       "userAgent": "bitlybot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "BitlyBot"
+        "Browser": "BitlyBot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

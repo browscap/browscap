@@ -6,7 +6,12 @@
       "userAgent": "masidani_bot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "masidani_bot"
+        "Browser": "masidani_bot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

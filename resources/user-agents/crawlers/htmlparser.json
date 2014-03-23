@@ -6,7 +6,12 @@
       "userAgent": "HTMLParser",
       "properties": {
         "Parent": "Rippers",
-        "Browser": "HTMLParser"
+        "Browser": "HTMLParser",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

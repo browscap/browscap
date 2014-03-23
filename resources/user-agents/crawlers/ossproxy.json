@@ -7,7 +7,12 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "OSSProxy",
-        "Browser_Maker": "Marketscore"
+        "Browser_Maker": "Marketscore",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

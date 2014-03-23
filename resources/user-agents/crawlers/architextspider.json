@@ -6,7 +6,12 @@
       "userAgent": "ArchitextSpider",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "ArchitextSpider"
+        "Browser": "ArchitextSpider",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

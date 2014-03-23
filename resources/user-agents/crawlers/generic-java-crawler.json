@@ -8,7 +8,12 @@
         "Parent": "Rippers",
         "Browser": "Generic Java Crawler",
         "Platform": "Java",
-        "Platform_Maker": "Oracle"
+        "Platform_Maker": "Oracle",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

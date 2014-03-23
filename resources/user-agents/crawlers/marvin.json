@@ -6,7 +6,12 @@
       "userAgent": "Marvin",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "MedHunt"
+        "Browser": "MedHunt",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

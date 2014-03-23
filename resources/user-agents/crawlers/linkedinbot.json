@@ -6,7 +6,12 @@
       "userAgent": "LinkedInBot",
       "properties": {
         "Parent": "General Crawlers",
-        "Browser": "LinkedInBot"
+        "Browser": "LinkedInBot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {

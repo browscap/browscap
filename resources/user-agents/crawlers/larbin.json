@@ -6,7 +6,12 @@
       "userAgent": "Larbin",
       "properties": {
         "Parent": "E-Mail Harvesters",
-        "Browser": "Larbin"
+        "Browser": "Larbin",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
       }
     },
     {
