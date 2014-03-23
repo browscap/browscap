@@ -25,7 +25,7 @@
         "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "general Device",
+        "Device_Type": "Desktop",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Maker": "Mozilla Foundation",
         "Version": "3.0",
