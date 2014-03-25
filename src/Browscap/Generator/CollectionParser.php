@@ -48,7 +48,7 @@ class CollectionParser
     public function getDataCollection()
     {
         if (!isset($this->collection)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
+            throw new \LogicException('Data collection has not been set yet - call setDataCollection');
         }
 
         return $this->collection;
@@ -85,7 +85,13 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse a data collection into an array');
+            if (isset($division['userAgents'][0]['userAgent'])) {
+                $this->getLogger()->debug(
+                    'parse a data collection into an array for division "' . $division['userAgents'][0]['userAgent'] . '"'
+                );
+            } else {
+                $this->getLogger()->debug('parse a data collection into an array');
+            }
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -174,17 +180,22 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param array    $uaData
-     * @param string   $majorVer
-     * @param string   $minorVer
-     * @param boolean  $lite
-     * @param integer  $sortIndex
-     * @param string   $divisionName
+     * @param array   $uaData
+     * @param string  $majorVer
+     * @param string  $minorVer
+     * @param boolean $lite
+     * @param integer $sortIndex
+     * @param string  $divisionName
      *
+     * @throws \LogicException
      * @return array
      */
     private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
+        if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
+            throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
+        }
+
         $output = array(
             $uaData['userAgent'] => array(
                     'lite' => $lite,

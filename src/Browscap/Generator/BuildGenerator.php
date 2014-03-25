@@ -64,7 +64,7 @@ class BuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**

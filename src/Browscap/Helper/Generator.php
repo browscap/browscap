@@ -176,6 +176,14 @@ class Generator
     }
 
     /**
+     * @return array
+     */
+    public function getCollectionData()
+    {
+        return $this->collectionData;
+    }
+
+    /**
      * parses the data collection into an array
      *
      * @throws \LogicException
@@ -235,8 +243,8 @@ class Generator
             ->setComments($comments)
             ->setVersionData(
                 array(
-                     'version' => $this->collection->getVersion(),
-                     'released' => $this->collection->getGenerationDate()->format('r')
+                    'version' => $this->collection->getVersion(),
+                    'released' => $this->collection->getGenerationDate()->format('r')
                 )
             )
         ;
