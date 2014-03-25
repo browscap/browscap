@@ -398,12 +398,19 @@ class CollectionParser
         switch ($propertyName) {
             case 'Comment':
             case 'Browser':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
             case 'Platform':
+            case 'Platform_Name':
             case 'Platform_Description':
             case 'Device_Name':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
             case 'Device_Maker':
+            case 'Device_Brand_Name':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
             case 'Parent':
                 return self::TYPE_STRING;
             case 'Browser_Type':
@@ -414,6 +421,8 @@ class CollectionParser
             case 'RenderingEngine_Version':
                 return self::TYPE_GENERIC;
             case 'Version':
+            case 'Browser_Bits':
+            case 'Platform_Bits':
             case 'CssVersion':
             case 'AolVersion':
             case 'MajorVer':
@@ -434,6 +443,7 @@ class CollectionParser
             case 'JavaApplets':
             case 'ActiveXControls':
             case 'isMobileDevice':
+            case 'isTablet':
             case 'isSyndicationReader':
             case 'Crawler':
                 return self::TYPE_BOOLEAN;
@@ -455,6 +465,14 @@ class CollectionParser
     {
         switch ($propertyName) {
             case 'Browser_Type':
+            case 'Browser_Bits':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
+            case 'Platform_Name':
+            case 'Platform_Bits':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
+            case 'Device_Brand_Name':
             case 'Device_Name':
             case 'Device_Maker':
             case 'Device_Type':
@@ -463,6 +481,8 @@ class CollectionParser
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
+            case 'isTablet':
                 return true;
             default:
                 // do nothing here
