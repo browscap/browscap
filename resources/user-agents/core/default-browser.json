@@ -35,6 +35,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isMobileDevice": "false",
+        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "0",

@@ -416,13 +416,13 @@ class CollectionParser
             case 'Browser_Type':
             case 'Device_Type':
             case 'Device_Pointing_Method':
+            case 'Browser_Bits':
+            case 'Platform_Bits':
                 return self::TYPE_IN_ARRAY;
             case 'Platform_Version':
             case 'RenderingEngine_Version':
                 return self::TYPE_GENERIC;
             case 'Version':
-            case 'Browser_Bits':
-            case 'Platform_Bits':
             case 'CssVersion':
             case 'AolVersion':
             case 'MajorVer':
@@ -554,6 +554,12 @@ class CollectionParser
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = array(
                     'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown'
+                );
+                break;
+            case 'Browser_Bits':
+            case 'Platform_Bits':
+                $allowedValues = array(
+                    '0', '8', '16', '32', '64'
                 );
                 break;
             default:
