@@ -33,12 +33,12 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Desire HD Build\/*",
           "properties": {
-              "Device_Code_Name": "GT-I9100",
-              "Device_Maker": "Samsung",
-              "Device_Brand_Name": "Samsung",
-              "Device_Name": "Galaxy S II",
-              "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2"
