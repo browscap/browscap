@@ -1879,7 +1879,6 @@
       "properties": {
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
-        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1888,7 +1887,6 @@
       "properties": {
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
-        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },
@@ -1899,7 +1897,6 @@
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Platform_Maker": "FreeBSD Foundation",
-        "Device_Type": "Desktop",
         "Win32": "false"
       }
     },

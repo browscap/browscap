@@ -87,7 +87,8 @@ class CollectionParser
         foreach ($this->getDataCollection()->getDivisions() as $division) {
             if (isset($division['userAgents'][0]['userAgent'])) {
                 $this->getLogger()->debug(
-                    'parse a data collection into an array for division "' . $division['userAgents'][0]['userAgent'] . '"'
+                    'parse a data collection into an array for division '
+                    . '"' . $division['userAgents'][0]['userAgent'] . '"'
                 );
             } else {
                 $this->getLogger()->debug('parse a data collection into an array');
