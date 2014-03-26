@@ -34,6 +34,13 @@
       }
     },
     {
+      "userAgent": "Ruby",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Generic Ruby Crawler"
+      }
+    },
+    {
       "userAgent": "*libwww*",
       "properties": {
         "Parent": "Rippers",
