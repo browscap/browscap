@@ -143,13 +143,11 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $propertiesToCheck = $propertiesToOutput;
 
                 unset($propertiesToCheck['Parent']);
-                unset($propertiesToCheck['lite']);
-                unset($propertiesToCheck['sortIndex']);
-                unset($propertiesToCheck['Parents']);
-                unset($propertiesToCheck['division']);
 
                 foreach (array_keys($propertiesToCheck) as $property) {
-                    if (CollectionParser::isExtraProperty($property)) {
+                    if (!CollectionParser::isOutputProperty($property)
+                        || CollectionParser::isExtraProperty($property)
+                    ) {
                         unset($propertiesToCheck[$property]);
                     }
                 }
