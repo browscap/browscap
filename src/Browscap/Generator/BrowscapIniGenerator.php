@@ -34,15 +34,15 @@ class BrowscapIniGenerator extends AbstractGenerator
         $this->type   = $type;
 
         if (!empty($this->collectionData['DefaultProperties'])) {
-            $defaultPropertityData = $this->collectionData['DefaultProperties'];
+            $defaultPropertyData = $this->collectionData['DefaultProperties'];
         } else {
-            $defaultPropertityData = array();
+            $defaultPropertyData = array();
         }
 
         return $this->render(
             $this->collectionData,
             $this->renderHeader() . $this->renderVersion(),
-            array_keys(array('Parent' => '') + $defaultPropertityData)
+            array_keys(array('Parent' => '') + $defaultPropertyData)
         );
     }
 
