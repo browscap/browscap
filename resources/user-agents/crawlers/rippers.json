@@ -27,6 +27,27 @@
       }
     },
     {
+      "userAgent": "*java*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Generic Java Crawler"
+      }
+    },
+    {
+      "userAgent": "Ruby",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Generic Ruby Crawler"
+      }
+    },
+    {
+      "userAgent": "*libwww*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "libwww"
+      }
+    },
+    {
       "userAgent": "*WebGrabber*",
       "properties": {
         "Parent": "Rippers",
