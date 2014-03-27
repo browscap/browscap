@@ -483,7 +483,6 @@ class CollectionParser
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
             case 'RenderingEngine_Maker':
-            case 'isTablet':
                 return true;
             default:
                 // do nothing here
