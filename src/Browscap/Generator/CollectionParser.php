@@ -140,12 +140,12 @@ class CollectionParser
                     $division['division']
                 );
             }
+
+            unset($sortIndex);
         }
 
         // full expand of all data
-        $allDivisions = $this->expandProperties($allDivisions);
-
-        return $allDivisions;
+        return $this->expandProperties($allDivisions);
     }
 
     /**
