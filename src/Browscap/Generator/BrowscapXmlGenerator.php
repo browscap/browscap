@@ -79,6 +79,8 @@ class BrowscapXmlGenerator extends AbstractGenerator
             $counter++;
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
                 continue;
             }
 
@@ -97,6 +99,10 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
+                    // );
+
                     continue;
                 }
 
@@ -162,7 +168,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
     {
-        // $this->logger->debug('create item for property "' . $property . '"');
+        $this->logger->debug('create item for property "' . $property . '"');
         $item        = $dom->createElement('item');
 
         $name        = $dom->createAttribute('name');

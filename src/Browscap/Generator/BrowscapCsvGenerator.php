@@ -59,6 +59,8 @@ class BrowscapCsvGenerator extends AbstractGenerator
             $counter++;
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
                 continue;
             }
 
@@ -72,6 +74,10 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
+                    // $this->logger->debug(
+                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
+                    // );
+
                     continue;
                 }
 
