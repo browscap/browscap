@@ -268,7 +268,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'DefaultProperties',
                 'sortIndex' => 1,
                 'lite' => true,
-                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
+                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test', 'Version' => '0')))
             ),
             array(
                 'division' => 'abc',
@@ -376,6 +376,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'DefaultProperties',
                 'Browser' => 'test',
                 'Parents' => '',
+                'MajorVer' => '1',
+                'MinorVer' => '0',
             ),
             'test' => array (
                 'lite' => '',
@@ -384,6 +386,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'Parent' => 'DefaultProperties',
                 'Browser' => 'test',
                 'Parents' => 'DefaultProperties',
+                'MajorVer' => '1',
+                'MinorVer' => '0',
             ),
             'abc/*TestOS**' => array (
                 'Parent' => 'test',
@@ -393,6 +397,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'Browser' => 'test',
                 'Parents' => 'DefaultProperties,test',
+                'MajorVer' => '1',
+                'MinorVer' => '0',
             ),
             'abc/1.0* (#PLATFORM#)' => array (
                 'Parent' => 'test',
@@ -401,6 +407,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'Browser' => 'test',
                 'Parents' => 'DefaultProperties,test',
+                'MajorVer' => '1',
+                'MinorVer' => '0',
             )
         );
         self::assertSame($expected, $result);

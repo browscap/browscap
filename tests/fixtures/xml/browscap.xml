@@ -173,7 +173,7 @@
 <browscapitem name="UA4">
 <item name="PropertyName" value="UA4"/>
 <item name="AgentID" value="6"/>
-<item name="MasterParent" value="true"/>
+<item name="MasterParent" value="false"/>
 <item name="LiteMode" value="false"/>
 <item name="Parent" value="UA3"/>
 <item name="Comment" value="UA4"/>
