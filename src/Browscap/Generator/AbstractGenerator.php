@@ -120,7 +120,6 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function firstCheckProperty($key, array $properties, array $allDivisions)
     {
-        $this->logger->debug('check if all required propeties are available');
         if (!isset($properties['Version'])) {
             throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
         }
@@ -146,17 +145,14 @@ abstract class AbstractGenerator implements GeneratorInterface
      */
     protected function detectMasterParent($key, array $properties)
     {
-        $this->logger->debug('check if the element can be marked as "MasterParent"');
         if (in_array($key, array('DefaultProperties', '*'))
             || empty($properties['Parent'])
             || 'DefaultProperties' == $properties['Parent']
         ) {
-            $masterParent = 'true';
-        } else {
-            $masterParent = 'false';
+            return 'true';
         }
 
-        return $masterParent;
+        return 'false';
     }
 
     /**
@@ -171,9 +167,7 @@ abstract class AbstractGenerator implements GeneratorInterface
     {
         $value = '';
 
-        if (!isset($properties[$property])) {
-
-        } else {
+        if (isset($properties[$property])) {
             $value = $properties[$property];
         }
 

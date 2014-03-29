@@ -85,7 +85,7 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse a data collection into an array');
+            $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -129,6 +129,8 @@ class CollectionParser
                         $sortIndex,
                         $divisionName
                     );
+
+                    unset($userAgents, $divisionName, $majorVer, $minorVer);
                 }
             } else {
                 $allDivisions += $this->parseDivision(
@@ -141,7 +143,7 @@ class CollectionParser
                 );
             }
 
-            unset($sortIndex);
+            unset($sortIndex, $lite);
         }
 
         // full expand of all data
