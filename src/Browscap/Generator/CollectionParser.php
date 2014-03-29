@@ -392,7 +392,9 @@ class CollectionParser
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            if ($properties['MajorVer'] !== (string) $completeVersions[0]) {
+            if (!isset($properties['MajorVer'])) {
+                $properties['MajorVer'] = (string) $completeVersions[0];
+            } elseif ($properties['MajorVer'] !== (string) $completeVersions[0]) {
                 throw new \UnexpectedValueException(
                     'MajorVersion from properties does not match with Version for key "' . $key . '"'
                 );
@@ -404,7 +406,9 @@ class CollectionParser
                 $minorVersion = '0';
             }
 
-            if ($properties['MinorVer'] !== $minorVersion) {
+            if (!isset($properties['MinorVer'])) {
+                $properties['MinorVer'] = $minorVersion;
+            } elseif ($properties['MinorVer'] !== $minorVersion) {
                 throw new \UnexpectedValueException(
                     'MinorVersion from properties does not match with Version for key "' . $key . '"'
                 );
