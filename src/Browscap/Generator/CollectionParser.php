@@ -292,6 +292,7 @@ class CollectionParser
      *
      * @param array $allInputDivisions
      *
+     * @throws \UnexpectedValueException
      * @return array
      */
     private function expandProperties(array $allInputDivisions)
@@ -305,7 +306,7 @@ class CollectionParser
             if (!isset($properties['Parent'])
                 && !in_array($key, array('DefaultProperties', '*'))
             ) {
-                continue;
+                throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
             }
 
             $userAgent = $key;
@@ -326,11 +327,11 @@ class CollectionParser
 
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
-                    continue;
+                    throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
                 }
 
                 if (!is_array($allInputDivisions[$parent])) {
-                    continue;
+                    throw new \UnexpectedValueException('Parent "' . $parent . '" is not an array key "' . $key . '"');
                 }
 
                 $browserData = array_merge($browserData, $allInputDivisions[$parent]);
@@ -338,6 +339,7 @@ class CollectionParser
 
             array_pop($parents);
             $browserData['Parents'] = implode(',', $parents);
+            unset($parents);
 
             foreach ($browserData as $propertyName => $propertyValue) {
                 switch ((string) $propertyValue) {
@@ -353,20 +355,32 @@ class CollectionParser
                 }
             }
 
+            unset($browserData);
+
             $allDivisions[$key] = $properties;
 
             if (!isset($properties['Version'])) {
-                continue;
+                throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
             }
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            $properties['MajorVer'] = (string) $completeVersions[0];
+            if ($properties['MajorVer'] !== (string) $completeVersions[0]) {
+                throw new \UnexpectedValueException(
+                    'MajorVersion from properties does not match with Version for key "' . $key . '"'
+                );
+            }
 
             if (isset($completeVersions[1])) {
-                $properties['MinorVer'] = (string) $completeVersions[1];
+                $minorVersion = (string) $completeVersions[1];
             } else {
-                $properties['MinorVer'] = 0;
+                $minorVersion = '0';
+            }
+
+            if ($properties['MinorVer'] !== $minorVersion) {
+                throw new \UnexpectedValueException(
+                    'MinorVersion from properties does not match with Version for key "' . $key . '"'
+                );
             }
 
             $allDivisions[$key] = $properties;

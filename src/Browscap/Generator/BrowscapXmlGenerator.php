@@ -166,7 +166,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      */
     private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
     {
-        $this->logger->debug('create item for property "' . $property . '"');
+        // $this->logger->debug('create item for property "' . $property . '"');
         $item        = $dom->createElement('item');
 
         $name        = $dom->createAttribute('name');
