@@ -89,6 +89,7 @@ class BrowscapIniGenerator extends AbstractGenerator
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
                 continue;
             }
 
@@ -96,6 +97,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                 && (!isset($properties['lite']) || !$properties['lite'])
             ) {
                 $this->logger->debug('key "' . $key . '" is not enabled for lite mode -> skipped');
+
                 continue;
             }
 
@@ -103,10 +105,6 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $parent = $allDivisions[$properties['Parent']];
             } else {
                 $parent = array();
-            }
-
-            if (isset($parent['Version'])) {
-                $this->extractVersion($parent);
             }
 
             $propertiesToOutput = $properties;
@@ -159,6 +157,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                     // $this->logger->debug(
                         // 'property "' . $property . '" is not available for output -> skipped'
                     // );
+
                     continue;
                 }
 
@@ -166,6 +165,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                     // $this->logger->debug(
                         // 'property "' . $property . '" is not defined to be in the output -> skipped'
                     // );
+
                     continue;
                 }
 
@@ -173,6 +173,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                     $this->logger->debug(
                         'property "' . $property . '" is defined to be in the full output -> skipped'
                     );
+
                     continue;
                 }
 

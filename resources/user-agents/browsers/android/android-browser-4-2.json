@@ -1,6 +1,6 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
-  "versions": ["4.0"],
+  "versions": ["4.2"],
   "sortIndex": 1910,
   "lite": true,
   "userAgents": [
@@ -191,24 +191,6 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "platforms": [
-            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/*",
-          "platforms": [
-            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
-          "platforms": [
-            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
-          ]
-        },
-        {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Name": "G9",
@@ -218,47 +200,6 @@
           },
           "platforms": [
             "Android_2_3"
-          ]
-        },
-        {
-          "match": "MT6515M* Linux\/* Android 2.3* Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "properties": {
-            "Device_Name": "MT6515M",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
-          "platforms": [
-            "Android_2_2_E", "Android_2_3_F", "Android_4_0_D", "Android_4_1_D", "Android_4_2_D", "Android_4_3_D", "Android_4_4_D"
-          ]
-        },
-        {
-          "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
-          "properties": {
-            "Device_Name": "AT-AS40SE",
-            "Device_Maker": "Wolgang",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "OPPO_R813T\/* Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
-          "properties": {
-            "Device_Name": "R813T",
-            "Device_Maker": "OPPO",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         }
       ]

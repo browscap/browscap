@@ -7,6 +7,7 @@ use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
+use Monolog\Processor\MemoryUsageProcessor;
 
 /**
  * @package Browscap\Helper
@@ -23,15 +24,21 @@ class LoggerHelper
      */
     public function create($debug = false)
     {
+        $logger = new Logger('browscap');
+
         if ($debug) {
             $stream = new StreamHandler('php://output', Logger::DEBUG);
-            $stream->setFormatter(new LineFormatter('[%datetime%] %channel%.%level_name%: %message%' . "\n"));
+            $stream->setFormatter(
+                new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %context% %extra%' . "\n")
+            );
+
+            $memoryProcessor = new MemoryUsageProcessor();
+            $logger->pushProcessor($memoryProcessor);
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
             $stream->setFormatter(new LineFormatter('%message%' . "\n"));
         }
 
-        $logger = new Logger('browscap');
         $logger->pushHandler($stream);
         $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
 

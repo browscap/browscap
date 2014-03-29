@@ -115,46 +115,28 @@ abstract class AbstractGenerator implements GeneratorInterface
      * @param array   $properties
      * @param array[] $allDivisions
      *
+     * @throws \UnexpectedValueException
      * @return bool
      */
     protected function firstCheckProperty($key, array $properties, array $allDivisions)
     {
         $this->logger->debug('check if all required propeties are available');
+
         if (!isset($properties['Version'])) {
-            $this->logger->debug('Version is missing');
-            return false;
+            throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
         }
 
         if (!isset($properties['Parent']) && !in_array($key, array('DefaultProperties', '*'))) {
-            $this->logger->debug('Parent property is missing');
-            return false;
+            throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
         }
 
         if (!in_array($key, array('DefaultProperties', '*')) && !isset($allDivisions[$properties['Parent']])) {
-            $this->logger->debug('Parent property is set, but the parent element was not found');
-            return false;
+            throw new \UnexpectedValueException(
+                'Parent "' . $properties['Parent'] . '" not found for key "' . $key . '"'
+            );
         }
 
         return true;
-    }
-
-    /**
-     * extracts the minor version and the major version from the complete version
-     *
-     * @param array &$parent
-     */
-    protected function extractVersion(array &$parent)
-    {
-        $this->logger->debug('extract major and minor version parts from version property');
-        $completeVersions = explode('.', $parent['Version'], 2);
-
-        $parent['MajorVer'] = (string) $completeVersions[0];
-
-        if (isset($completeVersions[1])) {
-            $parent['MinorVer'] = (string) $completeVersions[1];
-        } else {
-            $parent['MinorVer'] = 0;
-        }
     }
 
     /**
@@ -166,16 +148,15 @@ abstract class AbstractGenerator implements GeneratorInterface
     protected function detectMasterParent($key, array $properties)
     {
         $this->logger->debug('check if the element can be marked as "MasterParent"');
+
         if (in_array($key, array('DefaultProperties', '*'))
             || empty($properties['Parent'])
             || 'DefaultProperties' == $properties['Parent']
         ) {
-            $masterParent = 'true';
-        } else {
-            $masterParent = 'false';
+            return 'true';
         }
 
-        return $masterParent;
+        return 'false';
     }
 
     /**
@@ -190,9 +171,7 @@ abstract class AbstractGenerator implements GeneratorInterface
     {
         $value = '';
 
-        if (!isset($properties[$property])) {
-
-        } else {
+        if (isset($properties[$property])) {
             $value = $properties[$property];
         }
 
