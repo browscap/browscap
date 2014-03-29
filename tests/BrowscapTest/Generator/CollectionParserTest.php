@@ -337,7 +337,12 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'DefaultProperties',
                 'sortIndex' => 1,
                 'lite' => true,
-                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test')))
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'DefaultProperties',
+                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
+                    )
+                )
             ),
             array(
                 'division' => 'abc',
