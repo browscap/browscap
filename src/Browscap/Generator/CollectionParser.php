@@ -77,8 +77,8 @@ class CollectionParser
     /**
      * Generate and return the formatted browscap data
      *
+     * @throws \UnexpectedValueException
      * @return array
-     * @throws \LogicException
      */
     public function parse()
     {
@@ -121,7 +121,7 @@ class CollectionParser
 
                     $userAgents = json_decode($userAgents, true);
 
-                    $allDivisions += $this->parseDivision(
+                    $divisions = $this->parseDivision(
                         $userAgents,
                         $majorVer,
                         $minorVer,
@@ -130,10 +130,18 @@ class CollectionParser
                         $divisionName
                     );
 
+                    foreach ($divisions as $key => $divisionData) {
+                        if (isset($allDivisions[$key])) {
+                            throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
+                        }
+
+                        $allDivisions[$key] = $divisionData;
+                    }
+
                     unset($userAgents, $divisionName, $majorVer, $minorVer);
                 }
             } else {
-                $allDivisions += $this->parseDivision(
+                $divisions = $this->parseDivision(
                     $division['userAgents'],
                     0,
                     0,
@@ -141,6 +149,14 @@ class CollectionParser
                     $sortIndex,
                     $division['division']
                 );
+
+                foreach ($divisions as $key => $divisionData) {
+                    if (isset($allDivisions[$key])) {
+                        throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
+                    }
+
+                    $allDivisions[$key] = $divisionData;
+                }
             }
 
             unset($sortIndex, $lite);
@@ -160,6 +176,7 @@ class CollectionParser
      * @param integer $sortIndex
      * @param string  $divisionName
      *
+     * @throws \UnexpectedValueException
      * @return array
      */
     private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
@@ -167,7 +184,15 @@ class CollectionParser
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $output += $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
+            $parsedAgents = $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
+
+            foreach ($parsedAgents as $key => $parsedAgentData) {
+                if (isset($allDivisions[$key])) {
+                    throw new \UnexpectedValueException('UserAgent "' . $key . '" is defined twice');
+                }
+
+                $output[$key] = $parsedAgentData;
+            }
         }
 
         return $output;
