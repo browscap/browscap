@@ -258,7 +258,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Division "test/1.*" is defined twice
+     * @expectedExceptionMessage Parent "abc" not found for key "test/1.*"
      */
     public function testParseSkipsEmptyOrInvalidDivisions()
     {
@@ -375,6 +375,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'sortIndex' => '1',
                 'division' => 'DefaultProperties',
                 'Browser' => 'test',
+                'Version' => '1.0',
                 'Parents' => '',
                 'MajorVer' => '1',
                 'MinorVer' => '0',
@@ -385,6 +386,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'Parent' => 'DefaultProperties',
                 'Browser' => 'test',
+                'Version' => '1.0',
                 'Parents' => 'DefaultProperties',
                 'MajorVer' => '1',
                 'MinorVer' => '0',
@@ -396,6 +398,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'sortIndex' => '2',
                 'division' => 'abc',
                 'Browser' => 'test',
+                'Version' => '1.0',
                 'Parents' => 'DefaultProperties,test',
                 'MajorVer' => '1',
                 'MinorVer' => '0',
@@ -406,6 +409,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'sortIndex' => '2',
                 'division' => 'abc',
                 'Browser' => 'test',
+                'Version' => '1.0',
                 'Parents' => 'DefaultProperties,test',
                 'MajorVer' => '1',
                 'MinorVer' => '0',
