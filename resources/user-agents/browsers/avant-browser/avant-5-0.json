@@ -1,0 +1,70 @@
+{
+  "division": "Avant\/IE 5.0",
+  "sortIndex": 3835,
+  "userAgents": [
+    {
+      "userAgent": "Avant\/IE 5.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Avant\/IE 5.0",
+        "Browser": "Avant",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 95*Avant Browser*)*",
+      "properties": {
+        "Parent": "Avant\/IE 5.0",
+        "Platform": "Win95",
+        "Platform_Description": "Windows 95"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98*Avant Browser*)*",
+      "properties": {
+        "Parent": "Avant\/IE 5.0",
+        "Platform": "Win98",
+        "Platform_Description": "Windows 98"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98; Win 9x 4.90*Avant Browser*)*",
+      "properties": {
+        "Parent": "Avant\/IE 5.0",
+        "Platform": "WinME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.0*Avant Browser*)*",
+      "properties": {
+        "Parent": "Avant\/IE 5.0",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.1*Avant Browser*)*",
+      "properties": {
+        "Parent": "Avant\/IE 5.0",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP"
+      }
+    }
+  ]
+}
