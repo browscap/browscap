@@ -105,10 +105,6 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $parent = array();
             }
 
-            if (isset($parent['Version'])) {
-                $this->extractVersion($parent);
-            }
-
             $propertiesToOutput = $properties;
 
             foreach ($propertiesToOutput as $property => $value) {
