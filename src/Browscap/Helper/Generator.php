@@ -212,6 +212,7 @@ class Generator
     public function create($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
     {
         $this->getLogger()->debug('create the output file');
+
         if (null === $this->generator) {
             throw new \LogicException(
                 'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. '
