@@ -191,7 +191,6 @@ class Generator
      */
     public function parseCollection()
     {
-        $this->getLogger()->debug('parse a data collection into an array');
         if (null === $this->collectionParser) {
             throw new \LogicException(
                 'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. '
@@ -199,6 +198,7 @@ class Generator
             );
         }
 
+        $this->getLogger()->debug('parse a data collection into an array');
         $this->collectionParser
             ->setLogger($this->logger)
             ->setDataCollection($this->collection)
