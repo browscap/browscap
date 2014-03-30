@@ -5,7 +5,7 @@
     {
       "userAgent": "iPhone Simulator",
       "properties": {
-        "Parent": "Safari General",
+        "Parent": "Safari Generic",
         "Browser": "iPhone Simulator",
         "Platform": "iOS",
         "Platform_Version": "",
