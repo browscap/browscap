@@ -49,7 +49,7 @@
         {
           "match": "Mozilla\/* (*MSIE 8.0; #PLATFORM#Trident\/4.0*Avant Browser*",
           "platforms": [
-            "WinXPa_32"
+            "WinXPa_32", "Vista_32"
           ]
         },
         {
