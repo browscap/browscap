@@ -124,6 +124,7 @@ return array(
                     'Browser'  => 'UA4',
                     'MajorVer' => '1',
                     'MinorVer' => '0',
+                    'Parent' => 'UA3',
                 ),
             ),
         ),

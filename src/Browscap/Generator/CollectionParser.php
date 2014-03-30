@@ -77,15 +77,15 @@ class CollectionParser
     /**
      * Generate and return the formatted browscap data
      *
+     * @throws \UnexpectedValueException
      * @return array
-     * @throws \LogicException
      */
     public function parse()
     {
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse a data collection into an array');
+            $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -121,7 +121,7 @@ class CollectionParser
 
                     $userAgents = json_decode($userAgents, true);
 
-                    $allDivisions += $this->parseDivision(
+                    $divisions = $this->parseDivision(
                         $userAgents,
                         $majorVer,
                         $minorVer,
@@ -129,9 +129,19 @@ class CollectionParser
                         $sortIndex,
                         $divisionName
                     );
+
+                    foreach ($divisions as $key => $divisionData) {
+                        if (isset($allDivisions[$key])) {
+                            throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
+                        }
+
+                        $allDivisions[$key] = $divisionData;
+                    }
+
+                    unset($userAgents, $divisionName, $majorVer, $minorVer);
                 }
             } else {
-                $allDivisions += $this->parseDivision(
+                $divisions = $this->parseDivision(
                     $division['userAgents'],
                     0,
                     0,
@@ -139,13 +149,21 @@ class CollectionParser
                     $sortIndex,
                     $division['division']
                 );
+
+                foreach ($divisions as $key => $divisionData) {
+                    if (isset($allDivisions[$key])) {
+                        throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
+                    }
+
+                    $allDivisions[$key] = $divisionData;
+                }
             }
+
+            unset($sortIndex, $lite);
         }
 
         // full expand of all data
-        $allDivisions = $this->expandProperties($allDivisions);
-
-        return $allDivisions;
+        return $this->expandProperties($allDivisions);
     }
 
     /**
@@ -158,6 +176,7 @@ class CollectionParser
      * @param integer $sortIndex
      * @param string  $divisionName
      *
+     * @throws \UnexpectedValueException
      * @return array
      */
     private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
@@ -165,7 +184,15 @@ class CollectionParser
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $output += $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
+            $parsedAgents = $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
+
+            foreach ($parsedAgents as $key => $parsedAgentData) {
+                if (isset($allDivisions[$key])) {
+                    throw new \UnexpectedValueException('UserAgent "' . $key . '" is defined twice');
+                }
+
+                $output[$key] = $parsedAgentData;
+            }
         }
 
         return $output;
@@ -292,6 +319,7 @@ class CollectionParser
      *
      * @param array $allInputDivisions
      *
+     * @throws \UnexpectedValueException
      * @return array
      */
     private function expandProperties(array $allInputDivisions)
@@ -305,7 +333,7 @@ class CollectionParser
             if (!isset($properties['Parent'])
                 && !in_array($key, array('DefaultProperties', '*'))
             ) {
-                continue;
+                throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
             }
 
             $userAgent = $key;
@@ -326,11 +354,11 @@ class CollectionParser
 
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
-                    continue;
+                    throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
                 }
 
                 if (!is_array($allInputDivisions[$parent])) {
-                    continue;
+                    throw new \UnexpectedValueException('Parent "' . $parent . '" is not an array key "' . $key . '"');
                 }
 
                 $browserData = array_merge($browserData, $allInputDivisions[$parent]);
@@ -338,6 +366,7 @@ class CollectionParser
 
             array_pop($parents);
             $browserData['Parents'] = implode(',', $parents);
+            unset($parents);
 
             foreach ($browserData as $propertyName => $propertyValue) {
                 switch ((string) $propertyValue) {
@@ -353,20 +382,36 @@ class CollectionParser
                 }
             }
 
+            unset($browserData);
+
             $allDivisions[$key] = $properties;
 
             if (!isset($properties['Version'])) {
-                continue;
+                throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
             }
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            $properties['MajorVer'] = (string) $completeVersions[0];
+            if (!isset($properties['MajorVer'])) {
+                $properties['MajorVer'] = (string) $completeVersions[0];
+            } elseif ($properties['MajorVer'] !== (string) $completeVersions[0]) {
+                throw new \UnexpectedValueException(
+                    'MajorVersion from properties does not match with Version for key "' . $key . '"'
+                );
+            }
 
             if (isset($completeVersions[1])) {
-                $properties['MinorVer'] = (string) $completeVersions[1];
+                $minorVersion = (string) $completeVersions[1];
             } else {
-                $properties['MinorVer'] = 0;
+                $minorVersion = '0';
+            }
+
+            if (!isset($properties['MinorVer'])) {
+                $properties['MinorVer'] = $minorVersion;
+            } elseif ($properties['MinorVer'] !== $minorVersion) {
+                throw new \UnexpectedValueException(
+                    'MinorVersion from properties does not match with Version for key "' . $key . '"'
+                );
             }
 
             $allDivisions[$key] = $properties;
