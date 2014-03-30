@@ -30,12 +30,6 @@
       }
     },
     {
-      "userAgent": "Googlebot-Video*",
-      "properties": {
-        "Parent": "Google"
-      }
-    },
-    {
       "userAgent": "Kml-Google; (+http:\/\/code.google.com\/apis\/kml)*",
       "properties": {
         "Parent": "Google"
