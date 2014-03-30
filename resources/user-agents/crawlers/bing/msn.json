@@ -98,13 +98,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
-      "properties": {
-        "Parent": "MSN",
-        "Browser": "BingBot"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko\/*",
       "properties": {
         "Parent": "MSN",
