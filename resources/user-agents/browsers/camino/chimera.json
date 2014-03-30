@@ -5,7 +5,17 @@
     {
       "userAgent": "Chimera",
       "properties": {
-        "Parent": "Camino",
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Mozilla Foundation",
+        "Platform": "Mac OS X",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
         "Comment": "Chimera",
         "Browser": "Chimera",
         "Frames": "true",
@@ -13,8 +23,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
       }
