@@ -4,9 +4,21 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*NOOK*)*AppleWebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "userAgent": "Kindle Nook",
       "properties": {
         "Parent": "Kindle",
+        "Comment": "Kindle Nook",
+        "Browser": "Kindle Nook",
+        "Device_Name": "Kindle",
+        "Device_Maker": "Amazon",
+        "Device_Type": "Ebook Reader",
+        "Device_Pointing_Method": "touchscreen"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android 2.3*NOOK*)*AppleWebKit\/533.1*(*KHTML, like Gecko*)*Version\/4.*Safari\/533.1*",
+      "properties": {
+        "Parent": "Kindle Nook",
         "Comment": "Kindle Nook",
         "Browser": "Kindle Nook",
         "Version": "4.0",

@@ -80,6 +80,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
                 continue;
             }
 
@@ -101,6 +102,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
                     // $this->logger->debug(
                         // 'property "' . $property . '" is not defined to be in the output -> skipped'
                     // );
+
                     continue;
                 }
 

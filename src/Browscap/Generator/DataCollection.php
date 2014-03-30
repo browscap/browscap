@@ -73,18 +73,11 @@ class DataCollection
      */
     public function addPlatformsFile($src)
     {
-        if (!file_exists($src)) {
-            throw new \RuntimeException('File "' . $src . '" does not exist.');
-        }
-
-        $fileContent = file_get_contents($src);
-        $json        = json_decode($fileContent, true);
-
-        if (is_null($json)) {
-            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
-        }
+        $json = $this->loadFile($src);
 
         $this->platforms = $json['platforms'];
+
+        $this->divisionsHaveBeenSorted = false;
     }
 
     /**
@@ -95,6 +88,19 @@ class DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)
+    {
+        $this->divisions[] = $this->loadFile($src);
+
+        $this->divisionsHaveBeenSorted = false;
+    }
+
+    /**
+     * @param string $src
+     *
+     * @return array
+     * @throws \RuntimeException
+     */
+    private function loadFile($src)
     {
         if (!file_exists($src)) {
             throw new \RuntimeException('File "' . $src . '" does not exist.');
@@ -107,9 +113,7 @@ class DataCollection
             throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
 
-        $this->divisions[] = $json;
-
-        $this->divisionsHaveBeenSorted = false;
+        return $json;
     }
 
     /**
