@@ -7426,6 +7426,8 @@
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
             "Version": "Basic",
+            "MajorVer": "Basic",
+            "MinorVer": "0",
             "Platform_Version": "2.3",
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop"
@@ -7440,6 +7442,8 @@
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
             "Version": "Home",
+            "MajorVer": "Basic",
+            "MinorVer": "0",
             "Platform_Version": "2.3",
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop"
