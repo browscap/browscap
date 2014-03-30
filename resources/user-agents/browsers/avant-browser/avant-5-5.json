@@ -1,0 +1,38 @@
+{
+  "division": "Avant\/IE 5.5",
+  "sortIndex": 3835,
+  "userAgents": [
+    {
+      "userAgent": "Avant\/IE 5.5",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Avant\/IE 5.5",
+        "Browser": "Avant",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (compatible; MSIE 5.5*; #PLATFORM#Avant Browser*",
+          "platforms": [
+            "Win95_2", "Win98_2", "WinME",
+            "NT", "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
+            "WinXPb_32", "WinXPb_64", "WinXPb_x64", "WinXPb_x64_3"
+          ]
+        }
+      ]
+    }
+  ]
+}
