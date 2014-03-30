@@ -30,8 +30,17 @@
         {
           "match": "Mozilla\/* (compatible; MSIE 3.*; #PLATFORM#)*",
           "platforms": [
-            "MacPPC_2",
             "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; MSIE 3.*; #PLATFORM#)*",
+          "properties": {
+            "RenderingEngine_Name": "Tasman",
+            "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+          },
+          "platforms": [
+            "MacPPC_2"
           ]
         }
       ]
