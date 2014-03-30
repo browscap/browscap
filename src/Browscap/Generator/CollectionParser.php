@@ -87,8 +87,8 @@ class CollectionParser
         foreach ($this->getDataCollection()->getDivisions() as $division) {
             if (isset($division['userAgents'][0]['userAgent'])) {
                 $this->getLogger()->debug(
-                    'parse data collection "' . $division['division'] . '" into an array for division "'
-                    . $division['userAgents'][0]['userAgent'] . '"'
+                    'parse data collection "' . $division['division'] . '" into an array for division '
+                    . '"' . $division['userAgents'][0]['userAgent'] . '"'
                 );
             } else {
                 $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
@@ -444,17 +444,26 @@ class CollectionParser
         switch ($propertyName) {
             case 'Comment':
             case 'Browser':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
             case 'Platform':
+            case 'Platform_Name':
             case 'Platform_Description':
             case 'Device_Name':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
             case 'Device_Maker':
+            case 'Device_Brand_Name':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
             case 'Parent':
                 return self::TYPE_STRING;
             case 'Browser_Type':
             case 'Device_Type':
             case 'Device_Pointing_Method':
+            case 'Browser_Bits':
+            case 'Platform_Bits':
                 return self::TYPE_IN_ARRAY;
             case 'Platform_Version':
             case 'RenderingEngine_Version':
@@ -480,6 +489,7 @@ class CollectionParser
             case 'JavaApplets':
             case 'ActiveXControls':
             case 'isMobileDevice':
+            case 'isTablet':
             case 'isSyndicationReader':
             case 'Crawler':
                 return self::TYPE_BOOLEAN;
@@ -501,6 +511,14 @@ class CollectionParser
     {
         switch ($propertyName) {
             case 'Browser_Type':
+            case 'Browser_Bits':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
+            case 'Platform_Name':
+            case 'Platform_Bits':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
+            case 'Device_Brand_Name':
             case 'Device_Name':
             case 'Device_Maker':
             case 'Device_Type':
@@ -509,6 +527,7 @@ class CollectionParser
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
                 return true;
             default:
                 // do nothing here
@@ -580,6 +599,12 @@ class CollectionParser
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = array(
                     'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown'
+                );
+                break;
+            case 'Browser_Bits':
+            case 'Platform_Bits':
+                $allowedValues = array(
+                    '0', '8', '16', '32', '64'
                 );
                 break;
             default:

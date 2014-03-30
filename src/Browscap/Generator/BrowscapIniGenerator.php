@@ -34,15 +34,15 @@ class BrowscapIniGenerator extends AbstractGenerator
         $this->type   = $type;
 
         if (!empty($this->collectionData['DefaultProperties'])) {
-            $defaultPropertityData = $this->collectionData['DefaultProperties'];
+            $defaultPropertyData = $this->collectionData['DefaultProperties'];
         } else {
-            $defaultPropertityData = array();
+            $defaultPropertyData = array();
         }
 
         return $this->render(
             $this->collectionData,
             $this->renderHeader() . $this->renderVersion(),
-            array_keys(array('Parent' => '') + $defaultPropertityData)
+            array_keys(array('Parent' => '') + $defaultPropertyData)
         );
     }
 
@@ -111,9 +111,6 @@ class BrowscapIniGenerator extends AbstractGenerator
 
             foreach ($propertiesToOutput as $property => $value) {
                 if (!isset($parent[$property])) {
-                    // $this->logger->debug(
-                        // 'property "' . $property . '" is not available on parent element -> not skipped'
-                    // );
                     continue;
                 }
 
@@ -132,9 +129,6 @@ class BrowscapIniGenerator extends AbstractGenerator
                 }
 
                 if ($parentProperty != $value) {
-                    // $this->logger->debug(
-                        // 'value for property "' . $property . '" did not change -> not skipped'
-                    // );
                     continue;
                 }
 
@@ -147,13 +141,11 @@ class BrowscapIniGenerator extends AbstractGenerator
                 $propertiesToCheck = $propertiesToOutput;
 
                 unset($propertiesToCheck['Parent']);
-                unset($propertiesToCheck['lite']);
-                unset($propertiesToCheck['sortIndex']);
-                unset($propertiesToCheck['Parents']);
-                unset($propertiesToCheck['division']);
 
                 foreach (array_keys($propertiesToCheck) as $property) {
-                    if (CollectionParser::isExtraProperty($property)) {
+                    if (!CollectionParser::isOutputProperty($property)
+                        || CollectionParser::isExtraProperty($property)
+                    ) {
                         unset($propertiesToCheck[$property]);
                     }
                 }
@@ -164,7 +156,6 @@ class BrowscapIniGenerator extends AbstractGenerator
             }
 
             // create output - php
-
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']

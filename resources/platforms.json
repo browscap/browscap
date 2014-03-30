@@ -739,18 +739,33 @@
       "match": "*Linux i686 (x86_64)*",
       "properties": {
         "Browser_Bits": "32",
-        "Platform": "Debian",
         "Platform_Bits": "64",
+        "Platform": "Debian",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win3.1": {
       "match": "*Win3.1*",
       "properties": {
         "Browser_Bits": "16",
+        "Platform": "Win31",
+        "Platform_Bits": "16",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "3.1",
+        "Platform_Description": "Windows 3.1",
+        "Win16": "true",
+        "Win32": "false",
+        "Win64": "false"
+      }
+    },
+    "Win3.1_B": {
+      "match": "*Windows 3.1*",
+      "properties": {
         "Platform": "Win31",
         "Platform_Bits": "16",
         "Platform_Maker": "Microsoft Corporation",
@@ -814,6 +829,20 @@
         "Device_Type": "Desktop",
         "Platform_Description": "Windows",
         "Win32": "true",
+        "Win64": "false"
+      }
+    },
+    "Win3.11_B": {
+      "match": "*Windows 3.11*",
+      "properties": {
+        "Platform": "Win31",
+        "Platform_Bits": "16",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "3.11",
+        "Platform_Description": "Windows 3.11",
+        "Win16": "true",
+        "Win32": "false",
         "Win64": "false"
       }
     },
@@ -899,6 +928,32 @@
         "Platform_Description": "Windows ME",
         "Win32": "true",
         "Win64": "false"
+      }
+    },
+    "NT": {
+      "match": "*Windows NT*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
+      }
+    },
+    "NT3.1": {
+      "match": "*Windows NT 3.1*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "3.1",
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
+      }
+    },
+    "NT3.5": {
+      "match": "*Windows NT 3.5*",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT",
+        "Win32": "true"
       }
     },
     "NT4": {
@@ -1165,6 +1220,19 @@
       "match": "*Windows NT 5.2 x64*",
       "properties": {
         "Browser_Bits": "64",
+        "Platform": "WinXP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "WinXPb_x64_3": {
+      "match": "*Windows NT 5.2;*Win64*",
+      "properties": {
         "Platform": "WinXP",
         "Platform_Bits": "64",
         "Platform_Maker": "Microsoft Corporation",
