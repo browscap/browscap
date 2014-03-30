@@ -163,13 +163,6 @@
       }
     },
     {
-      "userAgent": "googlebot-urlconsole",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "googlebot-urlconsole"
-      }
-    },
-    {
       "userAgent": "Googlebot-Video*",
       "properties": {
         "Parent": "Google",

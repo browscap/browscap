@@ -40,7 +40,8 @@
     {
       "userAgent": "googlebot-urlconsole",
       "properties": {
-        "Parent": "Googlebot"
+        "Parent": "Googlebot",
+        "Browser": "googlebot-urlconsole"
       }
     },
     {
