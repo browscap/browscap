@@ -47,6 +47,12 @@
           ]
         },
         {
+          "match": "Mozilla\/* (*MSIE 8.0; #PLATFORM#Trident\/4.0*Avant Browser*",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
           "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*Avant Browser*)*",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPa_x64",

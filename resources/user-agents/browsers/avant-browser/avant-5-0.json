@@ -22,49 +22,17 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 95*Avant Browser*)*",
-      "properties": {
-        "Parent": "Avant\/IE 5.0",
-        "Platform": "Win95",
-        "Platform_Description": "Windows 95"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98*Avant Browser*)*",
-      "properties": {
-        "Parent": "Avant\/IE 5.0",
-        "Platform": "Win98",
-        "Platform_Description": "Windows 98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows 98; Win 9x 4.90*Avant Browser*)*",
-      "properties": {
-        "Parent": "Avant\/IE 5.0",
-        "Platform": "WinME",
-        "Platform_Description": "Windows ME"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.0*Avant Browser*)*",
-      "properties": {
-        "Parent": "Avant\/IE 5.0",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 5.*Windows NT 5.1*Avant Browser*)*",
-      "properties": {
-        "Parent": "Avant\/IE 5.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (compatible; MSIE 5.*; #PLATFORM#Avant Browser*)*",
+          "platforms": [
+            "Win95_2", "Win98_2", "WinME",
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
+            "WinXPb_32", "WinXPb_64", "WinXPb_x64", "WinXPb_x64_3"
+          ]
+        }
+      ]
     }
   ]
 }

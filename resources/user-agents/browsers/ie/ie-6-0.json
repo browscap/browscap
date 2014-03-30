@@ -27,71 +27,22 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (*MSIE 6*)*",
-      "properties": {
-        "Parent": "IE 6.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.0*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.1*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2; *Win64*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 5.2; *WOW64*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSIE 6.*; *Windows NT 6.0*)*",
-      "properties": {
-        "Parent": "IE 6.0",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (compatible; MSIE 6.*; #PLATFORM#)*",
+          "platforms": [
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
+            "WinXPb_32", "WinXPb_64", "WinXPb_x64", "WinXPb_x64_3",
+            "Vista_32", "Vista_64", "Vista_x64",
+            "Win7_32", "Win7_64", "Win7_x64",
+            "Win8_32", "Win8_64", "Win8_x64"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (*MSIE 6*)*"
+        }
+      ]
     }
   ]
 }
