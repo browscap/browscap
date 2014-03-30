@@ -249,13 +249,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*",
-      "properties": {
-        "Parent": "MSN",
-        "Browser": "BingPreview"
-      }
-    },
-    {
       "userAgent": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1 (*)",
       "properties": {
         "Parent": "MSN"
