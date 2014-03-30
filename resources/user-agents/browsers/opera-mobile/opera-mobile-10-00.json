@@ -61,19 +61,19 @@
     {
       "userAgent": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*",
       "properties": {
-        "Parent": "Opera Mobile 10.00"
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
       }
     },
     {
       "userAgent": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
       "properties": {
-        "Parent": "Opera Mobile 10.00"
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
       }
     },
     {
       "userAgent": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
       "properties": {
-        "Parent": "Opera Mobile 10.00"
+        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
       }
     }
   ]
