@@ -8,6 +8,7 @@ use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Monolog\Processor\MemoryUsageProcessor;
+use Monolog\Processor\MemoryPeakUsageProcessor;
 
 /**
  * @package Browscap\Helper
