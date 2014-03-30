@@ -25,90 +25,26 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Mac_PowerPC*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "MacPPC"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows 3.1*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "Win31",
-        "Platform_Version": "3.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows 3.11*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "Win31",
-        "Platform_Version": "3.11"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows 95*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "Win95",
-        "Platform_Description": "Windows 95"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows 98*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "Win98",
-        "Platform_Description": "Windows 98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows 98; Win 9x 4.90*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "WinME",
-        "Platform_Description": "Windows ME"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows NT 3.1*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "WinNT",
-        "Platform_Version": "3.1",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows NT 3.5*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "WinNT",
-        "Platform_Version": "3.5",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows NT 4.0*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "WinNT",
-        "Platform_Version": "4.0",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(compatible; MSIE 4.*Windows NT 5.0*)*",
-      "properties": {
-        "Parent": "IE 4.0",
-        "Platform": "Win2000",
-        "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (compatible; MSIE 4.*; #PLATFORM#)*",
+          "platforms": [
+            "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
+            "Win2000", "Win2000_3", "Win2000_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; MSIE 4.*; #PLATFORM#)*",
+          "properties": {
+            "RenderingEngine_Name": "Tasman",
+            "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+          },
+          "platforms": [
+            "MacPPC_2"
+          ]
+        }
+      ]
     }
   ]
 }

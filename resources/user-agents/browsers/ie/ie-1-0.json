@@ -21,32 +21,15 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 3.1*)*",
-      "properties": {
-        "Parent": "IE 1.0",
-        "Platform": "WinNT",
-        "Platform_Version": "3.1",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 3.11*)*",
-      "properties": {
-        "Parent": "IE 1.0",
-        "Platform": "WinNT",
-        "Platform_Version": "3.11",
-        "Platform_Description": "Windows NT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE 1.0*Windows 95*)*",
-      "properties": {
-        "Parent": "IE 1.0",
-        "Win32": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (*MSIE 1.*; #PLATFORM#)*",
+          "platforms": [
+            "Win3.1_B", "Win3.11_B", "Win95_2"
+          ]
+        }
+      ]
     }
   ]
 }

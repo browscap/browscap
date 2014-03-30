@@ -235,8 +235,8 @@ class Generator
             ->setComments($comments)
             ->setVersionData(
                 array(
-                     'version' => $this->collection->getVersion(),
-                     'released' => $this->collection->getGenerationDate()->format('r')
+                    'version' => $this->collection->getVersion(),
+                    'released' => $this->collection->getGenerationDate()->format('r')
                 )
             )
         ;

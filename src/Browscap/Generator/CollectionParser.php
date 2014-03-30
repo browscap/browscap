@@ -48,7 +48,7 @@ class CollectionParser
     public function getDataCollection()
     {
         if (!isset($this->collection)) {
-            throw new \LogicException("Data collection has not been set yet - call setDataCollection");
+            throw new \LogicException('Data collection has not been set yet - call setDataCollection');
         }
 
         return $this->collection;
@@ -85,7 +85,14 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
+            if (isset($division['userAgents'][0]['userAgent'])) {
+                $this->getLogger()->debug(
+                    'parse data collection "' . $division['division'] . '" into an array for division '
+                    . '"' . $division['userAgents'][0]['userAgent'] . '"'
+                );
+            } else {
+                $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
+            }
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -201,17 +208,22 @@ class CollectionParser
     /**
      * Render a single User Agent block
      *
-     * @param array    $uaData
-     * @param string   $majorVer
-     * @param string   $minorVer
-     * @param boolean  $lite
-     * @param integer  $sortIndex
-     * @param string   $divisionName
+     * @param array   $uaData
+     * @param string  $majorVer
+     * @param string  $minorVer
+     * @param boolean $lite
+     * @param integer $sortIndex
+     * @param string  $divisionName
      *
+     * @throws \LogicException
      * @return array
      */
     private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
+        if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
+            throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
+        }
+
         $output = array(
             $uaData['userAgent'] => array(
                     'lite' => $lite,
@@ -432,17 +444,26 @@ class CollectionParser
         switch ($propertyName) {
             case 'Comment':
             case 'Browser':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
             case 'Platform':
+            case 'Platform_Name':
             case 'Platform_Description':
             case 'Device_Name':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
             case 'Device_Maker':
+            case 'Device_Brand_Name':
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
             case 'Parent':
                 return self::TYPE_STRING;
             case 'Browser_Type':
             case 'Device_Type':
             case 'Device_Pointing_Method':
+            case 'Browser_Bits':
+            case 'Platform_Bits':
                 return self::TYPE_IN_ARRAY;
             case 'Platform_Version':
             case 'RenderingEngine_Version':
@@ -468,6 +489,7 @@ class CollectionParser
             case 'JavaApplets':
             case 'ActiveXControls':
             case 'isMobileDevice':
+            case 'isTablet':
             case 'isSyndicationReader':
             case 'Crawler':
                 return self::TYPE_BOOLEAN;
@@ -489,6 +511,14 @@ class CollectionParser
     {
         switch ($propertyName) {
             case 'Browser_Type':
+            case 'Browser_Bits':
+            case 'Browser_Maker':
+            case 'Browser_Modus':
+            case 'Platform_Name':
+            case 'Platform_Bits':
+            case 'Platform_Maker':
+            case 'Device_Code_Name':
+            case 'Device_Brand_Name':
             case 'Device_Name':
             case 'Device_Maker':
             case 'Device_Type':
@@ -497,6 +527,7 @@ class CollectionParser
             case 'RenderingEngine_Name':
             case 'RenderingEngine_Version':
             case 'RenderingEngine_Description':
+            case 'RenderingEngine_Maker':
                 return true;
             default:
                 // do nothing here
@@ -568,6 +599,12 @@ class CollectionParser
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = array(
                     'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown'
+                );
+                break;
+            case 'Browser_Bits':
+            case 'Platform_Bits':
+                $allowedValues = array(
+                    '0', '8', '16', '32', '64'
                 );
                 break;
             default:
