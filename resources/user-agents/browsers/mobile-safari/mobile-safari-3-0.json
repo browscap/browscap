@@ -32,74 +32,108 @@
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Mobile\/*Safari\/*",
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_B", "iOS_C"
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0",
+            "iOS_B",
+            "iOS_C", "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Mobile\/*Safari\/*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0",
+            "iOS_B",
+            "iOS_C", "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Mobile\/*Safari\/*",
+          "properties": {
+            "Device_Name": "iPod",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0",
+            "iOS_B",
+            "iOS_C", "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
+          "properties": {
+            "Device_Name": "iPod",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
+          "properties": {
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
+          "properties": {
+            "Device_Name": "iPod",
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_C"
           ]
         }
       ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPhone*CPU like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Mobile\/*Safari\/*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPhone*CPU like Mac OS X*)*AppleWebKit\/*(KHTML, like Gecko)*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Version": "0",
-        "MajorVer": "0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPhone*CPU like Mac OS X*)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPod*CPU like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Version": "0",
-        "MajorVer": "0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPod",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPod*CPU like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPod",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPod*CPU like Mac OS X*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.0*Mobile\/*Safari\/*",
-      "properties": {
-        "Parent": "Mobile Safari 3.0",
-        "Platform_Version": "1.0",
-        "Device_Name": "iPod",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Device"
-      }
     }
   ]
 }

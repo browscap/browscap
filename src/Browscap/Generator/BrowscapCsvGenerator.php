@@ -60,11 +60,11 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
                 $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
                 continue;
             }
 
             // create output - csv
-
             $output .= '"' . $key . '"'; // PropertyName
             $output .= ',"' . $counter . '"'; // AgentID
             $output .= ',"' . $this->detectMasterParent($key, $properties) . '"'; // MasterParent
@@ -77,6 +77,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
                     // $this->logger->debug(
                         // 'property "' . $property . '" is not defined to be in the output -> skipped'
                     // );
+
                     continue;
                 }
 
