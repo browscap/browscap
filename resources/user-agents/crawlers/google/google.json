@@ -149,27 +149,6 @@
       }
     },
     {
-      "userAgent": "Googlebot-Image*",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "Googlebot-Image"
-      }
-    },
-    {
-      "userAgent": "Googlebot-News*",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "Googlebot-News"
-      }
-    },
-    {
-      "userAgent": "Googlebot-Video*",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "Google-Video"
-      }
-    },
-    {
       "userAgent": "GoogleFriendConnect*",
       "properties": {
         "Parent": "Google",

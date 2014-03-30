@@ -87,6 +87,13 @@
         "Parent": "Googlebot",
         "Browser": "Googlebot-News"
       }
+    },
+    {
+      "userAgent": "Googlebot-Video*",
+      "properties": {
+        "Parent": "Googlebot",
+        "Browser": "Googlebot-Video"
+      }
     }
   ]
 }
