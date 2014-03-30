@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Avant Browser*)*",
+          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Avant Browser*",
           "platforms": [
             "NT", "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64",

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Avant Browser*)*",
+          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Avant Browser*",
           "platforms": [
             "NT", "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Trident\/4.0*Avant Browser*)*",
+          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Trident\/4.0*Avant Browser*",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*Avant Browser*)*",
+          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*Avant Browser*",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64",
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE 6.0; #PLATFORM#Trident\/4.0*Avant Browser*)*",
+          "match": "Mozilla\/* (compatible; MSIE 6.0; #PLATFORM#Trident\/4.0*Avant Browser*",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64",
