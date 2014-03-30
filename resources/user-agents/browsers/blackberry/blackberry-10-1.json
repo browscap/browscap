@@ -1,6 +1,6 @@
 {
   "division": "BlackBerry #MAJORVER#.#MINORVER#",
-  "versions": ["10.0"],
+  "versions": ["10.1"],
   "sortIndex": 2340,
   "userAgents": [
     {
@@ -37,12 +37,6 @@
             "Device_Code_Name": "Z10",
             "Device_Name": "Z10"
           }
-        },
-        {
-          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko)*"
-        },
-        {
-          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*"
         }
       ]
     }
