@@ -33,10 +33,12 @@ class LoggerHelper
                 new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %extra%' . "\n")
             );
 
-            $memoryProcessor = new MemoryUsageProcessor();
+            /** @var callable $memoryProcessor */
+            $memoryProcessor = new MemoryUsageProcessor(true);
             $logger->pushProcessor($memoryProcessor);
 
-            $peakMemoryProcessor = new MemoryPeakUsageProcessor();
+            /** @var callable $peakMemoryProcessor */
+            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
             $logger->pushProcessor($peakMemoryProcessor);
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
