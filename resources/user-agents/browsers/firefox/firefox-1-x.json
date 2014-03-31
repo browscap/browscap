@@ -1,0 +1,47 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER#",
+  "versions": ["1.0", "1.4", "1.5", "1.6"],
+  "sortIndex": 3140,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Browser": "Firefox",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.0",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "FreeBSD", "DragonFlyBSD", "HPUX", "IRIX64", "Linux", "Linux_32", "Linux_64", "Linux_PPC",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "OpenBSD", "SunOS", "Win95", "Win98", "WinME", "NT4_2",
+            "Win2000", "WinXPa_32", "WinXPb_32", "WinXPb_x64_2", "Vista_32", 
+            "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64",
+            "MacPPC", "Darwin", "OS2"
+          ]
+        }
+      ]
+    }
+  ]
+}

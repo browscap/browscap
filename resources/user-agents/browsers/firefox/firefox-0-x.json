@@ -1,0 +1,51 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER#",
+  "versions": ["0.6", "0.7", "0.8", "0.9", "0.10"],
+  "sortIndex": 3140,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Browser": "Firefox",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.0",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "FreeBSD", "FreeBSD_386", "NetBSD", "DragonFlyBSD", "HPUX", "IRIX64", "Linux",
+            "OSX", "OpenBSD", "SunOS", "OS2", "SunOS",
+            "WinME", "Win95", "Win98", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Mozilla Firebird\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win2000"
+          ]
+        }
+      ]
+    }
+  ]
+}

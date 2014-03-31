@@ -1,43 +1,51 @@
 {
-  "division": "Arora 0.6",
+  "division": "Arora #MAJORVER#.#MINORVER#",
+  "versions": ["0.6"],
   "sortIndex": 1181,
   "userAgents": [
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
+      "userAgent": "Arora #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Google Code",
-        "Comment": "Arora 0.6",
+        "Comment": "Arora #MAJORVER#.#MINORVER#",
         "Browser": "Arora",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Platform": "Win32",
         "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux; *) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.6*",
-      "properties": {
-        "Parent": "Google Code",
-        "Browser": "Arora",
-        "Version": "0.6",
-        "MajorVer": "0",
-        "MinorVer": "6",
-        "Platform": "Linux",
-        "Win32": "false",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux",
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "Linux",
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
     }
   ]
 }
