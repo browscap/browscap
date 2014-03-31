@@ -1,0 +1,290 @@
+{
+  "division": "Jasmine 1.0",
+  "sortIndex": 6400,
+  "userAgents": [
+    {
+      "userAgent": "Jasmine 1.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jasmine",
+        "Browser": "Jasmine",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "JAVA",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "Device_Name": "Samsung",
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Device",
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Description": "For Access NetFront."
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT*Jasmine\/1.0*SMM-MMS\/*\/MIDP*",
+      "properties": {
+        "Parent": "Jasmine 1.0"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-C3050*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "C3050",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "C3050"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-3210*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-3210",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-3210"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3310*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-B3310",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3310"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3410*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-B3410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7610*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-B7610",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B7610"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-E2550*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-E2550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-E2550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I6410*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-I6410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I6410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I8320*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-M8910* Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-M8910",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-M8910"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3370*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S3370",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3370"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3650*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S3650",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3650"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5230*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S5230",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5230"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5230G*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S5230G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5230G"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5560*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S5560",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5560"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S7550*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S7550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-i8000*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-I8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8000*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8003*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S8003",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8003"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E250*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH E250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH E250"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH F480",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH F480"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-G800*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH G800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH G800"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U700*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH U700",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH U700"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U900*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH U900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH U900"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-i900*?Jasmine\/1.0*",
+      "properties": {
+        "Parent": "Jasmine 1.0",
+        "Device_Code_Name": "SGH I900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH I900"
+      }
+    },
+    {
+      "userAgent": "Samsung-* Jasmine\/1.0* ",
+      "properties": {
+        "Parent": "Jasmine 1.0"
+      }
+    }
+  ]
+}

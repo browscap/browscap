@@ -1,0 +1,28 @@
+{
+  "division": "Bellwave",
+  "sortIndex": 2270,
+  "userAgents": [
+    {
+      "userAgent": "Bellwave",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Bellwave",
+        "Platform": "JAVA",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "BELLWAVE_NEO200_MT",
+      "properties": {
+        "Parent": "Bellwave"
+      }
+    },
+    {
+      "userAgent": "Bellwave_HTG100_R10",
+      "properties": {
+        "Parent": "Bellwave"
+      }
+    }
+  ]
+}

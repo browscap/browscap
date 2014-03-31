@@ -1,83 +1,85 @@
 {
   "division": "Handspring Blazer",
-  "sortIndex": 1670,
-  "lite": true,
+  "sortIndex": 2510,
   "userAgents": [
     {
       "userAgent": "Blazer",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Handspring Blazer",
         "Browser": "Handspring Blazer",
         "Platform": "Palm",
-        "Win32": "true",
         "Frames": "true",
-        "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "isMobileDevice": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16;160x160",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16;160x160",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "3.0",
         "MajorVer": "3",
-        "MinorVer": "0",
-        "Platform_Version": "95"
+        "Platform_Bits": "32"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.0) 16;320x448",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.0) 16;320x448",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "4.0",
         "MajorVer": "4",
-        "MinorVer": "0",
-        "Platform_Version": "98"
+        "Platform_Bits": "32"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.1) 16;320x320",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.1) 16;320x320",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "4.1",
         "MajorVer": "4",
         "MinorVer": "1",
-        "Platform_Version": "98"
+        "Platform_Bits": "32"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.2) 16;320x320",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.2) 16;320x320",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "4.2",
         "MajorVer": "4",
         "MinorVer": "2",
-        "Platform_Version": "98"
+        "Platform_Bits": "32"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.4) 16;320x320",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.4) 16;320x320",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "4.4",
         "MajorVer": "4",
         "MinorVer": "4",
-        "Platform_Version": "98"
+        "Platform_Bits": "32"
       }
     },
     {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.5) 16;320x320",
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*; Blazer\/4.5) 16;320x320",
       "properties": {
         "Parent": "Blazer",
+        "Browser_Bits": "32",
         "Version": "4.5",
         "MajorVer": "4",
         "MinorVer": "5",
-        "Platform_Version": "98"
+        "Platform_Bits": "32"
       }
     }
   ]

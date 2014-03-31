@@ -1,0 +1,54 @@
+{
+  "division": "Pantech",
+  "sortIndex": 9740,
+  "userAgents": [
+    {
+      "userAgent": "Pantech",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Pantech",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "PANTECH G200*",
+      "properties": {
+        "Parent": "Pantech"
+      }
+    },
+    {
+      "userAgent": "PANTECH G500*",
+      "properties": {
+        "Parent": "Pantech"
+      }
+    },
+    {
+      "userAgent": "PT-G700*",
+      "properties": {
+        "Parent": "Pantech"
+      }
+    },
+    {
+      "userAgent": "PT-GI100 * MIDP\/MIDP-1.0*",
+      "properties": {
+        "Parent": "Pantech"
+      }
+    }
+  ]
+}

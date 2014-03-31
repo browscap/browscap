@@ -1,0 +1,32 @@
+{
+  "division": "Links #MAJORVER#.#MINORVER#",
+  "versions": ["0.9", "1.0", "2.0", "2.1", "2.2", "2.3"],
+  "sortIndex": 2220,
+  "userAgents": [
+    {
+      "userAgent": "Links #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Links #MAJORVER#.#MINORVER#",
+        "Browser": "Links",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
+      },
+      "children": [
+        {
+          "match": "Links (#MAJORVER#.#MINORVER#*; #PLATFORM#)",
+          "platforms": [
+            "Darwin", "FreeBSD", "NetBSD", "OpenBSD", "Linux", "Linux_64", "Unix_B",
+            "OS2", "WinXPa_cygwin", "Win32"
+          ]
+        }
+      ]
+    }
+  ]
+}
