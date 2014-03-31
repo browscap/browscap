@@ -1,0 +1,148 @@
+{
+  "division": "QuickTime 7.1",
+  "sortIndex": 7050,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime 7.1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickTime 7.1",
+        "Browser": "QuickTime",
+        "Browser_Type": "Application",
+        "Version": "7.1",
+        "MajorVer": "7",
+        "MinorVer": "1",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.1.* (qtver=7.1.*;*;os=Mac 10.*",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;cpu=PPC;os=Mac 10.*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;cpu=PPC;os=Mac 9.*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;os=Windows 98*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;os=Windows NT 4.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;os=Windows NT 5.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;os=Windows NT 5.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.1*;os=Windows NT 5.2*)",
+      "properties": {
+        "Parent": "QuickTime 7.1",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

@@ -1,34 +1,17 @@
 {
   "division": "Amaya",
-  "sortIndex": 2210,
+  "sortIndex": 2050,
   "userAgents": [
     {
       "userAgent": "Amaya",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Amaya",
         "Browser": "Amaya",
         "Browser_Type": "Application",
         "Frames": "true",
-        "Tables": "true"
-      }
-    },
-    {
-      "userAgent": "amaya\/10.*",
-      "properties": {
-        "Parent": "Amaya",
-        "Version": "10.0",
-        "MajorVer": "10",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "amaya\/11.*",
-      "properties": {
-        "Parent": "Amaya",
-        "Version": "11.0",
-        "MajorVer": "11",
-        "MinorVer": "0"
+        "Tables": "true",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop"
       }
     },
     {
@@ -36,8 +19,7 @@
       "properties": {
         "Parent": "Amaya",
         "Version": "7.0",
-        "MajorVer": "7",
-        "MinorVer": "0"
+        "MajorVer": "7"
       }
     },
     {
@@ -46,7 +28,6 @@
         "Parent": "Amaya",
         "Version": "8.0",
         "MajorVer": "8",
-        "MinorVer": "0",
         "CssVersion": "2"
       }
     },
@@ -56,7 +37,25 @@
         "Parent": "Amaya",
         "Version": "9.0",
         "MajorVer": "9",
-        "MinorVer": "0"
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "amaya\/10.*",
+      "properties": {
+        "Parent": "Amaya",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "amaya\/11.*",
+      "properties": {
+        "Parent": "Amaya",
+        "Version": "11.0",
+        "MajorVer": "11",
+        "CssVersion": "2"
       }
     }
   ]

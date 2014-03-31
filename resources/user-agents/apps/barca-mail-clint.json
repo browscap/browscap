@@ -1,0 +1,104 @@
+{
+  "division": "Barca Mail Clint",
+  "sortIndex": 1670,
+  "userAgents": [
+    {
+      "userAgent": "Barca Mail Clint",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Email Client",
+        "SubCategory": "Email Client",
+        "Browser_Type": "Email Client",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Browser": "Barca Mail Clint",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop"
+      }
+    },
+    {
+      "userAgent": "Barca\/1.4*",
+      "properties": {
+        "Parent": "Barca Mail Clint",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Barca\/2.0*",
+      "properties": {
+        "Parent": "Barca Mail Clint",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Barca\/2.8*",
+      "properties": {
+        "Parent": "Barca Mail Clint",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "BarcaPro\/2.8*",
+      "properties": {
+        "Parent": "Barca Mail Clint",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

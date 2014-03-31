@@ -1,0 +1,66 @@
+{
+  "division": "Hitpad",
+  "sortIndex": 5150,
+  "userAgents": [
+    {
+      "userAgent": "Hitpad",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Hitpad",
+        "Browser_Type": "Browser",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Hitpad* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hitpad"
+      }
+    },
+    {
+      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hitpad",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/11.*",
+      "properties": {
+        "Parent": "Hitpad",
+        "Version": "1.4",
+        "MajorVer": "1",
+        "MinorVer": "4",
+        "Platform_Version": "11.0"
+      }
+    }
+  ]
+}
