@@ -1,0 +1,312 @@
+{
+  "division": "MSN",
+  "sortIndex": 1220,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "MSN",
+      "properties": {
+        "Parent": "Search Engines",
+        "Comment": "MSN",
+        "Browser": "MSN",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Danger",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "Windows-Live-Social-Object-Extractor-Engine\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Vancouver*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Vancouver",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "MSN",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MSN",
+        "Browser_Type": "Bot/Crawler",
+        "Browser": "MSN",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+        "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+        "properties": {
+            "Parent": "MSN",
+            "Browser": "adidxbot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+        }
+    },
+    {
+      "userAgent": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "adidxbot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "librabot\/1.0 (*)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "librabot"
+      }
+    },
+    {
+      "userAgent": "llssbot\/1.0",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "llssbot",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Microsoft Bing Mobile SocialStreams Bot",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Microsoft Bing Mobile SocialStreams Bot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Danger",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "MSMOBOT\/1.1*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-mobile",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "MSNBot-Academic\/1.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSNBot-Academic",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/1.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-media",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/1.1*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-media",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "MSNBot-News\/1.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSNBot-News",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "MSNBot-NewsBlogs\/1.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSNBot-NewsBlogs",
+        "Version": "1",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "msnbot-NewsBlogs\/2.* (+http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-NewsBlogs",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "msnbot-products",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-products"
+      }
+    },
+    {
+      "userAgent": "msnbot-webmaster\/1.0 (*http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-webmaster tools"
+      }
+    },
+    {
+      "userAgent": "msnbot\/1.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "msnbot\/1.1*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "msnbot\/2.0b*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0",
+        "Beta": "true"
+      }
+    },
+    {
+      "userAgent": "MSR-ISRCCrawler",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSR-ISRCCrawler"
+      }
+    },
+    {
+      "userAgent": "MSRBOT*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSRBOT"
+      }
+    },
+    {
+      "userAgent": "renlifangbot\/1.0 (?http:\/\/search.msn.com\/msnbot.htm)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "renlifangbot"
+      }
+    },
+    {
+      "userAgent": "Windows-Live-Social-Object-Extractor-Engine\/1.0",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "Windows-Live-Social-Object-Extractor-Eng"
+      }
+    },
+    {
+      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1 (*)",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "T-Mobile Dash Mozilla\/4.0 (*) MSNBOT-MOBILE\/1.1 (*)",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-mobile"
+      }
+    },
+    {
+      "userAgent": "msnbot-UDiscovery\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot-media\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot\/*",
+      "properties": {
+        "Parent": "MSN"
+      }
+    },
+    {
+      "userAgent": "msnbot\/2.0*",
+      "properties": {
+        "Parent": "MSN",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "MSNBot-News\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "MSNBot-News"
+      }
+    },
+    {
+      "userAgent": "MSNBot-NewsBlogs\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-NewsBlogs"
+      }
+    },
+    {
+      "userAgent": "msnbot-webmaster\/*",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "msnbot-webmaster tools"
+      }
+    }
+  ]
+}

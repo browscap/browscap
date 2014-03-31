@@ -1,0 +1,34 @@
+{
+  "division": "Y!J-AGENT",
+  "sortIndex": 1320,
+  "userAgents": [
+    {
+      "userAgent": "Y!J-AGENT",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMC\/* (Y!J-AGENT))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMC"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMF\/* (Y!J-AGENT))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMF"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BMI\/* (Y!J-AGENT; 1.0))",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Y!J-AGENT\/BMI"
+      }
+    }
+  ]
+}

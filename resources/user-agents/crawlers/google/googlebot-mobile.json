@@ -1,0 +1,35 @@
+{
+  "division": "Googlebot-Mobile",
+  "sortIndex": 1170,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Bot Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "KDDI-Googlebot-Mobile",
+      "properties": {
+        "Parent": "Googlebot-Mobile"
+      }
+    },
+    {
+      "userAgent": "*Googlebot-Mobile\/2.*",
+      "properties": {
+        "Parent": "Googlebot-Mobile",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
