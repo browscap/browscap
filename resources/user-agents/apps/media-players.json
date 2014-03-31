@@ -19,14 +19,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; PPC Mac OS X; *) AppleWebKit\/* RealPlayer",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "RealPlayer",
-        "Platform": "MacOSX"
-      }
-    },
-    {
       "userAgent": "MPlayer 0.9*",
       "properties": {
         "Parent": "Media Players",
