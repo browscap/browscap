@@ -32,7 +32,7 @@
       "userAgent": "Opera\/*(BlackBerry*Opera Mini*)*",
       "properties": {
         "Parent": "Opera Mini Generic",
-        "Platform": "BlackBerry OS",
+        "Platform": "RIM OS",
         "Device_Name": "Blackberry",
         "Device_Maker": "RIM"
       }
