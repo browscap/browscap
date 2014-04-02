@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["7.0", "7.1"],
+  "versions": ["7.0", "7.1", "7.2", "7.3", "7.4", "7.5"],
   "sortIndex": 2046,
   "lite": true,
   "userAgents": [
@@ -36,7 +36,7 @@
       "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "BlackBerry OS",
+        "Platform": "RIM OS",
         "Device_Name": "Blackberry",
         "Device_Maker": "RIM"
       }
@@ -57,10 +57,13 @@
       "properties": {
         "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "iOS",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+          "Device_Type": "Mobile Phone",
+          "Device_Code_Name": "iPhone",
+          "Device_Name": "iPhone",
+          "Device_Maker": "Apple",
+          "Device_Brand_Name": "Apple",
+          "Device_Pointing_Method": "touchscreen",
+          "isMobileDevice": "true"
       }
     },
     {

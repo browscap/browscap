@@ -6,9 +6,9 @@
     {
       "userAgent": "Opera Mobile",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Opera Mobile Generic",
         "Comment": "Opera Mobile",
-        "Browser": "Opera Mobi",
+        "Browser": "Opera Mobile",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

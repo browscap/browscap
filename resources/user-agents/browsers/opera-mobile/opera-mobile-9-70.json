@@ -1,0 +1,209 @@
+{
+  "division": "Opera Mobile 9.70",
+  "sortIndex": 9500,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile 9.70",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Version": "9.70",
+        "MajorVer": "9",
+        "MinorVer": "70",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.2",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    },
+    {
+      "userAgent": "HD_mini_T5555 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "mini T5555",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "mini T5555"
+      }
+    },
+    {
+      "userAgent": "HTC_HD2_T8585 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2 T8585"
+      }
+    },
+    {
+      "userAgent": "HTC_HD2_T9193 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "HD2 T9193",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2 T9193"
+      }
+    },
+    {
+      "userAgent": "HTC_HD_T8282 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "HD T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD T8282"
+      }
+    },
+    {
+      "userAgent": "HTC_HD_mini_T5555 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "mini T5555",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "mini T5555"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Diamond2_T5353 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "Touch Diamond2 T5353",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Diamond2 T5353"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_HD2_T8585 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "Touch HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch HD2 T8585"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Pro2_T7373 Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "Touch Pro2 T7373",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Pro2 T7373"
+      }
+    },
+    {
+      "userAgent": "HTC_Xperia Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "Xperia",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Xperia"
+      }
+    },
+    {
+      "userAgent": "HUAWEI-M735\/* Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "M735",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Name": "M735"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/1.0\/HTC_HD2\/* Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "HD2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/1.0\/HTC_HD_mini\/Opera 9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Device_Code_Name": "HD mini",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD mini"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.7 (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "HD2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2"
+      }
+    },
+    {
+      "userAgent": "HTC_HD_mini_T5555 Opera\/9.7 (Windows NT 5.1; U*)",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Browser_Bits": "32",
+        "Platform": "Windows Mobile OS",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "mini T5555",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "mini T5555"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (HTC-T9199\/*;U;Windows Mobile\/6.5;*;*;CTC\/2.0) Opera\/9.7*",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Browser_Bits": "32",
+        "Platform": "Windows Mobile OS",
+        "Platform_Version": "6.5",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T9199",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "T9199"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/1.0\/HTC_HD2\/* (*Opera\/9.7* (Windows NT 5.1; U*)",
+      "properties": {
+        "Parent": "Opera Mobile 9.70",
+        "Browser_Bits": "32",
+        "Platform": "Windows Mobile OS",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2"
+      }
+    }
+  ]
+}
