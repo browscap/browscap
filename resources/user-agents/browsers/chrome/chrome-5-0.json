@@ -1,8 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [6, 7, 8, 9],
-  "sortIndex": 2910,
-  "lite": true,
+  "versions": [5],
+  "sortIndex": 2650,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
@@ -21,10 +20,6 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
@@ -35,23 +30,17 @@
             "ChromeOS", "ChromeOS_i686", "ChromeOS_x64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
-            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64",
-            "FreeBSD", "FreeBSD_386",
-            "ChromeOS", "ChromeOS_i686"
+            "Linux", "Linux_32", "Linux_64",
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32",
+            "FreeBSD", "FreeBSD_386"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*",
           "platforms": [
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "Linux_32", "Linux_64", "NT4", "Win2000",
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
-            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64",
-            "FreeBSD", "FreeBSD_386",
-            "ChromeOS", "ChromeOS_i686"
+            "ChromeOS", "ChromeOS_x64",
+            "Linux", "Linux_32",
+            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         }
       ]
