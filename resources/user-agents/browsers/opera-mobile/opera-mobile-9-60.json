@@ -1,0 +1,61 @@
+{
+  "division": "Opera Mobile 9.60",
+  "sortIndex": 9490,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile 9.60",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Version": "9.60",
+        "MajorVer": "9",
+        "MinorVer": "60",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.2",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      }
+    },
+    {
+      "userAgent": "Opera\/9.6* Presto\/2.2*\/SAMSUNG-GT-I8320*",
+      "properties": {
+        "Parent": "Opera Mobile 9.60",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I6410* Linux\/* Opera\/9.6*",
+      "properties": {
+        "Parent": "Opera Mobile 9.60",
+        "Device_Code_Name": "GT-I6410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I6410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I8320* Linux\/* Opera\/9.6*",
+      "properties": {
+        "Parent": "Opera Mobile 9.60",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    }
+  ]
+}

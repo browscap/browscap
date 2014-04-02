@@ -1,0 +1,40 @@
+{
+  "division": "MPlayer",
+  "sortIndex": 7020,
+  "userAgents": [
+    {
+      "userAgent": "MPlayer",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer"
+      }
+    },
+    {
+      "userAgent": "MPlayer 0.9*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer",
+        "Version": "0.9",
+        "MajorVer": "0",
+        "MinorVer": "9"
+      }
+    },
+    {
+      "userAgent": "MPlayer 1.*",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "MPlayer HEAD CVS",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "MPlayer"
+      }
+    }
+  ]
+}
