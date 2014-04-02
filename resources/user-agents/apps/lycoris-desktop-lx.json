@@ -28,33 +28,6 @@
         "MinorVer": "0",
         "Platform": "Linux"
       }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (VMS_Mosaic)",
-      "properties": {
-        "Parent": "Mosaic",
-        "Platform": "OpenVMS"
-      }
-    },
-    {
-      "userAgent": "VMS_Mosaic\/3.7*",
-      "properties": {
-        "Parent": "Mosaic",
-        "Version": "3.7",
-        "MajorVer": "3",
-        "MinorVer": "7",
-        "Platform": "OpenVMS"
-      }
-    },
-    {
-      "userAgent": "VMS_Mosaic\/3.8*",
-      "properties": {
-        "Parent": "Mosaic",
-        "Version": "3.8",
-        "MajorVer": "3",
-        "MinorVer": "8",
-        "Platform": "OpenVMS"
-      }
     }
   ]
 }

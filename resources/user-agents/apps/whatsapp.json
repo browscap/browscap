@@ -1,0 +1,55 @@
+{
+  "division": "WhatsApp",
+  "sortIndex": 11020,
+  "userAgents": [
+    {
+      "userAgent": "WhatsApp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "WhatsApp",
+        "Browser_Type": "Browser",
+        "Platform": "iOS",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "general Mobile Device",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
+      "properties": {
+        "Parent": "WhatsApp",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    },
+    {
+      "userAgent": "WhatsApp\/2.6* iPhone_OS\/5.0* Device\/iPhone*",
+      "properties": {
+        "Parent": "WhatsApp",
+        "Version": "2.6",
+        "MajorVer": "2",
+        "MinorVer": "6",
+        "Platform_Version": "5.0",
+        "Device_Code_Name": "iPhone",
+        "Device_Name": "iPhone"
+      }
+    }
+  ]
+}

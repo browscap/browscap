@@ -27,31 +27,99 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus S*",
           "properties": {
-            "Device_Name": "One",
-            "Device_Maker": "HTC",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Code_Name": "Nexus S",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Google",
+            "Device_Name": "Nexus S"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 *",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
           "properties": {
-            "Device_Name": "Galaxy S II",
+            "Device_Code_Name": "Cynus T2",
+            "Device_Maker": "Mobistel",
+            "Device_Brand_Name": "Mobistel",
+            "Device_Name": "Cynus T2"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire C Build\/*",
+          "properties": {
+            "Device_Code_Name": "Desire C",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire C"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
+          "properties": {
+            "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer Prime TF201 Build\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Eee Pad TF201",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Name": "Transformer Prime"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus 10 Build\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nexus 10",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Google",
+            "Device_Name": "Nexus 10"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
+          "properties": {
+            "Device_Code_Name": "M7",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "One",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         }
       ]

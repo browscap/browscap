@@ -1,0 +1,28 @@
+{
+  "division": "billigFluegeFinal 1.6",
+  "sortIndex": 2340,
+  "userAgents": [
+    {
+      "userAgent": "billigFluegeFinal 1.6",
+      "properties": {
+        "Parent": "billigFluegeFinal",
+        "Version": "1.6",
+        "MajorVer": "1",
+        "MinorVer": "6"
+      }
+    },
+    {
+      "userAgent": "billigFluegeFinal\/1.6* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "billigFluegeFinal 1.6"
+      }
+    },
+    {
+      "userAgent": "billigFluegeFinal\/1.6* CFNetwork\/* Darwin\/11.*",
+      "properties": {
+        "Parent": "billigFluegeFinal 1.6",
+        "Platform_Version": "11.0"
+      }
+    }
+  ]
+}

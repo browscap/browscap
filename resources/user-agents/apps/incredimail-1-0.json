@@ -1,0 +1,29 @@
+{
+  "division": "Incredimail 1.0",
+  "sortIndex": 1670,
+  "userAgents": [
+    {
+      "userAgent": "Incredimail 1.0",
+      "properties": {
+        "Parent": "Incredimail",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Incredimail 1.0* rv:* (iPad; iPhone OS 6.1*)",
+      "properties": {
+        "Parent": "Incredimail 1.0",
+        "Platform": "iOS",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Apple Inc",
+        "isMobileDevice": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "iPad"
+      }
+    }
+  ]
+}

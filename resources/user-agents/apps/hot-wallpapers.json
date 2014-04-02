@@ -1,0 +1,47 @@
+{
+  "division": "Hot Wallpapers",
+  "sortIndex": 5160,
+  "userAgents": [
+    {
+      "userAgent": "Hot Wallpapers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Hot Wallpapers",
+        "Browser_Type": "Browser",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Hot%20Wallpapers* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hot Wallpapers"
+      }
+    }
+  ]
+}
