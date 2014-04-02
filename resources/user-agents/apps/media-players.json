@@ -19,13 +19,6 @@
       }
     },
     {
-      "userAgent": "RealPlayer*",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "RealPlayer"
-      }
-    },
-    {
       "userAgent": "RMA\/*",
       "properties": {
         "Parent": "Media Players",
