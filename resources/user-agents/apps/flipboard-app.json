@@ -1,0 +1,77 @@
+{
+  "division": "Flipboard App",
+  "sortIndex": 4790,
+  "userAgents": [
+    {
+      "userAgent": "Flipboard App",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Flipboard App",
+        "Browser_Type": "Browser",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Flipboard* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Flipboard App"
+      }
+    },
+    {
+      "userAgent": "Flipboard\/1.5* CFNetwork\/* Darwin\/10.4*",
+      "properties": {
+        "Parent": "Flipboard App",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "Flipboard\/1.5* CFNetwork\/* Darwin\/11.0*",
+      "properties": {
+        "Parent": "Flipboard App",
+        "Version": "1.5",
+        "MajorVer": "1",
+        "MinorVer": "5",
+        "Platform_Version": "11.0"
+      }
+    },
+    {
+      "userAgent": "Flipboard\/1.8* CFNetwork\/* Darwin\/10.4*",
+      "properties": {
+        "Parent": "Flipboard App",
+        "Version": "1.8",
+        "MajorVer": "1",
+        "MinorVer": "8",
+        "Platform_Version": "10.4"
+      }
+    }
+  ]
+}

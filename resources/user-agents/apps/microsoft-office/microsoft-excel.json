@@ -1,0 +1,69 @@
+{
+  "division": "Microsoft Excel",
+  "sortIndex": 7170,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Excel",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Excel",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Microsoft",
+        "Device_Brand_Name": "Microsoft",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Excel\/12.*",
+      "properties": {
+        "Parent": "Microsoft Excel",
+        "Version": "12.0",
+        "MajorVer": "12",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Excel\/14.*",
+      "properties": {
+        "Parent": "Microsoft Excel",
+        "Version": "14.0",
+        "MajorVer": "14",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

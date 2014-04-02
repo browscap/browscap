@@ -1,0 +1,26 @@
+{
+  "division": "Hot HD Wallpapers",
+  "sortIndex": 570,
+  "userAgents": [
+    {
+      "userAgent": "Hot HD Wallpapers",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Hot HD Wallpapers"
+      }
+    },
+    {
+      "userAgent": "HOT%20HD%20WPs\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Hot HD Wallpapers",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

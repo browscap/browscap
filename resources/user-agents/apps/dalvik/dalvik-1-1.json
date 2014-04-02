@@ -27,6 +27,54 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
+            "Android", "Android_2_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Garmin-Asus A50 Build\/*",
+          "properties": {
+            "Device_Code_Name": "A50",
+            "Device_Maker": "Garmin-Asus",
+            "Device_Brand_Name": "Garmin-Asus",
+            "Device_Name": "A50"
+          },
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#MB525 Build\/*",
+          "properties": {
+            "Device_Code_Name": "MB525",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "DEFY"
+          },
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Milestone Build\/*",
+          "properties": {
+            "Device_Code_Name": "Milestone",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "Milestone"
+          },
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#X10i Build\/*",
+          "properties": {
+            "Device_Code_Name": "X10i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "Xperia X10"
+          },
+          "platforms": [
             "Android_2_1"
           ]
         }
