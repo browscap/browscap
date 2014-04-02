@@ -1,6 +1,6 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["12.00", "12.10", "12.11", "12.12", "12.13", "12.14", "12.15", "12.16", "12.17"],
+  "versions": ["12.00", "12.01", "12.02", "12.10", "12.11", "12.12", "12.13", "12.14", "12.15", "12.16", "12.17", "12.50"],
   "sortIndex": 2863,
   "lite": true,
   "userAgents": [
@@ -35,11 +35,11 @@
           "platforms": [
             "FreeBSD", "Linux",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "SunOS", "Win2000_2",
-            "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "MacPPC_2",
+            "SunOS",
+            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64", "Win8_32",
+            "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         },
         {
@@ -47,11 +47,11 @@
           "platforms": [
             "FreeBSD", "Linux",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "SunOS", "Win2000_2",
-            "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "MacPPC_2",
+            "SunOS",
+            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64", "Win8_32",
+            "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         },
         {
@@ -59,11 +59,11 @@
           "platforms": [
             "FreeBSD", "Linux",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "SunOS", "Win2000_2",
-            "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "MacPPC_2",
+            "SunOS",
+            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64", "Win8_32",
+            "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         },
         {
@@ -71,11 +71,11 @@
           "platforms": [
             "FreeBSD", "Linux",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
-            "SunOS", "Win2000_2",
-            "WinME", "Win95_2", "Win98_2", "WinME_2", "NT4", "Win2000",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64",
-            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "MacPPC_2",
+            "SunOS",
+            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win7_64", "Win8_32",
+            "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
-  "versions": ["3.0", "3.1"],
+  "versions": ["3.0"],
   "sortIndex": 1900,
   "lite": true,
   "userAgents": [
@@ -32,19 +32,191 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1"
+            "Android", "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1"
           ]
         },
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "properties": {
-            "Device_Name": "Galaxy Spica",
+            "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Spica",
             "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
-            "Android_1_5"
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A70BH Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A70BH",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A70BH"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A70BHT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A70BHT",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A70BHT"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A70CHT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A70CHT",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A70CHT"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A70HB Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A70HB",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A70HB"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A7EB Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "70c",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "70c eReader"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A80KSC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A80KSC",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A80KSC"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC_Dream Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "Dream",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Dream"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#dream Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "Dream",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Dream"
+          },
+          "platforms": [
+            "Android_1_0", "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Mobii 7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "Mobii 7",
+            "Device_Name": "Mobii 7"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#STM7UC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "STM7UC",
+            "Device_Name": "STM7UC"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#STM7UH Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "STM7UH",
+            "Device_Name": "STM7UH"
+          },
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#generic Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_1_0", "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A101B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A101B",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Name": "A101B"
+          },
+          "platforms": [
+            "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#dream*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Platform_Version": "1.0",
+            "Device_Code_Name": "Dream",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Dream"
+          },
+          "platforms": [
+            "Android_1_0", "Android_1_1"
           ]
         }
       ]

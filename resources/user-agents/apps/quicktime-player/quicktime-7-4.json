@@ -1,0 +1,159 @@
+{
+  "division": "QuickTime 7.4",
+  "sortIndex": 7080,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime 7.4",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickTime 7.4",
+        "Browser": "QuickTime",
+        "Browser_Type": "Application",
+        "Version": "7.4",
+        "MajorVer": "7",
+        "MinorVer": "4",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "Device_Pointing_Method": "mouse",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.4.* (qtver=7.4.*;*;os=Mac 10.*",
+      "properties": {
+        "Parent": "QuickTime 7.4"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;cpu=PPC;os=Mac 10.*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;cpu=PPC;os=Mac 9.*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows 98*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "Win98",
+        "Platform_Version": "98",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 4.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "WinNT",
+        "Platform_Version": "4.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 5.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Version": "5.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 5.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 5.2*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 6.0*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime (qtver=7.4*;os=Windows NT 6.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.4",
+        "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    }
+  ]
+}

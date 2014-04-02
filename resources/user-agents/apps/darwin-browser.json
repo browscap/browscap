@@ -1,0 +1,115 @@
+{
+  "division": "Darwin Browser",
+  "sortIndex": 3850,
+  "userAgents": [
+    {
+      "userAgent": "Darwin Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser": "Darwin Browser",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      }
+    },
+    {
+      "userAgent": "browser\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Darwin Browser"
+      }
+    },
+    {
+      "userAgent": "browser\/* CFNetwork\/* Darwin\/10.4*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "Platform_Version": "10.4"
+      }
+    },
+    {
+      "userAgent": "browser\/* CFNetwork\/* Darwin\/11.*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "Platform_Version": "11.0"
+      }
+    },
+    {
+      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/10.4*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "Platform_Version": "10.4",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/11.*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "Platform_Version": "11.0",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    },
+    {
+      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/13.*",
+      "properties": {
+        "Parent": "Darwin Browser",
+        "Platform_Version": "13.0",
+        "isMobileDevice": "true",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "iPad",
+        "Device_Name": "iPad",
+        "Device_isTablet": "true"
+      }
+    }
+  ]
+}
