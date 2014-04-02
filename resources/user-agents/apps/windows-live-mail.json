@@ -127,6 +127,160 @@
         "RenderingEngine_Version": "4.0",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (*; Windows NT 6.1; Trident\/5.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (*; Windows NT 6.1; Trident\/6.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 5.1*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.0*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1; Trident\/5.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1; Trident\/6.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.2*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.0; WOW64*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1; WOW64*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1; WOW64; Trident\/5.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.1; WOW64; Trident\/6.0;*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    {
+      "userAgent": "Outlook-Express\/7.0 (MSIE ?.0*; Windows NT 6.2; WOW64*)",
+      "properties": {
+        "Parent": "Windows Live Mail",
+        "Platform": "Win8",
+        "Platform_Version": "6.2",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop"
+      }
     }
   ]
 }

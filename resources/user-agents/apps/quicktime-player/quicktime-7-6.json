@@ -118,6 +118,72 @@
         "Platform": "MacOSX",
         "Win32": "false"
       }
+    },
+    {
+      "userAgent": "QuickTime?7.6.* (qtver=7.6.*;*;os=Mac 10.*",
+      "properties": {
+        "Parent": "QuickTime 7.6"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.6* (qtver=7.6*;os=Windows NT 5.1*)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime\/7.6* (qtver=7.6*;os=Windows NT 5.2)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime?7.6* (qtver=7.6*;os=Windows NT 6.0)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
+    },
+    {
+      "userAgent": "QuickTime?7.6* (qtver=7.6*;os=Windows NT 6.1)",
+      "properties": {
+        "Parent": "QuickTime 7.6",
+        "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown"
+      }
     }
   ]
 }

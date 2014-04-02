@@ -1,0 +1,58 @@
+{
+  "division": "ImageMobile",
+  "sortIndex": 5970,
+  "userAgents": [
+    {
+      "userAgent": "ImageMobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "ImageMobile",
+        "Browser_Type": "Browser",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "ImageMobile\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "ImageMobile"
+      }
+    },
+    {
+      "userAgent": "ImageMobile\/1.2* CFNetwork\/548.1* Darwin\/11*",
+      "properties": {
+        "Parent": "ImageMobile",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2",
+        "Platform_Version": "11.0",
+        "RenderingEngine_Version": "548.1"
+      }
+    }
+  ]
+}

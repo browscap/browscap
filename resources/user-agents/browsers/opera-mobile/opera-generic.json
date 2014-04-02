@@ -16,7 +16,8 @@
         "Cookies": "true",
         "CssVersion": "1",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Device_Type": "Mobile Device",
+        "JavaScript": "true"
       },
       "children": [
         {
