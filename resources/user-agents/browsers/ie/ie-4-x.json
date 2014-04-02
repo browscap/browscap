@@ -13,7 +13,7 @@
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
