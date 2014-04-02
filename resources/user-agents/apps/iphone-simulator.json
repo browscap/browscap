@@ -1,0 +1,75 @@
+{
+  "division": "iPhone Simulator",
+  "sortIndex": 10040,
+  "userAgents": [
+    {
+      "userAgent": "iPhone Simulator",
+      "properties": {
+        "Parent": "Safari Generic",
+        "Browser": "iPhone Simulator",
+        "Platform": "iOS",
+        "Platform_Version": "",
+        "BackgroundSounds": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 2_* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "2.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 3_0* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "3.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 3_1* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "3.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 3_2* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "3.2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 4_0* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "4.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 4_1* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "4.1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 4_2* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "4.2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (iPhone Simulator; *CPU iPhone OS 4_3* like Mac OS X*",
+      "properties": {
+        "Parent": "iPhone Simulator",
+        "Platform_Version": "4.3"
+      }
+    }
+  ]
+}

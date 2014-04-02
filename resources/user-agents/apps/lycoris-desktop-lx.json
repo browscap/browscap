@@ -1,0 +1,33 @@
+{
+  "division": "Lycoris Desktop\/LX",
+  "sortIndex": 2420,
+  "userAgents": [
+    {
+      "userAgent": "Lycoris Desktop\/LX",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lycoris Desktop\/LX",
+        "Browser": "Lycoris Desktop\/LX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686* *Desktop\/LX Amethyst*) *Gecko\/*",
+      "properties": {
+        "Parent": "Lycoris Desktop\/LX",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Platform": "Linux"
+      }
+    }
+  ]
+}

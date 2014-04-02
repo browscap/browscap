@@ -19,30 +19,18 @@
       }
     },
     {
-      "userAgent": "MPlayer 0.9*",
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; PPC Mac OS X; *) AppleWebKit\/* RealPlayer",
       "properties": {
         "Parent": "Media Players",
-        "Browser": "MPlayer",
-        "Version": "0.9",
-        "MajorVer": "0",
-        "MinorVer": "9"
+        "Browser": "RealPlayer",
+        "Platform": "MacOSX"
       }
     },
     {
-      "userAgent": "MPlayer 1.*",
+      "userAgent": "RealPlayer*",
       "properties": {
         "Parent": "Media Players",
-        "Browser": "MPlayer",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "MPlayer HEAD CVS",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "MPlayer"
+        "Browser": "RealPlayer"
       }
     },
     {

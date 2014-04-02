@@ -1,17 +1,18 @@
 {
-  "division": "Opera Mini 5.0",
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": ["5.0", "5.1", "5.2", "5.3"],
   "sortIndex": 2044,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mini 5.0",
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini 5.0",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
         "Browser": "Opera Mini",
-        "Version": "5.0",
-        "MajorVer": "5",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -23,64 +24,69 @@
       }
     },
     {
-      "userAgent": "Opera\/*(Android*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Android",
         "Device_Name": "Android",
         "Device_Maker": "Google"
       }
     },
     {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "RIM OS",
         "Device_Name": "Blackberry",
         "Device_Maker": "RIM"
       }
     },
     {
-      "userAgent": "Opera\/*(iPhone*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "iOS",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple"
+          "Device_Type": "Mobile Phone",
+          "Device_Code_Name": "iPhone",
+          "Device_Name": "iPhone",
+          "Device_Maker": "Apple",
+          "Device_Brand_Name": "Apple",
+          "Device_Pointing_Method": "touchscreen",
+          "isMobileDevice": "true"
       }
     },
     {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA"
       }
     },
     {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "SymbianOS"
       }
     },
     {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "WinMobile"
       }
     },
     {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Brew"
       }
     },
     {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/5.*)*Samsung SCH-U750*",
+      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Brew",
         "Device_Name": "Alias 2",
         "Device_Maker": "Samsung",
@@ -88,23 +94,23 @@
       }
     },
     {
-      "userAgent": "Opera\/*(*BREW*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Brew"
       }
     },
     {
-      "userAgent": "Opera\/*(*Bada*Opera Mini\/5.*)*",
+      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "Bada"
       }
     },
     {
-      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/5.*)*",
+      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
       "properties": {
-        "Parent": "Opera Mini 5.0",
+        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
         "Platform": "JAVA"
       }
     }
