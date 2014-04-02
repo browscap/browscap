@@ -80,27 +80,6 @@
       "userAgent": "Sogou-Test-Spider\/*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou-Test-Spider"
-      }
-    },
-    {
-      "userAgent": "Sogou Pic Spider*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou Pic Spider"
-      }
-    },
-    {
-      "userAgent": "Sogou Push Spider*",
-      "properties": {
-        "Parent": "Sogou",
-        "Browser": "Sogou Push Spider"
-      }
-    },
-    {
-      "userAgent": "sogou spider*",
-      "properties": {
-        "Parent": "Sogou",
         "Browser": "Sogou\/Spider"
       }
     }
