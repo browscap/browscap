@@ -15,14 +15,53 @@
       }
     },
     {
-      "userAgent": "Exabot-Images\/1.0",
+      "userAgent": "Exabot\/*",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Exabot\/*)",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)",
+      "properties": {
+        "Parent": "Exalead"
+      }
+    },
+    {
+      "userAgent": "Exabot-Images",
       "properties": {
         "Parent": "Exalead",
-        "Browser": "Exabot-Images",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
+        "Browser": "Exabot-Images"
+      },
+      "children": [
+        {
+          "match": "Exabot-Images\/*"
+        },
+        {
+          "match": "Exabot-Images\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        }
+      ]
     },
     {
       "userAgent": "Exabot-Test\/*",
@@ -60,16 +99,6 @@
       }
     },
     {
-      "userAgent": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot-Images",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      }
-    },
-    {
       "userAgent": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
       "properties": {
         "Parent": "Exalead",
@@ -98,6 +127,14 @@
       "properties": {
         "Parent": "Exalead",
         "Browser": "Exalead Previewer"
+      }
+    },
+    {
+      "userAgent": "*Exabot@exava.com*",
+      "properties": {
+        "Parent": "Exalead",
+        "Browser": "Exabot",
+        "Browser_Maker": "www.exabot.com"
       }
     }
   ]

@@ -20,6 +20,13 @@
       }
     },
     {
+      "userAgent": "Jigsaw\/*",
+      "properties": {
+        "Parent": "W3C",
+        "Browser": "Jigsaw CSS Validator"
+      }
+    },
+    {
       "userAgent": "Jigsaw\/* W3C_CSS_Validator*\/*",
       "properties": {
         "Parent": "W3C",

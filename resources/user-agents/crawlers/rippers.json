@@ -27,24 +27,10 @@
       }
     },
     {
-      "userAgent": "*java*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Generic Java Crawler"
-      }
-    },
-    {
       "userAgent": "Ruby",
       "properties": {
         "Parent": "Rippers",
         "Browser": "Generic Ruby Crawler"
-      }
-    },
-    {
-      "userAgent": "*libwww*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "libwww"
       }
     },
     {
@@ -302,13 +288,6 @@
       }
     },
     {
-      "userAgent": "HTMLParser\/*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "HTMLParser"
-      }
-    },
-    {
       "userAgent": "http generic",
       "properties": {
         "Parent": "Rippers",
@@ -407,45 +386,18 @@
       }
     },
     {
-      "userAgent": "Microsoft Internet Explorer",
+      "userAgent": "ZiggsBot (*compatible*;*MSIE 6.0; Windows NT 5.2*)",
       "properties": {
         "Parent": "Rippers",
-        "Browser": "Fake IE"
-      }
-    },
-    {
-      "userAgent": "Internet Explore *",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Fake IE"
-      }
-    },
-    {
-      "userAgent": "Internet Explorer *",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Fake IE"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/4.0*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Fake IE"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident/5.0*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Fake IE"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident/?.0*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "Fake IE"
+        "Browser": "ZiggsBot",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
       }
     },
     {
@@ -502,13 +454,6 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "libWeb\/clsHTTP"
-      }
-    },
-    {
-      "userAgent": "lwp*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "lwp"
       }
     },
     {
@@ -593,13 +538,6 @@
       }
     },
     {
-      "userAgent": "OSSProxy*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "OSSProxy"
-      }
-    },
-    {
       "userAgent": "Pageload*",
       "properties": {
         "Parent": "Rippers",
@@ -625,13 +563,6 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "PEAR-PHP"
-      }
-    },
-    {
-      "userAgent": "PHP*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "PHP"
       }
     },
     {
@@ -982,6 +913,386 @@
         "Version": "0.1",
         "MajorVer": "0",
         "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "A1 Keyword Research*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "A1 Keyword Research"
+      }
+    },
+    {
+      "userAgent": "A1 Sitemap Generator*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "A1 Sitemap Generator"
+      }
+    },
+    {
+      "userAgent": "A1 Website Analyzer*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "A1 Website Analyzer"
+      }
+    },
+    {
+      "userAgent": "A1 Website Download*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "A1 Website Download"
+      }
+    },
+    {
+      "userAgent": "AA bot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AA bot"
+      }
+    },
+    {
+      "userAgent": "AACrawler*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AACrawler"
+      }
+    },
+    {
+      "userAgent": "Access Browser*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Access Browser"
+      }
+    },
+    {
+      "userAgent": "ACCESS robot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ACCESS robot"
+      }
+    },
+    {
+      "userAgent": "accoona*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Accoona Bot"
+      }
+    },
+    {
+      "userAgent": "Acme.Spider*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Acme.Spider"
+      }
+    },
+    {
+      "userAgent": "AcroForms*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AcroForms Bot"
+      }
+    },
+    {
+      "userAgent": "ActiveWorlds Bot",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ActiveWorlds Bot"
+      },
+      "children": [
+        {
+          "match": "ActiveWorlds*",
+          "properties": {
+            "Parent": "Rippers",
+            "Browser": "ActiveWorlds Bot"
+          }
+        },
+        {
+          "match": "agent*",
+          "properties": {
+            "Parent": "Rippers",
+            "Division": "Rippers",
+            "Browser": "ActiveWorlds Bot"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "Adaxas Spider*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Adaxas Spider"
+      }
+    },
+    {
+      "userAgent": "Advanced URL Catalog*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Advanced URL Catalog"
+      }
+    },
+    {
+      "userAgent": "Advista Crawler*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Advista Crawler"
+      }
+    },
+    {
+      "userAgent": "aipbot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "aipbot"
+      }
+    },
+    {
+      "userAgent": "AISearchBot*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "AISearchBot"
+      }
+    },
+    {
+      "userAgent": "BookMacster\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BookMacster"
+      }
+    },
+    {
+      "userAgent": "BookmarkSync\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BookmarkSync"
+      }
+    },
+    {
+      "userAgent": "Bot.ara.com.tr\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Bot.ara.com.tr"
+      }
+    },
+    {
+      "userAgent": "BrowserCrasherChecker *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "BrowserCrasherChecker"
+      }
+    },
+    {
+      "userAgent": "Chordie.com: *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Chordie.com"
+      }
+    },
+    {
+      "userAgent": "CKHttpGenerator",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "CKHttpGenerator"
+      },
+      "children": [
+        {
+          "match": "<*>*",
+          "properties": {
+            "Parent": "Rippers",
+            "Browser": "CKHttpGenerator"
+          }
+        },
+        {
+          "match": "CKHttpGenerator*",
+          "properties": {
+            "Parent": "Rippers",
+            "Division": "Rippers",
+            "Browser": "CKHttpGenerator"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "Crawl*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Crawlboy"
+      }
+    },
+    {
+      "userAgent": "Dropcatcher.de Domain Bot +http:\/\/www.dropcatcher.de\/bot.html",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Dropcatcher.de Domain Bot"
+      }
+    },
+    {
+      "userAgent": "ESigil Request *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "ESigil Request"
+      }
+    },
+    {
+      "userAgent": "eStyleSearch *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "eStyleSearch"
+      }
+    },
+    {
+      "userAgent": "HTTP Fetcher\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTTP Fetcher"
+      }
+    },
+    {
+      "userAgent": "http_get",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "http_get"
+      }
+    },
+    {
+      "userAgent": "HTTPing *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "HTTPing"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (compatible; NEWT ActiveX; *)",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "NEWT ActiveX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; OffByOne; *",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "OffByOne"
+      }
+    },
+    {
+      "userAgent": "PigBlock*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "PigBlock"
+      }
+    },
+    {
+      "userAgent": "Internet (*)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (compatible)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.01 (compatible;)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible;)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible;)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (compatible)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (compatible;)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible;*User-agent*)",
+      "properties": {
+        "Parent": "Rippers"
+      }
+    },
+    {
+      "userAgent": "Shockwave Flash",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Shockwave Flash"
+      }
+    },
+    {
+      "userAgent": "SiteTruth.com*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SiteTruth"
+      }
+    },
+    {
+      "userAgent": "SVN\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "SVN"
+      }
+    },
+    {
+      "userAgent": "TLSProber\/*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "TLSProber"
+      }
+    },
+    {
+      "userAgent": "Windows-Live-Social-Object-Extractor-Engine*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Windows-Live-Social-Object-Extractor-Engine",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Windows-Update-Agent*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "Windows-Update-Agent",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "WinSysClean*",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "WinSysClean",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
       }
     }
   ]

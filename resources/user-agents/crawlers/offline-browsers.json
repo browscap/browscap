@@ -27,6 +27,15 @@
       }
     },
     {
+      "userAgent": "*HTTrack 3.*",
+      "properties": {
+        "Parent": "Offline Browsers",
+        "Browser": "HTTrack",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
       "userAgent": "*MSIECrawler*",
       "properties": {
         "Parent": "Offline Browsers",

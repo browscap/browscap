@@ -79,13 +79,6 @@
         "Parent": "Feeds Blogs",
         "Browser": "Reblog"
       }
-    },
-    {
-      "userAgent": "WordPress\/*",
-      "properties": {
-        "Parent": "Feeds Blogs",
-        "Browser": "WordPress"
-      }
     }
   ]
 }

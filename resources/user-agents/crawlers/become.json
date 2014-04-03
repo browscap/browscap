@@ -1,12 +1,11 @@
 {
   "division": "Become",
-  "sortIndex": 540,
+  "sortIndex": 80,
   "userAgents": [
     {
       "userAgent": "Become",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Become",
         "Browser": "Become",
         "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
@@ -28,13 +27,6 @@
       }
     },
     {
-      "userAgent": "*Exabot@exava.com*",
-      "properties": {
-        "Parent": "Become",
-        "Browser": "Exabot"
-      }
-    },
-    {
       "userAgent": "MonkeyCrawl\/*",
       "properties": {
         "Parent": "Become",
@@ -43,6 +35,13 @@
     },
     {
       "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
+      "properties": {
+        "Parent": "Become",
+        "Browser": "BecomeJPBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*)",
       "properties": {
         "Parent": "Become",
         "Browser": "BecomeJPBot"

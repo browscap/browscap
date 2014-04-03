@@ -1,0 +1,70 @@
+{
+  "division": "AndroidDownloadManager 4.1",
+  "sortIndex": 2130,
+  "userAgents": [
+    {
+      "userAgent": "AndroidDownloadManager 4.1",
+      "properties": {
+        "Parent": "AndroidDownloadManager",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform_Version": "4.1"
+      }
+    },
+    {
+      "userAgent": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; * Build\/*)*",
+      "properties": {
+        "Parent": "AndroidDownloadManager 4.1"
+      }
+    },
+    {
+      "userAgent": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; LIFETAB_S9714 Build\/*)*",
+      "properties": {
+        "Parent": "AndroidDownloadManager 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab S9714",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Name": "LifeTab S9714"
+      }
+    },
+    {
+      "userAgent": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; SGPT12 Build\/*)*",
+      "properties": {
+        "Parent": "AndroidDownloadManager 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGPT12",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Name": "Xperia Tablet S"
+      }
+    },
+    {
+      "userAgent": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; TP10.1-1500DC* Build\/*)*",
+      "properties": {
+        "Parent": "AndroidDownloadManager 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "TP10",
+        "Device_Maker": "I-ONIK",
+        "Device_Brand_Name": "I-ONIK",
+        "Device_Name": "TP10"
+      }
+    },
+    {
+      "userAgent": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; Transformer Prime TF201 Build\/*)*",
+      "properties": {
+        "Parent": "AndroidDownloadManager 4.1",
+        "isTablet": "true",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Eee Pad TF201",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Name": "Transformer Prime"
+      }
+    }
+  ]
+}
