@@ -1,0 +1,67 @@
+{
+  "division": "BingBot",
+  "sortIndex": 1230,
+  "userAgents": [
+    {
+      "userAgent": "BingBot",
+      "properties": {
+        "Parent": "MSN",
+        "Browser": "BingBot"
+      }
+    },
+    {
+      "userAgent": "Bing\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "BingBot",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
+      "properties": {
+        "Parent": "BingBot",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "adidxbot\/*",
+      "properties": {
+        "Parent": "BingBot",
+        "Browser": "adidxbot"
+      }
+    },
+    {
+      "userAgent": "adidxbot\/2.0*",
+      "properties": {
+        "Parent": "BingBot",
+        "Browser": "adidxbot",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Bing\/2.2* CFNetwork\/* Darwin\/11.0*",
+      "properties": {
+        "Parent": "BingBot",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2",
+        "Platform": "Darwin",
+        "Platform_Version": "11.0",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    }
+  ]
+}

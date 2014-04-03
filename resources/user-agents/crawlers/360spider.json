@@ -1,0 +1,34 @@
+{
+  "division": "360Spider",
+  "sortIndex": 10,
+  "userAgents": [
+    {
+      "userAgent": "360Spider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "360Spider",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 8.0; Windows NT 6.1; Trident\/4.0*); 360Spider",
+      "properties": {
+        "Parent": "360Spider",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:*)  Firefox\/*; 360Spider*",
+      "properties": {
+        "Parent": "360Spider",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    }
+  ]
+}

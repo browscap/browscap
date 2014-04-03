@@ -16,13 +16,6 @@
       }
     },
     {
-      "userAgent": "*heritrix*",
-      "properties": {
-        "Parent": "Internet Archive",
-        "Browser": "Heritrix"
-      }
-    },
-    {
       "userAgent": "ia_archiver*",
       "properties": {
         "Parent": "Internet Archive",

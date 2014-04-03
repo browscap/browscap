@@ -1,0 +1,39 @@
+{
+  "division": "YahooSeeker",
+  "sortIndex": 1400,
+  "userAgents": [
+    {
+      "userAgent": "YahooSeeker",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "YahooSeeker"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
+      "properties": {
+        "Parent": "YahooSeeker",
+        "Platform": "FreeBSD",
+        "Platform_Maker": "FreeBSD Foundation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker*",
+      "properties": {
+        "Parent": "YahooSeeker",
+        "Browser": "YahooSeeker",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "YahooSeeker\/CafeKelsa*",
+      "properties": {
+        "Parent": "YahooSeeker",
+        "Browser": "YahooSeeker\/CafeKelsa"
+      }
+    }
+  ]
+}

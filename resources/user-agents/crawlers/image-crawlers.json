@@ -30,7 +30,7 @@
       "userAgent": "Camcrawler*",
       "properties": {
         "Parent": "Image Crawlers",
-        "Browser": "Camcrawler"
+          "Browser": "Camcrawler"
       }
     },
     {
@@ -143,6 +143,13 @@
       "properties": {
         "Parent": "Image Crawlers",
         "Browser": "Custo"
+      }
+    },
+    {
+      "userAgent": "FOTOCHECKER",
+      "properties": {
+        "Parent": "Image Crawlers",
+        "Browser": "FOTOCHECKER"
       }
     }
   ]

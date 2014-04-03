@@ -1,0 +1,32 @@
+{
+  "division": "SeznamBot",
+  "sortIndex": 1440,
+  "userAgents": [
+    {
+      "userAgent": "SeznamBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SeznamBot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "SeznamBot\/*",
+      "properties": {
+        "Parent": "SeznamBot"
+      }
+    },
+    {
+      "userAgent": "SeznamBot\/3.0*",
+      "properties": {
+        "Parent": "SeznamBot",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    }
+  ]
+}
