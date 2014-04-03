@@ -1,0 +1,33 @@
+{
+  "division": "Googlebot 1.0",
+  "sortIndex": 1130,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot 1.0",
+      "properties": {
+        "Parent": "Googlebot",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Google\/1.* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Googlebot 1.0",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      }
+    },
+    {
+      "userAgent": "*Googlebot\/1.*",
+      "properties": {
+        "Parent": "Googlebot 1.0"
+      }
+    }
+  ]
+}

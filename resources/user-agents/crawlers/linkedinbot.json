@@ -1,0 +1,30 @@
+{
+  "division": "LinkedInBot",
+  "sortIndex": 680,
+  "userAgents": [
+    {
+      "userAgent": "LinkedInBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "LinkedInBot",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "LinkedInBot\/*",
+      "properties": {
+        "Parent": "LinkedInBot"
+      }
+    },
+    {
+      "userAgent": "LinkedInBot\/1.*",
+      "properties": {
+        "Parent": "LinkedInBot"
+      }
+    }
+  ]
+}

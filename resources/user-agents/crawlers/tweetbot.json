@@ -1,0 +1,58 @@
+{
+  "division": "Tweetbot",
+  "sortIndex": 10850,
+  "userAgents": [
+    {
+      "userAgent": "Tweetbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Browser": "Tweetbot",
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Tweetbot\/* CFNetwork\/* Darwin\/*",
+      "properties": {
+        "Parent": "Tweetbot"
+      }
+    },
+    {
+      "userAgent": "Tweetbot\/* CFNetwork\/548.1* Darwin\/11.0*",
+      "properties": {
+        "Parent": "Tweetbot",
+        "Platform_Version": "11.0",
+        "RenderingEngine_Version": "548.1"
+      }
+    }
+  ]
+}
