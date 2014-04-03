@@ -84,6 +84,12 @@
         "Parent": "Fast\/AllTheWeb",
         "Browser": "FastSearch Web Crawler"
       }
+    },
+    {
+      "userAgent": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb"
+      }
     }
   ]
 }

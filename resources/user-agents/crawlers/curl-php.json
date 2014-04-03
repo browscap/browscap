@@ -1,0 +1,36 @@
+{
+  "division": "cURL PHP",
+  "sortIndex": 2020,
+  "userAgents": [
+    {
+      "userAgent": "cURL PHP",
+      "properties": {
+        "Parent": "cURL",
+        "Category": "Library",
+        "SubCategory": "Library",
+        "Browser_Type": "Library",
+        "Browser": "cURL PHP",
+        "Browser_Maker": "team Haxx",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Curl\/PHP*",
+      "properties": {
+        "Parent": "cURL PHP"
+      }
+    },
+    {
+      "userAgent": "Curl\/PHP 5.4*",
+      "properties": {
+        "Parent": "cURL PHP",
+        "Version": "5.4",
+        "MajorVer": "5",
+        "MinorVer": "4"
+      }
+    }
+  ]
+}

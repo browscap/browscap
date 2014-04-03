@@ -21,14 +21,6 @@
       }
     },
     {
-      "userAgent": "NetNewsWire*\/*",
-      "properties": {
-        "Parent": "NewsGator",
-        "Browser": "NetNewsWire",
-        "Platform": "MacOSX"
-      }
-    },
-    {
       "userAgent": "NewsFire\/*",
       "properties": {
         "Parent": "NewsGator",

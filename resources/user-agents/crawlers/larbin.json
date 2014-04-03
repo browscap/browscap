@@ -1,0 +1,39 @@
+{
+  "division": "Larbin",
+  "sortIndex": 270,
+  "userAgents": [
+    {
+      "userAgent": "Larbin",
+      "properties": {
+        "Parent": "E-Mail Harvesters",
+        "Browser": "Larbin",
+          "Browser_Type": "Bot/Crawler",
+          "Frames": "true",
+          "IFrames": "true",
+          "Tables": "true",
+          "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*Larbin*",
+      "properties": {
+        "Parent": "Larbin"
+      }
+    },
+    {
+      "userAgent": "larbin* larbin*@unspecified.mail*",
+      "properties": {
+        "Parent": "Larbin"
+      }
+    },
+    {
+      "userAgent": "larbin_2.6* larbin2.6*@unspecified.mail*",
+      "properties": {
+        "Parent": "Larbin",
+        "Version": "2.6",
+        "MajorVer": "2",
+        "MinorVer": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "DCPbot",
+  "sortIndex": 200,
+  "userAgents": [
+    {
+      "userAgent": "DCPbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "DCPbot"
+      }
+    },
+    {
+      "userAgent": "DCPbot*",
+      "properties": {
+        "Parent": "DCPbot"
+      }
+    },
+    {
+      "userAgent": "DCPbot\/1.2*",
+      "properties": {
+        "Parent": "DCPbot",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    }
+  ]
+}
