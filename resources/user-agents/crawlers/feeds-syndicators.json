@@ -21,13 +21,6 @@
       }
     },
     {
-      "userAgent": "*NetNewsWire\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NetNewsWire"
-      }
-    },
-    {
       "userAgent": "*NetVisualize*",
       "properties": {
         "Parent": "Feeds Syndicators",
@@ -393,17 +386,6 @@
       "properties": {
         "Parent": "Feeds Syndicators",
         "Browser": "Tumblr RSS syndication"
-      }
-    },
-    {
-      "userAgent": "Windows-RSS-Platform\/1.0*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Windows-RSS-Platform",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "Win32": "true"
       }
     },
     {

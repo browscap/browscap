@@ -4,7 +4,7 @@ return [
     'issue-81-G' => [
         'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)',
         [
-            'Browser' => 'Mail.RU',
+            'Browser' => 'Mail.Ru',
             'Version' => '2.0',
             'Crawler' => true,
         ],

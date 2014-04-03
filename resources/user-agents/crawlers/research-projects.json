@@ -238,6 +238,18 @@
         "Parent": "Research Projects",
         "Browser": "Zao"
       }
+    },
+    {
+      "userAgent": "Amico Alpha * (*Gecko\/* AmicoAlpha\/*",
+      "properties": {
+        "Parent": "Research Projects"
+      }
+    },
+    {
+      "userAgent": "IRLbot\/*",
+      "properties": {
+        "Parent": "Research Projects"
+      }
     }
   ]
 }
