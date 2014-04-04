@@ -135,7 +135,7 @@ class BrowscapIniGenerator extends AbstractGenerator
                 unset($propertiesToOutput[$property]);
             }
 
-            if ($this->type !== BuildGenerator::OUTPUT_TYPE_FULL) {
+            if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type) {
                 // check if only extra properties are in the actual division
                 // skip that division if the extra properties are not in the output
                 $propertiesToCheck = $propertiesToOutput;

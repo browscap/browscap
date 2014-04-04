@@ -80,7 +80,7 @@
       "userAgent": "Sogou-Test-Spider\/*",
       "properties": {
         "Parent": "Sogou",
-        "Browser": "Sogou\/Spider"
+        "Browser": "Sogou-Test-Spider"
       }
     },
     {
