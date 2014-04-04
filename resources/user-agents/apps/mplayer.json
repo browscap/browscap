@@ -12,7 +12,7 @@
     {
       "userAgent": "MPlayer 0.9*",
       "properties": {
-        "Parent": "Media Players",
+        "Parent": "MPlayer",
         "Browser": "MPlayer",
         "Version": "0.9",
         "MajorVer": "0",
@@ -22,7 +22,7 @@
     {
       "userAgent": "MPlayer 1.*",
       "properties": {
-        "Parent": "Media Players",
+        "Parent": "MPlayer",
         "Browser": "MPlayer",
         "Version": "1.0",
         "MajorVer": "1",
@@ -32,7 +32,7 @@
     {
       "userAgent": "MPlayer HEAD CVS",
       "properties": {
-        "Parent": "Media Players",
+        "Parent": "MPlayer",
         "Browser": "MPlayer"
       }
     }

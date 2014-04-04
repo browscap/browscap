@@ -1,0 +1,34 @@
+{
+  "division": "Asus",
+  "sortIndex": 2210,
+  "userAgents": [
+    {
+      "userAgent": "Asus",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Asus",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "ASUS-J101\/1.0 *",
+      "properties": {
+        "Parent": "Asus"
+      }
+    },
+    {
+      "userAgent": "ASUS-V55\/1.0",
+      "properties": {
+        "Parent": "Asus"
+      }
+    },
+    {
+      "userAgent": "ASUS-V66\/1.0 *",
+      "properties": {
+        "Parent": "Asus"
+      }
+    }
+  ]
+}

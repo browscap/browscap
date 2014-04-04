@@ -1,0 +1,36 @@
+{
+  "division": "NEC",
+  "sortIndex": 7660,
+  "userAgents": [
+    {
+      "userAgent": "NEC",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "NEC",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "portalmmm\/2.0 N410i(c20;TB)*",
+      "properties": {
+        "Parent": "NEC"
+      }
+    }
+  ]
+}

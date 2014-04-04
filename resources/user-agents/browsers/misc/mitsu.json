@@ -1,0 +1,163 @@
+{
+  "division": "Mitsu",
+  "sortIndex": 7260,
+  "userAgents": [
+    {
+      "userAgent": "Mitsu",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Mitsu Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M520\/*\/WAP1.2.1 *",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M760\/(2004.12.28)95AH4061\/WAP2.0 * MMP\/1.1",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M760\/(2005.01.27)95AH4121\/WAP2.0 * MMP\/1.1",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M800\/(2005.01.18)VER_04.06.27\/WAP1.2.1 *",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M800\/(2005.01.19)VER_04.06.25\/WAP1.2.1 *",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu-M800\/*\/WAP1.2.1 *",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.1.A (Mondo)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.1.A*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (Eclipse) *",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (Eclipse) MMP\/1.1*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (MT560) MMP\/1.1*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (MT560)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (OT531)",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.B (OT531) MMP\/1.1",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.C (MT330) MMP\/1.1*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.2.C (MT330)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.3.A (M172) MMP\/1.1*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.3.A (M172)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.3.A (M350) MMP\/1.1*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.3.A (M350)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/1.3.A (M750)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    },
+    {
+      "userAgent": "Mitsu\/2.0 (M900)*",
+      "properties": {
+        "Parent": "Mitsu"
+      }
+    }
+  ]
+}

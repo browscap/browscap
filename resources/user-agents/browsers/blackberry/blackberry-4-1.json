@@ -1,0 +1,177 @@
+{
+  "division": "BlackBerry 4.1",
+  "sortIndex": 2400,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform_Version": "4.1"
+      },
+      "children": [
+        {
+          "match": "BlackBerry7100\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7100",
+            "Device_Name": "BlackBerry 7100"
+          }
+        },
+        {
+          "match": "BlackBerry7100i\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7100i",
+            "Device_Name": "BlackBerry 7100i"
+          }
+        },
+        {
+          "match": "BlackBerry7130\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7130",
+            "Device_Name": "BlackBerry 7130"
+          }
+        },
+        {
+          "match": "BlackBerry7130e\/4.1* VendorID\/10?",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7130e",
+            "Device_Name": "BlackBerry 7130e"
+          }
+        },
+        {
+          "match": "BlackBerry7250\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7250",
+            "Device_Name": "BlackBerry 7250"
+          }
+        },
+        {
+          "match": "BlackBerry7290\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7290",
+            "Device_Name": "BlackBerry 7290"
+          }
+        },
+        {
+          "match": "BlackBerry7520\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 7520",
+            "Device_Name": "BlackBerry 7520"
+          }
+        },
+        {
+          "match": "BlackBerry8700\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8700",
+            "Device_Name": "BlackBerry 8700"
+          }
+        },
+        {
+          "match": "BlackBerry8700\/4.1* VendorID\/15*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8700",
+            "Device_Name": "BlackBerry 8700"
+          }
+        },
+        {
+          "match": "BlackBerry8700c\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8700c",
+            "Device_Name": "BlackBerry 8700c"
+          }
+        },
+        {
+          "match": "BlackBerry8703e\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8703e",
+            "Device_Name": "BlackBerry 8703e"
+          }
+        },
+        {
+          "match": "BlackBerry8707\/4.1*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8707",
+            "Device_Name": "BlackBerry 8707"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7100i\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "BlackBerry 7100i",
+            "Device_Name": "BlackBerry 7100i"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8700\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "BlackBerry 8700",
+            "Device_Name": "BlackBerry 8700"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8703e\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "BlackBerry 8703e",
+            "Device_Name": "BlackBerry 8703e"
+          }
+        },
+        {
+          "match": "Mozilla\/4.8* (Windows NT 5.0; U) BlackBerry7100i\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "BlackBerry 7100i",
+            "Device_Name": "BlackBerry 7100i"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8700\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Windows Mobile OS",
+            "Platform_Version": "6.0",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Code_Name": "BlackBerry 8700",
+            "Device_Name": "BlackBerry 8700"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8707\/4.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Windows Mobile OS",
+            "Platform_Version": "6.0",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Code_Name": "BlackBerry 8707",
+            "Device_Name": "BlackBerry 8707"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -86,6 +86,58 @@
         "MajorVer": "2",
         "MinorVer": "3"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/0.9*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "0.9",
+        "MinorVer": "9"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.0*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/1.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/2.1*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/*Shiira\/2.2*",
+      "properties": {
+        "Parent": "Shiira",
+        "Version": "2.2",
+        "MajorVer": "2",
+        "MinorVer": "2"
+      }
     }
   ]
 }

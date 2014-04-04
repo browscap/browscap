@@ -1,0 +1,45 @@
+{
+  "division": "jBrowser",
+  "sortIndex": 6410,
+  "userAgents": [
+    {
+      "userAgent": "jBrowser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "jBrowser",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "jBrowser-WAP\/1.0.4",
+      "properties": {
+        "Parent": "jBrowser"
+      }
+    },
+    {
+      "userAgent": "jBrowser\/J2ME *",
+      "properties": {
+        "Parent": "jBrowser"
+      }
+    }
+  ]
+}

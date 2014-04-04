@@ -1,0 +1,44 @@
+{
+  "division": "Group Sense PDA",
+  "sortIndex": 5120,
+  "userAgents": [
+    {
+      "userAgent": "Group Sense PDA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "GSPDA",
+        "Browser_Type": "Browser",
+        "Platform": "PalmOS",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Xplore G 18 *",
+      "properties": {
+        "Parent": "Group Sense PDA"
+      }
+    },
+    {
+      "userAgent": "Xplore M28 *",
+      "properties": {
+        "Parent": "Group Sense PDA"
+      }
+    }
+  ]
+}
