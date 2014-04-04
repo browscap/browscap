@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": [10],
@@ -79,3 +80,76 @@
     }
   ]
 }
+||||||| merged common ancestors
+=======
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": [10],
+  "sortIndex": 1713,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "IEMobile",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser": "IEMobile",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaApplets": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "Platform": "Windows Phone OS",
+        "Platform_Version": "8",
+        "CssVersion": "3",
+        "RenderingEngine_Version": "6.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
+          "platforms": ["WinPhone8"]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "Windows Phone 8S",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Windows Phone 8S"
+          },
+          "platforms": ["WinPhone8"]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32",
+            "Device_Code_Name": "Windows Phone 8X",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Windows Phone 8X"
+          },
+          "platforms": ["WinPhone8"]
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> c2762fd70775aa2e9155493c1918eb53cf6f5428

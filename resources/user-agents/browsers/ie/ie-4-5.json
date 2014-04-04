@@ -1,8 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
-  "versions": ["9.0"],
-  "sortIndex": 5753,
-  "lite": true,
+  "versions": ["1.0", "1.5", "2.0", "3.0", "4.0", "4.01", "5.0", "5.01", "5.5"],
+  "sortIndex": 5760,
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
@@ -32,55 +31,35 @@
         "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "3",
+        "CssVersion": "1",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Version": "5.0",
+        "RenderingEngine_Version": "4.0",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
         "RenderingEngine_Maker": "Microsoft Corporation"
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/5.0*",
+          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
           "platforms": [
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64",
-            "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win7_x64",
-            "Win8_32", "Win8_64", "Win8_x64"
+            "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
+            "WinXPb_32", "WinXPb_64", "WinXPb_x64", "WinXPb_x64_3",
+            "Vista_32", "Vista_64", "Vista_x64",
+            "Win7_32", "Win7_64", "Win7_x64"
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Trident\/5.0*)*",
+          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
           "properties": {
-            "Comment": "IE 9.0 in IE 7.0 Compatibility Mode",
-            "Browser_Modus": "IE 7.0 Compatibility Mode"
+            "RenderingEngine_Name": "Tasman",
+            "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
           },
           "platforms": [
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64",
-            "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win7_x64",
-            "Win8_32", "Win8_64", "Win8_x64"
-          ]
-        },
-        {
-          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Trident\/5.0*)*",
-          "properties": {
-            "Comment": "IE 9.0 in IE 8.0 Compatibility Mode",
-            "Browser_Modus": "IE 8.0 Compatibility Mode"
-          },
-          "platforms": [
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64",
-            "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win7_x64",
-            "Win8_32", "Win8_64", "Win8_x64"
-          ]
-        },
-        {
-          "match": "Mozilla\/* (*MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/5.0*)*",
-          "platforms": [
-            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64",
-            "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win7_x64",
-            "Win8_32", "Win8_64", "Win8_x64"
+            "MacPPC_2"
           ]
         }
       ]
