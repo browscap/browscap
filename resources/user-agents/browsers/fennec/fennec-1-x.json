@@ -1,0 +1,50 @@
+{
+  "division": "Fennec #MAJORVER#.#MINORVER#",
+  "versions": ["1.0", "1.1"],
+  "sortIndex": 3420,
+  "userAgents": [
+    {
+      "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec #MAJORVER#.#MINORVER#",
+        "Browser": "Fennec",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "1.9",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux",
+            "OSX",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux",
+            "OSX",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

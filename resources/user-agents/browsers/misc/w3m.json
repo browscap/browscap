@@ -16,6 +16,12 @@
       }
     },
     {
+      "userAgent": "w3m\/*",
+      "properties": {
+        "Parent": "w3m"
+      }
+    },
+    {
       "userAgent": "w3m\/0.1*",
       "properties": {
         "Parent": "w3m",

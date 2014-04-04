@@ -1,0 +1,117 @@
+{
+  "division": "Openwave Mobile Browser 7.2",
+  "sortIndex": 8240,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser 7.2",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "7.2",
+        "MajorVer": "7",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "BenQ-E81\/10 * Browser\/UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-Buckle\/ UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-Glide\/ UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-Lightpipe\/ UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-M2000\/ZQ1000 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-S1300\/* UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "KWC-Torino\/ UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-A-A6\/00.04 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-A455\/1.0 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-QA30\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-RASPB\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-VE240\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-VE440\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-VE465\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-VEGAS\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "MOT-ZN4\/00.72 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    },
+    {
+      "userAgent": "http:\/\/mms.revol.us\/uaprofs\/E1000-JV\/1.0.09 UP.Browser\/7.2*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 7.2"
+      }
+    }
+  ]
+}

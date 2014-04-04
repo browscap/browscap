@@ -1,0 +1,144 @@
+{
+  "division": "BlackBerry 5.0",
+  "sortIndex": 2460,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 5.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
+        "Version": "5.0",
+        "MajorVer": "5",
+        "Platform_Version": "5.0"
+      },
+      "children": [
+        {
+          "match": "BlackBerry8330\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8330",
+            "Device_Name": "BlackBerry 8330"
+          }
+        },
+        {
+          "match": "BlackBerry8520\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8520",
+            "Device_Name": "Curve"
+          }
+        },
+        {
+          "match": "BlackBerry8530\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8530",
+            "Device_Name": "BlackBerry 8530"
+          }
+        },
+        {
+          "match": "BlackBerry8900\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8900",
+            "Device_Name": "BlackBerry 8900"
+          }
+        },
+        {
+          "match": "BlackBerry8980\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8980",
+            "Device_Name": "BlackBerry 8980"
+          }
+        },
+        {
+          "match": "BlackBerry9000\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9000",
+            "Device_Name": "Bold"
+          }
+        },
+        {
+          "match": "BlackBerry9100\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9100",
+            "Device_Name": "BlackBerry 9100"
+          }
+        },
+        {
+          "match": "BlackBerry9105\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9105",
+            "Device_Name": "BlackBerry 9105"
+          }
+        },
+        {
+          "match": "BlackBerry9300\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9300",
+            "Device_Name": "Curve 3G"
+          }
+        },
+        {
+          "match": "BlackBerry9500\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9500",
+            "Device_Name": "Storm"
+          }
+        },
+        {
+          "match": "BlackBerry9520\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9520",
+            "Device_Name": "BlackBerry 9520"
+          }
+        },
+        {
+          "match": "BlackBerry9530\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9530",
+            "Device_Name": "BlackBerry 9530"
+          }
+        },
+        {
+          "match": "BlackBerry9550\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9550",
+            "Device_Name": "BlackBerry 9550"
+          }
+        },
+        {
+          "match": "BlackBerry9630\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9630",
+            "Device_Name": "BlackBerry 9630"
+          }
+        },
+        {
+          "match": "BlackBerry9650\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9650",
+            "Device_Name": "BlackBerry 9650"
+          }
+        },
+        {
+          "match": "BlackBerry9700\/5.0*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9700",
+            "Device_Name": "Bold"
+          }
+        }
+      ]
+    }
+  ]
+}

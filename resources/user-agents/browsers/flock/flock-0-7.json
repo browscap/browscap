@@ -1,0 +1,41 @@
+{
+  "division": "Flock #MAJORVER#.#MINORVER#",
+  "versions": ["0.7"],
+  "sortIndex": 4810,
+  "userAgents": [
+    {
+      "userAgent": "Flock #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flock #MAJORVER#.#MINORVER#",
+        "Browser": "Flock",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/1.* Flock\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX",
+            "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

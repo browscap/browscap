@@ -1,0 +1,290 @@
+{
+  "division": "IEMobile 9.0",
+  "sortIndex": 5950,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 9.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "IEMobile",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaApplets": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "Version": "9.0",
+        "MajorVer": "9",
+        "MinorVer": "0",
+        "Platform": "Windows Phone OS",
+        "Platform_Version": "7.5",
+        "CssVersion": "3",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0*)*",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Platform": "WinPhone7",
+        "Platform_Description": "Windows Phone 7",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "5.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 6.0; Trident\/5.0; mobile version65)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 6.1; Trident\/5.0; XBLWP7; ZuneWP7)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Browser_Modus": "Desktop Mode",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; *",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; DELL; Venue Pro)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Venue Pro",
+        "Device_Maker": "Dell",
+        "Device_Brand_Name": "Dell",
+        "Device_Name": "Venue Pro"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; 7 Mozart T8698)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T8698",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "7 Mozart"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; 7 Mozart)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T8698",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "7 Mozart"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; 7 Pro T7576)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T7576",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "7 pro"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; 7 Trophy)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Spark",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "7 Trophy"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; HD7 T9292)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "T9292",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; Radar 4G)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Radar 4G",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Radar 4G"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; Radar C110e*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Radar C110e",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Radar C110e"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; Radar)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Radar",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Radar"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; TITAN X310e)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "X310e",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Titan"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; LG; LG-E900)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "E900",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "Optimus 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; LG; LG-E906)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "E906",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "E906"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 610*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Lumia 610",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "Lumia 610"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 710*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Lumia 710",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "Lumia 710"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 800*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Lumia 800",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "Lumia 800"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 900*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Lumia 900",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "Lumia 900"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 925*)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Lumia 925",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "Lumia 925"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; SAMSUNG; OMNIA7)",
+      "properties": {
+        "Parent": "IEMobile 9.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I8700",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "Omnia 7"
+      }
+    }
+  ]
+}

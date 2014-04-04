@@ -1,0 +1,42 @@
+{
+  "division": "QuickLook 4.0",
+  "sortIndex": 9880,
+  "userAgents": [
+    {
+      "userAgent": "QuickLook 4.0",
+      "properties": {
+        "Parent": "QuickLook",
+        "Version": "4.0",
+        "MajorVer": "4"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_6*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_Version": "10.6"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_7*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_Version": "10.7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_Version": "10.8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+      "properties": {
+        "Parent": "QuickLook 4.0",
+        "Platform_Version": "10.9"
+      }
+    }
+  ]
+}

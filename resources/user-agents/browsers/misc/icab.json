@@ -240,6 +240,264 @@
         "MinorVer": "8",
         "CssVersion": "3"
       }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.5*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_Bits": "32",
+        "Version": "2.5",
+        "MajorVer": "2",
+        "MinorVer": "5",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.7*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_Bits": "32",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.7*; Macintosh; ?; 68K*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "2.7",
+        "MajorVer": "2",
+        "MinorVer": "7",
+        "Platform": "Mac68K",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.8*; Macintosh; ?*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.8* (*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.8*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_Bits": "32",
+        "Version": "2.8",
+        "MajorVer": "2",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.9*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/2.9* (*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 2.9*; Macintosh; ?; PPC*)",
+      "properties": {
+        "Parent": "iCab",
+        "Browser_Bits": "32",
+        "Version": "2.9",
+        "MajorVer": "2",
+        "MinorVer": "9",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Platform_Bits": "32",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/* (compatible; iCab 3.0*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/3.0* (*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "CssVersion": "2",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "iCab\/4.0 (Macintosh; U*Mac OS X)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.0",
+        "MajorVer": "4",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.1*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.1",
+        "MajorVer": "4",
+        "MinorVer": "1",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.5 (compatible; iCab 4.2*; Macintosh*Mac OS X*)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.2*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.5*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.5",
+        "MajorVer": "4",
+        "MinorVer": "5",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.7*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.7",
+        "MajorVer": "4",
+        "MinorVer": "7",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.8*Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/4.8 Safari\/*",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "iCab\/4.8 (Macintosh; U*Mac OS X)",
+      "properties": {
+        "Parent": "iCab",
+        "Version": "4.8",
+        "MajorVer": "4",
+        "MinorVer": "8",
+        "Platform": "MacOSX",
+        "Platform_Version": "10",
+        "Device_Type": "Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
     }
   ]
 }

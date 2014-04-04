@@ -1,0 +1,48 @@
+{
+  "division": "Camino #MAJORVER#.#MINORVER#",
+  "versions": ["2.0", "2.1", "2.2"],
+  "sortIndex": 2560,
+  "userAgents": [
+    {
+      "userAgent": "Camino #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Camino #MAJORVER#.#MINORVER#",
+        "Browser": "Camino",
+        "Browser_Maker": "Mozilla Foundation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Mac OS X",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#* (like Firefox\/*)",
+          "platforms": [
+            "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

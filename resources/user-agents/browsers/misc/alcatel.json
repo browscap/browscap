@@ -1,0 +1,33 @@
+{
+  "division": "Alcatel",
+  "sortIndex": 2040,
+  "userAgents": [
+    {
+      "userAgent": "Alcatel",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Alcatel",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2"
+      }
+    },
+    {
+      "userAgent": "Alcatel-BH4\/1.0",
+      "properties": {
+        "Parent": "Alcatel"
+      }
+    },
+    {
+      "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/1.1.0(GUI)",
+      "properties": {
+        "Parent": "Alcatel"
+      }
+    }
+  ]
+}

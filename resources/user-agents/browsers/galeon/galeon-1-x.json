@@ -1,0 +1,44 @@
+{
+  "division": "Galeon #MAJORVER#.#MINORVER#",
+  "versions": ["1.0", "1.1", "1.2", "1.3"],
+  "sortIndex": 2370,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Galeon #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Galeon #MAJORVER#.#MINORVER#",
+        "Browser": "Galeon",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Linux",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Galeon\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 Galeon\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

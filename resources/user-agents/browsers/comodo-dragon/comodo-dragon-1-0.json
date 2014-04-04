@@ -1,0 +1,43 @@
+{
+  "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 3450,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
+        "Browser": "Comodo Dragon",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "Comodo Group Inc",
+        "Platform": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Comodo Dragon\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "division": "DBTEL",
+  "sortIndex": 3860,
+  "userAgents": [
+    {
+      "userAgent": "DBTEL",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device",
+        "Browser": "DBTEL",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "DBTEL-M50\/1.0 *",
+      "properties": {
+        "Parent": "DBTEL"
+      }
+    },
+    {
+      "userAgent": "DBTEL\/2092_S Ares.Browser\/02.02",
+      "properties": {
+        "Parent": "DBTEL"
+      }
+    }
+  ]
+}

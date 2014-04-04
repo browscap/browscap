@@ -42,6 +42,20 @@
         "Parent": "Silk #MAJORVER#.#MINORVER#",
         "RenderingEngine_Version": "533.1"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/533.1 Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
     }
   ]
 }

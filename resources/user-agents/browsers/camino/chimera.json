@@ -1,0 +1,44 @@
+{
+  "division": "Chimera",
+  "sortIndex": 2320,
+  "userAgents": [
+    {
+      "userAgent": "Chimera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Mozilla Foundation",
+        "Platform": "Mac OS X",
+        "Platform_Version": "10",
+        "Platform_Maker": "Apple Inc",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "Comment": "Chimera",
+        "Browser": "Chimera",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Chimera\/*",
+      "properties": {
+        "Parent": "Chimera",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Gecko\/* Chimera\/*",
+      "properties": {
+        "Parent": "Chimera"
+      }
+    }
+  ]
+}
