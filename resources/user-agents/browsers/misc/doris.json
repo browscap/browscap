@@ -1,0 +1,62 @@
+{
+  "division": "Doris",
+  "sortIndex": 3930,
+  "userAgents": [
+    {
+      "userAgent": "Doris",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Doris",
+        "Browser_Type": "Browser",
+        "Platform": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Doris\/1.10 * (Symbian)",
+      "properties": {
+        "Parent": "Doris",
+        "Version": "1.10",
+        "MajorVer": "1",
+        "MinorVer": "10"
+      }
+    },
+    {
+      "userAgent": "Doris\/1.15 * (Symbian)",
+      "properties": {
+        "Parent": "Doris",
+        "Version": "1.15",
+        "MajorVer": "1",
+        "MinorVer": "15"
+      }
+    },
+    {
+      "userAgent": "Doris\/1.17 * (Symbian)",
+      "properties": {
+        "Parent": "Doris",
+        "Version": "1.17",
+        "MajorVer": "1",
+        "MinorVer": "17"
+      }
+    }
+  ]
+}

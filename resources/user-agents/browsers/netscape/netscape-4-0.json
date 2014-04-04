@@ -110,6 +110,74 @@
         "Parent": "Netscape 4.0",
         "Platform": "SunOS"
       }
+    },
+    {
+      "userAgent": "Mozilla\/4.0*(X11*IRIX*)",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "IRIX",
+        "Platform_Maker": "SGI",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "SGI",
+        "Device_Brand_Name": "SGI",
+        "Device_Name": "general Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0*(X11; ?; OpenVMS*)",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "OpenVMS",
+        "Platform_Maker": "HP",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Device_Name": "general Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0*(OS\/2;*)",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Platform": "OS\/2",
+        "Platform_Version": "Warp 4.5",
+        "Platform_Maker": "IBM",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0*(*compatible; *; Windows 95; win9x\/NT 4.90*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Browser_Bits": "32",
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0*(Win16;*",
+      "properties": {
+        "Parent": "Netscape 4.0",
+        "Browser_Bits": "32",
+        "Platform": "Win3.1",
+        "Platform_Version": "3.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
     }
   ]
 }

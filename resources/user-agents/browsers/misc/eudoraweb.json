@@ -1,0 +1,46 @@
+{
+  "division": "EudoraWeb",
+  "sortIndex": 4060,
+  "userAgents": [
+    {
+      "userAgent": "EudoraWeb",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "EudoraWeb",
+        "Browser_Type": "Browser",
+        "Platform": "PalmOS",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1",
+      "properties": {
+        "Parent": "EudoraWeb"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2",
+      "properties": {
+        "Parent": "EudoraWeb"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1",
+      "properties": {
+        "Parent": "EudoraWeb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "division": "Crazy Browser",
+  "sortIndex": 3770,
+  "userAgents": [
+    {
+      "userAgent": "Crazy Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser": "Crazy Browser",
+        "Browser_Maker": "CrazyBrowser.com",
+        "Platform": "Win32",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "RenderingEngine_Version": "4.0",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.1; Trident\/4.0; *Crazy Browser 3.0*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.0",
+        "MajorVer": "3",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0*; Windows NT 6.0; Trident\/5.0; *Crazy Browser 3.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Win32": "true",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0*; Windows NT 6.1; Trident\/5.0; *Crazy Browser 3.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Win32": "true",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.1; Trident\/4.0; *Crazy Browser 3.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE ?.0*; Windows NT 6.1; Trident\/5.0; *Crazy Browser 3.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Win32": "true",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE ?.0*; Windows NT 6.1; WOW64; Trident\/5.0; *Crazy Browser 3.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Win32": "true",
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.1; *Crazy Browser 6.1*",
+      "properties": {
+        "Parent": "Crazy Browser",
+        "Browser_Bits": "32",
+        "Version": "6.1",
+        "MajorVer": "6",
+        "MinorVer": "1",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Win32": "true"
+      }
+    }
+  ]
+}

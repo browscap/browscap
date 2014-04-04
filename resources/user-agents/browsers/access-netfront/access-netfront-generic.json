@@ -1,0 +1,47 @@
+{
+  "division": "Access NetFront Generic",
+  "sortIndex": 2140,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront Generic",
+        "Browser": "Access NetFront",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Description": "For Access NetFront."
+      },
+      "children": [
+        {
+          "match": "*NetFront\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/*)*"
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/*"
+        },
+        {
+          "match": "SEC-* *NetFront\/*"
+        },
+        {
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/*Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

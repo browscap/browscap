@@ -1,0 +1,124 @@
+{
+  "division": "BlackBerry 4.5",
+  "sortIndex": 2430,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry 4.5",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "BlackBerry",
+        "Browser_Maker": "Research In Motion Limited",
+        "Platform": "RIM OS",
+        "Platform_Maker": "Research In Motion Limited",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Name": "Blackberry",
+        "Device_Maker": "RIM",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blackberry",
+        "Device_Brand_Name": "Research In Motion Limited",
+        "Version": "4.5",
+        "MajorVer": "4",
+        "MinorVer": "5",
+        "Platform_Version": "4.5"
+      },
+      "children": [
+        {
+          "match": "BlackBerry8100\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8100",
+            "Device_Name": "BlackBerry 8100"
+          }
+        },
+        {
+          "match": "BlackBerry8110\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8110",
+            "Device_Name": "BlackBerry 8110"
+          }
+        },
+        {
+          "match": "BlackBerry8120\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8120",
+            "Device_Name": "BlackBerry 8120"
+          }
+        },
+        {
+          "match": "BlackBerry8130\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8130",
+            "Device_Name": "BlackBerry 8130"
+          }
+        },
+        {
+          "match": "BlackBerry8300\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8300",
+            "Device_Name": "BlackBerry 8300"
+          }
+        },
+        {
+          "match": "BlackBerry8310\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8310",
+            "Device_Name": "BlackBerry 8310"
+          }
+        },
+        {
+          "match": "BlackBerry8320\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8320",
+            "Device_Name": "BlackBerry 8320"
+          }
+        },
+        {
+          "match": "BlackBerry8330\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8330",
+            "Device_Name": "BlackBerry 8330"
+          }
+        },
+        {
+          "match": "BlackBerry8330m\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8330m",
+            "Device_Name": "BlackBerry 8330m"
+          }
+        },
+        {
+          "match": "BlackBerry8700\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8700",
+            "Device_Name": "BlackBerry 8700"
+          }
+        },
+        {
+          "match": "BlackBerry8800\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8800",
+            "Device_Name": "BlackBerry 8800"
+          }
+        },
+        {
+          "match": "BlackBerry8820\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8820",
+            "Device_Name": "BlackBerry 8820"
+          }
+        },
+        {
+          "match": "BlackBerry8830\/4.5*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 8830",
+            "Device_Name": "BlackBerry 8830"
+          }
+        }
+      ]
+    }
+  ]
+}

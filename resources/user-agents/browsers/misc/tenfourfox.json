@@ -1,0 +1,46 @@
+{
+  "division": "TenFourFox",
+  "sortIndex": 10780,
+  "userAgents": [
+    {
+      "userAgent": "TenFourFox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "TenFourFox",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Debian",
+        "Platform": "MacOSX",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*; rv:17.0) Gecko\/* Firefox\/* TenFourFox\/*",
+      "properties": {
+        "Parent": "TenFourFox",
+        "Platform_Version": "10.5",
+        "RenderingEngine_Version": "17.0"
+      }
+    }
+  ]
+}

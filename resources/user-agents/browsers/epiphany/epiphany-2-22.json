@@ -1,0 +1,51 @@
+{
+  "division": "Epiphany 2.22",
+  "sortIndex": 4030,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany 2.22",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Epiphany",
+        "Browser_Type": "Browser",
+        "Platform": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "Version": "2.22",
+        "MajorVer": "2",
+        "MinorVer": "22"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Epiphany\/2.22*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Epiphany\/2.22 (Debian\/*)",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

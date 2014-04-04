@@ -21,6 +21,12 @@
       }
     },
     {
+      "userAgent": "*NetPositive\/*",
+      "properties": {
+        "Parent": "NetPositive"
+      }
+    },
+    {
       "userAgent": "*NetPositive\/2.2*",
       "properties": {
         "Parent": "NetPositive",

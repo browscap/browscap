@@ -30,6 +30,9 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
+            "properties": {
+              "Device_Type": "TV Device"
+            },
           "platforms": [
             "FreeBSD"
           ]

@@ -1,0 +1,45 @@
+{
+  "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
+  "versions": [4, 6, 8, 9, 10, 11, 12, 13, "13.4", 14, 15, 16, "16.1", "16.2", 17, "17.1", "17.3", "17.4", "17.5", 18, "18.1", "18.3", 19, "19.1", "19.2", 20, "20.1", 21, "21.1", "21.2", 22, "22.1", 23, "23.1", "23.2", "23.4", 24, "24.1", "24.2", 25, "25.1", "25.2", 26, "26.1", "26.2", 27, "27.1", "27.2", 28, "28.1", 29, "29.1", 30, 31, "31.1"],
+  "sortIndex": 3451,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
+        "Browser": "Comodo Dragon",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "Comodo Group Inc",
+        "Platform": "Linux",
+        "Platform_Maker": "Linux Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Comodo?Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64",
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win7_x64", "Win8_32", "Win8_64", "Win8_x64",
+            "Win8_1_32", "Win8_1_64", "Win8_1_x64"
+          ]
+        }
+      ]
+    }
+  ]
+}

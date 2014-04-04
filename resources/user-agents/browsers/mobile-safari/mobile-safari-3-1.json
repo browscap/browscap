@@ -42,10 +42,13 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/3.1*Mobile\/*Safari\/*",
           "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -62,7 +65,10 @@
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -82,10 +88,13 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
           "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2"
@@ -97,7 +106,10 @@
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2"
@@ -112,10 +124,13 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
           "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2"
@@ -127,7 +142,10 @@
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2"

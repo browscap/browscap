@@ -1,0 +1,39 @@
+{
+  "division": "ELinks #MAJORVER#.#MINORVER#",
+  "versions": ["0.9", "0.10", "0.11", "0.12", "0.13"],
+  "sortIndex": 2300,
+  "userAgents": [
+    {
+      "userAgent": "ELinks #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ELinks #MAJORVER#.#MINORVER#",
+        "Browser": "ELinks",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
+      },
+      "children": [
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "platforms": [
+            "AIX", "BeOS", "CygWin", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2", "Linux",
+            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+          ]
+        },
+        {
+          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "platforms": [
+            "AIX", "BeOS", "CygWin", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2", "Linux",
+            "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

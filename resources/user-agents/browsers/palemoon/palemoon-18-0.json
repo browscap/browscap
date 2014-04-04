@@ -1,0 +1,111 @@
+{
+  "division": "Palemoon 18.0",
+  "sortIndex": 9610,
+  "userAgents": [
+    {
+      "userAgent": "Palemoon 18.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "PaleMoon",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Moonchild Productions",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "Version": "18.0",
+        "MajorVer": "18",
+        "RenderingEngine_Version": "18.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* Firefox\/* PaleMoon\/18.*",
+      "properties": {
+        "Parent": "Palemoon 18.0",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.0*) Gecko\/* Firefox\/* PaleMoon\/18.*",
+      "properties": {
+        "Parent": "Palemoon 18.0",
+        "Browser_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Version": "6.0",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*) Gecko\/* Firefox\/* PaleMoon\/18.*",
+      "properties": {
+        "Parent": "Palemoon 18.0",
+        "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) Gecko\/* Firefox\/* PaleMoon\/18.*",
+      "properties": {
+        "Parent": "Palemoon 18.0",
+        "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win32": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 6.1*Win64; x64*) Gecko\/* Firefox\/* PaleMoon\/18.*",
+      "properties": {
+        "Parent": "Palemoon 18.0",
+        "Browser_Bits": "64",
+        "Platform": "Win7",
+        "Platform_Version": "6.1",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Win64": "true",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    }
+  ]
+}

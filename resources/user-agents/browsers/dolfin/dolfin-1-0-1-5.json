@@ -28,51 +28,253 @@
       "children": [
         {
           "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Name": "GT-S5620",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Name": "GT-S5620",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-B7722\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Name": "GT-B7722",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-T528g\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Name": "SGH-T528g",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-C3050*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "C3050",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "C3050"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-3210*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-3210",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-3210"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-B3310*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-B3310",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-B3310"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-B3410*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-B3410",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-B3410"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-B7610*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-B7610",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-B7610"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-E2550*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-E2550",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-E2550"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-I6410*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-I6410",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I6410"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-I8320*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-I8320",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I8320"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S3370*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S3370",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S3370"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S3650*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S3650",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S3650"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5230*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S5230",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S5230"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5560*?Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S5560",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S5560"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5560*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S5560",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S5560"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S7550*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S7550",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S7550"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-i8000*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-I8000",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I8000"
+          }
+        },
+        {
+          "match": "SAMSUNG-S8000*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8000",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S8000"
+          }
+        },
+        {
+          "match": "SAMSUNG-S8300*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8300",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-S8300"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-E250*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH E250",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH E250"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-F480*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH F480",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH F480"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-G800*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH G800",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH G800"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-U700*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH U700",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH U700"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-U900*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH U900",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH U900"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-i900*?Dolphin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "SGH I900",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH I900"
+          }
         }
       ]
-    },
-    {
-      "userAgent": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
-      "properties": {
-        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "GT-S5620",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
-      "properties": {
-        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "GT-S5620",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-B7722\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-      "properties": {
-        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "GT-B7722",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-      "properties": {
-        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Maker": "Samsung"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-T528g\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-      "properties": {
-        "Parent": "Dolfin #MAJORVER#.#MINORVER#",
-        "Device_Name": "SGH-T528g",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "division": "bumblebee",
+  "sortIndex": 2570,
+  "userAgents": [
+    {
+      "userAgent": "bumblebee",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device",
+        "Browser": "bumblebee",
+        "isMobileDevice": "true"
+      }
+    },
+    {
+      "userAgent": "bumblebee\/1.0 (bumblebee@relevare.com; http:\/\/www.relevare.com\/)",
+      "properties": {
+        "Parent": "bumblebee"
+      }
+    },
+    {
+      "userAgent": "bumblebee@relevare.com",
+      "properties": {
+        "Parent": "bumblebee"
+      }
+    }
+  ]
+}
