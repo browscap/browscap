@@ -1,0 +1,495 @@
+{
+  "division": "IEMobile 8.0",
+  "sortIndex": 5940,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile 8.0",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "IEMobile",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Platform": "Windows Mobile OS",
+        "Platform_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaApplets": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "3.1",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "Version": "8.0",
+        "MajorVer": "8",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.*)*",
+      "properties": {
+        "Parent": "IEMobile 8.0"
+      }
+    },
+    {
+      "userAgent": "HD_mini_T5555 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "HD mini T5555",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD mini T5555"
+      }
+    },
+    {
+      "userAgent": "HTC-ST7377\/* (*) Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "ST7377",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "ST7377"
+      }
+    },
+    {
+      "userAgent": "HTC_HD2_T8585 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2 T8585"
+      }
+    },
+    {
+      "userAgent": "HTC_HD2_T8585\/480x800 4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "HD2 T8585"
+      }
+    },
+    {
+      "userAgent": "HTC_Maple_S520 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Maple S520",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Maple S520"
+      }
+    },
+    {
+      "userAgent": "HTC_P3700 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "P3700",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "P3700"
+      }
+    },
+    {
+      "userAgent": "HTC_Snap_S521 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Snap S521",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Snap S521"
+      }
+    },
+    {
+      "userAgent": "HTC_Snap_S523\/* (*Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Snap S523",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Snap S523"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Cruise_T4242 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch Cruise T4242",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Cruise T4242"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Diamond2_T5353 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch Diamond2 T5353",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Diamond2 T5353"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_HD_T8282 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch HD T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch HD T8282"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Pro2_T7373 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch Pro2 T7373",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Pro2 T7373"
+      }
+    },
+    {
+      "userAgent": "HTC_Touch_Pro_T7272 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "Touch Pro T7272",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Name": "Touch Pro T7272"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 Vodafone\/1.0\/LG-GM750\/* Browser\/IE8.* (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GM750",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "GM750"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-C3050*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "C3050",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "C3050"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-3210*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-3210",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-3210"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3310*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-B3310",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3310"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B3410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-B3410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B3410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7330\/* (compatible*; MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-B7330",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B7330"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-B7610*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-B7610",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-B7610"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-E2550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-E2550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-E2550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I6410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I6410",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I6410"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-I8320*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I8320",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8320"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3370*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S3370",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3370"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S3650*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S3650",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S3650"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5230*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S5230",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5230"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S5560*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S5560",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S5560"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-S7550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S7550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S7550"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-GT-i8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-I8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-I8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S8000",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8000"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-S8300*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "GT-S8300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "GT-S8300"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E250*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-E250",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-E250"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-F480*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-F480",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-F480"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-G800*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-G800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-G800"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U700*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-U700",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-U700"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-U900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-U900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-U900"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-i900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
+      "properties": {
+        "Parent": "IEMobile 8.0",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Code_Name": "SGH-I900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Name": "SGH-I900"
+      }
+    }
+  ]
+}

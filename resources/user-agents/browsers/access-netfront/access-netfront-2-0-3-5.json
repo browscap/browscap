@@ -1,0 +1,118 @@
+{
+  "division": "Access NetFront #MAJORVER#.#MINORVER#",
+  "versions": ["2.0", "2.2", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
+  "sortIndex": 2141,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
+        "Browser": "Access NetFront",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device",
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Description": "For Access NetFront."
+      },
+      "children": [
+        {
+          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (#PLATFORM#NetFront\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

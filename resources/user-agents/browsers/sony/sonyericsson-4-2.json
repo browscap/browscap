@@ -1,0 +1,45 @@
+{
+  "division": "SonyEricsson 4.2",
+  "sortIndex": 10680,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson 4.2",
+      "properties": {
+        "Parent": "SonyEricsson",
+        "Version": "4.2",
+        "MajorVer": "4",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/4.2*",
+      "properties": {
+        "Parent": "SonyEricsson 4.2",
+        "Device_Code_Name": "D750i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "D750i"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/4.2*",
+      "properties": {
+        "Parent": "SonyEricsson 4.2",
+        "Device_Code_Name": "K600c",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "K600c"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/4.2*",
+      "properties": {
+        "Parent": "SonyEricsson 4.2",
+        "Device_Code_Name": "K600i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "K600i"
+      }
+    }
+  ]
+}

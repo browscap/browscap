@@ -9,6 +9,12 @@
         "Comment": "Chromium Generic",
         "Browser": "Chromium",
         "Platform": "Linux",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
         "CssVersion": "1",
         "Device_Name": "PC",
         "Device_Maker": "Various",
@@ -21,7 +27,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/*Chrome\/*Safari\/*",
           "platforms": [
-            "Linux_32", "Linux_64"
+            "Linux", "Linux_32", "Linux_64"
           ]
         }
       ]

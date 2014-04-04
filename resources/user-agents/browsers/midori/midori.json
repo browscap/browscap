@@ -1,6 +1,6 @@
 {
   "division": "Midori #MAJORVER#.#MINORVER#",
-  "versions": ["0.3", "0.4", "0.5"],
+  "versions": ["0.1", "0.2", "0.3", "0.4", "0.5"],
   "sortIndex": 3131,
   "lite": true,
   "userAgents": [
@@ -37,6 +37,12 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux", "Linux_32", "Linux_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64", "FreeBSD", "Win32_B"
           ]
         }
       ]

@@ -1,7 +1,7 @@
 {
   "division": "Access NetFront #MAJORVER#.#MINORVER#",
   "versions": ["4.0", "4.1", "4.2"],
-  "sortIndex": 2142,
+  "sortIndex": 2143,
   "lite": true,
   "userAgents": [
     {
@@ -23,64 +23,56 @@
         "Device_Type": "Mobile Device",
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Description": "For Access NetFront."
-      }
-    },
-    {
-      "userAgent": "*NetFront\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#",
-        "Platform": "Android",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "Device_Type": "Ebook Reader"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/2.0 (screen 600x800)",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#",
-        "Platform": "Linux",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "Device_Type": "Ebook Reader"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "SonyEricsson*; Mozilla\/5.0 (*SymbianOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* *Safari\/*",
-      "properties": {
-        "Parent": "NetFront #MAJORVER#.#MINORVER#",
-        "Platform": "SymbianOS"
-      }
+      },
+      "children": [
+        {
+          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
+          "properties": {
+            "Device_Name": "Kindle",
+            "Device_Maker": "Amazon",
+            "Device_Type": "Ebook Reader"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/2.0 (screen 600x800)",
+          "properties": {
+            "Platform": "Linux",
+            "Device_Name": "Kindle",
+            "Device_Maker": "Amazon",
+            "Device_Type": "Ebook Reader"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "SonyEricsson*; Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* *Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Sample; MFC Simulator\/#MAJORVER#.#MINORVER#*; like Gecko) NetFront\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
     }
   ]
 }

@@ -37,7 +37,58 @@
           ]
         },
         {
-          "match": "Samsung-* Dolphin/#MAJORVER#.#MINORVER#*"
+          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8500",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Wave 2"
+          },
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8500",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Wave 2"
+          },
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530-VODAFONE#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8530",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Wave 2"
+          },
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8530",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Wave 2"
+          },
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#* "
         }
       ]
     }

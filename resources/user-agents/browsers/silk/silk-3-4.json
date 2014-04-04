@@ -33,6 +33,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -43,6 +44,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -53,19 +55,21 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -76,6 +80,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -86,19 +91,21 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
         "Device_Maker": "Amazon"
       }
@@ -107,6 +114,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
         "Device_Maker": "Amazon"
       }
@@ -115,17 +123,19 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
         "Device_Maker": "Amazon"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Platform_Version": "4.2",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
@@ -137,6 +147,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Platform_Version": "4.2",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
@@ -148,19 +159,21 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_2"
+        "Android", "Android_4_2"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTHWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -171,6 +184,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -181,19 +195,21 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 7",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -204,6 +220,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -214,19 +231,21 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -237,6 +256,7 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
@@ -247,14 +267,37 @@
       "userAgent": "Mozilla\/5.0 (Linux; U; #PLATFORM#; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
       "properties": {
         "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Modus": "Desktop Mode",
         "Device_Name": "Kindle Fire HD 8.9",
         "Device_Maker": "Amazon",
         "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen"
       },
       "platforms": [
-        "Android_4_0"
+        "Android", "Android_4_0"
       ]
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*Android 4.0*; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*Android 4.0*; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+      "properties": {
+        "Parent": "Silk #MAJORVER#.#MINORVER#",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7"
+      }
     }
   ]
 }

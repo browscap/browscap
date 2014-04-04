@@ -1,0 +1,60 @@
+{
+  "division": "CometBird #MAJORVER#.#MINORVER#",
+  "versions": [10, 11],
+  "sortIndex": 3260,
+  "userAgents": [
+    {
+      "userAgent": "CometBird #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Category": "Browser",
+        "SubCategory": "Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Comment": "CometBird #MAJORVER#.#MINORVER#",
+        "Browser": "CometBird",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Platform": "Win32",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* CometBird\/#MAJORVER#.*",
+          "platforms": [
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win7_x64", "Win8_32", "Win8_64", "Win8_x64",
+            "Win8_1_32", "Win8_1_64", "Win8_1_x64"
+          ]
+        }
+      ]
+    }
+  ]
+}

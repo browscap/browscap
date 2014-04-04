@@ -106,6 +106,42 @@
         "MajorVer": "5",
         "MinorVer": "5"
       }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/*",
+      "properties": {
+        "Parent": "OmniWeb 5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/v558.*",
+      "properties": {
+        "Parent": "OmniWeb 5.0"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",
+      "properties": {
+        "Parent": "OmniWeb 5.0",
+        "Version": "5.5",
+        "MinorVer": "5"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
+      "properties": {
+        "Parent": "OmniWeb 5.0",
+        "Version": "5.8",
+        "MinorVer": "8"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *OmniWeb\/v622.*",
+      "properties": {
+        "Parent": "OmniWeb 5.0",
+        "Version": "5.9",
+        "MinorVer": "9"
+      }
     }
   ]
 }
