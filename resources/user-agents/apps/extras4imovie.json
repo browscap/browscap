@@ -6,8 +6,6 @@
       "userAgent": "Extras4iMovie",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

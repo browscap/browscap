@@ -6,8 +6,6 @@
       "userAgent": "Barca Mail Clint",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Email Client",
-        "SubCategory": "Email Client",
         "Browser_Type": "Email Client",
         "Alpha": "false",
         "Beta": "false",
