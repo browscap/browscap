@@ -196,14 +196,12 @@
         {
           "match": "Mozilla\/5.0 (compatible; YandexBot\/*",
           "properties": {
-            "Parent": "Yandex",
             "Browser": "YandexBot"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible; YandexBot\/3.0; *",
           "properties": {
-            "Parent": "Yandex",
             "Division": "Yandex",
             "Browser": "YandexBot",
             "Version": "3.0",
