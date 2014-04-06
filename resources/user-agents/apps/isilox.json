@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "iSiloX\/4.0* Windows\/32",
+          "match": "iSiloX\/#MAJORVER#.#MINORVER#* Windows\/32",
           "platforms": [
             "Win32"
           ]
