@@ -7,32 +7,32 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Zune",
-        "Browser": "",
+        "Browser": "Microsoft Zune",
         "Win32": "true",
         "isMobileDevice": "true",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; Microsoft ZuneHD 4.*)",
-      "properties": {
-        "Parent": "Microsoft Zune",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; ZuneHD 4.*)",
-      "properties": {
-        "Parent": "Microsoft Zune",
-        "Browser": "ZuneHD",
-        "Version": "4",
-        "MajorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; Microsoft ZuneHD 4.*)",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; ZuneHD 4.*)",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        }
+      ]
     }
   ]
 }

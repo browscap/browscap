@@ -25,15 +25,16 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "unknown"
-      }
-    },
-    {
-      "userAgent": "Mercator-2.0",
-      "properties": {
-        "Parent": "Mercator",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "Mercator-2.0",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
     }
   ]
 }

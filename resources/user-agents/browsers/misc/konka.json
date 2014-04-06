@@ -27,55 +27,33 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "KONKA R669",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA V7*",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA-A66\/*\/WAP1.2 *",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA-SW010-A66\/*",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA-V8\/*\/WAP2.0 *",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA-V8\/*\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA_A99 KWAP1.0",
-      "properties": {
-        "Parent": "KONKA"
-      }
-    },
-    {
-      "userAgent": "KONKA_V7\/KAA7* Linux\/2.4 KNaP\/1.0 * Browser\/Buffalo1.0 *",
-      "properties": {
-        "Parent": "KONKA"
-      }
+      },
+      "children": [
+        {
+          "match": "KONKA R669"
+        },
+        {
+          "match": "KONKA V7*"
+        },
+        {
+          "match": "KONKA-A66\/*\/WAP1.2 *"
+        },
+        {
+          "match": "KONKA-SW010-A66\/*"
+        },
+        {
+          "match": "KONKA-V8\/*\/WAP2.0 *"
+        },
+        {
+          "match": "KONKA-V8\/*\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0"
+        },
+        {
+          "match": "KONKA_A99 KWAP1.0"
+        },
+        {
+          "match": "KONKA_V7\/KAA7* Linux\/2.4 KNaP\/1.0 * Browser\/Buffalo1.0 *"
+        }
+      ]
     }
   ]
 }

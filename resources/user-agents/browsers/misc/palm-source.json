@@ -6,43 +6,40 @@
       "userAgent": "Palm Source",
       "properties": {
         "Parent": "IEMobile"
-      }
-    },
-    {
-      "userAgent": "Palm680\/RC1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*",
-      "properties": {
-        "Parent": "Palm Source",
-        "Browser_Bits": "32",
-        "Platform": "Win98",
-        "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Win32": "true",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "PalmCentro\/v0001 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*",
-      "properties": {
-        "Parent": "Palm Source",
-        "Browser_Bits": "32",
-        "Platform": "Win98",
-        "Platform_Version": "98",
-        "Platform_Bits": "32",
-        "Win32": "true",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "AUS PALM WAPPER",
-      "properties": {
-        "Parent": "Palm Source"
-      }
+      },
+      "children": [
+        {
+          "match": "Palm680\/RC1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Win98",
+            "Platform_Version": "98",
+            "Platform_Bits": "32",
+            "Win32": "true",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "PalmCentro\/v0001 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows 98; PalmSource\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Win98",
+            "Platform_Version": "98",
+            "Platform_Bits": "32",
+            "Win32": "true",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "AUS PALM WAPPER"
+        }
+      ]
     }
   ]
 }

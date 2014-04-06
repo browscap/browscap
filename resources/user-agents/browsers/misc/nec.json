@@ -24,13 +24,12 @@
         "Crawler": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "portalmmm\/2.0 N410i(c20;TB)*",
-      "properties": {
-        "Parent": "NEC"
-      }
+      },
+      "children": [
+        {
+          "match": "portalmmm\/2.0 N410i(c20;TB)*"
+        }
+      ]
     }
   ]
 }
