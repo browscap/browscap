@@ -1093,14 +1093,12 @@
         {
           "match": "<*>*",
           "properties": {
-            "Parent": "Rippers",
             "Browser": "CKHttpGenerator"
           }
         },
         {
           "match": "CKHttpGenerator*",
           "properties": {
-            "Parent": "Rippers",
             "Division": "Rippers",
             "Browser": "CKHttpGenerator"
           }
