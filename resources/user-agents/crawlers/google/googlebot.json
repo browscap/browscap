@@ -10,28 +10,15 @@
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false"
-      }
-    },
-    {
-      "userAgent": "Google\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
       },
-        "children": [
-            {
-                "match": "Automator* CFNetwork\/* #PLATFORM#",
-                "platforms": [
-                    "Darwin"
-                ]
-            }
-        ]
+      "children": [
+        {
+          "match": "Google\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     },
     {
       "userAgent": "GoogleBot\/*",
