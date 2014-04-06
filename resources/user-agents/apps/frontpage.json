@@ -21,10 +21,10 @@
       },
       "children": [
         {
-          "userAgent": "Mozilla\/?* (compatible; MS FrontPage*)"
+          "match": "Mozilla\/?* (compatible; MS FrontPage*)"
         },
         {
-          "userAgent": "MSFrontPage\/*"
+          "match": "MSFrontPage\/*"
         }
       ]
     }
