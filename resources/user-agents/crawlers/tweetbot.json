@@ -36,21 +36,15 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Tweetbot\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Tweetbot"
-      }
-    },
-    {
-      "userAgent": "Tweetbot\/* CFNetwork\/548.1* Darwin\/11.0*",
-      "properties": {
-        "Parent": "Tweetbot",
-        "Platform_Version": "11.0",
-        "RenderingEngine_Version": "548.1"
-      }
+      },
+      "children": [
+        {
+          "match": "Tweetbot\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -63,7 +63,7 @@
       },
       "children": [
         {
-          "match": "Emacs\/W3\/3.* (#PLATFORM#",
+          "match": "Emacs\/W3\/4.* (#PLATFORM#",
           "platforms": [
             "Unix", "Linux"
           ]

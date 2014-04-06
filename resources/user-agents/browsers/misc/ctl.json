@@ -29,19 +29,15 @@
         "Platform": "Java",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "CTL-ROCKET\/1.0\/WAP1.2 Profile\/MIDP-1.0 Configuration\/CLDC-1.1",
-      "properties": {
-        "Parent": "CTL"
-      }
-    },
-    {
-      "userAgent": "CTL\/(2004.07.01)SW2.0.0\/WAP1.2 *",
-      "properties": {
-        "Parent": "CTL"
-      }
+      },
+      "children": [
+        {
+          "match": "CTL-ROCKET\/1.0\/WAP1.2 Profile\/MIDP-1.0 Configuration\/CLDC-1.1"
+        },
+        {
+          "match": "CTL\/(2004.07.01)SW2.0.0\/WAP1.2 *"
+        }
+      ]
     }
   ]
 }

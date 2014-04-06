@@ -36,41 +36,36 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-      }
-    },
-    {
-      "userAgent": "The Diary\/* (iPad; iPad*; iPhone OS *",
-      "properties": {
-        "Parent": "The Diary",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad"
-      }
-    },
-    {
-      "userAgent": "The Diary\/* (iPad; iPad2*; iPhone OS *",
-      "properties": {
-        "Parent": "The Diary",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad"
-      }
-    },
-    {
-      "userAgent": "The Diary\/1.1* (iPad; iPad2*; iPhone OS 5.1; *",
-      "properties": {
-        "Parent": "The Diary",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1",
-        "Platform_Version": "5.1",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad"
-      }
+      },
+      "children": [
+        {
+          "match": "The Diary\/* (iPad; #PLATFORM#",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "The Diary\/1.1* (iPad; #PLATFORM#",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_5_1"
+          ]
+        }
+      ]
     }
   ]
 }

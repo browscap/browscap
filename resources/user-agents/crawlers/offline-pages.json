@@ -25,7 +25,15 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh"
-      }
+      },
+        "children": [
+            {
+                "match": "Automator* CFNetwork\/* #PLATFORM#",
+                "platforms": [
+                    "Darwin"
+                ]
+            }
+        ]
     }
   ]
 }

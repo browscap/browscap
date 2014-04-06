@@ -10,19 +10,15 @@
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "BELLWAVE_NEO200_MT",
-      "properties": {
-        "Parent": "Bellwave"
-      }
-    },
-    {
-      "userAgent": "Bellwave_HTG100_R10",
-      "properties": {
-        "Parent": "Bellwave"
-      }
+      },
+      "children": [
+        {
+          "match": "BELLWAVE_NEO200_MT"
+        },
+        {
+          "match": "Bellwave_HTG100_R10"
+        }
+      ]
     }
   ]
 }

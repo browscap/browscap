@@ -10,25 +10,18 @@
         "Platform": "Java",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "ASUS-J101\/1.0 *",
-      "properties": {
-        "Parent": "Asus"
-      }
-    },
-    {
-      "userAgent": "ASUS-V55\/1.0",
-      "properties": {
-        "Parent": "Asus"
-      }
-    },
-    {
-      "userAgent": "ASUS-V66\/1.0 *",
-      "properties": {
-        "Parent": "Asus"
-      }
+      },
+      "children": [
+        {
+          "match": "ASUS-J101\/1.0 *"
+        },
+        {
+          "match": "ASUS-V55\/1.0"
+        },
+        {
+          "match": "ASUS-V66\/1.0 *"
+        }
+      ]
     }
   ]
 }

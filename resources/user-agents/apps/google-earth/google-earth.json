@@ -1,57 +1,52 @@
 {
-  "division": "iSearch",
-  "sortIndex": 6340,
+  "division": "Google Earth #MAJORVER#.#MINORVER#",
+  "versions": [5, 6, 7, "7.1"],
+  "sortIndex": 5070,
   "userAgents": [
     {
-      "userAgent": "iSearch",
+      "userAgent": "Google Earth #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser": "iSearch",
+        "Comment": "Google Earth #MAJORVER#.#MINORVER#",
+        "Browser": "Google Earth",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
+        "Browser_Maker": "Google Inc",
+        "Platform": "Linux",
+        "Platform_Version": "",
+        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
         "BackgroundSounds": "false",
-        "JavaScript": "false",
         "VBScript": "false",
-        "JavaApplets": "false",
         "ActiveXControls": "false",
         "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
+        "CssVersion": "3",
         "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
       },
       "children": [
         {
-          "match": "iSearch\/* CFNetwork\/* #PLATFORM#",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Google Earth\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "Darwin"
+            "OSX", "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ]
         },
         {
-          "match": "iSearch\/1.2* CFNetwork\/* #PLATFORM#",
-          "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
-          },
+          "match": "GoogleEarth\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "platforms": [
-            "Darwin"
+            "Win7_32_2"
           ]
         }
       ]

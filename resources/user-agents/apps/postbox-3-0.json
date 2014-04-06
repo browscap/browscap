@@ -31,25 +31,16 @@
         "Version": "3.0",
         "MajorVer": "3",
         "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation",
-        "RenderingEngine_Version": "7.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:*) Gecko\/* Postbox\/3.*",
-      "properties": {
-        "Parent": "Postbox 3.0",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.8",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
+        "Platform_Maker": "Linux Foundation"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Postbox\/3.*",
+          "platforms": [
+            "OSX", "OSX_10_8_B"
+          ]
+        }
+      ]
     }
   ]
 }

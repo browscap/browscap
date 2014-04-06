@@ -10,37 +10,24 @@
         "Platform": "Java",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "AMOI\/R1A",
-      "properties": {
-        "Parent": "Amoi"
-      }
-    },
-    {
-      "userAgent": "Amoi-A869\/Plat-V-FT\/WAP2.0\/MIDP2.0\/CLDC1.0",
-      "properties": {
-        "Parent": "Amoi"
-      }
-    },
-    {
-      "userAgent": "Amoi-H9\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
-      "properties": {
-        "Parent": "Amoi"
-      }
-    },
-    {
-      "userAgent": "Amoi-M6\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
-      "properties": {
-        "Parent": "Amoi"
-      }
-    },
-    {
-      "userAgent": "Amoi-M8\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0",
-      "properties": {
-        "Parent": "Amoi"
-      }
+      },
+      "children": [
+        {
+          "match": "AMOI\/R1A"
+        },
+        {
+          "match": "Amoi-A869\/Plat-V-FT\/WAP2.0\/MIDP2.0\/CLDC1.0"
+        },
+        {
+          "match": "Amoi-H9\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+        },
+        {
+          "match": "Amoi-M6\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+        },
+        {
+          "match": "Amoi-M8\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+        }
+      ]
     }
   ]
 }

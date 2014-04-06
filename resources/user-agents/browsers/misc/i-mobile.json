@@ -27,31 +27,21 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "i-mobile 608\/1.0 *",
-      "properties": {
-        "Parent": "i-mobile"
-      }
-    },
-    {
-      "userAgent": "i-mobile601 MIC\/WAP2.0 *",
-      "properties": {
-        "Parent": "i-mobile"
-      }
-    },
-    {
-      "userAgent": "i-mobile606",
-      "properties": {
-        "Parent": "i-mobile"
-      }
-    },
-    {
-      "userAgent": "i-mobile901",
-      "properties": {
-        "Parent": "i-mobile"
-      }
+      },
+      "children": [
+        {
+          "match": "i-mobile 608\/1.0 *"
+        },
+        {
+          "match": "i-mobile601 MIC\/WAP2.0 *"
+        },
+        {
+          "match": "i-mobile606"
+        },
+        {
+          "match": "i-mobile901"
+        }
+      ]
     }
   ]
 }

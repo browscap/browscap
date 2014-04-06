@@ -34,59 +34,55 @@
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh",
         "RenderingEngine_Name": "Tasman"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (compatible*; MSIE 4.0*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (compatible*; MSIE 4.5*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "4.5",
-        "MajorVer": "4",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (*compatible*;*MSIE 5.0*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "5.0",
-        "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (compatible*; MSIE 5.1*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "5.1",
-        "MajorVer": "5",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (compatible*; MSIE 5.2*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "5.2",
-        "MajorVer": "5",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.? (compatible*; MSIE 5.23*Mac_PowerPC*",
-      "properties": {
-        "Parent": "IE Mac",
-        "Version": "5.23",
-        "MajorVer": "5",
-        "MinorVer": "23"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/?.? (compatible*; MSIE 4.0*Mac_PowerPC*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4"
+          }
+        },
+        {
+          "match": "Mozilla\/?.? (compatible*; MSIE 4.5*Mac_PowerPC*",
+          "properties": {
+            "Version": "4.5",
+            "MajorVer": "4",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "Mozilla\/?.? (*compatible*;*MSIE 5.0*Mac_PowerPC*",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5"
+          }
+        },
+        {
+          "match": "Mozilla\/?.? (compatible*; MSIE 5.1*Mac_PowerPC*",
+          "properties": {
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/?.? (compatible*; MSIE 5.2*Mac_PowerPC*",
+          "properties": {
+            "Version": "5.2",
+            "MajorVer": "5",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/?.? (compatible*; MSIE 5.23*Mac_PowerPC*",
+          "properties": {
+            "Version": "5.23",
+            "MajorVer": "5",
+            "MinorVer": "23"
+          }
+        }
+      ]
     }
   ]
 }

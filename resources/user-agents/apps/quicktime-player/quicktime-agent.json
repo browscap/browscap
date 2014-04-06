@@ -18,13 +18,12 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Apple?iPhone*",
-      "properties": {
-        "Parent": "QuickTime Agent"
-      }
+      },
+      "children": [
+        {
+          "match": "Apple?iPhone*"
+        }
+      ]
     }
   ]
 }

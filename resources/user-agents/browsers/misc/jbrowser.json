@@ -27,19 +27,15 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "jBrowser-WAP\/1.0.4",
-      "properties": {
-        "Parent": "jBrowser"
-      }
-    },
-    {
-      "userAgent": "jBrowser\/J2ME *",
-      "properties": {
-        "Parent": "jBrowser"
-      }
+      },
+      "children": [
+        {
+          "match": "jBrowser-WAP\/1.0.4"
+        },
+        {
+          "match": "jBrowser\/J2ME *"
+        }
+      ]
     }
   ]
 }

@@ -30,15 +30,16 @@
         "RenderingEngine_Maker": "Microsoft Corporation",
         "Version": "5.0",
         "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 5.*",
-      "properties": {
-        "Parent": "IEMobile 5.0",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 5.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        }
+      ]
     }
   ]
 }

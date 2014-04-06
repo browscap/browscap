@@ -17,13 +17,12 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "KDDI-* UP.Browser\/* (GUI) MMP\/*",
-      "properties": {
-        "Parent": "KDDI"
-      }
+      },
+      "children": [
+        {
+          "match": "KDDI-* UP.Browser\/* (GUI) MMP\/*"
+        }
+      ]
     }
   ]
 }

@@ -234,15 +234,26 @@ class CollectionParser
 
         if (isset($uaData['children']) && is_array($uaData['children'])) {
             if (isset($uaData['children']['match'])) {
-                $output += $this->parseChildren($uaData['userAgent'], $uaData['children'], $majorVer, $minorVer);
-            } else {
-                foreach ($uaData['children'] as $child) {
-                    if (!is_array($child) || !isset($child['match'])) {
-                        continue;
-                    }
+                throw new \LogicException(
+                    'the children property has to be an array of arrays for key "' . $uaData['userAgent'] . '"'
+                );
+            }
 
-                    $output += $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
+            foreach ($uaData['children'] as $child) {
+                if (!is_array($child)) {
+                    throw new \LogicException(
+                        'each entry of the children property has to be an array for key "' . $uaData['userAgent'] . '"'
+                    );
                 }
+
+                if (!isset($child['match'])) {
+                    throw new \LogicException(
+                        'each entry of the children property requires an "match" entry for key "'
+                        . $uaData['userAgent'] . '"'
+                    );
+                }
+
+                $output += $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
             }
         }
 
@@ -257,10 +268,25 @@ class CollectionParser
      * @param string $majorVer
      * @param string $minorVer
      *
+     * @throws \LogicException
      * @return array[]
      */
     private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
     {
+        if (isset($uaDataChild['properties'])) {
+            if (!is_array($uaDataChild['properties'])) {
+                throw new \LogicException(
+                    'the properties entry has to be an array for key "' . $uaDataChild['match'] . '"'
+                );
+            }
+
+            if (isset($uaDataChild['properties']['Parent'])) {
+                throw new \LogicException(
+                    'the Parent property must not set inside the children array for key "' . $uaDataChild['match'] . '"'
+                );
+            }
+        }
+
         $output = array();
 
         // @todo This needs work here. What if we specify platforms AND versions?

@@ -1,12 +1,13 @@
 {
-  "division": "iSiloX",
+  "division": "iSiloX #MAJORVER#.#MINORVER#",
+  "versions": [4, "4.1", "4.2", "4.3"],
   "sortIndex": 2410,
   "userAgents": [
     {
-      "userAgent": "iSiloX",
+      "userAgent": "iSiloX #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "iSiloX",
+        "Comment": "iSiloX #MAJORVER#.#MINORVER#",
         "Browser": "iSiloX",
         "Browser_Type": "Application",
         "Frames": "true",
@@ -19,91 +20,21 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.0* MacOS",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0",
-        "Platform": "MacPPC"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.0* Windows\/32",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0",
-        "Platform": "Win32",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.1* MacOS",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.1",
-        "MajorVer": "4",
-        "MinorVer": "1",
-        "Platform": "MacPPC"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.1* Windows\/32",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.1",
-        "MajorVer": "4",
-        "MinorVer": "1",
-        "Platform": "Win32",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.2* MacOS",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.2",
-        "MajorVer": "4",
-        "MinorVer": "2",
-        "Platform": "MacPPC"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.2* Windows\/32",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.2",
-        "MajorVer": "4",
-        "MinorVer": "2",
-        "Platform": "Win32",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.3* MacOS",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.3",
-        "MajorVer": "4",
-        "MinorVer": "3",
-        "Platform": "MacOSX"
-      }
-    },
-    {
-      "userAgent": "iSiloX\/4.3* Windows\/32",
-      "properties": {
-        "Parent": "iSiloX",
-        "Version": "4.3",
-        "MajorVer": "4",
-        "MinorVer": "3",
-        "Platform": "Win32",
-        "Win32": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "iSiloX\/#MAJORVER#.#MINORVER#* MacOS",
+          "platforms": [
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "iSiloX\/4.0* Windows\/32",
+          "platforms": [
+            "Win32"
+          ]
+        }
+      ]
     }
   ]
 }

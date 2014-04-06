@@ -18,19 +18,15 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?* (compatible; MS FrontPage*)",
-      "properties": {
-        "Parent": "FrontPage"
-      }
-    },
-    {
-      "userAgent": "MSFrontPage\/*",
-      "properties": {
-        "Parent": "FrontPage"
-      }
+      },
+      "children": [
+        {
+          "userAgent": "Mozilla\/?* (compatible; MS FrontPage*)"
+        },
+        {
+          "userAgent": "MSFrontPage\/*"
+        }
+      ]
     }
   ]
 }

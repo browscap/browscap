@@ -8,6 +8,9 @@
         "Parent": "DefaultProperties",
         "Comment": "Lycoris Desktop\/LX",
         "Browser": "Lycoris Desktop\/LX",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -16,18 +19,17 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686* *Desktop\/LX Amethyst*) *Gecko\/*",
-      "properties": {
-        "Parent": "Lycoris Desktop\/LX",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "Platform": "Linux"
-      }
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Desktop\/LX Amethyst*) *Gecko\/*",
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
     }
   ]
 }

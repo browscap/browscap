@@ -25,19 +25,7 @@
         "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop",
         "Browser": "Barca Mail Clint",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
-      }
-    },
-    {
-      "userAgent": "Barca\/1.4*",
-      "properties": {
-        "Parent": "Barca Mail Clint",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4",
         "Platform": "MacOSX",
         "Platform_Version": "10",
         "Platform_Maker": "Apple Inc",
@@ -46,57 +34,40 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Barca\/2.0*",
-      "properties": {
-        "Parent": "Barca Mail Clint",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Barca\/2.8*",
-      "properties": {
-        "Parent": "Barca Mail Clint",
-        "Version": "2.8",
-        "MajorVer": "2",
-        "MinorVer": "8",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "BarcaPro\/2.8*",
-      "properties": {
-        "Parent": "Barca Mail Clint",
-        "Version": "2.8",
-        "MajorVer": "2",
-        "MinorVer": "8",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
+      },
+      "children": [
+        {
+          "match": "Barca\/1.4*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Barca\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Barca\/2.8*",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "BarcaPro\/2.8*",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8"
+          }
+        }
+      ]
     }
   ]
 }

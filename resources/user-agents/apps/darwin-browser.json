@@ -36,78 +36,28 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "browser\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Darwin Browser"
-      }
-    },
-    {
-      "userAgent": "browser\/* CFNetwork\/* Darwin\/10.4*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "Platform_Version": "10.4"
-      }
-    },
-    {
-      "userAgent": "browser\/* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "isMobileDevice": "true",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/10.4*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "Platform_Version": "10.4",
-        "isMobileDevice": "true",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "Platform_Version": "11.0",
-        "isMobileDevice": "true",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad",
-        "Device_isTablet": "true"
-      }
-    },
-    {
-      "userAgent": "browseripad\/* CFNetwork\/* Darwin\/13.*",
-      "properties": {
-        "Parent": "Darwin Browser",
-        "Platform_Version": "13.0",
-        "isMobileDevice": "true",
-        "isTablet": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad",
-        "Device_isTablet": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "browser\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "browseripad\/* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

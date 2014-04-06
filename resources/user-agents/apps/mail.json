@@ -5,15 +5,30 @@
     {
       "userAgent": "Mail",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "News",
         "Browser": "News",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mail\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mail",
+        "Browser_Type": "Email Client",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "Crawler": "false",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "isSyndicationReader": "true",
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
@@ -21,7 +36,15 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh"
-      }
+      },
+      "children": [
+        {
+          "match": "Mail\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

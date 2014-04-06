@@ -27,19 +27,15 @@
         "Device_Type": "Mobile Device",
         "Browser": "bumblebee",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "bumblebee\/1.0 (bumblebee@relevare.com; http:\/\/www.relevare.com\/)",
-      "properties": {
-        "Parent": "bumblebee"
-      }
-    },
-    {
-      "userAgent": "bumblebee@relevare.com",
-      "properties": {
-        "Parent": "bumblebee"
-      }
+      },
+      "children": [
+        {
+          "match": "bumblebee\/1.0 (bumblebee@relevare.com; http:\/\/www.relevare.com\/)"
+        },
+        {
+          "match": "bumblebee@relevare.com"
+        }
+      ]
     }
   ]
 }
