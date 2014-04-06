@@ -1002,15 +1002,12 @@
         {
           "match": "ActiveWorlds*",
           "properties": {
-            "Parent": "Rippers",
             "Browser": "ActiveWorlds Bot"
           }
         },
         {
           "match": "agent*",
           "properties": {
-            "Parent": "Rippers",
-            "Division": "Rippers",
             "Browser": "ActiveWorlds Bot"
           }
         }

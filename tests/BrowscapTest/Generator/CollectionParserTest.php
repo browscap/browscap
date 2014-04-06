@@ -404,17 +404,6 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'MajorVer' => '1',
                 'MinorVer' => '0',
             ),
-            'abc/* (#PLATFORM#)' => array (
-                'Parent' => 'test',
-                'lite' => '',
-                'sortIndex' => '2',
-                'division' => 'abc',
-                'Browser' => 'test',
-                'Version' => '1.0',
-                'Parents' => 'DefaultProperties,test',
-                'MajorVer' => '1',
-                'MinorVer' => '0',
-            ),
             'abc/1.0* (#PLATFORM#)' => array (
                 'Parent' => 'test',
                 'lite' => '',
