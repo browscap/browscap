@@ -125,14 +125,16 @@ class DataCollection
             $sortIndex    = array();
             $sortPosition = array();
 
+            $groups = array();
+
             foreach ($this->divisions as $key => $division) {
                 $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
                 $sortPosition[$key] = $key;
             }
 
             array_multisort(
-                $sortIndex, SORT_ASC,
-                $sortPosition, SORT_DESC, // if the sortIndex is identical the later added file comes first
+                $sortIndex, SORT_ASC, SORT_NUMERIC,
+                $sortPosition, SORT_DESC, SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
                 $this->divisions
             );
 
