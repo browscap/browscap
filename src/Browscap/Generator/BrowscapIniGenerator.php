@@ -157,7 +157,6 @@ class BrowscapIniGenerator extends AbstractGenerator
             }
 
             // create output - php
-
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
                 || 'DefaultProperties' == $properties['Parent']

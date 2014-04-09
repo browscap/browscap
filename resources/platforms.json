@@ -739,12 +739,13 @@
       "match": "*Linux i686 (x86_64)*",
       "properties": {
         "Browser_Bits": "32",
-        "Platform": "Debian",
         "Platform_Bits": "64",
+        "Platform": "Debian",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win3.1": {
@@ -766,10 +767,14 @@
       "match": "*Windows 3.1*",
       "properties": {
         "Platform": "Win31",
+        "Platform_Bits": "16",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
         "Platform_Version": "3.1",
         "Platform_Description": "Windows 3.1",
         "Win16": "true",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win3.11": {
@@ -831,10 +836,14 @@
       "match": "*Windows 3.11*",
       "properties": {
         "Platform": "Win31",
+        "Platform_Bits": "16",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
         "Platform_Version": "3.11",
         "Platform_Description": "Windows 3.11",
         "Win16": "true",
-        "Win32": "false"
+        "Win32": "false",
+        "Win64": "false"
       }
     },
     "Win95": {
@@ -1225,6 +1234,9 @@
       "match": "*Windows NT 5.2;*Win64*",
       "properties": {
         "Platform": "WinXP",
+        "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
         "Platform_Version": "5.2",
         "Platform_Description": "Windows XP",
         "Win32": "false",
