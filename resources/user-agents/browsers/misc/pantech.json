@@ -24,31 +24,21 @@
         "Crawler": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "PANTECH G200*",
-      "properties": {
-        "Parent": "Pantech"
-      }
-    },
-    {
-      "userAgent": "PANTECH G500*",
-      "properties": {
-        "Parent": "Pantech"
-      }
-    },
-    {
-      "userAgent": "PT-G700*",
-      "properties": {
-        "Parent": "Pantech"
-      }
-    },
-    {
-      "userAgent": "PT-GI100 * MIDP\/MIDP-1.0*",
-      "properties": {
-        "Parent": "Pantech"
-      }
+      },
+      "children": [
+        {
+          "match": "PANTECH G200*"
+        },
+        {
+          "match": "PANTECH G500*"
+        },
+        {
+          "match": "PT-G700*"
+        },
+        {
+          "match": "PT-GI100 * MIDP\/MIDP-1.0*"
+        }
+      ]
     }
   ]
 }

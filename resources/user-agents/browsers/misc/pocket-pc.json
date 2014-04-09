@@ -19,43 +19,27 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "*(compatible; MSIE *.*; Windows CE; PPC; *)",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
-    },
-    {
-      "userAgent": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
-    },
-    {
-      "userAgent": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
-    },
-    {
-      "userAgent": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
-    },
-    {
-      "userAgent": "Windows CE (Pocket PC) - Version *.*",
-      "properties": {
-        "Parent": "Pocket PC"
-      }
+      },
+      "children": [
+        {
+          "match": "*(compatible; MSIE *.*; Windows CE; PPC; *)"
+        },
+        {
+          "match": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*"
+        },
+        {
+          "match": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*"
+        },
+        {
+          "match": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)"
+        },
+        {
+          "match": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*"
+        },
+        {
+          "match": "Windows CE (Pocket PC) - Version *.*"
+        }
+      ]
     }
   ]
 }
