@@ -24,19 +24,15 @@
         "Crawler": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "J-PHONE\/4.0\/J-SH51\/*",
-      "properties": {
-        "Parent": "Vodafone"
-      }
-    },
-    {
-      "userAgent": "J-PHONE\/4.3\/V602T\/*",
-      "properties": {
-        "Parent": "Vodafone"
-      }
+      },
+      "children": [
+        {
+          "match": "J-PHONE\/4.0\/J-SH51\/*"
+        },
+        {
+          "match": "J-PHONE\/4.3\/V602T\/*"
+        }
+      ]
     }
   ]
 }

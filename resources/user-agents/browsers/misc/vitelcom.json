@@ -30,31 +30,21 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "TSM-100\/* Browser\/1.2.1 *",
-      "properties": {
-        "Parent": "Vitelcom"
-      }
-    },
-    {
-      "userAgent": "TSM-100v\/* Browser\/1.2.1 *",
-      "properties": {
-        "Parent": "Vitelcom"
-      }
-    },
-    {
-      "userAgent": "TSM-30\/* Browser\/1.2.1 *",
-      "properties": {
-        "Parent": "Vitelcom"
-      }
-    },
-    {
-      "userAgent": "TSM340\/* Browser\/1.2.1 *",
-      "properties": {
-        "Parent": "Vitelcom"
-      }
+      },
+      "children": [
+        {
+          "match": "TSM-100\/* Browser\/1.2.1 *"
+        },
+        {
+          "match": "TSM-100v\/* Browser\/1.2.1 *"
+        },
+        {
+          "match": "TSM-30\/* Browser\/1.2.1 *"
+        },
+        {
+          "match": "TSM340\/* Browser\/1.2.1 *"
+        }
+      ]
     }
   ]
 }

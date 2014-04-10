@@ -30,19 +30,15 @@
         "Cookies": "true",
         "isMobileDevice": "true",
         "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/*",
-      "properties": {
-        "Parent": "ZTE"
-      }
-    },
-    {
-      "userAgent": "ZTE-C78\/1.0 SMIT-Browser\/2.0*",
-      "properties": {
-        "Parent": "ZTE"
-      }
+      },
+      "children": [
+        {
+          "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/*"
+        },
+        {
+          "userAgent": "ZTE-C78\/1.0 SMIT-Browser\/2.0*"
+        }
+      ]
     }
   ]
 }

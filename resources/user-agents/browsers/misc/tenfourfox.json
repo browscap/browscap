@@ -32,15 +32,19 @@
         "RenderingEngine_Version": "",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*; rv:17.0) Gecko\/* Firefox\/* TenFourFox\/*",
-      "properties": {
-        "Parent": "TenFourFox",
-        "Platform_Version": "10.5",
-        "RenderingEngine_Version": "17.0"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*; rv:17.0) Gecko\/* Firefox\/* TenFourFox\/*",
+          "properties": {
+            "Platform_Version": "10.5",
+            "RenderingEngine_Version": "17.0"
+          },
+          "platforms": [
+            "OSX", "OSX_10_5_B"
+          ]
+        }
+      ]
     }
   ]
 }

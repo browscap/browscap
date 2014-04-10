@@ -27,19 +27,15 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Bleu 453x",
-      "properties": {
-        "Parent": "Sagem"
-      }
-    },
-    {
-      "userAgent": "KAA-A59\/*\/WAP1.2 *",
-      "properties": {
-        "Parent": "Sagem"
-      }
+      },
+      "children": [
+        {
+          "match": "Bleu 453x"
+        },
+        {
+          "match": "KAA-A59\/*\/WAP1.2 *"
+        }
+      ]
     }
   ]
 }
