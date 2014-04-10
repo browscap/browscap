@@ -226,10 +226,10 @@ class CollectionParser
 
         $output = array(
             $uaData['userAgent'] => array(
-                    'lite' => $lite,
-                    'sortIndex' => $sortIndex,
-                    'division' => $divisionName
-                ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
+                'lite' => $lite,
+                'sortIndex' => $sortIndex,
+                'division' => $divisionName
+            ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
 
         if (isset($uaData['children']) && is_array($uaData['children'])) {
