@@ -13,47 +13,47 @@
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop"
       },
-        "children": [
-            {
-                "match": "amaya\/7.*",
-                "properties": {
-                    "Version": "7.0",
-                    "MajorVer": "7"
-                }
-            },
-            {
-                "match": "amaya\/8.*",
-                "properties": {
-                    "Version": "8.0",
-                    "MajorVer": "8",
-                    "CssVersion": "2"
-                }
-            },
-            {
-                "match": "amaya\/9.*",
-                "properties": {
-                    "Version": "9.0",
-                    "MajorVer": "9",
-                    "CssVersion": "2"
-                }
-            },
-            {
-                "match": "amaya\/10.*",
-                "properties": {
-                    "Version": "10.0",
-                    "MajorVer": "10",
-                    "CssVersion": "2"
-                }
-            },
-            {
-                "match": "amaya\/11.*",
-                "properties": {
-                    "Version": "11.0",
-                    "MajorVer": "11",
-                    "CssVersion": "2"
-                }
-            }
-        ]
+      "children": [
+        {
+          "match": "amaya\/7.*",
+          "properties": {
+            "Version": "7.0",
+            "MajorVer": "7"
+          }
+        },
+        {
+          "match": "amaya\/8.*",
+          "properties": {
+            "Version": "8.0",
+            "MajorVer": "8",
+            "CssVersion": "2"
+          }
+        },
+        {
+          "match": "amaya\/9.*",
+          "properties": {
+            "Version": "9.0",
+            "MajorVer": "9",
+            "CssVersion": "2"
+          }
+        },
+        {
+          "match": "amaya\/10.*",
+          "properties": {
+            "Version": "10.0",
+            "MajorVer": "10",
+            "CssVersion": "2"
+          }
+        },
+        {
+          "match": "amaya\/11.*",
+          "properties": {
+            "Version": "11.0",
+            "MajorVer": "11",
+            "CssVersion": "2"
+          }
+        }
+      ]
     }
   ]
 }

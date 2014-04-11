@@ -1,95 +1,95 @@
 {
-  "division": "WordPress",
-  "sortIndex": 310,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "WordPress",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "WordPress",
-        "Browser": "WordPress",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "WordPress\/*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "WordPress-B-\/2.*",
-      "properties": {
-        "Parent": "WordPress",
-        "Browser": "WordPress-B"
-      }
-    },
-    {
-      "userAgent": "WordPress-Do-P-\/2.*",
-      "properties": {
-        "Parent": "WordPress",
-        "Browser": "WordPress-Do-P"
-      }
-    },
-    {
-      "userAgent": "Incutio XML-RPC -- WordPress\/*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "The Incutio XML-RPC PHP Library -- WordPress*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.0*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.0",
-        "MajorVer": "3"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.1*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.1",
-        "MajorVer": "3",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.2*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.2",
-        "MajorVer": "3",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.3*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.3",
-        "MajorVer": "3",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.4*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.4",
-        "MajorVer": "3",
-        "MinorVer": "4"
-      }
-    }
-  ]
+    "division": "WordPress",
+    "sortIndex": 310,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "WordPress",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "WordPress",
+                "Browser": "WordPress",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "WordPress\/*",
+            "properties": {
+                "Parent": "WordPress"
+            }
+        },
+        {
+            "userAgent": "WordPress-B-\/2.*",
+            "properties": {
+                "Parent": "WordPress",
+                "Browser": "WordPress-B"
+            }
+        },
+        {
+            "userAgent": "WordPress-Do-P-\/2.*",
+            "properties": {
+                "Parent": "WordPress",
+                "Browser": "WordPress-Do-P"
+            }
+        },
+        {
+            "userAgent": "Incutio XML-RPC -- WordPress\/*",
+            "properties": {
+                "Parent": "WordPress"
+            }
+        },
+        {
+            "userAgent": "The Incutio XML-RPC PHP Library -- WordPress*",
+            "properties": {
+                "Parent": "WordPress"
+            }
+        },
+        {
+            "userAgent": "WordPress\/3.0*",
+            "properties": {
+                "Parent": "WordPress",
+                "Version": "3.0",
+                "MajorVer": "3"
+            }
+        },
+        {
+            "userAgent": "WordPress\/3.1*",
+            "properties": {
+                "Parent": "WordPress",
+                "Version": "3.1",
+                "MajorVer": "3",
+                "MinorVer": "1"
+            }
+        },
+        {
+            "userAgent": "WordPress\/3.2*",
+            "properties": {
+                "Parent": "WordPress",
+                "Version": "3.2",
+                "MajorVer": "3",
+                "MinorVer": "2"
+            }
+        },
+        {
+            "userAgent": "WordPress\/3.3*",
+            "properties": {
+                "Parent": "WordPress",
+                "Version": "3.3",
+                "MajorVer": "3",
+                "MinorVer": "3"
+            }
+        },
+        {
+            "userAgent": "WordPress\/3.4*",
+            "properties": {
+                "Parent": "WordPress",
+                "Version": "3.4",
+                "MajorVer": "3",
+                "MinorVer": "4"
+            }
+        }
+    ]
 }

@@ -1,53 +1,53 @@
 {
-  "division": "Opera Mobile 9.00",
-  "sortIndex": 9470,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mobile 9.00",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Version": "9.00",
-        "MajorVer": "9",
-        "MinorVer": "00",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-      }
-    },
-    {
-      "userAgent": "Opera\/9.* (Microsoft Windows; PPC; Opera Mobi\/*)",
-      "properties": {
-        "Parent": "Opera Mobile 9.00",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Opera\/9.* (Windows*; Opera Mobi\/*) Presto\/2.*",
-      "properties": {
-        "Parent": "Opera Mobile 9.00",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    }
-  ]
+    "division": "Opera Mobile 9.00",
+    "sortIndex": 9470,
+    "userAgents": [
+        {
+            "userAgent": "Opera Mobile 9.00",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+                "Browser": "Opera Mobile",
+                "Version": "9.00",
+                "MajorVer": "9",
+                "MinorVer": "00",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Phone",
+                "Device_Pointing_Method": "touchscreen",
+                "RenderingEngine_Name": "Presto",
+                "RenderingEngine_Version": "2.2",
+                "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+            }
+        },
+        {
+            "userAgent": "Opera\/9.* (Microsoft Windows; PPC; Opera Mobi\/*)",
+            "properties": {
+                "Parent": "Opera Mobile 9.00",
+                "Browser_Bits": "32",
+                "Platform": "Windows Mobile OS",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "Opera\/9.* (Windows*; Opera Mobi\/*) Presto\/2.*",
+            "properties": {
+                "Parent": "Opera Mobile 9.00",
+                "Browser_Bits": "32",
+                "Platform": "Windows Mobile OS",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        }
+    ]
 }

@@ -1,46 +1,46 @@
 {
-  "division": "UC Browser",
-  "sortIndex": 1890,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UC Browser",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UC Browser",
-        "Browser": "UC Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Java;*samsung*) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
-      "properties": {
-        "Parent": "UC Browser",
-        "Version": "8.2",
-        "MajorVer": "8",
-        "MinorVer": "2",
-        "Platform": "JAVA",
-        "Device_Name": "Samsung",
-        "Device_Maker": "Samsung"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
-      "properties": {
-        "Parent": "UC Browser",
-        "Version": "8.2",
-        "MajorVer": "8",
-        "MinorVer": "2",
-        "Platform": "JAVA",
-        "Device_Name": "GT-S5263",
-        "Device_Maker": "Samsung"
-      }
-    }
-  ]
+    "division": "UC Browser",
+    "sortIndex": 1890,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "UC Browser",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "UC Browser",
+                "Browser": "UC Browser",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Java;*samsung*) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
+            "properties": {
+                "Parent": "UC Browser",
+                "Version": "8.2",
+                "MajorVer": "8",
+                "MinorVer": "2",
+                "Platform": "JAVA",
+                "Device_Name": "Samsung",
+                "Device_Maker": "Samsung"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
+            "properties": {
+                "Parent": "UC Browser",
+                "Version": "8.2",
+                "MajorVer": "8",
+                "MinorVer": "2",
+                "Platform": "JAVA",
+                "Device_Name": "GT-S5263",
+                "Device_Maker": "Samsung"
+            }
+        }
+    ]
 }

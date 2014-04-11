@@ -1,218 +1,218 @@
 {
-  "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5"],
-  "sortIndex": 1178,
-  "userAgents": [
-    {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
-        "Browser": "UC Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
-      },
-      "children": [
+    "division": "UC Browser #MAJORVER#.#MINORVER#",
+    "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5"],
+    "sortIndex": 1178,
+    "userAgents": [
         {
-          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
-          "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "properties": {
-            "RenderingEngine_Name": "U3",
-            "RenderingEngine_Description": "a WebKit Fork by UC Web"
-          },
-          "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "RenderingEngine_Name": "U3",
-            "RenderingEngine_Description": "a WebKit Fork by UC Web"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "RenderingEngine_Name": "U3",
-            "RenderingEngine_Description": "a WebKit Fork by UC Web"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "RenderingEngine_Name": "U3",
-            "RenderingEngine_Description": "a WebKit Fork by UC Web"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "RenderingEngine_Name": "U3",
-            "RenderingEngine_Description": "a WebKit Fork by UC Web"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
-          "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
-          "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
-            "WinPhone7_B", "WinPhone8_B",
-            "SymbianOS_B"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-              "Device_Type": "Mobile Phone",
-              "Device_Code_Name": "iPhone",
-              "Device_Name": "iPhone",
-              "Device_Maker": "Apple",
-              "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen",
-              "isMobileDevice": "true"
-          },
-          "platforms": [
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-            "Device_Name": "GT-S5360",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Maker": "Micromax"
-          },
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-I9100T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LA-M1",
-            "Device_Maker": "Beidou",
-            "Device_Brand_Name": "Beidou",
-            "Device_Name": "Chili Pepper LA-M1"
-          },
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
+            "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+                "Browser": "UC Browser",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "MajorVer": "#MAJORVER#",
+                "MinorVer": "#MINORVER#",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "3",
+                "Device_Type": "Mobile Phone",
+                "Device_Pointing_Method": "touchscreen"
+            },
+            "children": [
+                {
+                    "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "RenderingEngine_Name": "WebKit",
+                        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+                    },
+                    "platforms": [
+                        "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+                    "properties": {
+                        "RenderingEngine_Name": "U3",
+                        "RenderingEngine_Description": "a WebKit Fork by UC Web"
+                    },
+                    "platforms": [
+                        "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung",
+                        "RenderingEngine_Name": "U3",
+                        "RenderingEngine_Description": "a WebKit Fork by UC Web"
+                    },
+                    "platforms": [
+                        "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung",
+                        "RenderingEngine_Name": "U3",
+                        "RenderingEngine_Description": "a WebKit Fork by UC Web"
+                    },
+                    "platforms": [
+                        "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung",
+                        "RenderingEngine_Name": "U3",
+                        "RenderingEngine_Description": "a WebKit Fork by UC Web"
+                    },
+                    "platforms": [
+                        "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung",
+                        "RenderingEngine_Name": "U3",
+                        "RenderingEngine_Description": "a WebKit Fork by UC Web"
+                    },
+                    "platforms": [
+                        "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+                    "properties": {
+                        "RenderingEngine_Name": "WebKit",
+                        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+                    },
+                    "platforms": [
+                        "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+                    "properties": {
+                        "RenderingEngine_Name": "WebKit",
+                        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+                    },
+                    "platforms": [
+                        "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "platforms": [
+                        "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+                        "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
+                        "WinPhone7_B", "WinPhone8_B",
+                        "SymbianOS_B"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "properties": {
+                        "Device_Type": "Mobile Phone",
+                        "Device_Code_Name": "iPhone",
+                        "Device_Name": "iPhone",
+                        "Device_Maker": "Apple",
+                        "Device_Brand_Name": "Apple",
+                        "Device_Pointing_Method": "touchscreen",
+                        "isMobileDevice": "true"
+                    },
+                    "platforms": [
+                        "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "properties": {
+                        "Device_Name": "GT-S5360",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "properties": {
+                        "Device_Name": "GT-S7562",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+                    "properties": {
+                        "Device_Name": "A27",
+                        "Device_Maker": "Micromax"
+                    },
+                    "platforms": [
+                        "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+                    ]
+                },
+                {
+                    "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+                },
+                {
+                    "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+                    "properties": {
+                        "Device_Type": "Mobile Phone",
+                        "Device_Code_Name": "GT-I9100",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II"
+                    },
+                    "platforms": [
+                        "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+                    "properties": {
+                        "Device_Type": "Mobile Phone",
+                        "Device_Code_Name": "GT-I9100T",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II"
+                    },
+                    "platforms": [
+                        "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+                    "properties": {
+                        "Device_Type": "Mobile Phone",
+                        "Device_Code_Name": "LA-M1",
+                        "Device_Maker": "Beidou",
+                        "Device_Brand_Name": "Beidou",
+                        "Device_Name": "Chili Pepper LA-M1"
+                    },
+                    "platforms": [
+                        "Android_4_1", "Android_4_2", "Android_4_3"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,464 +1,464 @@
 {
-  "division": "Openwave Mobile Browser 7.0",
-  "sortIndex": 8220,
-  "userAgents": [
-    {
-      "userAgent": "Openwave Mobile Browser 7.0",
-      "properties": {
-        "Parent": "Openwave Mobile Browser",
-        "Version": "7.0",
-        "MajorVer": "7"
-      }
-    },
-    {
-      "userAgent": "BenQ-SL91\/01 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "MOT-A-1C\/00.07 UP.Browser\/7.0.0.2*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "MOT-A-3E\/0?.0? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "MOT-A-5B\/0?.0? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "MOT-A-7F\/0?.0? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "NEC-a232_EDGE\/1.0 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Nokia 6600 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Nokia N70 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Nokia N70\/2.0 Push\/PO UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Nokia6600 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "OPWV-ModelExample\/0.1 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "OPWV-SDK UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "P800R101 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SANYO-S750\/2.280 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SEP800 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE 45 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C65\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C65\/4? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C65\/5? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C66\/3? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C66\/5? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C6C\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C6C\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C6V\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C6V\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C6V\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C72\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C72\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C75\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C75\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CF75\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CF76\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CF7C\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX6C\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX6V\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX70\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX75\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-CX7A\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-EF81\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/04 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/4? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M65\/5? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M6C\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M6C\/4? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M6V\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M75\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M75\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME75\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S65\/1? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S65\/4? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S6C\/12 UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S6C\/2? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S6V\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-SK65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-SK6R\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-SL65\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-SL6C\/* UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SIE-SP65\/4? UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "SmarTone-Vodafone\/SharpSX833\/SHS001\/1.0 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Smartone\/SharpSX813\/SHS001\/1.0 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/1.0\/703SH\/SHG001 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/1.0\/GX40\/SHG001 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/1.0\/V902SH\/SHJ00? Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/1.0\/V903SH\/SHJ001 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/Sharp902SH\/SHG001\/1.0 Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "Vodafone\/Sharp902SH\/SHG002\/1.0* Browser\/UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "WAP1.2-OPWV UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    },
-    {
-      "userAgent": "samsung UP.Browser\/7.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.0"
-      }
-    }
-  ]
+    "division": "Openwave Mobile Browser 7.0",
+    "sortIndex": 8220,
+    "userAgents": [
+        {
+            "userAgent": "Openwave Mobile Browser 7.0",
+            "properties": {
+                "Parent": "Openwave Mobile Browser",
+                "Version": "7.0",
+                "MajorVer": "7"
+            }
+        },
+        {
+            "userAgent": "BenQ-SL91\/01 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "MOT-A-1C\/00.07 UP.Browser\/7.0.0.2*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "MOT-A-3E\/0?.0? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "MOT-A-5B\/0?.0? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "MOT-A-7F\/0?.0? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "NEC-a232_EDGE\/1.0 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Nokia 6600 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Nokia N70 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Nokia N70\/2.0 Push\/PO UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Nokia6600 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "OPWV-ModelExample\/0.1 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "OPWV-SDK UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "P800R101 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SANYO-S750\/2.280 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SEP800 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE 45 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C65\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C65\/4? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C65\/5? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C66\/3? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C66\/5? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C6C\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C6C\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C6V\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C6V\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C6V\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C72\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C72\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C75\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C75\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CF75\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CF76\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CF7C\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX6C\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX6V\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX70\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX75\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-CX7A\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-EF81\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/04 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/4? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M65\/5? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M6C\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M6C\/4? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M6V\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M75\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M75\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME75\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S65\/1? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S65\/4? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S6C\/12 UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S6C\/2? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S6V\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-SK65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-SK6R\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-SL65\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-SL6C\/* UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SIE-SP65\/4? UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "SmarTone-Vodafone\/SharpSX833\/SHS001\/1.0 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Smartone\/SharpSX813\/SHS001\/1.0 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/1.0\/703SH\/SHG001 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/1.0\/GX40\/SHG001 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/1.0\/V902SH\/SHJ00? Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/1.0\/V903SH\/SHJ001 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/Sharp902SH\/SHG001\/1.0 Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "Vodafone\/Sharp902SH\/SHG002\/1.0* Browser\/UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "WAP1.2-OPWV UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        },
+        {
+            "userAgent": "samsung UP.Browser\/7.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 7.0"
+            }
+        }
+    ]
 }

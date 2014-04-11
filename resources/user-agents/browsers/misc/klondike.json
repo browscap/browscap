@@ -1,36 +1,36 @@
 {
-  "division": "Klondike",
-  "sortIndex": 6490,
-  "userAgents": [
-    {
-      "userAgent": "Klondike",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Klondike",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "unknown"
-      },
-      "children": [
+    "division": "Klondike",
+    "sortIndex": 6490,
+    "userAgents": [
         {
-          "match": "Klondike\/1.?0 (*)"
+            "userAgent": "Klondike",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Klondike",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "unknown"
+            },
+            "children": [
+                {
+                    "match": "Klondike\/1.?0 (*)"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

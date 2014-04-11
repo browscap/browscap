@@ -1,65 +1,65 @@
 {
-  "division": "libwww",
-  "sortIndex": 990,
-  "userAgents": [
-    {
-      "userAgent": "libwww",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "libwww",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*libwww*",
-      "properties": {
-        "Parent": "libwww"
-      }
-    },
-    {
-      "userAgent": "libwww-perl\/*",
-      "properties": {
-        "Parent": "libwww"
-      }
-    },
-    {
-      "userAgent": "ShowXML\/* libwww\/5.4*",
-      "properties": {
-        "Parent": "libwww",
-        "Version": "5.4",
-        "MajorVer": "5",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "libwww-perl\/5.8*",
-      "properties": {
-        "Parent": "libwww",
-        "Version": "5.8",
-        "MajorVer": "5",
-        "MinorVer": "8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (windows; U; *) Gecko\/* libwww-perl\/6.0*",
-      "properties": {
-        "Parent": "libwww",
-        "Version": "6.0",
-        "MajorVer": "6"
-      }
-    },
-    {
-      "userAgent": "libwww-perl\/6.03*",
-      "properties": {
-        "Parent": "libwww",
-        "Version": "6.03",
-        "MajorVer": "6",
-        "MinorVer": "03"
-      }
-    }
-  ]
+    "division": "libwww",
+    "sortIndex": 990,
+    "userAgents": [
+        {
+            "userAgent": "libwww",
+            "properties": {
+                "Parent": "Rippers",
+                "Browser": "libwww",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*libwww*",
+            "properties": {
+                "Parent": "libwww"
+            }
+        },
+        {
+            "userAgent": "libwww-perl\/*",
+            "properties": {
+                "Parent": "libwww"
+            }
+        },
+        {
+            "userAgent": "ShowXML\/* libwww\/5.4*",
+            "properties": {
+                "Parent": "libwww",
+                "Version": "5.4",
+                "MajorVer": "5",
+                "MinorVer": "4"
+            }
+        },
+        {
+            "userAgent": "libwww-perl\/5.8*",
+            "properties": {
+                "Parent": "libwww",
+                "Version": "5.8",
+                "MajorVer": "5",
+                "MinorVer": "8"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (windows; U; *) Gecko\/* libwww-perl\/6.0*",
+            "properties": {
+                "Parent": "libwww",
+                "Version": "6.0",
+                "MajorVer": "6"
+            }
+        },
+        {
+            "userAgent": "libwww-perl\/6.03*",
+            "properties": {
+                "Parent": "libwww",
+                "Version": "6.03",
+                "MajorVer": "6",
+                "MinorVer": "03"
+            }
+        }
+    ]
 }

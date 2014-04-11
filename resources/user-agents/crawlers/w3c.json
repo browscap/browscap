@@ -1,118 +1,118 @@
 {
-  "division": "W3C",
-  "sortIndex": 530,
-  "userAgents": [
-    {
-      "userAgent": "W3C",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "W3C",
-        "Browser": "W3C",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*W3C-checklink\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C-checklink"
-      }
-    },
-    {
-      "userAgent": "Jigsaw\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "Jigsaw CSS Validator"
-      }
-    },
-    {
-      "userAgent": "Jigsaw\/* W3C_CSS_Validator*\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "Jigsaw_W3C_CSS_Validator"
-      }
-    },
-    {
-      "userAgent": "P3P Validator",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "P3P Validator"
-      }
-    },
-    {
-      "userAgent": "Unicorn\/1.*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C Unicorn"
-      }
-    },
-    {
-      "userAgent": "W3C-mobileOK\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C-mobileOK",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "W3C-mobileOK\/DDC-*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C-mobileOK\/DDC",
-        "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "W3C-WebCon\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C-WebCon"
-      }
-    },
-    {
-      "userAgent": "W3C_Validator\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3C_Validator"
-      }
-    },
-    {
-      "userAgent": "W3CLineMode\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3CLineMode"
-      }
-    },
-    {
-      "userAgent": "W3CRobot\/*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "W3CRobot"
-      }
-    },
-    {
-      "userAgent": "Validator.nu/LV*",
-      "properties": {
-        "Parent": "W3C",
-        "Browser": "Validator.nu/LV"
-      }
-    }
-  ]
+    "division": "W3C",
+    "sortIndex": 530,
+    "userAgents": [
+        {
+            "userAgent": "W3C",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "W3C",
+                "Browser": "W3C",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*W3C-checklink\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C-checklink"
+            }
+        },
+        {
+            "userAgent": "Jigsaw\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "Jigsaw CSS Validator"
+            }
+        },
+        {
+            "userAgent": "Jigsaw\/* W3C_CSS_Validator*\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "Jigsaw_W3C_CSS_Validator"
+            }
+        },
+        {
+            "userAgent": "P3P Validator",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "P3P Validator"
+            }
+        },
+        {
+            "userAgent": "Unicorn\/1.*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C Unicorn"
+            }
+        },
+        {
+            "userAgent": "W3C-mobileOK\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C-mobileOK",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isMobileDevice": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "W3C-mobileOK\/DDC-*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C-mobileOK\/DDC",
+                "isMobileDevice": "true"
+            }
+        },
+        {
+            "userAgent": "W3C-WebCon\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C-WebCon"
+            }
+        },
+        {
+            "userAgent": "W3C_Validator\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3C_Validator"
+            }
+        },
+        {
+            "userAgent": "W3CLineMode\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3CLineMode"
+            }
+        },
+        {
+            "userAgent": "W3CRobot\/*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "W3CRobot"
+            }
+        },
+        {
+            "userAgent": "Validator.nu/LV*",
+            "properties": {
+                "Parent": "W3C",
+                "Browser": "Validator.nu/LV"
+            }
+        }
+    ]
 }

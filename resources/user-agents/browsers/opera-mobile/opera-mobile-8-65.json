@@ -1,111 +1,111 @@
 {
-  "division": "Opera Mobile 8.65",
-  "sortIndex": 9460,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mobile 8.65",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Version": "8.65",
-        "MajorVer": "8",
-        "MinorVer": "65",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonG700\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS; 9*Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonP1i\/* Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonP990i\/R100 Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "P990i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "P990i"
-      }
-    },
-    {
-      "userAgent": "MOT-MOTORAZRV9x\/9E.03.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV3XXR_J\/97.04.30R* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV3xxR\/97.04.2BR BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65"
-      }
-    },
-    {
-      "userAgent": "MOT-Q9\/01.02.23R Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "MOT-Q9\/APVER  Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320) Opera 8.65*",
-      "properties": {
-        "Parent": "Opera Mobile 8.65",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
-    }
-  ]
+    "division": "Opera Mobile 8.65",
+    "sortIndex": 9460,
+    "userAgents": [
+        {
+            "userAgent": "Opera Mobile 8.65",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+                "Browser": "Opera Mobile",
+                "Version": "8.65",
+                "MajorVer": "8",
+                "MinorVer": "65",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Phone",
+                "Device_Pointing_Method": "touchscreen",
+                "RenderingEngine_Name": "Presto",
+                "RenderingEngine_Version": "2.2",
+                "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonG700\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS; 9*Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonP1i\/* Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonP990i\/R100 Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation",
+                "Device_Code_Name": "P990i",
+                "Device_Maker": "SonyEricsson",
+                "Device_Brand_Name": "SonyEricsson",
+                "Device_Name": "P990i"
+            }
+        },
+        {
+            "userAgent": "MOT-MOTORAZRV9x\/9E.03.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV3XXR_J\/97.04.30R* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV3xxR\/97.04.2BR BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65"
+            }
+        },
+        {
+            "userAgent": "MOT-Q9\/01.02.23R Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Browser_Bits": "32",
+                "Platform_Bits": "32"
+            }
+        },
+        {
+            "userAgent": "MOT-Q9\/APVER  Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320) Opera 8.65*",
+            "properties": {
+                "Parent": "Opera Mobile 8.65",
+                "Browser_Bits": "32",
+                "Platform_Bits": "32"
+            }
+        }
+    ]
 }

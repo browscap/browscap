@@ -1,32 +1,32 @@
 {
-  "division": "Internet Content Rating Association",
-  "sortIndex": 570,
-  "userAgents": [
-    {
-      "userAgent": "Internet Content Rating Association",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Internet Content Rating Association",
-        "Browser": "",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ICRA_label_generator\/1.?",
-      "properties": {
-        "Parent": "Internet Content Rating Association",
-        "Browser": "ICRA_label_generator"
-      }
-    },
-    {
-      "userAgent": "ICRA_Semantic_spider\/0.?",
-      "properties": {
-        "Parent": "Internet Content Rating Association",
-        "Browser": "ICRA_Semantic_spider"
-      }
-    }
-  ]
+    "division": "Internet Content Rating Association",
+    "sortIndex": 570,
+    "userAgents": [
+        {
+            "userAgent": "Internet Content Rating Association",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Internet Content Rating Association",
+                "Browser": "",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "ICRA_label_generator\/1.?",
+            "properties": {
+                "Parent": "Internet Content Rating Association",
+                "Browser": "ICRA_label_generator"
+            }
+        },
+        {
+            "userAgent": "ICRA_Semantic_spider\/0.?",
+            "properties": {
+                "Parent": "Internet Content Rating Association",
+                "Browser": "ICRA_Semantic_spider"
+            }
+        }
+    ]
 }

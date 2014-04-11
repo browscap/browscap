@@ -1,128 +1,128 @@
 {
-  "division": "Proxy Servers",
-  "sortIndex": 460,
-  "userAgents": [
-    {
-      "userAgent": "Proxy Servers",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Proxy Servers",
-        "Browser": "Proxy Servers",
-        "Browser_Type": "Bot/Crawler"
-      }
-    },
-    {
-      "userAgent": "*squid*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "CE-Preload",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "CE-Preload"
-      }
-    },
-    {
-      "userAgent": "IE\/6.01 (CP\/M; 8-bit*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (TuringOS; Turing Machine; 0.0)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizer"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; SaferSurf*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SaferSurf"
-      }
-    },
-    {
-      "userAgent": "Nutscrape",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "Nutscrape\/* (CP\/M; 8-bit*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Squid"
-      }
-    },
-    {
-      "userAgent": "Privoxy\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Privoxy"
-      }
-    },
-    {
-      "userAgent": "ProxyTester*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "ProxyTester",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "SilentSurf*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SilentSurf"
-      }
-    },
-    {
-      "userAgent": "SmallProxy*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SmallProxy"
-      }
-    },
-    {
-      "userAgent": "Space*Bison\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Proxomitron"
-      }
-    },
-    {
-      "userAgent": "Sqworm\/*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Websense"
-      }
-    },
-    {
-      "userAgent": "SurfControl",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SurfControl"
-      }
-    },
-    {
-      "userAgent": "CoralWebPrx*",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "CoralWeb Proxy"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
-      "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "SaferSurf"
-      }
-    }
-  ]
+    "division": "Proxy Servers",
+    "sortIndex": 460,
+    "userAgents": [
+        {
+            "userAgent": "Proxy Servers",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Proxy Servers",
+                "Browser": "Proxy Servers",
+                "Browser_Type": "Bot/Crawler"
+            }
+        },
+        {
+            "userAgent": "*squid*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Squid"
+            }
+        },
+        {
+            "userAgent": "CE-Preload",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "CE-Preload"
+            }
+        },
+        {
+            "userAgent": "IE\/6.01 (CP\/M; 8-bit*)",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Squid"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (TuringOS; Turing Machine; 0.0)",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Anonymizer"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; SaferSurf*)",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "SaferSurf"
+            }
+        },
+        {
+            "userAgent": "Nutscrape",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Squid"
+            }
+        },
+        {
+            "userAgent": "Nutscrape\/* (CP\/M; 8-bit*)",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Squid"
+            }
+        },
+        {
+            "userAgent": "Privoxy\/*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Privoxy"
+            }
+        },
+        {
+            "userAgent": "ProxyTester*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "ProxyTester",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "SilentSurf*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "SilentSurf"
+            }
+        },
+        {
+            "userAgent": "SmallProxy*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "SmallProxy"
+            }
+        },
+        {
+            "userAgent": "Space*Bison\/*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Proxomitron"
+            }
+        },
+        {
+            "userAgent": "Sqworm\/*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "Websense"
+            }
+        },
+        {
+            "userAgent": "SurfControl",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "SurfControl"
+            }
+        },
+        {
+            "userAgent": "CoralWebPrx*",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "CoralWeb Proxy"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
+            "properties": {
+                "Parent": "Proxy Servers",
+                "Browser": "SaferSurf"
+            }
+        }
+    ]
 }

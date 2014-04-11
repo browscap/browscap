@@ -1,41 +1,41 @@
 {
-  "division": "Sagem",
-  "sortIndex": 10170,
-  "userAgents": [
-    {
-      "userAgent": "Sagem",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Sagem",
-        "Browser_Type": "Browser",
-        "Platform": "Java",
-        "Platform_Maker": "Oracle",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "Sagem",
+    "sortIndex": 10170,
+    "userAgents": [
         {
-          "match": "Bleu 453x"
-        },
-        {
-          "match": "KAA-A59\/*\/WAP1.2 *"
+            "userAgent": "Sagem",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Sagem",
+                "Browser_Type": "Browser",
+                "Platform": "Java",
+                "Platform_Maker": "Oracle",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "Bleu 453x"
+                },
+                {
+                    "match": "KAA-A59\/*\/WAP1.2 *"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

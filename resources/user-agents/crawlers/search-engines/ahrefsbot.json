@@ -1,43 +1,43 @@
 {
-  "division": "AhrefsBot",
-  "sortIndex": 40,
-  "userAgents": [
-    {
-      "userAgent": "AhrefsBot",
-      "properties": {
-        "Parent": "Search Engines",
-        "Browser": "AhrefsBot",
-        "Browser_Maker": "Ahrefs Inc"
-      }
-    },
-      {
-          "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
-          "properties": {
-              "Parent": "AhrefsBot"
-          }
-      },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
-      "properties": {
-        "Parent": "AhrefsBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
-      "properties": {
-        "Parent": "AhrefsBot",
-        "Version": "3.1",
-        "MajorVer": "3",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
-      "properties": {
-        "Parent": "AhrefsBot",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
-    }
-  ]
+    "division": "AhrefsBot",
+    "sortIndex": 40,
+    "userAgents": [
+        {
+            "userAgent": "AhrefsBot",
+            "properties": {
+                "Parent": "Search Engines",
+                "Browser": "AhrefsBot",
+                "Browser_Maker": "Ahrefs Inc"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
+            "properties": {
+                "Parent": "AhrefsBot"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
+            "properties": {
+                "Parent": "AhrefsBot"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
+            "properties": {
+                "Parent": "AhrefsBot",
+                "Version": "3.1",
+                "MajorVer": "3",
+                "MinorVer": "1"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
+            "properties": {
+                "Parent": "AhrefsBot",
+                "Version": "4.0",
+                "MajorVer": "4"
+            }
+        }
+    ]
 }

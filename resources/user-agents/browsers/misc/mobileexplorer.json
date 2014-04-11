@@ -1,36 +1,36 @@
 {
-  "division": "MobileExplorer",
-  "sortIndex": 7270,
-  "userAgents": [
-    {
-      "userAgent": "MobileExplorer",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "MobileExplorer",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "MobileExplorer",
+    "sortIndex": 7270,
+    "userAgents": [
         {
-          "match": "MobileExplorer\/3.00 (Mozilla\/1.22; compatible;*"
+            "userAgent": "MobileExplorer",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "MobileExplorer",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "MobileExplorer\/3.00 (Mozilla\/1.22; compatible;*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

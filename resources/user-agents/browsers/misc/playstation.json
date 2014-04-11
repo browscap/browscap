@@ -1,88 +1,88 @@
 {
-  "division": "Playstation",
-  "sortIndex": 1820,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Playstation",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Playstation",
-        "Browser": "Playstation",
-        "Platform": "WAP",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Name": "Playstation",
-        "Device_Maker": "Sony",
-        "Device_Type": "Console"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony PSP",
-        "Device_Name": "PSP"
-      }
-    },
-    {
-      "userAgent": "Sony PS2 (Linux)",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony PS2",
-        "Platform": "Linux",
-        "Device_Name": "PS2"
-      }
-    },
-    {
-      "userAgent": "Playstation Vita",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony Playstation Vita",
-        "Frames": "false",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "PlayStation Vita",
-        "Device_Name": "PS Vita"
-      },
-      "children": [
+    "division": "Playstation",
+    "sortIndex": 1820,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "Mozilla\/* (PlayStation Vita*)"
+            "userAgent": "Playstation",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Playstation",
+                "Browser": "Playstation",
+                "Platform": "WAP",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "Device_Name": "Playstation",
+                "Device_Maker": "Sony",
+                "Device_Type": "Console"
+            }
         },
         {
-          "match": "Mozilla\/5.0 (PlayStation Vita*)*"
+            "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
+            "properties": {
+                "Parent": "Playstation",
+                "Browser": "Sony PSP",
+                "Device_Name": "PSP"
+            }
         },
         {
-          "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
-          }
+            "userAgent": "Sony PS2 (Linux)",
+            "properties": {
+                "Parent": "Playstation",
+                "Browser": "Sony PS2",
+                "Platform": "Linux",
+                "Device_Name": "PS2"
+            }
+        },
+        {
+            "userAgent": "Playstation Vita",
+            "properties": {
+                "Parent": "Playstation",
+                "Browser": "Sony Playstation Vita",
+                "Frames": "false",
+                "isMobileDevice": "true",
+                "Device_Code_Name": "PlayStation Vita",
+                "Device_Name": "PS Vita"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/* (PlayStation Vita*)"
+                },
+                {
+                    "match": "Mozilla\/5.0 (PlayStation Vita*)*"
+                },
+                {
+                    "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
+                    "properties": {
+                        "RenderingEngine_Name": "WebKit",
+                        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+                        "RenderingEngine_Maker": "Apple Inc"
+                    }
+                }
+            ]
+        },
+        {
+            "userAgent": "Sony PS3",
+            "properties": {
+                "Parent": "Playstation",
+                "Browser": "Sony PS3",
+                "Platform": "CellOS",
+                "Frames": "false",
+                "Device_Code_Name": "Playstation 3",
+                "Device_Name": "Playstation 3"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/* (PLAYSTATION*)"
+                },
+                {
+                    "match": "Mozilla\/* (PLAYSTATION 3*)"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "userAgent": "Sony PS3",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony PS3",
-        "Platform": "CellOS",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 3",
-        "Device_Name": "Playstation 3"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/* (PLAYSTATION*)"
-        },
-        {
-          "match": "Mozilla\/* (PLAYSTATION 3*)"
-        }
-      ]
-    }
-  ]
+    ]
 }

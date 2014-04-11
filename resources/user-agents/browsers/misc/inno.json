@@ -1,63 +1,63 @@
 {
-  "division": "INNO",
-  "sortIndex": 5980,
-  "userAgents": [
-    {
-      "userAgent": "INNO",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "INNO",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "unknown"
-      },
-      "children": [
+    "division": "INNO",
+    "sortIndex": 5980,
+    "userAgents": [
         {
-          "match": "INNO30*"
-        },
-        {
-          "match": "INNO50*"
-        },
-        {
-          "match": "INNO55*"
-        },
-        {
-          "match": "INNO79*"
-        },
-        {
-          "match": "INNO89*"
-        },
-        {
-          "match": "INNO90*"
-        },
-        {
-          "match": "INNO99*"
-        },
-        {
-          "match": "INNOA10*"
-        },
-        {
-          "match": "INNOA20*"
-        },
-        {
-          "match": "INNOP10*"
+            "userAgent": "INNO",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "INNO",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "unknown"
+            },
+            "children": [
+                {
+                    "match": "INNO30*"
+                },
+                {
+                    "match": "INNO50*"
+                },
+                {
+                    "match": "INNO55*"
+                },
+                {
+                    "match": "INNO79*"
+                },
+                {
+                    "match": "INNO89*"
+                },
+                {
+                    "match": "INNO90*"
+                },
+                {
+                    "match": "INNO99*"
+                },
+                {
+                    "match": "INNOA10*"
+                },
+                {
+                    "match": "INNOA20*"
+                },
+                {
+                    "match": "INNOP10*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

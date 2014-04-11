@@ -1,132 +1,132 @@
 {
-  "division": "MQQBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["3.0", "3.1", "3.2"],
-  "sortIndex": 1174,
-  "userAgents": [
-    {
-      "userAgent": "MQQBrowser #MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
-        "Browser": "MQQBrowser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      },
-      "children": [
+    "division": "MQQBrowser #MAJORVER#.#MINORVER#",
+    "versions": ["3.0", "3.1", "3.2"],
+    "sortIndex": 1174,
+    "userAgents": [
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-N7100",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-              "Device_Code_Name": "GT-I9100",
-              "Device_Maker": "Samsung",
-              "Device_Brand_Name": "Samsung",
-              "Device_Name": "Galaxy S II",
-              "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-N7100",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-              "Device_Code_Name": "GT-I9100",
-              "Device_Maker": "Samsung",
-              "Device_Brand_Name": "Samsung",
-              "Device_Name": "Galaxy S II",
-              "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-N7100",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-              "Device_Code_Name": "GT-I9100",
-              "Device_Maker": "Samsung",
-              "Device_Brand_Name": "Samsung",
-              "Device_Name": "Galaxy S II",
-              "Device_Type": "Mobile Phone",
-              "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Name": "GT-N7100",
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Name": "Galaxy S II",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
+            "userAgent": "MQQBrowser #MAJORVER#.#MINORVER#",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
+                "Browser": "MQQBrowser",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "MajorVer": "#MAJORVER#",
+                "MinorVer": "#MINORVER#",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "3",
+                "Device_Type": "Mobile Phone",
+                "Device_Pointing_Method": "touchscreen",
+                "RenderingEngine_Name": "WebKit",
+                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+            },
+            "children": [
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "platforms": [
+                        "Android", "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-N7100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "GT-I9100",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II",
+                        "Device_Type": "Mobile Phone",
+                        "Device_Pointing_Method": "touchscreen"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-N7100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "GT-I9100",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II",
+                        "Device_Type": "Mobile Phone",
+                        "Device_Pointing_Method": "touchscreen"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-N7100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Code_Name": "GT-I9100",
+                        "Device_Maker": "Samsung",
+                        "Device_Brand_Name": "Samsung",
+                        "Device_Name": "Galaxy S II",
+                        "Device_Type": "Mobile Phone",
+                        "Device_Pointing_Method": "touchscreen"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Name": "GT-N7100",
+                        "Device_Maker": "Samsung"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                },
+                {
+                    "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+                    "properties": {
+                        "Device_Name": "Galaxy S II",
+                        "Device_Maker": "Samsung",
+                        "Device_Type": "Mobile Phone",
+                        "Device_Pointing_Method": "touchscreen"
+                    },
+                    "platforms": [
+                        "Android_2_3", "Android_4_0", "Android_4_1"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

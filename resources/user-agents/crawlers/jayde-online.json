@@ -1,46 +1,46 @@
 {
-  "division": "Jayde Online",
-  "sortIndex": 190,
-  "userAgents": [
-    {
-      "userAgent": "Jayde Online",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Jayde Online",
-        "Browser": "Jayde Online",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ExactSeek Crawler\/*",
-      "properties": {
-        "Parent": "Jayde Online",
-        "Browser": "ExactSeek Crawler"
-      }
-    },
-    {
-      "userAgent": "exactseek-pagereaper-* (crawler@exactseek.com)",
-      "properties": {
-        "Parent": "Jayde Online",
-        "Browser": "exactseek-pagereaper"
-      }
-    },
-    {
-      "userAgent": "exactseek.com",
-      "properties": {
-        "Parent": "Jayde Online",
-        "Browser": "exactseek.com"
-      }
-    },
-    {
-      "userAgent": "Jayde Crawler*",
-      "properties": {
-        "Parent": "Jayde Online",
-        "Browser": "Jayde Crawler"
-      }
-    }
-  ]
+    "division": "Jayde Online",
+    "sortIndex": 190,
+    "userAgents": [
+        {
+            "userAgent": "Jayde Online",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Jayde Online",
+                "Browser": "Jayde Online",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "ExactSeek Crawler\/*",
+            "properties": {
+                "Parent": "Jayde Online",
+                "Browser": "ExactSeek Crawler"
+            }
+        },
+        {
+            "userAgent": "exactseek-pagereaper-* (crawler@exactseek.com)",
+            "properties": {
+                "Parent": "Jayde Online",
+                "Browser": "exactseek-pagereaper"
+            }
+        },
+        {
+            "userAgent": "exactseek.com",
+            "properties": {
+                "Parent": "Jayde Online",
+                "Browser": "exactseek.com"
+            }
+        },
+        {
+            "userAgent": "Jayde Crawler*",
+            "properties": {
+                "Parent": "Jayde Online",
+                "Browser": "Jayde Crawler"
+            }
+        }
+    ]
 }

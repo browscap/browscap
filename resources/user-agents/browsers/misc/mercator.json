@@ -1,40 +1,40 @@
 {
-  "division": "Mercator",
-  "sortIndex": 7150,
-  "userAgents": [
-    {
-      "userAgent": "Mercator",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Mercator",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "unknown"
-      },
-      "children": [
+    "division": "Mercator",
+    "sortIndex": 7150,
+    "userAgents": [
         {
-          "match": "Mercator-2.0",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
-          }
+            "userAgent": "Mercator",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Mercator",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "unknown"
+            },
+            "children": [
+                {
+                    "match": "Mercator-2.0",
+                    "properties": {
+                        "Version": "2.0",
+                        "MajorVer": "2"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

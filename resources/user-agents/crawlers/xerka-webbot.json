@@ -1,22 +1,22 @@
 {
-  "division": "Xerka WebBot",
-  "sortIndex": 1580,
-  "userAgents": [
-    {
-      "userAgent": "Xerka WebBot",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "Xerka"
-      }
-    },
-    {
-      "userAgent": "Xerka WebBot*",
-      "properties": {
-        "Parent": "Xerka WebBot"
-      }
-    }
-  ]
+    "division": "Xerka WebBot",
+    "sortIndex": 1580,
+    "userAgents": [
+        {
+            "userAgent": "Xerka WebBot",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "General Crawlers",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true",
+                "Browser": "Xerka"
+            }
+        },
+        {
+            "userAgent": "Xerka WebBot*",
+            "properties": {
+                "Parent": "Xerka WebBot"
+            }
+        }
+    ]
 }

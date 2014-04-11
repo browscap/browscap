@@ -1,47 +1,47 @@
 {
-  "division": "FeedHub",
-  "sortIndex": 560,
-  "userAgents": [
-    {
-      "userAgent": "FeedHub",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "FeedHub",
-        "Browser": "FeedHub",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "FeedHub FeedDiscovery\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub FeedDiscovery",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "FeedHub FeedFetcher\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub FeedFetcher",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "FeedHub MetaDataFetcher\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub MetaDataFetcher",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
+    "division": "FeedHub",
+    "sortIndex": 560,
+    "userAgents": [
+        {
+            "userAgent": "FeedHub",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "FeedHub",
+                "Browser": "FeedHub",
+                "Browser_Type": "Bot/Crawler",
+                "isSyndicationReader": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "FeedHub FeedDiscovery\/1.0 (http:\/\/www.feedhub.com)",
+            "properties": {
+                "Parent": "FeedHub",
+                "Browser": "FeedHub FeedDiscovery",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "FeedHub FeedFetcher\/1.0 (http:\/\/www.feedhub.com)",
+            "properties": {
+                "Parent": "FeedHub",
+                "Browser": "FeedHub FeedFetcher",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "FeedHub MetaDataFetcher\/1.0 (http:\/\/www.feedhub.com)",
+            "properties": {
+                "Parent": "FeedHub",
+                "Browser": "FeedHub MetaDataFetcher",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        }
+    ]
 }

@@ -1,13 +1,13 @@
 {
-  "division": "Yahoo Media",
-  "sortIndex": 1340,
-  "userAgents": [
-    {
-      "userAgent": "Yahoo Media",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! Media"
-      }
-    }
-  ]
+    "division": "Yahoo Media",
+    "sortIndex": 1340,
+    "userAgents": [
+        {
+            "userAgent": "Yahoo Media",
+            "properties": {
+                "Parent": "Yahoo",
+                "Browser": "Yahoo! Media"
+            }
+        }
+    ]
 }

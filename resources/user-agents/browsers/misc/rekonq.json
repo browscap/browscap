@@ -1,43 +1,43 @@
 {
-  "division": "rekonq",
-  "sortIndex": 9920,
-  "userAgents": [
-    {
-      "userAgent": "rekonq",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "rekonq",
-        "Browser_Type": "Browser",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      },
-      "children": [
+    "division": "rekonq",
+    "sortIndex": 9920,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
-          "platforms": [
-            "Linux", "Linux_32", "Linux_64"
-          ]
+            "userAgent": "rekonq",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "rekonq",
+                "Browser_Type": "Browser",
+                "Platform": "Linux",
+                "Platform_Version": "",
+                "Platform_Maker": "Linux Foundation",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "VBScript": "false",
+                "ActiveXControls": "false",
+                "isMobileDevice": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "CssVersion": "2",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Linux Desktop",
+                "Device_Name": "Linux Desktop",
+                "RenderingEngine_Name": "WebKit",
+                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+                "RenderingEngine_Maker": "Apple Inc"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
+                    "platforms": [
+                        "Linux", "Linux_32", "Linux_64"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

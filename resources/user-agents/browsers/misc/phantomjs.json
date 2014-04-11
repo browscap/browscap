@@ -1,93 +1,93 @@
 {
-  "division": "PhantomJS",
-  "sortIndex": 9760,
-  "userAgents": [
-    {
-      "userAgent": "PhantomJS",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "PhantomJS",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "phantomjs.org",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      },
-      "children": [
+    "division": "PhantomJS",
+    "sortIndex": 9760,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.2*Safari\/*",
-          "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.6*Safari\/*",
-          "properties": {
-            "Version": "1.6",
-            "MajorVer": "1",
-            "MinorVer": "6"
-          },
-          "platforms": [
-            "Linux", "Linux_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.7*Safari\/*",
-          "properties": {
-            "Version": "1.7",
-            "MajorVer": "1",
-            "MinorVer": "7"
-          },
-          "platforms": [
-            "Linux", "Linux_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.8*Safari\/*",
-          "properties": {
-            "Version": "1.8",
-            "MajorVer": "1",
-            "MinorVer": "8"
-          },
-          "platforms": [
-            "Linux", "Linux_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.9*Safari\/*",
-          "properties": {
-            "Version": "1.9",
-            "MajorVer": "1",
-            "MinorVer": "9"
-          },
-          "platforms": [
-            "Linux", "Linux_64", "Win8_64"
-          ]
+            "userAgent": "PhantomJS",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "PhantomJS",
+                "Browser_Type": "Browser",
+                "Browser_Maker": "phantomjs.org",
+                "Platform": "Linux",
+                "Platform_Version": "",
+                "Platform_Maker": "Linux Foundation",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "VBScript": "false",
+                "ActiveXControls": "false",
+                "isMobileDevice": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "CssVersion": "2",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Linux Desktop",
+                "Device_Name": "Linux Desktop",
+                "RenderingEngine_Name": "WebKit",
+                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+                "RenderingEngine_Maker": "Apple Inc"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.2*Safari\/*",
+                    "properties": {
+                        "Version": "1.2",
+                        "MajorVer": "1",
+                        "MinorVer": "2"
+                    },
+                    "platforms": [
+                        "Linux"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.6*Safari\/*",
+                    "properties": {
+                        "Version": "1.6",
+                        "MajorVer": "1",
+                        "MinorVer": "6"
+                    },
+                    "platforms": [
+                        "Linux", "Linux_64"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.7*Safari\/*",
+                    "properties": {
+                        "Version": "1.7",
+                        "MajorVer": "1",
+                        "MinorVer": "7"
+                    },
+                    "platforms": [
+                        "Linux", "Linux_64"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.8*Safari\/*",
+                    "properties": {
+                        "Version": "1.8",
+                        "MajorVer": "1",
+                        "MinorVer": "8"
+                    },
+                    "platforms": [
+                        "Linux", "Linux_64"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.9*Safari\/*",
+                    "properties": {
+                        "Version": "1.9",
+                        "MajorVer": "1",
+                        "MinorVer": "9"
+                    },
+                    "platforms": [
+                        "Linux", "Linux_64", "Win8_64"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

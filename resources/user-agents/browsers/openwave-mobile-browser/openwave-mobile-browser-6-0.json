@@ -1,32 +1,32 @@
 {
-  "division": "Openwave Mobile Browser 6.0",
-  "sortIndex": 8180,
-  "userAgents": [
-    {
-      "userAgent": "Openwave Mobile Browser 6.0",
-      "properties": {
-        "Parent": "Openwave Mobile Browser",
-        "Version": "6.0",
-        "MajorVer": "6"
-      }
-    },
-    {
-      "userAgent": "KDDI-TS21 UP.Browser\/6.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 6.0"
-      }
-    },
-    {
-      "userAgent": "KDDI-TS25 UP.Browser\/6.0* MMP\/1.1",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 6.0"
-      }
-    },
-    {
-      "userAgent": "OPWV-SDK\/* UP.Browser\/6.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 6.0"
-      }
-    }
-  ]
+    "division": "Openwave Mobile Browser 6.0",
+    "sortIndex": 8180,
+    "userAgents": [
+        {
+            "userAgent": "Openwave Mobile Browser 6.0",
+            "properties": {
+                "Parent": "Openwave Mobile Browser",
+                "Version": "6.0",
+                "MajorVer": "6"
+            }
+        },
+        {
+            "userAgent": "KDDI-TS21 UP.Browser\/6.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 6.0"
+            }
+        },
+        {
+            "userAgent": "KDDI-TS25 UP.Browser\/6.0* MMP\/1.1",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 6.0"
+            }
+        },
+        {
+            "userAgent": "OPWV-SDK\/* UP.Browser\/6.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 6.0"
+            }
+        }
+    ]
 }

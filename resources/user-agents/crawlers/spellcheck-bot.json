@@ -1,32 +1,32 @@
 {
-  "division": "SpellCheck Bot",
-  "sortIndex": 1510,
-  "userAgents": [
-    {
-      "userAgent": "SpellCheck Bot",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "SpellCheck Bot",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot*",
-      "properties": {
-        "Parent": "SpellCheck Bot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot 0.9*",
-      "properties": {
-        "Parent": "SpellCheck Bot",
-        "Version": "0.9",
-        "MinorVer": "9"
-      }
-    }
-  ]
+    "division": "SpellCheck Bot",
+    "sortIndex": 1510,
+    "userAgents": [
+        {
+            "userAgent": "SpellCheck Bot",
+            "properties": {
+                "Parent": "General Crawlers",
+                "Browser": "SpellCheck Bot",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot*",
+            "properties": {
+                "Parent": "SpellCheck Bot"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; SpellCheck Bot 0.9*",
+            "properties": {
+                "Parent": "SpellCheck Bot",
+                "Version": "0.9",
+                "MinorVer": "9"
+            }
+        }
+    ]
 }

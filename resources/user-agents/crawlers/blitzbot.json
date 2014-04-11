@@ -1,30 +1,30 @@
 {
-  "division": "BlitzBot",
-  "sortIndex": 110,
-  "userAgents": [
-    {
-      "userAgent": "BlitzBot",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "BlitzBot",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "BlitzBOT*",
-      "properties": {
-        "Parent": "BlitzBot"
-      }
-    },
-    {
-      "userAgent": "BlitzBOT@tricus.com (Mozilla compatible)*",
-      "properties": {
-        "Parent": "BlitzBot"
-      }
-    }
-  ]
+    "division": "BlitzBot",
+    "sortIndex": 110,
+    "userAgents": [
+        {
+            "userAgent": "BlitzBot",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "BlitzBot",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "BlitzBOT*",
+            "properties": {
+                "Parent": "BlitzBot"
+            }
+        },
+        {
+            "userAgent": "BlitzBOT@tricus.com (Mozilla compatible)*",
+            "properties": {
+                "Parent": "BlitzBot"
+            }
+        }
+    ]
 }

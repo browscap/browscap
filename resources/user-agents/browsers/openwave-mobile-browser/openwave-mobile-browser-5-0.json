@@ -1,590 +1,590 @@
 {
-  "division": "Openwave Mobile Browser 5.0",
-  "sortIndex": 8160,
-  "userAgents": [
-    {
-      "userAgent": "Openwave Mobile Browser 5.0",
-      "properties": {
-        "Parent": "Openwave Mobile Browser",
-        "Version": "5.0",
-        "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "0077746577;CR-X95\/06 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "?=Fega_LoveRz=? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Alcatel-BF5\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Alcatel-BG3-color\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Alcatel-BG3\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BAWOR\/IDLE UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BENQ UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BIRD SC01 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BIRD.D700 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BIRD.Q168 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "DBTEL6588C\/1.0 * UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "DBTEL6669\/1.0 * UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "DBTELJ7\/1.0 * UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "EZZE-EZZE\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "MOT-ED\/06.12 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "MOT-EF\/06.12 KM.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "MOT-FE\/07.07 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Motorola-T33\/1.5.1a UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Nokia3650\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Opera\/8.* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Optimay-Seville\/1.4 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "PHILIPS-FISIO 620\/3.14 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "PHILIPS-FISIO 820\/3.14 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "PHILIPS-FISIO 822\/3.14 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "PHILIPS-SYSOL2\/3.11 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "PHILIPS-SYSOL3\/3.11 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Panasonic-GAD67\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myC2-3\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX-1\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX-2\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX-3\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX-3\/2.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX-5\/2.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-A800\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-S500\/SHARK UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-S508\/1.0* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-X600\/K3 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SCH-X859\/4.0* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SEC-SGHC100\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SEC-SGHC100G\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SEC-SGHX430\/1.0 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-2128\/12 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-2128\/18 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-2128\/24 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-3618\/24 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-6618\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A25\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A50\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A52\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A55\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A55\/09 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A56\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A56i\/03 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-A57\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C45\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C45\/31 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C55\/0? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C55\/1? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C55\/2? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-C62\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M50\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M55\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-M55\/1? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME45\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME45\/1? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME45\/23 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME45\/2? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-ME45i\/04 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-MT50\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-MT50\/09 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S45\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S45\/21 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S45\/2? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S45i\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S46\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S55\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SIE-S55\/1? UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK500\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK500i\/* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "Vulcan-Color UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "polytron-big-band-s UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0"
-      }
-    },
-    {
-      "userAgent": "BlackBerry7280\/4.0* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.0",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 7280",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 7280"
-      }
-    },
-    {
-      "userAgent": "BlackBerry7520\/4.0* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.0",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 7520",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 7520"
-      }
-    },
-    {
-      "userAgent": "BlackBerry8130\/4.* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.0",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 8130",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 8130"
-      }
-    },
-    {
-      "userAgent": "BlackBerry8330\/4.* UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.0",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 8330",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 8330"
-      }
-    },
-    {
-      "userAgent": "BlackBerry8330\/4.5* VendorID\/126 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.5",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 8330",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 8330"
-      }
-    },
-    {
-      "userAgent": "BlackBerry8700\/4.* VendorID\/1 UP.Browser\/5.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 5.0",
-        "Platform": "RIM OS",
-        "Platform_Version": "4.0",
-        "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry 8700",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Brand_Name": "RIM",
-        "Device_Name": "Blackberry 8700"
-      }
-    }
-  ]
+    "division": "Openwave Mobile Browser 5.0",
+    "sortIndex": 8160,
+    "userAgents": [
+        {
+            "userAgent": "Openwave Mobile Browser 5.0",
+            "properties": {
+                "Parent": "Openwave Mobile Browser",
+                "Version": "5.0",
+                "MajorVer": "5"
+            }
+        },
+        {
+            "userAgent": "0077746577;CR-X95\/06 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "?=Fega_LoveRz=? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Alcatel-BF5\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Alcatel-BG3-color\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Alcatel-BG3\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BAWOR\/IDLE UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BENQ UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BIRD SC01 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BIRD.D700 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BIRD.Q168 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "DBTEL6588C\/1.0 * UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "DBTEL6669\/1.0 * UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "DBTELJ7\/1.0 * UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "EZZE-EZZE\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "MOT-ED\/06.12 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "MOT-EF\/06.12 KM.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "MOT-FE\/07.07 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Motorola-T33\/1.5.1a UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/4.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Nokia3650\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Opera\/8.* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Optimay-Seville\/1.4 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "PHILIPS-FISIO 620\/3.14 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "PHILIPS-FISIO 820\/3.14 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "PHILIPS-FISIO 822\/3.14 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "PHILIPS-SYSOL2\/3.11 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "PHILIPS-SYSOL3\/3.11 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Panasonic-GAD67\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myC2-3\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myX-1\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myX-2\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myX-3\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myX-3\/2.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAGEM-myX-5\/2.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAMSUNG-SGH-A800\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAMSUNG-SGH-S500\/SHARK UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAMSUNG-SGH-S508\/1.0* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SAMSUNG-SGH-X600\/K3 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SCH-X859\/4.0* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SEC-SGHC100\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SEC-SGHC100G\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SEC-SGHX430\/1.0 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-2128\/12 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-2128\/18 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-2128\/24 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-3618\/24 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-6618\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A25\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A50\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A52\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A55\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A55\/09 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A56\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A56i\/03 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-A57\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C45\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C45\/31 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C55\/0? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C55\/1? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C55\/2? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-C62\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M50\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M55\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-M55\/1? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME45\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME45\/1? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME45\/23 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME45\/2? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-ME45i\/04 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-MT50\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-MT50\/09 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S45\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S45\/21 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S45\/2? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S45i\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S46\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S55\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SIE-S55\/1? UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonK500\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "SonyEricssonK500i\/* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "Vulcan-Color UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "polytron-big-band-s UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0"
+            }
+        },
+        {
+            "userAgent": "BlackBerry7280\/4.0* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.0",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 7280",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 7280"
+            }
+        },
+        {
+            "userAgent": "BlackBerry7520\/4.0* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.0",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 7520",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 7520"
+            }
+        },
+        {
+            "userAgent": "BlackBerry8130\/4.* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.0",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 8130",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 8130"
+            }
+        },
+        {
+            "userAgent": "BlackBerry8330\/4.* UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.0",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 8330",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 8330"
+            }
+        },
+        {
+            "userAgent": "BlackBerry8330\/4.5* VendorID\/126 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.5",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 8330",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 8330"
+            }
+        },
+        {
+            "userAgent": "BlackBerry8700\/4.* VendorID\/1 UP.Browser\/5.0*",
+            "properties": {
+                "Parent": "Openwave Mobile Browser 5.0",
+                "Platform": "RIM OS",
+                "Platform_Version": "4.0",
+                "Platform_Maker": "Research In Motion Limited",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "Blackberry 8700",
+                "Device_Maker": "Research In Motion Limited",
+                "Device_Brand_Name": "RIM",
+                "Device_Name": "Blackberry 8700"
+            }
+        }
+    ]
 }

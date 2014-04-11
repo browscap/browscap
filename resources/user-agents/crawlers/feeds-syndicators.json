@@ -1,406 +1,406 @@
 {
-  "division": "Feeds Syndicators",
-  "sortIndex": 370,
-  "userAgents": [
-    {
-      "userAgent": "Feeds Syndicators",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Feeds Syndicators",
-        "Browser": "Feeds Syndicators",
-        "Browser_Type": "Bot/Crawler",
-        "isSyndicationReader": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*LinkLint*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "LinkLint"
-      }
-    },
-    {
-      "userAgent": "*NetVisualize*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NetVisualize"
-      }
-    },
-    {
-      "userAgent": "AideRSS 2.* (postrank.com)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "AideRSS"
-      }
-    },
-    {
-      "userAgent": "AideRSS\/2.0 (aiderss.com)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "AideRSS"
-      }
-    },
-    {
-      "userAgent": "Akregator\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Akregator"
-      }
-    },
-    {
-      "userAgent": "Apple-PubSub\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Apple-PubSub"
-      }
-    },
-    {
-      "userAgent": "AppleSyndication\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Safari RSS",
-        "Platform": "MacOSX"
-      }
-    },
-    {
-      "userAgent": "Cocoal.icio.us\/* (*)*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Cocoal.icio.us"
-      }
-    },
-    {
-      "userAgent": "Feed43 Proxy\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Feed For Free"
-      }
-    },
-    {
-      "userAgent": "FeedBurner\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedBurner"
-      }
-    },
-    {
-      "userAgent": "FeedDemon\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedDemon",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "FeedDigest\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedDigest"
-      }
-    },
-    {
-      "userAgent": "FeedGhost\/1.*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedGhost",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "FeedOnFeeds\/0.1.* ( http:\/\/minutillo.com\/steve\/feedonfeeds\/)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedOnFeeds",
-        "Version": "0.1",
-        "MajorVer": "0",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Feedreader * (Powered by Newsbrain)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Newsbrain"
-      }
-    },
-    {
-      "userAgent": "Feedshow\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Feedshow"
-      }
-    },
-    {
-      "userAgent": "Feedster Crawler\/?.0; Feedster, Inc.",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Feedster"
-      }
-    },
-    {
-      "userAgent": "GreatNews\/1.0",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "GreatNews",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Gregarius\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Gregarius"
-      }
-    },
-    {
-      "userAgent": "intraVnews\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "intraVnews"
-      }
-    },
-    {
-      "userAgent": "JetBrains Omea Reader*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Omea Reader"
-      }
-    },
-    {
-      "userAgent": "Liferea\/1.* (Linux; *; http:\/\/liferea.sf.net\/)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Liferea"
-      }
-    },
-    {
-      "userAgent": "livedoor FeedFetcher\/0.0* (http:\/\/reader.livedoor.com\/;*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedFetcher",
-        "Version": "0.0",
-        "MajorVer": "0",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "MagpieRSS\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "MagpieRSS"
-      }
-    },
-    {
-      "userAgent": "Mobitype * (compatible; Mozilla\/*; MSIE *.*; Windows *)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Mobitype",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*; Rojo *; http:\/\/www.rojo.com\/corporate\/help\/agg; *)*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Rojo"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*aggregator:TailRank; http:\/\/tailrank.com\/robot)*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "TailRank"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; MSIE 6.0; Podtech Network; crawler_admin@podtech.net)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Podtech Network"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Newz Crawler *; http:\/\/www.newzcrawler.com\/?)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Newz Crawler"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; RSSMicro.com RSS\/Atom Feed Robot)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "RSSMicro"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible;*newstin.com;*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NewsTin"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (RSS Reader Panel)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "RSS Reader Panel"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:FeedParser; *) Gecko\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "FeedParser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:NewsMonster; *) Gecko\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NewsMonster"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:Rojo; *) Gecko\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Rojo"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 NewsFox\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NewsFox"
-      }
-    },
-    {
-      "userAgent": "Netvibes (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Netvibes"
-      }
-    },
-    {
-      "userAgent": "NewsAlloy\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "NewsAlloy"
-      }
-    },
-    {
-      "userAgent": "Omnipelagos*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Omnipelagos"
-      }
-    },
-    {
-      "userAgent": "Particls",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Particls"
-      }
-    },
-    {
-      "userAgent": "Protopage\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Protopage"
-      }
-    },
-    {
-      "userAgent": "PubSub-RSS-Reader\/* (*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "PubSub-RSS-Reader"
-      }
-    },
-    {
-      "userAgent": "RSS Menu\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "RSS Menu"
-      }
-    },
-    {
-      "userAgent": "RssBandit\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "RssBandit"
-      }
-    },
-    {
-      "userAgent": "RssBar\/1.2*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "RssBar",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "SharpReader\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "SharpReader"
-      }
-    },
-    {
-      "userAgent": "SimplePie\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "SimplePie"
-      }
-    },
-    {
-      "userAgent": "Strategic Board Bot (?http:\/\/www.strategicboard.com)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Strategic Board Bot"
-      }
-    },
-    {
-      "userAgent": "TargetYourNews.com bot",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "TargetYourNews"
-      }
-    },
-    {
-      "userAgent": "Technoratibot\/*",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Technoratibot"
-      }
-    },
-    {
-      "userAgent": "Tumblr\/* RSS syndication ( http:\/\/www.tumblr.com\/) (support@tumblr.com)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Tumblr RSS syndication"
-      }
-    },
-    {
-      "userAgent": "Wizz RSS News Reader",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Wizz"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (*Genieo*\/*)",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "Genieo RSS Reader"
-      }
-    }
-  ]
+    "division": "Feeds Syndicators",
+    "sortIndex": 370,
+    "userAgents": [
+        {
+            "userAgent": "Feeds Syndicators",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Feeds Syndicators",
+                "Browser": "Feeds Syndicators",
+                "Browser_Type": "Bot/Crawler",
+                "isSyndicationReader": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*LinkLint*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "LinkLint"
+            }
+        },
+        {
+            "userAgent": "*NetVisualize*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "NetVisualize"
+            }
+        },
+        {
+            "userAgent": "AideRSS 2.* (postrank.com)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "AideRSS"
+            }
+        },
+        {
+            "userAgent": "AideRSS\/2.0 (aiderss.com)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "AideRSS"
+            }
+        },
+        {
+            "userAgent": "Akregator\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Akregator"
+            }
+        },
+        {
+            "userAgent": "Apple-PubSub\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Apple-PubSub"
+            }
+        },
+        {
+            "userAgent": "AppleSyndication\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Safari RSS",
+                "Platform": "MacOSX"
+            }
+        },
+        {
+            "userAgent": "Cocoal.icio.us\/* (*)*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Cocoal.icio.us"
+            }
+        },
+        {
+            "userAgent": "Feed43 Proxy\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Feed For Free"
+            }
+        },
+        {
+            "userAgent": "FeedBurner\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedBurner"
+            }
+        },
+        {
+            "userAgent": "FeedDemon\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedDemon",
+                "Platform": "Win32"
+            }
+        },
+        {
+            "userAgent": "FeedDigest\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedDigest"
+            }
+        },
+        {
+            "userAgent": "FeedGhost\/1.*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedGhost",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "FeedOnFeeds\/0.1.* ( http:\/\/minutillo.com\/steve\/feedonfeeds\/)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedOnFeeds",
+                "Version": "0.1",
+                "MajorVer": "0",
+                "MinorVer": "1"
+            }
+        },
+        {
+            "userAgent": "Feedreader * (Powered by Newsbrain)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Newsbrain"
+            }
+        },
+        {
+            "userAgent": "Feedshow\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Feedshow"
+            }
+        },
+        {
+            "userAgent": "Feedster Crawler\/?.0; Feedster, Inc.",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Feedster"
+            }
+        },
+        {
+            "userAgent": "GreatNews\/1.0",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "GreatNews",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "Gregarius\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Gregarius"
+            }
+        },
+        {
+            "userAgent": "intraVnews\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "intraVnews"
+            }
+        },
+        {
+            "userAgent": "JetBrains Omea Reader*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Omea Reader"
+            }
+        },
+        {
+            "userAgent": "Liferea\/1.* (Linux; *; http:\/\/liferea.sf.net\/)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Liferea"
+            }
+        },
+        {
+            "userAgent": "livedoor FeedFetcher\/0.0* (http:\/\/reader.livedoor.com\/;*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedFetcher",
+                "Version": "0.0",
+                "MajorVer": "0",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "MagpieRSS\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "MagpieRSS"
+            }
+        },
+        {
+            "userAgent": "Mobitype * (compatible; Mozilla\/*; MSIE *.*; Windows *)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Mobitype",
+                "Platform": "Win32"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (*; Rojo *; http:\/\/www.rojo.com\/corporate\/help\/agg; *)*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Rojo"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (*aggregator:TailRank; http:\/\/tailrank.com\/robot)*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "TailRank"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; MSIE 6.0; Podtech Network; crawler_admin@podtech.net)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Podtech Network"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Newz Crawler *; http:\/\/www.newzcrawler.com\/?)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Newz Crawler"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; RSSMicro.com RSS\/Atom Feed Robot)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "RSSMicro"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible;*newstin.com;*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "NewsTin"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (RSS Reader Panel)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "RSS Reader Panel"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:FeedParser; *) Gecko\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "FeedParser"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:NewsMonster; *) Gecko\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "NewsMonster"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:Rojo; *) Gecko\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Rojo"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 NewsFox\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "NewsFox"
+            }
+        },
+        {
+            "userAgent": "Netvibes (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Netvibes"
+            }
+        },
+        {
+            "userAgent": "NewsAlloy\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "NewsAlloy"
+            }
+        },
+        {
+            "userAgent": "Omnipelagos*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Omnipelagos"
+            }
+        },
+        {
+            "userAgent": "Particls",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Particls"
+            }
+        },
+        {
+            "userAgent": "Protopage\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Protopage"
+            }
+        },
+        {
+            "userAgent": "PubSub-RSS-Reader\/* (*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "PubSub-RSS-Reader"
+            }
+        },
+        {
+            "userAgent": "RSS Menu\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "RSS Menu"
+            }
+        },
+        {
+            "userAgent": "RssBandit\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "RssBandit"
+            }
+        },
+        {
+            "userAgent": "RssBar\/1.2*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "RssBar",
+                "Version": "1.2",
+                "MajorVer": "1",
+                "MinorVer": "2"
+            }
+        },
+        {
+            "userAgent": "SharpReader\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "SharpReader"
+            }
+        },
+        {
+            "userAgent": "SimplePie\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "SimplePie"
+            }
+        },
+        {
+            "userAgent": "Strategic Board Bot (?http:\/\/www.strategicboard.com)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Strategic Board Bot"
+            }
+        },
+        {
+            "userAgent": "TargetYourNews.com bot",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "TargetYourNews"
+            }
+        },
+        {
+            "userAgent": "Technoratibot\/*",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Technoratibot"
+            }
+        },
+        {
+            "userAgent": "Tumblr\/* RSS syndication ( http:\/\/www.tumblr.com\/) (support@tumblr.com)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Tumblr RSS syndication"
+            }
+        },
+        {
+            "userAgent": "Wizz RSS News Reader",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Wizz"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (*Genieo*\/*)",
+            "properties": {
+                "Parent": "Feeds Syndicators",
+                "Browser": "Genieo RSS Reader"
+            }
+        }
+    ]
 }

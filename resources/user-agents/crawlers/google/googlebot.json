@@ -1,94 +1,94 @@
 {
-  "division": "Googlebot",
-  "sortIndex": 1120,
-  "userAgents": [
-    {
-      "userAgent": "Googlebot",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "Google Bot",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false"
-      },
-      "children": [
+    "division": "Googlebot",
+    "sortIndex": 1120,
+    "userAgents": [
         {
-          "match": "Google\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
+            "userAgent": "Googlebot",
+            "properties": {
+                "Parent": "Google",
+                "Browser": "Google Bot",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false"
+            },
+            "children": [
+                {
+                    "match": "Google\/* CFNetwork\/* #PLATFORM#",
+                    "platforms": [
+                        "Darwin"
+                    ]
+                }
+            ]
+        },
+        {
+            "userAgent": "GoogleBot\/*",
+            "properties": {
+                "Parent": "Googlebot"
+            }
+        },
+        {
+            "userAgent": "Googlebot\/Test*",
+            "properties": {
+                "Parent": "Googlebot"
+            }
+        },
+        {
+            "userAgent": "googlebot-urlconsole",
+            "properties": {
+                "Parent": "Googlebot",
+                "Browser": "googlebot-urlconsole"
+            }
+        },
+        {
+            "userAgent": "Google\/0.8* CFNetwork\/* Darwin\/*",
+            "properties": {
+                "Parent": "Googlebot",
+                "Version": "0.8",
+                "MinorVer": "8",
+                "Platform": "Darwin",
+                "Platform_Maker": "Apple Inc",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Macintosh",
+                "Device_Maker": "Apple Inc",
+                "Device_Brand_Name": "Apple",
+                "Device_Name": "Macintosh"
+            }
+        },
+        {
+            "userAgent": "Google\/0.9* CFNetwork\/* Darwin\/*",
+            "properties": {
+                "Parent": "Googlebot",
+                "Version": "0.9",
+                "MinorVer": "9",
+                "Platform": "Darwin",
+                "Platform_Maker": "Apple Inc",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Macintosh",
+                "Device_Maker": "Apple Inc",
+                "Device_Brand_Name": "Apple",
+                "Device_Name": "Macintosh"
+            }
+        },
+        {
+            "userAgent": "Googlebot-Image*",
+            "properties": {
+                "Parent": "Googlebot",
+                "Browser": "Googlebot-Image"
+            }
+        },
+        {
+            "userAgent": "Googlebot-News*",
+            "properties": {
+                "Parent": "Googlebot",
+                "Browser": "Googlebot-News"
+            }
+        },
+        {
+            "userAgent": "Googlebot-Video*",
+            "properties": {
+                "Parent": "Googlebot",
+                "Browser": "Googlebot-Video"
+            }
         }
-      ]
-    },
-    {
-      "userAgent": "GoogleBot\/*",
-      "properties": {
-        "Parent": "Googlebot"
-      }
-    },
-    {
-      "userAgent": "Googlebot\/Test*",
-      "properties": {
-        "Parent": "Googlebot"
-      }
-    },
-    {
-      "userAgent": "googlebot-urlconsole",
-      "properties": {
-        "Parent": "Googlebot",
-        "Browser": "googlebot-urlconsole"
-      }
-    },
-    {
-      "userAgent": "Google\/0.8* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Version": "0.8",
-        "MinorVer": "8",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Google\/0.9* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Version": "0.9",
-        "MinorVer": "9",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Googlebot-Image*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Browser": "Googlebot-Image"
-      }
-    },
-    {
-      "userAgent": "Googlebot-News*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Browser": "Googlebot-News"
-      }
-    },
-    {
-      "userAgent": "Googlebot-Video*",
-      "properties": {
-        "Parent": "Googlebot",
-        "Browser": "Googlebot-Video"
-      }
-    }
-  ]
+    ]
 }

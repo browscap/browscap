@@ -1,123 +1,123 @@
 {
-  "division": "Baidu",
-  "sortIndex": 1050,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Baidu",
-      "properties": {
-        "Parent": "Search Engines",
-        "Comment": "Baidu",
-        "Browser": "Baidu",
-        "Browser_Maker": "Baidu",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Baiduspider-image*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Image Search"
-      }
-    },
-    {
-      "userAgent": "Baiduspider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "baidu bot*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-ads*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Business Search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-cpro*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Union"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-favo*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu bookmark"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-image*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Image Search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-news*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu News search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-video*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Video search"
-      }
-    },
-    {
-      "userAgent": "AC-BaiduBot\/*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "AC-BaiduBot"
-      }
-    },
-    {
-      "userAgent": "BaiduImageSpider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiduImageSpider"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Baiduspider\/2.0; +http:\/\/www.baidu.com\/search\/spider.html)",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baiduspider",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baiduspider",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    }
-  ]
+    "division": "Baidu",
+    "sortIndex": 1050,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "Baidu",
+            "properties": {
+                "Parent": "Search Engines",
+                "Comment": "Baidu",
+                "Browser": "Baidu",
+                "Browser_Maker": "Baidu",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "Baiduspider-image*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu Image Search"
+            }
+        },
+        {
+            "userAgent": "Baiduspider*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "BaiDu"
+            }
+        },
+        {
+            "userAgent": "baidu bot*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "BaiDu"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "BaiDu"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-ads*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu Business Search"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-cpro*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu Union"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-favo*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu bookmark"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-image*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu Image Search"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-news*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu News search"
+            }
+        },
+        {
+            "userAgent": "*Baiduspider-video*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baidu Video search"
+            }
+        },
+        {
+            "userAgent": "AC-BaiduBot\/*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "AC-BaiduBot"
+            }
+        },
+        {
+            "userAgent": "BaiduImageSpider*",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "BaiduImageSpider"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Baiduspider\/2.0; +http:\/\/www.baidu.com\/search\/spider.html)",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baiduspider",
+                "Version": "2.0",
+                "MajorVer": "2"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
+            "properties": {
+                "Parent": "Baidu",
+                "Browser": "Baiduspider",
+                "Version": "2.0",
+                "MajorVer": "2"
+            }
+        }
+    ]
 }

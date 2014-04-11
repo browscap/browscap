@@ -1,22 +1,22 @@
 {
-  "division": "Adbeat",
-  "sortIndex": 40,
-  "userAgents": [
-    {
-      "userAgent": "Adbeat",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Adbeat",
-        "Browser_Maker": "adbeat.com"
-      },
-      "children": [
+    "division": "Adbeat",
+    "sortIndex": 40,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox\/*AppleWebKit\/*Safari\/*",
-          "platforms": [
-            "Linux_32_x86"
-          ]
+            "userAgent": "Adbeat",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Adbeat",
+                "Browser_Maker": "adbeat.com"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox\/*AppleWebKit\/*Safari\/*",
+                    "platforms": [
+                        "Linux_32_x86"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

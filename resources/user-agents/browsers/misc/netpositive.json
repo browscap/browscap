@@ -1,37 +1,37 @@
 {
-  "division": "NetPositive",
-  "sortIndex": 2430,
-  "userAgents": [
-    {
-      "userAgent": "NetPositive",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "NetPositive",
-        "Browser": "NetPositive",
-        "Platform": "BeOS",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
-      },
-      "children": [
+    "division": "NetPositive",
+    "sortIndex": 2430,
+    "userAgents": [
         {
-          "match": "*NetPositive\/*"
-        },
-        {
-          "match": "*NetPositive\/2.2*",
-          "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          }
+            "userAgent": "NetPositive",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "NetPositive",
+                "Browser": "NetPositive",
+                "Platform": "BeOS",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "Device_Name": "PC",
+                "Device_Maker": "Various",
+                "Device_Type": "Desktop",
+                "Device_Pointing_Method": "mouse"
+            },
+            "children": [
+                {
+                    "match": "*NetPositive\/*"
+                },
+                {
+                    "match": "*NetPositive\/2.2*",
+                    "properties": {
+                        "Version": "2.2",
+                        "MajorVer": "2",
+                        "MinorVer": "2"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

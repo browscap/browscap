@@ -1,32 +1,32 @@
 {
-  "division": "Opera Mobile Generic",
-  "sortIndex": 2877,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mobile Generic",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile Generic",
-        "Browser": "Opera Mobile",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "1",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "JavaScript": "true"
-      },
-      "children": [
+    "division": "Opera Mobile Generic",
+    "sortIndex": 2877,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "Mozilla\/?.*(*Opera Mobile?#PLATFORM#)*",
-          "platforms": [
-            "WinCE"
-          ]
+            "userAgent": "Opera Mobile Generic",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mobile Generic",
+                "Browser": "Opera Mobile",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "CssVersion": "1",
+                "isMobileDevice": "true",
+                "Device_Type": "Mobile Device",
+                "JavaScript": "true"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/?.*(*Opera Mobile?#PLATFORM#)*",
+                    "platforms": [
+                        "WinCE"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

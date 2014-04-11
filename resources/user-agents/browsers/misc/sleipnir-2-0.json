@@ -1,49 +1,49 @@
 {
-  "division": "Sleipnir 2.0",
-  "sortIndex": 3130,
-  "userAgents": [
-    {
-      "userAgent": "Sleipnir",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Sleipnir 2.0",
-        "Browser": "Sleipnir",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
-      },
-      "children": [
+    "division": "Sleipnir 2.0",
+    "sortIndex": 3130,
+    "userAgents": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; Windows NT 5.0*) Sleipnir\/2.*",
-          "platforms": [
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
-          ]
-        },
-        {
-          "match": "Sleipnir*",
-          "properties": {
-             "Win32": "false"
-          }
-        },
-        {
-          "match": "Sleipnir\/2.*",
-          "properties": {
-            "Win32": "false"
-          }
+            "userAgent": "Sleipnir",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Sleipnir 2.0",
+                "Browser": "Sleipnir",
+                "Version": "2.0",
+                "MajorVer": "2",
+                "MinorVer": "0",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "2",
+                "Device_Name": "PC",
+                "Device_Maker": "Various",
+                "Device_Type": "Desktop",
+                "Device_Pointing_Method": "mouse"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/4.0 (compatible; MSIE ?.0; Windows NT 5.0*) Sleipnir\/2.*",
+                    "platforms": [
+                        "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+                    ]
+                },
+                {
+                    "match": "Sleipnir*",
+                    "properties": {
+                        "Win32": "false"
+                    }
+                },
+                {
+                    "match": "Sleipnir\/2.*",
+                    "properties": {
+                        "Win32": "false"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

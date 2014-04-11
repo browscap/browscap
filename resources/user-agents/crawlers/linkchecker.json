@@ -1,27 +1,27 @@
 {
-  "division": "LinkChecker",
-  "sortIndex": 670,
-  "userAgents": [
-    {
-      "userAgent": "LinkChecker",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkChecker"
-      }
-    },
-    {
-      "userAgent": "LinkChecker\/*",
-      "properties": {
-        "Parent": "LinkChecker"
-      }
-    },
-    {
-      "userAgent": "LinkChecker\/7.*",
-      "properties": {
-        "Parent": "LinkChecker",
-        "Version": "7.0",
-        "MajorVer": "7"
-      }
-    }
-  ]
+    "division": "LinkChecker",
+    "sortIndex": 670,
+    "userAgents": [
+        {
+            "userAgent": "LinkChecker",
+            "properties": {
+                "Parent": "Link Checkers",
+                "Browser": "LinkChecker"
+            }
+        },
+        {
+            "userAgent": "LinkChecker\/*",
+            "properties": {
+                "Parent": "LinkChecker"
+            }
+        },
+        {
+            "userAgent": "LinkChecker\/7.*",
+            "properties": {
+                "Parent": "LinkChecker",
+                "Version": "7.0",
+                "MajorVer": "7"
+            }
+        }
+    ]
 }

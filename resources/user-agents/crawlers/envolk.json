@@ -1,30 +1,30 @@
 {
-  "division": "Envolk",
-  "sortIndex": 120,
-  "userAgents": [
-    {
-      "userAgent": "Envolk",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Envolk",
-        "Browser": "Envolk",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)",
-      "properties": {
-        "Parent": "Envolk"
-      }
-    },
-    {
-      "userAgent": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)",
-      "properties": {
-        "Parent": "Envolk"
-      }
-    }
-  ]
+    "division": "Envolk",
+    "sortIndex": 120,
+    "userAgents": [
+        {
+            "userAgent": "Envolk",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Envolk",
+                "Browser": "Envolk",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)",
+            "properties": {
+                "Parent": "Envolk"
+            }
+        },
+        {
+            "userAgent": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)",
+            "properties": {
+                "Parent": "Envolk"
+            }
+        }
+    ]
 }

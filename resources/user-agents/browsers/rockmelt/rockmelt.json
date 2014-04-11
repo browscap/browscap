@@ -1,63 +1,63 @@
 {
-  "division": "RockMelt",
-  "sortIndex": 1470,
-  "userAgents": [
-    {
-      "userAgent": "Rockmelt",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "RockMelt",
-        "Browser": "RockMelt",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "MacOSX",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
-      }
-    }
-  ]
+    "division": "RockMelt",
+    "sortIndex": 1470,
+    "userAgents": [
+        {
+            "userAgent": "Rockmelt",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "RockMelt",
+                "Browser": "RockMelt",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "3",
+                "Device_Name": "PC",
+                "Device_Maker": "Various",
+                "Device_Type": "Desktop",
+                "Device_Pointing_Method": "mouse",
+                "RenderingEngine_Name": "WebKit",
+                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+            "properties": {
+                "Parent": "Rockmelt",
+                "Platform": "MacOSX",
+                "Win32": "false"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+            "properties": {
+                "Parent": "Rockmelt",
+                "Platform": "WinXP",
+                "Platform_Version": "5.1",
+                "Platform_Description": "Windows XP"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+            "properties": {
+                "Parent": "Rockmelt",
+                "Platform": "WinVista",
+                "Platform_Version": "6.0",
+                "Platform_Description": "Windows Vista"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+            "properties": {
+                "Parent": "Rockmelt",
+                "Platform": "Win7",
+                "Platform_Version": "6.1",
+                "Platform_Description": "Windows 7"
+            }
+        }
+    ]
 }

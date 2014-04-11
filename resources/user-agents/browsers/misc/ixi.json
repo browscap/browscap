@@ -1,37 +1,37 @@
 {
-  "division": "IXI",
-  "sortIndex": 6370,
-  "userAgents": [
-    {
-      "userAgent": "IXI",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "IXI",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "IXI",
+    "sortIndex": 6370,
+    "userAgents": [
         {
-          "match": "Mozilla\/4.0 (compatible; 240x320) IXI\/Q05A2.4"
-        },
-        {
-          "match": "IXI-CT-25\/v2.0\/Mozilla\/4.0 (compatible; 240x320) IXI\/Q05A2.4",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
-          }
+            "userAgent": "IXI",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "IXI",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "VBScript": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/4.0 (compatible; 240x320) IXI\/Q05A2.4"
+                },
+                {
+                    "match": "IXI-CT-25\/v2.0\/Mozilla\/4.0 (compatible; 240x320) IXI\/Q05A2.4",
+                    "properties": {
+                        "Version": "2.0",
+                        "MajorVer": "2"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,56 +1,56 @@
 {
-  "division": "BingBot",
-  "sortIndex": 1230,
-  "userAgents": [
-    {
-      "userAgent": "BingBot",
-      "properties": {
-        "Parent": "MSN",
-        "Browser": "BingBot"
-      },
-      "children": [
+    "division": "BingBot",
+    "sortIndex": 1230,
+    "userAgents": [
         {
-          "match": "Bing\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
+            "userAgent": "BingBot",
+            "properties": {
+                "Parent": "MSN",
+                "Browser": "BingBot"
+            },
+            "children": [
+                {
+                    "match": "Bing\/* CFNetwork\/* #PLATFORM#",
+                    "platforms": [
+                        "Darwin"
+                    ]
+                },
+                {
+                    "match": "Bing\/2.2* CFNetwork\/* #PLATFORM#",
+                    "properties": {
+                        "Version": "2.2",
+                        "MajorVer": "2",
+                        "MinorVer": "2"
+                    },
+                    "platforms": [
+                        "Darwin"
+                    ]
+                }
+            ]
         },
         {
-          "match": "Bing\/2.2* CFNetwork\/* #PLATFORM#",
-          "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "Darwin"
-          ]
+            "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
+            "properties": {
+                "Parent": "BingBot",
+                "Version": "2.0",
+                "MajorVer": "2"
+            }
+        },
+        {
+            "userAgent": "adidxbot\/*",
+            "properties": {
+                "Parent": "BingBot",
+                "Browser": "adidxbot"
+            }
+        },
+        {
+            "userAgent": "adidxbot\/2.0*",
+            "properties": {
+                "Parent": "BingBot",
+                "Browser": "adidxbot",
+                "Version": "2.0",
+                "MajorVer": "2"
+            }
         }
-      ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
-      "properties": {
-        "Parent": "BingBot",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "adidxbot\/*",
-      "properties": {
-        "Parent": "BingBot",
-        "Browser": "adidxbot"
-      }
-    },
-    {
-      "userAgent": "adidxbot\/2.0*",
-      "properties": {
-        "Parent": "BingBot",
-        "Browser": "adidxbot",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    }
-  ]
+    ]
 }

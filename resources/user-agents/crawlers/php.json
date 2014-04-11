@@ -1,102 +1,102 @@
 {
-  "division": "PHP",
-  "sortIndex": 890,
-  "userAgents": [
-    {
-      "userAgent": "PHP",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "PHP",
-        "Browser": "PHP",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser_Maker": "the PHP Group"
-      }
-    },
-    {
-      "userAgent": "PHP*",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "PHP"
-      }
-    },
-    {
-      "userAgent": "httpclient (http:\/\/www.phpclasses.org\/httpclient $Revision:*",
-      "properties": {
-        "Parent": "PHP",
-        "Browser": "httpclient",
-        "Browser_Maker": "www.phpclasses.org"
-      }
-    },
-    {
-      "userAgent": "PECL::HTTP\/1.6*",
-      "properties": {
-        "Parent": "PHP",
-        "Browser": "PECL HTTP",
-        "Browser_Maker": "unknown",
-        "Version": "1.6",
-        "MajorVer": "1",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "?Ogg.class.php*",
-      "properties": {
-        "Parent": "PHP",
-        "Browser_Maker": "unknown"
-      }
-    },
-    {
-      "userAgent": "Ogg.class.php*",
-      "properties": {
-        "Parent": "PHP",
-        "Browser_Maker": "unknown"
-      }
-    },
-    {
-      "userAgent": "PHP-SOAP\/*",
-      "properties": {
-        "Parent": "PHP"
-      }
-    },
-    {
-      "userAgent": "xmlrpc-epi-php\/* (PHP)",
-      "properties": {
-        "Parent": "PHP"
-      }
-    },
-    {
-      "userAgent": "PHP-SOAP\/5.2*",
-      "properties": {
-        "Parent": "PHP",
-        "Version": "5.2",
-        "MajorVer": "5",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "PHP-SOAP\/5.3*",
-      "properties": {
-        "Parent": "PHP",
-        "Version": "5.3",
-        "MajorVer": "5",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "XML-RPC for PHP *",
-      "properties": {
-        "Parent": "PHP",
-        "Browser": "XML-RPC for PHP"
-      }
-    },
-    {
-      "userAgent": "Zend_XmlRpc_Client",
-      "properties": {
-        "Parent": "PHP",
-        "Browser": "Zend_XmlRpc_Client",
-        "Browser_Maker": "Zend"
-      }
-    }
-  ]
+    "division": "PHP",
+    "sortIndex": 890,
+    "userAgents": [
+        {
+            "userAgent": "PHP",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "PHP",
+                "Browser": "PHP",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true",
+                "Browser_Maker": "the PHP Group"
+            }
+        },
+        {
+            "userAgent": "PHP*",
+            "properties": {
+                "Parent": "Rippers",
+                "Browser": "PHP"
+            }
+        },
+        {
+            "userAgent": "httpclient (http:\/\/www.phpclasses.org\/httpclient $Revision:*",
+            "properties": {
+                "Parent": "PHP",
+                "Browser": "httpclient",
+                "Browser_Maker": "www.phpclasses.org"
+            }
+        },
+        {
+            "userAgent": "PECL::HTTP\/1.6*",
+            "properties": {
+                "Parent": "PHP",
+                "Browser": "PECL HTTP",
+                "Browser_Maker": "unknown",
+                "Version": "1.6",
+                "MajorVer": "1",
+                "MinorVer": "6"
+            }
+        },
+        {
+            "userAgent": "?Ogg.class.php*",
+            "properties": {
+                "Parent": "PHP",
+                "Browser_Maker": "unknown"
+            }
+        },
+        {
+            "userAgent": "Ogg.class.php*",
+            "properties": {
+                "Parent": "PHP",
+                "Browser_Maker": "unknown"
+            }
+        },
+        {
+            "userAgent": "PHP-SOAP\/*",
+            "properties": {
+                "Parent": "PHP"
+            }
+        },
+        {
+            "userAgent": "xmlrpc-epi-php\/* (PHP)",
+            "properties": {
+                "Parent": "PHP"
+            }
+        },
+        {
+            "userAgent": "PHP-SOAP\/5.2*",
+            "properties": {
+                "Parent": "PHP",
+                "Version": "5.2",
+                "MajorVer": "5",
+                "MinorVer": "2"
+            }
+        },
+        {
+            "userAgent": "PHP-SOAP\/5.3*",
+            "properties": {
+                "Parent": "PHP",
+                "Version": "5.3",
+                "MajorVer": "5",
+                "MinorVer": "3"
+            }
+        },
+        {
+            "userAgent": "XML-RPC for PHP *",
+            "properties": {
+                "Parent": "PHP",
+                "Browser": "XML-RPC for PHP"
+            }
+        },
+        {
+            "userAgent": "Zend_XmlRpc_Client",
+            "properties": {
+                "Parent": "PHP",
+                "Browser": "Zend_XmlRpc_Client",
+                "Browser_Maker": "Zend"
+            }
+        }
+    ]
 }

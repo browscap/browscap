@@ -1,62 +1,62 @@
 {
-  "division": "Panasonic",
-  "sortIndex": 9730,
-  "userAgents": [
-    {
-      "userAgent": "Panasonic",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Panasonic",
-        "Browser_Type": "Browser",
-        "Platform": "Java",
-        "Platform_Maker": "Oracle",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "Panasonic",
+    "sortIndex": 9730,
+    "userAgents": [
         {
-          "match": "Panasonic-A500\/R1*"
-        },
-        {
-          "match": "Panasonic-GAD87\/A*"
-        },
-        {
-          "match": "Panasonic-X200\/R01 *"
-        },
-        {
-          "match": "Panasonic-X200P\/RP1 *"
-        },
-        {
-          "match": "Panasonic-X400\/R01 *"
-        },
-        {
-          "match": "Panasonic-X60\/R01 *"
-        },
-        {
-          "match": "Panasonic-X66 *"
-        },
-        {
-          "match": "Panasonic-X68*"
-        },
-        {
-          "match": "Panasonic-X70\/1.0 *"
-        },
-        {
-          "match": "Panasonic-X70\/A00 *"
+            "userAgent": "Panasonic",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Panasonic",
+                "Browser_Type": "Browser",
+                "Platform": "Java",
+                "Platform_Maker": "Oracle",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "CssVersion": "2",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "Panasonic-A500\/R1*"
+                },
+                {
+                    "match": "Panasonic-GAD87\/A*"
+                },
+                {
+                    "match": "Panasonic-X200\/R01 *"
+                },
+                {
+                    "match": "Panasonic-X200P\/RP1 *"
+                },
+                {
+                    "match": "Panasonic-X400\/R01 *"
+                },
+                {
+                    "match": "Panasonic-X60\/R01 *"
+                },
+                {
+                    "match": "Panasonic-X66 *"
+                },
+                {
+                    "match": "Panasonic-X68*"
+                },
+                {
+                    "match": "Panasonic-X70\/1.0 *"
+                },
+                {
+                    "match": "Panasonic-X70\/A00 *"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

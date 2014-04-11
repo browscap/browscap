@@ -1,26 +1,26 @@
 {
-  "division": "Google Feedfetcher",
-  "sortIndex": 1110,
-  "userAgents": [
-    {
-      "userAgent": "Google Feedfetcher",
-      "properties": {
-        "Parent": "Google",
-        "Browser": "Google Feedfetcher",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
-      "properties": {
-        "Parent": "Google Feedfetcher"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)",
-      "properties": {
-        "Parent": "Google Feedfetcher"
-      }
-    }
-  ]
+    "division": "Google Feedfetcher",
+    "sortIndex": 1110,
+    "userAgents": [
+        {
+            "userAgent": "Google Feedfetcher",
+            "properties": {
+                "Parent": "Google",
+                "Browser": "Google Feedfetcher",
+                "isSyndicationReader": "true"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
+            "properties": {
+                "Parent": "Google Feedfetcher"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)",
+            "properties": {
+                "Parent": "Google Feedfetcher"
+            }
+        }
+    ]
 }

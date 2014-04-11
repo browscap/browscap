@@ -57,13 +57,13 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
           "properties": {
-              "Device_Type": "Mobile Phone",
-              "Device_Code_Name": "iPhone",
-              "Device_Name": "iPhone",
-              "Device_Maker": "Apple",
-              "Device_Brand_Name": "Apple",
-              "Device_Pointing_Method": "touchscreen",
-              "isMobileDevice": "true"
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

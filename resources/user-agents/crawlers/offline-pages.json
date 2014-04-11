@@ -1,26 +1,26 @@
 {
-  "division": "Offline Pages",
-  "sortIndex": 850,
-  "userAgents": [
-    {
-      "userAgent": "Offline Pages",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Offline Pages",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      },
-      "children": [
+    "division": "Offline Pages",
+    "sortIndex": 850,
+    "userAgents": [
         {
-          "match": "OfflinePages\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
+            "userAgent": "Offline Pages",
+            "properties": {
+                "Parent": "General Crawlers",
+                "Browser": "Offline Pages",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            },
+            "children": [
+                {
+                    "match": "OfflinePages\/* CFNetwork\/* #PLATFORM#",
+                    "platforms": [
+                        "Darwin"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

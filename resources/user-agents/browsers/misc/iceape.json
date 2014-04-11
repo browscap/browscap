@@ -1,170 +1,170 @@
 {
-  "division": "IceApe",
-  "sortIndex": 5280,
-  "userAgents": [
-    {
-      "userAgent": "IceApe",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "IceApe",
-        "Browser_Type": "Browser",
-        "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
-      },
-      "children": [
+    "division": "IceApe",
+    "sortIndex": 5280,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/1.0*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/1.1*",
-          "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.0*",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.1*",
-          "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.10*",
-          "properties": {
-            "Version": "2.10",
-            "MajorVer": "2",
-            "MinorVer": "10"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.2*",
-          "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.3*",
-          "properties": {
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.4*",
-          "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.5*",
-          "properties": {
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.6*",
-          "properties": {
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.7*",
-          "properties": {
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.8*",
-          "properties": {
-            "Version": "2.8",
-            "MajorVer": "2",
-            "MinorVer": "8"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.9*",
-          "properties": {
-            "Version": "2.9",
-            "MajorVer": "2",
-            "MinorVer": "9"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.11*",
-          "properties": {
-            "Version": "2.11",
-            "MajorVer": "2",
-            "MinorVer": "11"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.12*",
-          "properties": {
-            "Version": "2.12",
-            "MajorVer": "2",
-            "MinorVer": "12"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.13*",
-          "properties": {
-            "Version": "2.13",
-            "MajorVer": "2",
-            "MinorVer": "13"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.14*",
-          "properties": {
-            "Version": "2.14",
-            "MajorVer": "2",
-            "MinorVer": "14"
-          }
+            "userAgent": "IceApe",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "IceApe",
+                "Browser_Type": "Browser",
+                "Platform": "Linux",
+                "Platform_Maker": "Linux Foundation",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "VBScript": "false",
+                "ActiveXControls": "false",
+                "isMobileDevice": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "CssVersion": "2",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Linux Desktop",
+                "Device_Name": "Linux Desktop",
+                "RenderingEngine_Name": "Gecko",
+                "RenderingEngine_Version": "",
+                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+                "RenderingEngine_Maker": "Mozilla Foundation"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/1.0*",
+                    "properties": {
+                        "Version": "1.0",
+                        "MajorVer": "1"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/1.1*",
+                    "properties": {
+                        "Version": "1.1",
+                        "MajorVer": "1",
+                        "MinorVer": "1"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.0*",
+                    "properties": {
+                        "Version": "2.0",
+                        "MajorVer": "2"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.1*",
+                    "properties": {
+                        "Version": "2.1",
+                        "MajorVer": "2",
+                        "MinorVer": "1"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.10*",
+                    "properties": {
+                        "Version": "2.10",
+                        "MajorVer": "2",
+                        "MinorVer": "10"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.2*",
+                    "properties": {
+                        "Version": "2.2",
+                        "MajorVer": "2",
+                        "MinorVer": "2"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.3*",
+                    "properties": {
+                        "Version": "2.3",
+                        "MajorVer": "2",
+                        "MinorVer": "3"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.4*",
+                    "properties": {
+                        "Version": "2.4",
+                        "MajorVer": "2",
+                        "MinorVer": "4"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.5*",
+                    "properties": {
+                        "Version": "2.5",
+                        "MajorVer": "2",
+                        "MinorVer": "5"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.6*",
+                    "properties": {
+                        "Version": "2.6",
+                        "MajorVer": "2",
+                        "MinorVer": "6"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.7*",
+                    "properties": {
+                        "Version": "2.7",
+                        "MajorVer": "2",
+                        "MinorVer": "7"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.8*",
+                    "properties": {
+                        "Version": "2.8",
+                        "MajorVer": "2",
+                        "MinorVer": "8"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.9*",
+                    "properties": {
+                        "Version": "2.9",
+                        "MajorVer": "2",
+                        "MinorVer": "9"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.11*",
+                    "properties": {
+                        "Version": "2.11",
+                        "MajorVer": "2",
+                        "MinorVer": "11"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.12*",
+                    "properties": {
+                        "Version": "2.12",
+                        "MajorVer": "2",
+                        "MinorVer": "12"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.13*",
+                    "properties": {
+                        "Version": "2.13",
+                        "MajorVer": "2",
+                        "MinorVer": "13"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.14*",
+                    "properties": {
+                        "Version": "2.14",
+                        "MajorVer": "2",
+                        "MinorVer": "14"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

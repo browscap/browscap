@@ -1,20 +1,20 @@
 {
-  "division": "Yeti-Mobile",
-  "sortIndex": 810,
-  "userAgents": [
-    {
-      "userAgent": "Yeti-Mobile",
-      "properties": {
-        "Parent": "Naver",
-        "Browser": "NaverBot Mobile",
-        "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "DoCoMo\/2.0?P-04A *(compatible; Yeti-Mobile\/0.1; ?http:\/\/help.naver.com\/robots\/)*",
-      "properties": {
-        "Parent": "Yeti-Mobile"
-      }
-    }
-  ]
+    "division": "Yeti-Mobile",
+    "sortIndex": 810,
+    "userAgents": [
+        {
+            "userAgent": "Yeti-Mobile",
+            "properties": {
+                "Parent": "Naver",
+                "Browser": "NaverBot Mobile",
+                "isMobileDevice": "true"
+            }
+        },
+        {
+            "userAgent": "DoCoMo\/2.0?P-04A *(compatible; Yeti-Mobile\/0.1; ?http:\/\/help.naver.com\/robots\/)*",
+            "properties": {
+                "Parent": "Yeti-Mobile"
+            }
+        }
+    ]
 }

@@ -1,30 +1,30 @@
 {
-  "division": "Pete-Spider",
-  "sortIndex": 880,
-  "userAgents": [
-    {
-      "userAgent": "Pete-Spider",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Pete-Spider",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Pete-Spider\/*",
-      "properties": {
-        "Parent": "Pete-Spider"
-      }
-    },
-    {
-      "userAgent": "Pete-Spider\/1.*",
-      "properties": {
-        "Parent": "Pete-Spider"
-      }
-    }
-  ]
+    "division": "Pete-Spider",
+    "sortIndex": 880,
+    "userAgents": [
+        {
+            "userAgent": "Pete-Spider",
+            "properties": {
+                "Parent": "General Crawlers",
+                "Browser": "Pete-Spider",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "Pete-Spider\/*",
+            "properties": {
+                "Parent": "Pete-Spider"
+            }
+        },
+        {
+            "userAgent": "Pete-Spider\/1.*",
+            "properties": {
+                "Parent": "Pete-Spider"
+            }
+        }
+    ]
 }

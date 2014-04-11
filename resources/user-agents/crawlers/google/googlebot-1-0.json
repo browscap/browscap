@@ -1,28 +1,28 @@
 {
-  "division": "Googlebot 1.0",
-  "sortIndex": 1130,
-  "userAgents": [
-    {
-      "userAgent": "Googlebot 1.0",
-      "properties": {
-        "Parent": "Googlebot",
-        "Version": "1.0",
-        "MajorVer": "1"
-      },
-      "children": [
+    "division": "Googlebot 1.0",
+    "sortIndex": 1130,
+    "userAgents": [
         {
-          "match": "Google\/1.* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
+            "userAgent": "Googlebot 1.0",
+            "properties": {
+                "Parent": "Googlebot",
+                "Version": "1.0",
+                "MajorVer": "1"
+            },
+            "children": [
+                {
+                    "match": "Google\/1.* CFNetwork\/* #PLATFORM#",
+                    "platforms": [
+                        "Darwin"
+                    ]
+                }
+            ]
+        },
+        {
+            "userAgent": "*Googlebot\/1.*",
+            "properties": {
+                "Parent": "Googlebot 1.0"
+            }
         }
-      ]
-    },
-    {
-      "userAgent": "*Googlebot\/1.*",
-      "properties": {
-        "Parent": "Googlebot 1.0"
-      }
-    }
-  ]
+    ]
 }

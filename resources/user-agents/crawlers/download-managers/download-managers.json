@@ -1,404 +1,404 @@
 {
-  "division": "Download Managers",
-  "sortIndex": 340,
-  "userAgents": [
-    {
-      "userAgent": "Download Managers",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Download Managers",
-        "Browser": "Download Managers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "A1 Website Download\/1.* (*) miggibot",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "A1 Website Download"
-      }
-    },
-    {
-      "userAgent": "AutoMate5",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "AutoMate5"
-      }
-    },
-    {
-      "userAgent": "Beamer*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Beamer"
-      }
-    },
-    {
-      "userAgent": "BitBeamer\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "BitBeamer"
-      }
-    },
-    {
-      "userAgent": "DA *",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Accelerator"
-      }
-    },
-    {
-      "userAgent": "DAP *",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Accelerator Plus"
-      }
-    },
-    {
-      "userAgent": "masscan\/1.0*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Accelerator",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Download Demon*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Demon"
-      }
-    },
-    {
-      "userAgent": "Download Express*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Express"
-      }
-    },
-    {
-      "userAgent": "Download Master*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Master"
-      }
-    },
-    {
-      "userAgent": "Download Ninja*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Ninja"
-      }
-    },
-    {
-      "userAgent": "Download Wonder*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Wonder"
-      }
-    },
-    {
-      "userAgent": "DownloadSession*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "DownloadSession"
-      }
-    },
-    {
-      "userAgent": "EasyDL\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "EasyDL"
-      }
-    },
-    {
-      "userAgent": "FDM 1.x",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Free Download Manager"
-      }
-    },
-    {
-      "userAgent": "FlashGet",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "FlashGet"
-      }
-    },
-    {
-      "userAgent": "FreshDownload\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "FreshDownload"
-      }
-    },
-    {
-      "userAgent": "GetRight\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "GetRight"
-      }
-    },
-    {
-      "userAgent": "GetRightPro\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "GetRightPro"
-      }
-    },
-    {
-      "userAgent": "GetSmart\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "GetSmart"
-      }
-    },
-    {
-      "userAgent": "Go!Zilla*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "GoZilla"
-      }
-    },
-    {
-      "userAgent": "Gozilla\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Gozilla"
-      }
-    },
-    {
-      "userAgent": "Internet Ninja*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Internet Ninja"
-      }
-    },
-    {
-      "userAgent": "Kontiki Client*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Kontiki Client"
-      }
-    },
-    {
-      "userAgent": "lftp\/3.2.1",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "lftp"
-      }
-    },
-    {
-      "userAgent": "LightningDownload\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "LightningDownload"
-      }
-    },
-    {
-      "userAgent": "LMQueueBot\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "LMQueueBot"
-      }
-    },
-    {
-      "userAgent": "MetaProducts Download Express\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Download Express"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; Getleft*)",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Getleft"
-      }
-    },
-    {
-      "userAgent": "Myzilla",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Myzilla"
-      }
-    },
-    {
-      "userAgent": "Net Vampire\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Net Vampire"
-      }
-    },
-    {
-      "userAgent": "Net_Vampire*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Net_Vampire"
-      }
-    },
-    {
-      "userAgent": "NetAnts*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "NetAnts"
-      }
-    },
-    {
-      "userAgent": "NetPumper*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "NetPumper"
-      }
-    },
-    {
-      "userAgent": "NetSucker*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "NetSucker"
-      }
-    },
-    {
-      "userAgent": "NetZip Downloader*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "NetZip Downloader"
-      }
-    },
-    {
-      "userAgent": "NexTools WebAgent*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "NexTools WebAgent"
-      }
-    },
-    {
-      "userAgent": "Offline Downloader*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Offline Downloader"
-      }
-    },
-    {
-      "userAgent": "P3P Client",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "P3P Client"
-      }
-    },
-    {
-      "userAgent": "PageDown*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "PageDown"
-      }
-    },
-    {
-      "userAgent": "PicaLoader*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "PicaLoader"
-      }
-    },
-    {
-      "userAgent": "Prozilla*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Prozilla"
-      }
-    },
-    {
-      "userAgent": "RealDownload\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "RealDownload"
-      }
-    },
-    {
-      "userAgent": "sEasyDL\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "EasyDL"
-      }
-    },
-    {
-      "userAgent": "shareaza*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "shareaza"
-      }
-    },
-    {
-      "userAgent": "SmartDownload\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "SmartDownload"
-      }
-    },
-    {
-      "userAgent": "SpeedDownload\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Speed Download"
-      }
-    },
-    {
-      "userAgent": "Star*Downloader\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "StarDownloader"
-      }
-    },
-    {
-      "userAgent": "STEROID Download",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "STEROID Download"
-      }
-    },
-    {
-      "userAgent": "SuperBot\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "SuperBot"
-      }
-    },
-    {
-      "userAgent": "Vegas95\/*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Vegas95"
-      }
-    },
-    {
-      "userAgent": "WebZIP*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "WebZIP"
-      }
-    },
-    {
-      "userAgent": "Wget*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Wget"
-      }
-    },
-    {
-      "userAgent": "WinTools",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "WinTools"
-      }
-    },
-    {
-      "userAgent": "Xaldon WebSpider*",
-      "properties": {
-        "Parent": "Download Managers",
-        "Browser": "Xaldon WebSpider"
-      }
-    }
-  ]
+    "division": "Download Managers",
+    "sortIndex": 340,
+    "userAgents": [
+        {
+            "userAgent": "Download Managers",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Download Managers",
+                "Browser": "Download Managers",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "A1 Website Download\/1.* (*) miggibot",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "A1 Website Download"
+            }
+        },
+        {
+            "userAgent": "AutoMate5",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "AutoMate5"
+            }
+        },
+        {
+            "userAgent": "Beamer*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Beamer"
+            }
+        },
+        {
+            "userAgent": "BitBeamer\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "BitBeamer"
+            }
+        },
+        {
+            "userAgent": "DA *",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Accelerator"
+            }
+        },
+        {
+            "userAgent": "DAP *",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Accelerator Plus"
+            }
+        },
+        {
+            "userAgent": "masscan\/1.0*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Accelerator",
+                "Version": "1.0",
+                "MajorVer": "1",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "Download Demon*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Demon"
+            }
+        },
+        {
+            "userAgent": "Download Express*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Express"
+            }
+        },
+        {
+            "userAgent": "Download Master*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Master"
+            }
+        },
+        {
+            "userAgent": "Download Ninja*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Ninja"
+            }
+        },
+        {
+            "userAgent": "Download Wonder*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Wonder"
+            }
+        },
+        {
+            "userAgent": "DownloadSession*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "DownloadSession"
+            }
+        },
+        {
+            "userAgent": "EasyDL\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "EasyDL"
+            }
+        },
+        {
+            "userAgent": "FDM 1.x",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Free Download Manager"
+            }
+        },
+        {
+            "userAgent": "FlashGet",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "FlashGet"
+            }
+        },
+        {
+            "userAgent": "FreshDownload\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "FreshDownload"
+            }
+        },
+        {
+            "userAgent": "GetRight\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "GetRight"
+            }
+        },
+        {
+            "userAgent": "GetRightPro\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "GetRightPro"
+            }
+        },
+        {
+            "userAgent": "GetSmart\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "GetSmart"
+            }
+        },
+        {
+            "userAgent": "Go!Zilla*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "GoZilla"
+            }
+        },
+        {
+            "userAgent": "Gozilla\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Gozilla"
+            }
+        },
+        {
+            "userAgent": "Internet Ninja*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Internet Ninja"
+            }
+        },
+        {
+            "userAgent": "Kontiki Client*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Kontiki Client"
+            }
+        },
+        {
+            "userAgent": "lftp\/3.2.1",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "lftp"
+            }
+        },
+        {
+            "userAgent": "LightningDownload\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "LightningDownload"
+            }
+        },
+        {
+            "userAgent": "LMQueueBot\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "LMQueueBot"
+            }
+        },
+        {
+            "userAgent": "MetaProducts Download Express\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Download Express"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/4.0 (compatible; Getleft*)",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Getleft"
+            }
+        },
+        {
+            "userAgent": "Myzilla",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Myzilla"
+            }
+        },
+        {
+            "userAgent": "Net Vampire\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Net Vampire"
+            }
+        },
+        {
+            "userAgent": "Net_Vampire*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Net_Vampire"
+            }
+        },
+        {
+            "userAgent": "NetAnts*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "NetAnts"
+            }
+        },
+        {
+            "userAgent": "NetPumper*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "NetPumper"
+            }
+        },
+        {
+            "userAgent": "NetSucker*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "NetSucker"
+            }
+        },
+        {
+            "userAgent": "NetZip Downloader*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "NetZip Downloader"
+            }
+        },
+        {
+            "userAgent": "NexTools WebAgent*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "NexTools WebAgent"
+            }
+        },
+        {
+            "userAgent": "Offline Downloader*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Offline Downloader"
+            }
+        },
+        {
+            "userAgent": "P3P Client",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "P3P Client"
+            }
+        },
+        {
+            "userAgent": "PageDown*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "PageDown"
+            }
+        },
+        {
+            "userAgent": "PicaLoader*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "PicaLoader"
+            }
+        },
+        {
+            "userAgent": "Prozilla*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Prozilla"
+            }
+        },
+        {
+            "userAgent": "RealDownload\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "RealDownload"
+            }
+        },
+        {
+            "userAgent": "sEasyDL\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "EasyDL"
+            }
+        },
+        {
+            "userAgent": "shareaza*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "shareaza"
+            }
+        },
+        {
+            "userAgent": "SmartDownload\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "SmartDownload"
+            }
+        },
+        {
+            "userAgent": "SpeedDownload\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Speed Download"
+            }
+        },
+        {
+            "userAgent": "Star*Downloader\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "StarDownloader"
+            }
+        },
+        {
+            "userAgent": "STEROID Download",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "STEROID Download"
+            }
+        },
+        {
+            "userAgent": "SuperBot\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "SuperBot"
+            }
+        },
+        {
+            "userAgent": "Vegas95\/*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Vegas95"
+            }
+        },
+        {
+            "userAgent": "WebZIP*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "WebZIP"
+            }
+        },
+        {
+            "userAgent": "Wget*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Wget"
+            }
+        },
+        {
+            "userAgent": "WinTools",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "WinTools"
+            }
+        },
+        {
+            "userAgent": "Xaldon WebSpider*",
+            "properties": {
+                "Parent": "Download Managers",
+                "Browser": "Xaldon WebSpider"
+            }
+        }
+    ]
 }

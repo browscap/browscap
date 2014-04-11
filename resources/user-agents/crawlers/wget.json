@@ -1,60 +1,60 @@
 {
-  "division": "wget",
-  "sortIndex": 1560,
-  "userAgents": [
-    {
-      "userAgent": "wget",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "wget"
-      }
-    },
-    {
-      "userAgent": "Wget\/1.*",
-      "properties": {
-        "Parent": "wget",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Wget\/1.10*",
-      "properties": {
-        "Parent": "wget",
-        "Version": "1.10",
-        "MajorVer": "1",
-        "MinorVer": "10"
-      }
-    },
-    {
-      "userAgent": "Wget\/1.11*",
-      "properties": {
-        "Parent": "wget",
-        "Version": "1.11",
-        "MajorVer": "1",
-        "MinorVer": "11"
-      }
-    },
-    {
-      "userAgent": "Wget\/1.12*",
-      "properties": {
-        "Parent": "wget",
-        "Version": "1.12",
-        "MajorVer": "1",
-        "MinorVer": "12"
-      }
-    },
-    {
-      "userAgent": "Wget\/1.13*",
-      "properties": {
-        "Parent": "wget",
-        "Version": "1.13",
-        "MajorVer": "1",
-        "MinorVer": "13"
-      }
-    }
-  ]
+    "division": "wget",
+    "sortIndex": 1560,
+    "userAgents": [
+        {
+            "userAgent": "wget",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "General Crawlers",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true",
+                "Browser": "wget"
+            }
+        },
+        {
+            "userAgent": "Wget\/1.*",
+            "properties": {
+                "Parent": "wget",
+                "Version": "1.0",
+                "MajorVer": "1"
+            }
+        },
+        {
+            "userAgent": "Wget\/1.10*",
+            "properties": {
+                "Parent": "wget",
+                "Version": "1.10",
+                "MajorVer": "1",
+                "MinorVer": "10"
+            }
+        },
+        {
+            "userAgent": "Wget\/1.11*",
+            "properties": {
+                "Parent": "wget",
+                "Version": "1.11",
+                "MajorVer": "1",
+                "MinorVer": "11"
+            }
+        },
+        {
+            "userAgent": "Wget\/1.12*",
+            "properties": {
+                "Parent": "wget",
+                "Version": "1.12",
+                "MajorVer": "1",
+                "MinorVer": "12"
+            }
+        },
+        {
+            "userAgent": "Wget\/1.13*",
+            "properties": {
+                "Parent": "wget",
+                "Version": "1.13",
+                "MajorVer": "1",
+                "MinorVer": "13"
+            }
+        }
+    ]
 }

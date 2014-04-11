@@ -1,141 +1,141 @@
 {
-  "division": "Exalead",
-  "sortIndex": 130,
-  "userAgents": [
-    {
-      "userAgent": "Exalead",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Exalead",
-        "Browser": "Exalead",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Exabot\/*",
-      "properties": {
-        "Parent": "Exalead"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Exabot\/*)",
-      "properties": {
-        "Parent": "Exalead"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)",
-      "properties": {
-        "Parent": "Exalead"
-      }
-    },
-    {
-      "userAgent": "Exabot-Images",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot-Images"
-      },
-      "children": [
+    "division": "Exalead",
+    "sortIndex": 130,
+    "userAgents": [
         {
-          "match": "Exabot-Images\/*"
+            "userAgent": "Exalead",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Exalead",
+                "Browser": "Exalead",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
         },
         {
-          "match": "Exabot-Images\/1.0*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
+            "userAgent": "Exabot\/*",
+            "properties": {
+                "Parent": "Exalead"
+            }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+            "userAgent": "Mozilla\/5.0 (compatible; Exabot\/*)",
+            "properties": {
+                "Parent": "Exalead"
+            }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
-          "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
+            "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)",
+            "properties": {
+                "Parent": "Exalead"
+            }
+        },
+        {
+            "userAgent": "Exabot-Images",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot-Images"
+            },
+            "children": [
+                {
+                    "match": "Exabot-Images\/*"
+                },
+                {
+                    "match": "Exabot-Images\/1.0*",
+                    "properties": {
+                        "Version": "1.0",
+                        "MajorVer": "1",
+                        "MinorVer": "0"
+                    }
+                },
+                {
+                    "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+                },
+                {
+                    "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
+                    "properties": {
+                        "Version": "3.0",
+                        "MajorVer": "3",
+                        "MinorVer": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "userAgent": "Exabot-Test\/*",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot-Test"
+            }
+        },
+        {
+            "userAgent": "Exabot\/2.0",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot",
+                "Version": "2.0",
+                "MajorVer": "2",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "Exabot\/3.0",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot",
+                "Version": "3.0",
+                "MajorVer": "3",
+                "MinorVer": "0",
+                "Platform": "Liberate"
+            }
+        },
+        {
+            "userAgent": "Exalead NG\/*",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exalead NG"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot\/BiggerBetter",
+                "Version": "3.0",
+                "MajorVer": "3",
+                "MinorVer": "0"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; NGBot\/*)",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "NGBot"
+            }
+        },
+        {
+            "userAgent": "NG-Search\/*",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "NG-Search"
+            }
+        },
+        {
+            "userAgent": "ng\/*",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exalead Previewer"
+            }
+        },
+        {
+            "userAgent": "*Exabot@exava.com*",
+            "properties": {
+                "Parent": "Exalead",
+                "Browser": "Exabot",
+                "Browser_Maker": "www.exabot.com"
+            }
         }
-      ]
-    },
-    {
-      "userAgent": "Exabot-Test\/*",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot-Test"
-      }
-    },
-    {
-      "userAgent": "Exabot\/2.0",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Exabot\/3.0",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0",
-        "Platform": "Liberate"
-      }
-    },
-    {
-      "userAgent": "Exalead NG\/*",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exalead NG"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot\/BiggerBetter",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; NGBot\/*)",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "NGBot"
-      }
-    },
-    {
-      "userAgent": "NG-Search\/*",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "NG-Search"
-      }
-    },
-    {
-      "userAgent": "ng\/*",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exalead Previewer"
-      }
-    },
-    {
-      "userAgent": "*Exabot@exava.com*",
-      "properties": {
-        "Parent": "Exalead",
-        "Browser": "Exabot",
-        "Browser_Maker": "www.exabot.com"
-      }
-    }
-  ]
+    ]
 }

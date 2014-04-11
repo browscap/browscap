@@ -1,32 +1,32 @@
 {
-  "division": "iVia Project",
-  "sortIndex": 180,
-  "userAgents": [
-    {
-      "userAgent": "iVia Project",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "iVia Project",
-        "Browser": "iVia Project",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "DataFountains\/DMOZ Downloader*",
-      "properties": {
-        "Parent": "iVia Project",
-        "Browser": "DataFountains\/DMOZ Downloader"
-      }
-    },
-    {
-      "userAgent": "DataFountains\/DMOZ Feature Vector Corpus Creator*",
-      "properties": {
-        "Parent": "iVia Project",
-        "Browser": "DataFountains\/DMOZ Feature Vector Corpus"
-      }
-    }
-  ]
+    "division": "iVia Project",
+    "sortIndex": 180,
+    "userAgents": [
+        {
+            "userAgent": "iVia Project",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "iVia Project",
+                "Browser": "iVia Project",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "DataFountains\/DMOZ Downloader*",
+            "properties": {
+                "Parent": "iVia Project",
+                "Browser": "DataFountains\/DMOZ Downloader"
+            }
+        },
+        {
+            "userAgent": "DataFountains\/DMOZ Feature Vector Corpus Creator*",
+            "properties": {
+                "Parent": "iVia Project",
+                "Browser": "DataFountains\/DMOZ Feature Vector Corpus"
+            }
+        }
+    ]
 }

@@ -1,78 +1,78 @@
 {
-  "division": "Crazy Browser #MAJORVER#.#MINORVER#",
-  "versions": [3, "3.1", "6.1"],
-  "sortIndex": 3770,
-  "userAgents": [
-    {
-      "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Crazy Browser #MAJORVER#.#MINORVER#",
-        "Browser": "Crazy Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser_Maker": "CrazyBrowser.com",
-        "Platform": "Win32",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Maker": "Microsoft Corporation",
-        "RenderingEngine_Version": "4.0",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
-      },
-      "children": [
+    "division": "Crazy Browser #MAJORVER#.#MINORVER#",
+    "versions": [3, "3.1", "6.1"],
+    "sortIndex": 3770,
+    "userAgents": [
         {
-          "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM#Crazy Browser #MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "4.0"
-          },
-          "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM# Trident\/4.0; *Crazy Browser #MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "4.0"
-          },
-          "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM# Trident\/5.0; *Crazy Browser #MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "5.0"
-          },
-          "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
-          ]
+            "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Crazy Browser #MAJORVER#.#MINORVER#",
+                "Browser": "Crazy Browser",
+                "Version": "#MAJORVER#.#MINORVER#",
+                "MajorVer": "#MAJORVER#",
+                "MinorVer": "#MINORVER#",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "VBScript": "false",
+                "ActiveXControls": "false",
+                "isMobileDevice": "false",
+                "isTablet": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Browser_Maker": "CrazyBrowser.com",
+                "Platform": "Win32",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "3",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop",
+                "RenderingEngine_Name": "Trident",
+                "RenderingEngine_Maker": "Microsoft Corporation",
+                "RenderingEngine_Version": "4.0",
+                "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM#Crazy Browser #MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "RenderingEngine_Version": "4.0"
+                    },
+                    "platforms": [
+                        "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM# Trident\/4.0; *Crazy Browser #MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "RenderingEngine_Version": "4.0"
+                    },
+                    "platforms": [
+                        "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
+                    ]
+                },
+                {
+                    "match": "Mozilla\/?.0 (compatible*; MSIE ?.0; #PLATFORM# Trident\/5.0; *Crazy Browser #MAJORVER#.#MINORVER#*",
+                    "properties": {
+                        "RenderingEngine_Version": "5.0"
+                    },
+                    "platforms": [
+                        "WinXPa_32", "Vista_32", "Win7_32", "Win7_64"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

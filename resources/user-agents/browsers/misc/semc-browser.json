@@ -1,29 +1,29 @@
 {
-  "division": "SEMC Browser",
-  "sortIndex": 1850,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "SEMC Browser",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "SEMC Browser",
-        "Browser": "SEMC Browser",
-        "Platform": "JAVA",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "SEMC Browser",
+    "sortIndex": 1850,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "*SEMC-Browser\/*"
+            "userAgent": "SEMC Browser",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "SEMC Browser",
+                "Browser": "SEMC Browser",
+                "Platform": "JAVA",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "*SEMC-Browser\/*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

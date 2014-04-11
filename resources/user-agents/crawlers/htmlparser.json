@@ -1,40 +1,40 @@
 {
-  "division": "HTMLParser",
-  "sortIndex": 980,
-  "userAgents": [
-    {
-      "userAgent": "HTMLParser",
-      "properties": {
-        "Parent": "Rippers",
-        "Browser": "HTMLParser",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/*",
-      "properties": {
-        "Parent": "HTMLParser"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/1.*",
-      "properties": {
-        "Parent": "HTMLParser",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/2.*",
-      "properties": {
-        "Parent": "HTMLParser",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    }
-  ]
+    "division": "HTMLParser",
+    "sortIndex": 980,
+    "userAgents": [
+        {
+            "userAgent": "HTMLParser",
+            "properties": {
+                "Parent": "Rippers",
+                "Browser": "HTMLParser",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "HTMLParser\/*",
+            "properties": {
+                "Parent": "HTMLParser"
+            }
+        },
+        {
+            "userAgent": "HTMLParser\/1.*",
+            "properties": {
+                "Parent": "HTMLParser",
+                "Version": "1.0",
+                "MajorVer": "1"
+            }
+        },
+        {
+            "userAgent": "HTMLParser\/2.*",
+            "properties": {
+                "Parent": "HTMLParser",
+                "Version": "2.0",
+                "MajorVer": "2"
+            }
+        }
+    ]
 }

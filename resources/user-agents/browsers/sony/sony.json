@@ -1,51 +1,51 @@
 {
-  "division": "Sony",
-  "sortIndex": 10650,
-  "userAgents": [
-    {
-      "userAgent": "Sony",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Sony",
-        "Browser_Type": "Browser",
-        "Platform": "Java",
-        "Platform_Maker": "Oracle",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)",
-      "properties": {
-        "Parent": "Sony"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)",
-      "properties": {
-        "Parent": "Sony"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)",
-      "properties": {
-        "Parent": "Sony"
-      }
-    }
-  ]
+    "division": "Sony",
+    "sortIndex": 10650,
+    "userAgents": [
+        {
+            "userAgent": "Sony",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Sony",
+                "Browser_Type": "Browser",
+                "Platform": "Java",
+                "Platform_Maker": "Oracle",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "Frames": "false",
+                "IFrames": "false",
+                "Tables": "false",
+                "Cookies": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "Mobile Device"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)",
+            "properties": {
+                "Parent": "Sony"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)",
+            "properties": {
+                "Parent": "Sony"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)",
+            "properties": {
+                "Parent": "Sony"
+            }
+        }
+    ]
 }

@@ -1,97 +1,97 @@
 {
-  "division": "Opera Mini Generic",
-  "sortIndex": 2040,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mini Generic",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mini Generic",
-        "Browser": "Opera Mini",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Android*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "RIM OS",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(iPhone*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "iOS",
-          "Device_Type": "Mobile Phone",
-          "Device_Code_Name": "iPhone",
-          "Device_Name": "iPhone",
-          "Device_Maker": "Apple",
-          "Device_Brand_Name": "Apple",
-          "Device_Pointing_Method": "touchscreen",
-          "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Series 60*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "WinMobile"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*BREW*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "Brew"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Bada*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "Bada"
-      }
-    },
-    {
-      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini*)*",
-      "properties": {
-        "Parent": "Opera Mini Generic",
-        "Platform": "JAVA"
-      }
-    }
-  ]
+    "division": "Opera Mini Generic",
+    "sortIndex": 2040,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "Opera Mini Generic",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mini Generic",
+                "Browser": "Opera Mini",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Device"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(Android*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "Android",
+                "Device_Name": "Android",
+                "Device_Maker": "Google"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(BlackBerry*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "RIM OS",
+                "Device_Name": "Blackberry",
+                "Device_Maker": "RIM"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(iPhone*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "iOS",
+                "Device_Type": "Mobile Phone",
+                "Device_Code_Name": "iPhone",
+                "Device_Name": "iPhone",
+                "Device_Maker": "Apple",
+                "Device_Brand_Name": "Apple",
+                "Device_Pointing_Method": "touchscreen",
+                "isMobileDevice": "true"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "JAVA"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(Series 60*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "SymbianOS"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(Windows Mobile*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "WinMobile"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(*BREW*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "Brew"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(*Bada*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "Bada"
+            }
+        },
+        {
+            "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini*)*",
+            "properties": {
+                "Parent": "Opera Mini Generic",
+                "Platform": "JAVA"
+            }
+        }
+    ]
 }

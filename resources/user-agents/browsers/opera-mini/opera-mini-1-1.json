@@ -1,33 +1,33 @@
 {
-  "division": "Opera Mini 1.1",
-  "sortIndex": 2041,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mini 1.1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mini 1.1",
-        "Browser": "Opera Mini",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP; Opera Mini\/1.1*)*",
-      "properties": {
-        "Parent": "Opera Mini 1.1",
-        "Platform": "JAVA"
-      }
-    }
-  ]
+    "division": "Opera Mini 1.1",
+    "sortIndex": 2041,
+    "lite": true,
+    "userAgents": [
+        {
+            "userAgent": "Opera Mini 1.1",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mini 1.1",
+                "Browser": "Opera Mini",
+                "Version": "1.1",
+                "MajorVer": "1",
+                "MinorVer": "1",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Device"
+            }
+        },
+        {
+            "userAgent": "Opera\/*(J2ME\/MIDP; Opera Mini\/1.1*)*",
+            "properties": {
+                "Parent": "Opera Mini 1.1",
+                "Platform": "JAVA"
+            }
+        }
+    ]
 }

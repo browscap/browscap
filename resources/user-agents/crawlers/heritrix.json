@@ -1,37 +1,37 @@
 {
-  "division": "Heritrix",
-  "sortIndex": 560,
-  "userAgents": [
-    {
-      "userAgent": "Heritrix",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Heritrix",
-        "Browser": "Heritrix",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*heritrix*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
-    },
-    {
-      "userAgent": "*Mozilla\/5.0 compatible; heritrix\/*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; *; heritrix\/*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
-    }
-  ]
+    "division": "Heritrix",
+    "sortIndex": 560,
+    "userAgents": [
+        {
+            "userAgent": "Heritrix",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Heritrix",
+                "Browser": "Heritrix",
+                "Browser_Type": "Bot/Crawler",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*heritrix*",
+            "properties": {
+                "Parent": "Heritrix"
+            }
+        },
+        {
+            "userAgent": "*Mozilla\/5.0 compatible; heritrix\/*",
+            "properties": {
+                "Parent": "Heritrix"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; *; heritrix\/*",
+            "properties": {
+                "Parent": "Heritrix"
+            }
+        }
+    ]
 }

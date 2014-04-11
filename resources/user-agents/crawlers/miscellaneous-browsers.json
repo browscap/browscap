@@ -1,221 +1,221 @@
 {
-  "division": "Miscellaneous Browsers",
-  "sortIndex": 430,
-  "userAgents": [
-    {
-      "userAgent": "Miscellaneous Browsers",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Miscellaneous Browsers",
-        "Browser": "Miscellaneous Browsers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*Amiga*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Amiga",
-        "Platform": "Amiga"
-      }
-    },
-    {
-      "userAgent": "*avantbrowser*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Avant Browser"
-      }
-    },
-    {
-      "userAgent": 12345,
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "12345"
-      }
-    },
-    {
-      "userAgent": "1st ZipCommander (Net) - http:\/\/www.zipcommander.com\/",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "1st ZipCommander"
-      }
-    },
-    {
-      "userAgent": "Ace Explorer",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Ace Explorer"
-      }
-    },
-    {
-      "userAgent": "Enigma Browser*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Enigma Browser"
-      }
-    },
-    {
-      "userAgent": "EVE-minibrowser\/*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "EVE-minibrowser",
-        "IFrames": "false",
-        "Tables": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "Crawler": "false"
-      }
-    },
-    {
-      "userAgent": "Godzilla\/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Godzilla"
-      }
-    },
-    {
-      "userAgent": "GreenBrowser",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "GreenBrowser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true",
-        "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
-        "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "Kopiczek\/* (WyderOS*; *)",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Kopiczek",
-        "Platform": "WyderOS",
-        "IFrames": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (*) - BrowseX (*)",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "BrowseX"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Win32;*Escape?*; ?)",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Escape",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; ibisBrowser)",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "ibisBrowser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; ?; PPC Mac OS X;*) AppleWebKit\/* (*) HistoryHound\/*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "HistoryHound"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *) AppleWebKit\/*(KHTML, like Gecko) Safari\/* Epiphany\/2.30.*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Epiphany",
-        "Version": "2.30",
-        "MajorVer": "2",
-        "MinorVer": "30",
-        "Platform": "Linux",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "IFrames": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3"
-      }
-    },
-    {
-      "userAgent": "NetRecorder*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "NetRecorder"
-      }
-    },
-    {
-      "userAgent": "NetSurf*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "NetSurf"
-      }
-    },
-    {
-      "userAgent": "ogeb browser , Version 1.1.0",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "ogeb browser",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "SCEJ PSP BROWSER 0102pspNavigator",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "Wipeout Pure"
-      }
-    },
-    {
-      "userAgent": "SlimBrowser",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "SlimBrowser"
-      }
-    },
-    {
-      "userAgent": "WWW_Browser\/*",
-      "properties": {
-        "Parent": "Miscellaneous Browsers",
-        "Browser": "WWW Browser",
-        "Version": "1.69",
-        "MajorVer": "1",
-        "MinorVer": "69",
-        "Platform": "Win16",
-        "CssVersion": "3"
-      }
-    },
-    {
-      "userAgent": "*Netcraft Webserver Survey*",
-      "properties": {
-        "Parent": "Netcraft",
-        "Browser": "Netcraft Webserver Survey"
-      }
-    },
-    {
-      "userAgent": "*CaptiveNetworkSupport*wispr*",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "WISPr"
-      }
-    }
-  ]
+    "division": "Miscellaneous Browsers",
+    "sortIndex": 430,
+    "userAgents": [
+        {
+            "userAgent": "Miscellaneous Browsers",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Miscellaneous Browsers",
+                "Browser": "Miscellaneous Browsers",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true"
+            }
+        },
+        {
+            "userAgent": "*Amiga*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Amiga",
+                "Platform": "Amiga"
+            }
+        },
+        {
+            "userAgent": "*avantbrowser*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Avant Browser"
+            }
+        },
+        {
+            "userAgent": 12345,
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "12345"
+            }
+        },
+        {
+            "userAgent": "1st ZipCommander (Net) - http:\/\/www.zipcommander.com\/",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "1st ZipCommander"
+            }
+        },
+        {
+            "userAgent": "Ace Explorer",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Ace Explorer"
+            }
+        },
+        {
+            "userAgent": "Enigma Browser*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Enigma Browser"
+            }
+        },
+        {
+            "userAgent": "EVE-minibrowser\/*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "EVE-minibrowser",
+                "IFrames": "false",
+                "Tables": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "Crawler": "false"
+            }
+        },
+        {
+            "userAgent": "Godzilla\/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Godzilla"
+            }
+        },
+        {
+            "userAgent": "GreenBrowser",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "GreenBrowser",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "BackgroundSounds": "true",
+                "JavaScript": "true",
+                "VBScript": "true",
+                "JavaApplets": "true",
+                "ActiveXControls": "true",
+                "CssVersion": "2"
+            }
+        },
+        {
+            "userAgent": "Kopiczek\/* (WyderOS*; *)",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Kopiczek",
+                "Platform": "WyderOS",
+                "IFrames": "true",
+                "VBScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "2"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (*) - BrowseX (*)",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "BrowseX"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/* (Win32;*Escape?*; ?)",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Escape",
+                "Platform": "Win32"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/4.0 (compatible; ibisBrowser)",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "ibisBrowser"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; ?; PPC Mac OS X;*) AppleWebKit\/* (*) HistoryHound\/*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "HistoryHound"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (X11; U; Linux*; *) AppleWebKit\/*(KHTML, like Gecko) Safari\/* Epiphany\/2.30.*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Epiphany",
+                "Version": "2.30",
+                "MajorVer": "2",
+                "MinorVer": "30",
+                "Platform": "Linux",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "IFrames": "true",
+                "VBScript": "true",
+                "JavaApplets": "true",
+                "CssVersion": "3"
+            }
+        },
+        {
+            "userAgent": "NetRecorder*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "NetRecorder"
+            }
+        },
+        {
+            "userAgent": "NetSurf*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "NetSurf"
+            }
+        },
+        {
+            "userAgent": "ogeb browser , Version 1.1.0",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "ogeb browser",
+                "Version": "1.1",
+                "MajorVer": "1",
+                "MinorVer": "1"
+            }
+        },
+        {
+            "userAgent": "SCEJ PSP BROWSER 0102pspNavigator",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "Wipeout Pure"
+            }
+        },
+        {
+            "userAgent": "SlimBrowser",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "SlimBrowser"
+            }
+        },
+        {
+            "userAgent": "WWW_Browser\/*",
+            "properties": {
+                "Parent": "Miscellaneous Browsers",
+                "Browser": "WWW Browser",
+                "Version": "1.69",
+                "MajorVer": "1",
+                "MinorVer": "69",
+                "Platform": "Win16",
+                "CssVersion": "3"
+            }
+        },
+        {
+            "userAgent": "*Netcraft Webserver Survey*",
+            "properties": {
+                "Parent": "Netcraft",
+                "Browser": "Netcraft Webserver Survey"
+            }
+        },
+        {
+            "userAgent": "*CaptiveNetworkSupport*wispr*",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "WISPr"
+            }
+        }
+    ]
 }

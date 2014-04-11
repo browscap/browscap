@@ -1,28 +1,28 @@
 {
-  "division": "FirstSearchBot",
-  "sortIndex": 450,
-  "userAgents": [
-    {
-      "userAgent": "FirstSearchBot",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Browser": "FirstSearchBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
-      "properties": {
-        "Parent": "FirstSearchBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/*)",
-      "properties": {
-        "Parent": "FirstSearchBot"
-      }
-    }
-  ]
+    "division": "FirstSearchBot",
+    "sortIndex": 450,
+    "userAgents": [
+        {
+            "userAgent": "FirstSearchBot",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "General Crawlers",
+                "Browser_Type": "Bot/Crawler",
+                "Crawler": "true",
+                "Browser": "FirstSearchBot"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
+            "properties": {
+                "Parent": "FirstSearchBot"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (compatible; FirstSearchBot\/*)",
+            "properties": {
+                "Parent": "FirstSearchBot"
+            }
+        }
+    ]
 }

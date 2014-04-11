@@ -1,28 +1,28 @@
 {
-  "division": "KDDI",
-  "sortIndex": 1730,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "KDDI",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "KDDI",
-        "Browser": "KDDI",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone"
-      },
-      "children": [
+    "division": "KDDI",
+    "sortIndex": 1730,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "KDDI-* UP.Browser\/* (GUI) MMP\/*"
+            "userAgent": "KDDI",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "KDDI",
+                "Browser": "KDDI",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Phone"
+            },
+            "children": [
+                {
+                    "match": "KDDI-* UP.Browser\/* (GUI) MMP\/*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

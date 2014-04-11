@@ -1,34 +1,34 @@
 {
-  "division": "Maemo Browser",
-  "sortIndex": 1770,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Maemo",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Maemo Browser",
-        "Browser": "Maemo",
-        "Platform": "Linux",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Phone"
-      },
-      "children": [
+    "division": "Maemo Browser",
+    "sortIndex": 1770,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.9.*) Gecko\/* Firefox\/* Maemo Browser 1.7.*",
-          "properties": {
-            "Version": "1.7",
-            "MajorVer": "1",
-            "MinorVer": "7"
-          }
+            "userAgent": "Maemo",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Maemo Browser",
+                "Browser": "Maemo",
+                "Platform": "Linux",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "2",
+                "Device_Type": "Mobile Phone"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.9.*) Gecko\/* Firefox\/* Maemo Browser 1.7.*",
+                    "properties": {
+                        "Version": "1.7",
+                        "MajorVer": "1",
+                        "MinorVer": "7"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

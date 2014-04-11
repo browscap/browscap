@@ -1,34 +1,34 @@
 {
-  "division": "PowerTV",
-  "sortIndex": 2190,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "PowerTV",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "PowerTV",
-        "Browser": "PowerTV",
-        "Platform": "PowerTV",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PowerTV",
-        "Device_Maker": "Scientific Atlanta",
-        "Device_Type": "TV Device"
-      },
-      "children": [
+    "division": "PowerTV",
+    "sortIndex": 2190,
+    "lite": true,
+    "userAgents": [
         {
-          "match": "Mozilla\/4.0 PowerTV\/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
-          "properties": {
-            "Version": "1.5",
-            "MajorVer": "1",
-            "MinorVer": "5"
-          }
+            "userAgent": "PowerTV",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "PowerTV",
+                "Browser": "PowerTV",
+                "Platform": "PowerTV",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "Device_Name": "PowerTV",
+                "Device_Maker": "Scientific Atlanta",
+                "Device_Type": "TV Device"
+            },
+            "children": [
+                {
+                    "match": "Mozilla\/4.0 PowerTV\/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
+                    "properties": {
+                        "Version": "1.5",
+                        "MajorVer": "1",
+                        "MinorVer": "5"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

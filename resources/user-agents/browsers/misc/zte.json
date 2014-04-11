@@ -1,44 +1,44 @@
 {
-  "division": "ZTE",
-  "sortIndex": 11130,
-  "userAgents": [
-    {
-      "userAgent": "ZTE",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser_Type": "Browser",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isTablet": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device",
-        "Browser": "ZTE",
-        "Platform": "Java",
-        "Platform_Maker": "Oracle",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2"
-      },
-      "children": [
+    "division": "ZTE",
+    "sortIndex": 11130,
+    "userAgents": [
         {
-          "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/*"
-        },
-        {
-          "userAgent": "ZTE-C78\/1.0 SMIT-Browser\/2.0*"
+            "userAgent": "ZTE",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser_Type": "Browser",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isTablet": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "Device_Type": "Mobile Device",
+                "Browser": "ZTE",
+                "Platform": "Java",
+                "Platform_Maker": "Oracle",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "2"
+            },
+            "children": [
+                {
+                    "userAgent": "ZTE-C6100\/1.0 SMIT-WAP\/*"
+                },
+                {
+                    "userAgent": "ZTE-C78\/1.0 SMIT-Browser\/2.0*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

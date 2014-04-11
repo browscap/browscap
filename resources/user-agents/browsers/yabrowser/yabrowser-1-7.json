@@ -1,167 +1,167 @@
 {
-  "division": "YaBrowser 1.7",
-  "sortIndex": 11120,
-  "userAgents": [
-    {
-      "userAgent": "YaBrowser 1.7",
-      "properties": {
-        "Parent": "YaBrowser",
-        "Version": "1.7",
-        "MajorVer": "1",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.8",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.9",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 5.1) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.0) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.2) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "Win8",
-        "Platform_Version": "6.2",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.0; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/1.7* Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/1.7* Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.7",
-        "Browser_Bits": "32",
-        "Platform": "Win8",
-        "Platform_Version": "6.2",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    }
-  ]
+    "division": "YaBrowser 1.7",
+    "sortIndex": 11120,
+    "userAgents": [
+        {
+            "userAgent": "YaBrowser 1.7",
+            "properties": {
+                "Parent": "YaBrowser",
+                "Version": "1.7",
+                "MajorVer": "1",
+                "MinorVer": "7"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "MacOSX",
+                "Platform_Version": "10.8",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Apple Inc",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Macintosh",
+                "Device_Maker": "Apple Inc",
+                "Device_Brand_Name": "Apple",
+                "Device_Name": "Macintosh"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "MacOSX",
+                "Platform_Version": "10.9",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Apple Inc",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Macintosh",
+                "Device_Maker": "Apple Inc",
+                "Device_Brand_Name": "Apple",
+                "Device_Name": "Macintosh"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "MacOSX",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Apple Inc",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Macintosh",
+                "Device_Maker": "Apple Inc",
+                "Device_Brand_Name": "Apple",
+                "Device_Name": "Macintosh"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 5.1) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "WinXP",
+                "Platform_Version": "5.1",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.0) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "WinVista",
+                "Platform_Version": "6.0",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.2) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "Win8",
+                "Platform_Version": "6.2",
+                "Platform_Bits": "32",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.0; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/1.7* Chrome\/*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "WinVista",
+                "Platform_Version": "6.0",
+                "Platform_Bits": "64",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "Win7",
+                "Platform_Version": "6.1",
+                "Platform_Bits": "64",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/1.7* Chrome\/*Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "Win7",
+                "Platform_Version": "6.1",
+                "Platform_Bits": "64",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        },
+        {
+            "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.7* Safari\/*",
+            "properties": {
+                "Parent": "YaBrowser 1.7",
+                "Browser_Bits": "32",
+                "Platform": "Win8",
+                "Platform_Version": "6.2",
+                "Platform_Bits": "64",
+                "Platform_Maker": "Microsoft Corporation",
+                "Win32": "true",
+                "Device_Type": "Desktop",
+                "Device_Code_Name": "Windows Desktop",
+                "Device_Name": "Windows Desktop"
+            }
+        }
+    ]
 }

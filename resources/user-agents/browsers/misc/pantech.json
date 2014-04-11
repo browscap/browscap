@@ -1,44 +1,44 @@
 {
-  "division": "Pantech",
-  "sortIndex": 9740,
-  "userAgents": [
-    {
-      "userAgent": "Pantech",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Pantech",
-        "Browser_Type": "Browser",
-        "Platform": "Java",
-        "Platform_Maker": "Oracle",
-        "Alpha": "false",
-        "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
-        "BackgroundSounds": "false",
-        "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
-        "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
-      },
-      "children": [
+    "division": "Pantech",
+    "sortIndex": 9740,
+    "userAgents": [
         {
-          "match": "PANTECH G200*"
-        },
-        {
-          "match": "PANTECH G500*"
-        },
-        {
-          "match": "PT-G700*"
-        },
-        {
-          "match": "PT-GI100 * MIDP\/MIDP-1.0*"
+            "userAgent": "Pantech",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Browser": "Pantech",
+                "Browser_Type": "Browser",
+                "Platform": "Java",
+                "Platform_Maker": "Oracle",
+                "Alpha": "false",
+                "Beta": "false",
+                "Win16": "false",
+                "Win32": "false",
+                "Win64": "false",
+                "BackgroundSounds": "false",
+                "JavaScript": "false",
+                "VBScript": "false",
+                "JavaApplets": "false",
+                "ActiveXControls": "false",
+                "isSyndicationReader": "false",
+                "Crawler": "false",
+                "CssVersion": "2",
+                "Device_Type": "Mobile Device"
+            },
+            "children": [
+                {
+                    "match": "PANTECH G200*"
+                },
+                {
+                    "match": "PANTECH G500*"
+                },
+                {
+                    "match": "PT-G700*"
+                },
+                {
+                    "match": "PT-GI100 * MIDP\/MIDP-1.0*"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

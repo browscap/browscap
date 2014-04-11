@@ -1,136 +1,136 @@
 {
-  "division": "Opera Mobile 8.00",
-  "sortIndex": 9430,
-  "userAgents": [
-    {
-      "userAgent": "Opera Mobile 8.00",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Browser": "Opera Mobile",
-        "Version": "8.00",
-        "MajorVer": "8",
-        "MinorVer": "00",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-      }
-    },
-    {
-      "userAgent": "MOT-A1200\/* LinuxOS\/* Browser\/Opera8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Linux Smartphone OS",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-A1200r\/* LinuxOS\/* Browser\/Opera8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Linux Smartphone OS",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-A1200eam\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-MOTOROKR E6 Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00"
-      }
-    },
-    {
-      "userAgent": "MOT-A1200\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-E690\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-MOTOROKR E6\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV3xx\/* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV3xx\/96.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV3xxv\/98.50.11R BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0;*  Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-RAZRV6\/9* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "ZTE-E700\/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700\/R52_G_0D.52.A1R * Opera 8.0*",
-      "properties": {
-        "Parent": "Opera Mobile 8.00",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    }
-  ]
+    "division": "Opera Mobile 8.00",
+    "sortIndex": 9430,
+    "userAgents": [
+        {
+            "userAgent": "Opera Mobile 8.00",
+            "properties": {
+                "Parent": "DefaultProperties",
+                "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+                "Browser": "Opera Mobile",
+                "Version": "8.00",
+                "MajorVer": "8",
+                "MinorVer": "00",
+                "Win32": "true",
+                "Frames": "true",
+                "IFrames": "true",
+                "Tables": "true",
+                "Cookies": "true",
+                "JavaScript": "true",
+                "JavaApplets": "true",
+                "isMobileDevice": "true",
+                "CssVersion": "1",
+                "Device_Type": "Mobile Phone",
+                "Device_Pointing_Method": "touchscreen",
+                "RenderingEngine_Name": "Presto",
+                "RenderingEngine_Version": "2.2",
+                "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+            }
+        },
+        {
+            "userAgent": "MOT-A1200\/* LinuxOS\/* Browser\/Opera8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Linux Smartphone OS",
+                "Platform_Maker": "Linux Foundation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-A1200r\/* LinuxOS\/* Browser\/Opera8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Linux Smartphone OS",
+                "Platform_Maker": "Linux Foundation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-A1200eam\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Symbian OS",
+                "Platform_Maker": "Symbian Foundation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-MOTOROKR E6 Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00"
+            }
+        },
+        {
+            "userAgent": "MOT-A1200\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-E690\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-MOTOROKR E6\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV3xx\/* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV3xx\/96.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV3xxv\/98.50.11R BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0;*  Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "MOT-RAZRV6\/9* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        },
+        {
+            "userAgent": "ZTE-E700\/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700\/R52_G_0D.52.A1R * Opera 8.0*",
+            "properties": {
+                "Parent": "Opera Mobile 8.00",
+                "Platform": "Windows Mobile OS",
+                "Platform_Maker": "Microsoft Corporation",
+                "Device_Type": "Mobile Phone"
+            }
+        }
+    ]
 }
