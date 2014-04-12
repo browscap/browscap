@@ -8,13 +8,12 @@
         "Parent": "Openwave Mobile Browser",
         "Version": "4.0",
         "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "UPG1* UP.Browser\/4.0*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 4.0"
-      }
+      },
+      "children": [
+        {
+          "match": "UPG1* UP.Browser\/4.0*"
+        }
+      ]
     }
   ]
 }

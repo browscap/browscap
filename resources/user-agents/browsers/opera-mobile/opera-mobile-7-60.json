@@ -25,34 +25,33 @@
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "2.2",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-CA33) Opera 8.60*",
-      "properties": {
-        "Parent": "Opera Mobile 7.60",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-HI35) Opera 8.60*",
-      "properties": {
-        "Parent": "Opera Mobile 7.60",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-SH32) Opera 8.60*",
-      "properties": {
-        "Parent": "Opera Mobile 7.60",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-CA33) Opera 8.60*",
+          "properties": {
+            "Platform": "Windows Mobile OS",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-HI35) Opera 8.60*",
+          "properties": {
+            "Platform": "Windows Mobile OS",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-SH32) Opera 8.60*",
+          "properties": {
+            "Platform": "Windows Mobile OS",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Mobile Phone"
+          }
+        }
+      ]
     }
   ]
 }

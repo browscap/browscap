@@ -15,31 +15,30 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser 8.2",
-        "Device_Code_Name": "700",
-        "Device_Name": "700"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser 8.2",
-        "Device_Code_Name": "E7-00",
-        "Device_Name": "E7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser 8.2",
-        "Device_Code_Name": "N8-00",
-        "Device_Name": "N8"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "700",
+            "Device_Name": "700"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "E7-00",
+            "Device_Name": "E7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "N8-00",
+            "Device_Name": "N8"
+          }
+        }
+      ]
     }
   ]
 }

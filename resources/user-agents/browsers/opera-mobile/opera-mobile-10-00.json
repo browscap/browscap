@@ -37,44 +37,33 @@
             "SymbianOS_C",
             "WinMobile"
           ]
+        },
+        {
+          "match": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "G7300",
+            "Device_Maker": "Huawei"
+          }
+        },
+        {
+          "match": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
         }
       ]
-    },
-    {
-      "userAgent": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#",
-        "Platform": "Android",
-        "Device_Name": "G7300",
-        "Device_Maker": "Huawei"
-      }
-    },
-    {
-      "userAgent": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
-      "properties": {
-        "Parent": "Opera Mobile #MAJORVER#.#MINORVER#"
-      }
     }
   ]
 }

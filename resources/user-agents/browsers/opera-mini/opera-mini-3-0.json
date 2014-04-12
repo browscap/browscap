@@ -1,17 +1,18 @@
 {
-  "division": "Opera Mini 3.0",
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": [3, "3.1"],
   "sortIndex": 2042,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mini 3.0",
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini 3.0",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
         "Browser": "Opera Mini",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -20,67 +21,61 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Android*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "RIM OS",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "WinMobile"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*BREW*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "Brew"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Bada*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "Bada"
-      }
-    },
-    {
-      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/3.*)*",
-      "properties": {
-        "Parent": "Opera Mini 3.0",
-        "Platform": "JAVA"
-      }
+      },
+      "children": [
+        {
+          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "RIM OS",
+            "Device_Name": "Blackberry",
+            "Device_Maker": "RIM"
+          }
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        },
+        {
+          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "WinMobile"
+          }
+        },
+        {
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Brew"
+          }
+        },
+        {
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Bada"
+          }
+        },
+        {
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        }
+      ]
     }
   ]
 }

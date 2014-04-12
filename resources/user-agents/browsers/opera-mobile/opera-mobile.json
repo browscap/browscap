@@ -17,56 +17,52 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.*(*Windows CE*)*Opera?*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Browser": "Opera Mobile",
-        "Platform": "WinCE",
-        "Platform_Description": "Windows CE",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Android*Opera Mobi*)*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Platform": "Win"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Symbian*Opera Mobi*)*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*SymbOS*Opera Mobi*)*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Windows Mobile*Opera Mobi*)*",
-      "properties": {
-        "Parent": "Opera Mobile",
-        "Platform": "WinCE",
-        "Platform_Description": "Windows CE"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/?.*(*Windows CE*)*Opera?*",
+          "properties": {
+            "Browser": "Opera Mobile",
+            "Platform": "WinCE",
+            "Platform_Description": "Windows CE",
+            "RenderingEngine_Name": "Presto",
+            "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+          }
+        },
+        {
+          "match": "Opera\/*(*Android*Opera Mobi*)*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
+          "properties": {
+            "Platform": "Win"
+          }
+        },
+        {
+          "match": "Opera\/*(*Symbian*Opera Mobi*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(*SymbOS*Opera Mobi*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(*Windows Mobile*Opera Mobi*)*",
+          "properties": {
+            "Platform": "WinCE",
+            "Platform_Description": "Windows CE"
+          }
+        }
+      ]
     }
   ]
 }

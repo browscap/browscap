@@ -21,98 +21,89 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "RIM OS",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "iOS",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "WinMobile"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Brew"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Brew",
-        "Device_Name": "Alias 2",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Brew"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Bada"
-      }
-    },
-    {
-      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA"
-      }
+      },
+      "children": [
+        {
+          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "RIM OS",
+            "Device_Name": "Blackberry",
+            "Device_Maker": "RIM"
+          }
+        },
+        {
+          "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "iOS",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
+          }
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        },
+        {
+          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "WinMobile"
+          }
+        },
+        {
+          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Brew"
+          }
+        },
+        {
+          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
+          "properties": {
+            "Platform": "Brew",
+            "Device_Name": "Alias 2",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Brew"
+          }
+        },
+        {
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Bada"
+          }
+        },
+        {
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        }
+      ]
     }
   ]
 }

@@ -28,1652 +28,1465 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia"
-      }
-    },
-    {
-      "userAgent": "Nokia 5320",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5320",
-        "Device_Name": "5320"
-      }
-    },
-    {
-      "userAgent": "Nokia2323c-2\/2.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "2323c",
-        "Device_Name": "2323c"
-      }
-    },
-    {
-      "userAgent": "Nokia2650\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "2650",
-        "Device_Name": "2650"
-      }
-    },
-    {
-      "userAgent": "Nokia2720a-2b\/2.0 (08.64) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "GT-2720a",
-        "Device_Name": "GT-2720a"
-      }
-    },
-    {
-      "userAgent": "Nokia2730c-1\/2.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "2730c",
-        "Device_Name": "2730c"
-      }
-    },
-    {
-      "userAgent": "Nokia2730c-1b\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "2730c",
-        "Device_Name": "2730c"
-      }
-    },
-    {
-      "userAgent": "Nokia3100\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100",
-        "Device_Name": "3100"
-      }
-    },
-    {
-      "userAgent": "Nokia3100\/1.0 (05.*)*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100",
-        "Device_Name": "3100"
-      }
-    },
-    {
-      "userAgent": "Nokia3100\/1.0 (05.54)*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100",
-        "Device_Name": "3100"
-      }
-    },
-    {
-      "userAgent": "Nokia3100\/1.0 (06.11)*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100",
-        "Device_Name": "3100"
-      }
-    },
-    {
-      "userAgent": "Nokia3100\/1.0 (06.?1)*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100",
-        "Device_Name": "3100"
-      }
-    },
-    {
-      "userAgent": "Nokia3100b\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3100b",
-        "Device_Name": "3100b"
-      }
-    },
-    {
-      "userAgent": "Nokia3108\/1.0 (03.01)*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3108",
-        "Device_Name": "3108"
-      }
-    },
-    {
-      "userAgent": "Nokia3120b\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3120b",
-        "Device_Name": "3120b"
-      }
-    },
-    {
-      "userAgent": "Nokia3200\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3200",
-        "Device_Name": "3200"
-      }
-    },
-    {
-      "userAgent": "Nokia3220\/2.0 (03.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3220",
-        "Device_Name": "3220"
-      }
-    },
-    {
-      "userAgent": "Nokia3220\/2.0 (04.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3220",
-        "Device_Name": "3220"
-      }
-    },
-    {
-      "userAgent": "Nokia3220\/2.0 (05.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3220",
-        "Device_Name": "3220"
-      }
-    },
-    {
-      "userAgent": "Nokia3300\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3300",
-        "Device_Name": "3300"
-      }
-    },
-    {
-      "userAgent": "Nokia3300\/1.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3300",
-        "Device_Name": "3300"
-      }
-    },
-    {
-      "userAgent": "Nokia3300\/2.0 (3.07) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3300",
-        "Device_Name": "3300"
-      }
-    },
-    {
-      "userAgent": "Nokia3300\/2.0 (4.2?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3300",
-        "Device_Name": "3300"
-      }
-    },
-    {
-      "userAgent": "Nokia3410\/1.0 (0*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3410",
-        "Device_Name": "3410"
-      }
-    },
-    {
-      "userAgent": "Nokia3500c\/2.0 (05.51) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3500c",
-        "Device_Name": "3500c"
-      }
-    },
-    {
-      "userAgent": "Nokia3510\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510",
-        "Device_Name": "3510"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (04.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (05.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (05.25) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (05.30) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3510i\/1.0 (05.35) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3510i",
-        "Device_Name": "3510i"
-      }
-    },
-    {
-      "userAgent": "Nokia3560\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3560",
-        "Device_Name": "3560"
-      }
-    },
-    {
-      "userAgent": "Nokia3590\/1.0(*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3590",
-        "Device_Name": "3590"
-      }
-    },
-    {
-      "userAgent": "Nokia3595\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3595",
-        "Device_Name": "3595"
-      }
-    },
-    {
-      "userAgent": "Nokia3595\/1.0 (7.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "3595",
-        "Device_Name": "3595"
-      }
-    },
-    {
-      "userAgent": "Nokia5100\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5100",
-        "Device_Name": "5100"
-      }
-    },
-    {
-      "userAgent": "Nokia5140\/2.0 (3.10) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5140",
-        "Device_Name": "5140"
-      }
-    },
-    {
-      "userAgent": "Nokia5140i\/2.0 (03.34) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5140i",
-        "Device_Name": "5140i"
-      }
-    },
-    {
-      "userAgent": "Nokia5140i\/2.0 (03.70) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5140i",
-        "Device_Name": "5140i"
-      }
-    },
-    {
-      "userAgent": "Nokia5140i\/2.0 (03.75) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5140",
-        "Device_Name": "5140"
-      }
-    },
-    {
-      "userAgent": "Nokia5210\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5210",
-        "Device_Name": "5210"
-      }
-    },
-    {
-      "userAgent": "Nokia5230\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "5230",
-        "Device_Name": "Nuron"
-      }
-    },
-    {
-      "userAgent": "Nokia6010\/1.0 (8.18) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6010",
-        "Device_Name": "6010"
-      }
-    },
-    {
-      "userAgent": "Nokia6010\/1.0 (8.62) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6010",
-        "Device_Name": "6010"
-      }
-    },
-    {
-      "userAgent": "Nokia6020\/2.0 (03.5?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6020",
-        "Device_Name": "6020"
-      }
-    },
-    {
-      "userAgent": "Nokia6020\/2.0 (03.92) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6020",
-        "Device_Name": "6020"
-      }
-    },
-    {
-      "userAgent": "Nokia6020\/2.0 (04.10) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6020",
-        "Device_Name": "6020"
-      }
-    },
-    {
-      "userAgent": "Nokia6020\/2.0 (04.50) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6020",
-        "Device_Name": "6020"
-      }
-    },
-    {
-      "userAgent": "Nokia6020\/2.0 (04.90) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6020",
-        "Device_Name": "6020"
-      }
-    },
-    {
-      "userAgent": "Nokia6021\/2.0 (04.50) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6021",
-        "Device_Name": "6021"
-      }
-    },
-    {
-      "userAgent": "Nokia6030\/2.0 (y3.43) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6030",
-        "Device_Name": "6030"
-      }
-    },
-    {
-      "userAgent": "Nokia6030\/2.0 (y3.4?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6030",
-        "Device_Name": "6030"
-      }
-    },
-    {
-      "userAgent": "Nokia6030\/2.0 (y4.10) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6030",
-        "Device_Name": "6030"
-      }
-    },
-    {
-      "userAgent": "Nokia6030b\/2.0 (m3.3?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6030b",
-        "Device_Name": "6030b"
-      }
-    },
-    {
-      "userAgent": "Nokia6060\/2.0 (k3.6?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6060",
-        "Device_Name": "6060"
-      }
-    },
-    {
-      "userAgent": "Nokia6061\/2.0 (4.10) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6061",
-        "Device_Name": "6061"
-      }
-    },
-    {
-      "userAgent": "Nokia6100\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6100",
-        "Device_Name": "6100"
-      }
-    },
-    {
-      "userAgent": "Nokia6100\/1.0 (05.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6100",
-        "Device_Name": "6100"
-      }
-    },
-    {
-      "userAgent": "Nokia6100\/1.0 (05.80) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6100",
-        "Device_Name": "6100"
-      }
-    },
-    {
-      "userAgent": "Nokia6100\/1.0 (06.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6100",
-        "Device_Name": "6100"
-      }
-    },
-    {
-      "userAgent": "Nokia6101\/2.0 (03.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6101",
-        "Device_Name": "6101"
-      }
-    },
-    {
-      "userAgent": "Nokia6101\/2.0 (03.35) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6101",
-        "Device_Name": "6101"
-      }
-    },
-    {
-      "userAgent": "Nokia6101\/2.0 (04.10) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6101",
-        "Device_Name": "6101"
-      }
-    },
-    {
-      "userAgent": "Nokia6101\/2.0 (04.50) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6101",
-        "Device_Name": "6101"
-      }
-    },
-    {
-      "userAgent": "Nokia6102\/2.0 (03.38) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6102",
-        "Device_Name": "6102"
-      }
-    },
-    {
-      "userAgent": "Nokia6102i\/2.0 (04.6?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6102i",
-        "Device_Name": "6102i"
-      }
-    },
-    {
-      "userAgent": "Nokia6103\/2.0 (04.61) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6103",
-        "Device_Name": "6103"
-      }
-    },
-    {
-      "userAgent": "Nokia6108\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6108",
-        "Device_Name": "6108"
-      }
-    },
-    {
-      "userAgent": "Nokia6111\/2.0 (03.58) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6111",
-        "Device_Name": "6111"
-      }
-    },
-    {
-      "userAgent": "Nokia6125\/2.0 (03.71) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6125",
-        "Device_Name": "6125"
-      }
-    },
-    {
-      "userAgent": "Nokia6131\/2.0 (03.?0) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6131",
-        "Device_Name": "6131"
-      }
-    },
-    {
-      "userAgent": "Nokia6131\/2.0 (06.?0) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6131",
-        "Device_Name": "6131"
-      }
-    },
-    {
-      "userAgent": "Nokia6170\/2.0 (03.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6170",
-        "Device_Name": "6170"
-      }
-    },
-    {
-      "userAgent": "Nokia6200\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6200",
-        "Device_Name": "6200"
-      }
-    },
-    {
-      "userAgent": "Nokia6200\/1.0 (3.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6200",
-        "Device_Name": "6200"
-      }
-    },
-    {
-      "userAgent": "Nokia6220\/2.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6220",
-        "Device_Name": "6220"
-      }
-    },
-    {
-      "userAgent": "Nokia6220\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6220",
-        "Device_Name": "6220"
-      }
-    },
-    {
-      "userAgent": "Nokia6230\/2.0 (03.1?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230",
-        "Device_Name": "6230"
-      }
-    },
-    {
-      "userAgent": "Nokia6230\/2.0 (04.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230",
-        "Device_Name": "6230"
-      }
-    },
-    {
-      "userAgent": "Nokia6230\/2.0 (05.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "GT-6230",
-        "Device_Name": "GT-6230"
-      }
-    },
-    {
-      "userAgent": "Nokia6230\/2.0 (05.50) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230",
-        "Device_Name": "6230"
-      }
-    },
-    {
-      "userAgent": "Nokia6230i\/2.0 (03.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230i",
-        "Device_Name": "6230i"
-      }
-    },
-    {
-      "userAgent": "Nokia6230i\/2.0 (03.2?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230i",
-        "Device_Name": "6230i"
-      }
-    },
-    {
-      "userAgent": "Nokia6230i\/2.0 (03.62) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230i",
-        "Device_Name": "6230i"
-      }
-    },
-    {
-      "userAgent": "Nokia6230i\/2.0 (03.70) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230i",
-        "Device_Name": "6230i"
-      }
-    },
-    {
-      "userAgent": "Nokia6230i\/2.0 (03.80) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6230i",
-        "Device_Name": "6230i"
-      }
-    },
-    {
-      "userAgent": "Nokia6270\/2.0 (03.5?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6270",
-        "Device_Name": "6270"
-      }
-    },
-    {
-      "userAgent": "Nokia6270\/2.0 (03.6?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6270",
-        "Device_Name": "6270"
-      }
-    },
-    {
-      "userAgent": "Nokia6280\/2.0 (03.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6280",
-        "Device_Name": "6280"
-      }
-    },
-    {
-      "userAgent": "Nokia6280\/2.0 (03.6?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6280",
-        "Device_Name": "6280"
-      }
-    },
-    {
-      "userAgent": "Nokia6300\/2.0 (04.70) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6300",
-        "Device_Name": "6300"
-      }
-    },
-    {
-      "userAgent": "Nokia6300\/2.0 (05.00) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6300",
-        "Device_Name": "6300"
-      }
-    },
-    {
-      "userAgent": "Nokia6300\/2.0 (06.*) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6300",
-        "Device_Name": "6300"
-      }
-    },
-    {
-      "userAgent": "Nokia6300\/2.0 (07.*) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6300",
-        "Device_Name": "6300"
-      }
-    },
-    {
-      "userAgent": "Nokia6303iclassic\/5.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6303i classic",
-        "Device_Name": "6303i classic"
-      }
-    },
-    {
-      "userAgent": "Nokia6310\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6310",
-        "Device_Name": "6310"
-      }
-    },
-    {
-      "userAgent": "Nokia6310i\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6310i",
-        "Device_Name": "6310i"
-      }
-    },
-    {
-      "userAgent": "Nokia6500c\/2.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6500c",
-        "Device_Name": "6500c"
-      }
-    },
-    {
-      "userAgent": "Nokia6500s-1\/2.0 (04.8?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6500s",
-        "Device_Name": "6500s"
-      }
-    },
-    {
-      "userAgent": "Nokia6510\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6510",
-        "Device_Name": "6510"
-      }
-    },
-    {
-      "userAgent": "Nokia6560\/1.0 (01.24) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6560",
-        "Device_Name": "6560"
-      }
-    },
-    {
-      "userAgent": "Nokia6610\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6610",
-        "Device_Name": "6610"
-      }
-    },
-    {
-      "userAgent": "Nokia6610\/1.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6610",
-        "Device_Name": "6610"
-      }
-    },
-    {
-      "userAgent": "Nokia6610I\/1.0",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6610i",
-        "Device_Name": "6610i"
-      }
-    },
-    {
-      "userAgent": "Nokia6610I\/1.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6610i",
-        "Device_Name": "6610i"
-      }
-    },
-    {
-      "userAgent": "Nokia6650\/2.0 (*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6650",
-        "Device_Name": "6650"
-      }
-    },
-    {
-      "userAgent": "Nokia6700c-1\/2.0 (* Mozilla\/?.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6700c",
-        "Device_Name": "6700c"
-      }
-    },
-    {
-      "userAgent": "Nokia6800\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6800",
-        "Device_Name": "6800"
-      }
-    },
-    {
-      "userAgent": "Nokia6800\/2.0 (4.1?) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6800",
-        "Device_Name": "6800"
-      }
-    },
-    {
-      "userAgent": "Nokia6820\/2.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6820",
-        "Device_Name": "6820"
-      }
-    },
-    {
-      "userAgent": "Nokia6820\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6820",
-        "Device_Name": "6820"
-      }
-    },
-    {
-      "userAgent": "Nokia6822\/2.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "6822",
-        "Device_Name": "6822"
-      }
-    },
-    {
-      "userAgent": "Nokia7200\/2.0 (3.1*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7200",
-        "Device_Name": "7200"
-      }
-    },
-    {
-      "userAgent": "Nokia7210\/1.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7210",
-        "Device_Name": "7210"
-      }
-    },
-    {
-      "userAgent": "Nokia7210\/1.0 (5.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7210",
-        "Device_Name": "7210"
-      }
-    },
-    {
-      "userAgent": "Nokia7210\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7210",
-        "Device_Name": "7210"
-      }
-    },
-    {
-      "userAgent": "Nokia7210\/1.0(3.09) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7210",
-        "Device_Name": "7210"
-      }
-    },
-    {
-      "userAgent": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7230",
-        "Device_Name": "7230"
-      }
-    },
-    {
-      "userAgent": "Nokia7250\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7250",
-        "Device_Name": "7250"
-      }
-    },
-    {
-      "userAgent": "Nokia7250I\/1.0 (4.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7250i",
-        "Device_Name": "7250i"
-      }
-    },
-    {
-      "userAgent": "Nokia7250I\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7250i",
-        "Device_Name": "7250i"
-      }
-    },
-    {
-      "userAgent": "Nokia7260\/2.0 (03.36) *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7260",
-        "Device_Name": "7260"
-      }
-    },
-    {
-      "userAgent": "Nokia7260\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7260",
-        "Device_Name": "7260"
-      }
-    },
-    {
-      "userAgent": "Nokia7270\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7270",
-        "Device_Name": "7270"
-      }
-    },
-    {
-      "userAgent": "Nokia7600\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "7600",
-        "Device_Name": "7600"
-      }
-    },
-    {
-      "userAgent": "Nokia8310\/1.0 (04.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8310",
-        "Device_Name": "8310"
-      }
-    },
-    {
-      "userAgent": "Nokia8310\/1.0 (05.*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8310",
-        "Device_Name": "8310"
-      }
-    },
-    {
-      "userAgent": "Nokia8310\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8310",
-        "Device_Name": "8310"
-      }
-    },
-    {
-      "userAgent": "Nokia8800\/2.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8800",
-        "Device_Name": "8800"
-      }
-    },
-    {
-      "userAgent": "Nokia8910\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8910",
-        "Device_Name": "8910"
-      }
-    },
-    {
-      "userAgent": "Nokia8910i\/1.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "8910i",
-        "Device_Name": "8910i"
-      }
-    },
-    {
-      "userAgent": "NokiaC2-01\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "C2-01",
-        "Device_Name": "C2"
-      }
-    },
-    {
-      "userAgent": "NokiaC3-01\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "C3",
-        "Device_Name": "C3"
-      }
-    },
-    {
-      "userAgent": "NokiaC6-00\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "C6",
-        "Device_Name": "C6"
-      }
-    },
-    {
-      "userAgent": "NokiaC7-00\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "C7",
-        "Device_Name": "C7"
-      }
-    },
-    {
-      "userAgent": "NokiaN70-1\/2.05*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "N70",
-        "Device_Name": "N70"
-      }
-    },
-    {
-      "userAgent": "NokiaN70-1\/3.05*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "N70",
-        "Device_Name": "N70"
-      }
-    },
-    {
-      "userAgent": "NokiaN70-1\/5.06*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "N70",
-        "Device_Name": "N70"
-      }
-    },
-    {
-      "userAgent": "NokiaN80-1\/1.05*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "N80",
-        "Device_Name": "N80"
-      }
-    },
-    {
-      "userAgent": "NokiaN90-1\/3.05*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Device_Code_Name": "N90",
-        "Device_Name": "N90"
-      }
-    },
-    {
-      "userAgent": "NokiaX2-00\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "X2",
-        "Device_Name": "X2",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "NokiaX2-01\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "X2",
-        "Device_Name": "X2",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "NokiaX3-02\/5.0 (*) * Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "X3",
-        "Device_Name": "X3",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "6600\/1.0 (*; Series60\/*; SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6600",
-        "Device_Name": "6600"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (SymbianOS\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 5.0; Series80\/2.0 Nokia9300i\/6.27 *)",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "9300i",
-        "Device_Name": "9300i"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; ?; Series60\/* NokiaN79-1\/30.019*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N79",
-        "Device_Name": "N79",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5530c-2\/11.0.053; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "5530c",
-        "Device_Name": "5530c",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5800d-1\/52*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "5800d",
-        "Device_Name": "5800d",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6220c-1\/04.13; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6220c",
-        "Device_Name": "6220c"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6760s-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6760s",
-        "Device_Name": "6760s",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/1*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E63",
-        "Device_Name": "E63",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/4*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E63",
-        "Device_Name": "E63",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/1*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E71",
-        "Device_Name": "E71"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/5*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E71",
-        "Device_Name": "E71"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE90-1\/07.38.0.2; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E90",
-        "Device_Name": "E90",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaN78-1\/13.052*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N78",
-        "Device_Name": "N78",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/9.1; U; *; NokiaE50-2\/06.* Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E50",
-        "Device_Name": "E50"
-      }
-    },
-    {
-      "userAgent": "Nokia3230\/2.0 (*SymbianOS\/7.0s Series60\/2.1*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3230",
-        "Device_Name": "3230"
-      }
-    },
-    {
-      "userAgent": "Nokia3250\/2.0 (3.16) SymbianOS\/9.1 Series60\/3.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3250",
-        "Device_Name": "3250"
-      }
-    },
-    {
-      "userAgent": "Nokia3250\/2.0 (3.23) SymbianOS\/9.1 Series60\/3.0 *",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3250",
-        "Device_Name": "3250"
-      }
-    },
-    {
-      "userAgent": "Nokia3650\/1.0 (4.1?) SymbianOS\/* Series60\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3650",
-        "Device_Name": "3650"
-      }
-    },
-    {
-      "userAgent": "Nokia3650\/1.0 SymbianOS\/* Series60\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3650",
-        "Device_Name": "3650"
-      }
-    },
-    {
-      "userAgent": "Nokia3660\/1.0 (*SymbianOS\/* Series60\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "3660",
-        "Device_Name": "3660"
-      }
-    },
-    {
-      "userAgent": "Nokia5500d\/2.0 (03.14) SymbianOS\/* Series60\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "5500d",
-        "Device_Name": "5500d"
-      }
-    },
-    {
-      "userAgent": "Nokia6260\/2.0 (3.0*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6260",
-        "Device_Name": "6260"
-      }
-    },
-    {
-      "userAgent": "Nokia6600\/1.0 (4.09.1) SymbianOS\/7.0s*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6600",
-        "Device_Name": "6600"
-      }
-    },
-    {
-      "userAgent": "Nokia6600\/1.0* SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6600",
-        "Device_Name": "6600"
-      }
-    },
-    {
-      "userAgent": "Nokia6620\/2.0* SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6620",
-        "Device_Name": "6620"
-      }
-    },
-    {
-      "userAgent": "Nokia6630\/1.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6630",
-        "Device_Name": "6630"
-      }
-    },
-    {
-      "userAgent": "Nokia6630\/1.0 *SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6630",
-        "Device_Name": "6630"
-      }
-    },
-    {
-      "userAgent": "Nokia6670\/2.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6670",
-        "Device_Name": "6670"
-      }
-    },
-    {
-      "userAgent": "Nokia6670\/2.0 *SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6670",
-        "Device_Name": "6670"
-      }
-    },
-    {
-      "userAgent": "Nokia6680\/1.0 *SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6680",
-        "Device_Name": "6680"
-      }
-    },
-    {
-      "userAgent": "Nokia6680\/1.0* SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6680",
-        "Device_Name": "6680"
-      }
-    },
-    {
-      "userAgent": "Nokia6682\/2.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "6682",
-        "Device_Name": "6682"
-      }
-    },
-    {
-      "userAgent": "Nokia7610\/2.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "7610",
-        "Device_Name": "7610"
-      }
-    },
-    {
-      "userAgent": "Nokia7610\/2.0 (6.0522.0) SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "7610",
-        "Device_Name": "7610"
-      }
-    },
-    {
-      "userAgent": "Nokia7610\/2.0 *SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "7610",
-        "Device_Name": "7610"
-      }
-    },
-    {
-      "userAgent": "Nokia7650\/1.0 SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "7650",
-        "Device_Name": "7650"
-      }
-    },
-    {
-      "userAgent": "Nokia9210i\/1.0 Symbian-Crystal\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "9210i",
-        "Device_Name": "9210i"
-      }
-    },
-    {
-      "userAgent": "NokiaE61-1\/3.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "E61",
-        "Device_Name": "E61"
-      }
-    },
-    {
-      "userAgent": "NokiaN-Gage\/1.0 (4.03) SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N-Gage",
-        "Device_Name": "N-Gage"
-      }
-    },
-    {
-      "userAgent": "NokiaN-Gage\/1.0 SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N-Gage",
-        "Device_Name": "N-Gage"
-      }
-    },
-    {
-      "userAgent": "NokiaN-GageQD\/1.0 SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N-GageQD",
-        "Device_Name": "N-GageQD"
-      }
-    },
-    {
-      "userAgent": "NokiaN-GageQD\/2.0 (*SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N-GageQD",
-        "Device_Name": "N-GageQD"
-      }
-    },
-    {
-      "userAgent": "NokiaN91-1\/3.0 (1.10.030) SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N91",
-        "Device_Name": "N91"
-      }
-    },
-    {
-      "userAgent": "NokiaN95_8GB-?;Mozilla\/5.0 SymbianOS\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "N95",
-        "Device_Name": "N95"
-      }
-    },
-    {
-      "userAgent": "X700\/1.0 SymbianOS\/7.0 Series60\/*",
-      "properties": {
-        "Parent": "Nokia Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
-        "Device_Code_Name": "X700",
-        "Device_Name": "X700"
-      }
+      },
+      "children": [
+        {
+          "match": "Nokia 5320",
+          "properties": {
+            "Device_Code_Name": "5320",
+            "Device_Name": "5320"
+          }
+        },
+        {
+          "match": "Nokia2323c-2\/2.0 (*",
+          "properties": {
+            "Device_Code_Name": "2323c",
+            "Device_Name": "2323c"
+          }
+        },
+        {
+          "match": "Nokia2650\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "2650",
+            "Device_Name": "2650"
+          }
+        },
+        {
+          "match": "Nokia2720a-2b\/2.0 (08.64) *",
+          "properties": {
+            "Device_Code_Name": "GT-2720a",
+            "Device_Name": "GT-2720a"
+          }
+        },
+        {
+          "match": "Nokia2730c-1\/2.0 (*",
+          "properties": {
+            "Device_Code_Name": "2730c",
+            "Device_Name": "2730c"
+          }
+        },
+        {
+          "match": "Nokia2730c-1b\/*",
+          "properties": {
+            "Device_Code_Name": "2730c",
+            "Device_Name": "2730c"
+          }
+        },
+        {
+          "match": "Nokia3100\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3100",
+            "Device_Name": "3100"
+          }
+        },
+        {
+          "match": "Nokia3100\/1.0 (05.*)*",
+          "properties": {
+            "Device_Code_Name": "3100",
+            "Device_Name": "3100"
+          }
+        },
+        {
+          "match": "Nokia3100\/1.0 (05.54)*",
+          "properties": {
+            "Device_Code_Name": "3100",
+            "Device_Name": "3100"
+          }
+        },
+        {
+          "match": "Nokia3100\/1.0 (06.11)*",
+          "properties": {
+            "Device_Code_Name": "3100",
+            "Device_Name": "3100"
+          }
+        },
+        {
+          "match": "Nokia3100\/1.0 (06.?1)*",
+          "properties": {
+            "Device_Code_Name": "3100",
+            "Device_Name": "3100"
+          }
+        },
+        {
+          "match": "Nokia3100b\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3100b",
+            "Device_Name": "3100b"
+          }
+        },
+        {
+          "match": "Nokia3108\/1.0 (03.01)*",
+          "properties": {
+            "Device_Code_Name": "3108",
+            "Device_Name": "3108"
+          }
+        },
+        {
+          "match": "Nokia3120b\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "3120b",
+            "Device_Name": "3120b"
+          }
+        },
+        {
+          "match": "Nokia3200\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3200",
+            "Device_Name": "3200"
+          }
+        },
+        {
+          "match": "Nokia3220\/2.0 (03.*",
+          "properties": {
+            "Device_Code_Name": "3220",
+            "Device_Name": "3220"
+          }
+        },
+        {
+          "match": "Nokia3220\/2.0 (04.*",
+          "properties": {
+            "Device_Code_Name": "3220",
+            "Device_Name": "3220"
+          }
+        },
+        {
+          "match": "Nokia3220\/2.0 (05.*",
+          "properties": {
+            "Device_Code_Name": "3220",
+            "Device_Name": "3220"
+          }
+        },
+        {
+          "match": "Nokia3300\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3300",
+            "Device_Name": "3300"
+          }
+        },
+        {
+          "match": "Nokia3300\/1.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "3300",
+            "Device_Name": "3300"
+          }
+        },
+        {
+          "match": "Nokia3300\/2.0 (3.07) *",
+          "properties": {
+            "Device_Code_Name": "3300",
+            "Device_Name": "3300"
+          }
+        },
+        {
+          "match": "Nokia3300\/2.0 (4.2?) *",
+          "properties": {
+            "Device_Code_Name": "3300",
+            "Device_Name": "3300"
+          }
+        },
+        {
+          "match": "Nokia3410\/1.0 (0*",
+          "properties": {
+            "Device_Code_Name": "3410",
+            "Device_Name": "3410"
+          }
+        },
+        {
+          "match": "Nokia3500c\/2.0 (05.51) *",
+          "properties": {
+            "Device_Code_Name": "3500c",
+            "Device_Name": "3500c"
+          }
+        },
+        {
+          "match": "Nokia3510\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3510",
+            "Device_Name": "3510"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (04.*",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (05.*",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (05.25) *",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (05.30) *",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3510i\/1.0 (05.35) *",
+          "properties": {
+            "Device_Code_Name": "3510i",
+            "Device_Name": "3510i"
+          }
+        },
+        {
+          "match": "Nokia3560\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3560",
+            "Device_Name": "3560"
+          }
+        },
+        {
+          "match": "Nokia3590\/1.0(*",
+          "properties": {
+            "Device_Code_Name": "3590",
+            "Device_Name": "3590"
+          }
+        },
+        {
+          "match": "Nokia3595\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "3595",
+            "Device_Name": "3595"
+          }
+        },
+        {
+          "match": "Nokia3595\/1.0 (7.*",
+          "properties": {
+            "Device_Code_Name": "3595",
+            "Device_Name": "3595"
+          }
+        },
+        {
+          "match": "Nokia5100\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "5100",
+            "Device_Name": "5100"
+          }
+        },
+        {
+          "match": "Nokia5140\/2.0 (3.10) *",
+          "properties": {
+            "Device_Code_Name": "5140",
+            "Device_Name": "5140"
+          }
+        },
+        {
+          "match": "Nokia5140i\/2.0 (03.34) *",
+          "properties": {
+            "Device_Code_Name": "5140i",
+            "Device_Name": "5140i"
+          }
+        },
+        {
+          "match": "Nokia5140i\/2.0 (03.70) *",
+          "properties": {
+            "Device_Code_Name": "5140i",
+            "Device_Name": "5140i"
+          }
+        },
+        {
+          "match": "Nokia5140i\/2.0 (03.75) *",
+          "properties": {
+            "Device_Code_Name": "5140",
+            "Device_Name": "5140"
+          }
+        },
+        {
+          "match": "Nokia5210\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "5210",
+            "Device_Name": "5210"
+          }
+        },
+        {
+          "match": "Nokia5230\/*",
+          "properties": {
+            "Device_Code_Name": "5230",
+            "Device_Name": "Nuron"
+          }
+        },
+        {
+          "match": "Nokia6010\/1.0 (8.18) *",
+          "properties": {
+            "Device_Code_Name": "6010",
+            "Device_Name": "6010"
+          }
+        },
+        {
+          "match": "Nokia6010\/1.0 (8.62) *",
+          "properties": {
+            "Device_Code_Name": "6010",
+            "Device_Name": "6010"
+          }
+        },
+        {
+          "match": "Nokia6020\/2.0 (03.5?) *",
+          "properties": {
+            "Device_Code_Name": "6020",
+            "Device_Name": "6020"
+          }
+        },
+        {
+          "match": "Nokia6020\/2.0 (03.92) *",
+          "properties": {
+            "Device_Code_Name": "6020",
+            "Device_Name": "6020"
+          }
+        },
+        {
+          "match": "Nokia6020\/2.0 (04.10) *",
+          "properties": {
+            "Device_Code_Name": "6020",
+            "Device_Name": "6020"
+          }
+        },
+        {
+          "match": "Nokia6020\/2.0 (04.50) *",
+          "properties": {
+            "Device_Code_Name": "6020",
+            "Device_Name": "6020"
+          }
+        },
+        {
+          "match": "Nokia6020\/2.0 (04.90) *",
+          "properties": {
+            "Device_Code_Name": "6020",
+            "Device_Name": "6020"
+          }
+        },
+        {
+          "match": "Nokia6021\/2.0 (04.50) *",
+          "properties": {
+            "Device_Code_Name": "6021",
+            "Device_Name": "6021"
+          }
+        },
+        {
+          "match": "Nokia6030\/2.0 (y3.43) *",
+          "properties": {
+            "Device_Code_Name": "6030",
+            "Device_Name": "6030"
+          }
+        },
+        {
+          "match": "Nokia6030\/2.0 (y3.4?) *",
+          "properties": {
+            "Device_Code_Name": "6030",
+            "Device_Name": "6030"
+          }
+        },
+        {
+          "match": "Nokia6030\/2.0 (y4.10) *",
+          "properties": {
+            "Device_Code_Name": "6030",
+            "Device_Name": "6030"
+          }
+        },
+        {
+          "match": "Nokia6030b\/2.0 (m3.3?) *",
+          "properties": {
+            "Device_Code_Name": "6030b",
+            "Device_Name": "6030b"
+          }
+        },
+        {
+          "match": "Nokia6060\/2.0 (k3.6?) *",
+          "properties": {
+            "Device_Code_Name": "6060",
+            "Device_Name": "6060"
+          }
+        },
+        {
+          "match": "Nokia6061\/2.0 (4.10) *",
+          "properties": {
+            "Device_Code_Name": "6061",
+            "Device_Name": "6061"
+          }
+        },
+        {
+          "match": "Nokia6100\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6100",
+            "Device_Name": "6100"
+          }
+        },
+        {
+          "match": "Nokia6100\/1.0 (05.*",
+          "properties": {
+            "Device_Code_Name": "6100",
+            "Device_Name": "6100"
+          }
+        },
+        {
+          "match": "Nokia6100\/1.0 (05.80) *",
+          "properties": {
+            "Device_Code_Name": "6100",
+            "Device_Name": "6100"
+          }
+        },
+        {
+          "match": "Nokia6100\/1.0 (06.*",
+          "properties": {
+            "Device_Code_Name": "6100",
+            "Device_Name": "6100"
+          }
+        },
+        {
+          "match": "Nokia6101\/2.0 (03.*",
+          "properties": {
+            "Device_Code_Name": "6101",
+            "Device_Name": "6101"
+          }
+        },
+        {
+          "match": "Nokia6101\/2.0 (03.35) *",
+          "properties": {
+            "Device_Code_Name": "6101",
+            "Device_Name": "6101"
+          }
+        },
+        {
+          "match": "Nokia6101\/2.0 (04.10) *",
+          "properties": {
+            "Device_Code_Name": "6101",
+            "Device_Name": "6101"
+          }
+        },
+        {
+          "match": "Nokia6101\/2.0 (04.50) *",
+          "properties": {
+            "Device_Code_Name": "6101",
+            "Device_Name": "6101"
+          }
+        },
+        {
+          "match": "Nokia6102\/2.0 (03.38) *",
+          "properties": {
+            "Device_Code_Name": "6102",
+            "Device_Name": "6102"
+          }
+        },
+        {
+          "match": "Nokia6102i\/2.0 (04.6?) *",
+          "properties": {
+            "Device_Code_Name": "6102i",
+            "Device_Name": "6102i"
+          }
+        },
+        {
+          "match": "Nokia6103\/2.0 (04.61) *",
+          "properties": {
+            "Device_Code_Name": "6103",
+            "Device_Name": "6103"
+          }
+        },
+        {
+          "match": "Nokia6108\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6108",
+            "Device_Name": "6108"
+          }
+        },
+        {
+          "match": "Nokia6111\/2.0 (03.58) *",
+          "properties": {
+            "Device_Code_Name": "6111",
+            "Device_Name": "6111"
+          }
+        },
+        {
+          "match": "Nokia6125\/2.0 (03.71) *",
+          "properties": {
+            "Device_Code_Name": "6125",
+            "Device_Name": "6125"
+          }
+        },
+        {
+          "match": "Nokia6131\/2.0 (03.?0) *",
+          "properties": {
+            "Device_Code_Name": "6131",
+            "Device_Name": "6131"
+          }
+        },
+        {
+          "match": "Nokia6131\/2.0 (06.?0) *",
+          "properties": {
+            "Device_Code_Name": "6131",
+            "Device_Name": "6131"
+          }
+        },
+        {
+          "match": "Nokia6170\/2.0 (03.*",
+          "properties": {
+            "Device_Code_Name": "6170",
+            "Device_Name": "6170"
+          }
+        },
+        {
+          "match": "Nokia6200\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6200",
+            "Device_Name": "6200"
+          }
+        },
+        {
+          "match": "Nokia6200\/1.0 (3.*",
+          "properties": {
+            "Device_Code_Name": "6200",
+            "Device_Name": "6200"
+          }
+        },
+        {
+          "match": "Nokia6220\/2.0 (*",
+          "properties": {
+            "Device_Code_Name": "6220",
+            "Device_Name": "6220"
+          }
+        },
+        {
+          "match": "Nokia6220\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "6220",
+            "Device_Name": "6220"
+          }
+        },
+        {
+          "match": "Nokia6230\/2.0 (03.1?) *",
+          "properties": {
+            "Device_Code_Name": "6230",
+            "Device_Name": "6230"
+          }
+        },
+        {
+          "match": "Nokia6230\/2.0 (04.*",
+          "properties": {
+            "Device_Code_Name": "6230",
+            "Device_Name": "6230"
+          }
+        },
+        {
+          "match": "Nokia6230\/2.0 (05.*",
+          "properties": {
+            "Device_Code_Name": "GT-6230",
+            "Device_Name": "GT-6230"
+          }
+        },
+        {
+          "match": "Nokia6230\/2.0 (05.50) *",
+          "properties": {
+            "Device_Code_Name": "6230",
+            "Device_Name": "6230"
+          }
+        },
+        {
+          "match": "Nokia6230i\/2.0 (03.*",
+          "properties": {
+            "Device_Code_Name": "6230i",
+            "Device_Name": "6230i"
+          }
+        },
+        {
+          "match": "Nokia6230i\/2.0 (03.2?) *",
+          "properties": {
+            "Device_Code_Name": "6230i",
+            "Device_Name": "6230i"
+          }
+        },
+        {
+          "match": "Nokia6230i\/2.0 (03.62) *",
+          "properties": {
+            "Device_Code_Name": "6230i",
+            "Device_Name": "6230i"
+          }
+        },
+        {
+          "match": "Nokia6230i\/2.0 (03.70) *",
+          "properties": {
+            "Device_Code_Name": "6230i",
+            "Device_Name": "6230i"
+          }
+        },
+        {
+          "match": "Nokia6230i\/2.0 (03.80) *",
+          "properties": {
+            "Device_Code_Name": "6230i",
+            "Device_Name": "6230i"
+          }
+        },
+        {
+          "match": "Nokia6270\/2.0 (03.5?) *",
+          "properties": {
+            "Device_Code_Name": "6270",
+            "Device_Name": "6270"
+          }
+        },
+        {
+          "match": "Nokia6270\/2.0 (03.6?) *",
+          "properties": {
+            "Device_Code_Name": "6270",
+            "Device_Name": "6270"
+          }
+        },
+        {
+          "match": "Nokia6280\/2.0 (03.*",
+          "properties": {
+            "Device_Code_Name": "6280",
+            "Device_Name": "6280"
+          }
+        },
+        {
+          "match": "Nokia6280\/2.0 (03.6?) *",
+          "properties": {
+            "Device_Code_Name": "6280",
+            "Device_Name": "6280"
+          }
+        },
+        {
+          "match": "Nokia6300\/2.0 (04.70) *",
+          "properties": {
+            "Device_Code_Name": "6300",
+            "Device_Name": "6300"
+          }
+        },
+        {
+          "match": "Nokia6300\/2.0 (05.00) *",
+          "properties": {
+            "Device_Code_Name": "6300",
+            "Device_Name": "6300"
+          }
+        },
+        {
+          "match": "Nokia6300\/2.0 (06.*) *",
+          "properties": {
+            "Device_Code_Name": "6300",
+            "Device_Name": "6300"
+          }
+        },
+        {
+          "match": "Nokia6300\/2.0 (07.*) *",
+          "properties": {
+            "Device_Code_Name": "6300",
+            "Device_Name": "6300"
+          }
+        },
+        {
+          "match": "Nokia6303iclassic\/5.0 (*",
+          "properties": {
+            "Device_Code_Name": "6303i classic",
+            "Device_Name": "6303i classic"
+          }
+        },
+        {
+          "match": "Nokia6310\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6310",
+            "Device_Name": "6310"
+          }
+        },
+        {
+          "match": "Nokia6310i\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6310i",
+            "Device_Name": "6310i"
+          }
+        },
+        {
+          "match": "Nokia6500c\/2.0 (*",
+          "properties": {
+            "Device_Code_Name": "6500c",
+            "Device_Name": "6500c"
+          }
+        },
+        {
+          "match": "Nokia6500s-1\/2.0 (04.8?) *",
+          "properties": {
+            "Device_Code_Name": "6500s",
+            "Device_Name": "6500s"
+          }
+        },
+        {
+          "match": "Nokia6510\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6510",
+            "Device_Name": "6510"
+          }
+        },
+        {
+          "match": "Nokia6560\/1.0 (01.24) *",
+          "properties": {
+            "Device_Code_Name": "6560",
+            "Device_Name": "6560"
+          }
+        },
+        {
+          "match": "Nokia6610\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6610",
+            "Device_Name": "6610"
+          }
+        },
+        {
+          "match": "Nokia6610\/1.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "6610",
+            "Device_Name": "6610"
+          }
+        },
+        {
+          "match": "Nokia6610I\/1.0",
+          "properties": {
+            "Device_Code_Name": "6610i",
+            "Device_Name": "6610i"
+          }
+        },
+        {
+          "match": "Nokia6610I\/1.0 (*",
+          "properties": {
+            "Device_Code_Name": "6610i",
+            "Device_Name": "6610i"
+          }
+        },
+        {
+          "match": "Nokia6650\/2.0 (*",
+          "properties": {
+            "Device_Code_Name": "6650",
+            "Device_Name": "6650"
+          }
+        },
+        {
+          "match": "Nokia6700c-1\/2.0 (* Mozilla\/?.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Device_Code_Name": "6700c",
+            "Device_Name": "6700c"
+          }
+        },
+        {
+          "match": "Nokia6800\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "6800",
+            "Device_Name": "6800"
+          }
+        },
+        {
+          "match": "Nokia6800\/2.0 (4.1?) *",
+          "properties": {
+            "Device_Code_Name": "6800",
+            "Device_Name": "6800"
+          }
+        },
+        {
+          "match": "Nokia6820\/2.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "6820",
+            "Device_Name": "6820"
+          }
+        },
+        {
+          "match": "Nokia6820\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "6820",
+            "Device_Name": "6820"
+          }
+        },
+        {
+          "match": "Nokia6822\/2.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "6822",
+            "Device_Name": "6822"
+          }
+        },
+        {
+          "match": "Nokia7200\/2.0 (3.1*",
+          "properties": {
+            "Device_Code_Name": "7200",
+            "Device_Name": "7200"
+          }
+        },
+        {
+          "match": "Nokia7210\/1.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "7210",
+            "Device_Name": "7210"
+          }
+        },
+        {
+          "match": "Nokia7210\/1.0 (5.*",
+          "properties": {
+            "Device_Code_Name": "7210",
+            "Device_Name": "7210"
+          }
+        },
+        {
+          "match": "Nokia7210\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "7210",
+            "Device_Name": "7210"
+          }
+        },
+        {
+          "match": "Nokia7210\/1.0(3.09) *",
+          "properties": {
+            "Device_Code_Name": "7210",
+            "Device_Name": "7210"
+          }
+        },
+        {
+          "match": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Device_Code_Name": "7230",
+            "Device_Name": "7230"
+          }
+        },
+        {
+          "match": "Nokia7250\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "7250",
+            "Device_Name": "7250"
+          }
+        },
+        {
+          "match": "Nokia7250I\/1.0 (4.*",
+          "properties": {
+            "Device_Code_Name": "7250i",
+            "Device_Name": "7250i"
+          }
+        },
+        {
+          "match": "Nokia7250I\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "7250i",
+            "Device_Name": "7250i"
+          }
+        },
+        {
+          "match": "Nokia7260\/2.0 (03.36) *",
+          "properties": {
+            "Device_Code_Name": "7260",
+            "Device_Name": "7260"
+          }
+        },
+        {
+          "match": "Nokia7260\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "7260",
+            "Device_Name": "7260"
+          }
+        },
+        {
+          "match": "Nokia7270\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "7270",
+            "Device_Name": "7270"
+          }
+        },
+        {
+          "match": "Nokia7600\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "7600",
+            "Device_Name": "7600"
+          }
+        },
+        {
+          "match": "Nokia8310\/1.0 (04.*",
+          "properties": {
+            "Device_Code_Name": "8310",
+            "Device_Name": "8310"
+          }
+        },
+        {
+          "match": "Nokia8310\/1.0 (05.*",
+          "properties": {
+            "Device_Code_Name": "8310",
+            "Device_Name": "8310"
+          }
+        },
+        {
+          "match": "Nokia8310\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "8310",
+            "Device_Name": "8310"
+          }
+        },
+        {
+          "match": "Nokia8800\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "8800",
+            "Device_Name": "8800"
+          }
+        },
+        {
+          "match": "Nokia8910\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "8910",
+            "Device_Name": "8910"
+          }
+        },
+        {
+          "match": "Nokia8910i\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "8910i",
+            "Device_Name": "8910i"
+          }
+        },
+        {
+          "match": "NokiaC2-01\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "C2-01",
+            "Device_Name": "C2"
+          }
+        },
+        {
+          "match": "NokiaC3-01\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "C3",
+            "Device_Name": "C3"
+          }
+        },
+        {
+          "match": "NokiaC6-00\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "C6",
+            "Device_Name": "C6"
+          }
+        },
+        {
+          "match": "NokiaC7-00\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "C7",
+            "Device_Name": "C7"
+          }
+        },
+        {
+          "match": "NokiaN70-1\/2.05*",
+          "properties": {
+            "Device_Code_Name": "N70",
+            "Device_Name": "N70"
+          }
+        },
+        {
+          "match": "NokiaN70-1\/3.05*",
+          "properties": {
+            "Device_Code_Name": "N70",
+            "Device_Name": "N70"
+          }
+        },
+        {
+          "match": "NokiaN70-1\/5.06*",
+          "properties": {
+            "Device_Code_Name": "N70",
+            "Device_Name": "N70"
+          }
+        },
+        {
+          "match": "NokiaN80-1\/1.05*",
+          "properties": {
+            "Device_Code_Name": "N80",
+            "Device_Name": "N80"
+          }
+        },
+        {
+          "match": "NokiaN90-1\/3.05*",
+          "properties": {
+            "Device_Code_Name": "N90",
+            "Device_Name": "N90"
+          }
+        },
+        {
+          "match": "NokiaX2-00\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "X2",
+            "Device_Name": "X2",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "NokiaX2-01\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "X2",
+            "Device_Name": "X2",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "NokiaX3-02\/5.0 (*) * Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "X3",
+            "Device_Name": "X3",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "6600\/1.0 (*; Series60\/*; SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6600",
+            "Device_Name": "6600"
+          }
+        },
+        {
+          "match": "Mozilla\/* (SymbianOS\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 5.0; Series80\/2.0 Nokia9300i\/6.27 *)",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "9300i",
+            "Device_Name": "9300i"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; ?; Series60\/* NokiaN79-1\/30.019*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N79",
+            "Device_Name": "N79",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5530c-2\/11.0.053; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "5530c",
+            "Device_Name": "5530c",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5800d-1\/52*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "5800d",
+            "Device_Name": "5800d",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6220c-1\/04.13; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6220c",
+            "Device_Name": "6220c"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6760s-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6760s",
+            "Device_Name": "6760s",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/1*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E63",
+            "Device_Name": "E63",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/4*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E63",
+            "Device_Name": "E63",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/1*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E71",
+            "Device_Name": "E71"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/5*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E71",
+            "Device_Name": "E71"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE90-1\/07.38.0.2; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E90",
+            "Device_Name": "E90",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaN78-1\/13.052*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N78",
+            "Device_Name": "N78",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/9.1; U; *; NokiaE50-2\/06.* Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E50",
+            "Device_Name": "E50"
+          }
+        },
+        {
+          "match": "Nokia3230\/2.0 (*SymbianOS\/7.0s Series60\/2.1*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3230",
+            "Device_Name": "3230"
+          }
+        },
+        {
+          "match": "Nokia3250\/2.0 (3.16) SymbianOS\/9.1 Series60\/3.0 *",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3250",
+            "Device_Name": "3250"
+          }
+        },
+        {
+          "match": "Nokia3250\/2.0 (3.23) SymbianOS\/9.1 Series60\/3.0 *",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3250",
+            "Device_Name": "3250"
+          }
+        },
+        {
+          "match": "Nokia3650\/1.0 (4.1?) SymbianOS\/* Series60\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3650",
+            "Device_Name": "3650"
+          }
+        },
+        {
+          "match": "Nokia3650\/1.0 SymbianOS\/* Series60\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3650",
+            "Device_Name": "3650"
+          }
+        },
+        {
+          "match": "Nokia3660\/1.0 (*SymbianOS\/* Series60\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "3660",
+            "Device_Name": "3660"
+          }
+        },
+        {
+          "match": "Nokia5500d\/2.0 (03.14) SymbianOS\/* Series60\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "5500d",
+            "Device_Name": "5500d"
+          }
+        },
+        {
+          "match": "Nokia6260\/2.0 (3.0*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6260",
+            "Device_Name": "6260"
+          }
+        },
+        {
+          "match": "Nokia6600\/1.0 (4.09.1) SymbianOS\/7.0s*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6600",
+            "Device_Name": "6600"
+          }
+        },
+        {
+          "match": "Nokia6600\/1.0* SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6600",
+            "Device_Name": "6600"
+          }
+        },
+        {
+          "match": "Nokia6620\/2.0* SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6620",
+            "Device_Name": "6620"
+          }
+        },
+        {
+          "match": "Nokia6630\/1.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6630",
+            "Device_Name": "6630"
+          }
+        },
+        {
+          "match": "Nokia6630\/1.0 *SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6630",
+            "Device_Name": "6630"
+          }
+        },
+        {
+          "match": "Nokia6670\/2.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6670",
+            "Device_Name": "6670"
+          }
+        },
+        {
+          "match": "Nokia6670\/2.0 *SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6670",
+            "Device_Name": "6670"
+          }
+        },
+        {
+          "match": "Nokia6680\/1.0 *SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6680",
+            "Device_Name": "6680"
+          }
+        },
+        {
+          "match": "Nokia6680\/1.0* SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6680",
+            "Device_Name": "6680"
+          }
+        },
+        {
+          "match": "Nokia6682\/2.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "6682",
+            "Device_Name": "6682"
+          }
+        },
+        {
+          "match": "Nokia7610\/2.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "7610",
+            "Device_Name": "7610"
+          }
+        },
+        {
+          "match": "Nokia7610\/2.0 (6.0522.0) SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "7610",
+            "Device_Name": "7610"
+          }
+        },
+        {
+          "match": "Nokia7610\/2.0 *SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "7610",
+            "Device_Name": "7610"
+          }
+        },
+        {
+          "match": "Nokia7650\/1.0 SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "7650",
+            "Device_Name": "7650"
+          }
+        },
+        {
+          "match": "Nokia9210i\/1.0 Symbian-Crystal\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "9210i",
+            "Device_Name": "9210i"
+          }
+        },
+        {
+          "match": "NokiaE61-1\/3.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "E61",
+            "Device_Name": "E61"
+          }
+        },
+        {
+          "match": "NokiaN-Gage\/1.0 (4.03) SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N-Gage",
+            "Device_Name": "N-Gage"
+          }
+        },
+        {
+          "match": "NokiaN-Gage\/1.0 SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N-Gage",
+            "Device_Name": "N-Gage"
+          }
+        },
+        {
+          "match": "NokiaN-GageQD\/1.0 SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N-GageQD",
+            "Device_Name": "N-GageQD"
+          }
+        },
+        {
+          "match": "NokiaN-GageQD\/2.0 (*SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N-GageQD",
+            "Device_Name": "N-GageQD"
+          }
+        },
+        {
+          "match": "NokiaN91-1\/3.0 (1.10.030) SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N91",
+            "Device_Name": "N91"
+          }
+        },
+        {
+          "match": "NokiaN95_8GB-?;Mozilla\/5.0 SymbianOS\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "N95",
+            "Device_Name": "N95"
+          }
+        },
+        {
+          "match": "X700\/1.0 SymbianOS\/7.0 Series60\/*",
+          "properties": {
+            "Platform": "Symbian OS",
+            "Platform_Maker": "Symbian Foundation",
+            "Device_Code_Name": "X700",
+            "Device_Name": "X700"
+          }
+        }
+      ]
     }
   ]
 }

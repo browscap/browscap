@@ -15,85 +15,75 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "N8",
-        "Device_Name": "N8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "N8-00",
-        "Device_Name": "N8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/5.2 NokiaC6-01\/* AppleWebKit\/525 (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "C6",
-        "Device_Name": "C6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5228\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "5228",
-        "Device_Name": "5228"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5800d-1\/5*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "5800d",
-        "Device_Name": "5800d"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-03\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "C5-03",
-        "Device_Name": "C5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-01\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "C6-01",
-        "Device_Name": "C6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE5-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "E5",
-        "Device_Name": "E5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2",
-        "Device_Code_Name": "N97",
-        "Device_Name": "N97"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0\/SN* (SymbianOS\/*; Series60\/* VertuConstellationQuest\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
-      "properties": {
-        "Parent": "Nokia Browser 7.2"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "N8",
+            "Device_Name": "N8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "N8-00",
+            "Device_Name": "N8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/5.2 NokiaC6-01\/* AppleWebKit\/525 (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "C6",
+            "Device_Name": "C6"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5228\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "5228",
+            "Device_Name": "5228"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5800d-1\/5*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "5800d",
+            "Device_Name": "5800d"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-03\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "C5-03",
+            "Device_Name": "C5"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-01\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "C6-01",
+            "Device_Name": "C6"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE5-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "E5",
+            "Device_Name": "E5"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
+          "properties": {
+            "Device_Code_Name": "N97",
+            "Device_Name": "N97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0\/SN* (SymbianOS\/*; Series60\/* VertuConstellationQuest\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*"
+        }
+      ]
     }
   ]
 }

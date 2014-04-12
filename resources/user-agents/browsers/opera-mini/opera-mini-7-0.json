@@ -21,157 +21,142 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "RIM OS",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "iOS",
-        "Device_Name": "iPad",
-        "Device_Maker": "Apple",
-        "Device_Type": "Tablet",
-        "Device_Pointing_Method": "touchscreen"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "iOS",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "WinMobile"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Brew"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Bada"
-      }
-    },
-    {
-      "userAgent": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Maker": "Samsung"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-C3262* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Name": "GT-C3262",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Name": "GT-S3802",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-S5292* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Name": "GT-S5292",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-C3312R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Name": "GT-C3312R",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-GT-S5222R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "JAVA",
-        "Device_Name": "GT-S5222R",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-      "properties": {
-        "Parent": "Opera Mini #MAJORVER#.#MINORVER#",
-        "Platform": "Brew"
-      }
+      },
+      "children": [
+        {
+          "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "RIM OS",
+            "Device_Name": "Blackberry",
+            "Device_Maker": "RIM"
+          }
+        },
+        {
+          "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "iOS",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          }
+        },
+        {
+          "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "iOS",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true"
+          }
+        },
+        {
+          "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        },
+        {
+          "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "WinMobile"
+          }
+        },
+        {
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Brew"
+          }
+        },
+        {
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Bada"
+          }
+        },
+        {
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-C3262* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-C3262",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-S3802",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5292* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-S5292",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-C3312R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-C3312R",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-GT-S5222R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Device_Name": "GT-S5222R",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "Brew"
+          }
+        }
+      ]
     }
   ]
 }
