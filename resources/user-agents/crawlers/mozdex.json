@@ -1,30 +1,30 @@
 {
-    "division": "Mozdex",
-    "sortIndex": 770,
-    "userAgents": [
-        {
-            "userAgent": "Mozdex",
-            "properties": {
-                "Parent": "General Crawlers",
-                "Browser": "Mozdex",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Mozdex\/*",
-            "properties": {
-                "Parent": "Mozdex"
-            }
-        },
-        {
-            "userAgent": "Mozdex\/0.7*",
-            "properties": {
-                "Parent": "Mozdex"
-            }
-        }
-    ]
+  "division": "Mozdex",
+  "sortIndex": 770,
+  "userAgents": [
+    {
+      "userAgent": "Mozdex",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Mozdex",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/*",
+      "properties": {
+        "Parent": "Mozdex"
+      }
+    },
+    {
+      "userAgent": "Mozdex\/0.7*",
+      "properties": {
+        "Parent": "Mozdex"
+      }
+    }
+  ]
 }

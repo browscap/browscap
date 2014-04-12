@@ -1,69 +1,69 @@
 {
-    "division": "Ichiro Mobile Bot",
-    "sortIndex": 590,
-    "userAgents": [
-        {
-            "userAgent": "Ichiro Mobile Bot",
-            "properties": {
-                "Parent": "General Crawlers",
-                "Browser": "Ichiro Mobile Bot",
-                "isMobileDevice": "true",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "DoCoMo\/2.0 P900i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
-            "properties": {
-                "Parent": "Ichiro Mobile Bot",
-                "Device_Code_Name": "P900i",
-                "Device_Maker": "DoCoMo",
-                "Device_Brand_Name": "DoCoMo",
-                "Device_Name": "P900i"
-            }
-        },
-        {
-            "userAgent": "DoCoMo\/2.0 P901i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
-            "properties": {
-                "Parent": "Ichiro Mobile Bot",
-                "Device_Code_Name": "P901i",
-                "Device_Maker": "DoCoMo",
-                "Device_Brand_Name": "DoCoMo",
-                "Device_Name": "P901i"
-            }
-        },
-        {
-            "userAgent": "KDDI-CA31 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
-            "properties": {
-                "Parent": "Ichiro Mobile Bot",
-                "Device_Code_Name": "CA31",
-                "Device_Maker": "KDDI",
-                "Device_Brand_Name": "KDDI",
-                "Device_Name": "CA31"
-            }
-        },
-        {
-            "userAgent": "KDDI-CA32 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
-            "properties": {
-                "Parent": "Ichiro Mobile Bot",
-                "Device_Code_Name": "CA32",
-                "Device_Maker": "KDDI",
-                "Device_Brand_Name": "KDDI",
-                "Device_Name": "CA32"
-            }
-        },
-        {
-            "userAgent": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0* (compatible; ichiro\/mobile goo;  http:\/\/help.goo.ne.jp\/door\/crawler.html)",
-            "properties": {
-                "Parent": "Ichiro Mobile Bot",
-                "Device_Code_Name": "V802SH",
-                "Device_Maker": "Vodafone",
-                "Device_Brand_Name": "Vodafone",
-                "Device_Name": "V802SH"
-            }
-        }
-    ]
+  "division": "Ichiro Mobile Bot",
+  "sortIndex": 590,
+  "userAgents": [
+    {
+      "userAgent": "Ichiro Mobile Bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Ichiro Mobile Bot",
+        "isMobileDevice": "true",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P900i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
+      "properties": {
+        "Parent": "Ichiro Mobile Bot",
+        "Device_Code_Name": "P900i",
+        "Device_Maker": "DoCoMo",
+        "Device_Brand_Name": "DoCoMo",
+        "Device_Name": "P900i"
+      }
+    },
+    {
+      "userAgent": "DoCoMo\/2.0 P901i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
+      "properties": {
+        "Parent": "Ichiro Mobile Bot",
+        "Device_Code_Name": "P901i",
+        "Device_Maker": "DoCoMo",
+        "Device_Brand_Name": "DoCoMo",
+        "Device_Name": "P901i"
+      }
+    },
+    {
+      "userAgent": "KDDI-CA31 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
+      "properties": {
+        "Parent": "Ichiro Mobile Bot",
+        "Device_Code_Name": "CA31",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Name": "CA31"
+      }
+    },
+    {
+      "userAgent": "KDDI-CA32 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
+      "properties": {
+        "Parent": "Ichiro Mobile Bot",
+        "Device_Code_Name": "CA32",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Name": "CA32"
+      }
+    },
+    {
+      "userAgent": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0* (compatible; ichiro\/mobile goo;  http:\/\/help.goo.ne.jp\/door\/crawler.html)",
+      "properties": {
+        "Parent": "Ichiro Mobile Bot",
+        "Device_Code_Name": "V802SH",
+        "Device_Maker": "Vodafone",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Name": "V802SH"
+      }
+    }
+  ]
 }

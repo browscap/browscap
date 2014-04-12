@@ -1,95 +1,95 @@
 {
-    "division": "Fast\/AllTheWeb",
-    "sortIndex": 150,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Fast\/AllTheWeb",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Fast\/AllTheWeb",
-                "Browser": "Fast\/AllTheWeb",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "*FAST Enterprise Crawler*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST Enterprise Crawler"
-            }
-        },
-        {
-            "userAgent": "FAST Data Search Document Retriever\/4.0*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST Data Search Document Retriever"
-            }
-        },
-        {
-            "userAgent": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST MetaWeb Crawler"
-            }
-        },
-        {
-            "userAgent": "Fast PartnerSite Crawler*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST PartnerSite"
-            }
-        },
-        {
-            "userAgent": "FAST-WebCrawler\/*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST-WebCrawler"
-            }
-        },
-        {
-            "userAgent": "FAST-WebCrawler\/*\/FirstPage*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST-WebCrawler\/FirstPage"
-            }
-        },
-        {
-            "userAgent": "FAST-WebCrawler\/*\/Fresh*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST-WebCrawler\/Fresh"
-            }
-        },
-        {
-            "userAgent": "FAST-WebCrawler\/*\/PartnerSite*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST PartnerSite"
-            }
-        },
-        {
-            "userAgent": "FAST-WebCrawler\/*?Multimedia*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FAST-WebCrawler\/Multimedia"
-            }
-        },
-        {
-            "userAgent": "FastSearch Web Crawler for*",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb",
-                "Browser": "FastSearch Web Crawler"
-            }
-        },
-        {
-            "userAgent": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)",
-            "properties": {
-                "Parent": "Fast\/AllTheWeb"
-            }
-        }
-    ]
+  "division": "Fast\/AllTheWeb",
+  "sortIndex": 150,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Fast\/AllTheWeb",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fast\/AllTheWeb",
+        "Browser": "Fast\/AllTheWeb",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*FAST Enterprise Crawler*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST Enterprise Crawler"
+      }
+    },
+    {
+      "userAgent": "FAST Data Search Document Retriever\/4.0*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST Data Search Document Retriever"
+      }
+    },
+    {
+      "userAgent": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST MetaWeb Crawler"
+      }
+    },
+    {
+      "userAgent": "Fast PartnerSite Crawler*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST PartnerSite"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST-WebCrawler"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*\/FirstPage*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST-WebCrawler\/FirstPage"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*\/Fresh*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST-WebCrawler\/Fresh"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*\/PartnerSite*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST PartnerSite"
+      }
+    },
+    {
+      "userAgent": "FAST-WebCrawler\/*?Multimedia*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FAST-WebCrawler\/Multimedia"
+      }
+    },
+    {
+      "userAgent": "FastSearch Web Crawler for*",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb",
+        "Browser": "FastSearch Web Crawler"
+      }
+    },
+    {
+      "userAgent": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)",
+      "properties": {
+        "Parent": "Fast\/AllTheWeb"
+      }
+    }
+  ]
 }

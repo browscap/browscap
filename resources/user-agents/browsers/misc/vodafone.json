@@ -1,38 +1,38 @@
 {
-    "division": "Vodafone",
-    "sortIndex": 10970,
-    "userAgents": [
+  "division": "Vodafone",
+  "sortIndex": 10970,
+  "userAgents": [
+    {
+      "userAgent": "Vodafone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Vodafone",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
         {
-            "userAgent": "Vodafone",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "Vodafone",
-                "Browser_Type": "Browser",
-                "Platform": "Java",
-                "Platform_Maker": "Oracle",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "CssVersion": "2",
-                "Device_Type": "Mobile Device"
-            },
-            "children": [
-                {
-                    "match": "J-PHONE\/4.0\/J-SH51\/*"
-                },
-                {
-                    "match": "J-PHONE\/4.3\/V602T\/*"
-                }
-            ]
+          "match": "J-PHONE\/4.0\/J-SH51\/*"
+        },
+        {
+          "match": "J-PHONE\/4.3\/V602T\/*"
         }
-    ]
+      ]
+    }
+  ]
 }

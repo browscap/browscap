@@ -1,126 +1,126 @@
 {
-    "division": "Teleca-Obigo 2.0",
-    "sortIndex": 10730,
-    "userAgents": [
-        {
-            "userAgent": "Teleca-Obigo 2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "2.0",
-                "MajorVer": "2"
-            }
-        },
-        {
-            "userAgent": "Alcatel-OH1C\/1.0 ObigoInternetBrowser\/2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "OH1C",
-                "Device_Maker": "Alcatel",
-                "Device_Brand_Name": "Alcatel",
-                "Device_Name": "OH1C"
-            }
-        },
-        {
-            "userAgent": "Alcatel-OH2\/1.0 ObigoInternetBrowser\/2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "OH2",
-                "Device_Maker": "Alcatel",
-                "Device_Brand_Name": "Alcatel",
-                "Device_Name": "OH2"
-            }
-        },
-        {
-            "userAgent": "Haier-M1000 \/ Obigo Browser 2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "M1000",
-                "Device_Maker": "Haier",
-                "Device_Brand_Name": "Haier",
-                "Device_Name": "M1000"
-            }
-        },
-        {
-            "userAgent": "Haier-M1211 \/ Obigo Browser 2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "M1211",
-                "Device_Maker": "Haier",
-                "Device_Brand_Name": "Haier",
-                "Device_Name": "M1211"
-            }
-        },
-        {
-            "userAgent": "Haier-M1610 \/ Obigo Browser 2.0",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "M1610",
-                "Device_Maker": "Haier",
-                "Device_Brand_Name": "Haier",
-                "Device_Name": "M1610"
-            }
-        },
-        {
-            "userAgent": "LG\/KU800\/v1.0 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "KU800",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "KU800"
-            }
-        },
-        {
-            "userAgent": "PHILIPS 350 \/ Teleca-Obigo 2.0 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "350",
-                "Device_Maker": "Philips",
-                "Device_Brand_Name": "Philips",
-                "Device_Name": "350"
-            }
-        },
-        {
-            "userAgent": "PHILIPS650 ObigoInternetBrowser\/2.0 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "650",
-                "Device_Maker": "Philips",
-                "Device_Brand_Name": "Philips",
-                "Device_Name": "650"
-            }
-        },
-        {
-            "userAgent": "PHILIPS755 ObigoInternetBrowser\/2.0 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "755",
-                "Device_Maker": "Philips",
-                "Device_Brand_Name": "Philips",
-                "Device_Name": "755"
-            }
-        },
-        {
-            "userAgent": "SIE-SF65 ObigoInternetBrowser\/2.0 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Device_Code_Name": "SF65",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "SF65"
-            }
-        },
-        {
-            "userAgent": "PHILIPS 355 \/ Teleca-Obigo 2.2 *",
-            "properties": {
-                "Parent": "Teleca-Obigo 2.0",
-                "Version": "2.2",
-                "MinorVer": "2",
-                "Device_Code_Name": "355",
-                "Device_Maker": "Philips",
-                "Device_Brand_Name": "Philips",
-                "Device_Name": "355"
-            }
-        }
-    ]
+  "division": "Teleca-Obigo 2.0",
+  "sortIndex": 10730,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo 2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    },
+    {
+      "userAgent": "Alcatel-OH1C\/1.0 ObigoInternetBrowser\/2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "OH1C",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Name": "OH1C"
+      }
+    },
+    {
+      "userAgent": "Alcatel-OH2\/1.0 ObigoInternetBrowser\/2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "OH2",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Name": "OH2"
+      }
+    },
+    {
+      "userAgent": "Haier-M1000 \/ Obigo Browser 2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "M1000",
+        "Device_Maker": "Haier",
+        "Device_Brand_Name": "Haier",
+        "Device_Name": "M1000"
+      }
+    },
+    {
+      "userAgent": "Haier-M1211 \/ Obigo Browser 2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "M1211",
+        "Device_Maker": "Haier",
+        "Device_Brand_Name": "Haier",
+        "Device_Name": "M1211"
+      }
+    },
+    {
+      "userAgent": "Haier-M1610 \/ Obigo Browser 2.0",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "M1610",
+        "Device_Maker": "Haier",
+        "Device_Brand_Name": "Haier",
+        "Device_Name": "M1610"
+      }
+    },
+    {
+      "userAgent": "LG\/KU800\/v1.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "KU800",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KU800"
+      }
+    },
+    {
+      "userAgent": "PHILIPS 350 \/ Teleca-Obigo 2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "350",
+        "Device_Maker": "Philips",
+        "Device_Brand_Name": "Philips",
+        "Device_Name": "350"
+      }
+    },
+    {
+      "userAgent": "PHILIPS650 ObigoInternetBrowser\/2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "650",
+        "Device_Maker": "Philips",
+        "Device_Brand_Name": "Philips",
+        "Device_Name": "650"
+      }
+    },
+    {
+      "userAgent": "PHILIPS755 ObigoInternetBrowser\/2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "755",
+        "Device_Maker": "Philips",
+        "Device_Brand_Name": "Philips",
+        "Device_Name": "755"
+      }
+    },
+    {
+      "userAgent": "SIE-SF65 ObigoInternetBrowser\/2.0 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Device_Code_Name": "SF65",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "SF65"
+      }
+    },
+    {
+      "userAgent": "PHILIPS 355 \/ Teleca-Obigo 2.2 *",
+      "properties": {
+        "Parent": "Teleca-Obigo 2.0",
+        "Version": "2.2",
+        "MinorVer": "2",
+        "Device_Code_Name": "355",
+        "Device_Maker": "Philips",
+        "Device_Brand_Name": "Philips",
+        "Device_Name": "355"
+      }
+    }
+  ]
 }

@@ -1,33 +1,33 @@
 {
-    "division": "ContextAd Bot",
-    "sortIndex": 91,
-    "userAgents": [
-        {
-            "userAgent": "ContextAd Bot",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "ContextAd Bot",
-                "Browser": "ContextAd Bot",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "ContextAd Bot*",
-            "properties": {
-                "Parent": "ContextAd Bot"
-            }
-        },
-        {
-            "userAgent": "ContextAd Bot 1.0*",
-            "properties": {
-                "Parent": "ContextAd Bot",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0"
-            }
-        }
-    ]
+  "division": "ContextAd Bot",
+  "sortIndex": 91,
+  "userAgents": [
+    {
+      "userAgent": "ContextAd Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ContextAd Bot",
+        "Browser": "ContextAd Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "ContextAd Bot*",
+      "properties": {
+        "Parent": "ContextAd Bot"
+      }
+    },
+    {
+      "userAgent": "ContextAd Bot 1.0*",
+      "properties": {
+        "Parent": "ContextAd Bot",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
 }

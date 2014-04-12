@@ -1,37 +1,37 @@
 {
-    "division": "PagePeeker",
-    "sortIndex": 870,
-    "userAgents": [
-        {
-            "userAgent": "PagePeeker",
-            "properties": {
-                "Parent": "General Crawlers",
-                "Browser": "PagePeeker",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
-            "properties": {
-                "Parent": "PagePeeker",
-                "Browser_Bits": "64",
-                "Platform_Bits": "64"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
-            "properties": {
-                "Parent": "PagePeeker",
-                "Browser_Bits": "64",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1",
-                "Platform_Bits": "64"
-            }
-        }
-    ]
+  "division": "PagePeeker",
+  "sortIndex": 870,
+  "userAgents": [
+    {
+      "userAgent": "PagePeeker",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "PagePeeker",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
+      "properties": {
+        "Parent": "PagePeeker",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
+      "properties": {
+        "Parent": "PagePeeker",
+        "Browser_Bits": "64",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1",
+        "Platform_Bits": "64"
+      }
+    }
+  ]
 }

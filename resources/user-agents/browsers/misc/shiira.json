@@ -1,107 +1,107 @@
 {
-    "division": "Shiira",
-    "sortIndex": 2440,
-    "lite": true,
-    "userAgents": [
+  "division": "Shiira",
+  "sortIndex": 2440,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Shiira",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Shiira",
+        "Browser": "Shiira",
+        "Platform": "MacOSX",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
         {
-            "userAgent": "Shiira",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Shiira",
-                "Browser": "Shiira",
-                "Platform": "MacOSX",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "CssVersion": "2",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/0.9*",
-                    "properties": {
-                        "Version": "0.9",
-                        "MajorVer": "0",
-                        "MinorVer": "9"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.0*",
-                    "properties": {
-                        "Version": "1.0",
-                        "MajorVer": "1",
-                        "MinorVer": "0"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.1*",
-                    "properties": {
-                        "Version": "1.1",
-                        "MajorVer": "1",
-                        "MinorVer": "1"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.2*",
-                    "properties": {
-                        "Version": "1.2",
-                        "MajorVer": "1",
-                        "MinorVer": "2"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.1*",
-                    "properties": {
-                        "Version": "2.1",
-                        "MajorVer": "2",
-                        "MinorVer": "1"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.2*",
-                    "properties": {
-                        "Version": "2.2",
-                        "MajorVer": "2",
-                        "MinorVer": "2"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.3*",
-                    "properties": {
-                        "Version": "2.3",
-                        "MajorVer": "2",
-                        "MinorVer": "3"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/0.9*",
+          "properties": {
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.2*",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* *Shiira\/2.3*",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "OSX"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

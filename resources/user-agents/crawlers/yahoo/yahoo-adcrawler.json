@@ -1,20 +1,20 @@
 {
-    "division": "Yahoo AdCrawler",
-    "sortIndex": 1330,
-    "userAgents": [
-        {
-            "userAgent": "Yahoo AdCrawler",
-            "properties": {
-                "Parent": "Yahoo",
-                "Browser": "Yahoo!-AdCrawler"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; Yahoo!-AdCrawler;*http:\/\/help.yahoo.com\/yahoo_adcrawler)",
-            "properties": {
-                "Parent": "Yahoo",
-                "Browser": "Yahoo!-AdCrawler"
-            }
-        }
-    ]
+  "division": "Yahoo AdCrawler",
+  "sortIndex": 1330,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo AdCrawler",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo!-AdCrawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; Yahoo!-AdCrawler;*http:\/\/help.yahoo.com\/yahoo_adcrawler)",
+      "properties": {
+        "Parent": "Yahoo",
+        "Browser": "Yahoo!-AdCrawler"
+      }
+    }
+  ]
 }

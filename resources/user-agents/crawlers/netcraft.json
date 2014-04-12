@@ -1,37 +1,37 @@
 {
-    "division": "Netcraft",
-    "sortIndex": 600,
-    "userAgents": [
-        {
-            "userAgent": "Netcraft",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Netcraft",
-                "Browser": "Netcraft",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "*Netcraft Web Server Survey*",
-            "properties": {
-                "Parent": "Netcraft",
-                "Browser": "Netcraft Webserver Survey"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0; *info@netcraft.com)",
-            "properties": {
-                "Parent": "Netcraft",
-                "Browser": "NetcraftSurveyAgent"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
-            "properties": {
-                "Parent": "Netcraft",
-                "Browser": "NetcraftSurveyAgent"
-            }
-        }
-    ]
+  "division": "Netcraft",
+  "sortIndex": 600,
+  "userAgents": [
+    {
+      "userAgent": "Netcraft",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netcraft",
+        "Browser": "Netcraft",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "*Netcraft Web Server Survey*",
+      "properties": {
+        "Parent": "Netcraft",
+        "Browser": "Netcraft Webserver Survey"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0; *info@netcraft.com)",
+      "properties": {
+        "Parent": "Netcraft",
+        "Browser": "NetcraftSurveyAgent"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
+      "properties": {
+        "Parent": "Netcraft",
+        "Browser": "NetcraftSurveyAgent"
+      }
+    }
+  ]
 }

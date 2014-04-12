@@ -1,84 +1,84 @@
 {
-    "division": "Feeds Blogs",
-    "sortIndex": 360,
-    "userAgents": [
-        {
-            "userAgent": "Feeds Blogs",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Feeds Blogs",
-                "Browser": "Feeds Blogs",
-                "Browser_Type": "Bot/Crawler",
-                "isSyndicationReader": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Bloglines Title Fetch\/*",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "Bloglines Title Fetch"
-            }
-        },
-        {
-            "userAgent": "Bloglines\/* (http:\/\/www.bloglines.com*)",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "BlogLines Web"
-            }
-        },
-        {
-            "userAgent": "BlogPulse (ISSpider-3.*)",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "BlogPulse"
-            }
-        },
-        {
-            "userAgent": "BlogPulseLive (support@blogpulse.com)",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "BlogPulseLive"
-            }
-        },
-        {
-            "userAgent": "blogsearchbot-pumpkin-2",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "blogsearchbot-pumpkin",
-                "isSyndicationReader": "false"
-            }
-        },
-        {
-            "userAgent": "Irish Blogs Aggregator\/*1.0*",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "Irish Blogs Aggregator",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "kinjabot (http:\/\/www.kinja.com; *)",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "kinjabot"
-            }
-        },
-        {
-            "userAgent": "Net::Trackback\/*",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "Net::Trackback"
-            }
-        },
-        {
-            "userAgent": "Reblog*",
-            "properties": {
-                "Parent": "Feeds Blogs",
-                "Browser": "Reblog"
-            }
-        }
-    ]
+  "division": "Feeds Blogs",
+  "sortIndex": 360,
+  "userAgents": [
+    {
+      "userAgent": "Feeds Blogs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Feeds Blogs",
+        "Browser": "Feeds Blogs",
+        "Browser_Type": "Bot/Crawler",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Bloglines Title Fetch\/*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Bloglines Title Fetch"
+      }
+    },
+    {
+      "userAgent": "Bloglines\/* (http:\/\/www.bloglines.com*)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogLines Web"
+      }
+    },
+    {
+      "userAgent": "BlogPulse (ISSpider-3.*)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogPulse"
+      }
+    },
+    {
+      "userAgent": "BlogPulseLive (support@blogpulse.com)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "BlogPulseLive"
+      }
+    },
+    {
+      "userAgent": "blogsearchbot-pumpkin-2",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "blogsearchbot-pumpkin",
+        "isSyndicationReader": "false"
+      }
+    },
+    {
+      "userAgent": "Irish Blogs Aggregator\/*1.0*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Irish Blogs Aggregator",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "kinjabot (http:\/\/www.kinja.com; *)",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "kinjabot"
+      }
+    },
+    {
+      "userAgent": "Net::Trackback\/*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Net::Trackback"
+      }
+    },
+    {
+      "userAgent": "Reblog*",
+      "properties": {
+        "Parent": "Feeds Blogs",
+        "Browser": "Reblog"
+      }
+    }
+  ]
 }

@@ -1,49 +1,49 @@
 {
-    "division": "MAUI",
-    "sortIndex": 6900,
-    "userAgents": [
+  "division": "MAUI",
+  "sortIndex": 6900,
+  "userAgents": [
+    {
+      "userAgent": "MAUI",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "MAUI Wap Browser",
+        "Browser_Type": "Browser",
+        "Platform": "MTK\/Nucleus OS",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
         {
-            "userAgent": "MAUI",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "MAUI Wap Browser",
-                "Browser_Type": "Browser",
-                "Platform": "MTK\/Nucleus OS",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "Device_Type": "Mobile Device"
-            },
-            "children": [
-                {
-                    "match": "MAUI WAP Browser MAUI WAP Browser"
-                },
-                {
-                    "match": "MAUI WAP Browser*"
-                },
-                {
-                    "match": "MAUI_WAP_Browser"
-                },
-                {
-                    "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
-                    "properties": {
-                        "Platform": "unknown"
-                    }
-                }
-            ]
+          "match": "MAUI WAP Browser MAUI WAP Browser"
+        },
+        {
+          "match": "MAUI WAP Browser*"
+        },
+        {
+          "match": "MAUI_WAP_Browser"
+        },
+        {
+          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
+          "properties": {
+            "Platform": "unknown"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

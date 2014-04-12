@@ -1,42 +1,42 @@
 {
-    "division": "WebClip",
-    "sortIndex": 10990,
-    "userAgents": [
+  "division": "WebClip",
+  "sortIndex": 10990,
+  "userAgents": [
+    {
+      "userAgent": "WebClip",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "WebClip",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      },
+      "children": [
         {
-            "userAgent": "WebClip",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "WebClip",
-                "Browser_Type": "Browser",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "BackgroundSounds": "false",
-                "VBScript": "false",
-                "ActiveXControls": "false",
-                "isMobileDevice": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "CssVersion": "2",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-                "RenderingEngine_Maker": "Apple Inc"
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
-                    "platforms": [
-                        "OSX", "OSX_10_4_A", "OSX_10_5_A", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WebClip\/*Safari\/*",
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_5_A", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

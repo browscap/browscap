@@ -1,307 +1,42 @@
 {
-    "division": "Netscape 4.6",
-    "sortIndex": 7840,
-    "userAgents": [
+  "division": "Netscape #MAJORVER#.#MINORVER#",
+  "versions": ["4.6"],
+  "sortIndex": 7800,
+  "userAgents": [
+    {
+      "userAgent": "Netscape #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netscape #MAJORVER#.#MINORVER#",
+        "Browser": "Netscape",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
         {
-            "userAgent": "Netscape 4.6",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Netscape 4.6",
-                "Browser": "Netscape",
-                "Version": "4.6",
-                "MajorVer": "4",
-                "MinorVer": "6",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            }
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "platforms": [
+            "IRIX64_2", "Linux", "MacPPC_3", "Mac68K", "OpenVMS", "OS2", "SunOS", "Win95_2", "Win98_2", "WinME",
+            "Win16", "Win95", "Win98", "NT_2", "Win2000_5"
+          ]
         },
         {
-            "userAgent": "Mozilla\/4.6*(X11; ?; IRIX*)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "IRIX",
-                "Platform_Maker": "SGI",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "SGI",
-                "Device_Brand_Name": "SGI",
-                "Device_Name": "general Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(X11;*)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "Linux",
-                "Platform_Version": "",
-                "Platform_Maker": "Linux Foundation",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Linux Desktop",
-                "Device_Name": "Linux Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Macintosh*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "MacOSX",
-                "Platform_Version": "10",
-                "Platform_Maker": "Apple Inc",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "RenderingEngine_Name": "Tasman",
-                "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Macintosh; ?; 68K)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "Mac68K",
-                "Platform_Maker": "Apple Inc",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Macintosh; ?; PPC)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Mac68K",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Apple Inc",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(X11; ?; OpenVMS*)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "OpenVMS",
-                "Platform_Maker": "HP",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "general Desktop",
-                "Device_Maker": "HP",
-                "Device_Brand_Name": "HP",
-                "Device_Name": "general Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(OS\/2;*)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "OS\/2",
-                "Platform_Version": "Warp 4.5",
-                "Platform_Maker": "IBM",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "general Desktop",
-                "Device_Name": "general Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(X11; ?; SunOS*)",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Platform": "SunOS",
-                "Platform_Version": "",
-                "Platform_Maker": "Oracle",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "general Desktop",
-                "Device_Brand_Name": "Oracle",
-                "Device_Name": "general Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible;*",
-            "properties": {
-                "Parent": "Netscape 4.6"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows 95*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win95",
-                "Platform_Version": "95",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows 95; win9x\/NT 4.90*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "WinME",
-                "Platform_Version": "ME",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows 98*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win98",
-                "Platform_Version": "98",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows 98; win9x\/NT 4.90*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "WinME",
-                "Platform_Version": "ME",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows NT4.6*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "WinNT",
-                "Platform_Version": "4.0",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows NT5.0*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win2000",
-                "Platform_Version": "5.0",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(*compatible; *; Windows NT5.0; win9x\/NT 4.90*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "WinME",
-                "Platform_Version": "ME",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Win16;*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win3.1",
-                "Platform_Version": "3.1",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Win95;*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win95",
-                "Platform_Version": "95",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(Win98;*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "Win98",
-                "Platform_Version": "98",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.6*(WinNT*",
-            "properties": {
-                "Parent": "Netscape 4.6",
-                "Browser_Bits": "32",
-                "Platform": "WinNT",
-                "Platform_Version": "4.0",
-                "Platform_Bits": "32",
-                "Platform_Maker": "Microsoft Corporation",
-                "Win32": "true",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Windows Desktop",
-                "Device_Name": "Windows Desktop"
-            }
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(*compatible;*"
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,44 +1,44 @@
 {
-    "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-    "versions": [11.50],
-    "sortIndex": 2873,
-    "lite": true,
-    "userAgents": [
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": [11.50],
+  "sortIndex": 2873,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mobile",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "2.9",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+      },
+      "children": [
         {
-            "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
-                "Browser": "Opera Mobile",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Win32": "true",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "3",
-                "Device_Type": "Mobile Phone",
-                "Device_Pointing_Method": "touchscreen",
-                "RenderingEngine_Name": "Presto",
-                "RenderingEngine_Version": "2.9",
-                "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-            },
-            "children": [
-                {
-                    "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "Android", "AndroidLinux",
-                        "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-                        "SymbianOS_C",
-                        "WinMobile"
-                    ]
-                }
-            ]
+          "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android", "AndroidLinux",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "SymbianOS_C",
+            "WinMobile"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

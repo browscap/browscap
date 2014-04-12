@@ -1,1013 +1,1013 @@
 {
-    "division": "Openwave Mobile Browser 6.1",
-    "sortIndex": 8190,
-    "userAgents": [
-        {
-            "userAgent": "Openwave Mobile Browser 6.1",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "6.1",
-                "MajorVer": "6",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Alcatel-OH5\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQ-A500\/1.00\/WAP2.0\/MIDP1.0\/CLDC1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQ-Athena\/0.1 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQ-Morpheus\/0.1 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQ-NIKE1\/CLDC_1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQ-S680C\/CLDC_1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BENQS700?1.00?WAP2.0?MIDP2.0?CLDC1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BIRD.G118 MO130m-128x160\/1.1 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M220\/6.1.0.7 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M300\/6.1.0.7 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M300\/6.1.07 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M305\/6.1* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M315\/6.1* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "BenQ-M350\/6.1* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Bird.V89\/KK3,LA\/WAP1.2.1 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "EGISS-WAP\/22 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "G-xxx\/1.0beta * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "GEO-GV500\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Hitachi-P300 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "LGE-LX5350\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "MOT-T720\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "T720",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "T720"
-            }
-        },
-        {
-            "userAgent": "MOT-V290\/6.1.0.7 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "MOT-V295\/6.1.0.7 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Motorola-E365 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "E365",
-                "Device_Maker": "Motorola",
-                "Device_Brand_Name": "Motorola",
-                "Device_Name": "E365"
-            }
-        },
-        {
-            "userAgent": "NEC-525\/* up.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "525",
-                "Device_Maker": "NEC",
-                "Device_Brand_Name": "NEC",
-                "Device_Name": "525"
-            }
-        },
-        {
-            "userAgent": "NEC-530\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "530",
-                "Device_Maker": "NEC",
-                "Device_Brand_Name": "NEC",
-                "Device_Name": "530"
-            }
-        },
-        {
-            "userAgent": "NEC-N8\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "N8",
-                "Device_Maker": "NEC",
-                "Device_Brand_Name": "NEC",
-                "Device_Name": "N8"
-            }
-        },
-        {
-            "userAgent": "NEC-N800\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "NEC-N810\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "NEC-e101\/2.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Nokia1100\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "1100",
-                "Device_Maker": "Nokia",
-                "Device_Brand_Name": "Nokia",
-                "Device_Name": "1100"
-            }
-        },
-        {
-            "userAgent": "Nokia7650\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "7650",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "7650"
-            }
-        },
-        {
-            "userAgent": "O2-X1i\/6.1.0.7 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Opera\/92 Profile\/JAVAS-3.0.1 Configuration\/CLDC-3.0.6 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "PHILIPS568\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-A210\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-G50\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-G60\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-G70\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-SC3\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Panasonic-X300\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "QCI-31\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-my202\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myC-3b\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myC3-2\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX-2m\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX-5m\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX-5m\/1.1 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX-6\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX2-2m\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAGEM-myX3-2\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG SGH-X100 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG SGH-X100A UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E100\/T2 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E100A\/T2 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E108\/T2* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-E700A\/BSI UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X100\/PEARL UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X100A\/Pearl UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X108\/1.0* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X460\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X460C\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X468\/1.0* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X600\/K3 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X600A\/K3 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SAMSUNG-SGH-X608\/1.0* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SEC-SGHD410-X100\/PEARL UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SEC-SGHS100\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SEC-SGHS300\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SEC-SGHV200-X100\/PEARL UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SEC-SGHV200\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX1\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10\/1.1 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10\/1.1gr * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10N\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10i\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-GX10i\/1.1 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SHARP-TQ-V750\/1.0 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SIE-A31\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A31",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A31"
-            }
-        },
-        {
-            "userAgent": "SIE-A31a\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A31A",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A31A"
-            }
-        },
-        {
-            "userAgent": "SIE-A60\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A60",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A60"
-            }
-        },
-        {
-            "userAgent": "SIE-A62\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A62",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A62"
-            }
-        },
-        {
-            "userAgent": "SIE-A65\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A65",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A65"
-            }
-        },
-        {
-            "userAgent": "SIE-A65C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A65C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A65C"
-            }
-        },
-        {
-            "userAgent": "SIE-A75\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A75",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A75"
-            }
-        },
-        {
-            "userAgent": "SIE-A76\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "A76",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "A76"
-            }
-        },
-        {
-            "userAgent": "SIE-AF51\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "AF51",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "AF51"
-            }
-        },
-        {
-            "userAgent": "SIE-AL21\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "AL21",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "AL21"
-            }
-        },
-        {
-            "userAgent": "SIE-AX72\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "AX72",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "AX72"
-            }
-        },
-        {
-            "userAgent": "SIE-AX75\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "AX75",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "AX75"
-            }
-        },
-        {
-            "userAgent": "SIE-C110\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "C110",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "C110"
-            }
-        },
-        {
-            "userAgent": "SIE-C60\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "C60",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "C60"
-            }
-        },
-        {
-            "userAgent": "SIE-C60A\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "C60A",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "C60A"
-            }
-        },
-        {
-            "userAgent": "SIE-C61\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "C61",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "C61"
-            }
-        },
-        {
-            "userAgent": "SIE-C75\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "C75",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "C75"
-            }
-        },
-        {
-            "userAgent": "SIE-CF62\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "CF62",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "CF62"
-            }
-        },
-        {
-            "userAgent": "SIE-CF6C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "CF6C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "CF6C"
-            }
-        },
-        {
-            "userAgent": "SIE-CX65 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "CX65",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "CX65"
-            }
-        },
-        {
-            "userAgent": "SIE-CX75\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "CX75",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "CX75"
-            }
-        },
-        {
-            "userAgent": "SIE-M55-XP\/91 * UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "SIE-M55\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M55",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M55"
-            }
-        },
-        {
-            "userAgent": "SIE-M55\/1* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M55",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M55"
-            }
-        },
-        {
-            "userAgent": "SIE-M55C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M55C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M55C"
-            }
-        },
-        {
-            "userAgent": "SIE-M55Z\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M55Z",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M55Z"
-            }
-        },
-        {
-            "userAgent": "SIE-M55e\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M55e",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M55e"
-            }
-        },
-        {
-            "userAgent": "SIE-M56\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "M56",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "M56"
-            }
-        },
-        {
-            "userAgent": "SIE-MC60\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "MC60",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "MC60"
-            }
-        },
-        {
-            "userAgent": "SIE-MC6C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "MC6C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "MC6C"
-            }
-        },
-        {
-            "userAgent": "SIE-ME75\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "ME75",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "ME75"
-            }
-        },
-        {
-            "userAgent": "SIE-S55\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "S55",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "S55"
-            }
-        },
-        {
-            "userAgent": "SIE-S56\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "S56",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "S56"
-            }
-        },
-        {
-            "userAgent": "SIE-S57\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "S57",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "S57"
-            }
-        },
-        {
-            "userAgent": "SIE-S57C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "S57C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "S57C"
-            }
-        },
-        {
-            "userAgent": "SIE-SL55\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "SL55",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "SL55"
-            }
-        },
-        {
-            "userAgent": "SIE-SL56\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "SL56",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "SL56"
-            }
-        },
-        {
-            "userAgent": "SIE-SL5C\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "SL5C",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "SL5C"
-            }
-        },
-        {
-            "userAgent": "SIE-ST55\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "ST55",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "ST55"
-            }
-        },
-        {
-            "userAgent": "SIE-ST60\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1",
-                "Device_Type": "Mobile Phone",
-                "Device_Code_Name": "ST60",
-                "Device_Maker": "Siemens",
-                "Device_Brand_Name": "Siemens",
-                "Device_Name": "ST60"
-            }
-        },
-        {
-            "userAgent": "Soutec-SG7610\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "T618X UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Telit-G80\/2.01 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "V750\/* UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "Wonu S3 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        },
-        {
-            "userAgent": "YAS-COSMOS\/1.0 UP.Browser\/6.1*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser 6.1"
-            }
-        }
-    ]
+  "division": "Openwave Mobile Browser 6.1",
+  "sortIndex": 8190,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser 6.1",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "6.1",
+        "MajorVer": "6",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Alcatel-OH5\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQ-A500\/1.00\/WAP2.0\/MIDP1.0\/CLDC1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQ-Athena\/0.1 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQ-Morpheus\/0.1 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQ-NIKE1\/CLDC_1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQ-S680C\/CLDC_1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BENQS700?1.00?WAP2.0?MIDP2.0?CLDC1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BIRD.G118 MO130m-128x160\/1.1 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M220\/6.1.0.7 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M300\/6.1.0.7 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M300\/6.1.07 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M305\/6.1* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M315\/6.1* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "BenQ-M350\/6.1* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Bird.V89\/KK3,LA\/WAP1.2.1 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "EGISS-WAP\/22 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "G-xxx\/1.0beta * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "GEO-GV500\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Hitachi-P300 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "LGE-LX5350\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "MOT-T720\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T720",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "T720"
+      }
+    },
+    {
+      "userAgent": "MOT-V290\/6.1.0.7 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "MOT-V295\/6.1.0.7 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Motorola-E365 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E365",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Name": "E365"
+      }
+    },
+    {
+      "userAgent": "NEC-525\/* up.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "525",
+        "Device_Maker": "NEC",
+        "Device_Brand_Name": "NEC",
+        "Device_Name": "525"
+      }
+    },
+    {
+      "userAgent": "NEC-530\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "530",
+        "Device_Maker": "NEC",
+        "Device_Brand_Name": "NEC",
+        "Device_Name": "530"
+      }
+    },
+    {
+      "userAgent": "NEC-N8\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N8",
+        "Device_Maker": "NEC",
+        "Device_Brand_Name": "NEC",
+        "Device_Name": "N8"
+      }
+    },
+    {
+      "userAgent": "NEC-N800\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "NEC-N810\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "NEC-e101\/2.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Nokia1100\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "1100",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Name": "1100"
+      }
+    },
+    {
+      "userAgent": "Nokia7650\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7650",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "7650"
+      }
+    },
+    {
+      "userAgent": "O2-X1i\/6.1.0.7 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Opera\/92 Profile\/JAVAS-3.0.1 Configuration\/CLDC-3.0.6 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "PHILIPS568\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-A210\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-G50\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-G60\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-G70\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-SC3\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Panasonic-X300\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "QCI-31\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-my202\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myC-3b\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myC3-2\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX-2m\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX-5m\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX-5m\/1.1 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX-6\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX2-2m\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAGEM-myX3-2\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG SGH-X100 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG SGH-X100A UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E100\/T2 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E100A\/T2 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E108\/T2* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-E700A\/BSI UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X100\/PEARL UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X100A\/Pearl UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X108\/1.0* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X460\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X460C\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X468\/1.0* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X600\/K3 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X600A\/K3 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SAMSUNG-SGH-X608\/1.0* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHD410-X100\/PEARL UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHS100\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHS300\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHV200-X100\/PEARL UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SEC-SGHV200\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX1\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10\/1.1 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10\/1.1gr * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10N\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10i\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-GX10i\/1.1 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SHARP-TQ-V750\/1.0 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SIE-A31\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A31",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A31"
+      }
+    },
+    {
+      "userAgent": "SIE-A31a\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A31A",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A31A"
+      }
+    },
+    {
+      "userAgent": "SIE-A60\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A60",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A60"
+      }
+    },
+    {
+      "userAgent": "SIE-A62\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A62",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A62"
+      }
+    },
+    {
+      "userAgent": "SIE-A65\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A65",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A65"
+      }
+    },
+    {
+      "userAgent": "SIE-A65C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A65C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A65C"
+      }
+    },
+    {
+      "userAgent": "SIE-A75\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A75",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A75"
+      }
+    },
+    {
+      "userAgent": "SIE-A76\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A76",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "A76"
+      }
+    },
+    {
+      "userAgent": "SIE-AF51\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AF51",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "AF51"
+      }
+    },
+    {
+      "userAgent": "SIE-AL21\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AL21",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "AL21"
+      }
+    },
+    {
+      "userAgent": "SIE-AX72\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AX72",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "AX72"
+      }
+    },
+    {
+      "userAgent": "SIE-AX75\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AX75",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "AX75"
+      }
+    },
+    {
+      "userAgent": "SIE-C110\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C110",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "C110"
+      }
+    },
+    {
+      "userAgent": "SIE-C60\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C60",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "C60"
+      }
+    },
+    {
+      "userAgent": "SIE-C60A\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C60A",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "C60A"
+      }
+    },
+    {
+      "userAgent": "SIE-C61\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C61",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "C61"
+      }
+    },
+    {
+      "userAgent": "SIE-C75\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C75",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "C75"
+      }
+    },
+    {
+      "userAgent": "SIE-CF62\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CF62",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "CF62"
+      }
+    },
+    {
+      "userAgent": "SIE-CF6C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CF6C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "CF6C"
+      }
+    },
+    {
+      "userAgent": "SIE-CX65 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CX65",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "CX65"
+      }
+    },
+    {
+      "userAgent": "SIE-CX75\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CX75",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "CX75"
+      }
+    },
+    {
+      "userAgent": "SIE-M55-XP\/91 * UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "SIE-M55\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M55",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M55"
+      }
+    },
+    {
+      "userAgent": "SIE-M55\/1* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M55",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M55"
+      }
+    },
+    {
+      "userAgent": "SIE-M55C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M55C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M55C"
+      }
+    },
+    {
+      "userAgent": "SIE-M55Z\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M55Z",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M55Z"
+      }
+    },
+    {
+      "userAgent": "SIE-M55e\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M55e",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M55e"
+      }
+    },
+    {
+      "userAgent": "SIE-M56\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M56",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "M56"
+      }
+    },
+    {
+      "userAgent": "SIE-MC60\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MC60",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "MC60"
+      }
+    },
+    {
+      "userAgent": "SIE-MC6C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MC6C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "MC6C"
+      }
+    },
+    {
+      "userAgent": "SIE-ME75\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ME75",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "ME75"
+      }
+    },
+    {
+      "userAgent": "SIE-S55\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S55",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "S55"
+      }
+    },
+    {
+      "userAgent": "SIE-S56\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S56",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "S56"
+      }
+    },
+    {
+      "userAgent": "SIE-S57\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S57",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "S57"
+      }
+    },
+    {
+      "userAgent": "SIE-S57C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S57C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "S57C"
+      }
+    },
+    {
+      "userAgent": "SIE-SL55\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SL55",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "SL55"
+      }
+    },
+    {
+      "userAgent": "SIE-SL56\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SL56",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "SL56"
+      }
+    },
+    {
+      "userAgent": "SIE-SL5C\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SL5C",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "SL5C"
+      }
+    },
+    {
+      "userAgent": "SIE-ST55\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST55",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "ST55"
+      }
+    },
+    {
+      "userAgent": "SIE-ST60\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST60",
+        "Device_Maker": "Siemens",
+        "Device_Brand_Name": "Siemens",
+        "Device_Name": "ST60"
+      }
+    },
+    {
+      "userAgent": "Soutec-SG7610\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "T618X UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Telit-G80\/2.01 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "V750\/* UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "Wonu S3 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    },
+    {
+      "userAgent": "YAS-COSMOS\/1.0 UP.Browser\/6.1*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser 6.1"
+      }
+    }
+  ]
 }

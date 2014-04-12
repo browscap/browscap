@@ -1,37 +1,37 @@
 {
-    "division": "Maxon",
-    "sortIndex": 6910,
-    "userAgents": [
+  "division": "Maxon",
+  "sortIndex": 6910,
+  "userAgents": [
+    {
+      "userAgent": "Maxon",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Maxon",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Maxthon International Limited",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
         {
-            "userAgent": "Maxon",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "Maxon",
-                "Browser_Type": "Browser",
-                "Browser_Maker": "Maxthon International Limited",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "Device_Type": "Mobile Device"
-            },
-            "children": [
-                {
-                    "match": "Maxon O2-X1 ver1.0*"
-                }
-            ]
+          "match": "Maxon O2-X1 ver1.0*"
         }
-    ]
+      ]
+    }
+  ]
 }

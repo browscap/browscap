@@ -1,40 +1,40 @@
 {
-    "division": "Gnomit",
-    "sortIndex": 510,
-    "userAgents": [
-        {
-            "userAgent": "Gnomit",
-            "properties": {
-                "Parent": "General Crawlers",
-                "Browser": "Gnomit",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/*",
-            "properties": {
-                "Parent": "Gnomit"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0",
-            "properties": {
-                "Parent": "Gnomit",
-                "Version": "1.0",
-                "MajorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0*",
-            "properties": {
-                "Parent": "Gnomit",
-                "Version": "1.0",
-                "MajorVer": "1"
-            }
-        }
-    ]
+  "division": "Gnomit",
+  "sortIndex": 510,
+  "userAgents": [
+    {
+      "userAgent": "Gnomit",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Gnomit",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/*",
+      "properties": {
+        "Parent": "Gnomit"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0",
+      "properties": {
+        "Parent": "Gnomit",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0*",
+      "properties": {
+        "Parent": "Gnomit",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    }
+  ]
 }

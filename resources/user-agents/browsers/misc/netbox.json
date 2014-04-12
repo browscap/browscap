@@ -1,32 +1,32 @@
 {
-    "division": "Netbox",
-    "sortIndex": 2180,
-    "lite": true,
-    "userAgents": [
+  "division": "Netbox",
+  "sortIndex": 2180,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Netbox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netbox",
+        "Browser": "Netbox",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1",
+        "Device_Name": "Netbox",
+        "Device_Maker": "Sony",
+        "Device_Type": "TV Device"
+      },
+      "children": [
         {
-            "userAgent": "Netbox",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Netbox",
-                "Browser": "Netbox",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "CssVersion": "1",
-                "Device_Name": "Netbox",
-                "Device_Maker": "Sony",
-                "Device_Type": "TV Device"
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
-                    "properties": {
-                        "Platform": "Linux"
-                    }
-                }
-            ]
+          "match": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
+          "properties": {
+            "Platform": "Linux"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

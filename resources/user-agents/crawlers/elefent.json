@@ -1,17 +1,17 @@
 {
-    "division": "Elefent",
-    "sortIndex": 280,
-    "userAgents": [
-        {
-            "userAgent": "Elefent",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "General Crawlers",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true",
-                "Browser": "Elefent",
-                "Browser_Maker": "elefent.eu"
-            }
-        }
-    ]
+  "division": "Elefent",
+  "sortIndex": 280,
+  "userAgents": [
+    {
+      "userAgent": "Elefent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Elefent",
+        "Browser_Maker": "elefent.eu"
+      }
+    }
+  ]
 }

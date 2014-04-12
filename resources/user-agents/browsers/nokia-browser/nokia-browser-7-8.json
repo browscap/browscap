@@ -1,29 +1,29 @@
 {
-    "division": "Nokia Browser 7.8",
-    "sortIndex": 7980,
-    "userAgents": [
-        {
-            "userAgent": "Nokia Browser 7.8",
-            "properties": {
-                "Parent": "Nokia Browser",
-                "Version": "7.8",
-                "MajorVer": "7",
-                "MinorVer": "8",
-                "Platform": "Symbian OS",
-                "Platform_Maker": "Symbian Foundation",
-                "JavaScript": "true",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-                "RenderingEngine_Maker": "Apple Inc"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.8*Safari\/*",
-            "properties": {
-                "Parent": "Nokia Browser 7.8",
-                "Device_Code_Name": "N8-00",
-                "Device_Name": "N8"
-            }
-        }
-    ]
+  "division": "Nokia Browser 7.8",
+  "sortIndex": 7980,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Browser 7.8",
+      "properties": {
+        "Parent": "Nokia Browser",
+        "Version": "7.8",
+        "MajorVer": "7",
+        "MinorVer": "8",
+        "Platform": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "JavaScript": "true",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.8*Safari\/*",
+      "properties": {
+        "Parent": "Nokia Browser 7.8",
+        "Device_Code_Name": "N8-00",
+        "Device_Name": "N8"
+      }
+    }
+  ]
 }

@@ -1,24 +1,24 @@
 {
-    "division": "ArchitextSpider",
-    "sortIndex": 70,
-    "userAgents": [
-        {
-            "userAgent": "ArchitextSpider",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "ArchitextSpider",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "ArchitextSpider*",
-            "properties": {
-                "Parent": "ArchitextSpider"
-            }
-        }
-    ]
+  "division": "ArchitextSpider",
+  "sortIndex": 70,
+  "userAgents": [
+    {
+      "userAgent": "ArchitextSpider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "ArchitextSpider",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "ArchitextSpider*",
+      "properties": {
+        "Parent": "ArchitextSpider"
+      }
+    }
+  ]
 }

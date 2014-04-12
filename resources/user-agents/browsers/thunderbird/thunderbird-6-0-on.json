@@ -1,43 +1,43 @@
 {
-    "division": "Thunderbird #MAJORVER#.#MINORVER#",
-    "versions": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 24, "24.1", "24.2", "24.3"],
-    "sortIndex": 3486,
-    "userAgents": [
+  "division": "Thunderbird #MAJORVER#.#MINORVER#",
+  "versions": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 24, "24.1", "24.2", "24.3"],
+  "sortIndex": 3486,
+  "userAgents": [
+    {
+      "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
+        "Browser": "Thunderbird",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
         {
-            "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
-                "Browser": "Thunderbird",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Win32": "true",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "CssVersion": "3",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "Linux", "Linux_32", "Linux_64",
-                        "OSX",
-                        "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
-                        "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64",
+            "OSX",
+            "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
+            "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,37 +1,37 @@
 {
-    "division": "DNS Tools",
-    "sortIndex": 330,
-    "userAgents": [
-        {
-            "userAgent": "DNS Tools",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "DNS Tools",
-                "Browser": "DNS Tools",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Domain Dossier utility*",
-            "properties": {
-                "Parent": "DNS Tools",
-                "Browser": "Domain Dossier"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; DNS-Digger\/*)",
-            "properties": {
-                "Parent": "DNS Tools",
-                "Browser": "DNS-Digger"
-            }
-        },
-        {
-            "userAgent": "OpenDNS Domain Crawler noc@opendns.com",
-            "properties": {
-                "Parent": "DNS Tools",
-                "Browser": "OpenDNS Domain Crawler"
-            }
-        }
-    ]
+  "division": "DNS Tools",
+  "sortIndex": 330,
+  "userAgents": [
+    {
+      "userAgent": "DNS Tools",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DNS Tools",
+        "Browser": "DNS Tools",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Domain Dossier utility*",
+      "properties": {
+        "Parent": "DNS Tools",
+        "Browser": "Domain Dossier"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; DNS-Digger\/*)",
+      "properties": {
+        "Parent": "DNS Tools",
+        "Browser": "DNS-Digger"
+      }
+    },
+    {
+      "userAgent": "OpenDNS Domain Crawler noc@opendns.com",
+      "properties": {
+        "Parent": "DNS Tools",
+        "Browser": "OpenDNS Domain Crawler"
+      }
+    }
+  ]
 }

@@ -1,38 +1,38 @@
 {
-    "division": "DomainCrawler",
-    "sortIndex": 220,
-    "userAgents": [
-        {
-            "userAgent": "DomainCrawler",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "General Crawlers",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true",
-                "Browser": "DomainCrawler"
-            }
-        },
-        {
-            "userAgent": "DomainCrawler\/*",
-            "properties": {
-                "Parent": "DomainCrawler"
-            }
-        },
-        {
-            "userAgent": "DomainCrawler\/1.*",
-            "properties": {
-                "Parent": "DomainCrawler",
-                "Version": "1.0",
-                "MajorVer": "1"
-            }
-        },
-        {
-            "userAgent": "DomainCrawler\/2.*",
-            "properties": {
-                "Parent": "DomainCrawler",
-                "Version": "2.0",
-                "MajorVer": "2"
-            }
-        }
-    ]
+  "division": "DomainCrawler",
+  "sortIndex": 220,
+  "userAgents": [
+    {
+      "userAgent": "DomainCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "DomainCrawler"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/*",
+      "properties": {
+        "Parent": "DomainCrawler"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/1.*",
+      "properties": {
+        "Parent": "DomainCrawler",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "DomainCrawler\/2.*",
+      "properties": {
+        "Parent": "DomainCrawler",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
 }

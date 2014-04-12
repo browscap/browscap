@@ -1,50 +1,50 @@
 {
-    "division": "iCab #MAJORVER#.#MINORVER#",
-    "versions": ["2.5", "2.7", "2.8", "2.9", 3, 4, "4.1", "4.2", "4.5", "4.7", "4.8"],
-    "sortIndex": 2400,
-    "lite": true,
-    "userAgents": [
+  "division": "iCab #MAJORVER#.#MINORVER#",
+  "versions": ["2.5", "2.7", "2.8", "2.9", 3, 4, "4.1", "4.2", "4.5", "4.7", "4.8"],
+  "sortIndex": 2400,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "iCab #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCab #MAJORVER#.#MINORVER#",
+        "Browser": "iCab",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
         {
-            "userAgent": "iCab #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "iCab #MAJORVER#.#MINORVER#",
-                "Browser": "iCab",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-            },
-            "children": [
-                {
-                    "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
-                    "platforms": [
-                        "Mac68K", "MacPPC_3", "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
-                    "platforms": [
-                        "Mac68K", "MacPPC_3", "OSX"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/#MAJORVER#.#MINORVER#*Safari\/*",
-                    "platforms": [
-                        "OSX"
-                    ]
-                }
-            ]
+          "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "platforms": [
+            "Mac68K", "MacPPC_3", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
+          "platforms": [
+            "Mac68K", "MacPPC_3", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "OSX"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

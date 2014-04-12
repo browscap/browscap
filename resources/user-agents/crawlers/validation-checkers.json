@@ -1,59 +1,59 @@
 {
-    "division": "Validation Checkers",
-    "sortIndex": 390,
-    "userAgents": [
-        {
-            "userAgent": "HTML Validators",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Validation Checkers",
-                "Browser": "HTML Validators",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "(HTML Validator http:\/\/www.searchengineworld.com\/validator\/)",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "Search Engine World HTML Validator"
-            }
-        },
-        {
-            "userAgent": "FeedValidator\/*",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "FeedValidator"
-            }
-        },
-        {
-            "userAgent": "Search Engine World Robots.txt Validator*",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "Search Engine World Robots.txt Validator"
-            }
-        },
-        {
-            "userAgent": "Weblide\/*",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "Weblide",
-                "Beta": "true"
-            }
-        },
-        {
-            "userAgent": "WebmasterWorld StickyMail Server Header Checker*",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "WebmasterWorld Server Header Checker"
-            }
-        },
-        {
-            "userAgent": "WWWC\/*",
-            "properties": {
-                "Parent": "HTML Validators",
-                "Browser": "WWWC"
-            }
-        }
-    ]
+  "division": "Validation Checkers",
+  "sortIndex": 390,
+  "userAgents": [
+    {
+      "userAgent": "HTML Validators",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Validation Checkers",
+        "Browser": "HTML Validators",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "(HTML Validator http:\/\/www.searchengineworld.com\/validator\/)",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "Search Engine World HTML Validator"
+      }
+    },
+    {
+      "userAgent": "FeedValidator\/*",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "FeedValidator"
+      }
+    },
+    {
+      "userAgent": "Search Engine World Robots.txt Validator*",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "Search Engine World Robots.txt Validator"
+      }
+    },
+    {
+      "userAgent": "Weblide\/*",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "Weblide",
+        "Beta": "true"
+      }
+    },
+    {
+      "userAgent": "WebmasterWorld StickyMail Server Header Checker*",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "WebmasterWorld Server Header Checker"
+      }
+    },
+    {
+      "userAgent": "WWWC\/*",
+      "properties": {
+        "Parent": "HTML Validators",
+        "Browser": "WWWC"
+      }
+    }
+  ]
 }

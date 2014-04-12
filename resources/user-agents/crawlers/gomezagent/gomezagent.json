@@ -1,28 +1,28 @@
 {
-    "division": "GomezAgent",
-    "sortIndex": 520,
-    "userAgents": [
-        {
-            "userAgent": "GomezAgent",
-            "properties": {
-                "Parent": "Site Monitors",
-                "Browser": "Gomez Site Monitor",
-                "Browser_Maker": "Compuware APM",
-                "Browser_Bits": "32",
-                "Platform_Bits": "32"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; GomezAgent ?.0; Windows NT)",
-            "properties": {
-                "Parent": "GomezAgent"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; GomezAgent ?.0; Windows NT)",
-            "properties": {
-                "Parent": "GomezAgent"
-            }
-        }
-    ]
+  "division": "GomezAgent",
+  "sortIndex": 520,
+  "userAgents": [
+    {
+      "userAgent": "GomezAgent",
+      "properties": {
+        "Parent": "Site Monitors",
+        "Browser": "Gomez Site Monitor",
+        "Browser_Maker": "Compuware APM",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; MSIE ?.0; GomezAgent ?.0; Windows NT)",
+      "properties": {
+        "Parent": "GomezAgent"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE ?.0; GomezAgent ?.0; Windows NT)",
+      "properties": {
+        "Parent": "GomezAgent"
+      }
+    }
+  ]
 }

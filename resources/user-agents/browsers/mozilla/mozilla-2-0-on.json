@@ -1,41 +1,49 @@
 {
-    "division": "Mozilla #MAJORVER#.#MINORVER#",
-    "versions": ["2.0", "2.2", 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
-    "sortIndex": 7570,
-    "userAgents": [
+  "division": "Mozilla #MAJORVER#.#MINORVER#",
+  "versions": ["2.0", "2.2", 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "sortIndex": 7570,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mozilla #MAJORVER#.#MINORVER#",
+        "Browser": "Mozilla",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "2",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
         {
-            "userAgent": "Mozilla #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Mozilla #MAJORVER#.#MINORVER#",
-                "Browser": "Mozilla",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Win32": "true",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "CssVersion": "2",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
-                    "properties": {
-                        "Win32": "false"
-                    }
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "platforms": [
+            "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64", "OSX",
+            "OpenBSD", "SunOS", "Win3.1", "Win3.11", "Win95", "Win98", "WinME", "NT4_2", "Win2000", "WinXPa_32",
+            "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "properties": {
+            "Win32": "false"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,60 +1,60 @@
 {
-    "division": "QuickLook",
-    "sortIndex": 9870,
-    "userAgents": [
+  "division": "QuickLook",
+  "sortIndex": 9870,
+  "userAgents": [
+    {
+      "userAgent": "QuickLook",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "QuickLook",
+        "Browser_Type": "Browser",
+        "Platform": "MacOSX",
+        "Platform_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      },
+      "children": [
         {
-            "userAgent": "QuickLook",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "QuickLook",
-                "Browser_Type": "Browser",
-                "Platform": "MacOSX",
-                "Platform_Maker": "Apple Inc",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isMobileDevice": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "Device_Type": "Desktop",
-                "Device_Code_Name": "Macintosh",
-                "Device_Maker": "Apple Inc",
-                "Device_Brand_Name": "Apple",
-                "Device_Name": "Macintosh",
-                "RenderingEngine_Name": "WebKit",
-                "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-                "RenderingEngine_Maker": "Apple Inc"
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
-                    "platforms": [
-                        "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
-                    "properties": {
-                        "Version": "4.0",
-                        "MajorVer": "4",
-                        "MinorVer": "0"
-                    },
-                    "platforms": [
-                        "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+          "platforms": [
+            "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

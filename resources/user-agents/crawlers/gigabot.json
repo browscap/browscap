@@ -1,31 +1,31 @@
 {
-    "division": "Gigabot",
-    "sortIndex": 160,
-    "userAgents": [
-        {
-            "userAgent": "Gigabot",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Gigabot",
-                "Browser": "Gigabot",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Gigabot*",
-            "properties": {
-                "Parent": "Gigabot"
-            }
-        },
-        {
-            "userAgent": "GigabotSiteSearch\/*",
-            "properties": {
-                "Parent": "Gigabot",
-                "Browser": "GigabotSiteSearch"
-            }
-        }
-    ]
+  "division": "Gigabot",
+  "sortIndex": 160,
+  "userAgents": [
+    {
+      "userAgent": "Gigabot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Gigabot",
+        "Browser": "Gigabot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Gigabot*",
+      "properties": {
+        "Parent": "Gigabot"
+      }
+    },
+    {
+      "userAgent": "GigabotSiteSearch\/*",
+      "properties": {
+        "Parent": "Gigabot",
+        "Browser": "GigabotSiteSearch"
+      }
+    }
+  ]
 }

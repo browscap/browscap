@@ -1,49 +1,49 @@
 {
-    "division": "Pixray-Seeker",
-    "sortIndex": 910,
-    "userAgents": [
-        {
-            "userAgent": "Pixray-Seeker",
-            "properties": {
-                "Parent": "General Crawlers",
-                "Browser": "Pixray-Seeker",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Pixray-Seeker\/*",
-            "properties": {
-                "Parent": "Pixray-Seeker"
-            }
-        },
-        {
-            "userAgent": "Pixray-Seeker\/1.*",
-            "properties": {
-                "Parent": "Pixray-Seeker",
-                "Version": "1.0",
-                "MajorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Pixray-Seeker\/1.1*",
-            "properties": {
-                "Parent": "Pixray-Seeker",
-                "Version": "1.1",
-                "MajorVer": "1",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Pixray-Seeker\/2.0*",
-            "properties": {
-                "Parent": "Pixray-Seeker",
-                "Version": "2.0",
-                "MajorVer": "2"
-            }
-        }
-    ]
+  "division": "Pixray-Seeker",
+  "sortIndex": 910,
+  "userAgents": [
+    {
+      "userAgent": "Pixray-Seeker",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Pixray-Seeker",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Pixray-Seeker\/*",
+      "properties": {
+        "Parent": "Pixray-Seeker"
+      }
+    },
+    {
+      "userAgent": "Pixray-Seeker\/1.*",
+      "properties": {
+        "Parent": "Pixray-Seeker",
+        "Version": "1.0",
+        "MajorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Pixray-Seeker\/1.1*",
+      "properties": {
+        "Parent": "Pixray-Seeker",
+        "Version": "1.1",
+        "MajorVer": "1",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Pixray-Seeker\/2.0*",
+      "properties": {
+        "Parent": "Pixray-Seeker",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
 }

@@ -1,35 +1,35 @@
 {
-    "division": "Xing",
-    "sortIndex": 141,
-    "userAgents": [
-        {
-            "userAgent": "Xing",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Xing",
-                "Browser_Type": "Bot/Crawler",
-                "Browser": "Xing",
-                "Frames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "XING-contenttabreceiver/*",
-            "properties": {
-                "Parent": "Xing",
-                "Browser": "XING Contenttabreceiver"
-            }
-        },
-        {
-            "userAgent": "XING-contenttabreceiver/2.0",
-            "properties": {
-                "Parent": "Xing",
-                "Browser": "XING Contenttabreceiver",
-                "Version": "2.0",
-                "MajorVer": "2",
-                "MinorVer": "0"
-            }
-        }
-    ]
+  "division": "Xing",
+  "sortIndex": 141,
+  "userAgents": [
+    {
+      "userAgent": "Xing",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Xing",
+        "Browser_Type": "Bot/Crawler",
+        "Browser": "Xing",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "XING-contenttabreceiver/*",
+      "properties": {
+        "Parent": "Xing",
+        "Browser": "XING Contenttabreceiver"
+      }
+    },
+    {
+      "userAgent": "XING-contenttabreceiver/2.0",
+      "properties": {
+        "Parent": "Xing",
+        "Browser": "XING Contenttabreceiver",
+        "Version": "2.0",
+        "MajorVer": "2",
+        "MinorVer": "0"
+      }
+    }
+  ]
 }

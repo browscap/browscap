@@ -1,64 +1,64 @@
 {
-    "division": "Teleca-Obigo 5.0",
-    "sortIndex": 10760,
-    "userAgents": [
-        {
-            "userAgent": "Teleca-Obigo 5.0",
-            "properties": {
-                "Parent": "Teleca-Obigo",
-                "Version": "5.0",
-                "MajorVer": "5"
-            }
-        },
-        {
-            "userAgent": "LG-CU515\/V1.0g Obigo\/Q05A *",
-            "properties": {
-                "Parent": "Teleca-Obigo 5.0",
-                "Device_Code_Name": "CU515",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "CU515"
-            }
-        },
-        {
-            "userAgent": "LG-CU720\/V1.0l Obigo\/Q05A *",
-            "properties": {
-                "Parent": "Teleca-Obigo 5.0",
-                "Device_Code_Name": "CU720",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "CU720"
-            }
-        },
-        {
-            "userAgent": "LG-CU920\/* Obigo\/Q05A *",
-            "properties": {
-                "Parent": "Teleca-Obigo 5.0",
-                "Device_Code_Name": "CU920",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "CU920"
-            }
-        },
-        {
-            "userAgent": "LG-KF750-Orange\/v10c Browser\/Obigo-Q05A\/*",
-            "properties": {
-                "Parent": "Teleca-Obigo 5.0",
-                "Device_Code_Name": "KF750",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "KF750"
-            }
-        },
-        {
-            "userAgent": "LG\/KU990i\/v10a Browser\/Obigo-Q05A\/*",
-            "properties": {
-                "Parent": "Teleca-Obigo 5.0",
-                "Device_Code_Name": "KU990i",
-                "Device_Maker": "LG",
-                "Device_Brand_Name": "LG",
-                "Device_Name": "KU990i"
-            }
-        }
-    ]
+  "division": "Teleca-Obigo 5.0",
+  "sortIndex": 10760,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo 5.0",
+      "properties": {
+        "Parent": "Teleca-Obigo",
+        "Version": "5.0",
+        "MajorVer": "5"
+      }
+    },
+    {
+      "userAgent": "LG-CU515\/V1.0g Obigo\/Q05A *",
+      "properties": {
+        "Parent": "Teleca-Obigo 5.0",
+        "Device_Code_Name": "CU515",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "CU515"
+      }
+    },
+    {
+      "userAgent": "LG-CU720\/V1.0l Obigo\/Q05A *",
+      "properties": {
+        "Parent": "Teleca-Obigo 5.0",
+        "Device_Code_Name": "CU720",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "CU720"
+      }
+    },
+    {
+      "userAgent": "LG-CU920\/* Obigo\/Q05A *",
+      "properties": {
+        "Parent": "Teleca-Obigo 5.0",
+        "Device_Code_Name": "CU920",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "CU920"
+      }
+    },
+    {
+      "userAgent": "LG-KF750-Orange\/v10c Browser\/Obigo-Q05A\/*",
+      "properties": {
+        "Parent": "Teleca-Obigo 5.0",
+        "Device_Code_Name": "KF750",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KF750"
+      }
+    },
+    {
+      "userAgent": "LG\/KU990i\/v10a Browser\/Obigo-Q05A\/*",
+      "properties": {
+        "Parent": "Teleca-Obigo 5.0",
+        "Device_Code_Name": "KU990i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Name": "KU990i"
+      }
+    }
+  ]
 }

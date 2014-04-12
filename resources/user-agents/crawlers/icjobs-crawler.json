@@ -1,32 +1,32 @@
 {
-    "division": "iCjobs Crawler",
-    "sortIndex": 600,
-    "userAgents": [
-        {
-            "userAgent": "iCjobs Crawler",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "iCjobs Crawler",
-                "Browser": "iCjobs Crawler",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true",
-                "Browser_Maker": "www.icjobs.de"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*",
-            "properties": {
-                "Parent": "iCjobs Crawler"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/3.2*",
-            "properties": {
-                "Parent": "iCjobs Crawler",
-                "Version": "3.2",
-                "MajorVer": "3",
-                "MinorVer": "2"
-            }
-        }
-    ]
+  "division": "iCjobs Crawler",
+  "sortIndex": 600,
+  "userAgents": [
+    {
+      "userAgent": "iCjobs Crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCjobs Crawler",
+        "Browser": "iCjobs Crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser_Maker": "www.icjobs.de"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*",
+      "properties": {
+        "Parent": "iCjobs Crawler"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/3.2*",
+      "properties": {
+        "Parent": "iCjobs Crawler",
+        "Version": "3.2",
+        "MajorVer": "3",
+        "MinorVer": "2"
+      }
+    }
+  ]
 }

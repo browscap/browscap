@@ -1,54 +1,54 @@
 {
-    "division": "lwp",
-    "sortIndex": 1000,
-    "userAgents": [
-        {
-            "userAgent": "lwp",
-            "properties": {
-                "Parent": "Rippers",
-                "Browser": "lwp",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "lwp*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        },
-        {
-            "userAgent": "LWP::Simple*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        },
-        {
-            "userAgent": "lwp-download*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        },
-        {
-            "userAgent": "lwp-request*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        },
-        {
-            "userAgent": "lwp-rget*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        },
-        {
-            "userAgent": "lwp-trivial*",
-            "properties": {
-                "Parent": "lwp"
-            }
-        }
-    ]
+  "division": "lwp",
+  "sortIndex": 1000,
+  "userAgents": [
+    {
+      "userAgent": "lwp",
+      "properties": {
+        "Parent": "Rippers",
+        "Browser": "lwp",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "lwp*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    },
+    {
+      "userAgent": "LWP::Simple*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    },
+    {
+      "userAgent": "lwp-download*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    },
+    {
+      "userAgent": "lwp-request*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    },
+    {
+      "userAgent": "lwp-rget*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    },
+    {
+      "userAgent": "lwp-trivial*",
+      "properties": {
+        "Parent": "lwp"
+      }
+    }
+  ]
 }

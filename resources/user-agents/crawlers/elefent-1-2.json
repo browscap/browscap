@@ -1,21 +1,21 @@
 {
-    "division": "Elefent 1.2",
-    "sortIndex": 290,
-    "userAgents": [
-        {
-            "userAgent": "Elefent 1.2",
-            "properties": {
-                "Parent": "Elefent",
-                "Version": "1.2",
-                "MajorVer": "1",
-                "MinorVer": "2"
-            }
-        },
-        {
-            "userAgent": "elefent\/Elefent 1.2 (A friendly web elefent.; http:\/\/elefent.eu\/; webmaster@elefent.eu)",
-            "properties": {
-                "Parent": "Elefent 1.2"
-            }
-        }
-    ]
+  "division": "Elefent 1.2",
+  "sortIndex": 290,
+  "userAgents": [
+    {
+      "userAgent": "Elefent 1.2",
+      "properties": {
+        "Parent": "Elefent",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      }
+    },
+    {
+      "userAgent": "elefent\/Elefent 1.2 (A friendly web elefent.; http:\/\/elefent.eu\/; webmaster@elefent.eu)",
+      "properties": {
+        "Parent": "Elefent 1.2"
+      }
+    }
+  ]
 }

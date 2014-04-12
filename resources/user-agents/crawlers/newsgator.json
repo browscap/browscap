@@ -1,52 +1,52 @@
 {
-    "division": "NewsGator",
-    "sortIndex": 610,
-    "userAgents": [
-        {
-            "userAgent": "NewsGator",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "NewsGator",
-                "Browser": "NewsGator",
-                "Browser_Type": "Bot/Crawler",
-                "isSyndicationReader": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "MarsEdit*",
-            "properties": {
-                "Parent": "NewsGator",
-                "Browser": "MarsEdit"
-            }
-        },
-        {
-            "userAgent": "NewsFire\/*",
-            "properties": {
-                "Parent": "NewsGator",
-                "Browser": "NewsFire"
-            }
-        },
-        {
-            "userAgent": "NewsGator FetchLinks extension\/*",
-            "properties": {
-                "Parent": "NewsGator",
-                "Browser": "NewsGator FetchLinks"
-            }
-        },
-        {
-            "userAgent": "NewsGator\/*",
-            "properties": {
-                "Parent": "NewsGator",
-                "Browser": "NewsGator"
-            }
-        },
-        {
-            "userAgent": "NewsGatorOnline\/*",
-            "properties": {
-                "Parent": "NewsGator",
-                "Browser": "NewsGatorOnline"
-            }
-        }
-    ]
+  "division": "NewsGator",
+  "sortIndex": 610,
+  "userAgents": [
+    {
+      "userAgent": "NewsGator",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NewsGator",
+        "Browser": "NewsGator",
+        "Browser_Type": "Bot/Crawler",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "MarsEdit*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "MarsEdit"
+      }
+    },
+    {
+      "userAgent": "NewsFire\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsFire"
+      }
+    },
+    {
+      "userAgent": "NewsGator FetchLinks extension\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsGator FetchLinks"
+      }
+    },
+    {
+      "userAgent": "NewsGator\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsGator"
+      }
+    },
+    {
+      "userAgent": "NewsGatorOnline\/*",
+      "properties": {
+        "Parent": "NewsGator",
+        "Browser": "NewsGatorOnline"
+      }
+    }
+  ]
 }

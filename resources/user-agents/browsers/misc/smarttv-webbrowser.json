@@ -1,39 +1,39 @@
 {
-    "division": "SmartTV WebBrowser",
-    "sortIndex": 10620,
-    "userAgents": [
+  "division": "SmartTV WebBrowser",
+  "sortIndex": 10620,
+  "userAgents": [
+    {
+      "userAgent": "SmartTV WebBrowser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "SmartTV WebBrowser",
+        "Browser_Type": "Browser",
+        "Platform": "Linux Smartphone OS",
+        "Platform_Maker": "Linux Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone"
+      },
+      "children": [
         {
-            "userAgent": "SmartTV WebBrowser",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "SmartTV WebBrowser",
-                "Browser_Type": "Browser",
-                "Platform": "Linux Smartphone OS",
-                "Platform_Maker": "Linux Foundation",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "CssVersion": "2",
-                "Device_Type": "Mobile Phone"
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
-                    "properties": {
-                        "Version": "1.0",
-                        "MajorVer": "1"
-                    }
-                }
-            ]
+          "match": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

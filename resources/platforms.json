@@ -166,21 +166,27 @@
       "match": "*PPC*",
       "properties": {
         "Platform": "MacPPC",
-        "Win32": "false"
+        "Win32": "false",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
       }
     },
     "MacPPC_2": {
       "match": "*Mac_PowerPC*",
       "properties": {
         "Platform": "MacPPC",
-        "Win32": "false"
+        "Win32": "false",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
       }
     },
     "MacPPC_3": {
       "match": "*Macintosh*PPC*",
       "properties": {
         "Platform": "MacPPC",
-        "Win32": "false"
+        "Win32": "false",
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
       }
     },
     "Mac68K": {
@@ -994,7 +1000,21 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Description": "Windows NT",
-        "Win32": "true"
+        "Win32": "true",
+        "Win64": "false"
+      }
+    },
+    "NT_2": {
+      "match": "*WinNT*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "WinNT",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Description": "Windows NT",
+        "Win32": "true",
+        "Win64": "false"
       }
     },
     "NT3.1": {
@@ -1123,6 +1143,45 @@
         "Win32": "true"
       }
     },
+    "Win2000_4": {
+      "match": "*Win2000*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
+    "Win2000_5": {
+      "match": "*Windows NT5.0*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
+    "Win2000_6": {
+      "match": "*WinNT5.0*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Win2000",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.0",
+        "Platform_Description": "Windows 2000",
+        "Win32": "true"
+      }
+    },
     "Win2000_64": {
       "match": "*Windows NT 5.0; *WOW64*",
       "properties": {
@@ -1234,6 +1293,20 @@
         "Win64": "true"
       }
     },
+    "WinXPa_v3": {
+      "match": "*WinNT5.1*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.1",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "WinXPb_32": {
       "match": "*Windows NT 5.2*",
       "properties": {
@@ -1302,6 +1375,20 @@
         "Win64": "true"
       }
     },
+    "WinXPb_v2": {
+      "match": "*WinNT5.2*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "5.2",
+        "Platform_Description": "Windows XP",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "Vista_32": {
       "match": "*Windows NT 6.0*",
       "properties": {
@@ -1349,6 +1436,20 @@
         "Browser_Bits": "64",
         "Platform": "WinVista",
         "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "6.0",
+        "Platform_Description": "Windows Vista",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Vista_v2": {
+      "match": "*WinNT5.2*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "WinVista",
+        "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Device_Type": "Desktop",
         "Platform_Version": "6.0",
@@ -1417,6 +1518,20 @@
         "Browser_Bits": "64",
         "Platform": "Win7",
         "Platform_Bits": "64",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Platform_Version": "6.1",
+        "Platform_Description": "Windows 7",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Win7_v2": {
+      "match": "*WinNT5.2*",
+      "properties": {
+        "Browser_Bits": "32",
+        "Platform": "Win7",
+        "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
         "Device_Type": "Desktop",
         "Platform_Version": "6.1",

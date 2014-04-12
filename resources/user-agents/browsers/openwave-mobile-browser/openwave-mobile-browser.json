@@ -1,141 +1,141 @@
 {
-    "division": "Openwave Mobile Browser",
-    "sortIndex": 1800,
-    "lite": true,
-    "userAgents": [
-        {
-            "userAgent": "Openwave Mobile Browser",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Openwave Mobile Browser",
-                "Browser": "Openwave Mobile Browser",
-                "Platform": "JAVA",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "Device_Type": "Mobile Phone"
-            }
-        },
-        {
-            "userAgent": "*UP.Browser\/*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser"
-            }
-        },
-        {
-            "userAgent": "* Browser\/OpenWave\/* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser"
-            }
-        },
-        {
-            "userAgent": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0"
-            }
-        },
-        {
-            "userAgent": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "1.0",
-                "MajorVer": "1",
-                "MinorVer": "0",
-                "Device_Name": "S312",
-                "Device_Maker": "SonyEricsson"
-            }
-        },
-        {
-            "userAgent": "AUDIOVOX-PM8920KIT",
-            "properties": {
-                "Parent": "Openwave Mobile Browser"
-            }
-        },
-        {
-            "userAgent": "SonyEricssonS312\/R1FB Browser\/OpenWave\/1.0 *",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Device_Code_Name": "S312",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "S312"
-            }
-        },
-        {
-            "userAgent": "SonyEricssonW395\/R1FA Browser\/OpenWave\/1.0 *",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Device_Code_Name": "W395",
-                "Device_Maker": "SonyEricsson",
-                "Device_Brand_Name": "SonyEricsson",
-                "Device_Name": "W395"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/3.01-IG01 UP.Link\/3.2.3.4",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "3.0",
-                "MajorVer": "3"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/3.04-SN17 UP.Link\/3.4.5.6",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "3.0",
-                "MajorVer": "3"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/3.1.04-DS15 UP.Link\/*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "3.1",
-                "MajorVer": "3",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/3.1.04-NZ01 UP.Link\/*.1",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "3.1",
-                "MajorVer": "3",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/3.1.04-SC02 UP.Link\/*",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "3.1",
-                "MajorVer": "3",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "Openwave Mobile Browser 6.4",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "6.4",
-                "MajorVer": "6",
-                "MinorVer": "4"
-            }
-        },
-        {
-            "userAgent": "UP.Browser\/7.0.2.3.119 (GUI) MMP\/2.0 Push\/PO",
-            "properties": {
-                "Parent": "Openwave Mobile Browser",
-                "Version": "7.0",
-                "MajorVer": "7"
-            }
-        }
-    ]
+  "division": "Openwave Mobile Browser",
+  "sortIndex": 1800,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser",
+        "Browser": "Openwave Mobile Browser",
+        "Platform": "JAVA",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone"
+      }
+    },
+    {
+      "userAgent": "*UP.Browser\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "* Browser\/OpenWave\/* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0",
+        "Device_Name": "S312",
+        "Device_Maker": "SonyEricsson"
+      }
+    },
+    {
+      "userAgent": "AUDIOVOX-PM8920KIT",
+      "properties": {
+        "Parent": "Openwave Mobile Browser"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonS312\/R1FB Browser\/OpenWave\/1.0 *",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Device_Code_Name": "S312",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "S312"
+      }
+    },
+    {
+      "userAgent": "SonyEricssonW395\/R1FA Browser\/OpenWave\/1.0 *",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Device_Code_Name": "W395",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Name": "W395"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.01-IG01 UP.Link\/3.2.3.4",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.04-SN17 UP.Link\/3.4.5.6",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "3.0",
+        "MajorVer": "3"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-DS15 UP.Link\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-NZ01 UP.Link\/*.1",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/3.1.04-SC02 UP.Link\/*",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "3.1",
+        "MajorVer": "3",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "Openwave Mobile Browser 6.4",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "6.4",
+        "MajorVer": "6",
+        "MinorVer": "4"
+      }
+    },
+    {
+      "userAgent": "UP.Browser\/7.0.2.3.119 (GUI) MMP\/2.0 Push\/PO",
+      "properties": {
+        "Parent": "Openwave Mobile Browser",
+        "Version": "7.0",
+        "MajorVer": "7"
+      }
+    }
+  ]
 }

@@ -1,152 +1,152 @@
 {
-    "division": "Microsoft",
-    "sortIndex": 420,
-    "userAgents": [
-        {
-            "userAgent": "Microsoft",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Microsoft",
-                "Browser": "Microsoft",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Live (http:\/\/www.live.com\/)",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft Live",
-                "isSyndicationReader": "true"
-            }
-        },
-        {
-            "userAgent": "MFC Foundation Class Library*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MFC Foundation Class Library"
-            }
-        },
-        {
-            "userAgent": "MFHttpScan",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MFHttpScan"
-            }
-        },
-        {
-            "userAgent": "Microsoft BITS\/*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "BITS"
-            }
-        },
-        {
-            "userAgent": "Microsoft Data Access Internet Publishing Provider Cache Manager",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MS IPP"
-            }
-        },
-        {
-            "userAgent": "Microsoft Data Access Internet Publishing Provider DAV*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MS IPP DAV"
-            }
-        },
-        {
-            "userAgent": "Microsoft Data Access Internet Publishing Provider Protocol Discovery",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MS IPPPD"
-            }
-        },
-        {
-            "userAgent": "Microsoft Office Existence Discovery",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft Office Existence Discovery"
-            }
-        },
-        {
-            "userAgent": "Microsoft Office Protocol Discovery",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MS OPD"
-            }
-        },
-        {
-            "userAgent": "Microsoft Office\/* (*Picture Manager*)",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft Office Picture Manager"
-            }
-        },
-        {
-            "userAgent": "Microsoft URL Control*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft URL Control"
-            }
-        },
-        {
-            "userAgent": "Microsoft Visio MSIE",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft Visio"
-            }
-        },
-        {
-            "userAgent": "Microsoft-WebDAV-MiniRedir\/*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft-WebDAV"
-            }
-        },
-        {
-            "userAgent": "Microsoft-WebDAV-MiniRedir\/6.1*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft-WebDAV",
-                "Version": "6.1",
-                "MajorVer": "6",
-                "MinorVer": "1"
-            }
-        },
-        {
-            "userAgent": "DavClnt*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft-WebDAV",
-                "Platform": "Win7"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X) Excel\/12.*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "Microsoft Excel",
-                "Version": "12.0",
-                "MajorVer": "12",
-                "MinorVer": "0",
-                "Platform": "MacOSX"
-            }
-        },
-        {
-            "userAgent": "MSN Feed Manager",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MSN Feed Manager",
-                "isSyndicationReader": "true"
-            }
-        },
-        {
-            "userAgent": "MSProxy\/*",
-            "properties": {
-                "Parent": "Microsoft",
-                "Browser": "MS Proxy"
-            }
-        }
-    ]
+  "division": "Microsoft",
+  "sortIndex": 420,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft",
+        "Browser": "Microsoft",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Live (http:\/\/www.live.com\/)",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft Live",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "MFC Foundation Class Library*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MFC Foundation Class Library"
+      }
+    },
+    {
+      "userAgent": "MFHttpScan",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MFHttpScan"
+      }
+    },
+    {
+      "userAgent": "Microsoft BITS\/*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "BITS"
+      }
+    },
+    {
+      "userAgent": "Microsoft Data Access Internet Publishing Provider Cache Manager",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MS IPP"
+      }
+    },
+    {
+      "userAgent": "Microsoft Data Access Internet Publishing Provider DAV*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MS IPP DAV"
+      }
+    },
+    {
+      "userAgent": "Microsoft Data Access Internet Publishing Provider Protocol Discovery",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MS IPPPD"
+      }
+    },
+    {
+      "userAgent": "Microsoft Office Existence Discovery",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft Office Existence Discovery"
+      }
+    },
+    {
+      "userAgent": "Microsoft Office Protocol Discovery",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MS OPD"
+      }
+    },
+    {
+      "userAgent": "Microsoft Office\/* (*Picture Manager*)",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft Office Picture Manager"
+      }
+    },
+    {
+      "userAgent": "Microsoft URL Control*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft URL Control"
+      }
+    },
+    {
+      "userAgent": "Microsoft Visio MSIE",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft Visio"
+      }
+    },
+    {
+      "userAgent": "Microsoft-WebDAV-MiniRedir\/*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft-WebDAV"
+      }
+    },
+    {
+      "userAgent": "Microsoft-WebDAV-MiniRedir\/6.1*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft-WebDAV",
+        "Version": "6.1",
+        "MajorVer": "6",
+        "MinorVer": "1"
+      }
+    },
+    {
+      "userAgent": "DavClnt*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft-WebDAV",
+        "Platform": "Win7"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X) Excel\/12.*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "Microsoft Excel",
+        "Version": "12.0",
+        "MajorVer": "12",
+        "MinorVer": "0",
+        "Platform": "MacOSX"
+      }
+    },
+    {
+      "userAgent": "MSN Feed Manager",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MSN Feed Manager",
+        "isSyndicationReader": "true"
+      }
+    },
+    {
+      "userAgent": "MSProxy\/*",
+      "properties": {
+        "Parent": "Microsoft",
+        "Browser": "MS Proxy"
+      }
+    }
+  ]
 }

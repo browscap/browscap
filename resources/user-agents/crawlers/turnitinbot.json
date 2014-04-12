@@ -1,27 +1,27 @@
 {
-    "division": "TurnitinBot",
-    "sortIndex": 170,
-    "userAgents": [
-        {
-            "userAgent": "TurnitinBot",
-            "properties": {
-                "Parent": "Copyright\/Plagiarism",
-                "Browser": "TurnitinBot",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "TurnitinBot\/2.1*",
-            "properties": {
-                "Parent": "TurnitinBot",
-                "Version": "2.1",
-                "MajorVer": "2",
-                "MinorVer": "1"
-            }
-        }
-    ]
+  "division": "TurnitinBot",
+  "sortIndex": 170,
+  "userAgents": [
+    {
+      "userAgent": "TurnitinBot",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TurnitinBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "TurnitinBot\/2.1*",
+      "properties": {
+        "Parent": "TurnitinBot",
+        "Version": "2.1",
+        "MajorVer": "2",
+        "MinorVer": "1"
+      }
+    }
+  ]
 }

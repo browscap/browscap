@@ -1,65 +1,65 @@
 {
-    "division": "Lenovo",
-    "sortIndex": 6690,
-    "userAgents": [
+  "division": "Lenovo",
+  "sortIndex": 6690,
+  "userAgents": [
+    {
+      "userAgent": "Lenovo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Lenovo",
+        "Browser_Type": "Browser",
+        "Platform": "Java",
+        "Platform_Maker": "Oracle",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
         {
-            "userAgent": "Lenovo",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "Lenovo",
-                "Browser_Type": "Browser",
-                "Platform": "Java",
-                "Platform_Maker": "Oracle",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "Device_Type": "Mobile Device"
-            },
-            "children": [
-                {
-                    "match": "LENOVO-E368\/*S050\/WAP2.0 Profile"
-                },
-                {
-                    "match": "LENOVO-E700\/*\/WAP1.2.1 Profile"
-                },
-                {
-                    "match": "LENOVO-GYM\/1.0"
-                },
-                {
-                    "match": "LENOVO-I660\/*\/WAP1.2.1 Profile"
-                },
-                {
-                    "match": "LENOVO-I720\/*\/WAP1.2 Profile\/*"
-                },
-                {
-                    "match": "LENOVO-P708_ENG_FRE_A\/(2006.05.31)S276\/WAP1.2.1 Profile\/*"
-                },
-                {
-                    "match": "LENOVO-P902\/*\/WAP2.0 *"
-                },
-                {
-                    "match": "LENOVO-V806\/*\/WAP2.0 *"
-                },
-                {
-                    "match": "LENOVO-i360\/*\/WAP2.0 Profile"
-                },
-                {
-                    "match": "Lenovo G900"
-                }
-            ]
+          "match": "LENOVO-E368\/*S050\/WAP2.0 Profile"
+        },
+        {
+          "match": "LENOVO-E700\/*\/WAP1.2.1 Profile"
+        },
+        {
+          "match": "LENOVO-GYM\/1.0"
+        },
+        {
+          "match": "LENOVO-I660\/*\/WAP1.2.1 Profile"
+        },
+        {
+          "match": "LENOVO-I720\/*\/WAP1.2 Profile\/*"
+        },
+        {
+          "match": "LENOVO-P708_ENG_FRE_A\/(2006.05.31)S276\/WAP1.2.1 Profile\/*"
+        },
+        {
+          "match": "LENOVO-P902\/*\/WAP2.0 *"
+        },
+        {
+          "match": "LENOVO-V806\/*\/WAP2.0 *"
+        },
+        {
+          "match": "LENOVO-i360\/*\/WAP2.0 Profile"
+        },
+        {
+          "match": "Lenovo G900"
         }
-    ]
+      ]
+    }
+  ]
 }

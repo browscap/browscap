@@ -1,69 +1,69 @@
 {
-    "division": "UnisterBot",
-    "sortIndex": 11130,
-    "userAgents": [
-        {
-            "userAgent": "UnisterBot",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser_Maker": "Unister",
-                "Platform_Version": "",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isMobileDevice": "false",
-                "isSyndicationReader": "false",
-                "Browser": "UnisterBot",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        },
-        {
-            "userAgent": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        },
-        {
-            "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        },
-        {
-            "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        },
-        {
-            "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        },
-        {
-            "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*",
-            "properties": {
-                "Parent": "UnisterBot"
-            }
-        }
-    ]
+  "division": "UnisterBot",
+  "sortIndex": 11130,
+  "userAgents": [
+    {
+      "userAgent": "UnisterBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Unister",
+        "Platform_Version": "",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Browser": "UnisterBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    },
+    {
+      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*",
+      "properties": {
+        "Parent": "UnisterBot"
+      }
+    }
+  ]
 }

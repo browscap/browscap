@@ -1,44 +1,44 @@
 {
-    "division": "Realplayer",
-    "sortIndex": 7120,
-    "userAgents": [
+  "division": "Realplayer",
+  "sortIndex": 7120,
+  "userAgents": [
+    {
+      "userAgent": "Realplayer",
+      "properties": {
+        "Parent": "Media Players",
+        "Browser": "RealPlayer",
+        "Browser_Maker": "Real Networks"
+      },
+      "children": [
         {
-            "userAgent": "Realplayer",
-            "properties": {
-                "Parent": "Media Players",
-                "Browser": "RealPlayer",
-                "Browser_Maker": "Real Networks"
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
-                    "properties": {
-                        "Platform": "MacOSX"
-                    },
-                    "platforms": [
-                        "OSX", "OSX_10_8_B"
-                    ]
-                },
-                {
-                    "match": "RealPlayer*"
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* RealPlayer*",
-                    "properties": {
-                        "Device_Type": "Desktop",
-                        "Device_Code_Name": "Macintosh",
-                        "Device_Maker": "Apple Inc",
-                        "Device_Brand_Name": "Apple",
-                        "Device_Name": "Macintosh",
-                        "RenderingEngine_Name": "WebKit",
-                        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-                        "RenderingEngine_Maker": "Apple Inc"
-                    },
-                    "platforms": [
-                        "OSX"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
+          "properties": {
+            "Platform": "MacOSX"
+          },
+          "platforms": [
+            "OSX", "OSX_10_8_B"
+          ]
+        },
+        {
+          "match": "RealPlayer*"
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* RealPlayer*",
+          "properties": {
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "Macintosh",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+            "RenderingEngine_Maker": "Apple Inc"
+          },
+          "platforms": [
+            "OSX"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

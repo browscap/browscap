@@ -1,40 +1,39 @@
 {
-  "division": "Waterfox #MAJORVER#.#MINORVER#",
-  "versions": [26, 27],
-  "sortIndex": 3450,
-  "lite": true,
+  "division": "Netscape #MAJORVER#.#MINORVER#",
+  "versions": [1, 2, 3],
+  "sortIndex": 7800,
   "userAgents": [
     {
-      "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
+      "userAgent": "Netscape #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Waterfox #MAJORVER#.#MINORVER#",
-        "Browser": "Waterfox",
+        "Comment": "Netscape #MAJORVER#.#MINORVER#",
+        "Browser": "Netscape",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Debian",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Waterfox\/#MAJORVER#*",
+          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
           "platforms": [
-            "Win7_64", "Win7_x64", "Win7_x64_2", "Win8_64", "Win8_x64", "Win8_1_64", "Win8_1_x64", "NT4_64", "NT4_x64"
+            "IRIX64_2", "Linux", "MacPPC_3", "Mac68K", "OpenVMS", "OS2", "SunOS", "Win16", "Win95", "Win98", "NT_2"
           ]
+        },
+        {
+          "match": "Mozilla\/#MAJORVER#.*(*compatible;*"
         }
       ]
     }

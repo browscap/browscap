@@ -1,56 +1,56 @@
 {
-    "division": "SeaMonkey #MAJORVER#.#MINORVER#",
-    "versions": ["2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10", "2.11", "2.12", "2.13", "2.14", "2.15", "2.16", "2.17", "2.18", "2.19", "2.20", "2.21", "2.22", "2.23", "2.24", "2.25", "2.26", "2.27", "2.28"],
-    "sortIndex": 3021,
-    "userAgents": [
+  "division": "SeaMonkey #MAJORVER#.#MINORVER#",
+  "versions": ["2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10", "2.11", "2.12", "2.13", "2.14", "2.15", "2.16", "2.17", "2.18", "2.19", "2.20", "2.21", "2.22", "2.23", "2.24", "2.25", "2.26", "2.27", "2.28"],
+  "sortIndex": 3021,
+  "userAgents": [
+    {
+      "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
+        "Browser": "SeaMonkey",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+      },
+      "children": [
         {
-            "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
-                "Browser": "SeaMonkey",
-                "Version": "#MAJORVER#.#MINORVER#",
-                "MajorVer": "#MAJORVER#",
-                "MinorVer": "#MINORVER#",
-                "Win32": "true",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "JavaApplets": "true",
-                "CssVersion": "3",
-                "Device_Name": "PC",
-                "Device_Maker": "Various",
-                "Device_Type": "Desktop",
-                "Device_Pointing_Method": "mouse",
-                "RenderingEngine_Name": "Gecko",
-                "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-            },
-            "children": [
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "FreeBSD", "Linux", "Linux_32", "Linux_32_on_x64",
-                        "OSX", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B",
-                        "SunOS",
-                        "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
-                        "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
-                        "Win8_1_32", "Win8_1_64"
-                    ]
-                },
-                {
-                    "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
-                    "platforms": [
-                        "FreeBSD", "Linux", "Linux_32", "Linux_32_on_x64",
-                        "OSX", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B",
-                        "SunOS",
-                        "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
-                        "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
-                        "Win8_1_32", "Win8_1_64"
-                    ]
-                }
-            ]
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "FreeBSD", "Linux", "Linux_32", "Linux_32_on_x64",
+            "OSX", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B",
+            "SunOS",
+            "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "FreeBSD", "Linux", "Linux_32", "Linux_32_on_x64",
+            "OSX", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B",
+            "SunOS",
+            "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,37 +1,37 @@
 {
-    "division": "NameProtect",
-    "sortIndex": 590,
-    "userAgents": [
-        {
-            "userAgent": "NameProtect",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "NameProtect",
-                "Browser": "NameProtect",
-                "Browser_Type": "Bot/Crawler",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "abot\/*",
-            "properties": {
-                "Parent": "NameProtect",
-                "Browser": "NameProtect"
-            }
-        },
-        {
-            "userAgent": "NP\/*",
-            "properties": {
-                "Parent": "NameProtect",
-                "Browser": "NameProtect"
-            }
-        },
-        {
-            "userAgent": "NPBot*",
-            "properties": {
-                "Parent": "NameProtect",
-                "Browser": "NameProtect"
-            }
-        }
-    ]
+  "division": "NameProtect",
+  "sortIndex": 590,
+  "userAgents": [
+    {
+      "userAgent": "NameProtect",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NameProtect",
+        "Browser": "NameProtect",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "abot\/*",
+      "properties": {
+        "Parent": "NameProtect",
+        "Browser": "NameProtect"
+      }
+    },
+    {
+      "userAgent": "NP\/*",
+      "properties": {
+        "Parent": "NameProtect",
+        "Browser": "NameProtect"
+      }
+    },
+    {
+      "userAgent": "NPBot*",
+      "properties": {
+        "Parent": "NameProtect",
+        "Browser": "NameProtect"
+      }
+    }
+  ]
 }

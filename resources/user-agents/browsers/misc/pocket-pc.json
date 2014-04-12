@@ -1,45 +1,45 @@
 {
-    "division": "Pocket PC",
-    "sortIndex": 1830,
-    "lite": true,
-    "userAgents": [
+  "division": "Pocket PC",
+  "sortIndex": 1830,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Pocket PC",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pocket PC",
+        "Browser": "Pocket PC",
+        "Platform": "WinCE",
+        "Platform_Description": "Windows CE",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone"
+      },
+      "children": [
         {
-            "userAgent": "Pocket PC",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Pocket PC",
-                "Browser": "Pocket PC",
-                "Platform": "WinCE",
-                "Platform_Description": "Windows CE",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Cookies": "true",
-                "JavaScript": "true",
-                "isMobileDevice": "true",
-                "CssVersion": "1",
-                "Device_Type": "Mobile Phone"
-            },
-            "children": [
-                {
-                    "match": "*(compatible; MSIE *.*; Windows CE; PPC; *)"
-                },
-                {
-                    "match": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*"
-                },
-                {
-                    "match": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*"
-                },
-                {
-                    "match": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)"
-                },
-                {
-                    "match": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*"
-                },
-                {
-                    "match": "Windows CE (Pocket PC) - Version *.*"
-                }
-            ]
+          "match": "*(compatible; MSIE *.*; Windows CE; PPC; *)"
+        },
+        {
+          "match": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*"
+        },
+        {
+          "match": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*"
+        },
+        {
+          "match": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)"
+        },
+        {
+          "match": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*"
+        },
+        {
+          "match": "Windows CE (Pocket PC) - Version *.*"
         }
-    ]
+      ]
+    }
+  ]
 }

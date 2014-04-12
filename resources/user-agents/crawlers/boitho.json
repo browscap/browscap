@@ -1,38 +1,38 @@
 {
-    "division": "Boitho",
-    "sortIndex": 130,
-    "userAgents": [
-        {
-            "userAgent": "Boitho",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Comment": "Boitho",
-                "Browser": "Boitho",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "boitho.com-*",
-            "properties": {
-                "Parent": "Boitho"
-            }
-        },
-        {
-            "userAgent": "boitho.com-dc\/*",
-            "properties": {
-                "Parent": "Boitho",
-                "Browser": "boitho.com-dc"
-            }
-        },
-        {
-            "userAgent": "boitho.com-robot\/*",
-            "properties": {
-                "Parent": "Boitho",
-                "Browser": "boitho.com-robot"
-            }
-        }
-    ]
+  "division": "Boitho",
+  "sortIndex": 130,
+  "userAgents": [
+    {
+      "userAgent": "Boitho",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Boitho",
+        "Browser": "Boitho",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "boitho.com-*",
+      "properties": {
+        "Parent": "Boitho"
+      }
+    },
+    {
+      "userAgent": "boitho.com-dc\/*",
+      "properties": {
+        "Parent": "Boitho",
+        "Browser": "boitho.com-dc"
+      }
+    },
+    {
+      "userAgent": "boitho.com-robot\/*",
+      "properties": {
+        "Parent": "Boitho",
+        "Browser": "boitho.com-robot"
+      }
+    }
+  ]
 }

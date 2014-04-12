@@ -1,32 +1,32 @@
 {
-    "division": "bitlybot",
-    "sortIndex": 100,
-    "userAgents": [
-        {
-            "userAgent": "bitlybot",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "BitlyBot",
-                "Browser_Type": "Bot/Crawler",
-                "Frames": "true",
-                "IFrames": "true",
-                "Tables": "true",
-                "Crawler": "true"
-            }
-        },
-        {
-            "userAgent": "bitlybot\/*",
-            "properties": {
-                "Parent": "bitlybot"
-            }
-        },
-        {
-            "userAgent": "bitlybot\/2.*",
-            "properties": {
-                "Parent": "bitlybot",
-                "Version": "2.0",
-                "MajorVer": "2"
-            }
-        }
-    ]
+  "division": "bitlybot",
+  "sortIndex": 100,
+  "userAgents": [
+    {
+      "userAgent": "bitlybot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "BitlyBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      }
+    },
+    {
+      "userAgent": "bitlybot\/*",
+      "properties": {
+        "Parent": "bitlybot"
+      }
+    },
+    {
+      "userAgent": "bitlybot\/2.*",
+      "properties": {
+        "Parent": "bitlybot",
+        "Version": "2.0",
+        "MajorVer": "2"
+      }
+    }
+  ]
 }

@@ -1,39 +1,39 @@
 {
-    "division": "kejian",
-    "sortIndex": 6470,
-    "userAgents": [
+  "division": "kejian",
+  "sortIndex": 6470,
+  "userAgents": [
+    {
+      "userAgent": "kejian",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "kejian",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
         {
-            "userAgent": "kejian",
-            "properties": {
-                "Parent": "DefaultProperties",
-                "Browser": "kejian",
-                "Browser_Type": "Browser",
-                "Alpha": "false",
-                "Beta": "false",
-                "Win16": "false",
-                "Win32": "false",
-                "Win64": "false",
-                "Frames": "false",
-                "IFrames": "false",
-                "Tables": "false",
-                "Cookies": "false",
-                "BackgroundSounds": "false",
-                "JavaScript": "false",
-                "VBScript": "false",
-                "JavaApplets": "false",
-                "ActiveXControls": "false",
-                "isSyndicationReader": "false",
-                "Crawler": "false",
-                "Device_Type": "Mobile Device"
-            },
-            "children": [
-                {
-                    "match": "kejian-k368*"
-                },
-                {
-                    "match": "kejian-k606*"
-                }
-            ]
+          "match": "kejian-k368*"
+        },
+        {
+          "match": "kejian-k606*"
         }
-    ]
+      ]
+    }
+  ]
 }
