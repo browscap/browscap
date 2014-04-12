@@ -22,7 +22,19 @@
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Description": "For Lunascape, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+          },
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
     },
     {
       "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
