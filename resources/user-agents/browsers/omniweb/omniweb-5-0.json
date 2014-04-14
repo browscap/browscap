@@ -112,10 +112,7 @@
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/*"
         },
         {
-          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/v558.*",
-          "properties": {
-            "Parent": "OmniWeb 5.0"
-          }
+          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/v558.*"
         },
         {
           "match": "Mozilla\/5.0 (*Mac OS X*AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",

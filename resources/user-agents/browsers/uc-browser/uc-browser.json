@@ -16,31 +16,31 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Java;*samsung*) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
-      "properties": {
-        "Parent": "UC Browser",
-        "Version": "8.2",
-        "MajorVer": "8",
-        "MinorVer": "2",
-        "Platform": "JAVA",
-        "Device_Name": "Samsung",
-        "Device_Maker": "Samsung"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
-      "properties": {
-        "Parent": "UC Browser",
-        "Version": "8.2",
-        "MajorVer": "8",
-        "MinorVer": "2",
-        "Platform": "JAVA",
-        "Device_Name": "GT-S5263",
-        "Device_Maker": "Samsung"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Java;*samsung*) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
+          "properties": {
+            "Version": "8.2",
+            "MajorVer": "8",
+            "MinorVer": "2",
+            "Platform": "JAVA",
+            "Device_Name": "Samsung",
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
+          "properties": {
+            "Version": "8.2",
+            "MajorVer": "8",
+            "MinorVer": "2",
+            "Platform": "JAVA",
+            "Device_Name": "GT-S5263",
+            "Device_Maker": "Samsung"
+          }
+        }
+      ]
     }
   ]
 }
