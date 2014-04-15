@@ -177,17 +177,23 @@ class BuildGenerator
             );
         }
 
+        unset($iniGenerator);
+
         $this->logger->info('Generating browscap.xml [XML]');
 
         $xmlGenerator = new BrowscapXmlGenerator();
         $this->generatorHelper->setGenerator($xmlGenerator);
         file_put_contents($this->buildFolder . '/browscap.xml', $this->generatorHelper->create());
 
+        unset($xmlGenerator);
+
         $this->logger->info('Generating browscap.csv [CSV]');
 
         $csvGenerator = new BrowscapCsvGenerator();
         $this->generatorHelper->setGenerator($csvGenerator);
         file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
+
+        unset($csvGenerator);
 
         $this->logger->info('Generating browscap.zip [ZIP]');
 

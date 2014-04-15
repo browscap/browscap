@@ -37,6 +37,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
     private function render(array $allDivisions, $output, array $allProperties)
     {
         $this->logger->debug('rendering CSV header');
+
         $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
 
         foreach ($allProperties as $property) {
@@ -82,9 +83,13 @@ class BrowscapCsvGenerator extends AbstractGenerator
                 }
 
                 $output .= ',"' . $this->formatValue($property, $properties) . '"';
+
+                unset($property);
             }
 
             $output .= PHP_EOL;
+
+            unset($properties);
         }
 
         return $output;
