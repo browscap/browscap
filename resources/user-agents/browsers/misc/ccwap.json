@@ -7,7 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ccWAP",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
       },

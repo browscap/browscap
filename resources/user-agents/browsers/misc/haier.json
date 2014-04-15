@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "Haier",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",

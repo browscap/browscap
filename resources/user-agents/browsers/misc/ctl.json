@@ -26,7 +26,7 @@
         "Crawler": "false",
         "Device_Type": "Mobile Device",
         "Browser": "CTL",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
       },
