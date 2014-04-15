@@ -117,13 +117,6 @@
             "Version": "5.8",
             "MinorVer": "8"
           }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *OmniWeb\/v622.*",
-          "properties": {
-            "Version": "5.9",
-            "MinorVer": "9"
-          }
         }
       ]
     }
