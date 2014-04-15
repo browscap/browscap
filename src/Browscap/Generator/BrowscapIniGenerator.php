@@ -78,6 +78,7 @@ class BrowscapIniGenerator extends AbstractGenerator
     private function render(array $allDivisions, $output, array $allProperties)
     {
         $this->logger->debug('rendering all divisions');
+
         foreach ($allDivisions as $key => $properties) {
             if (!isset($properties['division'])) {
                 throw new \InvalidArgumentException('"division" is missing for key "' . $key . '"');
@@ -215,6 +216,8 @@ class BrowscapIniGenerator extends AbstractGenerator
                 }
 
                 $output .= $property . '=' . $valueOutput . PHP_EOL;
+
+                unset($value, $valueOutput);
             }
 
             $output .= PHP_EOL;

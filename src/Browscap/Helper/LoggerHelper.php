@@ -8,6 +8,7 @@ use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Monolog\Processor\MemoryUsageProcessor;
+use Monolog\Processor\MemoryPeakUsageProcessor;
 
 /**
  * @package Browscap\Helper
@@ -29,14 +30,23 @@ class LoggerHelper
         if ($debug) {
             $stream = new StreamHandler('php://output', Logger::DEBUG);
             $stream->setFormatter(
-                new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %context% %extra%' . "\n")
+                new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %extra%' . "\n")
             );
 
-            $memoryProcessor = new MemoryUsageProcessor();
+            /** @var callable $memoryProcessor */
+            $memoryProcessor = new MemoryUsageProcessor(true);
             $logger->pushProcessor($memoryProcessor);
+
+            /** @var callable $peakMemoryProcessor */
+            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
+            $logger->pushProcessor($peakMemoryProcessor);
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
-            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+            $stream->setFormatter(new LineFormatter('%message% %extra%' . "\n"));
+
+            /** @var callable $peakMemoryProcessor */
+            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
+            $logger->pushProcessor($peakMemoryProcessor);
         }
 
         $logger->pushHandler($stream);
