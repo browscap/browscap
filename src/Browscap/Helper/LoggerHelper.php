@@ -36,7 +36,11 @@ class LoggerHelper
             $logger->pushProcessor($memoryProcessor);
         } else {
             $stream = new StreamHandler('php://output', Logger::INFO);
-            $stream->setFormatter(new LineFormatter('%message%' . "\n"));
+            $stream->setFormatter(new LineFormatter('%message% %extra%' . "\n"));
+
+            /** @var callable $peakMemoryProcessor */
+            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
+            $logger->pushProcessor($peakMemoryProcessor);
         }
 
         $logger->pushHandler($stream);
