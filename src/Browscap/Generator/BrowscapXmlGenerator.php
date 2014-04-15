@@ -115,7 +115,13 @@ class BrowscapXmlGenerator extends AbstractGenerator
         $xmlRoot->appendChild($items);
         $dom->appendChild($xmlRoot);
 
-        return str_replace('  ', '', $dom->saveXML());
+        $this->logger->debug('covert XML to String');
+        $output = str_replace('  ', '', $dom->saveXML());
+        $this->logger->debug('coverting finished');
+
+        unset($dom, $xmlRoot, $items, $browscapitem);
+
+        return $output;
     }
 
     /**
