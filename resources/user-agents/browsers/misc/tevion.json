@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "parent": "MDMP3000\/1.0*"
+          "match": "MDMP3000\/1.0*"
         }
       ]
     }
