@@ -360,6 +360,27 @@
         "Parent": "Google",
         "Browser": "Google Wireless Transcoder"
       }
+    },
+    {
+      "userAgent": "Google Structured-Data TestingTool",
+      "properties": {
+        "Parent": "Google",
+        "Browser": "Google Structured-Data TestingTool"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)",
+          "properties": {
+            "Device_Name": "PC",
+            "Device_Maker": "Various",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64"
+          ]
+        }
+      ]
     }
   ]
 }
