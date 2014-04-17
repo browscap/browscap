@@ -25,67 +25,39 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "unknown"
-      }
-    },
-    {
-      "userAgent": "INNO30*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO50*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO55*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO79*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO89*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO90*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNO99*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNOA10*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNOA20*",
-      "properties": {
-        "Parent": "INNO"
-      }
-    },
-    {
-      "userAgent": "INNOP10*",
-      "properties": {
-        "Parent": "INNO"
-      }
+      },
+      "children": [
+        {
+          "match": "INNO30*"
+        },
+        {
+          "match": "INNO50*"
+        },
+        {
+          "match": "INNO55*"
+        },
+        {
+          "match": "INNO79*"
+        },
+        {
+          "match": "INNO89*"
+        },
+        {
+          "match": "INNO90*"
+        },
+        {
+          "match": "INNO99*"
+        },
+        {
+          "match": "INNOA10*"
+        },
+        {
+          "match": "INNOA20*"
+        },
+        {
+          "match": "INNOP10*"
+        }
+      ]
     }
   ]
 }

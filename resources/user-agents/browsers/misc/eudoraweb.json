@@ -22,25 +22,18 @@
         "Crawler": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1",
-      "properties": {
-        "Parent": "EudoraWeb"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2",
-      "properties": {
-        "Parent": "EudoraWeb"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1",
-      "properties": {
-        "Parent": "EudoraWeb"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1"
+        },
+        {
+          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2"
+        },
+        {
+          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1"
+        }
+      ]
     }
   ]
 }

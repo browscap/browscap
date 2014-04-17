@@ -23,25 +23,18 @@
         "Crawler": "false",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *",
-      "properties": {
-        "Parent": "Huawei"
-      }
-    },
-    {
-      "userAgent": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *",
-      "properties": {
-        "Parent": "Huawei"
-      }
-    },
-    {
-      "userAgent": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *",
-      "properties": {
-        "Parent": "Huawei"
-      }
+      },
+      "children": [
+        {
+          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *"
+        },
+        {
+          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *"
+        },
+        {
+          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *"
+        }
+      ]
     }
   ]
 }

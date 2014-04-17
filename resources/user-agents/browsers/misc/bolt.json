@@ -20,18 +20,19 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
-      "properties": {
-        "Parent": "Bolt",
-        "Version": "0.862",
-        "MinorVer": "862",
-        "Platform": "Linux Smartphone OS",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Mobile Phone"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
+          "properties": {
+            "Version": "0.862",
+            "MinorVer": "862",
+            "Platform": "Linux Smartphone OS",
+            "Platform_Maker": "Linux Foundation",
+            "Device_Type": "Mobile Phone"
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,142 +1,64 @@
 {
-  "division": "YaBrowser 1.20",
-  "sortIndex": 11090,
+  "division": "YaBrowser #MAJORVER#.#MINORVER#",
+  "versions": ["1.20"],
+  "sortIndex": 11120,
   "userAgents": [
     {
-      "userAgent": "YaBrowser 1.20",
+      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "YaBrowser",
-        "Version": "1.20",
-        "MajorVer": "1",
-        "MinorVer": "20"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.8",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Yandex Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
         "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
+        "Browser_Maker": "Yandex",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "OSX", "OSX_10_8_A", "OSX_10_9_A", "WinXPa_32", "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/#MAJORVER#.#MINORVER#*Chrome\/*Safari\/*",
+          "platforms": [
+            "OSX", "OSX_10_8_A", "OSX_10_9_A", "WinXPa_32", "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64"
+          ]
+        }
+      ]
     },
     {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20*Safari\/*",
+      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.9",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "MacOSX",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 5.1) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.2) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "Win8",
-        "Platform_Version": "6.2",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/1.20* Chrome\/*Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
-        "Browser_Bits": "32",
-        "Platform": "Win8",
-        "Platform_Version": "6.2",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "YaBrowser 1.20 on Android",
-      "properties": {
-        "Parent": "YaBrowser 1.20",
+        "Parent": "Yandex Browser #MAJORVER#.#MINORVER#",
         "Browser_Bits": "32",
         "Platform": "Android",
         "Platform_Bits": "32",
@@ -145,119 +67,29 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android",
-          "Device_Code_Name": "M7",
-          "Device_Maker": "HTC",
-          "Device_Brand_Name": "HTC",
-          "Device_Name": "One",
-          "Device_Type": "Mobile Phone",
-          "Device_Pointing_Method": "touchscreen"
-      }
-    },
-    {
-      "userAgent": "YaBrowser 1.20 on Android 4.0",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android",
-        "Platform_Version": "4.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.0*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.0*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.0",
-          "Device_Code_Name": "M7",
-          "Device_Maker": "HTC",
-          "Device_Brand_Name": "HTC",
-          "Device_Name": "One",
-          "Device_Type": "Mobile Phone",
-          "Device_Pointing_Method": "touchscreen"
-      }
-    },
-    {
-      "userAgent": "YaBrowser 1.20 on Android 4.1",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android",
-        "Platform_Version": "4.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.1*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.1*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.1",
-          "Device_Code_Name": "M7",
-          "Device_Maker": "HTC",
-          "Device_Brand_Name": "HTC",
-          "Device_Name": "One",
-          "Device_Type": "Mobile Phone",
-          "Device_Pointing_Method": "touchscreen"
-      }
-    },
-    {
-      "userAgent": "YaBrowser 1.20 on Android 4.2",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android",
-        "Platform_Version": "4.2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.2*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.2*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.2",
-          "Device_Code_Name": "M7",
-          "Device_Maker": "HTC",
-          "Device_Brand_Name": "HTC",
-          "Device_Name": "One",
-          "Device_Type": "Mobile Phone",
-          "Device_Pointing_Method": "touchscreen"
-      }
-    },
-    {
-      "userAgent": "YaBrowser 1.20 on Android 4.3",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android",
-        "Platform_Version": "4.3"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.3*; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.3"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux; Android 4.3*; HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/1.20* Safari\/*",
-      "properties": {
-        "Parent": "YaBrowser 1.20 on Android 4.3",
-          "Device_Code_Name": "M7",
-          "Device_Maker": "HTC",
-          "Device_Brand_Name": "HTC",
-          "Device_Name": "One",
-          "Device_Type": "Mobile Phone",
-          "Device_Pointing_Method": "touchscreen"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "properties": {
+            "Device_Code_Name": "M7",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "One",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -174,7 +174,6 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
             'platforms' => [$fixturesDir . 'ua/features-platforms.json', $fixturesDir . 'csv/features-platforms.csv'],
             'child-props' => [$fixturesDir . 'ua/features-child-props.json', $fixturesDir . 'csv/features-child-props.csv'],
             'platform-props' => [$fixturesDir . 'ua/features-platform-props.json', $fixturesDir . 'csv/features-platform-props.csv'],
-            'skip-invalid-children' => [$fixturesDir . 'ua/features-skip-invalid-children.json', $fixturesDir . 'csv/features-skip-invalid-children.csv'],
         ];
     }
 
@@ -214,5 +213,46 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
         $csv = $generator->generate();
 
         self::assertStringEqualsFile($expectedCsv, $csv);
+    }
+
+    /**
+     * @expectedException \LogicException
+     */
+    public function testGenerateInvalidFeatures()
+    {
+        $fixturesDir = __DIR__ . '/../../fixtures/';
+
+        $collectionParser = new CollectionParser();
+        $collectionParser
+            ->setLogger($this->logger)
+            ->setDataCollection(
+                $this->getCollectionData(
+                    [
+                        $fixturesDir . 'ua/default-properties.json',
+                        $fixturesDir . 'ua/features-skip-invalid-children.json'
+                    ]
+                )
+            );
+        $collectionData = $collectionParser->parse();
+
+        $comments = array(
+            'Provided courtesy of http://tempdownloads.browserscap.com/',
+            'Created on Friday, December 31, 2010 at 12:34 PM UTC',
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/GaryKeith/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
+        );
+
+        $generator = new BrowscapCsvGenerator();
+        $generator
+            ->setLogger($this->logger)
+            ->setCollectionData($collectionData)
+            ->setComments($comments)
+            ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
+        ;
+
+        $generator->generate();
     }
 }

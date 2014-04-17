@@ -8,11 +8,11 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Bot",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
@@ -20,11 +20,11 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Bot",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     }
   ]

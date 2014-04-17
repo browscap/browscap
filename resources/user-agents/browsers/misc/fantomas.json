@@ -13,49 +13,45 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (cloakBrowser)",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas cloakBrowser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (fantomas shadowMaker Browser)",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas shadowMaker Browser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (fantomBrowser)",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas fantomBrowser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (fantomCrew Browser)",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas fantomCrew Browser"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (stealthBrowser)",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas stealthBrowser"
-      }
-    },
-    {
-      "userAgent": "multiBlocker browser*",
-      "properties": {
-        "Parent": "fantomas",
-        "Browser": "fantomas multiBlocker browser"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (cloakBrowser)",
+          "properties": {
+            "Browser": "fantomas cloakBrowser"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (fantomas shadowMaker Browser)",
+          "properties": {
+            "Browser": "fantomas shadowMaker Browser"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (fantomBrowser)",
+          "properties": {
+            "Browser": "fantomas fantomBrowser"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (fantomCrew Browser)",
+          "properties": {
+            "Browser": "fantomas fantomCrew Browser"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (stealthBrowser)",
+          "properties": {
+            "Browser": "fantomas stealthBrowser"
+          }
+        },
+        {
+          "match": "multiBlocker browser*",
+          "properties": {
+            "Browser": "fantomas multiBlocker browser"
+          }
+        }
+      ]
     }
   ]
 }

@@ -31,39 +31,39 @@
         "Device_Brand_Name": "Microsoft",
         "RenderingEngine_Name": "Trident",
         "RenderingEngine_Maker": "Microsoft Corporation"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Word\/12.*",
-      "properties": {
-        "Parent": "Microsoft Word",
-        "Version": "12.0",
-        "MajorVer": "12",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; *Mac OS X) Word\/14.*",
-      "properties": {
-        "Parent": "Microsoft Word",
-        "Version": "14.0",
-        "MajorVer": "14",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/12.*",
+          "properties": {
+            "Version": "2007",
+            "MajorVer": "2007"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/14.*",
+          "properties": {
+            "Version": "2010",
+            "MajorVer": "2010"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/15.*",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -29,34 +29,33 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Doris\/1.10 * (Symbian)",
-      "properties": {
-        "Parent": "Doris",
-        "Version": "1.10",
-        "MajorVer": "1",
-        "MinorVer": "10"
-      }
-    },
-    {
-      "userAgent": "Doris\/1.15 * (Symbian)",
-      "properties": {
-        "Parent": "Doris",
-        "Version": "1.15",
-        "MajorVer": "1",
-        "MinorVer": "15"
-      }
-    },
-    {
-      "userAgent": "Doris\/1.17 * (Symbian)",
-      "properties": {
-        "Parent": "Doris",
-        "Version": "1.17",
-        "MajorVer": "1",
-        "MinorVer": "17"
-      }
+      },
+      "children": [
+        {
+          "match": "Doris\/1.10 * (Symbian)",
+          "properties": {
+            "Version": "1.10",
+            "MajorVer": "1",
+            "MinorVer": "10"
+          }
+        },
+        {
+          "match": "Doris\/1.15 * (Symbian)",
+          "properties": {
+            "Version": "1.15",
+            "MajorVer": "1",
+            "MinorVer": "15"
+          }
+        },
+        {
+          "match": "Doris\/1.17 * (Symbian)",
+          "properties": {
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
+          }
+        }
+      ]
     }
   ]
 }

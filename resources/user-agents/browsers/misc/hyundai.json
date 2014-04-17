@@ -25,13 +25,12 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "HyundaiHG9000\/1.0 *",
-      "properties": {
-        "Parent": "Hyundai"
-      }
+      },
+      "children": [
+        {
+          "match": "HyundaiHG9000\/1.0 *"
+        }
+      ]
     }
   ]
 }

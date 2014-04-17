@@ -17,205 +17,140 @@
         "Device_Name": "Motorola",
         "Device_Maker": "Motorola",
         "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-*\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-1*\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-8700_\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-A-0A\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-A-2B\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-A-88\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-C???\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-GATW_\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-L6\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-L7\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-M*\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-MP*\/* Mozilla\/* (compatible; MSIE *; Windows CE; *)",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "MOT-MP*\/* Mozilla\/4.0 (compatible; MSIE *; Windows CE; *)",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "MOT-SAP4_\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-T*\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-T7*\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-T721*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-TA02\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-V*\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-V*\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-V*\/* UP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-V3\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-V4*\/* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-* iTunes\/* MIB\/* Profile\/MIDP-* Configuration\/CLDC-*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-A760\/EZX_G_00.*",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Device_Code_Name": "A760",
-        "Device_Name": "A760"
-      }
-    },
-    {
-      "userAgent": "MOT-C* MIB\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser"
-      }
-    },
-    {
-      "userAgent": "MOT-C168\/ WAP.Browser\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Device_Code_Name": "C168",
-        "Device_Name": "C168"
-      }
-    },
-    {
-      "userAgent": "MOT-C168i\/*",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Device_Code_Name": "C168i",
-        "Device_Name": "C168i"
-      }
-    },
-    {
-      "userAgent": "MOT-MP*\/* Mozilla\/* (compatible*; MSIE *; Windows CE*)",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "MOT-MP*\/* Mozilla\/4.0 (compatible*; MSIE *; Windows CE*)",
-      "properties": {
-        "Parent": "Motorola Internet Browser",
-        "Browser_Bits": "32",
-        "Platform": "Windows Mobile OS",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Mobile Phone"
-      }
+      },
+      "children": [
+        {
+          "match": "MOT-*\/*"
+        },
+        {
+          "match": "MOT-1*\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-8700_\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-0A\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-2B\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-88\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-C???\/* MIB\/*"
+        },
+        {
+          "match": "MOT-GATW_\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-L6\/* MIB\/*"
+        },
+        {
+          "match": "MOT-L7\/* MIB\/*"
+        },
+        {
+          "match": "MOT-M*\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-MP*\/* Mozilla\/* (compatible; MSIE *; Windows CE; *)",
+          "properties": {
+            "Win32": "true"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "MOT-MP*\/* Mozilla\/4.0 (compatible; MSIE *; Windows CE; *)",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "MOT-SAP4_\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-T*\/*"
+        },
+        {
+          "match": "MOT-T7*\/* MIB\/*"
+        },
+        {
+          "match": "MOT-T721*"
+        },
+        {
+          "match": "MOT-TA02\/* MIB\/*"
+        },
+        {
+          "match": "MOT-V*\/*"
+        },
+        {
+          "match": "MOT-V*\/* MIB\/*"
+        },
+        {
+          "match": "MOT-V*\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-V3\/* MIB\/*"
+        },
+        {
+          "match": "MOT-V4*\/* MIB\/*"
+        },
+        {
+          "match": "MOT-* iTunes\/* MIB\/* Profile\/MIDP-* Configuration\/CLDC-*"
+        },
+        {
+          "match": "MOT-A760\/EZX_G_00.*",
+          "properties": {
+            "Device_Code_Name": "A760",
+            "Device_Name": "A760"
+          }
+        },
+        {
+          "match": "MOT-C* MIB\/*"
+        },
+        {
+          "match": "MOT-C168\/ WAP.Browser\/*",
+          "properties": {
+            "Device_Code_Name": "C168",
+            "Device_Name": "C168"
+          }
+        },
+        {
+          "match": "MOT-C168i\/*",
+          "properties": {
+            "Device_Code_Name": "C168i",
+            "Device_Name": "C168i"
+          }
+        },
+        {
+          "match": "MOT-MP*\/* Mozilla\/* (compatible*; MSIE *; Windows CE*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Windows Mobile OS",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Mobile Phone"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "MOT-MP*\/* Mozilla\/4.0 (compatible*; MSIE *; Windows CE*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Windows Mobile OS",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Mobile Phone"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
     }
   ]
 }

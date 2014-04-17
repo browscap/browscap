@@ -8,55 +8,51 @@
         "Parent": "Motorola Internet Browser",
         "Version": "1.0",
         "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "MOT-A668\/ WAP.Browser\/1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "A668",
-        "Device_Name": "A668"
-      }
-    },
-    {
-      "userAgent": "MOT-V690\/ WAP.Browser\/1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "V690",
-        "Device_Name": "V690"
-      }
-    },
-    {
-      "userAgent": "MOT-V868\/1.0 MIB1.2\/v1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "V868",
-        "Device_Name": "V868"
-      }
-    },
-    {
-      "userAgent": "MOT-V878\/ WAP.Browser\/1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "V878",
-        "Device_Name": "V878"
-      }
-    },
-    {
-      "userAgent": "MOT-W220\/ WAP.Browser\/1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "W220",
-        "Device_Name": "W220"
-      }
-    },
-    {
-      "userAgent": "MOT-W220\/1.0 Release\/6.30.2006 Browser\/CMCS1.0 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 1.0",
-        "Device_Code_Name": "W220",
-        "Device_Name": "W220"
-      }
+      },
+      "children": [
+        {
+          "match": "MOT-A668\/ WAP.Browser\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "A668",
+            "Device_Name": "A668"
+          }
+        },
+        {
+          "match": "MOT-V690\/ WAP.Browser\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "V690",
+            "Device_Name": "V690"
+          }
+        },
+        {
+          "match": "MOT-V868\/1.0 MIB1.2\/v1.0 *",
+          "properties": {
+            "Device_Code_Name": "V868",
+            "Device_Name": "V868"
+          }
+        },
+        {
+          "match": "MOT-V878\/ WAP.Browser\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "V878",
+            "Device_Name": "V878"
+          }
+        },
+        {
+          "match": "MOT-W220\/ WAP.Browser\/1.0 *",
+          "properties": {
+            "Device_Code_Name": "W220",
+            "Device_Name": "W220"
+          }
+        },
+        {
+          "match": "MOT-W220\/1.0 Release\/6.30.2006 Browser\/CMCS1.0 *",
+          "properties": {
+            "Device_Code_Name": "W220",
+            "Device_Name": "W220"
+          }
+        }
+      ]
     }
   ]
 }

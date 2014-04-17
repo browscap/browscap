@@ -1,17 +1,18 @@
 {
-  "division": "Opera Mini 1.0",
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": [1, "1.1"],
   "sortIndex": 2041,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mini 1.0",
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini 1.0",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
         "Browser": "Opera Mini",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -20,14 +21,15 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/1.*)*",
-      "properties": {
-        "Parent": "Opera Mini 1.0",
-        "Platform": "JAVA"
-      }
+      },
+      "children": [
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        }
+      ]
     }
   ]
 }

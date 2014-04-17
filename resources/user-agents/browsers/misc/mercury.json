@@ -35,48 +35,58 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mercury3\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mercury"
-      }
-    },
-    {
-      "userAgent": "Mercury3\/4.0* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mercury",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Mercury3\/4.1* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mercury",
-        "Version": "4.1",
-        "MajorVer": "4",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mercury3\/4.2* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mercury",
-        "Version": "4.2",
-        "MajorVer": "4",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mercury3\/4.3* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Mercury",
-        "Version": "4.3",
-        "MajorVer": "4",
-        "MinorVer": "3"
-      }
+      },
+      "children": [
+        {
+          "match": "Mercury3\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/4.0* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/4.1* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/4.2* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.2",
+            "MajorVer": "4",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/4.3* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.3",
+            "MajorVer": "4",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

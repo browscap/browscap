@@ -27,38 +27,26 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
-      "properties": {
-        "Parent": "QupZilla",
-        "Browser_Bits": "32",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/1.4* Safari\/*",
-      "properties": {
-        "Parent": "QupZilla",
-        "Browser_Bits": "32",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/1.4* Safari\/*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
+        }
+      ]
     }
   ]
 }

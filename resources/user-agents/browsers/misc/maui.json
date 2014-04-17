@@ -26,32 +26,24 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "MAUI WAP Browser MAUI WAP Browser",
-      "properties": {
-        "Parent": "MAUI"
-      }
-    },
-    {
-      "userAgent": "MAUI WAP Browser*",
-      "properties": {
-        "Parent": "MAUI"
-      }
-    },
-    {
-      "userAgent": "MAUI_WAP_Browser",
-      "properties": {
-        "Parent": "MAUI"
-      }
-    },
-    {
-      "userAgent": "MAUI?WAP?Browser Novarra-Vision\/8.0",
-      "properties": {
-        "Parent": "MAUI",
-        "Platform": "unknown"
-      }
+      },
+      "children": [
+        {
+          "match": "MAUI WAP Browser MAUI WAP Browser"
+        },
+        {
+          "match": "MAUI WAP Browser*"
+        },
+        {
+          "match": "MAUI_WAP_Browser"
+        },
+        {
+          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
+          "properties": {
+            "Platform": "unknown"
+          }
+        }
+      ]
     }
   ]
 }

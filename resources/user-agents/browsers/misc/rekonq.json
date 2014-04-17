@@ -29,21 +29,15 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
-      "properties": {
-        "Parent": "rekonq"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
-      "properties": {
-        "Parent": "rekonq",
-        "Browser_Bits": "64",
-        "Platform_Bits": "64"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) rekonq*Safari\/*",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64"
+          ]
+        }
+      ]
     }
   ]
 }

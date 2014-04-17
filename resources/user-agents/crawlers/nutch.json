@@ -114,14 +114,12 @@
         {
           "match": "Nutch test crawler\/Nutch*",
           "properties": {
-            "Parent": "Nutch",
             "Browser": "Nutch test crawler"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) Gecko\/* Firefox\/4.0*\/Nutch*",
           "properties": {
-            "Parent": "Nutch",
             "Division": "Nutch",
             "Browser": "Nutch test crawler",
             "Browser_Bits": "32",

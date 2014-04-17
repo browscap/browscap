@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "HS",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
@@ -27,25 +27,18 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "HS-G768\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "HS"
-      }
-    },
-    {
-      "userAgent": "HS-G769\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "HS"
-      }
-    },
-    {
-      "userAgent": "HS-G770\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "HS"
-      }
+      },
+      "children": [
+        {
+          "match": "HS-G768\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        },
+        {
+          "match": "HS-G769\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        },
+        {
+          "match": "HS-G770\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        }
+      ]
     }
   ]
 }

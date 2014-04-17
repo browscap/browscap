@@ -9,10 +9,10 @@
         "Comment": "Online Scanners",
         "Browser": "Online Scanners",
         "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {

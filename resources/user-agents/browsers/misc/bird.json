@@ -10,47 +10,45 @@
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "BIRD.D220\/SW3.09.1015\/WAP2.0 *",
-      "properties": {
-        "Parent": "BIRD",
-        "Device_Code_Name": "D220",
-        "Device_Maker": "BIRD",
-        "Device_Brand_Name": "BIRD",
-        "Device_Name": "D220"
-      }
-    },
-    {
-      "userAgent": "BIRD.S580\/3.03\/WAP1.2.1",
-      "properties": {
-        "Parent": "BIRD",
-        "Device_Code_Name": "S580",
-        "Device_Maker": "BIRD",
-        "Device_Brand_Name": "BIRD",
-        "Device_Name": "S580"
-      }
-    },
-    {
-      "userAgent": "BIRD_D660\/V1.0.0\/2.0 *",
-      "properties": {
-        "Parent": "BIRD",
-        "Device_Code_Name": "D660",
-        "Device_Maker": "BIRD",
-        "Device_Brand_Name": "BIRD",
-        "Device_Name": "D660"
-      }
-    },
-    {
-      "userAgent": "BIRD_D716\/V1.0.0\/2.0 *",
-      "properties": {
-        "Parent": "BIRD",
-        "Device_Code_Name": "D716",
-        "Device_Maker": "BIRD",
-        "Device_Brand_Name": "BIRD",
-        "Device_Name": "D716"
-      }
+      },
+      "children": [
+        {
+          "match": "BIRD.D220\/SW3.09.1015\/WAP2.0 *",
+          "properties": {
+            "Device_Code_Name": "D220",
+            "Device_Maker": "BIRD",
+            "Device_Brand_Name": "BIRD",
+            "Device_Name": "D220"
+          }
+        },
+        {
+          "match": "BIRD.S580\/3.03\/WAP1.2.1",
+          "properties": {
+            "Device_Code_Name": "S580",
+            "Device_Maker": "BIRD",
+            "Device_Brand_Name": "BIRD",
+            "Device_Name": "S580"
+          }
+        },
+        {
+          "match": "BIRD_D660\/V1.0.0\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "D660",
+            "Device_Maker": "BIRD",
+            "Device_Brand_Name": "BIRD",
+            "Device_Name": "D660"
+          }
+        },
+        {
+          "match": "BIRD_D716\/V1.0.0\/2.0 *",
+          "properties": {
+            "Device_Code_Name": "D716",
+            "Device_Maker": "BIRD",
+            "Device_Brand_Name": "BIRD",
+            "Device_Name": "D716"
+          }
+        }
+      ]
     }
   ]
 }

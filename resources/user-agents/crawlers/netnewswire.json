@@ -15,11 +15,11 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {

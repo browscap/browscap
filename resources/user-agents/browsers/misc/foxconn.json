@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "Foxconn",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
@@ -25,13 +25,12 @@
         "CssVersion": "2",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Foxconn D910.0.3.53 FS_D910.0.2.48_DTC",
-      "properties": {
-        "Parent": "Foxconn"
-      }
+      },
+      "children": [
+        {
+          "match": "Foxconn D910.0.3.53 FS_D910.0.2.48_DTC"
+        }
+      ]
     }
   ]
 }

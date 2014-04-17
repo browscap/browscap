@@ -35,31 +35,37 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Terra\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Terra"
-      }
-    },
-    {
-      "userAgent": "Terra\/1.1* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Terra",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Terra\/1.2* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Terra",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "Terra\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Terra\/1.1* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Terra\/1.2* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }
