@@ -8,13 +8,12 @@
         "Parent": "DefaultProperties",
         "Browser": "ATTWS",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "ATTWS\/2.0 N515i-10(c100;TB)",
-      "properties": {
-        "Parent": "ATTWS"
-      }
+      },
+      "children": [
+        {
+          "match": "ATTWS\/2.0 N515i-10(c100;TB)"
+        }
+      ]
     }
   ]
 }

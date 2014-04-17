@@ -29,27 +29,32 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Version": "",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
-      "properties": {
-        "Parent": "WhatsApp",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone"
-      }
-    },
-    {
-      "userAgent": "WhatsApp\/2.6* iPhone_OS\/5.0* Device\/iPhone*",
-      "properties": {
-        "Parent": "WhatsApp",
-        "Version": "2.6",
-        "MajorVer": "2",
-        "MinorVer": "6",
-        "Platform_Version": "5.0",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone"
-      }
+      },
+      "children": [
+        {
+          "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
+          "properties": {
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone"
+          },
+          "platforms": [
+            "iOS_H", "iOS_H_5_0"
+          ]
+        },
+        {
+          "match": "WhatsApp\/2.6* iPhone_OS\/* Device\/iPhone*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone"
+          },
+          "platforms": [
+            "iOS_H", "iOS_H_5_0"
+          ]
+        }
+      ]
     }
   ]
 }

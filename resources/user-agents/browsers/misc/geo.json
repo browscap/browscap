@@ -25,13 +25,12 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "GEO GC800 *",
-      "properties": {
-        "Parent": "GEO"
-      }
+      },
+      "children": [
+        {
+          "match": "GEO GC800 *"
+        }
+      ]
     }
   ]
 }

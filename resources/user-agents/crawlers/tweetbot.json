@@ -6,8 +6,6 @@
       "userAgent": "Tweetbot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -33,26 +31,20 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Tweetbot\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Tweetbot"
-      }
-    },
-    {
-      "userAgent": "Tweetbot\/* CFNetwork\/548.1* Darwin\/11.0*",
-      "properties": {
-        "Parent": "Tweetbot",
-        "Platform_Version": "11.0",
-        "RenderingEngine_Version": "548.1"
-      }
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Tweetbot\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

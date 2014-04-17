@@ -7,7 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Mozilla Foundation",
-        "Platform": "Mac OS X",
+        "Platform": "MacOSX",
         "Platform_Version": "10",
         "Platform_Maker": "Apple Inc",
         "JavaApplets": "true",
@@ -25,20 +25,21 @@
         "JavaScript": "true",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Chimera\/*",
-      "properties": {
-        "Parent": "Chimera",
-        "Platform": "MacOSX"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 Gecko\/* Chimera\/*",
-      "properties": {
-        "Parent": "Chimera"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Chimera\/*",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 Gecko\/* Chimera\/*",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
     }
   ]
 }

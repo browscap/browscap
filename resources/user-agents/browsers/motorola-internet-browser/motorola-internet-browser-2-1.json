@@ -9,15 +9,16 @@
         "Version": "2.1",
         "MajorVer": "2",
         "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "MOT-A820\/00.00.00 MIB\/2.1 *",
-      "properties": {
-        "Parent": "Motorola Internet Browser 2.1",
-        "Device_Code_Name": "A820",
-        "Device_Name": "A820"
-      }
+      },
+      "children": [
+        {
+          "match": "MOT-A820\/00.00.00 MIB\/2.1 *",
+          "properties": {
+            "Device_Code_Name": "A820",
+            "Device_Name": "A820"
+          }
+        }
+      ]
     }
   ]
 }

@@ -25,13 +25,12 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "MobileExplorer\/3.00 (Mozilla\/1.22; compatible;*",
-      "properties": {
-        "Parent": "MobileExplorer"
-      }
+      },
+      "children": [
+        {
+          "match": "MobileExplorer\/3.00 (Mozilla\/1.22; compatible;*"
+        }
+      ]
     }
   ]
 }

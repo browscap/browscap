@@ -15,39 +15,37 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
-      "properties": {
-        "Parent": "Nokia Browser 7.1",
-        "Device_Code_Name": "E55",
-        "Device_Name": "E55"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
-      "properties": {
-        "Parent": "Nokia Browser 7.1",
-        "Device_Code_Name": "N86",
-        "Device_Name": "N86"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
-      "properties": {
-        "Parent": "Nokia Browser 7.1",
-        "Device_Code_Name": "N97",
-        "Device_Name": "N97"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
-      "properties": {
-        "Parent": "Nokia Browser 7.1",
-        "Device_Code_Name": "N97",
-        "Device_Name": "N97"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
+          "properties": {
+            "Device_Code_Name": "E55",
+            "Device_Name": "E55"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
+          "properties": {
+            "Device_Code_Name": "N86",
+            "Device_Name": "N86"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
+          "properties": {
+            "Device_Code_Name": "N97",
+            "Device_Name": "N97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
+          "properties": {
+            "Device_Code_Name": "N97",
+            "Device_Name": "N97"
+          }
+        }
+      ]
     }
   ]
 }

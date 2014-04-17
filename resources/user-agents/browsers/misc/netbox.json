@@ -18,14 +18,15 @@
         "Device_Name": "Netbox",
         "Device_Maker": "Sony",
         "Device_Type": "TV Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
-      "properties": {
-        "Parent": "Netbox",
-        "Platform": "Linux"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
+          "properties": {
+            "Platform": "Linux"
+          }
+        }
+      ]
     }
   ]
 }

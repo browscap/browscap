@@ -26,48 +26,42 @@
         "RenderingEngine_Name": "KHTML",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Konqueror."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; *Linux*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#",
-        "Platform": "Linux"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#",
-        "Platform": "Debian"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#",
-        "Platform": "FreeBSD"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#",
-        "Platform": "NetBSD"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
-      "properties": {
-        "Parent": "Konqueror #MAJORVER#.#MINORVER#",
-        "Platform": "Win"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; *Linux*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "properties": {
+            "Platform": "Linux"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "properties": {
+            "Platform": "Debian"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "properties": {
+            "Platform": "FreeBSD"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "properties": {
+            "Platform": "NetBSD"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
+          "properties": {
+            "Platform": "Win32"
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,29 +1,61 @@
 {
-  "division": "Incredimail 1.0",
+  "division": "Incredimail #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 1670,
   "userAgents": [
     {
-      "userAgent": "Incredimail 1.0",
+      "userAgent": "Incredimail #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Incredimail",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Incredimail 1.0* rv:* (iPad; iPhone OS 6.1*)",
-      "properties": {
-        "Parent": "Incredimail 1.0",
-        "Platform": "iOS",
-        "Platform_Version": "6.1",
-        "Platform_Maker": "Apple Inc",
-        "isMobileDevice": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "iPad"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Incredimail #MAJORVER#.#MINORVER#",
+        "Browser": "Incredimail",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Email Client",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Mobile Device",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc"
+      },
+      "children": [
+        {
+          "match": "Incredimail #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "iOS_E", "iOS_E_6_1"
+          ]
+        },
+        {
+          "match": "Incredimail #MAJORVER#.#MINORVER#* (iPad; #PLATFORM#",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "iOS_E", "iOS_E_6_1"
+          ]
+        }
+      ]
     }
   ]
 }

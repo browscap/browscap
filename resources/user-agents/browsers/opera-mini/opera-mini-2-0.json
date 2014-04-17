@@ -20,46 +20,43 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Android*Opera Mini\/2.*)*",
-      "properties": {
-        "Parent": "Opera Mini 2.0",
-        "Platform": "Android",
-        "Device_Name": "Android",
-        "Device_Maker": "Google"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(BlackBerry*Opera Mini\/2.*)*",
-      "properties": {
-        "Parent": "Opera Mini 2.0",
-        "Platform": "RIM OS",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "RIM"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(J2ME\/MIDP*Opera Mini\/2.*)*",
-      "properties": {
-        "Parent": "Opera Mini 2.0",
-        "Platform": "JAVA"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Series 60*Opera Mini\/2.*)*",
-      "properties": {
-        "Parent": "Opera Mini 2.0",
-        "Platform": "SymbianOS"
-      }
-    },
-    {
-      "userAgent": "Opera\/*(Windows Mobile*Opera Mini\/2.*)*",
-      "properties": {
-        "Parent": "Opera Mini 2.0",
-        "Platform": "WinMobile"
-      }
+      },
+      "children": [
+        {
+          "match": "Opera\/*(Android*Opera Mini\/2.*)*",
+          "properties": {
+            "Platform": "Android",
+            "Device_Name": "Android",
+            "Device_Maker": "Google"
+          }
+        },
+        {
+          "match": "Opera\/*(BlackBerry*Opera Mini\/2.*)*",
+          "properties": {
+            "Platform": "RIM OS",
+            "Device_Name": "Blackberry",
+            "Device_Maker": "RIM"
+          }
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/2.*)*",
+          "properties": {
+            "Platform": "JAVA"
+          }
+        },
+        {
+          "match": "Opera\/*(Series 60*Opera Mini\/2.*)*",
+          "properties": {
+            "Platform": "SymbianOS"
+          }
+        },
+        {
+          "match": "Opera\/*(Windows Mobile*Opera Mini\/2.*)*",
+          "properties": {
+            "Platform": "WinMobile"
+          }
+        }
+      ]
     }
   ]
 }

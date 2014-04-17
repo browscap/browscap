@@ -8,20 +8,15 @@
         "Parent": "Googlebot",
         "Version": "1.0",
         "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Google\/1.* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Googlebot 1.0",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
+      },
+      "children": [
+        {
+          "match": "Google\/1.* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     },
     {
       "userAgent": "*Googlebot\/1.*",

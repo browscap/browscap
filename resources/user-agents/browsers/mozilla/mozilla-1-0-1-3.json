@@ -26,13 +26,12 @@
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#.*) Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla #MAJORVER#.#MINORVER#"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#.*) Gecko\/*"
+        }
+      ]
     }
   ]
 }

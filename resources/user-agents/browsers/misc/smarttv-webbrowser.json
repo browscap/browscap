@@ -24,15 +24,16 @@
         "Crawler": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Phone"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
-      "properties": {
-        "Parent": "SmartTV WebBrowser",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        }
+      ]
     }
   ]
 }

@@ -18,124 +18,114 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Arexx (compatible; MSIE 6.0; AmigaOS5.0) IBrowse 4.0",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/1.22 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "1.22",
-        "MajorVer": "1",
-        "MinorVer": "22"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/2.1 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/2.2 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/2.3 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.1 (AmigaOS 3.1)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1",
-        "Platform_Version": "98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.2 (AmigaOS 3.1)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2",
-        "Platform_Version": "98"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (Win98; I) IBrowse\/2.3 (AmigaOS 3.1)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.3",
-        "MajorVer": "2",
-        "MinorVer": "3",
-        "Platform_Version": "98"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/2.4 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.4",
-        "MajorVer": "2",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "IBrowse\/2.5 (AmigaOS *)",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.5",
-        "MajorVer": "2",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "iBrowse\/2.60 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "2.6",
-        "MajorVer": "2",
-        "MinorVer": "6",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "Arexx (*compatible*;*MSIE 6.0; AmigaOS5.0) IBrowse 4.0",
-      "properties": {
-        "Parent": "IBrowse",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "Arexx (compatible; MSIE 6.0; AmigaOS5.0) IBrowse 4.0",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "IBrowse\/1.22 (AmigaOS *)",
+          "properties": {
+            "Version": "1.22",
+            "MajorVer": "1",
+            "MinorVer": "22"
+          }
+        },
+        {
+          "match": "IBrowse\/2.1 (AmigaOS *)",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "IBrowse\/2.2 (AmigaOS *)",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "IBrowse\/2.3 (AmigaOS *)",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/* (Win98; I) IBrowse\/2.1 (AmigaOS 3.1)",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1",
+            "Platform_Version": "98"
+          }
+        },
+        {
+          "match": "Mozilla\/* (Win98; I) IBrowse\/2.2 (AmigaOS 3.1)",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2",
+            "Platform_Version": "98"
+          }
+        },
+        {
+          "match": "Mozilla\/* (Win98; I) IBrowse\/2.3 (AmigaOS 3.1)",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3",
+            "Platform_Version": "98"
+          }
+        },
+        {
+          "match": "IBrowse\/2.4 (AmigaOS *)",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "IBrowse\/2.5 (AmigaOS *)",
+          "properties": {
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "iBrowse\/2.60 CFNetwork\/* Darwin\/*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6",
+            "Platform": "Darwin",
+            "Platform_Maker": "Apple Inc",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Name": "Macintosh"
+          }
+        },
+        {
+          "match": "Arexx (*compatible*;*MSIE 6.0; AmigaOS5.0) IBrowse 4.0",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4"
+          }
+        }
+      ]
     }
   ]
 }

@@ -22,19 +22,23 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Version": "530.17",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh*Mac OS X 10_5*)*AppleWebKit\/530.17*(KHTML, like Gecko)*Version\/*Safari\/*Skyfire\/2.*",
-      "properties": {
-        "Parent": "Skyfire",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0",
-        "Platform": "MacOSX",
-        "Platform_Version": "10.5",
-        "isMobileDevice": "false"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/530.17*(KHTML, like Gecko)*Version\/*Safari\/*Skyfire\/2.*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0",
+            "Platform": "MacOSX",
+            "Platform_Version": "10.5",
+            "isMobileDevice": "false"
+          },
+          "platforms": [
+            "OSX", "OSX_10_5_A"
+          ]
+        }
+      ]
     }
   ]
 }

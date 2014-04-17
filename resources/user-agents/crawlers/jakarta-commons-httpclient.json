@@ -9,10 +9,10 @@
         "Browser": "Jakarta Commons HttpClient",
         "Browser_Type": "Library",
         "Browser_Maker": "Apache Software Foundation",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {

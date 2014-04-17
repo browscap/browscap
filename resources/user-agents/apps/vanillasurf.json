@@ -35,22 +35,26 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc"
-      }
-    },
-    {
-      "userAgent": "VanillaSurf* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "VanillaSurf"
-      }
-    },
-    {
-      "userAgent": "VanillaSurf\/2.1 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "VanillaSurf",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "VanillaSurf* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "VanillaSurf\/2.1 CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

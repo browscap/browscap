@@ -35,15 +35,14 @@
             "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64", "OSX",
             "OpenBSD", "SunOS", "Win3.1", "Win3.11", "Win95", "Win98", "WinME", "NT4_2", "Win2000", "WinXPa_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "properties": {
+            "Win32": "false"
+          }
         }
       ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
-      "properties": {
-        "Parent": "Mozilla #MAJORVER#.#MINORVER#",
-        "Win32": "false"
-      }
     }
   ]
 }

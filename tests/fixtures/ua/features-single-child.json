@@ -9,9 +9,11 @@
         "Comment": "UA",
         "Browser": "UA"
       },
-      "children": {
-        "match": "UA String"
-      }
+      "children": [
+        {
+          "match": "UA String"
+        }
+      ]
     }
   ]
 }

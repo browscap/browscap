@@ -26,13 +26,12 @@
         "Crawler": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "FLY-MX200",
-      "properties": {
-        "Parent": "FLY"
-      }
+      },
+      "children": [
+        {
+          "match": "FLY-MX200"
+        }
+      ]
     }
   ]
 }

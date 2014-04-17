@@ -28,17 +28,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device"
-      }
-    },
-    {
-      "userAgent": "MOT-ZN5\/R6637_G_81.03.0?R Mozilla\/4.0 (compatible; OSS\/1.0; Linux MOTOZINE ZN5) * Symphony 1.0*",
-      "properties": {
-        "Parent": "Symphony Browser 1.0",
-        "Device_Code_Name": "ZN5",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Name": "ZN5"
-      }
+      },
+      "children": [
+        {
+          "match": "MOT-ZN5\/R6637_G_81.03.0?R Mozilla\/4.0 (compatible; OSS\/1.0; Linux MOTOZINE ZN5) * Symphony 1.0*",
+          "properties": {
+            "Device_Code_Name": "ZN5",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "ZN5"
+          }
+        }
+      ]
     }
   ]
 }

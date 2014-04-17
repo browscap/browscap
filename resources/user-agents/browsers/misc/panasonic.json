@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "Panasonic",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
@@ -24,67 +24,39 @@
         "Crawler": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Panasonic-A500\/R1*",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-GAD87\/A*",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X200\/R01 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X200P\/RP1 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X400\/R01 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X60\/R01 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X66 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X68*",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X70\/1.0 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
-    },
-    {
-      "userAgent": "Panasonic-X70\/A00 *",
-      "properties": {
-        "Parent": "Panasonic"
-      }
+      },
+      "children": [
+        {
+          "match": "Panasonic-A500\/R1*"
+        },
+        {
+          "match": "Panasonic-GAD87\/A*"
+        },
+        {
+          "match": "Panasonic-X200\/R01 *"
+        },
+        {
+          "match": "Panasonic-X200P\/RP1 *"
+        },
+        {
+          "match": "Panasonic-X400\/R01 *"
+        },
+        {
+          "match": "Panasonic-X60\/R01 *"
+        },
+        {
+          "match": "Panasonic-X66 *"
+        },
+        {
+          "match": "Panasonic-X68*"
+        },
+        {
+          "match": "Panasonic-X70\/1.0 *"
+        },
+        {
+          "match": "Panasonic-X70\/A00 *"
+        }
+      ]
     }
   ]
 }

@@ -6,8 +6,6 @@
       "userAgent": "DBTEL",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -29,19 +27,15 @@
         "Device_Type": "Mobile Device",
         "Browser": "DBTEL",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "DBTEL-M50\/1.0 *",
-      "properties": {
-        "Parent": "DBTEL"
-      }
-    },
-    {
-      "userAgent": "DBTEL\/2092_S Ares.Browser\/02.02",
-      "properties": {
-        "Parent": "DBTEL"
-      }
+      },
+      "children": [
+        {
+          "match": "DBTEL-M50\/1.0 *"
+        },
+        {
+          "match": "DBTEL\/2092_S Ares.Browser\/02.02"
+        }
+      ]
     }
   ]
 }

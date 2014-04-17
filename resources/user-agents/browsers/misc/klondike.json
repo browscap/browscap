@@ -25,13 +25,12 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "unknown"
-      }
-    },
-    {
-      "userAgent": "Klondike\/1.?0 (*)",
-      "properties": {
-        "Parent": "Klondike"
-      }
+      },
+      "children": [
+        {
+          "match": "Klondike\/1.?0 (*)"
+        }
+      ]
     }
   ]
 }

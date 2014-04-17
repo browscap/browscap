@@ -1,13 +1,17 @@
 {
-  "division": "Adobe AIR",
+  "division": "Adobe AIR #MAJORVER#.#MINORVER#",
+  "versions": ["2.7", "3.8"],
   "sortIndex": 2060,
   "userAgents": [
     {
-      "userAgent": "Adobe AIR",
+      "userAgent": "Adobe AIR #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
+        "Comment": "Adobe AIR #MAJORVER#.#MINORVER#",
+        "Browser": "Adobe AIR",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -26,38 +30,24 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Desktop",
-        "Browser": "Adobe AIR",
         "Frames": "true",
         "Tables": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Linux i686; *) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/2.7*",
-      "properties": {
-        "Parent": "Adobe AIR",
-        "Browser_Bits": "32",
-        "Version": "2.7",
-        "MajorVer": "2",
-        "MinorVer": "7",
-        "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows*) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/3.8*",
-      "properties": {
-        "Parent": "Adobe AIR",
-        "Browser_Bits": "32",
-        "Version": "3.8",
-        "MajorVer": "3",
-        "MinorVer": "8",
-        "Platform": "Win32",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7",
+            "Platform_Bits": "32"
+          },
+          "platforms": [
+            "Linux_32", "Win32_B"
+          ]
+        }
+      ]
     }
   ]
 }

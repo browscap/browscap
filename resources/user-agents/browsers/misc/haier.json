@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "Haier",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
@@ -27,43 +27,27 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "HAIER-N60*",
-      "properties": {
-        "Parent": "Haier"
-      }
-    },
-    {
-      "userAgent": "HAIER-N90\/WAP1.2.1 *",
-      "properties": {
-        "Parent": "Haier"
-      }
-    },
-    {
-      "userAgent": "HAIER-V8810\/(2005.05.13)SW02\/WAP2.0 *",
-      "properties": {
-        "Parent": "Haier"
-      }
-    },
-    {
-      "userAgent": "Haier-M230\/(2005.08.18))1.0\/WAP2.0",
-      "properties": {
-        "Parent": "Haier"
-      }
-    },
-    {
-      "userAgent": "Haier-M61\/(2005.08.18)1.0\/WAP2.0",
-      "properties": {
-        "Parent": "Haier"
-      }
-    },
-    {
-      "userAgent": "Haier-P7*",
-      "properties": {
-        "Parent": "Haier"
-      }
+      },
+      "children": [
+        {
+          "match": "HAIER-N60*"
+        },
+        {
+          "match": "HAIER-N90\/WAP1.2.1 *"
+        },
+        {
+          "match": "HAIER-V8810\/(2005.05.13)SW02\/WAP2.0 *"
+        },
+        {
+          "match": "Haier-M230\/(2005.08.18))1.0\/WAP2.0"
+        },
+        {
+          "match": "Haier-M61\/(2005.08.18)1.0\/WAP2.0"
+        },
+        {
+          "match": "Haier-P7*"
+        }
+      ]
     }
   ]
 }

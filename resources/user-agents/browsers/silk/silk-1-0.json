@@ -27,35 +27,51 @@
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10*Silk\/#MAJORVER#.*) AppleWebKit\/533.16 (KHTML, like Gecko) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.16"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/533.1 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/533.1 Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "RenderingEngine_Version": "533.1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/533.1 Silk-Accelerated=*",
-      "properties": {
-        "Parent": "Silk #MAJORVER#.#MINORVER#",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/#MAJORVER#.*) AppleWebKit\/533.16 (KHTML, like Gecko) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "RenderingEngine_Version": "533.16"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/533.1 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/533.1 Silk-Accelerated=*",
+          "properties": {
+            "RenderingEngine_Version": "533.1",
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/533.1 Silk-Accelerated=*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          },
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
     }
   ]
 }

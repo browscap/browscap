@@ -25,19 +25,15 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "kejian-k368*",
-      "properties": {
-        "Parent": "kejian"
-      }
-    },
-    {
-      "userAgent": "kejian-k606*",
-      "properties": {
-        "Parent": "kejian"
-      }
+      },
+      "children": [
+        {
+          "match": "kejian-k368*"
+        },
+        {
+          "match": "kejian-k606*"
+        }
+      ]
     }
   ]
 }
