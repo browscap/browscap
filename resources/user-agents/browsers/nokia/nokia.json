@@ -44,7 +44,7 @@
         "Platform": "SymbianOS",
         "Platform_Version": "9.4",
         "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Version": "525",
+        "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       }
     },
@@ -54,7 +54,7 @@
         "Parent": "Nokia",
         "Platform": "JAVA",
         "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Version": "525",
+        "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Device_Name": "7230",
         "Device_Maker": "Nokia"

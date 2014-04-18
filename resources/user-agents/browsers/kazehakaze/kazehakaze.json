@@ -29,7 +29,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Kazehakase\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Description": "For Lunascape, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+            "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+            "RenderingEngine_Maker": "Mozilla Foundation"
           },
           "platforms": [
             "Linux", "Linux_32"

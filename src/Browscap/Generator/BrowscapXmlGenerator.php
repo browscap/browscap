@@ -96,6 +96,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
             $this->createItem($dom, $browscapitem, 'LiteMode', $valueOutput);
+            unset($valueOutput);
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
@@ -111,6 +112,8 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             $items->appendChild($browscapitem);
         }
+        
+        unset($allDivisions, $allProperties, $counter, $key, $properties, $property);
 
         $xmlRoot->appendChild($items);
         $dom->appendChild($xmlRoot);
