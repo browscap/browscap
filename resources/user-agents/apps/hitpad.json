@@ -35,32 +35,26 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Hitpad* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Hitpad"
-      }
-    },
-    {
-      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Hitpad",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Hitpad\/1.4* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Hitpad",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4",
-        "Platform_Version": "11.0"
-      }
+      },
+      "children": [
+        {
+          "match": "Hitpad* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Hitpad\/1.4* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

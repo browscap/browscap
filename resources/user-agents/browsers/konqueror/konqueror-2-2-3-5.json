@@ -1,0 +1,56 @@
+{
+  "division": "Konqueror #MAJORVER#.#MINORVER#",
+  "versions": ["2.2", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
+  "sortIndex": 2490,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror #MAJORVER#.#MINORVER#",
+        "Browser": "Konqueror",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "false",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Device_Pointing_Method": "mouse",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Description": "For Konqueror."
+      },
+      "children": [
+        {
+          "match": "*Konqueror\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "*Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "FreeBSD", "Linux", "OpenBSD"
+          ]
+        }
+      ]
+    }
+  ]
+}

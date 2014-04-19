@@ -18,16 +18,17 @@
         "Device_Name": "PowerTV",
         "Device_Maker": "Scientific Atlanta",
         "Device_Type": "TV Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 PowerTV\/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
-      "properties": {
-        "Parent": "PowerTV",
-        "Version": "1.5",
-        "MajorVer": "1",
-        "MinorVer": "5"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 PowerTV\/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
+          "properties": {
+            "Version": "1.5",
+            "MajorVer": "1",
+            "MinorVer": "5"
+          }
+        }
+      ]
     }
   ]
 }

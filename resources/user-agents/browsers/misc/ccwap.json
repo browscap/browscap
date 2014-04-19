@@ -7,16 +7,15 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ccWAP",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "ccWAP-Browser",
-      "properties": {
-        "Parent": "ccWAP"
-      }
+      },
+      "children": [
+        {
+          "match": "ccWAP-Browser"
+        }
+      ]
     }
   ]
 }

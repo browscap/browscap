@@ -10,12 +10,12 @@
         "Browser_Maker": "Ahrefs Inc"
       }
     },
-      {
-          "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
-          "properties": {
-              "Parent": "AhrefsBot"
-          }
-      },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
+      "properties": {
+        "Parent": "AhrefsBot"
+      }
+    },
     {
       "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
       "properties": {

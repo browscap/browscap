@@ -9,115 +9,63 @@
         "Version": "7.1",
         "MajorVer": "7",
         "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Alcatel-M5\/1.0 UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "Alcatel-OT-C551\/1.0 UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "Alcatel-OT-C552\/1.0 UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "Alcatel-OT-C552a\/1.0 UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "Bird.D610\/LP,A06\/WAP2.0\/* Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SAGEM-my400V\/2.0\/* Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SAGEM-my501C\/1.0 * Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SAGEM-my700x\/1.0 * Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myV-76\/1.0 * Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SAGEM-myX6-2\/1.0 * Browser\/UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-C81\/3? UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-E71\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-EL71\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-M81\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-S68\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-S75\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-S75\/12 UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
-    },
-    {
-      "userAgent": "SIE-SL75\/* UP.Browser\/7.1*",
-      "properties": {
-        "Parent": "Openwave Mobile Browser 7.1"
-      }
+      },
+      "children": [
+        {
+          "match": "Alcatel-M5\/1.0 UP.Browser\/7.1*"
+        },
+        {
+          "match": "Alcatel-OT-C551\/1.0 UP.Browser\/7.1*"
+        },
+        {
+          "match": "Alcatel-OT-C552\/1.0 UP.Browser\/7.1*"
+        },
+        {
+          "match": "Alcatel-OT-C552a\/1.0 UP.Browser\/7.1*"
+        },
+        {
+          "match": "Bird.D610\/LP,A06\/WAP2.0\/* Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SAGEM-my400V\/2.0\/* Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SAGEM-my501C\/1.0 * Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SAGEM-my700x\/1.0 * Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SAGEM-myV-76\/1.0 * Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SAGEM-myX6-2\/1.0 * Browser\/UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-C81\/3? UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-E71\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-EL71\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-M81\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-S68\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-S75\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-S75\/12 UP.Browser\/7.1*"
+        },
+        {
+          "match": "SIE-SL75\/* UP.Browser\/7.1*"
+        }
+      ]
     }
   ]
 }

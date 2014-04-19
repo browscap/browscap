@@ -18,13 +18,12 @@
         "isMobileDevice": "true",
         "CssVersion": "1",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "*SEMC-Browser\/*",
-      "properties": {
-        "Parent": "SEMC Browser"
-      }
+      },
+      "children": [
+        {
+          "match": "*SEMC-Browser\/*"
+        }
+      ]
     }
   ]
 }

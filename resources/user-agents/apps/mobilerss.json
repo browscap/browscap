@@ -34,22 +34,28 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "MobileRSS* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "MobileRSS"
-      }
-    },
-    {
-      "userAgent": "MobileRSS*-iPad* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "MobileRSS",
-        "Platform": "iOS",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone"
-      }
+      },
+      "children": [
+        {
+          "match": "MobileRSS* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "MobileRSS*-iPad* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

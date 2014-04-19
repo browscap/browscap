@@ -8,11 +8,11 @@
         "Parent": "DefaultProperties",
         "Browser": "Fake Browser",
         "Comment": "Fake Browser",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {

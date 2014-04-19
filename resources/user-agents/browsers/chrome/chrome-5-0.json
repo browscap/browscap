@@ -45,6 +45,17 @@
             "Linux", "Linux_32",
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
+          "properties": {
+            "Device_Name": "GoogleTV",
+            "Device_Maker": "Google",
+            "Device_Type": "TV Device"
+          },
+          "platforms": [
+            "Linux", "Linux_32"
+          ]
         }
       ]
     }

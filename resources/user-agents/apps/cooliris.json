@@ -6,8 +6,6 @@
       "userAgent": "Cooliris",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -38,49 +36,59 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Cooliris* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Cooliris"
-      }
-    },
-    {
-      "userAgent": "Cooliris?1.2 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Cooliris",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Cooliris?1.3 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Cooliris",
-        "Version": "1.3",
-        "MajorVer": "1",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "Cooliris?1.4 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Cooliris",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Cooliris?1.5 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Cooliris",
-        "Version": "1.5",
-        "MajorVer": "1",
-        "MinorVer": "5"
-      }
+      },
+      "children": [
+        {
+          "match": "Cooliris* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Cooliris?1.2 CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Cooliris?1.3 CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Cooliris?1.4 CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Cooliris?1.5 CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.5",
+            "MajorVer": "1",
+            "MinorVer": "5"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

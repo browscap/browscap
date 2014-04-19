@@ -13,26 +13,21 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "Y!%20Messenger\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     },
     {
       "userAgent": "Mozilla\/4.0 (compatible; Y!J; for robot study*)",
       "properties": {
         "Parent": "Yahoo",
         "Browser": "Y!J"
-      }
-    },
-    {
-      "userAgent": "Y!%20Messenger\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Yahoo",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
       }
     },
     {

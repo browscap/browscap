@@ -10,13 +10,12 @@
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
-      }
-    },
-    {
-      "userAgent": "BenQ P31\/R101 *",
-      "properties": {
-        "Parent": "BenQ"
-      }
+      },
+      "children": [
+        {
+          "match": "BenQ P31\/R101 *"
+        }
+      ]
     }
   ]
 }

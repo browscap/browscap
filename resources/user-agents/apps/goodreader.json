@@ -35,47 +35,68 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "GoodReader\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "GoodReader"
-      }
-    },
-    {
-      "userAgent": "GoodReaderIPad\/2.8* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "GoodReader",
-        "Version": "2.8",
-        "MajorVer": "2",
-        "MinorVer": "8",
-        "isMobileDevice": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad"
-      }
-    },
-    {
-      "userAgent": "GoodReaderIPad\/3.0* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "GoodReader",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "isMobileDevice": "true",
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "iPad",
-        "Device_Name": "iPad"
-      }
-    },
-    {
-      "userAgent": "GoodReader\/3.2* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "GoodReader",
-        "Version": "3.2",
-        "MajorVer": "3",
-        "MinorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "GoodReader\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "GoodReader\/3.2* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "GoodReaderIPad\/* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "GoodReaderIPad\/2.8* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8",
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "GoodReaderIPad\/3.0* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0",
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

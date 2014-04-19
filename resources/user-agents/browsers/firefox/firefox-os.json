@@ -34,33 +34,27 @@
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation",
         "Platform": "FirefoxOS"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
-        "Device_Type": "Tablet"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-      "properties": {
-        "Parent": "FirefoxOS #MAJORVER#.#MINORVER#",
-        "Device_Type": "Tablet"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
+        },
+        {
+          "match": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
+        },
+        {
+          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "properties": {
+            "Device_Type": "Tablet"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "properties": {
+            "Device_Type": "Tablet"
+          }
+        }
+      ]
     }
   ]
 }

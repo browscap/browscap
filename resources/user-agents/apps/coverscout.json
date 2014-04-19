@@ -6,8 +6,6 @@
       "userAgent": "CoverScout",
       "properties": {
         "Parent": "DefaultProperties",
-        "Category": "Browser",
-        "SubCategory": "Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -38,13 +36,15 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "CoverScout* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "CoverScout"
-      }
+      },
+      "children": [
+        {
+          "match": "CoverScout* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

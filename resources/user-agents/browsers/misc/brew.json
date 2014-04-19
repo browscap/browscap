@@ -16,47 +16,45 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "*-*\/1.0 BREW\/2.0* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
-      "properties": {
-        "Parent": "Brew",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "*-*\/1.0 BREW\/2.1* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
-      "properties": {
-        "Parent": "Brew",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "*-*\/1.0 BREW\/3.0* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
-      "properties": {
-        "Parent": "Brew",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "*-*\/1.0 BREW\/3.1* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
-      "properties": {
-        "Parent": "Brew",
-        "Version": "3.1",
-        "MajorVer": "3",
-        "MinorVer": "1",
-        "CssVersion": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "*-*\/1.0 BREW\/2.0* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "*-*\/1.0 BREW\/2.1* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "*-*\/1.0 BREW\/3.0* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "*-*\/1.0 BREW\/3.1* Browser\/1.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1",
+            "CssVersion": "1"
+          }
+        }
+      ]
     }
   ]
 }

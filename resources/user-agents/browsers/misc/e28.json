@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "E28",
         "Browser_Type": "Browser",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
@@ -28,37 +28,24 @@
         "Crawler": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "E28-MPG1\/2.6.0.0 Browser\/WAP *",
-      "properties": {
-        "Parent": "E28"
-      }
-    },
-    {
-      "userAgent": "E28-MPG1\/A.2.8.0.0\/WAP1.2 *",
-      "properties": {
-        "Parent": "E28"
-      }
-    },
-    {
-      "userAgent": "E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1,E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "E28"
-      }
-    },
-    {
-      "userAgent": "E2808\/1.0.0.0(2004.09.09)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "E28"
-      }
-    },
-    {
-      "userAgent": "e28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1",
-      "properties": {
-        "Parent": "E28"
-      }
+      },
+      "children": [
+        {
+          "match": "E28-MPG1\/2.6.0.0 Browser\/WAP *"
+        },
+        {
+          "match": "E28-MPG1\/A.2.8.0.0\/WAP1.2 *"
+        },
+        {
+          "match": "E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1,E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        },
+        {
+          "match": "E2808\/1.0.0.0(2004.09.09)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        },
+        {
+          "match": "e28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        }
+      ]
     }
   ]
 }

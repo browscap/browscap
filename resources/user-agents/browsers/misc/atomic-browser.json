@@ -1,12 +1,17 @@
 {
-  "division": "Atomic Browser",
+  "division": "Atomic Browser #MAJORVER#.#MINORVER#",
+  "versions": ["3.5", "3.7", 4, 5, "5.1", "5.5", "5.6", "5.7"],
   "sortIndex": 2220,
   "userAgents": [
     {
-      "userAgent": "Atomic Browser",
+      "userAgent": "Atomic Browser #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Atomic Browser #MAJORVER#.#MINORVER#",
         "Browser": "Atomic Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
@@ -17,184 +22,21 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/3.5 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "3.5",
-        "MajorVer": "3",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/3.7* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "3.7",
-        "MajorVer": "3",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/4.0* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.0* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.0",
-        "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.0 CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.0",
-        "MajorVer": "5"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.1* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.1",
-        "MajorVer": "5",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.5* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.5",
-        "MajorVer": "5",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.5* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.5",
-        "MajorVer": "5",
-        "MinorVer": "5",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.5* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.5",
-        "MajorVer": "5",
-        "MinorVer": "5"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.5* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.5",
-        "MajorVer": "5",
-        "MinorVer": "5",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.6* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.6",
-        "MajorVer": "5",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.6* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.6",
-        "MajorVer": "5",
-        "MinorVer": "6",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.6* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.6",
-        "MajorVer": "5",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.6* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.6",
-        "MajorVer": "5",
-        "MinorVer": "6",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.7* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.7",
-        "MajorVer": "5",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "AtomicBrowser\/5.7* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.7",
-        "MajorVer": "5",
-        "MinorVer": "7",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.7* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.7",
-        "MajorVer": "5",
-        "MinorVer": "7"
-      }
-    },
-    {
-      "userAgent": "AtomicLite\/5.7* CFNetwork\/* Darwin\/11.*",
-      "properties": {
-        "Parent": "Atomic Browser",
-        "Version": "5.7",
-        "MajorVer": "5",
-        "MinorVer": "7",
-        "Platform_Version": "11.0"
-      }
+      },
+      "children": [
+        {
+          "match": "AtomicBrowser\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "AtomicLite\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -35,44 +35,37 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "M3*",
-      "properties": {
-        "Parent": "M3Gate"
-      }
-    },
-    {
-      "userAgent": "M3Gate*",
-      "properties": {
-        "Parent": "M3Gate"
-      }
-    },
-    {
-      "userAgent": "M3GATE\/0.4*",
-      "properties": {
-        "Parent": "M3Gate",
-        "Version": "0.4",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "M3Gate\/0.6*",
-      "properties": {
-        "Parent": "M3Gate",
-        "Version": "0.6",
-        "MinorVer": "6"
-      }
-    },
-    {
-      "userAgent": "M3Gate\/1.2*",
-      "properties": {
-        "Parent": "M3Gate",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "M3*"
+        },
+        {
+          "match": "M3Gate*"
+        },
+        {
+          "match": "M3GATE\/0.4*",
+          "properties": {
+            "Version": "0.4",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "M3Gate\/0.6*",
+          "properties": {
+            "Version": "0.6",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "M3Gate\/1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        }
+      ]
     }
   ]
 }

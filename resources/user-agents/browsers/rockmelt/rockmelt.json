@@ -23,42 +23,17 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10*; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "MacOSX",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 5.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "WinXP",
-        "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.0; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "WinVista",
-        "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows NT 6.1; *) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
-      "properties": {
-        "Parent": "Rockmelt",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RockMelt\/* Chrome\/* Safari\/*",
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "WinXPa_32", "WinXPa_64", "Vista_32", "Vista_64", "Win7_32", "Win7_64"
+          ]
+        }
+      ]
     }
   ]
 }

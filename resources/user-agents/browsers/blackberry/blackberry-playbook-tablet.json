@@ -17,10 +17,10 @@
       },
       "children": [
         {
-          "userAgent": "Mozilla\/*(PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML, like Gecko*Version\/0.*Safari\/*"
+          "match": "Mozilla\/*(PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML, like Gecko*Version\/0.*Safari\/*"
         },
         {
-          "userAgent": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 1.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 1.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "userAgent": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 2.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.2*Safari\/*",
+          "match": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 2.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.2*Safari\/*",
           "properties": {
             "Version": "7.2",
             "MajorVer": "7",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "userAgent": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 2.1*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.2*Safari\/*",
+          "match": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 2.1*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.2*Safari\/*",
           "properties": {
             "Version": "7.2",
             "MajorVer": "7",

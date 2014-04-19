@@ -35,43 +35,37 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Flipboard* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Flipboard App"
-      }
-    },
-    {
-      "userAgent": "Flipboard\/1.5* CFNetwork\/* Darwin\/10.4*",
-      "properties": {
-        "Parent": "Flipboard App",
-        "Version": "1.5",
-        "MajorVer": "1",
-        "MinorVer": "5",
-        "Platform_Version": "10.4"
-      }
-    },
-    {
-      "userAgent": "Flipboard\/1.5* CFNetwork\/* Darwin\/11.0*",
-      "properties": {
-        "Parent": "Flipboard App",
-        "Version": "1.5",
-        "MajorVer": "1",
-        "MinorVer": "5",
-        "Platform_Version": "11.0"
-      }
-    },
-    {
-      "userAgent": "Flipboard\/1.8* CFNetwork\/* Darwin\/10.4*",
-      "properties": {
-        "Parent": "Flipboard App",
-        "Version": "1.8",
-        "MajorVer": "1",
-        "MinorVer": "8",
-        "Platform_Version": "10.4"
-      }
+      },
+      "children": [
+        {
+          "match": "Flipboard* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Flipboard\/1.5* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.5",
+            "MajorVer": "1",
+            "MinorVer": "5"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Flipboard\/1.8* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "1.8",
+            "MajorVer": "1",
+            "MinorVer": "8"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

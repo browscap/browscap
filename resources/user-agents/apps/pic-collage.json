@@ -35,24 +35,26 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "Pic%20Collage\/* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "Pic Collage"
-      }
-    },
-    {
-      "userAgent": "Pic%20Collage\/2.10* CFNetwork\/485.12* Darwin\/11.4*",
-      "properties": {
-        "Parent": "Pic Collage",
-        "Version": "2.10",
-        "MajorVer": "2",
-        "MinorVer": "10",
-        "Platform_Version": "11.4",
-        "RenderingEngine_Version": "485.12"
-      }
+      },
+      "children": [
+        {
+          "match": "Pic%20Collage\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Pic%20Collage\/2.10* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "2.10",
+            "MajorVer": "2",
+            "MinorVer": "10"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

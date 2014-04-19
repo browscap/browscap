@@ -9,10 +9,12 @@
         "Comment": "UA",
         "Browser": "UA"
       },
-      "children": {
-        "match": "UA String (#PLATFORM#)",
-        "platforms": ["Platform1", "Platform2"]
-      }
+      "children": [
+        {
+          "match": "UA String (#PLATFORM#)",
+          "platforms": ["Platform1", "Platform2"]
+        }
+      ]
     }
   ]
 }

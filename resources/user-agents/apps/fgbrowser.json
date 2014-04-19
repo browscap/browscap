@@ -35,30 +35,65 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-      }
-    },
-    {
-      "userAgent": "fgBrowser* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "fgBrowser"
-      }
-    },
-    {
-      "userAgent": "fgBrowserPrivate\/3.2* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "fgBrowser",
-        "Version": "3.2",
-        "MajorVer": "3",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "fgBrowser\/4.0* CFNetwork\/* Darwin\/*",
-      "properties": {
-        "Parent": "fgBrowser",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "fgBrowser* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowser\/3.2* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowser\/4.* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowserPrivate* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowserPrivate\/3.2* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowserPrivate\/4.* CFNetwork\/* #PLATFORM#",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -35,79 +35,17 @@
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B"
           ]
+        },
+        {
+          "match": "OmniWeb622.19.* CFNetwork\/* Darwin\/* (Power%20Macintosh) (PowerMac7%2C3)",
+          "properties": {
+            "Device_Name": "PowerMac"
+          },
+          "platforms": [
+            "Darwin"
+          ]
         }
       ]
-    },
-    {
-      "userAgent": "OmniWeb622.19.* CFNetwork\/* Darwin\/* (Power%20Macintosh) (PowerMac7%2C3)",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform": "Darwin",
-        "Device_Name": "PowerMac"
-      }
-    },
-    {
-      "userAgent": "OmniWeb622.19.* CFNetwork\/* Darwin\/9.8* (Power%20Macintosh) (PowerMac7%2C3)",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform": "Darwin",
-        "Platform_Version": "9.8",
-        "Device_Name": "PowerMac"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*Version\/5.11*OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_4*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_5*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.5"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_6*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.6"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_7*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.7"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_8*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.8"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X 10_9*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11",
-        "Platform_Version": "10.9"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) Version\/5.11* OmniWeb\/*",
-      "properties": {
-        "Parent": "OmniWeb 5.11"
-      }
     }
   ]
 }

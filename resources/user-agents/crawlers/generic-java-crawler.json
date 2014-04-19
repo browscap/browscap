@@ -7,13 +7,13 @@
       "properties": {
         "Parent": "Rippers",
         "Browser": "Generic Java Crawler",
-        "Platform": "Java",
+        "Platform": "JAVA",
         "Platform_Maker": "Oracle",
-          "Browser_Type": "Bot/Crawler",
-          "Frames": "true",
-          "IFrames": "true",
-          "Tables": "true",
-          "Crawler": "true"
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       }
     },
     {
