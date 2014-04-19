@@ -1669,6 +1669,7 @@
       "match": "*Linux*Android*",
       "properties": {
         "Platform": "Android",
+        "Platform_Maker": "Google Inc",
         "Win32": "false",
         "isMobileDevice": "true"
       }
