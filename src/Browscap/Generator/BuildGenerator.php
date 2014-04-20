@@ -25,6 +25,11 @@ class BuildGenerator
     const OUTPUT_TYPE_FULL    = 'full';
     const OUTPUT_TYPE_DEFAULT = 'normal';
     const OUTPUT_TYPE_LITE    = 'lite';
+    const OUTPUT_TYPE_SPLITA  = 'split-recent';
+    const OUTPUT_TYPE_SPLITB  = 'split-actual';
+    const OUTPUT_TYPE_SPLITC  = 'split-medium';
+    const OUTPUT_TYPE_SPLITD  = 'split-old';
+    const OUTPUT_TYPE_SPLITE  = 'split-unknown';
     /**@-*/
 
     /**
@@ -165,6 +170,66 @@ class BuildGenerator
                 'info' => 'PHP/LITE',
                 'format' => self::OUTPUT_FORMAT_PHP,
                 'type' => self::OUTPUT_TYPE_LITE
+            ],
+            [
+                'file' => 'browscap_split_a.ini',
+                'info' => 'ASP/SPLIT A',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_SPLITA
+            ],
+            [
+                'file' => 'php_browscap_split_a.ini',
+                'info' => 'PHP/SPLIT A',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_SPLITA
+            ],
+            [
+                'file' => 'browscap_split_b.ini',
+                'info' => 'ASP/SPLIT B',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_SPLITB
+            ],
+            [
+                'file' => 'php_browscap_split_b.ini',
+                'info' => 'PHP/SPLIT B',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_SPLITB
+            ],
+            [
+                'file' => 'browscap_split_c.ini',
+                'info' => 'ASP/SPLIT C',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_SPLITC
+            ],
+            [
+                'file' => 'php_browscap_split_c.ini',
+                'info' => 'PHP/SPLIT C',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_SPLITC
+            ],
+            [
+                'file' => 'browscap_split_d.ini',
+                'info' => 'ASP/SPLIT D',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_SPLITD
+            ],
+            [
+                'file' => 'php_browscap_split_d.ini',
+                'info' => 'PHP/SPLIT D',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_SPLITD
+            ],
+            [
+                'file' => 'browscap_split_e.ini',
+                'info' => 'ASP/SPLIT E',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_SPLITE
+            ],
+            [
+                'file' => 'php_browscap_split_e.ini',
+                'info' => 'PHP/SPLIT E',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_SPLITE
             ],
         ];
 
