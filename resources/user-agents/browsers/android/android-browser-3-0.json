@@ -3,6 +3,7 @@
   "versions": ["3.0"],
   "sortIndex": 1900,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",

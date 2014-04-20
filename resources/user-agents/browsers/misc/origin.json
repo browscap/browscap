@@ -1,6 +1,7 @@
 {
   "division": "Origin",
   "sortIndex": 9510,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Origin",

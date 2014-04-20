@@ -1,6 +1,7 @@
 {
   "division": "WI Job Roboter",
   "sortIndex": 1570,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "WI Job Roboter",

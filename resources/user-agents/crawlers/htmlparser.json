@@ -1,6 +1,7 @@
 {
   "division": "HTMLParser",
   "sortIndex": 980,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "HTMLParser",

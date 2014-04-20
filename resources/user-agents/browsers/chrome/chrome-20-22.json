@@ -3,6 +3,7 @@
   "versions": [20, 21, 22],
   "sortIndex": 1136,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "wget",
   "sortIndex": 1560,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "wget",

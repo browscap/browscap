@@ -1,6 +1,7 @@
 {
   "division": "Yahoo Search Monkey",
   "sortIndex": 1370,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Yahoo Search Monkey",

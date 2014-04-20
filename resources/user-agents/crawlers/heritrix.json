@@ -1,6 +1,7 @@
 {
   "division": "Heritrix",
   "sortIndex": 560,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Heritrix",

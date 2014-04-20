@@ -1,6 +1,7 @@
 {
   "division": "fgBrowser",
   "sortIndex": 4340,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "fgBrowser",

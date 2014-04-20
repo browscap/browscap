@@ -1,6 +1,7 @@
 {
   "division": "QuickTime Agent",
   "sortIndex": 7110,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "QuickTime Agent",

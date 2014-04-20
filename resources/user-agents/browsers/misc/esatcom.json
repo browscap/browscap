@@ -1,6 +1,7 @@
 {
   "division": "ESATCOM",
   "sortIndex": 4050,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "ESATCOM",

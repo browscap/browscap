@@ -1,6 +1,7 @@
 {
   "division": "Mitsu",
   "sortIndex": 7260,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mitsu",

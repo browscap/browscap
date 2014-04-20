@@ -2,6 +2,7 @@
   "division": "Motorola Internet Browser",
   "sortIndex": 1780,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser",

@@ -1,6 +1,7 @@
 {
   "division": "IXI",
   "sortIndex": 6370,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IXI",

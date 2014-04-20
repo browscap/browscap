@@ -1,6 +1,7 @@
 {
   "division": "AndroidDownloadManager",
   "sortIndex": 2120,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager",

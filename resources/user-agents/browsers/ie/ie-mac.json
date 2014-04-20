@@ -1,6 +1,7 @@
 {
   "division": "IE Mac",
   "sortIndex": 5840,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IE Mac",

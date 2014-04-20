@@ -1,6 +1,7 @@
 {
   "division": "Yahoo Media",
   "sortIndex": 1340,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Yahoo Media",

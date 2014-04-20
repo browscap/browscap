@@ -1,6 +1,7 @@
 {
   "division": "Panasonic",
   "sortIndex": 9730,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Panasonic",

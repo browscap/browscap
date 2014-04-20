@@ -1,6 +1,7 @@
 {
   "division": "findlinks",
   "sortIndex": 440,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "findlinks",

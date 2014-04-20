@@ -1,6 +1,7 @@
 {
   "division": "Yahoo RobotStudy",
   "sortIndex": 1360,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Yahoo RobotStudy",

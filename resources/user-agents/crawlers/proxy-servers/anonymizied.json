@@ -1,6 +1,7 @@
 {
   "division": "Anonymizied",
   "sortIndex": 50,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Anonymizied",

@@ -1,6 +1,7 @@
 {
   "division": "Lotus Notes Generic",
   "sortIndex": 1680,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Lotus Notes Generic",

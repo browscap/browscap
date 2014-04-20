@@ -2,6 +2,7 @@
   "division": "Ask",
   "sortIndex": 10,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Ask",

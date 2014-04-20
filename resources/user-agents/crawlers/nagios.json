@@ -1,6 +1,7 @@
 {
   "division": "Nagios",
   "sortIndex": 580,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Nagios",

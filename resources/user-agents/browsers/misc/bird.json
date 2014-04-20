@@ -1,6 +1,7 @@
 {
   "division": "BIRD",
   "sortIndex": 2320,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "BIRD",

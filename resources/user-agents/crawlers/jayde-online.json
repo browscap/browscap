@@ -1,6 +1,7 @@
 {
   "division": "Jayde Online",
   "sortIndex": 190,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Jayde Online",

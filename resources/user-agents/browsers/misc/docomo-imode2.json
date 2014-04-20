@@ -1,6 +1,7 @@
 {
   "division": "DoCoMo imode2",
   "sortIndex": 3890,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "DoCoMo imode2",

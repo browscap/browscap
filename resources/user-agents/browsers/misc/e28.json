@@ -1,6 +1,7 @@
 {
   "division": "E28",
   "sortIndex": 3940,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "E28",

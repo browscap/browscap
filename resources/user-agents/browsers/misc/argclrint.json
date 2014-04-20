@@ -1,6 +1,7 @@
 {
   "division": "ArgClrInt",
   "sortIndex": 2140,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "ArgClrInt",

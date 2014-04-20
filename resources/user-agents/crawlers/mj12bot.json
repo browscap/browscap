@@ -1,6 +1,7 @@
 {
   "division": "MJ12bot",
   "sortIndex": 760,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "MJ12bot",

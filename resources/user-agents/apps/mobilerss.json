@@ -1,6 +1,7 @@
 {
   "division": "MobileRSS",
   "sortIndex": 7280,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "MobileRSS",

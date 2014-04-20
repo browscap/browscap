@@ -1,6 +1,7 @@
 {
   "division": "Realplayer",
   "sortIndex": 7120,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Realplayer",

@@ -2,6 +2,7 @@
   "division": "iLunascape #MAJORVER#.#MINORVER#",
   "versions": ["1.5"],
   "sortIndex": 6790,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",

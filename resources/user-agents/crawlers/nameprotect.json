@@ -1,6 +1,7 @@
 {
   "division": "NameProtect",
   "sortIndex": 590,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "NameProtect",

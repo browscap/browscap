@@ -1,6 +1,7 @@
 {
   "division": "SpellCheck Bot",
   "sortIndex": 1510,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "SpellCheck Bot",

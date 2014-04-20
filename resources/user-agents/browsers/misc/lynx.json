@@ -1,6 +1,7 @@
 {
   "division": "Lynx",
   "sortIndex": 2230,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Lynx",

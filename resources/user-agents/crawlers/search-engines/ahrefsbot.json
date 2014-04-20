@@ -1,6 +1,7 @@
 {
   "division": "AhrefsBot",
   "sortIndex": 40,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "AhrefsBot",

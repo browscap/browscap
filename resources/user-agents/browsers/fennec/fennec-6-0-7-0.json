@@ -2,6 +2,7 @@
   "division": "Fennec #MAJORVER#.#MINORVER#",
   "versions": ["6.0", "7.0"],
   "sortIndex": 3421,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",

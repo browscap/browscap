@@ -1,6 +1,7 @@
 {
   "division": "Hitpad",
   "sortIndex": 5150,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Hitpad",

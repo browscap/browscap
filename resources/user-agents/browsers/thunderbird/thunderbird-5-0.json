@@ -2,6 +2,7 @@
   "division": "Thunderbird #MAJORVER#.#MINORVER#",
   "versions": [5],
   "sortIndex": 3485,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",

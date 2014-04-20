@@ -1,6 +1,7 @@
 {
   "division": "bumblebee",
   "sortIndex": 2570,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "bumblebee",

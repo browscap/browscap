@@ -1,6 +1,7 @@
 {
   "division": "YandexBlog",
   "sortIndex": 1600,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "YandexBlog",

@@ -1,6 +1,7 @@
 {
   "division": "Bellwave",
   "sortIndex": 2270,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Bellwave",

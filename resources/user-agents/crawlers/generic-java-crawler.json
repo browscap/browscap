@@ -1,6 +1,7 @@
 {
   "division": "Generic Java Crawler",
   "sortIndex": 970,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Generic Java Crawler",

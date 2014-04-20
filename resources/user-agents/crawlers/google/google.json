@@ -1,6 +1,7 @@
 {
   "division": "Google",
   "sortIndex": 1070,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Google",

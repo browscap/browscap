@@ -1,6 +1,7 @@
 {
   "division": "cURL",
   "sortIndex": 950,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "cURL",

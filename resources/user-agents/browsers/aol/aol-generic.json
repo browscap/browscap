@@ -2,6 +2,7 @@
   "division": "AOL Generic",
   "sortIndex": 3820,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "AOL Generic",

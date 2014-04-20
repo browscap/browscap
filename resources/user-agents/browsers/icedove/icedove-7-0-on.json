@@ -2,6 +2,7 @@
   "division": "Icedove #MAJORVER#.#MINORVER#",
   "versions": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
   "sortIndex": 5401,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Icedove #MAJORVER#.#MINORVER#",

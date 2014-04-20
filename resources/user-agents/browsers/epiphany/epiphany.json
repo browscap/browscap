@@ -1,6 +1,7 @@
 {
   "division": "Epiphany",
   "sortIndex": 4020,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Epiphany",

@@ -1,6 +1,7 @@
 {
   "division": "OSSProxy",
   "sortIndex": 1010,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "OSSProxy",

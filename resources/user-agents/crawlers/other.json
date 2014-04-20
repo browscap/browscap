@@ -1,6 +1,7 @@
 {
   "division": "Others",
   "sortIndex": 100000,
+  "category": "infrequent",
   "lite": true,
   "userAgents": [
     {

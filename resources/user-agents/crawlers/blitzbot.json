@@ -1,6 +1,7 @@
 {
   "division": "BlitzBot",
   "sortIndex": 110,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "BlitzBot",

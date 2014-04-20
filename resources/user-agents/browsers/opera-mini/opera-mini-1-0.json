@@ -3,6 +3,7 @@
   "versions": [1, "1.1"],
   "sortIndex": 2041,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

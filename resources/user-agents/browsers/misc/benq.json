@@ -1,6 +1,7 @@
 {
   "division": "BenQ",
   "sortIndex": 2280,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "BenQ",

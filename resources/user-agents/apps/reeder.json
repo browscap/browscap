@@ -1,6 +1,7 @@
 {
   "division": "Reeder",
   "sortIndex": 9910,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Reeder",

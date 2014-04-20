@@ -3,6 +3,7 @@
   "versions": ["1.4", "1.5", "2.0", "2.2", "2.3", "3.2", "3.9"],
   "sortIndex": 1791,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",

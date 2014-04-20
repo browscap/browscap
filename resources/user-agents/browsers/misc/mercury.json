@@ -1,6 +1,7 @@
 {
   "division": "Mercury",
   "sortIndex": 7160,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mercury",

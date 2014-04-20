@@ -1,6 +1,7 @@
 {
   "division": "Arora Generic",
   "sortIndex": 2150,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Arora Generic",

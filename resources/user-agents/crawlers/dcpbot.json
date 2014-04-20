@@ -1,6 +1,7 @@
 {
   "division": "DCPbot",
   "sortIndex": 200,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "DCPbot",

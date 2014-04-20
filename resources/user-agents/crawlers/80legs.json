@@ -1,6 +1,7 @@
 {
   "division": "80Legs",
   "sortIndex": 20,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "80Legs",

@@ -1,6 +1,7 @@
 {
   "division": "Netcraft",
   "sortIndex": 600,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Netcraft",

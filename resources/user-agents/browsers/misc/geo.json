@@ -1,6 +1,7 @@
 {
   "division": "GEO",
   "sortIndex": 5030,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "GEO",

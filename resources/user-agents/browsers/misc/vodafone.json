@@ -1,6 +1,7 @@
 {
   "division": "Vodafone",
   "sortIndex": 10970,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Vodafone",

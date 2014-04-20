@@ -1,6 +1,7 @@
 {
   "division": "bitlybot",
   "sortIndex": 100,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "bitlybot",

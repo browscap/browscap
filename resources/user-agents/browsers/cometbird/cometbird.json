@@ -2,6 +2,7 @@
   "division": "CometBird #MAJORVER#.#MINORVER#",
   "versions": [10, 11],
   "sortIndex": 3260,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "CometBird #MAJORVER#.#MINORVER#",

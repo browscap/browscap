@@ -1,6 +1,7 @@
 {
   "division": "Mail",
   "sortIndex": 730,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mail",

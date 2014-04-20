@@ -2,6 +2,7 @@
   "division": "Mobile Safari Generic",
   "sortIndex": 1939,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mobile Safari Generic",

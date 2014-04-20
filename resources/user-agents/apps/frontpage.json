@@ -1,6 +1,7 @@
 {
   "division": "FrontPage",
   "sortIndex": 2360,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "FrontPage",

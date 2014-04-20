@@ -1,6 +1,7 @@
 {
   "division": "Adbeat",
   "sortIndex": 40,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Adbeat",

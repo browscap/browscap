@@ -1,6 +1,7 @@
 {
   "division": "General RSS",
   "sortIndex": 380,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "General RSS",

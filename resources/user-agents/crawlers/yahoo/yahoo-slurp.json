@@ -1,6 +1,7 @@
 {
   "division": "Yahoo Slurp",
   "sortIndex": 1380,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Yahoo Slurp",

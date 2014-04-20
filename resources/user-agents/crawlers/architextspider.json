@@ -1,6 +1,7 @@
 {
   "division": "ArchitextSpider",
   "sortIndex": 70,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "ArchitextSpider",

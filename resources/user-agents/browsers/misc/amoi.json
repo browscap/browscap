@@ -1,6 +1,7 @@
 {
   "division": "Amoi",
   "sortIndex": 2060,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Amoi",

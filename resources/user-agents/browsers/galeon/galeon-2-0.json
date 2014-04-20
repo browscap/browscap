@@ -3,6 +3,7 @@
   "versions": ["2.0"],
   "sortIndex": 2371,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Galeon #MAJORVER#.#MINORVER#",

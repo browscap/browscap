@@ -1,6 +1,7 @@
 {
   "division": "Boitho",
   "sortIndex": 130,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Boitho",

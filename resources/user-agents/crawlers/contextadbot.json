@@ -1,6 +1,7 @@
 {
   "division": "ContextAd Bot",
   "sortIndex": 91,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "ContextAd Bot",

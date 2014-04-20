@@ -1,6 +1,7 @@
 {
   "division": "Mozdex",
   "sortIndex": 770,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mozdex",

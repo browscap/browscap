@@ -7,6 +7,7 @@
       "userAgent": "*",
       "properties": {
         "Comment": "Default Browser",
+        "category": "infrequent",
         "Browser": "Default Browser",
         "Browser_Type": "unknown",
         "Browser_Bits": "0",

@@ -1,6 +1,7 @@
 {
   "division": "Mercator",
   "sortIndex": 7150,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Mercator",

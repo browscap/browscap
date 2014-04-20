@@ -1,6 +1,7 @@
 {
   "division": "Esribot",
   "sortIndex": 320,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Esribot",

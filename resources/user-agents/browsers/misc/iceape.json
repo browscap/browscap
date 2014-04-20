@@ -1,6 +1,7 @@
 {
   "division": "IceApe",
   "sortIndex": 5280,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IceApe",

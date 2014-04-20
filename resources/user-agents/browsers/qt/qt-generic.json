@@ -1,6 +1,7 @@
 {
   "division": "Qt Generic",
   "sortIndex": 1171,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Qt Generic",

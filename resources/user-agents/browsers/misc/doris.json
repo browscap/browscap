@@ -1,6 +1,7 @@
 {
   "division": "Doris",
   "sortIndex": 3930,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Doris",

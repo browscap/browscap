@@ -3,6 +3,7 @@
   "versions": ["4.5", "4.6", "4.7", "4.8", "4.9", "4.10", "4.11"],
   "sortIndex": 2492,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",

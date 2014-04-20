@@ -1,6 +1,7 @@
 {
   "division": "Klondike",
   "sortIndex": 6490,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Klondike",

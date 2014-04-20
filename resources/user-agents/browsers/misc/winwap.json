@@ -1,6 +1,7 @@
 {
   "division": "WinWAP",
   "sortIndex": 11030,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "WinWAP",

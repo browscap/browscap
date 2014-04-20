@@ -1,6 +1,7 @@
 {
   "division": "UnisterBot",
   "sortIndex": 11130,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "UnisterBot",

@@ -2,6 +2,7 @@
   "division": "Opera #MAJORVER#.#MINORVER#",
   "versions": ["7.00"],
   "sortIndex": 2855,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

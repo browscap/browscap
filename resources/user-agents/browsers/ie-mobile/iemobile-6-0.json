@@ -1,6 +1,7 @@
 {
   "division": "IEMobile 6.0",
   "sortIndex": 5910,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IEMobile 6.0",

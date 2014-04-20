@@ -2,6 +2,7 @@
   "division": "Pocket PC",
   "sortIndex": 1830,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Pocket PC",

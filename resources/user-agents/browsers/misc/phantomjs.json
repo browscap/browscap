@@ -1,6 +1,7 @@
 {
   "division": "PhantomJS",
   "sortIndex": 9760,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "PhantomJS",

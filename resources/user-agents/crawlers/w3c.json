@@ -1,6 +1,7 @@
 {
   "division": "W3C",
   "sortIndex": 530,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "W3C",

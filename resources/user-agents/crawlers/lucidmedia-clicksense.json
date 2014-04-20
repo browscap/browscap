@@ -1,6 +1,7 @@
 {
   "division": "LucidMedia ClickSense",
   "sortIndex": 690,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "LucidMedia ClickSense",

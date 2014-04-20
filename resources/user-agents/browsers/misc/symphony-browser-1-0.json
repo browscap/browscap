@@ -1,6 +1,7 @@
 {
   "division": "Symphony Browser 1.0",
   "sortIndex": 10700,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Symphony Browser 1.0",

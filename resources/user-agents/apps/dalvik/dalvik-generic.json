@@ -1,6 +1,7 @@
 {
   "division": "Dalvik Generic",
   "sortIndex": 3790,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Dalvik Generic",

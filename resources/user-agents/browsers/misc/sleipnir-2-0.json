@@ -1,6 +1,7 @@
 {
   "division": "Sleipnir 2.0",
   "sortIndex": 3130,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Sleipnir",

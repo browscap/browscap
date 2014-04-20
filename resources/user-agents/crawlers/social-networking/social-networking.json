@@ -1,6 +1,7 @@
 {
   "division": "Social Networking",
   "sortIndex": 500,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Social Networking",

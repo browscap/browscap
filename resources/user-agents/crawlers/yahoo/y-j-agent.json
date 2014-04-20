@@ -1,6 +1,7 @@
 {
   "division": "Y!J-AGENT",
   "sortIndex": 1320,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Y!J-AGENT",

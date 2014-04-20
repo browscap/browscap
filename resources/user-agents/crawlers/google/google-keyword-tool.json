@@ -1,6 +1,7 @@
 {
   "division": "Google Keyword Tool",
   "sortIndex": 1120,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Google Keyword Tool",

@@ -1,6 +1,7 @@
 {
   "division": "w3m",
   "sortIndex": 2250,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "w3m",

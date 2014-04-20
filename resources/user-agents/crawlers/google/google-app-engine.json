@@ -1,6 +1,7 @@
 {
   "division": "Google App Engine",
   "sortIndex": 1100,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Google App Engine",

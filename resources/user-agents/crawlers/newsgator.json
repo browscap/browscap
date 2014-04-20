@@ -1,6 +1,7 @@
 {
   "division": "NewsGator",
   "sortIndex": 610,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "NewsGator",

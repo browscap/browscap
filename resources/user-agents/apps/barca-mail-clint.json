@@ -1,6 +1,7 @@
 {
   "division": "Barca Mail Clint",
   "sortIndex": 1670,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Barca Mail Clint",

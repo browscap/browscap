@@ -1,6 +1,7 @@
 {
   "division": "Clipish",
   "sortIndex": 3250,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Clipish",

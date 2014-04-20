@@ -1,6 +1,7 @@
 {
   "division": "Apache Bench",
   "sortIndex": 60,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Apache Bench",

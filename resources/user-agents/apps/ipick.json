@@ -1,6 +1,7 @@
 {
   "division": "iPick",
   "sortIndex": 5990,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "iPick",

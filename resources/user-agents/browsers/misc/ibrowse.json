@@ -1,6 +1,7 @@
 {
   "division": "IBrowse",
   "sortIndex": 2390,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IBrowse",

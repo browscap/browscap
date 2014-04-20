@@ -3,6 +3,7 @@
   "versions": ["11.10", "11.11"],
   "sortIndex": 2860,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

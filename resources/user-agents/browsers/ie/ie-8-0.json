@@ -3,6 +3,7 @@
   "versions": ["8.0"],
   "sortIndex": 5752,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",

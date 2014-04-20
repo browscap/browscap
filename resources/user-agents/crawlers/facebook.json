@@ -1,6 +1,7 @@
 {
   "division": "Facebook",
   "sortIndex": 140,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Facebook",

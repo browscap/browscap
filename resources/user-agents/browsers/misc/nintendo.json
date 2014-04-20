@@ -1,6 +1,7 @@
 {
   "division": "Nintendo",
   "sortIndex": 1550,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Nintendo",

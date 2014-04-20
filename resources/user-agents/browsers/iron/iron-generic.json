@@ -1,6 +1,7 @@
 {
   "division": "Iron Generic",
   "sortIndex": 1422,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Iron Generic",

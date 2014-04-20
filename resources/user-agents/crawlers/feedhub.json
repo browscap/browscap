@@ -1,6 +1,7 @@
 {
   "division": "FeedHub",
   "sortIndex": 560,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "FeedHub",

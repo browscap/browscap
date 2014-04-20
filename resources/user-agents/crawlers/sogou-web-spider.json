@@ -1,6 +1,7 @@
 {
   "division": "Sogou web spider",
   "sortIndex": 1500,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "sogou web spider*",

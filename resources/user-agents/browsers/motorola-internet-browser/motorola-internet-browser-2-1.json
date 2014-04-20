@@ -1,6 +1,7 @@
 {
   "division": "Motorola Internet Browser 2.1",
   "sortIndex": 7340,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.1",

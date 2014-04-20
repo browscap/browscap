@@ -2,6 +2,7 @@
   "division": "Crazy Browser #MAJORVER#.#MINORVER#",
   "versions": [3, "3.1", "6.1"],
   "sortIndex": 3770,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",

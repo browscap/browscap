@@ -1,6 +1,7 @@
 {
   "division": "Microsoft Excel",
   "sortIndex": 7170,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Microsoft Excel",

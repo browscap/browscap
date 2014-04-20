@@ -1,6 +1,7 @@
 {
   "division": "Elefent",
   "sortIndex": 280,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Elefent",

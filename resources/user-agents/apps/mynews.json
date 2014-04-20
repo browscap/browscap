@@ -1,6 +1,7 @@
 {
   "division": "MyNews",
   "sortIndex": 7650,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "MyNews",

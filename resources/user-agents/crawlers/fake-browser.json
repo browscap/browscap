@@ -1,6 +1,7 @@
 {
   "division": "Fake Browser",
   "sortIndex": 960,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Fake Browser",

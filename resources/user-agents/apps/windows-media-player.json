@@ -1,6 +1,7 @@
 {
   "division": "Windows Media Player",
   "sortIndex": 1560,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Windows Media Player",

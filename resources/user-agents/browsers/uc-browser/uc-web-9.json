@@ -2,6 +2,7 @@
   "division": "UC Browser #MAJORVER#.#MINORVER#",
   "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5"],
   "sortIndex": 1178,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "m65bot",
   "sortIndex": 700,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "m65bot",

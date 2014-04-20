@@ -1,6 +1,7 @@
 {
   "division": "CoverScout",
   "sortIndex": 3760,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "CoverScout",

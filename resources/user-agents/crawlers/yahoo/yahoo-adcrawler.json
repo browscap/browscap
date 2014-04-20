@@ -1,6 +1,7 @@
 {
   "division": "Yahoo AdCrawler",
   "sortIndex": 1330,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Yahoo AdCrawler",

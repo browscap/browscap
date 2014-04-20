@@ -1,6 +1,7 @@
 {
   "division": "noadsbrowser",
   "sortIndex": 7910,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "noadsbrowser",

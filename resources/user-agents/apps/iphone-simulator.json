@@ -1,6 +1,7 @@
 {
   "division": "iPhone Simulator",
   "sortIndex": 10040,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "iPhone Simulator",

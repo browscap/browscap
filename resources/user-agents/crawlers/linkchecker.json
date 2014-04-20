@@ -1,6 +1,7 @@
 {
   "division": "LinkChecker",
   "sortIndex": 670,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "LinkChecker",

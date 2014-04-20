@@ -1,6 +1,7 @@
 {
   "division": "Terra",
   "sortIndex": 10790,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Terra",

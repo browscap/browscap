@@ -1,6 +1,7 @@
 {
   "division": "Convera",
   "sortIndex": 90,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Convera",

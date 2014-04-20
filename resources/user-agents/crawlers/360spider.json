@@ -1,6 +1,7 @@
 {
   "division": "360Spider",
   "sortIndex": 10,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "360Spider",

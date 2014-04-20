@@ -3,6 +3,7 @@
   "versions": ["2.2"],
   "sortIndex": 1702,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",

@@ -3,6 +3,7 @@
   "versions": ["3.5", "3.6", "3.7", "3.8", "4.0", "4.1", "4.2"],
   "sortIndex": 1705,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",

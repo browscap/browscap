@@ -1,6 +1,7 @@
 {
   "division": "Google Code",
   "sortIndex": 1180,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Google Code",

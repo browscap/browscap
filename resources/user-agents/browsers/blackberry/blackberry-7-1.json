@@ -1,6 +1,7 @@
 {
   "division": "BlackBerry 7.1",
   "sortIndex": 2490,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "BlackBerry 7.1",

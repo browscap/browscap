@@ -3,6 +3,7 @@
   "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6", "6.7", "6.8"],
   "sortIndex": 2642,
   "lite": true,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Lunascape #MAJORVER#.#MINORVER#",

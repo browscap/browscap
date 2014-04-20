@@ -1,6 +1,7 @@
 {
   "division": "Foxconn",
   "sortIndex": 4950,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Foxconn",

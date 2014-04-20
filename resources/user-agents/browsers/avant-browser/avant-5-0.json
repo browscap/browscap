@@ -1,6 +1,7 @@
 {
   "division": "Avant\/IE 5.0",
   "sortIndex": 3835,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "Avant\/IE 5.0",

@@ -1,6 +1,7 @@
 {
   "division": "NEC",
   "sortIndex": 7660,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "NEC",

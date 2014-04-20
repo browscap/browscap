@@ -1,6 +1,7 @@
 {
   "division": "UC Browser Generic",
   "sortIndex": 1175,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "UC Browser Generic",

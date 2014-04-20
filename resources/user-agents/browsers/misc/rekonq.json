@@ -1,6 +1,7 @@
 {
   "division": "rekonq",
   "sortIndex": 9920,
+  "category": "infrequent",
   "userAgents": [
     {
       "userAgent": "rekonq",
