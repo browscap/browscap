@@ -98,6 +98,14 @@ class CollectionParser
                 continue;
             }
 
+            if (!in_array($division['division'], array('DefaultProperties', 'Default Browser'))
+                && !isset($properties['split-file'])
+            ) {
+                throw new \UnexpectedValueException(
+                    'property "split-file" not found for Division "' . $division['division'] . '"'
+                );
+            }
+
             if (isset($division['lite'])) {
                 $lite = $division['lite'];
             } else {
@@ -105,6 +113,12 @@ class CollectionParser
             }
 
             $sortIndex = $division['sortIndex'];
+
+            if (isset($division['split-file'])) {
+                $splitfile = $division['split-file'];
+            } else {
+                $splitfile = 'E';
+            }
 
             if (isset($division['versions']) && is_array($division['versions'])) {
                 foreach ($division['versions'] as $version) {
@@ -134,7 +148,8 @@ class CollectionParser
                         $minorVer,
                         $lite,
                         $sortIndex,
-                        $divisionName
+                        $divisionName,
+                        $splitfile
                     );
 
                     foreach ($divisions as $key => $divisionData) {
@@ -154,7 +169,8 @@ class CollectionParser
                     0,
                     $lite,
                     $sortIndex,
-                    $division['division']
+                    $division['division'],
+                    $splitfile
                 );
 
                 foreach ($divisions as $key => $divisionData) {
@@ -182,16 +198,25 @@ class CollectionParser
      * @param boolean $lite
      * @param integer $sortIndex
      * @param string  $divisionName
+     * @param string  $splitfile
      *
      * @throws \UnexpectedValueException
      * @return array
      */
-    private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
+    private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName, $splitfile)
     {
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $parsedAgents = $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
+            $parsedAgents = $this->parseUserAgent(
+                $uaData,
+                $majorVer,
+                $minorVer,
+                $lite,
+                $sortIndex,
+                $divisionName,
+                $splitfile
+            );
 
             foreach ($parsedAgents as $key => $parsedAgentData) {
                 if (isset($allDivisions[$key])) {
@@ -214,11 +239,12 @@ class CollectionParser
      * @param boolean $lite
      * @param integer $sortIndex
      * @param string  $divisionName
+     * @param string  $splitfile
      *
      * @throws \LogicException
      * @return array
      */
-    private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
+    private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName, $splitfile)
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
@@ -228,7 +254,8 @@ class CollectionParser
             $uaData['userAgent'] => array(
                 'lite' => $lite,
                 'sortIndex' => $sortIndex,
-                'division' => $divisionName
+                'division' => $divisionName,
+                'split-file' => $splitfile,
             ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
 

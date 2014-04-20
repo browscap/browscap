@@ -125,8 +125,6 @@ class DataCollection
             $sortIndex    = array();
             $sortPosition = array();
 
-            $groups = array();
-
             foreach ($this->divisions as $key => $division) {
                 $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
                 $sortPosition[$key] = $key;
