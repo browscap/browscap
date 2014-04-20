@@ -42,9 +42,9 @@ return array(
                     'RenderingEngine_Version'     => 'unknown',
                     'RenderingEngine_Description' => 'unknown',
                 ),
-                'split-file' => 'A',
             )
         ),
+        'split-file' => 'A',
     ),
     1 => array(
         'division'   => 'Division3',

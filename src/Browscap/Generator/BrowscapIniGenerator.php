@@ -243,7 +243,11 @@ class BrowscapIniGenerator extends AbstractGenerator
     {
         $this->logger->debug('check if key if available for split');
 
-        if (!in_array($key, array('DefaultProperties', '*')) && !isset($properties['split-file'])) {
+        if (in_array($key, array('DefaultProperties', '*'))) {
+            return true;
+        }
+
+        if (!isset($properties['split-file'])) {
             throw new \UnexpectedValueException('property "split-file" not found for key "' . $key . '"');
         }
 
