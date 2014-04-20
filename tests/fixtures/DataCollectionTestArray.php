@@ -44,7 +44,6 @@ return array(
                 ),
             )
         ),
-        'split-file' => 'A',
     ),
     1 => array(
         'division'   => 'Division3',
