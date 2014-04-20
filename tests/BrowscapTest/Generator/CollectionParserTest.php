@@ -325,6 +325,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'sortIndex' => 2,
                 'lite' => false,
+                'split-file' => 'A',
                 'userAgents' => array(
                     array(
                         'userAgent' => 'test',
