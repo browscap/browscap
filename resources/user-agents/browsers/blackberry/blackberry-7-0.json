@@ -1,7 +1,7 @@
 {
   "division": "BlackBerry 7.0",
   "sortIndex": 2480,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "BlackBerry 7.0",

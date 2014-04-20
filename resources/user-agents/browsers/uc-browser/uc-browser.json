@@ -2,7 +2,7 @@
   "division": "UC Browser",
   "sortIndex": 1890,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "UC Browser",

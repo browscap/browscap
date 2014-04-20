@@ -2,7 +2,7 @@
   "division": "Playbook Simulator",
   "sortIndex": 1930,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "*PlayBook*RIM Tablet OS 2.0.*",

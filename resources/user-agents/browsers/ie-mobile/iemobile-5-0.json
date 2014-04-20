@@ -1,7 +1,7 @@
 {
   "division": "IEMobile 5.0",
   "sortIndex": 5890,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "IEMobile 5.0",

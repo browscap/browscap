@@ -3,7 +3,7 @@
   "versions": [10],
   "sortIndex": 1713,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",

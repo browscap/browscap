@@ -1,7 +1,7 @@
 {
   "division": "PhantomJS",
   "sortIndex": 9760,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "PhantomJS",

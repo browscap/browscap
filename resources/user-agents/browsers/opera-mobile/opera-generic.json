@@ -2,7 +2,7 @@
   "division": "Opera Mobile Generic",
   "sortIndex": 2877,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Mobile Generic",

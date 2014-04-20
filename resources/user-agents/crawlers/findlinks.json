@@ -1,7 +1,7 @@
 {
   "division": "findlinks",
   "sortIndex": 440,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "findlinks",

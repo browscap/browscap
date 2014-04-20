@@ -1,7 +1,7 @@
 {
   "division": "Nintendo",
   "sortIndex": 1550,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Nintendo",

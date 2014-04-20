@@ -2,7 +2,7 @@
   "division": "Opera Mini 2.0",
   "sortIndex": 2041,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera Mini 2.0",

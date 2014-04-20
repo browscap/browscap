@@ -1,7 +1,7 @@
 {
   "division": "NetPositive",
   "sortIndex": 2430,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "NetPositive",

@@ -1,7 +1,7 @@
 {
   "division": "CoverScout",
   "sortIndex": 3760,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "CoverScout",

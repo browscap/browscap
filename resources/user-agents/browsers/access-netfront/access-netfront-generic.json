@@ -2,7 +2,7 @@
   "division": "Access NetFront Generic",
   "sortIndex": 2140,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "NetFront Generic",

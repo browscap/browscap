@@ -3,7 +3,7 @@
   "versions": [11.50],
   "sortIndex": 2873,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",

@@ -2,7 +2,7 @@
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
   "versions": ["1.20"],
   "sortIndex": 11120,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",

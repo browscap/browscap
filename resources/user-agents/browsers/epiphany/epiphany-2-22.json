@@ -1,7 +1,7 @@
 {
   "division": "Epiphany 2.22",
   "sortIndex": 4030,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Epiphany 2.22",

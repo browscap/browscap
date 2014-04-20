@@ -1,7 +1,7 @@
 {
   "division": "Yeti-Mobile",
   "sortIndex": 810,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Yeti-Mobile",

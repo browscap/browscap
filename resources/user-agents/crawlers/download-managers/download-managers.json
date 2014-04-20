@@ -1,7 +1,7 @@
 {
   "division": "Download Managers",
   "sortIndex": 340,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Download Managers",

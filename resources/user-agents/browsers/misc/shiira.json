@@ -2,7 +2,7 @@
   "division": "Shiira",
   "sortIndex": 2440,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Shiira",

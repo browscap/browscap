@@ -2,7 +2,7 @@
   "division": "Incredimail #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 1670,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Incredimail #MAJORVER#.#MINORVER#",

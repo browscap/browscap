@@ -1,7 +1,7 @@
 {
   "division": "Jasmine 1.0",
   "sortIndex": 6400,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Jasmine 1.0",

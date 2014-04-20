@@ -1,7 +1,7 @@
 {
   "division": "Copyright\/Plagiarism",
   "sortIndex": 320,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Copyright\/Plagiarism",

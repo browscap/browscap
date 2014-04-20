@@ -2,7 +2,7 @@
   "division": "Adobe AIR #MAJORVER#.#MINORVER#",
   "versions": ["2.7", "3.8"],
   "sortIndex": 2060,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Adobe AIR #MAJORVER#.#MINORVER#",

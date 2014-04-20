@@ -1,7 +1,7 @@
 {
   "division": "Microsoft Outlook 2013",
   "sortIndex": 1651,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2013",

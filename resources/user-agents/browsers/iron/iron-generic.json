@@ -1,7 +1,7 @@
 {
   "division": "Iron Generic",
   "sortIndex": 1422,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Iron Generic",

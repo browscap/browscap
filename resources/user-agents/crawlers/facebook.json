@@ -1,7 +1,7 @@
 {
   "division": "Facebook",
   "sortIndex": 140,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Facebook",

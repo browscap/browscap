@@ -1,7 +1,7 @@
 {
   "division": "YaCy",
   "sortIndex": 1300,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "YaCy",

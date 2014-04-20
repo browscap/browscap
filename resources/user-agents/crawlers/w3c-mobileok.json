@@ -1,7 +1,7 @@
 {
   "division": "W3C-mobileOK",
   "sortIndex": 1550,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "W3C-mobileOK",

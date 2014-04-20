@@ -1,7 +1,7 @@
 {
   "division": "RockMelt",
   "sortIndex": 1470,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Rockmelt",

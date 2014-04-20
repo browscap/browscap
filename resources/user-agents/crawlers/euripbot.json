@@ -1,7 +1,7 @@
 {
   "division": "EuripBot",
   "sortIndex": 330,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "EuripBot",

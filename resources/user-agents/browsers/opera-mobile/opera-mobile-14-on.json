@@ -1,9 +1,9 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [14, 15, 16, 17, 18, 19],
+  "versions": [14, 15, 16],
   "sortIndex": 2876,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",

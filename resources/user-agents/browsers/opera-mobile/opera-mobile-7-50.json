@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile 7.50",
   "sortIndex": 9410,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Mobile 7.50",

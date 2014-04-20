@@ -2,7 +2,7 @@
   "division": "Flock #MAJORVER#.#MINORVER#",
   "versions": [2],
   "sortIndex": 3101,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",

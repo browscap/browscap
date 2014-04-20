@@ -1,7 +1,7 @@
 {
   "division": "E-Mail Harvesters",
   "sortIndex": 350,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "E-Mail Harvesters",

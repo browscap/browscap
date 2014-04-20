@@ -2,7 +2,7 @@
   "division": "Chrome Generic",
   "sortIndex": 2600,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Chrome Generic",

@@ -3,7 +3,7 @@
   "versions": ["3.5"],
   "sortIndex": 3162,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",

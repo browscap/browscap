@@ -1,7 +1,7 @@
 {
   "division": "Elefent 1.2",
   "sortIndex": 290,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Elefent 1.2",

@@ -1,7 +1,7 @@
 {
   "division": "lwp",
   "sortIndex": 1000,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "lwp",

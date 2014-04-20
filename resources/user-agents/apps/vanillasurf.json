@@ -1,7 +1,7 @@
 {
   "division": "VanillaSurf",
   "sortIndex": 10950,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "VanillaSurf",

@@ -1,7 +1,7 @@
 {
   "division": "Amaya",
   "sortIndex": 2050,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Amaya",

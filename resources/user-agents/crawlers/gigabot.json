@@ -1,7 +1,7 @@
 {
   "division": "Gigabot",
   "sortIndex": 160,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Gigabot",

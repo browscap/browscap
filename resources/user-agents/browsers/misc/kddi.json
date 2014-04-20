@@ -2,7 +2,7 @@
   "division": "KDDI",
   "sortIndex": 1730,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "KDDI",

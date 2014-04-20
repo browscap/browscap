@@ -2,7 +2,7 @@
   "division": "Opera Generic",
   "sortIndex": 2865,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Generic",

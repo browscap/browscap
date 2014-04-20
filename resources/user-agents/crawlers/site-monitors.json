@@ -1,7 +1,7 @@
 {
   "division": "Site Monitors",
   "sortIndex": 490,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Site Monitors",

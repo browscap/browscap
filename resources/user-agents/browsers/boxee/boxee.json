@@ -2,7 +2,7 @@
   "division": "Boxee",
   "sortIndex": 2530,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Boxee",

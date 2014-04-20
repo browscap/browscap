@@ -1,7 +1,7 @@
 {
   "division": "VoilaBot",
   "sortIndex": 1290,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "VoilaBot",

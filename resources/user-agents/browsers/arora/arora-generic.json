@@ -1,7 +1,7 @@
 {
   "division": "Arora Generic",
   "sortIndex": 2150,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Arora Generic",

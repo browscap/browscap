@@ -1,7 +1,7 @@
 {
   "division": "Group Sense PDA",
   "sortIndex": 5120,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Group Sense PDA",

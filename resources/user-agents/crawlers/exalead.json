@@ -1,7 +1,7 @@
 {
   "division": "Exalead",
   "sortIndex": 130,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Exalead",

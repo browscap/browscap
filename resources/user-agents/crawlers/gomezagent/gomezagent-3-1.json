@@ -1,7 +1,7 @@
 {
   "division": "GomezAgent 3.1",
   "sortIndex": 540,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "GomezAgent 3.1",

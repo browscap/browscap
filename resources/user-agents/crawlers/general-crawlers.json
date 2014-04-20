@@ -1,7 +1,7 @@
 {
   "division": "General Crawlers",
   "sortIndex": 240,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "General Crawlers",

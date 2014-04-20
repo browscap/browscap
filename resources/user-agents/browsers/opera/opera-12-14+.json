@@ -3,7 +3,7 @@
   "versions": ["12.00", "12.01", "12.02", "12.10", "12.11", "12.12", "12.13", "12.14", "12.15", "12.16", "12.17", "12.50"],
   "sortIndex": 2863,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

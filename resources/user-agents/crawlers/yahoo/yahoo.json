@@ -1,7 +1,7 @@
 {
   "division": "Yahoo",
   "sortIndex": 1310,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Yahoo",

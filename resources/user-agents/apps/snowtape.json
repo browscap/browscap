@@ -1,7 +1,7 @@
 {
   "division": "Snowtape",
   "sortIndex": 10640,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Snowtape",

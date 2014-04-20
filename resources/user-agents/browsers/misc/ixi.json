@@ -1,7 +1,7 @@
 {
   "division": "IXI",
   "sortIndex": 6370,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "IXI",

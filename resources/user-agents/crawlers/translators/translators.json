@@ -1,7 +1,7 @@
 {
   "division": "Translators",
   "sortIndex": 510,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Translators",

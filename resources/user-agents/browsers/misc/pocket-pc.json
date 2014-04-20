@@ -2,7 +2,7 @@
   "division": "Pocket PC",
   "sortIndex": 1830,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Pocket PC",

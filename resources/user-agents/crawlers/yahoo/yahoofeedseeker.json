@@ -1,7 +1,7 @@
 {
   "division": "YahooFeedSeeker",
   "sortIndex": 1420,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "YahooFeedSeeker",

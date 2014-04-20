@@ -1,7 +1,7 @@
 {
   "division": "Emacs\/W3",
   "sortIndex": 2340,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Emacs\/W3",

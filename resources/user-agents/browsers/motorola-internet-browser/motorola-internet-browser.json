@@ -2,7 +2,7 @@
   "division": "Motorola Internet Browser",
   "sortIndex": 1780,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser",

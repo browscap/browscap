@@ -1,7 +1,7 @@
 {
   "division": "FirstSearchBot",
   "sortIndex": 450,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "FirstSearchBot",

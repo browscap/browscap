@@ -3,7 +3,7 @@
   "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5"],
   "sortIndex": 2045,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

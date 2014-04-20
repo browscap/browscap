@@ -1,7 +1,7 @@
 {
   "division": "Skyfire",
   "sortIndex": 1870,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Skyfire",

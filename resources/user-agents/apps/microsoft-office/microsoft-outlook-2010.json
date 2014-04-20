@@ -2,7 +2,7 @@
   "division": "Microsoft Outlook 2010",
   "sortIndex": 1650,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2010",

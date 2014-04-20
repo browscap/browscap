@@ -1,7 +1,7 @@
 {
   "division": "INNO",
   "sortIndex": 5980,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "INNO",

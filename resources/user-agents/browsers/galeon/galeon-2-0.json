@@ -3,7 +3,7 @@
   "versions": ["2.0"],
   "sortIndex": 2371,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Galeon #MAJORVER#.#MINORVER#",

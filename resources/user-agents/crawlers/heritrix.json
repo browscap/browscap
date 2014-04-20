@@ -1,7 +1,7 @@
 {
   "division": "Heritrix",
   "sortIndex": 560,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Heritrix",

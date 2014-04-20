@@ -1,7 +1,7 @@
 {
   "division": "LinkChecker",
   "sortIndex": 670,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "LinkChecker",

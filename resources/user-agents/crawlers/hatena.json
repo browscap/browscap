@@ -1,7 +1,7 @@
 {
   "division": "Hatena",
   "sortIndex": 270,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Hatena",

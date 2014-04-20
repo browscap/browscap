@@ -1,7 +1,7 @@
 {
   "division": "AdsBot Google-Mobile",
   "sortIndex": 1090,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "AdsBot Google-Mobile",

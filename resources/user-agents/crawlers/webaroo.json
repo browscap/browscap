@@ -1,7 +1,7 @@
 {
   "division": "Webaroo",
   "sortIndex": 300,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Webaroo",

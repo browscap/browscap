@@ -1,7 +1,7 @@
 {
   "division": "Symphony Browser 1.0",
   "sortIndex": 10700,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Symphony Browser 1.0",

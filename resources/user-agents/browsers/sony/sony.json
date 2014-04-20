@@ -1,7 +1,7 @@
 {
   "division": "Sony",
   "sortIndex": 10650,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Sony",

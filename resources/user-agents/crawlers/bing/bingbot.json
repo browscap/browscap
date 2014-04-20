@@ -1,7 +1,7 @@
 {
   "division": "BingBot",
   "sortIndex": 1230,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "BingBot",

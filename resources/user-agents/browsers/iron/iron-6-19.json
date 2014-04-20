@@ -3,7 +3,7 @@
   "versions": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
   "sortIndex": 1420,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Iron #MAJORVER#.#MINORVER#",

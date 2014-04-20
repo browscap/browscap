@@ -1,7 +1,7 @@
 {
   "division": "BB2C",
   "sortIndex": 2290,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "BB2C",

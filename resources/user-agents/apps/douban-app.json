@@ -2,7 +2,7 @@
   "division": "douban App",
   "sortIndex": 2000,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "douban App",

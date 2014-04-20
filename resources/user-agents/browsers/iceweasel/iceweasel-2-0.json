@@ -2,7 +2,7 @@
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
   "versions": [2],
   "sortIndex": 3350,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",

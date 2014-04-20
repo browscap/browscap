@@ -1,6 +1,7 @@
 {
   "division": "fantomas",
   "sortIndex": 2350,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "fantomas",

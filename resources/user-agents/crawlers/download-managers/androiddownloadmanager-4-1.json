@@ -1,7 +1,7 @@
 {
   "division": "AndroidDownloadManager 4.1",
   "sortIndex": 2130,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager 4.1",

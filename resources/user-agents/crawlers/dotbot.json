@@ -1,7 +1,7 @@
 {
   "division": "DotBot",
   "sortIndex": 100,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "DotBot",

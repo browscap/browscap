@@ -2,7 +2,7 @@
   "division": "Dalvik #MAJORVER#.#MINORVER#",
   "versions": ["1.6"],
   "sortIndex": 2215,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",

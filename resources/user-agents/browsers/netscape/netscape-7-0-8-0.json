@@ -2,7 +2,7 @@
   "division": "Netscape #MAJORVER#.#MINORVER#",
   "versions": [7, "7.1", 8],
   "sortIndex": 7805,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",

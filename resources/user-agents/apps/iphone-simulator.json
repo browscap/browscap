@@ -1,7 +1,7 @@
 {
   "division": "iPhone Simulator",
   "sortIndex": 10040,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "iPhone Simulator",

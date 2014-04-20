@@ -2,7 +2,7 @@
   "division": "SeaMonkey #MAJORVER#.#MINORVER#",
   "versions": ["1.0", "1.1", "2.0"],
   "sortIndex": 3020,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",

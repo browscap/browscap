@@ -1,7 +1,7 @@
 {
   "division": "Snap",
   "sortIndex": 210,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Snap",

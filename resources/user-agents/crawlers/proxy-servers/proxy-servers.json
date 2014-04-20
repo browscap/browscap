@@ -1,7 +1,7 @@
 {
   "division": "Proxy Servers",
   "sortIndex": 460,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Proxy Servers",

@@ -1,7 +1,7 @@
 {
   "division": "ArgClrInt",
   "sortIndex": 2140,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "ArgClrInt",

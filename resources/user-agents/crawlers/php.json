@@ -1,7 +1,7 @@
 {
   "division": "PHP",
   "sortIndex": 890,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "PHP",

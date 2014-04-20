@@ -1,7 +1,7 @@
 {
   "division": "Pixray-Seeker",
   "sortIndex": 910,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Pixray-Seeker",

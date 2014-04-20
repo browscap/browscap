@@ -1,7 +1,7 @@
 {
   "division": "Maxon",
   "sortIndex": 6910,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Maxon",

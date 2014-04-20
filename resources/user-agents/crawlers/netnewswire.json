@@ -1,7 +1,7 @@
 {
   "division": "NetNewsWire",
   "sortIndex": 430,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "NetNewsWire",

@@ -1,7 +1,7 @@
 {
   "division": "Image Crawlers",
   "sortIndex": 400,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Image Crawlers",

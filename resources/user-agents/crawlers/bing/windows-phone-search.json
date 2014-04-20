@@ -1,7 +1,7 @@
 {
   "division": "Windows Phone Search",
   "sortIndex": 1280,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",

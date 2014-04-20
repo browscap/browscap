@@ -3,7 +3,7 @@
   "versions": ["10.00", "10.10", "10.20", "10.50", "10.51", "10.52", "10.53", "10.60", "10.61", "10.62", "10.63", "10.70"],
   "sortIndex": 2858,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

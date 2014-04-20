@@ -1,7 +1,7 @@
 {
   "division": "Online Scanners",
   "sortIndex": 450,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Online Scanners",

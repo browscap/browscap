@@ -1,7 +1,7 @@
 {
   "division": "Google Code",
   "sortIndex": 1180,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Google Code",

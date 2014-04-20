@@ -1,7 +1,7 @@
 {
   "division": "Motorola Internet Browser 2.2",
   "sortIndex": 7350,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.2",

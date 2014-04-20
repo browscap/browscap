@@ -1,7 +1,7 @@
 {
   "division": "WebClip",
   "sortIndex": 10990,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "WebClip",

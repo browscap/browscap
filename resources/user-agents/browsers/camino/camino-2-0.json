@@ -2,7 +2,7 @@
   "division": "Camino #MAJORVER#.#MINORVER#",
   "versions": ["2.0", "2.1", "2.2"],
   "sortIndex": 2560,
-  "category": "infrequent",
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Camino #MAJORVER#.#MINORVER#",

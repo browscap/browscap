@@ -1,7 +1,7 @@
 {
   "division": "YahooSeeker",
   "sortIndex": 1400,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "YahooSeeker",

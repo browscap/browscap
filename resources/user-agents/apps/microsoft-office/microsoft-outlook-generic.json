@@ -1,7 +1,7 @@
 {
   "division": "Microsoft Outlook Generic",
   "sortIndex": 1710,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook Generic",

@@ -1,7 +1,7 @@
 {
   "division": "PERFECT Browser",
   "sortIndex": 9750,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "PERFECT Browser",

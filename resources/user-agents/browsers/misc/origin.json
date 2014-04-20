@@ -1,7 +1,7 @@
 {
   "division": "Origin",
   "sortIndex": 9510,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Origin",

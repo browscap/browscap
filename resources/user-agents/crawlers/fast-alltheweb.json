@@ -1,7 +1,7 @@
 {
   "division": "Fast\/AllTheWeb",
   "sortIndex": 150,
-  "category": "infrequent",
+  "split-file": "B",
   "lite": true,
   "userAgents": [
     {

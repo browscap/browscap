@@ -1,7 +1,7 @@
 {
   "division": "Lenovo",
   "sortIndex": 6690,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Lenovo",

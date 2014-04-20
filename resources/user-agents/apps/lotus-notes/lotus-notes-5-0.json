@@ -1,7 +1,7 @@
 {
   "division": "Lotus Notes 5.0",
   "sortIndex": 1620,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Lotus Notes 5.0",

@@ -1,7 +1,7 @@
 {
   "division": "Version Checkers",
   "sortIndex": 520,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Version Checkers",

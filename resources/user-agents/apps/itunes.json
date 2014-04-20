@@ -1,7 +1,7 @@
 {
   "division": "iTunes",
   "sortIndex": 6360,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "iTunes",

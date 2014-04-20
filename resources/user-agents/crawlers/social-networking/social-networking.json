@@ -1,7 +1,7 @@
 {
   "division": "Social Networking",
   "sortIndex": 500,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Social Networking",

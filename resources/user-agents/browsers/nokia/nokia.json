@@ -2,7 +2,7 @@
   "division": "Nokia",
   "sortIndex": 1790,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Nokia",

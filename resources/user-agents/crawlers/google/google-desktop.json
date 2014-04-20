@@ -1,7 +1,7 @@
 {
   "division": "Google Desktop",
   "sortIndex": 5050,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Google Desktop",

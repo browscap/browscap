@@ -1,7 +1,7 @@
 {
   "division": "Mahalobot",
   "sortIndex": 720,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Mahalobot",

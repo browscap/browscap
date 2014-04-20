@@ -2,7 +2,7 @@
   "division": "Kindle Nook",
   "sortIndex": 1760,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Kindle Nook",

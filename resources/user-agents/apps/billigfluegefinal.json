@@ -1,7 +1,7 @@
 {
   "division": "billigFluegeFinal",
   "sortIndex": 2330,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "billigFluegeFinal",

@@ -1,7 +1,7 @@
 {
   "division": "rekonq",
   "sortIndex": 9920,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "rekonq",

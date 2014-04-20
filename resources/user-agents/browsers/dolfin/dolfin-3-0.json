@@ -3,7 +3,7 @@
   "versions": [3],
   "sortIndex": 1703,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",

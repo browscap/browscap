@@ -1,7 +1,7 @@
 {
   "division": "Miscellaneous Browsers",
   "sortIndex": 430,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Miscellaneous Browsers",
@@ -205,16 +205,9 @@
       }
     },
     {
-      "userAgent": "*Netcraft Webserver Survey*",
-      "properties": {
-        "Parent": "Netcraft",
-        "Browser": "Netcraft Webserver Survey"
-      }
-    },
-    {
       "userAgent": "*CaptiveNetworkSupport*wispr*",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Miscellaneous Browsers",
         "Browser": "WISPr"
       }
     }

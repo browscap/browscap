@@ -1,7 +1,7 @@
 {
   "division": "Netcraft",
   "sortIndex": 600,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Netcraft",
@@ -32,6 +32,13 @@
       "properties": {
         "Parent": "Netcraft",
         "Browser": "NetcraftSurveyAgent"
+      }
+    },
+    {
+      "userAgent": "*Netcraft Webserver Survey*",
+      "properties": {
+        "Parent": "Netcraft",
+        "Browser": "Netcraft Webserver Survey"
       }
     }
   ]

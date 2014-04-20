@@ -1,7 +1,7 @@
 {
   "division": "HS",
   "sortIndex": 5210,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "HS",

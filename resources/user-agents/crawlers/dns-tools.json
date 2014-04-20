@@ -1,7 +1,7 @@
 {
   "division": "DNS Tools",
   "sortIndex": 330,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "DNS Tools",

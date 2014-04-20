@@ -1,7 +1,7 @@
 {
   "division": "NewsGator",
   "sortIndex": 610,
-  "category": "infrequent",
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "NewsGator",

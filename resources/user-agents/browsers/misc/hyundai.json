@@ -1,7 +1,7 @@
 {
   "division": "Hyundai",
   "sortIndex": 5230,
-  "category": "infrequent",
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Hyundai",

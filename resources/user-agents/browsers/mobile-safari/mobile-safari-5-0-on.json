@@ -1,9 +1,9 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["5.0", "5.1", "6.0", "6.1", "7.0", "7.1"],
+  "versions": ["5.0", "5.1", "6.0"],
   "sortIndex": 1943,
   "lite": true,
-  "category": "infrequent",
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
