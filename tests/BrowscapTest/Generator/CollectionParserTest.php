@@ -274,18 +274,21 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'sortIndex' => 2,
                 'lite' => false,
+                'split-file' => 'A',
                 'userAgents' => array(array('userAgent' => 'test', 'properties' => array('Parent' => 'DefaultProperties')))
             ),
             array(
                 'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('1.0'),
                 'sortIndex' => 3,
+                'split-file' => 'A',
                 'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
             ),
             array(
                 'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('2.0'),
                 'sortIndex' => 4,
+                'split-file' => 'A',
                 'userAgents' => array(array('userAgent' => 'test/2.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
             ),
         );
@@ -442,6 +445,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'abc',
                 'sortIndex' => 2,
                 'lite' => false,
+                'split-file' => 'A',
                 'userAgents' => array(
                     array(
                         'userAgent' => 'test',
