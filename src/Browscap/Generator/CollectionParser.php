@@ -576,6 +576,7 @@ class CollectionParser
             case 'sortIndex':
             case 'Parents':
             case 'division':
+            case 'split-file':
                 return false;
             default:
                 // do nothing here
