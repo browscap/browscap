@@ -271,6 +271,16 @@ class BuildGenerator
         $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
         $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
         $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/browscap_split_a.ini', 'browscap_split_a.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap_split_a.ini', 'php_browscap_split_a.ini');
+        $zip->addFile($this->buildFolder . '/browscap_split_b.ini', 'browscap_split_b.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap_split_b.ini', 'php_browscap_split_b.ini');
+        $zip->addFile($this->buildFolder . '/browscap_split_c.ini', 'browscap_split_c.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap_split_c.ini', 'php_browscap_split_c.ini');
+        $zip->addFile($this->buildFolder . '/browscap_split_d.ini', 'browscap_split_d.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap_split_d.ini', 'php_browscap_split_d.ini');
+        $zip->addFile($this->buildFolder . '/browscap_split_e.ini', 'browscap_split_e.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap_split_e.ini', 'php_browscap_split_e.ini');
         $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
         $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
 
