@@ -646,7 +646,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects(self::once())
+        $mock->expects(self::any())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
@@ -695,9 +695,6 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                                 'platforms' => array('testOS')
                             ),
                             array(
-                                'platforms' => array()
-                            ),
-                            array(
                                 'match' => 'abc/1.0* (#PLATFORM#)',
                             )
                         )
@@ -717,9 +714,6 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                             array(
                                 'match' => 'abc 1.0/#PLATFORM#*',
                                 'platforms' => array('testOS')
-                            ),
-                            array(
-                                'platforms' => array()
                             ),
                             array(
                                 'match' => 'abc/1.0* (#PLATFORM#)',
@@ -744,7 +738,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects(self::once())
+        $mock->expects(self::any())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
