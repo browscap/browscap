@@ -681,23 +681,12 @@ class CollectionParser
             ) {
                 $division['Parent'] = $allInputDivisions[$parent]['Parent'];
 
-                $elementsToRemove[] = $parent;
+                $elementsToRemove[$parent] = $parent;
             }
 
             $allDivisions[$key] = $division;
         }
 
-        foreach (array_keys($allDivisions) as $key) {
-            if (in_array($key, array('DefaultProperties', '*'))) {
-                // skip default elements
-                continue;
-            }
-
-            if (in_array($key, $elementsToRemove)) {
-                unset($allDivisions[$key]);
-            }
-        }
-
-        return $allDivisions;
+        return array_diff_key($allDivisions, $elementsToRemove);
     }
 }
