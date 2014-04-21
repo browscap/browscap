@@ -172,7 +172,7 @@ class CollectionParser
         // full expand of all data
         $allDivisions = $this->expandProperties($allDivisions);
         $allDivisions = $this->removeGroups($allDivisions);
-        
+
         return $allDivisions;
     }
 
@@ -679,7 +679,10 @@ class CollectionParser
                 && array_key_exists($parent, $allInputDivisions)
             ) {
                 foreach ($allInputDivisions as $innerKey => $innerDivision) {
-                    if ($parent !== $allInputDivisions[$innerKey]['Parent']) {
+                    if (!isset($allInputDivisions[$innerKey]['Parent']) 
+                        || !isset($allInputDivisions[$parent]['Parent'])
+                        || $parent !== $allInputDivisions[$innerKey]['Parent']
+                    ) {
                         continue;
                     }
 
