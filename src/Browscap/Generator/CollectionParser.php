@@ -85,7 +85,14 @@ class CollectionParser
         $allDivisions = array();
 
         foreach ($this->getDataCollection()->getDivisions() as $division) {
-            $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
+            if (isset($division['userAgents'][0]['userAgent'])) {
+                $this->getLogger()->debug(
+                    'parse data collection "' . $division['division'] . '" into an array for division '
+                    . '"' . $division['userAgents'][0]['userAgent'] . '"'
+                );
+            } else {
+                $this->getLogger()->debug('parse data collection "' . $division['division'] . '" into an array');
+            }
 
             if ($division['division'] == 'Browscap Version') {
                 continue;
@@ -213,47 +220,41 @@ class CollectionParser
      */
     private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
     {
-        if (!isset($uaData['children']) || !is_array($uaData['children'])) {
-            return array();
+        if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
+            throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
         }
 
-        if (isset($uaData['children']['match'])) {
-            throw new \LogicException(
-                'the children property has to be an array of arrays for key "' . $uaData['userAgent'] . '"'
-            );
-        }
-
-        $output = array();
-
-        $parentData =  array(
-            'lite' => $lite,
-            'sortIndex' => $sortIndex,
-            'division' => $divisionName
+        $output = array(
+            $uaData['userAgent'] => array(
+                'lite' => $lite,
+                'sortIndex' => $sortIndex,
+                'division' => $divisionName
+            ) + $this->parseProperties($uaData['properties'], $majorVer, $minorVer)
         );
-        $parentProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-        foreach ($uaData['children'] as $child) {
-            if (!is_array($child)) {
+        if (isset($uaData['children']) && is_array($uaData['children'])) {
+            if (isset($uaData['children']['match'])) {
                 throw new \LogicException(
-                    'each entry of the children property has to be an array for key "' . $uaData['userAgent'] . '"'
+                    'the children property has to be an array of arrays for key "' . $uaData['userAgent'] . '"'
                 );
             }
 
-            if (!isset($child['match'])) {
-                throw new \LogicException(
-                    'each entry of the children property requires an "match" entry for key "'
-                    . $uaData['userAgent'] . '"'
-                );
-            }
+            foreach ($uaData['children'] as $child) {
+                if (!is_array($child)) {
+                    throw new \LogicException(
+                        'each entry of the children property has to be an array for key "' . $uaData['userAgent'] . '"'
+                    );
+                }
 
-            $output += $this->parseChildren(
-                $uaData['userAgent'],
-                $child,
-                $majorVer,
-                $minorVer,
-                $parentProperties,
-                $parentData
-            );
+                if (!isset($child['match'])) {
+                    throw new \LogicException(
+                        'each entry of the children property requires an "match" entry for key "'
+                        . $uaData['userAgent'] . '"'
+                    );
+                }
+
+                $output += $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
+            }
         }
 
         return $output;
@@ -266,13 +267,11 @@ class CollectionParser
      * @param array  $uaDataChild
      * @param string $majorVer
      * @param string $minorVer
-     * @param array  $parentProperties
-     * @param array  $parentData
      *
      * @throws \LogicException
      * @return array[]
      */
-    private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer, array $parentProperties, array $parentData)
+    private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
     {
         if (isset($uaDataChild['properties'])) {
             if (!is_array($uaDataChild['properties'])) {
@@ -314,9 +313,7 @@ class CollectionParser
                 $output[$uaBase] = $properties;
             }
         } else {
-            $properties = $parentProperties
-                + $parentData
-                + $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
+            $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
