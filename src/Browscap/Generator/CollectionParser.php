@@ -662,7 +662,8 @@ class CollectionParser
      */
     private function removeGroups(array $allInputDivisions)
     {
-        $allDivisions = array();
+        $allDivisions     = array();
+        $elementsToRemove = array();
 
         foreach ($allInputDivisions as $key => $division) {
             if (in_array($key, array('DefaultProperties', '*'))) {
@@ -678,23 +679,23 @@ class CollectionParser
                 && !in_array($parent, array('DefaultProperties', '*'))
                 && array_key_exists($parent, $allInputDivisions)
             ) {
-                foreach ($allInputDivisions as $innerKey => $innerDivision) {
-                    if (!isset($allInputDivisions[$innerKey]['Parent']) 
-                        || !isset($allInputDivisions[$parent]['Parent'])
-                        || $parent !== $allInputDivisions[$innerKey]['Parent']
-                    ) {
-                        continue;
-                    }
-
-                    $allInputDivisions[$innerKey]['Parent'] = $allInputDivisions[$parent]['Parent'];
-                }
-
                 $division['Parent'] = $allInputDivisions[$parent]['Parent'];
 
-                unset($allInputDivisions[$parent]);
+                $elementsToRemove[] = $parent;
             }
 
             $allDivisions[$key] = $division;
+        }
+
+        foreach (array_keys($allDivisions) as $key) {
+            if (in_array($key, array('DefaultProperties', '*'))) {
+                // skip default elements
+                continue;
+            }
+
+            if (in_array($key, $elementsToRemove)) {
+                unset($allDivisions[$key]);
+            }
         }
 
         return $allDivisions;
