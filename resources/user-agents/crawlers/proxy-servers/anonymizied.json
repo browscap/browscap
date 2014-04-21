@@ -5,51 +5,34 @@
     {
       "userAgent": "Anonymizied",
       "properties": {
-        "Parent": "Proxy Servers",
-        "Browser": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymisiert durch AlMiSoft Browser-Maulkorb (Anonymisier*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymisiert*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymizer\/*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymizied*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymous*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "Anonymous\/*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
-    },
-    {
-      "userAgent": "http:\/\/Anonymouse.org\/*",
-      "properties": {
-        "Parent": "Anonymizied"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Anonymizied",
+        "Browser": "Anonymizied",
+        "Browser_Type": "Bot/Crawler"
+      },
+      "children": [
+        {
+          "match": "Anonymisiert durch AlMiSoft Browser-Maulkorb (Anonymisier*"
+        },
+        {
+          "match": "Anonymisiert*"
+        },
+        {
+          "match": "Anonymizer\/*"
+        },
+        {
+          "match": "Anonymizied*"
+        },
+        {
+          "match": "Anonymous*"
+        },
+        {
+          "match": "Anonymous\/*"
+        },
+        {
+          "match": "http:\/\/Anonymouse.org\/*"
+        }
+      ]
     }
   ]
 }
