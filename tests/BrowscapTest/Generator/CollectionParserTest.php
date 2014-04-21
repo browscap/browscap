@@ -81,7 +81,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Property Foobar did not have a defined property type
+     * @expectedExceptionMessage Property "Foobar" did not have a defined property type
      */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped()
     {

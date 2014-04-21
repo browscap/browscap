@@ -100,11 +100,7 @@ class CollectionParser
                 continue;
             }
 
-            $loopResult = $this->parseLoop($division);
-
-            if (is_array($loopResult)) {
-                $allDivisions += $loopResult;
-            }
+            $allDivisions += $this->parseLoop($division, $allDivisions);
         }
 
         // full expand of all data
@@ -113,14 +109,13 @@ class CollectionParser
 
     /**
      * @param array $division
+     * @param array $allDivisions
      *
-     * @return array|bool
      * @throws \UnexpectedValueException
+     * @return array|bool
      */
-    private function parseLoop(array $division)
+    private function parseLoop(array $division, array $allDivisions)
     {
-        $allDivisions = array();
-
         if (!in_array(
                 $division['division'],
                 array('DefaultProperties', 'Default Browser')
