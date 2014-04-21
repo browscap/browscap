@@ -71,18 +71,29 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     public function testGetPropertyType($propertyName, $expectedType)
     {
         $actualType = CollectionParser::getPropertyType($propertyName);
-        self::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
+
+        self::assertSame(
+            $expectedType,
+            $actualType,
+            "Property {$propertyName} should be {$expectedType} (was {$actualType})"
+        );
     }
 
+    /**
+     * @expectedException \InvalidArgumentException
+     * @expectedExceptionMessage Property Foobar did not have a defined property type
+     */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped()
     {
-        $this->setExpectedException('\InvalidArgumentException', 'Property Foobar did not have a defined property type');
         CollectionParser::getPropertyType('Foobar');
     }
 
+    /**
+     * @expectedException \LogicException
+     * @expectedExceptionMessage Data collection has not been set yet - call setDataCollection
+     */
     public function testGetDataCollectionThrowsExceptionIfCollectionIsNotSet()
     {
-        $this->setExpectedException('\LogicException', 'Data collection has not been set yet - call setDataCollection');
         $parser = new CollectionParser();
         $parser->getDataCollection();
     }
@@ -231,7 +242,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
+        $mock = $this->getMock('\Browscap\Generator\DataCollection', array(), array(), '', false);
 
         $parser = new CollectionParser();
         $parser->setLogger($this->logger);
@@ -241,7 +252,13 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     public function testParseDoesNothingOnEmptyDatacollection()
     {
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock = $this->getMock(
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions'),
+            array(),
+            '',
+            false
+        );
         $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue(array()))
@@ -293,7 +310,13 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
             ),
         );
 
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock = $this->getMock(
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions'),
+            array(),
+            '',
+            false
+        );
         $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
@@ -356,7 +379,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions', 'getPlatform'),
+            array(),
+            '',
+            false
         );
         $mock->expects(self::once())
             ->method('getDivisions')
@@ -480,7 +507,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions', 'getPlatform'),
+            array(),
+            '',
+            false
         );
         $mock->expects(self::once())
             ->method('getDivisions')
@@ -549,7 +580,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions', 'getPlatform'),
+            array(),
+            '',
+            false
         );
         $mock->expects(self::once())
             ->method('getDivisions')
@@ -640,7 +675,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions', 'getPlatform'),
+            array(),
+            '',
+            false
         );
         $mock->expects(self::once())
             ->method('getDivisions')
@@ -732,7 +771,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Generator\DataCollection',
+            array('getDivisions', 'getPlatform'),
+            array(),
+            '',
+            false
         );
         $mock->expects(self::once())
             ->method('getDivisions')
