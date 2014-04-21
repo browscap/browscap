@@ -1,0 +1,102 @@
+{
+  "division": "Nutch",
+  "sortIndex": 290,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Nutch",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nutch",
+        "Browser": "Nutch",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "*Nutch*"
+        },
+        {
+          "match": "CazoodleBot\/*",
+          "properties": {
+            "Browser": "CazoodleBot"
+          }
+        },
+        {
+          "match": "LOOQ\/0.1*",
+          "properties": {
+            "Browser": "LOOQ"
+          }
+        },
+        {
+          "match": "Nutch\/0.? (OpenX Spider)"
+        },
+        {
+          "match": "linguatools-bot\/Nutch*",
+          "properties": {
+            "Browser": "linguatoolsbot",
+            "Browser_Maker": "www.linguatools.de"
+          }
+        },
+        {
+          "match": "MaxPointCrawler\/Nutch*",
+          "properties": {
+            "Browser": "MaxPointCrawler"
+          }
+        },
+        {
+          "match": "MR Crawler\/Nutch*",
+          "properties": {
+            "Browser": "MR Crawler"
+          }
+        },
+        {
+          "match": "My Nutch Spider\/Nutch*"
+        },
+        {
+          "match": "fetch\/Nutch*"
+        },
+        {
+          "match": "*Nutch?1.6*",
+          "properties": {
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "*Nutch?1.7*",
+          "properties": {
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Android*Mobile*) Gecko\/* Firefox\/* commoncrawl.org\/research\/\/Nutch-1.7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Nutch\/* (OpenX Spider)",
+          "properties": {
+            "Browser": "OpenX Spider"
+          }
+        },
+        {
+          "match": "The Crawler\/Nutch*",
+          "properties": {
+            "Browser": "The Crawler"
+          }
+        }
+      ]
+    }
+  ]
+}

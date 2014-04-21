@@ -1,0 +1,43 @@
+{
+  "division": "Nutch",
+  "sortIndex": 291,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Nutch test crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nutch test crawler",
+        "Browser": "Nutch test crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Nutch test crawler\/Nutch*",
+          "properties": {
+            "Browser": "Nutch test crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) Gecko\/* Firefox\/4.0*\/Nutch*",
+          "properties": {
+            "Division": "Nutch",
+            "Browser": "Nutch test crawler",
+            "Browser_Bits": "32",
+            "Platform": "Win7",
+            "Platform_Version": "6.1",
+            "Platform_Bits": "64",
+            "Platform_Maker": "Microsoft Corporation",
+            "Win32": "true",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        }
+      ]
+    }
+  ]
+}
