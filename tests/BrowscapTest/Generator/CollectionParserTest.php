@@ -497,4 +497,173 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
         $parser->parse();
     }
+
+    /**
+     * tests that an Exception is thrown if the property "split-file" is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage property "split-file" not found for Division "abc"
+     */
+    public function testMissingSplitFile()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties',
+                'sortIndex' => 1,
+                'lite' => true,
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'DefaultProperties',
+                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
+                    )
+                )
+            ),
+            array(
+                'division' => 'abc',
+                'sortIndex' => 2,
+                'lite' => false,
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test',
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'platforms' => array()
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+        );
+
+        $platform = array(
+            'match' => '*TestOS*',
+            'properties' => array(
+                'Platform' => 'TestOS'
+            )
+        );
+
+        $mock = $this->getMock(
+            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+        );
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+        $mock->expects($this->once())
+            ->method('getPlatform')
+            ->will(self::returnValue($platform))
+        ;
+
+        $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $parser->parse();
+    }
+
+    /**
+     * tests that an Exception is thrown if an division is defined more than once
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Division "abc" is defined twice
+     */
+    public function testDuplicateDivisions()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties',
+                'sortIndex' => 1,
+                'lite' => true,
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'DefaultProperties',
+                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
+                    )
+                )
+            ),
+            array(
+                'division' => 'abc',
+                'sortIndex' => 2,
+                'lite' => false,
+                'split-file' => 'A',
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test',
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'platforms' => array()
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+            array(
+                'division' => 'abc',
+                'sortIndex' => 4,
+                'lite' => true,
+                'split-file' => 'A',
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test2',
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'platforms' => array()
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+        );
+
+        $platform = array(
+            'match' => '*TestOS*',
+            'properties' => array(
+                'Platform' => 'TestOS'
+            )
+        );
+
+        $mock = $this->getMock(
+            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+        );
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+        $mock->expects($this->once())
+            ->method('getPlatform')
+            ->will(self::returnValue($platform))
+        ;
+
+        $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $parser->parse();
+    }
 }
