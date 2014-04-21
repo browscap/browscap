@@ -242,7 +242,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     public function testParseDoesNothingOnEmptyDatacollection()
     {
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue(array()))
         ;
@@ -294,7 +294,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
@@ -358,11 +358,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock(
             '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
@@ -482,11 +482,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock(
             '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
@@ -533,9 +533,6 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                                 'platforms' => array('testOS')
                             ),
                             array(
-                                'platforms' => array()
-                            ),
-                            array(
                                 'match' => 'abc/1.0* (#PLATFORM#)',
                             )
                         )
@@ -554,11 +551,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock(
             '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects($this->once())
+        $mock->expects(self::never())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
@@ -606,9 +603,6 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                                 'platforms' => array('testOS')
                             ),
                             array(
-                                'platforms' => array()
-                            ),
-                            array(
                                 'match' => 'abc/1.0* (#PLATFORM#)',
                             )
                         )
@@ -627,6 +621,101 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                         'children' => array(
                             array(
                                 'match' => 'abc/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+        );
+
+        $platform = array(
+            'match' => '*TestOS*',
+            'properties' => array(
+                'Platform' => 'TestOS'
+            )
+        );
+
+        $mock = $this->getMock(
+            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+        );
+        $mock->expects(self::once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+        $mock->expects(self::once())
+            ->method('getPlatform')
+            ->will(self::returnValue($platform))
+        ;
+
+        $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $parser->parse();
+    }
+
+    /**
+     * tests that an Exception is thrown if an division is defined more than once
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Division "abc 1.0" is defined twice
+     */
+    public function testDuplicateDivisionsWithVersions()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties',
+                'sortIndex' => 1,
+                'lite' => true,
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'DefaultProperties',
+                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
+                    )
+                )
+            ),
+            array(
+                'division' => 'abc #MAJORVER#.#MINORVER#',
+                'versions' => array(1, 2),
+                'sortIndex' => 2,
+                'lite' => false,
+                'split-file' => 'A',
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test #MAJORVER#.#MINORVER#',
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc #MAJORVER#.#MINORVER#/#PLATFORM#*',
+                                'platforms' => array('testOS')
+                            ),
+                            array(
+                                'platforms' => array()
+                            ),
+                            array(
+                                'match' => 'abc/1.0* (#PLATFORM#)',
+                            )
+                        )
+                    )
+                )
+            ),
+            array(
+                'division' => 'abc 1.0',
+                'sortIndex' => 4,
+                'lite' => true,
+                'split-file' => 'A',
+                'userAgents' => array(
+                    array(
+                        'userAgent' => 'test 1.0',
+                        'properties' => array('Parent' => 'DefaultProperties'),
+                        'children' => array(
+                            array(
+                                'match' => 'abc 1.0/#PLATFORM#*',
                                 'platforms' => array('testOS')
                             ),
                             array(
@@ -651,11 +740,11 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock(
             '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
         ;
-        $mock->expects($this->once())
+        $mock->expects(self::once())
             ->method('getPlatform')
             ->will(self::returnValue($platform))
         ;
