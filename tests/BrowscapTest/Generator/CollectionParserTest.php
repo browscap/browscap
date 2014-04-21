@@ -571,7 +571,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
      * tests that an Exception is thrown if an division is defined more than once
      *
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Division "abc" is defined twice
+     * @expectedExceptionMessage Division "abc/*TestOS**" is defined twice
      */
     public function testDuplicateDivisions()
     {
@@ -662,7 +662,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
      * tests that an Exception is thrown if an division is defined more than once
      *
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Division "abc 1.0" is defined twice
+     * @expectedExceptionMessage Division "abc/1.0* (#PLATFORM#)" is defined twice
      */
     public function testDuplicateDivisionsWithVersions()
     {
