@@ -5,8 +5,11 @@
     {
       "userAgent": "Mail.Ru Bot",
       "properties": {
-        "Parent": "Search Engines",
-        "Browser": "Mail.Ru"
+        "Parent": "DefaultProperties",
+        "Comment": "Mail.Ru",
+        "Browser": "Mail.Ru",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
       }
     },
     {

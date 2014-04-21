@@ -5,9 +5,12 @@
     {
       "userAgent": "AhrefsBot",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
+        "Comment": "AhrefsBot",
         "Browser": "AhrefsBot",
-        "Browser_Maker": "Ahrefs Inc"
+        "Browser_Maker": "Ahrefs Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
       }
     },
     {
