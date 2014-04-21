@@ -116,10 +116,8 @@ class CollectionParser
      */
     private function parseLoop(array $division, array $allDivisions)
     {
-        if (!in_array(
-                $division['division'],
-                array('DefaultProperties', 'Default Browser')
-            ) && !isset($division['split-file'])
+        if (!in_array($division['division'],array('DefaultProperties', 'Default Browser'))
+            && !isset($division['split-file'])
         ) {
             throw new \UnexpectedValueException(
                 'property "split-file" not found for Division "' . $division['division'] . '"'
