@@ -108,6 +108,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
         $xmlWriter = new XMLWriter();
         $xmlWriter->openMemory();
         $xmlWriter->setIndent(true);
+        $xmlWriter->setIndentString('');
         $xmlWriter->startDocument('1.0', 'UTF-8');
         file_put_contents($this->file, $xmlWriter->flush(true));
 

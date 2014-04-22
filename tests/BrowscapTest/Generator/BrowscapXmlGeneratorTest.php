@@ -232,7 +232,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator->generate();
 
-        self::assertStringEqualsFile($fixturesDir . $expectedXml, $outputfile);
+        self::assertStringEqualsFile($fixturesDir . $expectedXml, file_get_contents($outputfile));
     }
 
     /**
