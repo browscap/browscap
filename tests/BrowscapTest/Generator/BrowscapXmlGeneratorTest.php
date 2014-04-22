@@ -165,7 +165,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $expectedFilename = __DIR__ . '/../../fixtures/xml/' . $filename;
 
-        $generator = new BrowscapXmlGenerator($expectedFilename);
+        $generator = new BrowscapXmlGenerator(__DIR__ . '/../../fixtures/xml/temp_' . $filename);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -180,17 +180,15 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function generateFeaturesDataProvider()
     {
-        $fixturesDir = __DIR__ . '/../../fixtures/';
-
         return [
-            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'xml/features-bcv.xml'],
-            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'xml/features-basic.xml'],
-            'single-child' => [$fixturesDir . 'ua/features-single-child.json', $fixturesDir . 'xml/features-single-child.xml'],
-            'multi-child' => [$fixturesDir . 'ua/features-multi-child.json', $fixturesDir . 'xml/features-multi-child.xml'],
-            'versions' => [$fixturesDir . 'ua/features-versions.json', $fixturesDir . 'xml/features-versions.xml'],
-            'platforms' => [$fixturesDir . 'ua/features-platforms.json', $fixturesDir . 'xml/features-platforms.xml'],
-            'child-props' => [$fixturesDir . 'ua/features-child-props.json', $fixturesDir . 'xml/features-child-props.xml'],
-            'platform-props' => [$fixturesDir . 'ua/features-platform-props.json', $fixturesDir . 'xml/features-platform-props.xml'],
+            'bcv' => ['ua/features-bcv.json', 'xml/features-bcv.xml'],
+            'basic' => ['ua/features-basic.json', 'xml/features-basic.xml'],
+            'single-child' => ['ua/features-single-child.json', 'xml/features-single-child.xml'],
+            'multi-child' => ['ua/features-multi-child.json', 'xml/features-multi-child.xml'],
+            'versions' => ['ua/features-versions.json', 'xml/features-versions.xml'],
+            'platforms' => ['ua/features-platforms.json', 'xml/features-platforms.xml'],
+            'child-props' => ['ua/features-child-props.json', 'xml/features-child-props.xml'],
+            'platform-props' => ['ua/features-platform-props.json', 'xml/features-platform-props.xml'],
         ];
     }
 
@@ -205,7 +203,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         $collectionParser
             ->setLogger($this->logger)
             ->setDataCollection(
-            $this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $jsonFile])
+            $this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $fixturesDir . $jsonFile])
         );
         $collectionData = $collectionParser->parse();
 
@@ -219,7 +217,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapXmlGenerator($expectedXml);
+        $generator = new BrowscapXmlGenerator($fixturesDir . 'temp_' . $expectedXml);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -229,14 +227,14 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $xml = $generator->generate();
 
-        self::assertStringEqualsFile($expectedXml, $xml);
+        self::assertStringEqualsFile($fixturesDir . $expectedXml, $xml);
     }
 
     /**
      * @dataProvider generateFormatsDataProvider
      *
      * @param string $filename
-     * 
+     *
      * @expectedException \LogicException
      */
     public function testGenerateInvalidFeatures($filename)
