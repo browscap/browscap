@@ -122,7 +122,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
         $counter = 1;
 
         $this->logger->debug('rendering all divisions');
-        
+
         foreach ($allDivisions as $key => $properties) {
             $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
 

@@ -65,15 +65,25 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         return $dataCollection;
     }
 
-    public function testgetCollectionDataThrowsExceptionIfDataCollectionNotSet()
+    /**
+     * @dataProvider generateFormatsDataProvider
+     *
+     * @param string $filename
+     */
+    public function testgetCollectionDataThrowsExceptionIfDataCollectionNotSet($filename)
     {
-        $generator = new BrowscapXmlGenerator();
+        $generator = new BrowscapXmlGenerator($filename);
 
         $this->setExpectedException('\LogicException', 'Data collection has not been set yet');
         $generator->getCollectionData();
     }
 
-    public function testSetCollectionData()
+    /**
+     * @dataProvider generateFormatsDataProvider
+     *
+     * @param string $filename
+     */
+    public function testSetCollectionData($filename)
     {
         $dataCollection = new DataCollection('1234');
 
@@ -86,7 +96,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
-        $generator = new BrowscapXmlGenerator();
+        $generator = new BrowscapXmlGenerator($filename);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -95,7 +105,12 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertAttributeSame($collectionData, 'collectionData', $generator);
     }
 
-    public function testGetCollectionData()
+    /**
+     * @dataProvider generateFormatsDataProvider
+     *
+     * @param string $filename
+     */
+    public function testGetCollectionData($filename)
     {
         $dataCollection = new DataCollection('1234');
 
@@ -108,7 +123,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
-        $generator = new BrowscapXmlGenerator();
+        $generator = new BrowscapXmlGenerator($filename);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -126,6 +141,8 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider generateFormatsDataProvider
+     *
+     * @param string $filename
      */
     public function testGenerateWithDifferentFormattingOptions($filename)
     {
@@ -146,7 +163,9 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapXmlGenerator();
+        $expectedFilename = __DIR__ . '/../../fixtures/xml/' . $filename;
+
+        $generator = new BrowscapXmlGenerator($expectedFilename);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -155,8 +174,6 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $ini = $generator->generate();
-
-        $expectedFilename = __DIR__ . '/../../fixtures/xml/' . $filename;
 
         self::assertStringEqualsFile($expectedFilename, $ini);
     }
@@ -202,7 +219,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapXmlGenerator();
+        $generator = new BrowscapXmlGenerator($expectedXml);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -216,9 +233,13 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @dataProvider generateFormatsDataProvider
+     *
+     * @param string $filename
+     * 
      * @expectedException \LogicException
      */
-    public function testGenerateInvalidFeatures()
+    public function testGenerateInvalidFeatures($filename)
     {
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
@@ -245,7 +266,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapXmlGenerator();
+        $generator = new BrowscapXmlGenerator($filename);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
