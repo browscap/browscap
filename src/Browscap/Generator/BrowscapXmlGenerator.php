@@ -83,11 +83,13 @@ class BrowscapXmlGenerator extends AbstractGenerator
         }
 
         $xmlWriter->startElement('item');
-        $xmlWriter->writeAttribute('Version', $versionData['version']);
+        $xmlWriter->writeAttribute('name', 'Version');
+        $xmlWriter->writeAttribute('value', $versionData['version']);
         $xmlWriter->endElement();
 
         $xmlWriter->startElement('item');
-        $xmlWriter->writeAttribute('Released', $versionData['released']);
+        $xmlWriter->writeAttribute('name', 'Released');
+        $xmlWriter->writeAttribute('value', $versionData['released']);
         $xmlWriter->endElement();
 
         $xmlWriter->endElement();
@@ -109,7 +111,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
         $xmlWriter->openMemory();
         $xmlWriter->setIndent(true);
         $xmlWriter->setIndentString('');
-        $xmlWriter->startDocument('1.0', 'UTF-8');
+        $xmlWriter->startDocument('1.0', 'utf-8');
         file_put_contents($this->file, $xmlWriter->flush(true));
 
         $xmlWriter->startElement('browsercaps');
