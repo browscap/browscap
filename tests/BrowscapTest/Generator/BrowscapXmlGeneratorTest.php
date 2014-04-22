@@ -165,7 +165,8 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $expectedFilename = __DIR__ . '/../../fixtures/xml/' . $filename;
 
-        $generator = new BrowscapXmlGenerator(__DIR__ . '/../../fixtures/xml/temp_' . $filename);
+        $outputfile = __DIR__ . '/../../fixtures/xml/temp_' . $filename;
+        $generator  = new BrowscapXmlGenerator($outputfile);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -173,9 +174,12 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $ini = $generator->generate();
+        $generator->generate();
 
-        self::assertStringEqualsFile($expectedFilename, $ini);
+        self::assertStringEqualsFile(
+            $expectedFilename,
+            file_get_contents($outputfile)
+        );
     }
 
     public function generateFeaturesDataProvider()
@@ -217,7 +221,8 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapXmlGenerator($fixturesDir . 'temp_' . $expectedXml);
+        $outputfile = $fixturesDir . str_replace('xml/', 'xml/temp_', $expectedXml);
+        $generator  = new BrowscapXmlGenerator($outputfile);
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -225,9 +230,9 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $xml = $generator->generate();
+        $generator->generate();
 
-        self::assertStringEqualsFile($fixturesDir . $expectedXml, $xml);
+        self::assertStringEqualsFile($fixturesDir . $expectedXml, $outputfile);
     }
 
     /**
