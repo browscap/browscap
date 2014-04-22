@@ -107,6 +107,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
         $xmlWriter = new XMLWriter();
         $xmlWriter->openMemory();
+        $xmlWriter->setIndent(false);
         $xmlWriter->startDocument('1.0', 'UTF-8');
         file_put_contents($this->file, $xmlWriter->flush(true));
 
@@ -163,6 +164,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
         $xmlWriter->endElement(); // browsercapitems
         $xmlWriter->endElement(); // browsercaps
+        $xmlWriter->endDocument();
 
         file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
 
