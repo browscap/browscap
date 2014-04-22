@@ -4,6 +4,7 @@ namespace Browscap\Generator;
 
 use DOMDocument;
 use DOMNode;
+use XMLWriter;
 
 /**
  * Class BrowscapXmlGenerator
@@ -12,6 +13,20 @@ use DOMNode;
  */
 class BrowscapXmlGenerator extends AbstractGenerator
 {
+    private $file = '';
+
+    /**
+     * Constructs the XML Generator
+     *
+     * @param string $file
+     *
+     * @return BrowscapXmlGenerator
+     */
+    public function __construct($file)
+    {
+        $this->file = $file;
+    }
+
     /**
      * Generate and return the formatted browscap data
      *
@@ -20,6 +35,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
     public function generate()
     {
         $this->logger->debug('build output for xml file');
+
         return $this->render(
             $this->collectionData,
             array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
@@ -29,23 +45,52 @@ class BrowscapXmlGenerator extends AbstractGenerator
     /**
      * Generate the header
      *
-     * @param \DOMDocument $dom
-     *
-     * @return \DOMElement
+     * @param \XMLWriter $xmlWriter
      */
-    private function renderHeader(DOMDocument $dom)
+    private function renderHeader(XMLWriter $xmlWriter)
     {
         $this->logger->debug('rendering comments');
-        $comments = $dom->createElement('comments');
+
+        $xmlWriter->startElement('comments');
 
         foreach ($this->getComments() as $text) {
-            $comment = $dom->createElement('comment');
-            $cdata   = $dom->createCDATASection($text);
-            $comment->appendChild($cdata);
-            $comments->appendChild($comment);
+            $xmlWriter->startElement('comment');
+            $xmlWriter->writeCData($text);
+            $xmlWriter->endElement();
         }
 
-        return $comments;
+        $xmlWriter->endElement();
+    }
+
+    /**
+     * renders the version information
+     *
+     * @param \XMLWriter $xmlWriter
+     */
+    private function renderVersion(XMLWriter $xmlWriter)
+    {
+        $this->logger->debug('rendering version information');
+
+        $xmlWriter->startElement('gjk_browscap_version');
+        $versionData = $this->getVersionData();
+
+        if (!isset($versionData['version'])) {
+            $versionData['version'] = '0';
+        }
+
+        if (!isset($versionData['released'])) {
+            $versionData['released'] = '';
+        }
+
+        $xmlWriter->startElement('item');
+        $xmlWriter->writeAttribute('Version', $versionData['version']);
+        $xmlWriter->endElement();
+
+        $xmlWriter->startElement('item');
+        $xmlWriter->writeAttribute('Released', $versionData['released']);
+        $xmlWriter->endElement();
+
+        $xmlWriter->endElement();
     }
 
     /**
@@ -60,19 +105,24 @@ class BrowscapXmlGenerator extends AbstractGenerator
     {
         $this->logger->debug('rendering XML structure');
 
-        $dom = new DOMDocument('1.0', 'utf-8');
-        $dom->preserveWhiteSpace = false;
-        $dom->formatOutput = true;
+        $xmlWriter = new XMLWriter();
+        $xmlWriter->openMemory();
+        $xmlWriter->startDocument('1.0', 'UTF-8');
+        file_put_contents($this->file, $xmlWriter->flush(true));
 
-        $xmlRoot   = $dom->createElement('browsercaps');
-        $xmlRoot->appendChild($this->renderHeader($dom));
-        $xmlRoot->appendChild($this->renderVersion($dom));
+        $xmlWriter->startElement('browsercaps');
+        $this->renderHeader($xmlWriter);
+        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
 
-        $items = $dom->createElement('browsercapitems');
+        $this->renderVersion($xmlWriter);
+        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
+
+        $xmlWriter->startElement('browsercapitems');
 
         $counter = 1;
 
         $this->logger->debug('rendering all divisions');
+        
         foreach ($allDivisions as $key => $properties) {
             $this->logger->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
 
@@ -85,17 +135,15 @@ class BrowscapXmlGenerator extends AbstractGenerator
             }
 
             // create output - xml
-            $browscapitem = $dom->createElement('browscapitem');
-            $name = $dom->createAttribute('name');
-            $name->value = htmlentities($key);
-            $browscapitem->appendChild($name);
+            $xmlWriter->startElement('browscapitem');
+            $xmlWriter->writeAttribute('name', $key);
 
-            $this->createItem($dom, $browscapitem, 'PropertyName', $key);
-            $this->createItem($dom, $browscapitem, 'AgentID', $counter);
-            $this->createItem($dom, $browscapitem, 'MasterParent', $this->detectMasterParent($key, $properties));
+            $this->createItem($xmlWriter, 'PropertyName', $key);
+            $this->createItem($xmlWriter, 'AgentID', $counter);
+            $this->createItem($xmlWriter, 'MasterParent', $this->detectMasterParent($key, $properties));
 
             $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
-            $this->createItem($dom, $browscapitem, 'LiteMode', $valueOutput);
+            $this->createItem($xmlWriter, 'LiteMode', $valueOutput);
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
@@ -106,85 +154,32 @@ class BrowscapXmlGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $this->createItem($dom, $browscapitem, $property, $this->formatValue($property, $properties));
+                $this->createItem($xmlWriter, $property, $this->formatValue($property, $properties));
             }
 
-            $items->appendChild($browscapitem);
+            $xmlWriter->endElement(); // browscapitem
+            file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
         }
 
-        $xmlRoot->appendChild($items);
-        $dom->appendChild($xmlRoot);
+        $xmlWriter->endElement(); // browsercapitems
+        $xmlWriter->endElement(); // browsercaps
 
-        $this->logger->debug('covert XML to String');
-        $output = str_replace('  ', '', $dom->saveXML());
-        $this->logger->debug('coverting finished');
+        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
 
-        unset($dom, $xmlRoot, $items, $browscapitem);
-
-        return $output;
+        return '';
     }
 
     /**
-     * renders the version information
-     *
-     * @param \DOMDocument $dom
-     *
-     * @return \DOMElement
+     * @param \XMLWriter $xmlWriter
+     * @param string     $property
+     * @param mixed      $valueOutput
      */
-    private function renderVersion(DOMDocument $dom)
-    {
-        $this->logger->debug('rendering version information');
-        $version     = $dom->createElement('gjk_browscap_version');
-        $versionData = $this->getVersionData();
-
-        if (!isset($versionData['version'])) {
-            $versionData['version'] = '0';
-        }
-
-        if (!isset($versionData['released'])) {
-            $versionData['released'] = '';
-        }
-
-        $item = $dom->createElement('item');
-        $name = $dom->createAttribute('name');
-        $name->value = 'Version';
-        $value = $dom->createAttribute('value');
-        $value->value = $versionData['version'];
-        $item->appendChild($name);
-        $item->appendChild($value);
-        $version->appendChild($item);
-
-        $item = $dom->createElement('item');
-        $name = $dom->createAttribute('name');
-        $name->value = 'Released';
-        $value = $dom->createAttribute('value');
-        $value->value = $versionData['released'];
-        $item->appendChild($name);
-        $item->appendChild($value);
-        $version->appendChild($item);
-
-        return $version;
-    }
-
-    /**
-     * @param \DOMDocument $dom
-     * @param \DOMNode     $browscapitem
-     * @param string       $property
-     * @param mixed        $valueOutput
-     */
-    private function createItem(DOMDocument $dom, DOMNode $browscapitem, $property, $valueOutput)
+    private function createItem(XMLWriter $xmlWriter, $property, $valueOutput)
     {
         $this->logger->debug('create item for property "' . $property . '"');
-        $item        = $dom->createElement('item');
-
-        $name        = $dom->createAttribute('name');
-        $name->value = htmlentities($property);
-        $item->appendChild($name);
-
-        $value        = $dom->createAttribute('value');
-        $value->value = htmlentities($valueOutput);
-        $item->appendChild($value);
-
-        $browscapitem->appendChild($item);
+        $xmlWriter->startElement('item');
+        $xmlWriter->writeAttribute('name', $property);
+        $xmlWriter->writeAttribute('value', $valueOutput);
+        $xmlWriter->endElement();
     }
 }
