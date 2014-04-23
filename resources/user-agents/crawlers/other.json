@@ -4,7 +4,7 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)",
+      "userAgent": "Others",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Bot",
@@ -13,19 +13,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko Minefield\/3.0",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Browser": "Bot",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)"
+        }
+      ]
     }
   ]
 }

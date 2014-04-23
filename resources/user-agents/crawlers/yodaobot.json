@@ -12,54 +12,43 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)",
-      "properties": {
-        "Parent": "YodaoBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
-      "properties": {
-        "Parent": "YodaoBot",
-        "Browser": "YodaoBot-Image"
-      }
-    },
-    {
-      "userAgent": "WAP_Browser\/5.0 (compatible; YodaoBot\/1.*)",
-      "properties": {
-        "Parent": "YodaoBot"
-      }
-    },
-    {
-      "userAgent": "YodaoBot\/1.* (*)",
-      "properties": {
-        "Parent": "YodaoBot"
-      }
-    },
-    {
-      "userAgent": "Best Whois (http:\/\/www.bestwhois.net\/)",
-      "properties": {
-        "Parent": "DNS Tools",
-        "Browser": "Best Whois"
-      }
-    },
-    {
-      "userAgent": "DNSGroup\/*",
-      "properties": {
-        "Parent": "DNS Tools",
-        "Browser": "DNS Group Crawler"
-      }
-    },
-    {
-      "userAgent": "TouchStone",
-      "properties": {
-        "Parent": "Feeds Syndicators",
-        "Browser": "TouchStone",
-        "isSyndicationReader": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
+          "properties": {
+            "Browser": "YodaoBot-Image"
+          }
+        },
+        {
+          "match": "WAP_Browser\/5.0 (compatible; YodaoBot\/1.*)"
+        },
+        {
+          "match": "YodaoBot\/1.* (*)"
+        },
+        {
+          "match": "Best Whois (http:\/\/www.bestwhois.net\/)",
+          "properties": {
+            "Browser": "Best Whois"
+          }
+        },
+        {
+          "match": "DNSGroup\/*",
+          "properties": {
+            "Browser": "DNS Group Crawler"
+          }
+        },
+        {
+          "match": "TouchStone",
+          "properties": {
+            "Browser": "TouchStone",
+            "isSyndicationReader": "true"
+          }
+        }
+      ]
     }
   ]
 }

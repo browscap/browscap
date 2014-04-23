@@ -12,21 +12,21 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "DataFountains\/DMOZ Downloader*",
-      "properties": {
-        "Parent": "iVia Project",
-        "Browser": "DataFountains\/DMOZ Downloader"
-      }
-    },
-    {
-      "userAgent": "DataFountains\/DMOZ Feature Vector Corpus Creator*",
-      "properties": {
-        "Parent": "iVia Project",
-        "Browser": "DataFountains\/DMOZ Feature Vector Corpus"
-      }
+      },
+      "children": [
+        {
+          "match": "DataFountains\/DMOZ Downloader*",
+          "properties": {
+            "Browser": "DataFountains\/DMOZ Downloader"
+          }
+        },
+        {
+          "match": "DataFountains\/DMOZ Feature Vector Corpus Creator*",
+          "properties": {
+            "Browser": "DataFountains\/DMOZ Feature Vector Corpus"
+          }
+        }
+      ]
     }
   ]
 }

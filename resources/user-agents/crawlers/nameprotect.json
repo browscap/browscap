@@ -10,28 +10,18 @@
         "Browser": "NameProtect",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "abot\/*",
-      "properties": {
-        "Parent": "NameProtect",
-        "Browser": "NameProtect"
-      }
-    },
-    {
-      "userAgent": "NP\/*",
-      "properties": {
-        "Parent": "NameProtect",
-        "Browser": "NameProtect"
-      }
-    },
-    {
-      "userAgent": "NPBot*",
-      "properties": {
-        "Parent": "NameProtect",
-        "Browser": "NameProtect"
-      }
+      },
+      "children": [
+        {
+          "match": "abot\/*"
+        },
+        {
+          "match": "NP\/*"
+        },
+        {
+          "match": "NPBot*"
+        }
+      ]
     }
   ]
 }

@@ -13,83 +13,72 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*FAST Enterprise Crawler*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST Enterprise Crawler"
-      }
-    },
-    {
-      "userAgent": "FAST Data Search Document Retriever\/4.0*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST Data Search Document Retriever"
-      }
-    },
-    {
-      "userAgent": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST MetaWeb Crawler"
-      }
-    },
-    {
-      "userAgent": "Fast PartnerSite Crawler*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST PartnerSite"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*\/FirstPage*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/FirstPage"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*\/Fresh*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/Fresh"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*\/PartnerSite*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST PartnerSite"
-      }
-    },
-    {
-      "userAgent": "FAST-WebCrawler\/*?Multimedia*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FAST-WebCrawler\/Multimedia"
-      }
-    },
-    {
-      "userAgent": "FastSearch Web Crawler for*",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb",
-        "Browser": "FastSearch Web Crawler"
-      }
-    },
-    {
-      "userAgent": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)",
-      "properties": {
-        "Parent": "Fast\/AllTheWeb"
-      }
+      },
+      "children": [
+        {
+          "match": "*FAST Enterprise Crawler*",
+          "properties": {
+            "Browser": "FAST Enterprise Crawler"
+          }
+        },
+        {
+          "match": "FAST Data Search Document Retriever\/4.0*",
+          "properties": {
+            "Browser": "FAST Data Search Document Retriever"
+          }
+        },
+        {
+          "match": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
+          "properties": {
+            "Browser": "FAST MetaWeb Crawler"
+          }
+        },
+        {
+          "match": "Fast PartnerSite Crawler*",
+          "properties": {
+            "Browser": "FAST PartnerSite"
+          }
+        },
+        {
+          "match": "FAST-WebCrawler\/*",
+          "properties": {
+            "Browser": "FAST-WebCrawler"
+          }
+        },
+        {
+          "match": "FAST-WebCrawler\/*\/FirstPage*",
+          "properties": {
+            "Browser": "FAST-WebCrawler\/FirstPage"
+          }
+        },
+        {
+          "match": "FAST-WebCrawler\/*\/Fresh*",
+          "properties": {
+            "Browser": "FAST-WebCrawler\/Fresh"
+          }
+        },
+        {
+          "match": "FAST-WebCrawler\/*\/PartnerSite*",
+          "properties": {
+            "Browser": "FAST PartnerSite"
+          }
+        },
+        {
+          "match": "FAST-WebCrawler\/*?Multimedia*",
+          "properties": {
+            "Browser": "FAST-WebCrawler\/Multimedia"
+          }
+        },
+        {
+          "match": "FastSearch Web Crawler for*",
+          "properties": {
+            "Browser": "FastSearch Web Crawler"
+          }
+        },
+        {
+          "match": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)"
+        }
+      ]
     }
   ]
 }

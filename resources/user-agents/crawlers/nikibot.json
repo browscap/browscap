@@ -14,13 +14,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "niki-bot",
-      "properties": {
-        "Parent": "NikiBot"
-      }
+      },
+      "children": [
+        {
+          "match": "niki-bot"
+        }
+      ]
     }
   ]
 }

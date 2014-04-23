@@ -10,7 +10,17 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Crawly"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
     }
   ]
 }

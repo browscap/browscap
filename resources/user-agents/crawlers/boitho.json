@@ -12,27 +12,24 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "boitho.com-*",
-      "properties": {
-        "Parent": "Boitho"
-      }
-    },
-    {
-      "userAgent": "boitho.com-dc\/*",
-      "properties": {
-        "Parent": "Boitho",
-        "Browser": "boitho.com-dc"
-      }
-    },
-    {
-      "userAgent": "boitho.com-robot\/*",
-      "properties": {
-        "Parent": "Boitho",
-        "Browser": "boitho.com-robot"
-      }
+      },
+      "children": [
+        {
+          "match": "boitho.com-*"
+        },
+        {
+          "match": "boitho.com-dc\/*",
+          "properties": {
+            "Browser": "boitho.com-dc"
+          }
+        },
+        {
+          "match": "boitho.com-robot\/*",
+          "properties": {
+            "Browser": "boitho.com-robot"
+          }
+        }
+      ]
     }
   ]
 }

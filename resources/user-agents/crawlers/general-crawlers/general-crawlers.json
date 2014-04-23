@@ -541,12 +541,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)",
-          "properties": {
-            "Browser": "Crawly"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Diffbot\/0.1; +http:\/\/www.diffbot.com)",
           "properties": {
             "Browser": "Diffbot",
