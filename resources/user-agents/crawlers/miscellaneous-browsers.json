@@ -26,7 +26,7 @@
           }
         },
         {
-          "userAgent": 12345,
+          "match": "12345",
           "properties": {
             "Browser": "12345"
           }
