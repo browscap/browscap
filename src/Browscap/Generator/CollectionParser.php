@@ -171,7 +171,7 @@ class CollectionParser
 
         // full expand of all data
         $allDivisions = $this->expandProperties($allDivisions);
-        $allDivisions = $this->removeGroups($allDivisions);
+        //$allDivisions = $this->removeGroups($allDivisions);
 
         return $allDivisions;
     }
