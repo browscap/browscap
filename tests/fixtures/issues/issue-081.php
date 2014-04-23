@@ -51,7 +51,7 @@ return [
     'issue-81-A' => [
         'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
         [
-            'Browser' => 'sogou web spider',
+            'Browser' => 'Sogou Web Spider',
             'Version' => '4.0',
             'Crawler' => true,
         ],
