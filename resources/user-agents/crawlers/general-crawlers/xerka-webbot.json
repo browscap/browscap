@@ -1,0 +1,21 @@
+{
+  "division": "Xerka WebBot",
+  "sortIndex": 1580,
+  "userAgents": [
+    {
+      "userAgent": "Xerka WebBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Xerka",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Xerka"
+      },
+      "children": [
+        {
+          "match": "Xerka WebBot*"
+        }
+      ]
+    }
+  ]
+}

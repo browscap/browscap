@@ -1,0 +1,33 @@
+{
+  "division": "LetsCrawl.com",
+  "sortIndex": 660,
+  "userAgents": [
+    {
+      "userAgent": "LetsCrawl.com",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LetsCrawl",
+        "Browser": "LetsCrawl",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "LetsCrawl.com",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "LetsCrawl.com\/*"
+        },
+        {
+          "match": "LetsCrawl.com\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "division": "Gnomit",
+  "sortIndex": 510,
+  "userAgents": [
+    {
+      "userAgent": "Gnomit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Gnomit",
+        "Browser": "Gnomit",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

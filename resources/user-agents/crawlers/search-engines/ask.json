@@ -1,0 +1,35 @@
+{
+  "division": "Ask",
+  "sortIndex": 10,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Ask",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ask",
+        "Browser": "Ask",
+        "Browser_Maker": "Ask.com",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/?.0 (compatible; Ask Jeeves\/Teoma*)",
+          "properties": {
+            "Browser": "Teoma"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (compatible; Ask Jeeves)",
+          "properties": {
+            "Browser": "AskJeeves"
+          }
+        }
+      ]
+    }
+  ]
+}

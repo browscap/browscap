@@ -6,7 +6,7 @@
       "userAgent": "Crawly",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
+        "Comment": "Crawly",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Crawly"

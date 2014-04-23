@@ -1,0 +1,31 @@
+{
+  "division": "SeznamBot",
+  "sortIndex": 1440,
+  "userAgents": [
+    {
+      "userAgent": "SeznamBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SeznamBot",
+        "Browser": "SeznamBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "SeznamBot\/*"
+        },
+        {
+          "match": "SeznamBot\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3"
+          }
+        }
+      ]
+    }
+  ]
+}
