@@ -2,7 +2,7 @@
 
 return [
     'issue-227' => [
-        'securepoint cf',
+        'RankFlex.com Webspider',
         [
             'Browser' => 'RankFlex.com Webspider',
             'isMobileDevice' => false,
