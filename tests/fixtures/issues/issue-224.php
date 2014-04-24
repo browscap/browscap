@@ -17,4 +17,12 @@ return [
             'Crawler' => true,
         ],
     ],
+    'issue-228' => [
+        'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/536.11 (KHTML, like Gecko) chrome/22.0.1190.0 Safari/536.11',
+        [
+            'Browser' => 'Fake Chrome',
+            'isMobileDevice' => false,
+            'Crawler' => true,
+        ],
+    ],
 ];
