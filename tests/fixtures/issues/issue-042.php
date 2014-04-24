@@ -8,7 +8,7 @@ return [
             'Platform' => 'RIM OS',
             'isMobileDevice' => true,
             'Device_Name' => 'Blackberry',
-            'Device_Maker' => 'RIM',
+            'Device_Maker' => 'Research In Motion Limited',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown'
         ],
