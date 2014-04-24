@@ -1,0 +1,23 @@
+{
+  "division": "m65bot",
+  "sortIndex": 700,
+  "userAgents": [
+    {
+      "userAgent": "m65bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "m65bot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "DoCoMo\/2.0 P904i( m65bot\/0.1; c; http:\/\/m65.jp\/bot.html )"
+        }
+      ]
+    }
+  ]
+}

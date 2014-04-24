@@ -1,0 +1,29 @@
+{
+  "division": "Esribot",
+  "sortIndex": 320,
+  "userAgents": [
+    {
+      "userAgent": "Esribot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Esribot"
+      },
+      "children": [
+        {
+          "match": "Esribot\/*"
+        },
+        {
+          "match": "Esribot\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

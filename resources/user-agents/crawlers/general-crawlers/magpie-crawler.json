@@ -1,0 +1,31 @@
+{
+  "division": "magpie-crawler",
+  "sortIndex": 710,
+  "userAgents": [
+    {
+      "userAgent": "magpie-crawler",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "magpie-crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "magpie-crawler\/*"
+        },
+        {
+          "match": "magpie-crawler\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

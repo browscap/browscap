@@ -1,0 +1,25 @@
+{
+  "division": "Elefent 1.2",
+  "sortIndex": 290,
+  "userAgents": [
+    {
+      "userAgent": "Elefent 1.2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Elefent",
+        "Browser_Maker": "elefent.eu",
+        "Version": "1.2",
+        "MajorVer": "1",
+        "MinorVer": "2"
+      },
+      "children": [
+        {
+          "match": "elefent\/Elefent 1.2 (A friendly web elefent.; http:\/\/elefent.eu\/; webmaster@elefent.eu)"
+        }
+      ]
+    }
+  ]
+}
