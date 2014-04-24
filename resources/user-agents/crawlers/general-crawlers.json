@@ -1638,6 +1638,14 @@
         "MajorVer": "2",
         "MinorVer": "1"
       }
+    },
+    {
+      "userAgent": "securepoint cf",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Securepoint Content Filter",
+        "Browser_Maker": "Securepoint GmbH"
+      }
     }
   ]
 }

@@ -246,9 +246,9 @@ class BuildGenerator
 
         $this->logger->info('Generating browscap.xml [XML]');
 
-        $xmlGenerator = new BrowscapXmlGenerator();
+        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
         $this->generatorHelper->setGenerator($xmlGenerator);
-        file_put_contents($this->buildFolder . '/browscap.xml', $this->generatorHelper->create());
+        $this->generatorHelper->create();
 
         unset($xmlGenerator);
 
