@@ -1409,6 +1409,13 @@
             "MajorVer": "2",
             "MinorVer": "1"
           }
+        },
+        {
+          "match": "securepoint cf",
+          "properties": {
+            "Browser": "Securepoint Content Filter",
+            "Browser_Maker": "Securepoint GmbH"
+          }
         }
       ]
     }
