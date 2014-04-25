@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Opera Generic",
         "Browser": "Opera",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

@@ -40,6 +40,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "properties": {
             "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Maker": "Apple Inc",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
@@ -50,6 +51,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "properties": {
             "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Maker": "Apple Inc",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
@@ -66,6 +68,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen",
             "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Maker": "Apple Inc",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
@@ -78,7 +81,12 @@
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
+            "Device_Name": "Galaxy S III",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
+            "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Maker": "Apple Inc",
+            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"

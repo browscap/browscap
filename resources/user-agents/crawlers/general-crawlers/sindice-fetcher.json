@@ -1,0 +1,32 @@
+{
+  "division": "Sindice Fetcher",
+  "sortIndex": 1450,
+  "split-file": "E",
+  "userAgents": [
+    {
+      "userAgent": "Sindice Fetcher",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Sindice Fetcher",
+        "Browser_Maker": "Sindice",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; sindice-fetcher\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; sindice-fetcher\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MinorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

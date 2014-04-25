@@ -1,0 +1,22 @@
+{
+  "division": "Crawly",
+  "sortIndex": 180,
+  "split-file": "E",
+  "userAgents": [
+    {
+      "userAgent": "Crawly",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Crawly"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)"
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
         "Alpha": "true",
         "Win32": "true",
         "Frames": "true",
@@ -24,7 +26,8 @@
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation"
       },
       "children": [
         {
@@ -79,7 +82,8 @@
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "unknown",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation"
       },
       "children": [
         {

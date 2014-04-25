@@ -28,6 +28,7 @@
         "Crawler": "false",
         "Device_Type": "Desktop",
         "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation",
         "Version": "3.0",
         "MajorVer": "3",

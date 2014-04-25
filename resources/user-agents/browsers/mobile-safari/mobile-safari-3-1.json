@@ -10,10 +10,13 @@
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari 3.1",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "3.1",
         "MajorVer": "3",
         "MinorVer": "1",
         "Platform": "iOS",
+        "Platform_Maker": "Apple Inc",
         "Platform_Description": "iPod, iPhone & iPad",
         "Frames": "true",
         "IFrames": "true",
@@ -26,6 +29,7 @@
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
       },
       "children": [

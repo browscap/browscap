@@ -1,0 +1,32 @@
+{
+  "division": "masidani_bot",
+  "sortIndex": 750,
+  "split-file": "E",
+  "userAgents": [
+    {
+      "userAgent": "masidani_bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "masidani_bot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "masidani_bot_v*"
+        },
+        {
+          "match": "masidani_bot_v0.6*",
+          "properties": {
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6"
+          }
+        }
+      ]
+    }
+  ]
+}
