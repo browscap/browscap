@@ -44,7 +44,8 @@
             "Device_Maker": "Apple",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
@@ -56,7 +57,11 @@
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPad",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
@@ -68,7 +73,11 @@
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod Touch",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
