@@ -10,7 +10,8 @@
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {

@@ -115,6 +115,7 @@ abstract class AbstractGenerator implements GeneratorInterface
      * @param array   $properties
      * @param array[] $allDivisions
      *
+     * @throws \InvalidArgumentException
      * @throws \UnexpectedValueException
      * @return bool
      */
@@ -180,7 +181,9 @@ abstract class AbstractGenerator implements GeneratorInterface
                     );
                 }
                 break;
-            default:
+            case 'Console':
+            case 'TV Device':
+            case 'Desktop':
                 if (true === $properties['isTablet']) {
                     throw new \InvalidArgumentException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
@@ -193,6 +196,9 @@ abstract class AbstractGenerator implements GeneratorInterface
                         . $key . '"'
                     );
                 }
+                break;
+            default:
+                // do nothing here
                 break;
         }
 

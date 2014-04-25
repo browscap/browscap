@@ -23,6 +23,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
+        "Device_Type": "Mobile Device",
         "Device_Name": "Android",
         "Device_Maker": "Google",
         "RenderingEngine_Name": "WebKit",
