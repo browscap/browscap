@@ -200,6 +200,7 @@
       "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {
         "Platform": "iOS",
+        "Platform_Maker": "Apple Inc",
         "Platform_Description": "iPod, iPhone & iPad",
         "Win32": "false"
       }
@@ -1668,6 +1669,7 @@
       "match": "*Linux*Android*",
       "properties": {
         "Platform": "Android",
+        "Platform_Maker": "Google Inc",
         "Win32": "false",
         "isMobileDevice": "true"
       }
