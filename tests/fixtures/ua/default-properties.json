@@ -35,6 +35,7 @@
         "AolVersion": "0",
         "Device_Name": "unknown",
         "Device_Maker": "unknown",
+        "Device_Type": "unknown",
         "RenderingEngine_Name": "unknown",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown"
