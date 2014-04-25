@@ -146,6 +146,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
 
             $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
             $this->createItem($xmlWriter, 'LiteMode', $valueOutput);
+            unset($valueOutput);
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
@@ -158,6 +159,8 @@ class BrowscapXmlGenerator extends AbstractGenerator
             $xmlWriter->endElement(); // browscapitem
             file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
         }
+
+        unset($allDivisions, $allProperties, $counter, $key, $properties, $property);
 
         $xmlWriter->endElement(); // browsercapitems
         $xmlWriter->endElement(); // browsercaps

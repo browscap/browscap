@@ -1,0 +1,30 @@
+{
+  "division": "SpellCheck Bot",
+  "sortIndex": 1510,
+  "userAgents": [
+    {
+      "userAgent": "SpellCheck Bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "SpellCheck Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; SpellCheck Bot*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SpellCheck Bot 0.9*",
+          "properties": {
+            "Version": "0.9",
+            "MinorVer": "9"
+          }
+        }
+      ]
+    }
+  ]
+}

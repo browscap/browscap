@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
         "Browser": "Opera",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -25,6 +27,7 @@
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Maker": "Opera Software ASA",
         "RenderingEngine_Version": "1.0",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
       },

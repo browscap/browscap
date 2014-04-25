@@ -32,7 +32,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Description": "For Lunascape, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+            "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+            "RenderingEngine_Maker": "Mozilla Foundation"
           },
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64",
@@ -61,6 +62,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "RenderingEngine_Name": "WebKit",
+            "RenderingEngine_Maker": "Apple Inc",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
