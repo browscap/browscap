@@ -5,8 +5,7 @@
     {
       "userAgent": "Mahalobot",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Mahalobot",
+        "Parent": "General Crawlers",
         "Browser": "Mahalobot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

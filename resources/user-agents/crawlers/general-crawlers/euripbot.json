@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "division": "EuripBot",
   "sortIndex": 330,
@@ -34,3 +35,42 @@
     }
   ]
 }
+||||||| merged common ancestors
+=======
+{
+  "division": "EuripBot",
+  "sortIndex": 330,
+  "userAgents": [
+    {
+      "userAgent": "EuripBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Europe Internet Portal",
+        "Browser_Maker": "www.eurip.com"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; EuripBot*"
+        },
+        {
+          "match": "EuripBot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; EuripBot\/2*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70

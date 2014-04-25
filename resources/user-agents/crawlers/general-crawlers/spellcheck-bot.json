@@ -5,8 +5,7 @@
     {
       "userAgent": "SpellCheck Bot",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "SpellCheck Bot",
+        "Parent": "General Crawlers",
         "Browser": "SpellCheck Bot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

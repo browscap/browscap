@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "division": "DomainCrawler",
   "sortIndex": 220,
@@ -33,3 +34,41 @@
     }
   ]
 }
+||||||| merged common ancestors
+=======
+{
+  "division": "DomainCrawler",
+  "sortIndex": 220,
+  "userAgents": [
+    {
+      "userAgent": "DomainCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "DomainCrawler"
+      },
+      "children": [
+        {
+          "match": "DomainCrawler\/*"
+        },
+        {
+          "match": "DomainCrawler\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "DomainCrawler\/2.*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70

@@ -13,6 +13,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
+<<<<<<< HEAD
       },
       "children": [
         {
@@ -1061,6 +1062,2596 @@
           }
         }
       ]
+||||||| merged common ancestors
+      }
+    },
+    {
+      "userAgent": "( ;  ;  ; Trident\/4.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "( ;  ; ; Trident\/4.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "( ; MSIE 6.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "( ; MSIE 7.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "( ; MSIE 8.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "(compatible*; MSIE ?.?*;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "(compatible;  *; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "* (compatible*; MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "* UP.Browser\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "* UP.Browser\/6.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "* UP.Browser\/6.2*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "*Google Chrome*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "*Mozilla\/?.0 (*compatible*;*MSIE 6.0; Linux*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "5.0 (*Mac OS X*) AppleWeb\\t\\tKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "BlackBerry (*)  User-Agent: BlackBerry*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Empty (compatible*; MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox 3.6*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox\/3.6*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox\/5.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Firefox\/8*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE6*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE8 *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IE: *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "IEXPLORE.EXE",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Internet  Explorer 8 *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Internet Explorer",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Internet Explorer\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Internet Expolrer *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "InternetExploirer *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "InternetExplorer7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Internetexplorer*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "It\\x*b4s me (compatible*; MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "MSIE 9 RC (compatible*; MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Microsoft Internet Explorer*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Microsoft_Internet_Explorer*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla 5.\/0 (compatible) Opera or Gecko",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla 5.\/0 (compatible*; MSIE 8.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.4* (compatible; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.5 (compatible*; MSIE 8.0; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.5.0 (compatible; Linux*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.6* (compatible*; MSIE 9.0*; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0          *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 ( ; MSIE 7.0; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 ( ; MSIE 8.0; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Mozilla\/4.0; MSIE 7.0; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0; WINNT 6.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 999*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible; Mozilla\/4.0 (compatible*; MSIE 8.0;*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.4*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) profiler Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (00*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (; *CPU iPhone OS 4_3* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Hallo; *CPU iPhone OS 4_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Real Madrid; U; CPU OS 4_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Thug-Life; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (U; Linux) AppleWebKit\/* (KHTML,*like Gecko*) kded\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 7.0; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; ; Trident\/5.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0; TOB* (*) Gecko\/* Firefox\/2.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0; TOB* (*) Gecko\/* Firefox\/3.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.6* (compatible; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/7.0 (*Linux*) Gecko\/* Firefox\/1.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/8.0 *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 ( ; MSIE 6.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Linux; Unix OS ?*) Gecko\/* Internet Explorer\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Firefox\/1*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Google Chrome\/2*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Opera\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Mac; Mac OS ?*) Gecko\/* Internet Explorer\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Firefox\/1.*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Google Chrome\/2*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Opera\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Commodore64; *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; ; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; Linux*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.1*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "Msie 9 *",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "QQ\\x*HD* (iPad; iPhone OS 4.3.3; *)*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "http:\/\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "https:\/\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "ie\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "internetexplorer*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "mozilla\/4.0 (compatible*; MSIE 8.0*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "r451* UP.Browser\/6.2*Novarra-Vision\/*",
+      "properties": {
+        "Parent": "Fake Browser"
+      }
+    },
+    {
+      "userAgent": "'Mozilla\/5.0 (Windows; U;*MSIE 6.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "AIM\/30 (*compatible*;*MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "CDR\/1.7.1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Explorer (*compatible*;*MSIE 7.0; Windows ; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Explorer (*compatible*;*MSIE 7.0; Windows NT 5.1; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Explorer 8 (*compatible*;*MSIE 7.0; Windows NT 5.1; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Explorer 8.0 (compatible*; MSIE 8.0; Windows XP; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "F (*compatible*;*MSIE 6.0; Windows NT 5.1*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "GoogleBot\/* (Windows 98 1.1; *;)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "IE\/?.0 (*Windows NT 5.1*rv:1.8*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "M (*compatible*;*MSIE 6.0; Windows NT 5.1*)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "M (*compatible*;*MSIE 7.0; Windows NT 5.1*)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "M (*compatible*;*MSIE 8.0; Windows NT 5.1*)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "MSIE\/?.0 (compatible*; MSIE 9.0*; Windows NT 6.0; Trident\/5.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Windows NT 6.1*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/3.5 (compatible*; MSIE 7.0; Windows NT 5.1; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 ( ; MSIE 8.0; Windows NT 5.1; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows ME; *) Opera 9.6*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML,*like Gecko*)  Safari\/* Chrome\/12.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/12.*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows XP*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/4.0 (compatible*; MSIE 8.0*; Windows NT 7.0;*Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Linux i686; *; rv:99.0) Gecko\/* Firefox\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT 3.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/9.*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* MSIE 6.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) CEF\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.2",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; MSIE 9.0*; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (Windows; U; Windows 4.10; *) Gecko\/* Firefox\/3.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Opera 11.0; Windows Server 2003; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Ente*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.3 (*Windows NT 5.2*) Gecko\/* Firefox\/3.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/2.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/3.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/0.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/1.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/1.5*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/5*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 ( ; MSIE 7.0; Windows NT 6.1; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Windows; ?; Windows NT*) Gecko\/*Safari\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Firefox\/1*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Google Chrome\/2*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Opera\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 2000*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 5.1*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 98; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 32*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 4.1; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 5.5*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT)*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows Vista*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows XP; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows XPP; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows7; *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows 7*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows 98;*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows NT 4.1;*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows XP*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0+(Windows;+U;+Windows+NT+5.1;+*;+rv:*)+Gecko\/*+Firefox\/1.5*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Opera\/9.9* (Windows NT ?.?; U; *) Presto\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "WOFVNCBVHKN (*compatible*;*MSIE 7.0; Windows NT 5.1*)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "ZJZT (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*)",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "explorer (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform": "WinXP",
+        "Platform_Version": "5.1",
+        "Platform_Bits": "32",
+        "Platform_Maker": "Microsoft Corporation",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop"
+      }
+    },
+    {
+      "userAgent": "explorer 9 (compatible*; MSIE 9.0*; Windows 7; Trident\/5.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8.1*) gecko\/* firefox\/2.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.9*) gecko\/* firefox\/3.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "mozilla\/5.0 (compatible; firefox\/*; Windows NT*; Trident\/*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    {
+      "userAgent": "Mojilla\/5.0 (H11; U; Linux!x86_64;\\xa0en-US+ rf:*) Gecko\/* Firefox\/2.*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    {
+      "userAgent": "Microsoft Internet Explorer",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Internet Explore *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Internet Explorer *",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*",
+      "properties": {
+        "Parent": "Fake Browser",
+        "Browser": "Fake IE"
+      }
+=======
+      },
+      "children": [
+        {
+          "match": "( ;  ;  ; Trident\/4.0;*"
+        },
+        {
+          "match": "( ;  ; ; Trident\/4.0;*"
+        },
+        {
+          "match": "( ; MSIE 6.0;*"
+        },
+        {
+          "match": "( ; MSIE 7.0;*"
+        },
+        {
+          "match": "( ; MSIE 8.0;*"
+        },
+        {
+          "match": "(compatible*; MSIE ?.?*;*"
+        },
+        {
+          "match": "(compatible;  *; Trident\/4.0*"
+        },
+        {
+          "match": "* (compatible*; MSIE 8.0*"
+        },
+        {
+          "match": "* UP.Browser\/*"
+        },
+        {
+          "match": "* UP.Browser\/6.*"
+        },
+        {
+          "match": "* UP.Browser\/6.2*"
+        },
+        {
+          "match": "*Google Chrome*"
+        },
+        {
+          "match": "*Mozilla\/?.0 (*compatible*;*MSIE 6.0; Linux*"
+        },
+        {
+          "match": "5.0 (*Mac OS X*) AppleWeb\\t\\tKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*"
+        },
+        {
+          "match": "BlackBerry (*)  User-Agent: BlackBerry*"
+        },
+        {
+          "match": "Empty (compatible*; MSIE 8.0*"
+        },
+        {
+          "match": "Firefox 3.6*"
+        },
+        {
+          "match": "Firefox*"
+        },
+        {
+          "match": "Firefox\/*"
+        },
+        {
+          "match": "Firefox\/3.6*"
+        },
+        {
+          "match": "Firefox\/5.*"
+        },
+        {
+          "match": "Firefox\/8*"
+        },
+        {
+          "match": "IE"
+        },
+        {
+          "match": "IE *"
+        },
+        {
+          "match": "IE\/*"
+        },
+        {
+          "match": "IE6*"
+        },
+        {
+          "match": "IE7*"
+        },
+        {
+          "match": "IE8 *"
+        },
+        {
+          "match": "IE: *"
+        },
+        {
+          "match": "IEXPLORE.EXE"
+        },
+        {
+          "match": "Internet  Explorer 8 *"
+        },
+        {
+          "match": "Internet Explorer"
+        },
+        {
+          "match": "Internet Explorer\/*"
+        },
+        {
+          "match": "Internet Expolrer *"
+        },
+        {
+          "match": "InternetExploirer *"
+        },
+        {
+          "match": "InternetExplorer7*"
+        },
+        {
+          "match": "Internetexplorer*"
+        },
+        {
+          "match": "It\\x*b4s me (compatible*; MSIE 8.0*"
+        },
+        {
+          "match": "MSIE 8.0*"
+        },
+        {
+          "match": "MSIE 9 RC (compatible*; MSIE 8.0*"
+        },
+        {
+          "match": "Microsoft Internet Explorer*"
+        },
+        {
+          "match": "Microsoft_Internet_Explorer*"
+        },
+        {
+          "match": "Mozilla 5.\/0 (compatible) Opera or Gecko"
+        },
+        {
+          "match": "Mozilla 5.\/0 (compatible*; MSIE 8.0;*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/1.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/2.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/3.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/3.4* (compatible; *"
+        },
+        {
+          "match": "Mozilla\/3.5 (compatible*; MSIE 8.0; *"
+        },
+        {
+          "match": "Mozilla\/3.5.0 (compatible; Linux*"
+        },
+        {
+          "match": "Mozilla\/3.6* (compatible*; MSIE 9.0*; *"
+        },
+        {
+          "match": "Mozilla\/4.0          *"
+        },
+        {
+          "match": "Mozilla\/4.0 ( ; MSIE 7.0; *"
+        },
+        {
+          "match": "Mozilla\/4.0 ( ; MSIE 8.0; *"
+        },
+        {
+          "match": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Mozilla\/4.0; MSIE 7.0; *"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; WINNT 6.0*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 999*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Mozilla\/4.0 (compatible*; MSIE 8.0;*"
+        },
+        {
+          "match": "Mozilla\/4.4*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) profiler Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (00*"
+        },
+        {
+          "match": "Mozilla\/5.0 (; *CPU iPhone OS 4_3* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Hallo; *CPU iPhone OS 4_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Real Madrid; U; CPU OS 4_2* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Thug-Life; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (U; Linux) AppleWebKit\/* (KHTML,*like Gecko*) kded\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 7.0; *"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; ; Trident\/5.0*"
+        },
+        {
+          "match": "Mozilla\/5.0; TOB* (*) Gecko\/* Firefox\/2.*"
+        },
+        {
+          "match": "Mozilla\/5.0; TOB* (*) Gecko\/* Firefox\/3.*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Linux; Unix OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/* Internet Explorer\/7*"
+        },
+        {
+          "match": "Mozilla\/6.0 (Mac; Mac OS ?; *) Gecko\/* Mozilla\/*"
+        },
+        {
+          "match": "Mozilla\/6.6* (compatible; *"
+        },
+        {
+          "match": "Mozilla\/7.0 (*Linux*) Gecko\/* Firefox\/1.*"
+        },
+        {
+          "match": "Mozilla\/8.0 *"
+        },
+        {
+          "match": "Mozilla\/?.0 ( ; MSIE 6.0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Linux; Unix OS ?*) Gecko\/* Internet Explorer\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Firefox\/1*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Google Chrome\/2*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/* Opera\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Linux; Unix OS ?; *) Gecko\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Mac; Mac OS ?*) Gecko\/* Internet Explorer\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Firefox\/1.*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Google Chrome\/2*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/* Opera\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Mac; Mac OS ?; *) Gecko\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Commodore64; *"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; ; Trident\/4.0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; Linux*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.1*"
+        },
+        {
+          "match": "Msie 9 *"
+        },
+        {
+          "match": "QQ\\x*HD* (iPad; iPhone OS 4.3.3; *)*"
+        },
+        {
+          "match": "http:\/\/*"
+        },
+        {
+          "match": "https:\/\/*"
+        },
+        {
+          "match": "ie\/*"
+        },
+        {
+          "match": "internetexplorer*"
+        },
+        {
+          "match": "mozilla\/4.0 (compatible*; MSIE 8.0*"
+        },
+        {
+          "match": "r451* UP.Browser\/6.2*Novarra-Vision\/*"
+        },
+        {
+          "match": "'Mozilla\/5.0 (Windows; U;*MSIE 6.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "AIM\/30 (*compatible*;*MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "CDR\/1.7.1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Explorer (*compatible*;*MSIE 7.0; Windows ; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Explorer (*compatible*;*MSIE 7.0; Windows NT 5.1; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Explorer 8 (*compatible*;*MSIE 7.0; Windows NT 5.1; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Explorer 8.0 (compatible*; MSIE 8.0; Windows XP; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "F (*compatible*;*MSIE 6.0; Windows NT 5.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "GoogleBot\/* (Windows 98 1.1; *;)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "IE\/?.0 (*Windows NT 5.1*rv:1.8*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "M (*compatible*;*MSIE 6.0; Windows NT 5.1*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "M (*compatible*;*MSIE 7.0; Windows NT 5.1*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "M (*compatible*;*MSIE 8.0; Windows NT 5.1*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "MSIE\/?.0 (compatible*; MSIE 9.0*; Windows NT 6.0; Trident\/5.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/3.0 (Windows NT 6.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/3.5 (compatible*; MSIE 7.0; Windows NT 5.1; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 ( ; MSIE 8.0; Windows NT 5.1; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows ME; *) Opera 9.6*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML,*like Gecko*)  Safari\/* Chrome\/12.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/12.*Safari\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows XP*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 8.0*; Windows NT 7.0;*Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux i686; *; rv:99.0) Gecko\/* Firefox\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 3.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/9.*Safari\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* MSIE 6.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "WinXP",
+            "Platform_Version": "5.1",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) CEF\/*Safari\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "WinXP",
+            "Platform_Version": "5.2",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; MSIE 9.0*; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; Windows 4.10; *) Gecko\/* Firefox\/3.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Opera 11.0; Windows Server 2003; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Ente*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/5.3 (*Windows NT 5.2*) Gecko\/* Firefox\/3.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/2.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/3.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/0.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/1.*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/1.5*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/5*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 ( ; MSIE 7.0; Windows NT 6.1; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT*) Gecko\/*Safari\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Firefox\/1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Google Chrome\/2*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Opera\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 2000*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 5.1*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows 98; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 32*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 4.1; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT 5.5*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows NT)*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows Vista*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows XP; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows XPP; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 7.0; Windows7; *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows 7*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows 98;*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows NT 4.1;*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible*; MSIE 8.0; Windows XP*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0+(Windows;+U;+Windows+NT+5.1;+*;+rv:*)+Gecko\/*+Firefox\/1.5*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Opera\/9.9* (Windows NT ?.?; U; *) Presto\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "WOFVNCBVHKN (*compatible*;*MSIE 7.0; Windows NT 5.1*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "ZJZT (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*)",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "WinXP",
+            "Platform_Version": "5.1",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "explorer (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "WinXP",
+            "Platform_Version": "5.1",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "explorer 9 (compatible*; MSIE 9.0*; Windows 7; Trident\/5.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8.1*) gecko\/* firefox\/2.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.9*) gecko\/* firefox\/3.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "mozilla\/5.0 (compatible; firefox\/*; Windows NT*; Trident\/*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        },
+        {
+          "match": "Mojilla\/5.0 (H11; U; Linux!x86_64;\\xa0en-US+ rf:*) Gecko\/* Firefox\/2.*",
+          "properties": {
+            "Browser_Bits": "64",
+            "Platform_Bits": "64"
+          }
+        },
+        {
+          "match": "Microsoft Internet Explorer",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Internet Explore *",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Internet Explorer *",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*",
+          "properties": {
+            "Browser": "Fake IE"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Macintosh; Intel Mac OS X *) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Safari"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        }
+      ]
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70
     }
   ]
 }

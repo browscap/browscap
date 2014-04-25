@@ -10,6 +10,7 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Crawly"
+<<<<<<< HEAD:resources/user-agents/crawlers/crawly.json
       },
       "children": [
         {
@@ -21,6 +22,16 @@
           }
         }
       ]
+||||||| merged common ancestors
+      }
+=======
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)"
+        }
+      ]
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70:resources/user-agents/crawlers/general-crawlers/crawly.json
     }
   ]
 }

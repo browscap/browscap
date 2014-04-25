@@ -54,6 +54,7 @@ return [
             'Browser' => 'Sogou Web Spider',
             'Version' => '4.0',
             'Crawler' => true,
+            'Browser_Maker' => 'Sogou Inc',
         ],
     ],
 ];

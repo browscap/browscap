@@ -10,6 +10,7 @@
         "Browser": "Copyright\/Plagiarism",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
+<<<<<<< HEAD
       },
       "children": [
         {
@@ -85,6 +86,187 @@
           }
         }
       ]
+||||||| merged common ancestors
+      }
+    },
+    {
+      "userAgent": "BDFetch",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "BDFetch"
+      }
+    },
+    {
+      "userAgent": "copyright sheriff (*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "copyright sheriff"
+      }
+    },
+    {
+      "userAgent": "CopyRightCheck*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "CopyRightCheck"
+      }
+    },
+    {
+      "userAgent": "FairAd Client*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "FairAd Client"
+      }
+    },
+    {
+      "userAgent": "iCopyright Conductor*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "iCopyright Conductor"
+      }
+    },
+    {
+      "userAgent": "IPiumBot laurion(dot)com",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "IPiumBot"
+      }
+    },
+    {
+      "userAgent": "IWAgent\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "Brand Protect"
+      }
+    },
+    {
+      "userAgent": "Mozilla\/5.0 (compatible; DKIMRepBot\/*)",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "DKIMRepBot"
+      }
+    },
+    {
+      "userAgent": "oBot",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "oBot"
+      }
+    },
+    {
+      "userAgent": "SlySearch\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "SlySearch"
+      }
+    },
+    {
+      "userAgent": "TurnitinBot\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TurnitinBot"
+      }
+    },
+    {
+      "userAgent": "TutorGigBot\/*",
+      "properties": {
+        "Parent": "Copyright\/Plagiarism",
+        "Browser": "TutorGig"
+      }
+=======
+      },
+      "children": [
+        {
+          "match": "BDFetch",
+          "properties": {
+            "Browser": "BDFetch"
+          }
+        },
+        {
+          "match": "copyright sheriff (*)",
+          "properties": {
+            "Browser": "copyright sheriff"
+          }
+        },
+        {
+          "match": "CopyRightCheck*",
+          "properties": {
+            "Browser": "CopyRightCheck"
+          }
+        },
+        {
+          "match": "FairAd Client*",
+          "properties": {
+            "Browser": "FairAd Client"
+          }
+        },
+        {
+          "match": "iCopyright Conductor*",
+          "properties": {
+            "Browser": "iCopyright Conductor"
+          }
+        },
+        {
+          "match": "IPiumBot laurion(dot)com",
+          "properties": {
+            "Browser": "IPiumBot"
+          }
+        },
+        {
+          "match": "IWAgent\/*",
+          "properties": {
+            "Browser": "Brand Protect"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DKIMRepBot\/*)",
+          "properties": {
+            "Browser": "DKIMRepBot"
+          }
+        },
+        {
+          "match": "oBot",
+          "properties": {
+            "Browser": "oBot",
+            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; oBot\/*; +http:\/\/filterdb.iss.net\/crawler\/)",
+          "properties": {
+            "Browser": "oBot",
+            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; oBot\/2.3*; +http:\/\/filterdb.iss.net\/crawler\/)",
+          "properties": {
+            "Browser": "oBot",
+            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "SlySearch\/*",
+          "properties": {
+            "Browser": "SlySearch"
+          }
+        },
+        {
+          "match": "TurnitinBot\/*",
+          "properties": {
+            "Browser": "TurnitinBot"
+          }
+        },
+        {
+          "match": "TutorGigBot\/*",
+          "properties": {
+            "Browser": "TutorGig"
+          }
+        }
+      ]
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70
     }
   ]
 }

@@ -5,11 +5,9 @@
     {
       "userAgent": "LetsCrawl.com",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "LetsCrawl",
-        "Browser": "LetsCrawl",
+        "Parent": "General Crawlers",
+        "Browser": "LetsCrawl.com",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "LetsCrawl.com",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "division": "Jakarta Commons HttpClient",
   "sortIndex": 1980,
@@ -45,3 +46,52 @@
     }
   ]
 }
+||||||| merged common ancestors
+=======
+{
+  "division": "Jakarta Commons HttpClient",
+  "sortIndex": 1980,
+  "userAgents": [
+    {
+      "userAgent": "Jakarta Commons HttpClient",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Jakarta Commons HttpClient",
+        "Browser_Type": "Library",
+        "Browser_Maker": "Apache Software Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Wepbot\/*(*)*Jakarta Commons-HttpClient\/*",
+          "properties": {
+            "Browser": "Wepbot"
+          }
+        },
+        {
+          "match": "Jakarta Commons-HttpClient\/*"
+        },
+        {
+          "match": "Jakarta Commons-HttpClient\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Jakarta Commons-HttpClient\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70

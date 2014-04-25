@@ -5,8 +5,7 @@
     {
       "userAgent": "Marvin",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "MedHunt",
+        "Parent": "General Crawlers",
         "Browser": "MedHunt",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

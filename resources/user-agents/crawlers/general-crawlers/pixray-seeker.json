@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "division": "Pixray-Seeker",
   "sortIndex": 910,
@@ -44,3 +45,51 @@
     }
   ]
 }
+||||||| merged common ancestors
+=======
+{
+  "division": "Pixray-Seeker",
+  "sortIndex": 910,
+  "userAgents": [
+    {
+      "userAgent": "Pixray-Seeker",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Pixray-Seeker",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Pixray-Seeker\/*"
+        },
+        {
+          "match": "Pixray-Seeker\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Pixray-Seeker\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Pixray-Seeker\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70

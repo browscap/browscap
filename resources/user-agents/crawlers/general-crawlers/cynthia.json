@@ -6,7 +6,7 @@
       "userAgent": "Cynthia",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Cynthia",
+        "Comment": "General Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Cynthia"
