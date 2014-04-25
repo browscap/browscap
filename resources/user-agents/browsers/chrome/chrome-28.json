@@ -1807,6 +1807,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME302C",
             "Device_Maker": "Asus",
