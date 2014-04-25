@@ -49,7 +49,8 @@
             "Device_Code_Name": "iPad",
             "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_E", "iOS_E_6_1"

@@ -1647,6 +1647,7 @@
         "isMobileDevice": "true",
         "Device_Name": "Surface",
         "Device_Type": "Tablet",
+        "isTablet": "true",
         "Device_Maker": "Microsoft",
         "Device_Pointing_Method": "touchscreen"
       }
@@ -1661,6 +1662,7 @@
         "isMobileDevice": "true",
         "Device_Name": "Surface",
         "Device_Type": "Tablet",
+        "isTablet": "true",
         "Device_Maker": "Microsoft",
         "Device_Pointing_Method": "touchscreen"
       }

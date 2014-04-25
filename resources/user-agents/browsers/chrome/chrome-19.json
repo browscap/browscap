@@ -1510,6 +1510,7 @@
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

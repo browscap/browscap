@@ -60,7 +60,8 @@
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"
@@ -75,7 +76,8 @@
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"
@@ -90,7 +92,8 @@
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"

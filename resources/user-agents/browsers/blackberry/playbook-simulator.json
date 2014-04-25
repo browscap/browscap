@@ -19,6 +19,7 @@
         "Device_Name": "Playbook",
         "Device_Maker": "Research In Motion Limited",
         "Device_Type": "Tablet",
+        "isTablet": "true",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",

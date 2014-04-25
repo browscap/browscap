@@ -218,6 +218,7 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
