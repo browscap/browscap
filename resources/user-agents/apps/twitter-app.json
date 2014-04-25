@@ -35,7 +35,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_7_1"
+            "iOS_A", "iOS_A_7_1"
           ]
         },
         {
@@ -51,7 +51,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_7_1"
+            "iOS_A", "iOS_A_7_1"
           ]
         }
       ]
