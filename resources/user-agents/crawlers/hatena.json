@@ -71,7 +71,8 @@
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {
