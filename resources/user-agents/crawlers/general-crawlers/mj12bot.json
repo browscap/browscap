@@ -1,6 +1,7 @@
 {
   "division": "MJ12bot",
   "sortIndex": 760,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MJ12bot",

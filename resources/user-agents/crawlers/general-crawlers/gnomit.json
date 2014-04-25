@@ -1,6 +1,7 @@
 {
   "division": "Gnomit",
   "sortIndex": 510,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Gnomit",

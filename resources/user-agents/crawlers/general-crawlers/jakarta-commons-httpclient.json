@@ -1,6 +1,7 @@
 {
   "division": "Jakarta Commons HttpClient",
   "sortIndex": 1980,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Jakarta Commons HttpClient",

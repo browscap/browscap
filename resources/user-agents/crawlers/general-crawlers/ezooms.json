@@ -1,6 +1,7 @@
 {
   "division": "Ezooms",
   "sortIndex": 350,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Ezooms",
