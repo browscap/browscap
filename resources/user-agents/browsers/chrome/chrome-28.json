@@ -1722,6 +1722,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaTabS2110AF Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "S2110AF",
             "Device_Maker": "Lenovo",
