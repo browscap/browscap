@@ -170,7 +170,7 @@ abstract class AbstractGenerator implements GeneratorInterface
             case 'Ebook Reader':
                 if (true === $properties['isTablet']) {
                     throw new \InvalidArgumentException(
-                        'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
                         . $key . '"'
                     );
                 }
@@ -182,6 +182,13 @@ abstract class AbstractGenerator implements GeneratorInterface
                 }
                 break;
             case 'Console':
+                if (true === $properties['isTablet']) {
+                    throw new \InvalidArgumentException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                break;
             case 'TV Device':
             case 'Desktop':
                 if (true === $properties['isTablet']) {
