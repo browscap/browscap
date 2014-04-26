@@ -1199,13 +1199,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
-            "Device_Maker": "Amazon",
-            "Device_Brand_Name": "Amazon",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android_4_0"
