@@ -2084,15 +2084,16 @@
       }
     },
     "WinCE": {
-      "match": "*Windows CE",
+      "match": "*Windows CE*",
       "properties": {
         "Platform": "WinCE",
         "Platform_Description": "Windows CE",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone"
       }
     },
     "WinMobile": {
-      "match": "*Windows Mobile",
+      "match": "*Windows Mobile*",
       "properties": {
         "Platform": "WinMobile",
         "Platform_Description": "Windows Mobile OS",
