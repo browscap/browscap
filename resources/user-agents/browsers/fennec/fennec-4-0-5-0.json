@@ -21,10 +21,11 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "CssVersion": "3",
-        "Device_Name": "PC",
+        "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
-        "Device_Type": "Desktop",
+        "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "2.0",
@@ -47,6 +48,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "general Mobile Device",
             "Device_Name": "general Mobile Device"
           },
