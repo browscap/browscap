@@ -79,10 +79,12 @@
         {
           "match": "Perfect%20Browser-iPad\/* CFNetwork\/* #PLATFORM#",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -95,10 +97,12 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -111,10 +115,12 @@
             "Version": "2.1",
             "MajorVer": "2",
             "MinorVer": "1",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -127,10 +133,12 @@
             "Version": "2.2",
             "MajorVer": "2",
             "MinorVer": "2",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -143,10 +151,12 @@
             "Version": "2.6",
             "MajorVer": "2",
             "MinorVer": "6",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -159,10 +169,12 @@
             "Version": "2.7",
             "MajorVer": "2",
             "MinorVer": "7",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -175,10 +187,12 @@
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -191,10 +205,12 @@
             "Version": "2.9",
             "MajorVer": "2",
             "MinorVer": "9",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
