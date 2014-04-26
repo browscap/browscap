@@ -25,6 +25,7 @@
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "1.9",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
