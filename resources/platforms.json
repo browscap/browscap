@@ -2465,11 +2465,8 @@
       "properties": {
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
         "Win32": "false"
       }
