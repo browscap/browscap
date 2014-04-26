@@ -8,11 +8,13 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Zune",
         "Browser": "Microsoft Zune",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft",
         "Win32": "true",
         "isMobileDevice": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
+        "Device_Name": "ZuneHD",
+        "Device_Maker": "Microsoft",
+        "Device_Type": "Mobile device",
         "Device_Pointing_Method": "mouse"
       },
       "children": [
