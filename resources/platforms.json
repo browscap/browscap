@@ -2078,6 +2078,9 @@
       "match": "*Android*Tablet*",
       "properties": {
         "Platform": "Android",
+        "Device_Type": "Tablet",
+        "isMobileDevice": "true",
+        "isTablet": "true",
         "Device_Name": "Android",
         "Device_Maker": "Google",
         "Win32": "false"
