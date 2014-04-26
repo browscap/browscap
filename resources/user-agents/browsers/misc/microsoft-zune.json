@@ -14,7 +14,7 @@
         "isMobileDevice": "true",
         "Device_Name": "ZuneHD",
         "Device_Maker": "Microsoft",
-        "Device_Type": "Mobile device",
+        "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "mouse"
       },
       "children": [
