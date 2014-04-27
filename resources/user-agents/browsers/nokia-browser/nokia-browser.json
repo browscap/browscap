@@ -25,6 +25,8 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia"
