@@ -3,7 +3,7 @@
 namespace Browscap\Generator;
 
 /**
- * Class BrowscapIniGenerator
+ * Class BrowscapJsonGenerator
  *
  * @package Browscap\Generator
  */

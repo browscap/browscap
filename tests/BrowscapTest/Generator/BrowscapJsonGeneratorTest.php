@@ -155,11 +155,11 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $ini = $generator->generate();
+        $json = $generator->generate();
 
         $expectedFilename = __DIR__ . '/../../fixtures/json/' . $filename;
 
-        self::assertStringEqualsFile($expectedFilename, $ini);
+        self::assertStringEqualsFile($expectedFilename, $json);
     }
 
     public function generateFeaturesDataProvider()
@@ -181,7 +181,7 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider generateFeaturesDataProvider
      */
-    public function testGenerateFeatures($jsonFile, $expectedIni)
+    public function testGenerateFeatures($jsonFile, $expectedJson)
     {
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
@@ -211,9 +211,9 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
             ->setVersionData(array('version' => '1234', 'released' => 'Fri, 31 Dec 2010 12:34:56 +0000'))
         ;
 
-        $ini = $generator->generate();
+        $json = $generator->generate();
 
-        self::assertStringEqualsFile($expectedIni, $ini);
+        self::assertStringEqualsFile($expectedJson, $json);
     }
 
     /**
