@@ -105,6 +105,8 @@
         "Platform_Version": "3.1",
         "Device_Name": "SCH-U820",
         "Device_Maker": "Samsung",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       }
@@ -121,6 +123,8 @@
         "Platform_Version": "3.1",
         "Device_Name": "VX8575",
         "Device_Maker": "LG",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       }

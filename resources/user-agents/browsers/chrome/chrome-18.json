@@ -89,6 +89,7 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",

@@ -28,6 +28,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Maker": "Apple Inc",
