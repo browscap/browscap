@@ -116,7 +116,7 @@ class BrowscapJsonGenerator extends AbstractGenerator
             }
         }
 
-        return json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
+        return json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     }
 
     /**
