@@ -2538,12 +2538,25 @@
         "Device_Brand_Name": "Oracle"
       }
     },
+    "MeeGo": {
+      "match": "*MeeGo*",
+      "properties": {
+        "Platform": "MeeGo",
+        "Platform_Maker": "Linux Foundation",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      }
+    },
     "Maemo": {
       "match": "*Maemo; Linux*",
       "properties": {
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
         "Win32": "false",
+        "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device"
@@ -2555,6 +2568,7 @@
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
         "Win32": "false",
+        "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
@@ -2583,6 +2597,7 @@
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Win32": "false",
+        "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
