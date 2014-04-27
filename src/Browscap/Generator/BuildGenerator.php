@@ -195,6 +195,14 @@ class BuildGenerator
 
         unset($csvGenerator);
 
+        $this->logger->info('Generating browscap.json [JSON]');
+
+        $jsonGenerator = new BrowscapJsonGenerator();
+        $this->generatorHelper->setGenerator($jsonGenerator);
+        file_put_contents($this->buildFolder . '/browscap.json', $this->generatorHelper->create());
+
+        unset($jsonGenerator);
+
         $this->logger->info('Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();
@@ -208,6 +216,7 @@ class BuildGenerator
         $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
         $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
         $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
+        $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
 
         $zip->close();
     }
