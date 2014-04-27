@@ -115,7 +115,6 @@ abstract class AbstractGenerator implements GeneratorInterface
      * @param array   $properties
      * @param array[] $allDivisions
      *
-     * @throws \InvalidArgumentException
      * @throws \UnexpectedValueException
      * @return bool
      */
@@ -138,28 +137,28 @@ abstract class AbstractGenerator implements GeneratorInterface
         }
 
         if (!isset($properties['Device_Type'])) {
-            throw new \InvalidArgumentException('property "Device_Type" is missing for key "' . $key . '"');
+            throw new \UnexpectedValueException('property "Device_Type" is missing for key "' . $key . '"');
         }
 
         if (!isset($properties['isTablet'])) {
-            throw new \InvalidArgumentException('property "isTablet" is missing for key "' . $key . '"');
+            throw new \UnexpectedValueException('property "isTablet" is missing for key "' . $key . '"');
         }
 
         if (!isset($properties['isMobileDevice'])) {
-            throw new \InvalidArgumentException('property "isMobileDevice" is missing for key "' . $key . '"');
+            throw new \UnexpectedValueException('property "isMobileDevice" is missing for key "' . $key . '"');
         }
 
         switch ($properties['Device_Type']) {
             case 'Tablet':
             case 'FonePad':
                 if (true !== $properties['isTablet']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'
                         . $key . '"'
                     );
                 }
                 if (true !== $properties['isMobileDevice']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type']
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
                     );
@@ -168,24 +167,17 @@ abstract class AbstractGenerator implements GeneratorInterface
             case 'Mobile Phone':
             case 'Mobile Device':
             case 'Ebook Reader':
+            case 'Console':
                 if (true === $properties['isTablet']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
                         . $key . '"'
                     );
                 }
                 if (true !== $properties['isMobileDevice']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type']
                         . '" is NOT marked as Mobile Device for key "' . $key . '"'
-                    );
-                }
-                break;
-            case 'Console':
-                if (true === $properties['isTablet']) {
-                    throw new \InvalidArgumentException(
-                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
-                        . $key . '"'
                     );
                 }
                 break;
@@ -193,13 +185,13 @@ abstract class AbstractGenerator implements GeneratorInterface
             case 'Desktop':
             default:
                 if (true === $properties['isTablet']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
                         . $key . '"'
                     );
                 }
                 if (true === $properties['isMobileDevice']) {
-                    throw new \InvalidArgumentException(
+                    throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Mobile Device for key "'
                         . $key . '"'
                     );
