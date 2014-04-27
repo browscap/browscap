@@ -191,6 +191,7 @@ abstract class AbstractGenerator implements GeneratorInterface
                 break;
             case 'TV Device':
             case 'Desktop':
+            default:
                 if (true === $properties['isTablet']) {
                     throw new \InvalidArgumentException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
@@ -203,9 +204,6 @@ abstract class AbstractGenerator implements GeneratorInterface
                         . $key . '"'
                     );
                 }
-                break;
-            default:
-                // do nothing here
                 break;
         }
 
