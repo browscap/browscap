@@ -1,22 +1,22 @@
 {
-  "division": "Google+ App",
+  "division": "Opera Coast",
   "sortIndex": 2000,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Google+ App",
+      "userAgent": "Opera Coast",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google+ App",
-        "Browser": "Google+ App",
+        "Comment": "Opera Coast",
+        "Browser": "Opera Coast",
         "Browser_Type": "Application",
+        "Browser_Maker": "Opera Software ASA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "3",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
@@ -26,18 +26,20 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/* Mobile\/* Safari\/*",
           "properties": {
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+            "iOS_A", "iOS_A_7_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/* Mobile\/* Safari\/*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
@@ -49,39 +51,42 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+            "iOS_A", "iOS_A_7_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/3.0* Mobile\/* Safari\/*",
           "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
-          "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPod Touch",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
             "isMobileDevice": "true",
-            "isTablet": "false"
+            "isTablet": "false",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1"
+            "iOS_A", "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/3.0* Mobile\/* Safari\/*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_7_1"
           ]
         }
       ]
