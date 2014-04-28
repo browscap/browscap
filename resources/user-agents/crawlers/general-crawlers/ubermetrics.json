@@ -1,0 +1,32 @@
+{
+  "division": "uMBot",
+  "sortIndex": 661,
+  "userAgents": [
+    {
+      "userAgent": "uMBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "uMBot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "ubermetrics-technologies.com",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; uMBot-LN\/*; mailto: crawling@ubermetrics-technologies.com)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; uMBot-LN\/1.0*; mailto: crawling@ubermetrics-technologies.com)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}
