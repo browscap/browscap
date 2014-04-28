@@ -1,0 +1,31 @@
+{
+  "division": "picmole Bot",
+  "sortIndex": 1031,
+  "userAgents": [
+    {
+      "userAgent": "picmole Bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "picmole Bot",
+        "Browser_Maker": "picmole.com",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible;picmole/* +http://www.picmole.com)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;picmole/1.* +http://www.picmole.com)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
