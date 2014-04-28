@@ -1,0 +1,60 @@
+{
+  "division": "Twitter App",
+  "sortIndex": 2000,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Twitter App",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Twitter App",
+        "Browser": "Twitter App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Twitter",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* Twitter*",
+          "properties": {
+            "Device_Maker": "Apple",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* Twitter for iPhone",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_7_1"
+          ]
+        }
+      ]
+    }
+  ]
+}

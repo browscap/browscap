@@ -14,7 +14,7 @@ class DataCollection
     /**
      * @var array
      */
-    private $platforms;
+    private $platforms = array();
 
     /**
      * @var array
@@ -69,6 +69,7 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @return \Browscap\Generator\DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
@@ -78,6 +79,8 @@ class DataCollection
         $this->platforms = $json['platforms'];
 
         $this->divisionsHaveBeenSorted = false;
+
+        return $this;
     }
 
     /**
@@ -85,6 +88,7 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @return \Browscap\Generator\DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)
@@ -92,6 +96,8 @@ class DataCollection
         $this->divisions[] = $this->loadFile($src);
 
         $this->divisionsHaveBeenSorted = false;
+
+        return $this;
     }
 
     /**
@@ -168,6 +174,7 @@ class DataCollection
      * @param string $platform
      *
      * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
      * @return array
      */
     public function getPlatform($platform)
@@ -179,7 +186,38 @@ class DataCollection
             );
         }
 
-        return $this->platforms[$platform];
+        /** @var array $platformData */
+        $platformData = $this->platforms[$platform];
+
+        if (array_key_exists('inherits', $platformData)) {
+            $parentPlatformData = $this->getPlatform($platformData['inherits']);
+
+            if (array_key_exists('properties', $platformData)) {
+                $inheritedPlatformProperties = $platformData['properties'];
+
+                foreach ($inheritedPlatformProperties as $name => $value) {
+                    if (isset($parentPlatformData['properties'][$name])
+                        && $parentPlatformData['properties'][$name] == $value
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the value for property "' . $name .'" has the same value in the keys "' . $platform
+                            . '" and its parent "' . $platformData['inherits'] . '"'
+                        );
+                    }
+                }
+
+                $platformData['properties'] = array_merge(
+                    $parentPlatformData['properties'],
+                    $inheritedPlatformProperties
+                );
+            } else {
+                $platformData['properties'] = $parentPlatformData['properties'];
+            }
+
+            unset($platformData['inherits']);
+        }
+
+        return $platformData;
     }
 
     /**
