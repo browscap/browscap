@@ -42,10 +42,13 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
           "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
