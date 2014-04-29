@@ -16,6 +16,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Name": "Nokia",
         "Device_Maker": "Nokia",
         "Device_Type": "Mobile Phone"

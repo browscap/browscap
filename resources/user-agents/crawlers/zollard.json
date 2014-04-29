@@ -1,0 +1,24 @@
+{
+  "division": "Zollard Worm",
+  "sortIndex": 210,
+  "split-file": "E",
+  "userAgents": [
+    {
+      "userAgent": "Zollard Worm",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Zollard Worm",
+        "Browser": "Zollard Worm",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Zollard; Linux)"
+        }
+      ]
+    }
+  ]
+}

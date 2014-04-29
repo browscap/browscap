@@ -25,6 +25,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
+        "isMobileDevice": "true",
         "Crawler": "false",
         "Device_Type": "Console",
         "Device_Maker": "Nintendo",

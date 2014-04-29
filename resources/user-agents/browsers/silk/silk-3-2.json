@@ -38,7 +38,11 @@
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -51,7 +55,11 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -63,6 +71,7 @@
             "Device_Name": "PlayStation Vita",
             "Device_Maker": "Sony",
             "Device_Type": "Console",
+            "isMobileDevice": "true",
             "Device_Pointing_Method": "unknown"
           },
           "platforms": [
@@ -72,10 +81,14 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
+            "Device_Name": "Kindle Fire 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Code_Name": "KFOT",
-            "Device_Name": "Kindle Fire 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -85,9 +98,14 @@
           "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Code_Name": "KFTT",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"

@@ -26,7 +26,8 @@
       "properties": {
         "Parent": "YahooSeeker",
         "Browser": "YahooSeeker",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {

@@ -28,6 +28,8 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "RenderingEngine_Name": "Trident",
         "RenderingEngine_Maker": "Microsoft Corporation",
         "Platform": "Windows Phone OS",

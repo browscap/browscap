@@ -27,7 +27,11 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Device"
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
       },
       "children": [
         {

@@ -30,6 +30,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
@@ -46,13 +47,15 @@
         {
           "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
           "properties": {
-            "Device_Type": "Tablet"
+            "Device_Type": "Tablet",
+            "isTablet": "true"
           }
         },
         {
           "match": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
           "properties": {
-            "Device_Type": "Tablet"
+            "Device_Type": "Tablet",
+            "isTablet": "true"
           }
         }
       ]

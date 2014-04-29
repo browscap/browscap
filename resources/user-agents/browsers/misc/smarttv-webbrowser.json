@@ -24,7 +24,11 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Device_Type": "Mobile Phone"
+        "Device_Type": "Mobile Phone",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Code_Name": "general Mobile Phone",
+        "Device_Name": "general Mobile Phone"
       },
       "children": [
         {

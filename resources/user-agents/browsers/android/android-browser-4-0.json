@@ -23,6 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "CssVersion": "3",
         "Device_Name": "Android",
         "Device_Maker": "Google",
@@ -121,6 +122,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -155,6 +158,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -211,9 +216,13 @@
         {
           "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Device_Name": "Galaxy S II",
+            "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -538,12 +547,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "KFTT",
+            "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
-            "Device_Brand_Name": "Amazon",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android_4_0"
@@ -2664,6 +2675,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -2678,6 +2691,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -2692,6 +2707,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -3217,8 +3234,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "isTablet": "true",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-N8010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -5845,8 +5863,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "isTablet": "true",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-P3100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -6625,6 +6644,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME302C",
@@ -7019,8 +7039,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Slider SL101 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "isTablet": "true",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "SL101",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
@@ -7309,12 +7330,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "KFOT",
+            "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
-            "Device_Brand_Name": "Amazon",
-            "Device_Name": "Kindle Fire 7"
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android_4_0"
@@ -7363,8 +7386,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "isTablet": "true",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-N8013",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

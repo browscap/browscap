@@ -217,6 +217,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -231,6 +233,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -894,6 +898,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -950,6 +956,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -1319,13 +1327,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
-            "Device_Maker": "Amazon",
-            "Device_Brand_Name": "Amazon",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android_4_0"
@@ -1616,8 +1625,13 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -1635,7 +1649,8 @@
             "Device_Maker": "Apple",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

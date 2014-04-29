@@ -77,7 +77,8 @@
       "properties": {
         "Parent": "W3C",
         "Browser": "W3C-mobileOK\/DDC",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {

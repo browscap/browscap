@@ -20,7 +20,8 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
@@ -37,7 +38,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
           "platforms": [
-            "Linux", "Linux_32"
+            "MeeGo"
           ]
         }
       ]

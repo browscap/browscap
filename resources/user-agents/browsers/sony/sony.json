@@ -26,27 +26,22 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)",
-      "properties": {
-        "Parent": "Sony"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)",
-      "properties": {
-        "Parent": "Sony"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)",
-      "properties": {
-        "Parent": "Sony"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)"
+        },
+        {
+          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)"
+        },
+        {
+          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)"
+        }
+      ]
     }
   ]
 }

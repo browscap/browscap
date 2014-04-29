@@ -17,6 +17,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Maker": "Palm",
         "Device_Type": "Mobile Phone"
       },

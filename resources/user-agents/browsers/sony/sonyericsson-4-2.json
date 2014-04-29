@@ -6,41 +6,62 @@
     {
       "userAgent": "SonyEricsson 4.2",
       "properties": {
-        "Parent": "SonyEricsson",
+        "Parent": "DefaultProperties",
+        "Browser": "SEMC",
+        "Browser_Type": "Browser",
+        "Platform": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Crawler": "false",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
         "Version": "4.2",
         "MajorVer": "4",
         "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/4.2*",
-      "properties": {
-        "Parent": "SonyEricsson 4.2",
-        "Device_Code_Name": "D750i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "D750i"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/4.2*",
-      "properties": {
-        "Parent": "SonyEricsson 4.2",
-        "Device_Code_Name": "K600c",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K600c"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/4.2*",
-      "properties": {
-        "Parent": "SonyEricsson 4.2",
-        "Device_Code_Name": "K600i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K600i"
-      }
+      },
+      "children": [
+        {
+          "match": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/4.2*",
+          "properties": {
+            "Device_Code_Name": "D750i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "D750i"
+          }
+        },
+        {
+          "match": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/4.2*",
+          "properties": {
+            "Device_Code_Name": "K600c",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K600c"
+          }
+        },
+        {
+          "match": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/4.2*",
+          "properties": {
+            "Device_Code_Name": "K600i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K600i"
+          }
+        }
+      ]
     }
   ]
 }

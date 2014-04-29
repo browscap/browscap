@@ -20,7 +20,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
+        "isMobileDevice": "false",
         "CssVersion": "3",
         "Device_Name": "PC",
         "Device_Maker": "Various",

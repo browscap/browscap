@@ -17,7 +17,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "The Diary",
@@ -29,6 +28,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Maker": "Apple Inc",
@@ -42,10 +42,13 @@
         {
           "match": "The Diary\/* (iPad; #PLATFORM#",
           "properties": {
-            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_5_1"
@@ -57,10 +60,13 @@
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1",
-            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_5_1"

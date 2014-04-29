@@ -58,10 +58,13 @@
         {
           "match": "GoodReaderIPad\/* CFNetwork\/* #PLATFORM#",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"
@@ -73,10 +76,13 @@
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"
@@ -88,10 +94,13 @@
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0",
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
-            "Device_Name": "iPad"
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "Darwin"

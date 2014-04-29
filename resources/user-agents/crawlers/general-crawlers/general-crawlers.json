@@ -816,7 +816,8 @@
           "match": "PluckItCrawler\/*",
           "properties": {
             "Browser": "PluckItCrawler",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device"
           }
         },
         {

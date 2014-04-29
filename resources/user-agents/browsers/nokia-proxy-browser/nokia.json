@@ -22,6 +22,7 @@
         "Platform": "SymbianOS",
         "Win32": "false",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Name": "Nokia",
         "Device_Maker": "Nokia",
         "Device_Type": "Mobile Phone",

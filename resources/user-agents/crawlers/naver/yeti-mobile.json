@@ -8,7 +8,8 @@
       "properties": {
         "Parent": "Naver",
         "Browser": "NaverBot Mobile",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {

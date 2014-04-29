@@ -23,6 +23,8 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "isMobileDevice": "false",
+        "isTablet": "false",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
@@ -35,7 +37,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
-            "Android", "Android_4_2", "Android_4_3",
             "CentOS", "Linux_64", "Linux_32",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
@@ -63,6 +64,7 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Name": "unknown",
         "Device_Maker": "unknown",
         "Device_Type": "Mobile Device",
@@ -76,6 +78,41 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "SymbianOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
+      "properties": {
+        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Comment": "Safari #MAJORVER#.#MINORVER#",
+        "Browser": "Safari",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Name": "unknown",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Android", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         }
       ]
