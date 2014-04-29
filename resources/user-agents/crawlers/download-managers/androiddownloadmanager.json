@@ -12,6 +12,7 @@
         "Platform_Bits": "32",
         "Platform_Maker": "Google Inc",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone"
       }
     }

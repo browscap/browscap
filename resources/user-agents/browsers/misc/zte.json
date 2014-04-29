@@ -20,7 +20,6 @@
         "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Device",
         "Browser": "ZTE",
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
@@ -29,6 +28,7 @@
         "Tables": "true",
         "Cookies": "true",
         "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [

@@ -83,7 +83,9 @@
           "properties": {
             "Device_Name": "TouchPad",
             "Device_Maker": "HP",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -95,7 +97,9 @@
           "properties": {
             "Device_Name": "TouchPad",
             "Device_Maker": "HP",
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

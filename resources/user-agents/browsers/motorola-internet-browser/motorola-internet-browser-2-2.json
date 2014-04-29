@@ -9,6 +9,8 @@
         "Version": "2.2",
         "MajorVer": "2",
         "MinorVer": "2",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
         "Device_Type": "Mobile Phone"

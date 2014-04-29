@@ -136,6 +136,69 @@ abstract class AbstractGenerator implements GeneratorInterface
             );
         }
 
+        if (!isset($properties['Device_Type'])) {
+            throw new \UnexpectedValueException('property "Device_Type" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isTablet'])) {
+            throw new \UnexpectedValueException('property "isTablet" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isMobileDevice'])) {
+            throw new \UnexpectedValueException('property "isMobileDevice" is missing for key "' . $key . '"');
+        }
+
+        switch ($properties['Device_Type']) {
+            case 'Tablet':
+            case 'FonePad':
+                if (true !== $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'Mobile Phone':
+            case 'Mobile Device':
+            case 'Ebook Reader':
+            case 'Console':
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'TV Device':
+            case 'Desktop':
+            default:
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true === $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Mobile Device for key "'
+                        . $key . '"'
+                    );
+                }
+                break;
+        }
+
         return true;
     }
 

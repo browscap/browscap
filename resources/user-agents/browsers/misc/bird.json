@@ -9,7 +9,8 @@
         "Browser": "BIRD",
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

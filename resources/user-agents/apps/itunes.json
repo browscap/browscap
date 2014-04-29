@@ -27,7 +27,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Desktop",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple"
       },
@@ -46,7 +46,10 @@
             "Device_Maker": "unknown",
             "Device_Brand_Name": "unknown",
             "Device_Name": "Windows Desktop"
-          }
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "iTunes\/4.7* (Macintosh*",
@@ -60,7 +63,10 @@
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Name": "Macintosh"
-          }
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "iTunes\/7.1* (Macintosh*",
@@ -74,7 +80,10 @@
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Name": "Macintosh"
-          }
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "iTunes\/10.1* (Macintosh*",
@@ -88,7 +97,10 @@
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Name": "Macintosh"
-          }
+          },
+          "platforms": [
+            "OSX"
+          ]
         }
       ]
     }
