@@ -20,6 +20,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       },
@@ -38,6 +39,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

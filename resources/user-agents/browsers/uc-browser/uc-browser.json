@@ -15,6 +15,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone"
       },
       "children": [

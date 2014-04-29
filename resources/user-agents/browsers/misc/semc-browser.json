@@ -17,7 +17,10 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "1",
-        "Device_Type": "Mobile Device"
+        "isTablet": "false",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
       },
       "children": [
         {

@@ -8,9 +8,9 @@
         "Parent": "Safari Generic",
         "Browser": "iPhone Simulator",
         "Platform": "iOS",
-        "Platform_Version": "",
         "BackgroundSounds": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "CssVersion": "3",
         "Device_Type": "Mobile Phone"
       },

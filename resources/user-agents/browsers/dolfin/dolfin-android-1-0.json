@@ -44,6 +44,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -58,6 +60,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -72,6 +76,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -81,8 +87,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari/*",
           "properties": {
-            "Device_Name": "GT-I9100",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II",
+            "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

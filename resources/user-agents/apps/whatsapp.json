@@ -20,6 +20,8 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
         "Crawler": "false",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
@@ -34,8 +36,14 @@
         {
           "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
           "properties": {
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone"
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_H", "iOS_H_5_0"
@@ -47,8 +55,14 @@
             "Version": "2.6",
             "MajorVer": "2",
             "MinorVer": "6",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone"
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_H", "iOS_H_5_0"
