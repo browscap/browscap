@@ -37,7 +37,11 @@
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -50,7 +54,11 @@
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -63,7 +71,11 @@
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -76,7 +88,11 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -89,7 +105,11 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -102,7 +122,11 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -113,7 +137,13 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon"
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -124,7 +154,13 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon"
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -135,7 +171,13 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon"
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -145,11 +187,14 @@
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "Platform_Version": "4.2",
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFSOWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -159,11 +204,14 @@
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "Platform_Version": "4.2",
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFSOWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -176,7 +224,11 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFSOWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_2"
@@ -189,7 +241,11 @@
             "Device_Name": "Kindle Fire HDX 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTHWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -202,7 +258,11 @@
             "Device_Name": "Kindle Fire HDX 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTHWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -215,7 +275,11 @@
             "Device_Name": "Kindle Fire HDX 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTHWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -228,7 +292,11 @@
             "Device_Name": "Kindle Fire HDX 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFAPWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -241,7 +309,11 @@
             "Device_Name": "Kindle Fire HDX 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFAPWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -254,7 +326,11 @@
             "Device_Name": "Kindle Fire HDX 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFAPWI",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -267,7 +343,11 @@
             "Device_Name": "Kindle Fire HD 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWA",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -280,7 +360,11 @@
             "Device_Name": "Kindle Fire HD 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWA",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android"
@@ -293,7 +377,11 @@
             "Device_Name": "Kindle Fire HD 8.9",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFJWA",
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -302,11 +390,14 @@
         {
           "match": "Mozilla\/5.0 (*Linux*Android 4.0*; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
+            "Device_Name": "Kindle Fire 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Code_Name": "KFOT",
-            "Device_Name": "Kindle Fire 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
@@ -315,11 +406,15 @@
         {
           "match": "Mozilla\/5.0 (*Linux*Android 4.0*; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
+            "Browser_Modus": "Desktop Mode",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Code_Name": "KFTT",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android", "Android_4_0"
