@@ -1003,7 +1003,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.8',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'Kindle Fire HD 7',
