@@ -14,11 +14,12 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "CssVersion": "3",
-        "Device_Name": "PC",
+        "Device_Name": "general mobile Device",
         "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
@@ -32,7 +33,10 @@
             "MinorVer": "0",
             "Platform": "MacOSX",
             "Platform_Version": "10.5",
-            "isMobileDevice": "false"
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Name": "Macintosh",
+            "Device_Pointing_Method": "mouse"
           },
           "platforms": [
             "OSX", "OSX_10_5_A"

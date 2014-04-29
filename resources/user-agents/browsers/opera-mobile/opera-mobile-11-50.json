@@ -23,6 +23,7 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "CssVersion": "3",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",

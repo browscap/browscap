@@ -10,7 +10,8 @@
         "Cookies": "true",
         "JavaScript": "true",
         "ActiveXControls": "true",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       }
     },
     {

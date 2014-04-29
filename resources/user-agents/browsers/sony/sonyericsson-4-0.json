@@ -5,120 +5,133 @@
     {
       "userAgent": "SonyEricsson 4.0",
       "properties": {
-        "Parent": "SonyEricsson",
+        "Parent": "DefaultProperties",
+        "Browser": "SEMC",
+        "Browser_Type": "Browser",
+        "Platform": "Symbian OS",
+        "Platform_Maker": "Symbian Foundation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Crawler": "false",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
         "Version": "4.0",
         "MajorVer": "4"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonF500i\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "F500i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "F500i"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonJ300a\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "J300a",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "J300a"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonJ300c\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "J300c",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "J300c"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonJ300i\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "J300i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "J300i"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK300a\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K300a",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K300a"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK300c\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K300c",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K300c"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK300i\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K300i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K300i"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK500c\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K500c",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K500c"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK500i\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K500i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K500i"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK508c\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K508c",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K508c"
-      }
-    },
-    {
-      "userAgent": "SonyEricssonK508i\/* SEMC-Browser\/4.*",
-      "properties": {
-        "Parent": "SonyEricsson 4.0",
-        "Device_Code_Name": "K508i",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
-        "Device_Name": "K508i"
-      }
+      },
+      "children": [
+        {
+          "match": "SonyEricssonF500i\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "F500i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "F500i"
+          }
+        },
+        {
+          "match": "SonyEricssonJ300a\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "J300a",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "J300a"
+          }
+        },
+        {
+          "match": "SonyEricssonJ300c\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "J300c",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "J300c"
+          }
+        },
+        {
+          "match": "SonyEricssonJ300i\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "J300i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "J300i"
+          }
+        },
+        {
+          "match": "SonyEricssonK300a\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K300a",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K300a"
+          }
+        },
+        {
+          "match": "SonyEricssonK300c\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K300c",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K300c"
+          }
+        },
+        {
+          "match": "SonyEricssonK300i\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K300i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K300i"
+          }
+        },
+        {
+          "match": "SonyEricssonK500c\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K500c",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K500c"
+          }
+        },
+        {
+          "match": "SonyEricssonK500i\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K500i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K500i"
+          }
+        },
+        {
+          "match": "SonyEricssonK508c\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K508c",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K508c"
+          }
+        },
+        {
+          "match": "SonyEricssonK508i\/* SEMC-Browser\/4.*",
+          "properties": {
+            "Device_Code_Name": "K508i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K508i"
+          }
+        }
+      ]
     }
   ]
 }

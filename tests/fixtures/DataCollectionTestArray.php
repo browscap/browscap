@@ -41,6 +41,8 @@ return array(
                     'RenderingEngine_Name'        => 'unknown',
                     'RenderingEngine_Version'     => 'unknown',
                     'RenderingEngine_Description' => 'unknown',
+                    'isTablet'                    => 'false',
+                    'Device_Type'                 => 'unknown',
                 ),
             )
         ),
@@ -169,6 +171,8 @@ return array(
                     'RenderingEngine_Name'        => 'unknown',
                     'RenderingEngine_Version'     => 'unknown',
                     'RenderingEngine_Description' => 'unknown',
+                    'isTablet'                    => 'false',
+                    'Device_Type'                 => 'unknown',
                 ),
             ),
         ),

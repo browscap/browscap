@@ -15,6 +15,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
         "CssVersion": "2",
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Description": "For Access NetFront."

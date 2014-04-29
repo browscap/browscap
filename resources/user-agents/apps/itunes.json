@@ -27,72 +27,82 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Desktop",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple"
-      }
-    },
-    {
-      "userAgent": "iTunes\/* (Windows*",
-      "properties": {
-        "Parent": "iTunes",
-        "Browser_Bits": "32",
-        "Platform": "Win32",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Maker": "unknown",
-        "Device_Brand_Name": "unknown",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "iTunes\/4.7* (Macintosh*",
-      "properties": {
-        "Parent": "iTunes",
-        "Version": "4.7",
-        "MajorVer": "4",
-        "MinorVer": "7",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "iTunes\/7.1* (Macintosh*",
-      "properties": {
-        "Parent": "iTunes",
-        "Version": "7.1",
-        "MajorVer": "7",
-        "MinorVer": "1",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Name": "Macintosh"
-      }
-    },
-    {
-      "userAgent": "iTunes\/10.1* (Macintosh*",
-      "properties": {
-        "Parent": "iTunes",
-        "Version": "10.1",
-        "MajorVer": "10",
-        "MinorVer": "1",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Name": "Macintosh"
-      }
+      },
+      "children": [
+        {
+          "match": "iTunes\/* (Windows*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform": "Win32",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Win32": "true",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Maker": "unknown",
+            "Device_Brand_Name": "unknown",
+            "Device_Name": "Windows Desktop"
+          },
+          "platforms": [
+            "Win32"
+          ]
+        },
+        {
+          "match": "iTunes\/4.7* (Macintosh*",
+          "properties": {
+            "Version": "4.7",
+            "MajorVer": "4",
+            "MinorVer": "7",
+            "Platform": "MacOSX",
+            "Platform_Version": "10",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/7.1* (Macintosh*",
+          "properties": {
+            "Version": "7.1",
+            "MajorVer": "7",
+            "MinorVer": "1",
+            "Platform": "MacOSX",
+            "Platform_Version": "10",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/10.1* (Macintosh*",
+          "properties": {
+            "Version": "10.1",
+            "MajorVer": "10",
+            "MinorVer": "1",
+            "Platform": "MacOSX",
+            "Platform_Version": "10",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
     }
   ]
 }

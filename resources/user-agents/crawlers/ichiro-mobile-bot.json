@@ -9,6 +9,7 @@
         "Browser": "Ichiro Mobile Bot",
         "isMobileDevice": "true",
         "Browser_Type": "Bot/Crawler",
+        "Device_Type": "Mobile Device",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

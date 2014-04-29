@@ -216,6 +216,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -230,6 +232,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -893,6 +897,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -953,6 +959,8 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
             "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -1322,13 +1330,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
-            "Device_Maker": "Amazon",
-            "Device_Brand_Name": "Amazon",
-            "Device_Name": "Kindle Fire HD 7"
+            "Device_Brand_Name": "Amazon"
           },
           "platforms": [
             "Android_4_0"
@@ -1726,6 +1735,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaTabS2110AF Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "S2110AF",
             "Device_Maker": "Lenovo",
@@ -1810,6 +1820,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME302C",
             "Device_Maker": "Asus",
@@ -1824,6 +1835,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME371MG",
             "Device_Maker": "Asus",
@@ -1922,6 +1934,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A511 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "A511",
             "Device_Maker": "Acer",
@@ -1964,6 +1977,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ARCHOS 101G10 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "101 G10",
             "Device_Maker": "Archos",
@@ -1978,6 +1992,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Archos 80 Xenon Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "80 Xenon",
             "Device_Maker": "Archos",
@@ -2048,6 +2063,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3113 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P3113",
             "Device_Maker": "Samsung",
@@ -2062,6 +2078,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P5210* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P5210",
             "Device_Maker": "Samsung",
@@ -2076,6 +2093,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P7310 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P7310",
             "Device_Maker": "Samsung",
@@ -2090,6 +2108,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P7511 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P7511",
             "Device_Maker": "Samsung",
@@ -2132,6 +2151,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#K1 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "K1",
             "Device_Maker": "Lenovo",
@@ -2146,6 +2166,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#MediaPad 10 LINK Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "S7-301w",
             "Device_Maker": "Huawei",
@@ -2216,6 +2237,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Transformer TF101G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Eee Pad Transformer TF101G",
             "Device_Maker": "Asus",
@@ -2258,6 +2280,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#XOOM 2 ME Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "MZ608",
             "Device_Maker": "Motorola",
@@ -2322,8 +2345,13 @@
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple"
+            "Device_Maker": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -2341,7 +2369,8 @@
             "Device_Maker": "Apple",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

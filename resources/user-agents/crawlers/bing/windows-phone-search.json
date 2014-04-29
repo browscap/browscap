@@ -19,6 +19,7 @@
         "Platform_Version": "7.10",
         "Platform_Maker": "Microsoft Corporation",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Spark",
         "Device_Maker": "HTC",

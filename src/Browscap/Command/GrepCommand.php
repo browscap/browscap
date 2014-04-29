@@ -129,14 +129,17 @@ class GrepCommand extends Command
 
         $fileContents = file_get_contents($inputFile);
 
-        $uas = explode(PHP_EOL, $fileContents);
-
-
+        if (false !== strpos("\r\n", $fileContents)) {
+            $uas = explode("\r\n", $fileContents);
+        } else {
+            $uas = explode("\n", $fileContents);
+        }
+        
         $foundMode = 0;
         $foundInvisible = 0;
         $foundUnexpected = 0;
 
-        foreach ($uas as $ua) {
+        foreach (array_unique($uas) as $ua) {
             if (!$ua) {
                 continue;
             }

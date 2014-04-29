@@ -544,7 +544,7 @@ return [
         [
             'Browser' => 'Opera',
             'Version' => '10.10',
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'Crawler' => false,
         ],
     ],
@@ -858,7 +858,7 @@ return [
         [
             'Browser' => 'Opera',
             'Version' => '10.10',
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'Crawler' => false,
         ],
     ],
