@@ -42,7 +42,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-N8010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
