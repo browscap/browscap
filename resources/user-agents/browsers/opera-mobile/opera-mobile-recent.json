@@ -57,7 +57,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-P3100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -70,7 +72,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Slider SL101 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "SL101",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
@@ -83,7 +87,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
+            "isMobileDevice": "true",
             "Device_Type": "Tablet",
+            "isTablet": "true",
             "Device_Code_Name": "GT-N8013",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
