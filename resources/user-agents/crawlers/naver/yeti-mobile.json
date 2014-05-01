@@ -12,7 +12,8 @@
         "Tables": "true",
         "Crawler": "true",
         "Browser": "NaverBot Mobile",
-        "isMobileDevice": "true"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {
