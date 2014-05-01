@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "division": "Gnomit",
   "sortIndex": 510,
@@ -37,43 +36,3 @@
     }
   ]
 }
-||||||| merged common ancestors
-=======
-{
-  "division": "Gnomit",
-  "sortIndex": 510,
-  "userAgents": [
-    {
-      "userAgent": "Gnomit",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Gnomit",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/*"
-        },
-        {
-          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        }
-      ]
-    }
-  ]
-}
->>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70
