@@ -7,21 +7,19 @@
       "properties": {
         "Parent": "Google",
         "Browser": "Google App Engine"
-      }
-    },
-    {
-      "userAgent": "AppEngine-Google*",
-      "properties": {
-        "Parent": "Google App Engine"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; *) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: *",
-      "properties": {
-        "Parent": "Google App Engine",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
+      },
+      "children": [
+        {
+          "match": "AppEngine-Google*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; *) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: *",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        }
+      ]
     }
   ]
 }

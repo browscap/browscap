@@ -25,28 +25,23 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Google Desktop*)",
-      "properties": {
-        "Parent": "Google Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/?.0 (compatible; Google Desktop*)",
-      "properties": {
-        "Parent": "Google Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Google Desktop\/5.9*)",
-      "properties": {
-        "Parent": "Google Desktop",
-        "Version": "5.9",
-        "MajorVer": "5",
-        "MinorVer": "9"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Google Desktop*)"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; Google Desktop*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Google Desktop\/5.9*)",
+          "properties": {
+            "Version": "5.9",
+            "MajorVer": "5",
+            "MinorVer": "9"
+          }
+        }
+      ]
     }
   ]
 }

@@ -10,37 +10,36 @@
         "Browser": "Mail.Ru",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mail.Ru\/1.0",
-      "properties": {
-        "Parent": "Mail.Ru Bot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Mail.RU\/*)",
-      "properties": {
-        "Parent": "Mail.Ru Bot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Linux x86_64; Mail.RU_Bot\/2.0*",
-      "properties": {
-        "Parent": "Mail.Ru Bot",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Mail.RU_Bot\/2.0; +http:\/\/go.mail.ru\/help\/robots)",
-      "properties": {
-        "Parent": "Mail.Ru Bot",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "Mail.Ru\/1.0",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Mail.RU\/*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Linux x86_64; Mail.RU_Bot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Mail.RU_Bot\/2.0; +http:\/\/go.mail.ru\/help\/robots)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        }
+      ]
     }
   ]
 }

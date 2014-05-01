@@ -5,30 +5,35 @@
     {
       "userAgent": "Y!J-AGENT",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Y!J-AGENT"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; BMC\/* (Y!J-AGENT))",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Y!J-AGENT\/BMC"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; BMF\/* (Y!J-AGENT))",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Y!J-AGENT\/BMF"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; BMI\/* (Y!J-AGENT; 1.0))",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Y!J-AGENT\/BMI"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Y!J-AGENT",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; BMC\/* (Y!J-AGENT))",
+          "properties": {
+            "Browser": "Y!J-AGENT\/BMC"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BMF\/* (Y!J-AGENT))",
+          "properties": {
+            "Browser": "Y!J-AGENT\/BMF"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BMI\/* (Y!J-AGENT; 1.0))",
+          "properties": {
+            "Browser": "Y!J-AGENT\/BMI"
+          }
+        }
+      ]
     }
   ]
 }

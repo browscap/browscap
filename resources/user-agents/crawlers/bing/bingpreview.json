@@ -5,51 +5,54 @@
     {
       "userAgent": "BingPreview",
       "properties": {
-        "Parent": "MSN",
-        "Browser": "BingPreview"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*",
-      "properties": {
-        "Parent": "BingPreview"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0*",
-      "properties": {
-        "Parent": "BingPreview",
-        "Browser_Bits": "32",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0b*",
-      "properties": {
-        "Parent": "BingPreview",
-        "Browser_Bits": "32",
-        "Version": "1.0b",
-        "MajorVer": "1",
-        "MinorVer": "0b",
-        "Platform": "Win7",
-        "Platform_Version": "6.1",
-        "Platform_Bits": "64",
-        "Platform_Maker": "Microsoft Corporation",
-        "Beta": "true",
-        "Win32": "true",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Comment": "MSN",
+        "Browser": "BingPreview",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "Platform": "Win7",
+            "Platform_Version": "6.1",
+            "Platform_Bits": "64",
+            "Platform_Maker": "Microsoft Corporation",
+            "Win32": "true",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0b*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Version": "1.0b",
+            "MajorVer": "1",
+            "MinorVer": "0b",
+            "Platform": "Win7",
+            "Platform_Version": "6.1",
+            "Platform_Bits": "64",
+            "Platform_Maker": "Microsoft Corporation",
+            "Beta": "true",
+            "Win32": "true",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        }
+      ]
     }
   ]
 }

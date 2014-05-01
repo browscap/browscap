@@ -10,77 +10,69 @@
         "Browser": "Social Bookmarkers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "BookmarkBase(2\/;http:\/\/bookmarkbase.com)",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "BookmarkBase"
-      }
-    },
-    {
-      "userAgent": "Cocoal.icio.us\/1.0 (v43) (Mac OS X; http:\/\/www.scifihifi.com\/cocoalicious)",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "Cocoalicious"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*) Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "OneRiot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; FriendFeedBot\/0.*; +Http:\/\/friendfeed.com\/about\/bot)",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "FriendFeedBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Twitturls; +http:\/\/twitturls.com)",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "Twitturls"
-      }
-    },
-    {
-      "userAgent": "SocialSpider-Finder\/0.*",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "SocialSpider-Finder"
-      }
-    },
-    {
-      "userAgent": "Twitturly*",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "Twitturly"
-      }
-    },
-    {
-      "userAgent": "WinkBot\/*",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "WinkBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; FriendFeedBot\/*; +Http:\/\/friendfeed.com\/about\/bot)",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "FriendFeedBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
-      "properties": {
-        "Parent": "Social Networking",
-        "Browser": "OneRiot"
-      }
+      },
+      "children": [
+        {
+          "match": "BookmarkBase(2\/;http:\/\/bookmarkbase.com)",
+          "properties": {
+            "Browser": "BookmarkBase"
+          }
+        },
+        {
+          "match": "Cocoal.icio.us\/1.0 (v43) (Mac OS X; http:\/\/www.scifihifi.com\/cocoalicious)",
+          "properties": {
+            "Browser": "Cocoalicious"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*) Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "properties": {
+            "Browser": "OneRiot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; FriendFeedBot\/0.*; +Http:\/\/friendfeed.com\/about\/bot)",
+          "properties": {
+            "Browser": "FriendFeedBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Twitturls; +http:\/\/twitturls.com)",
+          "properties": {
+            "Browser": "Twitturls"
+          }
+        },
+        {
+          "match": "SocialSpider-Finder\/0.*",
+          "properties": {
+            "Browser": "SocialSpider-Finder"
+          }
+        },
+        {
+          "match": "Twitturly*",
+          "properties": {
+            "Browser": "Twitturly"
+          }
+        },
+        {
+          "match": "WinkBot\/*",
+          "properties": {
+            "Browser": "WinkBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; FriendFeedBot\/*; +Http:\/\/friendfeed.com\/about\/bot)",
+          "properties": {
+            "Browser": "FriendFeedBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "properties": {
+            "Browser": "OneRiot"
+          }
+        }
+      ]
     }
   ]
 }

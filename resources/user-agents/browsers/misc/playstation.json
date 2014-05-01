@@ -19,24 +19,24 @@
         "Device_Name": "Playstation",
         "Device_Maker": "Sony",
         "Device_Type": "Console"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (PSP (PlayStation Portable)*)",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony PSP",
-        "Device_Name": "PSP"
-      }
-    },
-    {
-      "userAgent": "Sony PS2 (Linux)",
-      "properties": {
-        "Parent": "Playstation",
-        "Browser": "Sony PS2",
-        "Platform": "Linux",
-        "Device_Name": "PS2"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PSP (PlayStation Portable)*)",
+          "properties": {
+            "Browser": "Sony PSP",
+            "Device_Name": "PSP"
+          }
+        },
+        {
+          "match": "Sony PS2 (Linux)",
+          "properties": {
+            "Browser": "Sony PS2",
+            "Platform": "Linux",
+            "Device_Name": "PS2"
+          }
+        }
+      ]
     },
     {
       "userAgent": "Playstation Vita",

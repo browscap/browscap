@@ -12,52 +12,48 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Seram Server",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "Seram Server"
-      }
-    },
-    {
-      "userAgent": "TeragramWebcrawler\/*",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "TeragramWebcrawler",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "WebIndexer\/* (Web Indexer*)",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "WorldLingo"
-      }
-    },
-    {
-      "userAgent": "WebIndexer\/* (Web Indexer; *)",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "WorldLingo"
-      }
-    },
-    {
-      "userAgent": "WebTrans",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "WebTrans"
-      }
-    },
-    {
-      "userAgent": "ATA-Translation-Service",
-      "properties": {
-        "Parent": "Translators",
-        "Browser": "ATA-Translation-Service"
-      }
+      },
+      "children": [
+        {
+          "match": "Seram Server",
+          "properties": {
+            "Browser": "Seram Server"
+          }
+        },
+        {
+          "match": "TeragramWebcrawler\/*",
+          "properties": {
+            "Browser": "TeragramWebcrawler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "WebIndexer\/* (Web Indexer*)",
+          "properties": {
+            "Browser": "WorldLingo"
+          }
+        },
+        {
+          "match": "WebIndexer\/* (Web Indexer; *)",
+          "properties": {
+            "Browser": "WorldLingo"
+          }
+        },
+        {
+          "match": "WebTrans",
+          "properties": {
+            "Browser": "WebTrans"
+          }
+        },
+        {
+          "match": "ATA-Translation-Service",
+          "properties": {
+            "Browser": "ATA-Translation-Service"
+          }
+        }
+      ]
     }
   ]
 }
