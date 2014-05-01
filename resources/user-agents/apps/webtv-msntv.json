@@ -19,229 +19,208 @@
         "Device_Name": "WebTV",
         "Device_Maker": "Microsoft",
         "Device_Type": "TV Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.0 WebTV\/1.*(compatible; MSIE 2.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.0*(compatible; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.1*(compatible; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.2*(compatible; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.3*(compatible; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.3",
-        "MajorVer": "2",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.4*(compatible; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.4",
-        "MajorVer": "2",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.5*(compatible; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.5",
-        "MajorVer": "2",
-        "MinorVer": "5",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.6*(compatible; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.6",
-        "MajorVer": "2",
-        "MinorVer": "6",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.7*(compatible; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.7",
-        "MajorVer": "2",
-        "MinorVer": "7",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.8*(compatible; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.8",
-        "MajorVer": "2",
-        "MinorVer": "8",
-        "VBScript": "true",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.9*(compatible; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.9",
-        "MajorVer": "2",
-        "MinorVer": "9",
-        "VBScript": "true",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.01 (compatible; Netgem\/*; Linux 2.2)",
-      "properties": {
-        "Parent": "WebTV",
-        "Browser": "Netgem Set Top Box",
-        "Platform": "Linux for TV",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
-        "Device_Code_Name": "general TV Device",
-        "Device_Name": "general TV Device"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.0 WebTV\/1.*(compatible*; MSIE 2.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.0*(compatible*; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.1*(compatible*; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.2*(compatible*; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.3*(compatible*; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.3",
-        "MajorVer": "2",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.4*(compatible*; MSIE 3.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.4",
-        "MajorVer": "2",
-        "MinorVer": "4"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.5*(compatible*; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.5",
-        "MajorVer": "2",
-        "MinorVer": "5",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.6*(compatible*; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.6",
-        "MajorVer": "2",
-        "MinorVer": "6",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.7*(compatible*; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.7",
-        "MajorVer": "2",
-        "MinorVer": "7",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.8*(compatible*; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.8",
-        "MajorVer": "2",
-        "MinorVer": "8",
-        "VBScript": "true",
-        "CssVersion": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 WebTV\/2.9*(compatible*; MSIE 4.0)",
-      "properties": {
-        "Parent": "WebTV",
-        "Version": "2.9",
-        "MajorVer": "2",
-        "MinorVer": "9",
-        "VBScript": "true",
-        "CssVersion": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/3.0 WebTV\/1.*(compatible; MSIE 2.0)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.0*(compatible; MSIE 3.0)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.1*(compatible; MSIE 3.0)",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.2*(compatible; MSIE 3.0)",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.3*(compatible; MSIE 3.0)",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.4*(compatible; MSIE 3.0)",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.5*(compatible; MSIE 4.0)",
+          "properties": {
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.6*(compatible; MSIE 4.0)",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.7*(compatible; MSIE 4.0)",
+          "properties": {
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.8*(compatible; MSIE 4.0)",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8",
+            "VBScript": "true",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.9*(compatible; MSIE 4.0)",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9",
+            "VBScript": "true",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/3.01 (compatible; Netgem\/*; Linux 2.2)",
+          "properties": {
+            "Browser": "Netgem Set Top Box",
+            "Platform": "Linux for TV",
+            "Platform_Version": "",
+            "Platform_Maker": "Linux Foundation",
+            "Device_Code_Name": "general TV Device",
+            "Device_Name": "general TV Device"
+          }
+        },
+        {
+          "match": "Mozilla\/3.0 WebTV\/1.*(compatible*; MSIE 2.0)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.0*(compatible*; MSIE 3.0)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.1*(compatible*; MSIE 3.0)",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.2*(compatible*; MSIE 3.0)",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.3*(compatible*; MSIE 3.0)",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.4*(compatible*; MSIE 3.0)",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.5*(compatible*; MSIE 4.0)",
+          "properties": {
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.6*(compatible*; MSIE 4.0)",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.7*(compatible*; MSIE 4.0)",
+          "properties": {
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.8*(compatible*; MSIE 4.0)",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8",
+            "VBScript": "true",
+            "CssVersion": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 WebTV\/2.9*(compatible*; MSIE 4.0)",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9",
+            "VBScript": "true",
+            "CssVersion": "1"
+          }
+        }
+      ]
     }
   ]
 }

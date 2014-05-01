@@ -6,27 +6,34 @@
     {
       "userAgent": "Windows Phone Search",
       "properties": {
-        "Parent": "MSN",
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Comment": "MSN",
         "Browser": "Windows Phone Search",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
-      }
-    },
-    {
-      "userAgent": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
-      "properties": {
-        "Parent": "Windows Phone Search",
-        "Platform": "Windows Mobile OS",
-        "Platform_Version": "7.10",
-        "Platform_Maker": "Microsoft Corporation",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Spark",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Name": "7 Trophy"
-      }
+      },
+      "children": [
+        {
+          "match": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
+          "properties": {
+            "Platform": "Windows Mobile OS",
+            "Platform_Version": "7.10",
+            "Platform_Maker": "Microsoft Corporation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Spark",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "7 Trophy"
+          }
+        }
+      ]
     }
   ]
 }

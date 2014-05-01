@@ -1,0 +1,38 @@
+{
+  "division": "YandexBot",
+  "sortIndex": 61,
+  "lite": true,
+  "split-file": "A",
+  "userAgents": [
+    {
+      "userAgent": "YandexBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YandexBot",
+        "Browser": "YandexBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; YandexBot\/*",
+          "properties": {
+            "Browser": "YandexBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; YandexBot\/3.0; *",
+          "properties": {
+            "Division": "Yandex",
+            "Browser": "YandexBot",
+            "Version": "3.0",
+            "MajorVer": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

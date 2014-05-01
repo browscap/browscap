@@ -6,36 +6,34 @@
     {
       "userAgent": "HTMLParser",
       "properties": {
-        "Parent": "Rippers",
+        "Parent": "DefaultProperties",
+        "Comment": "HTMLParser",
         "Browser": "HTMLParser",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/*",
-      "properties": {
-        "Parent": "HTMLParser"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/1.*",
-      "properties": {
-        "Parent": "HTMLParser",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "HTMLParser\/2.*",
-      "properties": {
-        "Parent": "HTMLParser",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "HTMLParser\/*"
+        },
+        {
+          "match": "HTMLParser\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "HTMLParser\/2.*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
     }
   ]
 }

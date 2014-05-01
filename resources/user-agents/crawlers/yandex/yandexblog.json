@@ -6,22 +6,24 @@
     {
       "userAgent": "YandexBlog",
       "properties": {
-        "Parent": "Yandex",
+        "Parent": "DefaultProperties",
+        "Comment": "YandexBlog",
         "Browser": "YandexBlog",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; YandexBlogs\/*; robot)",
-      "properties": {
-        "Parent": "YandexBlog"
-      }
-    },
-    {
-      "userAgent": "YandexBlog\/*",
-      "properties": {
-        "Parent": "YandexBlog"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; YandexBlogs\/*; robot)"
+        },
+        {
+          "match": "YandexBlog\/*"
+        }
+      ]
     }
   ]
 }

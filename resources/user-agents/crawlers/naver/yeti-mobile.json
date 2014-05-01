@@ -6,17 +6,21 @@
     {
       "userAgent": "Yeti-Mobile",
       "properties": {
-        "Parent": "Naver",
+        "Parent": "DefaultProperties",
+        "Comment": "NaverBot",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "NaverBot Mobile",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "DoCoMo\/2.0?P-04A *(compatible; Yeti-Mobile\/0.1; ?http:\/\/help.naver.com\/robots\/)*",
-      "properties": {
-        "Parent": "Yeti-Mobile"
-      }
+      },
+      "children": [
+        {
+          "match": "DoCoMo\/2.0?P-04A *(compatible; Yeti-Mobile\/0.1; ?http:\/\/help.naver.com\/robots\/)*"
+        }
+      ]
     }
   ]
 }

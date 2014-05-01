@@ -12,37 +12,36 @@
         "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "FeedHub FeedDiscovery\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub FeedDiscovery",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "FeedHub FeedFetcher\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub FeedFetcher",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "FeedHub MetaDataFetcher\/1.0 (http:\/\/www.feedhub.com)",
-      "properties": {
-        "Parent": "FeedHub",
-        "Browser": "FeedHub MetaDataFetcher",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "FeedHub FeedDiscovery\/1.0 (http:\/\/www.feedhub.com)",
+          "properties": {
+            "Browser": "FeedHub FeedDiscovery",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "FeedHub FeedFetcher\/1.0 (http:\/\/www.feedhub.com)",
+          "properties": {
+            "Browser": "FeedHub FeedFetcher",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "FeedHub MetaDataFetcher\/1.0 (http:\/\/www.feedhub.com)",
+          "properties": {
+            "Browser": "FeedHub MetaDataFetcher",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
     }
   ]
 }

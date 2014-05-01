@@ -14,27 +14,24 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ia_archiver*",
-      "properties": {
-        "Parent": "Internet Archive",
-        "Browser": "Internet Archive"
-      }
-    },
-    {
-      "userAgent": "InternetArchive\/*",
-      "properties": {
-        "Parent": "Internet Archive",
-        "Browser": "InternetArchive"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; archive.org_bot*)",
-      "properties": {
-        "Parent": "Internet Archive"
-      }
+      },
+      "children": [
+        {
+          "match": "ia_archiver*",
+          "properties": {
+            "Browser": "Internet Archive"
+          }
+        },
+        {
+          "match": "InternetArchive\/*",
+          "properties": {
+            "Browser": "InternetArchive"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; archive.org_bot*)"
+        }
+      ]
     }
   ]
 }

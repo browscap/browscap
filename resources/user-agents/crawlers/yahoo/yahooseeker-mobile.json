@@ -6,50 +6,52 @@
     {
       "userAgent": "YahooSeeker-Mobile",
       "properties": {
-        "Parent": "YahooSeeker",
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
         "Browser": "YahooSeeker-Mobile",
+        "Browser_Type": "Bot/Crawler",
+        "IFrames": "false",
+        "Crawler": "true",
         "Frames": "false",
         "Tables": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "LG-C1500 UP.Browser\/6.2.3 (GUI) MMP\/1.0 (compatible;YahooSeeker\/M1A1-R2D2; http:\/\/help.yahoo.com\/help\/us\/ysearch\/crawling\/crawling-01.html)",
-      "properties": {
-        "Parent": "YahooSeeker-Mobile",
-        "Device_Code_Name": "C1500",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Name": "C1500"
-      }
-    },
-    {
-      "userAgent": "LG-C1500 UP.Browser\/6.2.3 (GUI) MMP\/1.0 (compatible;YahooSeeker\/M1A1-R2D2;mobile-search-customer-care AT yahoo-inc dot com)",
-      "properties": {
-        "Parent": "YahooSeeker-Mobile",
-        "Device_Code_Name": "C1500",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Name": "C1500"
-      }
-    },
-    {
-      "userAgent": "Nokia6682\/2.0 (*SymbianOS\/* (compatible;*YahooSeeker\/*)",
-      "properties": {
-        "Parent": "YahooSeeker-Mobile",
-        "Device_Code_Name": "6682",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Device_Name": "6682"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; YahooSeeker\/M1A1-R2D2*)",
-      "properties": {
-        "Parent": "YahooSeeker-Mobile",
-        "Browser": "YahooSeeker-Mobile"
-      }
+      },
+      "children": [
+        {
+          "match": "LG-C1500 UP.Browser\/6.2.3 (GUI) MMP\/1.0 (compatible;YahooSeeker\/M1A1-R2D2; http:\/\/help.yahoo.com\/help\/us\/ysearch\/crawling\/crawling-01.html)",
+          "properties": {
+            "Device_Code_Name": "C1500",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "C1500"
+          }
+        },
+        {
+          "match": "LG-C1500 UP.Browser\/6.2.3 (GUI) MMP\/1.0 (compatible;YahooSeeker\/M1A1-R2D2;mobile-search-customer-care AT yahoo-inc dot com)",
+          "properties": {
+            "Device_Code_Name": "C1500",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "C1500"
+          }
+        },
+        {
+          "match": "Nokia6682\/2.0 (*SymbianOS\/* (compatible;*YahooSeeker\/*)",
+          "properties": {
+            "Device_Code_Name": "6682",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "6682"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; YahooSeeker\/M1A1-R2D2*)",
+          "properties": {
+            "Browser": "YahooSeeker-Mobile"
+          }
+        }
+      ]
     }
   ]
 }

@@ -13,19 +13,15 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/spider.html;) Gecko\/*",
-      "properties": {
-        "Parent": "80Legs"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/webcrawler.html) Gecko\/*",
-      "properties": {
-        "Parent": "80Legs"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/spider.html;) Gecko\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/webcrawler.html) Gecko\/*"
+        }
+      ]
     }
   ]
 }

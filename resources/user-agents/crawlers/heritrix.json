@@ -14,25 +14,18 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*heritrix*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
-    },
-    {
-      "userAgent": "*Mozilla\/5.0 compatible; heritrix\/*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; *; heritrix\/*",
-      "properties": {
-        "Parent": "Heritrix"
-      }
+      },
+      "children": [
+        {
+          "match": "*heritrix*"
+        },
+        {
+          "match": "*Mozilla\/5.0 compatible; heritrix\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; *; heritrix\/*"
+        }
+      ]
     }
   ]
 }

@@ -7,8 +7,9 @@
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Google Code",
+        "Parent": "DefaultProperties",
         "Comment": "Arora #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
         "Browser": "Arora",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

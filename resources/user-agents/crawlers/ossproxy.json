@@ -6,7 +6,8 @@
     {
       "userAgent": "OSSProxy",
       "properties": {
-        "Parent": "Rippers",
+        "Parent": "DefaultProperties",
+        "Comment": "OSSProxy",
         "Browser": "OSSProxy",
         "Browser_Maker": "Marketscore",
         "Browser_Type": "Bot/Crawler",
@@ -14,22 +15,20 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "OSSProxy*",
-      "properties": {
-        "Parent": "OSSProxy"
-      }
-    },
-    {
-      "userAgent": "OSSProxy 1.3*",
-      "properties": {
-        "Parent": "OSSProxy",
-        "Version": "1.3",
-        "MajorVer": "1",
-        "MinorVer": "3"
-      }
+      },
+      "children": [
+        {
+          "match": "OSSProxy*"
+        },
+        {
+          "match": "OSSProxy 1.3*",
+          "properties": {
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        }
+      ]
     }
   ]
 }

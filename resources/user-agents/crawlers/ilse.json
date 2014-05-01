@@ -13,25 +13,18 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "IlseBot\/*",
-      "properties": {
-        "Parent": "Ilse"
-      }
-    },
-    {
-      "userAgent": "INGRID\/?.0*",
-      "properties": {
-        "Parent": "Ilse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.0 (INGRID\/*",
-      "properties": {
-        "Parent": "Ilse"
-      }
+      },
+      "children": [
+        {
+          "match": "IlseBot\/*"
+        },
+        {
+          "match": "INGRID\/?.0*"
+        },
+        {
+          "match": "Mozilla\/3.0 (INGRID\/*"
+        }
+      ]
     }
   ]
 }

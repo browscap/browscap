@@ -14,37 +14,35 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; BOTW Feed Grabber*http:\/\/botw.org)",
-      "properties": {
-        "Parent": "Best of the Web",
-        "Browser": "BOTW Feed Grabber",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; BOTW Feed Grabber; *http:\/\/botw.org)",
-      "properties": {
-        "Parent": "Best of the Web",
-        "Browser": "BOTW Feed Grabber",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; BOTW Spider; *http:\/\/botw.org)",
-      "properties": {
-        "Parent": "Best of the Web",
-        "Browser": "BOTW Spider"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; BOTW Spider*http:\/\/botw.org)",
-      "properties": {
-        "Parent": "Best of the Web",
-        "Browser": "BOTW Spider"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; BOTW Feed Grabber*http:\/\/botw.org)",
+          "properties": {
+            "Browser": "BOTW Feed Grabber",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; BOTW Feed Grabber; *http:\/\/botw.org)",
+          "properties": {
+            "Browser": "BOTW Feed Grabber",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; BOTW Spider; *http:\/\/botw.org)",
+          "properties": {
+            "Browser": "BOTW Spider"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; BOTW Spider*http:\/\/botw.org)",
+          "properties": {
+            "Browser": "BOTW Spider"
+          }
+        }
+      ]
     }
   ]
 }

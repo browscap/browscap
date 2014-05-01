@@ -6,7 +6,8 @@
     {
       "userAgent": "Pixray-Seeker",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "Pixray-Seeker",
         "Browser": "Pixray-Seeker",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

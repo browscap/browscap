@@ -11,52 +11,49 @@
         "Browser": "Nagios",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "check_http\/* (nagios-plugins 1.*)",
-      "properties": {
-        "Parent": "Nagios",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "check_http\/* (nagios-plugins 1.1.*)",
-      "properties": {
-        "Parent": "Nagios",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "check_http\/* (nagios-plugins 1.2.*)",
-      "properties": {
-        "Parent": "Nagios",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "check_http\/* (nagios-plugins 1.3.*)",
-      "properties": {
-        "Parent": "Nagios",
-        "Version": "1.3",
-        "MajorVer": "1",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "check_http\/* (nagios-plugins 1.4.*)",
-      "properties": {
-        "Parent": "Nagios",
-        "Version": "1.4",
-        "MajorVer": "1",
-        "MinorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "check_http\/* (nagios-plugins 1.*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 1.1.*)",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 1.2.*)",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 1.3.*)",
+          "properties": {
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 1.4.*)",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        }
+      ]
     }
   ]
 }

@@ -6,23 +6,25 @@
     {
       "userAgent": "TurnitinBot",
       "properties": {
-        "Parent": "Copyright\/Plagiarism",
+        "Parent": "DefaultProperties",
+        "Comment": "TurnitinBot",
         "Browser": "TurnitinBot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "TurnitinBot\/2.1*",
-      "properties": {
-        "Parent": "TurnitinBot",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "TurnitinBot\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        }
+      ]
     }
   ]
 }

@@ -6,29 +6,27 @@
     {
       "userAgent": "VoilaBot",
       "properties": {
-        "Parent": "Search Engines",
-        "Browser": "VoilaBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*) VoilaBot*",
-      "properties": {
-        "Parent": "VoilaBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*VoilaBot*",
-      "properties": {
-        "Parent": "VoilaBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Windows NT 5.1*) VoilaBot*",
-      "properties": {
-        "Parent": "VoilaBot",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "VoilaBot",
+        "Browser": "VoilaBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*) VoilaBot*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*VoilaBot*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 5.1*) VoilaBot*",
+          "properties": {
+            "Browser_Bits": "32",
+            "Platform_Bits": "32"
+          }
+        }
+      ]
     }
   ]
 }

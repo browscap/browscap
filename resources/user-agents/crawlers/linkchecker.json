@@ -6,23 +6,24 @@
     {
       "userAgent": "LinkChecker",
       "properties": {
-        "Parent": "Link Checkers",
+        "Parent": "DefaultProperties",
+        "Comment": "Link Checkers",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "LinkChecker"
-      }
-    },
-    {
-      "userAgent": "LinkChecker\/*",
-      "properties": {
-        "Parent": "LinkChecker"
-      }
-    },
-    {
-      "userAgent": "LinkChecker\/7.*",
-      "properties": {
-        "Parent": "LinkChecker",
-        "Version": "7.0",
-        "MajorVer": "7"
-      }
+      },
+      "children": [
+        {
+          "match": "LinkChecker\/*"
+        },
+        {
+          "match": "LinkChecker\/7.*",
+          "properties": {
+            "Version": "7.0",
+            "MajorVer": "7"
+          }
+        }
+      ]
     }
   ]
 }

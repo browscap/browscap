@@ -28,43 +28,27 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
-    },
-    {
-      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
-    },
-    {
-      "userAgent": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
-    },
-    {
-      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
-    },
-    {
-      "userAgent": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*",
-      "properties": {
-        "Parent": "UnisterBot"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)"
+        },
+        {
+          "match": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*"
+        },
+        {
+          "match": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+        },
+        {
+          "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*"
+        },
+        {
+          "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+        }
+      ]
     }
   ]
 }

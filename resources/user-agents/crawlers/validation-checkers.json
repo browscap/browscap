@@ -11,50 +11,46 @@
         "Browser": "HTML Validators",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "(HTML Validator http:\/\/www.searchengineworld.com\/validator\/)",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "Search Engine World HTML Validator"
-      }
-    },
-    {
-      "userAgent": "FeedValidator\/*",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "FeedValidator"
-      }
-    },
-    {
-      "userAgent": "Search Engine World Robots.txt Validator*",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "Search Engine World Robots.txt Validator"
-      }
-    },
-    {
-      "userAgent": "Weblide\/*",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "Weblide",
-        "Beta": "true"
-      }
-    },
-    {
-      "userAgent": "WebmasterWorld StickyMail Server Header Checker*",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "WebmasterWorld Server Header Checker"
-      }
-    },
-    {
-      "userAgent": "WWWC\/*",
-      "properties": {
-        "Parent": "HTML Validators",
-        "Browser": "WWWC"
-      }
+      },
+      "children": [
+        {
+          "match": "(HTML Validator http:\/\/www.searchengineworld.com\/validator\/)",
+          "properties": {
+            "Browser": "Search Engine World HTML Validator"
+          }
+        },
+        {
+          "match": "FeedValidator\/*",
+          "properties": {
+            "Browser": "FeedValidator"
+          }
+        },
+        {
+          "match": "Search Engine World Robots.txt Validator*",
+          "properties": {
+            "Browser": "Search Engine World Robots.txt Validator"
+          }
+        },
+        {
+          "match": "Weblide\/*",
+          "properties": {
+            "Browser": "Weblide",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "WebmasterWorld StickyMail Server Header Checker*",
+          "properties": {
+            "Browser": "WebmasterWorld Server Header Checker"
+          }
+        },
+        {
+          "match": "WWWC\/*",
+          "properties": {
+            "Browser": "WWWC"
+          }
+        }
+      ]
     }
   ]
 }

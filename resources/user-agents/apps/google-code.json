@@ -10,34 +10,26 @@
         "Comment": "Google Code",
         "Browser": "Google Code",
         "Browser_Type": "Application"
-      }
-    },
-    {
-      "userAgent": "Google HTTP Client Library for Java",
-      "properties": {
-        "Parent": "Google Code",
-        "Comment": "Google HTTP Client Library for Java",
-        "Browser": "Google HTTP Client Library for Java"
-      }
-    },
-    {
-      "userAgent": "Google-HTTP-Java-Client/*",
-      "properties": {
-        "Parent": "Google HTTP Client Library for Java",
-        "Comment": "Google HTTP Client Library for Java",
-        "Browser": "Google HTTP Client Library for Java"
-      }
-    },
-    {
-      "userAgent": "Google-HTTP-Java-Client/1.17*",
-      "properties": {
-        "Parent": "Google HTTP Client Library for Java",
-        "Comment": "Google HTTP Client Library for Java",
-        "Browser": "Google HTTP Client Library for Java",
-        "Version": "1.17",
-        "MajorVer": "1",
-        "MinorVer": "17"
-      }
+      },
+      "children": [
+        {
+          "match": "Google-HTTP-Java-Client/*",
+          "properties": {
+            "Comment": "Google HTTP Client Library for Java",
+            "Browser": "Google HTTP Client Library for Java"
+          }
+        },
+        {
+          "match": "Google-HTTP-Java-Client/1.17*",
+          "properties": {
+            "Comment": "Google HTTP Client Library for Java",
+            "Browser": "Google HTTP Client Library for Java",
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
+          }
+        }
+      ]
     }
   ]
 }

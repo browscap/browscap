@@ -11,147 +11,129 @@
         "Browser": "Image Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*CFNetwork*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "CFNetwork"
-      }
-    },
-    {
-      "userAgent": "*PhotoStickies\/*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "PhotoStickies"
-      }
-    },
-    {
-      "userAgent": "Camcrawler*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Camcrawler"
-      }
-    },
-    {
-      "userAgent": "CydralSpider\/*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Cydral Web Image Search"
-      }
-    },
-    {
-      "userAgent": "Der gro\\xdfe BilderSauger*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Gallery Grabber"
-      }
-    },
-    {
-      "userAgent": "Extreme Picture Finder",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Extreme Picture Finder"
-      }
-    },
-    {
-      "userAgent": "FLATARTS_FAVICO",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "FlatArts Favorites Icon Tool"
-      }
-    },
-    {
-      "userAgent": "HTML2JPG Blackbox, http:\/\/www.html2jpg.com",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "HTML2JPG"
-      }
-    },
-    {
-      "userAgent": "IconSurf\/2.*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "IconSurf"
-      }
-    },
-    {
-      "userAgent": "Mister PIX*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Mister PIX"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; KaloogaBot; http:\/\/www.kalooga.com\/info.html?page=crawler)",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "KaloogaBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Macintosh; U; *Mac OS X; *) AppleWebKit\/* (*) Pandora\/2.*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Pandora"
-      }
-    },
-    {
-      "userAgent": "naoFavicon4IE*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "naoFavicon4IE"
-      }
-    },
-    {
-      "userAgent": "pixfinder\/*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "pixfinder"
-      }
-    },
-    {
-      "userAgent": "psbot\/* (?http:\/\/www.picsearch.com\/bot.html)",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "PicSearchBot"
-      }
-    },
-    {
-      "userAgent": "rssImagesBot\/0.1 (*http:\/\/herbert.groot.jebbink.nl\/?app=rssImages)",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "rssImagesBot"
-      }
-    },
-    {
-      "userAgent": "Web Image Collector*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Web Image Collector"
-      }
-    },
-    {
-      "userAgent": "WebImages * (?http:\/\/herbert.groot.jebbink.nl\/?app=WebImages?)",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "WebImages"
-      }
-    },
-    {
-      "userAgent": "WebPix*",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "Custo"
-      }
-    },
-    {
-      "userAgent": "FOTOCHECKER",
-      "properties": {
-        "Parent": "Image Crawlers",
-        "Browser": "FOTOCHECKER"
-      }
+      },
+      "children": [
+        {
+          "match": "*CFNetwork*",
+          "properties": {
+            "Browser": "CFNetwork"
+          }
+        },
+        {
+          "match": "*PhotoStickies\/*",
+          "properties": {
+            "Browser": "PhotoStickies"
+          }
+        },
+        {
+          "match": "Camcrawler*",
+          "properties": {
+            "Browser": "Camcrawler"
+          }
+        },
+        {
+          "match": "CydralSpider\/*",
+          "properties": {
+            "Browser": "Cydral Web Image Search"
+          }
+        },
+        {
+          "match": "Der gro\\xdfe BilderSauger*",
+          "properties": {
+            "Browser": "Gallery Grabber"
+          }
+        },
+        {
+          "match": "Extreme Picture Finder",
+          "properties": {
+            "Browser": "Extreme Picture Finder"
+          }
+        },
+        {
+          "match": "FLATARTS_FAVICO",
+          "properties": {
+            "Browser": "FlatArts Favorites Icon Tool"
+          }
+        },
+        {
+          "match": "HTML2JPG Blackbox, http:\/\/www.html2jpg.com",
+          "properties": {
+            "Browser": "HTML2JPG"
+          }
+        },
+        {
+          "match": "IconSurf\/2.*",
+          "properties": {
+            "Browser": "IconSurf"
+          }
+        },
+        {
+          "match": "Mister PIX*",
+          "properties": {
+            "Browser": "Mister PIX"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; KaloogaBot; http:\/\/www.kalooga.com\/info.html?page=crawler)",
+          "properties": {
+            "Browser": "KaloogaBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Macintosh; U; *Mac OS X; *) AppleWebKit\/* (*) Pandora\/2.*",
+          "properties": {
+            "Browser": "Pandora"
+          }
+        },
+        {
+          "match": "naoFavicon4IE*",
+          "properties": {
+            "Browser": "naoFavicon4IE"
+          }
+        },
+        {
+          "match": "pixfinder\/*",
+          "properties": {
+            "Browser": "pixfinder"
+          }
+        },
+        {
+          "match": "psbot\/* (?http:\/\/www.picsearch.com\/bot.html)",
+          "properties": {
+            "Browser": "PicSearchBot"
+          }
+        },
+        {
+          "match": "rssImagesBot\/0.1 (*http:\/\/herbert.groot.jebbink.nl\/?app=rssImages)",
+          "properties": {
+            "Browser": "rssImagesBot"
+          }
+        },
+        {
+          "match": "Web Image Collector*",
+          "properties": {
+            "Browser": "Web Image Collector"
+          }
+        },
+        {
+          "match": "WebImages * (?http:\/\/herbert.groot.jebbink.nl\/?app=WebImages?)",
+          "properties": {
+            "Browser": "WebImages"
+          }
+        },
+        {
+          "match": "WebPix*",
+          "properties": {
+            "Browser": "Custo"
+          }
+        },
+        {
+          "match": "FOTOCHECKER",
+          "properties": {
+            "Browser": "FOTOCHECKER"
+          }
+        }
+      ]
     }
   ]
 }

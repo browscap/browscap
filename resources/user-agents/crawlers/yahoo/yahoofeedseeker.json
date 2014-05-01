@@ -6,130 +6,121 @@
     {
       "userAgent": "YahooFeedSeeker",
       "properties": {
-        "Parent": "Yahoo",
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
         "Browser": "YahooFeedSeeker",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "YahooFeedSeeker*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J SearchMonkey*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRE*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRG\/GSC*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRI*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRO\/YFSJ*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRP\/YFSBJ*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BRQ\/DLCK*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-BSC*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-DSC*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-NSC*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-PSC*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Y!J-SRD*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Y!J-VSC\/ViSe*",
-      "properties": {
-        "Parent": "YahooFeedSeeker",
-        "Browser": "YahooFeedSeeker",
-        "isSyndicationReader": "true"
-      }
+      },
+      "children": [
+        {
+          "match": "YahooFeedSeeker*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J SearchMonkey*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRE*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRG\/GSC*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRI*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRO\/YFSJ*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRP\/YFSBJ*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BRQ\/DLCK*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-BSC*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-DSC*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-NSC*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-PSC*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Y!J-SRD*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Y!J-VSC\/ViSe*",
+          "properties": {
+            "Browser": "YahooFeedSeeker",
+            "isSyndicationReader": "true"
+          }
+        }
+      ]
     }
   ]
 }

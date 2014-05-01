@@ -6,7 +6,8 @@
     {
       "userAgent": "rogerbot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "Rogerbot",
         "Browser": "Rogerbot",
         "Browser_Maker": "SEOmoz",
         "Browser_Type": "Bot/Crawler",

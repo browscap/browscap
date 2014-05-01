@@ -6,7 +6,8 @@
     {
       "userAgent": "Jakarta Commons HttpClient",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "Jakarta Commons HttpClient",
         "Browser": "Jakarta Commons HttpClient",
         "Browser_Type": "Library",
         "Browser_Maker": "Apache Software Foundation",

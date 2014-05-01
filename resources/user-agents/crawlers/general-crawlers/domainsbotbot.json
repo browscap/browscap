@@ -7,7 +7,7 @@
       "userAgent": "DomainsBotBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
+        "Comment": "DomainsBotBot",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "DomainsBotBot"

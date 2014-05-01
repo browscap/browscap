@@ -1,0 +1,46 @@
+{
+  "division": "adidxbot",
+  "sortIndex": 1231,
+  "split-file": "A",
+  "userAgents": [
+    {
+      "userAgent": "adidxbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Comment": "MSN",
+        "Browser": "adidxbot",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "adidxbot\/*",
+          "properties": {
+            "Browser": "adidxbot"
+          }
+        },
+        {
+          "match": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+          "properties": {
+            "Browser": "adidxbot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "adidxbot\/2.0*",
+          "properties": {
+            "Browser": "adidxbot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

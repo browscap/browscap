@@ -13,43 +13,27 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*naver*",
-      "properties": {
-        "Parent": "Naver"
-      }
-    },
-    {
-      "userAgent": "Cowbot-* (NHN Corp*naver.com)",
-      "properties": {
-        "Parent": "Naver"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; NaverBot\/*)",
-      "properties": {
-        "Parent": "Naver"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; NaverBot\/*; nhnbot@naver.com)",
-      "properties": {
-        "Parent": "Naver"
-      }
-    },
-    {
-      "userAgent": "NaverBot-* (NHN Corp*naver.com)",
-      "properties": {
-        "Parent": "Naver"
-      }
-    },
-    {
-      "userAgent": "Yeti\/*",
-      "properties": {
-        "Parent": "Naver"
-      }
+      },
+      "children": [
+        {
+          "match": "*naver*"
+        },
+        {
+          "match": "Cowbot-* (NHN Corp*naver.com)"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; NaverBot\/*)"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; NaverBot\/*; nhnbot@naver.com)"
+        },
+        {
+          "match": "NaverBot-* (NHN Corp*naver.com)"
+        },
+        {
+          "match": "Yeti\/*"
+        }
+      ]
     }
   ]
 }

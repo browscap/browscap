@@ -13,22 +13,19 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Webaroo\/*)",
-      "properties": {
-        "Parent": "Webaroo",
-        "Browser": "Webaroo",
-        "Platform_Version": "6.0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko\/* Firefox\/* webaroo\/*",
-      "properties": {
-        "Parent": "Webaroo",
-        "Browser": "Webaroo"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Webaroo\/*)",
+          "properties": {
+            "Platform": "WinVista",
+            "Platform_Version": "6.0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko\/* Firefox\/* webaroo\/*"
+        }
+      ]
     }
   ]
 }

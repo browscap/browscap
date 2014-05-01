@@ -7,7 +7,7 @@
     {
       "userAgent": "Baidu",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
         "Comment": "Baidu",
         "Browser": "Baidu",
         "Browser_Maker": "Baidu",
@@ -16,109 +16,97 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Baiduspider-image*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Image Search"
-      }
-    },
-    {
-      "userAgent": "Baiduspider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "baidu bot*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiDu"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-ads*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Business Search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-cpro*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Union"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-favo*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu bookmark"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-image*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Image Search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-news*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu News search"
-      }
-    },
-    {
-      "userAgent": "*Baiduspider-video*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baidu Video search"
-      }
-    },
-    {
-      "userAgent": "AC-BaiduBot\/*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "AC-BaiduBot"
-      }
-    },
-    {
-      "userAgent": "BaiduImageSpider*",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "BaiduImageSpider"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Baiduspider\/2.0; +http:\/\/www.baidu.com\/search\/spider.html)",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baiduspider",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
-      "properties": {
-        "Parent": "Baidu",
-        "Browser": "Baiduspider",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "Baiduspider-image*",
+          "properties": {
+            "Browser": "Baidu Image Search"
+          }
+        },
+        {
+          "match": "Baiduspider*",
+          "properties": {
+            "Browser": "BaiDu"
+          }
+        },
+        {
+          "match": "baidu bot*",
+          "properties": {
+            "Browser": "BaiDu"
+          }
+        },
+        {
+          "match": "*Baiduspider*",
+          "properties": {
+            "Browser": "BaiDu"
+          }
+        },
+        {
+          "match": "*Baiduspider-ads*",
+          "properties": {
+            "Browser": "Baidu Business Search"
+          }
+        },
+        {
+          "match": "*Baiduspider-cpro*",
+          "properties": {
+            "Browser": "Baidu Union"
+          }
+        },
+        {
+          "match": "*Baiduspider-favo*",
+          "properties": {
+            "Browser": "Baidu bookmark"
+          }
+        },
+        {
+          "match": "*Baiduspider-image*",
+          "properties": {
+            "Browser": "Baidu Image Search"
+          }
+        },
+        {
+          "match": "*Baiduspider-news*",
+          "properties": {
+            "Browser": "Baidu News search"
+          }
+        },
+        {
+          "match": "*Baiduspider-video*",
+          "properties": {
+            "Browser": "Baidu Video search"
+          }
+        },
+        {
+          "match": "AC-BaiduBot\/*",
+          "properties": {
+            "Browser": "AC-BaiduBot"
+          }
+        },
+        {
+          "match": "BaiduImageSpider*",
+          "properties": {
+            "Browser": "BaiduImageSpider"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Baiduspider\/2.0; +http:\/\/www.baidu.com\/search\/spider.html)",
+          "properties": {
+            "Browser": "Baiduspider",
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
+          "properties": {
+            "Browser": "Baiduspider",
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
     }
   ]
 }

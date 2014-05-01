@@ -10,55 +10,45 @@
         "Comment": "Media Players",
         "Browser": "Media Players",
         "Browser_Type": "Application"
-      }
-    },
-    {
-      "userAgent": "Microsoft NetShow(TM) Player with RealVideo(R)",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "Microsoft NetShow"
-      }
-    },
-    {
-      "userAgent": "RMA\/*",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "RMA"
-      }
-    },
-    {
-      "userAgent": "VLC media player*",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "VLC Media Player",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "vlc\/*",
-      "properties": {
-        "Parent": "VLC Media Player"
-      }
-    },
-    {
-      "userAgent": "vobsub",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "vobsub"
-      }
-    },
-    {
-      "userAgent": "WinampMPEG\/*",
-      "properties": {
-        "Parent": "Media Players",
-        "Browser": "WinAmp"
-      }
+      },
+      "children": [
+        {
+          "match": "Microsoft NetShow(TM) Player with RealVideo(R)",
+          "properties": {
+            "Browser": "Microsoft NetShow"
+          }
+        },
+        {
+          "match": "RMA\/*",
+          "properties": {
+            "Browser": "RMA"
+          }
+        },
+        {
+          "match": "VLC media player*",
+          "properties": {
+            "Browser": "VLC Media Player"
+          }
+        },
+        {
+          "match": "vlc\/*",
+          "properties": {
+            "Browser": "VLC Media Player"
+          }
+        },
+        {
+          "match": "vobsub",
+          "properties": {
+            "Browser": "vobsub"
+          }
+        },
+        {
+          "match": "WinampMPEG\/*",
+          "properties": {
+            "Browser": "WinAmp"
+          }
+        }
+      ]
     }
   ]
 }

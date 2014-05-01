@@ -9,19 +9,15 @@
         "Parent": "Google",
         "Browser": "Google Feedfetcher",
         "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (*Feedfetcher-Google*)",
-      "properties": {
-        "Parent": "Google Feedfetcher"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)",
-      "properties": {
-        "Parent": "Google Feedfetcher"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Feedfetcher-Google*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)"
+        }
+      ]
     }
   ]
 }

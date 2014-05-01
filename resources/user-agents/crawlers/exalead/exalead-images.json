@@ -1,0 +1,43 @@
+{
+  "division": "Exabot-Images",
+  "sortIndex": 130,
+  "split-file": "B",
+  "userAgents": [
+    {
+      "userAgent": "Exabot-Images",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Exabot-Images",
+        "Browser": "Exabot-Images",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Exabot-Images\/*"
+        },
+        {
+          "match": "Exabot-Images\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -24,33 +24,27 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE*America Online Browser*",
-      "properties": {
-        "Parent": "AOL Generic"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE*AOL*",
-      "properties": {
-        "Parent": "AOL Generic"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE*AOL*Mac*",
-      "properties": {
-        "Parent": "AOL Generic",
-        "Platform": "MacOSX"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/*(*MSIE*AOL*Win*",
-      "properties": {
-        "Parent": "AOL Generic",
-        "Platform": "Win"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/*(*MSIE*America Online Browser*"
+        },
+        {
+          "match": "Mozilla\/*(*MSIE*AOL*"
+        },
+        {
+          "match": "Mozilla\/*(*MSIE*AOL*Mac*",
+          "properties": {
+            "Platform": "MacOSX"
+          }
+        },
+        {
+          "match": "Mozilla\/*(*MSIE*AOL*Win*",
+          "properties": {
+            "Platform": "Win"
+          }
+        }
+      ]
     }
   ]
 }

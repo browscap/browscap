@@ -18,64 +18,69 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop"
-      }
-    },
-    {
-      "userAgent": "Emacs\/W3\/2.*",
-      "properties": {
-        "Parent": "Emacs\/W3",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0"
       },
       "children": [
+        {
+          "match": "Emacs\/W3\/2.*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
         {
           "match": "Emacs\/W3\/2.* (#PLATFORM#",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
           "platforms": [
             "Unix", "Linux"
           ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Emacs\/W3\/3.*",
-      "properties": {
-        "Parent": "Emacs\/W3",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      },
-      "children": [
+        },
+        {
+          "match": "Emacs\/W3\/3.*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
         {
           "match": "Emacs\/W3\/3.* (#PLATFORM#",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
           "platforms": [
             "Unix", "Linux"
           ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Emacs\/W3\/4.*",
-      "properties": {
-        "Parent": "Emacs\/W3",
-        "Version": "4.0",
-        "MajorVer": "4",
-        "MinorVer": "0"
-      },
-      "children": [
+        },
+        {
+          "match": "Emacs\/W3\/4.*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
         {
           "match": "Emacs\/W3\/4.* (#PLATFORM#",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
           "platforms": [
             "Unix", "Linux"
           ]
+        },
+        {
+          "match": "Emacs-w3m\/*"
         }
       ]
-    },
-    {
-      "userAgent": "Emacs-w3m\/*",
-      "properties": {
-        "Parent": "Emacs\/W3"
-      }
     }
   ]
 }
