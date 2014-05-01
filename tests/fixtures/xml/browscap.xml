@@ -27,7 +27,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -48,12 +47,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA1">
 <item name="PropertyName" value="UA1"/>
@@ -68,7 +61,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -89,12 +81,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA2">
 <item name="PropertyName" value="UA2"/>
@@ -109,7 +95,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -130,12 +115,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA3">
 <item name="PropertyName" value="UA3"/>
@@ -150,7 +129,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -171,12 +149,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA4">
 <item name="PropertyName" value="UA4"/>
@@ -191,7 +163,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -212,12 +183,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="*">
 <item name="PropertyName" value="*"/>
@@ -232,7 +197,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -253,12 +217,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 </browsercapitems>
 </browsercaps>

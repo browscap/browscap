@@ -27,7 +27,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -48,12 +47,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA">
 <item name="PropertyName" value="UA"/>
@@ -68,7 +61,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value=""/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -89,12 +81,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA String (*Platform1*)">
 <item name="PropertyName" value="UA String (*Platform1*)"/>
@@ -130,12 +116,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 <browscapitem name="UA String (*Platform2*)">
 <item name="PropertyName" value="UA String (*Platform2*)"/>
@@ -150,7 +130,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value="Platform2"/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value=""/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
@@ -171,12 +150,6 @@
 <item name="Crawler" value="false"/>
 <item name="CssVersion" value="0"/>
 <item name="AolVersion" value="0"/>
-<item name="Device_Name" value=""/>
-<item name="Device_Maker" value=""/>
-<item name="Device_Type" value=""/>
-<item name="RenderingEngine_Name" value=""/>
-<item name="RenderingEngine_Version" value=""/>
-<item name="RenderingEngine_Description" value=""/>
 </browscapitem>
 </browsercapitems>
 </browsercaps>
