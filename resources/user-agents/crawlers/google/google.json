@@ -53,9 +53,8 @@
           }
         },
         {
-          "userAgent": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Wireless Transcoder) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Wireless Transcoder) Chrome\/* Safari\/*",
           "properties": {
-            "Parent": "Google",
             "Browser": "Google Wireless Transcoder"
           }
         },
