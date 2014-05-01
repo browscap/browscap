@@ -12,19 +12,15 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "BlitzBOT*",
-      "properties": {
-        "Parent": "BlitzBot"
-      }
-    },
-    {
-      "userAgent": "BlitzBOT@tricus.com (Mozilla compatible)*",
-      "properties": {
-        "Parent": "BlitzBot"
-      }
+      },
+      "children": [
+        {
+          "match": "BlitzBOT*"
+        },
+        {
+          "match": "BlitzBOT@tricus.com (Mozilla compatible)*"
+        }
+      ]
     }
   ]
 }

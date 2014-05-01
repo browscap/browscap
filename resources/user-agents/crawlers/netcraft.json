@@ -10,28 +10,33 @@
         "Browser": "Netcraft",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*Netcraft Web Server Survey*",
-      "properties": {
-        "Parent": "Netcraft",
-        "Browser": "Netcraft Webserver Survey"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0; *info@netcraft.com)",
-      "properties": {
-        "Parent": "Netcraft",
-        "Browser": "NetcraftSurveyAgent"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
-      "properties": {
-        "Parent": "Netcraft",
-        "Browser": "NetcraftSurveyAgent"
-      }
+      },
+      "children": [
+        {
+          "match": "*Netcraft Web Server Survey*",
+          "properties": {
+            "Browser": "Netcraft Webserver Survey"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0; *info@netcraft.com)",
+          "properties": {
+            "Browser": "NetcraftSurveyAgent"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
+          "properties": {
+            "Browser": "NetcraftSurveyAgent"
+          }
+        },
+        {
+          "match": "*Netcraft Webserver Survey*",
+          "properties": {
+            "Browser": "Netcraft Webserver Survey"
+          }
+        }
+      ]
     }
   ]
 }

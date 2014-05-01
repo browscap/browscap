@@ -5,8 +5,10 @@
     {
       "userAgent": "NetNewsWire",
       "properties": {
-        "Parent": "NewsGator",
+        "Parent": "DefaultProperties",
+        "Comment": "NetNewsWire",
         "Browser": "NetNewsWire",
+        "isSyndicationReader": "true",
         "Platform": "MacOSX",
         "Platform_Version": "10",
         "Platform_Maker": "Apple Inc",
@@ -20,22 +22,20 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "NetNewsWire*\/*",
-      "properties": {
-        "Parent": "NetNewsWire"
-      }
-    },
-    {
-      "userAgent": "*NetNewsWire\/3.3*",
-      "properties": {
-        "Parent": "NetNewsWire",
-        "Version": "3.3",
-        "MajorVer": "3",
-        "MinorVer": "3"
-      }
+      },
+      "children": [
+        {
+          "match": "NetNewsWire*\/*"
+        },
+        {
+          "match": "*NetNewsWire\/3.3*",
+          "properties": {
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        }
+      ]
     }
   ]
 }

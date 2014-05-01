@@ -7,19 +7,15 @@
       "properties": {
         "Parent": "Google",
         "Browser": "AdsBot Google"
-      }
-    },
-    {
-      "userAgent": "AdsBot Google*",
-      "properties": {
-        "Parent": "AdsBot Google"
-      }
-    },
-    {
-      "userAgent": "AdsBot-Google*",
-      "properties": {
-        "Parent": "AdsBot Google"
-      }
+      },
+      "children": [
+        {
+          "match": "AdsBot Google*"
+        },
+        {
+          "match": "AdsBot-Google*"
+        }
+      ]
     }
   ]
 }

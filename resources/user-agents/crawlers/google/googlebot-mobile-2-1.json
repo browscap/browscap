@@ -9,101 +9,89 @@
         "Version": "2.1",
         "MajorVer": "2",
         "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "*Googlebot-Mobile\/2.1*",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/532.9 (KHTML,*like Gecko*) Version\/*Safari\/* (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1",
-        "Platform": "iOS",
-        "Platform_Version": "4.1",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    {
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1",
-        "Platform": "iOS",
-        "Platform_Version": "6.0",
-        "Platform_Maker": "Apple Inc",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-E250\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UP.Browser\/* (GUI) MMP\/2.0 (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
-        "Device_Code_Name": "SGH E250",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "SGH E250"
-      }
-    },
-    {
-      "userAgent": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/2.1; ?http:\/\/www.google.com\/bot.html)",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1"
-      }
-    },
-    {
-      "userAgent": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/2.1; ?http:\/\/www.google.com\/bot.html)",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1"
-      }
-    },
-    {
-      "userAgent": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.1; http:\/\/www.google.com\/bot.html)",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1"
-      }
-    },
-    {
-      "userAgent": "SAMSUNG-SGH-E250\/1.0 * UP.Browser\/6.2* (compatible; Googlebot-Mobile\/2.1;  http:\/\/www.google.com\/bot.html)",
-      "properties": {
-        "Parent": "Googlebot-Mobile 2.1",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
-        "Device_Code_Name": "SGH E250",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Name": "SGH E250"
-      }
+      },
+      "children": [
+        {
+          "match": "*Googlebot-Mobile\/2.1*",
+          "properties": {
+            "Frames": "false",
+            "IFrames": "false",
+            "Tables": "false",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/532.9 (KHTML,*like Gecko*) Version\/*Safari\/* (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
+          "properties": {
+            "Platform": "iOS",
+            "Platform_Version": "4.1",
+            "Platform_Maker": "Apple Inc",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
+          "properties": {
+            "Frames": "false",
+            "IFrames": "false",
+            "Tables": "false",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1",
+            "Platform": "iOS",
+            "Platform_Version": "6.0",
+            "Platform_Maker": "Apple Inc",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-E250\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UP.Browser\/* (GUI) MMP\/2.0 (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
+          "properties": {
+            "Platform": "JAVA",
+            "Platform_Maker": "Oracle",
+            "Device_Code_Name": "SGH E250",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH E250"
+          }
+        },
+        {
+          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/2.1; ?http:\/\/www.google.com\/bot.html)"
+        },
+        {
+          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/2.1; ?http:\/\/www.google.com\/bot.html)"
+        },
+        {
+          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.1; http:\/\/www.google.com\/bot.html)"
+        },
+        {
+          "match": "SAMSUNG-SGH-E250\/1.0 * UP.Browser\/6.2* (compatible; Googlebot-Mobile\/2.1;  http:\/\/www.google.com\/bot.html)",
+          "properties": {
+            "Platform": "JAVA",
+            "Platform_Maker": "Oracle",
+            "Device_Code_Name": "SGH E250",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SGH E250"
+          }
+        }
+      ]
     }
   ]
 }

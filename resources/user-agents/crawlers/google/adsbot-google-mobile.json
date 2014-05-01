@@ -7,31 +7,21 @@
       "properties": {
         "Parent": "Google",
         "Browser": "AdsBot Google-Mobile"
-      }
-    },
-    {
-      "userAgent": "AdsBot Google-Mobile*",
-      "properties": {
-        "Parent": "AdsBot Google-Mobile"
-      }
-    },
-    {
-      "userAgent": "AdsBot-Google-Mobile*",
-      "properties": {
-        "Parent": "AdsBot Google-Mobile"
-      }
-    },
-    {
-      "userAgent": "AdsBot Google-Mobile (?http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*) Mobile Safari",
-      "properties": {
-        "Parent": "AdsBot Google-Mobile"
-      }
-    },
-    {
-      "userAgent": "AdsBot Google-Mobile ( http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*)",
-      "properties": {
-        "Parent": "AdsBot Google-Mobile"
-      }
+      },
+      "children": [
+        {
+          "match": "AdsBot Google-Mobile*"
+        },
+        {
+          "match": "AdsBot-Google-Mobile*"
+        },
+        {
+          "match": "AdsBot Google-Mobile (?http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*) Mobile Safari"
+        },
+        {
+          "match": "AdsBot Google-Mobile ( http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone; *CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML,*like Gecko*)"
+        }
+      ]
     }
   ]
 }

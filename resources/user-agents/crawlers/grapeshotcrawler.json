@@ -14,38 +14,34 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; GrapeshotCrawler\/*; +http://www.grapeshot.co.uk/crawler.php)",
-      "properties": {
-        "Parent": "GrapeshotCrawler"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; GrapeshotCrawler\/2.0; +http://www.grapeshot.co.uk/crawler.php)",
-      "properties": {
-        "Parent": "GrapeshotCrawler",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; grapeFX\/*; crawler@grapeshot.co.uk",
-      "properties": {
-        "Parent": "GrapeshotCrawler",
-        "Browser": "grapeFX"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; grapeFX\/0.9; crawler@grapeshot.co.uk",
-      "properties": {
-        "Parent": "GrapeshotCrawler",
-        "Browser": "grapeFX",
-        "Version": "0.9",
-        "MajorVer": "0",
-        "MinorVer": "9"
-      }
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; GrapeshotCrawler\/*; +http://www.grapeshot.co.uk/crawler.php)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GrapeshotCrawler\/2.0; +http://www.grapeshot.co.uk/crawler.php)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; grapeFX\/*; crawler@grapeshot.co.uk",
+          "properties": {
+            "Browser": "grapeFX"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; grapeFX\/0.9; crawler@grapeshot.co.uk",
+          "properties": {
+            "Browser": "grapeFX",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        }
+      ]
     }
   ]
 }

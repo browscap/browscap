@@ -10,191 +10,164 @@
         "Browser": "Version Checkers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Automated Browscap.ini Updater. Gary contact me at serge@skycomp.ca with problems.",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Automated Browscap Updater"
-      }
-    },
-    {
-      "userAgent": "Automated Browscap.ini Updater. To report issues contact us at+http:\/\/www.skycomp.ca",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Automated Browscap.ini Updater"
-      }
-    },
-    {
-      "userAgent": "Browscap Mirror System\/1.* (browscap.giantrealm.com)",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Browscap Mirror System"
-      }
-    },
-    {
-      "userAgent": "Browscap Mirror v1.30",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Browscap Mirror"
-      }
-    },
-    {
-      "userAgent": "Browscap updater",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Browscap updater"
-      }
-    },
-    {
-      "userAgent": "browscap updater; interval:weekly; server:rohan.doppy.nl; questions:support@doppy.nl;",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "browscap updater"
-      }
-    },
-    {
-      "userAgent": "BrowscapUpdater1.0",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "BrowscapUpdater"
-      }
-    },
-    {
-      "userAgent": "Browser Capabilities Project - PHP Browscap*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "BCP - PHP Browscap",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc. (tkelleher.com); used with special permission from Gary Joel Keith; uses Microsoft's WinHTTP component",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "TKC AutoDownloader"
-      }
-    },
-    {
-      "userAgent": "Decode Framework 0.* browscap library",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Decode Framework browscap library"
-      }
-    },
-    {
-      "userAgent": "Desktop Sidebar*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Desktop Sidebar"
-      }
-    },
-    {
-      "userAgent": "Mono Browser Capabilities Updater*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Mono Browser Capabilities Updater"
-      }
-    },
-    {
-      "userAgent": "PHP Browser Capabilities Project\/*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "PHP Browser Capabilities Project"
-      }
-    },
-    {
-      "userAgent": "UpdateBrowscap*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "UpdateBrowscap"
-      }
-    },
-    {
-      "userAgent": "WCC Browscap Updater\/0.* (PHP: file_get_contents)",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "WCC Browscap Updater"
-      }
-    },
-    {
-      "userAgent": "Automated Browscap.ini Updater. To report issues contact us at*http:\/\/www.skycomp.ca",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Automated Browscap.ini Updater"
-      }
-    },
-    {
-      "userAgent": "Browser Capabilities Project - PHP Browscap\/*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "BCP - PHP Browscap"
-      }
-    },
-    {
-      "userAgent": "Browscap Mirror System\/* (browscap.giantrealm.com)",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Browscap Mirror System"
-      }
-    },
-    {
-      "userAgent": "BrowscapUpdater*",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "BrowscapUpdater"
-      }
-    },
-    {
-      "userAgent": "Code Sample Web Client",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Code Sample Web Client"
-      }
-    },
-    {
-      "userAgent": "Subtext Version 1.9* - http:\/\/subtextproject.com\/ (Microsoft Windows NT 5.2.*)",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "Subtext",
-        "Browser_Bits": "32",
-        "Platform": "WinXP",
-        "Platform_Version": "5.2",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
-      }
-    },
-    {
-      "userAgent": "TherapeuticResearch",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "TherapeuticResearch"
-      }
-    },
-    {
-      "userAgent": "Rewmi\/*",
-      "properties": {
-        "Parent": "Version Checkers"
-      }
-    },
-    {
-      "userAgent": "browsers.garykeith.com browscap.ini bot BETA",
-      "properties": {
-        "Parent": "Version Checkers"
-      }
-    },
-    {
-      "userAgent": "www.substancia.com AutoHTTPAgent (ver *)",
-      "properties": {
-        "Parent": "Version Checkers",
-        "Browser": "www.substancia.com"
-      }
+      },
+      "children": [
+        {
+          "match": "Automated Browscap.ini Updater. Gary contact me at serge@skycomp.ca with problems.",
+          "properties": {
+            "Browser": "Automated Browscap Updater"
+          }
+        },
+        {
+          "match": "Automated Browscap.ini Updater. To report issues contact us at+http:\/\/www.skycomp.ca",
+          "properties": {
+            "Browser": "Automated Browscap.ini Updater"
+          }
+        },
+        {
+          "match": "Browscap Mirror System\/1.* (browscap.giantrealm.com)",
+          "properties": {
+            "Browser": "Browscap Mirror System"
+          }
+        },
+        {
+          "match": "Browscap Mirror v1.30",
+          "properties": {
+            "Browser": "Browscap Mirror"
+          }
+        },
+        {
+          "match": "Browscap updater",
+          "properties": {
+            "Browser": "Browscap updater"
+          }
+        },
+        {
+          "match": "browscap updater; interval:weekly; server:rohan.doppy.nl; questions:support@doppy.nl;",
+          "properties": {
+            "Browser": "browscap updater"
+          }
+        },
+        {
+          "match": "BrowscapUpdater1.0",
+          "properties": {
+            "Browser": "BrowscapUpdater"
+          }
+        },
+        {
+          "match": "Browser Capabilities Project - PHP Browscap*",
+          "properties": {
+            "Browser": "BCP - PHP Browscap",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc. (tkelleher.com); used with special permission from Gary Joel Keith; uses Microsoft's WinHTTP component",
+          "properties": {
+            "Browser": "TKC AutoDownloader"
+          }
+        },
+        {
+          "match": "Decode Framework 0.* browscap library",
+          "properties": {
+            "Browser": "Decode Framework browscap library"
+          }
+        },
+        {
+          "match": "Desktop Sidebar*",
+          "properties": {
+            "Browser": "Desktop Sidebar"
+          }
+        },
+        {
+          "match": "Mono Browser Capabilities Updater*",
+          "properties": {
+            "Browser": "Mono Browser Capabilities Updater"
+          }
+        },
+        {
+          "match": "PHP Browser Capabilities Project\/*",
+          "properties": {
+            "Browser": "PHP Browser Capabilities Project"
+          }
+        },
+        {
+          "match": "UpdateBrowscap*",
+          "properties": {
+            "Browser": "UpdateBrowscap"
+          }
+        },
+        {
+          "match": "WCC Browscap Updater\/0.* (PHP: file_get_contents)",
+          "properties": {
+            "Browser": "WCC Browscap Updater"
+          }
+        },
+        {
+          "match": "Automated Browscap.ini Updater. To report issues contact us at*http:\/\/www.skycomp.ca",
+          "properties": {
+            "Browser": "Automated Browscap.ini Updater"
+          }
+        },
+        {
+          "match": "Browser Capabilities Project - PHP Browscap\/*",
+          "properties": {
+            "Browser": "BCP - PHP Browscap"
+          }
+        },
+        {
+          "match": "Browscap Mirror System\/* (browscap.giantrealm.com)",
+          "properties": {
+            "Browser": "Browscap Mirror System"
+          }
+        },
+        {
+          "match": "BrowscapUpdater*",
+          "properties": {
+            "Browser": "BrowscapUpdater"
+          }
+        },
+        {
+          "match": "Code Sample Web Client",
+          "properties": {
+            "Browser": "Code Sample Web Client"
+          }
+        },
+        {
+          "match": "Subtext Version 1.9* - http:\/\/subtextproject.com\/ (Microsoft Windows NT 5.2.*)",
+          "properties": {
+            "Browser": "Subtext",
+            "Browser_Bits": "32",
+            "Platform": "WinXP",
+            "Platform_Version": "5.2",
+            "Platform_Bits": "32",
+            "Platform_Maker": "Microsoft Corporation",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop"
+          }
+        },
+        {
+          "match": "TherapeuticResearch",
+          "properties": {
+            "Browser": "TherapeuticResearch"
+          }
+        },
+        {
+          "match": "Rewmi\/*"
+        },
+        {
+          "match": "browsers.garykeith.com browscap.ini bot BETA"
+        },
+        {
+          "match": "www.substancia.com AutoHTTPAgent (ver *)",
+          "properties": {
+            "Browser": "www.substancia.com"
+          }
+        }
+      ]
     }
   ]
 }

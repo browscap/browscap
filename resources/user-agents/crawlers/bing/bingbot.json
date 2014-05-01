@@ -5,8 +5,14 @@
     {
       "userAgent": "BingBot",
       "properties": {
-        "Parent": "MSN",
-        "Browser": "BingBot"
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Comment": "MSN",
+        "Browser": "BingBot",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
       },
       "children": [
         {
@@ -25,32 +31,15 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
         }
       ]
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
-      "properties": {
-        "Parent": "BingBot",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
-    },
-    {
-      "userAgent": "adidxbot\/*",
-      "properties": {
-        "Parent": "BingBot",
-        "Browser": "adidxbot"
-      }
-    },
-    {
-      "userAgent": "adidxbot\/2.0*",
-      "properties": {
-        "Parent": "BingBot",
-        "Browser": "adidxbot",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
     }
   ]
 }

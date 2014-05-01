@@ -10,444 +10,386 @@
         "Browser": "Link Checkers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "!Susie (http:\/\/www.sync2it.com\/susie)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "!Susie"
-      }
-    },
-    {
-      "userAgent": "*AgentName\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "AgentName"
-      }
-    },
-    {
-      "userAgent": "*Linkman*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Linkman"
-      }
-    },
-    {
-      "userAgent": "*LinksManager.com*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinksManager"
-      }
-    },
-    {
-      "userAgent": "*Powermarks\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Powermarks"
-      }
-    },
-    {
-      "userAgent": "*Web Link Validator*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Web Link Validator"
-      }
-    },
-    {
-      "userAgent": "*Zeus*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Zeus"
-      }
-    },
-    {
-      "userAgent": "ActiveBookmark *",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "ActiveBookmark"
-      }
-    },
-    {
-      "userAgent": "Bookdog\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Bookdog"
-      }
-    },
-    {
-      "userAgent": "Bookmark Buddy*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Bookmark Buddy"
-      }
-    },
-    {
-      "userAgent": "Bookmark Renewal Check Agent*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Bookmark Renewal Check Agent"
-      }
-    },
-    {
-      "userAgent": "Bookmark search tool*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Bookmark search tool"
-      }
-    },
-    {
-      "userAgent": "Bookmark-Manager",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Bookmark-Manager"
-      }
-    },
-    {
-      "userAgent": "Checkbot*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Checkbot"
-      }
-    },
-    {
-      "userAgent": "CheckLinks\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "CheckLinks"
-      }
-    },
-    {
-      "userAgent": "CyberSpyder Link Test\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "CyberSpyder Link Test"
-      }
-    },
-    {
-      "userAgent": "DLC\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "DLC"
-      }
-    },
-    {
-      "userAgent": "DocWeb Link Crawler (http:\/\/doc.php.net)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "DocWeb Link Crawler"
-      }
-    },
-    {
-      "userAgent": "FavOrg",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "FavOrg"
-      }
-    },
-    {
-      "userAgent": "Favorites Sweeper v.3.*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Favorites Sweeper"
-      }
-    },
-    {
-      "userAgent": "Funnel Web Profiler*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Funnel Web Profiler"
-      }
-    },
-    {
-      "userAgent": "Html Link Validator (www.lithopssoft.com)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "HTML Link Validator"
-      }
-    },
-    {
-      "userAgent": "IECheck",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "IECheck"
-      }
-    },
-    {
-      "userAgent": "integrity/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Integrity",
-        "Platform": "MacOSX",
-        "Win32": "false"
-      }
-    },
-    {
-      "userAgent": "JCheckLinks\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "JCheckLinks"
-      }
-    },
-    {
-      "userAgent": "JRTwine Software Check Favorites Utility",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "JRTwine"
-      }
-    },
-    {
-      "userAgent": "Link Valet Online*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Link Valet"
-      }
-    },
-    {
-      "userAgent": "LinkAlarm\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkAlarm"
-      }
-    },
-    {
-      "userAgent": "Linkbot*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Linkbot"
-      }
-    },
-    {
-      "userAgent": "LinkextractorPro*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkextractorPro"
-      }
-    },
-    {
-      "userAgent": "LinkLint-checkonly\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkLint"
-      }
-    },
-    {
-      "userAgent": "LinkScan\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkScan"
-      }
-    },
-    {
-      "userAgent": "LinkSweeper\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkSweeper"
-      }
-    },
-    {
-      "userAgent": "LinkWalker*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkWalker"
-      }
-    },
-    {
-      "userAgent": "MetaGer-LinkChecker",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "MetaGer-LinkChecker"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/* (compatible; linktiger\/*; *http:\/\/www.linktiger.com*)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "LinkTiger"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (Compatible); URLBase*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "URLBase"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; Link Utility; http:\/\/net-promoter.com)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "NetPromoter Link Utility"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98) Web Link Validator*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Web Link Validator",
-        "Platform_Version": "98",
-        "Win32": "true"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; MSIE 7.0; Win32) Link Commander 3.0",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Link Commander",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0",
-        "Platform": "Win32"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; smartBot\/1.*; checking links; *)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "smartBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; SuperCleaner*;*)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "SuperCleaner"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 gURLChecker\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "gURLChecker"
-      }
-    },
-    {
-      "userAgent": "Newsgroupreporter LinkCheck",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Newsgroupreporter LinkCheck"
-      }
-    },
-    {
-      "userAgent": "onCHECK Linkchecker von www.scientec.de fuer www.onsinn.de",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "onCHECK Linkchecker"
-      }
-    },
-    {
-      "userAgent": "online link validator (http:\/\/www.dead-links.com\/)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Dead-Links.com"
-      }
-    },
-    {
-      "userAgent": "REL Link Checker*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "REL Link Checker"
-      }
-    },
-    {
-      "userAgent": "RLinkCheker*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "RLinkCheker"
-      }
-    },
-    {
-      "userAgent": "Robozilla\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Robozilla"
-      }
-    },
-    {
-      "userAgent": "RPT-HTTPClient\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "RPT-HTTPClient"
-      }
-    },
-    {
-      "userAgent": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "SafariBookmarkChecker",
-        "Platform": "MacOSX",
-        "CssVersion": "2"
-      }
-    },
-    {
-      "userAgent": "Simpy\/* (Simpy; http:\/\/www.simpy.com\/?ref=bot; feedback at simpy dot com)",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Simpy"
-      }
-    },
-    {
-      "userAgent": "SiteBar\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "SiteBar"
-      }
-    },
-    {
-      "userAgent": "Susie (http:\/\/www.sync2it.com\/bms\/susie.php",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Susie"
-      }
-    },
-    {
-      "userAgent": "URLBase\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "URLBase"
-      }
-    },
-    {
-      "userAgent": "VSE\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "VSE Link Tester"
-      }
-    },
-    {
-      "userAgent": "WebTrends Link Analyzer",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "WebTrends Link Analyzer"
-      }
-    },
-    {
-      "userAgent": "WorQmada\/*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "WorQmada"
-      }
-    },
-    {
-      "userAgent": "Xenu* Link Sleuth*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Xenu's Link Sleuth"
-      }
-    },
-    {
-      "userAgent": "Z-Add Link Checker*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "Z-Add Link Checker"
-      }
-    },
-    {
-      "userAgent": "Mozilla/5.0 TYPO3-linkvalidator*",
-      "properties": {
-        "Parent": "Link Checkers",
-        "Browser": "TYPO3 Linkvalidator"
-      }
+      },
+      "children": [
+        {
+          "match": "!Susie (http:\/\/www.sync2it.com\/susie)",
+          "properties": {
+            "Browser": "!Susie"
+          }
+        },
+        {
+          "match": "*AgentName\/*",
+          "properties": {
+            "Browser": "AgentName"
+          }
+        },
+        {
+          "match": "*Linkman*",
+          "properties": {
+            "Browser": "Linkman"
+          }
+        },
+        {
+          "match": "*LinksManager.com*",
+          "properties": {
+            "Browser": "LinksManager"
+          }
+        },
+        {
+          "match": "*Powermarks\/*",
+          "properties": {
+            "Browser": "Powermarks"
+          }
+        },
+        {
+          "match": "*Web Link Validator*",
+          "properties": {
+            "Browser": "Web Link Validator"
+          }
+        },
+        {
+          "match": "*Zeus*",
+          "properties": {
+            "Browser": "Zeus"
+          }
+        },
+        {
+          "match": "ActiveBookmark *",
+          "properties": {
+            "Browser": "ActiveBookmark"
+          }
+        },
+        {
+          "match": "Bookdog\/*",
+          "properties": {
+            "Browser": "Bookdog"
+          }
+        },
+        {
+          "match": "Bookmark Buddy*",
+          "properties": {
+            "Browser": "Bookmark Buddy"
+          }
+        },
+        {
+          "match": "Bookmark Renewal Check Agent*",
+          "properties": {
+            "Browser": "Bookmark Renewal Check Agent"
+          }
+        },
+        {
+          "match": "Bookmark search tool*",
+          "properties": {
+            "Browser": "Bookmark search tool"
+          }
+        },
+        {
+          "match": "Bookmark-Manager",
+          "properties": {
+            "Browser": "Bookmark-Manager"
+          }
+        },
+        {
+          "match": "Checkbot*",
+          "properties": {
+            "Browser": "Checkbot"
+          }
+        },
+        {
+          "match": "CheckLinks\/*",
+          "properties": {
+            "Browser": "CheckLinks"
+          }
+        },
+        {
+          "match": "CyberSpyder Link Test\/*",
+          "properties": {
+            "Browser": "CyberSpyder Link Test"
+          }
+        },
+        {
+          "match": "DLC\/*",
+          "properties": {
+            "Browser": "DLC"
+          }
+        },
+        {
+          "match": "DocWeb Link Crawler (http:\/\/doc.php.net)",
+          "properties": {
+            "Browser": "DocWeb Link Crawler"
+          }
+        },
+        {
+          "match": "FavOrg",
+          "properties": {
+            "Browser": "FavOrg"
+          }
+        },
+        {
+          "match": "Favorites Sweeper v.3.*",
+          "properties": {
+            "Browser": "Favorites Sweeper"
+          }
+        },
+        {
+          "match": "Funnel Web Profiler*",
+          "properties": {
+            "Browser": "Funnel Web Profiler"
+          }
+        },
+        {
+          "match": "Html Link Validator (www.lithopssoft.com)",
+          "properties": {
+            "Browser": "HTML Link Validator"
+          }
+        },
+        {
+          "match": "IECheck",
+          "properties": {
+            "Browser": "IECheck"
+          }
+        },
+        {
+          "match": "integrity/*",
+          "properties": {
+            "Browser": "Integrity",
+            "Platform": "MacOSX",
+            "Win32": "false"
+          }
+        },
+        {
+          "match": "JCheckLinks\/*",
+          "properties": {
+            "Browser": "JCheckLinks"
+          }
+        },
+        {
+          "match": "JRTwine Software Check Favorites Utility",
+          "properties": {
+            "Browser": "JRTwine"
+          }
+        },
+        {
+          "match": "Link Valet Online*",
+          "properties": {
+            "Browser": "Link Valet"
+          }
+        },
+        {
+          "match": "LinkAlarm\/*",
+          "properties": {
+            "Browser": "LinkAlarm"
+          }
+        },
+        {
+          "match": "Linkbot*",
+          "properties": {
+            "Browser": "Linkbot"
+          }
+        },
+        {
+          "match": "LinkextractorPro*",
+          "properties": {
+            "Browser": "LinkextractorPro"
+          }
+        },
+        {
+          "match": "LinkLint-checkonly\/*",
+          "properties": {
+            "Browser": "LinkLint"
+          }
+        },
+        {
+          "match": "LinkScan\/*",
+          "properties": {
+            "Browser": "LinkScan"
+          }
+        },
+        {
+          "match": "LinkSweeper\/*",
+          "properties": {
+            "Browser": "LinkSweeper"
+          }
+        },
+        {
+          "match": "LinkWalker*",
+          "properties": {
+            "Browser": "LinkWalker"
+          }
+        },
+        {
+          "match": "MetaGer-LinkChecker",
+          "properties": {
+            "Browser": "MetaGer-LinkChecker"
+          }
+        },
+        {
+          "match": "Mozilla\/* (compatible; linktiger\/*; *http:\/\/www.linktiger.com*)",
+          "properties": {
+            "Browser": "LinkTiger"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (Compatible); URLBase*",
+          "properties": {
+            "Browser": "URLBase"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Link Utility; http:\/\/net-promoter.com)",
+          "properties": {
+            "Browser": "NetPromoter Link Utility"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98) Web Link Validator*",
+          "properties": {
+            "Browser": "Web Link Validator",
+            "Platform": "Win98",
+            "Platform_Version": "98",
+            "Win32": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Win32) Link Commander 3.0",
+          "properties": {
+            "Browser": "Link Commander",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0",
+            "Platform": "Win32"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; smartBot\/1.*; checking links; *)",
+          "properties": {
+            "Browser": "smartBot"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; SuperCleaner*;*)",
+          "properties": {
+            "Browser": "SuperCleaner"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 gURLChecker\/*",
+          "properties": {
+            "Browser": "gURLChecker"
+          }
+        },
+        {
+          "match": "Newsgroupreporter LinkCheck",
+          "properties": {
+            "Browser": "Newsgroupreporter LinkCheck"
+          }
+        },
+        {
+          "match": "onCHECK Linkchecker von www.scientec.de fuer www.onsinn.de",
+          "properties": {
+            "Browser": "onCHECK Linkchecker"
+          }
+        },
+        {
+          "match": "online link validator (http:\/\/www.dead-links.com\/)",
+          "properties": {
+            "Browser": "Dead-Links.com"
+          }
+        },
+        {
+          "match": "REL Link Checker*",
+          "properties": {
+            "Browser": "REL Link Checker"
+          }
+        },
+        {
+          "match": "RLinkCheker*",
+          "properties": {
+            "Browser": "RLinkCheker"
+          }
+        },
+        {
+          "match": "Robozilla\/*",
+          "properties": {
+            "Browser": "Robozilla"
+          }
+        },
+        {
+          "match": "RPT-HTTPClient\/*",
+          "properties": {
+            "Browser": "RPT-HTTPClient"
+          }
+        },
+        {
+          "match": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
+          "properties": {
+            "Browser": "SafariBookmarkChecker",
+            "Platform": "MacOSX",
+            "CssVersion": "2"
+          }
+        },
+        {
+          "match": "Simpy\/* (Simpy; http:\/\/www.simpy.com\/?ref=bot; feedback at simpy dot com)",
+          "properties": {
+            "Browser": "Simpy"
+          }
+        },
+        {
+          "match": "SiteBar\/*",
+          "properties": {
+            "Browser": "SiteBar"
+          }
+        },
+        {
+          "match": "Susie (http:\/\/www.sync2it.com\/bms\/susie.php",
+          "properties": {
+            "Browser": "Susie"
+          }
+        },
+        {
+          "match": "URLBase\/*",
+          "properties": {
+            "Browser": "URLBase"
+          }
+        },
+        {
+          "match": "VSE\/*",
+          "properties": {
+            "Browser": "VSE Link Tester"
+          }
+        },
+        {
+          "match": "WebTrends Link Analyzer",
+          "properties": {
+            "Browser": "WebTrends Link Analyzer"
+          }
+        },
+        {
+          "match": "WorQmada\/*",
+          "properties": {
+            "Browser": "WorQmada"
+          }
+        },
+        {
+          "match": "Xenu* Link Sleuth*",
+          "properties": {
+            "Browser": "Xenu's Link Sleuth"
+          }
+        },
+        {
+          "match": "Z-Add Link Checker*",
+          "properties": {
+            "Browser": "Z-Add Link Checker"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 TYPO3-linkvalidator*",
+          "properties": {
+            "Browser": "TYPO3 Linkvalidator"
+          }
+        }
+      ]
     }
   ]
 }

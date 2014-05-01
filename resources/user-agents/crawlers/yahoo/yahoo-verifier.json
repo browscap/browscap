@@ -5,19 +5,26 @@
     {
       "userAgent": "Yahoo Verifier",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! Verifier"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Verifier\/*)",
-      "properties": {
-        "Parent": "Yahoo",
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
         "Browser": "Yahoo! Verifier",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Verifier\/*)",
+          "properties": {
+            "Browser": "Yahoo! Verifier",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        }
+      ]
     }
   ]
 }

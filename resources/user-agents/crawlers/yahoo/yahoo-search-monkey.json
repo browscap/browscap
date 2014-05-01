@@ -5,16 +5,23 @@
     {
       "userAgent": "Yahoo Search Monkey",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! Search Monkey"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! SearchMonkey*)",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! Search Monkey"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo! Search Monkey",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! SearchMonkey*)",
+          "properties": {
+            "Browser": "Yahoo! Search Monkey"
+          }
+        }
+      ]
     }
   ]
 }

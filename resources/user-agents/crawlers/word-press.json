@@ -13,83 +13,69 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "WordPress\/*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "WordPress-B-\/2.*",
-      "properties": {
-        "Parent": "WordPress",
-        "Browser": "WordPress-B"
-      }
-    },
-    {
-      "userAgent": "WordPress-Do-P-\/2.*",
-      "properties": {
-        "Parent": "WordPress",
-        "Browser": "WordPress-Do-P"
-      }
-    },
-    {
-      "userAgent": "Incutio XML-RPC -- WordPress\/*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "The Incutio XML-RPC PHP Library -- WordPress*",
-      "properties": {
-        "Parent": "WordPress"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.0*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.0",
-        "MajorVer": "3"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.1*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.1",
-        "MajorVer": "3",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.2*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.2",
-        "MajorVer": "3",
-        "MinorVer": "2"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.3*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.3",
-        "MajorVer": "3",
-        "MinorVer": "3"
-      }
-    },
-    {
-      "userAgent": "WordPress\/3.4*",
-      "properties": {
-        "Parent": "WordPress",
-        "Version": "3.4",
-        "MajorVer": "3",
-        "MinorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "WordPress\/*"
+        },
+        {
+          "match": "WordPress-B-\/2.*",
+          "properties": {
+            "Browser": "WordPress-B"
+          }
+        },
+        {
+          "match": "WordPress-Do-P-\/2.*",
+          "properties": {
+            "Browser": "WordPress-Do-P"
+          }
+        },
+        {
+          "match": "Incutio XML-RPC -- WordPress\/*"
+        },
+        {
+          "match": "The Incutio XML-RPC PHP Library -- WordPress*"
+        },
+        {
+          "match": "WordPress\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3"
+          }
+        },
+        {
+          "match": "WordPress\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "WordPress\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "WordPress\/3.3*",
+          "properties": {
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "WordPress\/3.4*",
+          "properties": {
+            "Version": "3.4",
+            "MajorVer": "3",
+            "MinorVer": "4"
+          }
+        }
+      ]
     }
   ]
 }

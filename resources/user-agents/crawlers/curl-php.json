@@ -13,22 +13,20 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Curl\/PHP*",
-      "properties": {
-        "Parent": "cURL PHP"
-      }
-    },
-    {
-      "userAgent": "Curl\/PHP 5.4*",
-      "properties": {
-        "Parent": "cURL PHP",
-        "Version": "5.4",
-        "MajorVer": "5",
-        "MinorVer": "4"
-      }
+      },
+      "children": [
+        {
+          "match": "Curl\/PHP*"
+        },
+        {
+          "match": "Curl\/PHP 5.4*",
+          "properties": {
+            "Version": "5.4",
+            "MajorVer": "5",
+            "MinorVer": "4"
+          }
+        }
+      ]
     }
   ]
 }
