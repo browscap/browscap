@@ -25,6 +25,7 @@
         "BackgroundSounds": "true",
         "isMobileDevice": "true",
         "isTablet": "false"
+
       },
       "children": [
         {
