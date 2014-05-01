@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "division": "rogerbot",
   "sortIndex": 1030,
@@ -34,40 +33,3 @@
     }
   ]
 }
-||||||| merged common ancestors
-=======
-{
-  "division": "rogerbot",
-  "sortIndex": 1030,
-  "userAgents": [
-    {
-      "userAgent": "rogerbot",
-      "properties": {
-        "Parent": "General Crawlers",
-        "Browser": "Rogerbot",
-        "Browser_Maker": "SEOmoz",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true"
-      },
-      "children": [
-        {
-          "match": "rogerbot\/*"
-        },
-        {
-          "match": "rogerbot\/1.*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
-          "match": "rogerbot\/* (http:\/\/www.seomoz.org, rogerbot-crawler@seomoz.org)"
-        }
-      ]
-    }
-  ]
-}
->>>>>>> 8cd79ff81d68155ef6755250e2c64dbbd9f72f70
