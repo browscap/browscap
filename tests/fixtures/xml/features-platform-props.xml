@@ -95,7 +95,6 @@
 <item name="MinorVer" value="0"/>
 <item name="Platform" value="Platform1"/>
 <item name="Platform_Version" value=""/>
-<item name="Platform_Description" value="The first test platform"/>
 <item name="Alpha" value="false"/>
 <item name="Beta" value="false"/>
 <item name="Win16" value="false"/>
