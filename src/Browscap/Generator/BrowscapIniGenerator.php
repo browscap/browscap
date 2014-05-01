@@ -168,26 +168,14 @@ class BrowscapIniGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!isset($propertiesToOutput[$property])) {
-                    // $this->logger->debug(
-                        // 'property "' . $property . '" is not available for output -> skipped'
-                    // );
-
                     continue;
                 }
 
                 if (!CollectionParser::isOutputProperty($property)) {
-                    // $this->logger->debug(
-                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
-                    // );
-
                     continue;
                 }
 
                 if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && CollectionParser::isExtraProperty($property)) {
-                    $this->logger->debug(
-                        'property "' . $property . '" is defined to be in the full output -> skipped'
-                    );
-
                     continue;
                 }
 

@@ -153,6 +153,10 @@ class BrowscapXmlGenerator extends AbstractGenerator
                     continue;
                 }
 
+                if (CollectionParser::isExtraProperty($property)) {
+                    continue;
+                }
+
                 $this->createItem($xmlWriter, $property, $this->formatValue($property, $properties));
             }
 
