@@ -69,7 +69,8 @@
           "match": "W3C-mobileOK\/DDC-*",
           "properties": {
             "Browser": "W3C-mobileOK\/DDC",
-            "isMobileDevice": "true"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device"
           }
         },
         {
