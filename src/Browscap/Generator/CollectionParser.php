@@ -170,10 +170,7 @@ class CollectionParser
         }
 
         // full expand of all data
-        $allDivisions = $this->expandProperties($allDivisions);
-        //$allDivisions = $this->removeGroups($allDivisions);
-
-        return $allDivisions;
+        return $this->expandProperties($allDivisions);
     }
 
     /**
@@ -649,44 +646,5 @@ class CollectionParser
             'invalid value given for Property "' . $property . '": given value "' . (string) $value . '", allowed: '
             . json_encode($allowedValues)
         );
-    }
-
-    /**
-     * expands all properties for all useragents to make sure all properties are set and make it possible to skip
-     * incomplete properties and remove duplicate definitions
-     *
-     * @param array $allInputDivisions
-     *
-     * @throws \UnexpectedValueException
-     * @return array
-     */
-    private function removeGroups(array $allInputDivisions)
-    {
-        $allDivisions     = array();
-        $elementsToRemove = array();
-
-        foreach ($allInputDivisions as $key => $division) {
-            if (in_array($key, array('DefaultProperties', '*'))) {
-                // skip default elements
-                $allDivisions[$key] = $division;
-                continue;
-            }
-
-            $parent = $division['Parent'];
-
-            if (false === strpos($parent, '*')
-                && false === strpos($parent, '?')
-                && !in_array($parent, array('DefaultProperties', '*'))
-                && array_key_exists($parent, $allInputDivisions)
-            ) {
-                $division['Parent'] = $allInputDivisions[$parent]['Parent'];
-
-                $elementsToRemove[$parent] = $parent;
-            }
-
-            $allDivisions[$key] = $division;
-        }
-
-        return array_diff_key($allDivisions, $elementsToRemove);
     }
 }
