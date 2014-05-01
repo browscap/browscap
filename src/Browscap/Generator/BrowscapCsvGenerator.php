@@ -46,6 +46,10 @@ class BrowscapCsvGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (CollectionParser::isExtraProperty($property)) {
+                continue;
+            }
+
             $output .= ',"' . $property . '"';
         }
 
