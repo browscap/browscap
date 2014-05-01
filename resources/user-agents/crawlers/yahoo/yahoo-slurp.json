@@ -5,71 +5,62 @@
     {
       "userAgent": "Yahoo Slurp",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! Slurp"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/3.0 (Slurp*; slurp@inktomi.com;*",
-      "properties": {
-        "Parent": "Yahoo Slurp"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (Slurp*; slurp@inktomi.com;*",
-      "properties": {
-        "Parent": "Yahoo Slurp"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! *Slurp*",
-      "properties": {
-        "Parent": "Yahoo Slurp"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*)",
-      "properties": {
-        "Parent": "Yahoo Slurp"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! DE Slurp; http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
-      "properties": {
-        "Parent": "Yahoo Slurp",
-        "Browser": "Yahoo! Directory Engine"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*;*http:\/\/misc.yahoo.com.cn\/help.html)",
-      "properties": {
-        "Parent": "Yahoo Slurp",
-        "Browser": "Yahoo! Slurp China"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp*",
-      "properties": {
-        "Parent": "Yahoo Slurp",
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
         "Browser": "Yahoo! Slurp",
-        "Version": "3.0",
-        "MajorVer": "3",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Yahoo! Slurp\/Site Explorer",
-      "properties": {
-        "Parent": "Yahoo Slurp",
-        "Browser": "Yahoo! Site Explorer"
-      }
-    },
-    {
-      "userAgent": "slurp",
-      "properties": {
-        "Parent": "Yahoo Slurp",
-        "Browser": "slurp"
-      }
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/3.0 (Slurp*; slurp@inktomi.com;*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Slurp*; slurp@inktomi.com;*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! *Slurp*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! DE Slurp; http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
+          "properties": {
+            "Browser": "Yahoo! Directory Engine"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*;*http:\/\/misc.yahoo.com.cn\/help.html)",
+          "properties": {
+            "Browser": "Yahoo! Slurp China"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp*",
+          "properties": {
+            "Browser": "Yahoo! Slurp",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Yahoo! Slurp\/Site Explorer",
+          "properties": {
+            "Browser": "Yahoo! Site Explorer"
+          }
+        },
+        {
+          "match": "slurp",
+          "properties": {
+            "Browser": "slurp"
+          }
+        }
+      ]
     }
   ]
 }

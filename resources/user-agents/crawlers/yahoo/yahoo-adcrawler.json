@@ -5,16 +5,23 @@
     {
       "userAgent": "Yahoo AdCrawler",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo!-AdCrawler"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Yahoo!-AdCrawler;*http:\/\/help.yahoo.com\/yahoo_adcrawler)",
-      "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo!-AdCrawler"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo!-AdCrawler",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo!-AdCrawler;*http:\/\/help.yahoo.com\/yahoo_adcrawler)",
+          "properties": {
+            "Browser": "Yahoo!-AdCrawler"
+          }
+        }
+      ]
     }
   ]
 }

@@ -11,73 +11,66 @@
         "isSyndicationReader": "true",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "AideRSS\/1.0 (aiderss.com); * subscribers",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "AideRSS",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "BlijbolReallySimpleAggregator\/2.0*",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "BlijbolReallySimpleAggregator"
-      }
-    },
-    {
-      "userAgent": "CC Metadata Scaper http:\/\/wiki.creativecommons.org\/Metadata_Scraper",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "CC Metadata Scaper"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible) GM RSS Panel",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "RSS Panel"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 http:\/\/www.inclue.com; graeme@inclue.com",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "Inclue"
-      }
-    },
-    {
-      "userAgent": "Runnk online rss reader : http:\/\/www.runnk.com\/ : RSS favorites : RSS ranking : RSS aggregator*",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "Ruunk"
-      }
-    },
-    {
-      "userAgent": "UniversalFeedParser\/4.* +http:\/\/feedparser.org\/",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "UniversalFeedParser"
-      }
-    },
-    {
-      "userAgent": "RSSOwl\/*",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "RSSOwl"
-      }
-    },
-    {
-      "userAgent": "HiddenMarket-*",
-      "properties": {
-        "Parent": "General RSS",
-        "Browser": "HiddenMarket"
-      }
+      },
+      "children": [
+        {
+          "match": "AideRSS\/1.0 (aiderss.com); * subscribers",
+          "properties": {
+            "Browser": "AideRSS",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BlijbolReallySimpleAggregator\/2.0*",
+          "properties": {
+            "Browser": "BlijbolReallySimpleAggregator"
+          }
+        },
+        {
+          "match": "CC Metadata Scaper http:\/\/wiki.creativecommons.org\/Metadata_Scraper",
+          "properties": {
+            "Browser": "CC Metadata Scaper"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible) GM RSS Panel",
+          "properties": {
+            "Browser": "RSS Panel"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 http:\/\/www.inclue.com; graeme@inclue.com",
+          "properties": {
+            "Browser": "Inclue"
+          }
+        },
+        {
+          "match": "Runnk online rss reader : http:\/\/www.runnk.com\/ : RSS favorites : RSS ranking : RSS aggregator*",
+          "properties": {
+            "Browser": "Ruunk"
+          }
+        },
+        {
+          "match": "UniversalFeedParser\/4.* +http:\/\/feedparser.org\/",
+          "properties": {
+            "Browser": "UniversalFeedParser"
+          }
+        },
+        {
+          "match": "RSSOwl\/*",
+          "properties": {
+            "Browser": "RSSOwl"
+          }
+        },
+        {
+          "match": "HiddenMarket-*",
+          "properties": {
+            "Browser": "HiddenMarket"
+          }
+        }
+      ]
     }
   ]
 }

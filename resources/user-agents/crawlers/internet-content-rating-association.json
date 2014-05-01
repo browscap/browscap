@@ -7,26 +7,26 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Internet Content Rating Association",
-        "Browser": "",
+        "Browser": "Internet Content Rating Association",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ICRA_label_generator\/1.?",
-      "properties": {
-        "Parent": "Internet Content Rating Association",
-        "Browser": "ICRA_label_generator"
-      }
-    },
-    {
-      "userAgent": "ICRA_Semantic_spider\/0.?",
-      "properties": {
-        "Parent": "Internet Content Rating Association",
-        "Browser": "ICRA_Semantic_spider"
-      }
+      },
+      "children": [
+        {
+          "match": "ICRA_label_generator\/1.?",
+          "properties": {
+            "Browser": "ICRA_label_generator"
+          }
+        },
+        {
+          "match": "ICRA_Semantic_spider\/0.?",
+          "properties": {
+            "Browser": "ICRA_Semantic_spider"
+          }
+        }
+      ]
     }
   ]
 }

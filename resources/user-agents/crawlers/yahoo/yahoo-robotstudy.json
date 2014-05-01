@@ -5,15 +5,20 @@
     {
       "userAgent": "Yahoo RobotStudy",
       "properties": {
-        "Parent": "Yahoo",
-        "Browser": "Yahoo! RobotStudy"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; Yahoo Japan; for robot study; kasugiya)",
-      "properties": {
-        "Parent": "Yahoo RobotStudy"
-      }
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo",
+        "Browser": "Yahoo! RobotStudy",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; Yahoo Japan; for robot study; kasugiya)"
+        }
+      ]
     }
   ]
 }

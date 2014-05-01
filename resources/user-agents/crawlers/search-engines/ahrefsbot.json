@@ -5,39 +5,37 @@
     {
       "userAgent": "AhrefsBot",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
+        "Comment": "AhrefsBot",
         "Browser": "AhrefsBot",
-        "Browser_Maker": "Ahrefs Inc"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*)",
-      "properties": {
-        "Parent": "AhrefsBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/*",
-      "properties": {
-        "Parent": "AhrefsBot"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
-      "properties": {
-        "Parent": "AhrefsBot",
-        "Version": "3.1",
-        "MajorVer": "3",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
-      "properties": {
-        "Parent": "AhrefsBot",
-        "Version": "4.0",
-        "MajorVer": "4"
-      }
+        "Browser_Maker": "Ahrefs Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        }
+      ]
     }
   ]
 }
