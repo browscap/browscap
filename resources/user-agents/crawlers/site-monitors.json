@@ -10,212 +10,186 @@
         "Browser": "Site Monitors",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "*EasyRider*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "EasyRider"
-      }
-    },
-    {
-      "userAgent": "*maxamine.com--robot*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "maxamine.com--robot"
-      }
-    },
-    {
-      "userAgent": "*Pingdom*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Pingdom"
-      }
-    },
-    {
-      "userAgent": "*WebMon ?.*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "WebMon"
-      }
-    },
-    {
-      "userAgent": "Kenjin Spider*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Kenjin Spider"
-      }
-    },
-    {
-      "userAgent": "Kevin http:\/\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Kevin"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/4.0 (compatible; ChangeDetection\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "ChangeDetection"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Chirp\/1.0; +http:\/\/www.binarycanary.com\/chirp.cfm)",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "BinaryCanary",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; UptimeRobot\/1.0; http:\/\/www.uptimerobot.com\/)",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "UptimeRobot",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "Myst Monitor Service v*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Myst Monitor Service"
-      }
-    },
-    {
-      "userAgent": "Net Probe",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Net Probe"
-      }
-    },
-    {
-      "userAgent": "NetMechanic*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "NetMechanic"
-      }
-    },
-    {
-      "userAgent": "NetReality*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "NetReality"
-      }
-    },
-    {
-      "userAgent": "Pingdom.com_bot_version_*_(http:\/\/www.pingdom.com\/)",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Pingdom"
-      }
-    },
-    {
-      "userAgent": "Site Valet Online*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Site Valet"
-      }
-    },
-    {
-      "userAgent": "SITECHECKER",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "SITECHECKER"
-      }
-    },
-    {
-      "userAgent": "sitemonitor@dnsvr.com\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "ZoneEdit Failover Monitor"
-      }
-    },
-    {
-      "userAgent": "UpTime Checker*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "UpTime Checker"
-      }
-    },
-    {
-      "userAgent": "URL Control*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "URL Control"
-      }
-    },
-    {
-      "userAgent": "URL_Access\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "URL_Access"
-      }
-    },
-    {
-      "userAgent": "URLCHECK",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "URLCHECK"
-      }
-    },
-    {
-      "userAgent": "URLy Warning*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "URLy Warning"
-      }
-    },
-    {
-      "userAgent": "Webcheck *",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Webcheck",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "WebPatrol\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "WebPatrol"
-      }
-    },
-    {
-      "userAgent": "websitepulse checker\/*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "websitepulse checker"
-      }
-    },
-    {
-      "userAgent": "Mozilla\/5.0 (compatible; Chirp\/*; +http:\/\/www.binarycanary.com\/chirp.cfm)",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "BinaryCanary"
-      }
-    },
-    {
-      "userAgent": "BMC Link Validator (http:\/\/www.briansmodelcars.com\/links\/)",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "BMC Link Validator"
-      }
-    },
-    {
-      "userAgent": "Pingdom GIGRIB*",
-      "properties": {
-        "Parent": "Site Monitors",
-        "Browser": "Pingdom"
-      }
+      },
+      "children": [
+        {
+          "match": "*EasyRider*",
+          "properties": {
+            "Browser": "EasyRider"
+          }
+        },
+        {
+          "match": "*maxamine.com--robot*",
+          "properties": {
+            "Browser": "maxamine.com--robot"
+          }
+        },
+        {
+          "match": "*Pingdom*",
+          "properties": {
+            "Browser": "Pingdom"
+          }
+        },
+        {
+          "match": "*WebMon ?.*",
+          "properties": {
+            "Browser": "WebMon"
+          }
+        },
+        {
+          "match": "Kenjin Spider*",
+          "properties": {
+            "Browser": "Kenjin Spider"
+          }
+        },
+        {
+          "match": "Kevin http:\/\/*",
+          "properties": {
+            "Browser": "Kevin"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; ChangeDetection\/*",
+          "properties": {
+            "Browser": "ChangeDetection"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Chirp\/1.0; +http:\/\/www.binarycanary.com\/chirp.cfm)",
+          "properties": {
+            "Browser": "BinaryCanary",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; UptimeRobot\/1.0; http:\/\/www.uptimerobot.com\/)",
+          "properties": {
+            "Browser": "UptimeRobot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Myst Monitor Service v*",
+          "properties": {
+            "Browser": "Myst Monitor Service"
+          }
+        },
+        {
+          "match": "Net Probe",
+          "properties": {
+            "Browser": "Net Probe"
+          }
+        },
+        {
+          "match": "NetMechanic*",
+          "properties": {
+            "Browser": "NetMechanic"
+          }
+        },
+        {
+          "match": "NetReality*",
+          "properties": {
+            "Browser": "NetReality"
+          }
+        },
+        {
+          "match": "Pingdom.com_bot_version_*_(http:\/\/www.pingdom.com\/)",
+          "properties": {
+            "Browser": "Pingdom"
+          }
+        },
+        {
+          "match": "Site Valet Online*",
+          "properties": {
+            "Browser": "Site Valet"
+          }
+        },
+        {
+          "match": "SITECHECKER",
+          "properties": {
+            "Browser": "SITECHECKER"
+          }
+        },
+        {
+          "match": "sitemonitor@dnsvr.com\/*",
+          "properties": {
+            "Browser": "ZoneEdit Failover Monitor"
+          }
+        },
+        {
+          "match": "UpTime Checker*",
+          "properties": {
+            "Browser": "UpTime Checker"
+          }
+        },
+        {
+          "match": "URL Control*",
+          "properties": {
+            "Browser": "URL Control"
+          }
+        },
+        {
+          "match": "URL_Access\/*",
+          "properties": {
+            "Browser": "URL_Access"
+          }
+        },
+        {
+          "match": "URLCHECK",
+          "properties": {
+            "Browser": "URLCHECK"
+          }
+        },
+        {
+          "match": "URLy Warning*",
+          "properties": {
+            "Browser": "URLy Warning"
+          }
+        },
+        {
+          "match": "Webcheck *",
+          "properties": {
+            "Browser": "Webcheck",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "WebPatrol\/*",
+          "properties": {
+            "Browser": "WebPatrol"
+          }
+        },
+        {
+          "match": "websitepulse checker\/*",
+          "properties": {
+            "Browser": "websitepulse checker"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Chirp\/*; +http:\/\/www.binarycanary.com\/chirp.cfm)",
+          "properties": {
+            "Browser": "BinaryCanary"
+          }
+        },
+        {
+          "match": "BMC Link Validator (http:\/\/www.briansmodelcars.com\/links\/)",
+          "properties": {
+            "Browser": "BMC Link Validator"
+          }
+        },
+        {
+          "match": "Pingdom GIGRIB*",
+          "properties": {
+            "Browser": "Pingdom"
+          }
+        }
+      ]
     }
   ]
 }

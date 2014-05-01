@@ -5,7 +5,8 @@
     {
       "userAgent": "Arora Generic",
       "properties": {
-        "Parent": "Google Code",
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Browser",
         "Comment": "Arora Generic",
         "Browser": "Arora",
         "Frames": "true",

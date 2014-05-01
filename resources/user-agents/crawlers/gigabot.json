@@ -12,20 +12,18 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Gigabot*",
-      "properties": {
-        "Parent": "Gigabot"
-      }
-    },
-    {
-      "userAgent": "GigabotSiteSearch\/*",
-      "properties": {
-        "Parent": "Gigabot",
-        "Browser": "GigabotSiteSearch"
-      }
+      },
+      "children": [
+        {
+          "match": "Gigabot*"
+        },
+        {
+          "match": "GigabotSiteSearch\/*",
+          "properties": {
+            "Browser": "GigabotSiteSearch"
+          }
+        }
+      ]
     }
   ]
 }

@@ -12,19 +12,15 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)",
-      "properties": {
-        "Parent": "Envolk"
-      }
-    },
-    {
-      "userAgent": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)",
-      "properties": {
-        "Parent": "Envolk"
-      }
+      },
+      "children": [
+        {
+          "match": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)"
+        },
+        {
+          "match": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)"
+        }
+      ]
     }
   ]
 }

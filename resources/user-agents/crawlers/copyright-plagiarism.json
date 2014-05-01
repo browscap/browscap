@@ -63,25 +63,7 @@
         {
           "match": "oBot",
           "properties": {
-            "Browser": "oBot",
-            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; oBot\/*; +http:\/\/filterdb.iss.net\/crawler\/)",
-          "properties": {
-            "Browser": "oBot",
-            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; oBot\/2.3*; +http:\/\/filterdb.iss.net\/crawler\/)",
-          "properties": {
-            "Browser": "oBot",
-            "Browser_Maker": "Content Security Division of IBM Germany Research & Development GmbH",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Browser": "oBot"
           }
         },
         {

@@ -5,7 +5,7 @@
     {
       "userAgent": "Lycos",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
         "Comment": "Lycos",
         "Browser": "Lycos",
         "Browser_Type": "Bot/Crawler",

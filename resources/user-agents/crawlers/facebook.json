@@ -12,57 +12,51 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "facebookexternalhit\/* (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
-      "properties": {
-        "Parent": "Facebook",
-        "Browser": "FacebookExternalHit"
-      }
-    },
-    {
-      "userAgent": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
-      "properties": {
-        "Parent": "Facebook",
-        "Browser": "FacebookExternalHit",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "facebookexternalhit\/1.1 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
-      "properties": {
-        "Parent": "Facebook",
-        "Browser": "FacebookExternalHit",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Facebook share follower",
-      "properties": {
-        "Parent": "Facebook"
-      }
-    },
-    {
-      "userAgent": "facebookplatform\/1.0 *",
-      "properties": {
-        "Parent": "Facebook",
-        "Version": "1.0",
-        "MajorVer": "1"
-      }
-    },
-    {
-      "userAgent": "Facebook API PHP5 Client 1.1 (curl)*",
-      "properties": {
-        "Parent": "Facebook",
-        "Version": "1.1",
-        "MajorVer": "1",
-        "MinorVer": "1"
-      }
+      },
+      "children": [
+        {
+          "match": "facebookexternalhit\/* (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+          "properties": {
+            "Browser": "FacebookExternalHit"
+          }
+        },
+        {
+          "match": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+          "properties": {
+            "Browser": "FacebookExternalHit",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "facebookexternalhit\/1.1 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+          "properties": {
+            "Browser": "FacebookExternalHit",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Facebook share follower"
+        },
+        {
+          "match": "facebookplatform\/1.0 *",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Facebook API PHP5 Client 1.1 (curl)*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        }
+      ]
     }
   ]
 }

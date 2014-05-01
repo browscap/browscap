@@ -6,7 +6,8 @@
     {
       "userAgent": "MSN",
       "properties": {
-        "Parent": "Search Engines",
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
         "Comment": "MSN",
         "Browser": "MSN",
         "Frames": "true",

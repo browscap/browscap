@@ -12,13 +12,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ArchitextSpider*",
-      "properties": {
-        "Parent": "ArchitextSpider"
-      }
+      },
+      "children": [
+        {
+          "match": "ArchitextSpider*"
+        }
+      ]
     }
   ]
 }

@@ -12,13 +12,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "ApacheBench\/*",
-      "properties": {
-        "Parent": "Apache Bench"
-      }
+      },
+      "children": [
+        {
+          "match": "ApacheBench\/*"
+        }
+      ]
     }
   ]
 }

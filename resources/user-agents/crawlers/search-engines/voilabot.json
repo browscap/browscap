@@ -5,8 +5,11 @@
     {
       "userAgent": "VoilaBot",
       "properties": {
-        "Parent": "Search Engines",
-        "Browser": "VoilaBot"
+        "Parent": "DefaultProperties",
+        "Comment": "VoilaBot",
+        "Browser": "VoilaBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
       }
     },
     {

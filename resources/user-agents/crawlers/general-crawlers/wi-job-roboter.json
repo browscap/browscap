@@ -6,7 +6,7 @@
       "userAgent": "WI Job Roboter",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
+        "Comment": "WI Job Roboter",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "WI Job Roboter"

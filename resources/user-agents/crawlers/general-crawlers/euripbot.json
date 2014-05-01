@@ -6,7 +6,7 @@
       "userAgent": "EuripBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
+        "Comment": "Europe Internet Portal",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Europe Internet Portal",

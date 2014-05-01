@@ -5,36 +5,37 @@
     {
       "userAgent": "MPlayer",
       "properties": {
-        "Parent": "Media Players",
-        "Browser": "MPlayer"
-      }
-    },
-    {
-      "userAgent": "MPlayer 0.9*",
-      "properties": {
-        "Parent": "MPlayer",
+        "Parent": "DefaultProperties",
+        "Comment": "MPlayer",
         "Browser": "MPlayer",
-        "Version": "0.9",
-        "MajorVer": "0",
-        "MinorVer": "9"
-      }
-    },
-    {
-      "userAgent": "MPlayer 1.*",
-      "properties": {
-        "Parent": "MPlayer",
-        "Browser": "MPlayer",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    },
-    {
-      "userAgent": "MPlayer HEAD CVS",
-      "properties": {
-        "Parent": "MPlayer",
-        "Browser": "MPlayer"
-      }
+        "Browser_Type": "Application"
+      },
+      "children": [
+        {
+          "match": "MPlayer 0.9*",
+          "properties": {
+            "Browser": "MPlayer",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "MPlayer 1.*",
+          "properties": {
+            "Browser": "MPlayer",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MPlayer HEAD CVS",
+          "properties": {
+            "Browser": "MPlayer"
+          }
+        }
+      ]
     }
   ]
 }

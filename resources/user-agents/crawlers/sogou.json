@@ -89,42 +89,6 @@
           "properties": {
             "Browser": "Sogou\/Spider"
           }
-        },
-        {
-          "match": "Sogou web spider*",
-          "properties": {
-            "Browser": "Sogou Web Spider"
-          }
-        },
-        {
-          "match": "Sogou web spider/4.0*",
-          "properties": {
-            "Browser": "Sogou Web Spider",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Sogou web spider",
-          "properties": {
-            "Browser": "Sogou Web Spider"
-          }
-        },
-        {
-          "match": "New-Sogou-Spider\/* (*)",
-          "properties": {
-            "Browser": "Sogou Spider"
-          }
-        },
-        {
-          "match": "New-Sogou-Spider\/1.0 (*)",
-          "properties": {
-            "Browser": "Sogou Spider",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
         }
       ]
     }

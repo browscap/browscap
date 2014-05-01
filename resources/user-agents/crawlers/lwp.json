@@ -5,50 +5,35 @@
     {
       "userAgent": "lwp",
       "properties": {
-        "Parent": "Rippers",
+        "Parent": "DefaultProperties",
+        "Comment": "lwp",
         "Browser": "lwp",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "lwp*",
-      "properties": {
-        "Parent": "lwp"
-      }
-    },
-    {
-      "userAgent": "LWP::Simple*",
-      "properties": {
-        "Parent": "lwp"
-      }
-    },
-    {
-      "userAgent": "lwp-download*",
-      "properties": {
-        "Parent": "lwp"
-      }
-    },
-    {
-      "userAgent": "lwp-request*",
-      "properties": {
-        "Parent": "lwp"
-      }
-    },
-    {
-      "userAgent": "lwp-rget*",
-      "properties": {
-        "Parent": "lwp"
-      }
-    },
-    {
-      "userAgent": "lwp-trivial*",
-      "properties": {
-        "Parent": "lwp"
-      }
+      },
+      "children": [
+        {
+          "match": "lwp*"
+        },
+        {
+          "match": "LWP::Simple*"
+        },
+        {
+          "match": "lwp-download*"
+        },
+        {
+          "match": "lwp-request*"
+        },
+        {
+          "match": "lwp-rget*"
+        },
+        {
+          "match": "lwp-trivial*"
+        }
+      ]
     }
   ]
 }

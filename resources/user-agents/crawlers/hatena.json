@@ -10,79 +10,72 @@
         "Browser": "Hatena",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
-      }
-    },
-    {
-      "userAgent": "Feed::Find\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Feed Find",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Hatena Antenna\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena Antenna"
-      }
-    },
-    {
-      "userAgent": "Hatena Bookmark\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena Bookmark"
-      }
-    },
-    {
-      "userAgent": "Hatena RSS\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena RSS",
-        "isSyndicationReader": "true"
-      }
-    },
-    {
-      "userAgent": "Hatena::Crawler\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena Crawler"
-      }
-    },
-    {
-      "userAgent": "HatenaScreenshot*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "HatenaScreenshot"
-      }
-    },
-    {
-      "userAgent": "URI::Fetch\/*",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "URI::Fetch"
-      }
-    },
-    {
-      "userAgent": "DoCoMo\/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway\/1.2; +http:\/\/mgw.hatena.ne.jp\/help)",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena-Mobile-Gateway",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
-      }
-    },
-    {
-      "userAgent": "Hatena::Bookmark\/2.00",
-      "properties": {
-        "Parent": "Hatena",
-        "Browser": "Hatena::Bookmark",
-        "Version": "2.0",
-        "MajorVer": "2"
-      }
+      },
+      "children": [
+        {
+          "match": "Feed::Find\/*",
+          "properties": {
+            "Browser": "Feed Find",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Hatena Antenna\/*",
+          "properties": {
+            "Browser": "Hatena Antenna"
+          }
+        },
+        {
+          "match": "Hatena Bookmark\/*",
+          "properties": {
+            "Browser": "Hatena Bookmark"
+          }
+        },
+        {
+          "match": "Hatena RSS\/*",
+          "properties": {
+            "Browser": "Hatena RSS",
+            "isSyndicationReader": "true"
+          }
+        },
+        {
+          "match": "Hatena::Crawler\/*",
+          "properties": {
+            "Browser": "Hatena Crawler"
+          }
+        },
+        {
+          "match": "HatenaScreenshot*",
+          "properties": {
+            "Browser": "HatenaScreenshot"
+          }
+        },
+        {
+          "match": "URI::Fetch\/*",
+          "properties": {
+            "Browser": "URI::Fetch"
+          }
+        },
+        {
+          "match": "DoCoMo\/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway\/1.2; +http:\/\/mgw.hatena.ne.jp\/help)",
+          "properties": {
+            "Browser": "Hatena-Mobile-Gateway",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device"
+          }
+        },
+        {
+          "match": "Hatena::Bookmark\/2.00",
+          "properties": {
+            "Browser": "Hatena::Bookmark",
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        }
+      ]
     }
   ]
 }
