@@ -80,10 +80,44 @@ class BrowscapJsonGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (!in_array($key, array('DefaultProperties', '*'))) {
+                $parent = $allDivisions[$properties['Parent']];
+            } else {
+                $parent = array();
+            }
+
+            $propertiesToOutput = $properties;
+
+            foreach ($propertiesToOutput as $property => $value) {
+                if (!isset($parent[$property])) {
+                    continue;
+                }
+
+                $parentProperty = $parent[$property];
+
+                switch ((string) $parentProperty) {
+                    case 'true':
+                        $parentProperty = true;
+                        break;
+                    case 'false':
+                        $parentProperty = false;
+                        break;
+                    default:
+                        $parentProperty = trim($parentProperty);
+                        break;
+                }
+
+                if ($parentProperty != $value) {
+                    continue;
+                }
+
+                unset($propertiesToOutput[$property]);
+            }
+
             $output[$key] = array();
 
             foreach ($allProperties as $property) {
-                if (!isset($properties[$property])) {
+                if (!isset($propertiesToOutput[$property])) {
                     continue;
                 }
 
@@ -91,7 +125,11 @@ class BrowscapJsonGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $value       = $properties[$property];
+                if (CollectionParser::isExtraProperty($property)) {
+                    continue;
+                }
+
+                $value       = $propertiesToOutput[$property];
                 $valueOutput = $value;
 
                 switch (CollectionParser::getPropertyType($property)) {
