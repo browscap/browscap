@@ -15,10 +15,6 @@
 </gjk_browscap_version>
 <browsercapitems>
 <browscapitem name="DefaultProperties">
-<item name="PropertyName" value="DefaultProperties"/>
-<item name="AgentID" value="2"/>
-<item name="MasterParent" value="true"/>
-<item name="LiteMode" value="true"/>
 <item name="Parent" value=""/>
 <item name="Comment" value="DefaultProperties"/>
 <item name="Browser" value="DefaultProperties"/>
