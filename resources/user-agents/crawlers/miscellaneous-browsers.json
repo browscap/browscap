@@ -128,15 +128,14 @@
             "Version": "2.30",
             "MajorVer": "2",
             "MinorVer": "30",
-            "Platform": "Linux",
-            "Win16": "false",
-            "Win32": "false",
-            "Win64": "false",
             "IFrames": "true",
             "VBScript": "true",
             "JavaApplets": "true",
             "CssVersion": "3"
-          }
+          },
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "NetRecorder*",

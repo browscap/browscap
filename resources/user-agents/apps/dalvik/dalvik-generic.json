@@ -4,13 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Dalvik Generic",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Dalvik",
         "Browser_Maker": "Google Inc",
-        "Platform": "Android",
-        "Platform_Version": "",
-        "Platform_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

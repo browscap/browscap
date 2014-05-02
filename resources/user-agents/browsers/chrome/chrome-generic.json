@@ -63,11 +63,11 @@
     },
     {
       "userAgent": "Chrome Generic for Android",
+      "platform": "Android",
       "properties": {
         "Parent": "Chrome Generic",
         "Comment": "Chrome Generic",
         "Browser": "Chrome",
-        "Platform": "Android",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
@@ -100,11 +100,11 @@
     },
     {
       "userAgent": "Chrome Generic for iOS",
+      "platform": "iOS",
       "properties": {
         "Parent": "Chrome Generic",
         "Comment": "Chrome Generic",
         "Browser": "Chrome",
-        "Platform": "iOS",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

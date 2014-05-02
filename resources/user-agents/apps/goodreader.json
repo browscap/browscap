@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "GoodReader",
+      "platform": "Darwin",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "GoodReader",
         "Browser_Type": "Application",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -20,10 +20,11 @@
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
-            "MinorVer": "19",
-            "Platform": "Linux",
-            "Platform_Maker": "Linux Foundation"
-          }
+            "MinorVer": "19"
+          },
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "curl\/7.19*x86_64*linux*",
@@ -32,10 +33,11 @@
             "Version": "7.19",
             "MajorVer": "7",
             "MinorVer": "19",
-            "Platform": "Linux",
-            "Platform_Bits": "64",
-            "Platform_Maker": "Linux Foundation"
-          }
+            "Platform_Bits": "64"
+          },
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     }

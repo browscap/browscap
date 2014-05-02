@@ -52,9 +52,11 @@
         {
           "match": "AppleSyndication\/*",
           "properties": {
-            "Browser": "Safari RSS",
-            "Platform": "MacOSX"
-          }
+            "Browser": "Safari RSS"
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "Cocoal.icio.us\/* (*)*",

@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Camino #MAJORVER#.#MINORVER#",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Camino #MAJORVER#.#MINORVER#",
@@ -13,9 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Mac OS X",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

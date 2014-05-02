@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "QuickLook",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "QuickLook",
         "Browser_Type": "Browser",
-        "Platform": "MacOSX",
-        "Platform_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

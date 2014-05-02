@@ -26,22 +26,25 @@
       },
       "children": [
         {
-          "match": "Mozilla\/?.*(*Windows CE*)*Opera?*",
+          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
           "properties": {
             "Browser": "Opera Mobile",
-            "Platform": "WinCE",
-            "Platform_Description": "Windows CE",
             "RenderingEngine_Name": "Presto",
             "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-          }
+          },
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "Opera\/*(*Android*Opera Mobi*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
@@ -62,11 +65,10 @@
           }
         },
         {
-          "match": "Opera\/*(*Windows Mobile*Opera Mobi*)*",
-          "properties": {
-            "Platform": "WinCE",
-            "Platform_Description": "Windows CE"
-          }
+          "match": "Opera\/*(#PLATFORM#Opera Mobi*)*",
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

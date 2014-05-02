@@ -28,27 +28,29 @@
       "children": [
         {
           "match": "*BlackBerry*",
-          "properties": {
-            "Platform_Version": "1.0"
-          }
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "*PlayBook*RIM Tablet OS 1.0.*",
           "properties": {
-            "Platform": "RIM Tablet OS",
-            "Platform_Version": "1.0",
             "Device_Name": "Playbook",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIM_Tablet_OS_1"
+          ]
         },
         {
           "match": "*PlayBook*RIM Tablet OS 2.1.*",
           "properties": {
-            "Platform": "RIM Tablet OS",
-            "Platform_Version": "2.1",
             "Device_Name": "Playbook",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIM_Tablet_OS_2_1"
+          ]
         },
         {
           "match": "*BlackBerrySimulator*"

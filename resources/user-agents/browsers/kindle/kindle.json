@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Kindle",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kindle",
         "Browser": "Kindle",
-        "Platform": "Android",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -54,25 +54,24 @@
             "Browser_Bits": "32",
             "Version": "4.0",
             "MajorVer": "4",
-            "Platform": "Android",
-            "Platform_Version": "2.3",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Google Inc",
             "Device_Code_Name": "Kindle Fire",
             "Device_Name": "Kindle Fire"
-          }
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (X11; U; Linux armv* like Android; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Kindle\/3.*",
           "properties": {
-            "Browser_Bits": "32",
             "Version": "5.0",
             "MajorVer": "5",
-            "Platform_Version": "",
-            "Platform_Bits": "32",
             "Device_Code_Name": "Kindle 3",
             "Device_Name": "Kindle 3"
-          }
+          },
+          "platforms": [
+            "Maemo_ARM"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (Linux*Android 2.3*Kindle Fire*) AppleWebKit\/533.1 (*KHTML, like Gecko*) Version\/4.0 Mobile Safari\/533.1",
@@ -82,13 +81,15 @@
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0",
-            "Platform_Version": "2.3",
             "Device_Name": "Kindler Fire",
             "Device_Maker": "Amazon",
             "Device_Type": "Ebook Reader",
             "Device_Pointing_Method": "touchscreen",
             "RenderingEngine_Version": "533.1"
-          }
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
         }
       ]
     }

@@ -33,10 +33,12 @@
         {
           "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
@@ -49,7 +51,6 @@
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
@@ -57,12 +58,14 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -71,7 +74,10 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",

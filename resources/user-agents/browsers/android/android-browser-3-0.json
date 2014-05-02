@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
@@ -15,7 +16,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -213,7 +213,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#dream*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Code_Name": "Dream",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",

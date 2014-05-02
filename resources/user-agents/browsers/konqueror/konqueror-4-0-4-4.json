@@ -43,39 +43,33 @@
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "properties": {
-            "Platform": "FreeBSD",
-            "Platform_Version": "",
-            "Platform_Maker": "FreeBSD Foundation",
             "Device_Type": "Desktop"
-          }
+          },
+          "platforms": [
+            "FreeBSD"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "Linux",
-            "Platform_Maker": "Linux Foundation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          }
+          "platforms": [
+            "Debian"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*Linux*KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "Linux",
-            "Platform_Version": "",
-            "Platform_Maker": "Linux Foundation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          }
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
           "properties": {
             "Platform": "NetBSD",
             "Device_Type": "Desktop"
-          }
+          },
+          "platforms": [
+            "NetBSD"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*"
@@ -91,7 +85,10 @@
             "Device_Type": "Desktop",
             "Device_Code_Name": "Windows Desktop",
             "Device_Name": "Windows Desktop"
-          }
+          },
+          "platforms": [
+            "Windows"
+          ]
         }
       ]
     }

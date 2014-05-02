@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Chromium #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium #MAJORVER#.#MINORVER#",
@@ -12,7 +13,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Linux",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

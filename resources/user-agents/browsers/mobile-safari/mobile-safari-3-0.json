@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Mobile Safari 3.0",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari 3.0",
@@ -14,9 +15,6 @@
         "Version": "3.0",
         "MajorVer": "3",
         "MinorVer": "0",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "Platform_Description": "iPod, iPhone & iPad",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

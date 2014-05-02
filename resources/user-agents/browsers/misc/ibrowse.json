@@ -109,14 +109,15 @@
             "Version": "2.6",
             "MajorVer": "2",
             "MinorVer": "6",
-            "Platform": "Darwin",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Name": "Macintosh"
-          }
+          },
+          "platforms": [
+            "Darwin"
+          ]
         },
         {
           "match": "Arexx (*compatible*;*MSIE 6.0; AmigaOS5.0) IBrowse 4.0",

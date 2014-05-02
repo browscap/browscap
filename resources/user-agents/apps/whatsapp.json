@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "WhatsApp",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "WhatsApp",
         "Browser_Type": "Browser",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

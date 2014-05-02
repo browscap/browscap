@@ -1387,14 +1387,13 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (*Windows NT 5.1*) Lightspeedsystems*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
           "properties": {
-            "Browser": "Lightspeedsystems",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Description": "Windows XP",
-            "Win32": "true"
-          }
+            "Browser": "Lightspeedsystems"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; PaperLiBot\/*",

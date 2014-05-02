@@ -33,21 +33,21 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; *Linux*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "Linux"
-          }
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "Debian"
-          }
+          "platforms": [
+            "Debian"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "FreeBSD"
-          }
+          "platforms": [
+            "FreeBSD"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",

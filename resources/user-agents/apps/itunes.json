@@ -4,13 +4,12 @@
   "userAgents": [
     {
       "userAgent": "iTunes",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "iTunes",
         "Browser_Type": "Browser",
         "Browser_Maker": "Apple Inc",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -35,11 +34,6 @@
         {
           "match": "iTunes\/* (Windows*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Win32",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
             "isMobileDevice": "false",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Windows Desktop",
@@ -57,8 +51,6 @@
             "Version": "4.7",
             "MajorVer": "4",
             "MinorVer": "7",
-            "Platform": "MacOSX",
-            "Platform_Version": "10",
             "isMobileDevice": "false",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
@@ -74,8 +66,6 @@
             "Version": "7.1",
             "MajorVer": "7",
             "MinorVer": "1",
-            "Platform": "MacOSX",
-            "Platform_Version": "10",
             "isMobileDevice": "false",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
@@ -91,8 +81,6 @@
             "Version": "10.1",
             "MajorVer": "10",
             "MinorVer": "1",
-            "Platform": "MacOSX",
-            "Platform_Version": "10",
             "isMobileDevice": "false",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",

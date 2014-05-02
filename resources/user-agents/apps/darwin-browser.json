@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Darwin Browser",
+      "platform": "Darwin",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -26,8 +27,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Darwin Browser",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",

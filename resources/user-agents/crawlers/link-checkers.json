@@ -153,10 +153,11 @@
         {
           "match": "integrity/*",
           "properties": {
-            "Browser": "Integrity",
-            "Platform": "MacOSX",
-            "Win32": "false"
-          }
+            "Browser": "Integrity"
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "JCheckLinks\/*",
@@ -325,9 +326,11 @@
           "match": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
           "properties": {
             "Browser": "SafariBookmarkChecker",
-            "Platform": "MacOSX",
             "CssVersion": "2"
-          }
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "Simpy\/* (Simpy; http:\/\/www.simpy.com\/?ref=bot; feedback at simpy dot com)",

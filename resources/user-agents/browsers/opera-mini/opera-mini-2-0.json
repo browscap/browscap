@@ -31,10 +31,12 @@
         {
           "match": "Opera\/*(Android*Opera Mini\/2.*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/2.*)*",

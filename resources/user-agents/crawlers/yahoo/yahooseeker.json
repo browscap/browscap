@@ -18,12 +18,13 @@
         {
           "match": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
           "properties": {
-            "Platform": "FreeBSD",
-            "Platform_Maker": "FreeBSD Foundation",
             "Device_Type": "Desktop",
             "Device_Code_Name": "general Desktop",
             "Device_Name": "general Desktop"
-          }
+          },
+          "platforms": [
+            "FreeBSD"
+          ]
         },
         {
           "match": "YahooSeeker*",

@@ -32,9 +32,11 @@
           "match": "Sony PS2 (Linux)",
           "properties": {
             "Browser": "Sony PS2",
-            "Platform": "Linux",
             "Device_Name": "PS2"
-          }
+          },
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     },

@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Blackberry Playbook Tablet",
+      "platform": "RIM_Tablet_OS_1",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Research In Motion Limited",
         "Browser_Type": "Browser",
-        "Platform_Maker": "Research In Motion Limited",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -19,14 +19,8 @@
         "Device_Type": "Tablet",
         "Device_Brand_Name": "Research In Motion Limited",
         "Browser": "Blackberry Playbook Tablet",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Research In Motion Limited",
-        "Platform": "RIM Tablet OS",
-        "Platform_Version": "1.0",
-        "Platform_Maker": "Research In Motion Limited",
         "Device_Code_Name": "PlayBook",
         "Device_Name": "PlayBook",
-        "Device_Type": "Tablet",
         "Device_Pointing_Method": "touchscreen",
         "isTablet": "true",
         "RenderingEngine_Name": "WebKit",
@@ -50,18 +44,22 @@
           "properties": {
             "Version": "7.2",
             "MajorVer": "7",
-            "MinorVer": "2",
-            "Platform_Version": "2.0"
-          }
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "RIM_Tablet_OS_2_0"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 2.1*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.2*Safari\/*",
           "properties": {
             "Version": "7.2",
             "MajorVer": "7",
-            "MinorVer": "2",
-            "Platform_Version": "2.1"
-          }
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "RIM_Tablet_OS_2_1"
+          ]
         }
       ]
     }

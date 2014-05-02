@@ -32,10 +32,12 @@
         {
           "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
@@ -48,7 +50,6 @@
         {
           "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -57,7 +58,10 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",

@@ -25,9 +25,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/532.9 (KHTML,*like Gecko*) Version\/*Safari\/* (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
           "properties": {
-            "Platform": "iOS",
-            "Platform_Version": "4.1",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -36,7 +33,10 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS_A_4_1"
+          ]
         },
         {
           "match": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1*",
@@ -47,9 +47,6 @@
             "Version": "2.1",
             "MajorVer": "2",
             "MinorVer": "1",
-            "Platform": "iOS",
-            "Platform_Version": "6.0",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -58,7 +55,10 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS_A_6_0"
+          ]
         },
         {
           "match": "SAMSUNG-SGH-E250\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UP.Browser\/* (GUI) MMP\/2.0 (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",

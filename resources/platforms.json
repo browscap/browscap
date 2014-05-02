@@ -765,12 +765,9 @@
     },
     "NT_2": {
       "match": "*WinNT*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinNT",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Description": "Windows NT"
       }
     },
@@ -1158,15 +1155,11 @@
     },
     "Win7_32_2": {
       "match": "*Windows;Microsoft Windows (6.1*)*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win7",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7",
-        "Win32": "true"
+        "Platform_Description": "Windows 7"
       }
     },
     "Win7_64": {
@@ -1209,16 +1202,11 @@
     },
     "Win7_v2": {
       "match": "*WinNT5.2*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win7",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "6.1",
-        "Platform_Description": "Windows 7",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows 7"
       }
     },
     "Win8_32": {
@@ -1336,7 +1324,7 @@
       }
     },
     "WinCE": {
-      "match": "*Windows CE",
+      "match": "*Windows CE*",
       "inherits": "Windows",
       "properties": {
         "Platform": "WinCE",
@@ -1349,13 +1337,27 @@
       }
     },
     "WinMobile": {
-      "match": "*Windows Mobile",
+      "match": "*Windows Mobile*",
       "inherits": "Windows",
       "properties": {
         "Platform": "WinMobile",
         "Platform_Description": "Windows Mobile OS",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Win32": "false"
+      }
+    },
+    "WinPhone65": {
+      "match": "*Windows Phone 6.5*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone6",
+        "Platform_Version": "6.5",
+        "Platform_Description": "Windows Phone OS 6.5",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
         "Win32": "false"
@@ -1382,6 +1384,20 @@
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
         "Platform_Description": "Windows Phone OS 7",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Win32": "false"
+      }
+    },
+    "WinPhone75": {
+      "match": "*Windows Phone 7.5*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone7",
+        "Platform_Version": "7.5",
+        "Platform_Description": "Windows Phone OS 7.5",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
@@ -1897,7 +1913,7 @@
         "Platform": "RIM OS",
         "isMobileDevice": "true",
         "Platform_Description": "RIM OS",
-        "Platform_Maker": "Blackberry Inc",
+        "Platform_Maker": "Research In Motion Limited",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
@@ -1906,6 +1922,142 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "RIMOS_3_6": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "3.6"
+      }
+    },
+    "RIMOS_3_7": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "3.7"
+      }
+    },
+    "RIMOS_3_8": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "3.8"
+      }
+    },
+    "RIMOS_4_0": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "RIMOS_4_1": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "RIMOS_4_2": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "RIMOS_4_3": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "RIMOS_4_5": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.5"
+      }
+    },
+    "RIMOS_4_6": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.6"
+      }
+    },
+    "RIMOS_4_7": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.7"
+      }
+    },
+    "RIMOS_5_0": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "RIMOS_6_0": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "RIMOS_7_0": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "RIMOS_7_1": {
+      "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "RIMOS_10": {
+      "match": "*BB10*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "10"
+      }
+    },
+    "RIM_Tablet_OS": {
+      "match": "*RIM Tablet OS*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform": "RIM Tablet OS"
+      }
+    },
+    "RIM_Tablet_OS_1": {
+      "match": "*RIM Tablet OS*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "1.0"
+      }
+    },
+    "RIM_Tablet_OS_2_0": {
+      "match": "*RIM Tablet OS*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "2.0"
+      }
+    },
+    "RIM_Tablet_OS_2_1": {
+      "match": "*RIM Tablet OS*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform": "RIM Tablet OS",
+        "Platform_Version": "2.1"
       }
     },
     "SymbianOS": {
@@ -2003,6 +2155,13 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "Brew_3_1": {
+      "match": "*Brew 3.1*",
+      "inherits": "Brew",
+      "properties": {
+        "Platform_Version": "3.1"
       }
     },
     "webOS": {

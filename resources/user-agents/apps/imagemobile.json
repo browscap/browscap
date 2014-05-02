@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "ImageMobile",
+      "platform": "Darwin",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ImageMobile",
         "Browser_Type": "Browser",
-        "Platform": "Darwin",
-        "Platform_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

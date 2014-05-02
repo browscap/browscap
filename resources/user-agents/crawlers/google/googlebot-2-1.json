@@ -23,9 +23,6 @@
         {
           "match": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1*",
           "properties": {
-            "Platform": "iOS",
-            "Platform_Version": "6.0",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -34,7 +31,10 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS_A_6_0"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Googlebot\/2.1; ?http:\/\/www.google.com\/bot.html)"

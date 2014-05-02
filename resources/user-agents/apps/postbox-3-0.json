@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Postbox 3.0",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Postbox",
@@ -30,9 +31,7 @@
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation",
         "Version": "3.0",
-        "MajorVer": "3",
-        "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation"
+        "MajorVer": "3"
       },
       "children": [
         {
