@@ -2,6 +2,7 @@
   "division": "WebTV\/MSNTV",
   "sortIndex": 2200,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "WebTV",

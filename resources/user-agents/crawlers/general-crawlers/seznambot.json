@@ -1,6 +1,7 @@
 {
   "division": "SeznamBot",
   "sortIndex": 1440,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "SeznamBot",

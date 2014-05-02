@@ -1,6 +1,7 @@
 {
   "division": "Media Players",
   "sortIndex": 1530,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Media Players",

@@ -1,6 +1,7 @@
 {
   "division": "UnisterBot",
   "sortIndex": 11130,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "UnisterBot",

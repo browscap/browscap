@@ -1,6 +1,7 @@
 {
   "division": "IBrowse",
   "sortIndex": 2390,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "IBrowse",

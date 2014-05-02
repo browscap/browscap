@@ -1,6 +1,7 @@
 {
   "division": "Bellwave",
   "sortIndex": 2270,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Bellwave",

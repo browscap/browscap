@@ -1,6 +1,7 @@
 {
   "division": "Rippers",
   "sortIndex": 480,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Rippers",

@@ -2,6 +2,7 @@
   "division": "Maemo Browser",
   "sortIndex": 1770,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Maemo",

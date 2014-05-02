@@ -1,6 +1,7 @@
 {
   "division": "Anonymizied",
   "sortIndex": 50,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Anonymizied",

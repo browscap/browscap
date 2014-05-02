@@ -2,6 +2,7 @@
   "division": "Nutch",
   "sortIndex": 290,
   "lite": true,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Nutch",

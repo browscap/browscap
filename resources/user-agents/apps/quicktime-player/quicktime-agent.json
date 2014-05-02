@@ -1,6 +1,7 @@
 {
   "division": "QuickTime Agent",
   "sortIndex": 7110,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "QuickTime Agent",

@@ -2,6 +2,7 @@
   "division": "Facebook App",
   "sortIndex": 1990,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Facebook App",

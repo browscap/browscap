@@ -1,6 +1,7 @@
 {
   "division": "WeTab-Browser",
   "sortIndex": 11010,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "WeTab-Browser",

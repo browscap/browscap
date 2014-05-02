@@ -3,6 +3,7 @@
   "versions": [4],
   "sortIndex": 2672,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",

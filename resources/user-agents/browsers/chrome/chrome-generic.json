@@ -2,6 +2,7 @@
   "division": "Chrome Generic",
   "sortIndex": 2600,
   "lite": true,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Chrome Generic",

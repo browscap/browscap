@@ -1,6 +1,7 @@
 {
   "division": "Spector",
   "sortIndex": 10690,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Spector",

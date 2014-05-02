@@ -2,6 +2,7 @@
   "division": "Division #MAJORVER#.#MINORVER#",
   "versions": [1,"1.1","1.2"],
   "sortIndex": 100,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "UA #MAJORVER#.#MINORVER#",

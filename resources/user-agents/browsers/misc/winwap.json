@@ -1,6 +1,7 @@
 {
   "division": "WinWAP",
   "sortIndex": 11030,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "WinWAP",

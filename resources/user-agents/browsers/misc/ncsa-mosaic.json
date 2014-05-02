@@ -1,6 +1,7 @@
 {
   "division": "NCSA Mosaic",
   "sortIndex": 2240,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Mosaic",

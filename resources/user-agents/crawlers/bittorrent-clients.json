@@ -1,6 +1,7 @@
 {
   "division": "BitTorrent Clients",
   "sortIndex": 260,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "BitTorrent Clients",

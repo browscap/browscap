@@ -1,6 +1,7 @@
 {
   "division": "libwww",
   "sortIndex": 990,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "libwww",

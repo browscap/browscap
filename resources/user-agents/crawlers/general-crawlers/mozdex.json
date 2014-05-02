@@ -1,6 +1,7 @@
 {
   "division": "Mozdex",
   "sortIndex": 770,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Mozdex",

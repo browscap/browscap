@@ -1,6 +1,7 @@
 {
   "division": "IAC",
   "sortIndex": 5250,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "IAC",

@@ -1,6 +1,7 @@
 {
   "division": "BenQ",
   "sortIndex": 2280,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "BenQ",

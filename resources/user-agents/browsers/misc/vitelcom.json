@@ -1,6 +1,7 @@
 {
   "division": "Vitelcom",
   "sortIndex": 10960,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Vitelcom",

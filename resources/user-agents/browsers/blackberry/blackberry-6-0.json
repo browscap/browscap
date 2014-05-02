@@ -1,6 +1,7 @@
 {
   "division": "BlackBerry 6.0",
   "sortIndex": 2470,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "BlackBerry 6.0",

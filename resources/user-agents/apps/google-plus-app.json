@@ -2,6 +2,7 @@
   "division": "Google+ App",
   "sortIndex": 2000,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Google+ App",

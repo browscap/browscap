@@ -1,6 +1,7 @@
 {
   "division": "80Legs",
   "sortIndex": 20,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "80Legs",

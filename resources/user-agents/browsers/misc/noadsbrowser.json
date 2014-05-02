@@ -1,6 +1,7 @@
 {
   "division": "noadsbrowser",
   "sortIndex": 7910,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "noadsbrowser",

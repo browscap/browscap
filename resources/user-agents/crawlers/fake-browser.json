@@ -1,6 +1,7 @@
 {
   "division": "Fake Browser",
   "sortIndex": 960,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Fake Browser",

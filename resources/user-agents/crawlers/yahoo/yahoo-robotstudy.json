@@ -1,6 +1,7 @@
 {
   "division": "Yahoo RobotStudy",
   "sortIndex": 1360,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Yahoo RobotStudy",

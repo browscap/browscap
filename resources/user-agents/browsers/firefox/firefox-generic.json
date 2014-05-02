@@ -2,6 +2,7 @@
   "division": "Firefox Generic",
   "sortIndex": 3230,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Firefox Generic",

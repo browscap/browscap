@@ -1,6 +1,7 @@
 {
   "division": "cURL",
   "sortIndex": 950,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "cURL",

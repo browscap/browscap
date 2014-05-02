@@ -1,6 +1,7 @@
 {
   "division": "Lycos",
   "sortIndex": 200,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Lycos",

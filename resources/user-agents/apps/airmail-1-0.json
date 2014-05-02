@@ -2,6 +2,7 @@
   "division": "Airmail #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 1660,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Airmail #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "DBTEL",
   "sortIndex": 3860,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "DBTEL",

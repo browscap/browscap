@@ -2,6 +2,7 @@
   "division": "GrapeshotCrawler",
   "sortIndex": 42,
   "lite": true,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "GrapeshotCrawler",

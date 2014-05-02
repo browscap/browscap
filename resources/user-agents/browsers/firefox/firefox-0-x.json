@@ -2,6 +2,7 @@
   "division": "Firefox #MAJORVER#.#MINORVER#",
   "versions": ["0.6", "0.7", "0.8", "0.9", "0.10"],
   "sortIndex": 3140,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",

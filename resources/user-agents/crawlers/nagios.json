@@ -1,6 +1,7 @@
 {
   "division": "Nagios",
   "sortIndex": 580,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Nagios",

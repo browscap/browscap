@@ -1,6 +1,7 @@
 {
   "division": "MPlayer",
   "sortIndex": 7020,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MPlayer",

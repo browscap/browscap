@@ -1,6 +1,7 @@
 {
   "division": "Chromium Generic",
   "sortIndex": 881,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Chromium Generic",

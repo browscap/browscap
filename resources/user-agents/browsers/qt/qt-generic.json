@@ -1,6 +1,7 @@
 {
   "division": "Qt Generic",
   "sortIndex": 1171,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Qt Generic",

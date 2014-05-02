@@ -1,6 +1,7 @@
 {
   "division": "Mercury",
   "sortIndex": 7160,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Mercury",

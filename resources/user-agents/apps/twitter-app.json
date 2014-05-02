@@ -2,6 +2,7 @@
   "division": "Twitter App",
   "sortIndex": 2000,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Twitter App",

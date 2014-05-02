@@ -3,6 +3,7 @@
   "versions": [26, 27],
   "sortIndex": 3450,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",

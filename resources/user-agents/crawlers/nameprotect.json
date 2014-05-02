@@ -1,6 +1,7 @@
 {
   "division": "NameProtect",
   "sortIndex": 590,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "NameProtect",

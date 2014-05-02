@@ -1,6 +1,7 @@
 {
   "division": "General RSS",
   "sortIndex": 380,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "General RSS",

@@ -102,6 +102,12 @@ class BrowscapIniGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (!$this->checkSplit($key, $properties)) {
+                $this->logger->debug('key "' . $key . '" is not enabled for actual split file -> skipped');
+
+                continue;
+            }
+
             if (!in_array($key, array('DefaultProperties', '*'))) {
                 $parent = $allDivisions[$properties['Parent']];
             } else {
@@ -212,6 +218,47 @@ class BrowscapIniGenerator extends AbstractGenerator
         }
 
         return $output;
+    }
+
+    /**
+     * @param string  $key
+     * @param array   $properties
+     *
+     * @throws \UnexpectedValueException
+     * @return bool
+     */
+    private function checkSplit($key, array $properties)
+    {
+        $this->logger->debug('check if key if available for split');
+
+        if (in_array($key, array('DefaultProperties', '*'))) {
+            return true;
+        }
+
+        if (!isset($properties['split-file'])) {
+            throw new \UnexpectedValueException('property "split-file" not found for key "' . $key . '"');
+        }
+
+        $splits = array(
+            'A' => BuildGenerator::OUTPUT_TYPE_SPLITA,
+            'B' => BuildGenerator::OUTPUT_TYPE_SPLITB,
+            'C' => BuildGenerator::OUTPUT_TYPE_SPLITC,
+            'D' => BuildGenerator::OUTPUT_TYPE_SPLITD,
+            'E' => BuildGenerator::OUTPUT_TYPE_SPLITE
+        );
+
+        if (!in_array($this->type, $splits)) {
+            // actual no split ->take it to the output
+            return true;
+        }
+
+        foreach ($splits as $filetype => $type) {
+            if ($this->type === $type && $properties['split-file'] === $filetype) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**

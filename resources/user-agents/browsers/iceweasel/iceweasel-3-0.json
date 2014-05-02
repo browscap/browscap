@@ -3,6 +3,7 @@
   "versions": [3, "3.1"],
   "sortIndex": 3360,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",

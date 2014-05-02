@@ -2,6 +2,7 @@
   "division": "Avant\/IE 7.0",
   "sortIndex": 3837,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Avant\/IE 7.0",

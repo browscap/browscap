@@ -2,6 +2,7 @@
   "division": "OmniWeb 5.0",
   "sortIndex": 2690,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "OmniWeb 5.0",

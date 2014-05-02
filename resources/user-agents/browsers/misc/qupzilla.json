@@ -1,6 +1,7 @@
 {
   "division": "QupZilla",
   "sortIndex": 9890,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "QupZilla",

@@ -1,6 +1,7 @@
 {
   "division": "MobileExplorer",
   "sortIndex": 7270,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MobileExplorer",

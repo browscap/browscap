@@ -1,6 +1,7 @@
 {
   "division": "Bolt",
   "sortIndex": 2520,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Bolt",

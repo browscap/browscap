@@ -1,6 +1,7 @@
 {
   "division": "Hitpad",
   "sortIndex": 5150,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Hitpad",

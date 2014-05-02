@@ -2,6 +2,7 @@
   "division": "Opera Mobile",
   "sortIndex": 2130,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Opera Mobile",

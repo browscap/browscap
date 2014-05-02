@@ -1,6 +1,7 @@
 {
   "division": "DoCoMo",
   "sortIndex": 3880,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "DoCoMo",

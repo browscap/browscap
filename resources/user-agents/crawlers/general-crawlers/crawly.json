@@ -1,6 +1,7 @@
 {
   "division": "Crawly",
   "sortIndex": 180,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Crawly",

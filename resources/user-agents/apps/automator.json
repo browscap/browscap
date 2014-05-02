@@ -1,6 +1,7 @@
 {
   "division": "Automator",
   "sortIndex": 2280,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Automator",

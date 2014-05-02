@@ -1,6 +1,7 @@
 {
   "division": "Netcraft",
   "sortIndex": 600,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Netcraft",

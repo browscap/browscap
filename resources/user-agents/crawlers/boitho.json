@@ -1,6 +1,7 @@
 {
   "division": "Boitho",
   "sortIndex": 130,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Boitho",

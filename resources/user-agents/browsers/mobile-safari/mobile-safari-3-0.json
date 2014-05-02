@@ -2,6 +2,7 @@
   "division": "Mobile Safari 3.0",
   "sortIndex": 1940,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Mobile Safari 3.0",

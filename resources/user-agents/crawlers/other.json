@@ -1,6 +1,7 @@
 {
   "division": "Others",
   "sortIndex": 100000,
+  "split-file": "E",
   "lite": true,
   "userAgents": [
     {

@@ -1,6 +1,7 @@
 {
   "division": "Fast\/AllTheWeb",
   "sortIndex": 150,
+  "split-file": "B",
   "lite": true,
   "userAgents": [
     {

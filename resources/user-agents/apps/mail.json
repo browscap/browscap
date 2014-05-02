@@ -1,6 +1,7 @@
 {
   "division": "Mail",
   "sortIndex": 730,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Mail",

@@ -1,6 +1,7 @@
 {
   "division": "SpellCheck Bot",
   "sortIndex": 1510,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "SpellCheck Bot",

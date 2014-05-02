@@ -3,6 +3,7 @@
   "versions": ["2.5", "2.7", "2.8", "2.9", 3, 4, "4.1", "4.2", "4.5", "4.7", "4.8"],
   "sortIndex": 2400,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "iCab #MAJORVER#.#MINORVER#",

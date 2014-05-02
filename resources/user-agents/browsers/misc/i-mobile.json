@@ -1,6 +1,7 @@
 {
   "division": "i-mobile",
   "sortIndex": 5240,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "i-mobile",

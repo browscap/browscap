@@ -1,6 +1,7 @@
 {
   "division": "Ichiro Mobile Bot",
   "sortIndex": 590,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Ichiro Mobile Bot",

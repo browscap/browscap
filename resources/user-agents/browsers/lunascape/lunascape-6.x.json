@@ -1,8 +1,9 @@
 {
   "division": "Lunascape #MAJORVER#.#MINORVER#",
-  "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6", "6.7", "6.8"],
+  "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6"],
   "sortIndex": 2642,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Lunascape #MAJORVER#.#MINORVER#",

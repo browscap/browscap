@@ -2,6 +2,7 @@
   "division": "Kindle",
   "sortIndex": 1740,
   "lite": true,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Kindle",

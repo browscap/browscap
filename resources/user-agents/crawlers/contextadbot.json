@@ -1,6 +1,7 @@
 {
   "division": "ContextAd Bot",
   "sortIndex": 91,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "ContextAd Bot",

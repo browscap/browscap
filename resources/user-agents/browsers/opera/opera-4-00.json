@@ -2,6 +2,7 @@
   "division": "Opera #MAJORVER#.#MINORVER#",
   "versions": ["4.00"],
   "sortIndex": 2852,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

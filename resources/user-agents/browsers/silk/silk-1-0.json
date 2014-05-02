@@ -3,6 +3,7 @@
   "versions": ["1.0"],
   "sortIndex": 1860,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",

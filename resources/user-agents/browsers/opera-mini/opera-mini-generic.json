@@ -2,6 +2,7 @@
   "division": "Opera Mini Generic",
   "sortIndex": 2040,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera Mini Generic",

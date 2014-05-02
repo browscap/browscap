@@ -1,8 +1,9 @@
 {
   "division": "OneBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["3.5", "3.6", "3.7", "3.8", "4.0", "4.1", "4.2"],
+  "versions": ["3.5", "3.6", "3.7", "3.8"],
   "sortIndex": 1705,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",

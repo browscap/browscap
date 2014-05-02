@@ -1,6 +1,7 @@
 {
   "division": "Feeds Syndicators",
   "sortIndex": 370,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Feeds Syndicators",

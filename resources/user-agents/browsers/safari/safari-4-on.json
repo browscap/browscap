@@ -1,8 +1,9 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [4, "4.1", 5, "5.1", "5.2", 6, "6.1", 7],
+  "versions": [4, "4.1", 5, "5.1", "5.2", 6, "6.1"],
   "sortIndex": 2551,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",

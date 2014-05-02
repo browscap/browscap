@@ -2,6 +2,7 @@
   "division": "Fennec #MAJORVER#.#MINORVER#",
   "versions": ["4.0", "5.0"],
   "sortIndex": 3421,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",

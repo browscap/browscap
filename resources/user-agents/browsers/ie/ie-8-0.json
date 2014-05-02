@@ -3,6 +3,7 @@
   "versions": ["8.0"],
   "sortIndex": 5752,
   "lite": true,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",

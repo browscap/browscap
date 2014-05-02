@@ -1,6 +1,7 @@
 {
   "division": "Validation Checkers",
   "sortIndex": 390,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "HTML Validators",

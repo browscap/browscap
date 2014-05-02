@@ -1,6 +1,7 @@
 {
   "division": "Iron 4.0",
   "sortIndex": 6280,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Iron 4.0",

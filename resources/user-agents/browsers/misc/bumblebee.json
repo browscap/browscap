@@ -1,6 +1,7 @@
 {
   "division": "bumblebee",
   "sortIndex": 2570,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "bumblebee",

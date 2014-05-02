@@ -1,6 +1,7 @@
 {
   "division": "Entireweb",
   "sortIndex": 110,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Entireweb",

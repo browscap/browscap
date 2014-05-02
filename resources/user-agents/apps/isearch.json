@@ -1,6 +1,7 @@
 {
   "division": "iSearch",
   "sortIndex": 6340,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "iSearch",

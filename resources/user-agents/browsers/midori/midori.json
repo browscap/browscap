@@ -1,8 +1,9 @@
 {
   "division": "Midori #MAJORVER#.#MINORVER#",
-  "versions": ["0.1", "0.2", "0.3", "0.4", "0.5"],
+  "versions": ["0.1", "0.2", "0.3"],
   "sortIndex": 3131,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Midori #MAJORVER#.#MINORVER#",

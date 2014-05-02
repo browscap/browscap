@@ -1,6 +1,7 @@
 {
   "division": "bitlybot",
   "sortIndex": 100,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "bitlybot",

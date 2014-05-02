@@ -1,6 +1,7 @@
 {
   "division": "Alcatel",
   "sortIndex": 2040,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Alcatel",

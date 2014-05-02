@@ -1,6 +1,7 @@
 {
   "division": "WebmasterCoffee",
   "sortIndex": 231,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "WebmasterCoffee",

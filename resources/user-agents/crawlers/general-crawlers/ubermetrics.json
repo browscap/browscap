@@ -1,6 +1,7 @@
 {
   "division": "uMBot",
   "sortIndex": 661,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "uMBot",

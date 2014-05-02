@@ -1,6 +1,7 @@
 {
   "division": "Xerka WebBot",
   "sortIndex": 1580,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Xerka WebBot",

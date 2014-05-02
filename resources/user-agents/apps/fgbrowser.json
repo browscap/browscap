@@ -1,6 +1,7 @@
 {
   "division": "fgBrowser",
   "sortIndex": 4340,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "fgBrowser",

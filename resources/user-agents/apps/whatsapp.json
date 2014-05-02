@@ -1,6 +1,7 @@
 {
   "division": "WhatsApp",
   "sortIndex": 11020,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "WhatsApp",

@@ -1,6 +1,7 @@
 {
   "division": "MyNews",
   "sortIndex": 7650,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MyNews",

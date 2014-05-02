@@ -1,6 +1,7 @@
 {
   "division": "Naver",
   "sortIndex": 800,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Naver",

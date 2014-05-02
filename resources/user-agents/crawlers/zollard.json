@@ -1,6 +1,7 @@
 {
   "division": "Zollard Worm",
   "sortIndex": 210,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Zollard Worm",

@@ -1,6 +1,7 @@
 {
   "division": "DCPbot",
   "sortIndex": 200,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "DCPbot",

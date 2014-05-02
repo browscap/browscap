@@ -2,6 +2,7 @@
   "division": "Puffin",
   "sortIndex": 1840,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Puffin",

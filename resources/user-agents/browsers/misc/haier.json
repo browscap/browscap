@@ -1,6 +1,7 @@
 {
   "division": "Haier",
   "sortIndex": 5140,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Haier",

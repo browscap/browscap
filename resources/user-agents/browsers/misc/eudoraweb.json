@@ -1,6 +1,7 @@
 {
   "division": "EudoraWeb",
   "sortIndex": 4060,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "EudoraWeb",

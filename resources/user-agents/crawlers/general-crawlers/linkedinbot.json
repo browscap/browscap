@@ -1,6 +1,7 @@
 {
   "division": "LinkedInBot",
   "sortIndex": 680,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "LinkedInBot",

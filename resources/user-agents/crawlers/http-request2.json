@@ -1,6 +1,7 @@
 {
   "division": "HTTP_Request2",
   "sortIndex": 1990,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "HTTP_Request2",

@@ -1,6 +1,7 @@
 {
   "division": "MAUI",
   "sortIndex": 6900,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MAUI",

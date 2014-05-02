@@ -2,6 +2,7 @@
   "division": "Kazehakaze #MAJORVER#.#MINORVER#",
   "versions": ["0.4", "0.5"],
   "sortIndex": 2460,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",

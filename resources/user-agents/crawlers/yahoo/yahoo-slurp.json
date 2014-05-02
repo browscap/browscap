@@ -1,6 +1,7 @@
 {
   "division": "Yahoo Slurp",
   "sortIndex": 1380,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Yahoo Slurp",

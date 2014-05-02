@@ -1,8 +1,9 @@
 {
   "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-  "versions": ["1.4", "1.5", "2.0", "2.2", "2.3", "3.2", "3.9"],
+  "versions": ["1.4", "1.5"],
   "sortIndex": 1791,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",

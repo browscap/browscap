@@ -1,6 +1,7 @@
 {
   "division": "TurnitinBot",
   "sortIndex": 170,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "TurnitinBot",

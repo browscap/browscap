@@ -2,6 +2,7 @@
   "division": "Maxthon 2.0",
   "sortIndex": 2670,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Maxthon 2.0",

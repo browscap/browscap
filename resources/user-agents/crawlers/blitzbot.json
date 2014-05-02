@@ -1,6 +1,7 @@
 {
   "division": "BlitzBot",
   "sortIndex": 110,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "BlitzBot",

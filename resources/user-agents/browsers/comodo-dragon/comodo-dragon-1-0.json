@@ -2,6 +2,7 @@
   "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 3450,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Palm Web",
   "sortIndex": 1810,
   "lite": true,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Palm Web",

@@ -2,6 +2,7 @@
   "division": "Thunderbird #MAJORVER#.#MINORVER#",
   "versions": [5],
   "sortIndex": 3485,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",

@@ -3,6 +3,7 @@
   "versions": [27],
   "sortIndex": 1136,
   "lite": true,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",

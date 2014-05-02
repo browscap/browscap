@@ -1,6 +1,7 @@
 {
   "division": "K-Meleon Generic",
   "sortIndex": 6420,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "K-Meleon Generic",

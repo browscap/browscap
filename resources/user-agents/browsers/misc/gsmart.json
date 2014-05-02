@@ -1,6 +1,7 @@
 {
   "division": "GSmart",
   "sortIndex": 5130,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "GSmart",

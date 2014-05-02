@@ -1,6 +1,7 @@
 {
   "division": "Division1",
   "sortIndex": 200,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "UA1",

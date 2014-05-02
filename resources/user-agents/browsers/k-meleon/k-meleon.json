@@ -3,6 +3,7 @@
   "versions": [1, "1.1", "1.5", "1.6"],
   "sortIndex": 2450,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",

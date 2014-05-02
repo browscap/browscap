@@ -1,6 +1,7 @@
 {
   "division": "Pete-Spider",
   "sortIndex": 880,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Pete-Spider",

@@ -1,6 +1,7 @@
 {
   "division": "ESATCOM",
   "sortIndex": 4050,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "ESATCOM",

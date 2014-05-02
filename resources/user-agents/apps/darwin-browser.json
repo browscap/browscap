@@ -1,6 +1,7 @@
 {
   "division": "Darwin Browser",
   "sortIndex": 3850,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Darwin Browser",

@@ -1,6 +1,7 @@
 {
   "division": "Offline Browsers",
   "sortIndex": 440,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Offline Browsers",

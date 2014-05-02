@@ -1,6 +1,7 @@
 {
   "division": "GoodReader",
   "sortIndex": 5040,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "GoodReader",

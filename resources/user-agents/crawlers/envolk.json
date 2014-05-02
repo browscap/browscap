@@ -1,6 +1,7 @@
 {
   "division": "Envolk",
   "sortIndex": 120,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Envolk",

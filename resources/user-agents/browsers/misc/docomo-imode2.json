@@ -1,6 +1,7 @@
 {
   "division": "DoCoMo imode2",
   "sortIndex": 3890,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "DoCoMo imode2",

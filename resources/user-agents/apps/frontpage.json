@@ -1,6 +1,7 @@
 {
   "division": "FrontPage",
   "sortIndex": 2360,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "FrontPage",

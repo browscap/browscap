@@ -1,6 +1,7 @@
 {
   "division": "Generic Java Crawler",
   "sortIndex": 970,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Generic Java Crawler",

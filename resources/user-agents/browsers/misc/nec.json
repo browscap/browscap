@@ -1,6 +1,7 @@
 {
   "division": "NEC",
   "sortIndex": 7660,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "NEC",

@@ -3,6 +3,7 @@
   "versions": ["1.0"],
   "sortIndex": 3135,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "WebKit/webOS #MAJORVER#.#MINORVER#",

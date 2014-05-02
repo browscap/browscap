@@ -1,6 +1,7 @@
 {
   "division": "iCjobs Crawler",
   "sortIndex": 600,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "iCjobs Crawler",

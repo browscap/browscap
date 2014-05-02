@@ -1,6 +1,7 @@
 {
   "division": "Convera",
   "sortIndex": 90,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Convera",

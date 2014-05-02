@@ -2,6 +2,7 @@
   "division": "Icedove #MAJORVER#.#MINORVER#",
   "versions": [3],
   "sortIndex": 5400,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Icedove #MAJORVER#.#MINORVER#",

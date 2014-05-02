@@ -1,6 +1,7 @@
 {
   "division": "cURL PHP",
   "sortIndex": 2020,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "cURL PHP",

@@ -1,6 +1,7 @@
 {
   "division": "FastBrowser",
   "sortIndex": 4120,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "FastBrowser",

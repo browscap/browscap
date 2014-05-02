@@ -1,6 +1,7 @@
 {
   "division": "Epiphany",
   "sortIndex": 4020,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Epiphany",

@@ -3,6 +3,7 @@
   "versions": ["5.0", "5.1", "5.2", "5.3"],
   "sortIndex": 2044,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

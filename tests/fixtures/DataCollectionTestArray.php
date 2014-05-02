@@ -63,6 +63,7 @@ return array(
                 ),
             ),
         ),
+        'split-file' => 'C',
     ),
     2 => array(
         'division'   => 'Division2',
@@ -80,6 +81,7 @@ return array(
                 ),
             ),
         ),
+        'split-file' => 'B',
     ),
     3 => array(
         'division'   => 'Division1',
@@ -130,6 +132,7 @@ return array(
                 ),
             ),
         ),
+        'split-file' => 'A',
     ),
     4 => array(
         'division'   => 'Default Browser',

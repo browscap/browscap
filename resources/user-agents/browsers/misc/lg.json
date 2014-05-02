@@ -1,6 +1,7 @@
 {
   "division": "LG",
   "sortIndex": 6700,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "LG",

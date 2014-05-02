@@ -2,6 +2,7 @@
   "division": "AOL 9.1\/IE 8.0",
   "sortIndex": 3790,
   "lite": true,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "AOL 9.1\/IE 8.0",

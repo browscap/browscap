@@ -1,6 +1,7 @@
 {
   "division": "Search Engines",
   "sortIndex": 250,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Search Engines",

@@ -1,6 +1,7 @@
 {
   "division": "Clipish",
   "sortIndex": 3250,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Clipish",

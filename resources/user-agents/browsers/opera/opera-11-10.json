@@ -3,6 +3,7 @@
   "versions": ["11.10", "11.11"],
   "sortIndex": 2860,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

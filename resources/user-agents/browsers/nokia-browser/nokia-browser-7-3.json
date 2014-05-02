@@ -1,6 +1,7 @@
 {
   "division": "Nokia Browser 7.3",
   "sortIndex": 7950,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Nokia Browser 7.3",

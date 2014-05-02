@@ -1,6 +1,7 @@
 {
   "division": "IEMobile 5.5",
   "sortIndex": 5900,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "IEMobile 5.5",

@@ -2,6 +2,7 @@
   "division": "Nutch",
   "sortIndex": 291,
   "lite": true,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Nutch test crawler",

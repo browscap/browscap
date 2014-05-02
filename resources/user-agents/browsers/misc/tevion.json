@@ -1,6 +1,7 @@
 {
   "division": "Tevion",
   "sortIndex": 10800,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Tevion",

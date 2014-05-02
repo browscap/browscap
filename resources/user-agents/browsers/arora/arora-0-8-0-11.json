@@ -2,6 +2,7 @@
   "division": "Arora #MAJORVER#.#MINORVER#",
   "versions": ["0.8", "0.9", "0.10", "0.11"],
   "sortIndex": 2190,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",

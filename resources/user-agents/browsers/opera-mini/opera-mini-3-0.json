@@ -3,6 +3,7 @@
   "versions": [3, "3.1"],
   "sortIndex": 2042,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

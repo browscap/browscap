@@ -1,6 +1,7 @@
 {
   "division": "m65bot",
   "sortIndex": 700,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "m65bot",

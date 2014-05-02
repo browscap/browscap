@@ -1,6 +1,7 @@
 {
   "division": "jBrowser",
   "sortIndex": 6410,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "jBrowser",

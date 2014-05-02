@@ -2,6 +2,7 @@
   "division": "MSN",
   "sortIndex": 1220,
   "lite": true,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "MSN",

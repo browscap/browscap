@@ -1,6 +1,7 @@
 {
   "division": "Chimera",
   "sortIndex": 2320,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Chimera",

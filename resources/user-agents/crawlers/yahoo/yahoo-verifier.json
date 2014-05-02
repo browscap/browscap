@@ -1,6 +1,7 @@
 {
   "division": "Yahoo Verifier",
   "sortIndex": 1390,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Yahoo Verifier",

@@ -1,6 +1,7 @@
 {
   "division": "SonyEricsson 4.2",
   "sortIndex": 10680,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "SonyEricsson 4.2",

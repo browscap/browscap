@@ -3,6 +3,7 @@
   "versions": ["3.4", "5.0"],
   "sortIndex": 1990,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER#",

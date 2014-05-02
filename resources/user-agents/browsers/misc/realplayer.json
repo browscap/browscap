@@ -1,6 +1,7 @@
 {
   "division": "Realplayer",
   "sortIndex": 7120,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Realplayer",

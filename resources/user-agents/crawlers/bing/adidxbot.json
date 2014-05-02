@@ -1,6 +1,7 @@
 {
   "division": "adidxbot",
   "sortIndex": 1231,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "adidxbot",

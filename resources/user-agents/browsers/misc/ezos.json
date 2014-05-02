@@ -1,6 +1,7 @@
 {
   "division": "EZOS",
   "sortIndex": 4090,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "EZOS",

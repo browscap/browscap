@@ -3,6 +3,7 @@
   "versions": ["4.0"],
   "sortIndex": 1910,
   "lite": true,
+  "split-file": "A",
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",

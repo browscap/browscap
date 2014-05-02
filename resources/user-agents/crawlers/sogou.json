@@ -1,6 +1,7 @@
 {
   "division": "Sogou",
   "sortIndex": 220,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Sogou",

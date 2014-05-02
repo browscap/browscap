@@ -2,6 +2,7 @@
   "division": "Netbox",
   "sortIndex": 2180,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "Netbox",

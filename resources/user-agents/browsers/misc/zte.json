@@ -1,6 +1,7 @@
 {
   "division": "ZTE",
   "sortIndex": 11130,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "ZTE",

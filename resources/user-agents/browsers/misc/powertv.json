@@ -2,6 +2,7 @@
   "division": "PowerTV",
   "sortIndex": 2190,
   "lite": true,
+  "split-file": "D",
   "userAgents": [
     {
       "userAgent": "PowerTV",

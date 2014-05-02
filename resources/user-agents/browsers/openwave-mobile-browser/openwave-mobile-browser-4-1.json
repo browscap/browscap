@@ -1,6 +1,7 @@
 {
   "division": "Openwave Mobile Browser 4.1",
   "sortIndex": 8150,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 4.1",

@@ -1,6 +1,7 @@
 {
   "division": "UC Browser Generic",
   "sortIndex": 1175,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "UC Browser Generic",

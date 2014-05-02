@@ -1,6 +1,7 @@
 {
   "division": "IE Mac",
   "sortIndex": 5840,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "IE Mac",

@@ -1,6 +1,7 @@
 {
   "division": "MobileRSS",
   "sortIndex": 7280,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "MobileRSS",

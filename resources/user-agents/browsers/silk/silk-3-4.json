@@ -1,8 +1,9 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "3.10", "3.11", "3.12"],
+  "versions": ["3.4", "3.5", "3.6", "3.7"],
   "sortIndex": 1864,
   "lite": true,
+  "split-file": "B",
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
@@ -187,7 +188,6 @@
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "Platform_Version": "4.2",
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",
@@ -205,7 +205,6 @@
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
-            "Platform_Version": "4.2",
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
             "Device_Type": "Tablet",

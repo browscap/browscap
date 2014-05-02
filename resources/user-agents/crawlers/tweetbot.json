@@ -1,6 +1,7 @@
 {
   "division": "Tweetbot",
   "sortIndex": 10850,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Tweetbot",

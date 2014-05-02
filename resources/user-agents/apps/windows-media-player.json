@@ -1,6 +1,7 @@
 {
   "division": "Windows Media Player",
   "sortIndex": 1560,
+  "split-file": "C",
   "userAgents": [
     {
       "userAgent": "Windows Media Player",

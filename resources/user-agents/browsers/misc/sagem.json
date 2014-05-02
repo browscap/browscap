@@ -1,6 +1,7 @@
 {
   "division": "Sagem",
   "sortIndex": 10170,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Sagem",

@@ -1,6 +1,7 @@
 {
   "division": "Mercator",
   "sortIndex": 7150,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Mercator",

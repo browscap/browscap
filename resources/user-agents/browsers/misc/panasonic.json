@@ -1,6 +1,7 @@
 {
   "division": "Panasonic",
   "sortIndex": 9730,
+  "split-file": "E",
   "userAgents": [
     {
       "userAgent": "Panasonic",
