@@ -136,19 +136,49 @@ class BrowscapXmlGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (!in_array($key, array('DefaultProperties', '*'))) {
+                $parent = $allDivisions[$properties['Parent']];
+            } else {
+                $parent = array();
+            }
+
+            $propertiesToOutput = $properties;
+
+            foreach ($propertiesToOutput as $property => $value) {
+                if (!isset($parent[$property])) {
+                    continue;
+                }
+
+                $parentProperty = $parent[$property];
+
+                switch ((string) $parentProperty) {
+                    case 'true':
+                        $parentProperty = true;
+                        break;
+                    case 'false':
+                        $parentProperty = false;
+                        break;
+                    default:
+                        $parentProperty = trim($parentProperty);
+                        break;
+                }
+
+                if ($parentProperty != $value) {
+                    continue;
+                }
+
+                unset($propertiesToOutput[$property]);
+            }
+
             // create output - xml
             $xmlWriter->startElement('browscapitem');
             $xmlWriter->writeAttribute('name', $key);
 
-            $this->createItem($xmlWriter, 'PropertyName', $key);
-            $this->createItem($xmlWriter, 'AgentID', $counter);
-            $this->createItem($xmlWriter, 'MasterParent', $this->detectMasterParent($key, $properties));
-
-            $valueOutput = ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true');
-            $this->createItem($xmlWriter, 'LiteMode', $valueOutput);
-            unset($valueOutput);
-
             foreach ($allProperties as $property) {
+                if (!isset($propertiesToOutput[$property])) {
+                    continue;
+                }
+
                 if (!CollectionParser::isOutputProperty($property)) {
                     continue;
                 }
@@ -157,11 +187,13 @@ class BrowscapXmlGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $this->createItem($xmlWriter, $property, $this->formatValue($property, $properties));
+                $this->createItem($xmlWriter, $property, $this->formatValue($property, $propertiesToOutput));
             }
 
             $xmlWriter->endElement(); // browscapitem
             file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
+
+            unset($propertiesToOutput);
         }
 
         unset($allDivisions, $allProperties, $counter, $key, $properties, $property);
