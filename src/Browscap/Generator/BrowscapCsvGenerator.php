@@ -46,6 +46,10 @@ class BrowscapCsvGenerator extends AbstractGenerator
                 continue;
             }
 
+            if (CollectionParser::isExtraProperty($property)) {
+                continue;
+            }
+
             $output .= ',"' . $property . '"';
         }
 
@@ -75,10 +79,10 @@ class BrowscapCsvGenerator extends AbstractGenerator
 
             foreach ($allProperties as $property) {
                 if (!CollectionParser::isOutputProperty($property)) {
-                    // $this->logger->debug(
-                        // 'property "' . $property . '" is not defined to be in the output -> skipped'
-                    // );
+                    continue;
+                }
 
+                if (CollectionParser::isExtraProperty($property)) {
                     continue;
                 }
 
