@@ -15,7 +15,6 @@
 </gjk_browscap_version>
 <browsercapitems>
 <browscapitem name="DefaultProperties">
-<item name="Parent" value=""/>
 <item name="Comment" value="DefaultProperties"/>
 <item name="Browser" value="DefaultProperties"/>
 <item name="Version" value="0.0"/>
