@@ -43,7 +43,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -60,7 +60,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -73,7 +73,7 @@
             "Device_Pointing_Method": "unknown"
           },
           "platforms": [
-            "Android"
+            "Android", "Android_4_0"
           ]
         },
         {
@@ -89,7 +89,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -106,7 +106,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         }
       ]

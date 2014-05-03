@@ -884,7 +884,7 @@ return [
             'Platform' => 'JAVA',
             'isMobileDevice' => true,
             'Crawler' => false,
-            'Device_Name' => 'unknown',
+            'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'unknown'
