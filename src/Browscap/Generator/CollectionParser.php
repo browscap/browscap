@@ -247,11 +247,15 @@ class CollectionParser
         }
 
         $output = array(
-            $uaData['userAgent'] => array(
-                'lite' => $lite,
-                'sortIndex' => $sortIndex,
-                'division' => $divisionName
-            ) + $platformData + $uaProperties
+            $uaData['userAgent'] => array_merge(
+                array(
+                    'lite' => $lite,
+                    'sortIndex' => $sortIndex,
+                    'division' => $divisionName
+                ),
+                $platformData,
+                $uaProperties
+            )
         );
 
         if (isset($uaData['children']) && is_array($uaData['children'])) {
@@ -275,7 +279,10 @@ class CollectionParser
                     );
                 }
 
-                $output += $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
+                $output = array_merge(
+                    $output,
+                    $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+                );
             }
         }
 
@@ -315,12 +322,13 @@ class CollectionParser
         // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
-
                 $platformData = $this->getDataCollection()->getPlatform($platform);
                 $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
 
-                $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
+                $properties = array_merge(
+                    $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
+                    $this->parseProperties($platformData['properties'], $majorVer, $minorVer)
+                );
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
@@ -339,7 +347,7 @@ class CollectionParser
                         );
                     }
 
-                    $properties += $childProperties;
+                    $properties = array_merge($properties, $childProperties);
                 }
 
                 $output[$uaBase] = $properties;
@@ -364,7 +372,7 @@ class CollectionParser
                     );
                 }
 
-                $properties += $childProperties;
+                $properties = array_merge($properties, $childProperties);
             }
 
             $output[$uaDataChild['match']] = $properties;
