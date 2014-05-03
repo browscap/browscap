@@ -394,16 +394,11 @@
         {
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
           "properties": {
-            "Browser": "Adobe Dialog Manager",
-            "Platform": "Mac OS X",
-            "Platform_Version": "10",
-            "Platform_Maker": "Apple Inc",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
-          }
+            "Browser": "Adobe Dialog Manager"
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",

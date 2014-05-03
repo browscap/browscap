@@ -4,13 +4,12 @@
   "userAgents": [
     {
       "userAgent": "IEMobile 5.5",
+      "platform": "WinMobile",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -13,7 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "JAVA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

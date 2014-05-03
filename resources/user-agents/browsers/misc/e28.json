@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "E28",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "E28",
         "Browser_Type": "Browser",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

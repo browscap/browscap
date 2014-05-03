@@ -659,29 +659,15 @@
         },
         {
           "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* MSIE 6.0*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) CEF\/*Safari\/*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "WinXPb_32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/*",
@@ -965,29 +951,15 @@
         },
         {
           "match": "ZJZT (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "explorer (compatible*; MSIE 8.0; Windows NT 5.1; Trident\/4.0*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "explorer 9 (compatible*; MSIE 9.0*; Windows 7; Trident\/5.0*",

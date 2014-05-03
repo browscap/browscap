@@ -79,9 +79,11 @@
         {
           "match": "FeedDemon\/* (*)",
           "properties": {
-            "Browser": "FeedDemon",
-            "Platform": "Win32"
-          }
+            "Browser": "FeedDemon"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "FeedDigest\/* (*)",
@@ -176,9 +178,11 @@
         {
           "match": "Mobitype * (compatible; Mozilla\/*; MSIE *.*; Windows *)",
           "properties": {
-            "Browser": "Mobitype",
-            "Platform": "Win32"
-          }
+            "Browser": "Mobitype"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (*; Rojo *; http:\/\/www.rojo.com\/corporate\/help\/agg; *)*",

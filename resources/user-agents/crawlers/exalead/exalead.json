@@ -44,9 +44,11 @@
             "Browser": "Exabot",
             "Version": "3.0",
             "MajorVer": "3",
-            "MinorVer": "0",
-            "Platform": "Liberate"
-          }
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Liberate"
+          ]
         },
         {
           "match": "Exalead NG\/*",

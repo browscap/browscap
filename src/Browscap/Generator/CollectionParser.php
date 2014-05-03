@@ -226,11 +226,12 @@ class CollectionParser
 
         $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-        if (array_key_exists('Platform', $uaProperties)
+        if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))
+            && (array_key_exists('Platform', $uaProperties)
             || array_key_exists('Platform_Description', $uaProperties)
             || array_key_exists('Platform_Maker', $uaProperties)
             || array_key_exists('Platform_Bits', $uaProperties)
-            || array_key_exists('Platform_Version', $uaProperties)
+            || array_key_exists('Platform_Version', $uaProperties))
         ) {
             throw new \LogicException(
                 'the properties array contains platform data for key "' . $uaData['userAgent']

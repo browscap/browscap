@@ -51,15 +51,15 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; NetBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Platform": "NetBSD"
-          }
+          "platforms": [
+            "NetBSD"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
-          "properties": {
-            "Platform": "Win32"
-          }
+          "platforms": [
+            "Win32"
+          ]
         }
       ]
     }

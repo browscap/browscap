@@ -629,7 +629,9 @@
         "Win32": "true",
         "Win64": "false",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
+        "Device_Name": "Windows Desktop",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     },
     "Win3.1": {
@@ -2157,6 +2159,13 @@
         "Platform_Bits": "32"
       }
     },
+    "Brew_3_0": {
+      "match": "*Brew 3.0*",
+      "inherits": "Brew",
+      "properties": {
+        "Platform_Version": "3.0"
+      }
+    },
     "Brew_3_1": {
       "match": "*Brew 3.1*",
       "inherits": "Brew",
@@ -2421,6 +2430,83 @@
         "Device_Name": "general Mobile Device",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "FirefoxOS": {
+      "match": "*Gecko/*",
+      "properties": {
+        "Platform": "FirefoxOS",
+        "Platform_Maker": "Mozilla Foundation",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "PalmOS": {
+      "match": "*Palm OS*",
+      "properties": {
+        "Platform": "PalmOS",
+        "Platform_Maker": "Palm",
+        "Win32": "false",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "PalmOS_3": {
+      "match": "*Palm OS*",
+      "inherits": "PalmOS",
+      "properties": {
+        "Platform_Version": "3.0"
+      }
+    },
+    "Amiga": {
+      "match": "*AmigaOS*",
+      "properties": {
+        "Platform": "Amiga OS",
+        "Platform_Maker": "Amiga",
+        "Win32": "false",
+        "isMobileDevice": "false",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "CellOS": {
+      "match": "*CellOS*",
+      "properties": {
+        "Platform": "CellOS",
+        "Platform_Maker": "Sony",
+        "Win32": "false",
+        "isMobileDevice": "false",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "WyderOS": {
+      "match": "*WyderOS*",
+      "properties": {
+        "Platform": "WyderOS"
+      }
+    },
+    "Liberate": {
+      "match": "*Liberate*",
+      "properties": {
+        "Platform": "Liberate"
       }
     }
   }

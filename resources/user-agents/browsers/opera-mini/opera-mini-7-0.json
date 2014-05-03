@@ -42,10 +42,12 @@
         {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "RIM OS",
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
@@ -80,97 +82,109 @@
         },
         {
           "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "WinMobile"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "Brew"
-          }
+          "platforms": [
+            "Brew"
+          ]
         },
         {
           "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "Bada"
-          }
+          "platforms": [
+            "Bada_1_0"
+          ]
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Maker": "Samsung"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-C3262* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-C3262",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-S3802",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-S5292* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-S5292",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-C3312R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-C3312R",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-S5222R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-S5222R",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "Brew"
-          }
+          "platforms": [
+            "Brew"
+          ]
         }
       ]
     }

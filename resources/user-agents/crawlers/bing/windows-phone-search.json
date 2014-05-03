@@ -20,9 +20,6 @@
         {
           "match": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Version": "7.10",
-            "Platform_Maker": "Microsoft Corporation",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Type": "Mobile Phone",
@@ -30,7 +27,10 @@
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "7 Trophy"
-          }
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
         }
       ]
     }

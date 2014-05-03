@@ -48,21 +48,21 @@
         },
         {
           "match": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
-          "properties": {
-            "Platform": "Win"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/*(*Symbian*Opera Mobi*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(*SymbOS*Opera Mobi*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(#PLATFORM#Opera Mobi*)*",

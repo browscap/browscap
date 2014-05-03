@@ -313,126 +313,116 @@
         {
           "match": "HTC-ST6356\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ST6356",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "ST6356"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "HTC-ST7377\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ST7377",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "ST7377"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "HTC_Touch2_T3335 Opera\/9.50 (Windows*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Touch2 T3335",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "Touch2 T3335"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "MOT-A3100\/ Opera\/9.5* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A3100",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Name": "A3100"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "O2\/1.0\/SEX1i\/R3AA Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*UP.Link\/*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/9.5 (Microsoft Windows; PPC*Opera Mobile\/*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/9.5* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "PPC; 240x320; HTC_Mega-T3333-Orange; OpVer* Opera\/9.5* (Microsoft Windows 6.5; U;*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Mega T3333",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "Mega T3333"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "SAMSUNG-GT-B7300\/* (Windows CE; Opera Mobi; ?*Opera 9.5",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-B7300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "GT-B7300"
-          }
+          },
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

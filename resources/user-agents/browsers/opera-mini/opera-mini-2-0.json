@@ -41,28 +41,30 @@
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/2.*)*",
           "properties": {
-            "Platform": "RIM OS",
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/2.*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini\/2.*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(Windows Mobile*Opera Mini\/2.*)*",
-          "properties": {
-            "Platform": "WinMobile"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

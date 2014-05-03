@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Group Sense PDA",
+      "platform": "PalmOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "GSPDA",
         "Browser_Type": "Browser",
-        "Platform": "PalmOS",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Palm Web",
+      "platform": "webOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palm Web",
         "Browser": "Palm Web",
-        "Platform": "webOS",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

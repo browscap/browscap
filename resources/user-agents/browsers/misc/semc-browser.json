@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "SEMC Browser",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SEMC Browser",
         "Browser": "SEMC Browser",
-        "Platform": "JAVA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

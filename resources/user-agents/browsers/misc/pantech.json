@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Pantech",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Pantech",
         "Browser_Type": "Browser",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

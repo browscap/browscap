@@ -4,12 +4,12 @@
   "userAgents": [
     {
       "userAgent": "Blazer",
+      "platform": "PalmOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Handspring Blazer",
         "Browser_Bits": "32",
         "Platform_Bits": "32",
-        "Platform": "Palm",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",

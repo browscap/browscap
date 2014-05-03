@@ -335,16 +335,11 @@
         {
           "match": "ZiggsBot (*compatible*;*MSIE 6.0; Windows NT 5.2*)",
           "properties": {
-            "Browser": "ZiggsBot",
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+            "Browser": "ZiggsBot"
+          },
+          "platforms": [
+            "WinXPb_32"
+          ]
         },
         {
           "match": "IP*Works!*\/*",
@@ -424,9 +419,11 @@
         {
           "match": "Mozilla\/2.0 (compatible; NEWT ActiveX; Win32)",
           "properties": {
-            "Browser": "NEWT ActiveX",
-            "Platform": "Win32"
-          }
+            "Browser": "NEWT ActiveX"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "Mozilla\/3.0 (compatible; Indy Library)",

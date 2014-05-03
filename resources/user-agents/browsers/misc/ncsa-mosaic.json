@@ -4,13 +4,13 @@
   "userAgents": [
     {
       "userAgent": "Mosaic",
+      "platform": "OpenVMS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NCSA Mosaic",
         "Browser": "Mosaic",
         "Frames": "true",
-        "Tables": "true",
-        "Platform": "OpenVMS"
+        "Tables": "true"
       },
       "children": [
         {
@@ -38,12 +38,7 @@
             "Browser": "VMS_Mosaic",
             "Version": "8.3",
             "MajorVer": "8",
-            "MinorVer": "3",
-            "Platform": "OpenVMS",
-            "Platform_Maker": "HP",
-            "Device_Type": "Desktop",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP"
+            "MinorVer": "3"
           }
         }
       ]

@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "MAUI",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "MAUI Wap Browser",
         "Browser_Type": "Browser",
-        "Platform": "MTK\/Nucleus OS",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -43,9 +43,9 @@
         },
         {
           "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
-          "properties": {
-            "Platform": "unknown"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

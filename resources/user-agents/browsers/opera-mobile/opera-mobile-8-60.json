@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile 8.60",
+      "platform": "WinMobile",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -28,9 +29,7 @@
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Maker": "Opera Software ASA",
         "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
-        "Platform": "Windows Mobile OS",
-        "Platform_Maker": "Microsoft Corporation"
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
       },
       "children": [
         {

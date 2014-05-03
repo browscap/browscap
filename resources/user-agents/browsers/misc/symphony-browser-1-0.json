@@ -4,14 +4,13 @@
   "userAgents": [
     {
       "userAgent": "Symphony Browser 1.0",
+      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Symphony Browser",
         "Browser_Type": "Browser",
         "Version": "1.0",
         "MajorVer": "1",
-        "Platform": "Linux Smartphone OS",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

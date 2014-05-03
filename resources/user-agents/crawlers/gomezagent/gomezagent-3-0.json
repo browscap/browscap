@@ -19,55 +19,27 @@
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.0; *GomezAgent 3.0)*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinVista",
-            "Platform_Version": "6.0",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "Vista_32"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 5.2; WOW64; Trident\/4.0; *GomezAgent 3.0)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "64",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "WinXPb_64"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; Windows NT 6.1; WOW64; Trident\/4.0; *GomezAgent 3.0)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Win7",
-            "Platform_Version": "6.1",
-            "Platform_Bits": "64",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "Win7_64"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*; GomezAgent 3.0) Gecko\/* Firefox\/*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Win7",
-            "Platform_Version": "6.1",
-            "Platform_Bits": "64",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "platforms": [
+            "Win7_64"
+          ]
         }
       ]
     }

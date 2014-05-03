@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Generic Java Crawler",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Generic Java Crawler",
         "Browser": "Generic Java Crawler",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",

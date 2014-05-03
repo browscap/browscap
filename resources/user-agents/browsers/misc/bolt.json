@@ -28,10 +28,11 @@
           "properties": {
             "Version": "0.862",
             "MinorVer": "862",
-            "Platform": "Linux Smartphone OS",
-            "Platform_Maker": "Linux Foundation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "Maemo"
+          ]
         }
       ]
     }

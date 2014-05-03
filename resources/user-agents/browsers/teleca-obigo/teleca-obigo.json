@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Teleca-Obigo",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
         "Browser": "Teleca-Obigo",
-        "Platform": "JAVA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,18 +22,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.0*; U; *)*",
-          "properties": {
-            "Platform": "Brew",
-            "Platform_Version": "3.0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.1*; U; *)*",
-          "properties": {
-            "Platform": "Brew",
-            "Platform_Version": "3.1"
-          }
+          "match": "Mozilla\/5.0 (compatible; Teleca *; #PLATFORM#; U; *)*",
+          "platforms": [
+            "Brew_3_0", "Brew_3_1"
+          ]
         },
         {
           "match": "AU-MIC*"
@@ -453,18 +445,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.0*",
-          "properties": {
-            "Platform": "Brew",
-            "Platform_Version": "3.0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; Brew 3.1*",
-          "properties": {
-            "Platform": "Brew",
-            "Platform_Version": "3.1"
-          }
+          "match": "Mozilla\/5.0 (compatible; Teleca *; #PLATFORM#",
+          "platforms": [
+            "Brew_3_0", "Brew_3_1"
+          ]
         },
         {
           "match": "AU-MIC"

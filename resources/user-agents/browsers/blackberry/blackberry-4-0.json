@@ -92,42 +92,42 @@
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/4.0*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "BlackBerry 7290",
             "Device_Name": "BlackBerry 7290"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7520\/4.0*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "BlackBerry 7520",
             "Device_Name": "BlackBerry 7520"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry7100\/4.0*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Code_Name": "BlackBerry 7100",
             "Device_Name": "BlackBerry 7100"
-          }
+          },
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry7280\/4.0*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Code_Name": "BlackBerry 7280",
             "Device_Name": "BlackBerry 7280"
-          }
+          },
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

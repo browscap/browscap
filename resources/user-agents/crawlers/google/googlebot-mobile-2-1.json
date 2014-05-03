@@ -63,13 +63,14 @@
         {
           "match": "SAMSUNG-SGH-E250\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UP.Browser\/* (GUI) MMP\/2.0 (compatible; Googlebot-Mobile\/2.1; +http:\/\/www.google.com\/bot.html)*",
           "properties": {
-            "Platform": "JAVA",
-            "Platform_Maker": "Oracle",
             "Device_Code_Name": "SGH E250",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "SGH E250"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/2.1; ?http:\/\/www.google.com\/bot.html)"
@@ -83,13 +84,14 @@
         {
           "match": "SAMSUNG-SGH-E250\/1.0 * UP.Browser\/6.2* (compatible; Googlebot-Mobile\/2.1;  http:\/\/www.google.com\/bot.html)",
           "properties": {
-            "Platform": "JAVA",
-            "Platform_Maker": "Oracle",
             "Device_Code_Name": "SGH E250",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "SGH E250"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

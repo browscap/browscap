@@ -103,9 +103,11 @@
         {
           "match": "DavClnt*",
           "properties": {
-            "Browser": "Microsoft-WebDAV",
-            "Platform": "Win7"
-          }
+            "Browser": "Microsoft-WebDAV"
+          },
+          "platforms": [
+            "Win7_32"
+          ]
         },
         {
           "match": "MSN Feed Manager",

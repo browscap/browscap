@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Playstation",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Playstation",
         "Browser": "Playstation",
-        "Platform": "WAP",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -69,10 +69,10 @@
     },
     {
       "userAgent": "Sony PS3",
+      "platform": "CellOS",
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony PS3",
-        "Platform": "CellOS",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
         "Device_Name": "Playstation 3"

@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "IBrowse",
+      "platform": "Amiga",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IBrowse",
         "Browser": "IBrowse",
-        "Platform": "Amiga",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

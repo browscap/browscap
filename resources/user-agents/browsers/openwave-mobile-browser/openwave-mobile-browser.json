@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
         "Browser": "Openwave Mobile Browser",
-        "Platform": "JAVA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

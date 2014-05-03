@@ -4,12 +4,12 @@
   "userAgents": [
     {
       "userAgent": "DoCoMo",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "DoCoMo",
         "Browser": "DoCoMo",
         "Browser_Type": "Browser",
-        "Platform": "DoCoMo",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

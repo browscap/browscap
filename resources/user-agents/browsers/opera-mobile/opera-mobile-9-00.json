@@ -34,22 +34,20 @@
         {
           "match": "Opera\/9.* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/9.* (Windows*; Opera Mobi\/*) Presto\/2.*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

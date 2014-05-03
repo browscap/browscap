@@ -47,88 +47,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 5.2; *) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 6.0; *) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinVista",
-            "Platform_Version": "6.0",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Windows NT 5.2*) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Windows NT 6.0*) Gecko\/* Googlebot?2.1*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinVista",
-            "Platform_Version": "6.0",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?2.1*",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32"
+          ]
         }
       ]
     }

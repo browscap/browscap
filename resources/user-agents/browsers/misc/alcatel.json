@@ -4,11 +4,10 @@
   "userAgents": [
     {
       "userAgent": "Alcatel",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Alcatel",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
