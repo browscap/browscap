@@ -2039,7 +2039,14 @@
       "match": "*RIM Tablet OS*",
       "inherits": "RIMOS",
       "properties": {
-        "Platform": "RIM Tablet OS"
+        "Platform": "RIM Tablet OS",
+        "Device_Maker": "RIM",
+        "Device_Type": "Tablet",
+        "Device_Brand_Name": "RIM",
+        "Device_Code_Name": "PlayBook",
+        "Device_Name": "PlayBook",
+        "Device_Pointing_Method": "touchscreen",
+        "isTablet": "true"
       }
     },
     "RIM_Tablet_OS_1": {
