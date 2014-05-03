@@ -16,17 +16,15 @@
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 8.0; Windows NT 6.1; Trident\/4.0*); 360Spider",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "Win7_32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:*)  Firefox\/*; 360Spider*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }
