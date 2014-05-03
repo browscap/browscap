@@ -26,7 +26,10 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop"
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "isMobileDevice": "false"
       },
       "children": [
         {
@@ -40,7 +43,7 @@
           }
         },
         {
-          "match": "WinWAP-PRO\/3.1 (3.1.6.192)*",
+          "match": "WinWAP-PRO\/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
