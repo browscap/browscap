@@ -226,14 +226,9 @@ class CollectionParser
 
         $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-        if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))
-            && (array_key_exists('Platform', $uaProperties)
-            || array_key_exists('Platform_Description', $uaProperties)
-            || array_key_exists('Platform_Maker', $uaProperties)
-            || array_key_exists('Platform_Bits', $uaProperties)
-            || array_key_exists('Platform_Version', $uaProperties))
-        ) {
-            throw new \LogicException(
+        if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))) {
+            $this->checkPlatformData(
+                $uaProperties,
                 'the properties array contains platform data for key "' . $uaData['userAgent']
                 . '", please use the "platform" keyword'
             );
@@ -335,17 +330,11 @@ class CollectionParser
                 ) {
                     $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
 
-                    if (array_key_exists('Platform', $childProperties)
-                        || array_key_exists('Platform_Description', $childProperties)
-                        || array_key_exists('Platform_Maker', $childProperties)
-                        || array_key_exists('Platform_Bits', $childProperties)
-                        || array_key_exists('Platform_Version', $childProperties)
-                    ) {
-                        throw new \LogicException(
-                            'the properties array contains platform data for key "' . $uaBase
-                            . '", please use the "platforms" keyword'
-                        );
-                    }
+                    $this->checkPlatformData(
+                        $childProperties,
+                        'the properties array contains platform data for key "' . $uaBase
+                        . '", please use the "platforms" keyword'
+                    );
 
                     $properties = array_merge($properties, $childProperties);
                 }
@@ -360,17 +349,11 @@ class CollectionParser
             ) {
                 $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
 
-                if (array_key_exists('Platform', $childProperties)
-                    || array_key_exists('Platform_Description', $childProperties)
-                    || array_key_exists('Platform_Maker', $childProperties)
-                    || array_key_exists('Platform_Bits', $childProperties)
-                    || array_key_exists('Platform_Version', $childProperties)
-                ) {
-                    throw new \LogicException(
-                        'the properties array contains platform data for key "' . $ua
-                        . '", please use the "platforms" keyword'
-                    );
-                }
+                $this->checkPlatformData(
+                    $childProperties,
+                    'the properties array contains platform data for key "' . $ua
+                    . '", please use the "platforms" keyword'
+                );
 
                 $properties = array_merge($properties, $childProperties);
             }
@@ -379,6 +362,26 @@ class CollectionParser
         }
 
         return $output;
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkPlatformData(array $properties, $message)
+    {
+        if (array_key_exists('Platform', $properties)
+            || array_key_exists('Platform_Description', $properties)
+            || array_key_exists('Platform_Maker', $properties)
+            || array_key_exists('Platform_Bits', $properties)
+            || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
     }
 
     /**
