@@ -886,7 +886,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'unknown',
-            'Device_Type' => 'Mobile Device',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown'
         ],
     ],
@@ -1003,7 +1003,7 @@ return [
             'Browser' => 'Silk',
             'Version' => '3.8',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.0',
             'isMobileDevice' => true,
             'Crawler' => false,
             'Device_Name' => 'Kindle Fire HD 7',
