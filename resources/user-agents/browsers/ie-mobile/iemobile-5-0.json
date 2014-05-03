@@ -35,10 +35,9 @@
       "children": [
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 5.*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

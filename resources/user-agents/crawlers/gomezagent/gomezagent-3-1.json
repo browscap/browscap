@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "GomezAgent 3.1",
+      "platforms": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Site Monitors",
@@ -11,8 +12,6 @@
         "Crawler": "true",
         "Browser": "Gomez Site Monitor",
         "Browser_Maker": "Compuware APM",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
         "Version": "3.1",
         "MajorVer": "3",
         "MinorVer": "1"

@@ -77,12 +77,13 @@
         {
           "match": "Mozilla\/5.0 (*Android*Mobile*) Gecko\/* Firefox\/* commoncrawl.org\/research\/\/Nutch-1.7*",
           "properties": {
-            "Browser_Bits": "32",
             "Version": "1.7",
             "MajorVer": "1",
-            "MinorVer": "7",
-            "Platform_Bits": "32"
-          }
+            "MinorVer": "7"
+          },
+          "platforms": [
+            "AndroidMobile"
+          ]
         },
         {
           "match": "Nutch\/* (OpenX Spider)",

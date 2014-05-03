@@ -47,11 +47,12 @@
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/3.8*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "BlackBerry 7290",
             "Device_Name": "BlackBerry 7290"
-          }
+          },
+          "platforms": [
+            "Win2000"
+          ]
         }
       ]
     }

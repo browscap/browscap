@@ -36,31 +36,27 @@
       "children": [
         {
           "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE*)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; 240x320)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; PPC*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; Smartphone*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

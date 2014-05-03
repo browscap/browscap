@@ -171,10 +171,11 @@
         {
           "match": "eStyleSearch * (compatible; MSIE 6.0; Windows NT 5.0)",
           "properties": {
-            "Browser": "eStyleSearch",
-            "Platform_Version": "5.0",
-            "Win32": "true"
-          }
+            "Browser": "eStyleSearch"
+          },
+          "platforms": [
+            "Win2000"
+          ]
         },
         {
           "match": "ezic.com http agent *",
@@ -488,10 +489,11 @@
         {
           "match": "PigBlock (Windows NT 5.1; U)*",
           "properties": {
-            "Browser": "PigBlock",
-            "Platform_Version": "5.1",
-            "Win32": "true"
-          }
+            "Browser": "PigBlock"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Pockey*",
@@ -1089,25 +1091,19 @@
         {
           "match": "Windows-Live-Social-Object-Extractor-Engine*",
           "properties": {
-            "Browser": "Windows-Live-Social-Object-Extractor-Engine",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Windows-Live-Social-Object-Extractor-Engine"
           }
         },
         {
           "match": "Windows-Update-Agent*",
           "properties": {
-            "Browser": "Windows-Update-Agent",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Windows-Update-Agent"
           }
         },
         {
           "match": "WinSysClean*",
           "properties": {
-            "Browser": "WinSysClean",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "WinSysClean"
           }
         }
       ]

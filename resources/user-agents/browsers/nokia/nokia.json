@@ -37,7 +37,6 @@
             "Version": "7.2",
             "MajorVer": "7",
             "MinorVer": "2",
-            "Platform_Version": "9.4",
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Version": "525",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."

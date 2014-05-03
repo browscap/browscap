@@ -951,34 +951,42 @@
         {
           "match": "NokiaC2-01\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "C2-01",
             "Device_Name": "C2"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaC3-01\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "C3",
             "Device_Name": "C3"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaC6-00\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "C6",
             "Device_Name": "C6"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaC7-00\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "C7",
             "Device_Name": "C7"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaN70-1\/2.05*",
@@ -1018,35 +1026,41 @@
         {
           "match": "NokiaX2-00\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "X2",
             "Device_Name": "X2",
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
             "RenderingEngine_Maker": "Apple Inc"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaX2-01\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "X2",
             "Device_Name": "X2",
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
             "RenderingEngine_Maker": "Apple Inc"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "NokiaX3-02\/5.0 (*) * Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "properties": {
-            "Platform_Maker": "Symbian Foundation",
             "Device_Code_Name": "X3",
             "Device_Name": "X3",
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
             "RenderingEngine_Maker": "Apple Inc"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "6600\/1.0 (*; Series60\/*; SymbianOS\/*",

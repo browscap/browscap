@@ -15,7 +15,6 @@
         "Browser": "IEMobile",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Platform_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -44,8 +43,6 @@
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "Windows Phone 8S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -56,8 +53,6 @@
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "Windows Phone 8X",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",

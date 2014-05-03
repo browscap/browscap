@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",
+      "platform": "WinMobile",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -12,9 +13,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Crawler": "true"
       },
       "children": [
         {

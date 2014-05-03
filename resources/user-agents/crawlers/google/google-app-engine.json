@@ -14,10 +14,9 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; *) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: *",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }

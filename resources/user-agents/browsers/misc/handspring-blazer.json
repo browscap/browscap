@@ -8,8 +8,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Handspring Blazer",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",

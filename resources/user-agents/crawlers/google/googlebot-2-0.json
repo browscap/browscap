@@ -21,10 +21,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?2.0 (+http:\/\/www.google.com\/bot.html)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "Windows"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?2.*",

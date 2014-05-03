@@ -4,15 +4,14 @@
   "userAgents": [
     {
       "userAgent": "GomezAgent",
+      "platforms": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Site Monitors",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Gomez Site Monitor",
-        "Browser_Maker": "Compuware APM",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32"
+        "Browser_Maker": "Compuware APM"
       },
       "children": [
         {

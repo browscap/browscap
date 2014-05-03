@@ -68,7 +68,6 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* Nokia500\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
-            "Platform_Version": "S3",
             "Device_Code_Name": "500",
             "Device_Name": "500"
           }
@@ -76,7 +75,6 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
-            "Platform_Version": "S3",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8"
           }
@@ -84,7 +82,6 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
-            "Platform_Version": "S3",
             "Device_Code_Name": "X7-00",
             "Device_Name": "X7"
           }

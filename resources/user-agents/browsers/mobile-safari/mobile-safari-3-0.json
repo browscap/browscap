@@ -91,7 +91,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -108,7 +107,6 @@
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
@@ -130,7 +128,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -147,7 +144,6 @@
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",

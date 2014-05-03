@@ -49,10 +49,9 @@
         },
         {
           "match": "MOT-Q9\/01.02.23R Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera 8.6*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

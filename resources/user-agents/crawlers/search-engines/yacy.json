@@ -19,14 +19,8 @@
         },
         {
           "match": "yacybot (freeworld?global; i386 Linux *http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
-            "Linux"
+            "Linux_32"
           ]
         },
         {
@@ -41,60 +35,32 @@
         },
         {
           "match": "yacybot (amd64 linux *http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
-            "Linux"
+            "Linux_64"
           ]
         },
         {
           "match": "yacybot (freeworld\/global; amd64 Linux 3.2 *http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64"
-          },
           "platforms": [
-            "Linux"
+            "Linux_64"
           ]
         },
         {
           "match": "yacybot (freeworld?global; amd64 Linux*http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
-            "Linux"
+            "Linux_64"
           ]
         },
         {
           "match": "yacybot (freeworld?global; i386 Linux *-amd64*http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
-            "Linux"
+            "Linux_64"
           ]
         },
         {
           "match": "yacybot (sciencenet?global; amd64 Linux *http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
-            "Linux"
+            "Linux_64"
           ]
         },
         {
