@@ -2051,25 +2051,22 @@
     },
     "RIM_Tablet_OS_1": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "1.0"
       }
     },
     "RIM_Tablet_OS_2_0": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "2.0"
       }
     },
     "RIM_Tablet_OS_2_1": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "2.1"
       }
     },

@@ -768,7 +768,9 @@
         {
           "match": "Zend_Http_Client",
           "properties": {
-            "Browser": "Zend_Http_Client"
+            "Browser": "Zend_Http_Client",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Zend Technologies Inc"
           }
         },
         {
