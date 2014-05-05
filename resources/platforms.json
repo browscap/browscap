@@ -1301,8 +1301,8 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinRT8",
-        "Platform_Version": "6.3",
-        "Platform_Description": "Windows RT 8.1",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows RT 8",
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Name": "Surface",
