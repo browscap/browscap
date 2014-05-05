@@ -8,6 +8,8 @@
         "Parent": "DefaultProperties",
         "Comment": "w3m",
         "Browser": "w3m",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sakamoto Hironori",
         "Frames": "true",
         "Tables": "true",
         "Device_Name": "PC",
