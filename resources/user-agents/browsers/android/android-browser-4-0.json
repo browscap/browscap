@@ -7109,7 +7109,7 @@
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad"
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
@@ -7124,6 +7124,10 @@
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad"
+            "isMobileDevice": "true",
+            "Device_Type": "FonePad",
+            "isTablet": "true",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
