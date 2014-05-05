@@ -1275,7 +1275,6 @@
       "match": "*Windows NT 6.3*WOW64*",
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
         "Platform": "Win8.1",
         "Platform_Bits": "64",
         "Platform_Version": "6.3",
