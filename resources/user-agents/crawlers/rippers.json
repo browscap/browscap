@@ -520,6 +520,25 @@
           }
         },
         {
+          "match": "Python-urllib/*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation"
+          }
+        },
+        {
+          "match": "Python-urllib/2.7*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
           "match": "RepoMonkey*",
           "properties": {
             "Browser": "RepoMonkey"
