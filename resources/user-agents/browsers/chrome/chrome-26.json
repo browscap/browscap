@@ -155,7 +155,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "isTablet": "true",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
