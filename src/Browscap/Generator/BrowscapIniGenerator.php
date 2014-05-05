@@ -141,18 +141,22 @@ class BrowscapIniGenerator extends AbstractGenerator
                 // skip that division if the extra properties are not in the output
                 $propertiesToCheck = $propertiesToOutput;
 
+                // should be present alltime
                 unset($propertiesToCheck['Parent']);
 
-                foreach (array_keys($propertiesToCheck) as $property) {
-                    if (!CollectionParser::isOutputProperty($property)
-                        || CollectionParser::isExtraProperty($property)
-                    ) {
-                        unset($propertiesToCheck[$property]);
+                if (!empty($propertiesToCheck)) {
+                    // do not check divisions with no other properties
+                    foreach (array_keys($propertiesToCheck) as $property) {
+                        if (!CollectionParser::isOutputProperty($property)
+                            || CollectionParser::isExtraProperty($property)
+                        ) {
+                            unset($propertiesToCheck[$property]);
+                        }
                     }
-                }
 
-                if (empty($propertiesToCheck)) {
-                    continue;
+                    if (empty($propertiesToCheck)) {
+                        continue;
+                    }
                 }
             }
 
