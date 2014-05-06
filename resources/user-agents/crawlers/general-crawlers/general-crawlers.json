@@ -1235,8 +1235,8 @@
         {
           "match": "Mozilla\/5.0 (compatible; proximic; +http:\/\/www.proximic.com\/info\/spider.php)*",
           "properties": {
-            "Browser": "Proximic Spider",
-            "Browser_Maker": "www.proximic.com"
+            "Browser": "proximic",
+            "Browser_Maker": "Proximic, Inc."
           }
         },
         {
