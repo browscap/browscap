@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "i-mobile",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "i-mobile",
         "Browser_Type": "Browser",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

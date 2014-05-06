@@ -305,9 +305,7 @@
         {
           "match": "Microsoft Windows Network Diagnostics",
           "properties": {
-            "Browser": "Microsoft Windows Network Diagnostics",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Microsoft Windows Network Diagnostics"
           }
         },
         {
@@ -386,24 +384,20 @@
         {
           "match": "Mozilla\/4.0 (compatible; Win32)",
           "properties": {
-            "Browser": "Unknown Crawler",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "Unknown Crawler"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
           "properties": {
-            "Browser": "Adobe Dialog Manager",
-            "Platform": "Mac OS X",
-            "Platform_Version": "10",
-            "Platform_Maker": "Apple Inc",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
-          }
+            "Browser": "Adobe Dialog Manager"
+          },
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
@@ -1152,9 +1146,7 @@
         {
           "match": "West Wind Internet Protocols*",
           "properties": {
-            "Browser": "Versatel",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Versatel"
           }
         },
         {
@@ -1250,10 +1242,11 @@
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; Trident\/?.0; Alcohol Search*",
           "properties": {
-            "Browser": "Alcohol Search",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "Alcohol Search"
+          },
+          "platforms": [
+            "NT"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE *; AugustBot\/*",
@@ -1276,18 +1269,20 @@
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot http:\/\/www.crystalsemantics.com\/service-navigation\/imprint\/useragent\/)*",
           "properties": {
-            "Browser": "CrystalSemanticsBot",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "CrystalSemanticsBot"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT *; FeedFinder-2.0; http:\/\/bloggz.se\/crawler)*",
           "properties": {
-            "Browser": "FeedFinder",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "FeedFinder"
+          },
+          "platforms": [
+            "NT"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
@@ -1297,18 +1292,18 @@
         },
         {
           "match": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla\/4.0; Windows NT*)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "NT"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 4.01; Windows95)",
           "properties": {
-            "Browser": "Generic Crawler",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "Generic Crawler"
+          },
+          "platforms": [
+            "Win95_2"
+          ]
         },
         {
           "match": "GSLFbot*",
@@ -1345,10 +1340,11 @@
         {
           "match": "Mozilla\/5.0 (X11; U; Linux x86_64; *; rv:*) Gecko\/* ThumbShotsBot*",
           "properties": {
-            "Browser": "ThumbShotsBot",
-            "Browser_Bits": "64",
-            "Platform_Bits": "64"
-          }
+            "Browser": "ThumbShotsBot"
+          },
+          "platforms": [
+            "Linux_64"
+          ]
         },
         {
           "match": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
@@ -1387,14 +1383,13 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (*Windows NT 5.1*) Lightspeedsystems*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
           "properties": {
-            "Browser": "Lightspeedsystems",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Description": "Windows XP",
-            "Win32": "true"
-          }
+            "Browser": "Lightspeedsystems"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; PaperLiBot\/*",

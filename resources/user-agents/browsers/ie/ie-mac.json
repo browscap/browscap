@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "IE Mac",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IE",
@@ -26,9 +27,6 @@
         "RenderingEngine_Version": "4.0",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
         "RenderingEngine_Maker": "Microsoft Corporation",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",

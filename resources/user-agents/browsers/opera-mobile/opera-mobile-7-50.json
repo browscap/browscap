@@ -34,66 +34,74 @@
         {
           "match": "MOT-A780\/R52_G_0* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola*Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Linux Smartphone OS",
-            "Platform_Maker": "Linux Foundation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "Maemo"
+          ]
         },
         {
           "match": "MOT-A780\/R532_G_0* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola*Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Linux Smartphone OS",
-            "Platform_Maker": "Linux Foundation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "Maemo"
+          ]
         },
         {
           "match": "MOT-A780\/E680I_G_0* Opera 7.5*",
           "properties": {
-            "Platform": "Symbian OS",
-            "Platform_Maker": "Symbian Foundation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "MOT-A780\/R52_G_0* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Motorola*Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "MOT-A780\/R532_G_0* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Motorola*Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "MOT-E680i\/E680I_G_0D.* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E680i*Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "MOT-E680i\/E680I_G_0D.C* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola; *) Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "MOT-E680i\/E680I_G_0D.C3.A8P Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola; *) Profile\/MIDP-2.0*",
           "properties": {
-            "Platform": "Windows Mobile OS",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

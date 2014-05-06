@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "platform": "Bada_2_0",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -13,9 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Bada",
-        "Platform_Description": "Samsung Bada",
-        "Platform_Version": "2.0",
         "Win32": "false",
         "Device_Maker": "Samsung",
         "Frames": "true",

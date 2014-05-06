@@ -4,14 +4,12 @@
   "userAgents": [
     {
       "userAgent": "NetNewsWire",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetNewsWire",
         "Browser": "NetNewsWire",
         "isSyndicationReader": "true",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",

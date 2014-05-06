@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser 7.8",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Nokia Browser",
@@ -30,8 +31,6 @@
         "Version": "7.8",
         "MajorVer": "7",
         "MinorVer": "8",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
         "JavaScript": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",

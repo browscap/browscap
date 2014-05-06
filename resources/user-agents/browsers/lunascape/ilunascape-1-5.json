@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "iLunascape",
@@ -13,8 +14,6 @@
         "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Lunascape Corporation",
-        "Platform": "Win32",
-        "Platform_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

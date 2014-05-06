@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Skyfire",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Skyfire",
@@ -31,8 +32,6 @@
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0",
-            "Platform": "MacOSX",
-            "Platform_Version": "10.5",
             "isMobileDevice": "false",
             "Device_Type": "Desktop",
             "Device_Name": "Macintosh",

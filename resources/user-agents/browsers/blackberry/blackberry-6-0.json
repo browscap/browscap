@@ -4,13 +4,12 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry 6.0",
+      "platform": "RIMOS_6_0",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
-        "Platform": "RIM OS",
-        "Platform_Maker": "Research In Motion Limited",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -25,7 +24,6 @@
         "Device_Brand_Name": "RIM",
         "Version": "6.0",
         "MajorVer": "6",
-        "Platform_Version": "6.0",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."

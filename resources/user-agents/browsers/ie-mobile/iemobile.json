@@ -5,12 +5,11 @@
   "userAgents": [
     {
       "userAgent": "IEMobile",
+      "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
-        "Platform": "WinCE",
-        "Platform_Description": "Windows CE",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

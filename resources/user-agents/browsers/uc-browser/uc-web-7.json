@@ -136,9 +136,6 @@
         {
           "match": "JUC(Linux;?;2.2*;XT702*)UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Platform": "Android",
-            "Platform_Version": "2.2",
-            "Platform_Maker": "Google Inc",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT702",
             "Device_Maker": "Motorola",
@@ -168,9 +165,6 @@
         {
           "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Platform": "iOS",
-            "Platform_Version": "4.3",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Mobile Device",
             "Device_Code_Name": "iPod",
             "Device_Maker": "Apple Inc",
@@ -184,9 +178,6 @@
         {
           "match": "JUC (Linux; U; 4.0*; *) UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Platform": "Android",
-            "Platform_Version": "4.0",
-            "Platform_Maker": "Google Inc",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [

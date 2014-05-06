@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Arora #MAJORVER#.#MINORVER#",
@@ -13,7 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Win32",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

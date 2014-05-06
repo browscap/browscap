@@ -33,15 +33,15 @@
         },
         {
           "match": "Mozilla\/*(*MSIE*AOL*Mac*",
-          "properties": {
-            "Platform": "MacOSX"
-          }
+          "platforms": [
+            "OSX"
+          ]
         },
         {
           "match": "Mozilla\/*(*MSIE*AOL*Win*",
-          "properties": {
-            "Platform": "Win"
-          }
+          "platforms": [
+            "Windows"
+          ]
         }
       ]
     }

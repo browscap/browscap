@@ -4,13 +4,11 @@
   "userAgents": [
     {
       "userAgent": "K-Meleon Generic",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "K-Meleon",
         "Browser_Type": "Browser",
-        "Platform": "Win32",
-        "Platform_Version": "",
-        "Platform_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

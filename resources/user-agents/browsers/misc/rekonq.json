@@ -4,13 +4,11 @@
   "userAgents": [
     {
       "userAgent": "rekonq",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "rekonq",
         "Browser_Type": "Browser",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

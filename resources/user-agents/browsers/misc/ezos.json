@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "EZOS",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "EZOS",
         "Browser_Type": "Browser",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

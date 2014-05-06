@@ -5,13 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Maxthon 2.0",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Browser_Maker": "Maxthon International Limited",
-        "Platform": "Win32",
-        "Platform_Version": "",
-        "Platform_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

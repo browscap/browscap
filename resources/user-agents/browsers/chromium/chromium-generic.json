@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Chromium Generic",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium Generic",
         "Browser": "Chromium",
-        "Platform": "Linux",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

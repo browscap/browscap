@@ -6,14 +6,16 @@
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
+      "platform": "Debian",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
         "Browser": "Iceweasel",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Debian",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Debian",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

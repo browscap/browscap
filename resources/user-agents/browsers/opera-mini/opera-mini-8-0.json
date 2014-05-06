@@ -33,23 +33,26 @@
         {
           "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "RIM OS",
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
@@ -57,12 +60,14 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -71,43 +76,46 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "WinMobile"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "Brew"
-          }
+          "platforms": [
+            "Brew"
+          ]
         },
         {
           "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "Bada"
-          }
+          "platforms": [
+            "Bada_1_0"
+          ]
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

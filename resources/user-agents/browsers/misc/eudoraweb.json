@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "EudoraWeb",
+      "platform": "PalmOS_3",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "EudoraWeb",
         "Browser_Type": "Browser",
-        "Platform": "PalmOS",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

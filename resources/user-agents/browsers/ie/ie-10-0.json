@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "IE 10.0",
         "Browser": "IE",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
         "Version": "10.0",
         "MajorVer": "10",
         "MinorVer": "0",

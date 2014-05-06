@@ -867,10 +867,11 @@
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE *; Windows NT; Girafabot; girafabot at girafa dot com; http:\/\/www.girafa.com)",
           "properties": {
-            "Browser": "Girafabot",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+            "Browser": "Girafabot"
+          },
+          "platforms": [
+            "NT"
+          ]
         },
         {
           "match": "Mozilla\/4.0(?compatible*; MSIE 6.0; Qihoo *)",

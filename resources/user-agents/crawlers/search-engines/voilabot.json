@@ -20,10 +20,9 @@
         },
         {
           "match": "Mozilla\/5.0 (*Windows NT 5.1*) VoilaBot*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }

@@ -4,11 +4,10 @@
   "userAgents": [
     {
       "userAgent": "GSmart",
+      "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "GSmart",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

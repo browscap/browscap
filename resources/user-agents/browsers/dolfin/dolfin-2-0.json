@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "platform": "Bada_1_0",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -13,9 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Bada",
-        "Platform_Description": "Samsung Bada",
-        "Platform_Version": "1.0",
         "Win32": "false",
         "Device_Maker": "Samsung",
         "Frames": "true",
@@ -40,9 +38,11 @@
         {
           "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*MIDP*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Maker": "Samsung"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Samsung-* Dolphin/#MAJORVER#.*"
@@ -64,11 +64,13 @@
         {
           "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*MIDP*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",

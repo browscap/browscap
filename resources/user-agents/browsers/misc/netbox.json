@@ -22,9 +22,9 @@
       "children": [
         {
           "match": "Mozilla\/3.01 (compatible; Netbox\/*; Linux*)",
-          "properties": {
-            "Platform": "Linux"
-          }
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     }

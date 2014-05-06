@@ -57,6 +57,7 @@
     },
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -64,7 +65,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

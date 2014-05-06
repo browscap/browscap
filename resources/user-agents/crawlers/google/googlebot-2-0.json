@@ -21,38 +21,15 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?2.0 (+http:\/\/www.google.com\/bot.html)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "Windows"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *) Gecko\/* Googlebot?2.*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko\/* Googlebot?2.*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?2.*",
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }

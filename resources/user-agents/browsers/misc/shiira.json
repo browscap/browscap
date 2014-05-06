@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Shiira",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Shiira",
         "Browser": "Shiira",
-        "Platform": "MacOSX",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

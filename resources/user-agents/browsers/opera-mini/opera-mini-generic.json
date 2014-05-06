@@ -28,23 +28,26 @@
         {
           "match": "Opera\/*(Android*Opera Mini*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini*)*",
           "properties": {
-            "Platform": "RIM OS",
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "Opera\/*(iPhone*Opera Mini*)*",
           "properties": {
-            "Platform": "iOS",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -53,43 +56,46 @@
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
-          }
+          },
+          "platforms": [
+            "iOS"
+          ]
         },
         {
           "match": "Opera\/*(J2ME\/MIDP*Opera Mini*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(Windows Mobile*Opera Mini*)*",
-          "properties": {
-            "Platform": "WinMobile"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/*(*BREW*Opera Mini*)*",
-          "properties": {
-            "Platform": "Brew"
-          }
+          "platforms": [
+            "Brew"
+          ]
         },
         {
           "match": "Opera\/*(*Bada*Opera Mini*)*",
-          "properties": {
-            "Platform": "Bada"
-          }
+          "platforms": [
+            "Bada_1_0"
+          ]
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

@@ -15,9 +15,11 @@
         {
           "match": "*Amiga*",
           "properties": {
-            "Browser": "Amiga",
-            "Platform": "Amiga"
-          }
+            "Browser": "Amiga"
+          },
+          "platforms": [
+            "Amiga"
+          ]
         },
         {
           "match": "*avantbrowser*",
@@ -89,12 +91,14 @@
           "match": "Kopiczek\/* (WyderOS*; *)",
           "properties": {
             "Browser": "Kopiczek",
-            "Platform": "WyderOS",
             "IFrames": "true",
             "VBScript": "true",
             "JavaApplets": "true",
             "CssVersion": "2"
-          }
+          },
+          "platforms": [
+            "WyderOS"
+          ]
         },
         {
           "match": "Mozilla\/* (*) - BrowseX (*)",
@@ -105,9 +109,11 @@
         {
           "match": "Mozilla\/* (Win32;*Escape?*; ?)",
           "properties": {
-            "Browser": "Escape",
-            "Platform": "Win32"
-          }
+            "Browser": "Escape"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (compatible; ibisBrowser)",
@@ -128,15 +134,14 @@
             "Version": "2.30",
             "MajorVer": "2",
             "MinorVer": "30",
-            "Platform": "Linux",
-            "Win16": "false",
-            "Win32": "false",
-            "Win64": "false",
             "IFrames": "true",
             "VBScript": "true",
             "JavaApplets": "true",
             "CssVersion": "3"
-          }
+          },
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "NetRecorder*",
@@ -178,9 +183,11 @@
             "Version": "1.69",
             "MajorVer": "1",
             "MinorVer": "69",
-            "Platform": "Win16",
             "CssVersion": "3"
-          }
+          },
+          "platforms": [
+            "Win16"
+          ]
         },
         {
           "match": "*CaptiveNetworkSupport*wispr*",

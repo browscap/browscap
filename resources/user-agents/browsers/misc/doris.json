@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Doris",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Doris",
         "Browser_Type": "Browser",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Mobile Safari 3.0",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari 3.0",
@@ -14,9 +15,6 @@
         "Version": "3.0",
         "MajorVer": "3",
         "MinorVer": "0",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "Platform_Description": "iPod, iPhone & iPad",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -93,7 +91,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -110,7 +107,6 @@
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",
@@ -132,7 +128,6 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -149,7 +144,6 @@
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*Mobile\/*",
           "properties": {
-            "Platform_Version": "1.0",
             "Device_Name": "iPod",
             "Device_Maker": "Apple",
             "Device_Type": "Mobile Device",

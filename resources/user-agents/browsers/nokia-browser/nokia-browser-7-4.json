@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser 7.4",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Nokia Browser",
@@ -30,8 +31,6 @@
         "Version": "7.4",
         "MajorVer": "7",
         "MinorVer": "4",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
         "JavaScript": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
@@ -97,7 +96,6 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.4*",
           "properties": {
-            "Platform_Version": "S3",
             "Device_Code_Name": "E7-00",
             "Device_Name": "E7"
           }

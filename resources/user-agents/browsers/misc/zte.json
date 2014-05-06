@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "ZTE",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -21,8 +22,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "ZTE",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

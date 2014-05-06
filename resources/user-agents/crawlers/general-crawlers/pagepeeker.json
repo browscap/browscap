@@ -17,20 +17,20 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
-          "properties": {
-            "Browser_Bits": "64",
-            "Platform_Bits": "64"
-          }
+          "platforms": [
+            "Linux_64"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
           "properties": {
-            "Browser_Bits": "64",
             "Version": "2.1",
             "MajorVer": "2",
-            "MinorVer": "1",
-            "Platform_Bits": "64"
-          }
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux_64"
+          ]
         }
       ]
     }

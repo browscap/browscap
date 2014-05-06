@@ -5,15 +5,13 @@
   "userAgents": [
     {
       "userAgent": "Mobile Safari Generic",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari Generic",
         "Browser": "Safari",
         "Browser_Type": "Browser",
         "Browser_Maker": "Apple Inc",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
-        "Platform_Description": "iPod, iPhone & iPad",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Jasmine 1.0",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
@@ -11,7 +12,6 @@
         "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0",
-        "Platform": "JAVA",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",

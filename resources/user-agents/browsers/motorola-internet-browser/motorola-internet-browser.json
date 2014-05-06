@@ -128,10 +128,6 @@
         {
           "match": "MOT-MP*\/* Mozilla\/* (compatible*; MSIE *; Windows CE*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [
@@ -141,10 +137,6 @@
         {
           "match": "MOT-MP*\/* Mozilla\/4.0 (compatible*; MSIE *; Windows CE*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [

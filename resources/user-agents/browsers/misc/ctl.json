@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "CTL",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -26,8 +27,6 @@
         "Crawler": "false",
         "Device_Type": "Mobile Device",
         "Browser": "CTL",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "isMobileDevice": "true"
       },
       "children": [

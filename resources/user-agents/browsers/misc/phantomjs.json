@@ -4,14 +4,12 @@
   "userAgents": [
     {
       "userAgent": "PhantomJS",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "PhantomJS",
         "Browser_Type": "Browser",
         "Browser_Maker": "phantomjs.org",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
