@@ -6741,6 +6741,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ODYS-NOON Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "Noon",
             "Device_Maker": "Odys",
             "Device_Brand_Name": "Odys",
