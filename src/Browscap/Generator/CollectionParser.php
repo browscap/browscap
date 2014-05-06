@@ -226,14 +226,9 @@ class CollectionParser
 
         $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-        if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))
-            && (array_key_exists('Platform', $uaProperties)
-            || array_key_exists('Platform_Description', $uaProperties)
-            || array_key_exists('Platform_Maker', $uaProperties)
-            || array_key_exists('Platform_Bits', $uaProperties)
-            || array_key_exists('Platform_Version', $uaProperties))
-        ) {
-            throw new \LogicException(
+        if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))) {
+            $this->checkPlatformData(
+                $uaProperties,
                 'the properties array contains platform data for key "' . $uaData['userAgent']
                 . '", please use the "platform" keyword'
             );
@@ -247,11 +242,15 @@ class CollectionParser
         }
 
         $output = array(
-            $uaData['userAgent'] => array(
-                'lite' => $lite,
-                'sortIndex' => $sortIndex,
-                'division' => $divisionName
-            ) + $platformData + $uaProperties
+            $uaData['userAgent'] => array_merge(
+                array(
+                    'lite' => $lite,
+                    'sortIndex' => $sortIndex,
+                    'division' => $divisionName
+                ),
+                $platformData,
+                $uaProperties
+            )
         );
 
         if (isset($uaData['children']) && is_array($uaData['children'])) {
@@ -275,7 +274,10 @@ class CollectionParser
                     );
                 }
 
-                $output += $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer);
+                $output = array_merge(
+                    $output,
+                    $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+                );
             }
         }
 
@@ -315,31 +317,26 @@ class CollectionParser
         // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
-
                 $platformData = $this->getDataCollection()->getPlatform($platform);
                 $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
 
-                $properties += $this->parseProperties($platformData['properties'], $majorVer, $minorVer);
+                $properties = array_merge(
+                    $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
+                    $this->parseProperties($platformData['properties'], $majorVer, $minorVer)
+                );
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
                 ) {
                     $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
 
-                    if (array_key_exists('Platform', $childProperties)
-                        || array_key_exists('Platform_Description', $childProperties)
-                        || array_key_exists('Platform_Maker', $childProperties)
-                        || array_key_exists('Platform_Bits', $childProperties)
-                        || array_key_exists('Platform_Version', $childProperties)
-                    ) {
-                        throw new \LogicException(
-                            'the properties array contains platform data for key "' . $uaBase
-                            . '", please use the "platforms" keyword'
-                        );
-                    }
+                    $this->checkPlatformData(
+                        $childProperties,
+                        'the properties array contains platform data for key "' . $uaBase
+                        . '", please use the "platforms" keyword'
+                    );
 
-                    $properties += $childProperties;
+                    $properties = array_merge($properties, $childProperties);
                 }
 
                 $output[$uaBase] = $properties;
@@ -352,25 +349,39 @@ class CollectionParser
             ) {
                 $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
 
-                if (array_key_exists('Platform', $childProperties)
-                    || array_key_exists('Platform_Description', $childProperties)
-                    || array_key_exists('Platform_Maker', $childProperties)
-                    || array_key_exists('Platform_Bits', $childProperties)
-                    || array_key_exists('Platform_Version', $childProperties)
-                ) {
-                    throw new \LogicException(
-                        'the properties array contains platform data for key "' . $ua
-                        . '", please use the "platforms" keyword'
-                    );
-                }
+                $this->checkPlatformData(
+                    $childProperties,
+                    'the properties array contains platform data for key "' . $ua
+                    . '", please use the "platforms" keyword'
+                );
 
-                $properties += $childProperties;
+                $properties = array_merge($properties, $childProperties);
             }
 
             $output[$uaDataChild['match']] = $properties;
         }
 
         return $output;
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkPlatformData(array $properties, $message)
+    {
+        if (array_key_exists('Platform', $properties)
+            || array_key_exists('Platform_Description', $properties)
+            || array_key_exists('Platform_Maker', $properties)
+            || array_key_exists('Platform_Bits', $properties)
+            || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
     }
 
     /**

@@ -2039,30 +2039,34 @@
       "match": "*RIM Tablet OS*",
       "inherits": "RIMOS",
       "properties": {
-        "Platform": "RIM Tablet OS"
+        "Platform": "RIM Tablet OS",
+        "Device_Maker": "RIM",
+        "Device_Type": "Tablet",
+        "Device_Brand_Name": "RIM",
+        "Device_Code_Name": "PlayBook",
+        "Device_Name": "PlayBook",
+        "Device_Pointing_Method": "touchscreen",
+        "isTablet": "true"
       }
     },
     "RIM_Tablet_OS_1": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "1.0"
       }
     },
     "RIM_Tablet_OS_2_0": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "2.0"
       }
     },
     "RIM_Tablet_OS_2_1": {
       "match": "*RIM Tablet OS*",
-      "inherits": "RIMOS",
+      "inherits": "RIM_Tablet_OS",
       "properties": {
-        "Platform": "RIM Tablet OS",
         "Platform_Version": "2.1"
       }
     },

@@ -1,10 +1,11 @@
 {
-  "division": "iTunes",
+  "division":
+    "iTunes",
   "sortIndex": 6360,
   "userAgents": [
     {
       "userAgent": "iTunes",
-      "platform": "iOS",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "iTunes",
