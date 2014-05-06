@@ -2951,9 +2951,9 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "Nova 8",
-            "Device_Maker": "CatSound",
-            "Device_Brand_Name": "CatSound",
+            "Device_Code_Name": "Cat Nova 8",
+            "Device_Maker": "Cat Sound",
+            "Device_Brand_Name": "Weltbild",
             "Device_Name": "Tablet PC"
           },
           "platforms": [
