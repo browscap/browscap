@@ -1512,7 +1512,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(KHTML, like Gecko)*CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
