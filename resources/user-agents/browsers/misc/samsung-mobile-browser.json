@@ -31,8 +31,6 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Samsung\/I7110\/* ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "properties": {
-            "Platform": "Symbian OS",
-            "Platform_Maker": "Symbian Foundation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I7110",
             "Device_Maker": "Samsung",
@@ -41,19 +39,23 @@
             "RenderingEngine_Name": "WebKit",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
             "RenderingEngine_Maker": "Apple Inc"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "SEC-SGHD730 SymbianOS\/*",
           "properties": {
-            "Platform": "Symbian OS",
-            "Platform_Maker": "Symbian Foundation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SGH D730",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "SGH D730"
-          }
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Mozilla\/SMB3(Z105)\/Samsung *",

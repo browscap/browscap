@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
@@ -13,9 +14,6 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Browser_Maker": "Comodo Group Inc",
-        "Platform": "Linux",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

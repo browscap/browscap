@@ -57,12 +57,10 @@
     },
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "properties": {
         "Parent": "Yandex Browser #MAJORVER#.#MINORVER#",
         "Browser_Bits": "32",
-        "Platform": "Android",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Google Inc",
         "isMobileDevice": "true",
         "isTablet": "false",
         "Device_Type": "Mobile Phone",

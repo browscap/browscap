@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "FirefoxOS #MAJORVER#.#MINORVER#",
+      "platform": "FirefoxOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -33,8 +34,7 @@
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation",
-        "Platform": "FirefoxOS"
+        "RenderingEngine_Maker": "Mozilla Foundation"
       },
       "children": [
         {

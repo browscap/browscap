@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "OmniWeb 5.11",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OmniWeb 5.11",
@@ -12,7 +13,6 @@
         "Version": "5.11",
         "MajorVer": "5",
         "MinorVer": "11",
-        "Platform": "MacOSX",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

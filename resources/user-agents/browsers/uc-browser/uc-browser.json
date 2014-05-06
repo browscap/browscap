@@ -25,10 +25,12 @@
             "Version": "8.2",
             "MajorVer": "8",
             "MinorVer": "2",
-            "Platform": "JAVA",
             "Device_Name": "Samsung",
             "Device_Maker": "Samsung"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser8.2*UCWEB*Mobile*UNTRUSTED\/*",
@@ -36,10 +38,12 @@
             "Version": "8.2",
             "MajorVer": "8",
             "MinorVer": "2",
-            "Platform": "JAVA",
             "Device_Name": "GT-S5263",
             "Device_Maker": "Samsung"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

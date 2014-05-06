@@ -45,18 +45,22 @@
         {
           "match": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*"

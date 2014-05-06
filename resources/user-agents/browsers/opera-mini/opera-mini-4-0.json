@@ -32,114 +32,132 @@
         {
           "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "Android",
             "Device_Name": "Android",
             "Device_Maker": "Google"
-          }
+          },
+          "platforms": [
+            "Android"
+          ]
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "RIM OS",
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
-          }
+          },
+          "platforms": [
+            "RIMOS"
+          ]
         },
         {
           "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "SymbianOS"
-          }
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "WinMobile"
-          }
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "Brew"
-          }
+          "platforms": [
+            "Brew"
+          ]
         },
         {
           "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "Bada"
-          }
+          "platforms": [
+            "Bada_1_0"
+          ]
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Platform": "JAVA"
-          }
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-E1282T",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-E2252 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-E2252",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-E2202 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-E2202",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SAMSUNG-GT-E3309T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Platform": "JAVA",
             "Device_Name": "GT-E3309T",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
@@ -18,7 +19,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Platform": "SymbianOS",
         "Win32": "false",
         "isMobileDevice": "true",
         "isTablet": "false",

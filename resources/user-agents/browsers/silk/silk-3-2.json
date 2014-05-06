@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
@@ -13,8 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
-        "Platform_Version": "4.0",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -44,7 +43,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -61,7 +60,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -74,7 +73,7 @@
             "Device_Pointing_Method": "unknown"
           },
           "platforms": [
-            "Android"
+            "Android", "Android_4_0"
           ]
         },
         {
@@ -90,7 +89,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         },
         {
@@ -107,7 +106,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android"
+            "Android_4_0"
           ]
         }
       ]

@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "IceDragon #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceDragon #MAJORVER#.#MINORVER#",
@@ -14,8 +15,6 @@
         "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Comodo Group Inc",
-        "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

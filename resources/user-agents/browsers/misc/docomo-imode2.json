@@ -4,12 +4,12 @@
   "userAgents": [
     {
       "userAgent": "DoCoMo imode2",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DoCoMo",
         "Browser": "i-mode Browser",
         "Version": "2.0",
         "MajorVer": "2",
-        "Platform": "DoCoMo",
         "CssVersion": "2"
       },
       "children": [

@@ -4,13 +4,12 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry 4.6",
+      "platform": "RIMOS_4_6",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
-        "Platform": "RIM OS",
-        "Platform_Maker": "Research In Motion Limited",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -25,8 +24,7 @@
         "Device_Brand_Name": "RIM",
         "Version": "4.6",
         "MajorVer": "4",
-        "MinorVer": "6",
-        "Platform_Version": "4.6"
+        "MinorVer": "6"
       },
       "children": [
         {

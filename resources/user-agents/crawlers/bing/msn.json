@@ -25,11 +25,7 @@
           }
         },
         {
-          "match": "Windows-Live-Social-Object-Extractor-Engine\/*",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "match": "Windows-Live-Social-Object-Extractor-Engine\/*"
         },
         {
           "match": "Vancouver*",

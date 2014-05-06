@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Iceowl 1.0",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Iceowl",
@@ -11,8 +12,6 @@
         "MajorVer": "1",
         "Browser_Type": "Browser",
         "Browser_Maker": "Debian",
-        "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

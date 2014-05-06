@@ -37,11 +37,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Browser_Bits": "32",
             "Version": "2.7",
             "MajorVer": "2",
-            "MinorVer": "7",
-            "Platform_Bits": "32"
+            "MinorVer": "7"
           },
           "platforms": [
             "Linux_32", "Win32_B"

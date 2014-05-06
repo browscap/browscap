@@ -5,12 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Pocket PC",
+      "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pocket PC",
         "Browser": "Pocket PC",
-        "Platform": "WinCE",
-        "Platform_Description": "Windows CE",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

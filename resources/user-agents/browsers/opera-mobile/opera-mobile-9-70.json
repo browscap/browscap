@@ -142,56 +142,53 @@
         {
           "match": "Opera\/9.7 (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "Device_Code_Name": "HD2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "HD2"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "HTC_HD_mini_T5555 Opera\/9.7 (Windows NT 5.1; U*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "mini T5555",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "mini T5555"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (HTC-T9199\/*;U;Windows Mobile\/6.5;*;*;CTC\/2.0) Opera\/9.7*",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Version": "6.5",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "T9199",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "T9199"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD2\/* (*Opera\/9.7* (Windows NT 5.1; U*)",
           "properties": {
-            "Browser_Bits": "32",
-            "Platform": "Windows Mobile OS",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "HD2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "HD2"
-          }
+          },
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

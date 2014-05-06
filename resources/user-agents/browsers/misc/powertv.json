@@ -9,7 +9,6 @@
         "Parent": "DefaultProperties",
         "Comment": "PowerTV",
         "Browser": "PowerTV",
-        "Platform": "PowerTV",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -7,7 +7,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Unister",
-        "Platform_Version": "",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

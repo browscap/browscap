@@ -22,10 +22,9 @@
       "children": [
         {
           "match": "Mozilla\/* (compatible*; MSIE *; Windows*; MSN Mobile Proxy)",
-          "properties": {
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
-          }
+          "platforms": [
+            "Windows"
+          ]
         }
       ]
     }

@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "jBrowser",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "jBrowser",
         "Browser_Type": "Browser",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

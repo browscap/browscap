@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser 7.2",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Nokia Browser",
@@ -30,8 +31,6 @@
         "Version": "7.2",
         "MajorVer": "7",
         "MinorVer": "2",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
         "JavaScript": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",

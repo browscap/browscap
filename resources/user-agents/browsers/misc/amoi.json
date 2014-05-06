@@ -4,11 +4,10 @@
   "userAgents": [
     {
       "userAgent": "Amoi",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Amoi",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
       },

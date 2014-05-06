@@ -4,11 +4,10 @@
   "userAgents": [
     {
       "userAgent": "Bellwave",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Bellwave",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
       },

@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Nokia Browser 7.3",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Nokia Browser",
@@ -30,8 +31,6 @@
         "Version": "7.3",
         "MajorVer": "7",
         "MinorVer": "3",
-        "Platform": "Symbian OS",
-        "Platform_Maker": "Symbian Foundation",
         "JavaScript": "true",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
@@ -76,7 +75,6 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
           "properties": {
-            "Platform_Version": "S3",
             "Device_Code_Name": "E7-00",
             "Device_Name": "E7"
           }
@@ -147,7 +145,6 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/9.3; Series60\/* NokiaC5-00*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
           "properties": {
-            "Platform_Version": "9.3",
             "Device_Code_Name": "C5-00",
             "Device_Name": "C5"
           }
@@ -155,7 +152,6 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
           "properties": {
-            "Platform_Version": "9.4",
             "Device_Code_Name": "5230",
             "Device_Name": "Nuron"
           }

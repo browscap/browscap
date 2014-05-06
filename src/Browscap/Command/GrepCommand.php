@@ -134,7 +134,7 @@ class GrepCommand extends Command
         } else {
             $uas = explode("\n", $fileContents);
         }
-        
+
         $foundMode = 0;
         $foundInvisible = 0;
         $foundUnexpected = 0;

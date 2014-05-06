@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Barca Mail Clint",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Email Client",
@@ -26,9 +27,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Barca Mail Clint",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",

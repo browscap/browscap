@@ -4,14 +4,12 @@
   "userAgents": [
     {
       "userAgent": "WinWAP",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "WinWAP",
         "Browser_Type": "Browser",
         "Browser_Bits": "32",
-        "Platform": "JAVA",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Oracle",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -28,7 +26,10 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop"
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "isMobileDevice": "false"
       },
       "children": [
         {
@@ -42,7 +43,7 @@
           }
         },
         {
-          "match": "WinWAP-PRO\/3.1 (3.1.6.192)*",
+          "match": "WinWAP-PRO\/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",

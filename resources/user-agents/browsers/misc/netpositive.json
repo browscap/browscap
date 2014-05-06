@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "NetPositive",
+      "platform": "BeOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetPositive",
         "Browser": "NetPositive",
-        "Platform": "BeOS",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

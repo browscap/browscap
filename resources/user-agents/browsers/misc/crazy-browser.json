@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Crazy Browser #MAJORVER#.#MINORVER#",
@@ -26,9 +27,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser_Maker": "CrazyBrowser.com",
-        "Platform": "Win32",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

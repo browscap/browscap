@@ -4,12 +4,10 @@
   "userAgents": [
     {
       "userAgent": "Chimera",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Mozilla Foundation",
-        "Platform": "MacOSX",
-        "Platform_Version": "10",
-        "Platform_Maker": "Apple Inc",
         "JavaApplets": "true",
         "CssVersion": "2",
         "Device_Code_Name": "Macintosh",

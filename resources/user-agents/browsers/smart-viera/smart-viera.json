@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "SmartViera #MAJORVER#.#MINORVER#",
+      "platform": "FreeBSD",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartViera #MAJORVER#.#MINORVER#",
@@ -13,7 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "FreeBSD",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "SmartTV WebBrowser",
+      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "SmartTV WebBrowser",
         "Browser_Type": "Browser",
-        "Platform": "Linux Smartphone OS",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

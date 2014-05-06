@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
@@ -15,7 +16,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -7455,7 +7455,6 @@
             "Version": "Basic",
             "MajorVer": "Basic",
             "MinorVer": "0",
-            "Platform_Version": "2.3",
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop"
           },
@@ -7471,7 +7470,6 @@
             "Version": "Home",
             "MajorVer": "Home",
             "MinorVer": "0",
-            "Platform_Version": "2.3",
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop"
           },

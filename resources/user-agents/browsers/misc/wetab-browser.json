@@ -4,13 +4,11 @@
   "userAgents": [
     {
       "userAgent": "WeTab-Browser",
+      "platform": "MeeGo",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "WeTab Browser",
         "Browser_Type": "Browser",
-        "Platform": "MeeGo",
-        "Platform_Version": "",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

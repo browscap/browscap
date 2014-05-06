@@ -4,13 +4,12 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry 5.0",
+      "platform": "RIMOS_5_0",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
-        "Platform": "RIM OS",
-        "Platform_Maker": "Research In Motion Limited",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -24,8 +23,7 @@
         "Device_Code_Name": "Blackberry",
         "Device_Brand_Name": "RIM",
         "Version": "5.0",
-        "MajorVer": "5",
-        "Platform_Version": "5.0"
+        "MajorVer": "5"
       },
       "children": [
         {

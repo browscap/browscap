@@ -4,13 +4,11 @@
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager",
+      "platform": "Android",
       "properties": {
         "Parent": "Download Managers",
         "Browser": "Android Download Manager",
         "Browser_Bits": "32",
-        "Platform": "Android",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Google Inc",
         "isMobileDevice": "true",
         "isTablet": "false",
         "Device_Type": "Mobile Phone"

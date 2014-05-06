@@ -4,11 +4,10 @@
   "userAgents": [
     {
       "userAgent": "ccWAP",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ccWAP",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
       },

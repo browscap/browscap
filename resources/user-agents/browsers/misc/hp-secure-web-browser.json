@@ -4,11 +4,11 @@
   "userAgents": [
     {
       "userAgent": "HP Secure Web Browser",
+      "platform": "OpenVMS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "HP Secure Web Browser",
         "Browser": "HP Secure Web Browser",
-        "Platform": "OpenVMS",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

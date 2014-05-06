@@ -23,8 +23,6 @@
           "properties": {
             "Version": "0.8",
             "MinorVer": "8",
-            "Platform": "Darwin",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Maker": "Apple Inc",
@@ -40,8 +38,6 @@
           "properties": {
             "Version": "0.9",
             "MinorVer": "9",
-            "Platform": "Darwin",
-            "Platform_Maker": "Apple Inc",
             "Device_Type": "Desktop",
             "Device_Code_Name": "Macintosh",
             "Device_Maker": "Apple Inc",

@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "Generic Java Crawler",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Generic Java Crawler",
         "Browser": "Generic Java Crawler",
-        "Platform": "JAVA",
-        "Platform_Maker": "Oracle",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
@@ -28,8 +27,7 @@
           "properties": {
             "Version": "1.4",
             "MajorVer": "1",
-            "MinorVer": "4",
-            "Platform_Version": "1.4"
+            "MinorVer": "4"
           }
         },
         {
@@ -37,8 +35,7 @@
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
-            "MinorVer": "5",
-            "Platform_Version": "1.5"
+            "MinorVer": "5"
           }
         },
         {
@@ -46,8 +43,7 @@
           "properties": {
             "Version": "1.6",
             "MajorVer": "1",
-            "MinorVer": "6",
-            "Platform_Version": "1.6"
+            "MinorVer": "6"
           }
         },
         {
@@ -55,8 +51,7 @@
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
-            "MinorVer": "7",
-            "Platform_Version": "1.7"
+            "MinorVer": "7"
           }
         }
       ]

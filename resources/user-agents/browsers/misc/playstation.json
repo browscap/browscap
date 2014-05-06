@@ -5,11 +5,11 @@
   "userAgents": [
     {
       "userAgent": "Playstation",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Playstation",
         "Browser": "Playstation",
-        "Platform": "WAP",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -32,9 +32,14 @@
           "match": "Sony PS2 (Linux)",
           "properties": {
             "Browser": "Sony PS2",
-            "Platform": "Linux",
-            "Device_Name": "PS2"
-          }
+            "Device_Name": "PS2",
+            "isMobileDevice": "true",
+            "Device_Maker": "Sony",
+            "Device_Type": "Console"
+          },
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     },
@@ -67,10 +72,10 @@
     },
     {
       "userAgent": "Sony PS3",
+      "platform": "CellOS",
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony PS3",
-        "Platform": "CellOS",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
         "Device_Name": "Playstation 3"

@@ -81,10 +81,11 @@
             "Browser": "Polaris Samsung",
             "Version": "6.2",
             "MajorVer": "6",
-            "MinorVer": "2",
-            "Platform": "Brew",
-            "Platform_Version": "3.1"
-          }
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
         },
         {
           "match": "Mozilla\/4.0(compatible;Polaris 6.2*;Brew 3.1*)\/* Samsung SCH-U820",
@@ -93,13 +94,14 @@
             "Version": "6.2",
             "MajorVer": "6",
             "MinorVer": "2",
-            "Platform": "Brew",
-            "Platform_Version": "3.1",
             "Device_Name": "SCH-U820",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
-          }
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
         },
         {
           "match": "Mozilla\/4.0(compatible;Polaris 6.2*;Brew 3.1*)\/* LGE VX8575",
@@ -108,13 +110,14 @@
             "Version": "6.2",
             "MajorVer": "6",
             "MinorVer": "2",
-            "Platform": "Brew",
-            "Platform_Version": "3.1",
             "Device_Name": "VX8575",
             "Device_Maker": "LG",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
-          }
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
         }
       ]
     }

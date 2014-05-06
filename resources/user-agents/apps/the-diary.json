@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "The Diary",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -19,8 +20,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "The Diary",
-        "Platform": "iOS",
-        "Platform_Maker": "Apple Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

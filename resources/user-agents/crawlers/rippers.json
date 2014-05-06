@@ -171,10 +171,11 @@
         {
           "match": "eStyleSearch * (compatible; MSIE 6.0; Windows NT 5.0)",
           "properties": {
-            "Browser": "eStyleSearch",
-            "Platform_Version": "5.0",
-            "Win32": "true"
-          }
+            "Browser": "eStyleSearch"
+          },
+          "platforms": [
+            "Win2000"
+          ]
         },
         {
           "match": "ezic.com http agent *",
@@ -335,16 +336,11 @@
         {
           "match": "ZiggsBot (*compatible*;*MSIE 6.0; Windows NT 5.2*)",
           "properties": {
-            "Browser": "ZiggsBot",
-            "Browser_Bits": "32",
-            "Platform": "WinXP",
-            "Platform_Version": "5.2",
-            "Platform_Bits": "32",
-            "Platform_Maker": "Microsoft Corporation",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop"
-          }
+            "Browser": "ZiggsBot"
+          },
+          "platforms": [
+            "WinXPb_32"
+          ]
         },
         {
           "match": "IP*Works!*\/*",
@@ -424,9 +420,11 @@
         {
           "match": "Mozilla\/2.0 (compatible; NEWT ActiveX; Win32)",
           "properties": {
-            "Browser": "NEWT ActiveX",
-            "Platform": "Win32"
-          }
+            "Browser": "NEWT ActiveX"
+          },
+          "platforms": [
+            "Win32"
+          ]
         },
         {
           "match": "Mozilla\/3.0 (compatible; Indy Library)",
@@ -491,10 +489,11 @@
         {
           "match": "PigBlock (Windows NT 5.1; U)*",
           "properties": {
-            "Browser": "PigBlock",
-            "Platform_Version": "5.1",
-            "Win32": "true"
-          }
+            "Browser": "PigBlock"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "Pockey*",
@@ -769,7 +768,9 @@
         {
           "match": "Zend_Http_Client",
           "properties": {
-            "Browser": "Zend_Http_Client"
+            "Browser": "Zend_Http_Client",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Zend Technologies Inc"
           }
         },
         {
@@ -1092,25 +1093,19 @@
         {
           "match": "Windows-Live-Social-Object-Extractor-Engine*",
           "properties": {
-            "Browser": "Windows-Live-Social-Object-Extractor-Engine",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Windows-Live-Social-Object-Extractor-Engine"
           }
         },
         {
           "match": "Windows-Update-Agent*",
           "properties": {
-            "Browser": "Windows-Update-Agent",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "Windows-Update-Agent"
           }
         },
         {
           "match": "WinSysClean*",
           "properties": {
-            "Browser": "WinSysClean",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser": "WinSysClean"
           }
         }
       ]

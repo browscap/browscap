@@ -4,12 +4,11 @@
   "userAgents": [
     {
       "userAgent": "IceApe",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IceApe",
         "Browser_Type": "Browser",
-        "Platform": "Linux",
-        "Platform_Maker": "Linux Foundation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

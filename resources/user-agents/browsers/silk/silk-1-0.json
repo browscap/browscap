@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
@@ -13,8 +14,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Platform": "Android",
-        "Platform_Version": "4.0",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -53,9 +52,7 @@
         {
           "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/533.16 Silk-Accelerated=*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android"
@@ -64,9 +61,7 @@
         {
           "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/533.1 Silk-Accelerated=*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android"

@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Windows-RSS-Platform 2.0",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows-RSS-Platform",
@@ -11,54 +12,21 @@
         "isSyndicationReader": "true",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Maker": "Microsoft",
-        "Device_Brand_Name": "Microsoft",
-        "Device_Name": "Windows Desktop",
         "Version": "2.0",
         "MajorVer": "2"
       },
       "children": [
         {
           "match": "Windows-RSS-Platform\/2.0 (MSIE ?.0; Windows NT *.*)",
-          "properties": {
-            "Platform": "Win32"
-          }
+          "platforms": [
+            "Win32"
+          ]
         },
         {
-          "match": "Windows-RSS-Platform\/2.0 (MSIE *; Windows NT 5.1)",
-          "properties": {
-            "Platform": "WinXP",
-            "Platform_Version": "5.1",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Maker": "unknown"
-          }
-        },
-        {
-          "match": "Windows-RSS-Platform\/2.0 (MSIE *; Windows NT 6.0)",
-          "properties": {
-            "Platform": "WinVista",
-            "Platform_Version": "6.0",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Maker": "unknown"
-          }
-        },
-        {
-          "match": "Windows-RSS-Platform\/2.0 (MSIE *; Windows NT 6.1)",
-          "properties": {
-            "Platform": "Win7",
-            "Platform_Version": "6.1",
-            "Platform_Maker": "Microsoft Corporation",
-            "Win32": "true",
-            "Device_Type": "Desktop",
-            "Device_Maker": "unknown"
-          }
+          "match": "Windows-RSS-Platform\/2.0 (MSIE *; #PLATFORM#)",
+          "platforms": [
+            "WinXPa_32", "Vista_32", "Win7_32"
+          ]
         }
       ]
     }

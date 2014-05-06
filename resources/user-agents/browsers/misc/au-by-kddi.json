@@ -4,13 +4,13 @@
   "userAgents": [
     {
       "userAgent": "AU by KDDI",
+      "platform": "Brew",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "AU",
         "Version": "4.1",
         "MajorVer": "4",
         "MinorVer": "1",
-        "Platform": "Brew",
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
