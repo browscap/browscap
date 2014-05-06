@@ -10,7 +10,7 @@
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
         "Browser": "Thunderbird",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
+        "Browser_Type": "Email Client",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
