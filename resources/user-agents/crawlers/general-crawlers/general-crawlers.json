@@ -1413,6 +1413,13 @@
             "Browser": "Securepoint Content Filter",
             "Browser_Maker": "Securepoint GmbH"
           }
+        },
+        {
+          "match": "www.integromedb.org\/Crawler*",
+          "properties": {
+            "Browser": "IntegromeDB Crawler",
+            "Browser_Maker": "BiologicalNetworks"
+          }
         }
       ]
     }
