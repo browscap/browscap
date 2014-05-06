@@ -10,6 +10,7 @@
         "Comment": "Generic Java Crawler",
         "Browser": "Generic Java Crawler",
         "Browser_Type": "Library",
+        "Browser_Maker": "Oracle",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
