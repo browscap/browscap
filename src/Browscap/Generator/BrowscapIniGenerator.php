@@ -136,30 +136,6 @@ class BrowscapIniGenerator extends AbstractGenerator
                 unset($propertiesToOutput[$property]);
             }
 
-            if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type) {
-                // check if only extra properties are in the actual division
-                // skip that division if the extra properties are not in the output
-                $propertiesToCheck = $propertiesToOutput;
-
-                // should be present alltime
-                unset($propertiesToCheck['Parent']);
-
-                if (!empty($propertiesToCheck)) {
-                    // do not check divisions with no other properties
-                    foreach (array_keys($propertiesToCheck) as $property) {
-                        if (!CollectionParser::isOutputProperty($property)
-                            || CollectionParser::isExtraProperty($property)
-                        ) {
-                            unset($propertiesToCheck[$property]);
-                        }
-                    }
-
-                    if (empty($propertiesToCheck)) {
-                        continue;
-                    }
-                }
-            }
-
             // create output - php
             if ('DefaultProperties' === $key
                 || '*' === $key || empty($properties['Parent'])
