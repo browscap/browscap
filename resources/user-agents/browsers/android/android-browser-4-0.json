@@ -5247,8 +5247,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A511 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A511",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
