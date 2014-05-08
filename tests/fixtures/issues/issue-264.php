@@ -9,7 +9,7 @@ return [
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Creative Commons',
-            'Browser_Modus' => '',
+            'Browser_Modus' => 'unknown',
             'Version' => '1.7',
             'MajorVer' => '1',
             'MinorVer' => '7',
