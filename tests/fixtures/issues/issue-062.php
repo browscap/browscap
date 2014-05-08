@@ -46,7 +46,6 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Description' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
