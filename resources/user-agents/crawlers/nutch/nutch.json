@@ -96,6 +96,16 @@
           "properties": {
             "Browser": "The Crawler"
           }
+        },
+        {
+          "match": "DiscoverEd\/Nutch-1.7 (OER search crawler*",
+          "properties": {
+            "Browser": "DiscoverEd",
+            "Browser_Maker": "Creative Commons",
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7"
+          }
         }
       ]
     }
