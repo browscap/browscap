@@ -14,9 +14,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*)"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*"
         },
         {
@@ -32,6 +29,14 @@
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/5.0*",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5",
             "MinorVer": "0"
           }
         }
