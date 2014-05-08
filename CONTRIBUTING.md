@@ -18,4 +18,4 @@ may submit Pull Requests on GitHub to help update the files.
 
 The format of these files is documented [here](https://github.com/browscap/browscap/wiki/Resource:-User-Agents-Database).
 
-You should also add a UA test in [tests/fixtures/TestUserAgents.php](https://github.com/browscap/browscap/blob/master/tests/fixtures/TestUserAgents.php) that verifies that your changes work correctly. See more information in the [Testing](https://github.com/browscap/browscap/wiki/Testing) section on the wiki.
+You must also add a UA test in the [tests/fixtures/issues](https://github.com/browscap/browscap/tree/master/tests/fixtures/issues) folder that verifies that your changes work correctly. See more information in the [Testing](https://github.com/browscap/browscap/wiki/Testing) section on the wiki.
