@@ -6,7 +6,7 @@ return [
         [
             'Comment' => 'Nutch',
             'Browser' => 'DiscoverEd',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Creative Commons',
             'Browser_Modus' => '',
