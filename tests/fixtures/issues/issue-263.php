@@ -5,7 +5,7 @@ return [
         'Domnutch-Bot/Nutch-1.0 (Domnutch; http://www.Nutch.de/)',
         [
             'Comment' => 'Nutch',
-            'Browser' => 'Domnutch',
+            'Browser' => 'Domnutch Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'nutch.de',
