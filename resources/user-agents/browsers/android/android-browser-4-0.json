@@ -6407,10 +6407,10 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "A2109A",
+            "Device_Code_Name": "A2107A-H",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab A2109A"
+            "Device_Name": "IdeaTab A2107A-H"
           },
           "platforms": [
             "Android_4_0"
