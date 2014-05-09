@@ -9,6 +9,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -48,7 +49,8 @@
         "Device_Name": "Macintosh",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple"
+        "Device_Brand_Name": "Apple",
+        "Device_Pointing_Method": "mouse"
       }
     },
     "OSX_10_4_A": {
@@ -530,9 +532,15 @@
       "match": "*CentOS*",
       "properties": {
         "Platform": "CentOS",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_Pointing_Method": "mouse",
         "Win16": "false",
         "Win32": "false",
-        "Win64": "false"
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
       }
     },
     "Linux": {
@@ -544,6 +552,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -635,7 +644,8 @@
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "isMobileDevice": "false",
-        "isTablet": "false"
+        "isTablet": "false",
+        "Device_Pointing_Method": "mouse"
       }
     },
     "Win3.1": {
@@ -1407,6 +1417,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1421,6 +1432,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
