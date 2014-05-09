@@ -307,7 +307,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
