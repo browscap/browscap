@@ -5388,7 +5388,7 @@
             "Device_Name": "Transformer Pad TF300T"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1"
+            "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
