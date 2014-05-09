@@ -2309,6 +2309,20 @@
           "platforms": [
             "Android_4_0"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG SM-P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-P600",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "SM-P600"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
         }
       ]
     },
