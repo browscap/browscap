@@ -7546,6 +7546,20 @@
           "platforms": [
             "Android_4_2"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ST10216-1*Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ST10216",
+            "Device_Maker": "TrekStor",
+            "Device_Brand_Name": "TrekStor",
+            "Device_Name": "ST10216"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
         }
       ]
     }
