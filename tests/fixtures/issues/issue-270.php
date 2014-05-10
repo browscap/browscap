@@ -24,7 +24,7 @@ return [
         'Mozilla/4.0 (compatible; MSIE 4.01; Digital AlphaServer 1000A 4/233; Windows NT; Powered By 64-Bit Alpha Processor)',
         [
             'Browser' => 'IE',
-            'Version' => '4.0',
+            'Version' => '4.01',
             'Platform' => 'WinNT',
             'isMobileDevice' => false,
             'Crawler' => false,
