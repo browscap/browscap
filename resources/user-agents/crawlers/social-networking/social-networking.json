@@ -71,6 +71,21 @@
           "properties": {
             "Browser": "OneRiot"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Embedly\/*",
+          "properties": {
+            "Browser": "Embedly"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Embedly\/0.2*",
+          "properties": {
+            "Browser": "Embedly",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
         }
       ]
     }
