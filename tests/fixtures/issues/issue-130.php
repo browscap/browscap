@@ -4,11 +4,8 @@ return [
     'issue-130' => [
         'Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14',
         [
-            'Browser' => 'Google Wireless Transcoder',
-            'isMobileDevice' => false,
-            'Crawler' => true,
             'Comment' => 'Default Browser',
-            'Browser' => 'Default Browser',
+            'Browser' => 'Google Wireless Transcoder',
             'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -38,7 +35,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'CssVersion' => '0',
             'AolVersion' => '0',
             'Device_Name' => 'unknown',

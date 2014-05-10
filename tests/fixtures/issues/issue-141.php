@@ -4,11 +4,8 @@ return [
     'issue-141' => [
         'Mozilla/5.0 TYPO3-linkvalidator',
         [
-            'Browser' => 'TYPO3 Linkvalidator',
-            'isMobileDevice' => false,
-            'Crawler' => true,
             'Comment' => 'Default Browser',
-            'Browser' => 'Default Browser',
+            'Browser' => 'TYPO3 Linkvalidator',
             'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -38,7 +35,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'CssVersion' => '0',
             'AolVersion' => '0',
             'Device_Name' => 'unknown',

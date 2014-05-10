@@ -4,11 +4,8 @@ return [
     'issue-163' => [
         'Validator.nu/LV http://validator.w3.org/services',
         [
-            'Browser' => 'Validator.nu/LV',
-            'isMobileDevice' => false,
-            'Crawler' => true,
             'Comment' => 'Default Browser',
-            'Browser' => 'Default Browser',
+            'Browser' => 'Validator.nu/LV',
             'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -38,7 +35,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'CssVersion' => '0',
             'AolVersion' => '0',
             'Device_Name' => 'unknown',

@@ -4,12 +4,8 @@ return [
     'issue-179' => [
         'Ruby',
         [
-            'Browser' => 'Generic Ruby Crawler',
-            'Win64' => false,
-            'isMobileDevice' => false,
-            'Crawler' => true,
             'Comment' => 'Default Browser',
-            'Browser' => 'Default Browser',
+            'Browser' => 'Generic Ruby Crawler',
             'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -39,7 +35,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'CssVersion' => '0',
             'AolVersion' => '0',
             'Device_Name' => 'unknown',
