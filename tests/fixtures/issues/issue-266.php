@@ -6,9 +6,9 @@ return [
         [
             'Browser' => 'Firefox',
             'Browser_Maker' => 'Mozilla Foundation',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Platform' => 'Linux',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '64',
             'Version' => '32.0',
             'isMobileDevice' => false,
             'Crawler' => false,
