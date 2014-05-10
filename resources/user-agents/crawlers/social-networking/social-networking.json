@@ -71,6 +71,20 @@
           "properties": {
             "Browser": "OneRiot"
           }
+        },
+        {
+          "match": "Slackbot (+https:\/\/api.slack.com\/robots)",
+          "properties": {
+            "Browser": "Slackbot",
+            "Browser_Maker": "slack.com"
+          }
+        },
+        {
+          "match": "Slackbot-LinkExpanding (+https:\/\/api.slack.com\/robots)",
+          "properties": {
+            "Browser": "Slackbot-Link-Expanding",
+            "Browser_Maker": "slack.com"
+          }
         }
       ]
     }
