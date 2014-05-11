@@ -81,7 +81,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
-            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],

@@ -24,7 +24,7 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Linux Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],

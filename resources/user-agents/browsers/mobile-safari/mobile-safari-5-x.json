@@ -46,7 +46,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"
@@ -65,7 +65,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -83,7 +83,7 @@
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
           "properties": {
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen"
           },

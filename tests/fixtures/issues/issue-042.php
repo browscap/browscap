@@ -14,7 +14,7 @@ return [
             'Platform' => 'RIM OS',
             'Platform_Version' => '10',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Research In Motion Limited',
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,

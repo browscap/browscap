@@ -7,7 +7,7 @@ return [
             'Browser' => 'Sony PS3',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Sony',
+            'Browser_Maker' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

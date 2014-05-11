@@ -141,7 +141,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -176,7 +176,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -211,7 +211,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
           "properties": {
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "isMobileDevice": "true",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen"
@@ -227,7 +227,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -244,7 +244,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"

@@ -23,7 +23,7 @@ return [
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Nexus 4',
-            'Device_Brand_Name' => 'LG',
+            'Device_Brand_Name' => 'Google',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',

@@ -176,7 +176,7 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32",
-        "Device_Maker": "Apple",
+        "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true"
@@ -1313,6 +1313,8 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Name": "Surface",
+        "Device_Code_Name": "Surface",
+        "Device_Brand_Name": "Microsoft",
         "Device_Type": "Tablet",
         "isTablet": "true",
         "Device_Maker": "Microsoft",
