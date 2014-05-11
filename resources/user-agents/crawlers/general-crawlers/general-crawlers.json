@@ -1351,7 +1351,7 @@
           "match": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
           "properties": {
             "Browser": "netEstate NE Crawler",
-            "Browser_Maker: "netEstate GmbH"
+            "Browser_Maker": "netEstate GmbH"
           }
         },
         {
