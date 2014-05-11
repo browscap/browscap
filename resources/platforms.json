@@ -2443,6 +2443,7 @@
       "properties": {
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
