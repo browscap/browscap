@@ -7450,7 +7450,9 @@
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop",
             "Device_Pointing_Method": "mouse",
-            "Device_Maker": "Various"
+            "Device_Maker": "Various",
+            "isMobileDevice": "false",
+            "isTablet": "false"
           },
           "platforms": [
             "Android_2_3"
@@ -7468,7 +7470,9 @@
             "Device_Code_Name": "Linux Desktop",
             "Device_Name": "Linux Desktop",
             "Device_Pointing_Method": "mouse",
-            "Device_Maker": "Various"
+            "Device_Maker": "Various",
+            "isMobileDevice": "false",
+            "isTablet": "false"
           },
           "platforms": [
             "Android_2_3"
