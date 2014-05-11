@@ -15,7 +15,6 @@ return [
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'unknown',
-            'JavaScript' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,

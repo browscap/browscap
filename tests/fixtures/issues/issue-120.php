@@ -15,7 +15,6 @@ return [
             'Platform_Version' => '6.0',
             'Platform_Bits' => '0',
             'Platform_Maker' => 'Apple Inc',
-            'JavaScript' => false,
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => true,

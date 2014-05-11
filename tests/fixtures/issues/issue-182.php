@@ -16,7 +16,6 @@ return [
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => true,
-            'JavaScript' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,

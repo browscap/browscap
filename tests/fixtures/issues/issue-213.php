@@ -15,7 +15,6 @@ return [
             'Platform_Version' => '4.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
-            'JavaScript' => false,
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,

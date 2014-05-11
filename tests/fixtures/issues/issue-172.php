@@ -15,7 +15,6 @@ return [
             'Platform_Version' => '6.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
-            'JavaScript' => false,
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
