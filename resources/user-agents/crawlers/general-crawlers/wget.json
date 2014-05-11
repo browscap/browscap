@@ -7,11 +7,14 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "wget",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Offline Browser",
         "Crawler": "true",
         "Browser": "wget"
       },
       "children": [
+        {
+          "match": "Wget*"
+        },
         {
           "match": "Wget\/1.*",
           "properties": {

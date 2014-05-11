@@ -10,6 +10,7 @@
         "Comment": "Google+ App",
         "Browser": "Google+ App",
         "Browser_Type": "Application",
+        "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

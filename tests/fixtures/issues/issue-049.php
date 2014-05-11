@@ -7,7 +7,7 @@ return [
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Apple Inc',
             'Version' => '7.0',
             'MajorVer' => '7',
             'MinorVer' => '0',

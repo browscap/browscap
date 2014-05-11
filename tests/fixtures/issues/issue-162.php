@@ -5,9 +5,9 @@ return [
         'Google-HTTP-Java-Client/1.17.0-rc (gzip)',
         [
             'Browser' => 'Google HTTP Client Library for Java',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Google Inc',
             'Version' => '1.17',
             'MajorVer' => '1',
             'MinorVer' => '17',

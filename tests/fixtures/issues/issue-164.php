@@ -14,7 +14,7 @@ return [
             'Platform' => 'Win98',
             'Platform_Version' => '98',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Microsoft Corporation',
             'JavaScript' => false,
             'isMobileDevice' => false,
             'isTablet' => false,

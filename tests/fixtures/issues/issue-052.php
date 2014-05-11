@@ -14,7 +14,7 @@ return [
             'Platform' => 'WinNT',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => true,
             'JavaScript' => false,
             'isMobileDevice' => false,

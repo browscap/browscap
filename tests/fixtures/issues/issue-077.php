@@ -194,7 +194,7 @@ return [
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Google Inc',
             'JavaScript' => false,
             'isMobileDevice' => true,
             'isTablet' => false,

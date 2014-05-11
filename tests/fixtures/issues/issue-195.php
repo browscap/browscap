@@ -7,7 +7,7 @@ return [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Google Inc',
             'Version' => '13.0',
             'MajorVer' => '13',
             'MinorVer' => '0',

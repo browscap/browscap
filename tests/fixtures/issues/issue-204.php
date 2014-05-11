@@ -14,7 +14,7 @@ return [
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Microsoft Corporation',
             'JavaScript' => false,
             'isMobileDevice' => false,
             'isTablet' => false,

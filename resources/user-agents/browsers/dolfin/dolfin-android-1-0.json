@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
         "Browser": "Dolfin",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

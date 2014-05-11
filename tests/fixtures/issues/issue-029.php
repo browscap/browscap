@@ -7,7 +7,7 @@ return [
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '18.0',
             'MajorVer' => '18',
             'MinorVer' => '0',

@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

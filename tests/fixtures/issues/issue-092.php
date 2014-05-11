@@ -14,7 +14,7 @@ return [
             'Platform' => 'SymbianOS',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Symbian Foundation',
             'JavaScript' => false,
             'isMobileDevice' => true,
             'isTablet' => false,
