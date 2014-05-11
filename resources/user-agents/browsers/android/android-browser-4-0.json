@@ -24,7 +24,7 @@
         "isMobileDevice": "true",
         "isTablet": "false",
         "CssVersion": "3",
-        "Device_Name": "Android",
+        "Device_Name": "general Mobile Device",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",
@@ -590,20 +590,12 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#2808A+ Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A* Build\/*)AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
@@ -622,110 +614,66 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A28 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A43 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A6277 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A70S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ADM901 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ADR6200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ADR6300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AIRIS Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AOSP on XDANDROID MSM Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ally Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Android for Telechips TCC890* Build\/*)*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]
@@ -744,10 +692,6 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DFP7002 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Android",
-            "Device_Name": "Android"
-          },
           "platforms": [
             "Android_2_1"
           ]

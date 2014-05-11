@@ -220,7 +220,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Macintosh',
-            'Device_Maker' => 'Apple',
+            'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Macintosh',

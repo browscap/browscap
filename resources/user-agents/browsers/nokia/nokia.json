@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Nokia",
         "Browser": "Nokia",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Nokia",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

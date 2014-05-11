@@ -885,41 +885,29 @@
     },
     "Win2000_4": {
       "match": "*Win2000*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_5": {
       "match": "*Windows NT5.0*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_6": {
       "match": "*WinNT5.0*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_64": {
@@ -1014,16 +1002,11 @@
     },
     "WinXPa_v3": {
       "match": "*WinNT5.1*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows XP"
       }
     },
     "WinXPb_32": {
@@ -1087,16 +1070,11 @@
     },
     "WinXPb_v2": {
       "match": "*WinNT5.2*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows XP"
       }
     },
     "Vista_32": {
@@ -1148,16 +1126,11 @@
     },
     "Vista_v2": {
       "match": "*WinNT5.2*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinVista",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows Vista"
       }
     },
     "Win7_32": {
@@ -1316,6 +1289,8 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Name": "Surface",
+        "Device_Code_Name": "Surface",
+        "Device_Brand_Name": "Microsoft",
         "Device_Type": "Tablet",
         "isTablet": "true",
         "Device_Maker": "Microsoft",

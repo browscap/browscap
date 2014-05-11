@@ -15,7 +15,8 @@
           "match": "Google-HTTP-Java-Client/*",
           "properties": {
             "Comment": "Google HTTP Client Library for Java",
-            "Browser": "Google HTTP Client Library for Java"
+            "Browser": "Google HTTP Client Library for Java",
+            "Browser_Maker": "Google Inc"
           }
         },
         {
@@ -23,6 +24,7 @@
           "properties": {
             "Comment": "Google HTTP Client Library for Java",
             "Browser": "Google HTTP Client Library for Java",
+            "Browser_Maker": "Google Inc",
             "Version": "1.17",
             "MajorVer": "1",
             "MinorVer": "17"

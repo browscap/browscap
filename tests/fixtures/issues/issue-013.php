@@ -22,7 +22,7 @@ return [
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'unknown',
+            'Device_Code_Name' => 'general Mobile Device',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
