@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => true,
-            'CssVersion' => '0',
             'Device_Name' => 'iPhone',
             'Device_Maker' => 'Apple',
             'Device_Type' => 'Mobile Phone',

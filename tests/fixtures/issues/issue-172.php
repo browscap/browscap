@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => 'Surface',
             'Device_Maker' => 'Microsoft',
             'Device_Type' => 'Tablet',

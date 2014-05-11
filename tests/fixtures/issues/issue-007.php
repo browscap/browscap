@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => 'Nexus 4',
             'Device_Maker' => 'LG',
             'Device_Type' => 'Mobile Phone',

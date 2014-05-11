@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => '7230',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',

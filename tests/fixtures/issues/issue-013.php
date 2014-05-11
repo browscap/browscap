@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Tablet',

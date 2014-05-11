@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => 'One X',
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',

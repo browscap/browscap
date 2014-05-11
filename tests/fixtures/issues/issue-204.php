@@ -18,7 +18,6 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
-            'CssVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
