@@ -8,6 +8,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Dalvik",
+        "Browser_Type": "Application",
         "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",

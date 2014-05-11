@@ -154,7 +154,7 @@ return [
             'Platform' => 'MacOSX',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,

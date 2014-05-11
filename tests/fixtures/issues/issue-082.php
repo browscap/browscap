@@ -14,7 +14,7 @@ return [
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Linux Foundation',
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,

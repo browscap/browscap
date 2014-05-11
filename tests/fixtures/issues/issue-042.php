@@ -7,7 +7,7 @@ return [
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Research In Motion Limited',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
