@@ -24,7 +24,7 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'PJ83100',
             'Device_Brand_Name' => 'HTC',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],

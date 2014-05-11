@@ -19,7 +19,7 @@ return [
             'isTablet' => false,
             'Crawler' => true,
             'Device_Name' => 'iPhone',
-            'Device_Maker' => 'Apple Inc',
+            'Device_Maker' => 'Apple',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'iPhone',
