@@ -198,12 +198,6 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
-          "properties": {
-            "Device_Name": "PC",
-            "Device_Maker": "Various",
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse"
-          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -271,12 +265,6 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Google (+https:\/\/developers.google.com\/+\/web\/snippet\/)*",
-          "properties": {
-            "Device_Name": "PC",
-            "Device_Maker": "Various",
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse"
-          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -298,12 +286,6 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com GoogleImageProxy)*",
-          "properties": {
-            "Device_Name": "PC",
-            "Device_Maker": "Various",
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse"
-          },
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -325,12 +307,6 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)",
-          "properties": {
-            "Device_Name": "PC",
-            "Device_Maker": "Various",
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse"
-          },
           "platforms": [
             "Linux", "Linux_32", "Linux_64"
           ]

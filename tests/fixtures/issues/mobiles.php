@@ -147,7 +147,7 @@ return [
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Google Inc',
             'Version' => '4.0',
             'MajorVer' => '4',
             'MinorVer' => '0',

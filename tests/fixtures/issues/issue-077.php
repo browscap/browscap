@@ -175,7 +175,7 @@ return [
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Amazon',
             'Version' => '3.11',
             'MajorVer' => '3',
             'MinorVer' => '11',

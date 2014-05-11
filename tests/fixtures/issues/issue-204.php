@@ -7,7 +7,7 @@ return [
             'Browser' => 'Thunderbird',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '24.4',
             'MajorVer' => '24',
             'MinorVer' => '4',

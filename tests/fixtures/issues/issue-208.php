@@ -7,7 +7,7 @@ return [
             'Browser' => 'Google Structured-Data TestingTool',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

@@ -7,7 +7,7 @@ return [
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Maxthon International Limited',
             'Version' => '4.0',
             'MajorVer' => '4',
             'MinorVer' => '0',

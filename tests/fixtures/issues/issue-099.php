@@ -6,7 +6,7 @@ return [
         [
             'Browser' => 'Microsoft-WebDAV',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '0',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '0.0',
             'MajorVer' => '0',
