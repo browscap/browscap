@@ -47,7 +47,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'unknown',
-            'Device_Maker' => 'Various',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'general Mobile Device',

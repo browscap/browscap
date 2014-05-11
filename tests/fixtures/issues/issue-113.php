@@ -113,7 +113,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
