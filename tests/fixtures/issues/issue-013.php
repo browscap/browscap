@@ -16,7 +16,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Mozilla Foundation',
             'isMobileDevice' => true,
-            'isTablet' => false,
+            'isTablet' => true,
             'Crawler' => false,
             'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'unknown',

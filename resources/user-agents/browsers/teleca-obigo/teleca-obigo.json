@@ -61,7 +61,9 @@
           "match": "LG-GD350\/V100 Obigo/WAP2.0*",
           "properties": {
             "Device_Name": "GD350",
-            "Device_Maker": "LG"
+            "Device_Maker": "LG",
+            "Device_Code_Name": "GD350",
+            "Device_Brand_Name": "LG"
           }
         },
         {

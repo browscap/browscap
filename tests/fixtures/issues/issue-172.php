@@ -16,7 +16,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'isMobileDevice' => true,
-            'isTablet' => false,
+            'isTablet' => true,
             'Crawler' => false,
             'Device_Name' => 'Surface',
             'Device_Maker' => 'Microsoft',

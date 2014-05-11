@@ -38,10 +38,6 @@
         },
         {
           "match": "Opera\/*(*Android*Opera Mobi*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]

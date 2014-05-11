@@ -44,8 +44,10 @@
         {
           "match": "iBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I5510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
-            "Device_Name": "GT-I5510",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I5510",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I5510"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -54,8 +56,10 @@
         {
           "match": "iBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I5510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
-            "Device_Name": "GT-I5510",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I5510",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I5510"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -64,8 +68,10 @@
         {
           "match": "iBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I5510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
-            "Device_Name": "GT-I5510",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I5510",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I5510"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -74,8 +80,10 @@
         {
           "match": "iBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I5510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
-            "Device_Name": "GT-I5510",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-I5510",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I5510"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"

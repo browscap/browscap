@@ -52,6 +52,8 @@
           "properties": {
             "Device_Name": "GT-B7722",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-B7722",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           }
         },
@@ -66,7 +68,9 @@
           "properties": {
             "Device_Name": "SGH-T528g",
             "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
+            "Device_Type": "Mobile Phone",
+            "Device_Brand_Name": "Samsung",
+            "Device_Code_Name": "SGH-T528g"
           }
         },
         {

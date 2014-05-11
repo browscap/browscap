@@ -27,10 +27,6 @@
       "children": [
         {
           "match": "Opera\/*(Android*Opera Mini*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]

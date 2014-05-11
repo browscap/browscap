@@ -59,6 +59,8 @@
           "properties": {
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-C6712",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           }
         },
@@ -67,6 +69,8 @@
           "properties": {
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-C6712",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [

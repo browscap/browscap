@@ -25,7 +25,6 @@
         "isTablet": "false",
         "CssVersion": "3",
         "Device_Name": "Android",
-        "Device_Maker": "Google",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "RenderingEngine_Name": "WebKit",

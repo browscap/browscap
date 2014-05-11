@@ -83,7 +83,10 @@
           "match": "UCWEB\/* (#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "GT-I8350",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-I8350",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7_B", "WinPhone8_B"
