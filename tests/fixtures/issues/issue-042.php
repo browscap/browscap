@@ -12,7 +12,7 @@ return [
             'MajorVer' => '10',
             'MinorVer' => '0',
             'Platform' => 'RIM OS',
-            'Platform_Version' => 'unknown',
+            'Platform_Version' => '10',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'unknown',
             'isMobileDevice' => true,

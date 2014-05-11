@@ -35,6 +35,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Trident",
         "RenderingEngine_Version": "4.0",

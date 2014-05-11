@@ -23,6 +23,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation"

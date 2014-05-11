@@ -7446,8 +7446,11 @@
             "Version": "Basic",
             "MajorVer": "Basic",
             "MinorVer": "0",
+            "Device_Type": "Desktop",
             "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
+            "Device_Name": "Linux Desktop",
+            "Device_Pointing_Method": "mouse",
+            "Device_Maker": "Various"
           },
           "platforms": [
             "Android_2_3"
@@ -7461,8 +7464,11 @@
             "Version": "Home",
             "MajorVer": "Home",
             "MinorVer": "0",
+            "Device_Type": "Desktop",
             "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
+            "Device_Name": "Linux Desktop",
+            "Device_Pointing_Method": "mouse",
+            "Device_Maker": "Various"
           },
           "platforms": [
             "Android_2_3"

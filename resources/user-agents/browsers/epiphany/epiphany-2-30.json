@@ -24,6 +24,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "Version": "2.30",
         "MajorVer": "2",
         "MinorVer": "30",
