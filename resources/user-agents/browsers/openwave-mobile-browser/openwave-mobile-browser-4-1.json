@@ -5,7 +5,18 @@
     {
       "userAgent": "Openwave Mobile Browser 4.1",
       "properties": {
-        "Parent": "Openwave Mobile Browser",
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser",
+        "Browser": "Openwave Mobile Browser",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Phone",
         "Version": "4.1",
         "MajorVer": "4",
         "MinorVer": "1"

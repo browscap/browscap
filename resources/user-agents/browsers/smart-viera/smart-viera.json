@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "SmartViera #MAJORVER#.#MINORVER#",
         "Browser": "SmartViera",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

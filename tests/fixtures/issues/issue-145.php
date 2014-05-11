@@ -14,7 +14,7 @@ return [
             'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Oracle',
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
