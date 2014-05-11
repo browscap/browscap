@@ -7,7 +7,7 @@ return [
             'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'KDE e.V.',
             'Version' => '2.2',
             'MajorVer' => '2',
             'MinorVer' => '2',

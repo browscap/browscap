@@ -39,7 +39,8 @@
         {
           "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*MIDP*",
           "properties": {
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Platform_Version": "unknown"
           },
           "platforms": [
             "JAVA"
@@ -67,7 +68,8 @@
           "properties": {
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
+            "Device_Type": "Mobile Phone",
+            "Platform_Version": "unknown"
           },
           "platforms": [
             "JAVA"
