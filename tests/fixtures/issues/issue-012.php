@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
         [
             'Browser' => 'IE',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '11.0',
@@ -20,7 +20,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',
@@ -36,7 +35,7 @@ return [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
         [
             'Browser' => 'Firefox',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '24.0',
@@ -51,7 +50,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

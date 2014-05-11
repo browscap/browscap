@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
         [
             'Browser' => 'Waterfox',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '26.0',
@@ -21,7 +21,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

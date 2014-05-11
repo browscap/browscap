@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4',
         [
             'Browser' => 'Arora',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '0.10',
@@ -20,7 +20,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

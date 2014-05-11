@@ -5,7 +5,7 @@ return [
         'ContextAd Bot 1.0',
         [
             'Browser' => 'ContextAd Bot',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '1.0',
@@ -20,7 +20,6 @@ return [
             'isTablet' => false,
             'Crawler' => true,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

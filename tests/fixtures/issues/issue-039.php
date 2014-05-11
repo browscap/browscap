@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.1',
         [
             'Browser' => 'Firefox',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '2.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

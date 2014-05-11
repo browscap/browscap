@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36',
         [
             'Browser' => 'Chrome',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '30.0',
@@ -20,7 +20,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

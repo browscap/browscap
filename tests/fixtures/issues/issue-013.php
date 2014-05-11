@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Android; Tablet; rv:23.0) Gecko/23.0 Firefox/23.0',
         [
             'Browser' => 'Firefox',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '23.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Tablet',

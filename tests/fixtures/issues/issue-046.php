@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)',
         [
             'Browser' => 'Ezooms',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '0.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',
@@ -35,7 +34,7 @@ return [
         'Mozilla/5.0 (compatible; Ezooms/1.0; help@moz.com)',
         [
             'Browser' => 'Ezooms',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '0.0',
@@ -49,7 +48,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

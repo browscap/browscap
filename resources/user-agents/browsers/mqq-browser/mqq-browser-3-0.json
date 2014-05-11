@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
         "Browser": "MQQBrowser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

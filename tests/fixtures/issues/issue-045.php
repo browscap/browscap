@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',
         [
             'Browser' => 'Sistrix Crawler',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '0.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => true,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',

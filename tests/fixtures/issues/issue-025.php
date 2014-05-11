@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HTC_One_X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
             'Browser' => 'Android',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '4.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'One X',
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',

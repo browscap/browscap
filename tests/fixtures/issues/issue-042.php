@@ -5,7 +5,7 @@ return [
         'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko)',
         [
             'Browser' => 'BlackBerry',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '0.0',
@@ -19,7 +19,6 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'CssVersion' => '0',
-            'AolVersion' => '0',
             'Device_Name' => 'Blackberry',
             'Device_Maker' => 'Research In Motion Limited',
             'Device_Type' => 'Mobile Phone',
