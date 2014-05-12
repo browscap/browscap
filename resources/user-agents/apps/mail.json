@@ -7,8 +7,8 @@
       "platform": "Darwin",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "News",
-        "Browser": "News",
+        "Comment": "Mail",
+        "Browser": "Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",

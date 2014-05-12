@@ -433,7 +433,7 @@ return [
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '1.0b',
             'MajorVer' => '1',
-            'MinorVer' => '0',
+            'MinorVer' => '0b',
             'Beta' => true,
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
