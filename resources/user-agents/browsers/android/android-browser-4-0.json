@@ -7539,6 +7539,18 @@
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI P6-U06 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "P6-U06",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Name": "Ascend P6"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3"
+          ]
         }
       ]
     }
