@@ -40,7 +40,6 @@
             "MajorVer": "7",
             "MinorVer": "2",
             "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Version": "525",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
           },
           "platforms": [
@@ -51,7 +50,6 @@
           "match": "Nokia7230\/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "properties": {
             "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Version": "525",
             "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
             "Device_Name": "7230",
             "Device_Maker": "Nokia"

@@ -20,7 +20,7 @@ return [
             'Crawler' => true,
             'Device_Name' => 'SGH E250',
             'Device_Maker' => 'Samsung',
-            'Device_Type' => 'Mobile Device',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'SGH E250',
             'Device_Brand_Name' => 'Samsung',

@@ -22,7 +22,7 @@ return [
             'Device_Maker' => 'Sony',
             'Device_Type' => 'Console',
             'Device_Pointing_Method' => 'unknown',
-            'Device_Code_Name' => 'PLAYSTATION 3',
+            'Device_Code_Name' => 'Playstation 3',
             'Device_Brand_Name' => 'Sony',
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',

@@ -52,7 +52,7 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'general Mobile Device',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
