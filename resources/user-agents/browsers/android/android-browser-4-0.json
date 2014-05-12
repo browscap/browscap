@@ -7555,6 +7555,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T310",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
