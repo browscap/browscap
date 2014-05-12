@@ -45,10 +45,10 @@
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
           "properties": {
-            "Device_Code_Name": "Windows Phone 8S",
+            "Device_Code_Name": "8S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Windows Phone 8S",
+            "Device_Name": "8S",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
