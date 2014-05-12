@@ -14,9 +14,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*)"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*"
         },
         {

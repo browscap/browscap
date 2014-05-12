@@ -1,6 +1,6 @@
 {
   "division": "Palemoon #MAJORVER#.#MINORVER#",
-  "versions": [20, "20.1", "20.2"],
+  "versions": [20, "20.1", "20.2", "20.3", "24.0", "24.1", "24.2", "24.3", "24.4", "24.5"],
   "sortIndex": 9690,
   "userAgents": [
     {
