@@ -1663,6 +1663,13 @@
         "Platform_Version": "4.1"
       }
     },
+    "Android_4_1_E": {
+      "match": "*Android 4.1*Linux*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
     "Android_4_2": {
       "match": "*Linux*Android 4.2*",
       "inherits": "Android",
