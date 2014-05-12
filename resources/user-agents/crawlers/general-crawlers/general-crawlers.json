@@ -1421,6 +1421,23 @@
             "Browser": "IntegromeDB Crawler",
             "Browser_Maker": "BiologicalNetworks"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Spiderlytics\/*",
+          "properties": {
+            "Browser": "Spiderlytics",
+            "Browser_Maker": "spiderlytics.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Spiderlytics\/1.0*",
+          "properties": {
+            "Browser": "Spiderlytics",
+            "Browser_Maker": "spiderlytics.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }
