@@ -119,6 +119,15 @@
           "platforms": [
             "WinPhone8"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; Windows NT 6.2; Trident\/6.0; ARM; Touch; WPDesktop)",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
         }
       ]
     }
