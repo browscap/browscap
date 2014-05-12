@@ -166,7 +166,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BY' => [
@@ -194,7 +194,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BX' => [
@@ -222,7 +222,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BW' => [
@@ -250,7 +250,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BV' => [
@@ -334,7 +334,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BS' => [
@@ -362,7 +362,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BR' => [
@@ -390,7 +390,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BQ' => [
@@ -418,7 +418,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BP' => [
@@ -446,7 +446,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BO' => [
@@ -474,7 +474,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BN' => [
@@ -502,7 +502,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BM' => [
@@ -530,7 +530,7 @@ return [
             'Device_Brand_Name' => 'Huawei',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-BL' => [
@@ -558,7 +558,7 @@ return [
             'Device_Brand_Name' => 'OPPO',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BK' => [
@@ -586,7 +586,7 @@ return [
             'Device_Brand_Name' => 'sprd',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BJ' => [
@@ -642,7 +642,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BH' => [
@@ -670,7 +670,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BG' => [
@@ -698,7 +698,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-BF' => [
@@ -782,7 +782,7 @@ return [
             'Device_Brand_Name' => 'Wolgang',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BC' => [
@@ -810,7 +810,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-BB' => [
@@ -838,7 +838,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-BA' => [
@@ -922,7 +922,7 @@ return [
             'Device_Brand_Name' => 'SonyEricsson',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AX' => [
@@ -950,7 +950,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AW' => [
@@ -978,7 +978,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AV' => [
@@ -1006,7 +1006,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AU' => [
@@ -1062,7 +1062,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AS' => [
@@ -1118,7 +1118,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-AQ' => [
@@ -1146,7 +1146,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-AP' => [
@@ -1258,7 +1258,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AL' => [
@@ -1286,7 +1286,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AK' => [
@@ -1314,7 +1314,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AJ' => [
@@ -1398,7 +1398,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AG' => [
@@ -1455,7 +1455,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AE' => [
@@ -1483,7 +1483,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-AD' => [
@@ -1511,7 +1511,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-AC' => [
@@ -1625,7 +1625,7 @@ return [
             'Device_Brand_Name' => 'Alcatel',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-Y' => [
@@ -1653,7 +1653,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-X' => [
@@ -1681,7 +1681,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-W' => [
@@ -1709,7 +1709,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-V' => [
@@ -1737,7 +1737,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-U' => [
@@ -1793,7 +1793,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-S' => [
@@ -1821,7 +1821,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-R' => [
@@ -1849,7 +1849,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-Q' => [
@@ -1877,7 +1877,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-P' => [
@@ -1905,7 +1905,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-O' => [
@@ -1933,7 +1933,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-N' => [
@@ -1961,7 +1961,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-M' => [
@@ -1989,7 +1989,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-L' => [
@@ -2017,7 +2017,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-K' => [
@@ -2045,7 +2045,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-J' => [
@@ -2073,7 +2073,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-I' => [
@@ -2101,7 +2101,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-H' => [
@@ -2129,7 +2129,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-G' => [
@@ -2157,7 +2157,7 @@ return [
             'Device_Brand_Name' => 'Mastone',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-F' => [
@@ -2213,7 +2213,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-D' => [
@@ -2241,7 +2241,7 @@ return [
             'Device_Brand_Name' => 'Amazon',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-C' => [
@@ -2269,7 +2269,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-96-B' => [
@@ -2297,7 +2297,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-96-A' => [
@@ -2325,7 +2325,7 @@ return [
             'Device_Brand_Name' => 'Micromax',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
 ];

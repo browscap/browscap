@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-71-B' => [
@@ -54,7 +54,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-71-A' => [
@@ -82,7 +82,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
 ];

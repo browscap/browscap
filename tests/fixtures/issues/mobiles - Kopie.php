@@ -55,7 +55,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-mobiles2-C' => [
@@ -112,7 +112,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
     'issue-mobiles2-E' => [
@@ -308,7 +308,7 @@ return [
             'Device_Brand_Name' => 'HTC',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-L' => [
@@ -365,7 +365,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-N' => [
@@ -562,7 +562,7 @@ return [
             'Device_Brand_Name' => 'Acer',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-U' => [
@@ -647,7 +647,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-X' => [
@@ -703,7 +703,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-Z' => [
@@ -732,7 +732,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12.388',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
     ],
     'issue-mobiles2-AA' => [
@@ -844,7 +844,7 @@ return [
             'Device_Brand_Name' => 'Acer',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AE' => [
@@ -900,7 +900,7 @@ return [
             'Device_Brand_Name' => 'Acer',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AG' => [
@@ -984,7 +984,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AJ' => [
@@ -1012,7 +1012,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AK' => [
@@ -1040,7 +1040,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-mobiles2-AL' => [
@@ -1068,7 +1068,7 @@ return [
             'Device_Brand_Name' => 'Odys',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AM' => [
@@ -1096,7 +1096,7 @@ return [
             'Device_Brand_Name' => 'Nokia',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AN' => [
@@ -1124,7 +1124,7 @@ return [
             'Device_Brand_Name' => 'Acer',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AO' => [
@@ -1152,7 +1152,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '17.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
     'issue-mobiles2-AP' => [
@@ -1208,7 +1208,7 @@ return [
             'Device_Brand_Name' => 'Asus',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AR' => [
@@ -1292,7 +1292,7 @@ return [
             'Device_Brand_Name' => 'Acer',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AU' => [
@@ -1320,7 +1320,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles2-AV' => [

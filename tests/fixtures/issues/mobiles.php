@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles-E' => [
@@ -110,7 +110,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles-B' => [
@@ -138,7 +138,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-mobiles-A' => [
@@ -166,7 +166,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
 ];

@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '24.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
 ];

@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-47-phpbrowscap-7' => [
@@ -83,7 +83,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-47-phpbrowscap-5' => [
@@ -112,7 +112,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-47-phpbrowscap-4' => [
@@ -141,7 +141,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-47-phpbrowscap-3' => [
@@ -170,7 +170,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-47-phpbrowscap-2' => [

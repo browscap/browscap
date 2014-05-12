@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-84-G' => [
@@ -110,7 +110,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-84-D' => [
@@ -194,7 +194,7 @@ return [
             'Device_Brand_Name' => 'LG',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-84-A' => [

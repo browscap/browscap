@@ -27,7 +27,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-12-b' => [
