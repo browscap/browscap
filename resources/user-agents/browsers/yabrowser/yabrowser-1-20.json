@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["1.20"],
+  "versions": ["1.20", "13.10", "14.0", "14.1", "14.2", "14.3", "14.4"],
   "sortIndex": 11120,
   "userAgents": [
     {
@@ -36,6 +36,7 @@
         "CssVersion": "3",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
