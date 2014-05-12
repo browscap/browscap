@@ -93,6 +93,19 @@
           "platforms": [
             "WinPhone8"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; SAMSUNG; GT-I8750*)",
+          "properties": {
+            "Device_Code_Name": "GT-I8750",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "ATIV Odyssey",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
         }
       ]
     }
