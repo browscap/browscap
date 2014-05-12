@@ -19,7 +19,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Playstation 3',
-            'Device_Maker' => 'Sony',
+            'Device_Maker' => 'Various',
             'Device_Type' => 'Console',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Playstation 3',
