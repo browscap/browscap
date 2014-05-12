@@ -1412,6 +1412,21 @@
             "Browser": "Securepoint Content Filter",
             "Browser_Maker": "Securepoint GmbH"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; nbot\/*",
+          "properties": {
+            "Browser": "nbot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; nbot\/2.*",
+          "properties": {
+            "Browser": "nbot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
         }
       ]
     }
