@@ -432,7 +432,7 @@ return [
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '1.0b',
-            'MajorVer' => '0',
+            'MajorVer' => '1',
             'MinorVer' => '0',
             'Beta' => true,
             'Platform' => 'unknown',
