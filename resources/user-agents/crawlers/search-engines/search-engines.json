@@ -878,6 +878,20 @@
           "properties": {
             "Browser": "Qihoo"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; EasouSpider*",
+          "properties": {
+            "Browser": "EasouSpider",
+            "Browser_Maker": "easou.com"
+          }
+        },
+        {
+          "match": "NerdyBot",
+          "properties": {
+            "Browser": "NerdyBot",
+            "Browser_Maker": "NerdyData"
+          }
         }
       ]
     }

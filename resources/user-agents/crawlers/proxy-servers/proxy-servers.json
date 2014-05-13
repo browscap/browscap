@@ -107,6 +107,13 @@
           "properties": {
             "Browser": "SaferSurf"
           }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Synapse)",
+          "properties": {
+            "Browser": "Apache Synapse",
+            "Browser_Maker": "Apache Foundation"
+          }
         }
       ]
     }
