@@ -1193,18 +1193,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SearchmetricsBot; http:\/\/www.searchmetrics.com\/en\/searchmetrics-bot\/)",
-          "properties": {
-            "Browser_Maker": "www.searchmetrics.com"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
-          "properties": {
-            "Browser": "SEOkicks Robot"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Macintosh; *Mac OS X *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* Powered by Spider-Pig*",
           "properties": {
             "Browser": "Spider-Pig",
