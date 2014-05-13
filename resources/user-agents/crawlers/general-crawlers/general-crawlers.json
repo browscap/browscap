@@ -400,105 +400,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/OpenLinkProfiler.org\/bot*)",
-          "properties": {
-            "Browser": "spbot"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.2*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/OpenLinkProfiler.org\/bot*)",
-          "properties": {
-            "Browser": "spbot",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; spbot\/*; +http:\/\/www.seoprofiler.com\/bot\/ )",
-          "properties": {
-            "Browser": "SEOprofiler"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; AboutUsBot\/*)",
           "properties": {
             "Browser": "AboutUsBot"
@@ -600,12 +501,6 @@
           "match": "Mozilla\/5.0 (compatible; Plukkie\/1.?; http:\/\/www.botje.com\/plukkie.htm)",
           "properties": {
             "Browser": "Plukkie"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SEODat\/0.* http:\/\/crawler.seodat.com)",
-          "properties": {
-            "Browser": "SEODat"
           }
         },
         {
@@ -1210,20 +1105,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)",
-          "properties": {
-            "Browser": "Sistrix Crawler",
-            "Browser_Maker": "sistrix.net"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler; http:\/\/crawler.sistrix.net\/)",
-          "properties": {
-            "Browser": "Sistrix Crawler",
-            "Browser_Maker": "sistrix.net"
-          }
-        },
-        {
           "match": "woobot\/1.1*",
           "properties": {
             "Browser": "WooRank",
@@ -1320,8 +1201,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
           "properties": {
-            "Browser": "SEOkicks Robot",
-            "Browser_Maker": "Torsten Rückert Internetdienstleistungen"
+            "Browser": "SEOkicks Robot"
           }
         },
         {
@@ -1436,6 +1316,48 @@
             "Browser_Maker": "spiderlytics.com",
             "Version": "1.0",
             "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/*",
+          "properties": {
+            "Browser": "KomodiaBot",
+            "Browser_Maker": "Komodia Inc"
+          },
+          "platforms": [
+            "Win7_x64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/1.0*",
+          "properties": {
+            "Browser": "KomodiaBot",
+            "Browser_Maker": "Komodia Inc",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Win7_x64"
+          ]
+        },
+        {
+          "match": "ScreenerBot Crawler Beta *",
+          "properties": {
+            "Browser": "ScreenerBot",
+            "Browser_Maker": "ScreenerBot.com",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "ScreenerBot Crawler Beta 2.0 *",
+          "properties": {
+            "Browser": "ScreenerBot",
+            "Browser_Maker": "ScreenerBot.com",
+            "Beta": "true",
+            "Version": "2.0",
+            "MajorVer": "2",
             "MinorVer": "0"
           }
         },
