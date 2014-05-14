@@ -1338,6 +1338,38 @@
             "MajorVer": "2",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BLEXBot\/*",
+          "properties": {
+            "Browser": "BLEXBot",
+            "Browser_Maker": "WebMeUp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BLEXBot\/1.0;*",
+          "properties": {
+            "Browser": "BLEXBot",
+            "Browser_Maker": "WebMeUp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Scrapy\/*",
+          "properties": {
+            "Browser": "Scrapy"
+          }
+        },
+        {
+          "match": "Scrapy\/0.16*",
+          "properties": {
+            "Browser": "Scrapy",
+            "Version": "0.16",
+            "MajorVer": "0",
+            "MinorVer": "16"
+          }
         }
       ]
     }

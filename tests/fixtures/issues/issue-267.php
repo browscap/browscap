@@ -760,12 +760,12 @@ return [
     'issue-267-AB' => [
         'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)',
         [
-            'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser' => 'BLEXBot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Zend Technologies Inc',
-            'Version' => '0.0',
-            'MajorVer' => '0',
+            'Browser_Maker' => 'WebMeUp',
+            'Version' => '1.0',
+            'MajorVer' => '1',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
