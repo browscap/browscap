@@ -788,7 +788,7 @@ return [
     'issue-267-AC' => [
         'Mozilla/5.0 (compatible; EasouSpider; +http://www.easou.com/search/spider.html)',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'EasouSpider',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
@@ -928,7 +928,7 @@ return [
     'issue-267-AH' => [
         'Mozilla/4.0 (compatible; Synapse)',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'Apache Synapse',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
@@ -1292,7 +1292,7 @@ return [
     'issue-267-AU' => [
         'NerdyBot',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'NerdyBot',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
@@ -2692,7 +2692,7 @@ return [
     'issue-267-CS' => [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) KomodiaBot/1.0',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'KomodiaBot',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
@@ -2720,7 +2720,7 @@ return [
     'issue-267-CT' => [
         'Mozilla/5.0 (compatible; Embedly/0.2; snap; +http://support.embed.ly/)',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'Embedly',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
@@ -3056,7 +3056,7 @@ return [
     'issue-267-DF' => [
         'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
         [
-            'Browser' => 'Zend_Http_Client',
+            'Browser' => 'IE',
             'Browser_Type' => 'Library',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Inc',
