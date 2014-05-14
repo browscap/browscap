@@ -13,7 +13,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'WinVista',
             'Platform_Version' => '6.0',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => true,
             'isMobileDevice' => false,
