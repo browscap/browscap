@@ -25,7 +25,10 @@
           "match": "Mozilla\/5.0 (compatible; Yahoo! *Slurp*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*)"
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*)",
+          "properties": {
+            "Browser": "Yahoo! Slurp China"
+          }
         },
         {
           "match": "Mozilla\/5.0 (compatible; Yahoo! DE Slurp; http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
@@ -40,13 +43,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp*",
-          "properties": {
-            "Browser": "Yahoo! Slurp",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
+          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp*"
         },
         {
           "match": "Yahoo! Slurp\/Site Explorer",

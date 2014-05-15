@@ -27,7 +27,9 @@
         "Crawler": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
+        "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
@@ -36,7 +38,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"

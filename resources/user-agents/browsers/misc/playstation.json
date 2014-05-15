@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Playstation",
         "Browser": "Playstation",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -48,6 +49,7 @@
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony Playstation Vita",
+        "Browser_Type": "Browser",
         "Frames": "false",
         "isMobileDevice": "true",
         "Device_Code_Name": "PlayStation Vita",
@@ -76,6 +78,7 @@
       "properties": {
         "Parent": "Playstation",
         "Browser": "Sony PS3",
+        "Browser_Type": "Browser",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
         "Device_Name": "Playstation 3"

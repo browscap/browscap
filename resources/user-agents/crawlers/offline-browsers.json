@@ -8,7 +8,6 @@
         "Parent": "DefaultProperties",
         "Comment": "Offline Browsers",
         "Browser": "Offline Browsers",
-        "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },
       "children": [
@@ -21,7 +20,9 @@
         {
           "match": "*HTTrack*",
           "properties": {
-            "Browser": "HTTrack"
+            "Browser": "HTTrack",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "Xavier Roche"
           }
         },
         {
@@ -29,7 +30,9 @@
           "properties": {
             "Browser": "HTTrack",
             "Version": "3.0",
-            "MajorVer": "3"
+            "MajorVer": "3",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "Xavier Roche"
           }
         },
         {

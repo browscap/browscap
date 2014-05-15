@@ -21,7 +21,7 @@ return [
             'Crawler' => false,
             'CssVersion' => '3',
             'Device_Name' => 'Windows Desktop',
-            'Device_Maker' => 'unknown',
+            'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',

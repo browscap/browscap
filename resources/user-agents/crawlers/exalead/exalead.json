@@ -9,6 +9,7 @@
         "Comment": "Exalead",
         "Browser": "Exalead",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "www.exabot.com",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
@@ -59,7 +60,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
           "properties": {
-            "Browser": "Exabot\/BiggerBetter",
+            "Browser": "Exabot",
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0"
@@ -86,8 +87,7 @@
         {
           "match": "*Exabot@exava.com*",
           "properties": {
-            "Browser": "Exabot",
-            "Browser_Maker": "www.exabot.com"
+            "Browser": "Exabot"
           }
         }
       ]

@@ -125,7 +125,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A210 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Code_Name": "A210",
             "Device_Maker": "Acer",
@@ -140,7 +140,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "isTablet": "true",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -286,7 +287,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
@@ -916,7 +917,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"
@@ -934,7 +935,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",

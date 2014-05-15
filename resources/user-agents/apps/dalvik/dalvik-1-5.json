@@ -11,6 +11,7 @@
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
         "Browser": "Dalvik",
         "Browser_Type": "Application",
+        "Browser_Maker": "Google Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

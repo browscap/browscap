@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -38,8 +39,10 @@
         {
           "match": "#PLATFORM#GT-S5570*) UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Device_Name": "GT-S5570",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-S5570",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Mini"
           },
           "platforms": [
             "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
@@ -71,7 +74,11 @@
           "match": "#PLATFORM#Micromax A35*)UCWEB#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Name": "A35",
-            "Device_Maker": "Micromax"
+            "Device_Code_Name": "A35",
+            "Device_Brand_Name": "Micromax",
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
@@ -149,9 +156,11 @@
         {
           "match": "NokiaN8-00\/UC Browser#MAJORVER#.#MINORVER#*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Marketing_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
-            "Device_Maker": "Nokia"
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {

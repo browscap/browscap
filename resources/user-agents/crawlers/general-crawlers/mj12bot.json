@@ -9,6 +9,7 @@
         "Comment": "MJ12bot",
         "Browser": "MJ12bot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Majestic-12 Ltd",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -8,6 +8,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Iron Generic",
         "Browser": "Iron",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "SRWare",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
@@ -15,16 +17,16 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Device_Maker": "Various",
         "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Maker": "Apple Inc",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Version": "0.4",
-        "MinorVer": "4",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop"
+        "MinorVer": "4"
       },
       "children": [
         {

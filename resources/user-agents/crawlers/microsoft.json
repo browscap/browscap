@@ -9,6 +9,7 @@
         "Comment": "Microsoft",
         "Browser": "Microsoft",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
         "Crawler": "true"
       },
       "children": [

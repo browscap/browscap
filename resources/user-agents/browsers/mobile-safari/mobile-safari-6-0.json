@@ -1,0 +1,107 @@
+{
+  "division": "Mobile Safari #MAJORVER#.#MINORVER#",
+  "versions": ["6.0"],
+  "sortIndex": 1944,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
+        "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "3",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_B",
+            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+            "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_B",
+            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+            "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_B",
+            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+            "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "properties": {
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_B",
+            "iOS_C", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0",
+            "iOS_C_7_1"
+          ]
+        },
+        {
+          "match": "MobileSafari\/85??.* CFNetwork\/* Darwin\/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

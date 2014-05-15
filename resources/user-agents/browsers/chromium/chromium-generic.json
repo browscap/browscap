@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Chromium Generic",
         "Browser": "Chromium",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

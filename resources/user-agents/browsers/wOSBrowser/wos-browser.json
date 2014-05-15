@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "WebKit/webOS #MAJORVER#.#MINORVER#",
         "Browser": "WebKit/webOS",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Hewlett-Packard",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -81,10 +83,12 @@
         {
           "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSBrowser\/*Safari\/* TouchPad\/1.*",
           "properties": {
-            "Device_Name": "TouchPad",
+            "Device_Code_Name": "Touchpad",
             "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Touchpad",
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
@@ -95,10 +99,12 @@
         {
           "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSSystem\/*Safari\/* TouchPad\/1.*",
           "properties": {
-            "Device_Name": "TouchPad",
+            "Device_Code_Name": "Touchpad",
             "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Touchpad",
             "isMobileDevice": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },

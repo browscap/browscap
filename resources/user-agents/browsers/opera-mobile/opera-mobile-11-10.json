@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [11.10],
+  "versions": ["11.10"],
   "sortIndex": 2872,
   "lite": true,
   "userAgents": [
@@ -52,8 +52,12 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
-            "Device_Maker": "Huawei"
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -70,8 +74,12 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
-            "Device_Maker": "Huawei"
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -88,8 +96,12 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
-            "Device_Maker": "Huawei"
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -106,8 +118,12 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
-            "Device_Maker": "Huawei"
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",

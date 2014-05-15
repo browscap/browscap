@@ -5,7 +5,19 @@
     {
       "userAgent": "Teleca-Obigo 7.0",
       "properties": {
-        "Parent": "Teleca-Obigo",
+        "Parent": "DefaultProperties",
+        "Comment": "Teleca-Obigo",
+        "Browser": "Teleca-Obigo",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Phone",
         "Version": "7.0",
         "MajorVer": "7"
       },

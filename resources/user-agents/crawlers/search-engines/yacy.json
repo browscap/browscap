@@ -25,10 +25,6 @@
         },
         {
           "match": "yacybot (i386 linux *http:\/\/yacy.net\/bot.html",
-          "properties": {
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop"
-          },
           "platforms": [
             "Linux"
           ]
