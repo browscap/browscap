@@ -43,7 +43,7 @@
             "RenderingEngine_Maker": "Microsoft Corporation"
           },
           "platforms": [
-            "WinXP_32", "Vista_32", "Win7_32", "Win8_32", "Win8.1_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
@@ -57,7 +57,7 @@
             "RenderingEngine_Maker": "Microsoft Corporation"
           },
           "platforms": [
-            "WinXP_32", "Vista_32", "Win7_32", "Win8_32", "Win8.1_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         }
       ]
