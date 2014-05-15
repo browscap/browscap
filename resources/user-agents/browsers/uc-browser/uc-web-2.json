@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -90,10 +91,12 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
-            "isTablet": "true"
+            "isTablet": "true",
+            "RenderingEngine_Name": "U3",
+            "RenderingEngine_Description": "a WebKit Fork by UC Web"
           },
           "platforms": [
             "iOS_C_7_0", "iOS_C_7_1"

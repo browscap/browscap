@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -82,7 +83,10 @@
           "match": "UCWEB\/* (#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "GT-I8350",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-I8350",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7_B", "WinPhone8_B"
@@ -100,7 +104,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"

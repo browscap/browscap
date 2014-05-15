@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -50,8 +51,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "properties": {
-            "Device_Name": "GT-S7562",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos",
             "RenderingEngine_Name": "U3",
             "RenderingEngine_Description": "a WebKit Fork by UC Web"
           },
@@ -62,8 +67,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "properties": {
-            "Device_Name": "GT-S7562",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos",
             "RenderingEngine_Name": "U3",
             "RenderingEngine_Description": "a WebKit Fork by UC Web"
           },
@@ -74,8 +83,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "properties": {
-            "Device_Name": "GT-S7562",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos",
             "RenderingEngine_Name": "U3",
             "RenderingEngine_Description": "a WebKit Fork by UC Web"
           },
@@ -86,8 +99,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "properties": {
-            "Device_Name": "GT-S7562",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos",
             "RenderingEngine_Name": "U3",
             "RenderingEngine_Description": "a WebKit Fork by UC Web"
           },
@@ -132,7 +149,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -145,8 +162,10 @@
         {
           "match": "UCWEB\/* (#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
-            "Device_Name": "GT-S5360",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-S5360",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Y"
           },
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
@@ -155,8 +174,12 @@
         {
           "match": "UCWEB\/* (#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
-            "Device_Name": "GT-S7562",
-            "Device_Maker": "Samsung"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7562",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
@@ -166,7 +189,11 @@
           "match": "UCWEB\/* (#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "A27",
-            "Device_Maker": "Micromax"
+            "Device_Code_Name": "A27",
+            "Device_Brand_Name": "Micromax",
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"

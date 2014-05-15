@@ -10,6 +10,7 @@
         "Comment": "Google+ App",
         "Browser": "Google+ App",
         "Browser_Type": "Application",
+        "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -28,7 +29,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
           "properties": {
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen"
           },
@@ -42,7 +43,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -58,7 +59,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Apple",
             "isMobileDevice": "true",
@@ -72,7 +73,7 @@
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
           "properties": {
             "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "iPod Touch",

@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
         "Browser": "FlyFlow",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

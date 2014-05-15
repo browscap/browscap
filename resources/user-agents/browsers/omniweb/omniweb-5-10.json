@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "OmniWeb 5.10",
         "Browser": "OmniWeb",
+        "Browser_Type": "Browser",
         "Version": "5.10",
         "MajorVer": "5",
         "MinorVer": "10",

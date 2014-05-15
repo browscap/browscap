@@ -10,7 +10,7 @@
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
         "Browser": "Thunderbird",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
+        "Browser_Type": "Email Client",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -26,7 +26,7 @@
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
+        "RenderingEngine_Version": "#MAJORVER#.0",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation"
       },
@@ -36,7 +36,7 @@
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",
-            "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
+            "NT4", "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32", "Vista_64",
             "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         }

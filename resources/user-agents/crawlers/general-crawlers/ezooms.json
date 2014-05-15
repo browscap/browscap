@@ -9,7 +9,8 @@
         "Comment": "Ezooms",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Browser": "Ezooms"
+        "Browser": "Ezooms",
+        "Browser_Maker": "SEOmoz, Inc."
       },
       "children": [
         {

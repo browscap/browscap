@@ -31,7 +31,8 @@
         "MajorVer": "9",
         "MinorVer": "0",
         "CssVersion": "3",
-        "RenderingEngine_Version": "5.0"
+        "RenderingEngine_Version": "5.0",
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
