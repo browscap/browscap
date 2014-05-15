@@ -31,10 +31,6 @@
       "children": [
         {
           "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]
@@ -55,7 +51,7 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "true"
@@ -70,7 +66,7 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
-            "Device_Maker": "Apple",
+            "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -130,6 +126,8 @@
           "properties": {
             "Device_Name": "GT-C3262",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-C3262",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [
@@ -140,6 +138,8 @@
           "match": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
             "Device_Name": "GT-S3802",
+            "Device_Code_Name": "GT-S3802",
+            "Device_Brand_Name": "Samsung",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
           },

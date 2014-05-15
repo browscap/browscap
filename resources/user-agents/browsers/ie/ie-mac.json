@@ -31,6 +31,7 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Name": "Macintosh",
+        "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Tasman"
       },
       "children": [

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "MQQBrowser Generic",
         "Browser": "MQQBrowser",
+        "Browser_Type": "Browser",
         "CssVersion": "1",
         "isMobileDevice": "true",
         "isTablet": "false",

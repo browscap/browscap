@@ -9,6 +9,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -48,7 +50,8 @@
         "Device_Name": "Macintosh",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple"
+        "Device_Brand_Name": "Apple",
+        "Device_Pointing_Method": "mouse"
       }
     },
     "OSX_10_4_A": {
@@ -173,7 +176,7 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32",
-        "Device_Maker": "Apple",
+        "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true"
@@ -530,9 +533,16 @@
       "match": "*CentOS*",
       "properties": {
         "Platform": "CentOS",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
-        "Win64": "false"
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
       }
     },
     "Linux": {
@@ -544,6 +554,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -598,6 +610,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -627,13 +641,15 @@
         "Platform": "Win32",
         "Platform_Bits": "32",
         "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Description": "Windows",
         "Win16": "false",
         "Win32": "true",
         "Win64": "false",
+        "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
+        "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
         "isTablet": "false"
       }
@@ -875,41 +891,29 @@
     },
     "Win2000_4": {
       "match": "*Win2000*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_5": {
       "match": "*Windows NT5.0*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_6": {
       "match": "*WinNT5.0*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "Win2000",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.0",
-        "Platform_Description": "Windows 2000",
-        "Win32": "true"
+        "Platform_Description": "Windows 2000"
       }
     },
     "Win2000_64": {
@@ -1004,16 +1008,11 @@
     },
     "WinXPa_v3": {
       "match": "*WinNT5.1*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.1",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows XP"
       }
     },
     "WinXPb_32": {
@@ -1077,16 +1076,11 @@
     },
     "WinXPb_v2": {
       "match": "*WinNT5.2*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinXP",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "5.2",
-        "Platform_Description": "Windows XP",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows XP"
       }
     },
     "Vista_32": {
@@ -1138,16 +1132,11 @@
     },
     "Vista_v2": {
       "match": "*WinNT5.2*",
+      "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "32",
         "Platform": "WinVista",
-        "Platform_Bits": "32",
-        "Platform_Maker": "Microsoft Corporation",
-        "Device_Type": "Desktop",
         "Platform_Version": "6.0",
-        "Platform_Description": "Windows Vista",
-        "Win32": "false",
-        "Win64": "true"
+        "Platform_Description": "Windows Vista"
       }
     },
     "Win7_32": {
@@ -1275,7 +1264,6 @@
       "match": "*Windows NT 6.3*WOW64*",
       "inherits": "Windows",
       "properties": {
-        "Browser_Bits": "64",
         "Platform": "Win8.1",
         "Platform_Bits": "64",
         "Platform_Version": "6.3",
@@ -1302,11 +1290,13 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "WinRT8",
-        "Platform_Version": "6.3",
-        "Platform_Description": "Windows RT 8.1",
+        "Platform_Version": "6.2",
+        "Platform_Description": "Windows RT 8",
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Name": "Surface",
+        "Device_Code_Name": "Surface",
+        "Device_Brand_Name": "Microsoft",
         "Device_Type": "Tablet",
         "isTablet": "true",
         "Device_Maker": "Microsoft",
@@ -1323,6 +1313,8 @@
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Name": "Surface",
+        "Device_Code_Name": "Surface",
+        "Device_Brand_Name": "Microsoft",
         "Device_Type": "Tablet",
         "isTablet": "true",
         "Device_Maker": "Microsoft",
@@ -1380,6 +1372,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1394,6 +1387,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1408,6 +1402,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1422,6 +1417,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1436,6 +1432,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1666,6 +1663,13 @@
         "Platform_Version": "4.1"
       }
     },
+    "Android_4_1_E": {
+      "match": "*Android 4.1*Linux*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
     "Android_4_2": {
       "match": "*Linux*Android 4.2*",
       "inherits": "Android",
@@ -1818,6 +1822,7 @@
       "properties": {
         "Platform": "OpenBSD",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Platform_Description": "OpenBSD",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
@@ -1833,6 +1838,7 @@
       "properties": {
         "Platform": "NetBSD",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Platform_Description": "NetBSD",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
@@ -1848,6 +1854,7 @@
       "properties": {
         "Platform": "DragonFly BSD",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Platform_Description": "DragonFlyBSD",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
@@ -1864,6 +1871,7 @@
         "Platform": "SunOS",
         "Platform_Maker": "Oracle",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Device_Brand_Name": "Oracle",
         "Platform_Description": "SunOS",
         "Device_Code_Name": "general Desktop",
@@ -1903,6 +1911,7 @@
         "Platform": "OS/2",
         "Platform_Maker": "IBM",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Platform_Description": "OS/2",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
@@ -2102,6 +2111,7 @@
         "isMobileDevice": "false",
         "Platform_Description": "Unix",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
         "Win16": "false",
@@ -2187,8 +2197,8 @@
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
         "isMobileDevice": "true",
-        "Device_Maker": "HP",
-        "Platform_Maker": "HP",
+        "Device_Maker": "Hewlett-Packard",
+        "Platform_Maker": "Hewlett-Packard",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
@@ -2298,6 +2308,7 @@
         "Platform": "BeOS",
         "Platform_Maker": "Access",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Platform_Description": "BeOS",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
@@ -2316,6 +2327,8 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
+        "Device_Pointing_Method": "mouse",
         "Platform_Description": "Google Chrome OS",
         "Win16": "false",
         "Win32": "false",
@@ -2348,6 +2361,7 @@
         "Platform": "RISC OS",
         "Platform_Description": "RISC OS",
         "Device_Type": "Desktop",
+        "Device_Maker": "Various",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
         "Win16": "false",
@@ -2431,6 +2445,7 @@
       "properties": {
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",

@@ -1,6 +1,6 @@
 {
   "division": "Qt #MAJORVER#.#MINORVER#",
-  "versions": ["4.0", "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4,7", "4.8"],
+  "versions": ["4.0", "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7", "4.8"],
   "sortIndex": 1172,
   "userAgents": [
     {
@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -62,7 +63,7 @@
         "CssVersion": "3",
         "isMobileDevice": "true",
         "Device_Name": "unknown",
-        "Device_Maker": "unknown",
+        "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "unknown",
         "RenderingEngine_Name": "WebKit",

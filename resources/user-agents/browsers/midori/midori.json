@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Midori #MAJORVER#.#MINORVER#",
         "Browser": "Midori",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

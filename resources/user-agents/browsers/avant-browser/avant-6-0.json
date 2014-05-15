@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Avant\/IE 6.0",
         "Browser": "Avant",
+        "Browser_Type": "Browser",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

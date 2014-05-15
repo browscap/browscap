@@ -9,7 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Windows Live Mail",
         "Browser": "Windows Live Mail",
-        "Browser_Type": "Application",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Microsoft Corporation",
         "Version": "7.0",
         "MajorVer": "7",
         "MinorVer": "0",
@@ -25,6 +26,7 @@
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
         "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Maker": "Microsoft Corporation",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
       },
       "children": [

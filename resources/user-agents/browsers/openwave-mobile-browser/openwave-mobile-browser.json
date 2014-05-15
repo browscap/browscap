@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
         "Browser": "Openwave Mobile Browser",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -40,8 +41,10 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0",
-            "Device_Name": "S312",
-            "Device_Maker": "SonyEricsson"
+            "Device_Code_Name": "S312",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "S312"
           }
         },
         {

@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -81,7 +82,9 @@
           "match": "UCWEB\/* (#PLATFORM#SonyEricssonU1) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "U1",
-            "Device_Maker": "SonyEricsson"
+            "Device_Maker": "SonyEricsson",
+            "Device_Code_Name": "U1",
+            "Device_Brand_Name": "SonyEricsson"
           },
           "platforms": [
             "SymbianOS_B"
@@ -90,8 +93,10 @@
         {
           "match": "UCWEB\/* (#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
-            "Device_Name": "GT-S5570",
-            "Device_Maker": "Samsung"
+            "Device_Code_Name": "GT-S5570",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Mini"
           },
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
@@ -101,7 +106,9 @@
           "match": "UCWEB\/* (#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-S7262",
+            "Device_Brand_Name": "Samsung"
           },
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
@@ -114,7 +121,9 @@
           "match": "UCWEB\/* (Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung"
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-S7262",
+            "Device_Brand_Name": "Samsung"
           }
         },
         {

@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Kazehakase #MAJORVER#.#MINORVER#",
         "Browser": "Kazehakase",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

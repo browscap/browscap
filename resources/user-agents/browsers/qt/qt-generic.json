@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Qt Generic",
         "Browser": "Qt",
+        "Browser_Type": "Browser",
         "CssVersion": "1",
         "Device_Name": "PC",
         "Device_Maker": "Various",

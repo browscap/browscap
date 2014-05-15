@@ -84,7 +84,9 @@
             "isMobileDevice": "true",
             "IsTablet": "false",
             "Device_Name": "X650",
-            "Device_Maker": "Micromax"
+            "Device_Maker": "Micromax",
+            "Device_Code_Name": "X650",
+            "Device_Brand_Name": "Micromax"
           },
           "platforms": [
             "JAVA"

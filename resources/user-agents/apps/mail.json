@@ -7,9 +7,10 @@
       "platform": "Darwin",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "News",
-        "Browser": "News",
+        "Comment": "Mail",
+        "Browser": "Mail",
         "Browser_Type": "Email Client",
+        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -41,6 +42,13 @@
           "match": "Mail\/* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B"
           ]
         }
       ]

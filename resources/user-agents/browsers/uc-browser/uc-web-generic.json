@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
+        "Browser_Type": "Browser",
         "CssVersion": "1",
         "isMobileDevice": "true",
         "isTablet": "false",

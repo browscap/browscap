@@ -31,40 +31,24 @@
       "children": [
         {
           "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Android",
-            "Device_Maker": "Google"
-          },
           "platforms": [
             "Android"
           ]
@@ -120,6 +104,8 @@
           "properties": {
             "Device_Name": "GT-E1282T",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-E1282T",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [
@@ -131,6 +117,8 @@
           "properties": {
             "Device_Name": "GT-E2252",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-E2252",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [
@@ -142,6 +130,8 @@
           "properties": {
             "Device_Name": "GT-E2202",
             "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-E2202",
+            "Device_Brand_Name": "Samsung",
             "Device_Type": "Mobile Phone"
           },
           "platforms": [
@@ -153,7 +143,9 @@
           "properties": {
             "Device_Name": "GT-E3309T",
             "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-E3309T",
+            "Device_Brand_Name": "Samsung"
           },
           "platforms": [
             "JAVA"

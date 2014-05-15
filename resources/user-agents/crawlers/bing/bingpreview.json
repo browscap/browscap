@@ -7,6 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN",
         "Browser": "BingPreview",
         "Frames": "true",
@@ -29,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0b*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/1.0b*",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -37,7 +38,19 @@
             "Beta": "true"
           },
           "platforms": [
-            "Win7_64"
+            "Win7_32", "Win7_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM# Trident\/5.0; *BingPreview\/1.0b*",
+          "properties": {
+            "Version": "1.0b",
+            "MajorVer": "1",
+            "MinorVer": "0b",
+            "Beta": "true"
+          },
+          "platforms": [
+            "Win7_32", "Win7_64"
           ]
         }
       ]

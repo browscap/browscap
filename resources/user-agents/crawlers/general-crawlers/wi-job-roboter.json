@@ -8,12 +8,13 @@
         "Parent": "DefaultProperties",
         "Comment": "WI Job Roboter",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Web Integration IT Service GmbH",
         "Crawler": "true",
         "Browser": "WI Job Roboter"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider Version*"
+          "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider*"
         },
         {
           "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider Version 3*",
