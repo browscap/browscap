@@ -1395,6 +1395,122 @@
             "MajorVer": "0",
             "MinorVer": "16"
           }
+        },
+        {
+          "match": "CheckSite Verification Agent*",
+          "properties": {
+            "Browser": "CheckSite Verification Agent",
+            "Browser_Maker": "checksite.us"
+          }
+        },
+        {
+          "match": "Experibot*",
+          "properties": {
+            "Browser": "Experibot",
+            "Browser_Maker": "Amir Krause",
+            "Alpha": "true"
+          }
+        },
+        {
+          "match": "Experibot_v1*",
+          "properties": {
+            "Browser": "Experibot",
+            "Browser_Maker": "Amir Krause",
+            "Alpha": "true",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/1.1*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/1.2*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Genderanalyzer\/*",
+          "properties": {
+            "Browser": "Genderanalyzer",
+            "Browser_Maker": "genderanalyzer.com",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "Genderanalyzer\/1.0*",
+          "properties": {
+            "Browser": "Genderanalyzer",
+            "Browser_Maker": "genderanalyzer.com",
+            "Beta": "true",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gooblog\/*",
+          "properties": {
+            "Browser": "gooblog",
+            "Browser_Maker": "NTT Resonant Inc."
+          }
+        },
+        {
+          "match": "gooblog\/2.0*",
+          "properties": {
+            "Browser": "gooblog",
+            "Browser_Maker": "NTT Resonant Inc.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/1.1*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/1.3*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki",
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
         }
       ]
     }
