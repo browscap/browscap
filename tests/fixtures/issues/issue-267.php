@@ -678,10 +678,10 @@ return [
     'issue-267-Y' => [
         'W3C_I18n-Checker/1.0 (http://validator.w3.org/services)',
         [
-            'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser' => 'W3C I18n Checker',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Zend Technologies Inc',
+            'Browser_Maker' => 'W3C',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -706,10 +706,10 @@ return [
     'issue-267-Z' => [
         'W3C_Unicorn/1.0 (http://validator.w3.org/services)',
         [
-            'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser' => 'W3C Unicorn',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Zend Technologies Inc',
+            'Browser_Maker' => 'W3C',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
