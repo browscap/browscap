@@ -89,8 +89,6 @@
             "Win16": "false",
             "Win32": "false",
             "Win64": "false",
-            "Browser_Bits": "32",
-            "Platform_Bits": "32",
             "isMobileDevice": "true"
           }
         }
