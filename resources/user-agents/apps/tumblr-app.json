@@ -1,0 +1,37 @@
+{
+  "division": "Tumblr App #MAJORVER#.#MINORVER#",
+  "versions": ["14.0"],
+  "sortIndex": 1991,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Tumblr App #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tumblr App #MAJORVER#.#MINORVER#",
+        "Browser": "Tumblr App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tumblr, Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Tumblr\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
