@@ -1511,6 +1511,65 @@
             "MajorVer": "1",
             "MinorVer": "3"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.7*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.8*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.9*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Squzer\/*",
+          "properties": {
+            "Browser": "Squzer",
+            "Browser_Maker": "Declum"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (lbot\/*",
+          "properties": {
+            "Browser": "lbot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (lbot\/2.6*",
+          "properties": {
+            "Browser": "lbot",
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
         }
       ]
     }

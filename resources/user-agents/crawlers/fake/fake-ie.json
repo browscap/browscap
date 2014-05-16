@@ -1,0 +1,42 @@
+{
+  "division": "Fake IE",
+  "sortIndex": 960,
+  "userAgents": [
+    {
+      "userAgent": "Fake IE",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Fake IE",
+        "Comment": "Fake IE",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Microsoft Internet Explorer"
+        },
+        {
+          "match": "Internet Explore *"
+        },
+        {
+          "match": "Internet Explorer *"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 9.0; Windows NT 6.1*"
+        }
+      ]
+    }
+  ]
+}

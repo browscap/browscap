@@ -168,6 +168,13 @@
             "Browser": "WebTarantula",
             "Browser_Maker": "webtarantula.com"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/3.2*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb"
+          }
         }
       ]
     }
