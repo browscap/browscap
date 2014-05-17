@@ -1,5 +1,8 @@
 {
   "platforms": {
+    "any": {
+      "match": "*"
+    },
     "ChromeOS": {
       "match": "*CrOS*",
       "properties": {

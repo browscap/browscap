@@ -65,6 +65,23 @@
             "MajorVer": "1",
             "MinorVer": "6"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot*",
+          "properties": {
+            "Browser": "Qualidator.com Bot",
+            "Browser_Maker": "Qualidator.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot 1.0*",
+          "properties": {
+            "Browser": "Qualidator.com Bot",
+            "Browser_Maker": "Qualidator.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }

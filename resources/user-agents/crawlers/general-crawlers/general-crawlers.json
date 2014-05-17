@@ -1931,6 +1931,12 @@
             "Browser": "YisouSpider",
             "Browser_Maker": "Yisou.com"
           }
+        },
+        {
+          "match": "hivaBot*",
+          "properties": {
+            "Browser": "hivaBot"
+          }
         }
       ]
     }
