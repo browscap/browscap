@@ -1937,6 +1937,56 @@
           "properties": {
             "Browser": "hivaBot"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; fr-crawler\/*",
+          "properties": {
+            "Browser": "fr-crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/*",
+          "properties": {
+            "Browser": "WebThumb",
+            "Browser_Maker": "Boutell.Com, Inc.",
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Version": "1.9.2",
+            "RenderingEngine_Maker": "Mozilla Foundation"
+          },
+          "platforms": [
+            "Linux_32_on_x64_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/1.0*",
+          "properties": {
+            "Browser": "WebThumb",
+            "Browser_Maker": "Boutell.Com, Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0",
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Version": "1.9.2",
+            "RenderingEngine_Maker": "Mozilla Foundation"
+          },
+          "platforms": [
+            "Linux_32_on_x64_2"
+          ]
+        },
+        {
+          "match": "Comodo Spider*",
+          "properties": {
+            "Browser": "Comodo Spider"
+          }
+        },
+        {
+          "match": "Comodo Spider 1.2*",
+          "properties": {
+            "Browser": "Comodo Spider",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
         }
       ]
     }
