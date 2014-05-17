@@ -1577,6 +1577,30 @@
             "Browser": "InternetSeer.com",
             "Browser_Maker": "InternetSeer.com"
           }
+        },
+        {
+          "match": "ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com",
+          "properties": {
+            "Browser": "ADmantX Platform Semantic Analyzer",
+            "Browser_Maker": "ADmantX Inc"
+          }
+        },
+        {
+          "match": "UnityPlayer\/*",
+          "properties": {
+            "Browser": "Unity Web Player",
+            "Browser_Maker": "Unity Technologies"
+          }
+        },
+        {
+          "match": "UnityPlayer\/4.3*",
+          "properties": {
+            "Browser": "Unity Web Player",
+            "Browser_Maker": "Unity Technologies",
+            "Version": "4.3",
+            "MajorVer": "4",
+            "MinorVer": "3"
+          }
         }
       ]
     }
