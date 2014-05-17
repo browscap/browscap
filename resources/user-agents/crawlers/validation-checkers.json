@@ -48,6 +48,23 @@
           "properties": {
             "Browser": "WWWC"
           }
+        },
+        {
+          "match": "WDG_Validator\/*",
+          "properties": {
+            "Browser": "WDG HTML Validator",
+            "Browser_Maker": "Web Design Group"
+          }
+        },
+        {
+          "match": "WDG_Validator\/1.6*",
+          "properties": {
+            "Browser": "WDG HTML Validator",
+            "Browser_Maker": "Web Design Group",
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          }
         }
       ]
     }

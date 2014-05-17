@@ -102,6 +102,23 @@
             "MajorVer": "0",
             "MinorVer": "2"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/*",
+          "properties": {
+            "Browser": "Socialradarbot",
+            "Browser_Maker": "infegy.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/2.0*",
+          "properties": {
+            "Browser": "Socialradarbot",
+            "Browser_Maker": "infegy.com",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
         }
       ]
     }
