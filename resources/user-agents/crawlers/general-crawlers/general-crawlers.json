@@ -1253,13 +1253,31 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
+          "match": "Mozilla\/4.0 (#PLATFORM#) Lightspeedsystems*",
           "properties": {
-            "Browser": "Lightspeedsystems"
+            "Browser": "Lightspeedsystems",
+            "Browser_Maker": "Lightspeedsystems"
           },
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "LSSRocketCrawler\/* LightspeedSystems*",
+          "properties": {
+            "Browser": "Lightspeedsystems RocketCrawler",
+            "Browser_Maker": "Lightspeed Systems"
+          }
+        },
+        {
+          "match": "LSSRocketCrawler\/1.0 LightspeedSystems*",
+          "properties": {
+            "Browser": "Lightspeedsystems RocketCrawler",
+            "Browser_Maker": "Lightspeed Systems",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         },
         {
           "match": "Mozilla\/5.0 (compatible; PaperLiBot\/*",
@@ -1713,6 +1731,192 @@
             "Version": "1.18",
             "MajorVer": "1",
             "MinorVer": "18"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/*",
+          "properties": {
+            "Browser": "Daumoa",
+            "Browser_Maker": "Daum Communications Corp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/3.0*",
+          "properties": {
+            "Browser": "Daumoa",
+            "Browser_Maker": "Daum Communications Corp",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Photon\/*",
+          "properties": {
+            "Browser": "Photon",
+            "Browser_Maker": "photonproject.net"
+          }
+        },
+        {
+          "match": "Photon\/1.0*",
+          "properties": {
+            "Browser": "Photon",
+            "Browser_Maker": "photonproject.net",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/*",
+          "properties": {
+            "Browser": "meanpathbot",
+            "Browser_Maker": "Meanpath"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/1.0*",
+          "properties": {
+            "Browser": "meanpathbot",
+            "Browser_Maker": "Meanpath",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Apercite*",
+          "properties": {
+            "Browser": "Apercite",
+            "Browser_Maker": "Apercite"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/*",
+          "properties": {
+            "Browser": "XML Sitemaps Generator",
+            "Browser_Maker": "XML Sitemaps",
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Maker": "Mozilla Foundation"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/1.0*",
+          "properties": {
+            "Browser": "XML Sitemaps Generator",
+            "Browser_Maker": "XML Sitemaps",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0",
+            "RenderingEngine_Name": "Gecko",
+            "RenderingEngine_Maker": "Mozilla Foundation"
+          }
+        },
+        {
+          "match": "Aboundex\/*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com"
+          }
+        },
+        {
+          "match": "Aboundex\/0.3*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com",
+            "Version": "0.3",
+            "MajorVer": "0",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; URLAppendBot\/*",
+          "properties": {
+            "Browser": "URLAppendBot",
+            "Browser_Maker": "Profound Networks"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; URLAppendBot\/1.0*",
+          "properties": {
+            "Browser": "URLAppendBot",
+            "Browser_Maker": "Profound Networks",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetSeer crawler\/*",
+          "properties": {
+            "Browser": "NetSeer Crawler",
+            "Browser_Maker": "NetSeer, Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetSeer crawler\/2.0*",
+          "properties": {
+            "Browser": "NetSeer Crawler",
+            "Browser_Maker": "NetSeer, Inc.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0?(compatible;?PiplBot*",
+          "properties": {
+            "Browser": "PiplBot",
+            "Browser_Maker": "Pipl"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Add Catalog\/*",
+          "properties": {
+            "Browser": "Add Catalog"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Add Catalog\/2.1*",
+          "properties": {
+            "Browser": "Add Catalog",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 Moreover\/*",
+          "properties": {
+            "Browser": "Moreover",
+            "Browser_Maker": "Moreover Technologies, Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 Moreover\/5.1*",
+          "properties": {
+            "Browser": "Moreover",
+            "Browser_Maker": "Moreover Technologies, Inc",
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/*",
+          "properties": {
+            "Browser": "LinkpadBot",
+            "Browser_Maker": "LinkPad"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/1.06*",
+          "properties": {
+            "Browser": "LinkpadBot",
+            "Browser_Maker": "LinkPad",
+            "Version": "1.06",
+            "MajorVer": "1",
+            "MinorVer": "06"
           }
         }
       ]
