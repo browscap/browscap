@@ -21,7 +21,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 5.1; *; rv:*)  Firefox\/*; 360Spider*",
+          "match": "Mozilla\/5.0 (*Windows NT 5.1*)  Firefox\/*; 360Spider*",
           "platforms": [
             "WinXPa_32"
           ]

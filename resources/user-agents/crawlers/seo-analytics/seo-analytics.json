@@ -220,6 +220,13 @@
             "MajorVer": "0",
             "MinorVer": "97"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey SEO Service*",
+          "properties": {
+            "Browser": "Lipperhey SEO Service",
+            "Browser_Maker": "Lipperhey"
+          }
         }
       ]
     }
