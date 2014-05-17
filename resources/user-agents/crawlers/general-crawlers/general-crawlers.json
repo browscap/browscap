@@ -1601,6 +1601,119 @@
             "MajorVer": "4",
             "MinorVer": "3"
           }
+        },
+        {
+          "match": "WeSEE:Search\/*",
+          "properties": {
+            "Browser": "WeSEE:Search",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
+          "match": "WeSEE:Search\/0.1 (Alpha*",
+          "properties": {
+            "Browser": "WeSEE:Search",
+            "Browser_Maker": "WeSEE",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1",
+            "Alpha": "true"
+          }
+        },
+        {
+          "match": "A6-Indexer\/*",
+          "properties": {
+            "Browser": "A6-Indexer",
+            "Browser_Maker": "A6 Corp"
+          }
+        },
+        {
+          "match": "A6-Indexer\/1.0*",
+          "properties": {
+            "Browser": "A6-Indexer",
+            "Browser_Maker": "A6 Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Peeplo Screenshot Bot\/*",
+          "properties": {
+            "Browser": "Peeplo Screenshot Bot",
+            "Browser_Maker": "peeplo.com"
+          }
+        },
+        {
+          "match": "Peeplo Screenshot Bot\/0.20*",
+          "properties": {
+            "Browser": "Peeplo Screenshot Bot",
+            "Browser_Maker": "peeplo.com",
+            "Version": "0.20",
+            "MajorVer": "0",
+            "MinorVer": "20"
+          }
+        },
+        {
+          "match": "CCBot\/*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation"
+          }
+        },
+        {
+          "match": "CCBot\/1.0*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "CCBot\/2.0*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "visionutils\/*",
+          "properties": {
+            "Browser": "visionutils",
+            "Browser_Maker": "Bob Mottram"
+          }
+        },
+        {
+          "match": "visionutils\/0.2*",
+          "properties": {
+            "Browser": "visionutils",
+            "Browser_Maker": "Bob Mottram",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; IstellaBot\/*",
+          "properties": {
+            "Browser": "IstellaBot",
+            "Browser_Maker": "Tiscali Italia S.p.a"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; IstellaBot\/1.18*",
+          "properties": {
+            "Browser": "IstellaBot",
+            "Browser_Maker": "Tiscali Italia S.p.a",
+            "Version": "1.18",
+            "MajorVer": "1",
+            "MinorVer": "18"
+          }
         }
       ]
     }

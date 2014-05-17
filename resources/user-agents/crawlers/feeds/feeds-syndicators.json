@@ -465,6 +465,23 @@
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Feedly\/*",
+          "properties": {
+            "Browser": "feedly Feed Fetcher",
+            "Browser_Maker": "feedly.com"
+          }
+        },
+        {
+          "match": "Feedly\/1.0*",
+          "properties": {
+            "Browser": "feedly Feed Fetcher",
+            "Browser_Maker": "feedly.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }

@@ -203,6 +203,23 @@
             "MinorVer": "0b",
             "Beta": "true"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.97*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush",
+            "Version": "0.97",
+            "MajorVer": "0",
+            "MinorVer": "97"
+          }
         }
       ]
     }

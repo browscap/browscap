@@ -908,6 +908,12 @@
           "properties": {
             "Browser": "Fake Chrome"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; Android * App3leWebKit\/*",
+          "properties": {
+            "Browser": "Fake Android"
+          }
         }
       ]
     }
