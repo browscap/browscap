@@ -958,10 +958,10 @@ return [
     'issue-267-AI' => [
         'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; 125LA; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
         [
-            'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser' => 'Fake IE',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Zend Technologies Inc',
+            'Browser_Maker' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -986,12 +986,12 @@ return [
     'issue-267-AJ' => [
         'Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/about/bots/)',
         [
-            'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser' => 'Linkdex Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Zend Technologies Inc',
-            'Version' => '0.0',
-            'MajorVer' => '0',
+            'Browser_Maker' => 'Linkdex Limited',
+            'Version' => '2.0',
+            'MajorVer' => '2',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',

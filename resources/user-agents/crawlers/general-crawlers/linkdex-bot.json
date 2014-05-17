@@ -1,0 +1,40 @@
+{
+  "division": "Linkdex Bot",
+  "sortIndex": 1031,
+  "userAgents": [
+    {
+      "userAgent": "Linkdex Bot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Browser": "Linkdex Bot",
+        "Browser_Maker": "Linkdex Limited",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; linkdexbot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; linkdexbot\/2.0",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; linkdexbot\/2.1",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
