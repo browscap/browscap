@@ -635,7 +635,7 @@ return [
             'Platform_Maker' => 'unknown',
             'isMobileDevice' => false,
             'isTablet' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',
