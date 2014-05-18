@@ -143,6 +143,13 @@
             "Browser": "R6 CommentReader",
             "Browser_Maker": "salesforce.com, inc."
           }
+        },
+        {
+          "match": "viralvideochart.unrulymedia.com*",
+          "properties": {
+            "Browser": "viralvideochart Bot",
+            "Browser_Maker": "Unruly Group Limited"
+          }
         }
       ]
     }

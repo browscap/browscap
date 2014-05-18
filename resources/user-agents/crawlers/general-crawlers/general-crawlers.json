@@ -2135,6 +2135,41 @@
             "Browser": "Blekkobot",
             "Browser_Maker": "Blekko Inc."
           }
+        },
+        {
+          "match": "PagesInventory*",
+          "properties": {
+            "Browser": "PagesInventory Bot",
+            "Browser_Maker": "PagesInventory.com"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (CMS Crawler*",
+          "properties": {
+            "Browser": "CMS Crawler",
+            "Browser_Maker": "Viderem AB"
+          }
+        },
+        {
+          "match": "psbot-image*",
+          "properties": {
+            "Browser": "Psbot",
+            "Browser_Maker": "Picsearch Services AB"
+          }
+        },
+        {
+          "match": "MetaHeadersBot*",
+          "properties": {
+            "Browser": "MetaHeadersBot",
+            "Browser_Maker": "Metaheaders.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Twingly Recon*",
+          "properties": {
+            "Browser": "Twingly Recon",
+            "Browser_Maker": "Twingly AB"
+          }
         }
       ]
     }
