@@ -1820,6 +1820,16 @@
           }
         },
         {
+          "match": "Aboundex\/0.2*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
           "match": "Aboundex\/0.3*",
           "properties": {
             "Browser": "Aboundexbot",
