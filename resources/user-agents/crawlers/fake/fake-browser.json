@@ -914,6 +914,18 @@
           "properties": {
             "Browser": "Fake Android"
           }
+        },
+        {
+          "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*",
+          "properties": {
+            "Browser": "Fake Firefox"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*) Firefox\/*",
+          "properties": {
+            "Browser": "Fake Firefox"
+          }
         }
       ]
     }
