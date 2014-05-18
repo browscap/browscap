@@ -482,6 +482,13 @@
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; theoldreader.com*",
+          "properties": {
+            "Browser": "The Old Reader",
+            "Browser_Maker": "The Old Reader"
+          }
         }
       ]
     }

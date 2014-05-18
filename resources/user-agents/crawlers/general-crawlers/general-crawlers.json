@@ -2026,6 +2026,57 @@
           "platforms": [
             "Vista_32"
           ]
+        },
+        {
+          "match": "Mozilla \/ reddit pic scraper*",
+          "properties": {
+            "Browser": "reddit pic scraper",
+            "Browser_Maker": "Reddit Inc."
+          }
+        },
+        {
+          "match": "Mozilla \/ reddit pic scraper v0.8*",
+          "properties": {
+            "Browser": "reddit pic scraper",
+            "Browser_Maker": "Reddit Inc.",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/*",
+          "properties": {
+            "Browser": "GroupHigh Bot",
+            "Browser_Maker": "GroupHigh LLC"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/1.0*",
+          "properties": {
+            "Browser": "GroupHigh Bot",
+            "Browser_Maker": "GroupHigh LLC",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "AntBot\/*",
+          "properties": {
+            "Browser": "AntBot",
+            "Browser_Maker": "Ant.com Ltd"
+          }
+        },
+        {
+          "match": "AntBot\/1.0*",
+          "properties": {
+            "Browser": "AntBot",
+            "Browser_Maker": "Ant.com Ltd",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }
