@@ -227,6 +227,23 @@
             "Browser": "Lipperhey SEO Service",
             "Browser_Maker": "Lipperhey"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Prlog\/*",
+          "properties": {
+            "Browser": "Prlog",
+            "Browser_Maker": "prlog.ru"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Prlog\/1.0*",
+          "properties": {
+            "Browser": "Prlog",
+            "Browser_Maker": "prlog.ru",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }

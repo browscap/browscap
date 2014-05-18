@@ -119,6 +119,30 @@
             "MajorVer": "2",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; EveryoneSocialBot\/*",
+          "properties": {
+            "Browser": "EveryoneSocialBot",
+            "Browser_Maker": "EveryoneSocial"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; EveryoneSocialBot\/1.0*",
+          "properties": {
+            "Browser": "EveryoneSocialBot",
+            "Browser_Maker": "EveryoneSocial",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "R6_CommentReader*",
+          "properties": {
+            "Browser": "R6 CommentReader",
+            "Browser_Maker": "salesforce.com, inc."
+          }
         }
       ]
     }

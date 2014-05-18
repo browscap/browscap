@@ -2077,6 +2077,64 @@
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "ZumBot\/*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp"
+          }
+        },
+        {
+          "match": "ZumBot\/1.0*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "OpenWebSpider*",
+          "properties": {
+            "Browser": "OpenWebSpider",
+            "Browser_Maker": "Stefano Alimonti"
+          }
+        },
+        {
+          "match": "OpenWebSpider v0.1*",
+          "properties": {
+            "Browser": "OpenWebSpider",
+            "Browser_Maker": "Stefano Alimonti",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/*",
+          "properties": {
+            "Browser": "TweetmemeBot",
+            "Browser_Maker": "tweetmeme.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/3.0*",
+          "properties": {
+            "Browser": "TweetmemeBot",
+            "Browser_Maker": "tweetmeme.com",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Blekkobot*",
+          "properties": {
+            "Browser": "Blekkobot",
+            "Browser_Maker": "Blekko Inc."
+          }
         }
       ]
     }
