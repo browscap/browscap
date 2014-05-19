@@ -53,7 +53,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Generator\DataCollection',
-            array('addPlatformsFile', 'addSourceFile', 'addPlatformsFile'),
+            array('addPlatformsFile', 'addSourceFile', 'addEnginesFile'),
             array(),
             '',
             false
@@ -63,7 +63,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
         $mockCollection->expects(self::any())
-            ->method('addPlatformsFile')
+            ->method('addEnginesFile')
             ->will(self::returnSelf())
         ;
         $mockCollection->expects(self::any())

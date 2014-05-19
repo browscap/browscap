@@ -110,7 +110,7 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-96-CA' => [
@@ -1090,7 +1090,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-96-AR' => [
@@ -1370,7 +1370,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-96-AH' => [
@@ -1568,7 +1568,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-96-AA' => [
@@ -1765,7 +1765,7 @@ return [
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-96-T' => [

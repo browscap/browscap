@@ -54,7 +54,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-84-F' => [
