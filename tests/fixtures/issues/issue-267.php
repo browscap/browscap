@@ -2273,7 +2273,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Microsoft Corporation',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
     'issue-267-CE' => [
