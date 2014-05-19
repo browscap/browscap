@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "NetFront Generic",
+      "engine": "NetFront",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront Generic",
@@ -16,9 +17,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
-        "CssVersion": "2",
-        "RenderingEngine_Name": "NetFront",
-        "RenderingEngine_Description": "For Access NetFront."
+        "CssVersion": "2"
       },
       "children": [
         {

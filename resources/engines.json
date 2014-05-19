@@ -1,0 +1,76 @@
+{
+  "engines": {
+    "WebKit": {
+      "properties": {
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    "Gecko": {
+      "properties": {
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation"
+      }
+    },
+    "Trident": {
+      "properties": {
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
+        "RenderingEngine_Maker": "Microsoft Corporatio"
+      }
+    },
+    "Presto": {
+      "properties": {
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
+        "RenderingEngine_Maker": "Opera Software ASA"
+      }
+    },
+    "NetFront": {
+      "properties": {
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Access NetFront.",
+        "RenderingEngine_Maker": "Access"
+      }
+    },
+    "T5": {
+      "properties": {
+        "RenderingEngine_Name": "T5",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by Baidu",
+        "RenderingEngine_Maker": "Baidu"
+      }
+    },
+    "Tasman": {
+      "properties": {
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    "KHTML": {
+      "properties": {
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Konqueror.",
+        "RenderingEngine_Maker": "unknown"
+      }
+    },
+    "U3": {
+      "properties": {
+        "RenderingEngine_Name": "U3",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by UC Web",
+        "RenderingEngine_Maker": "UC Web"
+      }
+    }
+  }
+}

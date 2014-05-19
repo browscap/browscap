@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -37,10 +38,7 @@
         "Device_Name": "Windows Desktop",
         "Device_Maker": "Various",
         "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Version": "4.0",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
-        "RenderingEngine_Maker": "Microsoft Corporation"
+        "RenderingEngine_Version": "4.0"
       },
       "children": [
         {
@@ -55,10 +53,7 @@
         },
         {
           "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
-          "properties": {
-            "RenderingEngine_Name": "Tasman",
-            "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
-          },
+          "engine": "Tasman",
           "platforms": [
             "MacPPC_2"
           ]

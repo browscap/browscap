@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "NetFront #MAJORVER#.#MINORVER#",
+      "engine": "NetFront",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
@@ -20,9 +21,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "2",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "NetFront",
-        "RenderingEngine_Description": "For Access NetFront."
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

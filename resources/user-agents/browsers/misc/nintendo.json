@@ -65,12 +65,12 @@
         },
         {
           "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+          "engine": "NetFront",
           "properties": {
             "Comment": "Nintendo 3DS",
             "Browser": "Nintendo 3DS Internet Browser",
             "Device_Code_Name": "3DS",
-            "Device_Name": "3DS",
-            "RenderingEngine_Name": "NetFront"
+            "Device_Name": "3DS"
           }
         }
       ]

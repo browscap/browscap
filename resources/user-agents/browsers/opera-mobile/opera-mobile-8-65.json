@@ -5,6 +5,7 @@
     {
       "userAgent": "Opera Mobile 8.65",
       "platform": "WinMobile",
+      "engine": "Presto",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -26,10 +27,7 @@
         "CssVersion": "1",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Maker": "Opera Software ASA",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+        "RenderingEngine_Version": "2.2"
       },
       "children": [
         {

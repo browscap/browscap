@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -27,10 +28,7 @@
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "2.0",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "RenderingEngine_Version": "2.0"
       },
       "children": [
         {

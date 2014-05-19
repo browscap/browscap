@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2007",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2007",
@@ -19,9 +20,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
+      "engine": "KHTML",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Konqueror #MAJORVER#.#MINORVER#",
@@ -23,9 +24,7 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "KHTML",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "RenderingEngine_Description": "For Konqueror."
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile",
+      "engine": "Presto",
       "properties": {
         "Parent": "Opera Mobile Generic",
         "Comment": "Opera Mobile",
@@ -19,19 +20,11 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Maker": "Opera Software ASA",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+        "RenderingEngine_Version": "2.2"
       },
       "children": [
         {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
-          "properties": {
-            "Browser": "Opera Mobile",
-            "RenderingEngine_Name": "Presto",
-            "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
-          },
           "platforms": [
             "WinCE"
           ]

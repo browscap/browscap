@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "IE 10.0",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE 10.0",
@@ -31,10 +32,7 @@
         "Device_Name": "Windows Desktop",
         "Device_Maker": "Various",
         "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Version": "6.0",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
-        "RenderingEngine_Maker": "Microsoft Corporation"
+        "RenderingEngine_Version": "6.0"
       },
       "children": [
         {

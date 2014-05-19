@@ -5,6 +5,7 @@
     {
       "userAgent": "BlackBerry 7.0",
       "platform": "RIMOS_7_0",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "BlackBerry",
@@ -23,10 +24,7 @@
         "Device_Code_Name": "Blackberry",
         "Device_Brand_Name": "RIM",
         "Version": "7.0",
-        "MajorVer": "7",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "MajorVer": "7"
       },
       "children": [
         {

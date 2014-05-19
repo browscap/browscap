@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
@@ -25,10 +26,7 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.0",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "RenderingEngine_Version": "#MAJORVER#.0"
       },
       "children": [
         {

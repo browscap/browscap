@@ -6,6 +6,7 @@
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
       "platform": "Linux",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
@@ -25,10 +26,7 @@
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
         "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Maker": "Various"
       },
       "children": [
         {

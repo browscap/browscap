@@ -7,6 +7,7 @@
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8",
+      "engine": "Trident",
       "properties": {
         "Parent": "IEMobile",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -29,11 +30,8 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Maker": "Microsoft Corporation",
         "CssVersion": "3",
-        "RenderingEngine_Version": "6.0",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
+        "RenderingEngine_Version": "6.0"
       },
       "children": [
         {

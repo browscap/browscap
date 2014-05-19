@@ -7,6 +7,7 @@
     {
       "userAgent": "FirefoxOS #MAJORVER#.#MINORVER#",
       "platform": "FirefoxOS",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -31,10 +32,7 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

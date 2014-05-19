@@ -7,6 +7,7 @@
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
@@ -26,10 +27,7 @@
         "isTablet": "false",
         "Device_Name": "Nokia",
         "Device_Maker": "Nokia",
-        "Device_Type": "Mobile Phone",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "Device_Type": "Mobile Phone"
       },
       "children": [
         {

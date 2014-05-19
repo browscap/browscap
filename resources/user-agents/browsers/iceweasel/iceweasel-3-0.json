@@ -7,6 +7,7 @@
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Debian",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
@@ -27,10 +28,7 @@
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "1.9",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "RenderingEngine_Version": "1.9"
       },
       "children": [
         {
