@@ -4,8 +4,8 @@
   "sortIndex": 7803,
   "userAgents": [
     {
-      "userAgent": "Netscape #MAJORVER#.#MINORVER#"
-      "engine": "Gecko",,
+      "userAgent": "Netscape #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netscape #MAJORVER#.#MINORVER#",
