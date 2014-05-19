@@ -36,6 +36,12 @@
           ]
         },
         {
+          "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
             "Device_Name": "Blackberry",

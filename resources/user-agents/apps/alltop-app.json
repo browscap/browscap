@@ -1,0 +1,36 @@
+{
+  "division": "Alltop App #MAJORVER#.#MINORVER#",
+  "versions": ["1.1"],
+  "sortIndex": 1992,
+  "userAgents": [
+    {
+      "userAgent": "Alltop App #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alltop App #MAJORVER#.#MINORVER#",
+        "Browser": "Alltop App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Alltop",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "CssVersion": "3",
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Maker": "Apple Inc",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+      },
+      "children": [
+        {
+          "match": "Alltop\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

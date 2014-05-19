@@ -49,7 +49,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux", "Linux_32_on_x64"
+            "Linux", "Linux_32_on_x64", "WinXPa_32"
           ]
         },
         {

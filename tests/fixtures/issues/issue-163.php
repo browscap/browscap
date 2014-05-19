@@ -7,7 +7,7 @@ return [
             'Browser' => 'Validator.nu/LV',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'W3C',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

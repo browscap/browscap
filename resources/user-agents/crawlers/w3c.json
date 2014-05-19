@@ -9,6 +9,7 @@
         "Comment": "W3C",
         "Browser": "W3C",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "W3C",
         "Crawler": "true"
       },
       "children": [
@@ -98,9 +99,21 @@
           }
         },
         {
-          "match": "Validator.nu/LV*",
+          "match": "Validator.nu\/LV*",
           "properties": {
             "Browser": "Validator.nu/LV"
+          }
+        },
+        {
+          "match": "W3C_I18n-Checker\/*",
+          "properties": {
+            "Browser": "W3C I18n Checker"
+          }
+        },
+        {
+          "match": "W3C_Unicorn\/*",
+          "properties": {
+            "Browser": "W3C Unicorn"
           }
         }
       ]

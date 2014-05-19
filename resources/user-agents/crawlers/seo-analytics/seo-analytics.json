@@ -168,6 +168,82 @@
             "Browser": "WebTarantula",
             "Browser_Maker": "webtarantula.com"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/3.2*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/*",
+          "properties": {
+            "Browser": "SiteExplorer",
+            "Browser_Maker": "siteexplorer.info"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/1.0b;*",
+          "properties": {
+            "Browser": "SiteExplorer",
+            "Browser_Maker": "siteexplorer.info",
+            "Version": "1.0b",
+            "MajorVer": "1",
+            "MinorVer": "0b",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.97*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush",
+            "Version": "0.97",
+            "MajorVer": "0",
+            "MinorVer": "97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey SEO Service*",
+          "properties": {
+            "Browser": "Lipperhey SEO Service",
+            "Browser_Maker": "Lipperhey"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Prlog\/*",
+          "properties": {
+            "Browser": "Prlog",
+            "Browser_Maker": "prlog.ru"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Prlog\/1.0*",
+          "properties": {
+            "Browser": "Prlog",
+            "Browser_Maker": "prlog.ru",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }

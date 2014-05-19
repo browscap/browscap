@@ -1,0 +1,37 @@
+{
+  "division": "BoardReader",
+  "sortIndex": 561,
+  "userAgents": [
+    {
+      "userAgent": "BoardReader",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BoardReader",
+        "Browser": "BoardReader",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "BoardReader",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "BoardReader Favicon Fetcher \/*",
+          "properties": {
+            "Browser": "BoardReader Favicon Fetcher",
+            "isSyndicationReader": "false"
+          }
+        },
+        {
+          "match": "BoardReader Favicon Fetcher \/1.0*",
+          "properties": {
+            "Browser": "BoardReader Favicon Fetcher",
+            "isSyndicationReader": "false",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

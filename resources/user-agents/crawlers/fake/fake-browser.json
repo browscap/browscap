@@ -898,42 +898,6 @@
           ]
         },
         {
-          "match": "Microsoft Internet Explorer",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
-          "match": "Internet Explore *",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
-          "match": "Internet Explorer *",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
-          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
-          "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
-          "match": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*",
-          "properties": {
-            "Browser": "Fake IE"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Macintosh; Intel Mac OS X *) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*",
           "properties": {
             "Browser": "Fake Safari"
@@ -943,6 +907,24 @@
           "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
           "properties": {
             "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; Android * App3leWebKit\/*",
+          "properties": {
+            "Browser": "Fake Android"
+          }
+        },
+        {
+          "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*",
+          "properties": {
+            "Browser": "Fake Firefox"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*) Firefox\/*",
+          "properties": {
+            "Browser": "Fake Firefox"
           }
         }
       ]

@@ -8,6 +8,7 @@
         "Parent": "General Crawlers",
         "Browser": "SeznamBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Seznam.cz, a.s.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,7 +22,32 @@
           "match": "SeznamBot\/3.0*",
           "properties": {
             "Version": "3.0",
-            "MajorVer": "3"
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "SeznamBot\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "SeznamBot\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SeznamBot\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
           }
         }
       ]
