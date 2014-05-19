@@ -45,7 +45,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
+          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "Win2000", "Win2000_3", "Win2000_64", "WinXPa_32", "WinXPa_64", "WinXPa_x64",
             "WinXPb_32", "WinXPb_64", "WinXPb_x64", "WinXPb_x64_3",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (*MSIE #MAJORVER#.#MINORVER#*)*"
+          "match": "Mozilla\/* (*MSIE #MAJORVER#.#MINORVER#*"
         }
       ]
     }

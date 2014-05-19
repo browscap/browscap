@@ -65,6 +65,21 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Google-Site-Verification\/*",
+          "properties": {
+            "Browser": "Google-Site-Verification"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Google-Site-Verification\/1.0*",
+          "properties": {
+            "Browser": "Google-Site-Verification",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Google-Sitemaps*",
           "properties": {
             "Browser": "Google-Sitemaps"
@@ -88,15 +103,6 @@
           "properties": {
             "Browser": "iGoogleGadgets",
             "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Google-Site-Verification*",
-          "properties": {
-            "Browser": "Google-Site-Verification\/1.0",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
           }
         },
         {

@@ -70,6 +70,23 @@
           "properties": {
             "Browser": "Reblog"
           }
+        },
+        {
+          "match": "Bloglovin\/*",
+          "properties": {
+            "Browser": "Bloglovin Bot",
+            "Browser_Maker": "bloglovin.com"
+          }
+        },
+        {
+          "match": "Bloglovin\/1.0*",
+          "properties": {
+            "Browser": "Bloglovin Bot",
+            "Browser_Maker": "bloglovin.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         }
       ]
     }

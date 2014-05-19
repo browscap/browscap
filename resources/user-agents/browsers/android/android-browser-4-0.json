@@ -5137,6 +5137,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Sony Tablet P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Tablet P",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Tablet P"
+          },
+          "platforms": [
+            "Android_3_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#A101 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "isTablet": "true",

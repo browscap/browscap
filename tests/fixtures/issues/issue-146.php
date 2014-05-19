@@ -7,7 +7,7 @@ return [
             'Browser' => 'Lightspeedsystems',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Lightspeed Systems',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

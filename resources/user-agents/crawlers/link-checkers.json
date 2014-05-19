@@ -389,9 +389,16 @@
           }
         },
         {
-          "match": "Mozilla/5.0 TYPO3-linkvalidator*",
+          "match": "Mozilla\/5.0 TYPO3-linkvalidator*",
           "properties": {
             "Browser": "TYPO3 Linkvalidator"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; pmoz.info ODP link checker*",
+          "properties": {
+            "Browser": "pmoz.info ODP link checker",
+            "Browser_Maker": "PlantRob"
           }
         }
       ]
