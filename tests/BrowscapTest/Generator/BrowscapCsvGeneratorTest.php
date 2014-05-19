@@ -52,6 +52,7 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
         $dataCollection
             ->setLogger($this->logger)
             ->addPlatformsFile($this->getPlatformsJsonFixture())
+            ->addEnginesFile(__DIR__ . '/../../fixtures/ua/engines.json')
         ;
 
         $dateProperty = new \ReflectionProperty(get_class($dataCollection), 'generationDate');
@@ -187,8 +188,7 @@ class BrowscapCsvGeneratorTest extends \PHPUnit_Framework_TestCase
         $collectionParser = new CollectionParser();
         $collectionParser
             ->setLogger($this->logger)
-            ->setDataCollection(
-            $this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $jsonFile])
+            ->setDataCollection($this->getCollectionData([$fixturesDir . 'ua/default-properties.json', $jsonFile])
         );
         $collectionData = $collectionParser->parse();
 

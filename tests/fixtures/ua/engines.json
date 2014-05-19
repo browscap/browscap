@@ -1,0 +1,9 @@
+{
+  "engines": {
+    "Foobar": {
+      "properties": {
+        "RenderingEngine_Name": "Foobar"
+      }
+    }
+  }
+}
