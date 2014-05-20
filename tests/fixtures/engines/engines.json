@@ -4,6 +4,9 @@
       "properties": {
         "RenderingEngine_Name": "Foobar"
       }
+    },
+    "Foo": {
+      "inherits": "Foobar"
     }
   }
 }
