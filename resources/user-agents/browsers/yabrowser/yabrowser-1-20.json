@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",

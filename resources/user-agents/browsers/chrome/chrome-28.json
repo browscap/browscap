@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "Chrome Generic",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",

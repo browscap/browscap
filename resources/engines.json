@@ -323,6 +323,14 @@
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
         "RenderingEngine_Maker": "UC Web"
       }
+    },
+    "Blink": {
+      "properties": {
+        "RenderingEngine_Name": "Blink",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by Google",
+        "RenderingEngine_Maker": "Google Inc"
+      }
     }
   }
 }

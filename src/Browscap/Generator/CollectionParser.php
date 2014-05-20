@@ -249,7 +249,7 @@ class CollectionParser
 
         if (array_key_exists('engine', $uaData)) {
             $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
-            $engineData = $engine['properties'];
+            $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
         } else {
             $engineData = array();
         }
@@ -336,7 +336,7 @@ class CollectionParser
 
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                    $engineData = $engine['properties'];
+                    $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
                 } else {
                     $engineData = array();
                 }
@@ -374,7 +374,7 @@ class CollectionParser
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                $engineData = $engine['properties'];
+                $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
             } else {
                 $engineData = array();
             }

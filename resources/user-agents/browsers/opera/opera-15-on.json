@@ -1,12 +1,12 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": [15, 16, 17, 18, 19, 20],
+  "versions": [15, 16, 17, 18, 19, 20, 21],
   "sortIndex": 2864,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",

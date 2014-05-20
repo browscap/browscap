@@ -5,7 +5,7 @@
     {
       "userAgent": "Chromium Generic",
       "platform": "Linux",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium Generic",

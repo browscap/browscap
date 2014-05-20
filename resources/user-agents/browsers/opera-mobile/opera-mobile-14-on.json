@@ -1,12 +1,12 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": [14, 15, 16, 17, 18, 19, 20],
+  "versions": [14, 15, 16, 17, 18, 19, 20, 21],
   "sortIndex": 2876,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",

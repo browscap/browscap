@@ -1,6 +1,6 @@
 {
   "division": "Arora #MAJORVER#.#MINORVER#",
-  "versions": ["0.8", "0.9", "0.10", "0.11"],
+  "versions": ["0.8", "0.9", "0.10"],
   "sortIndex": 2190,
   "userAgents": [
     {

@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Chrome Generic",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Chrome",
