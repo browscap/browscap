@@ -25,7 +25,7 @@
     "Gecko_1_8": {
       "inherits": "Gecko",
       "properties": {
-        "RenderingEngine_Version": "1.8.0"
+        "RenderingEngine_Version": "1.8"
       }
     },
     "Gecko_1_8_1": {
