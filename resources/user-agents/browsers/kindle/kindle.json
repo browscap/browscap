@@ -72,7 +72,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux*Android 2.3*Kindle Fire*) AppleWebKit\/533.1 (*KHTML, like Gecko*) Version\/4.0 Mobile Safari\/533.1",
+          "match": "Mozilla\/5.0 (Linux*Android 2.3*Kindle Fire*) AppleWebKit\/* (*KHTML, like Gecko*) Version\/4.0 Mobile Safari\/*",
           "properties": {
             "Comment": "Kindle Fire",
             "Browser": "Kindle Fire",
@@ -82,8 +82,7 @@
             "Device_Name": "Kindler Fire",
             "Device_Maker": "Amazon",
             "Device_Type": "Ebook Reader",
-            "Device_Pointing_Method": "touchscreen",
-            "RenderingEngine_Version": "533.1"
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"

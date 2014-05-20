@@ -7,7 +7,7 @@
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Debian",
-      "engine": "Gecko",
+      "engine": "Gecko_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
@@ -27,8 +27,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "2.2"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

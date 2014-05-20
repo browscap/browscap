@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
-      "engine": "Presto",
+      "engine": "Presto_2_12",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
@@ -27,8 +27,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "2.12.388"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

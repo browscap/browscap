@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
@@ -25,8 +25,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "#MAJORVER#.0"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

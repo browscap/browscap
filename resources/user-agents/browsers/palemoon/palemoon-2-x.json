@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_1_9_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "PaleMoon",
@@ -28,8 +28,7 @@
         "CssVersion": "2",
         "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "RenderingEngine_Version": "1.9.2"
+        "Device_Name": "general Desktop"
       },
       "children": [
         {

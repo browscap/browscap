@@ -7,7 +7,7 @@
     {
       "userAgent": "FirefoxOS #MAJORVER#.#MINORVER#",
       "platform": "FirefoxOS",
-      "engine": "Gecko",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -31,8 +31,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+        "isTablet": "false"
       },
       "children": [
         {

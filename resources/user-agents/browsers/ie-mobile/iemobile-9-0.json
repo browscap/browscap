@@ -5,7 +5,7 @@
     {
       "userAgent": "IEMobile 9.0",
       "platform": "WinPhone75",
-      "engine": "Trident",
+      "engine": "Trident_5",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
@@ -29,7 +29,6 @@
         "MajorVer": "9",
         "MinorVer": "0",
         "CssVersion": "3",
-        "RenderingEngine_Version": "5.0",
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [

@@ -6,7 +6,7 @@
     {
       "userAgent": "IceDragon #MAJORVER#.#MINORVER#",
       "platform": "Linux",
-      "engine": "Gecko",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceDragon #MAJORVER#.#MINORVER#",
@@ -32,8 +32,7 @@
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
         "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+        "Device_Maker": "Various"
       },
       "children": [
         {

@@ -5,7 +5,7 @@
     {
       "userAgent": "IEMobile 5.5",
       "platform": "WinMobile",
-      "engine": "Trident",
+      "engine": "Trident_3_1",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
@@ -26,7 +26,6 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "RenderingEngine_Version": "3.1",
         "Version": "5.5",
         "MajorVer": "5",
         "MinorVer": "5"

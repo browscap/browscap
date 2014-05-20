@@ -6,7 +6,7 @@
     {
       "userAgent": "CometBird #MAJORVER#.#MINORVER#",
       "platform": "Win32",
-      "engine": "Gecko",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -38,8 +38,7 @@
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

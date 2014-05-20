@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "AOL 9.5",
-      "engine": "Trident",
+      "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AOL 9.5",
@@ -28,8 +28,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "4.0"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

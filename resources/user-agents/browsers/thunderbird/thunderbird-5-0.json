@@ -30,9 +30,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
-          },
+          "engine": "Gecko_Dynamic",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",
@@ -42,9 +40,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "2.0"
-          },
+          "engine": "Gecko_2",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",
@@ -54,9 +50,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
-          },
+          "engine": "Gecko_Dynamic",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",

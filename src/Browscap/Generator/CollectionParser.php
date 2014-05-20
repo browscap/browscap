@@ -438,7 +438,7 @@ class CollectionParser
     private function checkEngineData(array $properties, $message)
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
-            //|| array_key_exists('RenderingEngine_Version', $properties)
+            || array_key_exists('RenderingEngine_Version', $properties)
             || array_key_exists('RenderingEngine_Description', $properties)
             || array_key_exists('RenderingEngine_Maker', $properties)
         ) {

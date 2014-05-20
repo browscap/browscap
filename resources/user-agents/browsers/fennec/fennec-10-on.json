@@ -7,7 +7,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "platform": "Android",
-      "engine": "Gecko",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -28,8 +28,7 @@
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

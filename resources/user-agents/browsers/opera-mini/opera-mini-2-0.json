@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mini 2.0",
-      "engine": "Presto",
+      "engine": "Presto_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini 2.0",
@@ -22,8 +22,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "1",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Version": "2.2"
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

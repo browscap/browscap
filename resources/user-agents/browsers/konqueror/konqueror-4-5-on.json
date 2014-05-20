@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
-      "engine": "KHTML",
+      "engine": "KHTML_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Konqueror #MAJORVER#.#MINORVER#",
@@ -23,8 +23,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

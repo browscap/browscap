@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile Generic",
-      "engine": "Presto",
+      "engine": "Presto_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile Generic",
@@ -20,8 +20,7 @@
         "CssVersion": "1",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
-        "JavaScript": "true",
-        "RenderingEngine_Version": "2.2"
+        "JavaScript": "true"
       },
       "children": [
         {

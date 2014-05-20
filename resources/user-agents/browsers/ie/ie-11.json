@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
-      "engine": "Trident",
+      "engine": "Trident_7",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -32,8 +32,7 @@
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Version": "7.0"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

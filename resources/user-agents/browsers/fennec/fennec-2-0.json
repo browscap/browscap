@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_1_9",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -26,8 +26,7 @@
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Version": "1.9"
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

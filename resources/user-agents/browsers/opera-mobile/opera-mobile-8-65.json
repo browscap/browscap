@@ -5,7 +5,7 @@
     {
       "userAgent": "Opera Mobile 8.65",
       "platform": "WinMobile",
-      "engine": "Presto",
+      "engine": "Presto_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -26,8 +26,7 @@
         "isTablet": "false",
         "CssVersion": "1",
         "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Version": "2.2"
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

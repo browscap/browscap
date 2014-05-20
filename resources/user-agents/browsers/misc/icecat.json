@@ -31,208 +31,208 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/1.5*",
+          "engine": "Gecko_1_8",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
-            "MinorVer": "5",
-            "RenderingEngine_Version": "1.8.0"
+            "MinorVer": "5"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/2.0*",
+          "engine": "Gecko_1_8_1",
           "properties": {
             "Version": "2.0",
-            "MajorVer": "2",
-            "RenderingEngine_Version": "1.8.1"
+            "MajorVer": "2"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.0*",
+          "engine": "Gecko_1_9",
           "properties": {
             "Version": "3.0",
-            "MajorVer": "3",
-            "RenderingEngine_Version": "1.9.0"
+            "MajorVer": "3"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.5*",
+          "engine": "Gecko_1_9_1",
           "properties": {
             "Version": "3.5",
             "MajorVer": "3",
-            "MinorVer": "5",
-            "RenderingEngine_Version": "1.9.1"
+            "MinorVer": "5"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.5* Firefox\/3.5*",
+          "engine": "Gecko_1_9_1",
           "properties": {
             "Version": "3.5",
             "MajorVer": "3",
-            "MinorVer": "5",
-            "RenderingEngine_Version": "1.9.1"
+            "MinorVer": "5"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.6* (like Firefox\/3.6*)*",
+          "engine": "Gecko_1_9_2",
           "properties": {
             "Version": "3.6",
             "MajorVer": "3",
-            "MinorVer": "6",
-            "RenderingEngine_Version": "1.9.2"
+            "MinorVer": "6"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/3.6* Firefox\/3.6*",
+          "engine": "Gecko_1_9_2",
           "properties": {
             "Version": "3.6",
             "MajorVer": "3",
-            "MinorVer": "6",
-            "RenderingEngine_Version": "1.9.2"
+            "MinorVer": "6"
           }
         },
         {
           "match": "Mozilla\/5.0 (GNU; rv:*) Gecko\/* IceCat\/3.6* (like Firefox\/4.0)*",
+          "engine": "Gecko_4",
           "properties": {
             "Version": "3.6",
             "MajorVer": "3",
-            "MinorVer": "6",
-            "RenderingEngine_Version": "4.0"
+            "MinorVer": "6"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/4.0*",
+          "engine": "Gecko_4",
           "properties": {
             "Version": "4.0",
-            "MajorVer": "4",
-            "RenderingEngine_Version": "4.0"
+            "MajorVer": "4"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/5.0*",
+          "engine": "Gecko_5",
           "properties": {
             "Version": "5.0",
-            "MajorVer": "5",
-            "RenderingEngine_Version": "5.0"
+            "MajorVer": "5"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/6.0*",
+          "engine": "Gecko_6",
           "properties": {
             "Version": "6.0",
-            "MajorVer": "6",
-            "RenderingEngine_Version": "6.0"
+            "MajorVer": "6"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/7.0*",
+          "engine": "Gecko_7",
           "properties": {
             "Version": "7.0",
-            "MajorVer": "7",
-            "RenderingEngine_Version": "7.0"
+            "MajorVer": "7"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/8.0*",
+          "engine": "Gecko_8",
           "properties": {
             "Version": "8.0",
-            "MajorVer": "8",
-            "RenderingEngine_Version": "8.0"
+            "MajorVer": "8"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/9.0*",
+          "engine": "Gecko_9",
           "properties": {
             "Version": "9.0",
-            "MajorVer": "9",
-            "RenderingEngine_Version": "9.0"
+            "MajorVer": "9"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/10.0*",
+          "engine": "Gecko_10",
           "properties": {
             "Version": "10.0",
-            "MajorVer": "10",
-            "RenderingEngine_Version": "10.0"
+            "MajorVer": "10"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/11.0*",
+          "engine": "Gecko_11",
           "properties": {
             "Version": "11.0",
-            "MajorVer": "11",
-            "RenderingEngine_Version": "11.0"
+            "MajorVer": "11"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/12.0*",
+          "engine": "Gecko_12",
           "properties": {
             "Version": "12.0",
-            "MajorVer": "12",
-            "RenderingEngine_Version": "12.0"
+            "MajorVer": "12"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/13.0*",
+          "engine": "Gecko_13",
           "properties": {
             "Version": "13.0",
-            "MajorVer": "13",
-            "RenderingEngine_Version": "13.0"
+            "MajorVer": "13"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/14.0*",
+          "engine": "Gecko_14",
           "properties": {
             "Version": "14.0",
-            "MajorVer": "14",
-            "RenderingEngine_Version": "14.0"
+            "MajorVer": "14"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/15.0*",
+          "engine": "Gecko_15",
           "properties": {
             "Version": "15.0",
-            "MajorVer": "15",
-            "RenderingEngine_Version": "15.0"
+            "MajorVer": "15"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/16.0*",
+          "engine": "Gecko_16",
           "properties": {
             "Version": "16.0",
-            "MajorVer": "16",
-            "RenderingEngine_Version": "16.0"
+            "MajorVer": "16"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/17.0*",
+          "engine": "Gecko_17",
           "properties": {
             "Version": "17.0",
-            "MajorVer": "17",
-            "RenderingEngine_Version": "17.0"
+            "MajorVer": "17"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/18.0*",
+          "engine": "Gecko_18",
           "properties": {
             "Version": "18.0",
-            "MajorVer": "18",
-            "RenderingEngine_Version": "18.0"
+            "MajorVer": "18"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/19.0*",
+          "engine": "Gecko_19",
           "properties": {
             "Version": "19.0",
-            "MajorVer": "19",
-            "RenderingEngine_Version": "19.0"
+            "MajorVer": "19"
           }
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* IceCat\/20.0*",
+          "engine": "Gecko_20",
           "properties": {
             "Version": "20.0",
-            "MajorVer": "20",
-            "RenderingEngine_Version": "20.0"
+            "MajorVer": "20"
           }
         }
       ]

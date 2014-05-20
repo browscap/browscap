@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
-      "engine": "Gecko",
+      "engine": "Gecko_1_9_3",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -23,8 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "RenderingEngine_Version": "1.9.3"
+        "CssVersion": "3"
       },
       "children": [
         {

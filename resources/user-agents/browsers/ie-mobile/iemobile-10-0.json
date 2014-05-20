@@ -7,7 +7,7 @@
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8",
-      "engine": "Trident",
+      "engine": "Trident_6",
       "properties": {
         "Parent": "IEMobile",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -30,8 +30,7 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "CssVersion": "3",
-        "RenderingEngine_Version": "6.0"
+        "CssVersion": "3"
       },
       "children": [
         {
