@@ -99,7 +99,6 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        self::assertSame($expected, $engines);
         self::assertSame($expected['Foobar'], $data->getEngine('Foobar'));
         self::assertSame($expected['Foo'], $data->getEngine('Foo'));
     }
