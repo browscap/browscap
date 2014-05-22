@@ -1,0 +1,69 @@
+{
+  "division": "Iron #MAJORVER#.#MINORVER#",
+  "versions": [20, 21, 22, 23, 24, 25, 26, 27],
+  "sortIndex": 1421,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Iron #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iron #MAJORVER#.#MINORVER#",
+        "Browser": "Iron",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "SRWare",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux_32", "Linux_64",
+            "NT4", "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/#MAJORVER#.*Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux_32", "Linux_64",
+            "NT4", "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Iron\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B",
+            "Linux_32", "Linux_64",
+            "NT4", "Win2000", "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}

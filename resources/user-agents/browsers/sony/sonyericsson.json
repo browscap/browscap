@@ -229,14 +229,12 @@
         },
         {
           "match": "SonyEricssonU8a\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "U8a",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8a",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Maker": "Apple Inc",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+            "Device_Name": "U8a"
           }
         },
         {
@@ -250,14 +248,12 @@
         },
         {
           "match": "SonyEricssonU8i\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "U8i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8i",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Maker": "Apple Inc",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+            "Device_Name": "U8i"
           }
         },
         {

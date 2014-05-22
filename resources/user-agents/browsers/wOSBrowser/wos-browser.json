@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "WebKit/webOS #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebKit/webOS #MAJORVER#.#MINORVER#",
@@ -24,10 +25,7 @@
         "JavaApplets": "true",
         "CssVersion": "2",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

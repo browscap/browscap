@@ -5,6 +5,7 @@
     {
       "userAgent": "IEMobile 9.0",
       "platform": "WinPhone75",
+      "engine": "Trident_5",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
@@ -24,24 +25,15 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
-        "RenderingEngine_Maker": "Microsoft Corporation",
         "Version": "9.0",
         "MajorVer": "9",
         "MinorVer": "0",
         "CssVersion": "3",
-        "RenderingEngine_Version": "5.0",
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0*)*",
-          "properties": {
-            "RenderingEngine_Name": "Trident",
-            "RenderingEngine_Version": "5.0",
-            "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players)."
-          },
           "platforms": [
             "WinPhone7"
           ]

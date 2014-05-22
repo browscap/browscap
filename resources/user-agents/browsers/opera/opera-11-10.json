@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_8",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
@@ -26,11 +27,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Maker": "Opera Software ASA",
-        "RenderingEngine_Version": "2.8",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

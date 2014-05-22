@@ -1793,23 +1793,21 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/*",
+          "engine": "Gecko",
           "properties": {
             "Browser": "XML Sitemaps Generator",
-            "Browser_Maker": "XML Sitemaps",
-            "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Maker": "Mozilla Foundation"
+            "Browser_Maker": "XML Sitemaps"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/1.0*",
+          "engine": "Gecko",
           "properties": {
             "Browser": "XML Sitemaps Generator",
             "Browser_Maker": "XML Sitemaps",
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Maker": "Mozilla Foundation"
+            "MinorVer": "0"
           }
         },
         {
@@ -1956,12 +1954,10 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/*",
+          "engine": "Gecko_1_9_2",
           "properties": {
             "Browser": "WebThumb",
-            "Browser_Maker": "Boutell.Com, Inc.",
-            "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Version": "1.9.2",
-            "RenderingEngine_Maker": "Mozilla Foundation"
+            "Browser_Maker": "Boutell.Com, Inc."
           },
           "platforms": [
             "Linux_32_on_x64_2"
@@ -1969,15 +1965,13 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/1.0*",
+          "engine": "Gecko_1_9_2",
           "properties": {
             "Browser": "WebThumb",
             "Browser_Maker": "Boutell.Com, Inc.",
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "RenderingEngine_Name": "Gecko",
-            "RenderingEngine_Version": "1.9.2",
-            "RenderingEngine_Maker": "Mozilla Foundation"
+            "MinorVer": "0"
           },
           "platforms": [
             "Linux_32_on_x64_2"
@@ -2000,12 +1994,10 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client*",
+          "engine": "Trident_4",
           "properties": {
             "Browser": "Second Live Commerce Client",
-            "Browser_Maker": "Linden Labs",
-            "RenderingEngine_Name": "Trident",
-            "RenderingEngine_Version": "4.0",
-            "RenderingEngine_Maker": "Microsoft Corporation"
+            "Browser_Maker": "Linden Labs"
           },
           "platforms": [
             "Vista_32"
@@ -2013,15 +2005,13 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client v1.0*",
+          "engine": "Trident_4",
           "properties": {
             "Browser": "Second Live Commerce Client",
             "Browser_Maker": "Linden Labs",
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "RenderingEngine_Name": "Trident",
-            "RenderingEngine_Version": "4.0",
-            "RenderingEngine_Maker": "Microsoft Corporation"
+            "MinorVer": "0"
           },
           "platforms": [
             "Vista_32"

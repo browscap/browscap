@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -24,41 +25,26 @@
         "isTablet": "false",
         "CssVersion": "3",
         "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Maker": "Apple Inc",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
+          "engine": "WebKit",
           "platforms": [
             "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Maker": "Apple Inc",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
+          "engine": "WebKit",
           "platforms": [
             "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Maker": "Apple Inc",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
-          },
+          "engine": "WebKit",
           "platforms": [
             "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]

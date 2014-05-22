@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Lycoris Desktop\/LX",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lycoris Desktop\/LX",
@@ -19,8 +20,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

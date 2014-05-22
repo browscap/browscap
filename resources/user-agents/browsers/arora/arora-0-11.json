@@ -1,0 +1,50 @@
+{
+  "division": "Arora #MAJORVER#.#MINORVER#",
+  "versions": ["0.11"],
+  "sortIndex": 2190,
+  "userAgents": [
+    {
+      "userAgent": "Arora #MAJORVER#.#MINORVER#",
+      "engine": "Blink",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Browser",
+        "Comment": "Arora #MAJORVER#.#MINORVER#",
+        "Browser": "Arora",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux",
+            "OSX",
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "Linux_64", "Linux",
+            "OSX",
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

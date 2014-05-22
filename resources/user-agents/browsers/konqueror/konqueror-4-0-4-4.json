@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
+      "engine": "KHTML",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Konqueror #MAJORVER#.#MINORVER#",
@@ -35,9 +36,7 @@
         "Crawler": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "RenderingEngine_Name": "KHTML",
-        "RenderingEngine_Description": "For Konqueror."
+        "Device_Name": "general Desktop"
       },
       "children": [
         {

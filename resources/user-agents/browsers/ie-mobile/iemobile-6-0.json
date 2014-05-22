@@ -5,6 +5,7 @@
     {
       "userAgent": "IEMobile 6.0",
       "platform": "WinMobile",
+      "engine": "Trident_3_1",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
@@ -25,10 +26,6 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Version": "3.1",
-        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
-        "RenderingEngine_Maker": "Microsoft Corporation",
         "Version": "6.0",
         "MajorVer": "6",
         "MinorVer": "0"

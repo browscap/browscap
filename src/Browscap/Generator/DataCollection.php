@@ -19,6 +19,11 @@ class DataCollection
     /**
      * @var array
      */
+    private $engines = array();
+
+    /**
+     * @var array
+     */
     private $divisions = array();
 
     /**
@@ -77,6 +82,25 @@ class DataCollection
         $json = $this->loadFile($src);
 
         $this->platforms = $json['platforms'];
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a engines.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Generator\DataCollection
+     * @throws \Exception if the file does not exist or has invalid JSON
+     */
+    public function addEnginesFile($src)
+    {
+        $json = $this->loadFile($src);
+
+        $this->engines = $json['engines'];
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -218,6 +242,68 @@ class DataCollection
         }
 
         return $platformData;
+    }
+
+    /**
+     * Get the array of engine data
+     *
+     * @return array
+     */
+    public function getEngines()
+    {
+        return $this->engines;
+    }
+
+    /**
+     * Get a single engine data array
+     *
+     * @param string $engine
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     * @return array
+     */
+    public function getEngine($engine)
+    {
+        if (!array_key_exists($engine, $this->engines)) {
+            throw new \OutOfBoundsException(
+                'Rendering Engine "' . $engine . '" does not exist in data, available engines: '
+                . serialize(array_keys($this->engines))
+            );
+        }
+
+        /** @var array $engineData */
+        $engineData = $this->engines[$engine];
+
+        if (array_key_exists('inherits', $engineData)) {
+            $parentEngineData = $this->getEngine($engineData['inherits']);
+
+            if (array_key_exists('properties', $engineData)) {
+                $inheritedEngineProperties = $engineData['properties'];
+
+                foreach ($inheritedEngineProperties as $name => $value) {
+                    if (isset($parentEngineData['properties'][$name])
+                        && $parentEngineData['properties'][$name] == $value
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the value for property "' . $name .'" has the same value in the keys "' . $engine
+                            . '" and its parent "' . $engineData['inherits'] . '"'
+                        );
+                    }
+                }
+
+                $engineData['properties'] = array_merge(
+                    $parentEngineData['properties'],
+                    $inheritedEngineProperties
+                );
+            } else {
+                $engineData['properties'] = $parentEngineData['properties'];
+            }
+
+            unset($engineData['inherits']);
+        }
+
+        return $engineData;
     }
 
     /**

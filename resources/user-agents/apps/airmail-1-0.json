@@ -6,6 +6,7 @@
     {
       "userAgent": "Airmail #MAJORVER#.#MINORVER#",
       "platform": "OSX",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Airmail #MAJORVER#.#MINORVER#",
@@ -33,8 +34,6 @@
         "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",

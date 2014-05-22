@@ -5,6 +5,7 @@
     {
       "userAgent": "WeTab-Browser",
       "platform": "MeeGo",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "WeTab Browser",
@@ -26,10 +27,7 @@
         "Device_Code_Name": "WeTab",
         "Device_Maker": "WeTab GmbH",
         "Device_Brand_Name": "WeTab GmbH",
-        "Device_Name": "WeTab",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Name": "WeTab"
       },
       "children": [
         {

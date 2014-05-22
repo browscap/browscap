@@ -73,7 +73,10 @@ class CollectionCreator
         }
 
         $this->getLogger()->debug('add platform file');
-        $this->collection->addPlatformsFile($resourceFolder . '/platforms.json');
+        $this->collection
+            ->addPlatformsFile($resourceFolder . '/platforms.json')
+            ->addEnginesFile($resourceFolder . '/engines.json')
+        ;
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 

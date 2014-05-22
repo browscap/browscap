@@ -24,9 +24,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Macintosh',
             'Device_Brand_Name' => 'Apple',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
 ];
