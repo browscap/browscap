@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "K-Meleon #MAJORVER#.#MINORVER#",
@@ -23,9 +24,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

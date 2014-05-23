@@ -7,6 +7,7 @@
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
       "platform": "iOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
@@ -24,10 +25,7 @@
         "isMobileDevice": "true",
         "CssVersion": "3",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

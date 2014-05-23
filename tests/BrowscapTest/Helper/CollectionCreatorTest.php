@@ -36,7 +36,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         $this->setExpectedException('\RunTimeException', 'File "./platforms.json" does not exist.');
 
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
-        $mockCollection->expects($this->any())
+        $mockCollection->expects(self::any())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
         ;
@@ -51,15 +51,24 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
 
     public function testCreateDataCollection()
     {
-        $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('addPlatformsFile', 'addSourceFile'), array(), '', false);
-        $mockCollection->expects($this->any())
+        $mockCollection = $this->getMock(
+            '\Browscap\Generator\DataCollection',
+            array('addPlatformsFile', 'addSourceFile', 'addEnginesFile'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection->expects(self::any())
             ->method('addPlatformsFile')
-            ->will(self::returnValue(true))
+            ->will(self::returnSelf())
         ;
-
-        $mockCollection->expects($this->any())
+        $mockCollection->expects(self::any())
+            ->method('addEnginesFile')
+            ->will(self::returnSelf())
+        ;
+        $mockCollection->expects(self::any())
             ->method('addSourceFile')
-            ->will(self::returnValue(true))
+            ->will(self::returnSelf())
         ;
 
         $creator = new CollectionCreator();

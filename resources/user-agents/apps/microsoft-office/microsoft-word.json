@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Word",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Word",
@@ -28,9 +29,7 @@
         "CssVersion": "2",
         "Device_Type": "Desktop",
         "Device_Maker": "Microsoft",
-        "Device_Brand_Name": "Microsoft",
-        "RenderingEngine_Name": "Trident",
-        "RenderingEngine_Maker": "Microsoft Corporation"
+        "Device_Brand_Name": "Microsoft"
       },
       "children": [
         {

@@ -28,6 +28,11 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         return __DIR__ . '/../../fixtures/platforms/platforms.json';
     }
 
+    public function getEngineJsonFixture()
+    {
+        return __DIR__ . '/../../fixtures/engines/engines.json';
+    }
+
     private function getUserAgentFixtures()
     {
         $dir = __DIR__ . '/../../fixtures/ua';
@@ -71,6 +76,31 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($expected['Platform1'], $data->getPlatform('Platform1'));
         self::assertSame($expected['Platform2'], $data->getPlatform('Platform2'));
+    }
+
+    public function testAddEngineFile()
+    {
+        $data = new DataCollection('1234');
+
+        $data->addEnginesFile($this->getEngineJsonFixture());
+
+        $engines = $data->getEngines();
+
+        $expected = [
+            'Foobar' => [
+                'properties' => [
+                    'RenderingEngine_Name' => 'Foobar',
+                ],
+            ],
+            'Foo' => [
+                'properties' => [
+                    'RenderingEngine_Name' => 'Foobar',
+                ],
+            ],
+        ];
+
+        self::assertSame($expected['Foobar'], $data->getEngine('Foobar'));
+        self::assertSame($expected['Foo'], $data->getEngine('Foo'));
     }
 
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist()

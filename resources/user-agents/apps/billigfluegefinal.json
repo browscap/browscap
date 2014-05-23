@@ -5,6 +5,7 @@
     {
       "userAgent": "billigFluegeFinal",
       "platform": "Darwin",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -31,10 +32,7 @@
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Name": "Macintosh"
       },
       "children": [
         {

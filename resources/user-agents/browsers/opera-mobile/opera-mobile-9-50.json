@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mobile 9.50",
+      "engine": "Presto_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -24,11 +25,7 @@
         "isTablet": "false",
         "CssVersion": "1",
         "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Maker": "Opera Software ASA",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

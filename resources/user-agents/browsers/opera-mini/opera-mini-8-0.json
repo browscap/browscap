@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_2",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -23,11 +24,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "1",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "Presto",
-        "RenderingEngine_Maker": "Opera Software ASA",
-        "RenderingEngine_Version": "2.2",
-        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2."
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

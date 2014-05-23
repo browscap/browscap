@@ -5,6 +5,7 @@
     {
       "userAgent": "Epiphany 2.30",
       "platform": "Linux",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Epiphany",
@@ -28,10 +29,7 @@
         "Device_Maker": "Various",
         "Version": "2.30",
         "MajorVer": "2",
-        "MinorVer": "30",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "MinorVer": "30"
       },
       "children": [
         {

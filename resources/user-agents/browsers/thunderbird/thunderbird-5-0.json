@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
@@ -24,17 +25,12 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
-          },
+          "engine": "Gecko_Dynamic",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",
@@ -44,9 +40,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "2.0"
-          },
+          "engine": "Gecko_2",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",
@@ -56,9 +50,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
-          },
+          "engine": "Gecko_Dynamic",
           "platforms": [
             "Linux", "Linux_32", "Linux_64",
             "OSX",

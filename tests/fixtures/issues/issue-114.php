@@ -109,7 +109,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
-            'RenderingEngine_Version' => '1.9',
+            'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],

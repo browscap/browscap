@@ -12,9 +12,7 @@
       "children": [
         {
           "match": "UA String",
-          "properties": {
-            "RenderingEngine_Name": "Foobar"
-          }
+          "engine": "Foobar"
         }
       ]
     }

@@ -1,10 +1,11 @@
 {
   "division": "Arora #MAJORVER#.#MINORVER#",
-  "versions": ["0.8", "0.9", "0.10", "0.11"],
+  "versions": ["0.8", "0.9", "0.10"],
   "sortIndex": 2190,
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -24,10 +25,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

@@ -52,6 +52,7 @@ class BrowscapXmlGeneratorTest extends \PHPUnit_Framework_TestCase
         $dataCollection
             ->setLogger($this->logger)
             ->addPlatformsFile($this->getPlatformsJsonFixture())
+            ->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines.json')
         ;
 
         $dateProperty = new \ReflectionProperty(get_class($dataCollection), 'generationDate');

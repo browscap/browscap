@@ -5,6 +5,7 @@
     {
       "userAgent": "Jasmine 1.0",
       "platform": "JAVA",
+      "engine": "NetFront",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
@@ -19,9 +20,7 @@
         "isMobileDevice": "true",
         "Device_Name": "Samsung",
         "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "NetFront",
-        "RenderingEngine_Description": "For Access NetFront."
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {

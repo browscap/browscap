@@ -13,9 +13,7 @@
         {
           "match": "UA String (#PLATFORM#)",
           "platforms": ["Platform1", "Platform2"],
-          "properties": {
-            "RenderingEngine_Name": "Foobar"
-          }
+          "engine": "Foobar"
         }
       ]
     }

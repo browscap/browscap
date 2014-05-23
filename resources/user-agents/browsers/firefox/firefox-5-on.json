@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -26,11 +27,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
@@ -105,11 +102,7 @@
         "Device_Name": "unknown",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
@@ -152,11 +145,7 @@
         "isMobileDevice": "true",
         "Device_Name": "unknown",
         "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {
