@@ -172,6 +172,48 @@
         "RenderingEngine_Version": "20.0"
       }
     },
+    "Gecko_21": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "21.0"
+      }
+    },
+    "Gecko_22": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "22.0"
+      }
+    },
+    "Gecko_23": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "23.0"
+      }
+    },
+    "Gecko_24": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "24.0"
+      }
+    },
+    "Gecko_25": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "25.0"
+      }
+    },
+    "Gecko_26": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "26.0"
+      }
+    },
+    "Gecko_27": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "27.0"
+      }
+    },
     "Gecko_Major_Dynamic": {
       "inherits": "Gecko",
       "properties": {
