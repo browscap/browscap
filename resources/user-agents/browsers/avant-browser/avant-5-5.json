@@ -4,11 +4,13 @@
   "userAgents": [
     {
       "userAgent": "Avant\/IE 5.5",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avant\/IE 5.5",
         "Browser": "Avant",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Avant Force",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
