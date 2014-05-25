@@ -789,7 +789,7 @@
           "properties": {
             "Browser": "Zend_Http_Client",
             "Browser_Type": "Library",
-            "Browser_Maker": "Zend Technologies Inc"
+            "Browser_Maker": "Zend Technologies Ltd."
           }
         },
         {
