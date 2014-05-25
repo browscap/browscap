@@ -46,10 +46,13 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -78,10 +81,13 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

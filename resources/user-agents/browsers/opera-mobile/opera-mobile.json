@@ -7,11 +7,12 @@
       "userAgent": "Opera Mobile",
       "engine": "Presto_2_2",
       "properties": {
-        "Parent": "Opera Mobile Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Mobile",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
+        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

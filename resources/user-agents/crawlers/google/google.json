@@ -122,7 +122,14 @@
     {
       "userAgent": "Google Search Appliance",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google Search Appliance"
       },
       "children": [
@@ -198,7 +205,14 @@
     {
       "userAgent": "Google Page Speed",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google Page Speed"
       },
       "children": [
@@ -265,7 +279,14 @@
     {
       "userAgent": "Google Web Snippet",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google Web Snippet"
       },
       "children": [
@@ -286,7 +307,14 @@
     {
       "userAgent": "Google Image Proxy",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google Image Proxy"
       },
       "children": [
@@ -307,7 +335,14 @@
     {
       "userAgent": "Google Structured-Data TestingTool",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google Structured-Data TestingTool"
       },
       "children": [

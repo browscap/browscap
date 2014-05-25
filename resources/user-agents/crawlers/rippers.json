@@ -139,12 +139,6 @@
           }
         },
         {
-          "match": "curl*",
-          "properties": {
-            "Browser": "cURL"
-          }
-        },
-        {
           "match": "Custo*",
           "properties": {
             "Browser": "Custo"
@@ -789,7 +783,7 @@
           "properties": {
             "Browser": "Zend_Http_Client",
             "Browser_Type": "Library",
-            "Browser_Maker": "Zend Technologies Ltd."
+            "Browser_Maker": "Zend Technologies Inc"
           }
         },
         {

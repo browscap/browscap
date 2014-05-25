@@ -5,7 +5,8 @@
     {
       "userAgent": "Sindice Fetcher",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "Sindice Fetcher",
         "Browser": "Sindice Fetcher",
         "Browser_Maker": "Sindice",
         "Browser_Type": "Bot/Crawler",

@@ -5,7 +5,8 @@
     {
       "userAgent": "masidani_bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "masidani_bot",
         "Browser": "masidani_bot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

@@ -8,7 +8,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "properties": {
-        "Parent": "Chrome Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
@@ -24,6 +24,7 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
@@ -60,10 +61,13 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Chrome #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -77,6 +81,9 @@
         "CssVersion": "3",
         "isMobileDevice": "true",
         "isTablet": "false",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Various",
         "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       },

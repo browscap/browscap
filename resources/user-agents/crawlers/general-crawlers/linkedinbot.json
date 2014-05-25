@@ -5,7 +5,8 @@
     {
       "userAgent": "LinkedInBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "LinkedInBot",
         "Browser": "LinkedInBot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

@@ -5,7 +5,8 @@
     {
       "userAgent": "RankFlex",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "RankFlex",
         "Browser": "RankFlex",
         "Browser_Maker": "rankflex.com",
         "Browser_Type": "Bot/Crawler",

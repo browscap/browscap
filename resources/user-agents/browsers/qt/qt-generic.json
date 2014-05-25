@@ -52,10 +52,12 @@
     },
     {
       "userAgent": "Qt Generic for Android",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Qt Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Qt Generic",
         "Browser": "Qt",
+        "Browser_Type": "Browser",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
