@@ -1025,12 +1025,10 @@
         },
         {
           "match": "NokiaX2-00\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "X2",
-            "Device_Name": "X2",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "X2"
           },
           "platforms": [
             "SymbianOS"
@@ -1038,12 +1036,10 @@
         },
         {
           "match": "NokiaX2-01\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "X2",
-            "Device_Name": "X2",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "X2"
           },
           "platforms": [
             "SymbianOS"
@@ -1051,12 +1047,10 @@
         },
         {
           "match": "NokiaX3-02\/5.0 (*) * Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "X3",
-            "Device_Name": "X3",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "X3"
           },
           "platforms": [
             "SymbianOS"
@@ -1074,11 +1068,7 @@
         },
         {
           "match": "Mozilla\/* (SymbianOS\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-          "properties": {
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
-          },
+          "engine": "WebKit",
           "platforms": [
             "SymbianOS"
           ]
@@ -1095,12 +1085,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; ?; Series60\/* NokiaN79-1\/30.019*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "N79",
-            "Device_Name": "N79",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "N79"
           },
           "platforms": [
             "SymbianOS"
@@ -1108,12 +1096,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5530c-2\/11.0.053; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "5530c",
-            "Device_Name": "5530c",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "5530c"
           },
           "platforms": [
             "SymbianOS"
@@ -1121,12 +1107,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5800d-1\/52*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "5800d",
-            "Device_Name": "5800d",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "5800d"
           },
           "platforms": [
             "SymbianOS"
@@ -1144,12 +1128,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6760s-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "6760s",
-            "Device_Name": "6760s",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "6760s"
           },
           "platforms": [
             "SymbianOS"
@@ -1157,12 +1139,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/1*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "E63",
-            "Device_Name": "E63",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "E63"
           },
           "platforms": [
             "SymbianOS"
@@ -1170,12 +1150,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/4*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "E63",
-            "Device_Name": "E63",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "E63"
           },
           "platforms": [
             "SymbianOS"
@@ -1203,12 +1181,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE90-1\/07.38.0.2; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "E90",
-            "Device_Name": "E90",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "E90"
           },
           "platforms": [
             "SymbianOS"
@@ -1216,12 +1192,10 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaN78-1\/13.052*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "N78",
-            "Device_Name": "N78",
-            "RenderingEngine_Name": "WebKit",
-            "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-            "RenderingEngine_Maker": "Apple Inc"
+            "Device_Name": "N78"
           },
           "platforms": [
             "SymbianOS"

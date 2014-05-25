@@ -1,0 +1,378 @@
+{
+  "engines": {
+    "WebKit": {
+      "properties": {
+        "RenderingEngine_Name": "WebKit",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    "Gecko": {
+      "properties": {
+        "RenderingEngine_Name": "Gecko",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
+        "RenderingEngine_Maker": "Mozilla Foundation"
+      }
+    },
+    "Gecko_1": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.0"
+      }
+    },
+    "Gecko_1_8": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.8"
+      }
+    },
+    "Gecko_1_8_1": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.8.1"
+      }
+    },
+    "Gecko_1_9": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.9.0"
+      }
+    },
+    "Gecko_1_9_1": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.9.1"
+      }
+    },
+    "Gecko_1_9_2": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.9.2"
+      }
+    },
+    "Gecko_1_9_3": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "1.9.3"
+      }
+    },
+    "Gecko_2": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "2.0"
+      }
+    },
+    "Gecko_2_2": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "2.2"
+      }
+    },
+    "Gecko_4": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "4.0"
+      }
+    },
+    "Gecko_5": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    "Gecko_6": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    "Gecko_7": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "7.0"
+      }
+    },
+    "Gecko_8": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "8.0"
+      }
+    },
+    "Gecko_9": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "9.0"
+      }
+    },
+    "Gecko_10": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "10.0"
+      }
+    },
+    "Gecko_11": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "11.0"
+      }
+    },
+    "Gecko_12": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "12.0"
+      }
+    },
+    "Gecko_13": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "13.0"
+      }
+    },
+    "Gecko_14": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "14.0"
+      }
+    },
+    "Gecko_15": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "15.0"
+      }
+    },
+    "Gecko_16": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "16.0"
+      }
+    },
+    "Gecko_17": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "17.0"
+      }
+    },
+    "Gecko_18": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "18.0"
+      }
+    },
+    "Gecko_19": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "19.0"
+      }
+    },
+    "Gecko_20": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "20.0"
+      }
+    },
+    "Gecko_21": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "21.0"
+      }
+    },
+    "Gecko_22": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "22.0"
+      }
+    },
+    "Gecko_23": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "23.0"
+      }
+    },
+    "Gecko_24": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "24.0"
+      }
+    },
+    "Gecko_25": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "25.0"
+      }
+    },
+    "Gecko_26": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "26.0"
+      }
+    },
+    "Gecko_27": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "27.0"
+      }
+    },
+    "Gecko_Major_Dynamic": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "#MAJORVER#.0"
+      }
+    },
+    "Gecko_Dynamic": {
+      "inherits": "Gecko",
+      "properties": {
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
+    "Trident": {
+      "properties": {
+        "RenderingEngine_Name": "Trident",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
+        "RenderingEngine_Maker": "Microsoft Corporation"
+      }
+    },
+    "Trident_3_1": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "3.1"
+      }
+    },
+    "Trident_4": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "4.0"
+      }
+    },
+    "Trident_5": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "5.0"
+      }
+    },
+    "Trident_6": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "6.0"
+      }
+    },
+    "Trident_7": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "7.0"
+      }
+    },
+    "Presto": {
+      "properties": {
+        "RenderingEngine_Name": "Presto",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
+        "RenderingEngine_Maker": "Opera Software ASA"
+      }
+    },
+    "Presto_1_0": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "1.0"
+      }
+    },
+    "Presto_2_0": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.0"
+      }
+    },
+    "Presto_2_2": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.2"
+      }
+    },
+    "Presto_2_7": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.7"
+      }
+    },
+    "Presto_2_8": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.8"
+      }
+    },
+    "Presto_2_9": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.9"
+      }
+    },
+    "Presto_2_10": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.10"
+      }
+    },
+    "Presto_2_12": {
+      "inherits": "Presto",
+      "properties": {
+        "RenderingEngine_Version": "2.12"
+      }
+    },
+    "NetFront": {
+      "properties": {
+        "RenderingEngine_Name": "NetFront",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Access NetFront.",
+        "RenderingEngine_Maker": "Access"
+      }
+    },
+    "T5": {
+      "properties": {
+        "RenderingEngine_Name": "T5",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by Baidu",
+        "RenderingEngine_Maker": "Baidu"
+      }
+    },
+    "Tasman": {
+      "properties": {
+        "RenderingEngine_Name": "Tasman",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac.",
+        "RenderingEngine_Maker": "Apple Inc"
+      }
+    },
+    "KHTML": {
+      "properties": {
+        "RenderingEngine_Name": "KHTML",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For Konqueror.",
+        "RenderingEngine_Maker": "unknown"
+      }
+    },
+    "KHTML_Dynamic": {
+      "inherits": "KHTML",
+      "properties": {
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
+    "U3": {
+      "properties": {
+        "RenderingEngine_Name": "U3",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by UC Web",
+        "RenderingEngine_Maker": "UC Web"
+      }
+    },
+    "Blink": {
+      "properties": {
+        "RenderingEngine_Name": "Blink",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by Google",
+        "RenderingEngine_Maker": "Google Inc"
+      }
+    }
+  }
+}

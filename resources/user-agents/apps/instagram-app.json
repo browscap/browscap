@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER#",
@@ -22,9 +23,6 @@
         "isMobileDevice": "true",
         "isTablet": "false",
         "CssVersion": "3",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "iPhone",
         "Device_Name": "iPhone",

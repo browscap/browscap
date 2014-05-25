@@ -19,10 +19,21 @@
           "match": "*Larbin*"
         },
         {
-          "match": "larbin* larbin*@unspecified.mail*"
+          "match": "larbin*"
         },
         {
-          "match": "larbin_2.6* larbin2.6*@unspecified.mail*",
+          "match": "larbin_2.6*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "binlar*"
+        },
+        {
+          "match": "binlar_2.6*",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",

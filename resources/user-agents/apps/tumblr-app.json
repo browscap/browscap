@@ -1,0 +1,35 @@
+{
+  "division": "Tumblr App #MAJORVER#.#MINORVER#",
+  "versions": ["14.0"],
+  "sortIndex": 1991,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Tumblr App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tumblr App #MAJORVER#.#MINORVER#",
+        "Browser": "Tumblr App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tumblr, Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Tumblr\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

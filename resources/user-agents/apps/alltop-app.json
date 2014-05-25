@@ -1,0 +1,34 @@
+{
+  "division": "Alltop App #MAJORVER#.#MINORVER#",
+  "versions": ["1.1"],
+  "sortIndex": 1992,
+  "userAgents": [
+    {
+      "userAgent": "Alltop App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alltop App #MAJORVER#.#MINORVER#",
+        "Browser": "Alltop App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Alltop",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Alltop\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

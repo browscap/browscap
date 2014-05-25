@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -27,10 +28,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
@@ -67,10 +65,7 @@
         "Device_Name": "unknown",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "unknown"
       },
       "children": [
         {
@@ -102,10 +97,7 @@
         "Device_Name": "unknown",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {

@@ -232,6 +232,12 @@ class CollectionParser
                 'the properties array contains platform data for key "' . $uaData['userAgent']
                 . '", please use the "platform" keyword'
             );
+
+            $this->checkEngineData(
+                $uaProperties,
+                'the properties array contains engine data for key "' . $uaData['userAgent']
+                . '", please use the "engine" keyword'
+            );
         }
 
         if (array_key_exists('platform', $uaData)) {
@@ -239,6 +245,13 @@ class CollectionParser
             $platformData = $platform['properties'];
         } else {
             $platformData = array();
+        }
+
+        if (array_key_exists('engine', $uaData)) {
+            $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
+            $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+        } else {
+            $engineData = array();
         }
 
         $output = array(
@@ -249,6 +262,7 @@ class CollectionParser
                     'division' => $divisionName
                 ),
                 $platformData,
+                $engineData,
                 $uaProperties
             )
         );
@@ -320,8 +334,16 @@ class CollectionParser
                 $platformData = $this->getDataCollection()->getPlatform($platform);
                 $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
 
+                if (array_key_exists('engine', $uaDataChild)) {
+                    $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
+                    $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+                } else {
+                    $engineData = array();
+                }
+
                 $properties = array_merge(
                     $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
+                    $engineData,
                     $this->parseProperties($platformData['properties'], $majorVer, $minorVer)
                 );
 
@@ -336,6 +358,12 @@ class CollectionParser
                         . '", please use the "platforms" keyword'
                     );
 
+                    $this->checkEngineData(
+                        $childProperties,
+                        'the properties array contains engine data for key "' . $uaBase
+                        . '", please use the "engine" keyword'
+                    );
+
                     $properties = array_merge($properties, $childProperties);
                 }
 
@@ -343,6 +371,15 @@ class CollectionParser
             }
         } else {
             $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
+
+            if (array_key_exists('engine', $uaDataChild)) {
+                $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
+                $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+            } else {
+                $engineData = array();
+            }
+
+            $properties = array_merge($properties, $engineData);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
@@ -353,6 +390,12 @@ class CollectionParser
                     $childProperties,
                     'the properties array contains platform data for key "' . $ua
                     . '", please use the "platforms" keyword'
+                );
+
+                $this->checkEngineData(
+                    $childProperties,
+                    'the properties array contains engine data for key "' . $ua
+                    . '", please use the "engine" keyword'
                 );
 
                 $properties = array_merge($properties, $childProperties);
@@ -379,6 +422,25 @@ class CollectionParser
             || array_key_exists('Platform_Maker', $properties)
             || array_key_exists('Platform_Bits', $properties)
             || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkEngineData(array $properties, $message)
+    {
+        if (array_key_exists('RenderingEngine_Name', $properties)
+            || array_key_exists('RenderingEngine_Version', $properties)
+            || array_key_exists('RenderingEngine_Description', $properties)
+            || array_key_exists('RenderingEngine_Maker', $properties)
         ) {
             throw new \LogicException($message);
         }

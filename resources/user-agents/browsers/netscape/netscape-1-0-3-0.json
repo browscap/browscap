@@ -5,10 +5,13 @@
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netscape #MAJORVER#.#MINORVER#",
         "Browser": "Netscape",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Netscape",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -21,15 +24,13 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
           "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
           "platforms": [
-            "IRIX64_2", "Linux", "MacPPC_3", "Mac68K", "OpenVMS", "OS2", "SunOS", "Win16", "Win95", "Win98", "NT_2"
+            "IRIX64_2", "Linux", "MacPPC_3", "Mac68K", "OpenVMS", "OS2", "SunOS", "Win16", "Win95", "Win98", "NT_2", "WinXPa_32"
           ]
         },
         {

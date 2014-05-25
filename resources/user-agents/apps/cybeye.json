@@ -1,0 +1,60 @@
+{
+  "division": "CybEye",
+  "sortIndex": 5150,
+  "userAgents": [
+    {
+      "userAgent": "CybEye",
+      "platform": "Windows",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "CybEye",
+        "Browser_Type": "Application",
+        "Browser_Maker": "CybEye.com",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "Windows Desktop"
+      },
+      "children": [
+        {
+          "match": "CybEye.com\/* (compatible; MSIE 9.0; #PLATFORM#; Trident\/4.0; *",
+          "engine": "Trident_4",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "CybEye.com\/2.0* (compatible; MSIE 9.0; #PLATFORM#; Trident\/4.0; *",
+          "engine": "Trident_4",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

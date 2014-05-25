@@ -25,8 +25,9 @@ return [
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
-            'RenderingEngine_Name' => 'WebKit',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
 ];

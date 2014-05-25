@@ -5,6 +5,7 @@
     {
       "userAgent": "Blackberry Playbook Tablet",
       "platform": "RIM_Tablet_OS_1",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Research In Motion Limited",
@@ -22,10 +23,7 @@
         "Device_Code_Name": "PlayBook",
         "Device_Name": "PlayBook",
         "Device_Pointing_Method": "touchscreen",
-        "isTablet": "true",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "isTablet": "true"
       },
       "children": [
         {

@@ -5,6 +5,7 @@
     {
       "userAgent": "Epiphany 2.22",
       "platform": "Linux",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Epiphany",
@@ -26,9 +27,6 @@
         "Device_Name": "Linux Desktop",
         "Device_Pointing_Method": "mouse",
         "Device_Maker": "Various",
-        "RenderingEngine_Name": "Gecko",
-        "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation",
         "Version": "2.22",
         "MajorVer": "2",
         "MinorVer": "22"

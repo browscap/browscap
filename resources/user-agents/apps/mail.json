@@ -5,6 +5,7 @@
     {
       "userAgent": "Mail",
       "platform": "Darwin",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mail",
@@ -28,8 +29,6 @@
         "isMobileDevice": "false",
         "isTablet": "false",
         "Crawler": "false",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
         "isSyndicationReader": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",

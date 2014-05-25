@@ -1253,13 +1253,31 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
+          "match": "Mozilla\/4.0 (#PLATFORM#) Lightspeedsystems*",
           "properties": {
-            "Browser": "Lightspeedsystems"
+            "Browser": "Lightspeedsystems",
+            "Browser_Maker": "Lightspeed Systems"
           },
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "LSSRocketCrawler\/* LightspeedSystems*",
+          "properties": {
+            "Browser": "Lightspeedsystems RocketCrawler",
+            "Browser_Maker": "Lightspeed Systems"
+          }
+        },
+        {
+          "match": "LSSRocketCrawler\/1.0 LightspeedSystems*",
+          "properties": {
+            "Browser": "Lightspeedsystems RocketCrawler",
+            "Browser_Maker": "Lightspeed Systems",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         },
         {
           "match": "Mozilla\/5.0 (compatible; PaperLiBot\/*",
@@ -1394,6 +1412,753 @@
             "Version": "0.16",
             "MajorVer": "0",
             "MinorVer": "16"
+          }
+        },
+        {
+          "match": "CheckSite Verification Agent*",
+          "properties": {
+            "Browser": "CheckSite Verification Agent",
+            "Browser_Maker": "checksite.us"
+          }
+        },
+        {
+          "match": "Experibot*",
+          "properties": {
+            "Browser": "Experibot",
+            "Browser_Maker": "Amir Krause",
+            "Alpha": "true"
+          }
+        },
+        {
+          "match": "Experibot_v1*",
+          "properties": {
+            "Browser": "Experibot",
+            "Browser_Maker": "Amir Krause",
+            "Alpha": "true",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/1.1*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/1.2*",
+          "properties": {
+            "Browser": "GarlikCrawler",
+            "Browser_Maker": "Experian Ltd",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Genderanalyzer\/*",
+          "properties": {
+            "Browser": "Genderanalyzer",
+            "Browser_Maker": "genderanalyzer.com",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "Genderanalyzer\/1.0*",
+          "properties": {
+            "Browser": "Genderanalyzer",
+            "Browser_Maker": "genderanalyzer.com",
+            "Beta": "true",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gooblog\/*",
+          "properties": {
+            "Browser": "gooblog",
+            "Browser_Maker": "NTT Resonant Inc."
+          }
+        },
+        {
+          "match": "gooblog\/2.0*",
+          "properties": {
+            "Browser": "gooblog",
+            "Browser_Maker": "NTT Resonant Inc.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/1.1*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/1.3*",
+          "properties": {
+            "Browser": "MetaGeneratorCrawler",
+            "Browser_Maker": "Jan Bogutzki",
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.7*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.8*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.9*",
+          "properties": {
+            "Browser": "LoadTimeBot",
+            "Browser_Maker": "LoadTime",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Squzer\/*",
+          "properties": {
+            "Browser": "Squzer",
+            "Browser_Maker": "Declum"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (lbot\/*",
+          "properties": {
+            "Browser": "lbot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (lbot\/2.6*",
+          "properties": {
+            "Browser": "lbot",
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "InternetSeer.com",
+          "properties": {
+            "Browser": "InternetSeer.com",
+            "Browser_Maker": "InternetSeer.com"
+          }
+        },
+        {
+          "match": "ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com",
+          "properties": {
+            "Browser": "ADmantX Platform Semantic Analyzer",
+            "Browser_Maker": "ADmantX Inc"
+          }
+        },
+        {
+          "match": "UnityPlayer\/*",
+          "properties": {
+            "Browser": "Unity Web Player",
+            "Browser_Maker": "Unity Technologies"
+          }
+        },
+        {
+          "match": "UnityPlayer\/4.3*",
+          "properties": {
+            "Browser": "Unity Web Player",
+            "Browser_Maker": "Unity Technologies",
+            "Version": "4.3",
+            "MajorVer": "4",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "WeSEE:Search\/*",
+          "properties": {
+            "Browser": "WeSEE:Search",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
+          "match": "WeSEE:Search\/0.1 (Alpha*",
+          "properties": {
+            "Browser": "WeSEE:Search",
+            "Browser_Maker": "WeSEE",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1",
+            "Alpha": "true"
+          }
+        },
+        {
+          "match": "A6-Indexer\/*",
+          "properties": {
+            "Browser": "A6-Indexer",
+            "Browser_Maker": "A6 Corp"
+          }
+        },
+        {
+          "match": "A6-Indexer\/1.0*",
+          "properties": {
+            "Browser": "A6-Indexer",
+            "Browser_Maker": "A6 Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Peeplo Screenshot Bot\/*",
+          "properties": {
+            "Browser": "Peeplo Screenshot Bot",
+            "Browser_Maker": "peeplo.com"
+          }
+        },
+        {
+          "match": "Peeplo Screenshot Bot\/0.20*",
+          "properties": {
+            "Browser": "Peeplo Screenshot Bot",
+            "Browser_Maker": "peeplo.com",
+            "Version": "0.20",
+            "MajorVer": "0",
+            "MinorVer": "20"
+          }
+        },
+        {
+          "match": "CCBot\/*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation"
+          }
+        },
+        {
+          "match": "CCBot\/1.0*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "CCBot\/2.0*",
+          "properties": {
+            "Browser": "CCBot",
+            "Browser_Maker": "CommonCrawl Foundation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "visionutils\/*",
+          "properties": {
+            "Browser": "visionutils",
+            "Browser_Maker": "Bob Mottram"
+          }
+        },
+        {
+          "match": "visionutils\/0.2*",
+          "properties": {
+            "Browser": "visionutils",
+            "Browser_Maker": "Bob Mottram",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; IstellaBot\/*",
+          "properties": {
+            "Browser": "IstellaBot",
+            "Browser_Maker": "Tiscali Italia S.p.a"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; IstellaBot\/1.18*",
+          "properties": {
+            "Browser": "IstellaBot",
+            "Browser_Maker": "Tiscali Italia S.p.a",
+            "Version": "1.18",
+            "MajorVer": "1",
+            "MinorVer": "18"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/*",
+          "properties": {
+            "Browser": "Daumoa",
+            "Browser_Maker": "Daum Communications Corp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/3.0*",
+          "properties": {
+            "Browser": "Daumoa",
+            "Browser_Maker": "Daum Communications Corp",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Photon\/*",
+          "properties": {
+            "Browser": "Photon",
+            "Browser_Maker": "photonproject.net"
+          }
+        },
+        {
+          "match": "Photon\/1.0*",
+          "properties": {
+            "Browser": "Photon",
+            "Browser_Maker": "photonproject.net",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/*",
+          "properties": {
+            "Browser": "meanpathbot",
+            "Browser_Maker": "Meanpath"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/1.0*",
+          "properties": {
+            "Browser": "meanpathbot",
+            "Browser_Maker": "Meanpath",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Apercite*",
+          "properties": {
+            "Browser": "Apercite",
+            "Browser_Maker": "Apercite"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "XML Sitemaps Generator",
+            "Browser_Maker": "XML Sitemaps"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/1.0*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "XML Sitemaps Generator",
+            "Browser_Maker": "XML Sitemaps",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Aboundex\/*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com"
+          }
+        },
+        {
+          "match": "Aboundex\/0.2*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Aboundex\/0.3*",
+          "properties": {
+            "Browser": "Aboundexbot",
+            "Browser_Maker": "Aboundex.com",
+            "Version": "0.3",
+            "MajorVer": "0",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; URLAppendBot\/*",
+          "properties": {
+            "Browser": "URLAppendBot",
+            "Browser_Maker": "Profound Networks"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; URLAppendBot\/1.0*",
+          "properties": {
+            "Browser": "URLAppendBot",
+            "Browser_Maker": "Profound Networks",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetSeer crawler\/*",
+          "properties": {
+            "Browser": "NetSeer Crawler",
+            "Browser_Maker": "NetSeer, Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; NetSeer crawler\/2.0*",
+          "properties": {
+            "Browser": "NetSeer Crawler",
+            "Browser_Maker": "NetSeer, Inc.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0?(compatible;?PiplBot*",
+          "properties": {
+            "Browser": "PiplBot",
+            "Browser_Maker": "Pipl"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Add Catalog\/*",
+          "properties": {
+            "Browser": "Add Catalog"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Add Catalog\/2.1*",
+          "properties": {
+            "Browser": "Add Catalog",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 Moreover\/*",
+          "properties": {
+            "Browser": "Moreover",
+            "Browser_Maker": "Moreover Technologies, Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 Moreover\/5.1*",
+          "properties": {
+            "Browser": "Moreover",
+            "Browser_Maker": "Moreover Technologies, Inc",
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/*",
+          "properties": {
+            "Browser": "LinkpadBot",
+            "Browser_Maker": "LinkPad"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/1.06*",
+          "properties": {
+            "Browser": "LinkpadBot",
+            "Browser_Maker": "LinkPad",
+            "Version": "1.06",
+            "MajorVer": "1",
+            "MinorVer": "06"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Blog Search*",
+          "properties": {
+            "Browser": "Blog Search"
+          }
+        },
+        {
+          "match": "YisouSpider",
+          "properties": {
+            "Browser": "YisouSpider",
+            "Browser_Maker": "Yisou.com"
+          }
+        },
+        {
+          "match": "hivaBot*",
+          "properties": {
+            "Browser": "hivaBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; fr-crawler\/*",
+          "properties": {
+            "Browser": "fr-crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/*",
+          "engine": "Gecko_1_9_2",
+          "properties": {
+            "Browser": "WebThumb",
+            "Browser_Maker": "Boutell.Com, Inc."
+          },
+          "platforms": [
+            "Linux_32_on_x64_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/1.0*",
+          "engine": "Gecko_1_9_2",
+          "properties": {
+            "Browser": "WebThumb",
+            "Browser_Maker": "Boutell.Com, Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_32_on_x64_2"
+          ]
+        },
+        {
+          "match": "Comodo Spider*",
+          "properties": {
+            "Browser": "Comodo Spider"
+          }
+        },
+        {
+          "match": "Comodo Spider 1.2*",
+          "properties": {
+            "Browser": "Comodo Spider",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client*",
+          "engine": "Trident_4",
+          "properties": {
+            "Browser": "Second Live Commerce Client",
+            "Browser_Maker": "Linden Labs"
+          },
+          "platforms": [
+            "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client v1.0*",
+          "engine": "Trident_4",
+          "properties": {
+            "Browser": "Second Live Commerce Client",
+            "Browser_Maker": "Linden Labs",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla \/ reddit pic scraper*",
+          "properties": {
+            "Browser": "reddit pic scraper",
+            "Browser_Maker": "Reddit Inc."
+          }
+        },
+        {
+          "match": "Mozilla \/ reddit pic scraper v0.8*",
+          "properties": {
+            "Browser": "reddit pic scraper",
+            "Browser_Maker": "Reddit Inc.",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/*",
+          "properties": {
+            "Browser": "GroupHigh Bot",
+            "Browser_Maker": "GroupHigh LLC"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/1.0*",
+          "properties": {
+            "Browser": "GroupHigh Bot",
+            "Browser_Maker": "GroupHigh LLC",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "AntBot\/*",
+          "properties": {
+            "Browser": "AntBot",
+            "Browser_Maker": "Ant.com Ltd"
+          }
+        },
+        {
+          "match": "AntBot\/1.0*",
+          "properties": {
+            "Browser": "AntBot",
+            "Browser_Maker": "Ant.com Ltd",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ZumBot\/*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp"
+          }
+        },
+        {
+          "match": "ZumBot\/1.0*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "OpenWebSpider*",
+          "properties": {
+            "Browser": "OpenWebSpider",
+            "Browser_Maker": "Stefano Alimonti"
+          }
+        },
+        {
+          "match": "OpenWebSpider v0.1*",
+          "properties": {
+            "Browser": "OpenWebSpider",
+            "Browser_Maker": "Stefano Alimonti",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/*",
+          "properties": {
+            "Browser": "TweetmemeBot",
+            "Browser_Maker": "tweetmeme.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/3.0*",
+          "properties": {
+            "Browser": "TweetmemeBot",
+            "Browser_Maker": "tweetmeme.com",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Blekkobot*",
+          "properties": {
+            "Browser": "Blekkobot",
+            "Browser_Maker": "Blekko Inc."
+          }
+        },
+        {
+          "match": "PagesInventory*",
+          "properties": {
+            "Browser": "PagesInventory Bot",
+            "Browser_Maker": "PagesInventory.com"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (CMS Crawler*",
+          "properties": {
+            "Browser": "CMS Crawler",
+            "Browser_Maker": "Viderem AB"
+          }
+        },
+        {
+          "match": "psbot-image*",
+          "properties": {
+            "Browser": "Psbot",
+            "Browser_Maker": "Picsearch Services AB"
+          }
+        },
+        {
+          "match": "MetaHeadersBot*",
+          "properties": {
+            "Browser": "MetaHeadersBot",
+            "Browser_Maker": "Metaheaders.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Twingly Recon*",
+          "properties": {
+            "Browser": "Twingly Recon",
+            "Browser_Maker": "Twingly AB"
           }
         }
       ]

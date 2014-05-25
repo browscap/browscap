@@ -1,11 +1,12 @@
 {
   "division": "Chromium #MAJORVER#.#MINORVER#",
-  "versions": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
-  "sortIndex": 880,
+  "versions": [28, 29, 30, 31, 32, 33, 34, 35, 36],
+  "sortIndex": 881,
   "userAgents": [
     {
       "userAgent": "Chromium #MAJORVER#.#MINORVER#",
       "platform": "Linux",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium #MAJORVER#.#MINORVER#",
@@ -25,10 +26,7 @@
         "Device_Name": "PC",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
-        "RenderingEngine_Name": "WebKit",
-        "RenderingEngine_Maker": "Apple Inc",
-        "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3."
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

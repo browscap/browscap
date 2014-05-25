@@ -1126,6 +1126,23 @@
           "properties": {
             "Browser": "WinSysClean"
           }
+        },
+        {
+          "match": "Dolphin http client\/*",
+          "properties": {
+            "Browser": "Dolphin smalltalk http client",
+            "Browser_Maker": "Steve Waring"
+          }
+        },
+        {
+          "match": "Dolphin http client\/10.*",
+          "properties": {
+            "Browser": "Dolphin smalltalk http client",
+            "Browser_Maker": "Steve Waring",
+            "Version": "10.0",
+            "MajorVer": "10",
+            "MinorVer": "0"
+          }
         }
       ]
     }

@@ -101,37 +101,37 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     public function testBuild()
     {
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
-        $mockCollection->expects($this->any())
+        $mockCollection->expects(self::any())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
         ;
 
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection'), array(), '', false);
-        $mockCreator->expects($this->any())
+        $mockCreator->expects(self::any())
             ->method('createDataCollection')
             ->will(self::returnValue($mockCollection))
         ;
 
         $mockGenerator = $this->getMock('\\Browscap\\Helper\\Generator', array('setVersion', 'create'), array(), '', false);
-        $mockGenerator->expects($this->any())
+        $mockGenerator->expects(self::any())
             ->method('setVersion')
             ->will(self::returnSelf())
         ;
-        $mockGenerator->expects($this->any())
+        $mockGenerator->expects(self::any())
             ->method('create')
             ->will(self::returnValue('This is a test'))
         ;
 
         $mockParser = $this->getMock('\\Browscap\\Generator\\CollectionParser', array('parse', 'setLogger', 'getLogger'), array(), '', false);
-        $mockParser->expects($this->any())
+        $mockParser->expects(self::any())
             ->method('parse')
             ->will(self::returnValue(array()))
         ;
-        $mockParser->expects($this->any())
+        $mockParser->expects(self::any())
             ->method('setLogger')
             ->will(self::returnSelf())
         ;
-        $mockParser->expects($this->any())
+        $mockParser->expects(self::any())
             ->method('getLogger')
             ->will(self::returnValue($this->logger))
         ;
