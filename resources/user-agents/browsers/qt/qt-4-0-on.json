@@ -56,10 +56,12 @@
     },
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Qt #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

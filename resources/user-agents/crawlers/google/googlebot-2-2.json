@@ -5,7 +5,15 @@
     {
       "userAgent": "Googlebot 2.2",
       "properties": {
-        "Parent": "Googlebot",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Google Bot",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
         "Version": "2.2",
         "MajorVer": "2",
         "MinorVer": "2"

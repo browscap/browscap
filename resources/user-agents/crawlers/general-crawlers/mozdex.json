@@ -5,7 +5,8 @@
     {
       "userAgent": "Mozdex",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "Mozdex",
         "Browser": "Mozdex",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

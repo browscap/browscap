@@ -5,7 +5,14 @@
     {
       "userAgent": "AdsBot Google-Mobile",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "AdsBot Google-Mobile"
       },
       "children": [

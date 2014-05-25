@@ -6,9 +6,15 @@
     {
       "userAgent": "Kindle Nook",
       "properties": {
-        "Parent": "Kindle",
+        "Parent": "DefaultProperties",
         "Comment": "Kindle Nook",
         "Browser": "Kindle Nook",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "2",
         "Device_Name": "Kindle",
         "Device_Maker": "Amazon",
         "Device_Type": "Ebook Reader",

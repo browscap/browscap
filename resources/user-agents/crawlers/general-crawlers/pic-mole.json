@@ -5,7 +5,8 @@
     {
       "userAgent": "picmole Bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
+        "Comment": "picmole Bot",
         "Browser": "picmole Bot",
         "Browser_Maker": "picmole.com",
         "Browser_Type": "Bot/Crawler",

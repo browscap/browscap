@@ -68,10 +68,14 @@
     },
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
+      "engine": "WebKit",
       "properties": {
-        "Parent": "Maxthon #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Browser": "Maxthon",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Maxthon International Limited",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

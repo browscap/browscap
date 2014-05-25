@@ -16,6 +16,9 @@
       },
       "children": [
         {
+          "match": "curl*"
+        },
+        {
           "match": "curl\/7.19*linux*",
           "properties": {
             "Version": "7.19",

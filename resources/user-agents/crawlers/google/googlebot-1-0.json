@@ -5,7 +5,15 @@
     {
       "userAgent": "Googlebot 1.0",
       "properties": {
-        "Parent": "Googlebot",
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "Google Bot",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
         "Version": "1.0",
         "MajorVer": "1"
       },
@@ -15,14 +23,11 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "*Googlebot\/1.*"
         }
       ]
-    },
-    {
-      "userAgent": "*Googlebot\/1.*",
-      "properties": {
-        "Parent": "Googlebot 1.0"
-      }
     }
   ]
 }
