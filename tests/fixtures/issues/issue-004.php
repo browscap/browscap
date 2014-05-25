@@ -21,7 +21,7 @@ return [
             'Device_Name' => 'Playstation 3',
             'Device_Maker' => 'Sony',
             'Device_Type' => 'Console',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Playstation 3',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'unknown',
