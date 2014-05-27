@@ -94,7 +94,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
      */
     private function render(array $allDivisions, array $allProperties)
     {
-        $this->logger->debug('rendering all divisions');
+        $this->logger->info('rendering all divisions');
 
         $output = array(
             'comments'             => $this->renderHeader(),
@@ -109,70 +109,95 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
             $allProperties,
             'browser_name',
             'browser_name_regex',
-            'browser_name_pattern',
-            'Parent'
+            'browser_name_pattern'
         );
+        ksort($allProperties);
 
         $tmp_user_agents = array_keys($allDivisions);
+        
+        $this->logger->info('sort useragent rules by length');
 
-        usort($tmp_user_agents, array($this, 'compareBcStrings'));
+        $fullLength    = array();
+        $reducedLength = array();
+        $sortindex     = array();
+        
+        foreach ($tmp_user_agents as $k => $a) {
+            $fullLength[$k]    = strlen($a);
+            $reducedLength[$k] = strlen(str_replace(array('*', '?'), '', $a));
+            $sortindex[$k]     = $allDivisions[$a]['sortIndex'];
+        }
+        
+        array_multisort(
+            $fullLength, SORT_DESC, SORT_NUMERIC,
+            $reducedLength, SORT_DESC, SORT_NUMERIC,
+            $sortindex, SORT_ASC, SORT_NUMERIC,
+            $tmp_user_agents
+        );
 
         $user_agents_keys = array_flip($tmp_user_agents);
         $properties_keys  = array_flip($allProperties);
 
         $output['properties'] = $allProperties;
         $tmp_patterns = array();
+        
+        $this->logger->info('process all useragents');
 
         foreach ($tmp_user_agents as $i => $user_agent) {
-
-            if (empty($browsers[$user_agent]['Comment'])
+            if (empty($allDivisions[$user_agent]['Comment'])
                 || false !== strpos($user_agent, '*')
                 || false !== strpos($user_agent, '?')
             ) {
                 $pattern = $this->_pregQuote($user_agent);
 
-                $matches_count = preg_match_all('@\d@', $pattern, $matches);
+                $matches_count = preg_match_all(self::REGEX_DELIMITER . '\d' . self::REGEX_DELIMITER, $pattern, $matches);
 
                 if (!$matches_count) {
-                    $tmp_patterns[$pattern] = $i;
+                    $tmp_patterns[$pattern] = $i . '.0';
                 } else {
-                    $compressed_pattern = preg_replace('@\d@', '(\d)', $pattern);
+                    $compressed_pattern = preg_replace(self::REGEX_DELIMITER . '\d' . self::REGEX_DELIMITER, '(\d)', $pattern);
 
                     if (!isset($tmp_patterns[$compressed_pattern])) {
                         $tmp_patterns[$compressed_pattern] = array('first' => $pattern);
                     }
 
-                    $tmp_patterns[$compressed_pattern][$i] = $matches[0];
+                    $tmp_patterns[$compressed_pattern][$i . '.0'] = $matches[0];
                 }
             }
 
-            if (!empty($browsers[$user_agent]['Parent'])) {
-                $parent = $browsers[$user_agent]['Parent'];
+            if (!empty($allDivisions[$user_agent]['Parent'])) {
+                $parent = $allDivisions[$user_agent]['Parent'];
 
                 $parent_key = $user_agents_keys[$parent];
 
-                $browsers[$user_agent]['Parent']       = $parent_key;
+                $allDivisions[$user_agent]['Parent']       = $parent_key;
                 $output['userAgents'][$parent_key . '.0'] = $tmp_user_agents[$parent_key];
             };
 
             $browser = array();
-            foreach ($browsers[$user_agent] as $key => $value) {
-                if (!isset($properties_keys[$key])) {
+            foreach ($allDivisions[$user_agent] as $property => $value) {
+                if (!isset($properties_keys[$property]) || !CollectionParser::isOutputProperty($property)) {
                     continue;
                 }
 
-                $key           = $properties_keys[$key];
+                $key           = $properties_keys[$property];
                 $browser[$key] = $value;
             }
+            
+            ksort($browser);
 
-            $output['browsers'][] = $browser;
+            $output['browsers'][$i . '.0'] = json_encode($browser);
         }
 
         // reducing memory usage by unsetting $tmp_user_agents
         unset($tmp_user_agents);
+        
+        ksort($output['userAgents']);
+        ksort($output['browsers']);
+        
+        $this->logger->info('process all patterns');
 
         foreach ($tmp_patterns as $pattern => $pattern_data) {
-            if (is_int($pattern_data)) {
+            if (is_int($pattern_data) || is_string($pattern_data)) {
                 $output['patterns'][$pattern] = $pattern_data;
             } elseif (2 == count($pattern_data)) {
                 end($pattern_data);
@@ -186,45 +211,10 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
             }
         }
 
-        $output['properties'] = $this->_array2string($output['properties']);
-        $output['userAgents'] = $this->_array2string($output['userAgents']);
-        $output['browsers']   = $this->_array2string($output['browsers']);
-        $output['patterns']   = $this->_array2string($output['patterns']);
+        // reducing memory usage by unsetting $tmp_user_agents
+        unset($tmp_patterns);
 
         return json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    }
-
-    /**
-     * @param string $a
-     * @param string $b
-     *
-     * @return int
-     */
-    private function compareBcStrings($a, $b)
-    {
-        $a_len = strlen($a);
-        $b_len = strlen($b);
-
-        if ($a_len > $b_len) {
-            return -1;
-        }
-
-        if ($a_len < $b_len) {
-            return 1;
-        }
-
-        $a_len = strlen(str_replace(array('*', '?'), '', $a));
-        $b_len = strlen(str_replace(array('*', '?'), '', $b));
-
-        if ($a_len > $b_len) {
-            return -1;
-        }
-
-        if ($a_len < $b_len) {
-            return 1;
-        }
-
-        return 0;
     }
 
     /**
@@ -245,39 +235,6 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         . str_replace(array('\*', '\?', '\\x'), array('.*', '.', '\\\\x'), $pattern)
         . '$'
         . self::REGEX_DELIMITER;
-    }
-
-    /**
-     * Converts preg match patterns back to browscap match patterns.
-     *
-     * @param string        $pattern
-     * @param array|boolean $matches
-     *
-     * @return string
-     */
-    private function _pregUnQuote($pattern, $matches)
-    {
-        // list of escaped characters: http://www.php.net/manual/en/function.preg-quote.php
-        // to properly unescape '?' which was changed to '.', I replace '\.' (real dot) with '\?', then change '.' to '?' and then '\?' to '.'.
-        $search  = array(
-            '\\' . self::REGEX_DELIMITER, '\\.', '\\\\', '\\+', '\\[', '\\^', '\\]', '\\$', '\\(', '\\)', '\\{', '\\}',
-            '\\=', '\\!', '\\<', '\\>', '\\|', '\\:', '\\-', '.*', '.', '\\?'
-        );
-        $replace = array(
-            self::REGEX_DELIMITER, '\\?', '\\', '+', '[', '^', ']', '$', '(', ')', '{', '}', '=', '!', '<', '>', '|',
-            ':', '-', '*', '?', '.'
-        );
-
-        $result = substr(str_replace($search, $replace, $pattern), 2, -2);
-
-        if ($matches) {
-            foreach ($matches as $one_match) {
-                $num_pos = strpos($result, '(\d)');
-                $result  = substr_replace($result, $one_match, $num_pos, 4);
-            }
-        }
-
-        return $result;
     }
 
     /**
@@ -323,42 +280,5 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         $pattern = implode('(\d)', $patternParts);
 
         return $preparedMatches;
-    }
-
-    /**
-     * Converts the given array to the PHP string which represent it.
-     * This method optimizes the PHP code and the output differs form the
-     * var_export one as the internal PHP function does not strip whitespace or
-     * convert strings to numbers.
-     *
-     * @param array $array the array to parse and convert
-     *
-     * @return string the array parsed into a PHP string
-     */
-    private function _array2string($array)
-    {
-        $strings = array();
-
-        foreach ($array as $key => $value) {
-            if (is_int($key)) {
-                $key = '';
-            } elseif (ctype_digit((string) $key) || '.0' === substr($key, -2)) {
-                $key = intval($key) . '=>';
-            } else {
-                $key = "'" . str_replace("'", "\'", $key) . "'=>";
-            }
-
-            if (is_array($value)) {
-                $value = "'" . addcslashes(serialize($value), "'") . "'";
-            } elseif (ctype_digit((string) $value)) {
-                $value = intval($value);
-            } else {
-                $value = "'" . str_replace("'", "\'", $value) . "'";
-            }
-
-            $strings[] = $key . $value;
-        }
-
-        return "array(\n" . implode(",\n", $strings) . "\n)";
     }
 }

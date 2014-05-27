@@ -125,83 +125,82 @@ class BuildGenerator
             ->parseCollection()
         ;
 
+        // $iniGenerator = new BrowscapIniGenerator();
+        // $this->generatorHelper->setGenerator($iniGenerator);
 
-        $iniGenerator = new BrowscapIniGenerator();
-        $this->generatorHelper->setGenerator($iniGenerator);
+        // $formats = [
+            // [
+                // 'file' => 'full_asp_browscap.ini',
+                // 'info' => 'ASP/FULL',
+                // 'format' => self::OUTPUT_FORMAT_ASP,
+                // 'type' => self::OUTPUT_TYPE_FULL
+            // ],
+            // [
+                // 'file' => 'full_php_browscap.ini',
+                // 'info' => 'PHP/FULL',
+                // 'format' => self::OUTPUT_FORMAT_PHP,
+                // 'type' => self::OUTPUT_TYPE_FULL
+            // ],
+            // [
+                // 'file' => 'browscap.ini',
+                // 'info' => 'ASP',
+                // 'format' => self::OUTPUT_FORMAT_ASP,
+                // 'type' => self::OUTPUT_TYPE_DEFAULT
+            // ],
+            // [
+                // 'file' => 'php_browscap.ini',
+                // 'info' => 'PHP',
+                // 'format' => self::OUTPUT_FORMAT_PHP,
+                // 'type' => self::OUTPUT_TYPE_DEFAULT
+            // ],
+            // [
+                // 'file' => 'lite_asp_browscap.ini',
+                // 'info' => 'ASP/LITE',
+                // 'format' => self::OUTPUT_FORMAT_ASP,
+                // 'type' => self::OUTPUT_TYPE_LITE
+            // ],
+            // [
+                // 'file' => 'lite_php_browscap.ini',
+                // 'info' => 'PHP/LITE',
+                // 'format' => self::OUTPUT_FORMAT_PHP,
+                // 'type' => self::OUTPUT_TYPE_LITE
+            // ],
+        // ];
 
-        $formats = [
-            [
-                'file' => 'full_asp_browscap.ini',
-                'info' => 'ASP/FULL',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'full_php_browscap.ini',
-                'info' => 'PHP/FULL',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'browscap.ini',
-                'info' => 'ASP',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'php_browscap.ini',
-                'info' => 'PHP',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'lite_asp_browscap.ini',
-                'info' => 'ASP/LITE',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-            [
-                'file' => 'lite_php_browscap.ini',
-                'info' => 'PHP/LITE',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-        ];
+        // foreach ($formats as $format) {
+            // $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
-        foreach ($formats as $format) {
-            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
+            // file_put_contents(
+                // $this->buildFolder . '/' . $format['file'],
+                // $this->generatorHelper->create($format['format'], $format['type'])
+            // );
+        // }
 
-            file_put_contents(
-                $this->buildFolder . '/' . $format['file'],
-                $this->generatorHelper->create($format['format'], $format['type'])
-            );
-        }
+        // unset($iniGenerator);
 
-        unset($iniGenerator);
+        // $this->logger->info('Generating browscap.xml [XML]');
 
-        $this->logger->info('Generating browscap.xml [XML]');
+        // $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
+        // $this->generatorHelper->setGenerator($xmlGenerator);
+        // $this->generatorHelper->create();
 
-        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
-        $this->generatorHelper->setGenerator($xmlGenerator);
-        $this->generatorHelper->create();
+        // unset($xmlGenerator);
 
-        unset($xmlGenerator);
+        // $this->logger->info('Generating browscap.csv [CSV]');
 
-        $this->logger->info('Generating browscap.csv [CSV]');
+        // $csvGenerator = new BrowscapCsvGenerator();
+        // $this->generatorHelper->setGenerator($csvGenerator);
+        // file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
 
-        $csvGenerator = new BrowscapCsvGenerator();
-        $this->generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
+        // unset($csvGenerator);
 
-        unset($csvGenerator);
+        // $this->logger->info('Generating browscap.json [JSON]');
 
-        $this->logger->info('Generating browscap.json [JSON]');
+        // $jsonGenerator = new BrowscapJsonGenerator();
+        // $this->generatorHelper->setGenerator($jsonGenerator);
+        // file_put_contents($this->buildFolder . '/browscap.json', $this->generatorHelper->create());
 
-        $jsonGenerator = new BrowscapJsonGenerator();
-        $this->generatorHelper->setGenerator($jsonGenerator);
-        file_put_contents($this->buildFolder . '/browscap.json', $this->generatorHelper->create());
-
-        unset($jsonGenerator);
+        // unset($jsonGenerator);
 
         $this->logger->info('Generating browscap.json [preprocessed JSON]');
 
@@ -211,22 +210,22 @@ class BuildGenerator
 
         unset($jsonGenerator);
 
-        $this->logger->info('Generating browscap.zip [ZIP]');
+        // $this->logger->info('Generating browscap.zip [ZIP]');
 
-        $zip = new ZipArchive();
-        $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
+        // $zip = new ZipArchive();
+        // $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
-        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
-        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
-        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
-        $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
+        // $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
+        // $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
+        // $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
+        // $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
+        // $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
+        // $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+        // $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
+        // $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
+        // $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
 
-        $zip->close();
+        // $zip->close();
     }
 
     /**
