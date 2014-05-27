@@ -125,84 +125,85 @@ class BuildGenerator
             ->parseCollection()
         ;
 
-        // $iniGenerator = new BrowscapIniGenerator();
-        // $this->generatorHelper->setGenerator($iniGenerator);
 
-        // $formats = [
-            // [
-                // 'file' => 'full_asp_browscap.ini',
-                // 'info' => 'ASP/FULL',
-                // 'format' => self::OUTPUT_FORMAT_ASP,
-                // 'type' => self::OUTPUT_TYPE_FULL
-            // ],
-            // [
-                // 'file' => 'full_php_browscap.ini',
-                // 'info' => 'PHP/FULL',
-                // 'format' => self::OUTPUT_FORMAT_PHP,
-                // 'type' => self::OUTPUT_TYPE_FULL
-            // ],
-            // [
-                // 'file' => 'browscap.ini',
-                // 'info' => 'ASP',
-                // 'format' => self::OUTPUT_FORMAT_ASP,
-                // 'type' => self::OUTPUT_TYPE_DEFAULT
-            // ],
-            // [
-                // 'file' => 'php_browscap.ini',
-                // 'info' => 'PHP',
-                // 'format' => self::OUTPUT_FORMAT_PHP,
-                // 'type' => self::OUTPUT_TYPE_DEFAULT
-            // ],
-            // [
-                // 'file' => 'lite_asp_browscap.ini',
-                // 'info' => 'ASP/LITE',
-                // 'format' => self::OUTPUT_FORMAT_ASP,
-                // 'type' => self::OUTPUT_TYPE_LITE
-            // ],
-            // [
-                // 'file' => 'lite_php_browscap.ini',
-                // 'info' => 'PHP/LITE',
-                // 'format' => self::OUTPUT_FORMAT_PHP,
-                // 'type' => self::OUTPUT_TYPE_LITE
-            // ],
-        // ];
+        $iniGenerator = new BrowscapIniGenerator();
+        $this->generatorHelper->setGenerator($iniGenerator);
 
-        // foreach ($formats as $format) {
-            // $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
+        $formats = [
+            [
+                'file' => 'full_asp_browscap.ini',
+                'info' => 'ASP/FULL',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'full_php_browscap.ini',
+                'info' => 'PHP/FULL',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'browscap.ini',
+                'info' => 'ASP',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'php_browscap.ini',
+                'info' => 'PHP',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'lite_asp_browscap.ini',
+                'info' => 'ASP/LITE',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+            [
+                'file' => 'lite_php_browscap.ini',
+                'info' => 'PHP/LITE',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+        ];
 
-            // file_put_contents(
-                // $this->buildFolder . '/' . $format['file'],
-                // $this->generatorHelper->create($format['format'], $format['type'])
-            // );
-        // }
+        foreach ($formats as $format) {
+            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
-        // unset($iniGenerator);
+            file_put_contents(
+                $this->buildFolder . '/' . $format['file'],
+                $this->generatorHelper->create($format['format'], $format['type'])
+            );
+        }
 
-        // $this->logger->info('Generating browscap.xml [XML]');
+        unset($iniGenerator);
 
-        // $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
-        // $this->generatorHelper->setGenerator($xmlGenerator);
-        // $this->generatorHelper->create();
+        $this->logger->info('Generating browscap.xml [XML]');
 
-        // unset($xmlGenerator);
+        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
+        $this->generatorHelper->setGenerator($xmlGenerator);
+        $this->generatorHelper->create();
 
-        // $this->logger->info('Generating browscap.csv [CSV]');
+        unset($xmlGenerator);
 
-        // $csvGenerator = new BrowscapCsvGenerator();
-        // $this->generatorHelper->setGenerator($csvGenerator);
-        // file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
+        $this->logger->info('Generating browscap.csv [CSV]');
 
-        // unset($csvGenerator);
+        $csvGenerator = new BrowscapCsvGenerator();
+        $this->generatorHelper->setGenerator($csvGenerator);
+        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
 
-        // $this->logger->info('Generating browscap.json [JSON]');
+        unset($csvGenerator);
 
-        // $jsonGenerator = new BrowscapJsonGenerator();
-        // $this->generatorHelper->setGenerator($jsonGenerator);
-        // file_put_contents($this->buildFolder . '/browscap.json', $this->generatorHelper->create());
+        $this->logger->info('Generating browscap.json [JSON]');
 
-        // unset($jsonGenerator);
+        $jsonGenerator = new BrowscapJsonGenerator();
+        $this->generatorHelper->setGenerator($jsonGenerator);
+        file_put_contents($this->buildFolder . '/browscap.json', $this->generatorHelper->create());
 
-        $this->logger->info('Generating browscap.json [preprocessed JSON]');
+        unset($jsonGenerator);
+
+        $this->logger->info('Generating browscap.preprocessed.json [preprocessed JSON]');
 
         $jsonGenerator = new BrowscapProcessedJsonGenerator();
         $this->generatorHelper->setGenerator($jsonGenerator);
@@ -210,22 +211,22 @@ class BuildGenerator
 
         unset($jsonGenerator);
 
-        // $this->logger->info('Generating browscap.zip [ZIP]');
+        $this->logger->info('Generating browscap.zip [ZIP]');
 
-        // $zip = new ZipArchive();
-        // $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
+        $zip = new ZipArchive();
+        $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
-        // $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        // $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        // $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
-        // $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        // $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        // $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        // $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
-        // $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
-        // $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
+        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
+        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
+        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
+        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
+        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
+        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
+        $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
 
-        // $zip->close();
+        $zip->close();
     }
 
     /**
