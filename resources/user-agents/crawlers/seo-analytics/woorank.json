@@ -1,0 +1,37 @@
+{
+  "division": "WooRank",
+  "sortIndex": 661,
+  "userAgents": [
+    {
+      "userAgent": "WooRank",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SEO & Analytics",
+        "Browser": "WooRank",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "woorank.com",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "woobot\/1.1*",
+          "properties": {
+            "Browser": "WooRank",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "woobot\/2.0*",
+          "properties": {
+            "Browser": "WooRank",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}
