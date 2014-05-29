@@ -926,6 +926,12 @@
           "properties": {
             "Browser": "Fake Firefox"
           }
+        },
+        {
+          "match": "\"Mozilla\/* (*) Firefox\/*",
+          "properties": {
+            "Browser": "Fake Firefox"
+          }
         }
       ]
     }
