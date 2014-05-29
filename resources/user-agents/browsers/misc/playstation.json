@@ -85,7 +85,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
+        "isMobileDevice": "false",
         "Device_Maker": "Sony",
         "Device_Type": "TV Device",
         "Browser": "Sony PS3",
