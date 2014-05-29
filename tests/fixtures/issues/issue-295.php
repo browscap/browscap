@@ -60,7 +60,7 @@ return [
     'issue-295-C' => [
         'Mozilla/5.0 (X11; Linux i686) KHTML/4.9.5 (like Gecko) Konqueror/4.9',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',

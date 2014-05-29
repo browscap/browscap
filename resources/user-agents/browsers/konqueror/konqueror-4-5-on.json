@@ -58,6 +58,12 @@
           "platforms": [
             "Win32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko) Konqueror\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64"
+          ]
         }
       ]
     }
