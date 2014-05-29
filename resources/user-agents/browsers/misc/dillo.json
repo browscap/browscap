@@ -1,6 +1,6 @@
 {
   "division": "Dillo #MAJORVER#.#MINORVER#",
-  "versions": ["0.6", "0.7", "0.8", "2.0", "3.0"],
+  "versions": ["0.6", "0.7", "0.8", "2.0", "2.1", "3.0"],
   "sortIndex": 2330,
   "userAgents": [
     {
@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Dillo #MAJORVER#.#MINORVER#",
         "Browser": "Dillo",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "the Dillo Project",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
