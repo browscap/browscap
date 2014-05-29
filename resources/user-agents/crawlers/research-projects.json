@@ -211,6 +211,13 @@
         },
         {
           "match": "IRLbot\/*"
+        },
+        {
+          "match": "Cloud mapping experiment. Contact research@pdrlabs.net",
+          "properties": {
+            "Browser": "pdrlabs Bot",
+            "Browser_Maker": "pdrlabs.net"
+          }
         }
       ]
     }
