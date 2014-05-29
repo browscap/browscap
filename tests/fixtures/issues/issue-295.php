@@ -304,9 +304,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Presto',
-            'RenderingEngine_Version' => '1.0',
-            'RenderingEngine_Maker' => 'Opera Software ASA',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown',
         ],
     ],
     'issue-295-L' => [
