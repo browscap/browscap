@@ -244,6 +244,13 @@
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Browsershots",
+          "properties": {
+            "Browser": "Browsershots",
+            "Browser_Maker": "browsershots.org"
+          }
         }
       ]
     }
