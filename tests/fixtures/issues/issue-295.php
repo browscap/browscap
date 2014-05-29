@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.11',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'KDE',
         ],
     ],
     'issue-295-B' => [
@@ -82,7 +82,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.9',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'KDE',
         ],
     ],
     'issue-295-D' => [
@@ -110,7 +110,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.8',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'KDE',
         ],
     ],
     'issue-295-E' => [
@@ -162,7 +162,7 @@ return [
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'One',
+            'Device_Code_Name' => 'M7',
             'Device_Brand_Name' => 'HTC',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

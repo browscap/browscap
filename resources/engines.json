@@ -349,7 +349,7 @@
         "RenderingEngine_Name": "KHTML",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Konqueror.",
-        "RenderingEngine_Maker": "unknown"
+        "RenderingEngine_Maker": "KDE"
       }
     },
     "KHTML_Dynamic": {
