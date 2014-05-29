@@ -1105,15 +1105,6 @@
           }
         },
         {
-          "match": "woobot\/1.1*",
-          "properties": {
-            "Browser": "WooRank",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; proximic; +http:\/\/www.proximic.com\/info\/spider.php)*",
           "properties": {
             "Browser": "proximic",
@@ -2159,6 +2150,23 @@
           "properties": {
             "Browser": "Twingly Recon",
             "Browser_Maker": "Twingly AB"
+          }
+        },
+        {
+          "match": "revolt",
+          "properties": {
+            "Browser": "Bot Revolt",
+            "Browser_Maker": "Bot Revolt"
+          },
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "DomainSCAN",
+          "properties": {
+            "Browser": "DomainScan Server Monitoring",
+            "Browser_Maker": "GH Software"
           }
         }
       ]
