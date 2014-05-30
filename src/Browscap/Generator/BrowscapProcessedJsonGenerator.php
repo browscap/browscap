@@ -86,15 +86,106 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
     /**
      * renders all found useragents into a string
      *
-     * @param array[] $allDivisions
+     * @param array[] $allInputDivisions
      * @param array   $allProperties
      *
      * @throws \InvalidArgumentException
      * @return string
      */
-    private function render(array $allDivisions, array $allProperties)
+    private function render(array $allInputDivisions, array $allProperties)
     {
-        $this->logger->info('rendering all divisions');
+        $this->logger->debug('rendering all divisions');
+        
+        $allDivisions = array();
+
+        foreach ($allInputDivisions as $key => $properties) {
+            if (!isset($properties['division'])) {
+                throw new \InvalidArgumentException('"division" is missing for key "' . $key . '"');
+            }
+
+            $this->logger->debug(
+                'checking division "' . $properties['division'] . '" - "' . $key . '"'
+            );
+
+            if (!$this->firstCheckProperty($key, $properties, $allInputDivisions)) {
+                $this->logger->debug('first check failed on key "' . $key . '" -> skipped');
+
+                continue;
+            }
+
+            if (!in_array($key, array('DefaultProperties', '*'))) {
+                $parent = $allInputDivisions[$properties['Parent']];
+            } else {
+                $parent = array();
+            }
+
+            $propertiesToOutput = $properties;
+
+            foreach ($propertiesToOutput as $property => $value) {
+                if (!isset($parent[$property])) {
+                    continue;
+                }
+
+                $parentProperty = $parent[$property];
+
+                switch ((string) $parentProperty) {
+                    case 'true':
+                        $parentProperty = true;
+                        break;
+                    case 'false':
+                        $parentProperty = false;
+                        break;
+                    default:
+                        $parentProperty = trim($parentProperty);
+                        break;
+                }
+
+                if ($parentProperty != $value) {
+                    continue;
+                }
+
+                unset($propertiesToOutput[$property]);
+            }
+
+            $allDivisions[$key] = array();
+
+            foreach ($allProperties as $property) {
+                if (!isset($propertiesToOutput[$property])) {
+                    continue;
+                }
+
+                if (!CollectionParser::isOutputProperty($property)) {
+                    continue;
+                }
+
+                if (CollectionParser::isExtraProperty($property)) {
+                    continue;
+                }
+
+                $value       = $propertiesToOutput[$property];
+                $valueOutput = $value;
+
+                switch (CollectionParser::getPropertyType($property)) {
+                    case CollectionParser::TYPE_BOOLEAN:
+                        if (true === $value || $value === 'true') {
+                            $valueOutput = true;
+                        } elseif (false === $value || $value === 'false') {
+                            $valueOutput = false;
+                        }
+                        break;
+                    case CollectionParser::TYPE_IN_ARRAY:
+                        $valueOutput = CollectionParser::checkValueInArray($property, $value);
+                        break;
+                    default:
+                        // nothing t do here
+                        break;
+                }
+
+                $allDivisions[$key][$property] = $valueOutput;
+
+                unset($value, $valueOutput);
+            }
+        }
 
         $output = array(
             'comments'             => $this->renderHeader(),
@@ -115,24 +206,23 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
 
         $tmp_user_agents = array_keys($allDivisions);
         
-        $this->logger->info('sort useragent rules by length');
+        $this->logger->debug('sort useragent rules by length');
 
         $fullLength    = array();
         $reducedLength = array();
-        $sortindex     = array();
         
         foreach ($tmp_user_agents as $k => $a) {
             $fullLength[$k]    = strlen($a);
             $reducedLength[$k] = strlen(str_replace(array('*', '?'), '', $a));
-            $sortindex[$k]     = $allDivisions[$a]['sortIndex'];
         }
         
         array_multisort(
             $fullLength, SORT_DESC, SORT_NUMERIC,
             $reducedLength, SORT_DESC, SORT_NUMERIC,
-            $sortindex, SORT_ASC, SORT_NUMERIC,
             $tmp_user_agents
         );
+        
+        unset($fullLength, $reducedLength);
 
         $user_agents_keys = array_flip($tmp_user_agents);
         $properties_keys  = array_flip($allProperties);
@@ -140,7 +230,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         $output['properties'] = $allProperties;
         $tmp_patterns = array();
         
-        $this->logger->info('process all useragents');
+        $this->logger->debug('process all useragents');
 
         foreach ($tmp_user_agents as $i => $user_agent) {
             if (empty($allDivisions[$user_agent]['Comment'])
@@ -152,7 +242,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                 $matches_count = preg_match_all(self::REGEX_DELIMITER . '\d' . self::REGEX_DELIMITER, $pattern, $matches);
 
                 if (!$matches_count) {
-                    $tmp_patterns[$pattern] = $i . '.0';
+                    $tmp_patterns[$pattern] = $i;
                 } else {
                     $compressed_pattern = preg_replace(self::REGEX_DELIMITER . '\d' . self::REGEX_DELIMITER, '(\d)', $pattern);
 
@@ -160,7 +250,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                         $tmp_patterns[$compressed_pattern] = array('first' => $pattern);
                     }
 
-                    $tmp_patterns[$compressed_pattern][$i . '.0'] = $matches[0];
+                    $tmp_patterns[$compressed_pattern][$i] = $matches[0];
                 }
             }
 
@@ -170,7 +260,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                 $parent_key = $user_agents_keys[$parent];
 
                 $allDivisions[$user_agent]['Parent']       = $parent_key;
-                $output['userAgents'][$parent_key . '.0'] = $tmp_user_agents[$parent_key];
+                $output['userAgents'][$parent_key] = $tmp_user_agents[$parent_key];
             };
 
             $browser = array();
@@ -185,7 +275,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
             
             ksort($browser);
 
-            $output['browsers'][$i . '.0'] = json_encode($browser);
+            $output['browsers'][$i] = json_encode($browser, JSON_FORCE_OBJECT);
         }
 
         // reducing memory usage by unsetting $tmp_user_agents
@@ -194,7 +284,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         ksort($output['userAgents']);
         ksort($output['browsers']);
         
-        $this->logger->info('process all patterns');
+        $this->logger->debug('process all patterns');
 
         foreach ($tmp_patterns as $pattern => $pattern_data) {
             if (is_int($pattern_data) || is_string($pattern_data)) {
@@ -214,7 +304,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         // reducing memory usage by unsetting $tmp_user_agents
         unset($tmp_patterns);
 
-        return json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+        return json_encode($output, JSON_PRETTY_PRINT | JSON_FORCE_OBJECT);
     }
 
     /**

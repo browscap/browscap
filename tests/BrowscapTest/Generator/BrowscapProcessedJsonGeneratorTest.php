@@ -182,7 +182,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider generateFeaturesDataProvider
      */
-    public function testGenerateFeatures($jsonFile, $expectedJson)
+    public function testGenerateFeatures($jsonFile, $expectedFilename)
     {
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
@@ -214,7 +214,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $json = $generator->generate();
 
-        self::assertStringEqualsFile($expectedJson, $json);
+        self::assertStringEqualsFile($expectedFilename, $json);
     }
 
     /**

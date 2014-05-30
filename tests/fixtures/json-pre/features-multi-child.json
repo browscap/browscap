@@ -1,58 +1,77 @@
 {
-    "comments": [
-        "Provided courtesy of http:\/\/tempdownloads.browserscap.com\/",
-        "Created on Friday, December 31, 2010 at 12:34 PM UTC",
-        "Keep up with the latest goings-on with the project:",
-        "Follow us on Twitter <https:\/\/twitter.com\/browscap>, or...",
-        "Like us on Facebook <https:\/\/facebook.com\/browscap>, or...",
-        "Collaborate on GitHub <https:\/\/github.com\/GaryKeith\/browscap>, or...",
-        "Discuss on Google Groups <https:\/\/groups.google.com\/d\/forum\/browscap>."
-    ],
+    "comments": {
+        "0": "Provided courtesy of http:\/\/tempdownloads.browserscap.com\/",
+        "1": "Created on Friday, December 31, 2010 at 12:34 PM UTC",
+        "2": "Keep up with the latest goings-on with the project:",
+        "3": "Follow us on Twitter <https:\/\/twitter.com\/browscap>, or...",
+        "4": "Like us on Facebook <https:\/\/facebook.com\/browscap>, or...",
+        "5": "Collaborate on GitHub <https:\/\/github.com\/GaryKeith\/browscap>, or...",
+        "6": "Discuss on Google Groups <https:\/\/groups.google.com\/d\/forum\/browscap>."
+    },
     "GJK_Browscap_Version": {
         "Version": "1234",
         "Released": "Fri, 31 Dec 2010 12:34:56 +0000"
     },
-    "DefaultProperties": {
-        "Comment": "DefaultProperties",
-        "Browser": "DefaultProperties",
-        "Version": "0.0",
-        "MajorVer": "0",
-        "MinorVer": "0",
-        "Platform": "unknown",
-        "Platform_Version": "unknown",
-        "Alpha": false,
-        "Beta": false,
-        "Win16": false,
-        "Win32": false,
-        "Win64": false,
-        "Frames": false,
-        "IFrames": false,
-        "Tables": false,
-        "Cookies": false,
-        "BackgroundSounds": false,
-        "JavaScript": false,
-        "VBScript": false,
-        "JavaApplets": false,
-        "ActiveXControls": false,
-        "isMobileDevice": false,
-        "isTablet": false,
-        "isSyndicationReader": false,
-        "Crawler": false,
-        "CssVersion": "0",
-        "AolVersion": "0"
+    "patterns": {
+        "@^UA Child 3 & Test$@": 1,
+        "@^UA Child (\\d)$@": {
+            "@1": 2,
+            "@2": 3
+        }
     },
-    "UA": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA",
-        "Browser": "UA"
+    "browsers": {
+        "0": "{\"7\":\"DefaultProperties\",\"8\":\"DefaultProperties\",\"9\":\"0.0\",\"10\":\"0\",\"11\":\"0\",\"12\":\"unknown\",\"13\":\"unknown\",\"15\":false,\"16\":false,\"17\":false,\"18\":false,\"19\":false,\"20\":false,\"21\":false,\"22\":false,\"23\":false,\"24\":false,\"25\":false,\"26\":false,\"27\":false,\"28\":false,\"29\":false,\"30\":false,\"31\":false,\"32\":false,\"33\":\"0\",\"34\":\"0\"}",
+        "1": "{\"3\":4}",
+        "2": "{\"3\":4}",
+        "3": "{\"3\":4}",
+        "4": "{\"3\":0,\"7\":\"UA\",\"8\":\"UA\"}"
     },
-    "UA Child 1": {
-        "Parent": "UA"
+    "userAgents": {
+        "0": "DefaultProperties",
+        "4": "UA"
     },
-    "UA Child 2": {
-        "Parent": "UA"
-    },
-    "UA Child 3 & Test": {
-        "Parent": "UA"
+    "properties": {
+        "0": "browser_name",
+        "1": "browser_name_regex",
+        "2": "browser_name_pattern",
+        "3": "Parent",
+        "4": "lite",
+        "5": "sortIndex",
+        "6": "division",
+        "7": "Comment",
+        "8": "Browser",
+        "9": "Version",
+        "10": "MajorVer",
+        "11": "MinorVer",
+        "12": "Platform",
+        "13": "Platform_Version",
+        "14": "Platform_Description",
+        "15": "Alpha",
+        "16": "Beta",
+        "17": "Win16",
+        "18": "Win32",
+        "19": "Win64",
+        "20": "Frames",
+        "21": "IFrames",
+        "22": "Tables",
+        "23": "Cookies",
+        "24": "BackgroundSounds",
+        "25": "JavaScript",
+        "26": "VBScript",
+        "27": "JavaApplets",
+        "28": "ActiveXControls",
+        "29": "isMobileDevice",
+        "30": "isTablet",
+        "31": "isSyndicationReader",
+        "32": "Crawler",
+        "33": "CssVersion",
+        "34": "AolVersion",
+        "35": "Device_Name",
+        "36": "Device_Maker",
+        "37": "Device_Type",
+        "38": "RenderingEngine_Name",
+        "39": "RenderingEngine_Version",
+        "40": "RenderingEngine_Description",
+        "41": "Parents"
     }
 }
