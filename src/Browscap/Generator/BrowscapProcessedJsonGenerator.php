@@ -15,7 +15,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
      * REGEX_DELIMITER: Delimiter of all the regex patterns in the whole class.
      * REGEX_MODIFIERS: Regex modifiers.
      */
-    const REGEX_DELIMITER = '@';
+    const REGEX_DELIMITER = '/';
     const REGEX_MODIFIERS = 'i';
     const COMPRESSION_PATTERN_START = '@';
     const COMPRESSION_PATTERN_DELIMITER = '|';
@@ -95,7 +95,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
     private function render(array $allInputDivisions, array $allProperties)
     {
         $this->logger->debug('rendering all divisions');
-        
+
         $allDivisions = array();
 
         foreach ($allInputDivisions as $key => $properties) {
@@ -205,23 +205,23 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         ksort($allProperties);
 
         $tmp_user_agents = array_keys($allDivisions);
-        
+
         $this->logger->debug('sort useragent rules by length');
 
         $fullLength    = array();
         $reducedLength = array();
-        
+
         foreach ($tmp_user_agents as $k => $a) {
             $fullLength[$k]    = strlen($a);
             $reducedLength[$k] = strlen(str_replace(array('*', '?'), '', $a));
         }
-        
+
         array_multisort(
             $fullLength, SORT_DESC, SORT_NUMERIC,
             $reducedLength, SORT_DESC, SORT_NUMERIC,
             $tmp_user_agents
         );
-        
+
         unset($fullLength, $reducedLength);
 
         $user_agents_keys = array_flip($tmp_user_agents);
@@ -229,7 +229,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
 
         $output['properties'] = $allProperties;
         $tmp_patterns = array();
-        
+
         $this->logger->debug('process all useragents');
 
         foreach ($tmp_user_agents as $i => $user_agent) {
@@ -269,21 +269,18 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $key           = $properties_keys[$property];
-                $browser[$key] = $value;
+                $browser[$property] = $value;
             }
-            
-            ksort($browser);
 
             $output['browsers'][$i] = json_encode($browser, JSON_FORCE_OBJECT);
         }
 
         // reducing memory usage by unsetting $tmp_user_agents
         unset($tmp_user_agents);
-        
+
         ksort($output['userAgents']);
         ksort($output['browsers']);
-        
+
         $this->logger->debug('process all patterns');
 
         foreach ($tmp_patterns as $pattern => $pattern_data) {
@@ -319,12 +316,12 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         $pattern = preg_quote($user_agent, self::REGEX_DELIMITER);
 
         // the \\x replacement is a fix for "Der gro\xdfe BilderSauger 2.00u" user agent match
-
         return self::REGEX_DELIMITER
-        . '^'
-        . str_replace(array('\*', '\?', '\\x'), array('.*', '.', '\\\\x'), $pattern)
-        . '$'
-        . self::REGEX_DELIMITER;
+            . '^'
+            . str_replace(array('\*', '\?', '\\x'), array('.*', '.', '\\\\x'), $pattern)
+            . '$'
+            . self::REGEX_DELIMITER
+            . 'i';
     }
 
     /**
