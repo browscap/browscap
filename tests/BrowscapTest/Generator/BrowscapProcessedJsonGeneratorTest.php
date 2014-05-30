@@ -2,7 +2,7 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\BrowscapJsonGenerator;
+use Browscap\Generator\BrowscapProcessedJsonGenerator;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
@@ -10,7 +10,7 @@ use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
 /**
- * Class BrowscapJsonGeneratorTest
+ * Class BrowscapProcessedJsonGeneratorTest
  *
  * @package BrowscapTest\Generator
  */
@@ -69,7 +69,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testgetCollectionDataThrowsExceptionIfDataCollectionNotSet()
     {
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
 
         $this->setExpectedException('\LogicException', 'Data collection has not been set yet');
         $generator->getCollectionData();
@@ -88,7 +88,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -110,7 +110,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($dataCollection, $collectionParser->getDataCollection());
 
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -148,7 +148,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -204,7 +204,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
@@ -247,7 +247,7 @@ class BrowscapProcessedJsonGeneratorTest extends \PHPUnit_Framework_TestCase
             'Discuss on Google Groups <https://groups.google.com/d/forum/browscap>.'
         );
 
-        $generator = new BrowscapJsonGenerator();
+        $generator = new BrowscapProcessedJsonGenerator();
         $generator
             ->setLogger($this->logger)
             ->setCollectionData($collectionData)
