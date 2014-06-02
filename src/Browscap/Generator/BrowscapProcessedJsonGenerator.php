@@ -15,7 +15,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
      * REGEX_DELIMITER: Delimiter of all the regex patterns in the whole class.
      * REGEX_MODIFIERS: Regex modifiers.
      */
-    const REGEX_DELIMITER = '@';
+    const REGEX_DELIMITER = '/';
     const REGEX_MODIFIERS = 'i';
     const COMPRESSION_PATTERN_START = '@';
     const COMPRESSION_PATTERN_DELIMITER = '|';
@@ -193,7 +193,6 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
             'patterns'             => array(),
             'browsers'             => array(),
             'userAgents'           => array(),
-            'properties'           => array(),
         );
 
         array_unshift(
@@ -227,7 +226,6 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         $user_agents_keys = array_flip($tmp_user_agents);
         $properties_keys  = array_flip($allProperties);
 
-        $output['properties'] = $allProperties;
         $tmp_patterns = array();
         
         $this->logger->debug('process all useragents');
@@ -237,7 +235,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                 || false !== strpos($user_agent, '*')
                 || false !== strpos($user_agent, '?')
             ) {
-                $pattern = $this->_pregQuote($user_agent);
+                $pattern = $this->pregQuote($user_agent);
 
                 $matches_count = preg_match_all(self::REGEX_DELIMITER . '\d' . self::REGEX_DELIMITER, $pattern, $matches);
 
@@ -269,11 +267,8 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $key           = $properties_keys[$property];
-                $browser[$key] = $value;
+                $browser[$property] = $value;
             }
-            
-            ksort($browser);
 
             $output['browsers'][$i] = json_encode($browser, JSON_FORCE_OBJECT);
         }
@@ -314,7 +309,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
      *
      * @return string
      */
-    private function _pregQuote($user_agent)
+    private function pregQuote($user_agent)
     {
         $pattern = preg_quote($user_agent, self::REGEX_DELIMITER);
 
