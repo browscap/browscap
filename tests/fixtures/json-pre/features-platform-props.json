@@ -13,7 +13,7 @@
         "Released": "Fri, 31 Dec 2010 12:34:56 +0000"
     },
     "patterns": {
-        "\/^UA String \\(.*Platform(\\d).*\\)$\/": {
+        "\/^UA String \\(.*Platform(\\d).*\\)$\/i": {
             "@1": 0,
             "@2": 1
         }
