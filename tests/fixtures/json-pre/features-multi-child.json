@@ -13,8 +13,8 @@
         "Released": "Fri, 31 Dec 2010 12:34:56 +0000"
     },
     "patterns": {
-        "\/^UA Child 3 & Test$\/i": 1,
-        "\/^UA Child (\\d)$\/i": {
+        "@^UA Child 3 & Test$@": 1,
+        "@^UA Child (\\d)$@": {
             "@1": 2,
             "@2": 3
         }

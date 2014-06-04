@@ -15,7 +15,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
      * REGEX_DELIMITER: Delimiter of all the regex patterns in the whole class.
      * REGEX_MODIFIERS: Regex modifiers.
      */
-    const REGEX_DELIMITER = '/';
+    const REGEX_DELIMITER = '@';
     const REGEX_MODIFIERS = 'i';
     const COMPRESSION_PATTERN_START = '@';
     const COMPRESSION_PATTERN_DELIMITER = '|';
@@ -318,8 +318,7 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
             . '^'
             . str_replace(array('\*', '\?', '\\x'), array('.*', '.', '\\\\x'), $pattern)
             . '$'
-            . self::REGEX_DELIMITER
-            . 'i';
+            . self::REGEX_DELIMITER;
     }
 
     /**
