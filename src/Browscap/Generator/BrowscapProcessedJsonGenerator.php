@@ -314,9 +314,12 @@ class BrowscapProcessedJsonGenerator extends AbstractGenerator
         $pattern = preg_quote($user_agent, self::REGEX_DELIMITER);
 
         // the \\x replacement is a fix for "Der gro\xdfe BilderSauger 2.00u" user agent match
-        return '^'
+        return self::REGEX_DELIMITER
+            . '^'
             . str_replace(array('\*', '\?', '\\x'), array('.*', '.', '\\\\x'), $pattern)
-            . '$';
+            . '$'
+            . self::REGEX_DELIMITER
+            . 'i';
     }
 
     /**
