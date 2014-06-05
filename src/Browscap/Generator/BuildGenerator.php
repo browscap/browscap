@@ -203,14 +203,6 @@ class BuildGenerator
 
         unset($jsonGenerator);
 
-        $this->logger->info('Generating browscap.preprocessed.json [preprocessed JSON]');
-
-        $jsonGenerator = new BrowscapProcessedJsonGenerator();
-        $this->generatorHelper->setGenerator($jsonGenerator);
-        file_put_contents($this->buildFolder . '/browscap.preprocessed.json', $this->generatorHelper->create());
-
-        unset($jsonGenerator);
-
         $this->logger->info('Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();

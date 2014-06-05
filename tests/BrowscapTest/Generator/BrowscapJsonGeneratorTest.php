@@ -3,14 +3,13 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BrowscapJsonGenerator;
-use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\DataCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
 /**
- * Class BrowscapJsonGeneratorTest
+ * Class BrowscapProcessedJsonGeneratorTest
  *
  * @package BrowscapTest\Generator
  */
@@ -158,7 +157,7 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $json = $generator->generate();
 
-        $expectedFilename = __DIR__ . '/../../fixtures/json/' . $filename;
+        $expectedFilename = __DIR__ . '/../../fixtures/json-pre/' . $filename;
 
         self::assertStringEqualsFile($expectedFilename, $json);
     }
@@ -168,21 +167,21 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
         return [
-            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'json/features-bcv.json'],
-            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'json/features-basic.json'],
-            'single-child' => [$fixturesDir . 'ua/features-single-child.json', $fixturesDir . 'json/features-single-child.json'],
-            'multi-child' => [$fixturesDir . 'ua/features-multi-child.json', $fixturesDir . 'json/features-multi-child.json'],
-            'versions' => [$fixturesDir . 'ua/features-versions.json', $fixturesDir . 'json/features-versions.json'],
-            'platforms' => [$fixturesDir . 'ua/features-platforms.json', $fixturesDir . 'json/features-platforms.json'],
-            'child-props' => [$fixturesDir . 'ua/features-child-props.json', $fixturesDir . 'json/features-child-props.json'],
-            'platform-props' => [$fixturesDir . 'ua/features-platform-props.json', $fixturesDir . 'json/features-platform-props.json'],
+            'bcv' => [$fixturesDir . 'ua/features-bcv.json', $fixturesDir . 'json-pre/features-bcv.json'],
+            'basic' => [$fixturesDir . 'ua/features-basic.json', $fixturesDir . 'json-pre/features-basic.json'],
+            'single-child' => [$fixturesDir . 'ua/features-single-child.json', $fixturesDir . 'json-pre/features-single-child.json'],
+            'multi-child' => [$fixturesDir . 'ua/features-multi-child.json', $fixturesDir . 'json-pre/features-multi-child.json'],
+            'versions' => [$fixturesDir . 'ua/features-versions.json', $fixturesDir . 'json-pre/features-versions.json'],
+            'platforms' => [$fixturesDir . 'ua/features-platforms.json', $fixturesDir . 'json-pre/features-platforms.json'],
+            'child-props' => [$fixturesDir . 'ua/features-child-props.json', $fixturesDir . 'json-pre/features-child-props.json'],
+            'platform-props' => [$fixturesDir . 'ua/features-platform-props.json', $fixturesDir . 'json-pre/features-platform-props.json'],
         ];
     }
 
     /**
      * @dataProvider generateFeaturesDataProvider
      */
-    public function testGenerateFeatures($jsonFile, $expectedJson)
+    public function testGenerateFeatures($jsonFile, $expectedFilename)
     {
         $fixturesDir = __DIR__ . '/../../fixtures/';
 
@@ -214,7 +213,7 @@ class BrowscapJsonGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $json = $generator->generate();
 
-        self::assertStringEqualsFile($expectedJson, $json);
+        self::assertStringEqualsFile($expectedFilename, $json);
     }
 
     /**
