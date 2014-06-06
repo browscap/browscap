@@ -41,6 +41,9 @@
         },
         {
           "match": "'Mozilla\/?.0 (compatible; MSIE*"
+        },
+        {
+          "match": "\"Mozilla\/?.0 (compatible; MSIE*"
         }
       ]
     }
