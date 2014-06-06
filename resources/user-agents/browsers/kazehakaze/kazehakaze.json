@@ -28,9 +28,9 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Kazehakase\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux", "Linux_32", "Linux_64"
           ]
         }
       ]
