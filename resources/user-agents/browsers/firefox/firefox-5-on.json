@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "Linux", "Linux_32", "Linux_64", "Linux_32_on_x64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -44,13 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Linux", "Linux_32_on_x64", "WinXPa_32"
-          ]
-        },
-        {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64", "Linux_32_on_x64",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -65,12 +59,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#.#MINORVER#*) Gecko\/* Firefox anonymized by *",
           "platforms": [
             "WinXPa_32"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Linux"
           ]
         },
         {

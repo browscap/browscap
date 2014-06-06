@@ -1,6 +1,6 @@
 {
   "division": "Links #MAJORVER#.#MINORVER#",
-  "versions": ["0.9", "1.0", "2.0", "2.1", "2.2", "2.3"],
+  "versions": ["0.9", "1.0", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8"],
   "sortIndex": 2220,
   "userAgents": [
     {
@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Links #MAJORVER#.#MINORVER#",
         "Browser": "Links",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Mikuláš Patočka",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
