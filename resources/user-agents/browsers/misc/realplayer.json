@@ -5,9 +5,7 @@
     {
       "userAgent": "Realplayer",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Media Players",
-        "Browser_Type": "Application",
+        "Parent": "Media Players",
         "Browser": "RealPlayer",
         "Browser_Maker": "Real Networks"
       },

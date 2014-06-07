@@ -54,11 +54,9 @@
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
       "engine": "Gecko_2_2",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Firefox #MAJORVER#.#MINORVER#",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

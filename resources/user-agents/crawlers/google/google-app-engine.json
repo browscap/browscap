@@ -5,7 +5,7 @@
     {
       "userAgent": "Google App Engine",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Google",
         "Comment": "Google",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

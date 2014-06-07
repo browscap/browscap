@@ -5,7 +5,7 @@
     {
       "userAgent": "Google Keyword Tool",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Google",
         "Comment": "Google",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

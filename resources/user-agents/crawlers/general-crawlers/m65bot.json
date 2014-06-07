@@ -5,7 +5,7 @@
     {
       "userAgent": "m65bot",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "m65bot",
         "Browser": "m65bot",
         "Browser_Type": "Bot/Crawler",

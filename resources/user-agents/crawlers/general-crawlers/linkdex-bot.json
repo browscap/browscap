@@ -5,7 +5,7 @@
     {
       "userAgent": "Linkdex Bot",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Linkdex Bot",
         "Browser": "Linkdex Bot",
         "Browser_Maker": "Linkdex Limited",

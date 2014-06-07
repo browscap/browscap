@@ -5,14 +5,7 @@
     {
       "userAgent": "AdsBot Google",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true",
+        "Parent": "Google",
         "Browser": "AdsBot Google"
       },
       "children": [

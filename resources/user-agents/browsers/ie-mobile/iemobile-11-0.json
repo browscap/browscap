@@ -9,7 +9,7 @@
       "platform": "WinPhone8.1",
       "engine": "Trident_7",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "IEMobile",
         "Browser": "IEMobile",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",

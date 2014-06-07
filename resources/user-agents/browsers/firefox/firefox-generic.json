@@ -63,12 +63,9 @@
       "userAgent": "Firefox Generic for Android",
       "engine": "Gecko",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Firefox Generic",
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Alpha": "true",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

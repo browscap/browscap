@@ -5,7 +5,7 @@
     {
       "userAgent": "Seznam Screenshot Generator",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Seznam Screenshot Generator",
         "Browser": "Seznam Screenshot Generator",
         "Browser_Type": "Bot/Crawler",

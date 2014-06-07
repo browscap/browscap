@@ -5,11 +5,7 @@
     {
       "userAgent": "Googlebot",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Google",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
+        "Parent": "Google",
         "Browser": "Google Bot",
         "Frames": "false",
         "IFrames": "false",

@@ -5,7 +5,7 @@
     {
       "userAgent": "Gnomit",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "Gnomit",
         "Browser": "Gnomit",
         "Browser_Type": "Bot/Crawler",

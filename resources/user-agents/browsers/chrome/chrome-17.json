@@ -8,7 +8,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Chrome Generic",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
@@ -23,12 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -74,11 +69,9 @@
       "platform": "Android",
       "engine": "WebKit",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -888,11 +881,9 @@
       "platform": "iOS",
       "engine": "WebKit",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -907,7 +898,7 @@
         "isMobileDevice": "true",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
-        "Device_Maker": "Various",
+        "Device_Maker": "Apple Inc",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen"
       },

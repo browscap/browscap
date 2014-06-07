@@ -46,11 +46,9 @@
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "engine": "WebKit",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "Safari #MAJORVER#.#MINORVER#",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

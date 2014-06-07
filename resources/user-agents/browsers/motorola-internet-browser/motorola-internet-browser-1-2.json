@@ -5,18 +5,7 @@
     {
       "userAgent": "Motorola Internet Browser 1.2",
       "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Motorola Internet Browser",
-        "Browser": "Motorola Internet Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Type": "Mobile Phone",
+        "Parent": "Motorola Internet Browser",
         "Version": "1.2",
         "MajorVer": "1",
         "MinorVer": "2"
