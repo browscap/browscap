@@ -44,7 +44,6 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
-      "engine": "WebKit",
       "properties": {
         "Parent": "Safari #MAJORVER#.#MINORVER#",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

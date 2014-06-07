@@ -67,7 +67,6 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
-      "engine": "Blink",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -1976,7 +1975,6 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
-      "engine": "Blink",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",

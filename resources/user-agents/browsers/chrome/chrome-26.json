@@ -67,7 +67,6 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
-      "engine": "WebKit",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -1648,7 +1647,6 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
-      "engine": "WebKit",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",

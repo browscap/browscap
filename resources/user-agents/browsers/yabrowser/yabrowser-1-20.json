@@ -57,7 +57,6 @@
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
-      "engine": "Blink",
       "properties": {
         "Parent": "Yandex Browser #MAJORVER#.#MINORVER#",
         "Browser_Bits": "32",

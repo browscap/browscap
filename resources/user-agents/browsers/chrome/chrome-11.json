@@ -56,7 +56,6 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
-      "engine": "WebKit",
       "properties": {
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",

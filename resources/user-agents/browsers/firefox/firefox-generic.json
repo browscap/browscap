@@ -61,7 +61,6 @@
     },
     {
       "userAgent": "Firefox Generic for Android",
-      "engine": "Gecko",
       "properties": {
         "Parent": "Firefox Generic",
         "Comment": "Firefox Generic",

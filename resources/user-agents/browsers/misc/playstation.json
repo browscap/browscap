@@ -49,18 +49,14 @@
       "properties": {
         "Parent": "Playstation",
         "Comment": "PlayStation Vita",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Maker": "Sony",
-        "Device_Type": "Console",
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
         "Frames": "false",
         "isMobileDevice": "true",
         "Device_Code_Name": "PlayStation Vita",
-        "Device_Name": "PS Vita"
+        "Device_Name": "PS Vita",
+        "Device_Maker": "Sony",
+        "Device_Type": "Console"
       },
       "children": [
         {
@@ -81,18 +77,14 @@
       "properties": {
         "Parent": "Playstation",
         "Comment": "Playstation 3",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "isMobileDevice": "false",
-        "Device_Maker": "Sony",
-        "Device_Type": "TV Device",
         "Browser": "Sony PS3",
         "Browser_Type": "Browser",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
-        "Device_Name": "Playstation 3"
+        "Device_Name": "Playstation 3",
+        "Device_Maker": "Sony",
+        "Device_Type": "TV Device"
       },
       "children": [
         {

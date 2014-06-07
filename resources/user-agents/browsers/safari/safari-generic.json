@@ -41,7 +41,6 @@
     },
     {
       "userAgent": "Safari Generic for SymbianOS",
-      "engine": "WebKit",
       "properties": {
         "Parent": "Safari Generic",
         "Comment": "Safari Generic",

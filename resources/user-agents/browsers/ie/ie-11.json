@@ -84,7 +84,6 @@
     },
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
-      "engine": "Trident_7",
       "properties": {
         "Parent": "IE #MAJORVER#.#MINORVER#",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -97,11 +96,8 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
         "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
         "Device_Name": "unknown",

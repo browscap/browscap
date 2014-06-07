@@ -6,13 +6,6 @@
       "userAgent": "Google Feedfetcher",
       "properties": {
         "Parent": "Google",
-        "Comment": "Google",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "true",
         "Browser": "Google Feedfetcher",
         "isSyndicationReader": "true"
       },
