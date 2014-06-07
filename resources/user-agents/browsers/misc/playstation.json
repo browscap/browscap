@@ -48,12 +48,15 @@
       "userAgent": "Playstation Vita",
       "properties": {
         "Parent": "Playstation",
+        "Comment": "PlayStation Vita",
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
         "Frames": "false",
         "isMobileDevice": "true",
         "Device_Code_Name": "PlayStation Vita",
-        "Device_Name": "PS Vita"
+        "Device_Name": "PS Vita",
+        "Device_Maker": "Sony",
+        "Device_Type": "Console"
       },
       "children": [
         {
@@ -73,11 +76,15 @@
       "platform": "CellOS",
       "properties": {
         "Parent": "Playstation",
+        "Comment": "Playstation 3",
+        "isMobileDevice": "false",
         "Browser": "Sony PS3",
         "Browser_Type": "Browser",
         "Frames": "false",
         "Device_Code_Name": "Playstation 3",
-        "Device_Name": "Playstation 3"
+        "Device_Name": "Playstation 3",
+        "Device_Maker": "Sony",
+        "Device_Type": "TV Device"
       },
       "children": [
         {

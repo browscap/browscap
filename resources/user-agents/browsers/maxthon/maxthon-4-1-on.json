@@ -68,6 +68,7 @@
     },
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "properties": {
         "Parent": "Maxthon #MAJORVER#.#MINORVER#",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
@@ -75,7 +76,7 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -84,6 +85,7 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
+        "Device_Code_Name": "unknown",
         "Device_Name": "unknown",
         "Device_Maker": "Various",
         "Device_Type": "Mobile Device",

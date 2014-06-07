@@ -139,12 +139,6 @@
           }
         },
         {
-          "match": "curl*",
-          "properties": {
-            "Browser": "cURL"
-          }
-        },
-        {
           "match": "Custo*",
           "properties": {
             "Browser": "Custo"
