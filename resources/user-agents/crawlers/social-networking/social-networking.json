@@ -73,14 +73,14 @@
           }
         },
         {
-          "match": "Slackbot (+https:\/\/api.slack.com\/robots)",
+          "match": "Slackbot*",
           "properties": {
             "Browser": "Slackbot",
             "Browser_Maker": "slack.com"
           }
         },
         {
-          "match": "Slackbot-LinkExpanding (+https:\/\/api.slack.com\/robots)",
+          "match": "Slackbot-LinkExpanding*",
           "properties": {
             "Browser": "Slackbot-Link-Expanding",
             "Browser_Maker": "slack.com"
