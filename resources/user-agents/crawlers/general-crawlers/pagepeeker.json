@@ -5,7 +5,7 @@
     {
       "userAgent": "PagePeeker",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "PagePeeker",
         "Browser": "PagePeeker",
         "Browser_Type": "Bot/Crawler",

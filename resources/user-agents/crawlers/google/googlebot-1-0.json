@@ -15,14 +15,11 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "*Googlebot\/1.*"
         }
       ]
-    },
-    {
-      "userAgent": "*Googlebot\/1.*",
-      "properties": {
-        "Parent": "Googlebot 1.0"
-      }
     }
   ]
 }

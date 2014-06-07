@@ -83,7 +83,11 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
+        "isTablet": "false",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Various",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
@@ -890,6 +894,9 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen"
       },

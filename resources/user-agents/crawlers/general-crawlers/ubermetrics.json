@@ -6,6 +6,7 @@
       "userAgent": "uMBot",
       "properties": {
         "Parent": "General Crawlers",
+        "Comment": "uMBot",
         "Browser": "uMBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "ubermetrics-technologies.com",

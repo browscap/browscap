@@ -16,7 +16,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Beta": "true",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
@@ -102,6 +101,7 @@
         "CssVersion": "3",
         "isMobileDevice": "true",
         "Device_Name": "unknown",
+        "Device_Code_Name": "unknown",
         "Device_Maker": "Microsoft",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen"

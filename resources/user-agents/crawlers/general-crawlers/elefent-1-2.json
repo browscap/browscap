@@ -5,7 +5,7 @@
     {
       "userAgent": "Elefent 1.2",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "General Crawlers",
         "Comment": "General Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
