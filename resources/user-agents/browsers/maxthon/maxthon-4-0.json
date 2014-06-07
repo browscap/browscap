@@ -68,6 +68,7 @@
     },
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "properties": {
         "Parent": "Maxthon #MAJORVER#.#MINORVER#",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",

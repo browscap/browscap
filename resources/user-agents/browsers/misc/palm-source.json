@@ -5,7 +5,8 @@
     {
       "userAgent": "Palm Source",
       "properties": {
-        "Parent": "IEMobile"
+        "Parent": "IEMobile",
+        "Browser": "Palm Source"
       },
       "children": [
         {

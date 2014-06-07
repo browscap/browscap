@@ -6,6 +6,7 @@
       "userAgent": "RankFlex",
       "properties": {
         "Parent": "General Crawlers",
+        "Comment": "RankFlex",
         "Browser": "RankFlex",
         "Browser_Maker": "rankflex.com",
         "Browser_Type": "Bot/Crawler",

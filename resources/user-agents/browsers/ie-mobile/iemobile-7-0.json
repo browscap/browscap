@@ -7,7 +7,7 @@
       "platform": "WinMobile",
       "engine": "Trident_3_1",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent": "IEMobile",
         "Browser": "IEMobile",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",

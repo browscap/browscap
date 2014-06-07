@@ -4,7 +4,7 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "*PlayBook*RIM Tablet OS 2.0.*",
+      "userAgent": "Playbook Simulator",
       "platform": "RIM_Tablet_OS_2_0",
       "engine": "WebKit",
       "properties": {
@@ -29,7 +29,12 @@
         "Device_Type": "Tablet",
         "isTablet": "true",
         "Device_Pointing_Method": "touchscreen"
-      }
+      },
+      "children": [
+        {
+          "match": "*PlayBook*RIM Tablet OS 2.0.*"
+        }
+      ]
     }
   ]
 }

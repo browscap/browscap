@@ -6,6 +6,7 @@
       "userAgent": "Mozdex",
       "properties": {
         "Parent": "General Crawlers",
+        "Comment": "Mozdex",
         "Browser": "Mozdex",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

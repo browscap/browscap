@@ -6,6 +6,7 @@
       "userAgent": "LetsCrawl.com",
       "properties": {
         "Parent": "General Crawlers",
+        "Comment": "LetsCrawl.com",
         "Browser": "LetsCrawl.com",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
