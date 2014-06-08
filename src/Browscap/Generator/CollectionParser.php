@@ -515,7 +515,16 @@ class CollectionParser
                 }
 
                 if (!is_array($allInputDivisions[$parent])) {
-                    throw new \UnexpectedValueException('Parent "' . $parent . '" is not an array key "' . $key . '"');
+                    throw new \UnexpectedValueException(
+                        'Parent "' . $parent . '" is not an array for key "' . $key . '"'
+                    );
+                }
+
+                if ($properties['sortIndex'] <= $allInputDivisions[$parent]['sortIndex']) {
+                    throw new \UnexpectedValueException(
+                        'Parent "' . $parent . '" will be sorted into list after key "' . $key . '", '
+                        . 'please fix the sort order'
+                    );
                 }
 
                 $browserData = array_merge($browserData, $allInputDivisions[$parent]);
