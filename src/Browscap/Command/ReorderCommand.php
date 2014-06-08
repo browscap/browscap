@@ -14,6 +14,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Browscap\Generator\DataCollection;
 
 /**
  * @author James Titcumb <james@asgrim.com>
@@ -55,6 +56,17 @@ class ReorderCommand extends Command
 
         $loggerHelper = new LoggerHelper();
         $logger = $loggerHelper->create($debug);
+
+        $collection = new DataCollection('temporary-version');
+
+        $collectionCreator = new CollectionCreator();
+        $collectionCreator
+            ->setLogger($logger)
+            ->setDataCollection($collection)
+            ->createDataCollection($resourceFolder)
+        ;
+
+        $allDivisions = $collection->getDivisions();
 
         $logger->info('Reorder done.');
     }

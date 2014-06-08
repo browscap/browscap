@@ -170,7 +170,8 @@ class Generator
         $this->collectionCreator
             ->setLogger($this->logger)
             ->setDataCollection($this->collection)
-            ->createDataCollection($this->getResourceFolder());
+            ->createDataCollection($this->getResourceFolder())
+        ;
 
         return $this;
     }

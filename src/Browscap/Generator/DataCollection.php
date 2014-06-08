@@ -117,7 +117,7 @@ class DataCollection
      */
     public function addSourceFile($src)
     {
-        $this->divisions[] = $this->loadFile($src);
+        $this->divisions[$src] = $this->loadFile($src);
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -134,6 +134,10 @@ class DataCollection
     {
         if (!file_exists($src)) {
             throw new \RuntimeException('File "' . $src . '" does not exist.');
+        }
+
+        if (!is_readable($src)) {
+            throw new \RuntimeException('File "' . $src . '" is not readable.');
         }
 
         $fileContent = file_get_contents($src);

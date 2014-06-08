@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Browscap\CollectionParser\ChildrenParserInterface;
+use Browscap\CollectionParser\DefaultParser;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -20,12 +22,17 @@ class CollectionParser
     /**
      * @var \Browscap\Generator\DataCollection
      */
-    private $collection;
+    private $collection = null;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;
+
+    /**
+     * @var \Browscap\CollectionParser\ChildrenParserInterface
+     */
+    private $childrenParser = null;
 
     /**
      * Set the data collection
@@ -72,6 +79,30 @@ class CollectionParser
     public function getLogger()
     {
         return $this->logger;
+    }
+
+    /**
+     * @param \Browscap\CollectionParser\ChildrenParserInterface $childrenParser
+     *
+     * @return \Browscap\Generator\CollectionParser
+     */
+    public function setChildrenParser(ChildrenParserInterface $childrenParser)
+    {
+        $this->childrenParser = $childrenParser;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\CollectionParser\ChildrenParserInterface
+     */
+    public function getChildrenParser()
+    {
+        if (null === $this->childrenParser) {
+            $this->childrenParser = new DefaultParser();
+        }
+
+        return $this->childrenParser;
     }
 
     /**
@@ -128,7 +159,7 @@ class CollectionParser
 
                     $userAgents = json_decode($userAgents, true);
 
-                    $allDivisions = $this->hanldeSingleDivision(
+                    $allDivisions = $this->handleSingleDivision(
                         $allDivisions,
                         $userAgents,
                         $majorVer,
@@ -141,7 +172,7 @@ class CollectionParser
                     unset($userAgents, $divisionName, $majorVer, $minorVer);
                 }
             } else {
-                $allDivisions = $this->hanldeSingleDivision(
+                $allDivisions = $this->handleSingleDivision(
                     $allDivisions,
                     $division['userAgents'],
                     0,
@@ -171,7 +202,7 @@ class CollectionParser
      * @return array
      * @throws \UnexpectedValueException
      */
-    private function hanldeSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
+    private function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
         $sortIndex, $divisionName)
     {
         $divisions = $this->parseDivision(
@@ -212,15 +243,10 @@ class CollectionParser
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $parsedAgents = $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
-
-            foreach ($parsedAgents as $key => $parsedAgentData) {
-                if (isset($allDivisions[$key])) {
-                    throw new \UnexpectedValueException('UserAgent "' . $key . '" is defined twice');
-                }
-
-                $output[$key] = $parsedAgentData;
-            }
+            $output = array_merge(
+                $output,
+                $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
+            );
         }
 
         return $output;
@@ -245,16 +271,21 @@ class CollectionParser
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
         }
 
-        $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
+        $this->getChildrenParser()
+            ->setDataCollection($this->getDataCollection())
+            ->setLogger($this->logger)
+        ;
+
+        $uaProperties = $this->getChildrenParser()->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
         if (!in_array($uaData['userAgent'], array('DefaultProperties', '*'))) {
-            $this->checkPlatformData(
+            $this->getChildrenParser()->checkPlatformData(
                 $uaProperties,
                 'the properties array contains platform data for key "' . $uaData['userAgent']
                 . '", please use the "platform" keyword'
             );
 
-            $this->checkEngineData(
+            $this->getChildrenParser()->checkEngineData(
                 $uaProperties,
                 'the properties array contains engine data for key "' . $uaData['userAgent']
                 . '", please use the "engine" keyword'
@@ -274,7 +305,7 @@ class CollectionParser
 
         if (array_key_exists('engine', $uaData)) {
             $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
-            $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+            $engineData = $this->getChildrenParser()->parseProperties($engine['properties'], $majorVer, $minorVer);
         } else {
             $engineData = array();
         }
@@ -318,182 +349,10 @@ class CollectionParser
 
             $output = array_merge(
                 $output,
-                $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+                $this->getChildrenParser()->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
             );
         }
 
-        return $output;
-    }
-
-    /**
-     * Render the children section in a single User Agent block
-     *
-     * @param string $ua
-     * @param array  $uaDataChild
-     * @param string $majorVer
-     * @param string $minorVer
-     *
-     * @throws \LogicException
-     * @return array[]
-     */
-    private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
-    {
-        if (isset($uaDataChild['properties'])) {
-            if (!is_array($uaDataChild['properties'])) {
-                throw new \LogicException(
-                    'the properties entry has to be an array for key "' . $uaDataChild['match'] . '"'
-                );
-            }
-
-            if (isset($uaDataChild['properties']['Parent'])) {
-                throw new \LogicException(
-                    'the Parent property must not set inside the children array for key "' . $uaDataChild['match'] . '"'
-                );
-            }
-        }
-
-        $output = array();
-
-        // @todo This needs work here. What if we specify platforms AND versions?
-        // We need to make it so it does as many permutations as necessary.
-        if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
-            foreach ($uaDataChild['platforms'] as $platform) {
-                $platformData = $this->getDataCollection()->getPlatform($platform);
-                $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
-
-                if (array_key_exists('engine', $uaDataChild)) {
-                    $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                    $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
-                } else {
-                    $engineData = array();
-                }
-
-                $properties = array_merge(
-                    $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
-                    $engineData,
-                    $this->parseProperties($platformData['properties'], $majorVer, $minorVer)
-                );
-
-                if (isset($uaDataChild['properties'])
-                    && is_array($uaDataChild['properties'])
-                ) {
-                    $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
-
-                    $this->checkPlatformData(
-                        $childProperties,
-                        'the properties array contains platform data for key "' . $uaBase
-                        . '", please use the "platforms" keyword'
-                    );
-
-                    $this->checkEngineData(
-                        $childProperties,
-                        'the properties array contains engine data for key "' . $uaBase
-                        . '", please use the "engine" keyword'
-                    );
-
-                    $properties = array_merge($properties, $childProperties);
-                }
-
-                $output[$uaBase] = $properties;
-            }
-        } else {
-            $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
-
-            if (array_key_exists('engine', $uaDataChild)) {
-                $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
-            } else {
-                $engineData = array();
-            }
-
-            $properties = array_merge($properties, $engineData);
-
-            if (isset($uaDataChild['properties'])
-                && is_array($uaDataChild['properties'])
-            ) {
-                $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
-
-                $this->checkPlatformData(
-                    $childProperties,
-                    'the properties array contains platform data for key "' . $ua
-                    . '", please use the "platforms" keyword'
-                );
-
-                $this->checkEngineData(
-                    $childProperties,
-                    'the properties array contains engine data for key "' . $ua
-                    . '", please use the "engine" keyword'
-                );
-
-                $properties = array_merge($properties, $childProperties);
-            }
-
-            $output[$uaDataChild['match']] = $properties;
-        }
-
-        return $output;
-    }
-
-    /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param array  $properties
-     * @param string $message
-     *
-     * @throws \LogicException
-     */
-    private function checkPlatformData(array $properties, $message)
-    {
-        if (array_key_exists('Platform', $properties)
-            || array_key_exists('Platform_Description', $properties)
-            || array_key_exists('Platform_Maker', $properties)
-            || array_key_exists('Platform_Bits', $properties)
-            || array_key_exists('Platform_Version', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
-    }
-
-    /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param array  $properties
-     * @param string $message
-     *
-     * @throws \LogicException
-     */
-    private function checkEngineData(array $properties, $message)
-    {
-        if (array_key_exists('RenderingEngine_Name', $properties)
-            || array_key_exists('RenderingEngine_Version', $properties)
-            || array_key_exists('RenderingEngine_Description', $properties)
-            || array_key_exists('RenderingEngine_Maker', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
-    }
-
-    /**
-     * Render the properties of a single User Agent
-     *
-     * @param array  $properties
-     * @param string $majorVer
-     * @param string $minorVer
-     *
-     * @return string[]
-     */
-    private function parseProperties(array $properties, $majorVer, $minorVer)
-    {
-        $output = array();
-        foreach ($properties as $property => $value) {
-            $value = str_replace(
-                array('#MAJORVER#', '#MINORVER#'),
-                array($majorVer, $minorVer),
-                $value
-            );
-
-            $output[$property] = $value;
-        }
         return $output;
     }
 
