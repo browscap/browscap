@@ -257,8 +257,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \LogicException
-     * @expectedExceptionMessage the "parent" property is missing for key "test/2.*"
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "parent" element "abc" for key "test/1.*" is not added before the element, please change the SortIndex
      */
     public function testParseSkipsEmptyOrInvalidDivisions()
     {
@@ -287,6 +287,53 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'versions' => array('2.0'),
                 'sortIndex' => 4,
                 'userAgents' => array(array('userAgent' => 'test/2.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
+            ),
+        );
+
+        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock->expects($this->once())
+            ->method('getDivisions')
+            ->will(self::returnValue($divisions))
+        ;
+
+        $parser = new CollectionParser();
+        $parser->setLogger($this->logger);
+        self::assertSame($parser, $parser->setDataCollection($mock));
+
+        $parser->parse();
+    }
+
+    /**
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the "parent" property is missing for key "test/2.*"
+     */
+    public function testParseSkipsEmptyOrInvalidDivisionsWithSortIndex()
+    {
+        $divisions = array(
+            array('division' => 'Browscap Version'),
+            array(
+                'division' => 'DefaultProperties',
+                'sortIndex' => 1,
+                'lite' => true,
+                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'sortIndex' => 0, 'properties' => array('Browser' => 'test', 'Version' => '0')))
+            ),
+            array(
+                'division' => 'abc',
+                'sortIndex' => 2,
+                'lite' => false,
+                'userAgents' => array(array('userAgent' => 'test', 'sortIndex' => 1, 'properties' => array('Parent' => 'DefaultProperties')))
+            ),
+            array(
+                'division' => 'abc #MAJORVER#.#MINORVER#',
+                'versions' => array('1.0'),
+                'sortIndex' => 3,
+                'userAgents' => array(array('userAgent' => 'test/1.*', 'sortIndex' => 2, 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
+            ),
+            array(
+                'division' => 'abc #MAJORVER#.#MINORVER#',
+                'versions' => array('2.0'),
+                'sortIndex' => 4,
+                'userAgents' => array(array('userAgent' => 'test/2.*', 'sortIndex' => 3, 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
             ),
         );
 

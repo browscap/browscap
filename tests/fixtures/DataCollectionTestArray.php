@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    '/home/travis/build/mimmi20/browscap/tests/BrowscapTest/Generator/../../fixtures/ua/default-properties.json' => array(
+    0 => array(
         'division'   => 'DefaultProperties',
         'sortIndex'  => 0,
         'lite'       => true,
@@ -47,7 +47,7 @@ return array(
             )
         ),
     ),
-    '/home/travis/build/mimmi20/browscap/tests/BrowscapTest/Generator/../../fixtures/ua/test2.json' => array(
+    1 => array(
         'division'   => 'Division3',
         'sortIndex'  => 100,
         'userAgents' => array(
@@ -64,7 +64,7 @@ return array(
             ),
         ),
     ),
-    '/home/travis/build/mimmi20/browscap/tests/BrowscapTest/Generator/../../fixtures/ua/test3.json' => array(
+    2 => array(
         'division'   => 'Division2',
         'sortIndex'  => 100,
         'userAgents' => array(
@@ -81,7 +81,7 @@ return array(
             ),
         ),
     ),
-    '/home/travis/build/mimmi20/browscap/tests/BrowscapTest/Generator/../../fixtures/ua/test1.json' => array(
+    3 => array(
         'division'   => 'Division1',
         'sortIndex'  => 200,
         'userAgents' => array(
@@ -131,7 +131,7 @@ return array(
             ),
         ),
     ),
-    '/home/travis/build/mimmi20/browscap/tests/BrowscapTest/Generator/../../fixtures/ua/default-browser.json' => array(
+    4 => array(
         'division'   => 'Default Browser',
         'sortIndex'  => 2147000000,
         'lite'       => true,
