@@ -563,10 +563,25 @@ class CollectionParser
                     throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
                 }
 
+                if (!isset($allInputDivisions[$parent]['Parent'])) {
+                    throw new \UnexpectedValueException(
+                        'Parent entry not defined for key "' . $parent . '"'
+                    );
+                }
+
                 if (!is_array($allInputDivisions[$parent])) {
                     throw new \UnexpectedValueException(
                         'Parent "' . $parent . '" is not an array for key "' . $key . '"'
                     );
+                }
+
+                if ($key !== $parent) {
+                    if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
+                        throw new \UnexpectedValueException(
+                            'sorting not ready for key "'
+                            . $key . '"'
+                        );
+                    }
                 }
 
                 $browserData = array_merge($browserData, $allInputDivisions[$parent]);

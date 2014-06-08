@@ -315,25 +315,25 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
                 'division' => 'DefaultProperties',
                 'sortIndex' => 1,
                 'lite' => true,
-                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'sortIndex' => 0, 'properties' => array('Browser' => 'test', 'Version' => '0')))
+                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test', 'Version' => '0')))
             ),
             array(
                 'division' => 'abc',
                 'sortIndex' => 2,
                 'lite' => false,
-                'userAgents' => array(array('userAgent' => 'test', 'sortIndex' => 1, 'properties' => array('Parent' => 'DefaultProperties')))
+                'userAgents' => array(array('userAgent' => 'test', 'properties' => array('Parent' => 'DefaultProperties')))
             ),
             array(
                 'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('1.0'),
                 'sortIndex' => 3,
-                'userAgents' => array(array('userAgent' => 'test/1.*', 'sortIndex' => 2, 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
+                'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
             ),
             array(
                 'division' => 'abc #MAJORVER#.#MINORVER#',
                 'versions' => array('2.0'),
                 'sortIndex' => 4,
-                'userAgents' => array(array('userAgent' => 'test/2.*', 'sortIndex' => 3, 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
+                'userAgents' => array(array('userAgent' => 'test/2.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
             ),
         );
 
