@@ -520,10 +520,11 @@ class CollectionParser
                     );
                 }
 
-                if ($properties['sortIndex'] <= $allInputDivisions[$parent]['sortIndex']) {
+                if ((int) $properties['sortIndex'] <= (int) $allInputDivisions[$parent]['sortIndex']) {
                     throw new \UnexpectedValueException(
-                        'Parent "' . $parent . '" will be sorted into list after key "' . $key . '", '
-                        . 'please fix the sort order'
+                        'Parent "' . $parent . '" (Index:' . (int) $allInputDivisions[$parent]['sortIndex']
+                        . ') will be sorted into list after key "' . $key . '" (Index:'
+                        . (int) $properties['sortIndex'] . '), ' . 'please fix the sort order'
                     );
                 }
 
