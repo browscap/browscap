@@ -36,17 +36,20 @@ interface ChildrenParserInterface
     public function setLogger(LoggerInterface $logger);
 
     /**
-     * Render the children section in a single User Agent block
+     * @param array   $allDivisions
+     * @param array   $userAgents
+     * @param string  $majorVer
+     * @param string  $minorVer
+     * @param boolean $lite
+     * @param integer $sortIndex
+     * @param string  $divisionName
+     * @param string  $filename
      *
-     * @param string $ua
-     * @param array  $uaDataChild
-     * @param string $majorVer
-     * @param string $minorVer
-     *
-     * @throws \LogicException
-     * @return array[]
+     * @throws \UnexpectedValueException
+     * @return array
      */
-    public function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer);
+    public function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
+        $sortIndex, $divisionName, $filename);
 
     /**
      * checks if platform properties are set inside a properties array
@@ -78,4 +81,13 @@ interface ChildrenParserInterface
      * @return string[]
      */
     public function parseProperties(array $properties, $majorVer, $minorVer);
+
+    /**
+     * Returns all available Versions for a given Division
+     *
+     * @param array $division
+     *
+     * @return array
+     */
+    public function getDivisions(array $division);
 }

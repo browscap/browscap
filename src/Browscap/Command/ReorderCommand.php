@@ -2,6 +2,7 @@
 
 namespace Browscap\Command;
 
+use Browscap\CollectionParser\SorterParser;
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\CollectionParser;
 use Browscap\Generator\BuildGenerator;
@@ -66,7 +67,13 @@ class ReorderCommand extends Command
             ->createDataCollection($resourceFolder)
         ;
 
-        $allDivisions = $collection->getDivisions();
+        $collectionParser = new CollectionParser();
+        $collectionParser
+            ->setDataCollection($collection)
+            ->setChildrenParser(new SorterParser())
+        ;
+
+        $allDivisions = $collectionParser->parse();
 
         $logger->info('Reorder done.');
     }

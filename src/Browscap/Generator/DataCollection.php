@@ -187,6 +187,23 @@ class DataCollection
     }
 
     /**
+     * Get one division containing UA data
+     *
+     * @param string $src
+     *
+     * @throws \UnexpectedValueException
+     * @return array
+     */
+    public function getDivision($src)
+    {
+        if (!isset($this->divisions[$src])) {
+            throw new \UnexpectedValueException('File "' . $src . '" does not exist in this collection.');
+        }
+
+        return $this->divisions[$src];
+    }
+
+    /**
      * Get the array of platform data
      *
      * @return array
