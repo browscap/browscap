@@ -117,7 +117,7 @@ class DataCollection
      */
     public function addSourceFile($src)
     {
-        $this->divisions[$src] = $this->loadFile($src);
+        $this->divisions[] = $this->loadFile($src);
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -184,23 +184,6 @@ class DataCollection
         $this->sortDivisions();
 
         return $this->divisions;
-    }
-
-    /**
-     * Get one division containing UA data
-     *
-     * @param string $src
-     *
-     * @throws \UnexpectedValueException
-     * @return array
-     */
-    public function getDivision($src)
-    {
-        if (!isset($this->divisions[$src])) {
-            throw new \UnexpectedValueException('File "' . $src . '" does not exist in this collection.');
-        }
-
-        return $this->divisions[$src];
     }
 
     /**

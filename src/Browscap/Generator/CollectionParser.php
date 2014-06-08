@@ -84,7 +84,7 @@ class CollectionParser
     {
         $allDivisions = array();
 
-        foreach ($this->getDataCollection()->getDivisions() as $filename => $division) {
+        foreach ($this->getDataCollection()->getDivisions() as $division) {
             if ($division['division'] == 'Browscap Version') {
                 continue;
             }
@@ -135,8 +135,7 @@ class CollectionParser
                     $minorVer,
                     $lite,
                     $sortIndex,
-                    $divisionName,
-                    $filename
+                    $divisionName
                 );
 
                 unset($userAgents, $divisionName, $majorVer, $minorVer);
@@ -173,13 +172,12 @@ class CollectionParser
      * @param boolean $lite
      * @param integer $sortIndex
      * @param string  $divisionName
-     * @param string  $filename
      *
      * @throws \UnexpectedValueException
      * @return array
      */
     private function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
-        $sortIndex, $divisionName, $filename)
+        $sortIndex, $divisionName)
     {
         if (!in_array($userAgents[0]['userAgent'], array('DefaultProperties', '*'))) {
             if (!isset($userAgents[0]['properties']['Parent'])) {
@@ -203,8 +201,7 @@ class CollectionParser
             $minorVer,
             $lite,
             $sortIndex,
-            $divisionName,
-            $filename
+            $divisionName
         );
 
         foreach ($divisions as $key => $divisionData) {
