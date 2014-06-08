@@ -257,8 +257,8 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Parent "abc" not found for key "test/1.*"
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the "parent" property is missing for key "test/2.*"
      */
     public function testParseSkipsEmptyOrInvalidDivisions()
     {
