@@ -93,18 +93,20 @@ class DefaultParser implements ChildrenParserInterface
     public function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
         $sortIndex, $divisionName, $filename)
     {
-        if (!isset($userAgents[0]['properties']['Parent'])) {
-            throw new \UnexpectedValueException(
-                'the "parent" property is missing for key "' . $userAgents[0]['userAgent'] . '"'
-            );
-        }
+        if (!in_array($userAgents[0]['userAgent'], array('DefaultProperties', '*'))) {
+            if (!isset($userAgents[0]['properties']['Parent'])) {
+                throw new \UnexpectedValueException(
+                    'the "parent" property is missing for key "' . $userAgents[0]['userAgent'] . '"'
+                );
+            }
 
-        if (!isset($allDivisions[$userAgents[0]['properties']['Parent']])) {
-            throw new \UnexpectedValueException(
-                'the "parent" element "' . $userAgents[0]['properties']['Parent']
-                . '" for key "' . $userAgents[0]['userAgent'] . '" is not added before the element, '
-                . 'please change the SortIndex'
-            );
+            if (!isset($allDivisions[$userAgents[0]['properties']['Parent']])) {
+                throw new \UnexpectedValueException(
+                    'the "parent" element "' . $userAgents[0]['properties']['Parent']
+                    . '" for key "' . $userAgents[0]['userAgent'] . '" is not added before the element, '
+                    . 'please change the SortIndex'
+                );
+            }
         }
 
         $divisions = $this->parseDivision(
