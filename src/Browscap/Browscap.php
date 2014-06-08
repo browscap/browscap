@@ -14,7 +14,6 @@ class Browscap extends Application
             new Command\BuildCommand(),
             new Command\DiffCommand(),
             new Command\GrepCommand(),
-            new Command\ReorderCommand(),
         );
 
         foreach ($commands as $command) {
