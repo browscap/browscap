@@ -577,7 +577,10 @@ class CollectionParser
                     }
                 }
 
-                if ($key !== $parent) {
+                if ($key !== $parent
+                    && isset($allInputDivisions[$parent]['sortIndex'])
+                    && isset($properties['sortIndex'])
+                ) {
                     if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
                         throw new \UnexpectedValueException(
                             'sorting not ready for key "'
