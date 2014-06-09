@@ -188,7 +188,7 @@ class CollectionParser
 
             if (!isset($allDivisions[$userAgents[0]['properties']['Parent']])) {
                 throw new \UnexpectedValueException(
-                    'the "parent" element "' . $userAgents[0]['properties']['Parent']
+                    'the parent element "' . $userAgents[0]['properties']['Parent']
                     . '" for key "' . $userAgents[0]['userAgent'] . '" is not added before the element, '
                     . 'please change the SortIndex'
                 );
