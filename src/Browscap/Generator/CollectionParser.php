@@ -563,16 +563,18 @@ class CollectionParser
                     throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
                 }
 
-                if (!isset($allInputDivisions[$parent]['Parent'])) {
-                    throw new \UnexpectedValueException(
-                        'Parent entry not defined for key "' . $parent . '"'
-                    );
-                }
+                if (!in_array($parent, array('DefaultProperties', '*'))) {
+                    if (!isset($allInputDivisions[$parent]['Parent'])) {
+                        throw new \UnexpectedValueException(
+                            'Parent entry not defined for key "' . $parent . '"'
+                        );
+                    }
 
-                if (!is_array($allInputDivisions[$parent])) {
-                    throw new \UnexpectedValueException(
-                        'Parent "' . $parent . '" is not an array for key "' . $key . '"'
-                    );
+                    if (!is_array($allInputDivisions[$parent])) {
+                        throw new \UnexpectedValueException(
+                            'Parent "' . $parent . '" is not an array for key "' . $key . '"'
+                        );
+                    }
                 }
 
                 if ($key !== $parent) {
