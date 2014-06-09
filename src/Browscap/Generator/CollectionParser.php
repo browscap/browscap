@@ -580,6 +580,7 @@ class CollectionParser
                 if ($key !== $parent
                     && isset($allInputDivisions[$parent]['sortIndex'])
                     && isset($properties['sortIndex'])
+                    && ($allInputDivisions[$parent]['division'] !== $properties['division'])
                 ) {
                     if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
                         throw new \UnexpectedValueException(
