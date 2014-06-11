@@ -55,6 +55,14 @@
             "Browser_Maker": "Microsoft Corporation",
             "Browser_Type": "Library"
           }
+        },
+        {
+          "match": "WinHttp*",
+          "properties": {
+            "Browser": "WinHttp",
+            "Browser_Maker": "Microsoft Corporation",
+            "Browser_Type": "Library"
+          }
         }
       ]
     }

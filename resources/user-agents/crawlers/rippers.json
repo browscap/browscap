@@ -755,12 +755,6 @@
           }
         },
         {
-          "match": "WinHttp*",
-          "properties": {
-            "Browser": "WinHttp"
-          }
-        },
-        {
           "match": "WinScripter iNet Tools",
           "properties": {
             "Browser": "WinScripter iNet Tools"
