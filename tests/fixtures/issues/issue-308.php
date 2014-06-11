@@ -17,7 +17,7 @@ return [
             'Platform_Maker' => 'unknown',
             'isMobileDevice' => false,
             'isTablet' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
