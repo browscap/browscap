@@ -105,7 +105,7 @@ class CollectionParser
             }
 
             $sortIndex = $division['sortIndex'];
-            $versions  = $this->getDivisions($division);
+            $versions  = $this->getVersions($division);
 
             foreach ($versions as $version) {
                 $dots = explode('.', $version, 2);
@@ -155,7 +155,7 @@ class CollectionParser
      *
      * @return array
      */
-    private function getDivisions(array $division)
+    private function getVersions(array $division)
     {
         if (isset($division['versions']) && is_array($division['versions'])) {
             return $division['versions'];
