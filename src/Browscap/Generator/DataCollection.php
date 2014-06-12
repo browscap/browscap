@@ -136,6 +136,10 @@ class DataCollection
             throw new \RuntimeException('File "' . $src . '" does not exist.');
         }
 
+        if (!is_readable($src)) {
+            throw new \RuntimeException('File "' . $src . '" is not readable.');
+        }
+
         $fileContent = file_get_contents($src);
         $json        = json_decode($fileContent, true);
 
