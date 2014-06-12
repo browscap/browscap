@@ -37,12 +37,6 @@
           }
         },
         {
-          "match": "*WinHttpRequest*",
-          "properties": {
-            "Browser": "WinHttp"
-          }
-        },
-        {
           "match": "3D-FTP\/*",
           "properties": {
             "Browser": "3D-FTP"
@@ -758,12 +752,6 @@
           "match": "WebWhacker*",
           "properties": {
             "Browser": "WebWhacker"
-          }
-        },
-        {
-          "match": "WinHttp*",
-          "properties": {
-            "Browser": "WinHttp"
           }
         },
         {
