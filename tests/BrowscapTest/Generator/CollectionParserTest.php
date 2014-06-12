@@ -258,7 +258,7 @@ class CollectionParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Parent "abc" not found for key "test/1.*"
+     * @expectedExceptionMessage the parent element "abc" for key "test/1.*" is not added before the element, please change the SortIndex
      */
     public function testParseSkipsEmptyOrInvalidDivisions()
     {
