@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [16],
-  "sortIndex": 1132,
+  "sortIndex": 1141,
   "lite": true,
   "userAgents": [
     {

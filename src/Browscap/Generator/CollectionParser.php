@@ -20,7 +20,7 @@ class CollectionParser
     /**
      * @var \Browscap\Generator\DataCollection
      */
-    private $collection;
+    private $collection = null;
 
     /**
      * @var \Psr\Log\LoggerInterface
@@ -105,65 +105,40 @@ class CollectionParser
             }
 
             $sortIndex = $division['sortIndex'];
+            $versions  = $this->getVersions($division);
 
-            if (isset($division['versions']) && is_array($division['versions'])) {
-                foreach ($division['versions'] as $version) {
-                    $dots = explode('.', $version, 2);
+            foreach ($versions as $version) {
+                $dots = explode('.', $version, 2);
 
-                    $majorVer = $dots[0];
-                    $minorVer = (isset($dots[1]) ? $dots[1] : 0);
+                $majorVer = $dots[0];
+                $minorVer = (isset($dots[1]) ? $dots[1] : 0);
 
-                    $userAgents = json_encode($division['userAgents']);
-                    $userAgents = str_replace(
-                        array('#MAJORVER#', '#MINORVER#'),
-                        array($majorVer, $minorVer),
-                        $userAgents
-                    );
+                $userAgents = json_encode($division['userAgents']);
+                $userAgents = str_replace(
+                    array('#MAJORVER#', '#MINORVER#'),
+                    array($majorVer, $minorVer),
+                    $userAgents
+                );
 
-                    $divisionName = str_replace(
-                        array('#MAJORVER#', '#MINORVER#'),
-                        array($majorVer, $minorVer),
-                        $division['division']
-                    );
-
-                    $userAgents = json_decode($userAgents, true);
-
-                    $divisions = $this->parseDivision(
-                        $userAgents,
-                        $majorVer,
-                        $minorVer,
-                        $lite,
-                        $sortIndex,
-                        $divisionName
-                    );
-
-                    foreach ($divisions as $key => $divisionData) {
-                        if (isset($allDivisions[$key])) {
-                            throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
-                        }
-
-                        $allDivisions[$key] = $divisionData;
-                    }
-
-                    unset($userAgents, $divisionName, $majorVer, $minorVer);
-                }
-            } else {
-                $divisions = $this->parseDivision(
-                    $division['userAgents'],
-                    0,
-                    0,
-                    $lite,
-                    $sortIndex,
+                $divisionName = str_replace(
+                    array('#MAJORVER#', '#MINORVER#'),
+                    array($majorVer, $minorVer),
                     $division['division']
                 );
 
-                foreach ($divisions as $key => $divisionData) {
-                    if (isset($allDivisions[$key])) {
-                        throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
-                    }
+                $userAgents = json_decode($userAgents, true);
 
-                    $allDivisions[$key] = $divisionData;
-                }
+                $allDivisions = $this->handleSingleDivision(
+                    $allDivisions,
+                    $userAgents,
+                    $majorVer,
+                    $minorVer,
+                    $lite,
+                    $sortIndex,
+                    $divisionName
+                );
+
+                unset($userAgents, $divisionName, $majorVer, $minorVer);
             }
 
             unset($sortIndex, $lite);
@@ -171,6 +146,73 @@ class CollectionParser
 
         // full expand of all data
         return $this->expandProperties($allDivisions);
+    }
+
+    /**
+     * Returns all available Versions for a given Division
+     *
+     * @param array $division
+     *
+     * @return array
+     */
+    private function getVersions(array $division)
+    {
+        if (isset($division['versions']) && is_array($division['versions'])) {
+            return $division['versions'];
+        }
+
+        return array('0.0');
+    }
+
+    /**
+     * @param array   $allDivisions
+     * @param array   $userAgents
+     * @param string  $majorVer
+     * @param string  $minorVer
+     * @param boolean $lite
+     * @param integer $sortIndex
+     * @param string  $divisionName
+     *
+     * @throws \UnexpectedValueException
+     * @return array
+     */
+    private function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
+        $sortIndex, $divisionName)
+    {
+        if (!in_array($userAgents[0]['userAgent'], array('DefaultProperties', '*'))) {
+            if (!isset($userAgents[0]['properties']['Parent'])) {
+                throw new \UnexpectedValueException(
+                    'the "parent" property is missing for key "' . $userAgents[0]['userAgent'] . '"'
+                );
+            }
+
+            if (!isset($allDivisions[$userAgents[0]['properties']['Parent']])) {
+                throw new \UnexpectedValueException(
+                    'the parent element "' . $userAgents[0]['properties']['Parent']
+                    . '" for key "' . $userAgents[0]['userAgent'] . '" is not added before the element, '
+                    . 'please change the SortIndex'
+                );
+            }
+        }
+
+        $divisions = $this->parseDivision(
+            $userAgents,
+            $majorVer,
+            $minorVer,
+            $lite,
+            $sortIndex,
+            $divisionName
+        );
+
+        foreach ($divisions as $key => $divisionData) {
+            if (isset($allDivisions[$key])) {
+                throw new \UnexpectedValueException('Division "' . $key . '" is defined twice');
+            }
+
+            $allDivisions[$key] = $divisionData;
+        }
+
+        return $allDivisions;
     }
 
     /**
@@ -183,7 +225,6 @@ class CollectionParser
      * @param integer $sortIndex
      * @param string  $divisionName
      *
-     * @throws \UnexpectedValueException
      * @return array
      */
     private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
@@ -191,15 +232,17 @@ class CollectionParser
         $output = array();
 
         foreach ($userAgents as $uaData) {
-            $parsedAgents = $this->parseUserAgent($uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName);
-
-            foreach ($parsedAgents as $key => $parsedAgentData) {
-                if (isset($allDivisions[$key])) {
-                    throw new \UnexpectedValueException('UserAgent "' . $key . '" is defined twice');
-                }
-
-                $output[$key] = $parsedAgentData;
-            }
+            $output = array_merge(
+                $output,
+                $this->parseUserAgent(
+                    $uaData,
+                    $majorVer,
+                    $minorVer,
+                    $lite,
+                    $sortIndex,
+                    $divisionName
+                )
+            );
         }
 
         return $output;
@@ -238,6 +281,10 @@ class CollectionParser
                 'the properties array contains engine data for key "' . $uaData['userAgent']
                 . '", please use the "engine" keyword'
             );
+
+            if (!isset($uaProperties['Parent'])) {
+                throw new \LogicException('the "parent" property is missing for key "' . $uaData['userAgent'] . '"');
+            }
         }
 
         if (array_key_exists('platform', $uaData)) {
@@ -267,32 +314,34 @@ class CollectionParser
             )
         );
 
-        if (isset($uaData['children']) && is_array($uaData['children'])) {
-            if (isset($uaData['children']['match'])) {
+        if (!isset($uaData['children']) || !is_array($uaData['children']) || !count($uaData['children'])) {
+            return $output;
+        }
+
+        if (isset($uaData['children']['match'])) {
+            throw new \LogicException(
+                'the children property has to be an array of arrays for key "' . $uaData['userAgent'] . '"'
+            );
+        }
+
+        foreach ($uaData['children'] as $child) {
+            if (!is_array($child)) {
                 throw new \LogicException(
-                    'the children property has to be an array of arrays for key "' . $uaData['userAgent'] . '"'
+                    'each entry of the children property has to be an array for key "' . $uaData['userAgent'] . '"'
                 );
             }
 
-            foreach ($uaData['children'] as $child) {
-                if (!is_array($child)) {
-                    throw new \LogicException(
-                        'each entry of the children property has to be an array for key "' . $uaData['userAgent'] . '"'
-                    );
-                }
-
-                if (!isset($child['match'])) {
-                    throw new \LogicException(
-                        'each entry of the children property requires an "match" entry for key "'
-                        . $uaData['userAgent'] . '"'
-                    );
-                }
-
-                $output = array_merge(
-                    $output,
-                    $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+            if (!isset($child['match'])) {
+                throw new \LogicException(
+                    'each entry of the children property requires an "match" entry for key "'
+                    . $uaData['userAgent'] . '"'
                 );
             }
+
+            $output = array_merge(
+                $output,
+                $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+            );
         }
 
         return $output;
@@ -514,8 +563,31 @@ class CollectionParser
                     throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
                 }
 
-                if (!is_array($allInputDivisions[$parent])) {
-                    throw new \UnexpectedValueException('Parent "' . $parent . '" is not an array key "' . $key . '"');
+                if (!in_array($parent, array('DefaultProperties', '*'))) {
+                    if (!isset($allInputDivisions[$parent]['Parent'])) {
+                        throw new \UnexpectedValueException(
+                            'Parent entry not defined for key "' . $parent . '"'
+                        );
+                    }
+
+                    if (!is_array($allInputDivisions[$parent])) {
+                        throw new \UnexpectedValueException(
+                            'Parent "' . $parent . '" is not an array for key "' . $key . '"'
+                        );
+                    }
+                }
+
+                if ($key !== $parent
+                    && isset($allInputDivisions[$parent]['sortIndex'])
+                    && isset($properties['sortIndex'])
+                    && ($allInputDivisions[$parent]['division'] !== $properties['division'])
+                ) {
+                    if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
+                        throw new \UnexpectedValueException(
+                            'sorting not ready for key "'
+                            . $key . '"'
+                        );
+                    }
                 }
 
                 $browserData = array_merge($browserData, $allInputDivisions[$parent]);
