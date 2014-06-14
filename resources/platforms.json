@@ -143,6 +143,20 @@
         "Platform_Version": "10.9"
       }
     },
+    "OSX_10_10_A": {
+      "match": "*Mac OS X 10_10*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
+    "OSX_10_10_B": {
+      "match": "*Mac OS X 10.10*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
     "MacPPC": {
       "match": "*PPC*",
       "inherits": "OSX",
@@ -1482,42 +1496,42 @@
       }
     },
     "Android_1_0": {
-      "match": "*Linux*Android 1.0*",
+      "match": "*Linux*Android?1.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.0"
       }
     },
     "Android_1_1": {
-      "match": "*Linux*Android 1.1*",
+      "match": "*Linux*Android?1.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.1"
       }
     },
     "Android_1_5": {
-      "match": "*Linux*Android 1.5*",
+      "match": "*Linux*Android?1.5*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.5"
       }
     },
     "Android_1_6": {
-      "match": "*Linux*Android 1.6*",
+      "match": "*Linux*Android?1.6*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.6"
       }
     },
     "Android_2_0": {
-      "match": "*Linux*Android 2.0*",
+      "match": "*Linux*Android?2.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.0"
       }
     },
     "Android_2_1": {
-      "match": "*Linux*Android 2.1*",
+      "match": "*Linux*Android?2.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.1"
@@ -1538,7 +1552,7 @@
       }
     },
     "Android_2_2": {
-      "match": "*Linux*Android 2.2*",
+      "match": "*Linux*Android?2.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.2"
@@ -1573,7 +1587,7 @@
       }
     },
     "Android_2_3": {
-      "match": "*Linux*Android 2.3*",
+      "match": "*Linux*Android?2.3*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.3"
@@ -1607,36 +1621,29 @@
         "Platform_Version": "2.3"
       }
     },
-    "Android_2_3_F": {
-      "match": "*Linux/* Android 2.3*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
     "Android_3_0": {
-      "match": "*Linux*Android 3.0*",
+      "match": "*Linux*Android?3.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.0"
       }
     },
     "Android_3_1": {
-      "match": "*Linux*Android 3.1*",
+      "match": "*Linux*Android?3.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.1"
       }
     },
     "Android_3_2": {
-      "match": "*Linux*Android 3.2*",
+      "match": "*Linux*Android?3.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.2"
       }
     },
     "Android_4_0": {
-      "match": "*Linux*Android 4.0*",
+      "match": "*Linux*Android?4.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.0"
@@ -1656,15 +1663,8 @@
         "Platform_Version": "4.0"
       }
     },
-    "Android_4_0_D": {
-      "match": "*Linux/* Android 4.0*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.0"
-      }
-    },
     "Android_4_1": {
-      "match": "*Linux*Android 4.1*",
+      "match": "*Linux*Android?4.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.1"
@@ -1685,13 +1685,6 @@
       }
     },
     "Android_4_1_D": {
-      "match": "*Linux/* Android 4.1*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.1"
-      }
-    },
-    "Android_4_1_E": {
       "match": "*Android 4.1*Linux*",
       "inherits": "Android",
       "properties": {
@@ -1699,7 +1692,7 @@
       }
     },
     "Android_4_2": {
-      "match": "*Linux*Android 4.2*",
+      "match": "*Linux*Android?4.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"
@@ -1719,15 +1712,8 @@
         "Platform_Version": "4.2"
       }
     },
-    "Android_4_2_D": {
-      "match": "*Linux/* Android 4.2*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.2"
-      }
-    },
     "Android_4_3": {
-      "match": "*Linux*Android 4.3*",
+      "match": "*Linux*Android?4.3*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.3"
@@ -1747,15 +1733,8 @@
         "Platform_Version": "4.3"
       }
     },
-    "Android_4_3_D": {
-      "match": "*Linux/* Android 4.3*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.3"
-      }
-    },
     "Android_4_4": {
-      "match": "*Linux*Android 4.4*",
+      "match": "*Linux*Android?4.4*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
@@ -1770,13 +1749,6 @@
     },
     "Android_4_4_C": {
       "match": "*; U; Adr 4.4*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
-    "Android_4_4_D": {
-      "match": "*Linux/* Android 4.4*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
