@@ -147,6 +147,12 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "* Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

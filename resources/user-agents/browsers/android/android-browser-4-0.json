@@ -267,19 +267,19 @@
         {
           "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "platforms": [
-            "Android_2_2_E", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari\/*",
           "platforms": [
-            "Android_2_2_E", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari\/*",
           "platforms": [
-            "Android_2_2_E", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -7499,7 +7499,7 @@
         {
           "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari\/* Android *",
           "platforms": [
-            "Android_2_2_E", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {

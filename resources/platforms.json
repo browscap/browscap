@@ -1579,13 +1579,6 @@
         "Platform_Version": "2.2"
       }
     },
-    "Android_2_2_E": {
-      "match": "*Linux/* Android 2.2*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
     "Android_2_3": {
       "match": "*Linux*Android?2.3*",
       "inherits": "Android",
