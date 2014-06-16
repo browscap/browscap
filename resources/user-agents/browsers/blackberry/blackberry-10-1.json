@@ -1,7 +1,7 @@
 {
   "division": "BlackBerry #MAJORVER#.#MINORVER#",
   "versions": ["10.1"],
-  "sortIndex": 2340,
+  "sortIndex": 2375,
   "userAgents": [
     {
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",

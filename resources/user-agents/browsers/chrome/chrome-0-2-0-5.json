@@ -7,7 +7,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "properties": {
-        "Parent": "Chrome Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
@@ -15,14 +15,19 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3"
+        "Win32": "true",
+        "CssVersion": "3",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {

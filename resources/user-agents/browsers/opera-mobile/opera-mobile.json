@@ -7,7 +7,7 @@
       "userAgent": "Opera Mobile",
       "engine": "Presto_2_2",
       "properties": {
-        "Parent": "Opera Mobile Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Opera Mobile",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
@@ -17,10 +17,10 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
         "CssVersion": "2",
-        "Device_Type": "Mobile Device"
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Device",
+        "JavaScript": "true"
       },
       "children": [
         {
