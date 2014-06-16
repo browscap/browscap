@@ -6,12 +6,20 @@
       "userAgent": "Motorola Internet Browser 2.2",
       "platform": "Maemo",
       "properties": {
-        "Parent": "Motorola Internet Browser",
+        "Parent": "DefaultProperties",
+        "Comment": "Motorola Internet Browser 2.2",
+        "Browser": "Motorola Internet Browser",
         "Version": "2.2",
         "MajorVer": "2",
         "MinorVer": "2",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "isMobileDevice": "true",
         "isTablet": "false",
+        "Device_Name": "Motorola",
+        "Device_Maker": "Motorola",
         "Device_Type": "Mobile Phone"
       },
       "children": [
