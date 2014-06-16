@@ -17,10 +17,10 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "CssVersion": "2",
+        "JavaScript": "true",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "JavaScript": "true"
+        "CssVersion": "2",
+        "Device_Type": "Mobile Device"
       },
       "children": [
         {
