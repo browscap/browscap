@@ -1,0 +1,30 @@
+{
+  "division": "CareerBot",
+  "sortIndex": 601,
+  "userAgents": [
+    {
+      "userAgent": "CareerBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CareerBot",
+        "Browser": "CareerBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser_Maker": "www.career-x.de"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; CareerBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; CareerBot\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

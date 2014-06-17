@@ -31,7 +31,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "ChromeOS",
+            "ChromeOS", "MeeGo",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",

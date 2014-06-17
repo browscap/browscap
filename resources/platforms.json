@@ -474,49 +474,49 @@
       "inherits": "iOS_A"
     },
     "iOS_E_4_3": {
-      "match": "*iPhone OS 4.3*",
+      "match": "*iPhone OS 4?3*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.3"
       }
     },
     "iOS_E_5_0": {
-      "match": "*iPhone OS 5.0*",
+      "match": "*iPhone OS 5?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
       }
     },
     "iOS_E_5_1": {
-      "match": "*iPhone OS 5.1*",
+      "match": "*iPhone OS 5?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.1"
       }
     },
     "iOS_E_6_0": {
-      "match": "*iPhone OS 6.0*",
+      "match": "*iPhone OS 6?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.0"
       }
     },
     "iOS_E_6_1": {
-      "match": "*iPhone OS 6.1*",
+      "match": "*iPhone OS 6?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.1"
       }
     },
     "iOS_E_7_0": {
-      "match": "*iPhone OS 7.0*",
+      "match": "*iPhone OS 7?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
       }
     },
     "iOS_E_7_1": {
-      "match": "*iPhone OS 7.1*",
+      "match": "*iPhone OS 7?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.1"
@@ -739,7 +739,7 @@
       "inherits": "Windows"
     },
     "Win32_B": {
-      "match": "*Windows; Windows; U*",
+      "match": "*Windows; U*",
       "inherits": "Windows"
     },
     "Win95": {

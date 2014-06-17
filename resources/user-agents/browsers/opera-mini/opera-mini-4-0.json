@@ -39,6 +39,12 @@
           ]
         },
         {
+          "match": "Opera\/*(VRE*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Android"

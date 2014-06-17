@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/14.0 (#PLATFORM#; Microsoft Office Outlook 14.*)",
+          "match": "Microsoft Office\/14.0 (#PLATFORM#)",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "WinXPb_x64", "Vista_32", "Vista_64", "Vista_x64", "Win7_32", "Win7_64", "Win7_x64"
           ]

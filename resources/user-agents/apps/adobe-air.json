@@ -1,6 +1,6 @@
 {
   "division": "Adobe AIR #MAJORVER#.#MINORVER#",
-  "versions": ["2.7", "3.8"],
+  "versions": ["2.7", "3.8", "4.0"],
   "sortIndex": 2060,
   "userAgents": [
     {
@@ -36,11 +36,6 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
-          },
           "platforms": [
             "Linux_32", "Win32_B"
           ]
