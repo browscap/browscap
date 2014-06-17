@@ -35,8 +35,8 @@
           "match": "Instagram #MAJORVER#.#MINORVER#* (#PLATFORM#) AppleWebKit\/*",
           "platforms": [
             "iOS_A",
-            "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
-            "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1"
+            "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
           ]
         }
       ]
