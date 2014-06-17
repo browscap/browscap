@@ -60,7 +60,7 @@ return [
     'issue-96-CC' => [
         'Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;en)/400x240 Samsung SCH-U820',
         [
-            'Browser' => 'Polaris Samsung',
+            'Browser' => 'Polaris',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
