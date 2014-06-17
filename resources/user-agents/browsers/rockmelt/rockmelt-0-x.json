@@ -1,7 +1,7 @@
 {
   "division": "RockMelt #MAJORVER#.#MINORVER#",
   "versions": ["0.9", "0.10", "0.11", "0.12", "0.13", "0.14", "0.15", "0.16", "0.17"],
-  "sortIndex": 10020,
+  "sortIndex": 1470,
   "userAgents": [
     {
       "userAgent": "RockMelt #MAJORVER#.#MINORVER#",

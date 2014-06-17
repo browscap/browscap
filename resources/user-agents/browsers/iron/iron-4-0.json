@@ -7,7 +7,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Iron Generic",
+        "Comment": "Iron 4.0",
         "Browser": "Iron",
         "Browser_Type": "Browser",
         "Browser_Maker": "SRWare",
