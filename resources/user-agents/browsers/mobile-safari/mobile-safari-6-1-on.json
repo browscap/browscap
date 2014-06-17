@@ -1,6 +1,6 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["6.1", "7.0", "7.1"],
+  "versions": ["6.1", "7.0", "7.1", "8.0"],
   "sortIndex": 1945,
   "lite": true,
   "userAgents": [
