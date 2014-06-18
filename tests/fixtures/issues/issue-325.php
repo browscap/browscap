@@ -44,7 +44,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => true,
-            'isTablet' => true,
+            'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'iPhone',
             'Device_Maker' => 'Apple Inc',
