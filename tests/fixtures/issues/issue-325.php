@@ -74,7 +74,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'Linix Desktop',
+            'Device_Name' => 'Linux Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
