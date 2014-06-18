@@ -1,0 +1,22 @@
+{
+  "division": "Google Structured-Data TestingTool",
+  "sortIndex": 1075,
+  "userAgents": [
+    {
+      "userAgent": "Google Structured-Data TestingTool",
+      "properties": {
+        "Parent": "Google",
+        "Comment": "Google Structured-Data TestingTool",
+        "Browser": "Google Structured-Data TestingTool"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)",
+          "platforms": [
+            "Linux", "Linux_32", "Linux_64"
+          ]
+        }
+      ]
+    }
+  ]
+}

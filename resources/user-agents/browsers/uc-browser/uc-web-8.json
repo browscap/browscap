@@ -59,7 +59,7 @@
           "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
             "WinPhone7_B", "WinPhone8_B",
             "SymbianOS_B"
           ]
@@ -117,6 +117,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",

@@ -59,7 +59,7 @@
           "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
             "WinPhone7_B", "WinPhone8_B",
             "SymbianOS_B"
           ]
@@ -85,6 +85,7 @@
         },
         {
           "match": "Mozilla\/*(iPad; #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
           "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
@@ -95,7 +96,25 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C_7_0"
+            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "Macintosh",
+            "isMobileDevice": "false",
+            "isTablet": "false",
+            "Device_Name": "Macintosh",
+            "Device_Brand_Name": "Apple",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B"
           ]
         }
       ]

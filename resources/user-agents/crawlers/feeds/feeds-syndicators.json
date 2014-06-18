@@ -379,7 +379,7 @@
             "Browser_Maker": "Che-Bin Liu"
           },
           "platforms": [
-            "iOS_E_7_1"
+            "iOS_E_7_1", "iOS_E_8_0"
           ]
         },
         {
@@ -396,7 +396,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_E_7_1"
+            "iOS_E_7_1", "iOS_E_8_0"
           ]
         },
         {
@@ -409,7 +409,7 @@
             "MinorVer": "4"
           },
           "platforms": [
-            "iOS_E_7_1"
+            "iOS_E_7_1", "iOS_E_8_0"
           ]
         },
         {
@@ -429,7 +429,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_E_7_1"
+            "iOS_E_7_1", "iOS_E_8_0"
           ]
         },
         {
