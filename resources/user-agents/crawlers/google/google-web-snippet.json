@@ -1,0 +1,28 @@
+{
+  "division": "Google Web Snippet",
+  "sortIndex": 1073,
+  "userAgents": [
+    {
+      "userAgent": "Google Web Snippet",
+      "properties": {
+        "Parent": "Google",
+        "Comment": "Google Web Snippet",
+        "Browser": "Google Web Snippet"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Google (+https:\/\/developers.google.com\/+\/web\/snippet\/)*",
+          "platforms": [
+            "ChromeOS",
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "Linux", "Linux_32", "Linux_64", "NT4", "Win2000",
+            "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",
+            "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}
