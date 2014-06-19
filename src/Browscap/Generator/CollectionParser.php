@@ -809,6 +809,7 @@ class CollectionParser
                     'FonePad', // Tablet sized device with the capability to make phone calls
                     'Desktop',
                     'Ebook Reader',
+                    'Car Entertainment System',
                     'unknown',
                 );
                 break;
