@@ -1,0 +1,47 @@
+{
+  "division": "Qt Car Browser",
+  "sortIndex": 1173,
+  "userAgents": [
+    {
+      "userAgent": "Qt Car Browser",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Model S Browser",
+        "Browser": "Model S Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Tesla Motors",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Name": "Model S",
+        "Device_Maker": "Tesla Motors",
+        "Device_Type": "Car Entertainment System",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (X11; Linux) AppleWebKit\/* (KHTML, like Gecko) QtCarBrowser Safari\/*",
+          "properties": {
+            "Device_Name": "Model S",
+            "Device_Maker": "Tesla Motors",
+            "Device_Type": "Car Entertainment System",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "false",
+            "isTablet": "false",
+            "Device_Code_Name": "Model S",
+            "Device_Brand_Name": "Tesla"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
