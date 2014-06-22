@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple AppStore App #MAJORVER#.#MINORVER#",
