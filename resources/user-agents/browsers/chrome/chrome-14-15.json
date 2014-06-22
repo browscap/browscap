@@ -143,6 +143,7 @@
             "Device_Name": "iPad",
             "Device_Maker": "Apple Inc",
             "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple",
             "isMobileDevice": "true",
             "isTablet": "true"
           },

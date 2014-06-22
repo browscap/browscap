@@ -7,7 +7,7 @@ return [
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Facebook',
             'Version' => '10.0',
             'MajorVer' => '10',
             'MinorVer' => '0',
