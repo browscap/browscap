@@ -182,7 +182,7 @@
       }
     },
     "iOS": {
-      "match": "*iPhone OS * like Mac OS X*",
+      "match": "*CPU iPhone OS * like Mac OS X*",
       "properties": {
         "Platform": "iOS",
         "Platform_Maker": "Apple Inc",
@@ -202,109 +202,109 @@
       }
     },
     "iOS_A": {
-      "match": "*iPhone OS *",
+      "match": "*CPU iPhone OS * like Mac OS X*",
       "inherits": "iOS"
     },
     "iOS_A_2_0": {
-      "match": "*iPhone OS 2_*",
+      "match": "*CPU iPhone OS 2_* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "2.0"
       }
     },
     "iOS_A_3_0": {
-      "match": "*iPhone OS 3_0*",
+      "match": "*CPU iPhone OS 3_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "3.0"
       }
     },
     "iOS_A_3_1": {
-      "match": "*iPhone OS 3_1*",
+      "match": "*CPU iPhone OS 3_1* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "3.1"
       }
     },
     "iOS_A_3_2": {
-      "match": "*iPhone OS 3_2*",
+      "match": "*CPU iPhone OS 3_2* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "3.2"
       }
     },
     "iOS_A_4_0": {
-      "match": "*iPhone OS 4_0*",
+      "match": "*CPU iPhone OS 4_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.0"
       }
     },
     "iOS_A_4_1": {
-      "match": "*iPhone OS 4_1*",
+      "match": "*CPU iPhone OS 4_1* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.1"
       }
     },
     "iOS_A_4_2": {
-      "match": "*iPhone OS 4_2*",
+      "match": "*CPU iPhone OS 4_2* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.2"
       }
     },
     "iOS_A_4_3": {
-      "match": "*iPhone OS 4_3*",
+      "match": "*CPU iPhone OS 4_3* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.3"
       }
     },
     "iOS_A_5_0": {
-      "match": "*iPhone OS 5_0*",
+      "match": "*CPU iPhone OS 5_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
       }
     },
     "iOS_A_5_1": {
-      "match": "*iPhone OS 5_1*",
+      "match": "*CPU iPhone OS 5_1* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.1"
       }
     },
     "iOS_A_6_0": {
-      "match": "*iPhone OS 6_0*",
+      "match": "*CPU iPhone OS 6_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.0"
       }
     },
     "iOS_A_6_1": {
-      "match": "*iPhone OS 6_1*",
+      "match": "*CPU iPhone OS 6_1* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.1"
       }
     },
     "iOS_A_7_0": {
-      "match": "*iPhone OS 7_0*",
+      "match": "*CPU iPhone OS 7_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
       }
     },
     "iOS_A_7_1": {
-      "match": "*iPhone OS 7_1*",
+      "match": "*CPU iPhone OS 7_1* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.1"
       }
     },
     "iOS_A_8_0": {
-      "match": "*iPhone OS 8_0*",
+      "match": "*CPU iPhone OS 8_0* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
@@ -312,11 +312,11 @@
     },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_C": {
       "match": "*CPU*OS*like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_C_2_0": {
       "match": "*CPU OS 2_0* like Mac OS X*",
@@ -439,7 +439,7 @@
     },
     "iOS_D": {
       "match": "*iOS; U; iPh OS*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_D_5_0": {
       "match": "*iOS; U; iPh OS 5_0*",
@@ -492,7 +492,7 @@
     },
     "iOS_E": {
       "match": "*iPhone OS*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_E_4_3": {
       "match": "*iPhone OS 4.3*",
@@ -552,11 +552,11 @@
     },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_G": {
       "match": "IUC(U;iOS*)*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_G_4_3": {
       "match": "IUC(U;iOS 4.3*)*",
@@ -567,13 +567,66 @@
     },
     "iOS_H": {
       "match": "iPhone_OS/*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_H_5_0": {
       "match": "iPhone_OS/5.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
+      }
+    },
+    "iOS_I": {
+      "match": "*; iPhone OS *",
+      "inherits": "iOS"
+    },
+    "iOS_I_5_0": {
+      "match": "*; iPhone OS 5?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "iOS_I_5_1": {
+      "match": "*; iPhone OS 5?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "iOS_I_6_0": {
+      "match": "*; iPhone OS 6?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "iOS_I_6_1": {
+      "match": "*; iPhone OS 6?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "iOS_I_7_0": {
+      "match": "*; iPhone OS 7?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "iOS_I_7_1": {
+      "match": "*; iPhone OS 7?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "iOS_I_8_0": {
+      "match": "*; iPhone OS 8?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
       }
     },
     "CentOS": {
