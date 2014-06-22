@@ -273,6 +273,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (webOS\/2.2*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/3.*",
+          "properties": {
+            "Device_Code_Name": "Pre",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Pre"
+          },
+          "platforms": [
+            "webOS_22"
+          ]
+        },
+        {
           "match": "Palm Pre(Mozilla\/5.0 (webOS\/1.4.?; U*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*)",
           "properties": {
             "Device_Code_Name": "Pre",

@@ -2279,6 +2279,13 @@
         "Platform_Version": "2.1"
       }
     },
+    "webOS_22": {
+      "match": "*webOS/2.2*",
+      "inherits": "webOS",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
     "webOS_B": {
       "match": "*hpwOS/*",
       "inherits": "webOS"

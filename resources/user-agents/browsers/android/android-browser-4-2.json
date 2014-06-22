@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "A27",
             "Device_Code_Name": "A27",
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "A35",
             "Device_Code_Name": "A35",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "B51+",
             "Device_Maker": "sprd",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "A40",
             "Device_Code_Name": "A40",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "OT-4030D",
             "Device_Code_Name": "OT-4030D",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -126,7 +126,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "D805",
             "Device_Maker": "LG",
@@ -140,7 +140,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "One X",
             "Device_Maker": "HTC",
@@ -152,7 +152,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -161,7 +161,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "INM8002KP",
             "Device_Type": "Mobile Phone",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -191,7 +191,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -200,7 +200,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "B51+",
             "Device_Maker": "sprd",
@@ -214,7 +214,7 @@
           ]
         },
         {
-          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "G9",
             "Device_Code_Name": "G9",
