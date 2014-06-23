@@ -1,0 +1,65 @@
+{
+  "division": "Apple AppStore App #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 2061,
+  "userAgents": [
+    {
+      "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple AppStore App #MAJORVER#.#MINORVER#",
+        "Browser": "Apple AppStore App",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "iOS_J", "iOS_J_7_0", "iOS_J_7_1", "iOS_J_8_0"
+          ]
+        },
+        {
+          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_J", "iOS_J_7_0", "iOS_J_7_1", "iOS_J_8_0"
+          ]
+        }
+      ]
+    }
+  ]
+}
