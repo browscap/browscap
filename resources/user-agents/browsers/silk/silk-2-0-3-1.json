@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire 7",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 7",
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 7",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
