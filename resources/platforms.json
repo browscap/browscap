@@ -629,6 +629,31 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_J": {
+      "match": "* iOS/*",
+      "inherits": "iOS_A"
+    },
+    "iOS_J_7_0": {
+      "match": "* iOS/7.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "iOS_J_7_1": {
+      "match": "* iOS/7.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "iOS_J_8_0": {
+      "match": "* iOS/8.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {
