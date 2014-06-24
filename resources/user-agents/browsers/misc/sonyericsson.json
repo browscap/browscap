@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Browser": "SonyEricsson",
         "Browser_Type": "Browser",
+        "Browser_Maker": "SonyEricsson",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
