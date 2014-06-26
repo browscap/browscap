@@ -37,8 +37,7 @@
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "MacPPC_2",
-            "SunOS",
-            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -49,8 +48,7 @@
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "MacPPC_2",
-            "SunOS",
-            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -61,8 +59,7 @@
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "MacPPC_2",
-            "SunOS",
-            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -73,8 +70,7 @@
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "MacPPC_2",
-            "SunOS",
-            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         }
