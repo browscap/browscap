@@ -1,7 +1,7 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
   "versions": [15, 16, 17, 18, 19, 20, 21, 22],
-  "sortIndex": 2864,
+  "sortIndex": 2865,
   "lite": true,
   "userAgents": [
     {
