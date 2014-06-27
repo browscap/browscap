@@ -166,9 +166,7 @@
             "Device_Name": "FP1",
             "Device_Code_Name": "FP1",
             "Device_Brand_Name": "Fairphone",
-            "Device_Maker": "Fairphone",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Fairphone"
           },
           "platforms": [
             "Android_4_2"
