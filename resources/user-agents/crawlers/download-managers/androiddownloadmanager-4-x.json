@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
-      "platform": "Android_4_1",
+      "platform": "Android_Dynamic",
       "properties": {
         "Parent": "Download Managers",
         "Browser": "Android Download Manager",

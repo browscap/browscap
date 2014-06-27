@@ -288,7 +288,10 @@
         {
           "match": "Screaming Frog SEO Spider\/2,22",
           "properties": {
-            "Browser": "Screaming Frog SEO Spider"
+            "Browser": "Screaming Frog SEO Spider",
+            "Version": "2.22",
+            "MajorVer": "2",
+            "MinorVer": "22"
           }
         }
       ]

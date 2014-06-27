@@ -8,7 +8,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Anonymizied",
         "Browser": "Anonymizied",
-        "Browser_Type": "Bot/Crawler"
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
       },
       "children": [
         {

@@ -1816,6 +1816,13 @@
         "isTablet": "true"
       }
     },
+    "Android_Dynamic": {
+      "match": "*Linux*Android?#MAJORVER#.#MINORVER#*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
     "HPUX": {
       "match": "*HP-UX*",
       "properties": {
