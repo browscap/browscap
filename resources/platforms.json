@@ -312,11 +312,11 @@
     },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_C": {
       "match": "*CPU*OS*like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_C_2_0": {
       "match": "*CPU OS 2_0* like Mac OS X*",
@@ -439,7 +439,7 @@
     },
     "iOS_D": {
       "match": "*iOS; U; iPh OS*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_D_5_0": {
       "match": "*iOS; U; iPh OS 5_0*",
@@ -492,7 +492,7 @@
     },
     "iOS_E": {
       "match": "*iPhone OS*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_E_4_3": {
       "match": "*iPhone OS 4?3*",
@@ -552,11 +552,11 @@
     },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_G": {
       "match": "IUC(U;iOS*)*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_G_4_3": {
       "match": "IUC(U;iOS 4.3*)*",
@@ -567,13 +567,66 @@
     },
     "iOS_H": {
       "match": "iPhone_OS/*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_H_5_0": {
       "match": "iPhone_OS/5.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
+      }
+    },
+    "iOS_I": {
+      "match": "*; iPhone OS *",
+      "inherits": "iOS"
+    },
+    "iOS_I_5_0": {
+      "match": "*; iPhone OS 5?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "iOS_I_5_1": {
+      "match": "*; iPhone OS 5?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "iOS_I_6_0": {
+      "match": "*; iPhone OS 6?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "iOS_I_6_1": {
+      "match": "*; iPhone OS 6?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "iOS_I_7_0": {
+      "match": "*; iPhone OS 7?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "iOS_I_7_1": {
+      "match": "*; iPhone OS 7?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "iOS_I_8_0": {
+      "match": "*; iPhone OS 8?0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
       }
     },
     "iOS_J": {
