@@ -834,7 +834,7 @@ return [
             'Device_Maker' => 'Various',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'unknown',
+            'Device_Code_Name' => 'general Mobile Device',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
