@@ -1,6 +1,6 @@
 <?php
 
-namespace Browscap\Generator;
+namespace Browscap\Data;
 
 use Psr\Log\LoggerInterface;
 
@@ -60,7 +60,7 @@ class DataCollection
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -74,7 +74,7 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
@@ -93,7 +93,7 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addEnginesFile($src)
@@ -112,7 +112,7 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      * @throws \Exception if the file does not exist or has invalid JSON
      */
     public function addSourceFile($src)

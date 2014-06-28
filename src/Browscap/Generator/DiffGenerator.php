@@ -2,7 +2,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Helper\CollectionParser;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
@@ -11,7 +10,7 @@ use ZipArchive;
  *
  * @package Browscap\Generator
  */
-class BuildGenerator
+class DiffGenerator
 {
     /**@+
      * @var string
@@ -49,7 +48,7 @@ class BuildGenerator
     private $collectionCreator = null;
 
     /**
-     * @var \Browscap\Helper\CollectionParser
+     * @var \Browscap\Generator\CollectionParser
      */
     private $collectionParser = null;
 
@@ -122,70 +121,81 @@ class BuildGenerator
             ->setResourceFolder($this->resourceFolder)
             ->setCollectionCreator($this->collectionCreator)
             ->setCollectionParser($this->collectionParser)
+            ->createCollection()
+            ->parseCollection()
         ;
 
-        $fullAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_asp_browscap.ini');
-        $fullAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $fullAspWriter->addFilter(new \Browscap\Filter\FullFilter());
 
-        $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
-        $fullPhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $fullPhpWriter->addFilter(new \Browscap\Filter\FullFilter());
+        $iniGenerator = new BrowscapIniGenerator();
+        $this->generatorHelper->setGenerator($iniGenerator);
 
-        $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
-        $stdAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $stdAspWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        $formats = [
+            [
+                'file' => 'full_asp_browscap.ini',
+                'info' => 'ASP/FULL',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'full_php_browscap.ini',
+                'info' => 'PHP/FULL',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_FULL
+            ],
+            [
+                'file' => 'browscap.ini',
+                'info' => 'ASP',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'php_browscap.ini',
+                'info' => 'PHP',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_DEFAULT
+            ],
+            [
+                'file' => 'lite_asp_browscap.ini',
+                'info' => 'ASP/LITE',
+                'format' => self::OUTPUT_FORMAT_ASP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+            [
+                'file' => 'lite_php_browscap.ini',
+                'info' => 'PHP/LITE',
+                'format' => self::OUTPUT_FORMAT_PHP,
+                'type' => self::OUTPUT_TYPE_LITE
+            ],
+        ];
 
-        $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
-        $stdPhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $stdPhpWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        foreach ($formats as $format) {
+            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
 
-        $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
-        $liteAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $liteAspWriter->addFilter(new \Browscap\Filter\LiteFilter());
-
-        $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
-        $litePhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $litePhpWriter->addFilter(new \Browscap\Filter\LiteFilter());
-
-        $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
-        $csvWriter->addFormatter(new \Browscap\Formatter\CsvFormatter());
-        $csvWriter->addFilter(new \Browscap\Filter\StandartFilter());
-
-        $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
-        $xmlWriter->addFormatter(new \Browscap\Formatter\XmlFormatter());
-        $xmlWriter->addFilter(new \Browscap\Filter\StandartFilter());
-
-        $writers = array(
-            $fullAspWriter,
-            $fullPhpWriter,
-            $stdAspWriter,
-            $stdPhpWriter,
-            $liteAspWriter,
-            $litePhpWriter,
-            $csvWriter,
-            $xmlWriter,
-        );
-
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer
-                ->renderHeader()
-                ->renderVersion()
-            ;
+            file_put_contents(
+                $this->buildFolder . '/' . $format['file'],
+                $this->generatorHelper->create($format['format'], $format['type'])
+            );
         }
 
-        $collection = $this->generatorHelper->createCollection();
+        unset($iniGenerator);
 
-        foreach ($collection->getDivisions() as $division) {
-            foreach ($writers as $writer) {
-                /** @var \Browscap\Writer\WriterInterface $writer */
-                $writer
-                    ->renderDivisionHeader($division)
-                    ->renderDivisionBody($division)
-                ;
-            }
-        }
+        $this->logger->info('Generating browscap.xml [XML]');
+
+        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
+        $this->generatorHelper->setGenerator($xmlGenerator);
+        $this->generatorHelper->create();
+
+        unset($xmlGenerator);
+
+        $this->logger->info('Generating browscap.csv [CSV]');
+
+        $csvGenerator = new BrowscapCsvGenerator();
+        $this->generatorHelper->setGenerator($csvGenerator);
+        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
+
+        unset($csvGenerator);
+
+        $this->logger->info('Generating browscap.zip [ZIP]');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);

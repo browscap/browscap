@@ -3,7 +3,7 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;

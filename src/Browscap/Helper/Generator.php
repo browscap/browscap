@@ -4,7 +4,8 @@ namespace Browscap\Helper;
 
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
-use Browscap\Generator\DataCollection;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -153,27 +154,30 @@ class Generator
      * creates the required data collection
      *
      * @throws \LogicException
-     * @return \Browscap\Helper\Generator
+     * @return \Browscap\Data\DataCollection
      */
     public function createCollection()
     {
-        $this->getLogger()->debug('create a data collection');
         if (null === $this->collectionCreator) {
             throw new \LogicException(
-                'An instance of \\Browscap\\Helper\\CollectionCreator is required for this function. '
+                'An instance of \Browscap\Helper\CollectionCreator is required for this function. '
                 . 'Please set it with setCollectionCreator'
             );
         }
 
-        $this->collection = new DataCollection($this->getVersion());
+        $this->getLogger()->info('started creating a data collection');
+
+        $collection = new DataCollection($this->getVersion());
 
         $this->collectionCreator
             ->setLogger($this->logger)
-            ->setDataCollection($this->collection)
+            ->setDataCollection($collection)
             ->createDataCollection($this->getResourceFolder())
         ;
 
-        return $this;
+        $this->getLogger()->info('finished creating a data collection');
+
+        return $collection;
     }
 
     /**
@@ -191,12 +195,16 @@ class Generator
             );
         }
 
-        $this->getLogger()->debug('parse a data collection into an array');
-        $this->collectionParser
+        $this->getLogger()->info('start parsing a data collection into an array');
+
+        $this
+            ->collectionParser
             ->setLogger($this->logger)
             ->setDataCollection($this->collection)
         ;
         $this->collectionData = $this->collectionParser->parse();
+
+        $this->getLogger()->info('finished parsing a data collection into an array');
 
         return $this;
     }
@@ -221,6 +229,8 @@ class Generator
             );
         }
 
+        $this->getLogger()->info('started creating output files');
+
         $comments = array(
             'Provided courtesy of http://browscap.org/',
             'Created on ' . $this->collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
@@ -243,6 +253,10 @@ class Generator
             )
         ;
 
-        return $this->generator->generate($format, $type);
+        $output = $this->generator->generate($format, $type);
+
+        $this->getLogger()->info('finished creating output files');
+
+        return output;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Browscap\Generator;
+namespace Browscap\Helper;
 
 use Psr\Log\LoggerInterface;
 
