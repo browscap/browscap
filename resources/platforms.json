@@ -544,7 +544,7 @@
       }
     },
     "iOS_E_8_0": {
-      "match": "*iPhone OS 8.0*",
+      "match": "*iPhone OS 8?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
