@@ -206,6 +206,9 @@
           "platforms": [
             "Android_4_0_B"
           ]
+        },
+        {
+          "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         }
       ]
     }

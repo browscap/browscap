@@ -1,6 +1,6 @@
 {
   "division": "Instagram App #MAJORVER#.#MINORVER#",
-  "versions": ["3.4", "5.0"],
+  "versions": ["3.4", "4.1", "4.2", "5.0", "6.0"],
   "sortIndex": 1990,
   "lite": true,
   "userAgents": [
@@ -12,6 +12,7 @@
         "Comment": "Instagram App #MAJORVER#.#MINORVER#",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -36,7 +37,42 @@
           "platforms": [
             "iOS_A",
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0",
+            "iOS_I",
+            "iOS_I_5_0", "iOS_I_5_1", "iOS_I_6_0", "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
+          ]
+        },
+        {
+          "match": "Instagram #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#) AppleWebKit\/*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_I",
+            "iOS_I_5_0", "iOS_I_5_1", "iOS_I_6_0", "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
+          ]
+        },
+        {
+          "match": "Instagram #MAJORVER#.#MINORVER#* (iPad#PLATFORM#) AppleWebKit\/*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_I",
+            "iOS_I_5_0", "iOS_I_5_1", "iOS_I_6_0", "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
           ]
         }
       ]

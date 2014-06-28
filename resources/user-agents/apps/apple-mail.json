@@ -1,21 +1,17 @@
 {
-  "division": "Airmail #MAJORVER#.#MINORVER#",
-  "versions": [1],
-  "sortIndex": 1660,
+  "division": "Mail",
+  "sortIndex": 730,
   "userAgents": [
     {
-      "userAgent": "Airmail #MAJORVER#.#MINORVER#",
-      "platform": "OSX",
+      "userAgent": "Mail",
+      "platform": "Darwin",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Airmail #MAJORVER#.#MINORVER#",
-        "Browser": "Airmail",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Browser_Maker": "Bloop S.R.L.",
+        "Comment": "Mail",
+        "Browser": "Mail",
         "Browser_Type": "Email Client",
+        "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -32,8 +28,8 @@
         "ActiveXControls": "false",
         "isMobileDevice": "false",
         "isTablet": "false",
-        "isSyndicationReader": "false",
         "Crawler": "false",
+        "isSyndicationReader": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
@@ -42,9 +38,17 @@
       },
       "children": [
         {
-          "match": "Airmail #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "match": "Mail\/* CFNetwork\/* #PLATFORM#",
           "platforms": [
-            "OSX", "OSX_10_8_B"
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "platforms": [
+            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
           ]
         }
       ]

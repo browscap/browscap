@@ -2161,6 +2161,9 @@
         },
         {
           "match": "utstargz1s\/1.0 UP.Browser\/6.2*"
+        },
+        {
+          "match": "SAMSUNG* Openwave\/6.2* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UNTRUSTED\/1.0"
         }
       ]
     }

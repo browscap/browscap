@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE *.0; #PLATFORM#; *Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/4.0 (*MSIE *.0; #PLATFORM#; *Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "platforms": [
             "WinXPa_32", "WinXPa_64", "WinXPb_32", "WinXPb_64", "Vista_32",

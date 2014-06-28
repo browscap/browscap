@@ -1,6 +1,6 @@
 {
   "division": "Konqueror #MAJORVER#.#MINORVER#",
-  "versions": ["4.5", "4.6", "4.7", "4.8", "4.9", "4.10", "4.11"],
+  "versions": ["4.5", "4.6", "4.7", "4.8", "4.9", "4.10", "4.11", "4.12", "4.13"],
   "sortIndex": 2492,
   "lite": true,
   "userAgents": [

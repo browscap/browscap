@@ -34,6 +34,12 @@
           ]
         },
         {
+          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
             "Device_Name": "Blackberry",
