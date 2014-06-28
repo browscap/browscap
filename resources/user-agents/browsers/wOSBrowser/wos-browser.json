@@ -51,6 +51,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/* Safari\/* Pre/3.*",
           "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0",
             "Device_Code_Name": "Pre",
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
