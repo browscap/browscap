@@ -49,6 +49,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/* Safari\/* Pre/3.*",
+          "properties": {
+            "Device_Code_Name": "Pre",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Pre"
+          },
+          "platforms": [
+            "webOS_22"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#) AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/1.*",
           "properties": {
             "Device_Name": "Pre",
