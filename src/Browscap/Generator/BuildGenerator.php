@@ -125,60 +125,83 @@ class BuildGenerator
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
+        $this->getLogger()->info('started creating a data collection');
+
+        $collection = new DataCollection($version);
+
+        $this->collectionCreator
+            ->setLogger($this->getLogger())
+            ->setDataCollection($collection)
+            ->createDataCollection($this->getResourceFolder())
+        ;
+
+        $this->getLogger()->info('finished creating a data collection');
+
+        $this->getLogger()->info('started initialisation of writers');
+
+        $aspFormatter = new \Browscap\Formatter\AspFormatter();
+        $phpFormatter = new \Browscap\Formatter\PhpFormatter();
+        $csvFormatter = new \Browscap\Formatter\CsvFormatter();
+        $xmlFormatter = new \Browscap\Formatter\XmlFormatter();
+
+        $fullFilter = new \Browscap\Filter\FullFilter();
+        $stdFilter  = new \Browscap\Filter\StandartFilter();
+        $liteFilter = new \Browscap\Filter\LiteFilter();
+
         $fullAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_asp_browscap.ini');
         $fullAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\AspFormatter())
-            ->addFilter(new \Browscap\Filter\FullFilter())
+            ->addFormatter($aspFormatter)
+            ->addFilter($fullFilter)
         ;
 
         $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
         $fullPhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
-            ->addFilter(new \Browscap\Filter\FullFilter())
+            ->addFormatter($phpFormatter)
+            ->addFilter($fullFilter)
         ;
 
         $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
         $stdAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\AspFormatter())
-            ->addFilter(new \Browscap\Filter\StandartFilter())
+            ->addFormatter($aspFormatter)
+            ->addFilter($stdFilter)
         ;
 
         $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
         $stdPhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
-            ->addFilter(new \Browscap\Filter\StandartFilter())
+            ->addFormatter($phpFormatter)
+            ->addFilter($stdFilter)
         ;
 
         $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
         $liteAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\AspFormatter())
-            ->addFilter(new \Browscap\Filter\LiteFilter())
+            ->addFormatter($aspFormatter)
+            ->addFilter($liteFilter)
         ;
 
         $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
         $litePhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
-            ->addFilter(new \Browscap\Filter\LiteFilter())
+            ->addFormatter($phpFormatter)
+            ->addFilter($liteFilter)
         ;
 
         $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
         $csvWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\CsvFormatter())
-            ->addFilter(new \Browscap\Filter\StandartFilter())
+            ->addFormatter($csvFormatter)
+            ->addFilter($stdFilter)
         ;
 
         $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
         $xmlWriter
             ->setLogger($this->getLogger())
-            ->addFormatter(new \Browscap\Formatter\XmlFormatter())
-            ->addFilter(new \Browscap\Filter\StandartFilter())
+            ->addFormatter($xmlFormatter)
+            ->addFilter($stdFilter)
         ;
 
         $writers = array(
@@ -192,6 +215,10 @@ class BuildGenerator
             $xmlWriter,
         );
 
+        $this->getLogger()->info('finished initialisation of writers');
+
+        $this->getLogger()->info('started output of header and version');
+
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
             $writer
@@ -200,17 +227,9 @@ class BuildGenerator
             ;
         }
 
-        $this->getLogger()->info('started creating a data collection');
+        $this->getLogger()->info('finished output of header and version');
 
-        $collection = new DataCollection($version);
-
-        $this->collectionCreator
-            ->setLogger($this->getLogger())
-            ->setDataCollection($collection)
-            ->createDataCollection($this->getResourceFolder())
-        ;
-
-        $this->getLogger()->info('finished creating a data collection');
+        $this->getLogger()->info('started output of divisions');
 
         foreach ($collection->getDivisions() as $division) {
             foreach ($writers as $writer) {
@@ -222,10 +241,18 @@ class BuildGenerator
             }
         }
 
+        $this->getLogger()->info('finished output of divisions');
+
+        $this->getLogger()->info('started closing writers');
+
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
             unset($writer);
         }
+
+        $this->getLogger()->info('finished closing writers');
+
+        $this->getLogger()->info('started creating the zip archive');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
@@ -240,5 +267,7 @@ class BuildGenerator
         $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
 
         $zip->close();
+
+        $this->getLogger()->info('finished creating the zip archive');
     }
 }

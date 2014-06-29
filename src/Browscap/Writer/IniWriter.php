@@ -31,6 +31,16 @@ class IniWriter implements WriterInterface
 
     public function __destruct()
     {
+        $this->close();
+    }
+
+    /**
+     * closes the Writer and the written File
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function close()
+    {
         fclose($this->file);
     }
 

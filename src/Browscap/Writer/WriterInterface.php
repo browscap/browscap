@@ -16,7 +16,12 @@ interface WriterInterface
      */
     public function __construct($file);
 
-    public function __destruct();
+    /**
+     * closes the Writer and the written File
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function close();
 
     /**
      * @param \Psr\Log\LoggerInterface $logger
