@@ -126,36 +126,60 @@ class BuildGenerator
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
         $fullAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_asp_browscap.ini');
-        $fullAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $fullAspWriter->addFilter(new \Browscap\Filter\FullFilter());
+        $fullAspWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\AspFormatter())
+            ->addFilter(new \Browscap\Filter\FullFilter())
+        ;
 
         $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
-        $fullPhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $fullPhpWriter->addFilter(new \Browscap\Filter\FullFilter());
+        $fullPhpWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
+            ->addFilter(new \Browscap\Filter\FullFilter())
+        ;
 
         $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
-        $stdAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $stdAspWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        $stdAspWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\AspFormatter())
+            ->addFilter(new \Browscap\Filter\StandartFilter())
+        ;
 
         $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
-        $stdPhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $stdPhpWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        $stdPhpWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
+            ->addFilter(new \Browscap\Filter\StandartFilter())
+        ;
 
         $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
-        $liteAspWriter->addFormatter(new \Browscap\Formatter\AspFormatter());
-        $liteAspWriter->addFilter(new \Browscap\Filter\LiteFilter());
+        $liteAspWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\AspFormatter())
+            ->addFilter(new \Browscap\Filter\LiteFilter())
+        ;
 
         $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
-        $litePhpWriter->addFormatter(new \Browscap\Formatter\PhpFormatter());
-        $litePhpWriter->addFilter(new \Browscap\Filter\LiteFilter());
+        $litePhpWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\PhpFormatter())
+            ->addFilter(new \Browscap\Filter\LiteFilter())
+        ;
 
         $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
-        $csvWriter->addFormatter(new \Browscap\Formatter\CsvFormatter());
-        $csvWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        $csvWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\CsvFormatter())
+            ->addFilter(new \Browscap\Filter\StandartFilter())
+        ;
 
         $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
-        $xmlWriter->addFormatter(new \Browscap\Formatter\XmlFormatter());
-        $xmlWriter->addFilter(new \Browscap\Filter\StandartFilter());
+        $xmlWriter
+            ->setLogger($this->getLogger())
+            ->addFormatter(new \Browscap\Formatter\XmlFormatter())
+            ->addFilter(new \Browscap\Filter\StandartFilter())
+        ;
 
         $writers = array(
             $fullAspWriter,
