@@ -133,7 +133,7 @@ class BuildGenerator
         $this->collectionCreator
             ->setLogger($this->getLogger())
             ->setDataCollection($collection)
-            ->createDataCollection($this->getResourceFolder())
+            ->createDataCollection($this->resourceFolder)
         ;
 
         $this->getLogger()->info('finished creating a data collection');
@@ -248,7 +248,7 @@ class BuildGenerator
 
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
-            unset($writer);
+            $writer->close();
         }
 
         $this->getLogger()->info('finished closing writers');
