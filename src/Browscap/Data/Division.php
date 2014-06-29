@@ -135,14 +135,4 @@ class Division
     {
         return $this->versions;
     }
-
-    /**
-     * @return array
-     */
-    public function expand()
-    {
-        $sections = array();
-
-        return $sections;
-    }
 }

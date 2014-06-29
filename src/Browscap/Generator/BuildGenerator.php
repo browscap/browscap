@@ -216,13 +216,19 @@ class BuildGenerator
             $xmlWriter,
         );
 
+        $expander = new \Browscap\Data\Expander();
+        $expander
+            ->setDataCollection($collection)
+            ->setLogger($this->getLogger())
+        ;
+
         $this->getLogger()->info('finished initialisation of writers');
 
         $this->getLogger()->info('started output of header and version');
 
         $comments = array(
             'Provided courtesy of http://browscap.org/',
-            'Created on ' . $this->collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
+            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
             'Keep up with the latest goings-on with the project:',
             'Follow us on Twitter <https://twitter.com/browscap>, or...',
             'Like us on Facebook <https://facebook.com/browscap>, or...',
@@ -230,19 +236,15 @@ class BuildGenerator
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
         );
 
-        $versionData = array(
-            'version' => $version,
-            'released' => $this->collection->getGenerationDate()->format('r')
-        );
-
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
             $writer
+                ->fileStart()
                 ->renderHeader($comments)
                 ->renderVersion(
                     array(
                         'version'  => $version,
-                        'released' => $this->collection->getGenerationDate()->format('r'),
+                        'released' => $collection->getGenerationDate()->format('r'),
                         'format'   => $writer->getFormatter()->getType(),
                         'type'     => $writer->getFilter()->getType(),
                     )
@@ -255,12 +257,28 @@ class BuildGenerator
         $this->getLogger()->info('started output of divisions');
 
         foreach ($collection->getDivisions() as $division) {
+            /** @var \Browscap\Data\Division $division */
             foreach ($writers as $writer) {
                 /** @var \Browscap\Writer\WriterInterface $writer */
-                $writer
-                    ->renderDivisionHeader($division)
-                    ->renderDivisionBody($division)
-                ;
+                $writer->renderDivisionHeader($division->getName());
+            }
+
+            $sections = $expander->expand($division);
+
+            foreach ($sections as $section) {
+                foreach ($writers as $writer) {
+                    /** @var \Browscap\Writer\WriterInterface $writer */
+                    $writer
+                        ->renderSectionHeader('')
+                        ->renderSectionBody($section)
+                        ->renderSectionFooter()
+                    ;
+                }
+            }
+
+            foreach ($writers as $writer) {
+                /** @var \Browscap\Writer\WriterInterface $writer */
+                $writer->renderDivisionFooter();
             }
         }
 
@@ -270,7 +288,10 @@ class BuildGenerator
 
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->close();
+            $writer
+                ->fileEnd()
+                ->close()
+            ;
         }
 
         $this->getLogger()->info('finished closing writers');

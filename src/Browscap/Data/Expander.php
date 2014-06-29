@@ -11,10 +11,10 @@ use Psr\Log\LoggerInterface;
  */
 class Expander
 {
-    const TYPE_STRING = 'string';
-    const TYPE_GENERIC = 'generic';
-    const TYPE_NUMBER = 'number';
-    const TYPE_BOOLEAN = 'boolean';
+    const TYPE_STRING   = 'string';
+    const TYPE_GENERIC  = 'generic';
+    const TYPE_NUMBER   = 'number';
+    const TYPE_BOOLEAN  = 'boolean';
     const TYPE_IN_ARRAY = 'in_array';
 
     /**
@@ -31,7 +31,7 @@ class Expander
      * Set the data collection
      *
      * @param \Browscap\Data\DataCollection $collection
-     * @return \Browscap\Generator\CollectionParser
+     * @return \Browscap\Data\Expander
      */
     public function setDataCollection(DataCollection $collection)
     {
@@ -57,7 +57,7 @@ class Expander
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\CollectionParser
+     * @return \Browscap\Data\Expander
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -123,6 +123,8 @@ class Expander
 
             unset($userAgents, $divisionName, $majorVer, $minorVer);
         }
+
+        return $allDivisions;
     }
 
     /**

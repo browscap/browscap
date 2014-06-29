@@ -118,6 +118,26 @@ class CsvWriter implements WriterInterface
     }
 
     /**
+     * Generates a start sequence for the output file
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function fileStart()
+    {
+        return $this;
+    }
+
+    /**
+     * Generates a end sequence for the output file
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function fileEnd()
+    {
+        return $this;
+    }
+
+    /**
      * Generate the header
      *
      * @param string[] $comments
@@ -168,16 +188,46 @@ class CsvWriter implements WriterInterface
     }
 
     /**
+     * renders the header for a section
+     *
+     * @param string $division
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderSectionHeader($division)
+    {
+        return $this;
+    }
+
+    /**
      * renders all found useragents into a string
      *
-     * @param array[] $allDivisions
-     * @param string  $output
-     * @param array   $allProperties
+     * @param string[] $allProperties
      *
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionBody(array $allDivisions, $output, array $allProperties)
+    public function renderSectionBody(array $allProperties)
+    {
+        return $this;
+    }
+
+    /**
+     * renders the footer for a section
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderSectionFooter()
+    {
+        return $this;
+    }
+
+    /**
+     * renders the footer for a division
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderDivisionFooter()
     {
         return $this;
     }

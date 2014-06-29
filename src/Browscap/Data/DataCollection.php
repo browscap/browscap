@@ -157,7 +157,7 @@ class DataCollection
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
             foreach ($divisionData['userAgents'] as $useragent) {
-                if (false === strpos($useragent['userAgent'], '#') 
+                if (false === strpos($useragent['userAgent'], '#')
                     && in_array($useragent['userAgent'], $this->allDivision)
                 ) {
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
@@ -342,7 +342,7 @@ class DataCollection
     /**
      * Get the divisions array containing UA data
      *
-     * @return array
+     * @return \Browscap\Data\Division[]
      */
     public function getDivisions()
     {
