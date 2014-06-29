@@ -18,7 +18,7 @@ class Expander
     const TYPE_IN_ARRAY = 'in_array';
 
     /**
-     * @var \Browscap\Generator\DataCollection
+     * @var \Browscap\Data\DataCollection
      */
     private $collection = null;
 
@@ -30,7 +30,7 @@ class Expander
     /**
      * Set the data collection
      *
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      * @return \Browscap\Generator\CollectionParser
      */
     public function setDataCollection(DataCollection $collection)
@@ -43,7 +43,7 @@ class Expander
      * Get the data collection
      *
      * @throws \LogicException
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      */
     public function getDataCollection()
     {

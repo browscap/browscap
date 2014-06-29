@@ -52,7 +52,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     public function testCreateDataCollection()
     {
         $mockCollection = $this->getMock(
-            '\Browscap\Generator\DataCollection',
+            '\Browscap\Data\DataCollection',
             array('addPlatformsFile', 'addSourceFile', 'addEnginesFile'),
             array(),
             '',

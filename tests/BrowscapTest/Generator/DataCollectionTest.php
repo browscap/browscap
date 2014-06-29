@@ -2,7 +2,7 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\DataCollection;
+use Browscap\Data\DataCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 

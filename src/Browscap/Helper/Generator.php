@@ -30,7 +30,7 @@ class Generator
     private $resourceFolder = null;
 
     /**
-     * @var \Browscap\Generator\DataCollection
+     * @var \Browscap\Data\DataCollection
      */
     private $collection = null;
 

@@ -2,7 +2,7 @@
 
 namespace Browscap\Helper;
 
-use Browscap\Generator\DataCollection;
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -14,7 +14,7 @@ use Psr\Log\LoggerInterface;
 class CollectionCreator
 {
     /**
-     * @var \Browscap\Generator\DataCollection
+     * @var \Browscap\Data\DataCollection
      */
     private $collection = null;
 
@@ -24,7 +24,7 @@ class CollectionCreator
     private $logger = null;
 
     /**
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Helper\CollectionCreator
      */
@@ -61,13 +61,13 @@ class CollectionCreator
      * @param string $resourceFolder
      *
      * @throws \LogicException
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      */
     public function createDataCollection($resourceFolder)
     {
         if (null === $this->collection) {
             throw new \LogicException(
-                'An instance of \Browscap\Generator\DataCollection is required for this function. '
+                'An instance of \Browscap\Data\DataCollection is required for this function. '
                 . 'Please set it with setDataCollection'
             );
         }
