@@ -2,6 +2,8 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Filter\FilterInterface;
+use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -20,6 +22,16 @@ class IniWriter implements WriterInterface
      * @var resource
      */
     private $file = null;
+
+    /**
+     * @var \Browscap\Formatter\FormatterInterface
+     */
+    private $formatter = null;
+
+    /**
+     * @var \Browscap\Filter\FilterInterface
+     */
+    private $type = null;
 
     /**
      * @param string $file
@@ -65,6 +77,46 @@ class IniWriter implements WriterInterface
     }
 
     /**
+     * @param \Browscap\Formatter\FormatterInterface $formatter
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setFormatter(FormatterInterface $formatter)
+    {
+        $this->formatter = $formatter;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\Formatter\FormatterInterface
+     */
+    public function getFormatter()
+    {
+        return $this->formatter;
+    }
+
+    /**
+     * @param \Browscap\Filter\FilterInterface $filter
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setFilter(FilterInterface $filter)
+    {
+        $this->type = $filter;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\Filter\FilterInterface
+     */
+    public function getFilter()
+    {
+        return $this->type;
+    }
+
+    /**
      * Generate the header
      *
      * @param string[] $comments
@@ -95,7 +147,7 @@ class IniWriter implements WriterInterface
     {
         $this->getLogger()->debug('rendering version information');
 
-        fputs($this->file, $this->renderDivisionHeader('Browscap Version'));
+        $this->renderDivisionHeader('Browscap Version');
 
         fputs($this->file, '[GJK_Browscap_Version]' . PHP_EOL);
 
@@ -148,26 +200,6 @@ class IniWriter implements WriterInterface
      * @return \Browscap\Writer\WriterInterface
      */
     public function renderDivisionBody(array $allDivisions, $output, array $allProperties)
-    {
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function addFormatter(\Browscap\Formatter\FormatterInterface $formatter)
-    {
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function addFilter(\Browscap\Filter\FilterInterface $filter)
     {
         return $this;
     }

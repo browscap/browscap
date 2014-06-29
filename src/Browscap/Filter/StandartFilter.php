@@ -11,5 +11,13 @@ namespace Browscap\Filter;
 
 class StandartFilter implements FilterInterface
 {
-    //
+    /**
+     * returns the Type of the filter
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return '';
+    }
 }

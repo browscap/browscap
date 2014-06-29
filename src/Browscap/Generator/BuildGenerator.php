@@ -152,57 +152,57 @@ class BuildGenerator
         $fullAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_asp_browscap.ini');
         $fullAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($aspFormatter)
-            ->addFilter($fullFilter)
+            ->setFormatter($aspFormatter)
+            ->setFilter($fullFilter)
         ;
 
         $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
         $fullPhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($phpFormatter)
-            ->addFilter($fullFilter)
+            ->setFormatter($phpFormatter)
+            ->setFilter($fullFilter)
         ;
 
         $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
         $stdAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($aspFormatter)
-            ->addFilter($stdFilter)
+            ->setFormatter($aspFormatter)
+            ->setFilter($stdFilter)
         ;
 
         $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
         $stdPhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($phpFormatter)
-            ->addFilter($stdFilter)
+            ->setFormatter($phpFormatter)
+            ->setFilter($stdFilter)
         ;
 
         $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
         $liteAspWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($aspFormatter)
-            ->addFilter($liteFilter)
+            ->setFormatter($aspFormatter)
+            ->setFilter($liteFilter)
         ;
 
         $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
         $litePhpWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($phpFormatter)
-            ->addFilter($liteFilter)
+            ->setFormatter($phpFormatter)
+            ->setFilter($liteFilter)
         ;
 
         $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
         $csvWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($csvFormatter)
-            ->addFilter($stdFilter)
+            ->setFormatter($csvFormatter)
+            ->setFilter($stdFilter)
         ;
 
         $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
         $xmlWriter
             ->setLogger($this->getLogger())
-            ->addFormatter($xmlFormatter)
-            ->addFilter($stdFilter)
+            ->setFormatter($xmlFormatter)
+            ->setFilter($stdFilter)
         ;
 
         $writers = array(
@@ -220,11 +220,33 @@ class BuildGenerator
 
         $this->getLogger()->info('started output of header and version');
 
+        $comments = array(
+            'Provided courtesy of http://browscap.org/',
+            'Created on ' . $this->collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+        );
+
+        $versionData = array(
+            'version' => $version,
+            'released' => $this->collection->getGenerationDate()->format('r')
+        );
+
         foreach ($writers as $writer) {
             /** @var \Browscap\Writer\WriterInterface $writer */
             $writer
-                ->renderHeader()
-                ->renderVersion()
+                ->renderHeader($comments)
+                ->renderVersion(
+                    array(
+                        'version'  => $version,
+                        'released' => $this->collection->getGenerationDate()->format('r'),
+                        'format'   => $writer->getFormatter()->getType(),
+                        'type'     => $writer->getFilter()->getType(),
+                    )
+                )
             ;
         }
 

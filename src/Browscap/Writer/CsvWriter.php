@@ -2,6 +2,8 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Filter\FilterInterface;
+use Browscap\Formatter\FormatterInterface;
 use Browscap\Helper\CollectionParser;
 use Psr\Log\LoggerInterface;
 
@@ -21,6 +23,16 @@ class CsvWriter implements WriterInterface
      * @var resource
      */
     private $file = null;
+
+    /**
+     * @var \Browscap\Formatter\FormatterInterface
+     */
+    private $formatter = null;
+
+    /**
+     * @var \Browscap\Filter\FilterInterface
+     */
+    private $type = null;
 
     /**
      * @param string $file
@@ -63,6 +75,46 @@ class CsvWriter implements WriterInterface
     public function getLogger()
     {
         return $this->logger;
+    }
+
+    /**
+     * @param \Browscap\Formatter\FormatterInterface $formatter
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setFormatter(FormatterInterface $formatter)
+    {
+        $this->formatter = $formatter;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\Formatter\FormatterInterface
+     */
+    public function getFormatter()
+    {
+        return $this->formatter;
+    }
+
+    /**
+     * @param \Browscap\Filter\FilterInterface $filter
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setFilter(FilterInterface $filter)
+    {
+        $this->type = $filter;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\Filter\FilterInterface
+     */
+    public function getFilter()
+    {
+        return $this->type;
     }
 
     /**
@@ -126,26 +178,6 @@ class CsvWriter implements WriterInterface
      * @return \Browscap\Writer\WriterInterface
      */
     public function renderDivisionBody(array $allDivisions, $output, array $allProperties)
-    {
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Formatter\FormatterInterface $formatter
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function addFormatter(\Browscap\Formatter\FormatterInterface $formatter)
-    {
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Filter\FilterInterface $filter
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function addFilter(\Browscap\Filter\FilterInterface $filter)
     {
         return $this;
     }

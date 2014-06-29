@@ -11,5 +11,13 @@ namespace Browscap\Formatter;
 
 class AspFormatter implements FormatterInterface
 {
-    //
+    /**
+     * returns the Type of the formatter
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'ASP';
+    }
 }

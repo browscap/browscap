@@ -11,5 +11,13 @@ namespace Browscap\Filter;
 
 class FullFilter implements FilterInterface
 {
-    //
+    /**
+     * returns the Type of the filter
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'FULL';
+    }
 }

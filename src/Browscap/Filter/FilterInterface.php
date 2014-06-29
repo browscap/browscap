@@ -11,5 +11,10 @@ namespace Browscap\Filter;
 
 interface FilterInterface
 {
-    //
+    /**
+     * returns the Type of the filter
+     *
+     * @return string
+     */
+    public function getType();
 }

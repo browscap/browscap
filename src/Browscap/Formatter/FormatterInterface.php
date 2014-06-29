@@ -11,5 +11,10 @@ namespace Browscap\Formatter;
 
 interface FormatterInterface
 {
-    //
+    /**
+     * returns the Type of the formatter
+     *
+     * @return string
+     */
+    public function getType();
 }

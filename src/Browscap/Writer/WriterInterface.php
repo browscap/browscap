@@ -79,12 +79,22 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function addFormatter(\Browscap\Formatter\FormatterInterface $formatter);
+    public function setFormatter(\Browscap\Formatter\FormatterInterface $formatter);
+
+    /**
+     * @return \Browscap\Formatter\FormatterInterface
+     */
+    public function getFormatter();
 
     /**
      * @param \Browscap\Filter\FilterInterface $filter
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function addFilter(\Browscap\Filter\FilterInterface $filter);
+    public function setFilter(\Browscap\Filter\FilterInterface $filter);
+
+    /**
+     * @return \Browscap\Filter\FilterInterface
+     */
+    public function getFilter();
 }

@@ -11,5 +11,13 @@ namespace Browscap\Formatter;
 
 class XmlFormatter implements FormatterInterface
 {
-    //
+    /**
+     * returns the Type of the formatter
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'XML';
+    }
 }
