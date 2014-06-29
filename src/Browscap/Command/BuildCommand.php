@@ -3,9 +3,7 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\CollectionParser;
 use Browscap\Helper\CollectionCreator;
-use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -56,25 +54,20 @@ class BuildCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $resourceFolder = $input->getOption('resources');
-        $buildFolder = $input->getOption('output');
-        $debug = $input->getOption('debug');
-        $version = $input->getArgument('version');
-
         $loggerHelper = new LoggerHelper();
-        $logger = $loggerHelper->create($debug);
+        $logger       = $loggerHelper->create($input->getOption('debug'));
 
-        $collectionCreator = new CollectionCreator();
-        $collectionParser = new CollectionParser();
-        $generatorHelper = new Generator();
+        $logger->info('Build started.');
 
-        $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
+        $buildGenerator = new BuildGenerator(
+            $input->getOption('resources'),
+            $input->getOption('output')
+        );
+
         $buildGenerator
             ->setLogger($logger)
-            ->setCollectionCreator($collectionCreator)
-            ->setCollectionParser($collectionParser)
-            ->setGeneratorHelper($generatorHelper)
-            ->generateBuilds($version)
+            ->setCollectionCreator(new CollectionCreator())
+            ->generateBuilds($input->getArgument('version'))
         ;
 
         $logger->info('Build done.');
