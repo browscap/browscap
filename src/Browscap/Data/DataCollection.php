@@ -157,7 +157,9 @@ class DataCollection
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
             foreach ($divisionData['userAgents'] as $useragent) {
-                if (in_array($useragent['userAgent'], $this->allDivision)) {
+                if (false === strpos($useragent['userAgent'], '#') 
+                    && in_array($useragent['userAgent'], $this->allDivision)
+                ) {
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
                 }
 
