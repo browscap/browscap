@@ -2,6 +2,8 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Helper\CollectionParser;
+
 /**
  * Class BrowscapCsvGenerator
  *

@@ -2,6 +2,7 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Helper\CollectionParser;
 use XMLWriter;
 
 /**

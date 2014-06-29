@@ -2,8 +2,7 @@
 
 namespace Browscap\Command;
 
-use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionParser;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
@@ -84,7 +83,6 @@ class DiffCommand extends Command
 
             $collectionCreator = new CollectionCreator();
             $collectionParser = new CollectionParser();
-            $iniGenerator = new BrowscapIniGenerator();
 
             $generatorHelper = new Generator();
             $generatorHelper
@@ -94,8 +92,6 @@ class DiffCommand extends Command
                 ->setCollectionCreator($collectionCreator)
                 ->setCollectionParser($collectionParser)
                 ->createCollection()
-                ->parseCollection()
-                ->setGenerator($iniGenerator)
             ;
 
             file_put_contents($rightFilename, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));

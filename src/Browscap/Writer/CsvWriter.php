@@ -2,6 +2,7 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Helper\CollectionParser;
 use Psr\Log\LoggerInterface;
 
 /**

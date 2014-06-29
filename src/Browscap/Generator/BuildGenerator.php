@@ -2,6 +2,7 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
