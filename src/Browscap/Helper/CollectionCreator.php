@@ -67,7 +67,7 @@ class CollectionCreator
     {
         if (null === $this->collection) {
             throw new \LogicException(
-                'An instance of \\Browscap\\Generator\\DataCollection is required for this function. '
+                'An instance of \Browscap\Generator\DataCollection is required for this function. '
                 . 'Please set it with setDataCollection'
             );
         }
@@ -76,6 +76,8 @@ class CollectionCreator
         $this->collection
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
+            ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
+            ->addDefaultBrowser($resourceFolder . '/core/default-browser.json')
         ;
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';

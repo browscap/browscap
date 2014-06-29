@@ -22,9 +22,19 @@ class DataCollection
     private $engines = array();
 
     /**
-     * @var array
+     * @var \Browscap\Data\Division[]
      */
     private $divisions = array();
+
+    /**
+     * @var array
+     */
+    private $defaultProperties = array();
+
+    /**
+     * @var array
+     */
+    private $defaultBrowser = array();
 
     /**
      * @var boolean
@@ -45,6 +55,9 @@ class DataCollection
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;
+
+    /** @var array  */
+    private $allDivision = array();
 
     /**
      * Create a new data collection for the specified version
@@ -75,7 +88,7 @@ class DataCollection
      * @param string $src Name of the file
      *
      * @return \Browscap\Data\DataCollection
-     * @throws \Exception if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addPlatformsFile($src)
     {
@@ -94,7 +107,7 @@ class DataCollection
      * @param string $src Name of the file
      *
      * @return \Browscap\Data\DataCollection
-     * @throws \Exception if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addEnginesFile($src)
     {
@@ -113,11 +126,160 @@ class DataCollection
      * @param string $src Name of the file
      *
      * @return \Browscap\Data\DataCollection
-     * @throws \Exception if the file does not exist or has invalid JSON
+     * @throws \RuntimeException If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException If required attibutes are missing in the division
      */
     public function addSourceFile($src)
     {
-        $this->divisions[] = $this->loadFile($src);
+        $divisionData = $this->loadFile($src);
+
+        if (empty($divisionData['division'])) {
+            throw new \UnexpectedValueException('required attibute "division" is missing');
+        }
+
+        if (empty($divisionData['sortIndex'])) {
+            throw new \UnexpectedValueException('required attibute "sortIndex" is missing');
+        }
+
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+        ;
+
+        if (isset($divisionData['lite'])) {
+            $division->setLite((boolean) $divisionData['lite']);
+        }
+
+        if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
+            $division->setVersions($divisionData['versions']);
+        }
+
+        if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
+            foreach ($divisionData['userAgents'] as $useragent) {
+                if (in_array($useragent['userAgent'], $this->allDivision)) {
+                    throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
+                }
+
+                if (!isset($useragent['properties']) || !is_array($useragent['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'the properties entry has to be an array for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!isset($useragent['properties']['Parent'])) {
+                    throw new \UnexpectedValueException(
+                        'the "parent" property is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                $this->checkPlatformData(
+                    $useragent['properties'],
+                    'the properties array contains platform data for key "' . $useragent['userAgent']
+                    . '", please use the "platform" keyword'
+                );
+
+                $this->checkEngineData(
+                    $useragent['properties'],
+                    'the properties array contains engine data for key "' . $useragent['userAgent']
+                    . '", please use the "engine" keyword'
+                );
+
+                $this->allDivision[] = $useragent['userAgent'];
+
+                if (isset($useragent['children']) && is_array($useragent['children'])) {
+                    if (isset($useragent['children']['match'])) {
+                        throw new \UnexpectedValueException(
+                            'the children property has to be an array of arrays for key "'
+                            . $useragent['userAgent'] . '"'
+                        );
+                    }
+
+                    foreach ($useragent['children'] as $child) {
+                        if (!is_array($child)) {
+                            throw new \UnexpectedValueException(
+                                'each entry of the children property has to be an array for key "'
+                                . $useragent['userAgent'] . '"'
+                            );
+                        }
+
+                        if (!isset($child['match'])) {
+                            throw new \UnexpectedValueException(
+                                'each entry of the children property requires an "match" entry for key "'
+                                . $useragent['userAgent'] . '"'
+                            );
+                        }
+
+                        if (isset($child['properties'])) {
+                            if (!is_array($child['properties'])) {
+                                throw new \UnexpectedValueException(
+                                    'the properties entry has to be an array for key "' . $child['match'] . '"'
+                                );
+                            }
+
+                            if (isset($child['properties']['Parent'])) {
+                                throw new \UnexpectedValueException(
+                                    'the Parent property must not set inside the children array for key "'
+                                    . $child['match'] . '"'
+                                );
+                            }
+
+                            $this->checkPlatformData(
+                                $child['properties'],
+                                'the properties array contains platform data for key "' . $child['match']
+                                . '", please use the "platforms" keyword'
+                            );
+
+                            $this->checkEngineData(
+                                $child['properties'],
+                                'the properties array contains engine data for key "' . $child['match']
+                                . '", please use the "engine" keyword'
+                            );
+                        }
+
+                        //
+                    }
+                }
+            }
+
+            $division->setUserAgents($divisionData['userAgents']);
+        }
+
+        $this->divisions[] = $division;
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a engines.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDefaultProperties($src)
+    {
+        $this->defaultProperties = $this->loadFile($src);
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a engines.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDefaultBrowser($src)
+    {
+        $this->defaultBrowser = $this->loadFile($src);
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -160,7 +322,8 @@ class DataCollection
             $sortPosition = array();
 
             foreach ($this->divisions as $key => $division) {
-                $sortIndex[$key]    = (isset($division['sortIndex']) ? $division['sortIndex'] : 0);
+                /** @var \Browscap\Data\Division $division */
+                $sortIndex[$key]    = $division->getSortIndex();
                 $sortPosition[$key] = $key;
             }
 
@@ -328,5 +491,44 @@ class DataCollection
     public function getGenerationDate()
     {
         return $this->generationDate;
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkPlatformData(array $properties, $message)
+    {
+        if (array_key_exists('Platform', $properties)
+            || array_key_exists('Platform_Description', $properties)
+            || array_key_exists('Platform_Maker', $properties)
+            || array_key_exists('Platform_Bits', $properties)
+            || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkEngineData(array $properties, $message)
+    {
+        if (array_key_exists('RenderingEngine_Name', $properties)
+            || array_key_exists('RenderingEngine_Version', $properties)
+            || array_key_exists('RenderingEngine_Description', $properties)
+            || array_key_exists('RenderingEngine_Maker', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
     }
 }
