@@ -140,7 +140,9 @@ class BuildGenerator
         $this->getLogger()->info('finished creating a data collection');
 
         $this->getLogger()->info('started initialisation of writers');
-        
+
+        $writerCollection = new \Browscap\Writer\WriterCollection();
+
         $fullFilter = new \Browscap\Filter\FullFilter();
         $stdFilter  = new \Browscap\Filter\StandartFilter();
         $liteFilter = new \Browscap\Filter\LiteFilter();
@@ -152,6 +154,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($fullFilter))
             ->setFilter($fullFilter)
         ;
+        $writerCollection->addWriter($fullAspWriter);
 
         $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
         $formatter = new \Browscap\Formatter\PhpFormatter();
@@ -160,6 +163,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($fullFilter))
             ->setFilter($fullFilter)
         ;
+        $writerCollection->addWriter($fullPhpWriter);
 
         $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
         $formatter    = new \Browscap\Formatter\AspFormatter();
@@ -168,6 +172,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter)
         ;
+        $writerCollection->addWriter($stdAspWriter);
 
         $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
         $formatter    = new \Browscap\Formatter\PhpFormatter();
@@ -176,6 +181,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter)
         ;
+        $writerCollection->addWriter($stdPhpWriter);
 
         $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
         $formatter     = new \Browscap\Formatter\AspFormatter();
@@ -184,6 +190,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($liteFilter))
             ->setFilter($liteFilter)
         ;
+        $writerCollection->addWriter($liteAspWriter);
 
         $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
         $formatter     = new \Browscap\Formatter\PhpFormatter();
@@ -192,6 +199,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($liteFilter))
             ->setFilter($liteFilter)
         ;
+        $writerCollection->addWriter($litePhpWriter);
 
         $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
         $formatter = new \Browscap\Formatter\CsvFormatter();
@@ -200,6 +208,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter)
         ;
+        $writerCollection->addWriter($csvWriter);
 
         $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
         $formatter = new \Browscap\Formatter\XmlFormatter();
@@ -208,17 +217,7 @@ class BuildGenerator
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter)
         ;
-
-        $writers = array(
-            $fullAspWriter,
-            $fullPhpWriter,
-            $stdAspWriter,
-            $stdPhpWriter,
-            $liteAspWriter,
-            $litePhpWriter,
-            $csvWriter,
-            $xmlWriter,
-        );
+        $writerCollection->addWriter($xmlWriter);
 
         $expander = new \Browscap\Data\Expander();
         $expander
@@ -240,69 +239,50 @@ class BuildGenerator
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
         );
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer
-                ->fileStart()
-                ->renderHeader($comments)
-                ->renderVersion(
-                    array(
-                        'version'  => $version,
-                        'released' => $collection->getGenerationDate()->format('r'),
-                        'format'   => $writer->getFormatter()->getType(),
-                        'type'     => $writer->getFilter()->getType(),
-                    )
+        $writerCollection
+            ->fileStart()
+            ->renderHeader($comments)
+            ->renderVersion(
+                array(
+                    'version'  => $version,
+                    'released' => $collection->getGenerationDate()->format('r'),
+                    'format'   => $writer->getFormatter()->getType(),
+                    'type'     => $writer->getFilter()->getType(),
                 )
-            ;
-        }
+            )
+        ;
 
         $this->getLogger()->info('finished output of header and version');
 
         $this->getLogger()->info('started output of divisions');
-        
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderAllDivisionsHeader($collection);
-        }
-        
+
+        $writerCollection->renderAllDivisionsHeader($collection);
+
         $division = $collection->getDefaultProperties();
-        
+
         $this->getLogger()->info('handle division ' . $division->getName());
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderDivisionHeader($division->getName());
-        }
+        $writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
         $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
 
         foreach ($sections as $sectionName => $section) {
-            foreach ($writers as $writer) {
-                /** @var \Browscap\Writer\WriterInterface $writer */
-                $writer
-                    ->renderSectionHeader($sectionName)
-                    ->renderSectionBody($section)
-                    ->renderSectionFooter()
-                ;
-            }
+            $writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section)
+                ->renderSectionFooter()
+            ;
         }
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderDivisionFooter();
-        }
+        $writerCollection->renderDivisionFooter();
 
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
-            
-            foreach ($writers as $writer) {
-                /** @var \Browscap\Writer\WriterInterface $writer */
-                $writer->setSilent(!$writer->getFilter()->isOutput($division));
-            }
-            
+            $writerCollection->setSilent(!$writer->getFilter()->isOutput($division));
+
             $versions = $division->getVersions();
-            
+
             foreach ($versions as $version) {
                 list($majorVer, $minorVer) = $expander->getVersionParts($version);
 
@@ -311,85 +291,62 @@ class BuildGenerator
                 $userAgents = json_decode($userAgents, true);
 
                 $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
-                
+
                 $this->getLogger()->info('handle division ' . $divisionName);
 
-                foreach ($writers as $writer) {
-                    /** @var \Browscap\Writer\WriterInterface $writer */
-                    $writer->renderDivisionHeader($divisionName);
-                }
+                $writerCollection->renderDivisionHeader($divisionName);
 
                 $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
 
                 foreach ($sections as $sectionName => $section) {
-                    foreach ($writers as $writer) {
-                        /** @var \Browscap\Writer\WriterInterface $writer */
-                        $writer
-                            ->renderSectionHeader($sectionName)
-                            ->renderSectionBody($section)
-                            ->renderSectionFooter()
-                        ;
-                    }
+                    $writerCollection
+                        ->renderSectionHeader($sectionName)
+                        ->renderSectionBody($section)
+                        ->renderSectionFooter()
+                    ;
                 }
 
-                foreach ($writers as $writer) {
-                    /** @var \Browscap\Writer\WriterInterface $writer */
-                    $writer->renderDivisionFooter();
-                }
+                $writerCollection->renderDivisionFooter();
 
                 unset($userAgents, $divisionName, $majorVer, $minorVer);
             }
         }
-        
+
         $division = $collection->getDefaultBrowser();
-        
+
         $this->getLogger()->info('handle division ' . $division->getName());
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderDivisionHeader($division->getName());
-        }
+        $writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
         $sections = array(
             $ua[0]['userAgent'] => array_merge(
-                array('Parent' => 'DefaultProperties'), 
+                array('Parent' => 'DefaultProperties'),
                 $ua[0]['properties']
             )
         );
 
         foreach ($sections as $sectionName => $section) {
-            foreach ($writers as $writer) {
-                /** @var \Browscap\Writer\WriterInterface $writer */
-                $writer
-                    ->renderSectionHeader($sectionName)
-                    ->renderSectionBody($section)
-                    ->renderSectionFooter()
-                ;
-            }
+            $writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section)
+                ->renderSectionFooter()
+            ;
         }
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderDivisionFooter();
-        }
-        
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer->renderAllDivisionsFooter($collection);
-        }
+        $writerCollection
+            ->renderDivisionFooter()
+            ->renderAllDivisionsFooter($collection)
+        ;
 
         $this->getLogger()->info('finished output of divisions');
 
         $this->getLogger()->info('started closing writers');
 
-        foreach ($writers as $writer) {
-            /** @var \Browscap\Writer\WriterInterface $writer */
-            $writer
-                ->fileEnd()
-                ->close()
-            ;
-        }
+        $writerCollection
+            ->fileEnd()
+            ->close()
+        ;
 
         $this->getLogger()->info('finished closing writers');
 
