@@ -3,7 +3,6 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\PropertyHolder;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -11,7 +10,7 @@ use Psr\Log\LoggerInterface;
  *
  * @package Browscap\Generator
  */
-class WriterCollection implements WriterInterface
+class WriterCollection
 {
     /**
      * @var WriterInterface[]
