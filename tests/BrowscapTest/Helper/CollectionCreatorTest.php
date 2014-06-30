@@ -25,7 +25,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
 
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
     {
-        $this->setExpectedException('\LogicException', 'An instance of \\Browscap\\Generator\\DataCollection is required for this function. Please set it with setDataCollection');
+        $this->setExpectedException('\LogicException', 'An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
 
         $creator = new CollectionCreator();
         $creator->createDataCollection('.');
@@ -35,7 +35,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     {
         $this->setExpectedException('\RunTimeException', 'File "./platforms.json" does not exist.');
 
-        $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
         $mockCollection->expects(self::any())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
@@ -78,7 +78,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         ;
 
         $result = $creator->createDataCollection(__DIR__ . '/../../fixtures');
-        self::assertInstanceOf('\\Browscap\\Generator\\DataCollection', $result);
+        self::assertInstanceOf('\Browscap\Data\DataCollection', $result);
         self::assertSame($mockCollection, $result);
     }
 }

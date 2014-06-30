@@ -2,6 +2,7 @@
 
 namespace Browscap\Helper;
 
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
 /**

@@ -190,7 +190,7 @@ class Generator
     {
         if (null === $this->collectionParser) {
             throw new \LogicException(
-                'An instance of \\Browscap\\Generator\\CollectionParser is required for this function. '
+                'An instance of \Browscap\Generator\CollectionParser is required for this function. '
                 . 'Please set it with setCollectionParser'
             );
         }
@@ -224,7 +224,7 @@ class Generator
 
         if (null === $this->generator) {
             throw new \LogicException(
-                'An instance of \\Browscap\\Generator\\AbstractGenerator is required for this function. '
+                'An instance of \Browscap\Generator\AbstractGenerator is required for this function. '
                 . 'Please set it with setGenerator'
             );
         }
