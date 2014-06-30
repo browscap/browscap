@@ -18,7 +18,7 @@ class AspFormatter implements FormatterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $filter = null;
-    
+
     /**
      * returns the Type of the formatter
      *
@@ -28,7 +28,7 @@ class AspFormatter implements FormatterInterface
     {
         return 'ASP';
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -40,7 +40,7 @@ class AspFormatter implements FormatterInterface
     {
         return $name;
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -52,7 +52,7 @@ class AspFormatter implements FormatterInterface
     public function formatPropertyValue($value, $property)
     {
         $valueOutput = $value;
-        
+
         switch (PropertyHolder::getPropertyType($property)) {
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
@@ -68,8 +68,8 @@ class AspFormatter implements FormatterInterface
                 // nothing t do here
                 break;
         }
-        
-        return $value;
+
+        return $valueOutput;
     }
 
     /**
@@ -80,7 +80,7 @@ class AspFormatter implements FormatterInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->filter = $filter;
-        
+
         return $this;
     }
 

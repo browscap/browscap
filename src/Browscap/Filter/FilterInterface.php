@@ -9,6 +9,8 @@
 namespace Browscap\Filter;
 
 
+use Browscap\Data\Division;
+
 interface FilterInterface
 {
     /**
@@ -17,7 +19,7 @@ interface FilterInterface
      * @return string
      */
     public function getType();
-    
+
     /**
      * checks if a division should be in the output
      *
@@ -25,8 +27,8 @@ interface FilterInterface
      *
      * @return boolean
      */
-    public function isOutput(\Browscap\Data\Division $division);
-    
+    public function isOutput(Division $division);
+
     /**
      * checks if a property should be in the output
      *

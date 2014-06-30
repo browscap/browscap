@@ -30,7 +30,7 @@ class WriterCollection
     /**
      * closes the Writer and the written File
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function close()
     {
@@ -44,7 +44,7 @@ class WriterCollection
     /**
      * @param boolean $silent
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function setSilent($silent)
     {
@@ -58,7 +58,7 @@ class WriterCollection
     /**
      * Generates a start sequence for the output file
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function fileStart()
     {
@@ -72,7 +72,7 @@ class WriterCollection
     /**
      * Generates a end sequence for the output file
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function fileEnd()
     {
@@ -88,7 +88,7 @@ class WriterCollection
      *
      * @param string[] $comments
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderHeader(array $comments = array())
     {
@@ -102,14 +102,22 @@ class WriterCollection
     /**
      * renders the version information
      *
-     * @param string[] $versionData
+     * @param string                        $version
+     * @param \Browscap\Data\DataCollection $collection
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderVersion(array $versionData = array())
+    public function renderVersion($version, \Browscap\Data\DataCollection $collection)
     {
         foreach ($this->writers as $writer) {
-            $writer->renderVersion($versionData);
+            $writer->renderVersion(
+                array(
+                    'version'  => $version,
+                    'released' => $collection->getGenerationDate()->format('r'),
+                    'format'   => $writer->getFormatter()->getType(),
+                    'type'     => $writer->getFilter()->getType(),
+                )
+            );
         }
 
         return $this;
@@ -120,7 +128,7 @@ class WriterCollection
      *
      * @param \Browscap\Data\DataCollection $collection
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderAllDivisionsHeader(DataCollection $collection)
     {
@@ -136,7 +144,7 @@ class WriterCollection
      *
      * @param string $division
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderDivisionHeader($division)
     {
@@ -152,7 +160,7 @@ class WriterCollection
      *
      * @param string $sectionName
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionHeader($sectionName)
     {
@@ -169,7 +177,7 @@ class WriterCollection
      * @param string[] $section
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionBody(array $section)
     {
@@ -183,7 +191,7 @@ class WriterCollection
     /**
      * renders the footer for a section
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionFooter()
     {
@@ -197,7 +205,7 @@ class WriterCollection
     /**
      * renders the footer for a division
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderDivisionFooter()
     {
@@ -211,7 +219,7 @@ class WriterCollection
     /**
      * renders the footer for all divisions
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderAllDivisionsFooter()
     {

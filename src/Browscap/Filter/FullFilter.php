@@ -8,7 +8,8 @@
 
 namespace Browscap\Filter;
 
-use \Browscap\Data\PropertyHolder;
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 
 class FullFilter implements FilterInterface
 {
@@ -21,7 +22,7 @@ class FullFilter implements FilterInterface
     {
         return 'FULL';
     }
-    
+
     /**
      * checks if a division should be in the output
      *
@@ -29,11 +30,11 @@ class FullFilter implements FilterInterface
      *
      * @return boolean
      */
-    public function isOutput(\Browscap\Data\Division $division)
+    public function isOutput(Division $division)
     {
         return true;
     }
-    
+
     /**
      * checks if a property should be in the output
      *
@@ -46,7 +47,7 @@ class FullFilter implements FilterInterface
         if (!PropertyHolder::isOutputProperty($property)) {
             return false;
         }
-        
+
         return true;
     }
 }

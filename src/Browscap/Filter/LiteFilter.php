@@ -8,7 +8,8 @@
 
 namespace Browscap\Filter;
 
-use \Browscap\Data\PropertyHolder;
+use Browscap\Data\Division;
+use Browscap\Data\PropertyHolder;
 
 class LiteFilter implements FilterInterface
 {
@@ -21,7 +22,7 @@ class LiteFilter implements FilterInterface
     {
         return 'LITE';
     }
-    
+
     /**
      * checks if a division should be in the output
      *
@@ -29,11 +30,11 @@ class LiteFilter implements FilterInterface
      *
      * @return boolean
      */
-    public function isOutput(\Browscap\Data\Division $division)
+    public function isOutput(Division $division)
     {
         return $division->getLite();
     }
-    
+
     /**
      * checks if a property should be in the output
      *
@@ -46,11 +47,11 @@ class LiteFilter implements FilterInterface
         if (!PropertyHolder::isOutputProperty($property)) {
             return false;
         }
-        
+
         if (PropertyHolder::isExtraProperty($property)) {
             return false;
         }
-        
+
         return true;
     }
 }
