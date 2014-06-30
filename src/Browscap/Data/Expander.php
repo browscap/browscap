@@ -5,9 +5,9 @@ namespace Browscap\Data;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class CollectionParser
+ * Class Expander
  *
- * @package Browscap\Generator
+ * @package Browscap\Data
  */
 class Expander
 {
@@ -73,58 +73,15 @@ class Expander
     {
         return $this->logger;
     }
-
-    /**
-     * Generate and return the formatted browscap data
-     *
-     * @throws \UnexpectedValueException
-     * @return array
-     */
-    public function expand(\Browscap\Data\Division $division)
+    
+    public function getVersionParts($version)
     {
-        $allDivisions = array();
+        $dots = explode('.', $version, 2);
 
-        $this->getLogger()->debug('parse data collection "' . $division->getName() . '" into an array');
-
-        $lite      = $division->getLite();
-        $sortIndex = $division->getSortIndex();
-        $versions  = $division->getVersions();
-
-        foreach ($versions as $version) {
-            $dots = explode('.', $version, 2);
-
-            $majorVer = $dots[0];
-            $minorVer = (isset($dots[1]) ? $dots[1] : 0);
-
-            $userAgents = json_encode($division->getUserAgents());
-            $userAgents = str_replace(
-                array('#MAJORVER#', '#MINORVER#'),
-                array($majorVer, $minorVer),
-                $userAgents
-            );
-
-            $divisionName = str_replace(
-                array('#MAJORVER#', '#MINORVER#'),
-                array($majorVer, $minorVer),
-                $division->getName()
-            );
-
-            $userAgents = json_decode($userAgents, true);
-
-            $allDivisions = $this->handleSingleDivision(
-                $allDivisions,
-                $userAgents,
-                $majorVer,
-                $minorVer,
-                $lite,
-                $sortIndex,
-                $divisionName
-            );
-
-            unset($userAgents, $divisionName, $majorVer, $minorVer);
-        }
-
-        return $allDivisions;
+        $majorVer = $dots[0];
+        $minorVer = (isset($dots[1]) ? $dots[1] : 0);
+        
+        return array($majorVer, $minorVer);
     }
 
     /**
@@ -139,23 +96,18 @@ class Expander
      * @throws \UnexpectedValueException
      * @return array
      */
-    private function handleSingleDivision(array $allDivisions, array $userAgents, $majorVer, $minorVer, $lite,
-        $sortIndex, $divisionName)
+    public function expand(\Browscap\Data\Division $division, $majorVer, $minorVer, $divisionName)
     {
-        $divisions = $this->parseDivision(
-            $userAgents,
+        $allInputDivisions = $this->parseDivision(
+            $division->getUserAgents(),
             $majorVer,
             $minorVer,
-            $lite,
-            $sortIndex,
+            $division->getLite(),
+            $division->getSortIndex(),
             $divisionName
         );
-
-        foreach ($divisions as $key => $divisionData) {
-            $allDivisions[$key] = $divisionData;
-        }
-
-        return $allDivisions;
+        
+        return $this->expandProperties($allInputDivisions);
     }
 
     /**
@@ -214,13 +166,13 @@ class Expander
 
 
 
-        if (!in_array($useragent['properties']['Parent'], $this->allDivision)) {
-            throw new \UnexpectedValueException(
-                'the parent element "' . $useragent['properties']['Parent']
-                . '" for key "' . $useragent['userAgent'] . '" is not added before the element, '
-                . 'please change the SortIndex'
-            );
-        }
+        // if (!in_array($useragent['properties']['Parent'], $this->allDivision)) {
+            // throw new \UnexpectedValueException(
+                // 'the parent element "' . $useragent['properties']['Parent']
+                // . '" for key "' . $useragent['userAgent'] . '" is not added before the element, '
+                // . 'please change the SortIndex'
+            // );
+        // }
 
         if (!isset($uaProperties['Parent'])) {
             throw new \LogicException('the "parent" property is missing for key "' . $uaData['userAgent'] . '"');
@@ -402,15 +354,27 @@ class Expander
     {
         $output = array();
         foreach ($properties as $property => $value) {
-            $value = str_replace(
-                array('#MAJORVER#', '#MINORVER#'),
-                array($majorVer, $minorVer),
-                $value
-            );
-
-            $output[$property] = $value;
+            $output[$property] = $this->parseProperty($value, $majorVer, $minorVer);
         }
         return $output;
+    }
+
+    /**
+     * Render the property of a single User Agent
+     *
+     * @param string $value
+     * @param string $majorVer
+     * @param string $minorVer
+     *
+     * @return string[]
+     */
+    public function parseProperty($value, $majorVer, $minorVer)
+    {
+        return str_replace(
+            array('#MAJORVER#', '#MINORVER#'),
+            array($majorVer, $minorVer),
+            $value
+        );
     }
 
     /**
@@ -426,15 +390,12 @@ class Expander
     {
         $this->getLogger()->debug('expand all properties');
         $allDivisions = array();
+        
+        $ua                = $this->collection->getDefaultProperties()->getUserAgents();
+        $defaultproperties = $ua[0]['properties'];
 
         foreach ($allInputDivisions as $key => $properties) {
             $this->getLogger()->debug('expand all properties for key "' . $key . '"');
-
-            if (!isset($properties['Parent'])
-                && !in_array($key, array('DefaultProperties', '*'))
-            ) {
-                throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
-            }
 
             $userAgent = $key;
             $parents   = array($userAgent);
@@ -450,25 +411,23 @@ class Expander
             unset($userAgent);
 
             $parents     = array_reverse($parents);
-            $browserData = array();
+            $browserData = $defaultproperties;
 
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
-                    throw new \UnexpectedValueException('Parent "' . $parent . '" not found for key "' . $key . '"');
+                    continue;
                 }
 
-                if (!in_array($parent, array('DefaultProperties', '*'))) {
-                    if (!isset($allInputDivisions[$parent]['Parent'])) {
-                        throw new \UnexpectedValueException(
-                            'Parent entry not defined for key "' . $parent . '"'
-                        );
-                    }
+                if (!isset($allInputDivisions[$parent]['Parent'])) {
+                    throw new \UnexpectedValueException(
+                        'Parent entry not defined for key "' . $parent . '"'
+                    );
+                }
 
-                    if (!is_array($allInputDivisions[$parent])) {
-                        throw new \UnexpectedValueException(
-                            'Parent "' . $parent . '" is not an array for key "' . $key . '"'
-                        );
-                    }
+                if (!is_array($allInputDivisions[$parent])) {
+                    throw new \UnexpectedValueException(
+                        'Parent "' . $parent . '" is not an array for key "' . $key . '"'
+                    );
                 }
 
                 if ($key !== $parent

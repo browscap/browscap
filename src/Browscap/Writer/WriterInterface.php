@@ -2,6 +2,7 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -36,6 +37,18 @@ interface WriterInterface
     public function getLogger();
 
     /**
+     * @param boolean $silent
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setSilent($silent);
+
+    /**
+     * @return boolean
+     */
+    public function isSilent();
+
+    /**
      * Generates a start sequence for the output file
      *
      * @return \Browscap\Writer\WriterInterface
@@ -68,6 +81,15 @@ interface WriterInterface
     public function renderVersion(array $versionData = array());
 
     /**
+     * renders the header for all divisions
+     *
+     * @param \Browscap\Data\DataCollection $collection
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderAllDivisionsHeader(DataCollection $collection);
+
+    /**
      * renders the header for a division
      *
      * @param string $division
@@ -79,11 +101,11 @@ interface WriterInterface
     /**
      * renders the header for a section
      *
-     * @param string $division
+     * @param string $sectionName
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionHeader($division);
+    public function renderSectionHeader($sectionName);
 
     /**
      * renders the body for a section
@@ -108,6 +130,13 @@ interface WriterInterface
      * @return \Browscap\Writer\WriterInterface
      */
     public function renderDivisionFooter();
+
+    /**
+     * renders the footer for all divisions
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderAllDivisionsFooter();
 
     /**
      * @param \Browscap\Formatter\FormatterInterface $formatter

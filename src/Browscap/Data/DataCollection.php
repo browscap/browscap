@@ -27,12 +27,12 @@ class DataCollection
     private $divisions = array();
 
     /**
-     * @var array
+     * @var \Browscap\Data\Division
      */
     private $defaultProperties = array();
 
     /**
-     * @var array
+     * @var \Browscap\Data\Division
      */
     private $defaultBrowser = array();
 
@@ -149,10 +149,14 @@ class DataCollection
 
         if (isset($divisionData['lite'])) {
             $division->setLite((boolean) $divisionData['lite']);
+        } else {
+            $division->setLite(false);
         }
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $division->setVersions($divisionData['versions']);
+        } else {
+            $division->setVersions(array('0.0'));
         }
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
@@ -264,7 +268,17 @@ class DataCollection
      */
     public function addDefaultProperties($src)
     {
-        $this->defaultProperties = $this->loadFile($src);
+        $divisionData = $this->loadFile($src);
+        
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+            ->setUserAgents($divisionData['userAgents'])
+            ->setLite((boolean) $divisionData['lite'])
+        ;
+        
+        $this->defaultProperties = $division;
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -281,7 +295,17 @@ class DataCollection
      */
     public function addDefaultBrowser($src)
     {
-        $this->defaultBrowser = $this->loadFile($src);
+        $divisionData = $this->loadFile($src);
+        
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+            ->setUserAgents($divisionData['userAgents'])
+            ->setLite((boolean) $divisionData['lite'])
+        ;
+        
+        $this->defaultBrowser = $division;
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -349,6 +373,26 @@ class DataCollection
         $this->sortDivisions();
 
         return $this->divisions;
+    }
+
+    /**
+     * Get the divisions array containing UA data
+     *
+     * @return \Browscap\Data\Division
+     */
+    public function getDefaultProperties()
+    {
+        return $this->defaultProperties;
+    }
+
+    /**
+     * Get the divisions array containing UA data
+     *
+     * @return \Browscap\Data\Division
+     */
+    public function getDefaultBrowser()
+    {
+        return $this->defaultBrowser;
     }
 
     /**
@@ -532,5 +576,90 @@ class DataCollection
         ) {
             throw new \LogicException($message);
         }
+    }
+
+    /**
+     * @param string  $key
+     * @param array   $properties
+     *
+     * @throws \UnexpectedValueException
+     * @return bool
+     */
+    private function firstCheckProperty($key, array $properties)
+    {
+        $this->logger->debug('check if all required propeties are available');
+
+        if (!isset($properties['Version'])) {
+            throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
+        }
+
+        if (!isset($properties['Parent']) && !in_array($key, array('DefaultProperties', '*'))) {
+            throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['Device_Type'])) {
+            throw new \UnexpectedValueException('property "Device_Type" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isTablet'])) {
+            throw new \UnexpectedValueException('property "isTablet" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isMobileDevice'])) {
+            throw new \UnexpectedValueException('property "isMobileDevice" is missing for key "' . $key . '"');
+        }
+
+        switch ($properties['Device_Type']) {
+            case 'Tablet':
+            case 'FonePad':
+                if (true !== $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'Mobile Phone':
+            case 'Mobile Device':
+            case 'Ebook Reader':
+            case 'Console':
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'TV Device':
+            case 'Desktop':
+            default:
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true === $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Mobile Device for key "'
+                        . $key . '"'
+                    );
+                }
+                break;
+        }
+
+        return true;
     }
 }

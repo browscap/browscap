@@ -17,4 +17,22 @@ interface FilterInterface
      * @return string
      */
     public function getType();
+    
+    /**
+     * checks if a division should be in the output
+     *
+     * @param \Browscap\Data\Division $division
+     *
+     * @return boolean
+     */
+    public function isOutput(\Browscap\Data\Division $division);
+    
+    /**
+     * checks if a property should be in the output
+     *
+     * @param string $property
+     *
+     * @return boolean
+     */
+    public function isOutputProperty($property);
 }

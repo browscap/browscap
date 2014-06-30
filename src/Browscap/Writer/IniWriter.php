@@ -2,6 +2,8 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Data\DataCollection;
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -32,6 +34,11 @@ class IniWriter implements WriterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $type = null;
+    
+    /**
+     * @var boolean
+     */
+    private $silent = false;
 
     /**
      * @param string $file
@@ -39,11 +46,6 @@ class IniWriter implements WriterInterface
     public function __construct($file)
     {
         $this->file = fopen($file, 'w');
-    }
-
-    public function __destruct()
-    {
-        $this->close();
     }
 
     /**
@@ -117,6 +119,26 @@ class IniWriter implements WriterInterface
     }
 
     /**
+     * @param boolean $silent
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setSilent($silent)
+    {
+        $this->silent = (boolean) $silent;
+        
+        return $this;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isSilent()
+    {
+        return $this->silent;
+    }
+
+    /**
      * Generates a start sequence for the output file
      *
      * @return \Browscap\Writer\WriterInterface
@@ -145,6 +167,10 @@ class IniWriter implements WriterInterface
      */
     public function renderHeader(array $comments = array())
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
         $this->getLogger()->debug('rendering comments');
 
         foreach ($comments as $comment) {
@@ -165,6 +191,10 @@ class IniWriter implements WriterInterface
      */
     public function renderVersion(array $versionData = array())
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
         $this->getLogger()->debug('rendering version information');
 
         $this->renderDivisionHeader('Browscap Version');
@@ -196,6 +226,18 @@ class IniWriter implements WriterInterface
     }
 
     /**
+     * renders the header for all divisions
+     *
+     * @param \Browscap\Data\DataCollection $collection
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderAllDivisionsHeader(DataCollection $collection)
+    {
+        return $this;
+    }
+
+    /**
      * renders the header for a division
      *
      * @param string $division
@@ -204,6 +246,10 @@ class IniWriter implements WriterInterface
      */
     public function renderDivisionHeader($division)
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
         fputs($this->file, ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL);
 
         return $this;
@@ -212,25 +258,43 @@ class IniWriter implements WriterInterface
     /**
      * renders the header for a section
      *
-     * @param string $division
+     * @param string $sectionName
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionHeader($division)
+    public function renderSectionHeader($sectionName)
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
+        fputs($this->file, '[' . $sectionName . ']' . PHP_EOL . PHP_EOL);
+        
         return $this;
     }
 
     /**
      * renders all found useragents into a string
      *
-     * @param string[] $allProperties
+     * @param string[] $section
      *
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionBody(array $allProperties)
+    public function renderSectionBody(array $section)
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
+        foreach ($section as $property => $value) {
+            if (!$this->getFilter()->isOutputProperty($property)) {
+                continue;
+            }
+            
+            fputs($this->file, $this->getFormatter()->formatPropertyName($property)  . '=' . $this->getFormatter()->formatPropertyValue($value, $property) . PHP_EOL);
+        }
+        
         return $this;
     }
 
@@ -241,6 +305,12 @@ class IniWriter implements WriterInterface
      */
     public function renderSectionFooter()
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+        
+        fputs($this->file, PHP_EOL);
+        
         return $this;
     }
 
@@ -250,6 +320,16 @@ class IniWriter implements WriterInterface
      * @return \Browscap\Writer\WriterInterface
      */
     public function renderDivisionFooter()
+    {
+        return $this;
+    }
+
+    /**
+     * renders the footer for all divisions
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function renderAllDivisionsFooter()
     {
         return $this;
     }
@@ -367,32 +447,32 @@ class IniWriter implements WriterInterface
                     continue;
                 }
 
-                if (!CollectionParser::isOutputProperty($property)) {
+                if (!PropertyHolder::isOutputProperty($property)) {
                     continue;
                 }
 
-                if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && CollectionParser::isExtraProperty($property)) {
+                if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && PropertyHolder::isExtraProperty($property)) {
                     continue;
                 }
 
                 $value       = $propertiesToOutput[$property];
                 $valueOutput = $value;
 
-                switch (CollectionParser::getPropertyType($property)) {
-                    case CollectionParser::TYPE_STRING:
+                switch (PropertyHolder::getPropertyType($property)) {
+                    case PropertyHolder::TYPE_STRING:
                         if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
                             $valueOutput = '"' . $value . '"';
                         }
                         break;
-                    case CollectionParser::TYPE_BOOLEAN:
+                    case PropertyHolder::TYPE_BOOLEAN:
                         if (true === $value || $value === 'true') {
                             $valueOutput = 'true';
                         } elseif (false === $value || $value === 'false') {
                             $valueOutput = 'false';
                         }
                         break;
-                    case CollectionParser::TYPE_IN_ARRAY:
-                        $valueOutput = CollectionParser::checkValueInArray($property, $value);
+                    case PropertyHolder::TYPE_IN_ARRAY:
+                        $valueOutput = PropertyHolder::checkValueInArray($property, $value);
                         break;
                     default:
                         // nothing t do here
