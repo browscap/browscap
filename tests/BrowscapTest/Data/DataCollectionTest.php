@@ -38,11 +38,9 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         $dir = __DIR__ . '/../../fixtures/ua';
 
         return [
-            $dir . '/default-properties.json',
             $dir . '/test1.json',
             $dir . '/test2.json',
             $dir . '/test3.json',
-            $dir . '/default-browser.json',
         ];
     }
 

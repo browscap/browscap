@@ -109,7 +109,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
         $generator = new Generator();
         self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
-        self::assertSame($generator, $generator->createCollection());
+        self::assertInstanceOf('\Browscap\Data\DataCollection', $generator->createCollection());
     }
 
     public function testParseCollectionThrowsExceptionIfNoCreatorIsSet()

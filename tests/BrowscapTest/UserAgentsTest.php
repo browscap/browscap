@@ -41,7 +41,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $iniFile = $buildFolder . '/full_php_browscap.ini';
 
-        $collection = new DataCollection($version);
+        $collection = new DataCollection('test');
         $collection->setLogger($logger);
 
         $collectionCreator
