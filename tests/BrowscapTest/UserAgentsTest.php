@@ -75,14 +75,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $writerCollection
             ->fileStart()
             ->renderHeader($comments)
-            ->renderVersion(
-                array(
-                    'version'  => 'test',
-                    'released' => $collection->getGenerationDate()->format('r'),
-                    'format'   => $writer->getFormatter()->getType(),
-                    'type'     => $writer->getFilter()->getType(),
-                )
-            )
+            ->renderVersion('test', $collection)
         ;
 
         $writerCollection->renderAllDivisionsHeader($collection);
