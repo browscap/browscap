@@ -37,8 +37,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
         $collectionCreator = new CollectionCreator();
-        $collectionParser = new CollectionParser();
-        $iniGenerator = new BrowscapIniGenerator();
 
         $iniFile = $buildFolder . '/full_php_browscap.ini';
 
