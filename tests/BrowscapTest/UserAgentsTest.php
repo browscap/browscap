@@ -44,6 +44,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $collection = new DataCollection('test');
         $collection->setLogger($logger);
 
+        $expander = new \Browscap\Data\Expander();
+        $expander
+            ->setDataCollection($collection)
+            ->setLogger($logger)
+        ;
+
         $collectionCreator
             ->setLogger($logger)
             ->setDataCollection($collection)
