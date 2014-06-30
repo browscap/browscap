@@ -2,6 +2,7 @@
 
 namespace BrowscapTest;
 
+use Browscap\Data\DataCollection;
 use Browscap\Generator\BrowscapIniGenerator;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\CollectionParser;
