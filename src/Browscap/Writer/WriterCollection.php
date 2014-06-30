@@ -2,6 +2,7 @@
 
 namespace Browscap\Writer;
 
+use Browscap\Data\Division;
 use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
@@ -42,14 +43,14 @@ class WriterCollection
     }
 
     /**
-     * @param boolean $silent
+     * @param \Browscap\Data\Division $division
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function setSilent($silent)
+    public function setSilent(Division $division)
     {
         foreach ($this->writers as $writer) {
-            $writer->setSilent($silent);
+            $writer->setSilent(!$writer->getFilter()->isOutput($division));
         }
 
         return $this;

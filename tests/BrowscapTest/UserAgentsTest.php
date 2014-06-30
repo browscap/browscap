@@ -99,7 +99,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
-            $writerCollection->setSilent(!$writer->getFilter()->isOutput($division));
+            $writerCollection->setSilent();
 
             $versions = $division->getVersions();
 

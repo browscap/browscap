@@ -272,7 +272,7 @@ class BuildGenerator
 
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
-            $writerCollection->setSilent(!$writer->getFilter()->isOutput($division));
+            $writerCollection->setSilent($division);
 
             $versions = $division->getVersions();
 
