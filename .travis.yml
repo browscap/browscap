@@ -8,8 +8,8 @@ php:
   - hhvm-nightly
 
 before_script:
-  - if [ "`phpenv version-name`" >= "5.5" ]; then echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
-  - if [ "`phpenv version-name`" >= "5.5" ]; then echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
+  - if [ "`phpenv version-name`" == "5.5" ] || [ "`phpenv version-name`" == "5.6" ]; then echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
+  - if [ "`phpenv version-name`" == "5.5" ] || [ "`phpenv version-name`" == "5.6" ]; then echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
   - composer self-update
   - composer install --dev --prefer-source
 
