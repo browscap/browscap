@@ -34,7 +34,7 @@ class XmlWriter implements WriterInterface
      * @var FilterInterface
      */
     private $type = null;
-    
+
     /**
      * @var boolean
      */
@@ -126,7 +126,7 @@ class XmlWriter implements WriterInterface
     public function setSilent($silent)
     {
         $this->silent = (boolean) $silent;
-        
+
         return $this;
     }
 
@@ -148,7 +148,7 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
         fputs($this->file, '<browsercaps>' . PHP_EOL);
 
@@ -165,9 +165,9 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, '</browsercaps>' . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -183,7 +183,7 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $this->getLogger()->debug('rendering comments');
 
         fputs($this->file, '<comments>' . PHP_EOL);
@@ -209,7 +209,7 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $this->getLogger()->debug('rendering version information');
 
         fputs($this->file, '<gjk_browscap_version>' . PHP_EOL);
@@ -240,7 +240,7 @@ class XmlWriter implements WriterInterface
     public function renderAllDivisionsHeader(DataCollection $collection)
     {
         fputs($this->file, '<browsercapitems>' . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -268,9 +268,9 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, '<browscapitem name="' . $this->getFormatter()->formatPropertyName($sectionName) . '">' . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -287,15 +287,15 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         foreach ($section as $property => $value) {
             if (!$this->getFilter()->isOutputProperty($property)) {
                 continue;
             }
-            
+
             fputs($this->file, '<item name="' . $this->getFormatter()->formatPropertyName($property)  . '" value="' . $this->getFormatter()->formatPropertyValue($value, $property) . '"/>' . PHP_EOL);
         }
-        
+
         return $this;
     }
 
@@ -309,9 +309,9 @@ class XmlWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, '</browscapitem>' . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -333,150 +333,7 @@ class XmlWriter implements WriterInterface
     public function renderAllDivisionsFooter()
     {
         fputs($this->file, '</browsercapitems>' . PHP_EOL);
-        
+
         return $this;
-    }
-
-    /**
-     * Generate and return the formatted browscap data
-     *
-     * @return string
-     */
-    public function generate()
-    {
-        $this->getLogger()->debug('build output for xml file');
-
-        return $this->render(
-            $this->collectionData,
-            array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
-        );
-    }
-
-    /**
-     * renders all found useragents into a string
-     *
-     * @param array[] $allDivisions
-     * @param array   $allProperties
-     *
-     * @return string
-     */
-    private function render(array $allDivisions, array $allProperties)
-    {
-        $this->getLogger()->debug('rendering XML structure');
-
-        $xmlWriter = new \XMLWriter();
-        $xmlWriter->openMemory();
-        $xmlWriter->setIndent(true);
-        $xmlWriter->setIndentString('');
-        $xmlWriter->startDocument('1.0', 'UTF-8');
-        file_put_contents($this->file, $xmlWriter->flush(true));
-
-        $xmlWriter->startElement('browsercaps');
-        $this->renderHeader($xmlWriter);
-        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
-
-        $this->renderVersion($xmlWriter);
-        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
-
-        $xmlWriter->startElement('browsercapitems');
-
-        $counter = 1;
-
-        $this->getLogger()->debug('rendering all divisions');
-
-        foreach ($allDivisions as $key => $properties) {
-            $this->getLogger()->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
-
-            $counter++;
-
-            if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
-                $this->getLogger()->debug('first check failed on key "' . $key . '" -> skipped');
-
-                continue;
-            }
-
-            if (!in_array($key, array('DefaultProperties', '*'))) {
-                $parent = $allDivisions[$properties['Parent']];
-            } else {
-                $parent = array();
-            }
-
-            $propertiesToOutput = $properties;
-
-            foreach ($propertiesToOutput as $property => $value) {
-                if (!isset($parent[$property])) {
-                    continue;
-                }
-
-                $parentProperty = $parent[$property];
-
-                switch ((string) $parentProperty) {
-                    case 'true':
-                        $parentProperty = true;
-                        break;
-                    case 'false':
-                        $parentProperty = false;
-                        break;
-                    default:
-                        $parentProperty = trim($parentProperty);
-                        break;
-                }
-
-                if ($parentProperty != $value) {
-                    continue;
-                }
-
-                unset($propertiesToOutput[$property]);
-            }
-
-            // create output - xml
-            $xmlWriter->startElement('browscapitem');
-            $xmlWriter->writeAttribute('name', $key);
-
-            foreach ($allProperties as $property) {
-                if (!isset($propertiesToOutput[$property])) {
-                    continue;
-                }
-
-                if (!PropertyHolder::isOutputProperty($property)) {
-                    continue;
-                }
-
-                if (PropertyHolder::isExtraProperty($property)) {
-                    continue;
-                }
-
-                $this->createItem($xmlWriter, $property, $this->formatValue($property, $propertiesToOutput));
-            }
-
-            $xmlWriter->endElement(); // browscapitem
-            file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
-
-            unset($propertiesToOutput);
-        }
-
-        unset($allDivisions, $allProperties, $counter, $key, $properties, $property);
-
-        $xmlWriter->endElement(); // browsercapitems
-        $xmlWriter->endElement(); // browsercaps
-        $xmlWriter->endDocument();
-
-        file_put_contents($this->file, $xmlWriter->flush(true), FILE_APPEND);
-
-        return '';
-    }
-
-    /**
-     * @param \XMLWriter $xmlWriter
-     * @param string     $property
-     * @param mixed      $valueOutput
-     */
-    private function createItem(XMLWriter $xmlWriter, $property, $valueOutput)
-    {
-        $this->getLogger()->debug('create item for property "' . $property . '"');
-        $xmlWriter->startElement('item');
-        $xmlWriter->writeAttribute('name', $property);
-        $xmlWriter->writeAttribute('value', $valueOutput);
-        $xmlWriter->endElement();
     }
 }

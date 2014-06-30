@@ -242,14 +242,7 @@ class BuildGenerator
         $writerCollection
             ->fileStart()
             ->renderHeader($comments)
-            ->renderVersion(
-                array(
-                    'version'  => $version,
-                    'released' => $collection->getGenerationDate()->format('r'),
-                    'format'   => $writer->getFormatter()->getType(),
-                    'type'     => $writer->getFilter()->getType(),
-                )
-            )
+            ->renderVersion($version, $collection)
         ;
 
         $this->getLogger()->info('finished output of header and version');

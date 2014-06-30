@@ -107,7 +107,7 @@ class WriterCollection
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderVersion($version, \Browscap\Data\DataCollection $collection)
+    public function renderVersion($version, DataCollection $collection)
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
@@ -126,7 +126,7 @@ class WriterCollection
     /**
      * renders the header for all divisions
      *
-     * @param \Browscap\Data\DataCollection $collection
+     * @param DataCollection $collection
      *
      * @return \Browscap\Writer\WriterCollection
      */

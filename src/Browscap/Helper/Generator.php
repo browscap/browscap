@@ -3,7 +3,7 @@
 namespace Browscap\Helper;
 
 use Browscap\Generator\BuildGenerator;
-use Browscap\Generator\CollectionParser;
+use Browscap\Helper\CollectionParser;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
@@ -103,7 +103,7 @@ class Generator
     }
 
     /**
-     * @param \Browscap\Generator\CollectionParser $collectionParser
+     * @param \Browscap\Helper\CollectionParser $collectionParser
      *
      * @return \Browscap\Helper\Generator
      */

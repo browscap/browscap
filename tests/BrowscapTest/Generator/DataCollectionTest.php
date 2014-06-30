@@ -84,8 +84,6 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 
         $data->addEnginesFile($this->getEngineJsonFixture());
 
-        $engines = $data->getEngines();
-
         $expected = [
             'Foobar' => [
                 'properties' => [
