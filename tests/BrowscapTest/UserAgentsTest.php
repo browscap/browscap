@@ -42,19 +42,131 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $iniFile = $buildFolder . '/full_php_browscap.ini';
 
-        $generatorHelper = new Generator();
-        $generatorHelper
-            ->setVersion('temporary-version')
+        $collection = new DataCollection($version);
+        $collection->setLogger($logger);
+
+        $collectionCreator
             ->setLogger($logger)
-            ->setResourceFolder($resourceFolder)
-            ->setCollectionCreator($collectionCreator)
-            ->setCollectionParser($collectionParser)
-            ->createCollection()
-            ->parseCollection()
-            ->setGenerator($iniGenerator)
+            ->setDataCollection($collection)
+            ->createDataCollection($resourceFolder)
         ;
 
-        file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
+        $writerCollection = new \Browscap\Writer\WriterCollection();
+        $fullFilter       = new \Browscap\Filter\FullFilter();
+
+        $fullPhpWriter = new \Browscap\Writer\IniWriter($buildFolder . '/full_php_browscap.ini');
+        $formatter     = new \Browscap\Formatter\PhpFormatter();
+        $fullPhpWriter
+            ->setLogger($logger)
+            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFilter($fullFilter)
+        ;
+        $writerCollection->addWriter($fullPhpWriter);
+
+        $comments = array(
+            'Provided courtesy of http://browscap.org/',
+            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+        );
+
+        $writerCollection
+            ->fileStart()
+            ->renderHeader($comments)
+            ->renderVersion(
+                array(
+                    'version'  => $version,
+                    'released' => $collection->getGenerationDate()->format('r'),
+                    'format'   => $writer->getFormatter()->getType(),
+                    'type'     => $writer->getFilter()->getType(),
+                )
+            )
+        ;
+
+        $writerCollection->renderAllDivisionsHeader($collection);
+
+        $division = $collection->getDefaultProperties();
+
+        $writerCollection->renderDivisionHeader($division->getName());
+
+        $ua       = $division->getUserAgents();
+        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
+
+        foreach ($sections as $sectionName => $section) {
+            $writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section)
+                ->renderSectionFooter()
+            ;
+        }
+
+        $writerCollection->renderDivisionFooter();
+
+        foreach ($collection->getDivisions() as $division) {
+            /** @var \Browscap\Data\Division $division */
+            $writerCollection->setSilent(!$writer->getFilter()->isOutput($division));
+
+            $versions = $division->getVersions();
+
+            foreach ($versions as $version) {
+                list($majorVer, $minorVer) = $expander->getVersionParts($version);
+
+                $userAgents = json_encode($division->getUserAgents());
+                $userAgents = $expander->parseProperty($userAgents, $majorVer, $minorVer);
+                $userAgents = json_decode($userAgents, true);
+
+                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
+
+                $writerCollection->renderDivisionHeader($divisionName);
+
+                $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+
+                foreach ($sections as $sectionName => $section) {
+                    $writerCollection
+                        ->renderSectionHeader($sectionName)
+                        ->renderSectionBody($section)
+                        ->renderSectionFooter()
+                    ;
+                }
+
+                $writerCollection->renderDivisionFooter();
+
+                unset($userAgents, $divisionName, $majorVer, $minorVer);
+            }
+        }
+
+        $division = $collection->getDefaultBrowser();
+
+        $writerCollection->renderDivisionHeader($division->getName());
+
+        $ua       = $division->getUserAgents();
+        $sections = array(
+            $ua[0]['userAgent'] => array_merge(
+                array('Parent' => 'DefaultProperties'),
+                $ua[0]['properties']
+            )
+        );
+
+        foreach ($sections as $sectionName => $section) {
+            $writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section)
+                ->renderSectionFooter()
+            ;
+        }
+
+        $writerCollection
+            ->renderDivisionFooter()
+            ->renderAllDivisionsFooter($collection)
+        ;
+
+        $writerCollection
+            ->fileEnd()
+            ->close()
+        ;
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         $browscap = new Browscap($buildFolder);
