@@ -101,7 +101,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
