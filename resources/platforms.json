@@ -1540,6 +1540,7 @@
         "Platform_Maker": "Google Inc",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -1864,6 +1865,10 @@
         "Device_Type": "Tablet",
         "isTablet": "true"
       }
+    },
+    "AndroidGeneric": {
+      "match": "*Android*",
+      "inherits": "Android"
     },
     "HPUX": {
       "match": "*HP-UX*",
