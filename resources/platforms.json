@@ -1707,6 +1707,7 @@
       "inherits": "Android",
       "properties": {
         "Platform": "Android for GoogleTV",
+        "Platform_Version": "3.2",
         "isMobileDevice": "false",
         "Platform_Description": "Android OS for GoogleTV",
         "Device_Type": "TV Device",
