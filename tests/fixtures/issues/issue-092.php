@@ -22,7 +22,7 @@ return [
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
-            'Device_Code_Name' => 'general Mobile Device',
+            'Device_Code_Name' => '306',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
