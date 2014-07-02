@@ -38,6 +38,8 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia500\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "500",
             "Device_Name": "500"
           }
@@ -45,6 +47,8 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
             "Device_Name": "E7"
           }
@@ -62,6 +66,8 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "X7-00",
             "Device_Name": "X7"
           }
@@ -69,6 +75,8 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* Nokia500\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "500",
             "Device_Name": "500"
           }
@@ -86,8 +94,28 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "X7-00",
             "Device_Name": "X7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "700",
+            "Device_Name": "700"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* Nokia808PureView\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "Nokia808PureView",
+            "Device_Name": "808 PureView"
           }
         }
       ]

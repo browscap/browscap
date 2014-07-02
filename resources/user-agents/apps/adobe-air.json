@@ -1,10 +1,11 @@
 {
   "division": "Adobe AIR #MAJORVER#.#MINORVER#",
-  "versions": ["2.7", "3.8"],
+  "versions": ["2.0", "2.5", "2.6", "2.7", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "4.0", "13"],
   "sortIndex": 2060,
   "userAgents": [
     {
       "userAgent": "Adobe AIR #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe AIR #MAJORVER#.#MINORVER#",
@@ -12,7 +13,8 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Adobe Systems Incorporated",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -36,13 +38,8 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
-          },
           "platforms": [
-            "Linux_32", "Win32_B"
+            "Linux_32", "Win32_B", "AndroidGeneric"
           ]
         }
       ]
