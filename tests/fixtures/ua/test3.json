@@ -3,7 +3,7 @@
   "sortIndex": 100,
   "userAgents": [
     {
-      "userAgent": "UA3",
+      "userAgent": "\"UA3",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UA3",

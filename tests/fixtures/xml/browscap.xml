@@ -57,7 +57,7 @@
 <item name="Version" value="1.0"/>
 <item name="MajorVer" value="1"/>
 </browscapitem>
-<browscapitem name="UA3">
+<browscapitem name="&quot;UA3">
 <item name="Parent" value="DefaultProperties"/>
 <item name="Comment" value="UA3"/>
 <item name="Browser" value="UA3"/>

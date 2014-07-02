@@ -52,7 +52,7 @@ return array(
         'sortIndex'  => 100,
         'userAgents' => array(
             0 => array(
-                'userAgent'  => 'UA3',
+                'userAgent'  => '"UA3',
                 'properties' => array(
                     'Parent'   => 'DefaultProperties',
                     'Comment'  => 'UA3',
