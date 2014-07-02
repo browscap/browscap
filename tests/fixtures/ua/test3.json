@@ -3,7 +3,7 @@
   "sortIndex": 100,
   "userAgents": [
     {
-      "userAgent": "\"UA3",
+      "userAgent": "UA3",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UA3",
@@ -11,7 +11,15 @@
         "Version": "3.0",
         "MajorVer": "3",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "'Mozilla\/?.0 (compatible; MSIE*"
+        },
+        {
+          "match": "\"Mozilla\/?.0 (compatible; MSIE*"
+        }
+      ]
     }
   ]
 }
