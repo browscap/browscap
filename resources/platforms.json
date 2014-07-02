@@ -1593,6 +1593,7 @@
         "Platform_Maker": "Google Inc",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -1741,6 +1742,18 @@
         "Platform_Version": "3.2"
       }
     },
+    "Android_3_2_GoogleTV": {
+      "match": "*Linux*GoogleTV 3.2*",
+      "inherits": "Android",
+      "properties": {
+        "Platform": "Android for GoogleTV",
+        "Platform_Version": "3.2",
+        "isMobileDevice": "false",
+        "Platform_Description": "Android OS for GoogleTV",
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "GoogleTV"
+      }
+    },
     "Android_4_0": {
       "match": "*Linux*Android?4.0*",
       "inherits": "Android",
@@ -1868,6 +1881,10 @@
         "Device_Type": "Tablet",
         "isTablet": "true"
       }
+    },
+    "AndroidGeneric": {
+      "match": "*Android*",
+      "inherits": "Android"
     },
     "Android_Dynamic": {
       "match": "*Linux*Android?#MAJORVER#.#MINORVER#*",

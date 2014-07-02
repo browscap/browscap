@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5"],
+  "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5", "9.6", "9.7", "9.8"],
   "sortIndex": 1895,
   "userAgents": [
     {
@@ -99,6 +99,19 @@
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "properties": {
+            "Device_Name": "FP1",
+            "Device_Code_Name": "FP1",
+            "Device_Brand_Name": "Fairphone",
+            "Device_Maker": "Fairphone"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

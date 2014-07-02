@@ -94,6 +94,27 @@
           "match": "Mozilla\/* (PLAYSTATION 3*)"
         }
       ]
+    },
+    {
+      "userAgent": "Sony PS4",
+      "platform": "CellOS",
+      "properties": {
+        "Parent": "Playstation",
+        "Comment": "Playstation 4",
+        "isMobileDevice": "false",
+        "Browser": "Sony PS4",
+        "Browser_Type": "Browser",
+        "Frames": "false",
+        "Device_Code_Name": "Playstation 4",
+        "Device_Name": "Playstation 4",
+        "Device_Maker": "Sony",
+        "Device_Type": "TV Device"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PlayStation 4*)"
+        }
+      ]
     }
   ]
 }
