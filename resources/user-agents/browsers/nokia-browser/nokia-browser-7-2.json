@@ -46,7 +46,7 @@
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.2*",
           "properties": {
             "Device_Maker": "Nokia",
-            "Device_Marketing_Name": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
             "Device_Pointing_Method": "touchscreen"

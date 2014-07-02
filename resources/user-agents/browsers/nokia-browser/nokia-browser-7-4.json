@@ -67,7 +67,7 @@
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.4*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
-            "Device_Marketing_Name": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
             "Device_Pointing_Method": "touchscreen"
@@ -77,7 +77,7 @@
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.4*",
           "properties": {
             "Device_Maker": "Nokia",
-            "Device_Marketing_Name": "Nokia",
+            "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
             "Device_Pointing_Method": "touchscreen"
