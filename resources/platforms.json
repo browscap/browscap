@@ -495,56 +495,56 @@
       "inherits": "iOS"
     },
     "iOS_E_4_3": {
-      "match": "*iPhone OS 4.3*",
+      "match": "*iPhone OS 4?3*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "4.3"
       }
     },
     "iOS_E_5_0": {
-      "match": "*iPhone OS 5.0*",
+      "match": "*iPhone OS 5?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
       }
     },
     "iOS_E_5_1": {
-      "match": "*iPhone OS 5.1*",
+      "match": "*iPhone OS 5?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.1"
       }
     },
     "iOS_E_6_0": {
-      "match": "*iPhone OS 6.0*",
+      "match": "*iPhone OS 6?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.0"
       }
     },
     "iOS_E_6_1": {
-      "match": "*iPhone OS 6.1*",
+      "match": "*iPhone OS 6?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.1"
       }
     },
     "iOS_E_7_0": {
-      "match": "*iPhone OS 7.0*",
+      "match": "*iPhone OS 7?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
       }
     },
     "iOS_E_7_1": {
-      "match": "*iPhone OS 7.1*",
+      "match": "*iPhone OS 7?1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.1"
       }
     },
     "iOS_E_8_0": {
-      "match": "*iPhone OS 8.0*",
+      "match": "*iPhone OS 8?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
@@ -845,7 +845,7 @@
       "inherits": "Windows"
     },
     "Win32_B": {
-      "match": "*Windows; Windows; U*",
+      "match": "*Windows; U*",
       "inherits": "Windows"
     },
     "Win95": {
@@ -1603,42 +1603,42 @@
       }
     },
     "Android_1_0": {
-      "match": "*Linux*Android 1.0*",
+      "match": "*Linux*Android?1.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.0"
       }
     },
     "Android_1_1": {
-      "match": "*Linux*Android 1.1*",
+      "match": "*Linux*Android?1.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.1"
       }
     },
     "Android_1_5": {
-      "match": "*Linux*Android 1.5*",
+      "match": "*Linux*Android?1.5*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.5"
       }
     },
     "Android_1_6": {
-      "match": "*Linux*Android 1.6*",
+      "match": "*Linux*Android?1.6*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "1.6"
       }
     },
     "Android_2_0": {
-      "match": "*Linux*Android 2.0*",
+      "match": "*Linux*Android?2.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.0"
       }
     },
     "Android_2_1": {
-      "match": "*Linux*Android 2.1*",
+      "match": "*Linux*Android?2.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.1"
@@ -1659,7 +1659,7 @@
       }
     },
     "Android_2_2": {
-      "match": "*Linux*Android 2.2*",
+      "match": "*Linux*Android?2.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.2"
@@ -1686,15 +1686,8 @@
         "Platform_Version": "2.2"
       }
     },
-    "Android_2_2_E": {
-      "match": "*Linux/* Android 2.2*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
     "Android_2_3": {
-      "match": "*Linux*Android 2.3*",
+      "match": "*Linux*Android?2.3*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.3"
@@ -1728,29 +1721,22 @@
         "Platform_Version": "2.3"
       }
     },
-    "Android_2_3_F": {
-      "match": "*Linux/* Android 2.3*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
     "Android_3_0": {
-      "match": "*Linux*Android 3.0*",
+      "match": "*Linux*Android?3.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.0"
       }
     },
     "Android_3_1": {
-      "match": "*Linux*Android 3.1*",
+      "match": "*Linux*Android?3.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.1"
       }
     },
     "Android_3_2": {
-      "match": "*Linux*Android 3.2*",
+      "match": "*Linux*Android?3.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "3.2"
@@ -1769,7 +1755,7 @@
       }
     },
     "Android_4_0": {
-      "match": "*Linux*Android 4.0*",
+      "match": "*Linux*Android?4.0*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.0"
@@ -1789,15 +1775,8 @@
         "Platform_Version": "4.0"
       }
     },
-    "Android_4_0_D": {
-      "match": "*Linux/* Android 4.0*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.0"
-      }
-    },
     "Android_4_1": {
-      "match": "*Linux*Android 4.1*",
+      "match": "*Linux*Android?4.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.1"
@@ -1818,13 +1797,6 @@
       }
     },
     "Android_4_1_D": {
-      "match": "*Linux/* Android 4.1*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.1"
-      }
-    },
-    "Android_4_1_E": {
       "match": "*Android 4.1*Linux*",
       "inherits": "Android",
       "properties": {
@@ -1832,7 +1804,7 @@
       }
     },
     "Android_4_2": {
-      "match": "*Linux*Android 4.2*",
+      "match": "*Linux*Android?4.2*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"
@@ -1852,15 +1824,8 @@
         "Platform_Version": "4.2"
       }
     },
-    "Android_4_2_D": {
-      "match": "*Linux/* Android 4.2*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.2"
-      }
-    },
     "Android_4_3": {
-      "match": "*Linux*Android 4.3*",
+      "match": "*Linux*Android?4.3*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.3"
@@ -1880,15 +1845,8 @@
         "Platform_Version": "4.3"
       }
     },
-    "Android_4_3_D": {
-      "match": "*Linux/* Android 4.3*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.3"
-      }
-    },
     "Android_4_4": {
-      "match": "*Linux*Android 4.4*",
+      "match": "*Linux*Android?4.4*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
@@ -1903,13 +1861,6 @@
     },
     "Android_4_4_C": {
       "match": "*; U; Adr 4.4*",
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
-    "Android_4_4_D": {
-      "match": "*Linux/* Android 4.4*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
@@ -1934,6 +1885,13 @@
     "AndroidGeneric": {
       "match": "*Android*",
       "inherits": "Android"
+    },
+    "Android_Dynamic": {
+      "match": "*Linux*Android?#MAJORVER#.#MINORVER#*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
+      }
     },
     "HPUX": {
       "match": "*HP-UX*",
@@ -2362,8 +2320,8 @@
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
         "isMobileDevice": "true",
-        "Device_Maker": "Hewlett-Packard",
-        "Platform_Maker": "Hewlett-Packard",
+        "Device_Maker": "HP",
+        "Platform_Maker": "HP",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
@@ -2421,6 +2379,13 @@
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "2.1"
+      }
+    },
+    "webOS_22": {
+      "match": "*webOS/2.2*",
+      "inherits": "webOS",
+      "properties": {
+        "Platform_Version": "2.2"
       }
     },
     "webOS_B": {
@@ -2559,11 +2524,17 @@
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
-        "Win32": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "Device_Name": "general Mobile Device",
+        "Platform_Description": "Linux Smartphone OS",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     "Maemo": {

@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Browser": "Samsung Mobile Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

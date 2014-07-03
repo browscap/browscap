@@ -39,6 +39,12 @@
           ]
         },
         {
+          "match": "Opera\/*(VRE*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Android"
@@ -144,6 +150,12 @@
             "Device_Code_Name": "GT-E3309T",
             "Device_Brand_Name": "Samsung"
           },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "* Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "JAVA"
           ]

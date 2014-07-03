@@ -1,6 +1,6 @@
 {
   "division": "Airmail #MAJORVER#.#MINORVER#",
-  "versions": [1],
+  "versions": [1, "1.1", "1.2", "1.3", "1.4"],
   "sortIndex": 1660,
   "userAgents": [
     {
@@ -44,7 +44,7 @@
         {
           "match": "Airmail #MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "OSX", "OSX_10_8_B"
+            "OSX", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
           ]
         }
       ]
