@@ -96,7 +96,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section)
+                ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }
@@ -125,7 +125,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 foreach ($sections as $sectionName => $section) {
                     $writerCollection
                         ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section)
+                        ->renderSectionBody($section, $collection, $sections)
                         ->renderSectionFooter()
                     ;
                 }
@@ -151,7 +151,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section)
+                ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }

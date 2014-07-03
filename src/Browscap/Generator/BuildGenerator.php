@@ -264,7 +264,7 @@ class BuildGenerator
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section)
+                ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }
@@ -323,7 +323,7 @@ class BuildGenerator
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section)
+                ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }

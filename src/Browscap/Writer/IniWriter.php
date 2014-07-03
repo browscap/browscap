@@ -311,7 +311,7 @@ class IniWriter implements WriterInterface
                 } else {
                     $parentProperties = $sections[$section['Parent']];
                     
-                    if (isset$parentProperties[$property]) 
+                    if (isset($parentProperties[$property]) 
                         && $parentProperties[$property] === $section[$property]
                     ) {
                         continue;
