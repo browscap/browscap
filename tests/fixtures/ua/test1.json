@@ -47,7 +47,7 @@
     {
       "userAgent": "UA4",
       "properties": {
-        "Parent": "UA3",
+        "Parent": "UA2",
         "Comment": "UA4",
         "Browser": "UA4",
         "MajorVer": "1",
