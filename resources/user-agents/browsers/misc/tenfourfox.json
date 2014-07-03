@@ -34,7 +34,7 @@
           "match": "Mozilla\/5.0 (Macintosh; *Mac OS X 10.5*; rv:17.0) Gecko\/* Firefox\/* TenFourFox\/*",
           "engine": "Gecko_17",
           "platforms": [
-            "OSX", "OSX_10_5_B"
+            "OSX", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
           ]
         }
       ]

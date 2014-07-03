@@ -1,22 +1,28 @@
 {
-  "division": "AndroidDownloadManager 4.1",
+  "division": "AndroidDownloadManager",
+  "versions": ["4.1", "4.2", "4.3", "4.4"],
   "sortIndex": 2130,
   "userAgents": [
     {
-      "userAgent": "AndroidDownloadManager 4.1",
-      "platform": "Android_4_1",
+      "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
+      "platform": "Android_Dynamic",
       "properties": {
-        "Parent": "AndroidDownloadManager",
-        "Version": "4.1",
-        "MajorVer": "4",
-        "MinorVer": "1"
+        "Parent": "Download Managers",
+        "Browser": "Android Download Manager",
+        "Browser_Bits": "32",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Phone",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; * Build\/*)*"
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
         },
         {
-          "match": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; LIFETAB_S9714 Build\/*)*",
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build\/*)*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -27,7 +33,7 @@
           }
         },
         {
-          "match": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; SGPT12 Build\/*)*",
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; SGPT12 Build\/*)*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -38,7 +44,7 @@
           }
         },
         {
-          "match": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; TP10.1-1500DC* Build\/*)*",
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; TP10.1-1500DC* Build\/*)*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -49,7 +55,7 @@
           }
         },
         {
-          "match": "AndroidDownloadManager\/4.1* (Linux; ?; Android 4.1*; Transformer Prime TF201 Build\/*)*",
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",

@@ -194,6 +194,45 @@
           "properties": {
             "Browser": "WISPr"
           }
+        },
+        {
+          "match": "WEB.DE MailCheck\/*",
+          "properties": {
+            "Browser": "WEB.DE MailCheck"
+          }
+        },
+        {
+          "match": "WEB.DE MailCheck\/2.4*",
+          "properties": {
+            "Browser": "WEB.DE MailCheck",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "GMX MailCheck\/*",
+          "properties": {
+            "Browser": "GMX MailCheck"
+          }
+        },
+        {
+          "match": "GMX MailCheck\/2.3*",
+          "properties": {
+            "Browser": "GMX MailCheck",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "GMX MailCheck\/2.4*",
+          "properties": {
+            "Browser": "GMX MailCheck",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
         }
       ]
     }

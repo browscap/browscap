@@ -911,7 +911,14 @@
           }
         },
         {
-          "match": "Wada.vn Vietnamese Search*",
+          "match": "Wada.vn*",
+          "properties": {
+            "Browser": "Wada.vn Search Bot",
+            "Browser_Maker": "WADA"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Wada.vn*",
           "properties": {
             "Browser": "Wada.vn Search Bot",
             "Browser_Maker": "WADA"

@@ -40,21 +40,7 @@
           ]
         },
         {
-          "match": "*Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Huawei\/*\/HUAWEI-G7300 *Opera\/*(MTK*Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "G7300",
-            "Device_Maker": "Huawei",
-            "Device_Code_Name": "G7300",
-            "Device_Brand_Name": "Huawei"
-          },
+          "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]
@@ -67,6 +53,26 @@
         },
         {
           "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "G7300",
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
+          },
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }

@@ -1,0 +1,37 @@
+{
+  "division": "ELinks #MAJORVER#.#MINORVER#",
+  "versions": ["0.4"],
+  "sortIndex": 2299,
+  "userAgents": [
+    {
+      "userAgent": "ELinks #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ELinks #MAJORVER#.#MINORVER#",
+        "Browser": "ELinks",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "Tables": "true",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop"
+      },
+      "children": [
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
