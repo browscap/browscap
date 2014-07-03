@@ -193,7 +193,7 @@ class Expander
         }
 
         $output = array(
-            $uaData['userAgent'] => array_merge(
+            $this->parseProperty($uaData['userAgent'], $majorVer, $minorVer) => array_merge(
                 array(
                     'lite' => $lite,
                     'sortIndex' => $sortIndex,
