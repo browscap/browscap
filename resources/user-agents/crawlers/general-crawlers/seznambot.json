@@ -20,6 +20,9 @@
           "match": "SeznamBot\/*"
         },
         {
+          "match": "Mozilla\/5.0 (compatible; SeznamBot\/*"
+        },
+        {
           "match": "SeznamBot\/3.0*",
           "properties": {
             "Version": "3.0",
@@ -29,6 +32,14 @@
         },
         {
           "match": "SeznamBot\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SeznamBot\/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",

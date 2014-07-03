@@ -290,7 +290,7 @@ class CollectionParser
 
         if (array_key_exists('platform', $uaData)) {
             $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
-            $platformData = $platform['properties'];
+            $platformData = $this->parseProperties($platform['properties'], $majorVer, $minorVer);
         } else {
             $platformData = array();
         }

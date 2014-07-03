@@ -29,13 +29,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#* (like Firefox\/*)",
-          "platforms": [
-            "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Camino\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Camino\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "OSX", "OSX_10_4_B", "OSX_10_5_B", "OSX_10_6_B", "OSX_10_7_B", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
           ]

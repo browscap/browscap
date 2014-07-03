@@ -144,6 +144,9 @@
           "platforms": [
             "Android_2_3"
           ]
+        },
+        {
+          "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         }
       ]
     }

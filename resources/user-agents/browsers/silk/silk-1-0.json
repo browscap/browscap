@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/5.0 Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/5.0 Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari\/* Silk-Accelerated=*",
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
