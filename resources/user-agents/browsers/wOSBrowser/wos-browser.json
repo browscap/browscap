@@ -12,7 +12,7 @@
         "Comment": "WebKit/webOS #MAJORVER#.#MINORVER#",
         "Browser": "WebKit/webOS",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Hewlett-Packard",
+        "Browser_Maker": "HP",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -32,7 +32,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari\/* P160U\/1.0",
           "properties": {
             "Device_Name": "P160U",
-            "Device_Maker": "HP"
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP"
           },
           "platforms": [
             "webOS", "webOS_21"
@@ -46,6 +47,21 @@
           },
           "platforms": [
             "webOS", "webOS_10", "webOS_11", "webOS_12", "webOS_13", "webOS_14", "webOS_20", "webOS_21"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/* Safari\/* Pre/3.*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0",
+            "Device_Code_Name": "Pre",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Pre"
+          },
+          "platforms": [
+            "webOS_22"
           ]
         },
         {

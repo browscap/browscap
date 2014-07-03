@@ -544,7 +544,7 @@
       }
     },
     "iOS_E_8_0": {
-      "match": "*iPhone OS 8.0*",
+      "match": "*iPhone OS 8?0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
@@ -2320,8 +2320,8 @@
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
         "isMobileDevice": "true",
-        "Device_Maker": "Hewlett-Packard",
-        "Platform_Maker": "Hewlett-Packard",
+        "Device_Maker": "HP",
+        "Platform_Maker": "HP",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
@@ -2524,11 +2524,17 @@
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
-        "Win32": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "Device_Name": "general Mobile Device",
+        "Platform_Description": "Linux Smartphone OS",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32",
+        "Device_Pointing_Method": "touchscreen"
       }
     },
     "Maemo": {
