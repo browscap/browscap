@@ -1,0 +1,30 @@
+{
+  "division": "Lotus Notes 4.5",
+  "sortIndex": 1620,
+  "userAgents": [
+    {
+      "userAgent": "Lotus Notes 4.5",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lotus Notes 4.5",
+        "Browser": "Lotus Notes",
+        "Browser_Type": "Application",
+        "Version": "4.5",
+        "MajorVer": "4",
+        "MinorVer": "5",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Lotus-Notes\/4.5 ( Windows-NT )",
+          "platforms": [
+            "NT"
+          ]
+        }
+      ]
+    }
+  ]
+}

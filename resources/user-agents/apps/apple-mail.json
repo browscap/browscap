@@ -51,6 +51,27 @@
           ]
         }
       ]
+    },
+    {
+      "userAgent": "Mail for Windows",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "Mail",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "Windows Desktop"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "platforms": [
+            "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
     }
   ]
 }
