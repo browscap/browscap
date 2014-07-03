@@ -76,6 +76,8 @@
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -87,13 +89,11 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "PC",
         "Device_Maker": "Various",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
       },
       "children": [
         {
@@ -1687,6 +1687,8 @@
         "Parent": "Chrome #MAJORVER#.#MINORVER#",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
