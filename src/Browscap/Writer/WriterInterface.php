@@ -108,14 +108,16 @@ interface WriterInterface
     public function renderSectionHeader($sectionName);
 
     /**
-     * renders the body for a section
+     * renders all found useragents into a string
      *
-     * @param string[] $allProperties
+     * @param string[]                      $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $allProperties);
+    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array());
 
     /**
      * renders the footer for a section

@@ -277,12 +277,14 @@ class XmlWriter implements WriterInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[] $section
+     * @param string[]                      $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section)
+    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {
         if ($this->isSilent()) {
             return $this;

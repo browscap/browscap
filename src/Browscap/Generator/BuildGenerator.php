@@ -249,13 +249,14 @@ class BuildGenerator
 
         $this->getLogger()->info('started output of divisions');
 
-        $writerCollection->renderAllDivisionsHeader($collection);
-
         $division = $collection->getDefaultProperties();
 
         $this->getLogger()->info('handle division ' . $division->getName());
 
-        $writerCollection->renderDivisionHeader($division->getName());
+        $writerCollection
+            ->renderAllDivisionsHeader($collection)
+            ->renderDivisionHeader($division->getName())
+        ;
 
         $ua       = $division->getUserAgents();
         $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
@@ -294,7 +295,7 @@ class BuildGenerator
                 foreach ($sections as $sectionName => $section) {
                     $writerCollection
                         ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section)
+                        ->renderSectionBody($section, $collection, $sections)
                         ->renderSectionFooter()
                     ;
                 }

@@ -36,7 +36,7 @@ class CsvFormatter implements FormatterInterface
      */
     public function formatPropertyName($name)
     {
-        return '"' . $name . '"';
+        return '"' . str_replace('"', '""', $name) . '"';
     }
     
     /**
@@ -49,7 +49,7 @@ class CsvFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, $property)
     {
-        return '"' . $value . '"';
+        return '"' . str_replace('"', '""', $value) . '"';
     }
 
     /**

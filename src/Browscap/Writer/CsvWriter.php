@@ -254,12 +254,14 @@ class CsvWriter implements WriterInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[] $section
+     * @param string[]                      $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section)
+    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {
         if ($this->isSilent()) {
             return $this;
@@ -308,95 +310,5 @@ class CsvWriter implements WriterInterface
     public function renderAllDivisionsFooter()
     {
         return $this;
-    }
-
-    /**
-     * Generate and return the formatted browscap data
-     *
-     * @return string
-     */
-    public function generate()
-    {
-        $this->getLogger()->debug('build output for csv file');
-
-        return $this->render(
-            $this->collectionData,
-            $this->renderVersion(),
-            array_keys(array('Parent' => '') + $this->collectionData['DefaultProperties'])
-        );
-    }
-
-    /**
-     * renders all found useragents into a string
-     *
-     * @param array[] $allDivisions
-     * @param string  $output
-     * @param array   $allProperties
-     *
-     * @return string
-     */
-    private function render(array $allDivisions, $output, array $allProperties)
-    {
-        $this->getLogger()->debug('rendering CSV header');
-
-        $output .= '"PropertyName","AgentID","MasterParent","LiteMode"';
-
-        foreach ($allProperties as $property) {
-
-            if (!PropertyHolder::isOutputProperty($property)) {
-                continue;
-            }
-
-            if (PropertyHolder::isExtraProperty($property)) {
-                continue;
-            }
-
-            $output .= ',"' . $property . '"';
-        }
-
-        $output .= PHP_EOL;
-
-        $counter = 1;
-
-        $this->getLogger()->debug('rendering all divisions');
-        foreach ($allDivisions as $key => $properties) {
-            $this->getLogger()->debug('rendering division "' . $properties['division'] . '" - "' . $key . '"');
-
-            $counter++;
-
-            if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
-                $this->getLogger()->debug('first check failed on key "' . $key . '" -> skipped');
-
-                continue;
-            }
-
-            // create output - csv
-            $output .= '"' . $key . '"'; // PropertyName
-            $output .= ',"' . $counter . '"'; // AgentID
-            $output .= ',"' . $this->detectMasterParent($key, $properties) . '"'; // MasterParent
-
-            $output .= ',"'
-                . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
-
-            foreach ($allProperties as $property) {
-                if (!PropertyHolder::isOutputProperty($property)) {
-                    continue;
-                }
-
-                if (PropertyHolder::isExtraProperty($property)) {
-                    continue;
-                }
-
-                $output .= ',"' . $this->formatValue($property, $properties) . '"';
-
-                unset($property);
-            }
-
-            $output .= PHP_EOL;
-
-            unset($properties);
-        }
-
-        return $output;
     }
 }

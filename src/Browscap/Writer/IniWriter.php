@@ -268,7 +268,7 @@ class IniWriter implements WriterInterface
             return $this;
         }
         
-        fputs($this->file, '[' . $sectionName . ']' . PHP_EOL . PHP_EOL);
+        fputs($this->file, '[' . $sectionName . ']' . PHP_EOL);
         
         return $this;
     }
@@ -276,23 +276,54 @@ class IniWriter implements WriterInterface
     /**
      * renders all found useragents into a string
      *
-     * @param string[] $section
+     * @param string[]                      $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section)
+    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {
         if ($this->isSilent()) {
             return $this;
         }
         
-        foreach ($section as $property => $value) {
-            if (!$this->getFilter()->isOutputProperty($property)) {
+        $division          = $collection->getDefaultProperties();
+        $ua                = $division->getUserAgents();
+        $defaultproperties = $ua[0]['properties'];
+        $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
+        
+        foreach ($properties as $property) {
+            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property)) {
                 continue;
             }
             
-            fputs($this->file, $this->getFormatter()->formatPropertyName($property)  . '=' . $this->getFormatter()->formatPropertyValue($value, $property) . PHP_EOL);
+            if (isset($section['Parent']) && 'Parent' !== $property) {
+                if ('DefaultProperties' === $section['Parent'] 
+                    || !isset($sections[$section['Parent']])
+                ) {
+                    if (isset($defaultproperties[$property]) 
+                        && $defaultproperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                } else {
+                    $parentProperties = $sections[$section['Parent']];
+                    
+                    if (isset$parentProperties[$property]) 
+                        && $parentProperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                }
+            }
+            
+            fputs(
+                $this->file, 
+                $this->getFormatter()->formatPropertyName($property)  
+                . '=' . $this->getFormatter()->formatPropertyValue($section[$property], $property) . PHP_EOL
+            );
         }
         
         return $this;
@@ -332,161 +363,5 @@ class IniWriter implements WriterInterface
     public function renderAllDivisionsFooter()
     {
         return $this;
-    }
-
-    /**
-     * Generate and return the formatted browscap data
-     *
-     * @param string $format
-     * @param string $type
-     *
-     * @return string
-     */
-    public function generate($format = BuildGenerator::OUTPUT_FORMAT_PHP, $type = BuildGenerator::OUTPUT_TYPE_FULL)
-    {
-        $this->getLogger()->debug('build output for ini file');
-        $this->format = $format;
-        $this->type   = $type;
-
-        if (!empty($this->collectionData['DefaultProperties'])) {
-            $defaultPropertyData = $this->collectionData['DefaultProperties'];
-        } else {
-            $defaultPropertyData = array();
-        }
-
-        return $this->render(
-            $this->collectionData,
-            $this->renderHeader() . $this->renderVersion(),
-            array_keys(array('Parent' => '') + $defaultPropertyData)
-        );
-    }
-
-    /**
-     * renders all found useragents into a string
-     *
-     * @param array[] $allDivisions
-     * @param string  $output
-     * @param array   $allProperties
-     *
-     * @throws \InvalidArgumentException
-     * @return string
-     */
-    private function render(array $allDivisions, $output, array $allProperties)
-    {
-        $this->getLogger()->debug('rendering all divisions');
-
-        foreach ($allDivisions as $key => $properties) {
-            if (!isset($properties['division'])) {
-                throw new \InvalidArgumentException('"division" is missing for key "' . $key . '"');
-            }
-
-            $this->getLogger()->debug(
-                'rendering division "' . $properties['division'] . '" - "' . $key . '"'
-            );
-
-            if (!$this->firstCheckProperty($key, $properties, $allDivisions)) {
-                $this->getLogger()->debug('first check failed on key "' . $key . '" -> skipped');
-
-                continue;
-            }
-
-            if (BuildGenerator::OUTPUT_TYPE_LITE === $this->type
-                && (!isset($properties['lite']) || !$properties['lite'])
-            ) {
-                $this->getLogger()->debug('key "' . $key . '" is not enabled for lite mode -> skipped');
-
-                continue;
-            }
-
-            if (!in_array($key, array('DefaultProperties', '*'))) {
-                $parent = $allDivisions[$properties['Parent']];
-            } else {
-                $parent = array();
-            }
-
-            $propertiesToOutput = $properties;
-
-            foreach ($propertiesToOutput as $property => $value) {
-                if (!isset($parent[$property])) {
-                    continue;
-                }
-
-                $parentProperty = $parent[$property];
-
-                switch ((string) $parentProperty) {
-                    case 'true':
-                        $parentProperty = true;
-                        break;
-                    case 'false':
-                        $parentProperty = false;
-                        break;
-                    default:
-                        $parentProperty = trim($parentProperty);
-                        break;
-                }
-
-                if ($parentProperty != $value) {
-                    continue;
-                }
-
-                unset($propertiesToOutput[$property]);
-            }
-
-            // create output - php
-            if ('DefaultProperties' === $key
-                || '*' === $key || empty($properties['Parent'])
-                || 'DefaultProperties' == $properties['Parent']
-            ) {
-                $output .= $this->renderDivisionHeader($properties['division']);
-            }
-
-            $output .= '[' . $key . ']' . PHP_EOL;
-
-            foreach ($allProperties as $property) {
-                if (!isset($propertiesToOutput[$property])) {
-                    continue;
-                }
-
-                if (!PropertyHolder::isOutputProperty($property)) {
-                    continue;
-                }
-
-                if (BuildGenerator::OUTPUT_TYPE_FULL !== $this->type && PropertyHolder::isExtraProperty($property)) {
-                    continue;
-                }
-
-                $value       = $propertiesToOutput[$property];
-                $valueOutput = $value;
-
-                switch (PropertyHolder::getPropertyType($property)) {
-                    case PropertyHolder::TYPE_STRING:
-                        if (BuildGenerator::OUTPUT_FORMAT_PHP === $this->format) {
-                            $valueOutput = '"' . $value . '"';
-                        }
-                        break;
-                    case PropertyHolder::TYPE_BOOLEAN:
-                        if (true === $value || $value === 'true') {
-                            $valueOutput = 'true';
-                        } elseif (false === $value || $value === 'false') {
-                            $valueOutput = 'false';
-                        }
-                        break;
-                    case PropertyHolder::TYPE_IN_ARRAY:
-                        $valueOutput = PropertyHolder::checkValueInArray($property, $value);
-                        break;
-                    default:
-                        // nothing t do here
-                        break;
-                }
-
-                $output .= $property . '=' . $valueOutput . PHP_EOL;
-
-                unset($value, $valueOutput);
-            }
-
-            $output .= PHP_EOL;
-        }
-
-        return $output;
     }
 }

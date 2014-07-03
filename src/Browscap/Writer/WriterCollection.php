@@ -127,7 +127,7 @@ class WriterCollection
     /**
      * renders the header for all divisions
      *
-     * @param DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Writer\WriterCollection
      */
@@ -175,15 +175,17 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param string[] $section
+     * @param string[]                      $section
+     * @param \Browscap\Data\DataCollection $collection
+     * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section)
+    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {
         foreach ($this->writers as $writer) {
-            $writer->renderSectionBody($section);
+            $writer->renderSectionBody($section, $collection, $sections);
         }
 
         return $this;
