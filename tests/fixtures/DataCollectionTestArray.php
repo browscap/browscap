@@ -52,7 +52,7 @@ return array(
         'sortIndex'  => 100,
         'userAgents' => array(
             0 => array(
-                'userAgent'  => '"UA3',
+                'userAgent'  => 'UA3',
                 'properties' => array(
                     'Parent'   => 'DefaultProperties',
                     'Comment'  => 'UA3',
@@ -109,7 +109,7 @@ return array(
                 ),
             ),
             2 => array(
-                'userAgent'  => 'UA3',
+                'userAgent'  => '"UA3',
                 'properties' => array(
                     'Parent'   => 'DefaultProperties',
                     'Comment'  => 'UA3',
@@ -117,6 +117,9 @@ return array(
                     'Version'  => '1.0',
                     'MajorVer' => '1',
                     'MinorVer' => '0',
+                ),
+                'children' => array(
+                    //
                 ),
             ),
             3 => array(
@@ -126,7 +129,7 @@ return array(
                     'Browser'  => 'UA4',
                     'MajorVer' => '1',
                     'MinorVer' => '0',
-                    'Parent' => 'UA3',
+                    'Parent' => 'UA2',
                 ),
             ),
         ),
