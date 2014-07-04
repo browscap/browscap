@@ -73,14 +73,14 @@ class Expander
     {
         return $this->logger;
     }
-    
+
     public function getVersionParts($version)
     {
         $dots = explode('.', $version, 2);
 
         $majorVer = $dots[0];
         $minorVer = (isset($dots[1]) ? $dots[1] : 0);
-        
+
         return array($majorVer, $minorVer);
     }
 
@@ -106,7 +106,7 @@ class Expander
             $division->getSortIndex(),
             $divisionName
         );
-        
+
         return $this->expandProperties($allInputDivisions);
     }
 
@@ -178,7 +178,7 @@ class Expander
 
         if (array_key_exists('platform', $uaData)) {
             $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
-            $platformData = $platform['properties'];
+            $platformData = $this->parseProperties($platform['properties'], $majorVer, $minorVer);
         } else {
             $platformData = array();
         }
@@ -190,8 +190,10 @@ class Expander
             $engineData = array();
         }
 
+        $ua = $this->parseProperty($uaData['userAgent'], $majorVer, $minorVer);
+
         $output = array(
-            $this->parseProperty($uaData['userAgent'], $majorVer, $minorVer) => array_merge(
+            $ua => array_merge(
                 array(
                     'lite' => $lite,
                     'sortIndex' => $sortIndex,
@@ -210,7 +212,7 @@ class Expander
         foreach ($uaData['children'] as $child) {
             $output = array_merge(
                 $output,
-                $this->parseChildren($uaData['userAgent'], $child, $majorVer, $minorVer)
+                $this->parseChildren($ua, $child, $majorVer, $minorVer)
             );
         }
 
@@ -388,7 +390,7 @@ class Expander
     {
         $this->getLogger()->debug('expand all properties');
         $allDivisions = array();
-        
+
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
 

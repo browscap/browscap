@@ -5,7 +5,14 @@
     {
       "userAgent": "Google App Engine",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Comment": "Google App Engine",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Browser": "Google App Engine"
       },
       "children": [

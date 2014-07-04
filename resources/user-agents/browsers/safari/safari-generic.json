@@ -43,6 +43,8 @@
       "userAgent": "Safari Generic for SymbianOS",
       "properties": {
         "Parent": "Safari Generic",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Comment": "Safari Generic",
         "Browser": "Safari",
         "Frames": "true",

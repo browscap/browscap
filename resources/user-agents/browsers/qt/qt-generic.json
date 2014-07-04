@@ -54,6 +54,7 @@
       "userAgent": "Qt Generic for Android",
       "properties": {
         "Parent": "Qt Generic",
+        "Browser_Type": "Browser",
         "Comment": "Qt Generic",
         "Browser": "Qt",
         "Win32": "true",

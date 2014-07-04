@@ -6,6 +6,7 @@
       "userAgent": "cURL PHP",
       "properties": {
         "Parent": "cURL",
+        "Comment": "cURL PHP",
         "Browser_Type": "Library",
         "Browser": "cURL PHP",
         "Browser_Maker": "team Haxx",
