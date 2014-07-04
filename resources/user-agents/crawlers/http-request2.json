@@ -7,7 +7,7 @@
       "properties": {
         "Parent": "PHP",
         "Comment": "PEAR HTTP_Request2",
-        "Browser_Maker": "the PHP Group"
+        "Browser_Maker": "the PHP Group",
         "Browser": "PEAR HTTP_Request2",
         "Browser_Type": "Library",
         "Frames": "true",
