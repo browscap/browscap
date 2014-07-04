@@ -32,7 +32,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
      *
      * @param array[] $allDivisions
      * @param string  $output
-     * @param array   $allProperties
+     * @param string[]   $allProperties
      *
      * @return string
      */

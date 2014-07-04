@@ -3,11 +3,7 @@
 namespace BrowscapTest;
 
 use Browscap\Data\DataCollection;
-use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\BuildGenerator;
-use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
-use Browscap\Helper\Generator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;

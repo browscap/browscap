@@ -98,7 +98,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
      * renders all found useragents into a string
      *
      * @param array[] $allDivisions
-     * @param array   $allProperties
+     * @param string[]   $allProperties
      *
      * @return string
      */
@@ -211,7 +211,7 @@ class BrowscapXmlGenerator extends AbstractGenerator
     /**
      * @param \XMLWriter $xmlWriter
      * @param string     $property
-     * @param mixed      $valueOutput
+     * @param string      $valueOutput
      */
     private function createItem(XMLWriter $xmlWriter, $property, $valueOutput)
     {

@@ -280,7 +280,7 @@ class IniWriter implements WriterInterface
      * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterCollection
+     * @return IniWriter
      */
     public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {

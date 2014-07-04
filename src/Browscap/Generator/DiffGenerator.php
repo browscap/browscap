@@ -3,7 +3,6 @@
 namespace Browscap\Generator;
 
 use Psr\Log\LoggerInterface;
-use ZipArchive;
 use Browscap\Parser\IniParser;
 
 /**

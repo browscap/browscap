@@ -14,6 +14,7 @@ interface WriterInterface
 {
     /**
      * @param string $file
+     * @return void
      */
     public function __construct($file);
 

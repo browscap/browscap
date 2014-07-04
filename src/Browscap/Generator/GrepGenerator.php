@@ -4,7 +4,6 @@ namespace Browscap\Generator;
 
 use Browscap\Command\GrepCommand;
 use Psr\Log\LoggerInterface;
-use ZipArchive;
 use phpbrowscap\Browscap;
 
 /**

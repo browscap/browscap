@@ -16,7 +16,7 @@ class CsvFormatter implements FormatterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $filter = null;
-    
+
     /**
      * returns the Type of the formatter
      *
@@ -26,7 +26,7 @@ class CsvFormatter implements FormatterInterface
     {
         return 'CSV';
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -38,7 +38,7 @@ class CsvFormatter implements FormatterInterface
     {
         return '"' . str_replace('"', '""', $name) . '"';
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -60,7 +60,7 @@ class CsvFormatter implements FormatterInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->filter = $filter;
-        
+
         return $this;
     }
 
