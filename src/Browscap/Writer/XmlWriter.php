@@ -281,7 +281,7 @@ class XmlWriter implements WriterInterface
      * @param array[]                       $sections
      *
      * @throws \InvalidArgumentException
-     * @return \Browscap\Writer\WriterCollection
+     * @return XmlWriter
      */
     public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
     {

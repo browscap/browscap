@@ -3,16 +3,9 @@
 namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\FullFilter;
-use Browscap\Filter\LiteFilter;
-use Browscap\Filter\StandartFilter;
-use Browscap\Formatter\AspFormatter;
-use Browscap\Formatter\CsvFormatter;
 use Browscap\Formatter\PhpFormatter;
-use Browscap\Formatter\XmlFormatter;
-use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
-use Browscap\Writer\XmlWriter;
 use Psr\Log\LoggerInterface;
 
 /**

@@ -12,6 +12,9 @@ use Browscap\Browscap;
  */
 class BrowscapTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @param string $command
+     */
     public function assertAppHasCommand(Application $app, $command)
     {
         $cmdObject = $app->get($command);

@@ -32,7 +32,7 @@ class CollectionParser
      * Set the data collection
      *
      * @param \Browscap\Data\DataCollection $collection
-     * @return \Browscap\Generator\CollectionParser
+     * @return CollectionParser
      */
     public function setDataCollection(DataCollection $collection)
     {
@@ -58,7 +58,7 @@ class CollectionParser
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\CollectionParser
+     * @return CollectionParser
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -152,7 +152,7 @@ class CollectionParser
     /**
      * Returns all available Versions for a given Division
      *
-     * @param array $division
+     * @param \Browscap\Data\Division $division
      *
      * @return array
      */
@@ -460,7 +460,7 @@ class CollectionParser
     /**
      * checks if platform properties are set inside a properties array
      *
-     * @param array  $properties
+     * @param string[]  $properties
      * @param string $message
      *
      * @throws \LogicException
@@ -480,7 +480,7 @@ class CollectionParser
     /**
      * checks if platform properties are set inside a properties array
      *
-     * @param array  $properties
+     * @param string[]  $properties
      * @param string $message
      *
      * @throws \LogicException

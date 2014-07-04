@@ -18,7 +18,7 @@ interface FormatterInterface
      * @return string
      */
     public function getType();
-    
+
     /**
      * formats the name of a property
      *
@@ -27,7 +27,7 @@ interface FormatterInterface
      * @return string
      */
     public function formatPropertyName($name);
-    
+
     /**
      * formats the name of a property
      *

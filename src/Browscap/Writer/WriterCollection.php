@@ -4,7 +4,6 @@ namespace Browscap\Writer;
 
 use Browscap\Data\Division;
 use Browscap\Data\DataCollection;
-use Psr\Log\LoggerInterface;
 
 /**
  * Class BrowscapCsvGenerator

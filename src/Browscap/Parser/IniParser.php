@@ -89,7 +89,7 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @param array $fileLines
+     * @param string[] $fileLines
      */
     public function setFileLines(array $fileLines)
     {

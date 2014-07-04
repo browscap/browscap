@@ -2,8 +2,6 @@
 
 namespace Browscap\Data;
 
-use Psr\Log\LoggerInterface;
-
 /**
  * Class CollectionParser
  *
