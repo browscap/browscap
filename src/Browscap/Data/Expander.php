@@ -164,8 +164,6 @@ class Expander
 
         $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-
-
         // if (!in_array($useragent['properties']['Parent'], $this->allDivision)) {
             // throw new \UnexpectedValueException(
                 // 'the parent element "' . $useragent['properties']['Parent']
@@ -262,7 +260,7 @@ class Expander
                     $properties = array_merge($properties, $childProperties);
                 }
 
-                $output[$uaBase] = $properties;
+                $output[$this->parseProperty($uaBase, $majorVer, $minorVer)] = $properties;
             }
         } else {
             $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
@@ -296,7 +294,7 @@ class Expander
                 $properties = array_merge($properties, $childProperties);
             }
 
-            $output[$uaDataChild['match']] = $properties;
+            $output[$this->parseProperty($uaDataChild['match'], $majorVer, $minorVer)] = $properties;
         }
 
         return $output;
