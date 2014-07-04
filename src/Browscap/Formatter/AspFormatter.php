@@ -53,7 +53,9 @@ class AspFormatter implements FormatterInterface
     {
         $valueOutput = $value;
 
-        switch (PropertyHolder::getPropertyType($property)) {
+        $propertyHolder = new PropertyHolder();
+
+        switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
                     $valueOutput = 'true';
@@ -62,7 +64,7 @@ class AspFormatter implements FormatterInterface
                 }
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
-                $valueOutput = PropertyHolder::checkValueInArray($property, $value);
+                $valueOutput = $propertyHolder->checkValueInArray($property, $value);
                 break;
             default:
                 // nothing t do here

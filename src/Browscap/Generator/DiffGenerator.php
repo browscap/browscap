@@ -4,6 +4,7 @@ namespace Browscap\Generator;
 
 use Psr\Log\LoggerInterface;
 use ZipArchive;
+use Browscap\Parser\IniParser;
 
 /**
  * Class BuildGenerator
@@ -12,26 +13,6 @@ use ZipArchive;
  */
 class DiffGenerator
 {
-    /**@+
-     * @var string
-     */
-    const OUTPUT_FORMAT_PHP = 'php';
-    const OUTPUT_FORMAT_ASP = 'asp';
-    /**@-*/
-
-    /**@+
-     * @var string
-     */
-    const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'normal';
-    const OUTPUT_TYPE_LITE    = 'lite';
-    /**@-*/
-
-    /**
-     * @var string
-     */
-    private $resourceFolder;
-
     /**
      * @var string
      */
@@ -43,179 +24,90 @@ class DiffGenerator
     private $logger = null;
 
     /**
-     * @var \Browscap\Helper\CollectionCreator
-     */
-    private $collectionCreator = null;
-
-    /**
-     * @var \Browscap\Generator\CollectionParser
-     */
-    private $collectionParser = null;
-
-    /**
-     * @var \Browscap\Helper\Generator
-     */
-    private $generatorHelper = null;
-
-    /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     */
-    public function __construct($resourceFolder, $buildFolder)
-    {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
-    }
-
-    /**
-     * @param string $directory
-     * @param string $type
-     *
-     * @return string
-     * @throws \Exception
-     */
-    private function checkDirectoryExists($directory, $type)
-    {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
-        $realDirectory = realpath($directory);
-
-        if ($realDirectory === false) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
-        }
-
-        if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
-        }
-
-        return $realDirectory;
-    }
-
-    /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string $leftFilename
+     * @param string $rightFilename
      */
-    public function generateBuilds($version)
+    public function run($leftFilename, $rightFilename)
     {
-        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->logger->info('Build folder: ' . $this->buildFolder . '');
-
-        $this->writeFiles($version);
-    }
-
-    /**
-     * Write out the various INI file formats, the XML file format, the CSV file format and packs all files to a
-     * zip archive
-     *
-     * @param string $version
-     */
-    private function writeFiles($version)
-    {
-
-        $this->generatorHelper
-            ->setLogger($this->logger)
-            ->setVersion($version)
-            ->setResourceFolder($this->resourceFolder)
-            ->setCollectionCreator($this->collectionCreator)
-            ->setCollectionParser($this->collectionParser)
-            ->createCollection()
-            ->parseCollection()
-        ;
+        $this->logger->debug('parsing left file ' . $leftFilename);
+        $iniParserLeft = new IniParser($leftFilename);
+        $leftFile      = $iniParserLeft->setShouldSort(true)->parse();
 
 
-        $iniGenerator = new BrowscapIniGenerator();
-        $this->generatorHelper->setGenerator($iniGenerator);
+        $this->logger->debug('parsing right file ' . $rightFilename);
+        $iniParserRight = new IniParser($rightFilename);
+        $rightFile      = $iniParserRight->setShouldSort(true)->parse();
 
-        $formats = [
-            [
-                'file' => 'full_asp_browscap.ini',
-                'info' => 'ASP/FULL',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'full_php_browscap.ini',
-                'info' => 'PHP/FULL',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'browscap.ini',
-                'info' => 'ASP',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'php_browscap.ini',
-                'info' => 'PHP',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'lite_asp_browscap.ini',
-                'info' => 'ASP/LITE',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-            [
-                'file' => 'lite_php_browscap.ini',
-                'info' => 'PHP/LITE',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-        ];
+        $this->logger->debug('build diffs between files');
+        $ltrDiff = $this->recursiveArrayDiff($leftFile, $rightFile);
+        $rtlDiff = $this->recursiveArrayDiff($rightFile, $leftFile);
 
-        foreach ($formats as $format) {
-            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
+        $this->logger->debug('LTR');
+        $this->logger->debug(var_export($ltrDiff, true));
 
-            file_put_contents(
-                $this->buildFolder . '/' . $format['file'],
-                $this->generatorHelper->create($format['format'], $format['type'])
+        $this->logger->debug('RTL');
+        $this->logger->debug(var_export($rtlDiff, true));
+
+        if (count($ltrDiff) || count($rtlDiff)) {
+            $this->logger->info('The following differences have been found:');
+            $sectionsRead = array();
+
+            $this->logger->debug('Pass 1 (LTR)');
+            foreach ($ltrDiff as $section => $props) {
+                if (isset($rightFile[$section]) && is_array($rightFile[$section])) {
+                    $this->compareSectionProperties(
+                        $section,
+                        $props,
+                        (isset($rtlDiff[$section]) ? $rtlDiff[$section] : null),
+                        $rightFile[$section]
+                    );
+                } else {
+                    $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on LEFT');
+                    $this->diffsFound++;
+                }
+
+                $sectionsRead[] = $section;
+            }
+
+            $this->logger->debug('Pass 2 (RTL)');
+            foreach ($rtlDiff as $section => $props) {
+                if (in_array($section, $sectionsRead)) {
+                    continue;
+                }
+
+                if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
+                    $this->compareSectionProperties(
+                        $section,
+                        (isset($ltrDiff[$section]) ? $ltrDiff[$section] : array()),
+                        $props,
+                        $rightFile[$section]
+                    );
+                } else {
+                    $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on RIGHT');
+                    $this->diffsFound++;
+                }
+            }
+
+            $msg = sprintf(
+                '%sThere %s %d difference%s found in the comparison.',
+                "\n",
+                ($this->diffsFound == 1 ? 'was'  : 'were'),
+                $this->diffsFound,
+                ($this->diffsFound == 1 ? '' : 's')
             );
+
+            $this->logger->info($msg);
+        } else {
+            $this->logger->info('No differences found, hooray!');
         }
-
-        unset($iniGenerator);
-
-        $this->logger->info('Generating browscap.xml [XML]');
-
-        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
-        $this->generatorHelper->setGenerator($xmlGenerator);
-        $this->generatorHelper->create();
-
-        unset($xmlGenerator);
-
-        $this->logger->info('Generating browscap.csv [CSV]');
-
-        $csvGenerator = new BrowscapCsvGenerator();
-        $this->generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
-
-        unset($csvGenerator);
-
-        $this->logger->info('Generating browscap.zip [ZIP]');
-
-        $zip = new ZipArchive();
-        $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
-
-        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
-        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
-        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
-
-        $zip->close();
     }
 
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return \Browscap\Generator\DiffGenerator
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -225,38 +117,75 @@ class DiffGenerator
     }
 
     /**
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     *
-     * @return \Browscap\Generator\BuildGenerator
+     * @param string $section
+     * @param array  $leftPropsDifferences
+     * @param array  $rightPropsDifferences
+     * @param array  $rightProps
      */
-    public function setCollectionCreator($collectionCreator)
+    private function compareSectionProperties($section, array $leftPropsDifferences, array $rightPropsDifferences, array $rightProps)
     {
-        $this->collectionCreator = $collectionCreator;
+        $this->logger->info('[' . $section . ']');
 
-        return $this;
+        // Diff the properties
+        $propsRead = array();
+
+        if (isset($leftPropsDifferences)) {
+            foreach ($leftPropsDifferences as $prop => $value) {
+                if (isset($rightProps[$prop])) {
+                    $msg = sprintf('"%s" differs (L / R): %s / %s', $prop, $value, $rightProps[$prop]);
+                } else {
+                    $msg = sprintf('"%s" is only on the LEFT', $prop);
+                }
+
+                $this->logger->info($msg);
+                $this->diffsFound++;
+
+                $propsRead[] = $prop;
+            }
+        }
+
+        if (isset($rightPropsDifferences)) {
+            foreach ($rightPropsDifferences as $prop => $value) {
+                if (in_array($prop, $propsRead)) {
+                    continue;
+                }
+
+                $msg = sprintf('"%s" is only on the RIGHT', $prop);
+                $this->logger->info($msg);
+
+                $this->diffsFound++;
+            }
+        }
     }
 
     /**
-     * @param \Browscap\Generator\CollectionParser $collectionParser
+     * @param array $leftArray
+     * @param array $rightArray
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return array
      */
-    public function setCollectionParser($collectionParser)
+    private function recursiveArrayDiff(array $leftArray, array $rightArray)
     {
-        $this->collectionParser = $collectionParser;
+        $diffs = array();
 
-        return $this;
-    }
+        foreach ($leftArray as $key => $value) {
+            if (array_key_exists($key, $rightArray)) {
+                if (is_array($value)) {
+                    $childDiffs = $this->recursiveArrayDiff($value, $rightArray[$key]);
 
-    /**
-     * @param \Browscap\Helper\Generator $generatorHelper
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setGeneratorHelper($generatorHelper)
-    {
-        $this->generatorHelper = $generatorHelper;
+                    if (count($childDiffs)) {
+                        $diffs[$key] = $childDiffs;
+                    }
+                } else {
+                    if ($value != $rightArray[$key]) {
+                        $diffs[$key] = $value;
+                    }
+                }
+            } else {
+                $diffs[$key] = $value;
+            }
+        }
 
-        return $this;
+        return $diffs;
     }
 }

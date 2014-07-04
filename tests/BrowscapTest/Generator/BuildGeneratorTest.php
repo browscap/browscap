@@ -147,6 +147,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setCollectionParser($mockParser));
         self::assertSame($generator, $generator->setGeneratorHelper($mockGenerator));
 
-        $generator->generateBuilds('test');
+        $generator->run('test');
     }
 }

@@ -5,6 +5,7 @@ namespace Browscap\Command;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
+use Browscap\Writer\Factory\FullCollectionFactory;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -59,15 +60,21 @@ class BuildCommand extends Command
 
         $logger->info('Build started.');
 
+        $buildFolder = $input->getOption('output');
+
         $buildGenerator = new BuildGenerator(
             $input->getOption('resources'),
-            $input->getOption('output')
+            $buildFolder
         );
+
+        $writerCollectionFactory = new FullCollectionFactory();
+        $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
 
         $buildGenerator
             ->setLogger($logger)
             ->setCollectionCreator(new CollectionCreator())
-            ->generateBuilds($input->getArgument('version'))
+            ->setWriterCollection($writerCollection)
+            ->run($input->getArgument('version'))
         ;
 
         $logger->info('Build done.');

@@ -3,6 +3,7 @@
 namespace Browscap\Generator;
 
 use Browscap\Data\DataCollection;
+use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
@@ -48,6 +49,9 @@ class BuildGenerator
      */
     private $collectionCreator = null;
 
+    /** @var \Browscap\Writer\WriterCollection */
+    private $writerCollection = null;
+
     /**
      * @param string $resourceFolder
      * @param string $buildFolder
@@ -91,6 +95,18 @@ class BuildGenerator
     }
 
     /**
+     * @param \Browscap\Writer\WriterCollection $writerCollection
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setWriterCollection(WriterCollection $writerCollection)
+    {
+        $this->writerCollection = $writerCollection;
+
+        return $this;
+    }
+
+    /**
      * @param string $directory
      * @param string $type
      *
@@ -121,7 +137,7 @@ class BuildGenerator
      *
      * @param string $version
      */
-    public function generateBuilds($version)
+    public function run($version)
     {
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
@@ -140,84 +156,6 @@ class BuildGenerator
         $this->getLogger()->info('finished creating a data collection');
 
         $this->getLogger()->info('started initialisation of writers');
-
-        $writerCollection = new \Browscap\Writer\WriterCollection();
-
-        $fullFilter = new \Browscap\Filter\FullFilter();
-        $stdFilter  = new \Browscap\Filter\StandartFilter();
-        $liteFilter = new \Browscap\Filter\LiteFilter();
-
-        $fullAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_asp_browscap.ini');
-        $formatter     = new \Browscap\Formatter\AspFormatter();
-        $fullAspWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter)
-        ;
-        $writerCollection->addWriter($fullAspWriter);
-
-        $fullPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/full_php_browscap.ini');
-        $formatter = new \Browscap\Formatter\PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter)
-        ;
-        $writerCollection->addWriter($fullPhpWriter);
-
-        $stdAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/browscap.ini');
-        $formatter    = new \Browscap\Formatter\AspFormatter();
-        $stdAspWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
-        ;
-        $writerCollection->addWriter($stdAspWriter);
-
-        $stdPhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/php_browscap.ini');
-        $formatter    = new \Browscap\Formatter\PhpFormatter();
-        $stdPhpWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
-        ;
-        $writerCollection->addWriter($stdPhpWriter);
-
-        $liteAspWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_asp_browscap.ini');
-        $formatter     = new \Browscap\Formatter\AspFormatter();
-        $liteAspWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($liteFilter))
-            ->setFilter($liteFilter)
-        ;
-        $writerCollection->addWriter($liteAspWriter);
-
-        $litePhpWriter = new \Browscap\Writer\IniWriter($this->buildFolder . '/lite_php_browscap.ini');
-        $formatter     = new \Browscap\Formatter\PhpFormatter();
-        $litePhpWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($liteFilter))
-            ->setFilter($liteFilter)
-        ;
-        $writerCollection->addWriter($litePhpWriter);
-
-        $csvWriter = new \Browscap\Writer\CsvWriter($this->buildFolder . '/browscap.csv');
-        $formatter = new \Browscap\Formatter\CsvFormatter();
-        $csvWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
-        ;
-        $writerCollection->addWriter($csvWriter);
-
-        $xmlWriter = new \Browscap\Writer\XmlWriter($this->buildFolder . '/browscap.xml');
-        $formatter = new \Browscap\Formatter\XmlFormatter();
-        $xmlWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
-        ;
-        $writerCollection->addWriter($xmlWriter);
 
         $expander = new \Browscap\Data\Expander();
         $expander
@@ -239,7 +177,7 @@ class BuildGenerator
             'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
         );
 
-        $writerCollection
+        $this->writerCollection
             ->fileStart()
             ->renderHeader($comments)
             ->renderVersion($version, $collection)
@@ -253,7 +191,7 @@ class BuildGenerator
 
         $this->getLogger()->info('handle division ' . $division->getName());
 
-        $writerCollection
+        $this->writerCollection
             ->renderAllDivisionsHeader($collection)
             ->renderDivisionHeader($division->getName())
         ;
@@ -262,18 +200,18 @@ class BuildGenerator
         $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
 
         foreach ($sections as $sectionName => $section) {
-            $writerCollection
+            $this->writerCollection
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }
 
-        $writerCollection->renderDivisionFooter();
+        $this->writerCollection->renderDivisionFooter();
 
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
-            $writerCollection->setSilent($division);
+            $this->writerCollection->setSilent($division);
 
             $versions = $division->getVersions();
 
@@ -288,19 +226,19 @@ class BuildGenerator
 
                 $this->getLogger()->info('handle division ' . $divisionName);
 
-                $writerCollection->renderDivisionHeader($divisionName);
+                $this->writerCollection->renderDivisionHeader($divisionName);
 
                 $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
 
                 foreach ($sections as $sectionName => $section) {
-                    $writerCollection
+                    $this->writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sections)
                         ->renderSectionFooter()
                     ;
                 }
 
-                $writerCollection->renderDivisionFooter();
+                $this->writerCollection->renderDivisionFooter();
 
                 unset($userAgents, $divisionName, $majorVer, $minorVer);
             }
@@ -310,7 +248,7 @@ class BuildGenerator
 
         $this->getLogger()->info('handle division ' . $division->getName());
 
-        $writerCollection->renderDivisionHeader($division->getName());
+        $this->writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
         $sections = array(
@@ -321,14 +259,14 @@ class BuildGenerator
         );
 
         foreach ($sections as $sectionName => $section) {
-            $writerCollection
+            $this->writerCollection
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections)
                 ->renderSectionFooter()
             ;
         }
 
-        $writerCollection
+        $this->writerCollection
             ->renderDivisionFooter()
             ->renderAllDivisionsFooter($collection)
         ;
@@ -337,7 +275,7 @@ class BuildGenerator
 
         $this->getLogger()->info('started closing writers');
 
-        $writerCollection
+        $this->writerCollection
             ->fileEnd()
             ->close()
         ;

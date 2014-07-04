@@ -3,7 +3,6 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -34,7 +33,7 @@ class CsvWriter implements WriterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $type = null;
-    
+
     /**
      * @var boolean
      */
@@ -126,7 +125,7 @@ class CsvWriter implements WriterInterface
     public function setSilent($silent)
     {
         $this->silent = (boolean) $silent;
-        
+
         return $this;
     }
 
@@ -182,7 +181,7 @@ class CsvWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $this->getLogger()->debug('rendering version information');
 
         fputs($this->file, '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL);
@@ -211,19 +210,19 @@ class CsvWriter implements WriterInterface
     {
         $division = $collection->getDefaultProperties();
         $ua       = $division->getUserAgents();
-        
+
         $values = array();
-        
+
         foreach (array_keys($ua[0]['properties']) as $property) {
             if (!$this->getFilter()->isOutputProperty($property)) {
                 continue;
             }
-            
+
             $values[] = $this->getFormatter()->formatPropertyName($property);
         }
-        
+
         fputs($this->file, implode(',', $values) . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -266,19 +265,19 @@ class CsvWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $values = array();
-        
+
         foreach ($section as $property => $value) {
             if (!$this->getFilter()->isOutputProperty($property)) {
                 continue;
             }
-            
+
             $values[] = $this->getFormatter()->formatPropertyValue($value, $property);
         }
-        
+
         fputs($this->file, implode(',', $values) . PHP_EOL);
-        
+
         return $this;
     }
 

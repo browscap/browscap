@@ -102,6 +102,32 @@ class DataCollection
     }
 
     /**
+     * @param string $src
+     *
+     * @return array
+     * @throws \RuntimeException
+     */
+    private function loadFile($src)
+    {
+        if (!file_exists($src)) {
+            throw new \RuntimeException('File "' . $src . '" does not exist.');
+        }
+
+        if (!is_readable($src)) {
+            throw new \RuntimeException('File "' . $src . '" is not readable.');
+        }
+
+        $fileContent = file_get_contents($src);
+        $json        = json_decode($fileContent, true);
+
+        if (is_null($json)) {
+            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
+        }
+
+        return $json;
+    }
+
+    /**
      * Load a engines.json file and parse it into the platforms data array
      *
      * @param string $src Name of the file
@@ -259,6 +285,45 @@ class DataCollection
     }
 
     /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkPlatformData(array $properties, $message)
+    {
+        if (array_key_exists('Platform', $properties)
+            || array_key_exists('Platform_Description', $properties)
+            || array_key_exists('Platform_Maker', $properties)
+            || array_key_exists('Platform_Bits', $properties)
+            || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkEngineData(array $properties, $message)
+    {
+        if (array_key_exists('RenderingEngine_Name', $properties)
+            || array_key_exists('RenderingEngine_Version', $properties)
+            || array_key_exists('RenderingEngine_Description', $properties)
+            || array_key_exists('RenderingEngine_Maker', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
      * Load a engines.json file and parse it into the platforms data array
      *
      * @param string $src Name of the file
@@ -269,7 +334,7 @@ class DataCollection
     public function addDefaultProperties($src)
     {
         $divisionData = $this->loadFile($src);
-        
+
         $division = new Division();
         $division
             ->setName($divisionData['division'])
@@ -277,7 +342,7 @@ class DataCollection
             ->setUserAgents($divisionData['userAgents'])
             ->setLite((boolean) $divisionData['lite'])
         ;
-        
+
         $this->defaultProperties = $division;
 
         $this->divisionsHaveBeenSorted = false;
@@ -296,7 +361,7 @@ class DataCollection
     public function addDefaultBrowser($src)
     {
         $divisionData = $this->loadFile($src);
-        
+
         $division = new Division();
         $division
             ->setName($divisionData['division'])
@@ -304,7 +369,7 @@ class DataCollection
             ->setUserAgents($divisionData['userAgents'])
             ->setLite((boolean) $divisionData['lite'])
         ;
-        
+
         $this->defaultBrowser = $division;
 
         $this->divisionsHaveBeenSorted = false;
@@ -313,29 +378,15 @@ class DataCollection
     }
 
     /**
-     * @param string $src
+     * Get the divisions array containing UA data
      *
-     * @return array
-     * @throws \RuntimeException
+     * @return \Browscap\Data\Division[]
      */
-    private function loadFile($src)
+    public function getDivisions()
     {
-        if (!file_exists($src)) {
-            throw new \RuntimeException('File "' . $src . '" does not exist.');
-        }
+        $this->sortDivisions();
 
-        if (!is_readable($src)) {
-            throw new \RuntimeException('File "' . $src . '" is not readable.');
-        }
-
-        $fileContent = file_get_contents($src);
-        $json        = json_decode($fileContent, true);
-
-        if (is_null($json)) {
-            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
-        }
-
-        return $json;
+        return $this->divisions;
     }
 
     /**
@@ -361,18 +412,6 @@ class DataCollection
 
             $this->divisionsHaveBeenSorted = true;
         }
-    }
-
-    /**
-     * Get the divisions array containing UA data
-     *
-     * @return \Browscap\Data\Division[]
-     */
-    public function getDivisions()
-    {
-        $this->sortDivisions();
-
-        return $this->divisions;
     }
 
     /**
@@ -537,45 +576,6 @@ class DataCollection
     public function getGenerationDate()
     {
         return $this->generationDate;
-    }
-
-    /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param array  $properties
-     * @param string $message
-     *
-     * @throws \LogicException
-     */
-    private function checkPlatformData(array $properties, $message)
-    {
-        if (array_key_exists('Platform', $properties)
-            || array_key_exists('Platform_Description', $properties)
-            || array_key_exists('Platform_Maker', $properties)
-            || array_key_exists('Platform_Bits', $properties)
-            || array_key_exists('Platform_Version', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
-    }
-
-    /**
-     * checks if platform properties are set inside a properties array
-     *
-     * @param array  $properties
-     * @param string $message
-     *
-     * @throws \LogicException
-     */
-    private function checkEngineData(array $properties, $message)
-    {
-        if (array_key_exists('RenderingEngine_Name', $properties)
-            || array_key_exists('RenderingEngine_Version', $properties)
-            || array_key_exists('RenderingEngine_Description', $properties)
-            || array_key_exists('RenderingEngine_Maker', $properties)
-        ) {
-            throw new \LogicException($message);
-        }
     }
 
     /**

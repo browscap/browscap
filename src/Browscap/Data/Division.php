@@ -37,6 +37,14 @@ class Division
     private $userAgents = array();
 
     /**
+     * @return boolean
+     */
+    public function getLite()
+    {
+        return $this->lite;
+    }
+
+    /**
      * @param boolean $lite
      *
      * @return \Browscap\Data\Division
@@ -49,11 +57,11 @@ class Division
     }
 
     /**
-     * @return boolean
+     * @return string
      */
-    public function getLite()
+    public function getName()
     {
-        return $this->lite;
+        return $this->name;
     }
 
     /**
@@ -69,11 +77,11 @@ class Division
     }
 
     /**
-     * @return string
+     * @return int
      */
-    public function getName()
+    public function getSortIndex()
     {
-        return $this->name;
+        return $this->sortIndex;
     }
 
     /**
@@ -89,11 +97,11 @@ class Division
     }
 
     /**
-     * @return int
+     * @return array
      */
-    public function getSortIndex()
+    public function getUserAgents()
     {
-        return $this->sortIndex;
+        return $this->userAgents;
     }
 
     /**
@@ -111,9 +119,9 @@ class Division
     /**
      * @return array
      */
-    public function getUserAgents()
+    public function getVersions()
     {
-        return $this->userAgents;
+        return $this->versions;
     }
 
     /**
@@ -126,13 +134,5 @@ class Division
         $this->versions = $versions;
 
         return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getVersions()
-    {
-        return $this->versions;
     }
 }

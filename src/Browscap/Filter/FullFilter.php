@@ -44,7 +44,9 @@ class FullFilter implements FilterInterface
      */
     public function isOutputProperty($property)
     {
-        if (!PropertyHolder::isOutputProperty($property)) {
+        $propertyHolder = new PropertyHolder();
+
+        if (!$propertyHolder->isOutputProperty($property)) {
             return false;
         }
 

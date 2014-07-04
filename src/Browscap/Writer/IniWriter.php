@@ -3,7 +3,6 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -34,7 +33,7 @@ class IniWriter implements WriterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $type = null;
-    
+
     /**
      * @var boolean
      */
@@ -126,7 +125,7 @@ class IniWriter implements WriterInterface
     public function setSilent($silent)
     {
         $this->silent = (boolean) $silent;
-        
+
         return $this;
     }
 
@@ -170,7 +169,7 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $this->getLogger()->debug('rendering comments');
 
         foreach ($comments as $comment) {
@@ -194,7 +193,7 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $this->getLogger()->debug('rendering version information');
 
         $this->renderDivisionHeader('Browscap Version');
@@ -249,7 +248,7 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ' . $division . PHP_EOL . PHP_EOL);
 
         return $this;
@@ -267,9 +266,9 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, '[' . $sectionName . ']' . PHP_EOL);
-        
+
         return $this;
     }
 
@@ -288,44 +287,44 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         $division          = $collection->getDefaultProperties();
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
-        
+
         foreach ($properties as $property) {
             if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property)) {
                 continue;
             }
-            
+
             if (isset($section['Parent']) && 'Parent' !== $property) {
-                if ('DefaultProperties' === $section['Parent'] 
+                if ('DefaultProperties' === $section['Parent']
                     || !isset($sections[$section['Parent']])
                 ) {
-                    if (isset($defaultproperties[$property]) 
+                    if (isset($defaultproperties[$property])
                         && $defaultproperties[$property] === $section[$property]
                     ) {
                         continue;
                     }
                 } else {
                     $parentProperties = $sections[$section['Parent']];
-                    
-                    if (isset($parentProperties[$property]) 
+
+                    if (isset($parentProperties[$property])
                         && $parentProperties[$property] === $section[$property]
                     ) {
                         continue;
                     }
                 }
             }
-            
+
             fputs(
-                $this->file, 
-                $this->getFormatter()->formatPropertyName($property)  
+                $this->file,
+                $this->getFormatter()->formatPropertyName($property)
                 . '=' . $this->getFormatter()->formatPropertyValue($section[$property], $property) . PHP_EOL
             );
         }
-        
+
         return $this;
     }
 
@@ -339,9 +338,9 @@ class IniWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-        
+
         fputs($this->file, PHP_EOL);
-        
+
         return $this;
     }
 

@@ -24,7 +24,7 @@ class PropertyHolder
      * @throws \Exception
      * @return string
      */
-    public static function getPropertyType($propertyName)
+    public function getPropertyType($propertyName)
     {
         switch ($propertyName) {
             case 'Comment':
@@ -92,7 +92,7 @@ class PropertyHolder
      * @param string $propertyName
      * @return boolean
      */
-    public static function isExtraProperty($propertyName)
+    public function isExtraProperty($propertyName)
     {
         switch ($propertyName) {
             case 'Browser_Type':
@@ -128,7 +128,7 @@ class PropertyHolder
      * @param string $propertyName
      * @return boolean
      */
-    public static function isOutputProperty($propertyName)
+    public function isOutputProperty($propertyName)
     {
         switch ($propertyName) {
             case 'Comment':
@@ -192,7 +192,7 @@ class PropertyHolder
      * @throws \InvalidArgumentException
      * @return string
      */
-    public static function checkValueInArray($property, $value)
+    public function checkValueInArray($property, $value)
     {
         switch ($property) {
             case 'Browser_Type':

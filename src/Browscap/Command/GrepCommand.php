@@ -85,10 +85,10 @@ class GrepCommand extends Command
             throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
         }
 
-        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
+        $cacheDir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
-        if (!file_exists($cache_dir)) {
-            mkdir($cache_dir, 0777, true);
+        if (!file_exists($cacheDir)) {
+            mkdir($cacheDir, 0777, true);
         }
 
         $debug = $input->getOption('debug');
@@ -101,87 +101,31 @@ class GrepCommand extends Command
         if (!$iniFile || !file_exists($iniFile)) {
             $this->logger->info('iniFile Argument not set or invalid - creating iniFile from resources');
 
-            $iniFile = $cache_dir . 'full_php_browscap.ini';
-            $resourceFolder = $input->getOption('resources');
+            $iniFile = $cacheDir . 'full_php_browscap.ini';
 
-            $collectionCreator = new CollectionCreator();
-            $collectionParser = new CollectionParser();
-            $iniGenerator = new BrowscapIniGenerator();
+            $buildGenerator = new BuildGenerator(
+                $input->getOption('resources'),
+                $cacheDir
+            );
 
-            $generatorHelper = new Generator();
-            $generatorHelper
-                ->setLogger($this->logger)
-                ->setVersion('temporary-version')
-                ->setResourceFolder($resourceFolder)
-                ->setCollectionCreator($collectionCreator)
-                ->setCollectionParser($collectionParser)
-                ->createCollection()
-                ->parseCollection()
-                ->setGenerator($iniGenerator)
+            $writerCollectionFactory = new \Browscap\Writer\Factory\FullPhpWriterFactory();
+            $writerCollection        = $writerCollectionFactory->createCollection($logger, $cacheDir);
+
+            $buildGenerator
+                ->setLogger($logger)
+                ->setCollectionCreator(new CollectionCreator())
+                ->setWriterCollection($writerCollection)
+                ->run($input->getArgument('version'))
+            ;
+        }
+
+        $generator = new \Browscap\Generator\GrepGenerator();
+
+        $generator
+            ->setLogger($logger)
+            ->run($cacheDir, $iniFile, $inputFile, $mode)
             ;
 
-            file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
-        }
-
-        $this->logger->debug('initialize Browscap');
-        $this->browscap = new Browscap($cache_dir);
-        $this->browscap->localFile = $iniFile;
-
-        $fileContents = file_get_contents($inputFile);
-
-        if (false !== strpos("\r\n", $fileContents)) {
-            $uas = explode("\r\n", $fileContents);
-        } else {
-            $uas = explode("\n", $fileContents);
-        }
-
-        $foundMode = 0;
-        $foundInvisible = 0;
-        $foundUnexpected = 0;
-
-        foreach (array_unique($uas) as $ua) {
-            if (!$ua) {
-                continue;
-            }
-
-            $check = $this->testUA($ua, $mode);
-
-            if ($check === $mode) {
-                $foundMode++;
-            } elseif ($check === self::FOUND_INVISIBLE) {
-                $foundInvisible++;
-            } else {
-                $foundUnexpected++;
-            }
-        }
-
-        $this->logger->info(
-            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
-            . ' UAs had unexpected results'
-        );
         $this->logger->info('Grep done.');
-    }
-
-    /**
-     * @param string $ua
-     * @param string $mode
-     *
-     * @return string
-     */
-    protected function testUA($ua, $mode)
-    {
-        $data = $this->browscap->getBrowser($ua, true);
-
-        if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-            $this->logger->info($ua);
-
-            return self::MODE_UNMATCHED;
-        } elseif ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-            $this->logger->info($ua);
-
-            return self::MODE_MATCHED;
-        }
-
-        return self::FOUND_INVISIBLE;
     }
 }

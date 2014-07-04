@@ -18,7 +18,7 @@ class PhpFormatter implements FormatterInterface
      * @var \Browscap\Filter\FilterInterface
      */
     private $filter = null;
-    
+
     /**
      * returns the Type of the formatter
      *
@@ -28,7 +28,7 @@ class PhpFormatter implements FormatterInterface
     {
         return 'PHP';
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -40,7 +40,7 @@ class PhpFormatter implements FormatterInterface
     {
         return $name;
     }
-    
+
     /**
      * formats the name of a property
      *
@@ -52,8 +52,10 @@ class PhpFormatter implements FormatterInterface
     public function formatPropertyValue($value, $property)
     {
         $valueOutput = $value;
-        
-        switch (PropertyHolder::getPropertyType($property)) {
+
+        $propertyHolder = new PropertyHolder();
+
+        switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
                 $valueOutput = '"' . $value . '"';
                 break;
@@ -65,13 +67,13 @@ class PhpFormatter implements FormatterInterface
                 }
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
-                $valueOutput = PropertyHolder::checkValueInArray($property, $value);
+                $valueOutput = $propertyHolder->checkValueInArray($property, $value);
                 break;
             default:
                 // nothing t do here
                 break;
         }
-        
+
         return $valueOutput;
     }
 
@@ -83,7 +85,7 @@ class PhpFormatter implements FormatterInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->filter = $filter;
-        
+
         return $this;
     }
 

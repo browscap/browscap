@@ -2,8 +2,10 @@
 
 namespace Browscap\Generator;
 
+use Browscap\Command\GrepCommand;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
+use phpbrowscap\Browscap;
 
 /**
  * Class BuildGenerator
@@ -12,210 +14,68 @@ use ZipArchive;
  */
 class GrepGenerator
 {
-    /**@+
-     * @var string
-     */
-    const OUTPUT_FORMAT_PHP = 'php';
-    const OUTPUT_FORMAT_ASP = 'asp';
-    /**@-*/
-
-    /**@+
-     * @var string
-     */
-    const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'normal';
-    const OUTPUT_TYPE_LITE    = 'lite';
-    /**@-*/
-
-    /**
-     * @var string
-     */
-    private $resourceFolder;
-
-    /**
-     * @var string
-     */
-    private $buildFolder;
-
     /**
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;
 
     /**
-     * @var \Browscap\Helper\CollectionCreator
+     * @var \phpbrowscap\Browscap
      */
-    private $collectionCreator = null;
-
-    /**
-     * @var \Browscap\Generator\CollectionParser
-     */
-    private $collectionParser = null;
-
-    /**
-     * @var \Browscap\Helper\Generator
-     */
-    private $generatorHelper = null;
-
-    /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     */
-    public function __construct($resourceFolder, $buildFolder)
-    {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
-    }
-
-    /**
-     * @param string $directory
-     * @param string $type
-     *
-     * @return string
-     * @throws \Exception
-     */
-    private function checkDirectoryExists($directory, $type)
-    {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
-        $realDirectory = realpath($directory);
-
-        if ($realDirectory === false) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
-        }
-
-        if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
-        }
-
-        return $realDirectory;
-    }
+    private $browscap = null;
 
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string $cacheDir
+     * @param string $iniFile
+     * @param string $inputFile
+     * @param string $mode
      */
-    public function generateBuilds($version)
+    public function run($cacheDir, $iniFile, $inputFile, $mode)
     {
-        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->logger->info('Build folder: ' . $this->buildFolder . '');
+        $this->logger->debug('initialize Browscap');
+        $this->browscap = new Browscap($cacheDir);
+        $this->browscap->localFile = $iniFile;
 
-        $this->writeFiles($version);
-    }
+        $fileContents = file_get_contents($inputFile);
 
-    /**
-     * Write out the various INI file formats, the XML file format, the CSV file format and packs all files to a
-     * zip archive
-     *
-     * @param string $version
-     */
-    private function writeFiles($version)
-    {
-
-        $this->generatorHelper
-            ->setLogger($this->logger)
-            ->setVersion($version)
-            ->setResourceFolder($this->resourceFolder)
-            ->setCollectionCreator($this->collectionCreator)
-            ->setCollectionParser($this->collectionParser)
-            ->createCollection()
-            ->parseCollection()
-        ;
-
-
-        $iniGenerator = new BrowscapIniGenerator();
-        $this->generatorHelper->setGenerator($iniGenerator);
-
-        $formats = [
-            [
-                'file' => 'full_asp_browscap.ini',
-                'info' => 'ASP/FULL',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'full_php_browscap.ini',
-                'info' => 'PHP/FULL',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'browscap.ini',
-                'info' => 'ASP',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'php_browscap.ini',
-                'info' => 'PHP',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'lite_asp_browscap.ini',
-                'info' => 'ASP/LITE',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-            [
-                'file' => 'lite_php_browscap.ini',
-                'info' => 'PHP/LITE',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-        ];
-
-        foreach ($formats as $format) {
-            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
-
-            file_put_contents(
-                $this->buildFolder . '/' . $format['file'],
-                $this->generatorHelper->create($format['format'], $format['type'])
-            );
+        if (false !== strpos("\r\n", $fileContents)) {
+            $uas = explode("\r\n", $fileContents);
+        } else {
+            $uas = explode("\n", $fileContents);
         }
 
-        unset($iniGenerator);
+        $foundMode       = 0;
+        $foundInvisible  = 0;
+        $foundUnexpected = 0;
 
-        $this->logger->info('Generating browscap.xml [XML]');
+        foreach (array_unique($uas) as $ua) {
+            if (!$ua) {
+                continue;
+            }
 
-        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
-        $this->generatorHelper->setGenerator($xmlGenerator);
-        $this->generatorHelper->create();
+            $check = $this->testUA($ua, $mode);
 
-        unset($xmlGenerator);
+            if ($check === $mode) {
+                $foundMode++;
+            } elseif ($check === GrepCommand::FOUND_INVISIBLE) {
+                $foundInvisible++;
+            } else {
+                $foundUnexpected++;
+            }
+        }
 
-        $this->logger->info('Generating browscap.csv [CSV]');
-
-        $csvGenerator = new BrowscapCsvGenerator();
-        $this->generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
-
-        unset($csvGenerator);
-
-        $this->logger->info('Generating browscap.zip [ZIP]');
-
-        $zip = new ZipArchive();
-        $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
-
-        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
-        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
-        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
-
-        $zip->close();
+        $this->logger->info(
+            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
+            . ' UAs had unexpected results'
+        );
     }
 
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return \Browscap\Generator\GrepGenerator
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -225,38 +85,25 @@ class GrepGenerator
     }
 
     /**
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     * @param string $ua
+     * @param string $mode
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return string
      */
-    public function setCollectionCreator($collectionCreator)
+    private function testUA($ua, $mode)
     {
-        $this->collectionCreator = $collectionCreator;
+        $data = $this->browscap->getBrowser($ua, true);
 
-        return $this;
-    }
+        if ($mode == GrepCommand::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
+            $this->logger->info($ua);
 
-    /**
-     * @param \Browscap\Generator\CollectionParser $collectionParser
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setCollectionParser($collectionParser)
-    {
-        $this->collectionParser = $collectionParser;
+            return GrepCommand::MODE_UNMATCHED;
+        } elseif ($mode == GrepCommand::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
+            $this->logger->info($ua);
 
-        return $this;
-    }
+            return GrepCommand::MODE_MATCHED;
+        }
 
-    /**
-     * @param \Browscap\Helper\Generator $generatorHelper
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setGeneratorHelper($generatorHelper)
-    {
-        $this->generatorHelper = $generatorHelper;
-
-        return $this;
+        return GrepCommand::FOUND_INVISIBLE;
     }
 }

@@ -44,11 +44,13 @@ class StandartFilter implements FilterInterface
      */
     public function isOutputProperty($property)
     {
-        if (!PropertyHolder::isOutputProperty($property)) {
+        $propertyHolder = new PropertyHolder();
+
+        if (!$propertyHolder->isOutputProperty($property)) {
             return false;
         }
 
-        if (PropertyHolder::isExtraProperty($property)) {
+        if ($propertyHolder->isExtraProperty($property)) {
             return false;
         }
 
