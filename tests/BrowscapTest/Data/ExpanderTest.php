@@ -70,7 +70,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mock));
 
-        $result = $this->object->parse();
+        $result = $this->object->expand();
         self::assertInternalType('array', $result);
         self::assertCount(0, $result);
     }
@@ -118,7 +118,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mock));
 
-        $this->object->parse();
+        $this->object->expand();
     }
 
     public function testParseParsesChildren()
@@ -184,7 +184,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mock));
 
-        $result = $this->object->parse();
+        $result = $this->object->expand();
         self::assertInternalType('array', $result);
 
         $expected = array (
@@ -302,6 +302,6 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mock));
 
-        $this->object->parse();
+        $this->object->expand();
     }
 }
