@@ -79,7 +79,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array()))
+            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
         ;
 
         $mockCollection
