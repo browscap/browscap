@@ -1,4 +1,19 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Command
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Command;
 
@@ -14,9 +29,11 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * @author James Titcumb <james@asgrim.com>
- * @package Browscap\Command
+ * Class GrepCommand
  *
+ * @category   Browscap
+ * @package    Command
+ * @author     James Titcumb <james@asgrim.com>
  */
 class GrepCommand extends Command
 {
@@ -38,17 +55,15 @@ class GrepCommand extends Command
     /**
      * @var \phpbrowscap\Browscap
      */
-    protected $browscap;
+    private $browscap;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    protected $logger = null;
+    private $logger = null;
 
     /**
-     * (non-PHPdoc)
-     *
-     * @see \Symfony\Component\Console\Command\Command::configure()
+     * Configures the current command.
      */
     protected function configure()
     {
@@ -66,9 +81,20 @@ class GrepCommand extends Command
     }
 
     /**
-     * (non-PHPdoc)
+     * Executes the current command.
      *
-     * @see \Symfony\Component\Console\Command\Command::execute()
+     * This method is not abstract because you can use this class
+     * as a concrete class. In this case, instead of defining the
+     * execute() method, you set the code to execute by passing
+     * a Closure to the setCode() method.
+     *
+     * @param InputInterface  $input  An InputInterface instance
+     * @param OutputInterface $output An OutputInterface instance
+     *
+     * @return null|integer null or 0 if everything went fine, or an error code
+     *
+     * @throws \LogicException When this abstract method is not implemented
+     * @see    setCode()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -122,7 +148,7 @@ class GrepCommand extends Command
         $generator
             ->setLogger($logger)
             ->run($cacheDir, $iniFile, $inputFile, $mode)
-            ;
+        ;
 
         $this->logger->info('Grep done.');
     }

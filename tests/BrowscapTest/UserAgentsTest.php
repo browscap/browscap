@@ -1,4 +1,19 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   BrowscapTest
+ * @package    Test
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace BrowscapTest;
 
@@ -11,15 +26,22 @@ use phpbrowscap\Browscap;
 /**
  * Class UserAgentsTest
  *
- * @package BrowscapTest
+ * @category   BrowscapTest
+ * @package    Test
+ * @author     James Titcumb <james@asgrim.com>
  */
 class UserAgentsTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var \phpbrowscap\Browscap
      */
-    protected static $browscap;
+    private static $browscap;
 
+    /**
+     * This method is called before the first test of this test class is run.
+     *
+     * @since Method available since Release 3.4.0
+     */
     public static function setUpBeforeClass()
     {
         // First, generate the INI files
@@ -163,10 +185,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         ;
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        $browscap = new Browscap($buildFolder);
-        $browscap->localFile = $iniFile;
-
-        self::$browscap = $browscap;
+        self::$browscap = new Browscap($buildFolder);
+        self::$browscap->localFile = $iniFile;
     }
 
     public function userAgentDataProvider()

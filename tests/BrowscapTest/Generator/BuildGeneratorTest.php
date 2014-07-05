@@ -1,4 +1,19 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   BrowscapTest
+ * @package    Generator
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace BrowscapTest\Generator;
 
@@ -9,7 +24,9 @@ use Monolog\Logger;
 /**
  * Class BuildGeneratorTest
  *
- * @package BrowscapTest\Generator
+ * @category   BrowscapTest
+ * @package    Generator
+ * @author     James Titcumb <james@asgrim.com>
  */
 class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +40,11 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     private $logger = null;
 
+    /**
+     * Sets up the fixture, for example, open a network connection.
+     * This method is called before a test is executed.
+     *
+     */
     public function setUp()
     {
         $this->markTestSkipped('need to be updated');

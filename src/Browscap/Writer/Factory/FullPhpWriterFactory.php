@@ -1,4 +1,19 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Data\Factory
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Writer\Factory;
 
@@ -9,9 +24,11 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class BuildGenerator
+ * Class FullPhpWriterFactory
  *
- * @package Browscap\Generator
+ * @category   Browscap
+ * @package    Data\Factory
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class FullPhpWriterFactory
 {

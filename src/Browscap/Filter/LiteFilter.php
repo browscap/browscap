@@ -1,9 +1,18 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Thomas Müller2
- * Date: 29.06.14
- * Time: 00:13
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Filter
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
  */
 
 namespace Browscap\Filter;
@@ -11,6 +20,13 @@ namespace Browscap\Filter;
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
 
+/**
+ * Class LiteFilter
+ *
+ * @category   Browscap
+ * @package    Filter
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ */
 class LiteFilter implements FilterInterface
 {
     /**
