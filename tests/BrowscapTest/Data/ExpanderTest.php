@@ -74,10 +74,18 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
             ->method('getDivisions')
             ->will(self::returnValue(array()))
         ;
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue(array()))
+        ;
+
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue(array('abc' => 'def')))
+            ->will(self::returnValue($mockDivision))
         ;
 
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
