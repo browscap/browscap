@@ -53,255 +53,45 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
 
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $mock = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mock));
+        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
+        self::assertSame($mockCollection, $this->object->getDataCollection());
     }
 
     public function testParseDoesNothingOnEmptyDatacollection()
     {
-        $mock = $this->getMock('\Browscap\Data\DataCollection', array('getDivisions'), array(), '', false);
-        $mock->expects($this->once())
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDivisions', 'getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::never())
             ->method('getDivisions')
+            ->will(self::returnValue(array()))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue(array('abc' => 'def')))
+        ;
+
+        $mockDivision = $this->getMock('\Browscap\Data\DataCollection', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
             ->will(self::returnValue(array()))
         ;
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mock));
+        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
 
-        $result = $this->object->expand();
+        $result = $this->object->expand($mockDivision, 0, 0, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(0, $result);
-    }
-
-    /**
-     * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage the parent element "abc" for key "test/1.*" is not added before the element, please change the SortIndex
-     */
-    public function testParseSkipsEmptyOrInvalidDivisions()
-    {
-        $divisions = array(
-            array('division' => 'Browscap Version'),
-            array(
-                'division' => 'DefaultProperties',
-                'sortIndex' => 1,
-                'lite' => true,
-                'userAgents' => array(array('userAgent' => 'DefaultProperties', 'properties' => array('Browser' => 'test', 'Version' => '0')))
-            ),
-            array(
-                'division' => 'abc',
-                'sortIndex' => 2,
-                'lite' => false,
-                'userAgents' => array(array('userAgent' => 'test', 'properties' => array('Parent' => 'DefaultProperties')))
-            ),
-            array(
-                'division' => 'abc #MAJORVER#.#MINORVER#',
-                'versions' => array('1.0'),
-                'sortIndex' => 3,
-                'userAgents' => array(array('userAgent' => 'test/1.*', 'properties' => array('Parent' => 'abc', 'Version' => '#MAJORVER#.#MINORVER#')))
-            ),
-            array(
-                'division' => 'abc #MAJORVER#.#MINORVER#',
-                'versions' => array('2.0'),
-                'sortIndex' => 4,
-                'userAgents' => array(array('userAgent' => 'test/2.*', 'properties' => array('Version' => '#MAJORVER#.#MINORVER#')))
-            ),
-        );
-
-        $mock = $this->getMock('\Browscap\Data\DataCollection', array('getDivisions'), array(), '', false);
-        $mock->expects($this->once())
-            ->method('getDivisions')
-            ->will(self::returnValue($divisions))
-        ;
-
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mock));
-
-        $this->object->expand();
-    }
-
-    public function testParseParsesChildren()
-    {
-        $divisions = array(
-            array('division' => 'Browscap Version'),
-            array(
-                'division' => 'DefaultProperties',
-                'sortIndex' => 1,
-                'lite' => true,
-                'userAgents' => array(
-                    array(
-                        'userAgent' => 'DefaultProperties',
-                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
-                    )
-                )
-            ),
-            array(
-                'division' => 'abc',
-                'sortIndex' => 2,
-                'lite' => false,
-                'userAgents' => array(
-                    array(
-                        'userAgent' => 'test',
-                        'properties' => array('Parent' => 'DefaultProperties'),
-                        'children' => array(
-                            array(
-                                'match' => 'abc/#PLATFORM#*',
-                                'platforms' => array('testOS')
-                            ),
-                            array(
-                                'match' => 'abc/* (#PLATFORM#)',
-                                'platforms' => array()
-                            ),
-                            array(
-                                'match' => 'abc/1.0* (#PLATFORM#)',
-                            )
-                        )
-                    )
-                )
-            ),
-        );
-
-        $platform = array(
-            'match' => '*TestOS*',
-            'properties' => array(
-                'Platform' => 'TestOS'
-            )
-        );
-
-        $mock = $this->getMock(
-            '\Browscap\Data\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
-        );
-        $mock->expects($this->once())
-            ->method('getDivisions')
-            ->will(self::returnValue($divisions))
-        ;
-        $mock->expects($this->once())
-            ->method('getPlatform')
-            ->will(self::returnValue($platform))
-        ;
-
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mock));
-
-        $result = $this->object->expand();
-        self::assertInternalType('array', $result);
-
-        $expected = array (
-            'DefaultProperties' => array (
-                'lite' => '1',
-                'sortIndex' => '1',
-                'division' => 'DefaultProperties',
-                'Browser' => 'test',
-                'Version' => '1.0',
-                'Parents' => '',
-                'MajorVer' => '1',
-                'MinorVer' => '0',
-            ),
-            'test' => array (
-                'lite' => '',
-                'sortIndex' => '2',
-                'division' => 'abc',
-                'Parent' => 'DefaultProperties',
-                'Browser' => 'test',
-                'Version' => '1.0',
-                'Parents' => 'DefaultProperties',
-                'MajorVer' => '1',
-                'MinorVer' => '0',
-            ),
-            'abc/*TestOS**' => array (
-                'Parent' => 'test',
-                'Platform' => 'TestOS',
-                'lite' => '',
-                'sortIndex' => '2',
-                'division' => 'abc',
-                'Browser' => 'test',
-                'Version' => '1.0',
-                'Parents' => 'DefaultProperties,test',
-                'MajorVer' => '1',
-                'MinorVer' => '0',
-            ),
-            'abc/1.0* (#PLATFORM#)' => array (
-                'Parent' => 'test',
-                'lite' => '',
-                'sortIndex' => '2',
-                'division' => 'abc',
-                'Browser' => 'test',
-                'Version' => '1.0',
-                'Parents' => 'DefaultProperties,test',
-                'MajorVer' => '1',
-                'MinorVer' => '0',
-            )
-        );
-        self::assertSame($expected, $result);
-    }
-
-    /**
-     * @expectedException \LogicException
-     * @expectedExceptionMessage each entry of the children property requires an "match" entry for key "test"
-     */
-    public function testParseInvalidChildren()
-    {
-        $divisions = array(
-            array('division' => 'Browscap Version'),
-            array(
-                'division' => 'DefaultProperties',
-                'sortIndex' => 1,
-                'lite' => true,
-                'userAgents' => array(
-                    array(
-                        'userAgent' => 'DefaultProperties',
-                        'properties' => array('Browser' => 'test', 'Version' => '1.0')
-                    )
-                )
-            ),
-            array(
-                'division' => 'abc',
-                'sortIndex' => 2,
-                'lite' => false,
-                'userAgents' => array(
-                    array(
-                        'userAgent' => 'test',
-                        'properties' => array('Parent' => 'DefaultProperties'),
-                        'children' => array(
-                            array(
-                                'match' => 'abc/#PLATFORM#*',
-                                'platforms' => array('testOS')
-                            ),
-                            array(
-                                'platforms' => array()
-                            ),
-                            array(
-                                'match' => 'abc/1.0* (#PLATFORM#)',
-                            )
-                        )
-                    )
-                )
-            ),
-        );
-
-        $platform = array(
-            'match' => '*TestOS*',
-            'properties' => array(
-                'Platform' => 'TestOS'
-            )
-        );
-
-        $mock = $this->getMock(
-            '\Browscap\Data\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
-        );
-        $mock->expects($this->once())
-            ->method('getDivisions')
-            ->will(self::returnValue($divisions))
-        ;
-        $mock->expects($this->once())
-            ->method('getPlatform')
-            ->will(self::returnValue($platform))
-        ;
-
-        $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mock));
-
-        $this->object->expand();
     }
 }

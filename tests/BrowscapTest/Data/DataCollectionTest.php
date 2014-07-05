@@ -211,9 +211,9 @@ HERE;
 
         $divisions = $data->getDivisions();
 
-        $expected = require_once __DIR__ . '/../../fixtures/DataCollectionTestArray.php';
-
-        self::assertEquals($expected, $divisions);
+        self::assertInternalType('array', $divisions);
+        self::assertArrayHasKey(0, $divisions);
+        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
     }
 
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist()

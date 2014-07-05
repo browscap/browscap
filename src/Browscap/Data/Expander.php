@@ -85,11 +85,9 @@ class Expander
     public function expand(Division $division, $majorVer, $minorVer, $divisionName)
     {
         $allInputDivisions = $this->parseDivision(
-            $division->getUserAgents(),
+            $division,
             $majorVer,
             $minorVer,
-            $division->getLite(),
-            $division->getSortIndex(),
             $divisionName
         );
 
@@ -99,28 +97,26 @@ class Expander
     /**
      * Render a single division
      *
-     * @param array[] $userAgents
-     * @param string  $majorVer
-     * @param string  $minorVer
-     * @param boolean $lite
-     * @param integer $sortIndex
-     * @param string  $divisionName
+     * @param \Browscap\Data\Division $division
+     * @param string                  $majorVer
+     * @param string                  $minorVer
+     * @param string                  $divisionName
      *
      * @return array
      */
-    private function parseDivision(array $userAgents, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
+    private function parseDivision(Division $division, $majorVer, $minorVer, $divisionName)
     {
         $output = array();
 
-        foreach ($userAgents as $uaData) {
+        foreach ($division->getUserAgents() as $uaData) {
             $output = array_merge(
                 $output,
                 $this->parseUserAgent(
                     $uaData,
                     $majorVer,
                     $minorVer,
-                    $lite,
-                    $sortIndex,
+                    $division->getLite(),
+                    $division->getSortIndex(),
                     $divisionName
                 )
             );
