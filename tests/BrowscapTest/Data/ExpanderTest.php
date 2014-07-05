@@ -53,7 +53,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
 
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array(), array(), '', false);
+        $mock = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mock));
@@ -61,7 +61,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
 
     public function testParseDoesNothingOnEmptyDatacollection()
     {
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock = $this->getMock('\Browscap\Data\DataCollection', array('getDivisions'), array(), '', false);
         $mock->expects($this->once())
             ->method('getDivisions')
             ->will(self::returnValue(array()))
@@ -109,7 +109,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
             ),
         );
 
-        $mock = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getDivisions'), array(), '', false);
+        $mock = $this->getMock('\Browscap\Data\DataCollection', array('getDivisions'), array(), '', false);
         $mock->expects($this->once())
             ->method('getDivisions')
             ->will(self::returnValue($divisions))
@@ -170,7 +170,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Data\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
         $mock->expects($this->once())
             ->method('getDivisions')
@@ -288,7 +288,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         );
 
         $mock = $this->getMock(
-            '\\Browscap\\Generator\\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
+            '\Browscap\Data\DataCollection', array('getDivisions', 'getPlatform'), array(), '', false
         );
         $mock->expects($this->once())
             ->method('getDivisions')

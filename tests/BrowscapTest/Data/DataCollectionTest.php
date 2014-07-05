@@ -183,7 +183,13 @@ HERE;
         self::assertLessThanOrEqual($maxTime, $testTime);
     }
 
-    public function testAddSourceFile()
+    /**
+     * checks if a exception is thrown if a division is defined twice in the source files
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Division "UA2" is defined twice
+     */
+    public function testAddSourceFileFail()
     {
         $data = new DataCollection('1234');
 
@@ -192,6 +198,16 @@ HERE;
         foreach ($files as $file) {
             $data->addSourceFile($file);
         }
+    }
+
+    /**
+     * checks if a source file is added successful
+     */
+    public function testAddSourceFileOk()
+    {
+        $data = new DataCollection('1234');
+
+        $data->addSourceFile(__DIR__ . '/../../fixtures/ua/test1.json');
 
         $divisions = $data->getDivisions();
 
