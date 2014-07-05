@@ -125,6 +125,7 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
+        "isTablet": "false",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Apple Inc",

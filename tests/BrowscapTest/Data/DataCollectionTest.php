@@ -42,8 +42,6 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->markTestSkipped('need to be updated');
-
         $this->logger = new Logger('browscapTest', array(new NullHandler()));
     }
 
