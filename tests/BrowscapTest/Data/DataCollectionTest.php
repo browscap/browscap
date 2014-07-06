@@ -36,6 +36,11 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
     private $logger = null;
 
     /**
+     * @var \Browscap\Data\DataCollection
+     */
+    private $object = null;
+
+    /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
      *
@@ -43,6 +48,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         $this->logger = new Logger('browscapTest', array(new NullHandler()));
+        $this->object = new DataCollection('1234');
     }
 
     public function getPlatformsJsonFixture()
@@ -66,13 +72,19 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         ];
     }
 
+    public function testSetGetLogger()
+    {
+        $logger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setLogger($logger));
+        self:assertSame($logger, $this->object->getLogger());
+    }
+
     public function testAddPlatformsFile()
     {
-        $data = new DataCollection('1234');
+        $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
 
-        $data->addPlatformsFile($this->getPlatformsJsonFixture());
-
-        $platforms = $data->getPlatforms();
+        $platforms = $this->object->getPlatforms();
 
         $expected = [
             'Platform1' => [
@@ -94,15 +106,13 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($expected, $platforms);
 
-        self::assertSame($expected['Platform1'], $data->getPlatform('Platform1'));
-        self::assertSame($expected['Platform2'], $data->getPlatform('Platform2'));
+        self::assertSame($expected['Platform1'], $this->object->getPlatform('Platform1'));
+        self::assertSame($expected['Platform2'], $this->object->getPlatform('Platform2'));
     }
 
     public function testAddEngineFile()
     {
-        $data = new DataCollection('1234');
-
-        $data->addEnginesFile($this->getEngineJsonFixture());
+        $this->object->addEnginesFile($this->getEngineJsonFixture());
 
         $expected = [
             'Foobar' => [
@@ -117,18 +127,19 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        self::assertSame($expected['Foobar'], $data->getEngine('Foobar'));
-        self::assertSame($expected['Foo'], $data->getEngine('Foo'));
+        self::assertSame($expected['Foobar'], $this->object->getEngine('Foobar'));
+        self::assertSame($expected['Foo'], $this->object->getEngine('Foo'));
     }
 
+    /**
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     */
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist()
     {
-        $data = new DataCollection('1234');
-
         $file = '/hopefully/this/file/does/not/exist';
 
-        $this->setExpectedException('\RuntimeException', 'File "' . $file . '" does not exist');
-        $data->addPlatformsFile($file);
+        $this->object->addPlatformsFile($file);
     }
 
     public function testAddPlatformsFileThrowsExceptionIfFileContainsInvalidJson()
@@ -141,40 +152,54 @@ HERE;
 
         file_put_contents($tmpfile, $in);
 
-        $data = new DataCollection('1234');
+        $fail    = false;
+        $message = '';
 
-        $this->setExpectedException('\RuntimeException', 'File "' . $tmpfile . '" had invalid JSON.');
-        $data->addPlatformsFile($tmpfile);
+        try {
+            $this->object->addPlatformsFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        } catch (\RuntimeException $ex) {
+            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        }
 
         unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
     }
 
+    /**
+     * @expectedException \OutOfBoundsException
+     * @expectedExceptionMessage Platform "NotExists" does not exist in data
+     */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist()
     {
-        $data = new DataCollection('1234');
+        $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
 
-        $data->addPlatformsFile($this->getPlatformsJsonFixture());
-
-        $this->setExpectedException('\OutOfBoundsException', 'Platform "NotExists" does not exist in data');
-        $data->getPlatform('NotExists');
+        $this->object->getPlatform('NotExists');
     }
 
     public function testGetVersion()
     {
-        $data = new DataCollection('1234');
-        self::assertSame('1234', $data->getVersion());
+        self::assertSame('1234', $this->object->getVersion());
     }
 
     public function testGetGenerationDate()
     {
-        $data = new DataCollection('1234');
-
         // Time isn't always exact, so allow a few seconds grace either way...
         $currentTime = time();
         $minTime = $currentTime - 3;
         $maxTime = $currentTime + 3;
 
-        $testDateTime = $data->getGenerationDate();
+        $testDateTime = $this->object->getGenerationDate();
 
         self::assertInstanceOf('\DateTime', $testDateTime);
 
@@ -191,12 +216,10 @@ HERE;
      */
     public function testAddSourceFileFail()
     {
-        $data = new DataCollection('1234');
-
         $files = $this->getUserAgentFixtures();
 
         foreach ($files as $file) {
-            $data->addSourceFile($file);
+            $this->object->addSourceFile($file);
         }
     }
 
@@ -205,27 +228,29 @@ HERE;
      */
     public function testAddSourceFileOk()
     {
-        $data = new DataCollection('1234');
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test1.json');
 
-        $data->addSourceFile(__DIR__ . '/../../fixtures/ua/test1.json');
-
-        $divisions = $data->getDivisions();
+        $divisions = $this->object->getDivisions();
 
         self::assertInternalType('array', $divisions);
         self::assertArrayHasKey(0, $divisions);
         self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
     }
 
+    /**
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     */
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist()
     {
-        $data = new DataCollection('1234');
-
         $file = '/hopefully/this/file/does/not/exist';
 
-        $this->setExpectedException('\RuntimeException', 'File "' . $file . '" does not exist');
-        $data->addSourceFile($file);
+        $this->object->addSourceFile($file);
     }
 
+    /**
+     * checks if a exception is thrown if the source file had invalid json content
+     */
     public function testAddSourceFileThrowsExceptionIfFileContainsInvalidJson()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
@@ -236,11 +261,207 @@ HERE;
 
         file_put_contents($tmpfile, $in);
 
-        $data = new DataCollection('1234');
+        $fail    = false;
+        $message = '';
 
-        $this->setExpectedException('\RuntimeException', 'File "' . $tmpfile . '" had invalid JSON.');
-        $data->addSourceFile($tmpfile);
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        } catch (\RuntimeException $ex) {
+            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        }
 
         unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "sortIndex": 200,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        } catch (\RuntimeException $ex) {
+            if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "required attibute "division" is missing" not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoSortIndexIsAvailable()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        } catch (\RuntimeException $ex) {
+            if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "required attibute "sortIndex" is missing" not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if the default properties are added sucessfully
+     */
+    public function testAddDefaultProperties()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Defaultproperties",
+  "sortIndex": 0,
+  "userAgents": [
+    {
+      "userAgent": "Defaultproperties",
+      "properties": {
+        "Comment": "Defaultproperties",
+        "Browser": "Defaultproperties",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        self::assertSame($this->object, $this->object->addDefaultProperties($tmpfile));
+
+        unlink($tmpfile);
+
+        $division = $this->object->getDefaultProperties();
+
+        self::assertInstanceOf('\Browscap\Data\Division', $division);
+        self::assertSame('Defaultproperties', $division->getName());
+    }
+
+    /**
+     * checks if the default browser is added sucessfully
+     */
+    public function testAddDefaultBrowser()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "*",
+  "sortIndex": 0,
+  "userAgents": [
+    {
+      "userAgent": "*",
+      "properties": {
+        "Comment": "Default Browser",
+        "Browser": "Default Browser",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        self::assertSame($this->object, $this->object->addDefaultBrowser($tmpfile));
+
+        unlink($tmpfile);
+
+        $division = $this->object->getDefaultBrowser();
+
+        self::assertInstanceOf('\Browscap\Data\Division', $division);
+        self::assertSame('*', $division->getName());
     }
 }

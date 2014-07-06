@@ -100,6 +100,14 @@ class DataCollection
     }
 
     /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
      * Load a platforms.json file and parse it into the platforms data array
      *
      * @param string $src Name of the file
@@ -604,7 +612,7 @@ class DataCollection
      */
     private function firstCheckProperty($key, array $properties)
     {
-        $this->logger->debug('check if all required propeties are available');
+        $this->getLogger()->debug('check if all required propeties are available');
 
         if (!isset($properties['Version'])) {
             throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');

@@ -43,6 +43,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         $this->object = new PropertyHolder();
     }
 
+    /**
+     * Data Provider for the test testGetPropertyType
+     *
+     * @return array[]
+     */
     public function propertyNameTypeDataProvider()
     {
         return [
@@ -103,6 +108,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         $this->object->getPropertyType('Foobar');
     }
 
+    /**
+     * Data Provider for the test testIsExtraProperty
+     *
+     * @return array[]
+     */
     public function extraPropertiesDataProvider()
     {
         return [
@@ -154,6 +164,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * Data Provider for the test testIsOutputProperty
+     *
+     * @return array
+     */
     public function outputPropertiesDataProvider()
     {
         return [
@@ -209,12 +224,19 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * Data Provider for the test testCheckValueInArray
+     *
+     * @return array
+     */
     public function checkValueInArrayProvider()
     {
         return [
             ['Browser_Type', 'Browser'],
             ['Device_Type', 'Tablet'],
             ['Device_Pointing_Method', 'touchscreen'],
+            ['Browser_Bits', '32'],
+            ['Platform_Bits', '64'],
         ];
     }
 
