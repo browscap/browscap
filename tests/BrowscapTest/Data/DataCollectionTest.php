@@ -675,7 +675,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      */
-    public function testAddSourceFileThrowsExceptionIfChildrenIncludeMatchKeyword()
+    public function testAddSourceFileThrowsExceptionIfChildrenareNotArrays()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
