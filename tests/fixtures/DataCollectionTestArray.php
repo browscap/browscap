@@ -119,7 +119,12 @@ return array(
                     'MinorVer' => '0',
                 ),
                 'children' => array(
-                    //
+                    array(
+                        'match' => "'Mozilla\/?.0 (compatible; MSIE*",
+                    ),
+                    array(
+                        'match' => '"Mozilla\/?.0 (compatible; MSIE*',
+                    ),
                 ),
             ),
             3 => array(
