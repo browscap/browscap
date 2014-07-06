@@ -2207,7 +2207,10 @@
           "match": "Proxy Gear Pro\/2.1 (#PLATFORM#)*",
           "properties": {
             "Browser": "Proxy Gear Pro",
-            "Browser_Maker": "proxy-base.org"
+            "Browser_Maker": "proxy-base.org",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
           },
           "platforms": [
             "Win7_32"
