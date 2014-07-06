@@ -29,12 +29,12 @@ use Psr\Log\LoggerInterface;
 class DataCollection
 {
     /**
-     * @var array
+     * @var \Browscap\Data\Platform[]
      */
     private $platforms = array();
 
     /**
-     * @var array
+     * @var \Browscap\Data\Engine[]
      */
     private $engines = array();
 
@@ -73,7 +73,9 @@ class DataCollection
      */
     private $logger = null;
 
-    /** @var array  */
+    /**
+     * @var string[]
+     */
     private $allDivision = array();
 
     /**
@@ -114,42 +116,71 @@ class DataCollection
      *
      * @return \Browscap\Data\DataCollection
      * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException
      */
     public function addPlatformsFile($src)
     {
         $json = $this->loadFile($src);
 
-        $this->platforms = $json['platforms'];
+        foreach ($json['platforms'] as $platformName => $platformData) {
+            if (!isset($platformData['match'])) {
+                throw new \UnexpectedValueException('required attibute "match" is missing');
+            }
+
+            if (!isset($platformData['properties']) && !isset($platformData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            if (!isset($platformData['properties'])) {
+                $platformData['properties'] = array();
+            }
+
+            if (array_key_exists('inherits', $platformData)) {
+                $parentName = $platformData['inherits'];
+
+                if (!isset($json['platforms'][$parentName])) {
+                    throw new \UnexpectedValueException(
+                        'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"'
+                    );
+                }
+
+                $parentPlatformData = $json['platforms'][$parentName];
+
+                if (array_key_exists('properties', $platformData)) {
+                    $inheritedPlatformProperties = $platformData['properties'];
+
+                    foreach ($inheritedPlatformProperties as $name => $value) {
+                        if (isset($parentPlatformData['properties'][$name])
+                            && $parentPlatformData['properties'][$name] == $value
+                        ) {
+                            throw new \UnexpectedValueException(
+                                'the value for property "' . $name .'" has the same value in the keys "' . $platform
+                                . '" and its parent "' . $platformData['inherits'] . '"'
+                            );
+                        }
+                    }
+
+                    $platformData['properties'] = array_merge(
+                        $parentPlatformData['properties'],
+                        $inheritedPlatformProperties
+                    );
+                } else {
+                    $platformData['properties'] = $parentPlatformData['properties'];
+                }
+            }
+
+            $platform = new Platform();
+            $platform
+                ->setMatch($platformData['match'])
+                ->setProperties($platformData['properties'])
+            ;
+
+            $this->platforms[$platformName] = $platform;
+        }
 
         $this->divisionsHaveBeenSorted = false;
 
         return $this;
-    }
-
-    /**
-     * @param string $src
-     *
-     * @return array
-     * @throws \RuntimeException
-     */
-    private function loadFile($src)
-    {
-        if (!file_exists($src)) {
-            throw new \RuntimeException('File "' . $src . '" does not exist.');
-        }
-
-        if (!is_readable($src)) {
-            throw new \RuntimeException('File "' . $src . '" is not readable.');
-        }
-
-        $fileContent = file_get_contents($src);
-        $json        = json_decode($fileContent, true);
-
-        if (is_null($json)) {
-            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
-        }
-
-        return $json;
     }
 
     /**
@@ -164,7 +195,54 @@ class DataCollection
     {
         $json = $this->loadFile($src);
 
-        $this->engines = $json['engines'];
+        foreach ($json['engines'] as $engineName => $engineData) {
+            if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            if (!isset($engineData['properties'])) {
+                $engineData['properties'] = array();
+            }
+
+            if (array_key_exists('inherits', $engineData)) {
+                $parentName = $engineData['inherits'];
+
+                if (!isset($json['engines'][$parentName])) {
+                    throw new \UnexpectedValueException(
+                        'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"'
+                    );
+                }
+
+                $parentEngineData = $json['engines'][$parentName];
+
+                if (array_key_exists('properties', $engineData)) {
+                    $inheritedPlatformProperties = $engineData['properties'];
+
+                    foreach ($inheritedPlatformProperties as $name => $value) {
+                        if (isset($parentEngineData['properties'][$name])
+                            && $parentEngineData['properties'][$name] == $value
+                        ) {
+                            throw new \UnexpectedValueException(
+                                'the value for property "' . $name .'" has the same value in the keys "' . $platform
+                                . '" and its parent "' . $engineData['inherits'] . '"'
+                            );
+                        }
+                    }
+
+                    $engineData['properties'] = array_merge(
+                        $parentEngineData['properties'],
+                        $inheritedPlatformProperties
+                    );
+                } else {
+                    $engineData['properties'] = $parentEngineData['properties'];
+                }
+            }
+
+            $platform = new Engine();
+            $platform->setProperties($engineData['properties']);
+
+            $this->platforms[$engineName] = $platform;
+        }
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -309,6 +387,32 @@ class DataCollection
     }
 
     /**
+     * @param string $src
+     *
+     * @return array
+     * @throws \RuntimeException
+     */
+    private function loadFile($src)
+    {
+        if (!file_exists($src)) {
+            throw new \RuntimeException('File "' . $src . '" does not exist.');
+        }
+
+        if (!is_readable($src)) {
+            throw new \RuntimeException('File "' . $src . '" is not readable.');
+        }
+
+        $fileContent = file_get_contents($src);
+        $json        = json_decode($fileContent, true);
+
+        if (is_null($json)) {
+            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
+        }
+
+        return $json;
+    }
+
+    /**
      * checks if platform properties are set inside a properties array
      *
      * @param array  $properties
@@ -348,7 +452,7 @@ class DataCollection
     }
 
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * Load the file for the default properties
      *
      * @param string $src Name of the file
      *
@@ -375,7 +479,7 @@ class DataCollection
     }
 
     /**
-     * Load a engines.json file and parse it into the platforms data array
+     * Load the file for the default browser
      *
      * @param string $src Name of the file
      *
@@ -461,7 +565,7 @@ class DataCollection
     /**
      * Get the array of platform data
      *
-     * @return array
+     * @return \Browscap\Data\Platform[]
      */
     public function getPlatforms()
     {
@@ -475,55 +579,23 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
-     * @return array
+     * @return \Browscap\Data\Platform
      */
     public function getPlatform($platform)
     {
         if (!array_key_exists($platform, $this->platforms)) {
             throw new \OutOfBoundsException(
-                'Platform "' . $platform . '" does not exist in data, available platforms: '
-                . serialize(array_keys($this->platforms))
+                'Platform "' . $platform . '" does not exist in data'
             );
         }
 
-        /** @var array $platformData */
-        $platformData = $this->platforms[$platform];
-
-        if (array_key_exists('inherits', $platformData)) {
-            $parentPlatformData = $this->getPlatform($platformData['inherits']);
-
-            if (array_key_exists('properties', $platformData)) {
-                $inheritedPlatformProperties = $platformData['properties'];
-
-                foreach ($inheritedPlatformProperties as $name => $value) {
-                    if (isset($parentPlatformData['properties'][$name])
-                        && $parentPlatformData['properties'][$name] == $value
-                    ) {
-                        throw new \UnexpectedValueException(
-                            'the value for property "' . $name .'" has the same value in the keys "' . $platform
-                            . '" and its parent "' . $platformData['inherits'] . '"'
-                        );
-                    }
-                }
-
-                $platformData['properties'] = array_merge(
-                    $parentPlatformData['properties'],
-                    $inheritedPlatformProperties
-                );
-            } else {
-                $platformData['properties'] = $parentPlatformData['properties'];
-            }
-
-            unset($platformData['inherits']);
-        }
-
-        return $platformData;
+        return $this->platforms[$platform];
     }
 
     /**
      * Get the array of engine data
      *
-     * @return array
+     * @return \Browscap\Data\Engine[]
      */
     public function getEngines()
     {
@@ -537,7 +609,7 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
-     * @return array
+     * @return \Browscap\Data\Engine
      */
     public function getEngine($engine)
     {
@@ -548,38 +620,7 @@ class DataCollection
             );
         }
 
-        /** @var array $engineData */
-        $engineData = $this->engines[$engine];
-
-        if (array_key_exists('inherits', $engineData)) {
-            $parentEngineData = $this->getEngine($engineData['inherits']);
-
-            if (array_key_exists('properties', $engineData)) {
-                $inheritedEngineProperties = $engineData['properties'];
-
-                foreach ($inheritedEngineProperties as $name => $value) {
-                    if (isset($parentEngineData['properties'][$name])
-                        && $parentEngineData['properties'][$name] == $value
-                    ) {
-                        throw new \UnexpectedValueException(
-                            'the value for property "' . $name .'" has the same value in the keys "' . $engine
-                            . '" and its parent "' . $engineData['inherits'] . '"'
-                        );
-                    }
-                }
-
-                $engineData['properties'] = array_merge(
-                    $parentEngineData['properties'],
-                    $inheritedEngineProperties
-                );
-            } else {
-                $engineData['properties'] = $parentEngineData['properties'];
-            }
-
-            unset($engineData['inherits']);
-        }
-
-        return $engineData;
+        return $this->engines[$engine];
     }
 
     /**

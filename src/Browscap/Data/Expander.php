@@ -160,14 +160,14 @@ class Expander
 
         if (array_key_exists('platform', $uaData)) {
             $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
-            $platformData = $this->parseProperties($platform['properties'], $majorVer, $minorVer);
+            $platformData = $this->parseProperties($platform->getProperties(), $majorVer, $minorVer);
         } else {
             $platformData = array();
         }
 
         if (array_key_exists('engine', $uaData)) {
             $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
-            $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+            $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
         } else {
             $engineData = array();
         }
@@ -272,11 +272,11 @@ class Expander
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
                 $platformData = $this->getDataCollection()->getPlatform($platform);
-                $uaBase       = str_replace('#PLATFORM#', $platformData['match'], $uaDataChild['match']);
+                $uaBase       = str_replace('#PLATFORM#', $platformData->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                    $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+                    $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
                 } else {
                     $engineData = array();
                 }
@@ -284,7 +284,7 @@ class Expander
                 $properties = array_merge(
                     $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
                     $engineData,
-                    $this->parseProperties($platformData['properties'], $majorVer, $minorVer)
+                    $this->parseProperties($platformData->getProperties(), $majorVer, $minorVer)
                 );
 
                 if (isset($uaDataChild['properties'])
@@ -302,7 +302,7 @@ class Expander
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                $engineData = $this->parseProperties($engine['properties'], $majorVer, $minorVer);
+                $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
             } else {
                 $engineData = array();
             }

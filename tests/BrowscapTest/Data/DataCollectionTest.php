@@ -83,57 +83,6 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($logger, $this->object->getLogger());
     }
 
-    public function testAddPlatformsFile()
-    {
-        $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
-
-        $platforms = $this->object->getPlatforms();
-
-        $expected = [
-            'Platform1' => [
-                'match' => '*Platform1*',
-                'properties' => [
-                    'Platform' => 'Platform1',
-                    'Platform_Description' => 'The first test platform',
-                    'Win32' => 'false',
-                ],
-            ],
-            'Platform2' => [
-                'match' => '*Platform2*',
-                'properties' => [
-                    'Platform' => 'Platform2',
-                    'Win32' => 'false',
-                ],
-            ],
-        ];
-
-        self::assertSame($expected, $platforms);
-
-        self::assertSame($expected['Platform1'], $this->object->getPlatform('Platform1'));
-        self::assertSame($expected['Platform2'], $this->object->getPlatform('Platform2'));
-    }
-
-    public function testAddEngineFile()
-    {
-        $this->object->addEnginesFile($this->getEngineJsonFixture());
-
-        $expected = [
-            'Foobar' => [
-                'properties' => [
-                    'RenderingEngine_Name' => 'Foobar',
-                ],
-            ],
-            'Foo' => [
-                'properties' => [
-                    'RenderingEngine_Name' => 'Foobar',
-                ],
-            ],
-        ];
-
-        self::assertSame($expected['Foobar'], $this->object->getEngine('Foobar'));
-        self::assertSame($expected['Foo'], $this->object->getEngine('Foo'));
-    }
-
     /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
