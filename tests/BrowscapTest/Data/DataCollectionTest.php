@@ -241,6 +241,20 @@ HERE;
     }
 
     /**
+     * checks if a source file is added successful
+     */
+    public function testAddSourceFileOkWithLiteAndVersions()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test2.json');
+
+        $divisions = $this->object->getDivisions();
+
+        self::assertInternalType('array', $divisions);
+        self::assertArrayHasKey(0, $divisions);
+        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
+    }
+
+    /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
      */
@@ -383,6 +397,101 @@ HERE;
         } catch (\Exception $ex) {
             $fail    = true;
             $message = 'expected Exception "\RuntimeException" not thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "userAgents": [
+    {
+      "userAgent": "UA1"
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+        } catch (\UnexpectedValueException $ex) {
+            if ('the properties entry has to be an array for key "UA1"' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the properties entry has to be an array for key "UA1"" not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoParentPropertyIsAvailable()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+        } catch (\UnexpectedValueException $ex) {
+            if ('the "parent" property is missing for key "UA1"' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the "parent" property is missing for key "UA1"" not available';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown';
         }
 
         unlink($tmpfile);

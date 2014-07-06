@@ -365,7 +365,7 @@ class DataCollection
             ->setName($divisionData['division'])
             ->setSortIndex((int) $divisionData['sortIndex'])
             ->setUserAgents($divisionData['userAgents'])
-            ->setLite((boolean) $divisionData['lite'])
+            ->setLite(true)
         ;
 
         $this->defaultProperties = $division;
@@ -392,7 +392,7 @@ class DataCollection
             ->setName($divisionData['division'])
             ->setSortIndex((int) $divisionData['sortIndex'])
             ->setUserAgents($divisionData['userAgents'])
-            ->setLite((boolean) $divisionData['lite'])
+            ->setLite(true)
         ;
 
         $this->defaultBrowser = $division;
