@@ -609,7 +609,7 @@ class DataCollection
      * @throws \UnexpectedValueException
      * @return bool
      */
-    private function firstCheckProperty($key, array $properties)
+    public function checkProperty($key, array $properties)
     {
         $this->getLogger()->debug('check if all required propeties are available');
 

@@ -249,6 +249,8 @@ class BuildGenerator
                 $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
 
                 foreach ($sections as $sectionName => $section) {
+                    $collection->checkProperty($sectionName, $section);
+
                     $this->writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sections)
