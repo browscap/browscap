@@ -146,27 +146,29 @@ class DataCollection
 
                 $parentPlatformData = $json['platforms'][$parentName];
 
-                if (array_key_exists('properties', $platformData)) {
-                    $inheritedPlatformProperties = $platformData['properties'];
-
-                    foreach ($inheritedPlatformProperties as $name => $value) {
-                        if (isset($parentPlatformData['properties'][$name])
-                            && $parentPlatformData['properties'][$name] == $value
-                        ) {
-                            throw new \UnexpectedValueException(
-                                'the value for property "' . $name .'" has the same value in the keys "' . $platform
-                                . '" and its parent "' . $platformData['inherits'] . '"'
-                            );
-                        }
-                    }
-
-                    $platformData['properties'] = array_merge(
-                        $parentPlatformData['properties'],
-                        $inheritedPlatformProperties
+                if (!isset($parentPlatformData['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'properties missing for parent Platform "' . $parentName . '"'
                     );
-                } else {
-                    $platformData['properties'] = $parentPlatformData['properties'];
                 }
+
+                $inheritedPlatformProperties = $platformData['properties'];
+
+                foreach ($inheritedPlatformProperties as $name => $value) {
+                    if (isset($parentPlatformData['properties'][$name])
+                        && $parentPlatformData['properties'][$name] == $value
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the value for property "' . $name .'" has the same value in the keys "' . $platform
+                            . '" and its parent "' . $platformData['inherits'] . '"'
+                        );
+                    }
+                }
+
+                $platformData['properties'] = array_merge(
+                    $parentPlatformData['properties'],
+                    $inheritedPlatformProperties
+                );
             }
 
             $platform = new Platform();
@@ -215,33 +217,35 @@ class DataCollection
 
                 $parentEngineData = $json['engines'][$parentName];
 
-                if (array_key_exists('properties', $engineData)) {
-                    $inheritedPlatformProperties = $engineData['properties'];
-
-                    foreach ($inheritedPlatformProperties as $name => $value) {
-                        if (isset($parentEngineData['properties'][$name])
-                            && $parentEngineData['properties'][$name] == $value
-                        ) {
-                            throw new \UnexpectedValueException(
-                                'the value for property "' . $name .'" has the same value in the keys "' . $platform
-                                . '" and its parent "' . $engineData['inherits'] . '"'
-                            );
-                        }
-                    }
-
-                    $engineData['properties'] = array_merge(
-                        $parentEngineData['properties'],
-                        $inheritedPlatformProperties
+                if (!isset($parentEngineData['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'properties missing for parent Engine "' . $parentName . '"'
                     );
-                } else {
-                    $engineData['properties'] = $parentEngineData['properties'];
                 }
+
+                $inheritedPlatformProperties = $engineData['properties'];
+
+                foreach ($inheritedPlatformProperties as $name => $value) {
+                    if (isset($parentEngineData['properties'][$name])
+                        && $parentEngineData['properties'][$name] == $value
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the value for property "' . $name .'" has the same value in the keys "' . $engine
+                            . '" and its parent "' . $engineData['inherits'] . '"'
+                        );
+                    }
+                }
+
+                $engineData['properties'] = array_merge(
+                    $parentEngineData['properties'],
+                    $inheritedPlatformProperties
+                );
             }
 
-            $platform = new Engine();
-            $platform->setProperties($engineData['properties']);
+            $engine = new Engine();
+            $engine->setProperties($engineData['properties']);
 
-            $this->platforms[$engineName] = $platform;
+            $this->engines[$engineName] = $engine;
         }
 
         $this->divisionsHaveBeenSorted = false;
