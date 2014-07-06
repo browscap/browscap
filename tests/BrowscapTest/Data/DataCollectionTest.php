@@ -713,9 +713,9 @@ HERE;
             $fail    = true;
             $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
-            if ('the children property has to be an array of arrays for key "UA1"' !== $ex->getMessage()) {
+            if ('each entry of the children property has to be an array for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "the children property has to be an array of arrays for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "each entry of the children property has to be an array for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -779,6 +779,252 @@ HERE;
         } catch (\Exception $ex) {
             $fail    = true;
             $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenPropertiesAreNotArrays()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      },
+      "children": [
+        {
+          "match": "cde",
+          "properties": "efg"
+        }
+      ]
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
+        } catch (\UnexpectedValueException $ex) {
+            if ('the properties entry has to be an array for key "cde"' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the properties entry has to be an array for key "cde"" not available, the message was "' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHasParentProperty()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      },
+      "children": [
+        {
+          "match": "cde",
+          "properties": {
+            "Parent": "efg"
+          }
+        }
+      ]
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
+        } catch (\UnexpectedValueException $ex) {
+            if ('the Parent property must not set inside the children array for key "cde"' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the Parent property must not set inside the children array for key "cde"' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHasPlatformProperties()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      },
+      "children": [
+        {
+          "match": "cde",
+          "properties": {
+            "Platform_Description": "efg"
+          }
+        }
+      ]
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
+        } catch (\LogicException $ex) {
+            if ('the properties array contains platform data for key "cde", please use the "platforms" keyword' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the properties array contains platform data for key "cde", please use the "platforms" keyword' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      },
+      "children": [
+        {
+          "match": "cde",
+          "properties": {
+            "RenderingEngine_Maker": "efg"
+          }
+        }
+      ]
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
+        } catch (\LogicException $ex) {
+            if ('the properties array contains engine data for key "cde", please use the "engine" keyword' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'the properties array contains engine data for key "cde", please use the "engine" keyword' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);

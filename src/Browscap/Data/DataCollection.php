@@ -179,6 +179,7 @@ class DataCollection
      * @return \Browscap\Data\DataCollection
      * @throws \RuntimeException If the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException If required attibutes are missing in the division
+     * @throws \LogicException
      */
     public function addSourceFile($src)
     {
@@ -293,8 +294,6 @@ class DataCollection
                                 . '", please use the "engine" keyword'
                             );
                         }
-
-                        //
                     }
                 }
             }
