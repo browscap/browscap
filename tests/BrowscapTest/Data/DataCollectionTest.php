@@ -324,7 +324,7 @@ HERE;
             $fail    = true;
             $message = 'expected Exception "\RuntimeException" not thrown';
         } catch (\RuntimeException $ex) {
-            if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
+            if ('required attibute "division" is missing' !== $ex->getMessage()) {
                 $fail    = true;
                 $message = 'expected Message "required attibute "division" is missing" not available';
             }
@@ -403,6 +403,7 @@ HERE;
 {
   "division": "Defaultproperties",
   "sortIndex": 0,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Defaultproperties",
@@ -441,6 +442,7 @@ HERE;
 {
   "division": "*",
   "sortIndex": 0,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "*",
