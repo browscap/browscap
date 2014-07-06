@@ -416,6 +416,8 @@ HERE;
         $in = <<<HERE
 {
   "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "UA1"
@@ -460,6 +462,8 @@ HERE;
         $in = <<<HERE
 {
   "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "UA1",
