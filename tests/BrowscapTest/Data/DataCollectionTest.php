@@ -161,7 +161,7 @@ HERE;
         try {
             $this->object->addPlatformsFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
@@ -169,7 +169,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -284,7 +284,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
@@ -292,7 +292,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -336,7 +336,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
             if ('required attibute "division" is missing' !== $ex->getMessage()) {
                 $fail    = true;
@@ -344,7 +344,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -388,7 +388,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
             if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
                 $fail    = true;
@@ -396,7 +396,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -434,7 +434,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
             if ('the properties entry has to be an array for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
@@ -442,7 +442,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -487,7 +487,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
             if ('the "parent" property is missing for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
@@ -495,7 +495,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -542,7 +542,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown';
+            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
         } catch (\LogicException $ex) {
             if ('the properties array contains platform data for key "UA1", please use the "platform" keyword' !== $ex->getMessage()) {
                 $fail    = true;
@@ -550,7 +550,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown';
+            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -597,7 +597,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown';
+            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
         } catch (\LogicException $ex) {
             if ('the properties array contains engine data for key "UA1", please use the "engine" keyword' !== $ex->getMessage()) {
                 $fail    = true;
@@ -605,7 +605,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown';
+            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -654,7 +654,7 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
             if ('the children property has to be an array of arrays for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
@@ -662,7 +662,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
@@ -675,7 +675,64 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      */
-    public function testAddSourceFileThrowsExceptionIfChildrenareNotArrays()
+    public function testAddSourceFileThrowsExceptionIfChildrenAreNotArrays()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      },
+      "children": {
+        "abc": "cde"
+      }
+    }
+  ]
+}
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addSourceFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
+        } catch (\UnexpectedValueException $ex) {
+            if ('the children property has to be an array of arrays for key "UA1"' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message "the children property has to be an array of arrays for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
@@ -696,7 +753,9 @@ HERE;
         "MinorVer": "0"
       },
       "children": [
-        "abc": "cde"
+        {
+          "abc": "cde"
+        }
       ]
     }
   ]
@@ -711,15 +770,15 @@ HERE;
         try {
             $this->object->addSourceFile($tmpfile);
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
-            if ('the children property has to be an array of arrays for key "UA1"' !== $ex->getMessage()) {
+            if ('each entry of the children property requires an "match" entry for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "the children property has to be an array of arrays for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "each entry of the children property requires an "match" entry for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown';
+            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
         }
 
         unlink($tmpfile);
