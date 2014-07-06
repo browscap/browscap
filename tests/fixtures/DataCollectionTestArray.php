@@ -120,10 +120,10 @@ return array(
                 ),
                 'children' => array(
                     array(
-                        'match' => "'Mozilla\/?.0 (compatible; MSIE*",
+                        'match' => "'Mozilla/?.0 (compatible; MSIE*",
                     ),
                     array(
-                        'match' => '"Mozilla\/?.0 (compatible; MSIE*',
+                        'match' => '"Mozilla/?.0 (compatible; MSIE*',
                     ),
                 ),
             ),
