@@ -165,7 +165,7 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available';
+                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -288,7 +288,7 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available';
+                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -340,7 +340,7 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('required attibute "division" is missing' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "division" is missing" not available';
+                $message = 'expected Message "required attibute "division" is missing" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -392,7 +392,7 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "sortIndex" is missing" not available';
+                $message = 'expected Message "required attibute "sortIndex" is missing" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -436,7 +436,7 @@ HERE;
         } catch (\UnexpectedValueException $ex) {
             if ('the properties entry has to be an array for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "the properties entry has to be an array for key "UA1"" not available';
+                $message = 'expected Message "the properties entry has to be an array for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -487,7 +487,7 @@ HERE;
         } catch (\UnexpectedValueException $ex) {
             if ('the "parent" property is missing for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "the "parent" property is missing for key "UA1"" not available';
+                $message = 'expected Message "the "parent" property is missing for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
