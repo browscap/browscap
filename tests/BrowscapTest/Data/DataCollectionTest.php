@@ -72,12 +72,15 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         ];
     }
 
+    /**
+     * tests the setter and the getter for a logger
+     */
     public function testSetGetLogger()
     {
         $logger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setLogger($logger));
-        self:assertSame($logger, $this->object->getLogger());
+        self::assertSame($logger, $this->object->getLogger());
     }
 
     public function testAddPlatformsFile()
