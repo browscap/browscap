@@ -26,7 +26,7 @@ use Monolog\Logger;
  *
  * @category   BrowscapTest
  * @package    Data
- * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class ExpanderTest extends \PHPUnit_Framework_TestCase
 {
