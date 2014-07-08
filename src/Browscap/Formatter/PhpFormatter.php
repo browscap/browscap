@@ -79,10 +79,16 @@ class PhpFormatter implements FormatterInterface
                     $valueOutput = 'true';
                 } elseif (false === $value || $value === 'false') {
                     $valueOutput = 'false';
+                } else {
+                    $valueOutput = '';
                 }
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
-                $valueOutput = $propertyHolder->checkValueInArray($property, $value);
+                try {
+                    $valueOutput = $propertyHolder->checkValueInArray($property, $value);
+                } catch (\InvalidArgumentException $ex) {
+                    $valueOutput = '';
+                }
                 break;
             default:
                 // nothing t do here
