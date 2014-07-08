@@ -50,7 +50,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
                 continue;
             }
 
-            $output .= ',"' . $property . '"';
+            $output .= ',"' . str_replace('"', '""', $property) . '"';
         }
 
         $output .= PHP_EOL;
@@ -70,9 +70,9 @@ class BrowscapCsvGenerator extends AbstractGenerator
             }
 
             // create output - csv
-            $output .= '"' . $key . '"'; // PropertyName
-            $output .= ',"' . $counter . '"'; // AgentID
-            $output .= ',"' . $this->detectMasterParent($key, $properties) . '"'; // MasterParent
+            $output .= '"' . str_replace('"', '""', $key) . '"'; // PropertyName
+            $output .= ',"' . str_replace('"', '""', $counter) . '"'; // AgentID
+            $output .= ',"' . str_replace('"', '""', $this->detectMasterParent($key, $properties)) . '"'; // MasterParent
 
             $output .= ',"'
                 . ((!isset($properties['lite']) || !$properties['lite']) ? 'false' : 'true') . '"'; // LiteMode
@@ -86,7 +86,7 @@ class BrowscapCsvGenerator extends AbstractGenerator
                     continue;
                 }
 
-                $output .= ',"' . $this->formatValue($property, $properties) . '"';
+                $output .= ',"' . str_replace('"', '""', $this->formatValue($property, $properties)) . '"';
 
                 unset($property);
             }
@@ -119,7 +119,8 @@ class BrowscapCsvGenerator extends AbstractGenerator
             $versionData['released'] = '';
         }
 
-        $header .= '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL;
+        $header .= '"' . str_replace('"', '""', $versionData['version']) . '","'
+            . str_replace('"', '""', $versionData['released']) . '"' . PHP_EOL;
 
         return $header;
     }
