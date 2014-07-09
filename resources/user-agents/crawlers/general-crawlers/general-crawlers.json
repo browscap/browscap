@@ -2168,6 +2168,63 @@
             "Browser": "DomainScan Server Monitoring",
             "Browser_Maker": "GH Software"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DomainSCAN\/2.0*",
+          "properties": {
+            "Browser": "DomainScan Server Monitoring",
+            "Browser_Maker": "GH Software",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DomainSCAN\/*",
+          "properties": {
+            "Browser": "DomainScan Server Monitoring",
+            "Browser_Maker": "GH Software"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AOLbot\/4.0*",
+          "properties": {
+            "Browser": "AOLbot",
+            "Browser_Maker": "AOL-SOFT.COM",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AOLbot\/*",
+          "properties": {
+            "Browser": "AOLbot",
+            "Browser_Maker": "proxy-base.org"
+          }
+        },
+        {
+          "match": "Proxy Gear Pro\/2.1 (#PLATFORM#)*",
+          "properties": {
+            "Browser": "Proxy Gear Pro",
+            "Browser_Maker": "proxy-base.org",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Win7_32"
+          ]
+        },
+        {
+          "match": "Proxy Gear Pro\/* (#PLATFORM#)*",
+          "properties": {
+            "Browser": "Proxy Gear Pro",
+            "Browser_Maker": "AOL-SOFT.COM"
+          },
+          "platforms": [
+            "Win7_32"
+          ]
         }
       ]
     }
