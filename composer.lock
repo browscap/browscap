@@ -4,28 +4,25 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "77f6c6e20cceb32ceed1b50e9c6bce67",
+    "hash": "22fdd7352747f196f6ff8591bb0292c8",
     "packages": [
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "8228d1ee833dbec710161ac179d1fb9ff6cd6f28"
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/8228d1ee833dbec710161ac179d1fb9ff6cd6f28",
-                "reference": "8228d1ee833dbec710161ac179d1fb9ff6cd6f28",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
                 "psr/log": "~1.0"
-            },
-            "provide": {
-                "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~2.4, >2.4.8",
@@ -75,7 +72,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-06-30 13:24:53"
+            "time": "2014-06-04 16:30:04"
         },
         {
             "name": "psr/log",
@@ -117,17 +114,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.4.6",
+            "version": "v2.4.7",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "24f723436e62598c9dddee2a8573d6992504dc5d"
+                "reference": "a14ed929c880e1c9d7bbaa5f77cdc07da3cc04a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/24f723436e62598c9dddee2a8573d6992504dc5d",
-                "reference": "24f723436e62598c9dddee2a8573d6992504dc5d",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/a14ed929c880e1c9d7bbaa5f77cdc07da3cc04a6",
+                "reference": "a14ed929c880e1c9d7bbaa5f77cdc07da3cc04a6",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +165,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-14 21:48:29"
+            "time": "2014-07-08 11:46:35"
         }
     ],
     "packages-dev": [
@@ -227,6 +224,44 @@
                 "user agent"
             ],
             "time": "2014-06-23 08:01:01"
+        },
+        {
+            "name": "mikey179/vfsStream",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe",
+                "reference": "d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs\\": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2014-06-04 18:19:53"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -649,8 +684,8 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "monolog/monolog": 20,
-        "browscap/browscap-php": 20
+        "browscap/browscap-php": 20,
+        "mikey179/vfsstream": 20
     },
     "platform": {
         "php": ">= 5.4.0"
