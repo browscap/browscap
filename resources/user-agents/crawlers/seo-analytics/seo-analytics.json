@@ -15,19 +15,22 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot"
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/OpenLinkProfiler.org\/bot*)",
           "properties": {
-            "Browser": "spbot"
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/1.0*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -36,7 +39,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/1.2*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "1.2",
             "MajorVer": "1",
             "MinorVer": "2"
@@ -45,7 +49,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/1.1*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
@@ -54,7 +59,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/2.0*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0"
@@ -63,7 +69,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/2.1*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "2.1",
             "MajorVer": "2",
             "MinorVer": "1"
@@ -72,7 +79,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/3.0*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0"
@@ -81,7 +89,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/3.1*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
@@ -90,7 +99,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/www.seoprofiler.com\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0"
@@ -99,7 +109,8 @@
         {
           "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/OpenLinkProfiler.org\/bot*)",
           "properties": {
-            "Browser": "spbot",
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH",
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0"
@@ -108,7 +119,8 @@
         {
           "match": "Mozilla\/5.0 (compatible; spbot\/*; +http:\/\/www.seoprofiler.com\/bot\/ )",
           "properties": {
-            "Browser": "SEOprofiler"
+            "Browser": "SEOprofiler",
+            "Browser_Maker": "Axandra GmbH"
           }
         },
         {
