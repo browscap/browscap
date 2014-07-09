@@ -1,6 +1,6 @@
 {
   "division": "Facebook App #MAJORVER#.#MINORVER#",
-  "versions": ["4.1", "5.3", "6.3", "6.4", "10.0", "11.0"],
+  "versions": ["4.1", "5.3", "6.3", "6.4", 10, 11, 12],
   "sortIndex": 1948,
   "lite": true,
   "userAgents": [
