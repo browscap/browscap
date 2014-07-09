@@ -107,17 +107,75 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
 
     public function testFileStart()
     {
-        $silent = true;
-
         self::assertSame($this->object, $this->object->fileStart());
         self::assertSame('', file_get_contents($this->file));
     }
 
     public function testFileEnd()
     {
-        $silent = true;
-
         self::assertSame($this->object, $this->object->fileEnd());
         self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderHeader()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $header = array('TestData to be renderd into the Header');
+        
+        self::assertSame($this->object, $this->object->renderHeader($header));
+        self::assertSame(';;; TestData to be renderd into the Header' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderVersionIfSilent()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $version = array(
+            'version' => 'test',
+            'released' => date('Y-m-d'),
+            'format' => 'TEST',
+            'type' => 'full',
+            
+        );
+        
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderVersion($version));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderVersionIfNotSilent()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $version = array(
+            'version' => 'test',
+            'released' => date('Y-m-d'),
+            'format' => 'TEST',
+            'type' => 'full',
+            
+        );
+        
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderVersion($version));
+        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=2014-07-09' . PHP_EOL . 'Format=TEST' . PHP_EOL . 'Type=full' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderVersionIfNotSilentButWithoutVersion()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $version = array();
+        
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderVersion($version));
+        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type=' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
     }
 }
