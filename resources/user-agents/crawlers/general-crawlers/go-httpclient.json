@@ -1,0 +1,33 @@
+{
+  "division": "GO HttpClient",
+  "sortIndex": 1980,
+  "userAgents": [
+    {
+      "userAgent": "GO HttpClient",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HttpClient for Google Go Programming Language",
+        "Browser": "GO HttpClient",
+        "Browser_Type": "Library",
+        "Browser_Maker": "Google Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Go 1.1 package http",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Go * package http"
+        }
+      ]
+    }
+  ]
+}

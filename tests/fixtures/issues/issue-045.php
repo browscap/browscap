@@ -7,7 +7,7 @@ return [
             'Browser' => 'Sistrix Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'sistrix.net',
+            'Browser_Maker' => 'SISTRIX GmbH',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
