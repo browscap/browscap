@@ -1,0 +1,28 @@
+{
+  "division": "Sistrix Crawler",
+  "sortIndex": 247,
+  "userAgents": [
+    {
+      "userAgent": "Sistrix Crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sistrix Crawler",
+        "Browser": "Sistrix Crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "SISTRIX GmbH",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; 007ac9 Crawler*",
+          "properties": {
+            "Browser": "007AC9 Crawler"
+          }
+        }
+      ]
+    }
+  ]
+}

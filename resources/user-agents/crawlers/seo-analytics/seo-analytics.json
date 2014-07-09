@@ -13,117 +13,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*http:\/\/OpenLinkProfiler.org\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.2*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.1*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/www.seoprofiler.com\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.0*http:\/\/OpenLinkProfiler.org\/bot*)",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; spbot\/*; +http:\/\/www.seoprofiler.com\/bot\/ )",
-          "properties": {
-            "Browser": "SEOprofiler",
-            "Browser_Maker": "Axandra GmbH"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; SEODat\/0.* http:\/\/crawler.seodat.com)",
           "properties": {
             "Browser": "SEODat"
@@ -144,27 +33,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)",
-          "properties": {
-            "Browser": "Sistrix Crawler",
-            "Browser_Maker": "sistrix.net"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler; http:\/\/crawler.sistrix.net\/)",
-          "properties": {
-            "Browser": "Sistrix Crawler",
-            "Browser_Maker": "sistrix.net"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Alexabot\/*",
-          "properties": {
-            "Browser": "Alexabot",
-            "Browser_Maker": "Alexa Internet, Inc"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Alexabot\/1.0; *",
           "properties": {
             "Browser": "Alexabot",
@@ -175,17 +43,17 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Alexabot\/*",
+          "properties": {
+            "Browser": "Alexabot",
+            "Browser_Maker": "Alexa Internet, Inc"
+          }
+        },
+        {
           "match": "WebTarantula.com Crawler*",
           "properties": {
             "Browser": "WebTarantula",
             "Browser_Maker": "webtarantula.com"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
-          "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb"
           }
         },
         {
@@ -199,10 +67,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/*",
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
           "properties": {
-            "Browser": "SiteExplorer",
-            "Browser_Maker": "siteexplorer.info"
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb"
           }
         },
         {
@@ -217,10 +85,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SemrushBot\/*",
+          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/*",
           "properties": {
-            "Browser": "SemrushBot",
-            "Browser_Maker": "SEMrush"
+            "Browser": "SiteExplorer",
+            "Browser_Maker": "siteexplorer.info"
           }
         },
         {
@@ -231,6 +99,13 @@
             "Version": "0.97",
             "MajorVer": "0",
             "MinorVer": "97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush"
           }
         },
         {
@@ -262,33 +137,6 @@
           "properties": {
             "Browser": "Browsershots",
             "Browser_Maker": "browsershots.org"
-          }
-        },
-        {
-          "match": "XoviBot\/*",
-          "properties": {
-            "Browser": "XoviBot",
-            "Browser_Maker": "Xovi GmbH"
-          }
-        },
-        {
-          "match": "XoviBot\/1.0*",
-          "properties": {
-            "Browser": "XoviBot",
-            "Browser_Maker": "Xovi GmbH",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "XoviBot\/2.0*",
-          "properties": {
-            "Browser": "XoviBot",
-            "Browser_Maker": "Xovi GmbH",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
           }
         },
         {

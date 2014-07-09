@@ -1,0 +1,54 @@
+{
+  "division": "XoviBot",
+  "sortIndex": 248,
+  "userAgents": [
+    {
+      "userAgent": "XoviBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "XoviBot",
+        "Browser": "XoviBot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Xovi GmbH",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "XoviBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XoviBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "XoviBot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XoviBot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "XoviBot\/*"
+        }
+      ]
+    }
+  ]
+}
