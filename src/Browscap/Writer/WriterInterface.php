@@ -135,7 +135,7 @@ interface WriterInterface
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array());
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array());
 
     /**
      * renders the footer for a section

@@ -299,7 +299,7 @@ class IniWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return IniWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
     {
         if ($this->isSilent()) {
             return $this;

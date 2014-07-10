@@ -321,6 +321,89 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('Comment="1"' . PHP_EOL, file_get_contents($this->file));
     }
 
+    public function testRenderSectionBodyIfNotSilentWithParents()
+    {
+        $this->object->setSilent(false);
+
+        $section = array(
+            'Parent'   => 'X1',
+            'Comment'  => '1',
+            'Win16'    => true,
+            'Platform' => 'bcd'
+        );
+
+        $sections = array(
+            'X1' => array(
+                'Comment'  => '12',
+                'Win16'    => false,
+                'Platform' => 'abcd'
+            ),
+            'X2' => $section
+        );
+
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Comment' => 1,
+                    'Win16'   => true
+                )
+            )
+        );
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\PhpFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::once())
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
+        $map = array(
+            array('Comment', true),
+            array('Win16', false),
+            array('Platform', true),
+        );
+
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter
+            ->expects(self::exactly(2))
+            ->method('isOutputProperty')
+            ->will(self::returnValueMap($map))
+        ;
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
+        self::assertSame('Comment="1"' . PHP_EOL, file_get_contents($this->file));
+    }
+
     public function testRenderSectionBodyIfSilent()
     {
         $this->object->setSilent(true);

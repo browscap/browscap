@@ -286,7 +286,10 @@ class XmlWriter implements WriterInterface
             return $this;
         }
 
-        fputs($this->file, '<browscapitem name="' . $this->getFormatter()->formatPropertyName($sectionName) . '">' . PHP_EOL);
+        fputs(
+            $this->file,
+            '<browscapitem name="' . $this->getFormatter()->formatPropertyName($sectionName) . '">' . PHP_EOL
+        );
 
         return $this;
     }
@@ -301,7 +304,7 @@ class XmlWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return XmlWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
     {
         if ($this->isSilent()) {
             return $this;
@@ -312,7 +315,11 @@ class XmlWriter implements WriterInterface
                 continue;
             }
 
-            fputs($this->file, '<item name="' . $this->getFormatter()->formatPropertyName($property)  . '" value="' . $this->getFormatter()->formatPropertyValue($value, $property) . '"/>' . PHP_EOL);
+            fputs(
+                $this->file,
+                '<item name="' . $this->getFormatter()->formatPropertyName($property)
+                . '" value="' . $this->getFormatter()->formatPropertyValue($value, $property) . '"/>' . PHP_EOL
+            );
         }
 
         return $this;

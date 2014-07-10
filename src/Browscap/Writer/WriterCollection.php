@@ -198,7 +198,7 @@ class WriterCollection
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection = null, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionBody($section, $collection, $sections);

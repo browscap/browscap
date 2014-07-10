@@ -103,8 +103,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($silent, $this->object->isSilent());
     }
 
-    public function testFileStart()
+    public function testFileStartIfNotSilent()
     {
+        $this->object->setSilent(false);
+
         self::assertSame($this->object, $this->object->fileStart());
         self::assertSame(
             '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<browsercaps>' . PHP_EOL,
@@ -112,10 +114,28 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    public function testFileEnd()
+    public function testFileStartIfSilent()
     {
+        $this->object->setSilent(true);
+
+        self::assertSame($this->object, $this->object->fileStart());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testFileEndIfNotSilent()
+    {
+        $this->object->setSilent(false);
+
         self::assertSame($this->object, $this->object->fileEnd());
         self::assertSame('</browsercaps>' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testFileEndIfSilent()
+    {
+        $this->object->setSilent(true);
+
+        self::assertSame($this->object, $this->object->fileEnd());
+        self::assertSame('', file_get_contents($this->file));
     }
 
     public function testRenderHeaderIfSilent()
