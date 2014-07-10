@@ -24,7 +24,7 @@ use Browscap\Helper\LoggerHelper;
  *
  * @category   BrowscapTest
  * @package    Helper
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class LoggerHelperTest extends \PHPUnit_Framework_TestCase
 {

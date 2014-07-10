@@ -27,7 +27,7 @@ use Monolog\Logger;
  *
  * @category   BrowscapTest
  * @package    Formatter
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class PhpFormatterTest extends \PHPUnit_Framework_TestCase
 {

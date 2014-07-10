@@ -18,8 +18,6 @@
 namespace BrowscapTest\Writer;
 
 use Browscap\Writer\CsvWriter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -27,7 +25,7 @@ use org\bovigo\vfs\vfsStream;
  *
  * @category   BrowscapTest
  * @package    Writer
- * @author     Thomas M�ller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class CsvWriterTest extends \PHPUnit_Framework_TestCase
 {
@@ -160,7 +158,10 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"test","' . date('Y-m-d') . '"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"test","' . date('Y-m-d') . '"' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -173,7 +174,10 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"0",""' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"0",""' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderAllDivisionsHeader()
@@ -194,14 +198,26 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($expectedAgents))
         ;
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
             ->will(self::returnValue($mockDivision))
         ;
 
-        $mockFormatter = $this->getMock('\Browscap\Formatter\CsvFormatter', array('formatPropertyName'), array(), '', false);
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\CsvFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
@@ -225,7 +241,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
-        self::assertSame('', file_get_contents($this->file));
+        self::assertSame('Test' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderAllDivisionsHeaderWithoutProperties()
@@ -237,7 +253,13 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(array()))
         ;
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
@@ -257,6 +279,78 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionHeader()
     {
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionBodyIfNotSilent()
+    {
+        $this->object->setSilent(false);
+
+        $section = array(
+            'Test'   => 1,
+            'isTest' => true,
+            'abc'    => 'bcd'
+        );
+
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Test'   => 1,
+                    'isTest' => true
+                )
+            )
+        );
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\CsvFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
+        $map = array(
+            array('Test', true),
+            array('isTest', false)
+        );
+
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter
+            ->expects(self::exactly(2))
+            ->method('isOutputProperty')
+            ->will(self::returnValueMap($map))
+        ;
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));
     }
 

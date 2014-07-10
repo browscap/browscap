@@ -18,8 +18,6 @@
 namespace BrowscapTest\Writer;
 
 use Browscap\Writer\XmlWriter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -27,7 +25,7 @@ use org\bovigo\vfs\vfsStream;
  *
  * @category   BrowscapTest
  * @package    Writer
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class XmlWriterTest extends \PHPUnit_Framework_TestCase
 {
@@ -57,7 +55,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.xml';
-        
+
         $this->object = new XmlWriter($this->file);
     }
 
@@ -69,7 +67,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function teardown()
     {
         $this->object->close();
-        
+
         unlink($this->file);
     }
 
@@ -108,7 +106,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function testFileStart()
     {
         self::assertSame($this->object, $this->object->fileStart());
-        self::assertSame('<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<browsercaps>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<browsercaps>' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testFileEnd()
@@ -123,9 +124,9 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
-        
+
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -136,11 +137,15 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderHeader($header));
-        self::assertSame('<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL . '</comments>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL
+            . '</comments>' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderVersionIfSilent()
@@ -153,11 +158,11 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-            
+
         );
-        
+
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -172,13 +177,17 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-            
+
         );
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL . '<item name="Released" value="' . date('Y-m-d') . '"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
+            . '<item name="Released" value="' . date('Y-m-d') . '"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -187,17 +196,21 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $version = array();
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="0"/>' . PHP_EOL . '<item name="Released" value=""/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="0"/>' . PHP_EOL
+            . '<item name="Released" value=""/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderAllDivisionsHeader()
     {
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
-        
+
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
         self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
     }
@@ -205,7 +218,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderDivisionHeader()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -213,8 +226,14 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionHeaderIfNotSilent()
     {
         $this->object->setSilent(false);
-        
-        $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', array('formatPropertyName'), array(), '', false);
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\XmlFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
         $mockFormatter
             ->expects(self::once())
             ->method('formatPropertyName')
@@ -222,7 +241,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
-        
+
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
         self::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
     }
@@ -230,15 +249,87 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionHeaderIfSilent()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionBodyIfNotSilent()
+    {
+        $this->object->setSilent(false);
+
+        $section = array(
+            'Test'   => 1,
+            'isTest' => true,
+            'abc'    => 'bcd'
+        );
+
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Test'   => 1,
+                    'isTest' => true
+                )
+            )
+        );
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\CsvFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
+        $map = array(
+            array('Test', true),
+            array('isTest', false)
+        );
+
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter
+            ->expects(self::exactly(2))
+            ->method('isOutputProperty')
+            ->will(self::returnValueMap($map))
+        ;
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));
     }
 
     public function testRenderSectionFooterIfNotSilent()
     {
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderSectionFooter());
         self::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
     }
@@ -246,7 +337,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionFooterIfSilent()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderSectionFooter());
         self::assertSame('', file_get_contents($this->file));
     }

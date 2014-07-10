@@ -26,7 +26,7 @@ use Monolog\Logger;
  *
  * @category   BrowscapTest
  * @package    Filter
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class LiteFilterTest extends \PHPUnit_Framework_TestCase
 {

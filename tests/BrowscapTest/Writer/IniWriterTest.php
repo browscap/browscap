@@ -18,8 +18,6 @@
 namespace BrowscapTest\Writer;
 
 use Browscap\Writer\IniWriter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -27,7 +25,7 @@ use org\bovigo\vfs\vfsStream;
  *
  * @category   BrowscapTest
  * @package    Writer
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class IniWriterTest extends \PHPUnit_Framework_TestCase
 {
@@ -57,7 +55,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.ini';
-        
+
         $this->object = new IniWriter($this->file);
     }
 
@@ -69,7 +67,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     public function teardown()
     {
         $this->object->close();
-        
+
         unlink($this->file);
     }
 
@@ -123,9 +121,9 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
-        
+
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -136,11 +134,14 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderHeader($header));
-        self::assertSame(';;; TestData to be renderd into the Header' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            ';;; TestData to be renderd into the Header' . PHP_EOL . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderVersionIfSilent()
@@ -153,11 +154,11 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-            
+
         );
-        
+
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -172,13 +173,18 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
-            
+
         );
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=' . date('Y-m-d') . PHP_EOL . 'Format=TEST' . PHP_EOL . 'Type=full' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
+            . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=' . date('Y-m-d') . PHP_EOL . 'Format=TEST' . PHP_EOL
+            . 'Type=full' . PHP_EOL . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -187,17 +193,22 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         $version = array();
-        
+
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type=' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
+            . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type='
+            . PHP_EOL . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderAllDivisionsHeader()
     {
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
-        
+
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -205,15 +216,18 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderDivisionHeaderIfNotSilent()
     {
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
-        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; test' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; test' . PHP_EOL . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderDivisionHeaderIfSilent()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
         self::assertSame('', file_get_contents($this->file));
     }
@@ -221,7 +235,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionHeaderIfNotSilent()
     {
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
         self::assertSame('[test]' . PHP_EOL, file_get_contents($this->file));
     }
@@ -229,15 +243,87 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionHeaderIfSilent()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionBodyIfNotSilent()
+    {
+        $this->object->setSilent(false);
+
+        $section = array(
+            'Test'   => 1,
+            'isTest' => true,
+            'abc'    => 'bcd'
+        );
+
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Test'   => 1,
+                    'isTest' => true
+                )
+            )
+        );
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\CsvFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
+        $map = array(
+            array('Test', true),
+            array('isTest', false)
+        );
+
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter
+            ->expects(self::exactly(2))
+            ->method('isOutputProperty')
+            ->will(self::returnValueMap($map))
+        ;
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));
     }
 
     public function testRenderSectionFooterIfNotSilent()
     {
         $this->object->setSilent(false);
-        
+
         self::assertSame($this->object, $this->object->renderSectionFooter());
         self::assertSame(PHP_EOL, file_get_contents($this->file));
     }
@@ -245,7 +331,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionFooterIfSilent()
     {
         $this->object->setSilent(true);
-        
+
         self::assertSame($this->object, $this->object->renderSectionFooter());
         self::assertSame('', file_get_contents($this->file));
     }
