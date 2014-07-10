@@ -160,7 +160,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
         
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"test","2014-07-09"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"test","' . date('Y-m-d') . '"' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -174,5 +174,97 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame('"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"0",""' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsHeader()
+    {
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Test'   => 1,
+                    'isTest' => true
+                )
+            )
+        );
+        
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+        
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+        
+        $mockFormatter = $this->getMock('\Browscap\Formatter\CsvFormatter', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter
+            ->expects(self::exactly(2))
+            ->method('isOutputProperty')
+            ->will(self::returnValue(true))
+        ;
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        
+        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsHeaderWithoutProperties()
+    {
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue(array()))
+        ;
+        
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+        
+        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionHeader()
+    {
+        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionHeader()
+    {
+        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionFooter()
+    {
+        self::assertSame($this->object, $this->object->renderSectionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionFooter()
+    {
+        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsFooter()
+    {
+        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        self::assertSame('', file_get_contents($this->file));
     }
 }

@@ -117,12 +117,27 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
-    public function testRenderHeader()
+    public function testRenderHeaderIfSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
+        
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderHeader($header));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderHeaderIfNotSilent()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $header = array('TestData to be renderd into the Header');
+        
+        $this->object->setSilent(false);
         
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame(';;; TestData to be renderd into the Header' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
@@ -163,7 +178,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
         
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=2014-07-09' . PHP_EOL . 'Format=TEST' . PHP_EOL . 'Type=full' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=' . date('Y-m-d') . PHP_EOL . 'Format=TEST' . PHP_EOL . 'Type=full' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -177,5 +192,73 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]' . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type=' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsHeader()
+    {
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        
+        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionHeaderIfNotSilent()
+    {
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        self::assertSame(';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; test' . PHP_EOL . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionHeaderIfSilent()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionHeaderIfNotSilent()
+    {
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('[test]' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderSectionHeaderIfSilent()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionFooterIfNotSilent()
+    {
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderSectionFooter());
+        self::assertSame(PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderSectionFooterIfSilent()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderSectionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionFooter()
+    {
+        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsFooter()
+    {
+        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        self::assertSame('', file_get_contents($this->file));
     }
 }

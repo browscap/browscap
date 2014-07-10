@@ -117,12 +117,27 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('</browsercaps>' . PHP_EOL, file_get_contents($this->file));
     }
 
-    public function testRenderHeader()
+    public function testRenderHeaderIfSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
         $this->object->setLogger($mockLogger);
 
         $header = array('TestData to be renderd into the Header');
+        
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderHeader($header));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderHeaderIfNotSilent()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
+
+        $header = array('TestData to be renderd into the Header');
+        
+        $this->object->setSilent(false);
         
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame('<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL . '</comments>' . PHP_EOL, file_get_contents($this->file));
@@ -163,7 +178,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
         
         self::assertSame($this->object, $this->object->renderVersion($version));
-        self::assertSame('<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL . '<item name="Released" value="2014-07-09"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL . '<item name="Released" value="' . date('Y-m-d') . '"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderVersionIfNotSilentButWithoutVersion()
@@ -177,5 +192,74 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame('<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="0"/>' . PHP_EOL . '<item name="Released" value=""/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsHeader()
+    {
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        
+        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
+        self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionHeader()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionHeaderIfNotSilent()
+    {
+        $this->object->setSilent(false);
+        
+        $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', array('formatPropertyName'), array(), '', false);
+        $mockFormatter
+            ->expects(self::once())
+            ->method('formatPropertyName')
+            ->will(self::returnValue('test'))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+        
+        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderSectionHeaderIfSilent()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderSectionHeader('test'));
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderSectionFooterIfNotSilent()
+    {
+        $this->object->setSilent(false);
+        
+        self::assertSame($this->object, $this->object->renderSectionFooter());
+        self::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderSectionFooterIfSilent()
+    {
+        $this->object->setSilent(true);
+        
+        self::assertSame($this->object, $this->object->renderSectionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderDivisionFooter()
+    {
+        self::assertSame($this->object, $this->object->renderDivisionFooter());
+        self::assertSame('', file_get_contents($this->file));
+    }
+
+    public function testRenderAllDivisionsFooter()
+    {
+        self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
+        self::assertSame('</browsercapitems>' . PHP_EOL, file_get_contents($this->file));
     }
 }

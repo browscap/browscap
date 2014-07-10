@@ -227,6 +227,10 @@ class CsvWriter implements WriterInterface
     {
         $division = $collection->getDefaultProperties();
         $ua       = $division->getUserAgents();
+        
+        if (empty($ua[0]['properties']) || !is_array($ua[0]['properties'])) {
+            return $this;
+        }
 
         $values = array();
 
