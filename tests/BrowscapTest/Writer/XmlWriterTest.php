@@ -268,14 +268,14 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\CsvFormatter',
-            array('formatPropertyName'),
+            array('formatPropertyValue'),
             array(),
             '',
             false
         );
         $mockFormatter
-            ->expects(self::once())
-            ->method('formatPropertyName')
+            ->expects(self::exactly(2))
+            ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
 

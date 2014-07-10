@@ -293,15 +293,32 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         );
 
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
-        $mockFormatter  = $this->getMock('\Browscap\Formatter\CsvFormatter', array(), array(), '', false);
+
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\CsvFormatter',
+            array('formatPropertyName', 'formatPropertyValue'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyValue')
+            ->will(self::returnArgument(0))
+        ;
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         $map = array(
-            array('Test', true),
-            array('isTest', false),
-            array('abc', true),
-        );
+        array('Test', true),
+        array('isTest', false),
+        array('abc', true),
+    );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
