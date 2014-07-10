@@ -18,9 +18,6 @@
 namespace BrowscapTest\Formatter;
 
 use Browscap\Formatter\PhpFormatter;
-use Browscap\Data\PropertyHolder;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 
 /**
  * Class PhpFormatterTest

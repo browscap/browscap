@@ -18,8 +18,6 @@
 namespace BrowscapTest\Filter;
 
 use Browscap\Filter\FullFilter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 
 /**
  * Class FullFilterTest
