@@ -18,8 +18,6 @@
 namespace BrowscapTest\Filter;
 
 use Browscap\Filter\LiteFilter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 
 /**
  * Class LiteFilterTest

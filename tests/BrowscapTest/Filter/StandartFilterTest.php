@@ -18,8 +18,6 @@
 namespace BrowscapTest\Filter;
 
 use Browscap\Filter\StandartFilter;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 
 /**
  * Class StandartFilterTest
