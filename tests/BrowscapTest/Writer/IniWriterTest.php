@@ -389,11 +389,12 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             array('Comment', true),
             array('Win16', false),
             array('Platform', true),
+            array('Parent', true),
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(4))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
