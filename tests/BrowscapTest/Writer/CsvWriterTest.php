@@ -296,16 +296,11 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\CsvFormatter',
-            array('formatPropertyName', 'formatPropertyValue'),
+            array('formatPropertyValue'),
             array(),
             '',
             false
         );
-        $mockFormatter
-            ->expects(self::exactly(2))
-            ->method('formatPropertyName')
-            ->will(self::returnArgument(0))
-        ;
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyValue')

@@ -253,16 +253,16 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = array(
-            'Test'   => 1,
-            'isTest' => true,
-            'abc'    => 'bcd'
+            'Comment'  => 1,
+            'Win16'    => true,
+            'Platform' => 'bcd'
         );
 
         $expectedAgents = array(
             0 => array(
                 'properties' => array(
-                    'Test'   => 1,
-                    'isTest' => true
+                    'Comment' => 1,
+                    'Win16'   => true
                 )
             )
         );
@@ -303,9 +303,9 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         $map = array(
-            array('Test', true),
-            array('isTest', false),
-            array('abc', true),
+            array('Comment', true),
+            array('Win16', false),
+            array('Platform', true),
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);

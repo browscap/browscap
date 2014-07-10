@@ -268,11 +268,16 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyValue'),
+            array('formatPropertyName', 'formatPropertyValue'),
             array(),
             '',
             false
         );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyValue')
