@@ -264,29 +264,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             'abc'    => 'bcd'
         );
 
-        $expectedAgents = array(
-            0 => array(
-                'properties' => array(
-                    'Test'   => 1,
-                    'isTest' => true
-                )
-            )
-        );
-
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
-
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            array('getDefaultProperties'),
-            array(),
-            '',
-            false
-        );
-        $mockCollection
-            ->expects(self::once())
-            ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\CsvFormatter',
