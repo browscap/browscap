@@ -304,7 +304,8 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
 
         $map = array(
             array('Test', true),
-            array('isTest', false)
+            array('isTest', false),
+            array('abc', true),
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
