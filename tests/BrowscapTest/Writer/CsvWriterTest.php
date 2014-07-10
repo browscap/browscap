@@ -219,7 +219,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
@@ -343,7 +343,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;

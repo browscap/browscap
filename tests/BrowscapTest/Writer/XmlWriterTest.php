@@ -315,7 +315,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
