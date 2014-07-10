@@ -301,12 +301,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             )
         );
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
-        $mockDivision
-            ->expects(self::once())
-            ->method('getUserAgents')
-            ->will(self::returnValue($expectedAgents))
-        ;
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',

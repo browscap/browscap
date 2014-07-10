@@ -295,7 +295,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
