@@ -81,7 +81,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
 
     public function testSetGetFormatter()
     {
-        $mockFormatter = $this->getMock('\Browscap\Formatter\CsvFormatter', array(), array(), '', false);
+        $mockFormatter = $this->getMock('\Browscap\Formatter\PhpFormatter', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -288,7 +288,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\CsvFormatter',
+            '\Browscap\Formatter\PhpFormatter',
             array('formatPropertyName'),
             array(),
             '',

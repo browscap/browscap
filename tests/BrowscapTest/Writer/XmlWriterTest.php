@@ -81,7 +81,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
     public function testSetGetFormatter()
     {
-        $mockFormatter = $this->getMock('\Browscap\Formatter\CsvFormatter', array(), array(), '', false);
+        $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -267,7 +267,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\CsvFormatter',
+            '\Browscap\Formatter\XmlFormatter',
             array('formatPropertyValue'),
             array(),
             '',
@@ -297,7 +297,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
-        self::assertSame('<item name="Test" value=""1""/>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<item name="Test" value="1"/>' . PHP_EOL . '<item name="abc" value="bcd"/>' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderSectionBodyIfSilent()

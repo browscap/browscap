@@ -330,7 +330,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
-        self::assertSame('"1"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('1,bcd' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionBodyIfSilent()
