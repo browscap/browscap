@@ -323,6 +323,22 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
+        self::assertSame('<item name="Test" value=""1""/>' . PHP_EOL, file_get_contents($this->file));
+    }
+
+    public function testRenderSectionBodyIfSilent()
+    {
+        $this->object->setSilent(true);
+
+        $section = array(
+            'Test'   => 1,
+            'isTest' => true,
+            'abc'    => 'bcd'
+        );
+
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));
     }
 

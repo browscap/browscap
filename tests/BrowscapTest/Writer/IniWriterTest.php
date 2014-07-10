@@ -330,63 +330,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             'abc'    => 'bcd'
         );
 
-        $expectedAgents = array(
-            0 => array(
-                'properties' => array(
-                    'Test'   => 1,
-                    'isTest' => true
-                )
-            )
-        );
-
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
-        $mockDivision
-            ->expects(self::once())
-            ->method('getUserAgents')
-            ->will(self::returnValue($expectedAgents))
-        ;
-
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            array('getDefaultProperties'),
-            array(),
-            '',
-            false
-        );
-        $mockCollection
-            ->expects(self::once())
-            ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
-
-        $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\CsvFormatter',
-            array('formatPropertyName'),
-            array(),
-            '',
-            false
-        );
-        $mockFormatter
-            ->expects(self::exactly(2))
-            ->method('formatPropertyName')
-            ->will(self::returnArgument(0))
-        ;
-
-        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
-
-        $map = array(
-            array('Test', true),
-            array('isTest', false)
-        );
-
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
-        $mockFilter
-            ->expects(self::exactly(2))
-            ->method('isOutputProperty')
-            ->will(self::returnValueMap($map))
-        ;
-
-        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));
