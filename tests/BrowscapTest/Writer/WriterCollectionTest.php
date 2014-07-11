@@ -59,11 +59,48 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         $this->object = new WriterCollection();
     }
 
-    /**
-     * @return \Browscap\Writer\WriterCollection
-     */
     public function testAddWriter()
     {
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->addWriter($mockWriter));
+    }
+
+    public function testSetSilent()
+    {
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setSilent($mockDivision));
+    }
+
+    public function testFileStart()
+    {
+        self::assertSame($this->object, $this->object->fileStart());
+    }
+
+    public function testFileEnd()
+    {
+        self::assertSame($this->object, $this->object->fileEnd());
+    }
+
+    public function testRenderHeader()
+    {
+        $header = array('TestData to be renderd into the Header');
+
+        self::assertSame($this->object, $this->object->renderHeader($header));
+    }
+
+    public function testRenderVersion()
+    {
+        $version = 'test';
+
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockCollection
+            ->expects(self::once())
+            ->method('getGenerationDate')
+            ->will(self::returnValue(new \DateTime()))
+        ;
+
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutput', 'getType'), array(), '', false);
         $mockFilter
             ->expects(self::once())
@@ -75,7 +112,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
             ->method('getType')
             ->will(self::returnValue('Test'))
         ;
-        
+
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
             array('getType'),
@@ -102,70 +139,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         ;
 
         self::assertSame($this->object, $this->object->addWriter($mockWriter));
-        
-        return $this->object;
-    }
 
-    /**
-     * @depends testAddWriter
-     *
-     * @param \Browscap\Writer\WriterCollection $object
-     */
-    public function testSetSilent(WriterCollection $object)
-    {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
-
-        self::assertSame($object, $object->setSilent($mockDivision));
-    }
-
-    /**
-     * @depends testAddWriter
-     *
-     * @param \Browscap\Writer\WriterCollection $object
-     */
-    public function testFileStart(WriterCollection $object)
-    {
-        self::assertSame($object, $object->fileStart());
-    }
-
-    /**
-     * @depends testAddWriter
-     *
-     * @param \Browscap\Writer\WriterCollection $object
-     */
-    public function testFileEnd(WriterCollection $object)
-    {
-        self::assertSame($object, $object->fileEnd());
-    }
-
-    /**
-     * @depends testAddWriter
-     *
-     * @param \Browscap\Writer\WriterCollection $object
-     */
-    public function testRenderHeader(WriterCollection $object)
-    {
-        $header = array('TestData to be renderd into the Header');
-
-        self::assertSame($object, $object->renderHeader($header));
-    }
-
-    /**
-     * @depends testAddWriter
-     *
-     * @param \Browscap\Writer\WriterCollection $object
-     */
-    public function testRenderVersion(WriterCollection $object)
-    {
-        $version = 'test';
-
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
-        $mockCollection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()))
-        ;
-
-        self::assertSame($object, $object->renderVersion($version, $mockCollection));
+        self::assertSame($this->object, $this->object->renderVersion($version, $mockCollection));
     }
 }

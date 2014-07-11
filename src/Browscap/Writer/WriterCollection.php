@@ -30,18 +30,22 @@ use Browscap\Data\DataCollection;
 class WriterCollection
 {
     /**
-     * @var WriterInterface[]
+     * @var \Browscap\Writer\WriterInterface[]
      */
     private $writers = array();
 
     /**
      * add a new writer to the collection
      *
-     * @param WriterInterface $writer
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
+     * @return \Browscap\Writer\WriterCollection
      */
     public function addWriter(WriterInterface $writer)
     {
         $this->writers[] = $writer;
+
+        return $this;
     }
 
     /**
