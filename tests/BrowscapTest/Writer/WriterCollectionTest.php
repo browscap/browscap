@@ -124,7 +124,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutput', 'getType'), array(), '', false);
         $mockFilter
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('isOutput')
             ->will(self::returnValue(true))
         ;
