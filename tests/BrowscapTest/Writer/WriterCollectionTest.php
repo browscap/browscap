@@ -126,7 +126,9 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('test'))
         ;
 
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter', 'getFormatter'), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter', 'getFormatter', 'getLogger'), array(), '', false);
         $mockWriter
             ->expects(self::once())
             ->method('getFilter')
@@ -136,6 +138,11 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
             ->expects(self::once())
             ->method('getFormatter')
             ->will(self::returnValue($mockFormatter))
+        ;
+        $mockWriter
+            ->expects(self::once())
+            ->method('getLogger')
+            ->will(self::returnValue($mockLogger))
         ;
 
         self::assertSame($this->object, $this->object->addWriter($mockWriter));
