@@ -68,9 +68,21 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
 
     public function testSetSilent()
     {
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutput'), array(), '', false);
+        $mockFilter
+            ->expects(self::once())
+            ->method('isOutput')
+            ->will(self::returnValue(true))
+        ;
+
         $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
 
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter'), array(), '', false);
+        $mockWriter
+            ->expects(self::once())
+            ->method('getFilter')
+            ->will(self::returnValue($mockFilter))
+        ;
 
         self::assertSame($this->object, $this->object->addWriter($mockWriter));
         self::assertSame($this->object, $this->object->setSilent($mockDivision));
