@@ -54,7 +54,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.xml';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
 
         $this->object = new WriterCollection();
     }
@@ -149,7 +149,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
 
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter', 'getFormatter', 'getLogger'), array(), '', true);
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter', 'getFormatter', 'getLogger'), array($this->file), '', true);
         $mockWriter
             ->expects(self::once())
             ->method('getFilter')
