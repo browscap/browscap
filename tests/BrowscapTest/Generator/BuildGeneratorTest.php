@@ -102,7 +102,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
+            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz'), 'userAgent' => 'abc'))))
         ;
 
         $mockCollection = $this->getMock(
