@@ -100,7 +100,7 @@ class AspFormatterTest extends \PHPUnit_Framework_TestCase
             ['JavaApplets', 'test', ''],
             ['ActiveXControls', 'test', ''],
             ['isMobileDevice', 'test', ''],
-            ['isSyndicationReader', ''],
+            ['isSyndicationReader', 'test', ''],
             ['Crawler', 'test', ''],
             ['Browser_Type', 'test', ''],
             ['Device_Type', 'Tablet', 'Tablet'],
