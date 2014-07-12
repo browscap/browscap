@@ -51,14 +51,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->messages = array();
     }
 
-    public function mockLog($level, $message)
-    {
-        $this->messages[] = array(
-            'level' => $level,
-            'message' => $message
-        );
-    }
-
     public function testConstructFailsWithoutParameters()
     {
         $this->setExpectedException('\Exception', 'You must specify a resource folder');
@@ -106,11 +98,28 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
+        ;
+
+        $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser'), array(), '', false);
         $mockCollection
-            ->expects(self::any())
+            ->expects(self::once())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultBrowser')
+            ->will(self::returnValue($mockDivision))
         ;
 
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection'), array(), '', false);
