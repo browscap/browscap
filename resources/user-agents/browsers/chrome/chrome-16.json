@@ -781,7 +781,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG GT-N7100\/N7100* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7100* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
