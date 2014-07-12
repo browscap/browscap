@@ -115,7 +115,7 @@ class Expander
                     $uaData,
                     $majorVer,
                     $minorVer,
-                    $division->getLite(),
+                    $division->isLite(),
                     $division->getSortIndex(),
                     $divisionName
                 )

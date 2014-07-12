@@ -48,7 +48,7 @@ class LiteFilter implements FilterInterface
      */
     public function isOutput(Division $division)
     {
-        return $division->getLite();
+        return $division->isLite();
     }
 
     /**

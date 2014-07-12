@@ -54,7 +54,7 @@ class Division
     /**
      * @return boolean
      */
-    public function getLite()
+    public function isLite()
     {
         return $this->lite;
     }
