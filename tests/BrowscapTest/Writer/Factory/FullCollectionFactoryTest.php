@@ -44,7 +44,7 @@ class FullCollectionFactoryTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         vfsStream::setup(self::STORAGE_DIR);
-        
+
         $this->object = new FullCollectionFactory();
     }
 
