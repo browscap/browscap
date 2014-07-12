@@ -163,12 +163,12 @@ class BuildGenerator
 
         $this->getLogger()->info('started creating a data collection');
 
-        $collection = new DataCollection($version);
-        $collection->setLogger($this->getLogger());
+        $dataCollection = new DataCollection($version);
+        $dataCollection->setLogger($this->getLogger());
 
         $this->collectionCreator
             ->setLogger($this->getLogger())
-            ->setDataCollection($collection)
+            ->setDataCollection($dataCollection)
         ;
 
         $collection = $this->collectionCreator->createDataCollection($this->resourceFolder);
