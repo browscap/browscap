@@ -50,10 +50,10 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testIsOutput()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getLite'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('isLite'), array(), '', false);
         $mockDivision
             ->expects(self::once())
-            ->method('getLite')
+            ->method('isLite')
             ->will(self::returnValue(false))
         ;
 
