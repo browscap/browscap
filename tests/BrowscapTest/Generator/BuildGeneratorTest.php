@@ -161,12 +161,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::once())
             ->method('renderHeader')
             ->will(self::returnSelf())
         ;
         $writerCollection
-            ->expects(self::exactly(3))
+            ->expects(self::once())
             ->method('renderAllDivisionsHeader')
             ->will(self::returnSelf())
         ;
