@@ -98,16 +98,21 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
         $mockDivision
             ->expects(self::exactly(2))
             ->method('getUserAgents')
             ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz'), 'userAgent' => 'abc'))))
         ;
+        $mockDivision
+            ->expects(self::exactly(2))
+            ->method('getVersions')
+            ->will(self::returnValue(array(2)))
+        ;
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser'),
+            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'),
             array(),
             '',
             false
@@ -126,6 +131,11 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->expects(self::once())
             ->method('getDefaultBrowser')
             ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDivisions')
+            ->will(self::returnValue(array($mockDivision)))
         ;
 
         $mockCreator = $this->getMock(

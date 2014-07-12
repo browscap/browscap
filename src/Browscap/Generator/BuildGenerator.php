@@ -290,7 +290,7 @@ class BuildGenerator
 
         $this->writerCollection
             ->renderDivisionFooter()
-            ->renderAllDivisionsFooter($collection)
+            ->renderAllDivisionsFooter()
         ;
 
         $this->getLogger()->info('finished output of divisions');
