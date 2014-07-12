@@ -153,9 +153,10 @@ class BuildGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string  $version
+     * @param boolean $createZipFile
      */
-    public function run($version)
+    public function run($version, $createZipFile = true)
     {
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
@@ -301,6 +302,10 @@ class BuildGenerator
         ;
 
         $this->getLogger()->info('finished closing writers');
+
+        if (!$createZipFile) {
+            return;
+        }
 
         $this->getLogger()->info('started creating the zip archive');
 

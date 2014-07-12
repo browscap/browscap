@@ -107,15 +107,49 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     public function testBuild()
     {
         $mockCollection = $this->getMock('\\Browscap\\Generator\\DataCollection', array('getGenerationDate'), array(), '', false);
-        $mockCollection->expects(self::any())
+        $mockCollection
+            ->expects(self::any())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
         ;
 
         $mockCreator = $this->getMock('\\Browscap\\Helper\\CollectionCreator', array('createDataCollection'), array(), '', false);
-        $mockCreator->expects(self::any())
+        $mockCreator
+            ->expects(self::any())
             ->method('createDataCollection')
             ->will(self::returnValue($mockCollection))
+        ;
+
+        $writerCollection = $this->getMock('\Browscap\Writer\WriterCollection', array('fileStart', 'renderHeader', 'renderAllDivisionsHeader', 'renderSectionHeader', 'renderSectionBody', 'fileEnd'), array(), '', false);
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileStart')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderAllDivisionsHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionBody')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileEnd')
+            ->will(self::returnSelf())
         ;
 
         $buildDir = sys_get_temp_dir() . '/bcap-build-generator-test/';
@@ -124,6 +158,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $generator = new BuildGenerator('.', $buildDir);
         self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
+        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test');
     }

@@ -139,7 +139,7 @@ class GrepCommand extends Command
                 ->setLogger($logger)
                 ->setCollectionCreator(new CollectionCreator())
                 ->setWriterCollection($writerCollection)
-                ->run($input->getArgument('version'))
+                ->run($input->getArgument('version'), false)
             ;
         }
 
