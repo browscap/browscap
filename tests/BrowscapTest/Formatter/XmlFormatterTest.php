@@ -48,6 +48,14 @@ class XmlFormatterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('XML', $this->object->getType());
     }
 
+    public function testSetGetFilter()
+    {
+        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setFilter($mockFilter));
+        self::assertSame($mockFilter, $this->object->getFilter());
+    }
+
     public function testFormatPropertyName()
     {
         self::assertSame('text', $this->object->formatPropertyName('text'));

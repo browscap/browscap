@@ -98,6 +98,9 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
 
     public function testFileEnd()
     {
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->addWriter($mockWriter));
         self::assertSame($this->object, $this->object->fileEnd());
     }
 
