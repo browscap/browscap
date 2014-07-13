@@ -132,7 +132,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(new \DateTime()))
         ;
         $mockCollection
-            ->expects(self::once())
+            ->expects(self::exactly(2))
             ->method('getDefaultProperties')
             ->will(self::returnValue($mockDivision))
         ;
