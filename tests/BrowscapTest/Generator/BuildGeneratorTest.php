@@ -106,7 +106,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                 self::returnValue(
                     array(
                         0 => array(
-                            'properties' => array('Browser' => 'xyz', 'Parent' => 'DefaultProperties'),
+                            'properties' => array(
+                                'Parent'   => 'DefaultProperties',
+                                'Browser'  => 'xyz',
+                                'Version'  => '1.0',
+                                'MajorBer' => '1',
+                            ),
                             'userAgent'  => 'abc'
                         )
                     )
