@@ -55,7 +55,7 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mock));
-        
+
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
         $in = <<<HERE
