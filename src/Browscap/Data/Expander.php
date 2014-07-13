@@ -146,14 +146,6 @@ class Expander
 
         $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
 
-        // if (!in_array($useragent['properties']['Parent'], $this->allDivision)) {
-            // throw new \UnexpectedValueException(
-                // 'the parent element "' . $useragent['properties']['Parent']
-                // . '" for key "' . $useragent['userAgent'] . '" is not added before the element, '
-                // . 'please change the SortIndex'
-            // );
-        // }
-
         if (!isset($uaProperties['Parent'])) {
             throw new \LogicException('the "parent" property is missing for key "' . $uaData['userAgent'] . '"');
         }

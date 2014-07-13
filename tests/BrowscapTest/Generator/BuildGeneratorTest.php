@@ -100,7 +100,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
         $mockDivision
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(5))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -215,10 +215,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
 
-        $buildDir = sys_get_temp_dir() . '/bcap-build-generator-test/';
-        mkdir($buildDir);
-
-        $generator = new BuildGenerator('.', $buildDir);
+        $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setWriterCollection($writerCollection));
