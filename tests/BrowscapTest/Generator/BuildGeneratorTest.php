@@ -126,7 +126,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'),
+            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
             array(),
             '',
             false
@@ -151,6 +151,11 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('getDivisions')
             ->will(self::returnValue(array($mockDivision)))
         ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('checkProperty')
+            ->will(self::returnValue(true))
+        ;
 
         $mockCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
@@ -174,7 +179,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                 'renderSectionHeader',
                 'renderSectionBody',
                 'fileEnd',
-                'checkProperty'
             ),
             array(),
             '',
@@ -209,11 +213,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->expects(self::once())
             ->method('fileEnd')
             ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('checkProperty')
-            ->will(self::returnValue(true))
         ;
 
         $buildDir = sys_get_temp_dir() . '/bcap-build-generator-test/';
