@@ -41,60 +41,85 @@ class PropertyHolder
      */
     public function getPropertyType($propertyName)
     {
-        switch ($propertyName) {
-            case 'Comment':
-            case 'Browser':
-            case 'Browser_Maker':
-            case 'Browser_Modus':
-            case 'Platform':
-            case 'Platform_Name':
-            case 'Platform_Description':
-            case 'Device_Name':
-            case 'Platform_Maker':
-            case 'Device_Code_Name':
-            case 'Device_Maker':
-            case 'Device_Brand_Name':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Description':
-            case 'RenderingEngine_Maker':
-            case 'Parent':
-                return self::TYPE_STRING;
-            case 'Browser_Type':
-            case 'Device_Type':
-            case 'Device_Pointing_Method':
-            case 'Browser_Bits':
-            case 'Platform_Bits':
-                return self::TYPE_IN_ARRAY;
-            case 'Platform_Version':
-            case 'RenderingEngine_Version':
-                return self::TYPE_GENERIC;
-            case 'Version':
-            case 'CssVersion':
-            case 'AolVersion':
-            case 'MajorVer':
-            case 'MinorVer':
-                return self::TYPE_NUMBER;
-            case 'Alpha':
-            case 'Beta':
-            case 'Win16':
-            case 'Win32':
-            case 'Win64':
-            case 'Frames':
-            case 'IFrames':
-            case 'Tables':
-            case 'Cookies':
-            case 'BackgroundSounds':
-            case 'JavaScript':
-            case 'VBScript':
-            case 'JavaApplets':
-            case 'ActiveXControls':
-            case 'isMobileDevice':
-            case 'isTablet':
-            case 'isSyndicationReader':
-            case 'Crawler':
-                return self::TYPE_BOOLEAN;
-            default:
-                // do nothing here
+        $stringProperties = array(
+            'Comment',
+            'Browser',
+            'Browser_Maker',
+            'Browser_Modus',
+            'Platform',
+            'Platform_Name',
+            'Platform_Description',
+            'Device_Name',
+            'Platform_Maker',
+            'Device_Code_Name',
+            'Device_Maker',
+            'Device_Brand_Name',
+            'RenderingEngine_Name',
+            'RenderingEngine_Description',
+            'RenderingEngine_Maker',
+            'Parent',
+        );
+
+        if (in_array($propertyName, $stringProperties)) {
+            return self::TYPE_STRING;
+        }
+
+        $arrayProperties = array(
+            'Browser_Type',
+            'Device_Type',
+            'Device_Pointing_Method',
+            'Browser_Bits',
+            'Platform_Bits',
+        );
+
+        if (in_array($propertyName, $arrayProperties)) {
+            return self::TYPE_IN_ARRAY;
+        }
+
+        $genericProperties = array(
+            'Platform_Version',
+            'RenderingEngine_Version',
+        );
+
+        if (in_array($propertyName, $genericProperties)) {
+            return self::TYPE_GENERIC;
+        }
+
+        $numericProperties = array(
+            'Version',
+            'CssVersion',
+            'AolVersion',
+            'MajorVer',
+            'MinorVer',
+        );
+
+        if (in_array($propertyName, $numericProperties)) {
+            return self::TYPE_NUMBER;
+        }
+
+        $booleanProperties = array(
+            'Alpha',
+            'Beta',
+            'Win16',
+            'Win32',
+            'Win64',
+            'Frames',
+            'IFrames',
+            'Tables',
+            'Cookies',
+            'BackgroundSounds',
+            'JavaScript',
+            'VBScript',
+            'JavaApplets',
+            'ActiveXControls',
+            'isMobileDevice',
+            'isTablet',
+            'isSyndicationReader',
+            'Crawler',
+        );
+
+        if (in_array($propertyName, $booleanProperties)) {
+            return self::TYPE_BOOLEAN;
         }
 
         throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
@@ -109,28 +134,29 @@ class PropertyHolder
      */
     public function isExtraProperty($propertyName)
     {
-        switch ($propertyName) {
-            case 'Browser_Type':
-            case 'Browser_Bits':
-            case 'Browser_Maker':
-            case 'Browser_Modus':
-            case 'Platform_Name':
-            case 'Platform_Bits':
-            case 'Platform_Maker':
-            case 'Device_Code_Name':
-            case 'Device_Brand_Name':
-            case 'Device_Name':
-            case 'Device_Maker':
-            case 'Device_Type':
-            case 'Device_Pointing_Method':
-            case 'Platform_Description':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Version':
-            case 'RenderingEngine_Description':
-            case 'RenderingEngine_Maker':
-                return true;
-            default:
-                // do nothing here
+        $extraProperties = array(
+            'Browser_Type',
+            'Browser_Bits',
+            'Browser_Maker',
+            'Browser_Modus',
+            'Platform_Name',
+            'Platform_Bits',
+            'Platform_Maker',
+            'Device_Code_Name',
+            'Device_Brand_Name',
+            'Device_Name',
+            'Device_Maker',
+            'Device_Type',
+            'Device_Pointing_Method',
+            'Platform_Description',
+            'RenderingEngine_Name',
+            'RenderingEngine_Version',
+            'RenderingEngine_Description',
+            'RenderingEngine_Maker',
+        );
+
+        if (in_array($propertyName, $extraProperties)) {
+            return true;
         }
 
         return false;
@@ -145,56 +171,57 @@ class PropertyHolder
      */
     public function isOutputProperty($propertyName)
     {
-        switch ($propertyName) {
-            case 'Comment':
-            case 'Browser':
-            case 'Browser_Maker':
-            case 'Browser_Modus':
-            case 'Platform':
-            case 'Platform_Name':
-            case 'Platform_Description':
-            case 'Device_Name':
-            case 'Platform_Maker':
-            case 'Device_Code_Name':
-            case 'Device_Maker':
-            case 'Device_Brand_Name':
-            case 'RenderingEngine_Name':
-            case 'RenderingEngine_Description':
-            case 'RenderingEngine_Maker':
-            case 'Parent':
-            case 'Browser_Type':
-            case 'Device_Type':
-            case 'Device_Pointing_Method':
-            case 'Browser_Bits':
-            case 'Platform_Bits':
-            case 'Platform_Version':
-            case 'RenderingEngine_Version':
-            case 'Version':
-            case 'CssVersion':
-            case 'AolVersion':
-            case 'MajorVer':
-            case 'MinorVer':
-            case 'Alpha':
-            case 'Beta':
-            case 'Win16':
-            case 'Win32':
-            case 'Win64':
-            case 'Frames':
-            case 'IFrames':
-            case 'Tables':
-            case 'Cookies':
-            case 'BackgroundSounds':
-            case 'JavaScript':
-            case 'VBScript':
-            case 'JavaApplets':
-            case 'ActiveXControls':
-            case 'isMobileDevice':
-            case 'isTablet':
-            case 'isSyndicationReader':
-            case 'Crawler':
-                return true;
-            default:
-                // do nothing here
+        $outputProperties = array(
+            'Comment',
+            'Browser',
+            'Browser_Maker',
+            'Browser_Modus',
+            'Platform',
+            'Platform_Name',
+            'Platform_Description',
+            'Device_Name',
+            'Platform_Maker',
+            'Device_Code_Name',
+            'Device_Maker',
+            'Device_Brand_Name',
+            'RenderingEngine_Name',
+            'RenderingEngine_Description',
+            'RenderingEngine_Maker',
+            'Parent',
+            'Browser_Type',
+            'Device_Type',
+            'Device_Pointing_Method',
+            'Browser_Bits',
+            'Platform_Bits',
+            'Platform_Version',
+            'RenderingEngine_Version',
+            'Version',
+            'CssVersion',
+            'AolVersion',
+            'MajorVer',
+            'MinorVer',
+            'Alpha',
+            'Beta',
+            'Win16',
+            'Win32',
+            'Win64',
+            'Frames',
+            'IFrames',
+            'Tables',
+            'Cookies',
+            'BackgroundSounds',
+            'JavaScript',
+            'VBScript',
+            'JavaApplets',
+            'ActiveXControls',
+            'isMobileDevice',
+            'isTablet',
+            'isSyndicationReader',
+            'Crawler',
+        );
+
+        if (in_array($propertyName, $outputProperties)) {
+            return true;
         }
 
         return false;
