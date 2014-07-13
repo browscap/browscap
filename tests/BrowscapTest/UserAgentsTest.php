@@ -176,7 +176,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $writerCollection
             ->renderDivisionFooter()
-            ->renderAllDivisionsFooter($collection)
+            ->renderAllDivisionsFooter()
         ;
 
         $writerCollection

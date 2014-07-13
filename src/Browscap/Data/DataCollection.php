@@ -120,7 +120,8 @@ class DataCollection
      */
     public function addPlatformsFile($src)
     {
-        $json = $this->loadFile($src);
+        $json            = $this->loadFile($src);
+        $platformFactory = new Factory\Platform();
 
         foreach ($json['platforms'] as $platformName => $platformData) {
             if (!isset($platformData['match'])) {
@@ -131,53 +132,7 @@ class DataCollection
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            if (!isset($platformData['properties'])) {
-                $platformData['properties'] = array();
-            }
-
-            if (array_key_exists('inherits', $platformData)) {
-                $parentName = $platformData['inherits'];
-
-                if (!isset($json['platforms'][$parentName])) {
-                    throw new \UnexpectedValueException(
-                        'parent Platform "' . $parentName . '" is missing for platform "' . $platformName . '"'
-                    );
-                }
-
-                $parentPlatformData = $json['platforms'][$parentName];
-
-                if (!isset($parentPlatformData['properties'])) {
-                    throw new \UnexpectedValueException(
-                        'properties missing for parent Platform "' . $parentName . '"'
-                    );
-                }
-
-                $inheritedPlatformProperties = $platformData['properties'];
-
-                foreach ($inheritedPlatformProperties as $name => $value) {
-                    if (isset($parentPlatformData['properties'][$name])
-                        && $parentPlatformData['properties'][$name] == $value
-                    ) {
-                        throw new \UnexpectedValueException(
-                            'the value for property "' . $name .'" has the same value in the keys "' . $platform
-                            . '" and its parent "' . $platformData['inherits'] . '"'
-                        );
-                    }
-                }
-
-                $platformData['properties'] = array_merge(
-                    $parentPlatformData['properties'],
-                    $inheritedPlatformProperties
-                );
-            }
-
-            $platform = new Platform();
-            $platform
-                ->setMatch($platformData['match'])
-                ->setProperties($platformData['properties'])
-            ;
-
-            $this->platforms[$platformName] = $platform;
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -195,57 +150,15 @@ class DataCollection
      */
     public function addEnginesFile($src)
     {
-        $json = $this->loadFile($src);
+        $json          = $this->loadFile($src);
+        $engineFactory = new Factory\Engine();
 
         foreach ($json['engines'] as $engineName => $engineData) {
             if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            if (!isset($engineData['properties'])) {
-                $engineData['properties'] = array();
-            }
-
-            if (array_key_exists('inherits', $engineData)) {
-                $parentName = $engineData['inherits'];
-
-                if (!isset($json['engines'][$parentName])) {
-                    throw new \UnexpectedValueException(
-                        'parent Engine "' . $parentName . '" is missing for engine "' . $engineName . '"'
-                    );
-                }
-
-                $parentEngineData = $json['engines'][$parentName];
-
-                if (!isset($parentEngineData['properties'])) {
-                    throw new \UnexpectedValueException(
-                        'properties missing for parent Engine "' . $parentName . '"'
-                    );
-                }
-
-                $inheritedPlatformProperties = $engineData['properties'];
-
-                foreach ($inheritedPlatformProperties as $name => $value) {
-                    if (isset($parentEngineData['properties'][$name])
-                        && $parentEngineData['properties'][$name] == $value
-                    ) {
-                        throw new \UnexpectedValueException(
-                            'the value for property "' . $name .'" has the same value in the keys "' . $engine
-                            . '" and its parent "' . $engineData['inherits'] . '"'
-                        );
-                    }
-                }
-
-                $engineData['properties'] = array_merge(
-                    $parentEngineData['properties'],
-                    $inheritedPlatformProperties
-                );
-            }
-
-            $engine = new Engine();
-            $engine->setProperties($engineData['properties']);
-
-            $this->engines[$engineName] = $engine;
+            $this->engines[$engineName] = $engineFactory->build($engineData, $json, $engineName);
         }
 
         $this->divisionsHaveBeenSorted = false;
