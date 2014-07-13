@@ -119,7 +119,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             )
         ;
         $mockDivision
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('getVersions')
             ->will(self::returnValue(array(2)))
         ;
@@ -200,12 +200,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
         $writerCollection
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('renderSectionHeader')
             ->will(self::returnSelf())
         ;
         $writerCollection
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('renderSectionBody')
             ->will(self::returnSelf())
         ;
@@ -221,5 +221,132 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test');
+    }
+
+    public function testBuildWithoutZip()
+    {
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
+        $mockDivision
+            ->expects(self::exactly(5))
+            ->method('getUserAgents')
+            ->will(
+                self::returnValue(
+                    array(
+                        0 => array(
+                            'properties' => array(
+                                'Parent'   => 'DefaultProperties',
+                                'Browser'  => 'xyz',
+                                'Version'  => '1.0',
+                                'MajorBer' => '1',
+                            ),
+                            'userAgent'  => 'abc'
+                        )
+                    )
+                )
+            )
+        ;
+        $mockDivision
+            ->expects(self::once())
+            ->method('getVersions')
+            ->will(self::returnValue(array(2)))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getGenerationDate')
+            ->will(self::returnValue(new \DateTime()))
+        ;
+        $mockCollection
+            ->expects(self::exactly(2))
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultBrowser')
+            ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDivisions')
+            ->will(self::returnValue(array($mockDivision)))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('checkProperty')
+            ->will(self::returnValue(true))
+        ;
+
+        $mockCreator = $this->getMock(
+            '\Browscap\Helper\CollectionCreator',
+            array('createDataCollection'),
+            array(),
+            '',
+            false
+        );
+        $mockCreator
+            ->expects(self::any())
+            ->method('createDataCollection')
+            ->will(self::returnValue($mockCollection))
+        ;
+
+        $writerCollection = $this->getMock(
+            '\Browscap\Writer\WriterCollection',
+            array(
+                'fileStart',
+                'renderHeader',
+                'renderAllDivisionsHeader',
+                'renderSectionHeader',
+                'renderSectionBody',
+                'fileEnd',
+            ),
+            array(),
+            '',
+            false
+        );
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileStart')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('renderHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('renderAllDivisionsHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionBody')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileEnd')
+            ->will(self::returnSelf())
+        ;
+
+        $generator = new BuildGenerator('.', '.');
+        self::assertSame($generator, $generator->setLogger($this->logger));
+        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
+        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
+
+        $generator->run('test', false);
     }
 }

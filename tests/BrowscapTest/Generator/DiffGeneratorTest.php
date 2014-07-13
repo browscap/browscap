@@ -49,4 +49,26 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setLogger($mock));
     }
+
+    public function testRun()
+    {
+        $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setLogger($mock));
+        
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+; comment
+
+[test]
+test=test
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        self::assertNull($this->object->run($tmpfile, $tmpfile));
+
+        unlink($tmpfile);
+    }
 }

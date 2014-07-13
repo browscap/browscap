@@ -144,13 +144,12 @@ class GrepCommand extends Command
         }
 
         $generator = new \Browscap\Generator\GrepGenerator();
-
-        $browscap = new Browscap($cacheDir);
+        $browscap  = new Browscap($cacheDir);
         $browscap->localFile = $iniFile;
 
         $generator
             ->setLogger($logger)
-            ->run($browscap, $cacheDir, $inputFile, $mode)
+            ->run($browscap, $inputFile, $mode)
         ;
 
         $this->logger->info('Grep done.');

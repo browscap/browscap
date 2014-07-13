@@ -18,6 +18,7 @@
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\GrepGenerator;
+use Browscap\Command\GrepCommand;
 
 /**
  * Class GrepGeneratorTest
@@ -48,5 +49,28 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mock));
+    }
+
+    public function testRun()
+    {
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+
+        self::assertSame($this->object, $this->object->setLogger($mockLogger));
+        
+        $mockBrowscap = $this->getMock('\phpbrowscap\Browscap', array(), array(), '', false);
+        
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+; comment
+
+test
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        self::assertNull($this->object->run($mockBrowscap, $tmpfile, GrepCommand::MODE_UNMATCHED));
+
+        unlink($tmpfile);
     }
 }

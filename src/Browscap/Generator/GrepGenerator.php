@@ -44,11 +44,10 @@ class GrepGenerator
      * Entry point for generating builds for a specified version
      *
      * @param \phpbrowscap\Browscap $browscap
-     * @param string                $cacheDir
      * @param string                $inputFile
      * @param string                $mode
      */
-    public function run(Browscap $browscap, $cacheDir, $inputFile, $mode)
+    public function run(Browscap $browscap, $inputFile, $mode)
     {
         $this->logger->debug('initialize Browscap');
         $this->browscap = $browscap;
