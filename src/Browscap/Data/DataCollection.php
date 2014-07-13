@@ -121,7 +121,7 @@ class DataCollection
     public function addPlatformsFile($src)
     {
         $json            = $this->loadFile($src);
-        $platformFactory = new Factory\Platform();
+        $platformFactory = new Factory\PlatformFactory();
 
         foreach ($json['platforms'] as $platformName => $platformData) {
             if (!isset($platformData['match'])) {
@@ -151,7 +151,7 @@ class DataCollection
     public function addEnginesFile($src)
     {
         $json          = $this->loadFile($src);
-        $engineFactory = new Factory\Engine();
+        $engineFactory = new Factory\EngineFactory();
 
         foreach ($json['engines'] as $engineName => $engineData) {
             if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {

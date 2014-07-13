@@ -18,6 +18,7 @@
 namespace Browscap\Data\Factory;
 
 use Psr\Log\LoggerInterface;
+use Browscap\Data\Platform;
 
 /**
  * Class DataCollection
@@ -26,7 +27,7 @@ use Psr\Log\LoggerInterface;
  * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
-class Platform
+class PlatformFactory
 {
     /**
      * Load a platforms.json file and parse it into the platforms data array
