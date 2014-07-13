@@ -43,16 +43,15 @@ class GrepGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $cacheDir
-     * @param string $iniFile
-     * @param string $inputFile
-     * @param string $mode
+     * @param \phpbrowscap\Browscap $browscap
+     * @param string                $cacheDir
+     * @param string                $inputFile
+     * @param string                $mode
      */
-    public function run($cacheDir, $iniFile, $inputFile, $mode)
+    public function run(Browscap $browscap, $cacheDir, $inputFile, $mode)
     {
         $this->logger->debug('initialize Browscap');
-        $this->browscap = new Browscap($cacheDir);
-        $this->browscap->localFile = $iniFile;
+        $this->browscap = $browscap;
 
         $fileContents = file_get_contents($inputFile);
 
