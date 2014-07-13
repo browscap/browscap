@@ -17,7 +17,6 @@
 
 namespace Browscap\Data\Factory;
 
-use Psr\Log\LoggerInterface;
 use Browscap\Data\Engine;
 
 /**
