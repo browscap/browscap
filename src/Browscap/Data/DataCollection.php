@@ -523,6 +523,8 @@ class DataCollection
 
     /**
      * Sort the divisions (if they haven't already been sorted)
+     *
+     * @return \Browscap\Data\DataCollection
      */
     public function sortDivisions()
     {
@@ -544,6 +546,8 @@ class DataCollection
 
             $this->divisionsHaveBeenSorted = true;
         }
+
+        return $this;
     }
 
     /**
