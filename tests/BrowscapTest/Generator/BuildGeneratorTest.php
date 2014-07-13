@@ -173,7 +173,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                 'renderAllDivisionsHeader',
                 'renderSectionHeader',
                 'renderSectionBody',
-                'fileEnd'
+                'fileEnd',
+                'checkProperty'
             ),
             array(),
             '',
@@ -208,6 +209,11 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->expects(self::once())
             ->method('fileEnd')
             ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('checkProperty')
+            ->will(self::returnValue(true))
         ;
 
         $buildDir = sys_get_temp_dir() . '/bcap-build-generator-test/';
