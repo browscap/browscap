@@ -63,7 +63,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
     public function testGetVersionParts()
     {
         $result = $this->object->getVersionParts(1);
-        
+
         self::assertInternalType('array', $result);
         self::assertSame(array('1', 0), $result);
     }
@@ -181,10 +181,10 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
             ->method('getDefaultProperties')
             ->will(self::returnValue($mockDivision))
         ;
-        
+
         $uaData = array(
             0 => array(
-                'userAgent'  => 'abc', 
+                'userAgent'  => 'abc',
                 'properties' => array('Parent' => 'Defaultproperties', 'Version' => '1.0', 'MajorVer' => 1, 'Browser' => 'xyz'),
                 'children'   => array(
                     0 => array(
