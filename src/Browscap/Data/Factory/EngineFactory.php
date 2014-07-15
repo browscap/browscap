@@ -53,19 +53,14 @@ class EngineFactory
                 );
             }
 
-            $parentEngineData = $json['engines'][$parentName];
-
-            if (!isset($parentEngineData['properties'])) {
-                throw new \UnexpectedValueException(
-                    'properties missing for parent Engine "' . $parentName . '"'
-                );
-            }
+            $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
+            $parentEngineData = $parentEngine->getProperties();
 
             $inheritedPlatformProperties = $engineData['properties'];
 
             foreach ($inheritedPlatformProperties as $name => $value) {
-                if (isset($parentEngineData['properties'][$name])
-                    && $parentEngineData['properties'][$name] == $value
+                if (isset($parentEngineData[$name])
+                    && $parentEngineData[$name] == $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name .'" has the same value in the keys "' . $engineName
@@ -75,7 +70,7 @@ class EngineFactory
             }
 
             $engineData['properties'] = array_merge(
-                $parentEngineData['properties'],
+                $parentEngineData,
                 $inheritedPlatformProperties
             );
         }

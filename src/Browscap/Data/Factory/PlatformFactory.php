@@ -54,19 +54,14 @@ class PlatformFactory
                 );
             }
 
-            $parentPlatformData = $json['platforms'][$parentName];
-
-            if (!isset($parentPlatformData['properties'])) {
-                throw new \UnexpectedValueException(
-                    'properties missing for parent Platform "' . $parentName . '"'
-                );
-            }
+            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
+            $parentPlatformData = $parentPlatform->getProperties();
 
             $inheritedPlatformProperties = $platformData['properties'];
 
             foreach ($inheritedPlatformProperties as $name => $value) {
-                if (isset($parentPlatformData['properties'][$name])
-                    && $parentPlatformData['properties'][$name] == $value
+                if (isset($parentPlatformData[$name])
+                    && $parentPlatformData[$name] == $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name .'" has the same value in the keys "' . $platformName
@@ -76,7 +71,7 @@ class PlatformFactory
             }
 
             $platformData['properties'] = array_merge(
-                $parentPlatformData['properties'],
+                $parentPlatformData,
                 $inheritedPlatformProperties
             );
         }
