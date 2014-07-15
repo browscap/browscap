@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "Kindle Nook",
+      "platform": "Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kindle Nook",

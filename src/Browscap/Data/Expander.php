@@ -440,17 +440,7 @@ class Expander
             unset($parents);
 
             foreach ($browserData as $propertyName => $propertyValue) {
-                switch ((string) $propertyValue) {
-                    case 'true':
-                        $properties[$propertyName] = true;
-                        break;
-                    case 'false':
-                        $properties[$propertyName] = false;
-                        break;
-                    default:
-                        $properties[$propertyName] = trim($propertyValue);
-                        break;
-                }
+                $properties[$propertyName] = $this->trimProperty($propertyValue);
             }
 
             unset($browserData);
@@ -489,6 +479,30 @@ class Expander
         }
 
         return $allDivisions;
+    }
+
+    /**
+     * trims the value of a property and converts the string values "true" and "false" to boolean
+     *
+     * @param string $propertyValue
+     *
+     * @return string|boolean
+     */
+    public function trimProperty($propertyValue)
+    {
+        switch ((string) $propertyValue) {
+            case 'true':
+                $propertyValue = true;
+                break;
+            case 'false':
+                $propertyValue = false;
+                break;
+            default:
+                $propertyValue = trim($propertyValue);
+                break;
+        }
+
+        return $propertyValue;
     }
 
     /**

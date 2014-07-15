@@ -310,6 +310,12 @@ class IniWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
+        $expander = new \Browscap\Data\Expander();
+
+        foreach ($defaultproperties as $propertyName => $propertyValue) {
+            $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
+        }
+
         foreach ($properties as $property) {
             if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property)) {
                 continue;
