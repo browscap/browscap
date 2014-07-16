@@ -45,7 +45,7 @@ class AspFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testGetType()
     {
-        self::assertSame('ASP', $this->object->getType());
+        self::assertSame('asp', $this->object->getType());
     }
 
     public function testSetGetFilter()

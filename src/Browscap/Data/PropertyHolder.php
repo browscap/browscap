@@ -130,9 +130,10 @@ class PropertyHolder
      * be included in the "full" versions of the files)
      *
      * @param string $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
      * @return boolean
      */
-    public function isExtraProperty($propertyName)
+    public function isExtraProperty($propertyName, \Browscap\Writer\WriterInterface $writer = null)
     {
         $extraProperties = array(
             'Browser_Type',
@@ -158,6 +159,14 @@ class PropertyHolder
         if (in_array($propertyName, $extraProperties)) {
             return true;
         }
+        
+        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
+            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
+
+            if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
+        }
 
         return false;
     }
@@ -167,9 +176,10 @@ class PropertyHolder
      * be included in the "full" versions of the files)
      *
      * @param string $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
      * @return boolean
      */
-    public function isOutputProperty($propertyName)
+    public function isOutputProperty($propertyName, \Browscap\Writer\WriterInterface $writer = null)
     {
         $outputProperties = array(
             'Comment',
@@ -222,6 +232,14 @@ class PropertyHolder
 
         if (in_array($propertyName, $outputProperties)) {
             return true;
+        }
+        
+        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
+            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
+
+            if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
         }
 
         return false;

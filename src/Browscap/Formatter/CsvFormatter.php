@@ -40,7 +40,7 @@ class CsvFormatter implements FormatterInterface
      */
     public function getType()
     {
-        return 'CSV';
+        return 'csv';
     }
 
     /**

@@ -45,7 +45,7 @@ class XmlFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testGetType()
     {
-        self::assertSame('XML', $this->object->getType());
+        self::assertSame('xml', $this->object->getType());
     }
 
     public function testSetGetFilter()

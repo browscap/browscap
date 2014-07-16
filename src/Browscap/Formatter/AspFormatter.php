@@ -41,7 +41,7 @@ class AspFormatter implements FormatterInterface
      */
     public function getType()
     {
-        return 'ASP';
+        return 'asp';
     }
 
     /**

@@ -65,6 +65,16 @@ class CsvWriter implements WriterInterface
     }
 
     /**
+     * returns the Type of the writer
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'csv';
+    }
+
+    /**
      * closes the Writer and the written File
      *
      * @return \Browscap\Writer\WriterInterface
@@ -234,8 +244,16 @@ class CsvWriter implements WriterInterface
 
         $values = array();
 
-        foreach (array_keys($ua[0]['properties']) as $property) {
-            if (!$this->getFilter()->isOutputProperty($property)) {
+        $defaultproperties = $ua[0]['properties'];
+        $properties        = array_merge(
+            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
+            array_keys($defaultproperties)
+        );
+
+        $values = array();
+
+        foreach ($properties as $property) {
+            if (!$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
             }
 
@@ -251,10 +269,11 @@ class CsvWriter implements WriterInterface
      * renders the header for a division
      *
      * @param string $division
+     * @param string $parent
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division)
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
     {
         return $this;
     }
@@ -281,17 +300,35 @@ class CsvWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return CsvWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
         }
 
-        $values = array();
+        $division          = $collection->getDefaultProperties();
+        $ua                = $division->getUserAgents();
+        $defaultproperties = $ua[0]['properties'];
+        $properties        = array_merge(
+            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
+            array_keys($defaultproperties)
+        );
 
-        foreach ($section as $property => $value) {
-            if (!$this->getFilter()->isOutputProperty($property)) {
+        $values = array();
+        
+        $section['PropertyName'] = $sectionName;
+        $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
+        $section['LiteMode']     = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
+
+        foreach ($properties as $property) {
+            if (!$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
+            }
+            
+            if (isset($section[$property])) {
+                $value = $section[$property];
+            } else {
+                $value = '';
             }
 
             $values[] = $this->getFormatter()->formatPropertyValue($value, $property);
@@ -330,5 +367,25 @@ class CsvWriter implements WriterInterface
     public function renderAllDivisionsFooter()
     {
         return $this;
+    }
+
+    /**
+     * @param string $key
+     * @param array  $properties
+     *
+     * @return string
+     */
+    private function detectMasterParent($key, array $properties)
+    {
+        $this->getLogger()->debug('check if the element can be marked as "MasterParent"');
+
+        if (in_array($key, array('DefaultProperties', '*'))
+            || empty($properties['Parent'])
+            || 'DefaultProperties' == $properties['Parent']
+        ) {
+            return 'true';
+        }
+
+        return 'false';
     }
 }

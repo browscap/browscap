@@ -45,7 +45,7 @@ class PhpFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testGetType()
     {
-        self::assertSame('PHP', $this->object->getType());
+        self::assertSame('php', $this->object->getType());
     }
 
     public function testSetGetFilter()

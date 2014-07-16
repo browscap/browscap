@@ -45,7 +45,7 @@ class CsvFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testGetType()
     {
-        self::assertSame('CSV', $this->object->getType());
+        self::assertSame('csv', $this->object->getType());
     }
 
     public function testSetGetFilter()

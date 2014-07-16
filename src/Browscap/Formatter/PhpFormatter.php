@@ -41,7 +41,7 @@ class PhpFormatter implements FormatterInterface
      */
     public function getType()
     {
-        return 'PHP';
+        return 'php';
     }
 
     /**

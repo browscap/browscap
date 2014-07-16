@@ -222,7 +222,7 @@ class BuildGenerator
         foreach ($sections as $sectionName => $section) {
             $this->writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections)
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
                 ->renderSectionFooter()
             ;
         }
@@ -238,31 +238,28 @@ class BuildGenerator
             foreach ($versions as $version) {
                 list($majorVer, $minorVer) = $expander->getVersionParts($version);
 
-                $userAgents = json_encode($division->getUserAgents());
-                $userAgents = $expander->parseProperty($userAgents, $majorVer, $minorVer);
-                $userAgents = json_decode($userAgents, true);
-
                 $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
 
                 $this->getLogger()->info('handle division ' . $divisionName);
 
-                $this->writerCollection->renderDivisionHeader($divisionName);
+                $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+                $firstElement = current($sections);
 
-                $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+                $this->writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach ($sections as $sectionName => $section) {
                     $collection->checkProperty($sectionName, $section);
 
                     $this->writerCollection
                         ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section, $collection, $sections)
+                        ->renderSectionBody($section, $collection, $sections, $sectionName)
                         ->renderSectionFooter()
                     ;
                 }
 
                 $this->writerCollection->renderDivisionFooter();
 
-                unset($userAgents, $divisionName, $majorVer, $minorVer);
+                unset($divisionName, $majorVer, $minorVer);
             }
         }
 
@@ -273,17 +270,12 @@ class BuildGenerator
         $this->writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
-        $sections = array(
-            $ua[0]['userAgent'] => array_merge(
-                array('Parent' => 'DefaultProperties'),
-                $ua[0]['properties']
-            )
-        );
+        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
 
         foreach ($sections as $sectionName => $section) {
             $this->writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections)
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
                 ->renderSectionFooter()
             ;
         }

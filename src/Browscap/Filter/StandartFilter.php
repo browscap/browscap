@@ -55,18 +55,19 @@ class StandartFilter implements FilterInterface
      * checks if a property should be in the output
      *
      * @param string $property
+     * @param \Browscap\Writer\WriterInterface $writer
      *
      * @return boolean
      */
-    public function isOutputProperty($property)
+    public function isOutputProperty($property, \Browscap\Writer\WriterInterface $writer = null)
     {
         $propertyHolder = new PropertyHolder();
 
-        if (!$propertyHolder->isOutputProperty($property)) {
+        if (!$propertyHolder->isOutputProperty($property, $writer)) {
             return false;
         }
 
-        if ($propertyHolder->isExtraProperty($property)) {
+        if ($propertyHolder->isExtraProperty($property, $writer)) {
             return false;
         }
 

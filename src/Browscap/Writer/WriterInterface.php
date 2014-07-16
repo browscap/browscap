@@ -36,6 +36,13 @@ interface WriterInterface
     public function __construct($file);
 
     /**
+     * returns the Type of the writer
+     *
+     * @return string
+     */
+    public function getType();
+
+    /**
      * closes the Writer and the written File
      *
      * @return \Browscap\Writer\WriterInterface
@@ -111,10 +118,11 @@ interface WriterInterface
      * renders the header for a division
      *
      * @param string $division
+     * @param string $parent
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division);
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties');
 
     /**
      * renders the header for a section
@@ -135,7 +143,7 @@ interface WriterInterface
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array());
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '');
 
     /**
      * renders the footer for a section

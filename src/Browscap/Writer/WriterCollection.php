@@ -164,13 +164,14 @@ class WriterCollection
      * renders the header for a division
      *
      * @param string $division
+     * @param string $parent
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderDivisionHeader($division)
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
     {
         foreach ($this->writers as $writer) {
-            $writer->renderDivisionHeader($division);
+            $writer->renderDivisionHeader($division, $parent);
         }
 
         return $this;

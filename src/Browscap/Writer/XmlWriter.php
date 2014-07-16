@@ -66,6 +66,16 @@ class XmlWriter implements WriterInterface
     }
 
     /**
+     * returns the Type of the writer
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'xml';
+    }
+
+    /**
      * closes the Writer and the written File
      *
      * @return \Browscap\Writer\WriterInterface
@@ -265,10 +275,11 @@ class XmlWriter implements WriterInterface
      * renders the header for a division
      *
      * @param string $division
+     * @param string $parent
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division)
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
     {
         return $this;
     }
@@ -304,21 +315,53 @@ class XmlWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return XmlWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
         }
 
-        foreach ($section as $property => $value) {
-            if (!$this->getFilter()->isOutputProperty($property)) {
+        $division          = $collection->getDefaultProperties();
+        $ua                = $division->getUserAgents();
+        $defaultproperties = $ua[0]['properties'];
+        $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
+
+        $expander = new \Browscap\Data\Expander();
+
+        foreach ($defaultproperties as $propertyName => $propertyValue) {
+            $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
+        }
+
+        foreach ($properties as $property) {
+            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
+            }
+
+            if (isset($section['Parent']) && 'Parent' !== $property) {
+                if ('DefaultProperties' === $section['Parent']
+                    || !isset($sections[$section['Parent']])
+                ) {
+                    if (isset($defaultproperties[$property])
+                        && $defaultproperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                } else {
+                    $parentProperties = $sections[$section['Parent']];
+
+                    if (isset($parentProperties[$property])
+                        && $parentProperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                }
             }
 
             fputs(
                 $this->file,
                 '<item name="' . $this->getFormatter()->formatPropertyName($property)
-                . '" value="' . $this->getFormatter()->formatPropertyValue($value, $property) . '"/>' . PHP_EOL
+                . '" value="' . $this->getFormatter()->formatPropertyValue($section[$property], $property)
+                . '"/>' . PHP_EOL
             );
         }
 

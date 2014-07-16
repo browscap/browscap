@@ -17,6 +17,7 @@
 
 namespace Browscap\Formatter;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 
 /**
@@ -40,7 +41,7 @@ class XmlFormatter implements FormatterInterface
      */
     public function getType()
     {
-        return 'XML';
+        return 'xml';
     }
 
     /**
@@ -65,7 +66,31 @@ class XmlFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, $property)
     {
-        return htmlentities($value);
+        $propertyHolder = new PropertyHolder();
+
+        switch ($propertyHolder->getPropertyType($property)) {
+            case PropertyHolder::TYPE_BOOLEAN:
+                if (true === $value || $value === 'true') {
+                    $valueOutput = 'true';
+                } elseif (false === $value || $value === 'false') {
+                    $valueOutput = 'false';
+                } else {
+                    $valueOutput = '';
+                }
+                break;
+            case PropertyHolder::TYPE_IN_ARRAY:
+                try {
+                    $valueOutput = htmlentities($propertyHolder->checkValueInArray($property, $value));
+                } catch (\InvalidArgumentException $ex) {
+                    $valueOutput = '';
+                }
+                break;
+            default:
+                $valueOutput = htmlentities($value);
+                break;
+        }
+
+        return $valueOutput;
     }
 
     /**

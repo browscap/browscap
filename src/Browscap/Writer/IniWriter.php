@@ -65,6 +65,16 @@ class IniWriter implements WriterInterface
     }
 
     /**
+     * returns the Type of the writer
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return 'ini';
+    }
+
+    /**
      * closes the Writer and the written File
      *
      * @return \Browscap\Writer\WriterInterface
@@ -257,12 +267,13 @@ class IniWriter implements WriterInterface
      * renders the header for a division
      *
      * @param string $division
+     * @param string $parent
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderDivisionHeader($division)
+    public function renderDivisionHeader($division, $parent = 'DefaultProperties')
     {
-        if ($this->isSilent()) {
+        if ($this->isSilent() || 'DefaultProperties' !== $parent) {
             return $this;
         }
 
@@ -299,7 +310,7 @@ class IniWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return IniWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
@@ -317,7 +328,7 @@ class IniWriter implements WriterInterface
         }
 
         foreach ($properties as $property) {
-            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property)) {
+            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
             }
 
