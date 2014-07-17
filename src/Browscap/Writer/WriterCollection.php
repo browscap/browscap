@@ -199,14 +199,15 @@ class WriterCollection
      * @param string[]                      $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
+     * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array())
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
     {
         foreach ($this->writers as $writer) {
-            $writer->renderSectionBody($section, $collection, $sections);
+            $writer->renderSectionBody($section, $collection, $sections, $sectionName);
         }
 
         return $this;

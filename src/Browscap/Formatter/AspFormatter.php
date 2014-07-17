@@ -66,8 +66,7 @@ class AspFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, $property)
     {
-        $valueOutput = $value;
-
+        $valueOutput    = $value;
         $propertyHolder = new PropertyHolder();
 
         switch ($propertyHolder->getPropertyType($property)) {

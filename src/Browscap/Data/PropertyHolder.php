@@ -135,6 +135,14 @@ class PropertyHolder
      */
     public function isExtraProperty($propertyName, \Browscap\Writer\WriterInterface $writer = null)
     {
+        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
+            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
+
+            if (in_array($propertyName, $additionalProperties)) {
+                return false;
+            }
+        }
+
         $extraProperties = array(
             'Browser_Type',
             'Browser_Bits',
@@ -158,14 +166,6 @@ class PropertyHolder
 
         if (in_array($propertyName, $extraProperties)) {
             return true;
-        }
-        
-        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
-            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
-
-            if (in_array($propertyName, $additionalProperties)) {
-                return true;
-            }
         }
 
         return false;

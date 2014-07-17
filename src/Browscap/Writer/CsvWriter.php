@@ -296,6 +296,7 @@ class CsvWriter implements WriterInterface
      * @param string[]                      $section
      * @param \Browscap\Data\DataCollection $collection
      * @param array[]                       $sections
+     * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
      * @return CsvWriter
