@@ -279,12 +279,33 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = array(
-            'Test'   => 1,
-            'isTest' => true,
-            'abc'    => 'bcd'
+            'Comment' => 1,
+            'Crwaler' => true,
+            'Browser' => 'bcd'
+        );
+        
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Comment' => 'abc',
+                    'Crawler' => true
+                )
+            )
         );
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
@@ -306,13 +327,13 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $map = array(
-            array('Test', true),
-            array('isTest', false),
-            array('abc', true),
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $map        = array(
+            array('Test', $mockFilter, true),
+            array('isTest', $mockFilter, false),
+            array('abc', $mockFilter, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(3))
             ->method('isOutputProperty')

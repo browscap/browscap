@@ -302,13 +302,13 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $map = array(
-            array('Comment', true),
-            array('Win16', false),
-            array('Platform', true),
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $map        = array(
+            array('Comment', $mockFilter, true),
+            array('Win16', $mockFilter, false),
+            array('Platform', $mockFilter, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(2))
             ->method('isOutputProperty')

@@ -233,7 +233,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
@@ -287,12 +287,33 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = array(
-            'Test'   => 1,
-            'isTest' => true,
-            'abc'    => 'bcd'
+            'Comment' => 1,
+            'Crwaler' => true,
+            'Browser' => 'bcd'
         );
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $expectedAgents = array(
+            0 => array(
+                'properties' => array(
+                    'Comment' => 'abc',
+                    'Crawler' => true
+                )
+            )
+        );
+
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($expectedAgents))
+        ;
+
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\CsvFormatter',
@@ -309,20 +330,23 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $map = array(
-        array('Test', true),
-        array('isTest', false),
-        array('abc', true),
-    );
-
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $map        = array(
+            array('Test', $mockFilter, true),
+            array('isTest', $mockFilter, false),
+            array('abc', $mockFilter, true),
+        );
+
         $mockFilter
-            ->expects(self::exactly(3))
+            ->expects(self::exactly(4))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
+
+        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $this->object->setLogger($mockLogger);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('1,bcd' . PHP_EOL, file_get_contents($this->file));
