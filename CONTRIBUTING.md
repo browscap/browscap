@@ -19,3 +19,10 @@ may submit Pull Requests on GitHub to help update the files.
 The format of these files is documented [here](https://github.com/browscap/browscap/wiki/Resource:-User-Agents-Database).
 
 You must also add a UA test in the [tests/fixtures/issues](https://github.com/browscap/browscap/tree/master/tests/fixtures/issues) folder that verifies that your changes work correctly. See more information in the [Testing](https://github.com/browscap/browscap/wiki/Testing) section on the wiki.
+
+## Donations
+
+If you would like to donate to the Browscap project, you can do so by one of two ways:
+
+* a regular donation on [our Gittip page](https://www.gittip.com/browscap/)
+* a one off donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?business=info@phphants.co.uk&cmd=_xclick&currency_code=GBP&item_name=For Browscap Project) (note that this goes via the PHP Hampshire user group, it is not a mistake!)
