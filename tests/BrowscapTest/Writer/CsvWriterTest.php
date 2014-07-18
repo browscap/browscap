@@ -79,6 +79,11 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockLogger, $this->object->getLogger());
     }
 
+    public function testGetType()
+    {
+        self::assertSame('csv', $this->object->getType());
+    }
+
     public function testSetGetFormatter()
     {
         $mockFormatter = $this->getMock('\Browscap\Formatter\CsvFormatter', array(), array(), '', false);
@@ -227,13 +232,13 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         $map = array(
-            array('Test', true),
-            array('isTest', false)
+            array('Test', $this->object, true),
+            array('isTest', $this->object, false)
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
-            ->expects(self::exactly(3))
+            ->expects(self::exactly(6))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
@@ -287,16 +292,17 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = array(
-            'Comment' => 1,
-            'Crwaler' => true,
-            'Browser' => 'bcd'
+            'Test'   => 1,
+            'isTest' => true,
+            'abc'    => 'bcd'
         );
-
+        
         $expectedAgents = array(
             0 => array(
                 'properties' => array(
-                    'Comment' => 'abc',
-                    'Crawler' => true
+                    'Test'  => 'abc',
+                    'abc'   => true,
+                    'alpha' => true,
                 )
             )
         );
@@ -332,13 +338,14 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $map        = array(
-            array('Test', $mockFilter, true),
-            array('isTest', $mockFilter, false),
-            array('abc', $mockFilter, true),
+            array('Test', $this->object, true),
+            array('isTest', $this->object, false),
+            array('abc', $this->object, true),
+            array('alpha', $this->object, true),
         );
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(self::exactly(8))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;

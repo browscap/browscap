@@ -69,51 +69,55 @@ class CsvFormatterTest extends \PHPUnit_Framework_TestCase
     public function propertyNameTypeDataProvider()
     {
         return [
-            ['Comment', '"test"'],
-            ['Browser', '"test"'],
-            ['Platform', '"test"'],
-            ['Platform_Description', '"test"'],
-            ['Device_Name', '"test"'],
-            ['Device_Maker', '"test"'],
-            ['RenderingEngine_Name', '"test"'],
-            ['RenderingEngine_Description', '"test"'],
-            ['Parent', '"test"'],
-            ['Platform_Version', '"test"'],
-            ['RenderingEngine_Version', '"test"'],
-            ['Version', '"test"'],
-            ['MajorVer', '"test"'],
-            ['MinorVer', '"test"'],
-            ['CssVersion', '"test"'],
-            ['AolVersion', '"test"'],
-            ['Alpha', '"test"'],
-            ['Beta', '"test"'],
-            ['Win16', '"test"'],
-            ['Win32', '"test"'],
-            ['Win64', '"test"'],
-            ['Frames', '"test"'],
-            ['IFrames', '"test"'],
-            ['Tables', '"test"'],
-            ['Cookies', '"test"'],
-            ['BackgroundSounds', '"test"'],
-            ['JavaScript', '"test"'],
-            ['VBScript', '"test"'],
-            ['JavaApplets', '"test"'],
-            ['ActiveXControls', '"test"'],
-            ['isMobileDevice', '"test"'],
-            ['isSyndicationReader', '"test"'],
-            ['Crawler', '"test"'],
-            ['Browser_Type', '"test"'],
-            ['Device_Type', '"test"'],
-            ['Device_Pointing_Method', '"test"'],
+            ['Comment', 'test', '"test"'],
+            ['Browser', 'test', '"test"'],
+            ['Platform', 'test', '"test"'],
+            ['Platform_Description', 'test', '"test"'],
+            ['Device_Name', 'test', '"test"'],
+            ['Device_Maker', 'test', '"test"'],
+            ['RenderingEngine_Name', 'test', '"test"'],
+            ['RenderingEngine_Description', 'test', '"test"'],
+            ['Parent', 'test', '"test"'],
+            ['Platform_Version', 'test', '"test"'],
+            ['RenderingEngine_Version', 'test', '"test"'],
+            ['Version', 'test', '"test"'],
+            ['MajorVer', 'test', '"test"'],
+            ['MinorVer', 'test', '"test"'],
+            ['CssVersion', 'test', '"test"'],
+            ['AolVersion', 'test', '"test"'],
+            ['Alpha', 'true', '"true"'],
+            ['Beta', 'false', '"false"'],
+            ['Win16', 'test', '"test"'],
+            ['Win32', 'test', '"test"'],
+            ['Win64', 'test', '"test"'],
+            ['Frames', 'test', '"test"'],
+            ['IFrames', 'test', '"test"'],
+            ['Tables', 'test', '"test"'],
+            ['Cookies', 'test', '"test"'],
+            ['BackgroundSounds', 'test', '"test"'],
+            ['JavaScript', 'test', '"test"'],
+            ['VBScript', 'test', '"test"'],
+            ['JavaApplets', 'test', '"test"'],
+            ['ActiveXControls', 'test', '"test"'],
+            ['isMobileDevice', 'test', '"test"'],
+            ['isSyndicationReader', 'test', '"test"'],
+            ['Crawler', 'test', '"test"'],
+            ['Browser_Type', 'test', '"test"'],
+            ['Device_Type', 'Tablet', '"Tablet"'],
+            ['Device_Pointing_Method', 'test', '"test"'],
         ];
     }
 
     /**
      * @dataProvider propertyNameTypeDataProvider
+     *
+     * @param string $propertyName
+     * @param string $inputValue
+     * @param string $expectedValue
      */
-    public function testFormatPropertyValue($propertyName, $expectedValue)
+    public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue)
     {
-        $actualValue = $this->object->formatPropertyValue('test', $propertyName);
+        $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
         self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
     }
 }

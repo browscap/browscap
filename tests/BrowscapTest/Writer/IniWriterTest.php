@@ -79,6 +79,11 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockLogger, $this->object->getLogger());
     }
 
+    public function testGetType()
+    {
+        self::assertSame('ini', $this->object->getType());
+    }
+
     public function testSetGetFormatter()
     {
         $mockFormatter = $this->getMock('\Browscap\Formatter\PhpFormatter', array(), array(), '', false);
@@ -304,9 +309,9 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
         $map        = array(
-            array('Comment', $mockFilter, true),
-            array('Win16', $mockFilter, false),
-            array('Platform', $mockFilter, true),
+            array('Comment', $this->object, true),
+            array('Win16', $this->object, false),
+            array('Platform', $this->object, true),
         );
 
         $mockFilter
@@ -387,10 +392,10 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         $map = array(
-            array('Comment', true),
-            array('Win16', false),
-            array('Platform', true),
-            array('Parent', true),
+            array('Comment', $this->object, true),
+            array('Win16', $this->object, false),
+            array('Platform', $this->object, true),
+            array('Parent', $this->object, true),
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
@@ -467,10 +472,10 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         $map = array(
-            array('Comment', true),
-            array('Win16', false),
-            array('Platform', true),
-            array('Parent', true),
+            array('Comment', $this->object, true),
+            array('Win16', $this->object, false),
+            array('Platform', $this->object, true),
+            array('Parent', $this->object, true),
         );
 
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);

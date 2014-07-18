@@ -100,7 +100,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
         $mockDivision
-            ->expects(self::exactly(5))
+            ->expects(self::exactly(4))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -227,7 +227,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
         $mockDivision
-            ->expects(self::exactly(5))
+            ->expects(self::exactly(4))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
