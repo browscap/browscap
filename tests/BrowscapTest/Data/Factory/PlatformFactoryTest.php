@@ -17,19 +17,19 @@
 
 namespace BrowscapTest\Data\Factory;
 
-use Browscap\Data\Factory\Engine;
+use Browscap\Data\Factory\PlatformFactory;
 
 /**
- * Class EngineTest
+ * Class PlatformTest
  *
  * @category   BrowscapTest
  * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
-class EngineTest extends \PHPUnit_Framework_TestCase
+class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Data\Factory\Engine
+     * @var \Browscap\Data\Factory\PlatformFactory
      */
     private $object = null;
 
@@ -40,15 +40,15 @@ class EngineTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->object = new Engine();
+        $this->object = new PlatformFactory();
     }
 
     public function testBuild()
     {
-        $engineData = array('abc' => 'def');
-        $json       = array();
-        $engineName = 'Test';
+        $platformData = array('abc' => 'def', 'match' => 'test*');
+        $json         = array();
+        $platformName = 'Test';
 
-        self::assertInstanceOf('\Browscap\Data\Engine', $this->object->build($engineData, $json, $engineName));
+        self::assertInstanceOf('\Browscap\Data\Platform', $this->object->build($platformData, $json, $platformName));
     }
 }

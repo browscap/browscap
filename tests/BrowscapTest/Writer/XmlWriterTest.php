@@ -436,7 +436,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
-        self::assertSame('Parent="X1"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL, 
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent()
@@ -516,7 +519,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
-        self::assertSame('Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL, 
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderSectionBodyIfSilent()

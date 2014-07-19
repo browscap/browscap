@@ -329,7 +329,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
@@ -345,7 +345,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         );
 
         $mockFilter
-            ->expects(self::exactly(8))
+            ->expects(self::exactly(7))
             ->method('isOutputProperty')
             ->will(self::returnValueMap($map))
         ;
@@ -356,7 +356,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($mockLogger);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
-        self::assertSame('1,bcd' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('1,bcd,' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionBodyIfSilent()

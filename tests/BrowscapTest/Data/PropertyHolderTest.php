@@ -164,6 +164,19 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    public function testIsExtraPropertyWithWriter()
+    {
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue('csv'))
+        ;
+        
+        $actualValue = $this->object->isExtraProperty('PropertyName', $mockWriter);
+        self::assertFalse($actualValue);
+    }
+
     /**
      * Data Provider for the test testIsOutputProperty
      *
@@ -222,6 +235,19 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
+    }
+
+    public function testIsOutputPropertyWithWriter()
+    {
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue('csv'))
+        ;
+        
+        $actualValue = $this->object->isOutputProperty('PropertyName', $mockWriter);
+        self::assertTrue($actualValue);
     }
 
     /**
