@@ -17,6 +17,7 @@
 
 namespace Browscap\Formatter;
 
+use Browscap\Data\PropertyHolder;
 use Browscap\Filter\FilterInterface;
 
 /**
@@ -65,7 +66,36 @@ class CsvFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, $property)
     {
-        return '"' . str_replace('"', '""', $value) . '"';
+        $valueOutput    = $value;
+        $propertyHolder = new PropertyHolder();
+
+        switch ($propertyHolder->getPropertyType($property)) {
+            case PropertyHolder::TYPE_BOOLEAN:
+                if (true === $value || $value === 'true') {
+                    $valueOutput = 'true';
+                } elseif (false === $value || $value === 'false') {
+                    $valueOutput = 'false';
+                } else {
+                    $valueOutput = '';
+                }
+                break;
+            case PropertyHolder::TYPE_IN_ARRAY:
+                try {
+                    $valueOutput = $propertyHolder->checkValueInArray($property, $value);
+                } catch (\InvalidArgumentException $ex) {
+                    $valueOutput = '';
+                }
+                break;
+            default:
+                // nothing t do here
+                break;
+        }
+
+        if ('unknown' === $valueOutput) {
+            $valueOutput = '';
+        }
+
+        return '"' . str_replace('"', '""', $valueOutput) . '"';
     }
 
     /**

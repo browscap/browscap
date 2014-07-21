@@ -58,6 +58,7 @@ class PropertyHolder
             'RenderingEngine_Description',
             'RenderingEngine_Maker',
             'Parent',
+            'PropertyName',
         );
 
         if (in_array($propertyName, $stringProperties)) {
@@ -116,6 +117,8 @@ class PropertyHolder
             'isTablet',
             'isSyndicationReader',
             'Crawler',
+            'MasterParent',
+            'LiteMode',
         );
 
         if (in_array($propertyName, $booleanProperties)) {

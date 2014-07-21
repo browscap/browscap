@@ -90,6 +90,10 @@ class XmlFormatter implements FormatterInterface
                 break;
         }
 
+        if ('unknown' === $valueOutput) {
+            $valueOutput = '';
+        }
+
         return $valueOutput;
     }
 

@@ -319,7 +319,12 @@ class CsvWriter implements WriterInterface
         
         $section['PropertyName'] = $sectionName;
         $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
-        $section['LiteMode']     = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
+        
+        if (in_array($sectionName, array('DefaultProperties', '*'))) {
+            $section['LiteMode'] = 'true';
+        } else {
+            $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
+        }
 
         foreach ($properties as $property) {
             if (!$this->getFilter()->isOutputProperty($property, $this)) {
@@ -382,7 +387,7 @@ class CsvWriter implements WriterInterface
 
         if (in_array($key, array('DefaultProperties', '*'))
             || empty($properties['Parent'])
-            || 'DefaultProperties' == $properties['Parent']
+            || 'DefaultProperties' === $properties['Parent']
         ) {
             return 'true';
         }
