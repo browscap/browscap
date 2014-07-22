@@ -2225,6 +2225,23 @@
           "platforms": [
             "Win7_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebThumbnail\/3.*",
+          "properties": {
+            "Browser": "Website Thumbnail Generator",
+            "Browser_Maker": "webthumbnail.org",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebThumbnail\/*",
+          "properties": {
+            "Browser": "Website Thumbnail Generator",
+            "Browser_Maker": "webthumbnail.org"
+          }
         }
       ]
     }

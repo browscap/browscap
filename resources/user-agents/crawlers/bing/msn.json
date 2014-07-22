@@ -1,6 +1,6 @@
 {
   "division": "MSN",
-  "sortIndex": 1220,
+  "sortIndex": 1221,
   "lite": true,
   "userAgents": [
     {
@@ -79,24 +79,6 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
-          }
-        },
-        {
-          "match": "msnbot-media\/1.0*",
-          "properties": {
-            "Browser": "msnbot-media",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "msnbot-media\/1.1*",
-          "properties": {
-            "Browser": "msnbot-media",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
           }
         },
         {
@@ -190,19 +172,13 @@
           }
         },
         {
-          "match": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1 (*)"
-        },
-        {
-          "match": "T-Mobile Dash Mozilla\/4.0 (*) MSNBOT-MOBILE\/1.1 (*)",
+          "match": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1*",
           "properties": {
             "Browser": "msnbot-mobile"
           }
         },
         {
           "match": "msnbot-UDiscovery\/*"
-        },
-        {
-          "match": "msnbot-media\/*"
         },
         {
           "match": "msnbot\/*"
