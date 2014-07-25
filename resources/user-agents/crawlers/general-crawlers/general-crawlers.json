@@ -2258,6 +2258,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Webglance\/*",
+          "engine": "WebKit",
           "properties": {
             "Browser": "Web Glance",
             "Browser_Maker": "webglance.com"

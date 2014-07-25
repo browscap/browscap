@@ -3441,7 +3441,7 @@
           ]
         },
         {
-          "match": "HTC_DesireS_S510e?Mozilla\/5.0 (#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "HTC_DesireS_S510e?Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "S510e",
             "Device_Maker": "HTC",

@@ -212,6 +212,7 @@
         },
         {
           "match": "LG-KS20* Browser\/IEMobile\/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
+          "engine": "Trident",
           "properties": {
             "Device_Code_Name": "KS20",
             "Device_Maker": "LG",

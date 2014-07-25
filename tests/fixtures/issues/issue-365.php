@@ -344,7 +344,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Microsoft Corporation',
+            'Browser_Maker' => 'unknown',
             'Version' => '7.7',
             'MajorVer' => '7',
             'MinorVer' => '7',
