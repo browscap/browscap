@@ -358,7 +358,7 @@ return [
             'Device_Name' => 'KS20',
             'Device_Maker' => 'LG',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'KS20',
             'Device_Brand_Name' => 'LG',
             'RenderingEngine_Name' => 'Trident',
