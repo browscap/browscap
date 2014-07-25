@@ -7326,7 +7326,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "A390",
             "Device_Maker": "Lenovo",

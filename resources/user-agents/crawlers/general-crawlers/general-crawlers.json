@@ -2242,6 +2242,29 @@
             "Browser": "Website Thumbnail Generator",
             "Browser_Maker": "webthumbnail.org"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Webglance\/0.1*",
+          "properties": {
+            "Browser": "Web Glance",
+            "Browser_Maker": "webglance.com",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Webglance\/*",
+          "properties": {
+            "Browser": "Web Glance",
+            "Browser_Maker": "webglance.com"
+          },
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     }
