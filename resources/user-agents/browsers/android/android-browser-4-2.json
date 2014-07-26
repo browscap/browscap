@@ -226,6 +226,30 @@
           "platforms": [
             "Android_2_3"
           ]
+        },
+        {
+          "match": "Lenovo-A880* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
+          "properties": {
+            "Device_Code_Name": "A880",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A880"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Lenovo-A889* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
+          "properties": {
+            "Device_Code_Name": "A889",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A889"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
         }
       ]
     }

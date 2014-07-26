@@ -243,6 +243,20 @@
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
           ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A15",
+            "Device_Maker": "Videocon",
+            "Device_Brand_Name": "Videocon",
+            "Device_Name": "A15"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
         }
       ]
     },

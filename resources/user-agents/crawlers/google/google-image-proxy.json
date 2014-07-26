@@ -11,7 +11,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com GoogleImageProxy)*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com*",
           "platforms": [
             "ChromeOS",
             "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",

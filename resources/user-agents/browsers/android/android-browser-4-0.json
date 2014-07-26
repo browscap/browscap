@@ -215,7 +215,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -224,7 +224,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "INM8002KP",
             "Device_Type": "Mobile Phone",
@@ -238,7 +238,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -1706,7 +1706,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TSB_CLOUD_COMPANION;TOSHIBA_AC_AND_AZ) AppleWebKit\/*(KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#TSB_CLOUD_COMPANION;TOSHIBA_AC_AND_AZ) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
@@ -3438,6 +3438,18 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
+          ]
+        },
+        {
+          "match": "HTC_DesireS_S510e?Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "S510e",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire S"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -7312,7 +7324,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T310 Build\/*) AppleWebKit\/*KHTML,*release\/like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7323,6 +7335,18 @@
           },
           "platforms": [
             "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "A390",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A390"
+          },
+          "platforms": [
+            "Android_4_0"
           ]
         }
       ]

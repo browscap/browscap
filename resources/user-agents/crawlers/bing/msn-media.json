@@ -1,0 +1,59 @@
+{
+  "division": "MSN-Media",
+  "sortIndex": 1220,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "MSN-Media",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "MSN-Media",
+        "Browser": "MSN",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "msnbot-media\/1.0*",
+          "properties": {
+            "Browser": "msnbot-media",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "msnbot-media\/1.1*",
+          "properties": {
+            "Browser": "msnbot-media",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot-media\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) MsnBot-Media \/1.0b*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "msnbot-media",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0",
+            "Beta": "true"
+          },
+          "platforms": [
+            "Win7_32", "Win7_64", "Win8_32", "Win8_64",
+            "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}
