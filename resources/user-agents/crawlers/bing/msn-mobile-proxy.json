@@ -7,6 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN",
         "Browser": "MSN Mobile Proxy",
         "Frames": "true",

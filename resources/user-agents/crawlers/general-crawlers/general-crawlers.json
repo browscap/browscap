@@ -2225,6 +2225,48 @@
           "platforms": [
             "Win7_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebThumbnail\/3.*",
+          "properties": {
+            "Browser": "Website Thumbnail Generator",
+            "Browser_Maker": "webthumbnail.org",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebThumbnail\/*",
+          "properties": {
+            "Browser": "Website Thumbnail Generator",
+            "Browser_Maker": "webthumbnail.org"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Webglance\/0.1*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Web Glance",
+            "Browser_Maker": "webglance.com",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Webglance\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Web Glance",
+            "Browser_Maker": "webglance.com"
+          },
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     }
