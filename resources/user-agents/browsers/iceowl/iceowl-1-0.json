@@ -1,16 +1,18 @@
 {
-  "division": "Iceowl 1.0",
+  "division": "Iceowl #MAJORVER#.#MINORVER#",
+  "versions": [1, 10, 17, "24.4", "24.5", "24.6", 30, 31],
   "sortIndex": 5460,
   "userAgents": [
     {
-      "userAgent": "Iceowl 1.0",
+      "userAgent": "Iceowl #MAJORVER#.#MINORVER#",
       "platform": "Linux",
-      "engine": "Gecko_1_9_1",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Iceowl",
-        "Version": "1.0",
-        "MajorVer": "1",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Debian",
         "Alpha": "false",
@@ -33,7 +35,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceowl\/1.* Icedove\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceowl\/#MAJORVER#.#MINORVER#* Icedove\/*",
           "platforms": [
             "Linux", "Linux_32"
           ]

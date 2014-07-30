@@ -1,6 +1,6 @@
 {
   "division": "MQQBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["3.0", "3.1", "3.2"],
+  "versions": ["3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
   "sortIndex": 1173,
   "userAgents": [
     {
