@@ -1,6 +1,6 @@
 {
   "division": "Maxthon #MAJORVER#.#MINORVER#",
-  "versions": ["4.1"],
+  "versions": ["4.1", "4.2", "4.3", "4.4"],
   "sortIndex": 2673,
   "lite": true,
   "userAgents": [
