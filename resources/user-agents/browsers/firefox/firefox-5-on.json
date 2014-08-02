@@ -69,7 +69,7 @@
           "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "* Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win7_64"
           ]
