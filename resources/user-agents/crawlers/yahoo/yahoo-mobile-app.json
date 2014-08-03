@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "YahooMobile\/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#.*",
+          "match": "YahooMobile\/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
@@ -32,11 +32,11 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]
         },
         {
-          "match": "YahooMobile\/1.0 *(Apple; iPod touch#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#.*",
+          "match": "YahooMobile\/1.0 *(Apple; iPod#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple Inc",
@@ -48,18 +48,18 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]
         },
         {
-          "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#.*",
+          "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Apple Inc",
             "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "iOS_I_6_1", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]
         }
       ]
