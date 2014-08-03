@@ -84,6 +84,14 @@
           "platforms": [
             "Linux", "Linux_64", "Win8_64"
           ]
+        },
+        {
+          "match": "PhantomJS\/1.9*",
+          "properties": {
+            "Version": "1.9",
+            "MajorVer": "1",
+            "MinorVer": "9"
+          }
         }
       ]
     }

@@ -1,0 +1,31 @@
+{
+  "division": "WordPress #MAJORVER#.#MINORVER#",
+  "versions": [3, "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9", 4],
+  "sortIndex": 311,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "WordPress #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WordPress #MAJORVER#.#MINORVER#",
+        "Browser": "WordPress",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "WordPress\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "WordPress #MAJORVER#.#MINORVER#* Feed Client*"
+        }
+      ]
+    }
+  ]
+}

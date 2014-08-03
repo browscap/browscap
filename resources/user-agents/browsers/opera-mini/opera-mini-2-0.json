@@ -58,6 +58,12 @@
           "platforms": [
             "WinMobile"
           ]
+        },
+        {
+          "match": "Opera\/*(MTK*Opera Mini\/2.*)*",
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }

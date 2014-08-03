@@ -138,21 +138,6 @@
             "Browser": "Browsershots",
             "Browser_Maker": "browsershots.org"
           }
-        },
-        {
-          "match": "Screaming Frog SEO Spider\/*",
-          "properties": {
-            "Browser": "Screaming Frog SEO Spider"
-          }
-        },
-        {
-          "match": "Screaming Frog SEO Spider\/2,22",
-          "properties": {
-            "Browser": "Screaming Frog SEO Spider",
-            "Version": "2.22",
-            "MajorVer": "2",
-            "MinorVer": "22"
-          }
         }
       ]
     }
