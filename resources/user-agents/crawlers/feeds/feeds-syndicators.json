@@ -170,7 +170,7 @@
           }
         },
         {
-          "match": "Liferea\/1.* (Linux; *; http:\/\/liferea.sf.net\/)",
+          "match": "Liferea\/* (Linux; *; http:\/\/liferea.sf.net\/)*",
           "properties": {
             "Browser": "Liferea"
           }

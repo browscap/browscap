@@ -1,0 +1,57 @@
+{
+  "division": "AppleCoreMedia #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 2060,
+  "userAgents": [
+    {
+      "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AppleCoreMedia #MAJORVER#.#MINORVER#",
+        "Browser": "AppleCoreMedia",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Library",
+        "Browser_Maker": "Apple Inc"
+      },
+      "children": [
+        {
+          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPod touch#PLATFORM#)*",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1",
+            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPhone#PLATFORM#)*",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1",
+            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPad#PLATFORM#)*",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1",
+            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1",
+            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "platforms": [
+            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
