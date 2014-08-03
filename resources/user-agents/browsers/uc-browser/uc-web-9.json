@@ -162,7 +162,8 @@
             "Device_Name": "Galaxy Y"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C"
           ]
         },
         {
@@ -176,7 +177,8 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C"
           ]
         },
         {
@@ -190,7 +192,8 @@
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C"
           ]
         },
         {
