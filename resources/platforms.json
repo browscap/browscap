@@ -654,6 +654,52 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_K": {
+      "match": "iOS/*",
+      "inherits": "iOS_A"
+    },
+    "iOS_K_5_1": {
+      "match": "iOS/5.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "iOS_K_6_0": {
+      "match": "iOS/6.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "iOS_K_6_1": {
+      "match": "iOS/6.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "iOS_K_7_0": {
+      "match": "iOS/7.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "iOS_K_7_1": {
+      "match": "iOS/7.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "iOS_K_8_0": {
+      "match": "iOS/8.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {
