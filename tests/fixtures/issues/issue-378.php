@@ -416,9 +416,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'unknown',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Gecko',
+            'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Mozilla Foundation',
+            'RenderingEngine_Maker' => 'unknown',
         ],
     ],
     'issue-378-P' => [
