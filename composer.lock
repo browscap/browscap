@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "7a407e3aa20e2b79bc2b98e49ed30ade",
+    "hash": "22fdd7352747f196f6ff8591bb0292c8",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -174,12 +175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "5179e417dfad56a4f1e2c808afa09de25fbb9f23"
+                "reference": "50336e647f146f7f950041f6ea334825e3076021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/5179e417dfad56a4f1e2c808afa09de25fbb9f23",
-                "reference": "5179e417dfad56a4f1e2c808afa09de25fbb9f23",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/50336e647f146f7f950041f6ea334825e3076021",
+                "reference": "50336e647f146f7f950041f6ea334825e3076021",
                 "shasum": ""
             },
             "require": {
@@ -205,13 +206,12 @@
                     "email": "jonathan.stoppani@gmail.com"
                 },
                 {
-                    "name": "James Titcumb",
-                    "email": "james@asgrim.com",
-                    "homepage": "http://www.jamestitcumb.com"
-                },
-                {
                     "name": "Thomas Mueller",
                     "email": "t_mueller_stolzenhain@yahoo.de"
+                },
+                {
+                    "name": "James Titcumb",
+                    "email": "james@asgrim.com"
                 }
             ],
             "description": "Standalone replacement for php's native get_browser() function",
@@ -222,7 +222,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2014-06-23 08:01:01"
+            "time": "2014-07-26 13:44:22"
         },
         {
             "name": "mikey179/vfsStream",
@@ -230,12 +230,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe"
+                "reference": "c00e8433f907fb32162c782a92e648df5db07a59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe",
-                "reference": "d1eb2debe1d1036179458b8fce1c61dd2bcdf0fe",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/c00e8433f907fb32162c782a92e648df5db07a59",
+                "reference": "c00e8433f907fb32162c782a92e648df5db07a59",
                 "shasum": ""
             },
             "require": {
@@ -260,7 +260,7 @@
                 "BSD"
             ],
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2014-06-04 18:19:53"
+            "time": "2014-07-21 20:34:35"
         },
         {
             "name": "phpunit/php-code-coverage",
