@@ -1,0 +1,30 @@
+{
+  "division": "iOS dataaccessd #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 730,
+  "userAgents": [
+    {
+      "userAgent": "iOS dataaccessd #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iOS dataaccessd",
+        "Browser": "iOS dataaccessd",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc"
+      },
+      "children": [
+        {
+          "match": "#PLATFORM# (*) dataaccessd\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_K_5_1", "iOS_K_6_0", "iOS_K_6_1", "iOS_K_7_0", "iOS_K_7_1", "iOS_K_8_0", "iOS_K"
+          ]
+        }
+      ]
+    }
+  ]
+}
