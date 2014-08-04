@@ -11,6 +11,7 @@
         "Browser": "Windows-RSS-Platform",
         "isSyndicationReader": "true",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
         "Crawler": "true",
         "Version": "1.0",
         "MajorVer": "1"
