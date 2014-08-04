@@ -34,6 +34,11 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;
+    
+    /**
+     * @var \Browscap\Helper\CollectionCreator
+     */
+    private $object = null;
 
     /**
      * Sets up the fixture, for example, open a network connection.
@@ -43,14 +48,14 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         $this->logger = new Logger('browscapTest', array(new NullHandler()));
+        $this->object = new CollectionCreator();
     }
 
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
 
-        $creator = new CollectionCreator();
-        $creator->createDataCollection('.');
+        $this->object->createDataCollection('.');
     }
 
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
@@ -63,12 +68,11 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(new \DateTime()))
         ;
 
-        $creator = new CollectionCreator();
-        $creator
+        $this->object
             ->setLogger($this->logger)
             ->setDataCollection($mockCollection)
         ;
-        $creator->createDataCollection('.');
+        $this->object->createDataCollection('.');
     }
 
     public function testCreateDataCollection()
@@ -93,13 +97,12 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
 
-        $creator = new CollectionCreator();
-        $creator
+        $this->object
             ->setLogger($this->logger)
             ->setDataCollection($mockCollection)
         ;
 
-        $result = $creator->createDataCollection(__DIR__ . '/../../fixtures');
+        $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
         self::assertInstanceOf('\Browscap\Data\DataCollection', $result);
         self::assertSame($mockCollection, $result);
     }
