@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
             "Device_Type": "Mobile Device",
             "Device_Code_Name": "iPod Touch",
@@ -137,14 +137,16 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
-            "Device_Type": "Mobile Device",
-            "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "Device_Code_Name": "iPod Touch",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "false"
           },
           "platforms": [
             "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -169,12 +171,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod touch#PLATFORM#) AppleWebKit (KHTML,*like Gecko*) Mobile ?FBAN\/FB*",
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit (KHTML,*like Gecko*) Mobile ?FBAN\/FB*",
           "properties": {
-            "Device_Type": "Mobile Device",
-            "Device_Code_Name": "iPod Touch",
             "Device_Name": "iPod Touch",
             "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod Touch",
+            "Device_Brand_Name": "Apple",
             "isMobileDevice": "true",
             "isTablet": "false"
           },
