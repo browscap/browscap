@@ -6,6 +6,10 @@
       "userAgent": "Googlebot-Mobile",
       "properties": {
         "Parent": "Google",
+        "Comment": "Googlebot",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "Google Bot Mobile",
         "Frames": "false",
         "IFrames": "false",

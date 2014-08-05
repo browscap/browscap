@@ -7,7 +7,10 @@
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
       "platform": "Android_Dynamic",
       "properties": {
-        "Parent": "Download Managers",
+        "Parent": "DefaultProperties",
+        "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "Android Download Manager",
         "Browser_Bits": "32",
         "isMobileDevice": "true",

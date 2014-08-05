@@ -1,0 +1,651 @@
+<?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Data
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
+
+namespace Browscap\Data;
+
+use Psr\Log\LoggerInterface;
+
+/**
+ * Class DataCollection
+ *
+ * @category   Browscap
+ * @package    Data
+ * @author     James Titcumb <james@asgrim.com>
+ */
+class DataCollection
+{
+    /**
+     * @var \Browscap\Data\Platform[]
+     */
+    private $platforms = array();
+
+    /**
+     * @var \Browscap\Data\Engine[]
+     */
+    private $engines = array();
+
+    /**
+     * @var \Browscap\Data\Division[]
+     */
+    private $divisions = array();
+
+    /**
+     * @var \Browscap\Data\Division
+     */
+    private $defaultProperties = array();
+
+    /**
+     * @var \Browscap\Data\Division
+     */
+    private $defaultBrowser = array();
+
+    /**
+     * @var boolean
+     */
+    private $divisionsHaveBeenSorted = false;
+
+    /**
+     * @var string
+     */
+    private $version;
+
+    /**
+     * @var \DateTime
+     */
+    private $generationDate;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
+     * @var string[]
+     */
+    private $allDivision = array();
+
+    /**
+     * Create a new data collection for the specified version
+     *
+     * @param string $version
+     */
+    public function __construct($version)
+    {
+        $this->version        = $version;
+        $this->generationDate = new \DateTime();
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Data\DataCollection
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @return \Psr\Log\LoggerInterface $logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
+     * Load a platforms.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException
+     */
+    public function addPlatformsFile($src)
+    {
+        $json            = $this->loadFile($src);
+        $platformFactory = new Factory\PlatformFactory();
+
+        foreach ($json['platforms'] as $platformName => $platformData) {
+            if (!isset($platformData['match'])) {
+                throw new \UnexpectedValueException('required attibute "match" is missing');
+            }
+
+            if (!isset($platformData['properties']) && !isset($platformData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
+        }
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a engines.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addEnginesFile($src)
+    {
+        $json          = $this->loadFile($src);
+        $engineFactory = new Factory\EngineFactory();
+
+        foreach ($json['engines'] as $engineName => $engineData) {
+            if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            $this->engines[$engineName] = $engineFactory->build($engineData, $json, $engineName);
+        }
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a JSON file, parse it's JSON and add it to our divisions list
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException If required attibutes are missing in the division
+     * @throws \LogicException
+     */
+    public function addSourceFile($src)
+    {
+        $divisionData = $this->loadFile($src);
+
+        if (empty($divisionData['division'])) {
+            throw new \UnexpectedValueException('required attibute "division" is missing');
+        }
+
+        if (empty($divisionData['sortIndex'])) {
+            throw new \UnexpectedValueException('required attibute "sortIndex" is missing');
+        }
+
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+        ;
+
+        if (isset($divisionData['lite'])) {
+            $division->setLite((boolean) $divisionData['lite']);
+        } else {
+            $division->setLite(false);
+        }
+
+        if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
+            $division->setVersions($divisionData['versions']);
+        } else {
+            $division->setVersions(array('0.0'));
+        }
+
+        if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
+            foreach ($divisionData['userAgents'] as $useragent) {
+                if (false === strpos($useragent['userAgent'], '#')
+                    && in_array($useragent['userAgent'], $this->allDivision)
+                ) {
+                    throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
+                }
+
+                if (!isset($useragent['properties']) || !is_array($useragent['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'the properties entry has to be an array for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!isset($useragent['properties']['Parent'])) {
+                    throw new \UnexpectedValueException(
+                        'the "parent" property is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                $this->checkPlatformData(
+                    $useragent['properties'],
+                    'the properties array contains platform data for key "' . $useragent['userAgent']
+                    . '", please use the "platform" keyword'
+                );
+
+                $this->checkEngineData(
+                    $useragent['properties'],
+                    'the properties array contains engine data for key "' . $useragent['userAgent']
+                    . '", please use the "engine" keyword'
+                );
+
+                $this->allDivision[] = $useragent['userAgent'];
+
+                if (isset($useragent['children']) && is_array($useragent['children'])) {
+                    if (isset($useragent['children']['match'])) {
+                        throw new \UnexpectedValueException(
+                            'the children property has to be an array of arrays for key "'
+                            . $useragent['userAgent'] . '"'
+                        );
+                    }
+
+                    foreach ($useragent['children'] as $child) {
+                        if (!is_array($child)) {
+                            throw new \UnexpectedValueException(
+                                'each entry of the children property has to be an array for key "'
+                                . $useragent['userAgent'] . '"'
+                            );
+                        }
+
+                        if (!isset($child['match'])) {
+                            throw new \UnexpectedValueException(
+                                'each entry of the children property requires an "match" entry for key "'
+                                . $useragent['userAgent'] . '"'
+                            );
+                        }
+
+                        if (isset($child['properties'])) {
+                            if (!is_array($child['properties'])) {
+                                throw new \UnexpectedValueException(
+                                    'the properties entry has to be an array for key "' . $child['match'] . '"'
+                                );
+                            }
+
+                            if (isset($child['properties']['Parent'])) {
+                                throw new \UnexpectedValueException(
+                                    'the Parent property must not set inside the children array for key "'
+                                    . $child['match'] . '"'
+                                );
+                            }
+
+                            $this->checkPlatformData(
+                                $child['properties'],
+                                'the properties array contains platform data for key "' . $child['match']
+                                . '", please use the "platforms" keyword'
+                            );
+
+                            $this->checkEngineData(
+                                $child['properties'],
+                                'the properties array contains engine data for key "' . $child['match']
+                                . '", please use the "engine" keyword'
+                            );
+                        }
+                    }
+                }
+            }
+
+            $division->setUserAgents($divisionData['userAgents']);
+        }
+
+        $this->divisions[] = $division;
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * @param string $src
+     *
+     * @return array
+     * @throws \RuntimeException
+     */
+    private function loadFile($src)
+    {
+        if (!file_exists($src)) {
+            throw new \RuntimeException('File "' . $src . '" does not exist.');
+        }
+
+        if (!is_readable($src)) {
+            throw new \RuntimeException('File "' . $src . '" is not readable.');
+        }
+
+        $fileContent = file_get_contents($src);
+        $json        = json_decode($fileContent, true);
+
+        if (is_null($json)) {
+            throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
+        }
+
+        return $json;
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkPlatformData(array $properties, $message)
+    {
+        if (array_key_exists('Platform', $properties)
+            || array_key_exists('Platform_Description', $properties)
+            || array_key_exists('Platform_Maker', $properties)
+            || array_key_exists('Platform_Bits', $properties)
+            || array_key_exists('Platform_Version', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if platform properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkEngineData(array $properties, $message)
+    {
+        if (array_key_exists('RenderingEngine_Name', $properties)
+            || array_key_exists('RenderingEngine_Version', $properties)
+            || array_key_exists('RenderingEngine_Description', $properties)
+            || array_key_exists('RenderingEngine_Maker', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * Load the file for the default properties
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDefaultProperties($src)
+    {
+        $divisionData = $this->loadFile($src);
+
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+            ->setUserAgents($divisionData['userAgents'])
+            ->setLite(true)
+        ;
+
+        $this->defaultProperties = $division;
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load the file for the default browser
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDefaultBrowser($src)
+    {
+        $divisionData = $this->loadFile($src);
+
+        $division = new Division();
+        $division
+            ->setName($divisionData['division'])
+            ->setSortIndex((int) $divisionData['sortIndex'])
+            ->setUserAgents($divisionData['userAgents'])
+            ->setLite(true)
+        ;
+
+        $this->defaultBrowser = $division;
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Get the divisions array containing UA data
+     *
+     * @return \Browscap\Data\Division[]
+     */
+    public function getDivisions()
+    {
+        $this->sortDivisions();
+
+        return $this->divisions;
+    }
+
+    /**
+     * Sort the divisions (if they haven't already been sorted)
+     *
+     * @return \Browscap\Data\DataCollection
+     */
+    public function sortDivisions()
+    {
+        if (!$this->divisionsHaveBeenSorted) {
+            $sortIndex    = array();
+            $sortPosition = array();
+
+            foreach ($this->divisions as $key => $division) {
+                /** @var \Browscap\Data\Division $division */
+                $sortIndex[$key]    = $division->getSortIndex();
+                $sortPosition[$key] = $key;
+            }
+
+            array_multisort(
+                $sortIndex, SORT_ASC, SORT_NUMERIC,
+                $sortPosition, SORT_DESC, SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
+                $this->divisions
+            );
+
+            $this->divisionsHaveBeenSorted = true;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get the divisions array containing UA data
+     *
+     * @return \Browscap\Data\Division
+     */
+    public function getDefaultProperties()
+    {
+        return $this->defaultProperties;
+    }
+
+    /**
+     * Get the divisions array containing UA data
+     *
+     * @return \Browscap\Data\Division
+     */
+    public function getDefaultBrowser()
+    {
+        return $this->defaultBrowser;
+    }
+
+    /**
+     * Get the array of platform data
+     *
+     * @return \Browscap\Data\Platform[]
+     */
+    public function getPlatforms()
+    {
+        return $this->platforms;
+    }
+
+    /**
+     * Get a single platform data array
+     *
+     * @param string $platform
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     * @return \Browscap\Data\Platform
+     */
+    public function getPlatform($platform)
+    {
+        if (!array_key_exists($platform, $this->platforms)) {
+            throw new \OutOfBoundsException(
+                'Platform "' . $platform . '" does not exist in data'
+            );
+        }
+
+        return $this->platforms[$platform];
+    }
+
+    /**
+     * Get the array of engine data
+     *
+     * @return \Browscap\Data\Engine[]
+     */
+    public function getEngines()
+    {
+        return $this->engines;
+    }
+
+    /**
+     * Get a single engine data array
+     *
+     * @param string $engine
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     * @return \Browscap\Data\Engine
+     */
+    public function getEngine($engine)
+    {
+        if (!array_key_exists($engine, $this->engines)) {
+            throw new \OutOfBoundsException(
+                'Rendering Engine "' . $engine . '" does not exist in data, available engines: '
+                . serialize(array_keys($this->engines))
+            );
+        }
+
+        return $this->engines[$engine];
+    }
+
+    /**
+     * Get the version string identifier
+     *
+     * @return string
+     */
+    public function getVersion()
+    {
+        return $this->version;
+    }
+
+    /**
+     * Get the generation DateTime object
+     *
+     * @return \DateTime
+     */
+    public function getGenerationDate()
+    {
+        return $this->generationDate;
+    }
+
+    /**
+     * @param string  $key
+     * @param array   $properties
+     *
+     * @throws \UnexpectedValueException
+     * @return bool
+     */
+    public function checkProperty($key, array $properties)
+    {
+        $this->getLogger()->debug('check if all required propeties are available');
+
+        if (!isset($properties['Version'])) {
+            throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
+        }
+
+        if (!isset($properties['Parent']) && !in_array($key, array('DefaultProperties', '*'))) {
+            throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['Device_Type'])) {
+            throw new \UnexpectedValueException('property "Device_Type" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isTablet'])) {
+            throw new \UnexpectedValueException('property "isTablet" is missing for key "' . $key . '"');
+        }
+
+        if (!isset($properties['isMobileDevice'])) {
+            throw new \UnexpectedValueException('property "isMobileDevice" is missing for key "' . $key . '"');
+        }
+
+        switch ($properties['Device_Type']) {
+            case 'Tablet':
+            case 'FonePad':
+                if (true !== $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'Mobile Phone':
+            case 'Mobile Device':
+            case 'Ebook Reader':
+            case 'Console':
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true !== $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type']
+                        . '" is NOT marked as Mobile Device for key "' . $key . '"'
+                    );
+                }
+                break;
+            case 'TV Device':
+            case 'Desktop':
+            default:
+                if (true === $properties['isTablet']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'
+                        . $key . '"'
+                    );
+                }
+                if (true === $properties['isMobileDevice']) {
+                    throw new \UnexpectedValueException(
+                        'the device of type "' . $properties['Device_Type'] . '" is marked as Mobile Device for key "'
+                        . $key . '"'
+                    );
+                }
+                break;
+        }
+
+        return true;
+    }
+}
