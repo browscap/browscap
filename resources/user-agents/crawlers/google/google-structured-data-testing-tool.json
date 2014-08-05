@@ -5,7 +5,13 @@
     {
       "userAgent": "Google Structured-Data TestingTool",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Comment": "Google Structured-Data TestingTool",
         "Browser": "Google Structured-Data TestingTool"
       },

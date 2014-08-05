@@ -1,20 +1,37 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Helper
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Helper;
 
-use Browscap\Generator\DataCollection;
+use Browscap\Data\DataCollection;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class CollectionCreator
  *
- * @package Browscap\Helper
- * @author Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @category   Browscap
+ * @package    Helper
+ * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class CollectionCreator
 {
     /**
-     * @var \Browscap\Generator\DataCollection
+     * @var \Browscap\Data\DataCollection
      */
     private $collection = null;
 
@@ -24,7 +41,7 @@ class CollectionCreator
     private $logger = null;
 
     /**
-     * @param \Browscap\Generator\DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Helper\CollectionCreator
      */
@@ -61,13 +78,13 @@ class CollectionCreator
      * @param string $resourceFolder
      *
      * @throws \LogicException
-     * @return \Browscap\Generator\DataCollection
+     * @return \Browscap\Data\DataCollection
      */
     public function createDataCollection($resourceFolder)
     {
         if (null === $this->collection) {
             throw new \LogicException(
-                'An instance of \\Browscap\\Generator\\DataCollection is required for this function. '
+                'An instance of \Browscap\Data\DataCollection is required for this function. '
                 . 'Please set it with setDataCollection'
             );
         }
@@ -76,6 +93,8 @@ class CollectionCreator
         $this->collection
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
+            ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
+            ->addDefaultBrowser($resourceFolder . '/core/default-browser.json')
         ;
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';

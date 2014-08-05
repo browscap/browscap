@@ -1,14 +1,34 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Generator
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Generator;
 
+use Browscap\Data\DataCollection;
+use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
 /**
  * Class BuildGenerator
  *
- * @package Browscap\Generator
+ * @category   Browscap
+ * @package    Generator
+ * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class BuildGenerator
 {
@@ -47,15 +67,8 @@ class BuildGenerator
      */
     private $collectionCreator = null;
 
-    /**
-     * @var \Browscap\Generator\CollectionParser
-     */
-    private $collectionParser = null;
-
-    /**
-     * @var \Browscap\Helper\Generator
-     */
-    private $generatorHelper = null;
+    /** @var \Browscap\Writer\WriterCollection */
+    private $writerCollection = null;
 
     /**
      * @param string $resourceFolder
@@ -65,6 +78,50 @@ class BuildGenerator
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
         $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+    }
+
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
+    }
+
+    /**
+     * @return \Psr\Log\LoggerInterface
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
+     * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setCollectionCreator($collectionCreator)
+    {
+        $this->collectionCreator = $collectionCreator;
+
+        return $this;
+    }
+
+    /**
+     * @param \Browscap\Writer\WriterCollection $writerCollection
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setWriterCollection(WriterCollection $writerCollection)
+    {
+        $this->writerCollection = $writerCollection;
+
+        return $this;
     }
 
     /**
@@ -96,106 +153,154 @@ class BuildGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
+     * @param string  $version
+     * @param boolean $createZipFile
      */
-    public function generateBuilds($version)
+    public function run($version, $createZipFile = true)
     {
-        $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->logger->info('Build folder: ' . $this->buildFolder . '');
+        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
-        $this->writeFiles($version);
-    }
+        $this->getLogger()->info('started creating a data collection');
 
-    /**
-     * Write out the various INI file formats, the XML file format, the CSV file format and packs all files to a
-     * zip archive
-     *
-     * @param string $version
-     */
-    private function writeFiles($version)
-    {
+        $dataCollection = new DataCollection($version);
+        $dataCollection->setLogger($this->getLogger());
 
-        $this->generatorHelper
-            ->setLogger($this->logger)
-            ->setVersion($version)
-            ->setResourceFolder($this->resourceFolder)
-            ->setCollectionCreator($this->collectionCreator)
-            ->setCollectionParser($this->collectionParser)
-            ->createCollection()
-            ->parseCollection()
+        $this->collectionCreator
+            ->setLogger($this->getLogger())
+            ->setDataCollection($dataCollection)
         ;
 
+        $collection = $this->collectionCreator->createDataCollection($this->resourceFolder);
 
-        $iniGenerator = new BrowscapIniGenerator();
-        $this->generatorHelper->setGenerator($iniGenerator);
+        $this->getLogger()->info('finished creating a data collection');
 
-        $formats = [
-            [
-                'file' => 'full_asp_browscap.ini',
-                'info' => 'ASP/FULL',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'full_php_browscap.ini',
-                'info' => 'PHP/FULL',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_FULL
-            ],
-            [
-                'file' => 'browscap.ini',
-                'info' => 'ASP',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'php_browscap.ini',
-                'info' => 'PHP',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_DEFAULT
-            ],
-            [
-                'file' => 'lite_asp_browscap.ini',
-                'info' => 'ASP/LITE',
-                'format' => self::OUTPUT_FORMAT_ASP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-            [
-                'file' => 'lite_php_browscap.ini',
-                'info' => 'PHP/LITE',
-                'format' => self::OUTPUT_FORMAT_PHP,
-                'type' => self::OUTPUT_TYPE_LITE
-            ],
-        ];
+        $this->getLogger()->info('started initialisation of writers');
 
-        foreach ($formats as $format) {
-            $this->logger->info('Generating ' . $format['file'] . ' [' . $format['info'] . ']');
+        $expander = new \Browscap\Data\Expander();
+        $expander
+            ->setDataCollection($collection)
+            ->setLogger($this->getLogger())
+        ;
 
-            file_put_contents(
-                $this->buildFolder . '/' . $format['file'],
-                $this->generatorHelper->create($format['format'], $format['type'])
-            );
+        $this->getLogger()->info('finished initialisation of writers');
+
+        $this->getLogger()->info('started output of header and version');
+
+        $comments = array(
+            'Provided courtesy of http://browscap.org/',
+            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
+            'Keep up with the latest goings-on with the project:',
+            'Follow us on Twitter <https://twitter.com/browscap>, or...',
+            'Like us on Facebook <https://facebook.com/browscap>, or...',
+            'Collaborate on GitHub <https://github.com/browscap>, or...',
+            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+        );
+
+        $this->writerCollection
+            ->fileStart()
+            ->renderHeader($comments)
+            ->renderVersion($version, $collection)
+        ;
+
+        $this->getLogger()->info('finished output of header and version');
+
+        $this->getLogger()->info('started output of divisions');
+
+        $division = $collection->getDefaultProperties();
+
+        $this->getLogger()->info('handle division ' . $division->getName());
+
+        $this->writerCollection
+            ->renderAllDivisionsHeader($collection)
+            ->renderDivisionHeader($division->getName())
+        ;
+
+        $ua       = $division->getUserAgents();
+        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
+
+        foreach ($sections as $sectionName => $section) {
+            $this->writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
+                ->renderSectionFooter()
+            ;
         }
 
-        unset($iniGenerator);
+        $this->writerCollection->renderDivisionFooter();
 
-        $this->logger->info('Generating browscap.xml [XML]');
+        foreach ($collection->getDivisions() as $division) {
+            /** @var \Browscap\Data\Division $division */
+            $this->writerCollection->setSilent($division);
 
-        $xmlGenerator = new BrowscapXmlGenerator($this->buildFolder . '/browscap.xml');
-        $this->generatorHelper->setGenerator($xmlGenerator);
-        $this->generatorHelper->create();
+            $versions = $division->getVersions();
 
-        unset($xmlGenerator);
+            foreach ($versions as $version) {
+                list($majorVer, $minorVer) = $expander->getVersionParts($version);
 
-        $this->logger->info('Generating browscap.csv [CSV]');
+                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
 
-        $csvGenerator = new BrowscapCsvGenerator();
-        $this->generatorHelper->setGenerator($csvGenerator);
-        file_put_contents($this->buildFolder . '/browscap.csv', $this->generatorHelper->create());
+                $this->getLogger()->info('handle division ' . $divisionName);
 
-        unset($csvGenerator);
+                $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+                $firstElement = current($sections);
 
-        $this->logger->info('Generating browscap.zip [ZIP]');
+                $this->writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
+
+                foreach ($sections as $sectionName => $section) {
+                    $collection->checkProperty($sectionName, $section);
+
+                    $this->writerCollection
+                        ->renderSectionHeader($sectionName)
+                        ->renderSectionBody($section, $collection, $sections, $sectionName)
+                        ->renderSectionFooter()
+                    ;
+                }
+
+                $this->writerCollection->renderDivisionFooter();
+
+                unset($divisionName, $majorVer, $minorVer);
+            }
+        }
+
+        $division = $collection->getDefaultBrowser();
+
+        $this->getLogger()->info('handle division ' . $division->getName());
+
+        $this->writerCollection->renderDivisionHeader($division->getName());
+
+        $ua       = $division->getUserAgents();
+        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
+
+        foreach ($sections as $sectionName => $section) {
+            $this->writerCollection
+                ->renderSectionHeader($sectionName)
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
+                ->renderSectionFooter()
+            ;
+        }
+
+        $this->writerCollection
+            ->renderDivisionFooter()
+            ->renderAllDivisionsFooter()
+        ;
+
+        $this->getLogger()->info('finished output of divisions');
+
+        $this->getLogger()->info('started closing writers');
+
+        $this->writerCollection
+            ->fileEnd()
+            ->close()
+        ;
+
+        $this->getLogger()->info('finished closing writers');
+
+        if (!$createZipFile) {
+            return;
+        }
+
+        $this->getLogger()->info('started creating the zip archive');
 
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
@@ -210,53 +315,7 @@ class BuildGenerator
         $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
 
         $zip->close();
-    }
 
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setCollectionCreator($collectionCreator)
-    {
-        $this->collectionCreator = $collectionCreator;
-
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Generator\CollectionParser $collectionParser
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setCollectionParser($collectionParser)
-    {
-        $this->collectionParser = $collectionParser;
-
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Helper\Generator $generatorHelper
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setGeneratorHelper($generatorHelper)
-    {
-        $this->generatorHelper = $generatorHelper;
-
-        return $this;
+        $this->getLogger()->info('finished creating the zip archive');
     }
 }

@@ -48,6 +48,10 @@
       "userAgent": "Playstation Vita",
       "properties": {
         "Parent": "Playstation",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
         "Comment": "PlayStation Vita",
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
@@ -76,6 +80,10 @@
       "platform": "CellOS",
       "properties": {
         "Parent": "Playstation",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
         "Comment": "Playstation 3",
         "isMobileDevice": "false",
         "Browser": "Sony PS3",
@@ -100,6 +108,10 @@
       "platform": "CellOS",
       "properties": {
         "Parent": "Playstation",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
         "Comment": "Playstation 4",
         "isMobileDevice": "false",
         "Browser": "Sony PS4",

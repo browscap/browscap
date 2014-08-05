@@ -64,6 +64,7 @@
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
       "properties": {
         "Parent": "Qt #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -110,6 +111,7 @@
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
       "properties": {
         "Parent": "Qt #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
         "Browser": "Qt",
         "Version": "#MAJORVER#.#MINORVER#",
