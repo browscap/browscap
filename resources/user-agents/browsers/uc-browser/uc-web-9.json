@@ -31,18 +31,11 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B", "Android_4_4_B"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "engine": "U3",
-          "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -53,11 +46,11 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -68,11 +61,11 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -83,11 +76,11 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -98,13 +91,44 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9300",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MI 3W *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MI 3W",
+            "Device_Maker": "Xiaomi",
+            "Device_Brand_Name": "Xiaomi",
+            "Device_Name": "MI 3W"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "properties": {
+            "isMobileDevice": "true",
             "Device_Name": "FP1",
             "Device_Code_Name": "FP1",
             "Device_Brand_Name": "Fairphone",
@@ -115,23 +139,30 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "platforms": [
+            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
           "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C", "Android_4_4_C",
             "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
             "WinPhone7_B", "WinPhone8_B",
             "SymbianOS_B"
@@ -162,7 +193,7 @@
             "Device_Name": "Galaxy Y"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C", "Android_4_4_C"
           ]
         },
         {
@@ -176,7 +207,7 @@
             "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C", "Android_4_4_C"
           ]
         },
         {
@@ -190,7 +221,7 @@
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C", "Android_4_4_C"
           ]
         },
         {
@@ -219,7 +250,7 @@
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -233,7 +264,7 @@
             "Device_Name": "Galaxy S II"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -247,7 +278,7 @@
             "Device_Name": "Chili Pepper LA-M1"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
