@@ -222,7 +222,13 @@ class DataCollection
 
                 if (!isset($useragent['properties']['Parent'])) {
                     throw new \UnexpectedValueException(
-                        'the "parent" property is missing for key "' . $useragent['userAgent'] . '"'
+                        'the "Parent" property is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!isset($useragent['properties']['Comment'])) {
+                    throw new \UnexpectedValueException(
+                        'the "Comment" property is missing for key "' . $useragent['userAgent'] . '"'
                     );
                 }
 
