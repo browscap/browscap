@@ -35,14 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "engine": "U3",
-          "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -57,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -72,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -87,7 +80,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -102,7 +95,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -117,7 +110,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MI 3W *) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#MI 3W *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -132,7 +125,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
@@ -146,7 +139,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "platforms": [
+            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
           "platforms": [
             "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
