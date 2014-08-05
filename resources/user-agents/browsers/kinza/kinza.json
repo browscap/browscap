@@ -1,0 +1,41 @@
+{
+  "division": "Kinza #MAJORVER#.#MINORVER#",
+  "versions": ["1.20"],
+  "sortIndex": 883,
+  "userAgents": [
+    {
+      "userAgent": "Kinza #MAJORVER#.#MINORVER#",
+      "platform": "Windows",
+      "engine": "Blink",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kinza #MAJORVER#.#MINORVER#",
+        "Browser": "Kinza",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "kinza.jp",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Kinza\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}
