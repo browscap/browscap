@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Tweetbot",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
