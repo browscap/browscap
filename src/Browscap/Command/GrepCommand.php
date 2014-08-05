@@ -1,9 +1,22 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Command
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Command;
 
-use Browscap\Generator\BrowscapIniGenerator;
-use Browscap\Generator\CollectionParser;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
@@ -16,9 +29,11 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * @author James Titcumb <james@asgrim.com>
- * @package Browscap\Command
+ * Class GrepCommand
  *
+ * @category   Browscap
+ * @package    Command
+ * @author     James Titcumb <james@asgrim.com>
  */
 class GrepCommand extends Command
 {
@@ -40,17 +55,15 @@ class GrepCommand extends Command
     /**
      * @var \phpbrowscap\Browscap
      */
-    protected $browscap;
+    private $browscap;
 
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    protected $logger = null;
+    private $logger = null;
 
     /**
-     * (non-PHPdoc)
-     *
-     * @see \Symfony\Component\Console\Command\Command::configure()
+     * Configures the current command.
      */
     protected function configure()
     {
@@ -68,9 +81,20 @@ class GrepCommand extends Command
     }
 
     /**
-     * (non-PHPdoc)
+     * Executes the current command.
      *
-     * @see \Symfony\Component\Console\Command\Command::execute()
+     * This method is not abstract because you can use this class
+     * as a concrete class. In this case, instead of defining the
+     * execute() method, you set the code to execute by passing
+     * a Closure to the setCode() method.
+     *
+     * @param InputInterface  $input  An InputInterface instance
+     * @param OutputInterface $output An OutputInterface instance
+     *
+     * @return null|integer null or 0 if everything went fine, or an error code
+     *
+     * @throws \LogicException When this abstract method is not implemented
+     * @see    setCode()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -85,10 +109,10 @@ class GrepCommand extends Command
             throw new \Exception('Input File "' . $inputFile . '" does not exist, or cannot access');
         }
 
-        $cache_dir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
+        $cacheDir = sys_get_temp_dir() . '/browscap-grep/' . microtime(true) . '/';
 
-        if (!file_exists($cache_dir)) {
-            mkdir($cache_dir, 0777, true);
+        if (!file_exists($cacheDir)) {
+            mkdir($cacheDir, 0777, true);
         }
 
         $debug = $input->getOption('debug');
@@ -101,87 +125,33 @@ class GrepCommand extends Command
         if (!$iniFile || !file_exists($iniFile)) {
             $this->logger->info('iniFile Argument not set or invalid - creating iniFile from resources');
 
-            $iniFile = $cache_dir . 'full_php_browscap.ini';
-            $resourceFolder = $input->getOption('resources');
+            $iniFile = $cacheDir . 'full_php_browscap.ini';
 
-            $collectionCreator = new CollectionCreator();
-            $collectionParser = new CollectionParser();
-            $iniGenerator = new BrowscapIniGenerator();
+            $buildGenerator = new BuildGenerator(
+                $input->getOption('resources'),
+                $cacheDir
+            );
 
-            $generatorHelper = new Generator();
-            $generatorHelper
-                ->setLogger($this->logger)
-                ->setVersion('temporary-version')
-                ->setResourceFolder($resourceFolder)
-                ->setCollectionCreator($collectionCreator)
-                ->setCollectionParser($collectionParser)
-                ->createCollection()
-                ->parseCollection()
-                ->setGenerator($iniGenerator)
+            $writerCollectionFactory = new \Browscap\Writer\Factory\FullPhpWriterFactory();
+            $writerCollection        = $writerCollectionFactory->createCollection($logger, $cacheDir);
+
+            $buildGenerator
+                ->setLogger($logger)
+                ->setCollectionCreator(new CollectionCreator())
+                ->setWriterCollection($writerCollection)
+                ->run($input->getArgument('version'), false)
             ;
-
-            file_put_contents($iniFile, $generatorHelper->create(BuildGenerator::OUTPUT_FORMAT_PHP, BuildGenerator::OUTPUT_TYPE_FULL));
         }
 
-        $this->logger->debug('initialize Browscap');
-        $this->browscap = new Browscap($cache_dir);
-        $this->browscap->localFile = $iniFile;
+        $generator = new \Browscap\Generator\GrepGenerator();
+        $browscap  = new Browscap($cacheDir);
+        $browscap->localFile = $iniFile;
 
-        $fileContents = file_get_contents($inputFile);
+        $generator
+            ->setLogger($logger)
+            ->run($browscap, $inputFile, $mode)
+        ;
 
-        if (false !== strpos("\r\n", $fileContents)) {
-            $uas = explode("\r\n", $fileContents);
-        } else {
-            $uas = explode("\n", $fileContents);
-        }
-
-        $foundMode = 0;
-        $foundInvisible = 0;
-        $foundUnexpected = 0;
-
-        foreach (array_unique($uas) as $ua) {
-            if (!$ua) {
-                continue;
-            }
-
-            $check = $this->testUA($ua, $mode);
-
-            if ($check === $mode) {
-                $foundMode++;
-            } elseif ($check === self::FOUND_INVISIBLE) {
-                $foundInvisible++;
-            } else {
-                $foundUnexpected++;
-            }
-        }
-
-        $this->logger->info(
-            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
-            . ' UAs had unexpected results'
-        );
         $this->logger->info('Grep done.');
-    }
-
-    /**
-     * @param string $ua
-     * @param string $mode
-     *
-     * @return string
-     */
-    protected function testUA($ua, $mode)
-    {
-        $data = $this->browscap->getBrowser($ua, true);
-
-        if ($mode == self::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
-            $this->logger->info($ua);
-
-            return self::MODE_UNMATCHED;
-        } elseif ($mode == self::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
-            $this->logger->info($ua);
-
-            return self::MODE_MATCHED;
-        }
-
-        return self::FOUND_INVISIBLE;
     }
 }

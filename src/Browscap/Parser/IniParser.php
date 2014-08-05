@@ -1,11 +1,28 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Parser
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Parser;
 
 /**
  * Class IniParser
  *
- * @package Browscap\Parser
+ * @category   Browscap
+ * @package    Parser
+ * @author     James Titcumb <james@asgrim.com>
  */
 class IniParser implements ParserInterface
 {
@@ -89,7 +106,7 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @param array $fileLines
+     * @param string[] $fileLines
      */
     public function setFileLines(array $fileLines)
     {

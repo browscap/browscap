@@ -5,7 +5,17 @@
     {
       "userAgent": "Palm Source",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
         "Browser": "Palm Source"
       },
       "children": [

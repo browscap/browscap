@@ -4,10 +4,10 @@ return [
     'issue-174' => [
         'Mozilla/5.0 (compatible; spbot/4.0.9; +http://OpenLinkProfiler.org/bot )',
         [
-            'Browser' => 'spbot',
+            'Browser' => 'SEOprofiler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Axandra GmbH',
             'Version' => '4.0',
             'MajorVer' => '4',
             'MinorVer' => '0',

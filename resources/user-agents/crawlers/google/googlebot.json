@@ -6,6 +6,10 @@
       "userAgent": "Googlebot",
       "properties": {
         "Parent": "Google",
+        "Comment": "Googlebot",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
         "Browser": "Google Bot",
         "Frames": "false",
         "IFrames": "false",

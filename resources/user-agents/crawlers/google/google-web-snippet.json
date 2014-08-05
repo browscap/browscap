@@ -5,7 +5,13 @@
     {
       "userAgent": "Google Web Snippet",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Comment": "Google Web Snippet",
         "Browser": "Google Web Snippet"
       },
