@@ -1,4 +1,4 @@
-<phpunit bootstrap="tests/Bootstrap.php" colors="true">
+<phpunit bootstrap="tests/Bootstrap.php">
   <testsuite name="Browscap Test Suite">
     <directory>./tests</directory>
   </testsuite>

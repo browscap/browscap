@@ -631,7 +631,7 @@
     },
     "iOS_J": {
       "match": "* iOS/*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_J_7_0": {
       "match": "* iOS/7.0*",

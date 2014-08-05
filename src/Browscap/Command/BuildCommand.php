@@ -1,12 +1,26 @@
 <?php
+/**
+ * Copyright (c) 1998-2014 Browser Capabilities Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * Refer to the LICENSE file distributed with this package.
+ *
+ * @category   Browscap
+ * @package    Command
+ * @copyright  1998-2014 Browser Capabilities Project
+ * @license    MIT
+ */
 
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
-use Browscap\Generator\CollectionParser;
 use Browscap\Helper\CollectionCreator;
-use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
+use Browscap\Writer\Factory\FullCollectionFactory;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -14,8 +28,11 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * @author James Titcumb <james@asgrim.com>
- * @package Browscap\Command
+ * Class BuildCommand
+ *
+ * @category   Browscap
+ * @package    Command
+ * @author     James Titcumb <james@asgrim.com>
  */
 class BuildCommand extends Command
 {
@@ -30,13 +47,11 @@ class BuildCommand extends Command
     const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
     /**
-     * (non-PHPdoc)
-     *
-     * @see \Symfony\Component\Console\Command\Command::configure()
+     * Configures the current command.
      */
     protected function configure()
     {
-        $defaultBuildFolder = __DIR__ . self::DEFAULT_BUILD_FOLDER;
+        $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
         $this
@@ -50,31 +65,43 @@ class BuildCommand extends Command
     }
 
     /**
-     * (non-PHPdoc)
+     * Executes the current command.
      *
-     * @see \Symfony\Component\Console\Command\Command::execute()
+     * This method is not abstract because you can use this class
+     * as a concrete class. In this case, instead of defining the
+     * execute() method, you set the code to execute by passing
+     * a Closure to the setCode() method.
+     *
+     * @param InputInterface  $input  An InputInterface instance
+     * @param OutputInterface $output An OutputInterface instance
+     *
+     * @return null|integer null or 0 if everything went fine, or an error code
+     *
+     * @throws \LogicException When this abstract method is not implemented
+     * @see    setCode()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $resourceFolder = $input->getOption('resources');
-        $buildFolder = $input->getOption('output');
-        $debug = $input->getOption('debug');
-        $version = $input->getArgument('version');
-
         $loggerHelper = new LoggerHelper();
-        $logger = $loggerHelper->create($debug);
+        $logger       = $loggerHelper->create($input->getOption('debug'));
 
-        $collectionCreator = new CollectionCreator();
-        $collectionParser = new CollectionParser();
-        $generatorHelper = new Generator();
+        $logger->info('Build started.');
 
-        $buildGenerator = new BuildGenerator($resourceFolder, $buildFolder);
+        $buildFolder = $input->getOption('output');
+
+        $buildGenerator = new BuildGenerator(
+            $input->getOption('resources'),
+            $buildFolder
+        );
+
+        $writerCollectionFactory = new FullCollectionFactory();
+        $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
+
         $buildGenerator
             ->setLogger($logger)
-            ->setCollectionCreator($collectionCreator)
-            ->setCollectionParser($collectionParser)
-            ->setGeneratorHelper($generatorHelper)
-            ->generateBuilds($version)
+            ->setCollectionCreator(new CollectionCreator())
+            ->setWriterCollection($writerCollection)
+            ->run($input->getArgument('version'))
         ;
 
         $logger->info('Build done.');

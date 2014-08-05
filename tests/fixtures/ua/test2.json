@@ -1,6 +1,8 @@
 {
   "division": "Division2",
   "sortIndex": 100,
+  "lite": true,
+  "versions": ["1.0"],
   "userAgents": [
     {
       "userAgent": "UA2",

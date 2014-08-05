@@ -48,6 +48,8 @@
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "properties": {
         "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -80,6 +82,8 @@
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
       "properties": {
         "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",

@@ -10,7 +10,13 @@
       "engine": "Trident_6",
       "properties": {
         "Parent": "IEMobile",
+        "Comment": "IEMobile",
         "Browser": "IEMobile",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#",

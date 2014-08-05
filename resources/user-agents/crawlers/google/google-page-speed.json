@@ -5,7 +5,13 @@
     {
       "userAgent": "Google Page Speed",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
         "Comment": "Google Page Speed",
         "Browser": "Google Page Speed"
       },

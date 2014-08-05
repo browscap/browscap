@@ -178,7 +178,7 @@ return [
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '10.00',
             'MajorVer' => '10',
-            'MinorVer' => '0',
+            'MinorVer' => '00',
             'Platform' => 'Android',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
