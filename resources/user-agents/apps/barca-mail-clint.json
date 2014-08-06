@@ -7,6 +7,7 @@
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
+		"Comment": "Barca Mail Clint",
         "Browser_Type": "Email Client",
         "Alpha": "false",
         "Beta": "false",

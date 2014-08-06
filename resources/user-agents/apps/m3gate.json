@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+		"Comment": "M3Gate",
         "Browser": "M3Gate",
         "Browser_Type": "Browser",
         "Alpha": "false",

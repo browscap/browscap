@@ -7,6 +7,7 @@
       "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
+		"Comment": "Microsoft Outlook Generic",
         "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",

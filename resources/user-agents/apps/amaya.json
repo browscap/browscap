@@ -6,8 +6,9 @@
       "userAgent": "Amaya",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Amaya",
         "Browser": "Amaya",
-        "Browser_Type": "Application",
+		"Browser_Type": "Application",
         "Frames": "true",
         "Tables": "true",
         "Device_Code_Name": "general Desktop",

@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+		"Comment": "FastBrowser",
         "Browser": "FastBrowser",
         "Browser_Type": "Browser",
         "Alpha": "false",

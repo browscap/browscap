@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+		"Comment": "BB2C",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

@@ -8,6 +8,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Epiphany 2.22",
         "Browser": "Epiphany",
         "Browser_Type": "Browser",
         "Alpha": "false",
