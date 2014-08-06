@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Bellwave",
         "Browser": "Bellwave",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
