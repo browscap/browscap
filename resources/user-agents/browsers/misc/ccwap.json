@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "ccWAP",
         "Browser": "ccWAP",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"
