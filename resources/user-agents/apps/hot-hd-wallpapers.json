@@ -8,7 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-		"Comment": "Hot HD Wallpapers",
+        "Comment": "Hot HD Wallpapers",
         "Browser": "Hot HD Wallpapers",
         "Browser_Type": "Browser",
         "Alpha": "false",

@@ -8,7 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-		"Comment": "Terra",
+        "Comment": "Terra",
         "Browser": "Terra",
         "Browser_Type": "Browser",
         "Alpha": "false",

@@ -7,7 +7,7 @@
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-		"Comment": "CybEye",
+        "Comment": "CybEye",
         "Browser": "CybEye",
         "Browser_Type": "Application",
         "Browser_Maker": "CybEye.com",

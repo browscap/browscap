@@ -8,7 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-		"Comment": "iPick",
+        "Comment": "iPick",
         "Browser": "iPick",
         "Browser_Type": "Browser",
         "Alpha": "false",

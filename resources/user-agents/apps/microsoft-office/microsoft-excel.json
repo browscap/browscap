@@ -7,7 +7,7 @@
       "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
-		"Comment": "Microsoft Excel",
+        "Comment": "Microsoft Excel",
         "Browser": "Excel",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
