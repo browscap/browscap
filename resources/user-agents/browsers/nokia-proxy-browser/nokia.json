@@ -175,6 +175,15 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (Series40; Nokia501\/*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "501",
+            "Device_Name": "501"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (Series30*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {

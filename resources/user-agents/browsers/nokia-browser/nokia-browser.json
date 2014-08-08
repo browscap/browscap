@@ -1223,6 +1223,18 @@
           ]
         },
         {
+          "match": "NokiaC3-00\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "C3",
+            "Device_Name": "C3"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
           "match": "NokiaC3-01\/*",
           "properties": {
             "Device_Maker": "Nokia",
