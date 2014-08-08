@@ -6,6 +6,7 @@
       "userAgent": "Adbeat",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Adbeat",
         "Browser": "Adbeat",
         "Browser_Maker": "adbeat.com"
       },
