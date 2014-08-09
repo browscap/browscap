@@ -1,6 +1,6 @@
 {
   "division": "Nokia",
-  "sortIndex": 1790,
+  "sortIndex": 1792,
   "lite": true,
   "userAgents": [
     {
@@ -23,15 +23,6 @@
         "Device_Type": "Mobile Phone"
       },
       "children": [
-        {
-          "match": "*Nokia*\/*"
-        },
-        {
-          "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/525 (KHTML, like Gecko) BrowserNG\/7.2.*",
           "engine": "WebKit",
@@ -68,6 +59,15 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "*Nokia*\/*"
         }
       ]
     }
