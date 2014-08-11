@@ -288,7 +288,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             'isTest' => true,
             'abc'    => 'bcd'
         );
-        
+
         $expectedAgents = array(
             0 => array(
                 'properties' => array(
@@ -437,7 +437,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL, 
+            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -520,7 +520,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL, 
+            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
