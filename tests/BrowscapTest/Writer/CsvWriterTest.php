@@ -296,7 +296,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             'isTest' => true,
             'abc'    => 'bcd'
         );
-        
+
         $expectedAgents = array(
             0 => array(
                 'properties' => array(
