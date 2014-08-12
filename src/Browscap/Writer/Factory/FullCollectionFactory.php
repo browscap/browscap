@@ -24,7 +24,9 @@ use Browscap\Formatter\AspFormatter;
 use Browscap\Formatter\CsvFormatter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Formatter\XmlFormatter;
+use Browscap\Formatter\JsonFormatter;
 use Browscap\Writer\CsvWriter;
+use Browscap\Writer\JsonWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use Browscap\Writer\XmlWriter;
@@ -108,6 +110,13 @@ class FullCollectionFactory
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter);
         $writerCollection->addWriter($xmlWriter);
+
+        $jsonWriter = new JsonWriter($buildFolder . '/browscap.json');
+        $formatter  = new JsonFormatter();
+        $xmlWriter->setLogger($logger)
+            ->setFormatter($formatter->setFilter($stdFilter))
+            ->setFilter($stdFilter);
+        $writerCollection->addWriter($jsonWriter);
 
         return $writerCollection;
     }
