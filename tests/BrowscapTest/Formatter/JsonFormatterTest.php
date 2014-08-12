@@ -103,7 +103,7 @@ class JsonFormatterTest extends \PHPUnit_Framework_TestCase
             ['isSyndicationReader', 'test', ''],
             ['Crawler', 'test', ''],
             ['Browser_Type', 'test', ''],
-            ['Device_Type', 'Tablet', 'Tablet'],
+            ['Device_Type', 'Tablet', '"Tablet"'],
             ['Device_Pointing_Method', 'test', ''],
         ];
     }

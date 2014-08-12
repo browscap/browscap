@@ -167,7 +167,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame(
-            '"comments": [' . PHP_EOL . '        "TestData to be renderd into the Header"' . PHP_EOL . '    ],'
+            '    "comments": [' . PHP_EOL . '        "TestData to be renderd into the Header"' . PHP_EOL . '    ],'
             . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -237,7 +237,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
-        self::assertSame('' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('', file_get_contents($this->file));
     }
 
     public function testRenderDivisionHeader()
@@ -253,7 +253,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\XmlFormatter',
+            '\Browscap\Formatter\JsonFormatter',
             array('formatPropertyName'),
             array(),
             '',

@@ -300,7 +300,7 @@ class JsonWriter implements WriterInterface
             return $this;
         }
 
-        fputs($this->file, '    ' . json_encode($sectionName) . ': {' . PHP_EOL);
+        fputs($this->file, '    ' . $this->getFormatter()->formatPropertyName($sectionName) . ': {' . PHP_EOL);
 
         return $this;
     }
