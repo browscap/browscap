@@ -268,7 +268,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
-        self::assertSame('    "test": {' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('    test: {' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionHeaderIfSilent()
@@ -355,7 +355,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame(
-            '        "Test": "1",' . PHP_EOL . '        "abc": "bcd"' . PHP_EOL,
+            '        Test: 1,' . PHP_EOL . '        abc: bcd' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -412,7 +412,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\JsonFormatter',
-            array('formatPropertyName'),
+            array('formatPropertyName', 'formatPropertyValue'),
             array(),
             '',
             false
@@ -420,6 +420,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
 
@@ -443,7 +448,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        "Parent": "X1",' . PHP_EOL . '        "Comment": "1"' . PHP_EOL,
+            '        Parent: X1,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -495,7 +500,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\JsonFormatter',
-            array('formatPropertyName'),
+            array('formatPropertyName', 'formatPropertyValue'),
             array(),
             '',
             false
@@ -503,6 +508,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
+            ->will(self::returnArgument(0))
+        ;
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
 
@@ -526,7 +536,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        "Parent": "DefaultProperties",' . PHP_EOL . '        "Comment": "1"' . PHP_EOL,
+            '        Parent: DefaultProperties,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
