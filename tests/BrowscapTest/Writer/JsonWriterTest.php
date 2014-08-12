@@ -355,7 +355,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame(
-            '        Test: 1,' . PHP_EOL . '        abc: bcd' . PHP_EOL,
+            '        "Test": "1",' . PHP_EOL . '        "abc": "bcd"' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -443,7 +443,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        Parent: X1,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
+            '        "Parent": "X1",' . PHP_EOL . '        "Comment": "1"' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -526,7 +526,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        Parent: DefaultProperties,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
+            '        "Parent": "DefaultProperties",' . PHP_EOL . '        "Comment": "1"' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
