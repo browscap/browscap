@@ -94,7 +94,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array(), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -305,7 +305,13 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($expectedAgents))
         ;
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
@@ -313,7 +319,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\XmlFormatter',
+            '\Browscap\Formatter\JsonFormatter',
             array('formatPropertyName', 'formatPropertyValue'),
             array(),
             '',
@@ -332,7 +338,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
         $map        = array(
             array('Test', $this->object, true),
             array('isTest', $this->object, false),
@@ -405,7 +411,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\XmlFormatter',
+            '\Browscap\Formatter\JsonFormatter',
             array('formatPropertyName'),
             array(),
             '',
@@ -488,7 +494,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\XmlFormatter',
+            '\Browscap\Formatter\JsonFormatter',
             array('formatPropertyName'),
             array(),
             '',
