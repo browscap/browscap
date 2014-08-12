@@ -80,7 +80,7 @@ class JsonFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = htmlentities($propertyHolder->checkValueInArray($property, $value));
+                    $valueOutput = json_encode($propertyHolder->checkValueInArray($property, $value));
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
@@ -90,7 +90,7 @@ class JsonFormatter implements FormatterInterface
                 break;
         }
 
-        if ('unknown' === $valueOutput) {
+        if ('unknown' === $valueOutput || '"unknown"' === $valueOutput) {
             $valueOutput = '';
         }
 

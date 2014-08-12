@@ -167,8 +167,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame(
-            '<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL
-            . '</comments>' . PHP_EOL,
+            '"comments": [' . PHP_EOL . '        "TestData to be renderd into the Header"' . PHP_EOL . '    ],'
+            . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -209,8 +209,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
-            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
-            . '<item name="Released" value="' . date('Y-m-d') . '"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            '    "GJK_Browscap_Version": {' . PHP_EOL . '        "Version": "test",' . PHP_EOL
+            . '        "Released": "2014-08-12"' . PHP_EOL . '    },' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -226,8 +226,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
-            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="0"/>' . PHP_EOL
-            . '<item name="Released" value=""/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            '    "GJK_Browscap_Version": {' . PHP_EOL . '        "Version": "0",' . PHP_EOL
+            . '        "Released": ""' . PHP_EOL . '    },' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -237,7 +237,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
-        self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderDivisionHeader()
@@ -268,7 +268,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
-        self::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('    "test": {' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionHeaderIfSilent()
@@ -349,7 +349,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame(
-            '<item name="Test" value="1"/>' . PHP_EOL . '<item name="abc" value="bcd"/>' . PHP_EOL,
+            '        Test: 1,' . PHP_EOL . '        abc: bcd' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -437,7 +437,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '        Parent: X1,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -520,7 +520,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '        Parent: DefaultProperties,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -546,7 +546,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         self::assertSame($this->object, $this->object->renderSectionFooter());
-        self::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('    },' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionFooterIfSilent()
