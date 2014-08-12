@@ -117,14 +117,13 @@ class JsonFormatter implements FormatterInterface
         return $this->filter;
     }
 
+    /**
+     * @param mixed $val
+     *
+     * @return string
+     */
     private function json_encode($val)
     {
-        if (is_string($val)) {
-            return '"' . addslashes($val) . '"';
-        }
-        if (is_numeric($val)) {
-            return $val;
-        }
         if ($val === null) {
             return 'null';
         }
@@ -133,6 +132,9 @@ class JsonFormatter implements FormatterInterface
         }
         if ($val === false) {
             return 'false';
+        }
+        if (is_string($val) || is_numeric($val)) {
+            return '"' . addslashes($val) . '"';
         }
 
         $assoc = false;
