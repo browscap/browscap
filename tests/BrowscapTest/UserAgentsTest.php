@@ -185,8 +185,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         ;
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap = new Browscap();
+		self::$browscap->convertFile($iniFile);
     }
 
     public function userAgentDataProvider()
