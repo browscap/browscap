@@ -22,6 +22,7 @@ use Browscap\Helper\CollectionCreator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use WurflCache\Adapter\Memory;
 
 /**
  * Class UserAgentsTest
@@ -184,9 +185,13 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->close()
         ;
 
+        $cache = new Memory();
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         self::$browscap = new Browscap();
-		self::$browscap->convertFile($iniFile);
+        self::$browscap
+            ->setCache($cache)
+            ->convertFile($iniFile)
+        ;
     }
 
     public function userAgentDataProvider()
