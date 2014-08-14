@@ -231,7 +231,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = self::$browscap->getBrowser($ua, true);
+        $actualProps = (array) self::$browscap->getBrowser($ua);
 
         foreach ($props as $propName => $propValue) {
             self::assertArrayHasKey(
