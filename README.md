@@ -66,7 +66,7 @@ You can see here the only differences were the release date and version number, 
 
 ## Contributing
 
-For instructions on how to contribute see the [CONTRIBUTE.md](https://github.com/browscap/browscap/blob/master/CONTRIBUTE.md) file.
+For instructions on how to contribute see the [CONTRIBUTE.md](https://github.com/browscap/browscap/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
