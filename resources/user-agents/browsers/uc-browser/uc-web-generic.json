@@ -35,7 +35,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) UC AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "platforms": [
-            "Android", "Android_2_3"
+            "Android_2_3", "Android"
           ]
         },
         {

@@ -33,11 +33,11 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android",
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4"
+            "Android_4_4",
+            "Android"
           ]
         },
         {
@@ -52,7 +52,7 @@
             "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
-            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
@@ -67,7 +67,7 @@
             "Device_Name": "Galaxy Tab 2 7.0"
           },
           "platforms": [
-            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
@@ -82,7 +82,7 @@
             "Device_Name": "Eee Pad SL101 Slider"
           },
           "platforms": [
-            "Android", "Android_4_0"
+            "Android_4_0", "Android"
           ]
         },
         {
@@ -97,7 +97,7 @@
             "Device_Name": "Galaxy Note 10.1"
           },
           "platforms": [
-            "Android", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
@@ -109,7 +109,7 @@
             "Device_Name": "Galaxy S II"
           },
           "platforms": [
-            "Android", "Android_2_3"
+            "Android_2_3", "Android"
           ]
         }
       ]

@@ -33,23 +33,25 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "OpenBSD", "SunOS", "Win2000", "WinXPa_32",
-            "WinXPa_x64_2", "WinXPb_32", "WinXPb_x64_2", "Vista_32",
-            "Vista_x64_2", "Win7_32", "Win7_x64_2", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "WinXPa_x64_2", "WinXPb_x64_2", "WinXPb_32", "Vista_32",
+            "Vista_x64_2", "Win7_x64_2", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
           "match": "Mozilla\/4.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "OpenBSD", "SunOS", "Win2000", "WinXPa_32",
-            "WinXPa_x64_2", "WinXPb_32", "WinXPb_x64_2", "Vista_32",
-            "Vista_x64_2", "Win7_32", "Win7_x64_2", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "WinXPa_x64_2", "WinXPb_x64_2", "WinXPb_32", "Vista_32",
+            "Vista_x64_2", "Win7_x64_2", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         }
       ]

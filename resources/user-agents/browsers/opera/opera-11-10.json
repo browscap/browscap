@@ -33,8 +33,9 @@
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "Linux",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "MacPPC_2",
             "SunOS",
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -45,8 +46,9 @@
           "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
           "platforms": [
             "FreeBSD", "Linux",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "MacPPC_2",
             "SunOS",
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -57,8 +59,9 @@
           "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "platforms": [
             "FreeBSD", "Linux",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "MacPPC_2",
             "SunOS",
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -69,8 +72,9 @@
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "Linux",
-            "OSX", "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
             "MacPPC_2",
             "SunOS",
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",

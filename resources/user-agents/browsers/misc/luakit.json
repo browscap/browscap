@@ -37,7 +37,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/* luakit",
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {
@@ -48,7 +48,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {
@@ -59,7 +59,7 @@
             "MinorVer": "6"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {
@@ -70,7 +70,7 @@
             "MinorVer": "8"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         }
       ]

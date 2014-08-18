@@ -44,7 +44,7 @@
         {
           "match": "Airmail #MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "OSX", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
           ]
         }
       ]

@@ -50,7 +50,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        $buildFolder = sys_get_temp_dir() . '/browscap-ua-test-' . $buildNumber;
+        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
         mkdir($buildFolder, 0777, true);
 
         $logger = new Logger('browscap');
@@ -196,7 +196,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     public function userAgentDataProvider()
     {
-        $data = array();
+        $data              = array();
+        $checks            = array();
         $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -213,8 +214,13 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 if (isset($data[$key])) {
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
+                if (isset($checks[$test[0]])) {
+                    //throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
+                    echo 'UA "' . $test[0] . '" added more than once, now for key "' . $key . '"' . "\n";
+                }
 
-                $data[$key] = $test;
+                $data[$key]       = $test;
+                $checks[$test[0]] = $test[1];
             }
         }
 
@@ -241,6 +247,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 $actualProps,
                 'Actual properties did not have "' . $propName . '" property'
             );
+            
+            if ($propValue !== $actualProps[$propName]) {
+                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $props, $actualProps, self::$browscap->getCache());
+                exit;
+            }
 
             self::assertSame(
                 $propValue,

@@ -73,7 +73,7 @@
             "Device_Pointing_Method": "unknown"
           },
           "platforms": [
-            "Android", "Android_4_0"
+            "Android_4_0", "Android"
           ]
         },
         {

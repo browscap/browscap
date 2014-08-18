@@ -31,7 +31,7 @@
         {
           "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         },
         {

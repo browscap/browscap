@@ -31,14 +31,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/* T5\/*",
           "engine": "T5",
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "engine": "WebKit",
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         },
         {

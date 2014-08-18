@@ -26,7 +26,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Desktop\/LX Amethyst*) *Gecko\/*",
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         }
       ]

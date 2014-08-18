@@ -24,7 +24,7 @@
         {
           "match": "Links (#MAJORVER#.#MINORVER#*; #PLATFORM#)",
           "platforms": [
-            "Darwin", "FreeBSD", "NetBSD", "OpenBSD", "Linux", "Linux_64", "Unix_B",
+            "Darwin", "FreeBSD", "NetBSD", "OpenBSD", "Linux_64", "Linux", "Unix_B",
             "OS2", "WinXPa_cygwin", "Win32"
           ]
         }

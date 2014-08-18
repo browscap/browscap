@@ -32,8 +32,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "Linux", "Linux_64", "OSX",
-            "OpenBSD", "SunOS", "Win3.1", "Win3.11", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32",
+            "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux", "OSX",
+            "OpenBSD", "SunOS", "Win3.11", "Win3.1", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32",
             "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },

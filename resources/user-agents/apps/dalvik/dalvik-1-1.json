@@ -29,7 +29,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "Android", "Android_2_1"
+            "Android_2_1", "Android"
           ]
         },
         {

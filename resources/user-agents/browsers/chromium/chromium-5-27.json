@@ -32,7 +32,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
-            "Linux", "Linux_32", "Linux_64"
+            "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]
