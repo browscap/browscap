@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Extras4iMovie* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Extras4iMovie\/9.* CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "9.0",
@@ -59,6 +53,12 @@
             "MajorVer": "9",
             "MinorVer": "07"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Extras4iMovie* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

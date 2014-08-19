@@ -22,6 +22,46 @@
       },
       "children": [
         {
+          "match": "DoCoMo\/1.0\/D503iS\/*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "DoCoMo\/1.0\/N504i\/c10\/TB*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "DoCoMo\/1.0\/N505i\/*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W24H12",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "DoCoMo\/1.0\/P504iS\/*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "DoCoMo\/1.0*",
           "properties": {
             "Version": "1.0",
@@ -36,21 +76,6 @@
             "MajorVer": "2",
             "MinorVer": "0"
           }
-        },
-        {
-          "match": "DoCoMo\/1.0\/D503iS\/*"
-        },
-        {
-          "match": "DoCoMo\/1.0\/N504i\/c10\/TB*"
-        },
-        {
-          "match": "DoCoMo\/1.0\/N505i\/*"
-        },
-        {
-          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W24H12"
-        },
-        {
-          "match": "DoCoMo\/1.0\/P504iS\/*"
         }
       ]
     }

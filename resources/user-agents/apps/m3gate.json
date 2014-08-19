@@ -35,12 +35,6 @@
       },
       "children": [
         {
-          "match": "M3*"
-        },
-        {
-          "match": "M3Gate*"
-        },
-        {
           "match": "M3GATE\/0.4*",
           "properties": {
             "Version": "0.4",
@@ -61,6 +55,12 @@
             "MajorVer": "1",
             "MinorVer": "2"
           }
+        },
+        {
+          "match": "M3Gate*"
+        },
+        {
+          "match": "M3*"
         }
       ]
     }

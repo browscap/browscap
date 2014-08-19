@@ -23,15 +23,15 @@
       },
       "children": [
         {
-          "match": "NetNewsWire*\/*"
-        },
-        {
           "match": "*NetNewsWire\/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
             "MinorVer": "3"
           }
+        },
+        {
+          "match": "NetNewsWire*\/*"
         }
       ]
     }

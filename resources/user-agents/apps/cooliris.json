@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Cooliris* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Cooliris?1.2 CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "1.2",
@@ -81,6 +75,12 @@
             "MajorVer": "1",
             "MinorVer": "5"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Cooliris* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

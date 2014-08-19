@@ -14,9 +14,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; EuripBot*"
-        },
-        {
           "match": "EuripBot\/2.0*",
           "properties": {
             "Version": "2.0",
@@ -29,6 +26,9 @@
             "Version": "2.0",
             "MajorVer": "2"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; EuripBot*"
         }
       ]
     }

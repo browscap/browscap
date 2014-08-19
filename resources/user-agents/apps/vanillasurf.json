@@ -35,18 +35,18 @@
       },
       "children": [
         {
-          "match": "VanillaSurf* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "VanillaSurf\/2.1 CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
             "MinorVer": "1"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "VanillaSurf* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

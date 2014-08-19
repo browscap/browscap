@@ -21,12 +21,15 @@
       },
       "children": [
         {
-          "match": "curl\/* (Linux * intel.*dlink.dsm* *; *; beta) boxee\/*",
+          "match": "curl\/* (Linux * intel.*dlink.dsm380*; beta) boxee\/1.2*",
           "properties": {
-            "Device_Code_Name": "General Dlink-TV Device",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2",
+            "Device_Code_Name": "DSM 380",
             "Device_Maker": "D-Link",
             "Device_Brand_Name": "D-Link",
-            "Device_Name": "General Dlink-TV Device"
+            "Device_Name": "DSM 380"
           },
           "platforms": [
             "Linux"
@@ -48,15 +51,12 @@
           ]
         },
         {
-          "match": "curl\/* (Linux * intel.*dlink.dsm380*; beta) boxee\/1.2*",
+          "match": "curl\/* (Linux * intel.*dlink.dsm* *; *; beta) boxee\/*",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2",
-            "Device_Code_Name": "DSM 380",
+            "Device_Code_Name": "General Dlink-TV Device",
             "Device_Maker": "D-Link",
             "Device_Brand_Name": "D-Link",
-            "Device_Name": "DSM 380"
+            "Device_Name": "General Dlink-TV Device"
           },
           "platforms": [
             "Linux"

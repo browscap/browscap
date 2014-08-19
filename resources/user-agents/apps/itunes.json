@@ -33,20 +33,6 @@
       },
       "children": [
         {
-          "match": "iTunes\/* (Windows*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
-          },
-          "platforms": [
-            "Win32"
-          ]
-        },
-        {
           "match": "iTunes\/4.7* (Macintosh*",
           "properties": {
             "Version": "4.7",
@@ -89,6 +75,20 @@
           },
           "platforms": [
             "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/* (Windows*",
+          "properties": {
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop",
+            "Device_Maker": "Various",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win32"
           ]
         }
       ]

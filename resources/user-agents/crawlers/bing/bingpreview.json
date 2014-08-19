@@ -17,19 +17,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*"
-        },
-        {
-          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          },
-          "platforms": [
-            "Win7_64"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/1.0b*",
           "properties": {
             "Version": "1.0b",
@@ -52,6 +39,19 @@
           "platforms": [
             "Win7_64", "Win7_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML,*like Gecko*) BingPreview\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          },
+          "platforms": [
+            "Win7_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*"
         }
       ]
     }

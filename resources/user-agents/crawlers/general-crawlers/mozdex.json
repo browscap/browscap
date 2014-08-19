@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "Mozdex\/*"
-        },
-        {
           "match": "Mozdex\/0.7*",
           "properties": {
             "Version": "0.7",
             "MajorVer": "0",
             "MinorVer": "7"
           }
+        },
+        {
+          "match": "Mozdex\/*"
         }
       ]
     }

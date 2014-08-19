@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "magpie-crawler\/*"
-        },
-        {
           "match": "magpie-crawler\/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "magpie-crawler\/*"
         }
       ]
     }

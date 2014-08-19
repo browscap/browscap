@@ -1,6 +1,6 @@
 {
   "division": "OmniWeb 5.0",
-  "sortIndex": 2690,
+  "sortIndex": 2702,
   "lite": true,
   "userAgents": [
     {
@@ -28,12 +28,6 @@
         "Device_Pointing_Method": "mouse"
       },
       "children": [
-        {
-          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/*",
-          "properties": {
-            "CssVersion": "1"
-          }
-        },
         {
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
           "properties": {
@@ -116,6 +110,12 @@
           "properties": {
             "Version": "5.8",
             "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/*",
+          "properties": {
+            "CssVersion": "1"
           }
         }
       ]

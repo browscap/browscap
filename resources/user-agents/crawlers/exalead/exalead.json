@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "Exabot\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Exabot\/*)"
         },
         {
@@ -50,6 +47,9 @@
           "platforms": [
             "Liberate"
           ]
+        },
+        {
+          "match": "Exabot\/*"
         },
         {
           "match": "Exalead NG\/*",

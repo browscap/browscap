@@ -18,19 +18,19 @@
           }
         },
         {
-          "match": "*HTTrack*",
-          "properties": {
-            "Browser": "HTTrack",
-            "Browser_Type": "Offline Browser",
-            "Browser_Maker": "Xavier Roche"
-          }
-        },
-        {
           "match": "*HTTrack 3.*",
           "properties": {
             "Browser": "HTTrack",
             "Version": "3.0",
             "MajorVer": "3",
+            "Browser_Type": "Offline Browser",
+            "Browser_Maker": "Xavier Roche"
+          }
+        },
+        {
+          "match": "*HTTrack*",
+          "properties": {
+            "Browser": "HTTrack",
             "Browser_Type": "Offline Browser",
             "Browser_Maker": "Xavier Roche"
           }

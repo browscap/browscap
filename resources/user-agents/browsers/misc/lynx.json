@@ -17,9 +17,6 @@
       },
       "children": [
         {
-          "match": "Lynx*"
-        },
-        {
           "match": "Lynx?2.3*",
           "properties": {
             "Version": "2.3",
@@ -66,6 +63,9 @@
             "MajorVer": "2",
             "MinorVer": "8"
           }
+        },
+        {
+          "match": "Lynx*"
         }
       ]
     }

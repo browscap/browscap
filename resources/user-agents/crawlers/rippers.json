@@ -508,14 +508,6 @@
           }
         },
         {
-          "match": "Python-urllib/*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Type": "Library",
-            "Browser_Maker": "Python Software Foundation"
-          }
-        },
-        {
           "match": "Python-urllib/2.7*",
           "properties": {
             "Browser": "Python-urllib",
@@ -524,6 +516,14 @@
             "Version": "2.7",
             "MajorVer": "2",
             "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Python-urllib/*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation"
           }
         },
         {
@@ -775,13 +775,6 @@
           }
         },
         {
-          "match": "BOT\/* (BOT for JCE)*",
-          "properties": {
-            "Comment": "JCE vulnerability scanner",
-            "Browser": "BOT for JCE"
-          }
-        },
-        {
           "match": "BOT\/0.1* (BOT for JCE)*",
           "properties": {
             "Comment": "JCE vulnerability scanner",
@@ -792,11 +785,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (FHScan Core *",
+          "match": "BOT\/* (BOT for JCE)*",
           "properties": {
-            "Comment": "Fast HTTP Vulnerability scanner core api",
-            "Browser": "FHScan Core",
-            "Browser_Maker": "tarasco.org"
+            "Comment": "JCE vulnerability scanner",
+            "Browser": "BOT for JCE"
           }
         },
         {
@@ -808,6 +800,14 @@
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (FHScan Core *",
+          "properties": {
+            "Comment": "Fast HTTP Vulnerability scanner core api",
+            "Browser": "FHScan Core",
+            "Browser_Maker": "tarasco.org"
           }
         },
         {
@@ -1110,13 +1110,6 @@
           }
         },
         {
-          "match": "Dolphin http client\/*",
-          "properties": {
-            "Browser": "Dolphin smalltalk http client",
-            "Browser_Maker": "Steve Waring"
-          }
-        },
-        {
           "match": "Dolphin http client\/10.*",
           "properties": {
             "Browser": "Dolphin smalltalk http client",
@@ -1124,6 +1117,13 @@
             "Version": "10.0",
             "MajorVer": "10",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Dolphin http client\/*",
+          "properties": {
+            "Browser": "Dolphin smalltalk http client",
+            "Browser_Maker": "Steve Waring"
           }
         }
       ]

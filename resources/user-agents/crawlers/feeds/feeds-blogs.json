@@ -72,13 +72,6 @@
           }
         },
         {
-          "match": "Bloglovin\/*",
-          "properties": {
-            "Browser": "Bloglovin Bot",
-            "Browser_Maker": "bloglovin.com"
-          }
-        },
-        {
           "match": "Bloglovin\/1.0*",
           "properties": {
             "Browser": "Bloglovin Bot",
@@ -86,6 +79,13 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Bloglovin\/*",
+          "properties": {
+            "Browser": "Bloglovin Bot",
+            "Browser_Maker": "bloglovin.com"
           }
         }
       ]

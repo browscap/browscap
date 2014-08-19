@@ -157,7 +157,10 @@
         {
           "match": "Liferea\/1.* (Linux; *; http:\/\/liferea.sf.net\/)",
           "properties": {
-            "Browser": "Liferea"
+            "Browser": "Liferea",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         },
         {
@@ -356,13 +359,6 @@
           }
         },
         {
-          "match": "FeedBlitz\/*",
-          "properties": {
-            "Browser": "FeedBlitz",
-            "Browser_Maker": "FeedBlitz.com"
-          }
-        },
-        {
           "match": "FeedBlitz\/1.*",
           "properties": {
             "Browser": "FeedBlitz",
@@ -373,20 +369,20 @@
           }
         },
         {
-          "match": "FeeddlerRSS * (#PLATFORM#)",
+          "match": "FeedBlitz\/*",
           "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
+            "Browser": "FeedBlitz",
+            "Browser_Maker": "FeedBlitz.com"
+          }
         },
         {
-          "match": "FeeddlerRSS * (iPad#PLATFORM#)",
+          "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
           "properties": {
             "Browser": "Feeddler RSS Reader",
             "Browser_Maker": "Che-Bin Liu",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
@@ -414,13 +410,10 @@
           ]
         },
         {
-          "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
+          "match": "FeeddlerRSS * (iPad#PLATFORM#)",
           "properties": {
             "Browser": "Feeddler RSS Reader",
             "Browser_Maker": "Che-Bin Liu",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4",
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
@@ -435,11 +428,14 @@
           ]
         },
         {
-          "match": "FeedForAll rss2html.php*",
+          "match": "FeeddlerRSS * (#PLATFORM#)",
           "properties": {
-            "Browser": "RSS2HTML",
-            "Browser_Maker": "NotePage, Inc."
-          }
+            "Browser": "Feeddler RSS Reader",
+            "Browser_Maker": "Che-Bin Liu"
+          },
+          "platforms": [
+            "iOS_E_7_1", "iOS_E_8_0"
+          ]
         },
         {
           "match": "FeedForAll rss2html.php v2",
@@ -452,10 +448,10 @@
           }
         },
         {
-          "match": "FeedlyApp\/*",
+          "match": "FeedForAll rss2html.php*",
           "properties": {
-            "Browser": "feedly App",
-            "Browser_Maker": "feedly.com"
+            "Browser": "RSS2HTML",
+            "Browser_Maker": "NotePage, Inc."
           }
         },
         {
@@ -469,9 +465,9 @@
           }
         },
         {
-          "match": "Feedly\/*",
+          "match": "FeedlyApp\/*",
           "properties": {
-            "Browser": "feedly Feed Fetcher",
+            "Browser": "feedly App",
             "Browser_Maker": "feedly.com"
           }
         },
@@ -483,6 +479,13 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Feedly\/*",
+          "properties": {
+            "Browser": "feedly Feed Fetcher",
+            "Browser_Maker": "feedly.com"
           }
         },
         {

@@ -14,15 +14,15 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
             "MinorVer": "2"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs\/*"
         }
       ]
     }

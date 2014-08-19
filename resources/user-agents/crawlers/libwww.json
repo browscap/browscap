@@ -16,12 +16,6 @@
       },
       "children": [
         {
-          "match": "*libwww*"
-        },
-        {
-          "match": "libwww-perl\/*"
-        },
-        {
           "match": "ShowXML\/* libwww\/5.4*",
           "properties": {
             "Version": "5.4",
@@ -51,6 +45,12 @@
             "MajorVer": "6",
             "MinorVer": "03"
           }
+        },
+        {
+          "match": "libwww-perl\/*"
+        },
+        {
+          "match": "*libwww*"
         }
       ]
     }

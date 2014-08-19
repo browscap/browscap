@@ -53,15 +53,6 @@
           }
         },
         {
-          "match": "UniversalFeedParser\/4.*",
-          "properties": {
-            "Browser": "UniversalFeedParser",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "UniversalFeedParser\/4.1*",
           "properties": {
             "Browser": "UniversalFeedParser",
@@ -71,11 +62,11 @@
           }
         },
         {
-          "match": "UniversalFeedParser\/5.*",
+          "match": "UniversalFeedParser\/4.*",
           "properties": {
             "Browser": "UniversalFeedParser",
-            "Version": "5.0",
-            "MajorVer": "5",
+            "Version": "4.0",
+            "MajorVer": "4",
             "MinorVer": "0"
           }
         },
@@ -86,6 +77,15 @@
             "Version": "5.1",
             "MajorVer": "5",
             "MinorVer": "1"
+          }
+        },
+        {
+          "match": "UniversalFeedParser\/5.*",
+          "properties": {
+            "Browser": "UniversalFeedParser",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
           }
         },
         {

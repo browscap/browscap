@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Mercury3\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Mercury3\/4.0* CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "4.0",
@@ -80,6 +74,12 @@
             "MajorVer": "4",
             "MinorVer": "3"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

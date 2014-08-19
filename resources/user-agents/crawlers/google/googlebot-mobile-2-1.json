@@ -1,6 +1,6 @@
 {
   "division": "Googlebot-Mobile 2.1",
-  "sortIndex": 1180,
+  "sortIndex": 1170,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile 2.1",
@@ -26,10 +26,7 @@
           "properties": {
             "Frames": "false",
             "IFrames": "false",
-            "Tables": "false",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Tables": "false"
           }
         },
         {
@@ -54,9 +51,6 @@
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",

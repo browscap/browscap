@@ -249,8 +249,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             );
             
             if ($propValue !== $actualProps[$propName]) {
-                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $props, $actualProps, self::$browscap->getCache());
-                exit;
+                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $props, $actualProps/*, self::$browscap->getCache()/**/);
+                //exit;
             }
 
             self::assertSame(

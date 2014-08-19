@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "LetsCrawl.com\/*"
-        },
-        {
           "match": "LetsCrawl.com\/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "LetsCrawl.com\/*"
         }
       ]
     }

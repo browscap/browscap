@@ -31,8 +31,11 @@
       },
       "children": [
         {
-          "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
+          "match": "WhatsApp\/2.6* iPhone_OS\/* Device\/iPhone*",
           "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
@@ -47,11 +50,8 @@
           ]
         },
         {
-          "match": "WhatsApp\/2.6* iPhone_OS\/* Device\/iPhone*",
+          "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
           "properties": {
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",

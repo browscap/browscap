@@ -18,12 +18,6 @@
       },
       "children": [
         {
-          "match": "*java*"
-        },
-        {
-          "match": "Java\/*"
-        },
-        {
           "match": "Java\/1.4*",
           "properties": {
             "Version": "1.4",
@@ -54,6 +48,12 @@
             "MajorVer": "1",
             "MinorVer": "7"
           }
+        },
+        {
+          "match": "Java\/*"
+        },
+        {
+          "match": "*java*"
         }
       ]
     }

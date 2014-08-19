@@ -13,14 +13,14 @@
       },
       "children": [
         {
-          "match": "Cynthia *"
-        },
-        {
           "match": "Cynthia 1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
+        },
+        {
+          "match": "Cynthia *"
         }
       ]
     }

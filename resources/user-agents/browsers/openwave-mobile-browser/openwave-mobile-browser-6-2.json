@@ -1,6 +1,6 @@
 {
   "division": "Openwave Mobile Browser 6.2",
-  "sortIndex": 8200,
+  "sortIndex": 8206,
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 6.2",
@@ -899,11 +899,7 @@
           "match": "MOT-C305\/1.0 UP.Browser\/6.2*"
         },
         {
-          "match": "MOT-C357\/1.0 UP.Browser 6.2*",
-          "properties": {
-            "Version": "6.2.2.1",
-            "MinorVer": "2.2.1"
-          }
+          "match": "MOT-C357\/1.0 UP.Browser 6.2*"
         },
         {
           "match": "MOT-C364\/1.0 UP.Browser\/6.2*"

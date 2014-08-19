@@ -27,9 +27,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/*(PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML, like Gecko*Version\/0.*Safari\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (PlayBook; U; RIM Tablet OS 1.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
           "properties": {
             "Version": "7.1",
@@ -58,6 +55,9 @@
           "platforms": [
             "RIM_Tablet_OS_2_1"
           ]
+        },
+        {
+          "match": "Mozilla\/*(PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML, like Gecko*Version\/0.*Safari\/*"
         }
       ]
     }
