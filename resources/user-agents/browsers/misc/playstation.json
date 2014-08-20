@@ -18,6 +18,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "Device_Name": "Playstation",
+        "Device_Code_Name": "Playstation",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Type": "Console"
@@ -57,6 +58,7 @@
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
         "Frames": "false",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "Device_Code_Name": "PlayStation Vita",
         "Device_Name": "PS Vita",
