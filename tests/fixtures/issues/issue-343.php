@@ -23,7 +23,7 @@ return [
             'Device_Type' => 'TV Device',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Playstation 4',
-            'Device_Brand_Name' => 'unknown',
+            'Device_Brand_Name' => 'Sony',
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
