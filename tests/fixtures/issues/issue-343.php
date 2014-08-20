@@ -7,7 +7,7 @@ return [
             'Browser' => 'Sony PS4',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Sony',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
