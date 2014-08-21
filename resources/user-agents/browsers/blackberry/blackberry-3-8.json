@@ -7,6 +7,7 @@
       "platform": "RIMOS_3_8",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "BlackBerry 3.8",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",

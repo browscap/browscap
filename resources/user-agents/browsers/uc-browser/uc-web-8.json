@@ -56,16 +56,7 @@
           ]
         },
         {
-          "match": "UCWEB\/* (#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
-            "SymbianOS_B"
-          ]
-        },
-        {
-          "match": "UCWEB\/* (#PLATFORM#SonyEricssonU1) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#SonyEricssonU1) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "U1",
             "Device_Maker": "SonyEricsson",
@@ -77,7 +68,7 @@
           ]
         },
         {
-          "match": "UCWEB\/* (#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Code_Name": "GT-S5570",
             "Device_Maker": "Samsung",
@@ -85,11 +76,12 @@
             "Device_Name": "Galaxy Mini"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C"
           ]
         },
         {
-          "match": "UCWEB\/* (#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "GT-S7262",
             "Device_Maker": "Samsung",
@@ -97,14 +89,22 @@
             "Device_Brand_Name": "Samsung"
           },
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C"
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C"
           ]
         },
         {
-          "match": "UCWEB\/* (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
+            "WinPhone7_B", "WinPhone8_B",
+            "SymbianOS_B"
+          ]
         },
         {
-          "match": "UCWEB\/* (Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB\/*(Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Name": "GT-S7262",
             "Device_Maker": "Samsung",
@@ -113,7 +113,10 @@
           }
         },
         {
-          "match": "UCWEB\/* (Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",

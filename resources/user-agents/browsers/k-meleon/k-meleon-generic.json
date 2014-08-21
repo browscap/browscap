@@ -8,6 +8,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "K-Meleon Generic",
         "Browser": "K-Meleon",
         "Browser_Type": "Browser",
         "Alpha": "false",

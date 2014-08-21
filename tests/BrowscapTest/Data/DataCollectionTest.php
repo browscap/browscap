@@ -438,9 +438,9 @@ HERE;
             $fail    = true;
             $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
         } catch (\UnexpectedValueException $ex) {
-            if ('the "parent" property is missing for key "UA1"' !== $ex->getMessage()) {
+            if ('the "Parent" property is missing for key "UA1"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "the "parent" property is missing for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "the "Parent" property is missing for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;

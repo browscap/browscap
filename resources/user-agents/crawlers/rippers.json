@@ -767,6 +767,12 @@
           }
         },
         {
+          "match": "Mechanize\/*",
+          "properties": {
+            "Browser": "Mechanize"
+          }
+        },
+        {
           "match": "Zend_Http_Client",
           "properties": {
             "Browser": "Zend_Http_Client",

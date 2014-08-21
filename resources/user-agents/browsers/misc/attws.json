@@ -6,6 +6,7 @@
       "userAgent": "ATTWS",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "ATTWS",
         "Browser": "ATTWS",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device"

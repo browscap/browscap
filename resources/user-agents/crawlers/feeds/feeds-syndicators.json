@@ -26,15 +26,30 @@
           }
         },
         {
-          "match": "AideRSS 2.* (postrank.com)",
+          "match": "AideRSS\/1.0 (aiderss.com)*",
           "properties": {
-            "Browser": "AideRSS"
+            "Browser": "AideRSS",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         },
         {
-          "match": "AideRSS\/2.0 (aiderss.com)",
+          "match": "AideRSS 2.* (postrank.com)*",
           "properties": {
-            "Browser": "AideRSS"
+            "Browser": "AideRSS",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "AideRSS\/2.0 (aiderss.com)*",
+          "properties": {
+            "Browser": "AideRSS",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
           }
         },
         {
@@ -155,7 +170,7 @@
           }
         },
         {
-          "match": "Liferea\/1.* (Linux; *; http:\/\/liferea.sf.net\/)",
+          "match": "Liferea\/* (Linux; *; http:\/\/liferea.sf.net\/)*",
           "properties": {
             "Browser": "Liferea",
             "Version": "1.0",
@@ -494,6 +509,36 @@
             "Browser": "The Old Reader",
             "Browser_Maker": "The Old Reader"
           }
+        },
+        {
+          "match": "NewsBlur Favicon Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "properties": {
+            "Browser": "NewsBlur Favicon Fetcher",
+            "Browser_Maker": "www.newsblur.com"
+          },
+          "platforms": [
+            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+          ]
+        },
+        {
+          "match": "NewsBlur Feed Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "properties": {
+            "Browser": "NewsBlur Favicon Fetcher",
+            "Browser_Maker": "www.newsblur.com"
+          },
+          "platforms": [
+            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+          ]
+        },
+        {
+          "match": "NewsBlur Page Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "properties": {
+            "Browser": "NewsBlur Favicon Fetcher",
+            "Browser_Maker": "www.newsblur.com"
+          },
+          "platforms": [
+            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+          ]
         }
       ]
     }

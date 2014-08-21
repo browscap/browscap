@@ -9,6 +9,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Iceowl #MAJORVER#.#MINORVER#",
         "Browser": "Iceowl",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

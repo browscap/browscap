@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic",
         "Browser": "Samsung",
         "Browser_Type": "Browser",
         "Browser_Maker": "Samsung",

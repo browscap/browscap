@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "MyNews",
         "Browser": "MyNews",
         "Browser_Type": "Browser",
         "Alpha": "false",

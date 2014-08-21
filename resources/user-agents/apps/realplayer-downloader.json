@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "RealPlayer Downloader",
         "Browser": "RealPlayer Downloader",
         "Browser_Type": "Browser",
         "Alpha": "false",

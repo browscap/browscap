@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "GoodReader",
         "Browser": "GoodReader",
         "Browser_Type": "Application",
         "Alpha": "false",

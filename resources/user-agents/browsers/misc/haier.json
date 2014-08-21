@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Haier",
         "Browser": "Haier",
         "Browser_Type": "Browser",
         "Alpha": "false",

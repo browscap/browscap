@@ -8,6 +8,7 @@
       "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "iLunascape #MAJORVER#.#MINORVER#",
         "Browser": "iLunascape",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

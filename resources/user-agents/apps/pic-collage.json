@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Pic Collage",
         "Browser": "Pic Collage",
         "Browser_Type": "Browser",
         "Alpha": "false",

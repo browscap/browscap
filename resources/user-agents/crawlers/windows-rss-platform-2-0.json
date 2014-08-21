@@ -11,6 +11,7 @@
         "Browser": "Windows-RSS-Platform",
         "isSyndicationReader": "true",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
         "Crawler": "true",
         "Version": "2.0",
         "MajorVer": "2"
@@ -25,7 +26,13 @@
         {
           "match": "Windows-RSS-Platform\/2.0 (MSIE *; #PLATFORM#)",
           "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Windows-RSS-Platform\/2.0 (IE *; #PLATFORM#)",
+          "platforms": [
+            "Win7_32", "Win8_32", "Win8_1_32"
           ]
         }
       ]

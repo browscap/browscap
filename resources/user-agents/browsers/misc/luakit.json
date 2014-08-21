@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "luakit",
         "Browser": "luakit",
         "Browser_Type": "Browser",
         "Browser_Maker": "Mason Larobina",

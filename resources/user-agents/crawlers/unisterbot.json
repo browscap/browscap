@@ -6,6 +6,7 @@
       "userAgent": "UnisterBot",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "UnisterBot",
         "Browser_Maker": "Unister Holding GmbH",
         "Alpha": "false",
         "Beta": "false",

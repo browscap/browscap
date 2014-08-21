@@ -18,7 +18,12 @@
 namespace BrowscapTest;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
+use Browscap\Filter\FullFilter;
+use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
@@ -63,7 +68,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $collection = new DataCollection('test');
         $collection->setLogger($logger);
 
-        $expander = new \Browscap\Data\Expander();
+        $expander = new Expander();
         $expander
             ->setDataCollection($collection)
             ->setLogger($logger)
@@ -75,11 +80,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->createDataCollection($resourceFolder)
         ;
 
-        $writerCollection = new \Browscap\Writer\WriterCollection();
-        $fullFilter       = new \Browscap\Filter\FullFilter();
+        $writerCollection = new WriterCollection();
+        $fullFilter       = new FullFilter();
 
-        $fullPhpWriter = new \Browscap\Writer\IniWriter($buildFolder . '/full_php_browscap.ini');
-        $formatter     = new \Browscap\Formatter\PhpFormatter();
+        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
+        $formatter     = new PhpFormatter();
         $fullPhpWriter
             ->setLogger($logger)
             ->setFormatter($formatter->setFilter($fullFilter))
@@ -256,7 +261,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::assertSame(
                 $propValue,
                 $actualProps[$propName],
-                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")'
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
             );
         }
     }

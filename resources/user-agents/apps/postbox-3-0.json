@@ -8,6 +8,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Postbox 3.0",
         "Browser": "Postbox",
         "Browser_Type": "Email Client",
         "Alpha": "false",

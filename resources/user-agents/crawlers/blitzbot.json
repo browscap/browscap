@@ -6,6 +6,7 @@
       "userAgent": "BlitzBot",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "BlitzBot",
         "Browser": "BlitzBot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

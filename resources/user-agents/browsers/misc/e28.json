@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "E28",
         "Browser": "E28",
         "Browser_Type": "Browser",
         "Alpha": "false",

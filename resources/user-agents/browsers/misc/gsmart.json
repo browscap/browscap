@@ -7,6 +7,7 @@
       "platform": "WinCE",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "GSmart",
         "Browser": "GSmart",
         "Browser_Type": "Browser",
         "Alpha": "false",

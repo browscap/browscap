@@ -236,7 +236,7 @@ class PropertyHolder
         if (in_array($propertyName, $outputProperties)) {
             return true;
         }
-        
+
         if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
             $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
 
