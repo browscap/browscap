@@ -118,7 +118,7 @@ class JsonFormatter implements FormatterInterface
     }
 
     /**
-     * @param mixed $val
+     * @param string $val
      *
      * @return string
      */
