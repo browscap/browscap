@@ -25,9 +25,21 @@
           "properties": {
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
+            "Browser_Type": "Library",
             "Version": "1.6",
             "MajorVer": "1",
             "MinorVer": "6"
+          }
+        },
+        {
+          "match": "PECL::HTTP\/1.7*",
+          "properties": {
+            "Browser": "PECL HTTP",
+            "Browser_Maker": "unknown",
+            "Browser_Type": "Library",
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7"
           }
         },
         {

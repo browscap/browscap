@@ -1,0 +1,21 @@
+{
+  "division": "Readability",
+  "sortIndex": 5040,
+  "userAgents": [
+    {
+      "userAgent": "Readability",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Readability",
+        "Comment": "Readability",
+        "Browser_Type": "Application",
+        "Browser_Maker": "SFX Entertainment, Inc."
+      },
+      "children": [
+        {
+          "match": "Readability\/*"
+        }
+      ]
+    }
+  ]
+}

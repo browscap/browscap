@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "MAUI Wap Browser",
         "Browser": "MAUI Wap Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
@@ -42,10 +43,10 @@
           "match": "MAUI_WAP_Browser"
         },
         {
-          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
-          "platforms": [
-            "JAVA"
-          ]
+          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0"
+        },
+        {
+          "match": "*WAP Browser\/MAUI*"
         }
       ]
     }

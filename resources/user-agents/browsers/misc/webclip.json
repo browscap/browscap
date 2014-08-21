@@ -7,6 +7,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "WebClip",
         "Browser": "WebClip",
         "Browser_Type": "Browser",
         "Alpha": "false",

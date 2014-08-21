@@ -106,12 +106,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
@@ -125,6 +119,34 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S5830i *) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S5830i",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Ace",
+            "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         }
       ]

@@ -6,6 +6,7 @@
       "userAgent": "FLY",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "FLY",
         "Browser": "FLY",
         "Browser_Type": "Browser",
         "Alpha": "false",

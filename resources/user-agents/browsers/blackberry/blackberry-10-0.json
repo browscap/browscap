@@ -9,6 +9,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",

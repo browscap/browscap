@@ -9,6 +9,7 @@
         "Comment": "Yahoo",
         "Browser": "YahooSeeker",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Yahoo!",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

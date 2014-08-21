@@ -1,6 +1,6 @@
 {
   "division": "QuickTime #MAJORVER#.#MINORVER#",
-  "versions": [5, 6, 7, "7.1", "7.2", "7.3", "7.4", "7.5", "7.6", 10],
+  "versions": [5, 6, 7, "7.1", "7.2", "7.3", "7.4", "7.5", "7.6", "7.7", 10],
   "sortIndex": 1580,
   "userAgents": [
     {

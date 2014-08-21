@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "iSearch",
         "Browser": "iSearch",
         "Browser_Type": "Browser",
         "Alpha": "false",

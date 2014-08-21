@@ -6,6 +6,7 @@
       "userAgent": "DBTEL",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "DBTEL",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

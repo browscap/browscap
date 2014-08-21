@@ -29,6 +29,24 @@
       },
       "children": [
         {
+          "match": "Mozilla\/4.5 (compatible; OmniWeb\/4.0*; Mac_PowerPC)",
+          "properties": {
+            "CssVersion": "1",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.5 (compatible; OmniWeb\/4.1*; Mac_PowerPC)",
+          "properties": {
+            "CssVersion": "1",
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
           "properties": {
             "Version": "5.0",

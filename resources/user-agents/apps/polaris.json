@@ -119,6 +119,17 @@
             "MajorVer": "6",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "POLARIS\/6.1 (BREW 3.1*)*",
+          "properties": {
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
         }
       ]
     }

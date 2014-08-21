@@ -6,6 +6,7 @@
       "userAgent": "bitlybot",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Bitlybot",
         "Browser": "BitlyBot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

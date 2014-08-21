@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "WinWAP",
         "Browser": "WinWAP",
         "Browser_Type": "Browser",
         "Browser_Bits": "32",

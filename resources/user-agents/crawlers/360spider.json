@@ -6,6 +6,7 @@
       "userAgent": "360Spider",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "360Spider",
         "Browser": "360Spider",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

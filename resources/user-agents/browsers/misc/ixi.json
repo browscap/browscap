@@ -6,6 +6,7 @@
       "userAgent": "IXI",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "IXI",
         "Browser": "IXI",
         "Browser_Type": "Browser",
         "Alpha": "false",

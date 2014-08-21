@@ -6,6 +6,7 @@
       "userAgent": "Klondike",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Klondike",
         "Browser": "Klondike",
         "Browser_Type": "Browser",
         "Alpha": "false",

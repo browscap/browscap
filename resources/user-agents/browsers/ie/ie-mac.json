@@ -8,6 +8,7 @@
       "engine": "Tasman",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "IE Mac",
         "Browser": "IE",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",

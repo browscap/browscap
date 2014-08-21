@@ -1,0 +1,30 @@
+{
+  "division": "stagefright #MAJORVER#.#MINORVER#",
+  "versions": [1, "1.1", "1.2"],
+  "sortIndex": 7121,
+  "userAgents": [
+    {
+      "userAgent": "stagefright #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "Media Players",
+        "Comment": "stagefright #MAJORVER#.#MINORVER#",
+        "Browser": "stagefright",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "*stagefright\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_3_0", "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1",
+            "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,6 +8,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "IceApe",
         "Browser": "IceApe",
         "Browser_Type": "Browser",
         "Alpha": "false",

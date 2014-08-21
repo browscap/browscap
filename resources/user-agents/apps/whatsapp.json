@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "WhatsApp",
         "Browser": "WhatsApp",
         "Browser_Type": "Browser",
         "Alpha": "false",

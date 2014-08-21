@@ -6,6 +6,7 @@
       "userAgent": "Samsung Mobile Browser",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Samsung Mobile Browser",
         "Browser": "Samsung Mobile Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Samsung",

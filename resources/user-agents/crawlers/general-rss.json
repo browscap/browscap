@@ -14,15 +14,6 @@
       },
       "children": [
         {
-          "match": "AideRSS\/1.0 (aiderss.com); * subscribers",
-          "properties": {
-            "Browser": "AideRSS",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "BlijbolReallySimpleAggregator\/2.0*",
           "properties": {
             "Browser": "BlijbolReallySimpleAggregator"

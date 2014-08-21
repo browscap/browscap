@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "WeTab Browser",
         "Browser": "WeTab Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",

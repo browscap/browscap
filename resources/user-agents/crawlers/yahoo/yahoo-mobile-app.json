@@ -1,0 +1,69 @@
+{
+  "division": "YahooMobile #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", "3.2", "3.3", 4, 5],
+  "sortIndex": 1331,
+  "userAgents": [
+    {
+      "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Mobile App #MAJORVER#.#MINORVER#",
+        "Browser": "Yahoo Mobile App",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Yahoo!",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "YahooMobile\/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+          ]
+        },
+        {
+          "match": "YahooMobile\/1.0 *(Apple; iPod#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod Touch",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+          ]
+        },
+        {
+          "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Hitpad",
         "Browser": "Hitpad",
         "Browser_Type": "Browser",
         "Alpha": "false",

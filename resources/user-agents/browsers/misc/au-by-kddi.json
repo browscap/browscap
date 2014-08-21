@@ -7,6 +7,7 @@
       "platform": "Brew",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "AU by KDDI",
         "Browser": "AU",
         "Version": "4.1",
         "MajorVer": "4",

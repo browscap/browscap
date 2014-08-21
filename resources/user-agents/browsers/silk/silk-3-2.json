@@ -65,12 +65,15 @@
         },
         {
           "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "properties": {
-            "Device_Name": "PlayStation Vita",
-            "Device_Maker": "Sony",
-            "Device_Type": "Console",
+            "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
-            "Device_Pointing_Method": "unknown"
+            "Device_Code_Name": "PlayStation Vita",
+            "Device_Name": "PS Vita",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "Console"
           },
           "platforms": [
             "Android_4_0", "Android"

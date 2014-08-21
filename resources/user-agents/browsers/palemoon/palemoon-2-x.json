@@ -8,6 +8,7 @@
       "engine": "Gecko_1_9_2",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Palemoon #MAJORVER#.#MINORVER#",
         "Browser": "PaleMoon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

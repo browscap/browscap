@@ -172,7 +172,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ->method('getType')
             ->will(self::returnValue('csv'))
         ;
-        
+
         $actualValue = $this->object->isExtraProperty('PropertyName', $mockWriter);
         self::assertFalse($actualValue);
     }
@@ -245,7 +245,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ->method('getType')
             ->will(self::returnValue('csv'))
         ;
-        
+
         $actualValue = $this->object->isOutputProperty('PropertyName', $mockWriter);
         self::assertTrue($actualValue);
     }
