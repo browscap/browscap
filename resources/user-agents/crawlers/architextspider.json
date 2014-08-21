@@ -6,6 +6,7 @@
       "userAgent": "ArchitextSpider",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "ArchitextSpider",
         "Browser": "ArchitextSpider",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",

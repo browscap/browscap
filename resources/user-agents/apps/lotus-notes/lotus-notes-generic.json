@@ -6,6 +6,7 @@
       "userAgent": "Lotus Notes Generic",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Lotus Notes Generic",
         "Browser": "Lotus Notes",
         "Browser_Type": "Email Client",
         "Browser_Maker": "IBM",

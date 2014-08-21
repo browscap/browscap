@@ -6,6 +6,7 @@
       "userAgent": "Mercator",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Mercator",
         "Browser": "Mercator",
         "Browser_Type": "Browser",
         "Alpha": "false",

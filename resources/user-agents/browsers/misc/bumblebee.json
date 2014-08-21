@@ -6,6 +6,7 @@
       "userAgent": "bumblebee",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "bumblebee",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

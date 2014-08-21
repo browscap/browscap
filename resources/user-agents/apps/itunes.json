@@ -8,6 +8,7 @@
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "iTunes",
         "Browser": "iTunes",
         "Browser_Type": "Browser",
         "Browser_Maker": "Apple Inc",

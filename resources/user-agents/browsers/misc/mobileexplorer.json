@@ -6,6 +6,7 @@
       "userAgent": "MobileExplorer",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "MobileExplorer",
         "Browser": "MobileExplorer",
         "Browser_Type": "Browser",
         "Alpha": "false",

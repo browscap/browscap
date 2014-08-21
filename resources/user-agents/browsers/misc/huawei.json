@@ -7,6 +7,7 @@
       "platform": "Brew",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Huawei",
         "Browser": "Huawei",
         "Browser_Type": "Browser",
         "Version": "1.0",

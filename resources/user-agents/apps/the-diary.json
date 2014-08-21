@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "The Diary",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

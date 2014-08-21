@@ -7,6 +7,7 @@
       "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Doris",
         "Browser": "Doris",
         "Browser_Type": "Browser",
         "Alpha": "false",

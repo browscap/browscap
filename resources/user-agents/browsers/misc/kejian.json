@@ -6,6 +6,7 @@
       "userAgent": "kejian",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "kejian",
         "Browser": "kejian",
         "Browser_Type": "Browser",
         "Alpha": "false",

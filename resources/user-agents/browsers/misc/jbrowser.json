@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "jBrowser",
         "Browser": "jBrowser",
         "Browser_Type": "Browser",
         "Alpha": "false",
