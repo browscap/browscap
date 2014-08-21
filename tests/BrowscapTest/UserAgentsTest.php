@@ -27,6 +27,7 @@ use Browscap\Writer\WriterCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use WurflCache\Adapter\Memory;
 
 /**
  * Class UserAgentsTest
@@ -54,7 +55,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        $buildFolder = sys_get_temp_dir() . '/browscap-ua-test-' . $buildNumber;
+        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
         mkdir($buildFolder, 0777, true);
 
         $logger = new Logger('browscap');
@@ -189,14 +190,19 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->close()
         ;
 
+        $cache = new Memory();
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap = new Browscap();
+        self::$browscap
+            ->setCache($cache)
+            ->convertFile($iniFile)
+        ;
     }
 
     public function userAgentDataProvider()
     {
-        $data = array();
+        $data              = array();
+        $checks            = array();
         $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -214,7 +220,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
 
-                $data[$key] = $test;
+                if (isset($checks[$test[0]])) {
+                    throw new \RuntimeException(
+                        'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "'
+                        . $checks[$test[0]] . '"'
+                    );
+                }
+
+                $data[$key]       = $test;
+                $checks[$test[0]] = $key;
             }
         }
 
@@ -231,9 +245,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = self::$browscap->getBrowser($ua, true);
+        $actualProps = (array) self::$browscap->getBrowser($ua);
 
         foreach ($props as $propName => $propValue) {
+            $propName = strtolower($propName);
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
