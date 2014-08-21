@@ -34,7 +34,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;
-    
+
     /**
      * @var \Browscap\Helper\CollectionCreator
      */
