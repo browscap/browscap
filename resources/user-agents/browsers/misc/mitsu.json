@@ -6,6 +6,7 @@
       "userAgent": "Mitsu",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Mitsu Browser",
         "Browser": "Mitsu Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",

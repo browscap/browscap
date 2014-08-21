@@ -7,6 +7,7 @@
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Vitelcom",
         "Browser": "Vitelcom",
         "Browser_Type": "Browser",
         "Version": "1.2.1",

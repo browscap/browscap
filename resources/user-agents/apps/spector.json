@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Spector",
         "Browser": "Spector",
         "Browser_Type": "Browser",
         "Alpha": "false",

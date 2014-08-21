@@ -8,6 +8,7 @@
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Chrome Generic",
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",

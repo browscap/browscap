@@ -1,0 +1,26 @@
+{
+  "division": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+  "versions": ["1.7", "1.8", "1.9", "1.10", "1.11", "1.12", "1.13"],
+  "sortIndex": 562,
+  "userAgents": [
+    {
+      "userAgent": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+        "Browser": "Tiny Tiny RSS",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Tiny Tiny RSS\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

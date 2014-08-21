@@ -74,7 +74,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'general Mobile Device',
+            'Device_Name' => 'MT6515M',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

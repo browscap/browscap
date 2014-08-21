@@ -6,6 +6,7 @@
       "userAgent": "GEO",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "GEO",
         "Browser": "GEO",
         "Browser_Type": "Browser",
         "Alpha": "false",

@@ -1,6 +1,6 @@
 {
   "division": "Nokia",
-  "sortIndex": 1790,
+  "sortIndex": 1792,
   "lite": true,
   "userAgents": [
     {
@@ -24,15 +24,6 @@
       },
       "children": [
         {
-          "match": "*Nokia*\/*"
-        },
-        {
-          "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/525 (KHTML, like Gecko) BrowserNG\/7.2.*",
           "engine": "WebKit",
           "properties": {
@@ -46,7 +37,7 @@
           ]
         },
         {
-          "match": "Nokia7230\/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "match": "Nokia7230\/* Profile/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "engine": "WebKit",
           "properties": {
             "Device_Name": "7230",
@@ -55,6 +46,28 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "NokiaC3-00\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "C3",
+            "Device_Name": "C3"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "*Nokia*\/*"
         }
       ]
     }

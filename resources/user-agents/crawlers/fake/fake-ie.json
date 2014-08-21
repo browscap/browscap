@@ -533,6 +533,21 @@
         },
         {
           "match": "explorer 9 (compatible*; MSIE 9.0*; Windows 7; Trident\/5.0*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; MSIE*; Macintosh*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE*; Macintosh*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; ?; MSIE*; Linux*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE*; Linux*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 6.1*"
         }
       ]
     }

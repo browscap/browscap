@@ -21,22 +21,6 @@
       },
       "children": [
         {
-          "match": "NSPlayer\/10.*",
-          "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "NSPlayer\/11.*",
-          "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "NSPlayer\/4.*",
           "properties": {
             "Version": "4.0",
@@ -46,6 +30,14 @@
         },
         {
           "match": "NSPlayer\/7.*",
+          "properties": {
+            "Version": "7.0",
+            "MajorVer": "7",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/07.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -69,7 +61,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/10.*",
+          "match": "NSPlayer\/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -77,10 +69,18 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/11.*",
+          "match": "NSPlayer\/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/12.*",
+          "properties": {
+            "Version": "12.0",
+            "MajorVer": "12",
             "MinorVer": "0"
           }
         },
@@ -105,6 +105,30 @@
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player\/10.*",
+          "properties": {
+            "Version": "10.0",
+            "MajorVer": "10",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player\/11.*",
+          "properties": {
+            "Version": "11.0",
+            "MajorVer": "11",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player\/12.*",
+          "properties": {
+            "Version": "12.0",
+            "MajorVer": "12",
             "MinorVer": "0"
           }
         }

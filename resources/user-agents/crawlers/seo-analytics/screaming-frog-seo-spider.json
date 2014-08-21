@@ -1,0 +1,28 @@
+{
+  "division": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
+  "versions": ["1.90", "2.00", "2.01", "2.11", "2.20", "2.21", "2.22", "2.30", "2.40", "2.50"],
+  "sortIndex": 248,
+  "userAgents": [
+    {
+      "userAgent": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
+        "Browser": "Screaming Frog SEO Spider",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Screaming Frog SEO Spider\/#MAJORVER#.#MINORVER#"
+        },
+        {
+          "match": "Screaming Frog SEO Spider\/#MAJORVER#,#MINORVER#"
+        }
+      ]
+    }
+  ]
+}

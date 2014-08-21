@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "QuickLook",
         "Browser": "QuickLook",
         "Browser_Type": "Browser",
         "Alpha": "false",
