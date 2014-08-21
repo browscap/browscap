@@ -1,6 +1,6 @@
 {
   "division": "FirefoxOS #MAJORVER#.#MINORVER#",
-  "versions": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "versions": [12, 13, 14, 15, 16, 17, 18, "18.1", 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
   "sortIndex": 3152,
   "lite": true,
   "userAgents": [
@@ -52,6 +52,17 @@
           "properties": {
             "Device_Type": "Tablet",
             "isTablet": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "properties": {
+            "Device_Name": "One Touch Fire",
+            "Device_Code_Name": "OT-4012X",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Maker": "Alcatel",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           }
         }
       ]
