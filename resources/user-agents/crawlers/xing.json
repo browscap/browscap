@@ -15,18 +15,18 @@
       },
       "children": [
         {
-          "match": "XING-contenttabreceiver/*",
-          "properties": {
-            "Browser": "XING Contenttabreceiver"
-          }
-        },
-        {
           "match": "XING-contenttabreceiver/2.0",
           "properties": {
             "Browser": "XING Contenttabreceiver",
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "XING-contenttabreceiver/*",
+          "properties": {
+            "Browser": "XING Contenttabreceiver"
           }
         }
       ]

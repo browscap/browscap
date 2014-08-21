@@ -216,11 +216,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 }
                 if (isset($checks[$test[0]])) {
                     //throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                    echo 'UA "' . $test[0] . '" added more than once, now for key "' . $key . '"' . "\n";
+                    echo 'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "' . $checks[$test[0]] . '"' . "\n";
                 }
 
                 $data[$key]       = $test;
-                $checks[$test[0]] = $test[1];
+                $checks[$test[0]] = $key;
             }
         }
 
@@ -249,7 +249,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             );
             
             if ($propValue !== $actualProps[$propName]) {
-                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $props, $actualProps/*, self::$browscap->getCache()/**/);
+                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $actualProps);
                 //exit;
             }
 

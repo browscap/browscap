@@ -50,13 +50,6 @@
           }
         },
         {
-          "match": "WDG_Validator\/*",
-          "properties": {
-            "Browser": "WDG HTML Validator",
-            "Browser_Maker": "Web Design Group"
-          }
-        },
-        {
           "match": "WDG_Validator\/1.6*",
           "properties": {
             "Browser": "WDG HTML Validator",
@@ -67,10 +60,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot*",
+          "match": "WDG_Validator\/*",
           "properties": {
-            "Browser": "Qualidator.com Bot",
-            "Browser_Maker": "Qualidator.com"
+            "Browser": "WDG HTML Validator",
+            "Browser_Maker": "Web Design Group"
           }
         },
         {
@@ -81,6 +74,13 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot*",
+          "properties": {
+            "Browser": "Qualidator.com Bot",
+            "Browser_Maker": "Qualidator.com"
           }
         }
       ]

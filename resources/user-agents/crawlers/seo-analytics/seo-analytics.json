@@ -116,13 +116,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Prlog\/*",
-          "properties": {
-            "Browser": "Prlog",
-            "Browser_Maker": "prlog.ru"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Prlog\/1.0*",
           "properties": {
             "Browser": "Prlog",
@@ -133,16 +126,17 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Prlog\/*",
+          "properties": {
+            "Browser": "Prlog",
+            "Browser_Maker": "prlog.ru"
+          }
+        },
+        {
           "match": "Browsershots",
           "properties": {
             "Browser": "Browsershots",
             "Browser_Maker": "browsershots.org"
-          }
-        },
-        {
-          "match": "Screaming Frog SEO Spider\/*",
-          "properties": {
-            "Browser": "Screaming Frog SEO Spider"
           }
         },
         {
@@ -152,6 +146,12 @@
             "Version": "2.22",
             "MajorVer": "2",
             "MinorVer": "22"
+          }
+        },
+        {
+          "match": "Screaming Frog SEO Spider\/*",
+          "properties": {
+            "Browser": "Screaming Frog SEO Spider"
           }
         }
       ]

@@ -52,12 +52,18 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Yahoo-MMCrawler\/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "match": "Mozilla\/5.0 (Yahoo-MMCrawler\/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
           "properties": {
             "Browser": "Yahoo-MMCrawler",
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Yahoo-MMCrawler\/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "properties": {
+            "Browser": "Yahoo-MMCrawler"
           }
         },
         {
@@ -85,18 +91,17 @@
           }
         },
         {
-          "match": "Scooter*",
+          "match": "Scooter\/3.3*",
           "properties": {
-            "Browser": "Scooter"
-          }
-        },
-        {
-          "match": "Scooter\/*Y!CrawlX",
-          "properties": {
-            "Browser": "Scooter\/3.3Y!CrawlX",
             "Version": "3.3",
             "MajorVer": "3",
             "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Scooter*",
+          "properties": {
+            "Browser": "Scooter"
           }
         },
         {

@@ -17,9 +17,6 @@
       },
       "children": [
         {
-          "match": "rogerbot\/*"
-        },
-        {
           "match": "rogerbot\/1.*",
           "properties": {
             "Version": "1.0",
@@ -27,7 +24,7 @@
           }
         },
         {
-          "match": "rogerbot\/* (http:\/\/www.seomoz.org, rogerbot-crawler@seomoz.org)"
+          "match": "rogerbot\/*"
         }
       ]
     }

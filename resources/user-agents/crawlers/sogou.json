@@ -91,12 +91,6 @@
           }
         },
         {
-          "match": "Sogou web spider*",
-          "properties": {
-            "Browser": "Sogou Web Spider"
-          }
-        },
-        {
           "match": "Sogou web spider/4.0*",
           "properties": {
             "Browser": "Sogou Web Spider",
@@ -106,24 +100,24 @@
           }
         },
         {
-          "match": "Sogou web spider",
+          "match": "Sogou web spider*",
           "properties": {
             "Browser": "Sogou Web Spider"
           }
         },
         {
-          "match": "New-Sogou-Spider\/* (*)",
-          "properties": {
-            "Browser": "Sogou Spider"
-          }
-        },
-        {
-          "match": "New-Sogou-Spider\/1.0 (*)",
+          "match": "New-Sogou-Spider\/1.*",
           "properties": {
             "Browser": "Sogou Spider",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "New-Sogou-Spider\/*",
+          "properties": {
+            "Browser": "Sogou Spider"
           }
         }
       ]

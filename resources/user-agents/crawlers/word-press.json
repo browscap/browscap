@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "WordPress\/*"
-        },
-        {
           "match": "WordPress-B-\/2.*",
           "properties": {
             "Browser": "WordPress-B"
@@ -74,6 +71,9 @@
             "MajorVer": "3",
             "MinorVer": "4"
           }
+        },
+        {
+          "match": "WordPress\/*"
         }
       ]
     }
