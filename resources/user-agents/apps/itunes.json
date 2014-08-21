@@ -90,6 +90,111 @@
           "platforms": [
             "OSX"
           ]
+        },
+        {
+          "match": "iTunes\/11.1* (Macintosh*",
+          "properties": {
+            "Version": "11.1",
+            "MajorVer": "11",
+            "MinorVer": "1",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/11.2* (Macintosh*",
+          "properties": {
+            "Version": "11.2",
+            "MajorVer": "11",
+            "MinorVer": "2",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/11.3* (Macintosh*",
+          "properties": {
+            "Version": "11.3",
+            "MajorVer": "11",
+            "MinorVer": "3",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Macintosh",
+            "Device_Name": "Macintosh"
+          },
+          "platforms": [
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "iTunes-iPhone\/5.0* (Macintosh*",
+          "properties": {
+            "Browser": "iTunes for iPhone",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "iTunes-iPhone\/5.1* (Macintosh*",
+          "properties": {
+            "Browser": "iTunes for iPhone",
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "iTunes-iPod\/5.1* (Macintosh*",
+          "properties": {
+            "Browser": "iTunes for iPhone",
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1",
+            "Device_Name": "iPod Touch",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "iPod Touch",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS"
+          ]
         }
       ]
     }

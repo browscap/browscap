@@ -309,13 +309,7 @@
           ]
         },
         {
-          "match": "* #PLATFORM# Release* Browser?AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "MT6515M* Linux\/* Android 2.3* Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "match": "MT6515M* #PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
             "Device_Name": "MT6515M",
             "Device_Type": "Mobile Phone",
@@ -323,6 +317,12 @@
           },
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "* #PLATFORM# Release* Browser?AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {

@@ -42,10 +42,10 @@
           "match": "MAUI_WAP_Browser"
         },
         {
-          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0",
-          "platforms": [
-            "JAVA"
-          ]
+          "match": "MAUI?WAP?Browser Novarra-Vision\/8.0"
+        },
+        {
+          "match": "*WAP Browser\/MAUI*"
         }
       ]
     }
