@@ -7,6 +7,7 @@
       "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "ArgClrInt",
         "Browser": "ArgClrInt",
         "Version": "1.0",
         "MajorVer": "1",

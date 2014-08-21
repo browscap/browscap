@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "VanillaSurf",
         "Browser": "VanillaSurf",
         "Browser_Type": "Browser",
         "Alpha": "false",

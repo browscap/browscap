@@ -6,6 +6,7 @@
       "userAgent": "IAC",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "IAC",
         "Browser": "IAC",
         "Browser_Type": "Browser",
         "Alpha": "false",

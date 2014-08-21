@@ -6,6 +6,7 @@
       "userAgent": "Nintendo",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Nintendo",
         "Browser": "Nintendo",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nintendo",

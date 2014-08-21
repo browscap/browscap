@@ -8,6 +8,7 @@
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "TenFourFox",
         "Browser": "TenFourFox",
         "Browser_Type": "Browser",
         "Browser_Maker": "Debian",

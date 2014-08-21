@@ -29,7 +29,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Netscape6\/#MAJORVER#.*",
           "platforms": [
             "MacPPC_3", "Win95", "Win98", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
-            "WinXPb_32", "WinXPb_v2", "Vista_32", "Vista_v2", "Win7_32", "Win7_v2"
+            "WinXPb_32", "WinXPb_v2", "Vista_32", "Vista_v2", "Win7_32", "Win7_v2", "SunOS", "Linux"
           ]
         }
       ]

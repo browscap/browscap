@@ -6,6 +6,7 @@
       "userAgent": "Hyundai",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Hyundai",
         "Browser": "Hyundai",
         "Browser_Type": "Browser",
         "Alpha": "false",

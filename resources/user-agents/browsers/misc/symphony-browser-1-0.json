@@ -7,6 +7,7 @@
       "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Symphony Browser 1.0",
         "Browser": "Symphony Browser",
         "Browser_Type": "Browser",
         "Version": "1.0",

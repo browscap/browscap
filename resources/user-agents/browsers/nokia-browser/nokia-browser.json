@@ -1,12 +1,13 @@
 {
   "division": "Nokia Browser",
-  "sortIndex": 7920,
+  "sortIndex": 1791,
   "userAgents": [
     {
       "userAgent": "Nokia Browser",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Nokia Browser",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -1217,6 +1218,18 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "C2-01",
             "Device_Name": "C2"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "NokiaC3-00\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "C3",
+            "Device_Name": "C3"
           },
           "platforms": [
             "SymbianOS"

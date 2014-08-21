@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Epiphany 2.30",
         "Browser": "Epiphany",
         "Browser_Type": "Browser",
         "Alpha": "false",

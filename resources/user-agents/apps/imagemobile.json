@@ -9,6 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "ImageMobile",
+        "Comment": "ImageMobile",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

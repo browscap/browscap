@@ -6,6 +6,7 @@
       "userAgent": "INNO",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "INNO",
         "Browser": "INNO",
         "Browser_Type": "Browser",
         "Alpha": "false",

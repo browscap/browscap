@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "fgBrowser",
         "Browser": "fgBrowser",
         "Browser_Type": "Browser",
         "Alpha": "false",

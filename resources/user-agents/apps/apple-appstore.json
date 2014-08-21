@@ -40,7 +40,7 @@
         {
           "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
-            "iOS_J", "iOS_J_7_0", "iOS_J_7_1", "iOS_J_8_0"
+            "iOS_I", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
           ]
         },
         {
@@ -56,7 +56,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_J", "iOS_J_7_0", "iOS_J_7_1", "iOS_J_8_0"
+            "iOS_I", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
           ]
         }
       ]

@@ -8,6 +8,7 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Reeder",
         "Browser": "Reeder",
         "Browser_Type": "Browser",
         "Alpha": "false",
