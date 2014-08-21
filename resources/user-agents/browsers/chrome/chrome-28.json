@@ -1961,6 +1961,20 @@
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N900A",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Note 3 LTE"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_4"
+          ]
         }
       ]
     },
