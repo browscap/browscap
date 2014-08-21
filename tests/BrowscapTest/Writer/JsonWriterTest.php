@@ -210,7 +210,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
             '    "GJK_Browscap_Version": {' . PHP_EOL . '        "Version": "test",' . PHP_EOL
-            . '        "Released": "2014-08-12"' . PHP_EOL . '    },' . PHP_EOL,
+            . '        "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '    },' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
