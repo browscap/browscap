@@ -25,17 +25,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
           "properties": {
             "Device_Type": "Mobile Phone",
@@ -78,6 +67,17 @@
             "Device_Brand_Name": "Apple",
             "isMobileDevice": "true",
             "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
+          "properties": {
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"

@@ -83,7 +83,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $writerCollection = new WriterCollection();
         $fullFilter       = new FullFilter();
 
-        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
+        $fullPhpWriter = new IniWriter($iniFile);
         $formatter     = new PhpFormatter();
         $fullPhpWriter
             ->setLogger($logger)
@@ -195,6 +195,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         self::$browscap = new Browscap();
         self::$browscap
             ->setCache($cache)
+            ->setLogger($logger)
             ->convertFile($iniFile)
         ;
     }
@@ -246,13 +247,13 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         foreach ($props as $propName => $propValue) {
             $propName = strtolower($propName);
-            
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
                 'Actual properties did not have "' . $propName . '" property'
             );
-            
+
             if ($propValue !== $actualProps[$propName]) {
                 var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $actualProps);
                 //exit;

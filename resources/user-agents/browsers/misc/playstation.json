@@ -1,6 +1,6 @@
 {
   "division": "Playstation",
-  "sortIndex": 1820,
+  "sortIndex": 1865,
   "lite": true,
   "userAgents": [
     {
@@ -118,6 +118,7 @@
     {
       "userAgent": "Sony PS4",
       "platform": "CellOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "Playstation",
         "IFrames": "true",
@@ -137,10 +138,6 @@
         "Device_Type": "TV Device"
       },
       "children": [
-        {
-          "match": "Mozilla\/* (PLAYSTATION 4*) AppleWebKit\/*",
-          "engine": "WebKit"
-        },
         {
           "match": "Mozilla\/* (PlayStation 4*"
         }
