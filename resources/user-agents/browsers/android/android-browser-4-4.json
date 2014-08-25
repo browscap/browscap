@@ -1,0 +1,45 @@
+{
+  "division": "Android Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.4"],
+  "sortIndex": 1914,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Android",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Google Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "CssVersion": "3",
+        "Device_Name": "general Mobile Device",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        }
+      ]
+    }
+  ]
+}

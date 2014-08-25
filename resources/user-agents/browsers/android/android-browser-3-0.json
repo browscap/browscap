@@ -1,7 +1,7 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
   "versions": ["3.0"],
-  "sortIndex": 1900,
+  "sortIndex": 1908,
   "lite": true,
   "userAgents": [
     {
@@ -30,12 +30,6 @@
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1", "Android"
-          ]
-        },
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "properties": {
@@ -190,12 +184,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "Android_1_0", "Android_1_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#A101B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "A101B",
@@ -217,6 +205,12 @@
           },
           "platforms": [
             "Android_1_0", "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1", "Android"
           ]
         }
       ]

@@ -27,12 +27,6 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android"
-          ]
-        },
-        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Desire HD Build\/*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
@@ -176,6 +170,12 @@
           },
           "platforms": [
             "Android_2_2"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         }
       ]

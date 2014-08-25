@@ -27,12 +27,6 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
-          "platforms": [
-            "Android_2_3", "Android"
-          ]
-        },
-        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
@@ -164,6 +158,12 @@
           },
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_2_3", "Android"
           ]
         }
       ]
