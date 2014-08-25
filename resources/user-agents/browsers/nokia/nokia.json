@@ -48,19 +48,6 @@
           ]
         },
         {
-          "match": "NokiaC3-00\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C3",
-            "Device_Name": "C3"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "platforms": [
             "SymbianOS"
