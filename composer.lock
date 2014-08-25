@@ -175,7 +175,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browscap-php.git",
-                "reference": "8b0e135689fa856441fea89e375c094a29359bf8"
+                "reference": "1c4e4f557da534efa78ed45fe672ded437ed0bed"
             },
             "require": {
                 "mikey179/vfsstream": "1.3.*@dev",
@@ -237,7 +237,7 @@
                 "issues": "https://github.com/browscap/browscap-php/issues",
                 "source": "https://github.com/browscap/browscap-php"
             },
-            "time": "2014-08-24 22:27:18"
+            "time": "2014-08-25 17:23:28"
         },
         {
             "name": "mikey179/vfsStream",
@@ -388,16 +388,16 @@
         },
         {
             "name": "ocramius/instantiator",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ocramius/Instantiator.git",
-                "reference": "a7abbb5fc9df6e7126af741dd6c140d1a7369435"
+                "reference": "e24a12178906ff2e7471b8aaf3a0eb789b59f881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ocramius/Instantiator/zipball/a7abbb5fc9df6e7126af741dd6c140d1a7369435",
-                "reference": "a7abbb5fc9df6e7126af741dd6c140d1a7369435",
+                "url": "https://api.github.com/repos/Ocramius/Instantiator/zipball/e24a12178906ff2e7471b8aaf3a0eb789b59f881",
+                "reference": "e24a12178906ff2e7471b8aaf3a0eb789b59f881",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +439,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2014-08-14 15:10:55"
+            "time": "2014-08-25 14:48:16"
         },
         {
             "name": "ocramius/lazy-map",
