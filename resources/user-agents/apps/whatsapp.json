@@ -47,7 +47,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_H", "iOS_H_5_0"
+            "iOS_H_5_0", "iOS_H"
           ]
         },
         {
@@ -63,7 +63,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_H", "iOS_H_5_0"
+            "iOS_H_5_0", "iOS_H"
           ]
         }
       ]
