@@ -1,7 +1,7 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
   "versions": [2],
-  "sortIndex": 3350,
+  "sortIndex": 3140,
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",

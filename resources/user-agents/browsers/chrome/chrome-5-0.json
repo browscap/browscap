@@ -31,6 +31,17 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
+          "properties": {
+            "Device_Name": "GoogleTV",
+            "Device_Maker": "Google",
+            "Device_Type": "TV Device"
+          },
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS",
@@ -48,17 +59,6 @@
             "ChromeOS_x64", "ChromeOS",
             "Linux_32", "Linux",
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
-          "properties": {
-            "Device_Name": "GoogleTV",
-            "Device_Maker": "Google",
-            "Device_Type": "TV Device"
-          },
-          "platforms": [
-            "Linux_32", "Linux"
           ]
         }
       ]

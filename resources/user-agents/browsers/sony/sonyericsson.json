@@ -285,6 +285,15 @@
           }
         },
         {
+          "match": "SonyEricssonW580i\/*",
+          "properties": {
+            "Device_Code_Name": "W580i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W580i"
+          }
+        },
+        {
           "match": "SonyEricssonW595\/*(SymbianOS\/*",
           "properties": {
             "Device_Code_Name": "W595",

@@ -1086,13 +1086,29 @@
           }
         },
         {
+          "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "7230",
+            "Device_Name": "7230"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "7230",
             "Device_Name": "7230"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Nokia7250\/1.0 *",

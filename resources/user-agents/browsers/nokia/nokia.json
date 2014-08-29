@@ -37,17 +37,6 @@
           ]
         },
         {
-          "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Name": "7230",
-            "Device_Maker": "Nokia"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "platforms": [
             "SymbianOS"

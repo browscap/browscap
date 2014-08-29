@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot\/*)"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)"
         },
         {
@@ -64,6 +61,12 @@
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot\/*)",
+          "properties": {
+            "Browser": "Exabot"
           }
         },
         {

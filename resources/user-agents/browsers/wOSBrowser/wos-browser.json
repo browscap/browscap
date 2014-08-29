@@ -1,7 +1,7 @@
 {
   "division": "WebKit/webOS #MAJORVER#.#MINORVER#",
   "versions": ["1.0"],
-  "sortIndex": 3135,
+  "sortIndex": 1940,
   "lite": true,
   "userAgents": [
     {
