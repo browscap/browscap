@@ -9,13 +9,13 @@
  *
  * Refer to the LICENSE file distributed with this package.
  *
- * @category   BrowscapTest
- * @package    Test
+ * @category   Browscap
+ * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
 
-namespace BrowscapTest;
+namespace Browscap\Generator;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Expander;
@@ -24,65 +24,127 @@ use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
-use phpbrowscap\Browscap;
-use WurflCache\Adapter\Memory;
+use Psr\Log\LoggerInterface;
 
 /**
- * Class UserAgentsTest
+ * Class BuildGenerator
  *
- * @category   BrowscapTest
- * @package    Test
+ * @category   Browscap
+ * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class UserAgentsTest extends \PHPUnit_Framework_TestCase
+class BuildFullFileOnlyGenerator
 {
     /**
-     * @var \phpbrowscap\Browscap
+     * @var string
      */
-    private static $browscap;
+    private $resourceFolder;
 
     /**
-     * This method is called before the first test of this test class is run.
-     *
-     * @since Method available since Release 3.4.0
+     * @var string
      */
-    public static function setUpBeforeClass()
+    private $buildFolder;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger = null;
+
+    /**
+     * @var \Browscap\Helper\CollectionCreator
+     */
+    private $collectionCreator = null;
+
+    /** @var \Browscap\Writer\WriterCollection */
+    private $writerCollection = null;
+
+    /**
+     * @param string $resourceFolder
+     * @param string $buildFolder
+     */
+    public function __construct($resourceFolder, $buildFolder)
     {
-        // First, generate the INI files
-        $buildNumber = time();
+        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+    }
 
-        $resourceFolder = __DIR__ . '/../../resources/';
+    /**
+     * @param \Psr\Log\LoggerInterface $logger
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
 
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
-        $iniFile     = $buildFolder . '/full_php_browscap.ini';
-        
-        mkdir($buildFolder, 0777, true);
+        return $this;
+    }
 
-        $logger = new Logger('browscap');
-        $logger->pushHandler(new NullHandler(Logger::DEBUG));
-        
-        $builder = new \Browscap\Generator\BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
-        $builder
-            ->setLogger($logger)
-            ->run('test', $iniFile)
-        ;
-        
-        /*
-        $collection = new DataCollection('test');
-        $collection->setLogger($logger);
+    /**
+     * @return \Psr\Log\LoggerInterface
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
+    /**
+     * @param string $directory
+     * @param string $type
+     *
+     * @return string
+     * @throws \Exception
+     */
+    private function checkDirectoryExists($directory, $type)
+    {
+        if (!isset($directory)) {
+            throw new \Exception('You must specify a ' . $type . ' folder');
+        }
+
+        $realDirectory = realpath($directory);
+
+        if ($realDirectory === false) {
+            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
+        }
+
+        if (!is_dir($realDirectory)) {
+            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
+        }
+
+        return $realDirectory;
+    }
+
+    /**
+     * Entry point for generating builds for a specified version
+     *
+     * @param string  $version
+     * @param boolean $createZipFile
+     */
+    public function run($version, $iniFile)
+    {
+        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
+
+        $this->getLogger()->info('full ini file for php');
+
+        $collectionCreator = new CollectionCreator();
+
+        $iniFile = $this->buildFolder . '/full_php_browscap.ini';
+
+        $collection = new DataCollection($version);
+        $collection->setLogger($this->logger);
 
         $expander = new Expander();
         $expander
             ->setDataCollection($collection)
-            ->setLogger($logger)
+            ->setLogger($this->logger)
         ;
 
         $collectionCreator
-            ->setLogger($logger)
+            ->setLogger($this->logger)
             ->setDataCollection($collection)
-            ->createDataCollection($resourceFolder)
+            ->createDataCollection($this->resourceFolder)
         ;
 
         $writerCollection = new WriterCollection();
@@ -91,7 +153,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $fullPhpWriter = new IniWriter($iniFile);
         $formatter     = new PhpFormatter();
         $fullPhpWriter
-            ->setLogger($logger)
+            ->setLogger($this->logger)
             ->setFormatter($formatter->setFilter($fullFilter))
             ->setFilter($fullFilter)
         ;
@@ -133,6 +195,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $writerCollection->renderDivisionFooter();
 
         foreach ($collection->getDivisions() as $division) {
+            /** @var \Browscap\Data\Division $division */
             $writerCollection->setSilent($division);
 
             $versions = $division->getVersions();
@@ -193,83 +256,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->fileEnd()
             ->close()
         ;
-        /**/
 
-        $cache = new Memory();
-        // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap();
-        self::$browscap
-            ->setCache($cache)
-            ->setLogger($logger)
-            ->convertFile($iniFile)
-        ;
-    }
-
-    public function userAgentDataProvider()
-    {
-        $data              = array();
-        $checks            = array();
-        $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
-
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
-
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() != 'php') {
-                continue;
-            }
-
-            $tests = require_once $file->getPathname();
-
-            foreach ($tests as $key => $test) {
-                if (isset($data[$key])) {
-                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                }
-                if (isset($checks[$test[0]])) {
-                    //throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                    echo 'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "' . $checks[$test[0]] . '"' . "\n";
-                }
-
-                $data[$key]       = $test;
-                $checks[$test[0]] = $key;
-            }
-        }
-
-        return $data;
-    }
-
-    /**
-     * @dataProvider userAgentDataProvider
-     * @coversNothing
-     */
-    public function testUserAgents($ua, $props)
-    {
-        if (!is_array($props) || !count($props)) {
-            $this->markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        $actualProps = (array) self::$browscap->getBrowser($ua);
-
-        foreach ($props as $propName => $propValue) {
-            $propName = strtolower($propName);
-
-            self::assertArrayHasKey(
-                $propName,
-                $actualProps,
-                'Actual properties did not have "' . $propName . '" property'
-            );
-
-            if ($propValue !== $actualProps[$propName]) {
-                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $actualProps);
-                //exit;
-            }
-
-            self::assertSame(
-                $propValue,
-                $actualProps[$propName],
-                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
-            );
-        }
+        $this->getLogger()->info('finished creating the full ini file for php');
     }
 }
