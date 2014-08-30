@@ -39,7 +39,7 @@ return [
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
-            'Platform' => 'JAVA',
+            'Platform' => 'SymbianOS',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Oracle',

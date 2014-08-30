@@ -455,7 +455,7 @@ return [
             'Browser' => 'SonyEricsson',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'SonyEricsson',
+            'Browser_Maker' => 'SEMC',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

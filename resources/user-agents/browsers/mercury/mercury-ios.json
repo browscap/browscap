@@ -40,13 +40,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
-            "iOS_C"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Type": "Tablet",
@@ -76,6 +69,13 @@
           },
           "platforms": [
             "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C"
           ]
         }
       ]
