@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "SonyEricsson",
         "Browser": "SEMC",
+        "Browser_Maker": "SonyEricsson",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",

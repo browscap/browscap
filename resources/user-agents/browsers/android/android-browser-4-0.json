@@ -117,7 +117,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "D805",
             "Device_Maker": "LG",
@@ -2556,6 +2556,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#NGM Miracle Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "WeMove Miracle",
+            "Device_Name": "WeMove Miracle",
+            "Device_Maker": "NGM",
+            "Device_Brand_Name": "NGM"
+          },
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (Linux*; Android RCMix_v2.2_WWE*; HTC_HERO Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "Hero",
@@ -2574,6 +2586,18 @@
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Name": "A288t"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
+          "properties": {
+            "Device_Code_Name": "I50",
+            "Device_Maker": "Malata",
+            "Device_Brand_Name": "Malata",
+            "Device_Name": "I50"
           },
           "platforms": [
             "Android_2_3"
@@ -7258,6 +7282,44 @@
           ]
         },
         {
+          "match": "ultrafone 303 Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "Device_Name": "303",
+            "Device_Maker": "ultrafone",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "303",
+            "Device_Brand_Name": "ultrafone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Season\/V2 Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "I9300 Linux\/* Android\/4.1* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9300",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "* Linux\/* Android\/4.0* Release\/* Browser\/AppleWebkit*",
           "platforms": [
             "Android_4_0"
@@ -7318,7 +7380,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "A390",
             "Device_Maker": "Lenovo",
