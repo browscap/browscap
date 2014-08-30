@@ -2267,6 +2267,23 @@
           "platforms": [
             "Linux"
           ]
+        },
+        {
+          "match": "CRAZYWEBCRAWLER 0.9*",
+          "properties": {
+            "Browser": "Crazywebcrawler",
+            "Browser_Maker": "crazywebcrawler.com",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "CRAZYWEBCRAWLER*",
+          "properties": {
+            "Browser": "Crazywebcrawler",
+            "Browser_Maker": "crazywebcrawler.com"
+          }
         }
       ]
     }
