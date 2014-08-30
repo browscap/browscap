@@ -32,7 +32,6 @@
         {
           "match": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
-            "Device_Name": "GT-S5620",
             "Device_Maker": "Samsung",
             "Device_Type": "Mobile Phone"
           }
@@ -40,9 +39,12 @@
         {
           "match": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
-            "Device_Name": "GT-S5620",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S5620 Monte",
             "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
+            "Device_Code_Name": "GT-S5620",
+            "Device_Brand_Name": "Samsung"
           }
         },
         {
@@ -146,10 +148,12 @@
         {
           "match": "SAMSUNG-GT-S3370*?Dolphin\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S3370",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S3370"
+            "Device_Name": "Corby 3G"
           }
         },
         {

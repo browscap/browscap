@@ -40,6 +40,12 @@
           ]
         },
         {
+          "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"

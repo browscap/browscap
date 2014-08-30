@@ -452,10 +452,10 @@ return [
     'issue-317-Q' => [
         'SonyEricssonW580i/R8BE Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0',
         [
-            'Browser' => 'SonyEricsson',
+            'Browser' => 'SEMC',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'SEMC',
+            'Browser_Maker' => 'SonyEricsson',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

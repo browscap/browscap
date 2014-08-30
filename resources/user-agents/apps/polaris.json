@@ -113,6 +113,20 @@
           ]
         },
         {
+          "match": "UTSTARCOM-GTX75\/* POLARIS\/6.00 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UNTRUSTED\/1.0",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Quickfire",
+            "Device_Maker": "UTStarcom",
+            "Device_Code_Name": "GTX75",
+            "Device_Brand_Name": "AT&T",
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "* POLARIS\/6.00 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UNTRUSTED\/1.0",
           "properties": {
             "Version": "6.0",

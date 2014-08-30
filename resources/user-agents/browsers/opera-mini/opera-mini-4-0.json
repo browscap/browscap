@@ -155,6 +155,48 @@
           ]
         },
         {
+          "match": "Z221; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Z221",
+            "Device_Maker": "ZTE",
+            "Device_Code_Name": "Z221",
+            "Device_Brand_Name": "AT&T"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "PantechP9020\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Pursuit P9020",
+            "Device_Maker": "Pantech",
+            "Device_Code_Name": "P9020",
+            "Device_Brand_Name": "Pantech"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "LG-GT550\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Encore",
+            "Device_Maker": "LG",
+            "Device_Code_Name": "GT550",
+            "Device_Brand_Name": "LG"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "* Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "JAVA"

@@ -42,7 +42,7 @@ return [
             'Platform' => 'SymbianOS',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'Oracle',
+            'Platform_Maker' => 'Symbian Foundation',
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,

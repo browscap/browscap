@@ -101,10 +101,12 @@
         {
           "match": "SAMSUNG-GT-S3370*?Jasmine\/0.8*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S3370",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S3370"
+            "Device_Name": "Corby 3G"
           }
         },
         {

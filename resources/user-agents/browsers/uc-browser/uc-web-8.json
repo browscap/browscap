@@ -142,6 +142,28 @@
           ]
         },
         {
+          "match": "samsung-gt-s5620\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S5620 Monte",
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-S5620",
+            "Device_Brand_Name": "Samsung"
+          }
+        },
+        {
+          "match": "samsung-gt-s3370\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S3370",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Corby 3G"
+          }
+        },
+        {
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         }
       ]
