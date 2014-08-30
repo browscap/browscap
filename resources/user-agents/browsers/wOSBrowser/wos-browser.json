@@ -67,8 +67,10 @@
         {
           "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#) AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/1.*",
           "properties": {
-            "Device_Name": "Pre",
-            "Device_Maker": "Palm"
+            "Device_Code_Name": "Pre",
+            "Device_Maker": "Palm",
+            "Device_Brand_Name": "Palm",
+            "Device_Name": "Pre"
           },
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
