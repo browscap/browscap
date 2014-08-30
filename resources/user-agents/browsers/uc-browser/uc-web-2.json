@@ -84,7 +84,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
         },
         {

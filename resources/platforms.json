@@ -403,7 +403,7 @@
       }
     },
     "iOS_C_6_0": {
-      "match": "*CPU OS 6_0* like Mac OS X*",
+      "match": "*CPU OS 6* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.0"
@@ -417,7 +417,7 @@
       }
     },
     "iOS_C_7_0": {
-      "match": "*CPU OS 7_0* like Mac OS X*",
+      "match": "*CPU OS 7* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
@@ -431,7 +431,7 @@
       }
     },
     "iOS_C_8_0": {
-      "match": "*CPU OS 8_0* like Mac OS X*",
+      "match": "*CPU OS 8* like Mac OS X*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"

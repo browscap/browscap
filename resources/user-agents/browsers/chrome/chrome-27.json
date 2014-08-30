@@ -849,16 +849,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Name": "Nexus 4",
-            "Device_Maker": "LG"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Code_Name": "M7",
@@ -909,8 +899,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Name": "Nexus 4",
-            "Device_Maker": "LG"
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 4",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Name": "Nexus 4"
           },
           "platforms": [
             "Android_4_2"
@@ -1648,7 +1642,7 @@
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -1669,7 +1663,7 @@
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -1680,7 +1674,7 @@
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         }

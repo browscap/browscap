@@ -70,17 +70,6 @@
           }
         },
         {
-          "match": "Mozilla\/4.0(compatible;Polaris 6.2*;Brew 3.1*)\/*",
-          "properties": {
-            "Version": "6.2",
-            "MajorVer": "6",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "Brew_3_1"
-          ]
-        },
-        {
           "match": "Mozilla\/4.0(compatible;Polaris 6.2*;Brew 3.1*)\/* Samsung SCH-U820",
           "properties": {
             "Version": "6.2",
@@ -107,6 +96,17 @@
             "Device_Maker": "LG",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0(compatible;Polaris 6.2*;Brew 3.1*)\/*",
+          "properties": {
+            "Version": "6.2",
+            "MajorVer": "6",
+            "MinorVer": "2"
           },
           "platforms": [
             "Brew_3_1"
