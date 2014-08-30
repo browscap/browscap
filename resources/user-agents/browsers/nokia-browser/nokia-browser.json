@@ -1229,6 +1229,7 @@
         },
         {
           "match": "NokiaC2-01\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1241,6 +1242,7 @@
         },
         {
           "match": "NokiaC3-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1253,6 +1255,7 @@
         },
         {
           "match": "NokiaC3-01\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1265,6 +1268,7 @@
         },
         {
           "match": "NokiaC6-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1277,6 +1281,7 @@
         },
         {
           "match": "NokiaC7-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1289,6 +1294,7 @@
         },
         {
           "match": "NokiaN70-1\/2.05*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
