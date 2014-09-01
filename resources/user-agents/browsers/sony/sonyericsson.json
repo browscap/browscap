@@ -9,6 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "SonyEricsson",
         "Browser": "SEMC",
+        "Browser_Maker": "SonyEricsson",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -229,27 +230,7 @@
           }
         },
         {
-          "match": "SonyEricssonU8a\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "U8a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8a"
-          }
-        },
-        {
           "match": "SonyEricssonU8i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U8i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8i"
-          }
-        },
-        {
-          "match": "SonyEricssonU8i\/*; Mozilla\/5.0 (SymbianOS\/*; U; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
-          "engine": "WebKit",
           "properties": {
             "Device_Code_Name": "U8i",
             "Device_Maker": "SonyEricsson",
@@ -276,7 +257,7 @@
           }
         },
         {
-          "match": "SonyEricssonW580i\/*(SymbianOS\/*",
+          "match": "SonyEricssonW580i\/*",
           "properties": {
             "Device_Code_Name": "W580i",
             "Device_Maker": "SonyEricsson",

@@ -1,7 +1,7 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
   "versions": ["3.0", "3.1", "3.2"],
-  "sortIndex": 1892,
+  "sortIndex": 1115,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -56,16 +56,6 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
-            "SymbianOS_B"
-          ]
-        },
-        {
           "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "Device_Name": "GT-I8350",
@@ -76,6 +66,16 @@
           },
           "platforms": [
             "WinPhone7_B", "WinPhone8_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
+            "WinPhone7_B", "WinPhone8_B",
+            "SymbianOS_B"
           ]
         },
         {
@@ -97,7 +97,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
         },
         {

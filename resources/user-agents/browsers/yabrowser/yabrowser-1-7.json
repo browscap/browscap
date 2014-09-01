@@ -1,7 +1,7 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
   "versions": ["1.7"],
-  "sortIndex": 11110,
+  "sortIndex": 1029,
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",

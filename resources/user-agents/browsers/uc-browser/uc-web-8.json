@@ -1,7 +1,7 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
   "versions": ["8.0", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "8.9"],
-  "sortIndex": 1894,
+  "sortIndex": 1113,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -140,6 +140,28 @@
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
+        },
+        {
+          "match": "samsung-gt-s5620\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S5620 Monte",
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-S5620",
+            "Device_Brand_Name": "Samsung"
+          }
+        },
+        {
+          "match": "samsung-gt-s3370\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S3370",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Corby 3G"
+          }
         },
         {
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"

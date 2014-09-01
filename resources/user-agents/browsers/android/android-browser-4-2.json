@@ -117,7 +117,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "D805",
             "Device_Maker": "LG",
@@ -228,6 +228,20 @@
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Name": "A889"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "NGM Dynamic Racing 2\/* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "Dynamic Racing GP",
+            "Device_Maker": "NGM",
+            "Device_Brand_Name": "NGM",
+            "Device_Name": "Dynamic Racing GP"
           },
           "platforms": [
             "Android_4_2"

@@ -28,9 +28,6 @@
       },
       "children": [
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"
-        },
-        {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -128,6 +125,9 @@
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

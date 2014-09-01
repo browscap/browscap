@@ -1,6 +1,6 @@
 {
   "division": "Avant\/IE 8.0",
-  "sortIndex": 3838,
+  "sortIndex": 1039,
   "lite": true,
   "userAgents": [
     {
@@ -30,16 +30,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Avant Browser*",
-          "platforms": [
-            "NT", "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64",
-            "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32"
-          ]
-        },
-        {
           "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Trident\/4.0*Avant Browser*",
           "platforms": [
             "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
@@ -47,6 +37,17 @@
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Avant Browser*",
+          "platforms": [
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
+            "WinXPb_64", "WinXPb_32", "WinXPb_x64",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "NT"
           ]
         },
         {
@@ -78,11 +79,12 @@
         {
           "match": "Mozilla\/* (compatible; MSIE 8.0; #PLATFORM#Avant Browser; Maxthon*",
           "platforms": [
-            "NT", "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
             "WinXPb_64", "WinXPb_32", "WinXPb_x64",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32"
+            "Win8_x64", "Win8_64", "Win8_32",
+            "NT"
           ]
         }
       ]

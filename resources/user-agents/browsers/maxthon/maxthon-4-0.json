@@ -1,12 +1,13 @@
 {
   "division": "Maxthon #MAJORVER#.#MINORVER#",
   "versions": [4],
-  "sortIndex": 1902,
+  "sortIndex": 1073,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -122,8 +123,8 @@
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
             "Linux_32", "Linux_64",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_32",
-            "Vista_64", "Win7_64", "Win7_32", "Win8_64", "Win8_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
           ]
         },
@@ -134,8 +135,8 @@
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
             "Linux_32", "Linux_64",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_32",
-            "Vista_64", "Win7_64", "Win7_32", "Win8_64", "Win8_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
           ]
         }

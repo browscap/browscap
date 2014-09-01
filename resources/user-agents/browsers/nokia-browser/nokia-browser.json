@@ -1086,13 +1086,29 @@
           }
         },
         {
+          "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "7230",
+            "Device_Name": "7230"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "7230",
             "Device_Name": "7230"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Nokia7250\/1.0 *",
@@ -1213,6 +1229,7 @@
         },
         {
           "match": "NokiaC2-01\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1225,6 +1242,7 @@
         },
         {
           "match": "NokiaC3-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1237,6 +1255,7 @@
         },
         {
           "match": "NokiaC3-01\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1249,6 +1268,7 @@
         },
         {
           "match": "NokiaC6-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1261,6 +1281,7 @@
         },
         {
           "match": "NokiaC7-00\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1273,6 +1294,7 @@
         },
         {
           "match": "NokiaN70-1\/2.05*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",

@@ -58,18 +58,18 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
         $iniFile     = $buildFolder . '/full_php_browscap.ini';
-        
+
         mkdir($buildFolder, 0777, true);
 
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
-        
+
         $builder = new \Browscap\Generator\BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         $builder
             ->setLogger($logger)
             ->run('test', $iniFile)
         ;
-        
+
         /*
         $collection = new DataCollection('test');
         $collection->setLogger($logger);
@@ -226,9 +226,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 if (isset($data[$key])) {
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
+
                 if (isset($checks[$test[0]])) {
-                    //throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                    echo 'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "' . $checks[$test[0]] . '"' . "\n";
+                    throw new \RuntimeException(
+                        'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "'
+                        . $checks[$test[0]] . '"'
+                    );
                 }
 
                 $data[$key]       = $test;

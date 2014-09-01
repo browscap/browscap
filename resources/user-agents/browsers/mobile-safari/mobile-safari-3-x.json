@@ -1,7 +1,7 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
   "versions": ["3.0", "3.1"],
-  "sortIndex": 1940,
+  "sortIndex": 1941,
   "lite": true,
   "userAgents": [
     {
@@ -48,7 +48,7 @@
             "iOS_B",
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -71,7 +71,7 @@
             "iOS_B",
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -84,7 +84,7 @@
             "iOS_B",
             "iOS_C_2_0", "iOS_C_2_1", "iOS_C_2_2", "iOS_C_3_0", "iOS_C_3_1", "iOS_C_3_2",
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         }

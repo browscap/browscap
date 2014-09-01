@@ -1,72 +1,82 @@
 {
-  "division": "Offline Browsers",
-  "sortIndex": 440,
+  "division":   "Offline Browsers",
+  "sortIndex":  440,
   "userAgents": [
     {
-      "userAgent": "Offline Browsers",
+      "userAgent":  "Offline Browsers",
       "properties": {
-        "Parent": "DefaultProperties",
+        "Parent":  "DefaultProperties",
         "Comment": "Offline Browsers",
         "Browser": "Offline Browsers",
         "Crawler": "true"
       },
-      "children": [
+      "children":   [
         {
-          "match": "*Check&Get*",
+          "match":      "*Check&Get*",
           "properties": {
             "Browser": "Check&Get"
           }
         },
         {
-          "match": "*HTTrack 3.*",
+          "match":      "Mozilla\/* (compatible; HTTrack 3.*",
           "properties": {
-            "Browser": "HTTrack",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "Browser_Type": "Offline Browser",
+            "Browser":       "HTTrack",
+            "Version":       "3.0",
+            "MajorVer":      "3",
+            "Browser_Type":  "Offline Browser",
             "Browser_Maker": "Xavier Roche"
           }
         },
         {
-          "match": "*HTTrack*",
+          "match":      "*HTTrack 3.*",
           "properties": {
-            "Browser": "HTTrack",
-            "Browser_Type": "Offline Browser",
+            "Browser":       "HTTrack",
+            "Version":       "3.0",
+            "MajorVer":      "3",
+            "Browser_Type":  "Offline Browser",
             "Browser_Maker": "Xavier Roche"
           }
         },
         {
-          "match": "*MSIECrawler*",
+          "match":      "*HTTrack*",
+          "properties": {
+            "Browser":       "HTTrack",
+            "Browser_Type":  "Offline Browser",
+            "Browser_Maker": "Xavier Roche"
+          }
+        },
+        {
+          "match":      "*MSIECrawler*",
           "properties": {
             "Browser": "IE Offline Browser"
           }
         },
         {
-          "match": "*TweakMASTER*",
+          "match":      "*TweakMASTER*",
           "properties": {
             "Browser": "TweakMASTER"
           }
         },
         {
-          "match": "BackStreet Browser *",
+          "match":      "BackStreet Browser *",
           "properties": {
             "Browser": "BackStreet Browser"
           }
         },
         {
-          "match": "Go-Ahead-Got-It*",
+          "match":      "Go-Ahead-Got-It*",
           "properties": {
             "Browser": "Go Ahead Got-It"
           }
         },
         {
-          "match": "iGetter\/*",
+          "match":      "iGetter\/*",
           "properties": {
             "Browser": "iGetter"
           }
         },
         {
-          "match": "Teleport*",
+          "match":      "Teleport*",
           "properties": {
             "Browser": "Teleport"
           }

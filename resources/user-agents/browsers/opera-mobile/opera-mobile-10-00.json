@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": ["10.00", "10.10", "10.50", "10.60", "10.70"],
-  "sortIndex": 2142,
+  "sortIndex": 1036,
   "lite": true,
   "userAgents": [
     {
@@ -40,6 +40,12 @@
           ]
         },
         {
+          "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
@@ -55,12 +61,6 @@
           "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
           "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isMobileDevice": "true",
@@ -70,6 +70,26 @@
             "Device_Code_Name": "G7300",
             "Device_Brand_Name": "Huawei"
           },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "650",
+            "Device_Maker": "MicromaxX",
+            "Device_Code_Name": "650",
+            "Device_Brand_Name": "MicromaxX"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]

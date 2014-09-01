@@ -41,13 +41,19 @@
       },
       "children": [
         {
-          "match": "*Konqueror\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "FreeBSD", "Linux", "OpenBSD"
+          ]
         },
         {
           "match": "*Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
             "FreeBSD", "Linux", "OpenBSD"
           ]
+        },
+        {
+          "match": "*Konqueror\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
