@@ -29,12 +29,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*",
-          "platforms": [
-            "Bada_2_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5380#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
           "properties": {
             "Device_Code_Name": "GT-S5380",
@@ -78,6 +72,12 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Wave 3"
           },
+          "platforms": [
+            "Bada_2_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*",
           "platforms": [
             "Bada_2_0"
           ]

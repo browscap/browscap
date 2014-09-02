@@ -1,7 +1,7 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
   "versions": ["4.0"],
-  "sortIndex": 1910,
+  "sortIndex": 1912,
   "lite": true,
   "userAgents": [
     {
@@ -530,7 +530,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6800 Build\/*) AppleWebKit\/534.13 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -4851,7 +4851,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6201 Build\/*) AppleWebKit\/534.13 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6201 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -4865,7 +4865,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6211 Build\/*) AppleWebKit\/534.13 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P6211 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -4879,7 +4879,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P7300B Build\/*) AppleWebKit\/534.13 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P7300B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7115,7 +7115,7 @@
           ]
         },
         {
-          "match": "Tablet-PC-4.1-Mozilla\/5.0 (Linux; U; Android 4.1*; ADM8000KP_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
+          "match": "Tablet-PC-4.1-Mozilla\/5.0 (#PLATFORM#ADM8000KP_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",

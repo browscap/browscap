@@ -1,7 +1,7 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
   "versions": ["4.4"],
-  "sortIndex": 1914,
+  "sortIndex": 1908,
   "lite": true,
   "userAgents": [
     {

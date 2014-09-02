@@ -79,10 +79,10 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
-            "Device_Name": "650",
-            "Device_Maker": "MicromaxX",
-            "Device_Code_Name": "650",
-            "Device_Brand_Name": "MicromaxX"
+            "Device_Name": "X650",
+            "Device_Maker": "Micromax",
+            "Device_Code_Name": "X650",
+            "Device_Brand_Name": "Micromax"
           },
           "platforms": [
             "Android"

@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
+      "engine": "Trident_7",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
