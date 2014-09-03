@@ -1100,6 +1100,7 @@
         },
         {
           "match": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
+          "engine": "WebKit",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",

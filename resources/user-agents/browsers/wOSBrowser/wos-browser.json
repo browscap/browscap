@@ -113,7 +113,39 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSBrowser\/*Safari\/* Touchpad\/1.*",
+          "properties": {
+            "Device_Code_Name": "Touchpad",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Touchpad",
+            "isMobileDevice": "true",
+            "Device_Type": "FonePad",
+            "isTablet": "true",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "webOS_B_30", "webOS_B"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSSystem\/*Safari\/* TouchPad\/1.*",
+          "properties": {
+            "Device_Code_Name": "Touchpad",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Name": "Touchpad",
+            "isMobileDevice": "true",
+            "Device_Type": "FonePad",
+            "isTablet": "true",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "webOS_B_30", "webOS_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (hp-tablet; Linux; #PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) wOSSystem\/*Safari\/* Touchpad\/1.*",
           "properties": {
             "Device_Code_Name": "Touchpad",
             "Device_Maker": "HP",
