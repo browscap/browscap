@@ -1346,16 +1346,7 @@
           }
         },
         {
-          "match": "SAMSUNG-SGH-E250\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E250"
-          }
-        },
-        {
-          "match": "SAMSUNG-SGH-E250\/E250* UP.Browser\/6.2*",
+          "match": "SAMSUNG-SGH-E250\/* UP.Browser\/6.2*",
           "properties": {
             "Device_Code_Name": "SGH-E250",
             "Device_Maker": "Samsung",

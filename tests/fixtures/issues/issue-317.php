@@ -468,7 +468,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'W580i',
             'Device_Maker' => 'SonyEricsson',
-            'Device_Type' => 'Mobile Device',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'W580i',
             'Device_Brand_Name' => 'SonyEricsson',
