@@ -28,7 +28,16 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE 5.5*; #PLATFORM#Avant Browser*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 5.5*; #PLATFORM#Avant Browser*",
+          "platforms": [
+            "Win95_2", "Win98_2", "WinME",
+            "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
+            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "NT"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 5.5*; #PLATFORM#Avant Browser*",
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
             "Win2000", "Win2000_3", "Win2000_64", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
