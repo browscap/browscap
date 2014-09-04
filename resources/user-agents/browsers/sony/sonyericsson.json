@@ -257,6 +257,15 @@
           }
         },
         {
+          "match": "SonyEricssonW580i\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 Untrusted\/1.0",
+          "properties": {
+            "Device_Code_Name": "W580i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W580i"
+          }
+        },
+        {
           "match": "SonyEricssonW580i\/*",
           "properties": {
             "Device_Code_Name": "W580i",
