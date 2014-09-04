@@ -243,12 +243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "f1e26f7ce0506fadd49f73556f1c130c76695942"
+                "reference": "eeea14e2de0b164b6a117e73e6531250b03905ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/f1e26f7ce0506fadd49f73556f1c130c76695942",
-                "reference": "f1e26f7ce0506fadd49f73556f1c130c76695942",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/eeea14e2de0b164b6a117e73e6531250b03905ba",
+                "reference": "eeea14e2de0b164b6a117e73e6531250b03905ba",
                 "shasum": ""
             },
             "require": {
@@ -273,7 +273,7 @@
                 "BSD"
             ],
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2014-09-01 19:25:08"
+            "time": "2014-09-04 20:48:08"
         },
         {
             "name": "mimmi20/file-loader",
