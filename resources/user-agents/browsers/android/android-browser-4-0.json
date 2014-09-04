@@ -7236,26 +7236,6 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari* Android *",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "AT-AS40SE Linux\/* Android\/4.0* Release\/* Browser\/AppleWebKit* Profile\/MIDP* Mobile Safari* Android *",
-          "properties": {
-            "Device_Name": "AT-AS40SE",
-            "Device_Maker": "Wolgang",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AT-AS40SE",
-            "Device_Brand_Name": "Wolgang",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
           "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
           "properties": {
             "Device_Name": "R813T",
@@ -7305,6 +7285,20 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "Device_Name": "AT-AS40SE",
+            "Device_Maker": "Wolgang",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "AT-AS40SE",
+            "Device_Brand_Name": "Wolgang",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
           ]
         },
         {
