@@ -72,7 +72,7 @@ class BuildFullFileOnlyGenerator
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return \Browscap\Generator\BuildGenerator
+     * @return BuildFullFileOnlyGenerator
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -119,7 +119,7 @@ class BuildFullFileOnlyGenerator
      * Entry point for generating builds for a specified version
      *
      * @param string  $version
-     * @param boolean $createZipFile
+     * @param string $iniFile
      */
     public function run($version, $iniFile)
     {
