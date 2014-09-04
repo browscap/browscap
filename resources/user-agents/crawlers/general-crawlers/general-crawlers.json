@@ -2568,6 +2568,21 @@
           "properties": {
             "Browser": "Gluten Free Crawler"
           }
+        },
+        {
+          "match": "abot\/0.1*",
+          "properties": {
+            "Browser": "abot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "abot\/*",
+          "properties": {
+            "Browser": "abot"
+          }
         }
       ]
     }

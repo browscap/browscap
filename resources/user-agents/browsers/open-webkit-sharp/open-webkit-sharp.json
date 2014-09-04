@@ -11,11 +11,11 @@
         "Parent": "DefaultProperties",
         "Comment": "open-webkit-sharp",
         "Browser": "open-webkit-sharp",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {

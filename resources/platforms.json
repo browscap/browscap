@@ -1161,6 +1161,7 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
+        "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
     },

@@ -10,9 +10,9 @@
         "Parent": "DefaultProperties",
         "Comment": "Windows-Update-Agent",
         "Browser": "Windows-Update-Agent",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {

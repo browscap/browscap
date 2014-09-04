@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [51, 50],
-  "sortIndex": 1148,
+  "sortIndex": 1146,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -4005,14 +4005,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 5 Build\/*) AppleWebKit\/* (KHTML, like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 5 Build\/*) AppleWebKit\/* (KHTML* like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "LG Nexus 5",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1",
             "Android"
@@ -4290,7 +4290,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
         },
         {

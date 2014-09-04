@@ -1,0 +1,31 @@
+{
+  "division": "akregator Generic",
+  "sortIndex": 382,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "akregator Generic",
+      "engine": "KHTML_Dynamic",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "akregator Generic",
+        "Browser": "akregator",
+        "Browser_Maker": "KDE e.V.",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Feed Reader",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (X11;) AppleWebKit\/* (KHTML, like Gecko) akregator\/* Safari\/*"
+        },
+        {
+          "match": "Akregator\/*"
+        }
+      ]
+    }
+  ]
+}

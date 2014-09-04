@@ -13,7 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Gomez Site Monitor #MAJORVER#.#MINORVER#",
         "Browser": "Gomez Site Monitor",
-        "Browser_Maker": "Compuware APM",
+        "Browser_Maker": "Compuware Corporation",
         "Browser_Type": "Bot/Crawler",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

@@ -55,14 +55,6 @@
           }
         },
         {
-          "match": "Akregator\/*",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "akregator",
-            "Browser_Maker": "KDE e.V."
-          }
-        },
-        {
           "match": "AppleSyndication\/*",
           "device": "Macintosh",
           "properties": {
@@ -509,54 +501,6 @@
             "Browser": "FeedBlitz",
             "Browser_Maker": "FeedBlitz.com"
           }
-        },
-        {
-          "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
-          "device": "iPad",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS 2.4 (#PLATFORM#)",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS * (iPad#PLATFORM#)",
-          "device": "iPad",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS * (#PLATFORM#)",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
         },
         {
           "match": "FeedForAll rss2html.php v2",

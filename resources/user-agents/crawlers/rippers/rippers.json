@@ -873,6 +873,12 @@
           }
         },
         {
+          "match": "Crawllybot*",
+          "properties": {
+            "Browser": "Crawllybot"
+          }
+        },
+        {
           "match": "Crawl*",
           "properties": {
             "Browser": "Crawlboy"

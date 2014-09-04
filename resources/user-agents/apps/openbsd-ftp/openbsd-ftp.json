@@ -10,8 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "OpenBSD ftp",
         "Browser": "OpenBSD ftp",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Application",
+        "Crawler": "false"
       },
       "children": [
         {

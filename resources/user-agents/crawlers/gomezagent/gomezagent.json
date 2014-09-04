@@ -14,7 +14,7 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Gomez Site Monitor",
-        "Browser_Maker": "Compuware APM"
+        "Browser_Maker": "Compuware Corporation"
       },
       "children": [
         {

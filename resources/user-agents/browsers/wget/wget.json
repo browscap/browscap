@@ -11,7 +11,7 @@
         "Comment": "wget",
         "Browser_Type": "Offline Browser",
         "Browser_Maker": "Free Software Foundation, Inc.",
-        "Crawler": "true",
+        "Crawler": "false",
         "Browser": "wget"
       },
       "children": [

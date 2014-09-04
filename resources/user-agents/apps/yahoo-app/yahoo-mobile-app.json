@@ -15,12 +15,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Application",
         "Browser_Maker": "Yahoo! Inc.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {

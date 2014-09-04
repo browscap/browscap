@@ -19,8 +19,8 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "isSyndicationReader": "true",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Feed Reader",
+        "Crawler": "false"
       },
       "children": [
         {

@@ -14,12 +14,12 @@
         "Parent": "DefaultProperties",
         "Comment": "phantomas",
         "Browser": "phantomas",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Application",
         "Browser_Maker": "Maciej Brencz",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {
