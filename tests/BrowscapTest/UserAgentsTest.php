@@ -17,10 +17,18 @@
 
 namespace BrowscapTest;
 
-use Browscap\Generator\BuildFullFileOnlyGenerator;
+use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
+use Browscap\Filter\FullFilter;
+use Browscap\Formatter\PhpFormatter;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\IniWriter;
+use Browscap\Writer\WriterCollection;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use WurflCache\Adapter\Memory;
+use WurflCache\Adapter\File;
 
 /**
  * Class UserAgentsTest
@@ -56,15 +64,21 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $builder = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
+        $builder = new \Browscap\Generator\BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         $builder
             ->setLogger($logger)
             ->run('test', $iniFile)
         ;
 
+        //$cache = new File($buildFolder);
+        $cache = new Memory();
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap = new Browscap();
+        self::$browscap
+            ->setCache($cache)
+            ->setLogger($logger)
+            ->convertFile($iniFile)
+        ;
     }
 
     public function userAgentDataProvider()
@@ -113,14 +127,21 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = self::$browscap->getBrowser($ua, true);
+        $actualProps = (array) self::$browscap->getBrowser($ua);
 
         foreach ($props as $propName => $propValue) {
+            $propName = strtolower($propName);
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
                 'Actual properties did not have "' . $propName . '" property'
             );
+
+            if ($propValue !== $actualProps[$propName]) {
+                var_dump($ua, 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName] . '")', $actualProps);
+                //exit;
+            }
 
             self::assertSame(
                 $propValue,

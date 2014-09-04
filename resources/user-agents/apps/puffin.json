@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Puffin%20Free\/* CFNetwork\/* #PLATFORM#",
+          "match": "Puffin%20Free/* CFNetwork/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]
