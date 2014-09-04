@@ -11,6 +11,7 @@
         "Comment": "DotBot",
         "Browser": "DotBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "SEOmoz, Inc.",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

@@ -1,18 +1,19 @@
 {
-  "division": "Openwave Mobile Browser 6.0",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
   "versions": [6],
   "sortIndex": 8216,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 6.0",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Myriad Group",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -24,18 +25,18 @@
       },
       "children": [
         {
-          "match": "KDDI-TS21 UP.Browser\/6.0*",
+          "match": "KDDI-TS21 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "KDDI TS21"
         },
         {
-          "match": "KDDI-TS25 UP.Browser\/6.0*",
+          "match": "KDDI-TS25 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "KDDI TS25"
         },
         {
-          "match": "OPWV-SDK\/* UP.Browser\/6.0*"
+          "match": "OPWV-SDK\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* UP.Browser\/6.0*"
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

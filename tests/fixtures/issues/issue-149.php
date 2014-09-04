@@ -7,7 +7,7 @@ return [
             'Browser' => 'Paper.li Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Paper.li',
             'Version' => '2.1',
             'MajorVer' => '2',
             'MinorVer' => '1',

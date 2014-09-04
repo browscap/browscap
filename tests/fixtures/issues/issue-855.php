@@ -48,7 +48,7 @@ return [
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Yandex',
+            'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
             'Version' => '15.10',
             'MajorVer' => '15',

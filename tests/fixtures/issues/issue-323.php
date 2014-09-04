@@ -187,7 +187,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'UC Web',
+            'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.2',
             'MajorVer' => '3',
             'MinorVer' => '2',

@@ -13,6 +13,7 @@
         "Comment": "Openwave Mobile Browser",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Myriad Group",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

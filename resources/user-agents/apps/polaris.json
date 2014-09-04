@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Polaris",
         "Browser": "Polaris",
+        "Browser_Maker": "Infraware Inc",
         "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",

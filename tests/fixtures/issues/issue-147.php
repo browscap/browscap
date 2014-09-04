@@ -7,7 +7,7 @@ return [
             'Browser' => 'Yahoo! Slurp',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Yahoo!',
+            'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',

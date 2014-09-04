@@ -7,7 +7,7 @@ return [
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Yandex',
+            'Browser_Maker' => 'Yandex LLC',
             'Version' => '14.2',
             'MajorVer' => '14',
             'MinorVer' => '2',

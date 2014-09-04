@@ -1099,7 +1099,7 @@
           "match": "WeSEE:Ads\/*",
           "properties": {
             "Browser": "WeSEE:Ads",
-            "Browser_Maker": "WeSEE"
+            "Browser_Maker": "WeSEE Ltd"
           }
         },
         {

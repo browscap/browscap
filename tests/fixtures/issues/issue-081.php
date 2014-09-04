@@ -7,7 +7,7 @@ return [
             'Browser' => 'Mail.Ru',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Mail.Ru Group',
             'Version' => '2.0',
             'MajorVer' => '2',
             'MinorVer' => '0',

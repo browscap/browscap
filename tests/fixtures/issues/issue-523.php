@@ -6012,7 +6012,7 @@ return [
             'Browser' => 'Openwave Mobile Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Myriad Group',
             'Version' => '6.2',
             'MajorVer' => '6',
             'MinorVer' => '2',

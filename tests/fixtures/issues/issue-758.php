@@ -1,13 +1,14 @@
 <?php
 
 return [
-    'issue-758A' => [
+    'issue-758-A' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321',
         [
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -35,18 +36,19 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc'
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
-    'issue-758B' => [
+    'issue-758-B' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4',
         [
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
             'Version' => '8.0',
             'MajorVer' => '8',
             'MinorVer' => '0',
@@ -57,6 +59,15 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'VBScript' => false,
+            'JavaApplets' => true,
+            'ActiveXControls' => false,
+            'BackgroundSounds' => false,
             'Device_Name' => 'iPhone',
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Mobile Phone',
@@ -65,9 +76,9 @@ return [
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc'
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ]
 ];

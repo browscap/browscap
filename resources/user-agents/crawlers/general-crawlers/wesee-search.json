@@ -10,7 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "WeSEE:Search",
         "Browser": "WeSEE:Search",
-        "Browser_Maker": "WeSEE",
+        "Browser_Maker": "WeSEE Ltd",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },

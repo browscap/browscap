@@ -896,7 +896,7 @@ return [
     'issue-267-AD' => [
         'Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0; en-US; bot@infegy.com)',
         [
-            'Browser' => 'Socialradarbot',
+            'Browser' => 'Socialradar Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'infegy.com',
@@ -1369,7 +1369,7 @@ return [
             'Browser' => 'WeSEE:Search',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'WeSEE',
+            'Browser_Maker' => 'WeSEE Ltd',
             'Version' => '0.1',
             'MajorVer' => '0',
             'MinorVer' => '1',
@@ -2543,7 +2543,7 @@ return [
             'Browser' => 'WeSEE:Search',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'WeSEE',
+            'Browser_Maker' => 'WeSEE Ltd',
             'Version' => '0.1',
             'MajorVer' => '0',
             'MinorVer' => '1',

@@ -11,6 +11,7 @@
         "Comment": "WBSearchBot",
         "Browser": "WBSearchBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "www.warebay.com",
         "Crawler": "true"
       },
       "children": [

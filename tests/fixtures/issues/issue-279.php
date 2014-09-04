@@ -219,7 +219,7 @@ return [
             'Browser' => 'Scrapy',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'scrapy.org',
             'Version' => '0.16',
             'MajorVer' => '0',
             'MinorVer' => '16',

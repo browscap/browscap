@@ -7,7 +7,7 @@ return [
             'Browser' => 'Yahoo Slingstone',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Yahoo!',
+            'Browser_Maker' => 'Yahoo! Inc.',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

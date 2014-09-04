@@ -1,0 +1,35 @@
+{
+  "division": "oBot",
+  "sortIndex": 320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "oBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "oBot",
+        "Browser": "oBot",
+        "Browser_Maker": "IBM",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "oBot*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; oBot\/2.3*",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; oBot\/*"
+        }
+      ]
+    }
+  ]
+}
