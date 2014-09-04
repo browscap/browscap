@@ -17,13 +17,7 @@
 
 namespace BrowscapTest;
 
-use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
-use Browscap\Filter\FullFilter;
-use Browscap\Formatter\PhpFormatter;
-use Browscap\Helper\CollectionCreator;
-use Browscap\Writer\IniWriter;
-use Browscap\Writer\WriterCollection;
+use Browscap\Generator\BuildFullFileOnlyGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
@@ -64,7 +58,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $builder = new \Browscap\Generator\BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
+        $builder = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         $builder
             ->setLogger($logger)
             ->run('test', $iniFile)
