@@ -173,7 +173,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browscap-php.git",
-                "reference": "3342a121d5ed08cca2ac7f0fa59196bea3b0fa33"
+                "reference": "6779cedfefb8afd78965f6ebc4b5cf3ddecaef1c"
             },
             "require": {
                 "mimmi20/file-loader": "2.0.*",
@@ -235,7 +235,7 @@
                 "issues": "https://github.com/browscap/browscap-php/issues",
                 "source": "https://github.com/browscap/browscap-php"
             },
-            "time": "2014-09-03 20:59:13"
+            "time": "2014-09-04 16:00:01"
         },
         {
             "name": "mikey179/vfsStream",
