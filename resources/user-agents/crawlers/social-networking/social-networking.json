@@ -73,16 +73,16 @@
           }
         },
         {
-          "match": "Slackbot*",
+          "match": "Slackbot-LinkExpanding*",
           "properties": {
-            "Browser": "Slackbot",
+            "Browser": "Slackbot-Link-Expanding",
             "Browser_Maker": "slack.com"
           }
         },
         {
-          "match": "Slackbot-LinkExpanding*",
+          "match": "Slackbot*",
           "properties": {
-            "Browser": "Slackbot-Link-Expanding",
+            "Browser": "Slackbot",
             "Browser_Maker": "slack.com"
           }
         },
