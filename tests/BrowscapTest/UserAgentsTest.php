@@ -21,6 +21,8 @@ use Browscap\Generator\BuildFullFileOnlyGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use WurflCache\Adapter\Memory;
+use WurflCache\Adapter\File;
 
 /**
  * Class UserAgentsTest
@@ -62,9 +64,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->run('test', $iniFile)
         ;
 
+        //$cache = new File($buildFolder);
+        $cache = new Memory();
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap = new Browscap();
+        self::$browscap
+            ->setCache($cache)
+            ->setLogger($logger)
+            ->convertFile($iniFile)
+        ;
     }
 
     public function userAgentDataProvider()
@@ -113,9 +121,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = self::$browscap->getBrowser($ua, true);
+        $actualProps = (array) self::$browscap->getBrowser($ua);
 
         foreach ($props as $propName => $propValue) {
+            $propName = strtolower($propName);
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
