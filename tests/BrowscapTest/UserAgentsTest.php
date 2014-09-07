@@ -196,7 +196,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     public function userAgentDataProvider()
     {
-        $data = array();
+        $data              = array();
+        $checks            = array();
         $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
 
         $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
@@ -214,7 +215,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
 
-                $data[$key] = $test;
+                if (isset($checks[$test[0]])) {
+                    throw new \RuntimeException(
+                        'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "'
+                        . $checks[$test[0]] . '"'
+                    );
+                }
+
+                $data[$key]       = $test;
+                $checks[$test[0]] = $key;
             }
         }
 
