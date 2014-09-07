@@ -871,10 +871,44 @@
           }
         },
         {
+          "match": "SurveyBot\/2.3*",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
           "match": "SurveyBot\/*",
           "properties": {
-            "Browser": "SurveyBot"
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/2.3*",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/*",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "SynapticSearch\/AI Crawler 1.?",
