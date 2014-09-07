@@ -1612,13 +1612,6 @@
           }
         },
         {
-          "match": "WeSEE:Search\/*",
-          "properties": {
-            "Browser": "WeSEE:Search",
-            "Browser_Maker": "WeSEE"
-          }
-        },
-        {
           "match": "WeSEE:Search\/0.1 (Alpha*",
           "properties": {
             "Browser": "WeSEE:Search",
@@ -1627,6 +1620,20 @@
             "MajorVer": "0",
             "MinorVer": "1",
             "Alpha": "true"
+          }
+        },
+        {
+          "match": "WeSEE:Search\/*",
+          "properties": {
+            "Browser": "WeSEE:Search",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
+          "match": "WeSEE:Ads\/*",
+          "properties": {
+            "Browser": "WeSEE:Ads",
+            "Browser_Maker": "WeSEE"
           }
         },
         {
