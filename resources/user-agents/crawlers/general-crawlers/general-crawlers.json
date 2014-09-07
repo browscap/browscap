@@ -903,6 +903,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/*",
+          "engine": "Gecko",
           "properties": {
             "Browser": "SurveyBot",
             "Browser_Maker": "DomainTools"
