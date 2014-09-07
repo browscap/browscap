@@ -2132,13 +2132,6 @@
           }
         },
         {
-          "match": "psbot-image*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
           "match": "MetaHeadersBot*",
           "properties": {
             "Browser": "MetaHeadersBot",
