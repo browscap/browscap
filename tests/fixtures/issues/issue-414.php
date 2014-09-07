@@ -11,7 +11,7 @@ return [
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
-            'Alpha' => true,
+            'Alpha' => false,
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
