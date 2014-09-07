@@ -97,9 +97,24 @@
           }
         },
         {
-          "match": "psbot\/* (?http:\/\/www.picsearch.com\/bot.html)",
+          "match": "psbot-image*",
           "properties": {
-            "Browser": "PicSearchBot"
+            "Browser": "Psbot",
+            "Browser_Maker": "Picsearch Services AB"
+          }
+        },
+        {
+          "match": "psbot-page*",
+          "properties": {
+            "Browser": "Psbot",
+            "Browser_Maker": "Picsearch Services AB"
+          }
+        },
+        {
+          "match": "psbot\/*",
+          "properties": {
+            "Browser": "Psbot",
+            "Browser_Maker": "Picsearch Services AB"
           }
         },
         {

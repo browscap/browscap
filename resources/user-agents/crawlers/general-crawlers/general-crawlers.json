@@ -871,10 +871,46 @@
           }
         },
         {
+          "match": "SurveyBot\/2.3*",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
           "match": "SurveyBot\/*",
           "properties": {
-            "Browser": "SurveyBot"
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/2.3*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "SurveyBot",
+            "Browser_Maker": "DomainTools"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         },
         {
           "match": "SynapticSearch\/AI Crawler 1.?",
@@ -1640,6 +1676,13 @@
           }
         },
         {
+          "match": "WeSEE:Ads\/*",
+          "properties": {
+            "Browser": "WeSEE:Ads",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
           "match": "A6-Indexer\/1.0*",
           "properties": {
             "Browser": "A6-Indexer",
@@ -2149,13 +2192,6 @@
           }
         },
         {
-          "match": "psbot-image*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
           "match": "MetaHeadersBot*",
           "properties": {
             "Browser": "MetaHeadersBot",
@@ -2300,6 +2336,77 @@
           "properties": {
             "Browser": "Crazywebcrawler",
             "Browser_Maker": "crazywebcrawler.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; 200PleaseBot\/1.0*",
+          "properties": {
+            "Browser": "200PleaseBot",
+            "Browser_Maker": "200please.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; 200PleaseBot\/*",
+          "properties": {
+            "Browser": "200PleaseBot",
+            "Browser_Maker": "200please.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/0.91*",
+          "properties": {
+            "Browser": "Abonti WebSearch",
+            "Browser_Maker": "abonti.com",
+            "Version": "0.91",
+            "MajorVer": "0",
+            "MinorVer": "91"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/0.92*",
+          "properties": {
+            "Browser": "Abonti WebSearch",
+            "Browser_Maker": "abonti.com",
+            "Version": "0.92",
+            "MajorVer": "0",
+            "MinorVer": "92"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/*",
+          "properties": {
+            "Browser": "Abonti WebSearch",
+            "Browser_Maker": "abonti.com"
+          }
+        },
+        {
+          "match": "GG PeekBot 1.0*",
+          "properties": {
+            "Browser": "GG PeekBot",
+            "Browser_Maker": "gadu-gadu.pl",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GG PeekBot 2.0*",
+          "properties": {
+            "Browser": "GG PeekBot",
+            "Browser_Maker": "gadu-gadu.pl",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GG PeekBot *",
+          "properties": {
+            "Browser": "GG PeekBot",
+            "Browser_Maker": "gadu-gadu.pl"
           }
         }
       ]
