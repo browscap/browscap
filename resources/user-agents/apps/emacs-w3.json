@@ -20,14 +20,6 @@
       },
       "children": [
         {
-          "match": "Emacs\/W3\/2.*",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "Emacs\/W3\/2.* (#PLATFORM#",
           "properties": {
             "Version": "2.0",
@@ -39,10 +31,10 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/3.*",
+          "match": "Emacs\/W3\/2.*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
+            "Version": "2.0",
+            "MajorVer": "2",
             "MinorVer": "0"
           }
         },
@@ -58,10 +50,10 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/4.*",
+          "match": "Emacs\/W3\/3.*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
+            "Version": "3.0",
+            "MajorVer": "3",
             "MinorVer": "0"
           }
         },
@@ -75,6 +67,14 @@
           "platforms": [
             "Unix", "Linux"
           ]
+        },
+        {
+          "match": "Emacs\/W3\/4.*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
         },
         {
           "match": "Emacs-w3m\/*"

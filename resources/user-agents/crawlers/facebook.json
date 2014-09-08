@@ -15,12 +15,6 @@
       },
       "children": [
         {
-          "match": "facebookexternalhit\/* (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
-          "properties": {
-            "Browser": "FacebookExternalHit"
-          }
-        },
-        {
           "match": "facebookexternalhit\/1.0 (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
           "properties": {
             "Browser": "FacebookExternalHit",
@@ -36,6 +30,12 @@
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
+          }
+        },
+        {
+          "match": "facebookexternalhit\/* (+http*:\/\/www.facebook.com\/externalhit_uatext.php)*",
+          "properties": {
+            "Browser": "FacebookExternalHit"
           }
         },
         {

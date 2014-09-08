@@ -40,7 +40,7 @@ return [
             'MajorVer' => '3',
             'MinorVer' => '2',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'Win64' => false,

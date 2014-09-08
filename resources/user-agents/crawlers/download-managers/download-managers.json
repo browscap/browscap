@@ -58,6 +58,12 @@
           }
         },
         {
+          "match": "masscan\/*",
+          "properties": {
+            "Browser": "Download Accelerator"
+          }
+        },
+        {
           "match": "Download Demon*",
           "properties": {
             "Browser": "Download Demon"

@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Flipboard* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Flipboard\/1.5* CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "1.5",
@@ -59,6 +53,12 @@
             "MajorVer": "1",
             "MinorVer": "8"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Flipboard* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

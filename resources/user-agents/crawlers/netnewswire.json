@@ -28,10 +28,7 @@
             "Version": "3.3",
             "MajorVer": "3",
             "MinorVer": "3"
-          },
-          "platforms": [
-            "OSX"
-          ]
+          }
         },
         {
           "match": "NetNewsWire*\/*",

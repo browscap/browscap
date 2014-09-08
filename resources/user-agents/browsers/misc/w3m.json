@@ -18,9 +18,6 @@
       },
       "children": [
         {
-          "match": "w3m\/*"
-        },
-        {
           "match": "w3m\/0.1*",
           "properties": {
             "Version": "0.1",
@@ -61,6 +58,9 @@
             "MinorVer": "5",
             "Cookies": "true"
           }
+        },
+        {
+          "match": "w3m\/*"
         }
       ]
     }

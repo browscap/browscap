@@ -50,7 +50,7 @@
             "MinorVer": "6"
           },
           "platforms": [
-            "Linux", "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -61,7 +61,7 @@
             "MinorVer": "7"
           },
           "platforms": [
-            "Linux", "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -72,7 +72,7 @@
             "MinorVer": "8"
           },
           "platforms": [
-            "Linux", "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -83,7 +83,7 @@
             "MinorVer": "9"
           },
           "platforms": [
-            "Linux", "Linux_64", "Win8_64"
+            "Linux_64", "Linux", "Win8_64"
           ]
         },
         {

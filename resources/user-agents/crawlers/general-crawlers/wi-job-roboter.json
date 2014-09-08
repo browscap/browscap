@@ -14,14 +14,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider*"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider Version 3*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;WI Job Roboter Spider*"
         }
       ]
     }

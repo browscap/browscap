@@ -42,7 +42,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/2.30.*",
           "platforms": [
-            "Linux", "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {

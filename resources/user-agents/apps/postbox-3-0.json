@@ -36,7 +36,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Postbox\/3.*",
           "platforms": [
-            "OSX", "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B"
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
           ]
         }
       ]

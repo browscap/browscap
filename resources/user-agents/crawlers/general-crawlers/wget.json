@@ -14,16 +14,6 @@
       },
       "children": [
         {
-          "match": "Wget*"
-        },
-        {
-          "match": "Wget\/1.*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
           "match": "Wget\/1.10*",
           "properties": {
             "Version": "1.10",
@@ -54,6 +44,16 @@
             "MajorVer": "1",
             "MinorVer": "13"
           }
+        },
+        {
+          "match": "Wget\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Wget*"
         }
       ]
     }

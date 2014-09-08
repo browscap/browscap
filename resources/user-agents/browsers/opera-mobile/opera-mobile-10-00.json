@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": ["10.00", "10.10", "10.50", "10.60", "10.70"],
-  "sortIndex": 2142,
+  "sortIndex": 1036,
   "lite": true,
   "userAgents": [
     {
@@ -33,10 +33,16 @@
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android", "AndroidLinux",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "AndroidLinux",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
             "SymbianOS_C",
             "WinMobile"
+          ]
+        },
+        {
+          "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
           ]
         },
         {
@@ -55,12 +61,6 @@
           "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
           "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isMobileDevice": "true",
@@ -70,6 +70,26 @@
             "Device_Code_Name": "G7300",
             "Device_Brand_Name": "Huawei"
           },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "X650",
+            "Device_Maker": "Micromax",
+            "Device_Code_Name": "X650",
+            "Device_Brand_Name": "Micromax"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]

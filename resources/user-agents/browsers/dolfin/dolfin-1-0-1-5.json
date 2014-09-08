@@ -27,26 +27,18 @@
       },
       "children": [
         {
-          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
-          "properties": {
-            "Device_Name": "GT-S5620",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          }
-        },
-        {
           "match": "SAMSUNG-GT-S5620\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
-            "Device_Name": "GT-S5620",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S5620 Monte",
             "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
+            "Device_Code_Name": "GT-S5620",
+            "Device_Brand_Name": "Samsung"
           }
         },
         {
-          "match": "SAMSUNG-GT-B7722\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "match": "SAMSUNG-GT-B7722\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
             "Device_Name": "GT-B7722",
             "Device_Maker": "Samsung",
@@ -56,13 +48,7 @@
           }
         },
         {
-          "match": "SAMSUNG-SGH-*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-          "properties": {
-            "Device_Maker": "Samsung"
-          }
-        },
-        {
-          "match": "SAMSUNG-SGH-T528g\/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "match": "SAMSUNG-SGH-T528g\/*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
             "Device_Name": "SGH-T528g",
             "Device_Maker": "Samsung",
@@ -146,10 +132,12 @@
         {
           "match": "SAMSUNG-GT-S3370*?Dolphin\/#MAJORVER#.#MINORVER#*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S3370",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S3370"
+            "Device_Name": "Corby 3G"
           }
         },
         {
@@ -277,6 +265,22 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "SGH I900"
           }
+        },
+        {
+          "match": "SAMSUNG-GT-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          }
+        },
+        {
+          "match": "SAMSUNG-SGH-*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Maker": "Samsung"
+          }
+        },
+        {
+          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

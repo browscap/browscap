@@ -1,7 +1,7 @@
 {
   "division": "Nichrome #MAJORVER#.#MINORVER#",
   "versions": [33],
-  "sortIndex": 11120,
+  "sortIndex": 1070,
   "userAgents": [
     {
       "userAgent": "Nichrome Browser #MAJORVER#.#MINORVER#",
@@ -43,8 +43,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.* Safari\/* Nichrome\/self\/#MAJORVER#*",
           "platforms": [
-            "OSX", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
-            "WinXPa_32", "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX",
+            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         }
       ]

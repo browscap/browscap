@@ -1,7 +1,7 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
   "versions": ["1.20", "13.10", "13.12", "14.0", "14.2", "14.4", "14.5"],
-  "sortIndex": 11120,
+  "sortIndex": 1030,
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
@@ -43,15 +43,15 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "OSX", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
-            "WinXPa_32", "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64"
+            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX",
+            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/#MAJORVER#.#MINORVER#*Chrome\/*Safari\/*",
           "platforms": [
-            "OSX", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
-            "WinXPa_32", "Vista_32", "Vista_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64"
+            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX",
+            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
           ]
         }
       ]
@@ -97,7 +97,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
-            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
@@ -111,7 +111,7 @@
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         }
       ]

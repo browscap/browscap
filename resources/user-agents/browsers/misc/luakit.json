@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/* luakit",
-          "platforms": [
-            "Linux", "Linux_32"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.1* luakit",
           "properties": {
             "Version": "1.1",
@@ -49,7 +43,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {
@@ -60,7 +54,7 @@
             "MinorVer": "6"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {
@@ -71,7 +65,13 @@
             "MinorVer": "8"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/* luakit",
+          "platforms": [
+            "Linux_32", "Linux"
           ]
         }
       ]

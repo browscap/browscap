@@ -29,31 +29,20 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*",
-          "platforms": [
-            "Bada_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*MIDP*",
+          "match": "SAMSUNG-GT-C6712* Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
           "properties": {
-            "Device_Maker": "Samsung"
+            "Device_Name": "GT-C6712",
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-C6712",
+            "Device_Brand_Name": "Samsung",
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Samsung-* Dolphin/#MAJORVER#.*"
-        },
-        {
-          "match": "Samsung-* Dolfin/#MAJORVER#.*"
-        },
-        {
-          "match": "SAMSUNG-* Dolfin/#MAJORVER#.*"
-        },
-        {
-          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*",
+          "match": "SAMSUNG-GT-C6712* Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Name": "GT-C6712",
             "Device_Maker": "Samsung",
@@ -63,20 +52,7 @@
           }
         },
         {
-          "match": "SAMSUNG-GT-C6712* Dolfin/#MAJORVER#.*MIDP*",
-          "properties": {
-            "Device_Name": "GT-C6712",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-C6712",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S5250",
             "Device_Maker": "Samsung",
@@ -88,7 +64,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S5250",
             "Device_Maker": "Samsung",
@@ -100,7 +76,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5330#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5330#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S5330",
             "Device_Maker": "Samsung",
@@ -112,7 +88,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E-VODAFONE#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E-VODAFONE#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S7230E",
             "Device_Maker": "Samsung",
@@ -124,7 +100,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S7230E",
             "Device_Maker": "Samsung",
@@ -136,19 +112,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500-VODAFONE#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500-VODAFONE#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S8500",
             "Device_Maker": "Samsung",
@@ -160,7 +124,19 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500L#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-S8500",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Wave 2"
+          },
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500L#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S8500L",
             "Device_Maker": "Samsung",
@@ -172,7 +148,7 @@
           ]
         },
         {
-          "match": "SAMSUNG-GT-B2710\/* SHP\/VPP\/R5 Dolfin\/#MAJORVER#.*",
+          "match": "SAMSUNG-GT-B2710\/* SHP\/VPP\/R5 Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-B2710",
             "Device_Maker": "Samsung",
@@ -181,13 +157,37 @@
           }
         },
         {
-          "match": "SAMSUNG-GT-S5260\/* Dolfin\/#MAJORVER#.*",
+          "match": "SAMSUNG-GT-S5260\/* Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S5260",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Star II"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
+          "properties": {
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Samsung-* Dolfin\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SAMSUNG-* Dolfin\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

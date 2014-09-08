@@ -36,18 +36,18 @@
       },
       "children": [
         {
-          "match": "Pic%20Collage\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Pic%20Collage\/2.10* CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "2.10",
             "MajorVer": "2",
             "MinorVer": "10"
           },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Pic%20Collage\/* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]

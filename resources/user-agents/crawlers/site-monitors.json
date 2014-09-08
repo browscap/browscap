@@ -25,12 +25,6 @@
           }
         },
         {
-          "match": "*Pingdom*",
-          "properties": {
-            "Browser": "Pingdom"
-          }
-        },
-        {
           "match": "*WebMon ?.*",
           "properties": {
             "Browser": "WebMon"
@@ -107,6 +101,12 @@
         },
         {
           "match": "Pingdom.com_bot_version_*",
+          "properties": {
+            "Browser": "Pingdom"
+          }
+        },
+        {
+          "match": "*Pingdom*",
           "properties": {
             "Browser": "Pingdom"
           }

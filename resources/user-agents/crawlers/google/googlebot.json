@@ -17,12 +17,6 @@
       },
       "children": [
         {
-          "match": "Google\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Google\/0.8* CFNetwork\/* Darwin\/*",
           "properties": {
             "Version": "0.8",
@@ -53,10 +47,16 @@
           ]
         },
         {
-          "match": "GoogleBot\/*"
+          "match": "Google\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
         },
         {
           "match": "Googlebot\/Test*"
+        },
+        {
+          "match": "GoogleBot\/*"
         },
         {
           "match": "googlebot-urlconsole",

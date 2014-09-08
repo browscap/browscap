@@ -28,28 +28,34 @@
       },
       "children": [
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S5302 *) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
+          "properties": {
+            "Device_Name": "GT-S5302",
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-S5302",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen"
+          },
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "RIMOS"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#Micromax A27*) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "properties": {
+            "Device_Name": "A27",
+            "Device_Code_Name": "A27",
+            "Device_Brand_Name": "Micromax",
+            "Device_Maker": "Micromax",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "properties": {
             "Device_Name": "A27",
             "Device_Code_Name": "A27",
@@ -77,42 +83,6 @@
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-            "iOS_A", "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S5302 *) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S5302",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S5302",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Code_Name": "A27",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "properties": {
             "isMobileDevice": "true",
@@ -125,6 +95,39 @@
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A",
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A",
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A",
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -17,12 +17,6 @@
       },
       "children": [
         {
-          "match": "MJ12bot\/v*"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MJ12bot\/v*)"
-        },
-        {
           "match": "MJ12bot\/v0.5*",
           "properties": {
             "Version": "0.5",
@@ -93,20 +87,6 @@
           }
         },
         {
-          "match": "MJ12bot\/v1.*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MJ12bot\/v1.*)",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
           "match": "MJ12bot\/v1.1*",
           "properties": {
             "Version": "1.1",
@@ -169,6 +149,26 @@
             "MajorVer": "1",
             "MinorVer": "4"
           }
+        },
+        {
+          "match": "MJ12bot\/v1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MJ12bot\/v1.*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "MJ12bot\/v*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MJ12bot\/v*)"
         }
       ]
     }

@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
-          "platforms": [
-            "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/4.*",
           "properties": {
             "Version": "4.0",
@@ -49,7 +43,13 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "OSX", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QuickLook\/*",
+          "platforms": [
+            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
           ]
         }
       ]

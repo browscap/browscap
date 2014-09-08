@@ -1,7 +1,7 @@
 {
   "division": "Mercury #MAJORVER#.#MINORVER#",
   "versions": ["7.2", "7.4", "8.0", "8.1", "8.3", "8.4"],
-  "sortIndex": 7161,
+  "sortIndex": 1944,
   "userAgents": [
     {
       "userAgent": "Mercury #MAJORVER#.#MINORVER#",
@@ -40,12 +40,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Type": "Tablet",
@@ -58,7 +52,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0", "iOS_C"
           ]
         },
         {
@@ -74,7 +68,14 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_0", "iOS_C_6_1", "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C"
           ]
         }
       ]

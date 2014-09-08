@@ -17,12 +17,6 @@
       },
       "children": [
         {
-          "match": "SeznamBot\/*"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SeznamBot\/*"
-        },
-        {
           "match": "SeznamBot\/3.0*",
           "properties": {
             "Version": "3.0",
@@ -61,6 +55,12 @@
             "MajorVer": "3",
             "MinorVer": "2"
           }
+        },
+        {
+          "match": "SeznamBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SeznamBot\/*"
         }
       ]
     }

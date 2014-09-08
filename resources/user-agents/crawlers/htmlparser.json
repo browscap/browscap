@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "HTMLParser\/*"
-        },
-        {
           "match": "HTMLParser\/1.*",
           "properties": {
             "Version": "1.0",
@@ -31,6 +28,9 @@
             "Version": "2.0",
             "MajorVer": "2"
           }
+        },
+        {
+          "match": "HTMLParser\/*"
         }
       ]
     }

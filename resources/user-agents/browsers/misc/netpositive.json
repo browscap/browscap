@@ -21,15 +21,15 @@
       },
       "children": [
         {
-          "match": "*NetPositive\/*"
-        },
-        {
           "match": "*NetPositive\/2.2*",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
             "MinorVer": "2"
           }
+        },
+        {
+          "match": "*NetPositive\/*"
         }
       ]
     }

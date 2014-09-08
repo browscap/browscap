@@ -32,22 +32,6 @@
       },
       "children": [
         {
-          "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
-          "platforms": [
-            "iOS_H", "iOS_H_5_0"
-          ]
-        },
-        {
           "match": "WhatsApp\/2.6* iPhone_OS\/* Device\/iPhone*",
           "properties": {
             "Version": "2.6",
@@ -63,7 +47,23 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_H", "iOS_H_5_0"
+            "iOS_H_5_0", "iOS_H"
+          ]
+        },
+        {
+          "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_H_5_0", "iOS_H"
           ]
         }
       ]

@@ -76,7 +76,7 @@
             "Device_Type": "Console"
           },
           "platforms": [
-            "Android", "Android_4_0"
+            "Android_4_0", "Android"
           ]
         },
         {

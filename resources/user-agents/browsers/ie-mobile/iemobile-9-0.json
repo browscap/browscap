@@ -39,12 +39,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0*)*",
-          "platforms": [
-            "WinPhone7"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 6.0; Trident\/5.0; mobile version65)",
           "platforms": [
             "WinPhone65"
@@ -57,12 +51,6 @@
           },
           "platforms": [
             "WinPhone7"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; *",
-          "platforms": [
-            "WinPhone75"
           ]
         },
         {
@@ -277,6 +265,12 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Omnia 7"
           },
+          "platforms": [
+            "WinPhone75"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0*",
           "platforms": [
             "WinPhone75"
           ]

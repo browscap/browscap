@@ -14,12 +14,6 @@
       },
       "children": [
         {
-          "match": "PHP*",
-          "properties": {
-            "Browser": "PHP"
-          }
-        },
-        {
           "match": "httpclient (http:\/\/www.phpclasses.org\/httpclient $Revision:*",
           "properties": {
             "Browser": "httpclient",
@@ -61,9 +55,6 @@
           }
         },
         {
-          "match": "PHP-SOAP\/*"
-        },
-        {
           "match": "xmlrpc-epi-php\/* (PHP)"
         },
         {
@@ -93,6 +84,12 @@
           "properties": {
             "Browser": "Zend_XmlRpc_Client",
             "Browser_Maker": "Zend"
+          }
+        },
+        {
+          "match": "PHP*",
+          "properties": {
+            "Browser": "PHP"
           }
         }
       ]

@@ -17,9 +17,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; uMBot-LN\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; uMBot-LN\/1.0*",
           "properties": {
             "Version": "1.0",
@@ -28,7 +25,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; uMBot-FC\/*"
+          "match": "Mozilla\/5.0 (compatible; uMBot-LN\/*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; uMBot-FC\/1.0*",
@@ -37,6 +34,9 @@
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; uMBot-FC\/*"
         }
       ]
     }

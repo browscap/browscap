@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "masidani_bot_v*"
-        },
-        {
           "match": "masidani_bot_v0.6*",
           "properties": {
             "Version": "0.6",
             "MajorVer": "0",
             "MinorVer": "6"
           }
+        },
+        {
+          "match": "masidani_bot_v*"
         }
       ]
     }
