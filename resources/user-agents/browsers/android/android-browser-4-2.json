@@ -1,7 +1,7 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
   "versions": ["4.2"],
-  "sortIndex": 1912,
+  "sortIndex": 1910,
   "lite": true,
   "userAgents": [
     {
@@ -30,15 +30,6 @@
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
@@ -110,6 +101,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Name": "OT-4030D",
+            "Device_Code_Name": "OT-4030D",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Maker": "Alcatel",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
@@ -126,7 +131,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "D805",
             "Device_Maker": "LG",
@@ -149,15 +154,6 @@
           },
           "platforms": [
             "Android_4_2"
-          ]
-        },
-        {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -249,6 +245,38 @@
           },
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "NGM Dynamic Racing 2\/* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "Dynamic Racing GP",
+            "Device_Maker": "NGM",
+            "Device_Brand_Name": "NGM",
+            "Device_Name": "Dynamic Racing GP"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         }
       ]

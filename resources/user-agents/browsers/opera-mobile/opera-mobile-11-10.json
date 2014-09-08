@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": ["11.10"],
-  "sortIndex": 2144,
+  "sortIndex": 1034,
   "lite": true,
   "userAgents": [
     {
@@ -33,8 +33,8 @@
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android", "AndroidLinux",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "AndroidLinux",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
             "SymbianOS_C",
             "WinMobile"
           ]

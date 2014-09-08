@@ -29,12 +29,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
-          "platforms": [
-            "Linux", "Linux_32"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/1.4* Safari\/*",
           "properties": {
             "Version": "1.4",
@@ -42,7 +36,13 @@
             "MinorVer": "4"
           },
           "platforms": [
-            "Linux", "Linux_32"
+            "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
+          "platforms": [
+            "Linux_32", "Linux"
           ]
         }
       ]

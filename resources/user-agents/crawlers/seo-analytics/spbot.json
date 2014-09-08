@@ -14,9 +14,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible*spbot\/1.0*",
           "properties": {
             "Version": "1.0",
@@ -79,6 +76,9 @@
             "MajorVer": "4",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*spbot\/*"
         }
       ]
     }

@@ -37,21 +37,6 @@
       },
       "children": [
         {
-          "match": "The Diary\/* (iPad; #PLATFORM#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
-          "platforms": [
-            "iOS_A", "iOS_A_5_1"
-          ]
-        },
-        {
           "match": "The Diary\/1.1* (iPad; #PLATFORM#",
           "properties": {
             "Version": "1.1",
@@ -66,7 +51,22 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_A", "iOS_A_5_1"
+            "iOS_A_5_1", "iOS_A"
+          ]
+        },
+        {
+          "match": "The Diary\/* (iPad; #PLATFORM#",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_A_5_1", "iOS_A"
           ]
         }
       ]

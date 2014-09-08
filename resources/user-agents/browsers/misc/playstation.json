@@ -1,6 +1,6 @@
 {
   "division": "Playstation",
-  "sortIndex": 1820,
+  "sortIndex": 1865,
   "lite": true,
   "userAgents": [
     {
@@ -82,6 +82,34 @@
       ]
     },
     {
+      "userAgent": "Sony PS4",
+      "platform": "CellOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "Playstation",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Comment": "Playstation 4",
+        "isMobileDevice": "false",
+        "Browser": "Sony PS4",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sony",
+        "Frames": "false",
+        "Device_Code_Name": "Playstation 4",
+        "Device_Name": "Playstation 4",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Type": "TV Device"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PlayStation 4*"
+        }
+      ]
+    },
+    {
       "userAgent": "Sony PS3",
       "platform": "CellOS",
       "properties": {
@@ -112,37 +140,6 @@
         },
         {
           "match": "Mozilla\/* (PLAYSTATION*)"
-        }
-      ]
-    },
-    {
-      "userAgent": "Sony PS4",
-      "platform": "CellOS",
-      "properties": {
-        "Parent": "Playstation",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Comment": "Playstation 4",
-        "isMobileDevice": "false",
-        "Browser": "Sony PS4",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 4",
-        "Device_Name": "Playstation 4",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "TV Device"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/* (PLAYSTATION 4*) AppleWebKit\/*",
-          "engine": "WebKit"
-        },
-        {
-          "match": "Mozilla\/* (PlayStation 4*"
         }
       ]
     }

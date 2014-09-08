@@ -60,14 +60,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.10*",
-          "properties": {
-            "Version": "2.10",
-            "MajorVer": "2",
-            "MinorVer": "10"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.2*",
           "properties": {
             "Version": "2.2",
@@ -129,6 +121,14 @@
             "Version": "2.9",
             "MajorVer": "2",
             "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Iceape\/2.10*",
+          "properties": {
+            "Version": "2.10",
+            "MajorVer": "2",
+            "MinorVer": "10"
           }
         },
         {

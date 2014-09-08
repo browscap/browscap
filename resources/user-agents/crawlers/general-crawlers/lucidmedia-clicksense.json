@@ -16,21 +16,14 @@
       },
       "children": [
         {
-          "match": "LucidMedia ClickSense\/*"
-        },
-        {
-          "match": "LucidMedia ClickSense\/4.?",
-          "properties": {
-            "Version": "4.0",
-            "MajorVer": "4"
-          }
-        },
-        {
           "match": "LucidMedia ClickSense\/4.*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4"
           }
+        },
+        {
+          "match": "LucidMedia ClickSense\/*"
         }
       ]
     }

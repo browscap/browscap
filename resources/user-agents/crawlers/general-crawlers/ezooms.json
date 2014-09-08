@@ -14,9 +14,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Ezooms\/*)"
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Ezooms\/1.0; *)",
           "properties": {
             "Version": "1.0",
@@ -25,14 +22,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Ezooms\/*; ezooms.bot@gmail.com)"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Ezooms\/1.*; ezooms.bot@gmail.com)",
+          "match": "Mozilla\/5.0 (compatible; Ezooms\/1.*)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Ezooms\/*)"
         }
       ]
     }

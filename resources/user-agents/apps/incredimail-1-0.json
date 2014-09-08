@@ -38,7 +38,7 @@
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "iOS_E", "iOS_E_6_1"
+            "iOS_E_6_1", "iOS_E"
           ]
         },
         {
@@ -53,7 +53,7 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_E", "iOS_E_6_1"
+            "iOS_E_6_1", "iOS_E"
           ]
         }
       ]

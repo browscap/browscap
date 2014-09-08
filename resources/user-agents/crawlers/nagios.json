@@ -13,14 +13,6 @@
       },
       "children": [
         {
-          "match": "check_http\/* (nagios-plugins 1.*)",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "check_http\/* (nagios-plugins 1.1.*)",
           "properties": {
             "Version": "1.1",
@@ -50,6 +42,14 @@
             "Version": "1.4",
             "MajorVer": "1",
             "MinorVer": "4"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 1.*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         }
       ]

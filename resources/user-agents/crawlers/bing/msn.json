@@ -95,7 +95,7 @@
           "match": "MSNBot-NewsBlogs\/1.0*",
           "properties": {
             "Browser": "MSNBot-NewsBlogs",
-            "Version": "1",
+            "Version": "1.0",
             "MajorVer": "1"
           }
         },

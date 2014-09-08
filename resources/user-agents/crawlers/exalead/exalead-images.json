@@ -15,9 +15,6 @@
       },
       "children": [
         {
-          "match": "Exabot-Images\/*"
-        },
-        {
           "match": "Exabot-Images\/1.0*",
           "properties": {
             "Version": "1.0",
@@ -26,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
+          "match": "Exabot-Images\/*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; Exabot-Images\/3.0*)",
@@ -35,6 +32,9 @@
             "MajorVer": "3",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exabot-Images\/*)"
         }
       ]
     }

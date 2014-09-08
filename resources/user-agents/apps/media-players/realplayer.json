@@ -15,7 +15,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
           "platforms": [
-            "OSX", "OSX_10_8_B"
+            "OSX_10_8_B", "OSX"
           ]
         },
         {

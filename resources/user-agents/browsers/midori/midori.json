@@ -1,7 +1,7 @@
 {
   "division": "Midori #MAJORVER#.#MINORVER#",
   "versions": ["0.1", "0.2", "0.3", "0.4", "0.5"],
-  "sortIndex": 3131,
+  "sortIndex": 1128,
   "lite": true,
   "userAgents": [
     {
@@ -31,19 +31,19 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Midori\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux", "Linux_32", "Linux_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "Linux_64", "Linux_32", "Linux", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux", "Linux_32", "Linux_64", "Win7_32", "Win7_64", "Win8_32", "Win8_64", "Win8_1_32", "Win8_1_64"
+            "Linux_64", "Linux_32", "Linux", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
           "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
           "platforms": [
-            "Linux", "Linux_32", "Linux_64", "FreeBSD", "Win32_B"
+            "Linux_64", "Linux_32", "Linux", "FreeBSD", "Win32_B"
           ]
         }
       ]

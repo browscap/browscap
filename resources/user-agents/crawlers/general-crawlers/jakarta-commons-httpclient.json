@@ -23,9 +23,6 @@
           }
         },
         {
-          "match": "Jakarta Commons-HttpClient\/*"
-        },
-        {
           "match": "Jakarta Commons-HttpClient\/3.0*",
           "properties": {
             "Version": "3.0",
@@ -40,6 +37,9 @@
             "MajorVer": "3",
             "MinorVer": "1"
           }
+        },
+        {
+          "match": "Jakarta Commons-HttpClient\/*"
         }
       ]
     }

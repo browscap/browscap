@@ -29,16 +29,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Bada_1_2"
-          ]
-        },
-        {
-          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S8500",
             "Device_Maker": "Samsung",
@@ -50,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "GT-S8500",
             "Device_Maker": "Samsung",
@@ -86,7 +77,13 @@
           ]
         },
         {
-          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#* "
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

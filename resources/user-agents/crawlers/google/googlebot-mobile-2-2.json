@@ -1,6 +1,6 @@
 {
   "division": "Googlebot-Mobile 2.2",
-  "sortIndex": 1190,
+  "sortIndex": 1171,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile 2.2",
@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.2; http:\/\/www.google.com\/bot.html)"
+          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.2*"
         }
       ]
     }

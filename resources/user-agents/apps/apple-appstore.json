@@ -38,12 +38,6 @@
       },
       "children": [
         {
-          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#",
-          "platforms": [
-            "iOS_I", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
-          ]
-        },
-        {
           "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
           "properties": {
             "Device_Type": "Mobile Phone",
@@ -56,7 +50,13 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_I", "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0"
+            "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
+          ]
+        },
+        {
+          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
           ]
         }
       ]

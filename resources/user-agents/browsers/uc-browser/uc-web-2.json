@@ -1,7 +1,7 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
   "versions": ["2.0", "2.1", "2.2", "2.3"],
-  "sortIndex": 1891,
+  "sortIndex": 1116,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -38,21 +38,21 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
           "platforms": [
-            "Android", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
-            "Android", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
@@ -72,7 +72,7 @@
           "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/*(iPad; #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "properties": {
             "Device_Type": "Tablet",
@@ -84,7 +84,23 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C_7_0", "iOS_C_7_1", "iOS_C_8_0"
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
         },
         {

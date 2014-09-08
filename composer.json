@@ -36,9 +36,9 @@
         "monolog/monolog": "1.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*",
+        "phpunit/phpunit": "*",
         "browscap/browscap-php": "*@dev",
-        "mikey179/vfsStream": "1.3.*@dev"
+        "mikey179/vfsStream": "dev-master"
     },
     "autoload": {
         "psr-4": {

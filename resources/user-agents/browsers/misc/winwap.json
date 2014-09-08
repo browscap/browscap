@@ -34,7 +34,12 @@
       },
       "children": [
         {
-          "match": "WinWAP*"
+          "match": "WinWAP-PRO\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
         },
         {
           "match": "WinWAP\/3.*",
@@ -44,12 +49,7 @@
           }
         },
         {
-          "match": "WinWAP-PRO\/3.1*",
-          "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
-          }
+          "match": "WinWAP*"
         }
       ]
     }

@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "Marvin v*"
-        },
-        {
           "match": "Marvin v0.3",
           "properties": {
             "Version": "0.3",
             "MajorVer": "0",
             "MinorVer": "3"
           }
+        },
+        {
+          "match": "Marvin v*"
         }
       ]
     }

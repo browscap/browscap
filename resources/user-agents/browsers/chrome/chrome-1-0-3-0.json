@@ -33,14 +33,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
-            "Linux", "Linux_32",
+            "Linux_32", "Linux",
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*",
           "platforms": [
-            "Linux", "Linux_32",
+            "Linux_32", "Linux",
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         }

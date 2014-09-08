@@ -26,13 +26,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "platforms": [
-            "Android", "Android_2_2", "Android_2_3"
+            "Android_2_2", "Android_2_3", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "platforms": [
-            "Android", "Android_2_2", "Android_2_3"
+            "Android_2_2", "Android_2_3", "Android"
           ]
         }
       ]

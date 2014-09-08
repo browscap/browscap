@@ -36,12 +36,6 @@
       },
       "children": [
         {
-          "match": "Perfect%20Browser\/* CFNetwork\/* #PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Perfect%20Browser\/4.6* CFNetwork\/* #PLATFORM#",
           "properties": {
             "Version": "4.6",
@@ -75,16 +69,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/* CFNetwork\/* #PLATFORM#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "match": "Perfect%20Browser\/* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]
@@ -203,6 +188,21 @@
             "Version": "2.9",
             "MajorVer": "2",
             "MinorVer": "9",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Perfect%20Browser-iPad\/* CFNetwork\/* #PLATFORM#",
+          "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",

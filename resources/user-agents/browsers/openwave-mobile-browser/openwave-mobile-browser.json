@@ -1,6 +1,6 @@
 {
   "division": "Openwave Mobile Browser",
-  "sortIndex": 1800,
+  "sortIndex": 8211,
   "lite": true,
   "userAgents": [
     {
@@ -21,12 +21,6 @@
         "Device_Type": "Mobile Phone"
       },
       "children": [
-        {
-          "match": "*UP.Browser\/*"
-        },
-        {
-          "match": "* Browser\/OpenWave\/* Profile\/MIDP*"
-        },
         {
           "match": "* Browser\/OpenWave\/1.0* Profile\/MIDP*",
           "properties": {
@@ -120,6 +114,12 @@
             "Version": "7.0",
             "MajorVer": "7"
           }
+        },
+        {
+          "match": "* Browser\/OpenWave\/* Profile\/MIDP*"
+        },
+        {
+          "match": "*UP.Browser\/*"
         }
       ]
     }

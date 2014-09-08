@@ -16,15 +16,15 @@
       },
       "children": [
         {
-          "match": "Mahalobot\/* (?http:\/\/www.mahalo.com\/)"
-        },
-        {
           "match": "Mahalobot\/1.0 (?http:\/\/www.mahalo.com\/)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mahalobot\/* (?http:\/\/www.mahalo.com\/)"
         }
       ]
     }
