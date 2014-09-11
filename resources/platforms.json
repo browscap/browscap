@@ -758,6 +758,7 @@
         "Browser_Bits": "32",
         "Platform": "Win32",
         "Platform_Bits": "32",
+        "Platform_Version": "unknown",
         "Platform_Maker": "Microsoft Corporation",
         "Platform_Description": "Windows",
         "Win16": "false",
@@ -767,6 +768,7 @@
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
         "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
         "isTablet": "false"
