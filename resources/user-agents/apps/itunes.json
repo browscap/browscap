@@ -1,16 +1,16 @@
 {
-  "division":
-    "iTunes",
+  "division": "iTunes",
   "sortIndex": 6360,
   "userAgents": [
     {
       "userAgent": "iTunes",
       "platform": "OSX",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes",
         "Browser": "iTunes",
-        "Browser_Type": "Browser",
+        "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
         "Beta": "false",
@@ -79,20 +79,6 @@
           ]
         },
         {
-          "match": "iTunes\/* (Windows*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
-          },
-          "platforms": [
-            "Win32"
-          ]
-        },
-        {
           "match": "iTunes\/11.1* (Macintosh*",
           "properties": {
             "Version": "11.1",
@@ -105,6 +91,23 @@
           },
           "platforms": [
             "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/11.1* (Windows*",
+          "properties": {
+            "Version": "11.1",
+            "MajorVer": "11",
+            "MinorVer": "1",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop",
+            "Device_Maker": "Various",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win32"
           ]
         },
         {
@@ -123,6 +126,23 @@
           ]
         },
         {
+          "match": "iTunes\/11.2* (Windows*",
+          "properties": {
+            "Version": "11.2",
+            "MajorVer": "11",
+            "MinorVer": "2",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop",
+            "Device_Maker": "Various",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win32"
+          ]
+        },
+        {
           "match": "iTunes\/11.3* (Macintosh*",
           "properties": {
             "Version": "11.3",
@@ -135,6 +155,37 @@
           },
           "platforms": [
             "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "iTunes\/11.3* (Windows*",
+          "properties": {
+            "Version": "11.3",
+            "MajorVer": "11",
+            "MinorVer": "3",
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop",
+            "Device_Maker": "Various",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win32"
+          ]
+        },
+        {
+          "match": "iTunes\/* (Windows*",
+          "properties": {
+            "isMobileDevice": "false",
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Windows Desktop",
+            "Device_Name": "Windows Desktop",
+            "Device_Maker": "Various",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win32"
           ]
         },
         {
