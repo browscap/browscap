@@ -480,7 +480,7 @@ return [
     'issue-318-R' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/536.30.1 (KHTML, like Gecko)',
         [
-            'Browser' => 'Mail',
+            'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',

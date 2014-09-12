@@ -83,7 +83,15 @@
           "match": "Zend_XmlRpc_Client",
           "properties": {
             "Browser": "Zend_XmlRpc_Client",
-            "Browser_Maker": "Zend"
+            "Browser_Maker": "Zend Technologies Ltd."
+          }
+        },
+        {
+          "match": "Zend_Http_Client",
+          "properties": {
+            "Browser": "Zend_Http_Client",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Zend Technologies Ltd."
           }
         },
         {
