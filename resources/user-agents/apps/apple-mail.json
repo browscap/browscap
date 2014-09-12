@@ -1,15 +1,15 @@
 {
-  "division": "Mail",
+  "division": "Apple Mail",
   "sortIndex": 730,
   "userAgents": [
     {
-      "userAgent": "Mail",
+      "userAgent": "Apple Mail",
       "platform": "Darwin",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mail",
-        "Browser": "Mail",
+        "Comment": "Apple Mail",
+        "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
@@ -29,7 +29,7 @@
         "isMobileDevice": "false",
         "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "true",
+        "isSyndicationReader": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",

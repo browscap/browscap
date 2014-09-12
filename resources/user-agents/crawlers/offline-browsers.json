@@ -18,6 +18,19 @@
           }
         },
         {
+          "match":      "Mozilla\/* (compatible; HTTrack 3.#PLATFORM#",
+          "properties": {
+            "Browser":       "HTTrack",
+            "Version":       "3.0",
+            "MajorVer":      "3",
+            "Browser_Type":  "Offline Browser",
+            "Browser_Maker": "Xavier Roche"
+          },
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
           "match":      "Mozilla\/* (compatible; HTTrack 3.*",
           "properties": {
             "Browser":       "HTTrack",
