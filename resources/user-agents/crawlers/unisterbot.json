@@ -68,16 +68,10 @@
       },
       "children": [
         {
-          "match": "unister-test-zabbix",
-          "properties": {
-            "Comment": "website test driven by zabbix"
-          }
+          "match": "unister-test-zabbix"
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/* unister-test-acceptance",
-          "properties": {
-            "Comment": "website test driven by selenium"
-          },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
@@ -112,10 +106,7 @@
       },
       "children": [
         {
-          "match": "www.geld.de",
-          "properties": {
-            "Comment": "www.geld.de calls a remote webservice"
-          }
+          "match": "www.geld.de"
         }
       ]
     }
