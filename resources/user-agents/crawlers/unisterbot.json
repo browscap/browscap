@@ -112,6 +112,9 @@
           "match": "www.versicherungen.de"
         },
         {
+          "match": "www.kredit.de"
+        },
+        {
           "match": "Core_Class_HttpClientCached"
         }
       ]
