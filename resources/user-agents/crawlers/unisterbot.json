@@ -107,6 +107,12 @@
       "children": [
         {
           "match": "www.geld.de"
+        },
+        {
+          "match": "www.versicherungen.de"
+        },
+        {
+          "match": "Core_Class_HttpClientCached"
         }
       ]
     }
