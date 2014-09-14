@@ -3002,7 +3002,7 @@
             "Device_Name": "Galaxy S Advance"
           },
           "platforms": [
-            "Android_2_3"
+            "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {

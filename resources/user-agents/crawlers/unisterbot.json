@@ -115,7 +115,7 @@
           "match": "www.kredit.de"
         },
         {
-          "match": "Core_Class_HttpClientCached"
+          "match": "Core_Class_HttpClient_Cached"
         }
       ]
     }
