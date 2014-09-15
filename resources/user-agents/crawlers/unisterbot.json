@@ -115,6 +115,9 @@
           "match": "www.kredit.de"
         },
         {
+          "match": "www.auto.de"
+        },
+        {
           "match": "Core_Class_HttpClient_Cached",
           "properties": {
             "Browser": "Core_Class_HttpClient_Cached"
