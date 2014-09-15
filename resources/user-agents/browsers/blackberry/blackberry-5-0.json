@@ -136,7 +136,8 @@
           "match": "BlackBerry9700\/5.0*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold"
+            "Device_Name": "Bold",
+            "Device_Pointing_Method": "clickwheel"
           }
         }
       ]

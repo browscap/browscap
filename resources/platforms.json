@@ -1523,7 +1523,7 @@
       "match": "*Windows Phone 7.5*",
       "inherits": "Windows",
       "properties": {
-        "Platform": "WinPhone7",
+        "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
         "Platform_Description": "Windows Phone OS 7.5",
         "isMobileDevice": "true",

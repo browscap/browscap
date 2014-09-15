@@ -3002,7 +3002,7 @@
             "Device_Name": "Galaxy S Advance"
           },
           "platforms": [
-            "Android_2_3"
+            "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -5747,10 +5747,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7710 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7710",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S7710"
+            "Device_Name": "Galaxy Xcover 2"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7335,7 +7337,7 @@
             "Device_Code_Name": "ST10216",
             "Device_Maker": "TrekStor",
             "Device_Brand_Name": "TrekStor",
-            "Device_Name": "ST10216"
+            "Device_Name": "SurfTab ventos 10.1 v2"
           },
           "platforms": [
             "Android_4_1", "Android_4_2"
