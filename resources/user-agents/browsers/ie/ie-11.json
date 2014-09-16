@@ -78,7 +78,8 @@
           "platforms": [
             "Win7_64", "Win7_32",
             "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
+            "Win8_1_64", "Win8_1_32",
+            "Win9_64", "Win9_32"
           ]
         },
         {
@@ -139,6 +140,14 @@
           "match": "Mozilla\/5.0 (Windows 95; Anonymisiert*; Trident\/7.0*)*",
           "platforms": [
             "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0; TOB* (#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Win7_64", "Win7_32",
+            "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         }
       ]

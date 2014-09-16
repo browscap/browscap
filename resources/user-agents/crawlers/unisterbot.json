@@ -71,6 +71,9 @@
           "match": "unister-test-zabbix"
         },
         {
+          "match": "unister-test-acceptance"
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/* unister-test-acceptance",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -116,6 +119,9 @@
         },
         {
           "match": "www.auto.de"
+        },
+        {
+          "match": "auto.de"
         },
         {
           "match": "Core_Class_HttpClient_Cached",
