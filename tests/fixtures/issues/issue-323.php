@@ -284,8 +284,8 @@ return [
     'issue-323-K' => [
         'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/10A8426 Safari/8536.25',
         [
-            'Browser' => 'Google Search Appliance',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser' => 'Google App',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Version' => '3.2',
@@ -297,7 +297,7 @@ return [
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => true,
             'isTablet' => true,
-            'Crawler' => true,
+            'Crawler' => false,
             'Device_Name' => 'iPad',
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Tablet',

@@ -4,8 +4,8 @@ return [
     'issue-166' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/11B554a Safari/8536.25',
         [
-            'Browser' => 'Google Search Appliance',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser' => 'Google App',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Version' => '3.2',
@@ -17,7 +17,7 @@ return [
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => true,
             'isTablet' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'Device_Name' => 'iPhone',
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Mobile Phone',
