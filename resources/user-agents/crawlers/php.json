@@ -74,6 +74,30 @@
           }
         },
         {
+          "match": "PHP-SOAP\/5.4*",
+          "properties": {
+            "Version": "5.4",
+            "MajorVer": "5",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "PHP-SOAP\/5.5*",
+          "properties": {
+            "Version": "5.5",
+            "MajorVer": "5",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "PHP-SOAP\/5.6*",
+          "properties": {
+            "Version": "5.6",
+            "MajorVer": "5",
+            "MinorVer": "6"
+          }
+        },
+        {
           "match": "XML-RPC for PHP *",
           "properties": {
             "Browser": "XML-RPC for PHP"
