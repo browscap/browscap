@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "Google App #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google App #MAJORVER#.#MINORVER#",

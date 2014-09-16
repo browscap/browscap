@@ -4,6 +4,8 @@
   "userAgents": [
     {
       "userAgent": "Google App",
+      "platform": "iOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
