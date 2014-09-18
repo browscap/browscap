@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [30, 31, 32, 33, 34, 35, 36, 37],
+  "versions": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
   "sortIndex": 1152,
   "lite": true,
   "userAgents": [
@@ -429,7 +429,7 @@
             "Device_Name": "One S"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -443,7 +443,7 @@
             "Device_Name": "One S"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -2314,6 +2314,21 @@
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
             "Device_Name": "Iconia A1-810"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "B8000-H",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Yoga Tablet 10 3G"
           },
           "platforms": [
             "Android_4_2"
