@@ -1,23 +1,25 @@
 {
-  "division": "Google Search Appliance #MAJORVER#.#MINORVER#",
+  "division": "Google App #MAJORVER#.#MINORVER#",
   "versions": ["3.1", "3.2", "4.0", "4.1"],
   "sortIndex": 1071,
   "userAgents": [
     {
-      "userAgent": "Google Search Appliance #MAJORVER#.#MINORVER#",
+      "userAgent": "Google App #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google Search Appliance #MAJORVER#.#MINORVER#",
-        "Browser": "Google Search Appliance",
+        "Comment": "Google App #MAJORVER#.#MINORVER#",
+        "Browser": "Google App",
         "Browser_Maker": "Google Inc",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true",
+        "Crawler": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
         "Device_Pointing_Method": "touchscreen"

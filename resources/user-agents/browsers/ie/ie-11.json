@@ -36,7 +36,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*Touch*rv:#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*Touch*rv:#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinRT8_32", "WinRT8_1_32"
           ]
