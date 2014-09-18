@@ -674,6 +674,7 @@
         "Device_Name": "Linux Desktop",
         "Device_Pointing_Method": "mouse",
         "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
