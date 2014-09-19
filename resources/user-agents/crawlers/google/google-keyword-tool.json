@@ -17,10 +17,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Google Keyword Tool*)"
+          "match": "Mozilla\/5.0 (compatible; Google Keyword Tool;*)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Google Keyword Tool;*)"
+          "match": "Mozilla\/5.0 (*Google Keyword Tool*)"
         }
       ]
     }
