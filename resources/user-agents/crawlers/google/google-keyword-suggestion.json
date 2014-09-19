@@ -1,0 +1,34 @@
+{
+  "division": "Google Keyword Suggestion",
+  "sortIndex": 1121,
+  "userAgents": [
+    {
+      "userAgent": "Google Keyword Suggestion",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Keyword Suggestion",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
+        "Browser": "Google Keyword Suggestion"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Google Keyword Suggestion) Chrome\/* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Google Keyword Suggestion*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (*Google Keyword Suggestion*)"
+        }
+      ]
+    }
+  ]
+}
