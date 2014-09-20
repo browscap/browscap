@@ -46,6 +46,18 @@
         },
         {
           "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+        },
+        {
+          "match": "unister-test-zabbix"
+        },
+        {
+          "match": "unister-test-acceptance"
+        },
+        {
+          "match": "www.geld.de"
+        },
+        {
+          "match": "www.versicherungen.de"
         }
       ]
     }

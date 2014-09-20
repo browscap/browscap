@@ -42,7 +42,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
             "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/4.0*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/4.0*)*",
           "platforms": [
             "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
             "WinXPb_64", "WinXPb_32", "WinXPb_x64",
@@ -62,13 +62,13 @@
           ]
         },
         {
-          "match": "Mozilla\/* (*MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/4.0*",
+          "match": "Mozilla\/4.0 (*MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/4.0*",
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*)*",
           "properties": {
             "Comment": "IE 8.0 in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
