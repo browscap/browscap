@@ -1824,7 +1824,7 @@ return [
     'issue-436-BN' => [
         'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1852,7 +1852,7 @@ return [
     'issue-436-BO' => [
         'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1880,7 +1880,7 @@ return [
     'issue-436-BP' => [
         'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1908,7 +1908,7 @@ return [
     'issue-436-BQ' => [
         'SAMSUNG-GT-S5230/S5230RFJK1 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Jasmine',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1936,7 +1936,7 @@ return [
     'issue-436-BR' => [
         'SAMSUNG-GT-C3310/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Access NetFront',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1964,7 +1964,7 @@ return [
     'issue-436-BS' => [
         'Mozilla/4.79 [en] (Windows NT 5.0; U)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Netscape',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -1992,7 +1992,7 @@ return [
     'issue-436-BT' => [
         'Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.4',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Midori',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2020,7 +2020,7 @@ return [
     'issue-436-BU' => [
         'Mozilla/5.0 (BlackBerry; U; BlackBerry 9320; de) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.714 Mobile Safari/534.11+',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'BlackBerry',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2048,7 +2048,7 @@ return [
     'issue-436-BV' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-N9005 Build/KOT49H)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2076,7 +2076,7 @@ return [
     'issue-436-BW' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-G900F Build/KOT49H)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2104,7 +2104,7 @@ return [
     'issue-436-BX' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.4.2; D6503 Build/17.1.2.A.0.323)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2132,7 +2132,7 @@ return [
     'issue-436-BY' => [
         'Opera/9.0 (Windows NT 5.1; U; en)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2160,7 +2160,7 @@ return [
     'issue-436-BZ' => [
         'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2188,7 +2188,7 @@ return [
     'issue-436-CA' => [
         'Mozilla/5.0 (Windows NT 5.1; U; en) Opera 8.01',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2216,7 +2216,7 @@ return [
     'issue-436-CB' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.2.1; HUAWEI G700-U10 Build/HuaweiG700-U10)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2244,7 +2244,7 @@ return [
     'issue-436-CC' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.3; SM-P600 Build/JSS15J)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2272,7 +2272,7 @@ return [
     'issue-436-CD' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.1.1; LIFETAB_S9714 Build/JRO03R)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Dalvik',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2300,7 +2300,7 @@ return [
     'issue-436-CE' => [
         'SYM.S200.SYM.T63.DEWAV60A_64_11B_HW (MRE/3.1.00(1280);MAUI/_DY33891_Symphony_L102;BDATE/2014/04/18 14:22;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/0;CAMERA/1;SENSOR/0;DEV/DEWAV60A_64_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SPICEI2I/005;GAMELOFT/006;) Y3389_DY33891_Symphony_L102 Release/2014.04.18 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/  Q03C1-2.40 en-US',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'MAUI Wap Browser',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2328,7 +2328,7 @@ return [
     'issue-436-CF' => [
         'Opera/8.01 (Windows NT 5.1)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2356,7 +2356,7 @@ return [
     'issue-436-CG' => [
         'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11  [en]',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2384,8 +2384,8 @@ return [
     'issue-436-CH' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/ /22.0',
         [
-            'Browser' => 'Google Keyword Suggestion',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser' => 'Firefox',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
@@ -2412,16 +2412,16 @@ return [
     'issue-436-CI' => [
         'Firefox/30.0 (de); anonymized by Abelssoft 2028724395',
         [
-            'Browser' => 'Google Keyword Suggestion',
-            'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '64',
+            'Browser' => 'Firefox',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Linux Foundation',
             'isMobileDevice' => false,
             'isTablet' => false,
@@ -2440,16 +2440,16 @@ return [
     'issue-436-CJ' => [
         'Mozilla/5.0 (Windows; U; Windows 95; de; rv:1.9.2.6) Gecko/20100625 Firefox/27.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 68827872',
         [
-            'Browser' => 'Google Keyword Suggestion',
-            'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '64',
+            'Browser' => 'Firefox',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Linux Foundation',
             'isMobileDevice' => false,
             'isTablet' => false,
@@ -2468,7 +2468,7 @@ return [
     'issue-436-CK' => [
         'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2496,16 +2496,16 @@ return [
     'issue-436-CL' => [
         'Opera/9.30 (Nintendo Wii; U; ; 3642; de)',
         [
-            'Browser' => 'Google Keyword Suggestion',
-            'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '64',
+            'Browser' => 'Opera',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '0',
             'Platform_Maker' => 'Linux Foundation',
             'isMobileDevice' => false,
             'isTablet' => false,
@@ -2524,7 +2524,7 @@ return [
     'issue-436-CM' => [
         'Mozilla/5.0 (compatible; Google Desktop/5.9.1005.12335; http://desktop.google.com/)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Google Desktop',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2552,7 +2552,7 @@ return [
     'issue-436-CN' => [
         'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x4.90)',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
@@ -2580,7 +2580,7 @@ return [
     'issue-436-CO' => [
         'Nokia6120c/3.83; Profile/MIDP-2.0 Configuration/CLDC-1.1',
         [
-            'Browser' => 'Google Keyword Suggestion',
+            'Browser' => 'Nokia',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',

@@ -48,20 +48,16 @@
           "properties": {
             "Comment": "Nintendo DSi",
             "Browser": "DSi",
-            "Device_Name": "DSi"
-          }
-        },
-        {
-          "match": "Opera\/* (Nintendo Wii; U; *)",
-          "properties": {
-            "Browser": "Wii"
+            "Device_Name": "DSi",
+            "Device_Code_Name": "DSi"
           }
         },
         {
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
           "properties": {
             "Browser": "WiiU",
-            "Device_Name": "WiiU"
+            "Device_Name": "WiiU",
+            "Device_Code_Name": "WiiU"
           }
         },
         {

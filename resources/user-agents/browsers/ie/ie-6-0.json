@@ -1,7 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": ["6.0"],
-  "sortIndex": 5750,
+  "sortIndex": 3844,
   "lite": true,
   "userAgents": [
     {

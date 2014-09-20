@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
         "Browser": "Jasmine",
+        "Browser_Type": "Browser",
         "Version": "0.8",
         "MajorVer": "0",
         "MinorVer": "8",
