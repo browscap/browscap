@@ -400,6 +400,28 @@
             "Browser": "pmoz.info ODP link checker",
             "Browser_Maker": "PlantRob"
           }
+        },
+        {
+          "match": "eZ Publish Link Validator",
+          "properties": {
+            "Browser": "eZ Publish Link Validator",
+            "Browser_Maker": "eZ Systems"
+          }
+        },
+        {
+          "match": "LinksCrawler 0.1*",
+          "properties": {
+            "Browser": "LinksCrawler",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LinksCrawler *",
+          "properties": {
+            "Browser": "LinksCrawler"
+          }
         }
       ]
     }

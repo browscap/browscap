@@ -1,0 +1,27 @@
+{
+  "division": "LibreOffice",
+  "sortIndex": 2430,
+  "userAgents": [
+    {
+      "userAgent": "LibreOffice",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LibreOffice",
+        "Browser": "LibreOffice",
+        "Browser_Type": "Application",
+        "Browser_Maker": "The Document Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "LibreOffice"
+        }
+      ]
+    }
+  ]
+}

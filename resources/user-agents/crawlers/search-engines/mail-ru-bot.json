@@ -21,23 +21,48 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Mail.RU_Bot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/Fast\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/Img\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Mail.RU\/*)"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Linux x86_64; Mail.RU_Bot\/2.0*",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Mail.RU_Bot\/2.0; +http:\/\/go.mail.ru\/help\/robots)",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
         }
       ]
     }
