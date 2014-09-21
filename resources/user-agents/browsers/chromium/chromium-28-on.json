@@ -30,14 +30,15 @@
       },
       "children": [
         {
-          "match": "Tablet-PC-4 Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)#PLATFORM#Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Ubuntu_12_04"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
+            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
             "Linux_64", "Linux_32", "Linux"
           ]
         }

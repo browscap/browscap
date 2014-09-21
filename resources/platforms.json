@@ -669,6 +669,7 @@
         "Platform": "Linux",
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Linux",
+        "Platform_Version": "unknown",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
@@ -726,6 +727,7 @@
         "Platform": "Debian",
         "Platform_Description": "Debian Linux",
         "Platform_Maker": "Debian",
+        "Platform_Version": "unknown",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
@@ -750,6 +752,45 @@
       "match": "*Linux i686 (x86_64)*",
       "inherits": "Debian",
       "properties": {
+        "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu": {
+      "match": "*Ubuntu*",
+      "properties": {
+        "Platform": "Ubuntu",
+        "Platform_Maker": "Canonical Foundation",
+        "Platform_Description": "Ubuntu Linux",
+        "Platform_Version": "unknown",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Ubuntu_32": {
+      "match": "*Ubuntu; Linux i686*",
+      "inherits": "Ubuntu"
+    },
+    "Ubuntu_12_04": {
+      "match": "*Ubuntu/12.04*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "12.04"
+      }
+    },
+    "Ubuntu_64": {
+      "match": "*Ubuntu; Linux x86_64*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
     },
