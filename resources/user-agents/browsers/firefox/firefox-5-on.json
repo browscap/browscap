@@ -33,7 +33,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux",
+            "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64",
+            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
+            "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
