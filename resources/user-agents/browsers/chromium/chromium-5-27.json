@@ -23,12 +23,26 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
+        "isMobileDevice": "false",
+        "isTablet": "false",
         "Device_Name": "PC",
+        "Device_Code_Name": "unknown",
         "Device_Maker": "Various",
         "Device_Type": "Desktop",
         "Device_Pointing_Method": "mouse"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit\/* (KHTML, like Gecko) Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Smart TV",
+            "Device_Name": "Smart TV"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)#PLATFORM#Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
