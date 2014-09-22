@@ -2538,9 +2538,15 @@
           }
         },
         {
-          "match": "Phantom.js bot",
+          "match": "Phantom.js bot*",
           "properties": {
             "Browser": "Phantom.js bot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Optimizer)*",
+          "properties": {
+            "Browser": "Optimizer Bot"
           }
         }
       ]

@@ -547,7 +547,13 @@
           "match": "Mozilla\/5.0 (compatible; MSIE*; Linux*"
         },
         {
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.1*"
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; MSIE 6.1*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.1*"
         }
       ]
     }

@@ -422,6 +422,13 @@
           "properties": {
             "Browser": "LinksCrawler"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sophora Linkchecker*",
+          "properties": {
+            "Browser": "Sophora Linkchecker",
+            "Browser_Maker": "subshell.com"
+          }
         }
       ]
     }

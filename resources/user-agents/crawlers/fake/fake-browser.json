@@ -424,6 +424,12 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (iPad; CPU iPhone OS 501*",
+          "properties": {
+            "Browser": "Fake Safari"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
           "properties": {
             "Browser": "Fake Chrome"

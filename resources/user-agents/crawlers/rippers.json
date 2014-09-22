@@ -265,6 +265,12 @@
           }
         },
         {
+          "match": "SynHttpClient*",
+          "properties": {
+            "Browser": "SynHttpClient"
+          }
+        },
+        {
           "match": "httperf\/*",
           "properties": {
             "Browser": "httperf"
