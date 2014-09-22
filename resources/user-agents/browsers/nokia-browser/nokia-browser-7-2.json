@@ -128,6 +128,15 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* BrowserNG\/7.2*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "5230",
+            "Device_Name": "Nuron"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
           "properties": {
             "Device_Maker": "Nokia",
