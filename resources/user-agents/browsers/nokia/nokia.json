@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/9.4; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/525 (KHTML, like Gecko) BrowserNG\/7.2.*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/* (KHTML, like Gecko) BrowserNG\/7.2.*",
           "engine": "WebKit",
           "properties": {
             "Browser": "BrowserNG",

@@ -1550,7 +1550,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/9.1; U; *; NokiaE50-2\/06.* Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; U; *; NokiaE50-2\/06.* Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1562,7 +1562,7 @@
           ]
         },
         {
-          "match": "Nokia3230\/2.0 (*SymbianOS\/7.0s Series60\/2.1*",
+          "match": "Nokia3230\/2.0 (*SymbianOS\/* Series60\/2.1*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1574,7 +1574,7 @@
           ]
         },
         {
-          "match": "Nokia3250\/2.0 (3.16) SymbianOS\/9.1 Series60\/3.0 *",
+          "match": "Nokia3250\/2.0 (3.16) SymbianOS\/* Series60\/3.0 *",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1586,7 +1586,7 @@
           ]
         },
         {
-          "match": "Nokia3250\/2.0 (3.23) SymbianOS\/9.1 Series60\/3.0 *",
+          "match": "Nokia3250\/2.0 (3.23) SymbianOS\/* Series60\/3.0 *",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
