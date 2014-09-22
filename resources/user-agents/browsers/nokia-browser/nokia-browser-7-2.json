@@ -119,7 +119,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/*) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -128,7 +128,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.2*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.2*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
