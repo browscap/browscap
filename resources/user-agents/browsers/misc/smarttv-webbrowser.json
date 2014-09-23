@@ -23,18 +23,21 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "isMobileDevice": "true",
+        "isMobileDevice": "false",
         "isTablet": "false",
-        "Device_Code_Name": "general Mobile Phone",
-        "Device_Name": "general Mobile Phone"
+        "Device_Maker": "Various",
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "general TV Device",
+        "Device_Name": "general TV Device"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
           "properties": {
             "Version": "1.0",
-            "MajorVer": "1"
+            "MajorVer": "1",
+            "Device_Code_Name": "Smart TV",
+            "Device_Name": "Smart TV"
           }
         }
       ]
