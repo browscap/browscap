@@ -1,0 +1,54 @@
+{
+  "division": "HubSpot Webcrawler",
+  "sortIndex": 1101,
+  "userAgents": [
+    {
+      "userAgent": "HubSpot Webcrawler",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HubSpot Webcrawler",
+        "Browser": "HubSpot Webcrawler",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "HubSpot, Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "true",
+        "isMobileDevice": "false",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* HubSpot Webcrawler",
+          "platforms": [
+            "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS", "FreeBSD",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
+            "Linux_64", "Linux_32_x86", "Linux_32", "Linux",
+            "Win95_2", "Win98_2", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
