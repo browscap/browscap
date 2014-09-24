@@ -55,6 +55,16 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "N8-00",
+            "Device_Name": "N8",
+            "Device_Pointing_Method": "touchscreen"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
@@ -83,16 +93,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N8-00",
-            "Device_Name": "N8",
-            "Device_Pointing_Method": "touchscreen"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
@@ -117,6 +117,15 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "Nokia808PureView",
             "Device_Name": "808 PureView"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaC7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.3*Safari\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "C7-00",
+            "Device_Name": "C7"
           }
         }
       ]
