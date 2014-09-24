@@ -11,7 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "PAD-bot #MAJORVER#.#MINORVER#",
         "Browser": "PAD-bot",
-        "Browser_Type": "Application",
+        "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Inbot Technology Ltd.",
         "Frames": "true",
         "IFrames": "true",

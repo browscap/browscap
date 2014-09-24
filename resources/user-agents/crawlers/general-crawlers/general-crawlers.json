@@ -1243,6 +1243,13 @@
           ]
         },
         {
+          "match": "thumbshots-de-bot*",
+          "properties": {
+            "Browser": "thumbshots-de-bot",
+            "Browser_Maker": "thumbshots.de"
+          }
+        },
+        {
           "match": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
           "properties": {
             "Browser": "netEstate NE Crawler",
@@ -2547,6 +2554,45 @@
           "match": "Mozilla\/5.0 (compatible; Optimizer)*",
           "properties": {
             "Browser": "Optimizer Bot"
+          }
+        },
+        {
+          "match": "BuiBui-Bot\/1.0*",
+          "properties": {
+            "Browser": "BuiBui-Bot",
+            "Browser_Maker": "dadapro.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BuiBui-Bot\/*",
+          "properties": {
+            "Browser": "BuiBui-Bot",
+            "Browser_Maker": "dadapro.com"
+          }
+        },
+        {
+          "match": "ImplisenseBot 1.0*",
+          "properties": {
+            "Browser": "ImplisenseBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ImplisenseBot *",
+          "properties": {
+            "Browser": "ImplisenseBot"
+          }
+        },
+        {
+          "match": "AboutUsBot\/* (Website Analysis*",
+          "properties": {
+            "Browser": "AboutUs Bot",
+            "Browser_Maker": "aboutus.org"
           }
         }
       ]

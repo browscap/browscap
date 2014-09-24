@@ -430,7 +430,19 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (Android *) AppleWebKit\/1.1 Version\/* Mobile Safari\/1.1",
+          "properties": {
+            "Browser": "Fake Safari"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
           "properties": {
             "Browser": "Fake Chrome"
           }
@@ -457,12 +469,6 @@
           "match": "\"Mozilla\/* Firefox\/*",
           "properties": {
             "Browser": "Fake Firefox"
-          }
-        },
-        {
-          "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
           }
         },
         {
