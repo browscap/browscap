@@ -1,6 +1,6 @@
 {
   "division": "General Crawlers",
-  "sortIndex": 170,
+  "sortIndex": 17000,
   "userAgents": [
     {
       "userAgent": "General Crawlers",
@@ -2408,6 +2408,9 @@
             "Browser": "GG PeekBot",
             "Browser_Maker": "gadu-gadu.pl"
           }
+        },
+        {
+          "match": "*java*"
         }
       ]
     }
