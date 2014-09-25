@@ -53,7 +53,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire C Build\/*",
           "properties": {
-            "Device_Code_Name": "Desire C",
+            "Device_Code_Name": "1000C",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "Desire C"

@@ -1,6 +1,10 @@
 {
   "division": "IE Mac",
+<<<<<<< HEAD
   "sortIndex": 3846,
+=======
+  "sortIndex": 5767,
+>>>>>>> 23c87e9d43a19058e7c77aa8b589f093142e7dd6
   "userAgents": [
     {
       "userAgent": "IE Mac",

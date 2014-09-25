@@ -2144,6 +2144,23 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/1.0*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp"
+          }
+        },
+        {
           "match": "OpenWebSpider v0.1*",
           "properties": {
             "Browser": "OpenWebSpider",
@@ -2594,6 +2611,9 @@
             "Browser": "AboutUs Bot",
             "Browser_Maker": "aboutus.org"
           }
+        },
+        {
+          "match": "*java*"
         }
       ]
     }

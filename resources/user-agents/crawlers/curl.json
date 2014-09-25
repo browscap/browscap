@@ -16,17 +16,6 @@
       },
       "children": [
         {
-          "match": "curl\/7.19*linux*",
-          "properties": {
-            "Version": "7.19",
-            "MajorVer": "7",
-            "MinorVer": "19"
-          },
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
           "match": "curl\/7.19*x86_64*linux*",
           "properties": {
             "Version": "7.19",
@@ -35,6 +24,17 @@
           },
           "platforms": [
             "Linux_64"
+          ]
+        },
+        {
+          "match": "curl\/7.19*linux*",
+          "properties": {
+            "Version": "7.19",
+            "MajorVer": "7",
+            "MinorVer": "19"
+          },
+          "platforms": [
+            "Linux"
           ]
         },
         {

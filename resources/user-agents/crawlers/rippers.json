@@ -763,14 +763,6 @@
           }
         },
         {
-          "match": "Zend_Http_Client",
-          "properties": {
-            "Browser": "Zend_Http_Client",
-            "Browser_Type": "Library",
-            "Browser_Maker": "Zend Technologies Inc"
-          }
-        },
-        {
           "match": "BOT\/0.1* (BOT for JCE)*",
           "properties": {
             "Comment": "JCE vulnerability scanner",

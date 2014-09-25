@@ -43,9 +43,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) Gecko\/* Firefox (Debian-3.0*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox (Debian-3.0*",
           "platforms": [
-            "Debian"
+            "Linux"
           ]
         },
         {

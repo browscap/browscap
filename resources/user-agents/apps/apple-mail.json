@@ -1,15 +1,89 @@
 {
-  "division": "Mail",
+  "division": "Apple Mail",
   "sortIndex": 730,
   "userAgents": [
     {
-      "userAgent": "Mail",
+      "userAgent": "Apple Mail for iOS",
       "platform": "Darwin",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mail",
-        "Browser": "Mail",
+        "Comment": "Apple Mail",
+        "Browser": "Apple Mail",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Mobile Device"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)",
+          "platforms": [
+            "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Apple Mail for Darwin and OSX",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail",
+        "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
@@ -29,7 +103,7 @@
         "isMobileDevice": "false",
         "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "true",
+        "isSyndicationReader": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
         "Device_Maker": "Apple Inc",
@@ -54,13 +128,13 @@
       ]
     },
     {
-      "userAgent": "Mail for Windows",
+      "userAgent": "Apple Mail for Windows",
       "platform": "Darwin",
       "engine": "WebKit",
       "properties": {
-        "Parent": "Mail",
-        "Comment": "Mail",
-        "Browser": "Mail",
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail",
+        "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
         "Alpha": "false",
@@ -80,7 +154,7 @@
         "isMobileDevice": "false",
         "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "true",
+        "isSyndicationReader": "false",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Maker": "Various",
