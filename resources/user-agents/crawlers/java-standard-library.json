@@ -1,9 +1,9 @@
 {
-  "division": "Generic Java Crawler",
+  "division": "Java Standard Library",
   "sortIndex": 97,
   "userAgents": [
     {
-      "userAgent": "Generic Java Crawler",
+      "userAgent": "Java Standard Library",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
