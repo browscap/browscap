@@ -62,6 +62,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Mail.RU\/*)"
         }
       ]

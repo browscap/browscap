@@ -2613,7 +2613,83 @@
           }
         },
         {
+          "match": "Bot.AraTurka.com\/*",
+          "properties": {
+            "Browser": "Bot.AraTurka.com"
+          }
+        },
+        {
+          "match": "http_requester\/0.1*",
+          "properties": {
+            "Browser": "http_requester",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "http_requester\/*",
+          "properties": {
+            "Browser": "http_requester"
+          }
+        },
+        {
           "match": "*java*"
+        },
+        {
+          "match": "HRCrawler\/2.0*",
+          "properties": {
+            "Browser": "HRCrawler",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "HRCrawler\/*",
+          "properties": {
+            "Browser": "HRCrawler"
+          }
+        },
+        {
+          "match": "isc header collector handlers*",
+          "properties": {
+            "Browser": "isc header collector handlers"
+          }
+        },
+        {
+          "match": "Cliqzbot\/0.1*",
+          "properties": {
+            "Browser": "Cliqzbot",
+            "Browser_Maker": "10betterpages GmbH",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Cliqzbot\/*",
+          "properties": {
+            "Browser": "Cliqzbot",
+            "Browser_Maker": "10betterpages GmbH"
+          }
+        },
+        {
+          "match": "Forum Poster V3*",
+          "properties": {
+            "Browser": "Forum Poster",
+            "Browser_Maker": "forumposter.us",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Forum Poster*",
+          "properties": {
+            "Browser": "Forum Poster",
+            "Browser_Maker": "forumposter.us"
+          }
         }
       ]
     }
