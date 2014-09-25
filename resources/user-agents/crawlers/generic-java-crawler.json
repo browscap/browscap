@@ -1,14 +1,14 @@
 {
   "division": "Generic Java Crawler",
-  "sortIndex": 970,
+  "sortIndex": 9700,
   "userAgents": [
     {
       "userAgent": "Generic Java Crawler",
       "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Generic Java Crawler",
-        "Browser": "Generic Java Crawler",
+        "Comment": "Java Standard Library",
+        "Browser": "Java Standard Library",
         "Browser_Type": "Library",
         "Browser_Maker": "Oracle",
         "Frames": "true",
@@ -51,9 +51,6 @@
         },
         {
           "match": "Java\/*"
-        },
-        {
-          "match": "*java*"
         }
       ]
     }
