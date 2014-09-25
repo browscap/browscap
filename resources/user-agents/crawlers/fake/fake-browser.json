@@ -418,7 +418,7 @@
           "match": "Mozilla\/5.0 (Windows NT.*"
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh; Intel Mac OS X *) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*",
+          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*",
           "properties": {
             "Browser": "Fake Safari"
           }
@@ -443,6 +443,18 @@
         },
         {
           "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML like Gecko) Chrome\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*",
           "properties": {
             "Browser": "Fake Chrome"
           }
