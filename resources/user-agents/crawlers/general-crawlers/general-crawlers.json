@@ -2408,6 +2408,9 @@
             "Browser": "GG PeekBot",
             "Browser_Maker": "gadu-gadu.pl"
           }
+        },
+        {
+          "match": "*java*"
         }
       ]
     }
