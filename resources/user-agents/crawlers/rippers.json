@@ -1178,9 +1178,9 @@
             "Browser": "Python-urllib",
             "Browser_Type": "Library",
             "Browser_Maker": "Python Software Foundation",
-            "Version": "2.3",
+            "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "3"
+            "MinorVer": "0"
           },
           "platforms": [
             "Linux_64"
@@ -1192,9 +1192,9 @@
             "Browser": "Python-urllib",
             "Browser_Type": "Library",
             "Browser_Maker": "Python Software Foundation",
-            "Version": "2.3",
+            "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "3"
+            "MinorVer": "0"
           },
           "platforms": [
             "Linux_32"
