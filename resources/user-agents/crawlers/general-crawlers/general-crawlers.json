@@ -2690,6 +2690,23 @@
             "Browser": "Forum Poster",
             "Browser_Maker": "forumposter.us"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebMasterAid\/1.0*",
+          "properties": {
+            "Browser": "WebMasterAid",
+            "Browser_Maker": "wmaid.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebMasterAid\/*",
+          "properties": {
+            "Browser": "WebMasterAid",
+            "Browser_Maker": "wmaid.com"
+          }
         }
       ]
     }
