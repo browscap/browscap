@@ -196,6 +196,21 @@
           ]
         },
         {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005 *",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N9005",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Note 3 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
