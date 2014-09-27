@@ -2544,7 +2544,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
-            'Device_Type' => 'unknown',
+            'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'unknown',
             'Device_Brand_Name' => 'unknown',
