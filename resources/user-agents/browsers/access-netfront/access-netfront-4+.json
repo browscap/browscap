@@ -10,7 +10,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
-        "Browser": "Access NetFront",
+        "Browser": "NetFront",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Access",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -58,7 +60,7 @@
             "Device_Type": "Ebook Reader"
           },
           "platforms": [
-            "Linux"
+            "Android"
           ]
         },
         {
@@ -69,6 +71,22 @@
         },
         {
           "match": "Mozilla\/5.0 (Sample; MFC Simulator\/#MAJORVER#.#MINORVER#*; like Gecko) NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SAMSUNG-GT-C3310\/* NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-C3310",
+            "Device_Name": "Champ Deluxe",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

@@ -400,6 +400,72 @@
             "Browser": "pmoz.info ODP link checker",
             "Browser_Maker": "PlantRob"
           }
+        },
+        {
+          "match": "eZ Publish Link Validator",
+          "properties": {
+            "Browser": "eZ Publish Link Validator",
+            "Browser_Maker": "eZ Systems"
+          }
+        },
+        {
+          "match": "LinksCrawler 0.1*",
+          "properties": {
+            "Browser": "LinksCrawler",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LinksCrawler *",
+          "properties": {
+            "Browser": "LinksCrawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sophora Linkchecker*",
+          "properties": {
+            "Browser": "Sophora Linkchecker",
+            "Browser_Maker": "subshell.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.6*",
+          "properties": {
+            "Browser": "MOSBookmarks Link Checker",
+            "Browser_Maker": "tegdesign.ch",
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.7*",
+          "properties": {
+            "Browser": "MOSBookmarks Link Checker",
+            "Browser_Maker": "tegdesign.ch",
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.8*",
+          "properties": {
+            "Browser": "MOSBookmarks Link Checker",
+            "Browser_Maker": "tegdesign.ch",
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/*",
+          "properties": {
+            "Browser": "MOSBookmarks Link Checker",
+            "Browser_Maker": "tegdesign.ch"
+          }
         }
       ]
     }

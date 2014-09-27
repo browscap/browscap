@@ -384,7 +384,8 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230"
+            "Device_Name": "GT-S5230",
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "WinCE"

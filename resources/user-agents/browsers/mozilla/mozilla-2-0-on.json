@@ -1,6 +1,6 @@
 {
   "division": "Mozilla #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "2.2", 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+  "versions": ["2.0", "2.2", 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
   "sortIndex": 7570,
   "userAgents": [
     {
@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux", "OSX",
             "OpenBSD", "SunOS", "Win3.11", "Win3.1", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko*",
           "properties": {
             "Win32": "false"
           }

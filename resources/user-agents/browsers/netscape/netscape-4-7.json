@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": ["4.7", "4.8"],
+  "versions": ["4.79", "4.7", "4.8"],
   "sortIndex": 7803,
   "userAgents": [
     {

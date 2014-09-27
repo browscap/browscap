@@ -33,6 +33,9 @@
           "match": "Mozilla\/5.0 (compatible; UnisterBot*"
         },
         {
+          "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+        },
+        {
           "match": "UnisterBot *"
         },
         {

@@ -1,6 +1,6 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["8.00", "8.50", "8.51", "8.52", "8.53", "8.54"],
+  "versions": ["8.00", "8.01", "8.02", "8.50", "8.51", "8.52", "8.53", "8.54"],
   "sortIndex": 1058,
   "userAgents": [
     {
@@ -29,6 +29,13 @@
         "Device_Pointing_Method": "mouse"
       },
       "children": [
+        {
+          "match": "Mozilla\/* (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
         {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
