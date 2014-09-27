@@ -30,6 +30,13 @@
       },
       "children": [
         {
+          "match": "Mozilla\/* (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "Linux",
@@ -71,8 +78,13 @@
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
           "properties": {
+            "isMobileDevice": "true",
             "Device_Name": "Wii",
-            "Device_Code_Name": "Wii"
+            "Device_Code_Name": "Wii",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Type": "Console",
+            "Device_Pointing_Method": "unknown"
           }
         }
       ]

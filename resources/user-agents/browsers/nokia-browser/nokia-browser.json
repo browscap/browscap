@@ -1922,6 +1922,18 @@
           ]
         },
         {
+          "match": "Nokia6120c\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "6120c",
+            "Device_Name": "6120 Classic"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
           "match": "X700\/1.0 SymbianOS\/7.0 Series60\/*",
           "properties": {
             "Device_Maker": "Nokia",

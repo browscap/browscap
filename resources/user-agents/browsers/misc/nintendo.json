@@ -33,13 +33,14 @@
       },
       "children": [
         {
-          "match": "Nintendo Wii",
+          "match": "Nintendo Wii*",
           "properties": {
-            "Comment": "Nintendo Wii",
-            "Browser": "",
+            "Browser": "Nintendo Wii",
             "isMobileDevice": "true",
             "Device_Name": "Wii",
+            "Device_Code_Name": "Wii",
             "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
             "Device_Type": "Console"
           }
         },

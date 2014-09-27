@@ -939,6 +939,15 @@
         "Platform_Description": "Windows ME"
       }
     },
+    "WinME_3": {
+      "match": "*Windows 98; Win 9x4.90*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Description": "Windows ME"
+      }
+    },
     "NT": {
       "match": "*Windows NT*",
       "inherits": "Windows",
