@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "engine": "Presto",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
