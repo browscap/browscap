@@ -233,6 +233,12 @@
           "properties": {
             "Browser": "GMX MailCheck"
           }
+        },
+        {
+          "match": "T-Online Browser",
+          "properties": {
+            "Browser": "T-Online Browser"
+          }
         }
       ]
     }

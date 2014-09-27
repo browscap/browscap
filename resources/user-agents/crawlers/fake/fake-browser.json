@@ -485,6 +485,12 @@
         },
         {
           "match": "Mozilla\/*Windows NT 7.1*"
+        },
+        {
+          "match": "Windows; ?; Windows*"
+        },
+        {
+          "match": "Mozila*"
         }
       ]
     }

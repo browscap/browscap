@@ -2707,6 +2707,13 @@
             "Browser": "WebMasterAid",
             "Browser_Maker": "wmaid.com"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Muenster University of Applied Sciences; *itsscan*",
+          "properties": {
+            "Browser": "itsscan",
+            "Browser_Maker": "Muenster University of Applied Sciences"
+          }
         }
       ]
     }
