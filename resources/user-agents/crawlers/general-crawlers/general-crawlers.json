@@ -446,7 +446,8 @@
         {
           "match": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
           "properties": {
-            "Browser": "Healthdash"
+            "Browser": "genevabot",
+            "Browser_Maker": "healthdash.com"
           }
         },
         {

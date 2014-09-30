@@ -394,18 +394,6 @@
           ]
         },
         {
-          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8.1*) gecko\/* firefox\/2.0*",
-          "platforms": [
-            "WinXPb_32"
-          ]
-        },
-        {
-          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.9*) gecko\/* firefox\/3.0*",
-          "platforms": [
-            "WinXPb_32"
-          ]
-        },
-        {
           "match": "mozilla\/5.0 (compatible; firefox\/*; Windows NT*; Trident\/*"
         },
         {
