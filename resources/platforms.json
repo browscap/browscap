@@ -1464,36 +1464,36 @@
         "Win64": "true"
       }
     },
-    "Win9_32": {
+    "Win10_32": {
       "match": "*Windows NT 6.4*",
       "inherits": "Windows",
       "properties": {
-        "Platform": "Win9",
+        "Platform": "Win10",
         "Platform_Version": "6.4",
-        "Platform_Description": "Windows 9"
+        "Platform_Description": "Windows 10"
       }
     },
-    "Win9_64": {
+    "Win10_64": {
       "match": "*Windows NT 6.4*WOW64*",
       "inherits": "Windows",
       "properties": {
-        "Platform": "Win9",
+        "Platform": "Win10",
         "Platform_Bits": "64",
         "Platform_Version": "6.4",
-        "Platform_Description": "Windows 9",
+        "Platform_Description": "Windows 10",
         "Win32": "false",
         "Win64": "true"
       }
     },
-    "Win9_x64": {
+    "Win10_x64": {
       "match": "*Windows NT 6.4*Win64; x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
-        "Platform": "Win9",
+        "Platform": "Win10",
         "Platform_Bits": "64",
         "Platform_Version": "6.4",
-        "Platform_Description": "Windows 9",
+        "Platform_Description": "Windows 10",
         "Win32": "false",
         "Win64": "true"
       }
