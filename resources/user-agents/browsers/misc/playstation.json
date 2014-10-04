@@ -49,6 +49,7 @@
     },
     {
       "userAgent": "Playstation Vita",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "IFrames": "true",

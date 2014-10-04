@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Qt Generic for Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",

@@ -6,6 +6,7 @@
 
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -52,6 +53,7 @@
     },
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
