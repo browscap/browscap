@@ -50,7 +50,7 @@
     {
       "userAgent": "Playstation Vita",
       "properties": {
-        "Parent": "Playstation",
+        "Parent": "DefaultProperties",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -86,7 +86,7 @@
       "platform": "CellOS",
       "engine": "WebKit",
       "properties": {
-        "Parent": "Playstation",
+        "Parent": "DefaultProperties",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -113,7 +113,7 @@
       "userAgent": "Sony PS3",
       "platform": "CellOS",
       "properties": {
-        "Parent": "Playstation",
+        "Parent": "DefaultProperties",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",

@@ -3,6 +3,102 @@
   "versions": ["4.0", "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7", "4.8"],
   "sortIndex": 1171,
   "userAgents": [
+
+    {
+      "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Browser",
+        "Comment": "Qt #MAJORVER#.#MINORVER#",
+        "Browser": "Qt",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "Device_Name": "unknown",
+        "Device_Maker": "Various",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "unknown"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Browser",
+        "Comment": "Qt #MAJORVER#.#MINORVER#",
+        "Browser": "Qt",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "Device_Name": "unknown",
+        "Device_Maker": "Various",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "unknown"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Desktop",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false"
+          },
+          "platforms": [
+            "MeeGo"
+          ]
+        }
+      ]
+    },
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
@@ -60,103 +156,6 @@
             "Linux_64", "Linux",
             "OSX",
             "Vista_32", "Win7_64", "Win7_32"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
-      "properties": {
-        "Parent": "Qt #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Comment": "Qt #MAJORVER#.#MINORVER#",
-        "Browser": "Qt",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4",
-            "Android"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
-      "properties": {
-        "Parent": "Qt #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Comment": "Qt #MAJORVER#.#MINORVER#",
-        "Browser": "Qt",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "MeeGo"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "MeeGo"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false"
-          },
-          "platforms": [
-            "MeeGo"
           ]
         }
       ]

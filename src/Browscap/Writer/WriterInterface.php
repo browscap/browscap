@@ -18,6 +18,8 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Filter\FilterInterface;
+use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -31,7 +33,6 @@ interface WriterInterface
 {
     /**
      * @param string $file
-     * @return void
      */
     public function __construct($file);
 
@@ -172,10 +173,10 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setFormatter(\Browscap\Formatter\FormatterInterface $formatter);
+    public function setFormatter(FormatterInterface $formatter);
 
     /**
-     * @return \Browscap\Formatter\FormatterInterface
+     * @return FormatterInterface
      */
     public function getFormatter();
 
@@ -184,10 +185,10 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function setFilter(\Browscap\Filter\FilterInterface $filter);
+    public function setFilter(FilterInterface $filter);
 
     /**
-     * @return \Browscap\Filter\FilterInterface
+     * @return FilterInterface
      */
     public function getFilter();
 }
