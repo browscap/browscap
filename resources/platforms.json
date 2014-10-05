@@ -310,6 +310,13 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_A_8_0_B": {
+      "match": "*CPU iPhone OS 10?10* like Mac OS X*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"
