@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+  "versions": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
   "sortIndex": 3150,
   "lite": true,
   "userAgents": [
@@ -67,6 +67,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#* Anonymisiert*",
+          "platforms": [
+            "Win95_2"
+          ]
+        },
+        {
           "match": "Firefox\/#MAJORVER#.#MINORVER#*anonymized by Abelssoft*"
         },
         {
@@ -76,6 +82,17 @@
           "match": "* Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win7_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/*\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
+            "WinXPa_32",
+            "WinXPa_64", "WinXPb_64", "WinXPb_32", "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]
         }
       ]

@@ -299,7 +299,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8020 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8020* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
@@ -739,7 +739,7 @@
             "Device_Code_Name": "XT890",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT890"
+            "Device_Name": "RAZR i"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"

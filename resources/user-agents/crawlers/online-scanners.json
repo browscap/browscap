@@ -44,6 +44,23 @@
           "properties": {
             "Browser": "Secure Computing Corporation"
           }
+        },
+        {
+          "match": "WhatWeb\/0.4*",
+          "properties": {
+            "Browser": "WhatWeb Web Scanner",
+            "Browser_Maker": "Andrew Horton",
+            "Version": "0.4",
+            "MajorVer": "0",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "WhatWeb\/*",
+          "properties": {
+            "Browser": "WhatWeb Web Scanner",
+            "Browser_Maker": "Andrew Horton"
+          }
         }
       ]
     }

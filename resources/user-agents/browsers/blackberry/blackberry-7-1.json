@@ -68,7 +68,8 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold"
+            "Device_Name": "Bold",
+            "Device_Pointing_Method": "clickwheel"
           }
         },
         {
@@ -166,7 +167,8 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold"
+            "Device_Name": "Bold",
+            "Device_Pointing_Method": "clickwheel"
           }
         },
         {
@@ -195,6 +197,13 @@
           "properties": {
             "Device_Code_Name": "BlackBerry 9810",
             "Device_Name": "Torch 4G"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9320*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "BlackBerry 9320",
+            "Device_Name": "Curve 9320"
           }
         }
       ]

@@ -1,0 +1,30 @@
+{
+  "division": "SEOdiver Bot",
+  "sortIndex": 248,
+  "userAgents": [
+    {
+      "userAgent": "SEOdiver Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SEOdiver Bot",
+        "Browser": "SEOdiver Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "seodiver.com",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; SEOdiver\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SEOdiver\/*"
+        }
+      ]
+    }
+  ]
+}

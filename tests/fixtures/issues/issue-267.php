@@ -2364,7 +2364,7 @@ return [
     'issue-267-CH' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko)',
         [
-            'Browser' => 'Mail',
+            'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',

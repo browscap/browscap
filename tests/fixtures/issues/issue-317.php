@@ -1040,7 +1040,7 @@ return [
     'issue-317-AL' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534+ (KHTML, like Gecko)',
         [
-            'Browser' => 'Mail',
+            'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
