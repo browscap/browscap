@@ -17,6 +17,8 @@
 
 namespace Browscap\Data;
 
+use Browscap\Writer\WriterInterface;
+
 /**
  * Class PropertyHolder
  *
@@ -136,7 +138,7 @@ class PropertyHolder
      * @param \Browscap\Writer\WriterInterface $writer
      * @return boolean
      */
-    public function isExtraProperty($propertyName, \Browscap\Writer\WriterInterface $writer = null)
+    public function isExtraProperty($propertyName, WriterInterface $writer = null)
     {
         if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
             $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
@@ -182,7 +184,7 @@ class PropertyHolder
      * @param \Browscap\Writer\WriterInterface $writer
      * @return boolean
      */
-    public function isOutputProperty($propertyName, \Browscap\Writer\WriterInterface $writer = null)
+    public function isOutputProperty($propertyName, WriterInterface $writer = null)
     {
         $outputProperties = array(
             'Comment',

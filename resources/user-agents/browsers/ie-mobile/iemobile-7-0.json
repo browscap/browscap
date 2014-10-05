@@ -7,7 +7,7 @@
       "platform": "WinMobile",
       "engine": "Trident_3_1",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Frames": "true",

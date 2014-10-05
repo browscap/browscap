@@ -19,6 +19,7 @@ namespace Browscap\Filter;
 
 use Browscap\Data\Division;
 use Browscap\Data\PropertyHolder;
+use Browscap\Writer\WriterInterface;
 
 /**
  * Class LiteFilter
@@ -59,7 +60,7 @@ class LiteFilter implements FilterInterface
      *
      * @return boolean
      */
-    public function isOutputProperty($property, \Browscap\Writer\WriterInterface $writer = null)
+    public function isOutputProperty($property, WriterInterface $writer = null)
     {
         $propertyHolder = new PropertyHolder();
 
