@@ -21,6 +21,9 @@
           "properties": {
             "Browser": "007AC9 Crawler"
           }
+        },
+        {
+          "match": "Sistrix*"
         }
       ]
     }
