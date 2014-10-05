@@ -176,7 +176,7 @@ interface WriterInterface
     public function setFormatter(FormatterInterface $formatter);
 
     /**
-     * @return FormatterInterface
+     * @return \Browscap\Formatter\FormatterInterface
      */
     public function getFormatter();
 
@@ -188,7 +188,7 @@ interface WriterInterface
     public function setFilter(FilterInterface $filter);
 
     /**
-     * @return FilterInterface
+     * @return \Browscap\Filter\FilterInterface
      */
     public function getFilter();
 }
