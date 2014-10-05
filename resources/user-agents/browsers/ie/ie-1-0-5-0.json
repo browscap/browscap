@@ -1,11 +1,11 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
-  "versions": ["1.0", "1.5", "2.0", "3.0", "4.01", "4.0", "5.01", "5.0", "5.5"],
-  "sortIndex": 5766,
+  "versions": ["1.0", "1.5", "2.0", "3.0", "4.01", "4.0", "5.01", "5.0"],
+  "sortIndex": 5767,
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
-      "engine": "Trident_4",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",

@@ -966,6 +966,12 @@
           ]
         },
         {
+          "match": "crawler4j*",
+          "properties": {
+            "Browser": "crawler4j"
+          }
+        },
+        {
           "match": "Crawl*",
           "properties": {
             "Browser": "Crawlboy"
