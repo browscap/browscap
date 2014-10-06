@@ -118,8 +118,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
-            $propName = strtolower($propName);
-
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
