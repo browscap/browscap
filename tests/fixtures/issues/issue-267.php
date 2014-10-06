@@ -643,7 +643,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
-            'RenderingEngine_Version' => '1.8',
+            'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
