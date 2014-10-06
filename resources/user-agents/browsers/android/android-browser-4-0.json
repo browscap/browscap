@@ -7576,7 +7576,7 @@
             "Device_Name": "Galaxy Tab 3 Lite 7"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_2"
           ]
         },
         {
@@ -7602,7 +7602,7 @@
             "Device_Name": "Galaxy S III 4G"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3"
+            "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
@@ -7735,7 +7735,7 @@
             "Device_Name": "Galaxy Pocket Plus"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {

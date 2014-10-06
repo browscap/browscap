@@ -29,7 +29,7 @@
       },
       "children": [
         {
-          "match": "Outlook-Express\/7.0 (MSIE 7.0;#PLATFORM#Trident\/4.0*)",
+          "match": "Outlook-Express\/7.0 (MSIE 7.0;#PLATFORM#Trident\/4.0*",
           "engine": "Trident_4",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/5.0*)",
+          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/5.0*",
           "engine": "Trident_5",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/6.0*)",
+          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/6.0*",
           "engine": "Trident_6",
           "platforms": [
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/7.0*)",
+          "match": "Outlook-Express\/7.0 (MSIE ?.0;#PLATFORM#Trident\/7.0*",
           "engine": "Trident_7",
           "platforms": [
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/5.0*)",
+          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/5.0*",
           "engine": "Trident_5",
           "platforms": [
             "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/6.0*)",
+          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/6.0*",
           "engine": "Trident_6",
           "platforms": [
             "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -77,7 +77,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/7.0*)",
+          "match": "Outlook-Express\/7.0 (#PLATFORM#Trident\/7.0*",
           "engine": "Trident_7",
           "platforms": [
             "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
@@ -85,7 +85,7 @@
           ]
         },
         {
-          "match": "Outlook-Express\/7.0 (#PLATFORM#)",
+          "match": "Outlook-Express\/7.0 (#PLATFORM#",
           "platforms": [
             "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
             "Windows"
