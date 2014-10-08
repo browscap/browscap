@@ -57,7 +57,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Mozilla Firebird\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Win2000"
+            "Win2000", "WinXPa_32"
           ]
         }
       ]
