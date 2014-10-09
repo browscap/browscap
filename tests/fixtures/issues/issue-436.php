@@ -3624,9 +3624,9 @@ return [
         'Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)',
         [
             'Browser' => 'Lotus Notes',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Email Client',
+            'Browser_Maker' => 'IBM',
             'Version' => '6.0',
             'MajorVer' => '6',
             'MinorVer' => '0',
