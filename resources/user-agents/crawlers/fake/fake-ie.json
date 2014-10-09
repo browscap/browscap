@@ -37,9 +37,6 @@
           "match": "(compatible;  *; Trident\/4.0*"
         },
         {
-          "match": "* (compatible*; MSIE 8.0*"
-        },
-        {
           "match": "Microsoft Internet Explorer"
         },
         {

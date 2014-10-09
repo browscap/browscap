@@ -79,9 +79,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     {
         $data              = array();
         $checks            = array();
-        $uaSourceDirectory = __DIR__ . '/../fixtures/issues/';
+        $userAgentSourceDirectory = __DIR__ . '/../fixtures/issues/';
 
-        $iterator = new \RecursiveDirectoryIterator($uaSourceDirectory);
+        $iterator = new \RecursiveDirectoryIterator($userAgentSourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
@@ -114,16 +114,18 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider userAgentDataProvider
      * @coversNothing
+     * @param string $userAgent
+     * @param array  $expectedProperties
      */
-    public function testUserAgents($ua, $props)
+    public function testUserAgents($userAgent, $expectedProperties)
     {
-        if (!is_array($props) || !count($props)) {
+        if (!is_array($expectedProperties) || !count($expectedProperties)) {
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = (array) self::$browscap->getBrowser($ua);
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
-        foreach ($props as $propName => $propValue) {
+        foreach ($expectedProperties as $propName => $propValue) {
             $propName = strtolower($propName);
 
             self::assertArrayHasKey(

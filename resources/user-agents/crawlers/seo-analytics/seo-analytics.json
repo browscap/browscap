@@ -92,6 +92,16 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.96*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush",
+            "Version": "0.96",
+            "MajorVer": "0",
+            "MinorVer": "96"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.97*",
           "properties": {
             "Browser": "SemrushBot",

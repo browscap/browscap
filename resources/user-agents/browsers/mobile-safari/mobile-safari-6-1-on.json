@@ -105,6 +105,12 @@
             "iOS_C_8_0",
             "iOS_C"
           ]
+        },
+        {
+          "match": "MobileSafari\/95??.* CFNetwork\/* Darwin\/*",
+          "platforms": [
+            "Darwin"
+          ]
         }
       ]
     }

@@ -61,6 +61,14 @@
             "Browser": "WhatWeb Web Scanner",
             "Browser_Maker": "Andrew Horton"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Nmap Scripting Engine*",
+          "properties": {
+            "Browser": "Nmap Scripting Engine",
+            "Browser_Maker": "Gordon Lyon",
+            "Browser_Type": "Library"
+          }
         }
       ]
     }

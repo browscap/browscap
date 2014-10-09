@@ -76,9 +76,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -89,9 +89,10 @@
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
         {
@@ -101,9 +102,9 @@
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -114,9 +115,9 @@
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -127,9 +128,9 @@
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -140,9 +141,9 @@
             "Browser_Modus": "IE 9.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -153,9 +154,9 @@
             "Browser_Modus": "IE 10.0 Compatibility Mode"
           },
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32"
           ]
         },
@@ -174,9 +175,10 @@
         {
           "match": "Mozilla\/5.0; TOB* (#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*)*",
           "platforms": [
-            "Win7_64", "Win7_32",
-            "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         }
       ]
