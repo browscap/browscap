@@ -1,9 +1,10 @@
 {
-  "division": "Googlebot-Mobile 2.1",
+  "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["2.1"],
   "sortIndex": 1170,
   "userAgents": [
     {
-      "userAgent": "Googlebot-Mobile 2.1",
+      "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Googlebot-Mobile",
         "Comment": "Googlebot",
@@ -16,21 +17,13 @@
         "Tables": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "*Googlebot-Mobile\/2.1*",
-          "properties": {
-            "Frames": "false",
-            "IFrames": "false",
-            "Tables": "false"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (iPhone; *CPU iPhone OS 4_1* like Mac OS X*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* (compatible; Googlebot-Mobile\/2.1*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
@@ -46,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; Googlebot-Mobile\/2.1*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Frames": "false",
             "IFrames": "false",
@@ -65,16 +58,16 @@
           ]
         },
         {
-          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/2.1*"
+          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/2.1*"
+          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.1*"
+          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-E250\/* UP.Browser\/6.2* (compatible; Googlebot-Mobile\/2.1*",
+          "match": "SAMSUNG-SGH-E250\/* UP.Browser\/6.2* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "SGH E250",
             "Device_Maker": "Samsung",
@@ -84,6 +77,14 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "*Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Frames": "false",
+            "IFrames": "false",
+            "Tables": "false"
+          }
         }
       ]
     }
