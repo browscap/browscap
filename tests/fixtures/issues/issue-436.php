@@ -2548,9 +2548,9 @@ return [
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'unknown',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-436-CN' => [

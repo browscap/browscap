@@ -1,9 +1,10 @@
 {
-  "division": "Googlebot 2.1",
+  "division": "Googlebot #MAJORVER#.#MINORVER#",
+  "versions": ["2.1"],
   "sortIndex": 1150,
   "userAgents": [
     {
-      "userAgent": "Googlebot 2.1",
+      "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Googlebot",
         "Comment": "Googlebot",
@@ -14,22 +15,16 @@
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
-        "Version": "2.1",
-        "MajorVer": "2",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "*Googlebot\/2.1*"
+          "match": "Googlebot v#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Googlebot v2.1*"
-        },
-        {
-          "match": "*Googlebot\/2.1*"
-        },
-        {
-          "match": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Mobile\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
@@ -45,19 +40,22 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Googlebot\/2.1; ?http:\/\/www.google.com\/bot.html)"
+          "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?2.1 (+http:\/\/www.google.com\/bot.html)",
+          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?2.1*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
+        },
+        {
+          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
