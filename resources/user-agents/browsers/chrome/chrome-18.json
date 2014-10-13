@@ -1344,8 +1344,8 @@
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "C6603",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
             "Device_Name": "Xperia Z"
           },
           "platforms": [
