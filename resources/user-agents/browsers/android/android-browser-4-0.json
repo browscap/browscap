@@ -5358,8 +5358,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "C6603",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
             "Device_Name": "Xperia Z"
           },
           "platforms": [
