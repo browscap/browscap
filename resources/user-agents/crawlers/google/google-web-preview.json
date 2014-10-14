@@ -1,0 +1,31 @@
+{
+  "division": "Google Web Preview",
+  "sortIndex": 1122,
+  "userAgents": [
+    {
+      "userAgent": "Google Web Preview",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser": "Google Web Preview",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Google Web Preview) Chrome\/* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "*Google Web Preview*"
+        }
+      ]
+    }
+  ]
+}
