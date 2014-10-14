@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Google Web Preview*)*Chrome\/*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Chrome\/*Safari\/*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
