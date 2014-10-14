@@ -2085,7 +2085,7 @@ return [
             'Browser' => '360Spider',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'so.360.cn',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
