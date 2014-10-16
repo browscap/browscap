@@ -118,7 +118,7 @@ return [
         [
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '0',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Nokia',
             'Version' => '0.0',
             'MajorVer' => '0',
