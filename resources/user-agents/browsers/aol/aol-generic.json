@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "AOL Generic",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AOL Generic",

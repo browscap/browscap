@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "AOL 9.1\/IE 7.0",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AOL 9.1\/IE 7.0",
