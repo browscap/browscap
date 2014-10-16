@@ -1,7 +1,7 @@
 {
   "division": "Access NetFront #MAJORVER#.#MINORVER#",
   "versions": ["2.0", "2.2", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
-  "sortIndex": 2140,
+  "sortIndex": 1540,
   "lite": true,
   "userAgents": [
     {
@@ -10,7 +10,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
-        "Browser": "Access NetFront",
+        "Browser": "NetFront",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Access",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -55,61 +57,188 @@
           "match": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "C902",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "C902"
+          }
         },
         {
-          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "C905",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "C905"
+          }
         },
         {
-          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "J10i2",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "J10i2"
+          }
         },
         {
-          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "K800i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "K800i"
+          }
         },
         {
-          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "T715",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "T715"
+          }
         },
         {
-          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U10i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U10i"
+          }
         },
         {
-          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U1i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U1i"
+          }
         },
         {
-          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U1iv",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U1iv"
+          }
         },
         {
-          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U5iv",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U5iv"
+          }
         },
         {
-          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U5u",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U5u"
+          }
         },
         {
-          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "U8i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "U8i"
+          }
         },
         {
-          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W350i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W350i"
+          }
         },
         {
-          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W350iv",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W350iv"
+          }
         },
         {
-          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W580i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W580i"
+          }
         },
         {
-          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W595",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W595"
+          }
         },
         {
-          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W705",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W705"
+          }
         },
         {
-          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W760i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W760i"
+          }
         },
         {
-          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W980",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W980"
+          }
         },
         {
-          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "W995",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "W995"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "WiiU",
+            "Device_Name": "WiiU",
+            "isMobileDevice": "true",
+            "Device_Type": "Console",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown"
+          }
         }
       ]
     }

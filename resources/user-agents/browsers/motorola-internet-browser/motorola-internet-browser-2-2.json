@@ -4,11 +4,12 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.2",
-      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.2",
         "Browser": "Motorola Internet Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Motorola",
         "Version": "2.2",
         "MajorVer": "2",
         "MinorVer": "2",

@@ -8,6 +8,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.1",
         "Browser": "Motorola Internet Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Motorola",
         "Version": "2.1",
         "MajorVer": "2",
         "MinorVer": "1",

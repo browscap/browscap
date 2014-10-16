@@ -61,7 +61,8 @@
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
           "properties": {
             "Browser": "WiiU",
-            "Device_Name": "WiiU"
+            "Device_Name": "WiiU",
+            "Device_Code_Name": "WiiU"
           }
         },
         {

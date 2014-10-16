@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser",
         "Browser": "Motorola Internet Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Motorola",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
