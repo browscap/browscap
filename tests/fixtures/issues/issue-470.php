@@ -133,7 +133,7 @@ return [
             'Device_Name' => '2320 classic',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => '2323c',
             'Device_Brand_Name' => 'Nokia',
             'RenderingEngine_Name' => 'unknown',
