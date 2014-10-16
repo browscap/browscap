@@ -146,6 +146,13 @@
           "properties": {
             "Browser": "FOTOCHECKER"
           }
+        },
+        {
+          "match": "Evernote Clip Resolver*",
+          "properties": {
+            "Browser": "Evernote Clip Resolver",
+            "Browser_Maker": "Evernote"
+          }
         }
       ]
     }
