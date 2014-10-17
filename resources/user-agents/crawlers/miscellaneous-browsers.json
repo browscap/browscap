@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "12345",
+          "match": "12345*",
           "properties": {
             "Browser": "12345"
           }
@@ -232,6 +232,12 @@
           "match": "GMX MailCheck\/*",
           "properties": {
             "Browser": "GMX MailCheck"
+          }
+        },
+        {
+          "match": "T-Online Browser",
+          "properties": {
+            "Browser": "T-Online Browser"
           }
         }
       ]

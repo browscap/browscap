@@ -146,6 +146,21 @@
           "properties": {
             "Browser": "FOTOCHECKER"
           }
+        },
+        {
+          "match": "Thumbor\/3.14*",
+          "properties": {
+            "Browser": "Thumbor",
+            "Version": "3.14",
+            "MajorVer": "3",
+            "MinorVer": "14"
+          }
+        },
+        {
+          "match": "Thumbor\/*",
+          "properties": {
+            "Browser": "Thumbor"
+          }
         }
       ]
     }

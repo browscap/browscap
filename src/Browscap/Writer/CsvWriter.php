@@ -242,8 +242,6 @@ class CsvWriter implements WriterInterface
             return $this;
         }
 
-        $values = array();
-
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(
             array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),

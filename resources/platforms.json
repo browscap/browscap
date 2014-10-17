@@ -310,6 +310,13 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_A_8_0_B": {
+      "match": "*CPU iPhone OS 10?10* like Mac OS X*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"
@@ -794,6 +801,15 @@
         "Platform_Bits": "64"
       }
     },
+    "Ubuntu_12_04_64": {
+      "match": "*Ubuntu/12.04*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "12.04",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "Windows": {
       "match": "*Windows*",
       "properties": {
@@ -932,6 +948,15 @@
     },
     "WinME_2": {
       "match": "*Windows ME*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinME",
+        "Platform_Version": "ME",
+        "Platform_Description": "Windows ME"
+      }
+    },
+    "WinME_3": {
+      "match": "*Windows 98; Win 9x4.90*",
       "inherits": "Windows",
       "properties": {
         "Platform": "WinME",
@@ -1455,6 +1480,40 @@
         "Win64": "true"
       }
     },
+    "Win10_32": {
+      "match": "*Windows NT 6.4*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win10",
+        "Platform_Version": "6.4",
+        "Platform_Description": "Windows 10"
+      }
+    },
+    "Win10_64": {
+      "match": "*Windows NT 6.4*WOW64*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win10",
+        "Platform_Bits": "64",
+        "Platform_Version": "6.4",
+        "Platform_Description": "Windows 10",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Win10_x64": {
+      "match": "*Windows NT 6.4*Win64; x64*",
+      "inherits": "Windows",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform": "Win10",
+        "Platform_Bits": "64",
+        "Platform_Version": "6.4",
+        "Platform_Description": "Windows 10",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "WinRT8_32": {
       "match": "*Windows NT 6.2; ARM*",
       "inherits": "Windows",
@@ -1565,7 +1624,7 @@
       "match": "*Windows Phone 7.5*",
       "inherits": "Windows",
       "properties": {
-        "Platform": "WinPhone7",
+        "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
         "Platform_Description": "Windows Phone OS 7.5",
         "isMobileDevice": "true",

@@ -18,6 +18,7 @@
 namespace Browscap\Generator;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
@@ -177,7 +178,7 @@ class BuildGenerator
 
         $this->getLogger()->info('started initialisation of writers');
 
-        $expander = new \Browscap\Data\Expander();
+        $expander = new Expander();
         $expander
             ->setDataCollection($collection)
             ->setLogger($this->getLogger())

@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Camino #MAJORVER#.#MINORVER#",
         "Browser": "Camino",
+        "Browser_Type": "Browser",
         "Browser_Maker": "Mozilla Foundation",
         "Frames": "true",
         "IFrames": "true",
