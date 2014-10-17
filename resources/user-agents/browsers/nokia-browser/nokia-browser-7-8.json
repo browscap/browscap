@@ -1,14 +1,15 @@
 {
-  "division": "Nokia Browser 7.8",
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.8"],
   "sortIndex": 7980,
   "userAgents": [
     {
-      "userAgent": "Nokia Browser 7.8",
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Browser 7.8",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -30,14 +31,14 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Version": "7.8",
-        "MajorVer": "7",
-        "MinorVer": "8",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "JavaScript": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.8*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",

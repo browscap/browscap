@@ -460,12 +460,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) Firefox\/*",
-          "properties": {
-            "Browser": "Fake Firefox"
-          }
-        },
-        {
           "match": "\"Mozilla\/* Firefox\/*",
           "properties": {
             "Browser": "Fake Firefox"

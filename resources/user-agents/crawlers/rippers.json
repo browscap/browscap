@@ -966,6 +966,12 @@
           ]
         },
         {
+          "match": "crawler4j*",
+          "properties": {
+            "Browser": "crawler4j"
+          }
+        },
+        {
           "match": "Crawl*",
           "properties": {
             "Browser": "Crawlboy"
@@ -1123,6 +1129,17 @@
             "Version": "2.7",
             "MajorVer": "2",
             "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Python-urllib\/1.17*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
           }
         },
         {

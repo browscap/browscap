@@ -159,8 +159,13 @@
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
-            "Device_Name": "INM8002KP",
-            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "INM8002KP",
+            "Device_Maker": "Intenso",
+            "Device_Brand_Name": "Intenso",
+            "Device_Name": "TAB 824",
+            "Device_Type": "Tablet",
+            "isMobileDevice": "true",
+            "isTablet": "true",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -184,6 +189,20 @@
           },
           "platforms": [
             "Android_2_3_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D802 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D802",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "G2"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
@@ -226,6 +245,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#B1-A71 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "B1-A71",

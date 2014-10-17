@@ -1,9 +1,10 @@
 {
-  "division": "Googlebot-Mobile 2.2",
+  "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
   "sortIndex": 1171,
   "userAgents": [
     {
-      "userAgent": "Googlebot-Mobile 2.2",
+      "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Googlebot-Mobile",
         "Comment": "Googlebot",
@@ -16,13 +17,13 @@
         "Tables": "false",
         "isMobileDevice": "true",
         "Device_Type": "Mobile Device",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/2.2*"
+          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

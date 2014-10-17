@@ -1,14 +1,15 @@
 {
-  "division": "Nokia Browser 7.1",
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.1"],
   "sortIndex": 7930,
   "userAgents": [
     {
-      "userAgent": "Nokia Browser 7.1",
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Browser 7.1",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -30,35 +31,35 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Version": "7.1",
-        "MajorVer": "7",
-        "MinorVer": "1",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "JavaScript": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "E55",
             "Device_Name": "E55"
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/7.1*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "N86",
             "Device_Name": "N86"
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "N97",
             "Device_Name": "N97"
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.1*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Code_Name": "N97",
             "Device_Name": "N97"
