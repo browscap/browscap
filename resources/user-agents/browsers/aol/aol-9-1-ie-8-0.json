@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "AOL 9.1\/IE 8.0",
         "Browser": "IE",
+        "Browser_Maker": "Microsoft Corporation",
+        "Browser_Type": "Browser",
         "Version": "8.0",
         "MajorVer": "8",
         "MinorVer": "0",

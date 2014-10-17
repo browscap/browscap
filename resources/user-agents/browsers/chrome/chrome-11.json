@@ -139,6 +139,21 @@
           ]
         },
         {
+          "match": "Tablet-PC-4 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Tablet PC 4",
+            "Device_Maker": "Cat Sound",
+            "Device_Brand_Name": "CatSound",
+            "Device_Name": "Tablet PC 4"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

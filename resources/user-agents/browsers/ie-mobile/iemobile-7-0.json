@@ -1,13 +1,14 @@
 {
-  "division": "IEMobile 7.0",
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["7.0"],
   "sortIndex": 5920,
   "userAgents": [
     {
-      "userAgent": "IEMobile 7.0",
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinMobile",
       "engine": "Trident_3_1",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Frames": "true",
@@ -32,16 +33,16 @@
         "Device_Name": "general Mobile Device",
         "isMobileDevice": "true",
         "isTablet": "false",
-        "Version": "7.0",
-        "MajorVer": "7",
-        "MinorVer": "0"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.*)*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinPhone7"
           ]
@@ -173,7 +174,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0; HTC; 7 Mozart)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
           "properties": {
             "Device_Code_Name": "T8698",
             "Device_Maker": "HTC",
@@ -185,7 +186,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0; HTC; 7 Pro T7576)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
           "properties": {
             "Device_Code_Name": "T7576",
             "Device_Maker": "HTC",
@@ -197,7 +198,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0; LG; LG-E900)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; LG; LG-E900)",
           "properties": {
             "Device_Code_Name": "E900",
             "Device_Maker": "LG",
@@ -209,7 +210,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0; SAMSUNG; OMNIA7)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
           "properties": {
             "Device_Code_Name": "GT-I8700",
             "Device_Maker": "Samsung",
@@ -221,12 +222,104 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0; NOKIA; Lumia 925*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 520",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 520",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 720*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 720",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 720",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 820",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 820",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 920",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 920",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
           "properties": {
             "Device_Code_Name": "Lumia 925",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925"
+            "Device_Name": "Lumia 925",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 930",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 930",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 1520*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 1520",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 1520",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; Windows Phone 8S by HTC)",
+          "properties": {
+            "Device_Code_Name": "Windows Phone 8S",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Windows Phone 8S",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7"
@@ -384,7 +477,8 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230"
+            "Device_Name": "GT-S5230",
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "WinCE"
@@ -667,7 +761,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/7.0*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone7"
           ]

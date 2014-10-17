@@ -1,5 +1,6 @@
 {
-  "division": "Googlebot 1.0",
+  "division": "Googlebot #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 1130,
   "userAgents": [
     {
@@ -14,18 +15,19 @@
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
-        "Version": "1.0",
-        "MajorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Google\/1.* CFNetwork\/* #PLATFORM#",
+          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "*Googlebot\/1.*"
+          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

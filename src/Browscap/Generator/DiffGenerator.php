@@ -30,11 +30,6 @@ use Browscap\Parser\IniParser;
 class DiffGenerator
 {
     /**
-     * @var string
-     */
-    private $buildFolder;
-
-    /**
      * @var \Psr\Log\LoggerInterface
      */
     private $logger = null;

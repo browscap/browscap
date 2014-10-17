@@ -18,6 +18,7 @@
 namespace Browscap\Filter;
 
 use Browscap\Data\Division;
+use Browscap\Writer\WriterInterface;
 
 /**
  * Interface FilterInterface
@@ -53,5 +54,5 @@ interface FilterInterface
      *
      * @return boolean
      */
-    public function isOutputProperty($property, \Browscap\Writer\WriterInterface $writer = null);
+    public function isOutputProperty($property, WriterInterface $writer = null);
 }

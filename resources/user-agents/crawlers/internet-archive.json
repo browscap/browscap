@@ -9,6 +9,7 @@
         "Comment": "Internet Archive",
         "Browser": "Internet Archive",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "archive.org",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -16,19 +17,46 @@
       },
       "children": [
         {
-          "match": "ia_archiver*",
-          "properties": {
-            "Browser": "Internet Archive"
-          }
+          "match": "ia_archiver*"
         },
         {
-          "match": "InternetArchive\/*",
-          "properties": {
-            "Browser": "InternetArchive"
-          }
+          "match": "InternetArchive\/*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; archive.org_bot*)"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.1*archive.org*",
+          "properties": {
+            "Browser": "Internet Archive Special Archiver",
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.2*archive.org*",
+          "properties": {
+            "Browser": "Internet Archive Special Archiver",
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.3*archive.org*",
+          "properties": {
+            "Browser": "Internet Archive Special Archiver",
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/*archive.org*",
+          "properties": {
+            "Browser": "Internet Archive Special Archiver"
+          }
         }
       ]
     }

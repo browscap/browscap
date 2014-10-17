@@ -20,6 +20,7 @@
           "match": "HTTP_Request2\/0.5*",
           "properties": {
             "Version": "0.5",
+            "MajorVer": "0",
             "MinorVer": "5"
           }
         },

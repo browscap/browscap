@@ -44,11 +44,11 @@
     {
       "userAgent": "Safari Generic for SymbianOS",
       "properties": {
-        "Parent": "Safari Generic",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
+        "Parent": "DefaultProperties",
         "Comment": "Safari Generic",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

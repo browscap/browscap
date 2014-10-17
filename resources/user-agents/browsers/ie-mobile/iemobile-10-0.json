@@ -9,7 +9,7 @@
       "platform": "WinPhone8",
       "engine": "Trident_6",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Frames": "true",
@@ -40,12 +40,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
-          "platforms": [
-            "WinPhone8"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
           "properties": {
             "Device_Code_Name": "8S",
@@ -72,12 +66,38 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 925*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 925",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 925",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 920*)",
           "properties": {
             "Device_Code_Name": "Lumia 920",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 920",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 820*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 820",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 820",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -111,6 +131,19 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 625*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 625",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 625",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; SAMSUNG; GT-I8750*)",
           "properties": {
             "Device_Code_Name": "GT-I8750",
@@ -119,6 +152,12 @@
             "Device_Name": "ATIV Odyssey",
             "Device_Pointing_Method": "touchscreen"
           },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
           "platforms": [
             "WinPhone8"
           ]
