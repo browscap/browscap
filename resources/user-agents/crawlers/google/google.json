@@ -86,12 +86,6 @@
           }
         },
         {
-          "match": "*Google Web Preview*",
-          "properties": {
-            "Browser": "Google Web Preview"
-          }
-        },
-        {
           "match": "Feedfetcher-Google*",
           "properties": {
             "Browser": "Feedfetcher-Google",
