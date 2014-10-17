@@ -124,6 +124,9 @@
           "match": "auto.de"
         },
         {
+          "match": "insurance.preisvergleich.de"
+        },
+        {
           "match": "Core_Class_HttpClient_Cached",
           "properties": {
             "Browser": "Core_Class_HttpClient_Cached"

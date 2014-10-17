@@ -1,14 +1,15 @@
 {
-  "division": "Nokia Browser 8.2",
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["8.2"],
   "sortIndex": 7990,
   "userAgents": [
     {
-      "userAgent": "Nokia Browser 8.2",
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Browser 8.2",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -30,14 +31,14 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Version": "8.2",
-        "MajorVer": "8",
-        "MinorVer": "2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "JavaScript": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -46,22 +47,32 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
-            "Device_Name": "E7"
+            "Device_Name": "E7",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.2*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
             "Device_Pointing_Method": "touchscreen"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia603\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "603",
+            "Device_Name": "603"
           }
         }
       ]

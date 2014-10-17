@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
-      "engine": "Trident_4",
+      "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",

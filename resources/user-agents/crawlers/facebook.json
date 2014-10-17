@@ -9,6 +9,7 @@
         "Comment": "Facebook",
         "Browser": "Facebook",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Facebook",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"
@@ -45,8 +46,12 @@
           "match": "facebookplatform\/1.0 *",
           "properties": {
             "Version": "1.0",
-            "MajorVer": "1"
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
+        },
+        {
+          "match": "facebookplatform\/*"
         },
         {
           "match": "Facebook API PHP5 Client 1.1 (curl)*",
@@ -54,6 +59,21 @@
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Facebot\/1.0*",
+          "properties": {
+            "Browser": "Facebot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Facebot\/*",
+          "properties": {
+            "Browser": "Facebot"
           }
         }
       ]

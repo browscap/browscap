@@ -28,11 +28,15 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; bingbot\/2.*http:\/\/www.bing.com\/bingbot.htm)",
+          "match": "Mozilla\/5.0 (compatible;*bingbot\/2.0*",
           "properties": {
             "Version": "2.0",
-            "MajorVer": "2"
+            "MajorVer": "2",
+            "MinorVer": "0"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;*bingbot\/*"
         },
         {
           "match": "Bing\/* CFNetwork\/* #PLATFORM#",
