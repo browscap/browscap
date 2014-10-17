@@ -1,6 +1,6 @@
 {
   "division": "UnisterBot",
-  "sortIndex": 11130,
+  "sortIndex": 3139,
   "userAgents": [
     {
       "userAgent": "UnisterBot",
@@ -30,22 +30,107 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; UnisterBot, crawler@unister-gmbh.de)*"
+          "match": "Mozilla\/5.0 (compatible; UnisterBot*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; UnisterBot; crawler@unister.de)"
+          "match": "UnisterBot *"
         },
         {
-          "match": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*"
+          "match": "unister-bot *"
+        }
+      ]
+    },
+    {
+      "userAgent": "UnisterTesting",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "website test",
+        "Browser_Maker": "Unister Holding GmbH",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Browser": "UnisterTesting",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "unister-test-zabbix"
         },
         {
-          "match": "UnisterBot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+          "match": "unister-test-acceptance"
         },
         {
-          "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister-gmbh.de)*"
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/* unister-test-acceptance",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UnisterPortale",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "website calls webservice",
+        "Browser_Maker": "Unister Holding GmbH",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Browser": "UnisterPortale",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "www.geld.de"
         },
         {
-          "match": "unister-bot (Mozilla\/5.0 compatible; crawler@unister.de)*"
+          "match": "www.versicherungen.de"
+        },
+        {
+          "match": "www.kredit.de"
+        },
+        {
+          "match": "www.auto.de"
+        },
+        {
+          "match": "auto.de"
+        },
+        {
+          "match": "insurance.preisvergleich.de"
+        },
+        {
+          "match": "Core_Class_HttpClient_Cached",
+          "properties": {
+            "Browser": "Core_Class_HttpClient_Cached"
+          }
         }
       ]
     }

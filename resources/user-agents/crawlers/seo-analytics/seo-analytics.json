@@ -22,7 +22,7 @@
           "match": "Mozilla\/5.0 (compatible; SearchmetricsBot; http:\/\/www.searchmetrics.com\/en\/searchmetrics-bot\/)",
           "properties": {
             "Browser": "SearchmetricsBot",
-            "Browser_Maker": "www.searchmetrics.com"
+            "Browser_Maker": "Searchmetrics GmbH"
           }
         },
         {
@@ -92,6 +92,16 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.96*",
+          "properties": {
+            "Browser": "SemrushBot",
+            "Browser_Maker": "SEMrush",
+            "Version": "0.96",
+            "MajorVer": "0",
+            "MinorVer": "96"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.97*",
           "properties": {
             "Browser": "SemrushBot",
@@ -143,6 +153,13 @@
           "match": "Screaming Frog SEO Spider\/*",
           "properties": {
             "Browser": "Screaming Frog SEO Spider"
+          }
+        },
+        {
+          "match": "ssearch_bot (sSearch Crawler*",
+          "properties": {
+            "Browser": "sSearch Crawler",
+            "Browser_Maker": "semantissimo.de"
           }
         }
       ]

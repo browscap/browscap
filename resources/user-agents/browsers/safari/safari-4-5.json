@@ -49,11 +49,11 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -83,11 +83,11 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

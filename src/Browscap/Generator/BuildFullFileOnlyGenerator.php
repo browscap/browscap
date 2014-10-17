@@ -52,14 +52,6 @@ class BuildFullFileOnlyGenerator
     private $logger = null;
 
     /**
-     * @var \Browscap\Helper\CollectionCreator
-     */
-    private $collectionCreator = null;
-
-    /** @var \Browscap\Writer\WriterCollection */
-    private $writerCollection = null;
-
-    /**
      * @param string $resourceFolder
      * @param string $buildFolder
      */

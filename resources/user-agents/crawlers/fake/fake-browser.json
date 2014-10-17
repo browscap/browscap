@@ -394,18 +394,6 @@
           ]
         },
         {
-          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.8.1*) gecko\/* firefox\/2.0*",
-          "platforms": [
-            "WinXPb_32"
-          ]
-        },
-        {
-          "match": "mozilla\/5.0 (Windows; ?; Windows NT 5.2; *; rv:1.9*) gecko\/* firefox\/3.0*",
-          "platforms": [
-            "WinXPb_32"
-          ]
-        },
-        {
           "match": "mozilla\/5.0 (compatible; firefox\/*; Windows NT*; Trident\/*"
         },
         {
@@ -424,7 +412,37 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (iPad; CPU iPhone OS 501*",
+          "properties": {
+            "Browser": "Fake Safari"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Android *) AppleWebKit\/1.1 Version\/* Mobile Safari\/1.1",
+          "properties": {
+            "Browser": "Fake Safari"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML like Gecko) Chrome\/* Safari\/*",
+          "properties": {
+            "Browser": "Fake Chrome"
+          }
+        },
+        {
+          "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*",
           "properties": {
             "Browser": "Fake Chrome"
           }
@@ -442,25 +460,19 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) Firefox\/*",
-          "properties": {
-            "Browser": "Fake Firefox"
-          }
-        },
-        {
           "match": "\"Mozilla\/* Firefox\/*",
           "properties": {
             "Browser": "Fake Firefox"
           }
         },
         {
-          "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
-          }
+          "match": "Mozilla\/*Windows NT 7.1*"
         },
         {
-          "match": "Mozilla\/*Windows NT 7.1*"
+          "match": "Windows; ?; Windows*"
+        },
+        {
+          "match": "Mozila*"
         }
       ]
     }

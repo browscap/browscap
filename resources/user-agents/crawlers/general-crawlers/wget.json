@@ -14,12 +14,34 @@
       },
       "children": [
         {
+          "match": "Wget\/1.10* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.10",
+            "MajorVer": "1",
+            "MinorVer": "10"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Wget\/1.10*",
           "properties": {
             "Version": "1.10",
             "MajorVer": "1",
             "MinorVer": "10"
           }
+        },
+        {
+          "match": "Wget\/1.11* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.11",
+            "MajorVer": "1",
+            "MinorVer": "11"
+          },
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "Wget\/1.11*",
@@ -30,6 +52,17 @@
           }
         },
         {
+          "match": "Wget\/1.12* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.12",
+            "MajorVer": "1",
+            "MinorVer": "12"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Wget\/1.12*",
           "properties": {
             "Version": "1.12",
@@ -38,12 +71,34 @@
           }
         },
         {
+          "match": "Wget\/1.13* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.13",
+            "MajorVer": "1",
+            "MinorVer": "13"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Wget\/1.13*",
           "properties": {
             "Version": "1.13",
             "MajorVer": "1",
             "MinorVer": "13"
           }
+        },
+        {
+          "match": "Wget\/1.* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux"
+          ]
         },
         {
           "match": "Wget\/1.*",

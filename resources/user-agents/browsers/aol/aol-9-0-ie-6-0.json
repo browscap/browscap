@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "AOL 9.0\/IE 6.0",
         "Browser": "IE",
+        "Browser_Maker": "Microsoft Corporation",
+        "Browser_Type": "Browser",
         "Version": "6.0",
         "MajorVer": "6",
         "MinorVer": "0",

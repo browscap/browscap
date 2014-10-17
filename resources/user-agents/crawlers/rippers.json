@@ -250,9 +250,24 @@
           }
         },
         {
+          "match": "httpclient\/1.0*",
+          "properties": {
+            "Browser": "httpclient",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "httpclient*",
           "properties": {
             "Browser": "httpclient"
+          }
+        },
+        {
+          "match": "SynHttpClient*",
+          "properties": {
+            "Browser": "SynHttpClient"
           }
         },
         {
@@ -502,31 +517,6 @@
           }
         },
         {
-          "match": "Python*",
-          "properties": {
-            "Browser": "Python"
-          }
-        },
-        {
-          "match": "Python-urllib/2.7*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Type": "Library",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
-          }
-        },
-        {
-          "match": "Python-urllib/*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Type": "Library",
-            "Browser_Maker": "Python Software Foundation"
-          }
-        },
-        {
           "match": "RepoMonkey*",
           "properties": {
             "Browser": "RepoMonkey"
@@ -773,14 +763,6 @@
           }
         },
         {
-          "match": "Zend_Http_Client",
-          "properties": {
-            "Browser": "Zend_Http_Client",
-            "Browser_Type": "Library",
-            "Browser_Maker": "Zend Technologies Inc"
-          }
-        },
-        {
           "match": "BOT\/0.1* (BOT for JCE)*",
           "properties": {
             "Comment": "JCE vulnerability scanner",
@@ -984,6 +966,12 @@
           ]
         },
         {
+          "match": "crawler4j*",
+          "properties": {
+            "Browser": "crawler4j"
+          }
+        },
+        {
           "match": "Crawl*",
           "properties": {
             "Browser": "Crawlboy"
@@ -1130,6 +1118,128 @@
           "properties": {
             "Browser": "Dolphin smalltalk http client",
             "Browser_Maker": "Steve Waring"
+          }
+        },
+        {
+          "match": "Python-urllib\/2.7*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Python-urllib\/1.17*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
+          }
+        },
+        {
+          "match": "Python-urllib\/*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation"
+          }
+        },
+        {
+          "match": "python-requests\/2.3* CPython\/* Linux*x86_64*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "python-requests\/2.3* CPython\/* Linux/*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Linux_32"
+          ]
+        },
+        {
+          "match": "python-requests\/2.3*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "python-requests\/2.0* CPython\/* Linux*x86_64*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "python-requests\/2.0* CPython\/* Linux*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_32"
+          ]
+        },
+        {
+          "match": "python-requests\/2.0*",
+          "properties": {
+            "Browser": "Python",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "python-requests\/*",
+          "properties": {
+            "Browser": "Python",
+            "Browser_Type": "Library",
+            "Browser_Maker": "Python Software Foundation"
+          }
+        },
+        {
+          "match": "Python*",
+          "properties": {
+            "Browser": "Python"
           }
         }
       ]

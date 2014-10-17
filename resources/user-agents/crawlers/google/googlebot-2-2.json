@@ -1,9 +1,10 @@
 {
-  "division": "Googlebot 2.2",
+  "division": "Googlebot #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
   "sortIndex": 1160,
   "userAgents": [
     {
-      "userAgent": "Googlebot 2.2",
+      "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Googlebot",
         "Comment": "Googlebot",
@@ -14,34 +15,34 @@
         "Frames": "false",
         "IFrames": "false",
         "Tables": "false",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "*Googlebot\/2.2*"
+          "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Googlebot\/2.2; ?http:\/\/www.google.com\/bot.html)"
-        },
-        {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot\/2.2 (+http:\/\/www.google.com\/bot.html)",
+          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?2.2 (+http:\/\/www.google.com\/bot.html)",
+          "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?2.2*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
