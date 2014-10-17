@@ -582,6 +582,6 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
     public function testRenderAllDivisionsFooter()
     {
         self::assertSame($this->object, $this->object->renderAllDivisionsFooter());
-        self::assertSame('</browsercapitems>' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('', file_get_contents($this->file));
     }
 }
