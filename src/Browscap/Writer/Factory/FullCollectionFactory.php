@@ -113,7 +113,7 @@ class FullCollectionFactory
 
         $jsonWriter = new JsonWriter($buildFolder . '/browscap.json');
         $formatter  = new JsonFormatter();
-        $xmlWriter->setLogger($logger)
+        $jsonWriter->setLogger($logger)
             ->setFormatter($formatter->setFilter($stdFilter))
             ->setFilter($stdFilter);
         $writerCollection->addWriter($jsonWriter);

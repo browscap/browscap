@@ -110,10 +110,10 @@ class BuildFullFileOnlyGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string  $version
+     * @param string $version
      * @param string $iniFile
      */
-    public function run($version, $iniFile)
+    public function run($version, $iniFile = null)
     {
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
@@ -122,7 +122,9 @@ class BuildFullFileOnlyGenerator
 
         $collectionCreator = new CollectionCreator();
 
-        $iniFile = $this->buildFolder . '/full_php_browscap.ini';
+        if (null === $iniFile) {
+            $iniFile = $this->buildFolder . '/full_php_browscap.ini';
+        }
 
         $collection = new DataCollection($version);
         $collection->setLogger($this->logger);

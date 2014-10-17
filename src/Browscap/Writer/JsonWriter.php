@@ -18,6 +18,7 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -327,7 +328,7 @@ class JsonWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $expander = new \Browscap\Data\Expander();
+        $expander = new Expander();
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
             $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
@@ -416,8 +417,6 @@ class JsonWriter implements WriterInterface
      */
     public function renderAllDivisionsFooter()
     {
-        fputs($this->file, '</browsercapitems>' . PHP_EOL);
-
         return $this;
     }
 }

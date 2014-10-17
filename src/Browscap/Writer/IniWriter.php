@@ -18,6 +18,7 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -322,7 +323,7 @@ class IniWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $expander = new \Browscap\Data\Expander();
+        $expander = new Expander();
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
             $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
