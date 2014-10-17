@@ -29,7 +29,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#.*) Gecko\/*"
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#.*) Gecko*"
         }
       ]
     }

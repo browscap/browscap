@@ -30,14 +30,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux", "OSX",
             "OpenBSD", "SunOS", "Win3.11", "Win3.1", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko\/*",
+          "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko*",
           "properties": {
             "Win32": "false"
           }

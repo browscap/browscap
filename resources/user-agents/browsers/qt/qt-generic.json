@@ -3,63 +3,13 @@
   "sortIndex": 1172,
   "userAgents": [
     {
-      "userAgent": "Qt Generic",
+      "userAgent": "Qt Generic for Android",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Qt Generic",
-        "Browser": "Qt",
-        "Browser_Type": "Browser",
-        "Win32": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/*Safari\/*",
-          "platforms": [
-            "ChromeOS",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/*",
-          "platforms": [
-            "ChromeOS",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
-            "Win8_1_64", "Win8_1_32"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Qt Generic for Android",
-      "properties": {
-        "Parent": "Qt Generic",
         "Browser_Type": "Browser",
         "Comment": "Qt Generic",
         "Browser": "Qt",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -105,6 +55,56 @@
             "Linux_64", "Linux",
             "OSX",
             "Vista_32", "Win7_64", "Win7_32"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Qt Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qt Generic",
+        "Browser": "Qt",
+        "Browser_Type": "Browser",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "Device_Name": "PC",
+        "Device_Maker": "Various",
+        "Device_Type": "Desktop",
+        "Device_Pointing_Method": "mouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/*Safari\/*",
+          "platforms": [
+            "ChromeOS",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
+            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/*",
+          "platforms": [
+            "ChromeOS",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX",
+            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         }
       ]

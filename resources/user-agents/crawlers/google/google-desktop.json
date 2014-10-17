@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Google Desktop",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google Desktop",

@@ -1,14 +1,15 @@
 {
-  "division": "Nokia Browser 7.3",
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.3"],
   "sortIndex": 7950,
   "userAgents": [
     {
-      "userAgent": "Nokia Browser 7.3",
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Browser 7.3",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -30,14 +31,14 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Version": "7.3",
-        "MajorVer": "7",
-        "MinorVer": "3",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "JavaScript": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC6-01*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC6-01*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -46,7 +47,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -55,16 +56,17 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
-            "Device_Name": "E7"
+            "Device_Name": "E7",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -74,7 +76,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaX7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaX7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -83,16 +85,17 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaE7-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
-            "Device_Name": "E7"
+            "Device_Name": "E7",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -101,7 +104,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* Nokia5230\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -110,7 +113,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-00*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-00*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -119,7 +122,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-03*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-03*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -128,7 +131,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-05\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-05\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -137,7 +140,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-00\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-00\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -146,7 +149,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE5-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE5-00\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -155,7 +158,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE72-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE72-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -164,7 +167,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -173,7 +176,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-4\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-4\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -182,7 +185,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-00*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/7.3*",
+          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC5-00*; * ) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -191,7 +194,7 @@
           }
         },
         {
-          "match": "Nokia702T_TD\/* (SymbianOS\/*; Series60\/* Mozilla\/5.0; *) AppleWebKit\/* (KHTML,*like Gecko*)NokiaBrowser\/7.3*Safari\/*",
+          "match": "Nokia702T_TD\/* (SymbianOS\/*; Series60\/* Mozilla\/5.0; *) AppleWebKit\/* (KHTML,*like Gecko*)NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -200,7 +203,7 @@
           }
         },
         {
-          "match": "NokiaT7-00_TD\/CMCC (SymbianOS\/3; Release\/*; Series60\/5.2 Mozilla\/5.0; * ) AppleWebKit\/* (KHTML,*like Gecko*)NokiaBrowser\/7.3*Safari\/*",
+          "match": "NokiaT7-00_TD\/CMCC (SymbianOS\/3; Release\/*; Series60\/5.2 Mozilla\/5.0; * ) AppleWebKit\/* (KHTML,*like Gecko*)NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",

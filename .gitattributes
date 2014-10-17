@@ -1,1 +1,2 @@
-composer.lock -crlf -diff
+#Ensure the markdown uses lf
+*.markdown text eol=lf 

@@ -7,7 +7,7 @@
       "platform": "WinPhone75",
       "engine": "Trident_5",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Frames": "true",

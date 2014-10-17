@@ -46,7 +46,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -78,7 +78,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",

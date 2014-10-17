@@ -37,9 +37,6 @@
           "match": "(compatible;  *; Trident\/4.0*"
         },
         {
-          "match": "* (compatible*; MSIE 8.0*"
-        },
-        {
           "match": "Microsoft Internet Explorer"
         },
         {
@@ -245,9 +242,6 @@
         },
         {
           "match": "internetexplorer*"
-        },
-        {
-          "match": "mozilla\/4.0 (compatible*; MSIE 8.0*"
         },
         {
           "match": "'Mozilla\/5.0 (Windows; U;*MSIE 6.0*",
@@ -547,7 +541,13 @@
           "match": "Mozilla\/5.0 (compatible; MSIE*; Linux*"
         },
         {
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.1*"
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; MSIE 6.1*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.1*"
         }
       ]
     }
