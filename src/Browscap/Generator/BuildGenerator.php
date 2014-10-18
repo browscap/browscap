@@ -224,7 +224,7 @@ class BuildGenerator
             $this->writerCollection
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter()
+                ->renderSectionFooter($sectionName)
             ;
         }
 
@@ -254,7 +254,7 @@ class BuildGenerator
                     $this->writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sections, $sectionName)
-                        ->renderSectionFooter()
+                        ->renderSectionFooter($sectionName)
                     ;
                 }
 
@@ -277,7 +277,7 @@ class BuildGenerator
             $this->writerCollection
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter()
+                ->renderSectionFooter($sectionName)
             ;
         }
 

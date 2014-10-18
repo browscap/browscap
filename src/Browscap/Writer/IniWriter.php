@@ -367,9 +367,11 @@ class IniWriter implements WriterInterface
     /**
      * renders the footer for a section
      *
+     * @param string $sectionName
+     *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionFooter()
+    public function renderSectionFooter($sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;

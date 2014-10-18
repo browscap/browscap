@@ -387,15 +387,23 @@ class JsonWriter implements WriterInterface
     /**
      * renders the footer for a section
      *
+     * @param string $sectionName
+     *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderSectionFooter()
+    public function renderSectionFooter($sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
         }
 
-        fputs($this->file, '    },' . PHP_EOL);
+        fputs($this->file, '    }');
+
+        if ('*' !== $sectionName) {
+            fputs($this->file, ',');
+        }
+
+        fputs($this->file, PHP_EOL);
 
         return $this;
     }

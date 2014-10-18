@@ -181,8 +181,8 @@ class BuildFullFileOnlyGenerator
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections)
-                ->renderSectionFooter()
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
+                ->renderSectionFooter($sectionName)
             ;
         }
 
@@ -210,8 +210,8 @@ class BuildFullFileOnlyGenerator
                 foreach ($sections as $sectionName => $section) {
                     $writerCollection
                         ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section, $collection, $sections)
-                        ->renderSectionFooter()
+                        ->renderSectionBody($section, $collection, $sections, $sectionName)
+                        ->renderSectionFooter($sectionName)
                     ;
                 }
 
@@ -236,8 +236,8 @@ class BuildFullFileOnlyGenerator
         foreach ($sections as $sectionName => $section) {
             $writerCollection
                 ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections)
-                ->renderSectionFooter()
+                ->renderSectionBody($section, $collection, $sections, $sectionName)
+                ->renderSectionFooter($sectionName)
             ;
         }
 
