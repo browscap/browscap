@@ -1,7 +1,7 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["6.1", "7.0", "7.1", "8.0"],
-  "sortIndex": 1945,
+  "versions": ["7.1", "8.0"],
+  "sortIndex": 1947,
   "lite": true,
   "userAgents": [
     {
@@ -104,12 +104,6 @@
             "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C_8_0",
             "iOS_C"
-          ]
-        },
-        {
-          "match": "MobileSafari\/95??.* CFNetwork\/* Darwin\/*",
-          "platforms": [
-            "Darwin"
           ]
         }
       ]
