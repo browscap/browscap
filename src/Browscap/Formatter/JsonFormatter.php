@@ -71,9 +71,9 @@ class JsonFormatter implements FormatterInterface
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
-                    $valueOutput = 'true';
+                    $valueOutput = '"true"';
                 } elseif (false === $value || $value === 'false') {
-                    $valueOutput = 'false';
+                    $valueOutput = '"false"';
                 } else {
                     $valueOutput = '""';
                 }
@@ -125,13 +125,13 @@ class JsonFormatter implements FormatterInterface
     private function json_encode($val)
     {
         if ($val === null) {
-            return 'null';
+            return '"null"';
         }
         if ($val === true) {
-            return 'true';
+            return '"true"';
         }
         if ($val === false) {
-            return 'false';
+            return '"false"';
         }
         if (is_string($val) || is_numeric($val)) {
             return '"' . addslashes($val) . '"';

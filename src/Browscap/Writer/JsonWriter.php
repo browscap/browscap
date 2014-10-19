@@ -213,10 +213,10 @@ class JsonWriter implements WriterInterface
 
         $this->getLogger()->debug('rendering comments');
 
-        fputs($this->file, '    "comments": [' . PHP_EOL);
+        fputs($this->file, '  "comments": [' . PHP_EOL);
 
         foreach ($comments as $i => $text) {
-            fputs($this->file, '        ' . json_encode($text));
+            fputs($this->file, '    ' . json_encode($text));
 
             if ($i < (count($comments) - 1)) {
                 fputs($this->file, ',');
@@ -225,7 +225,7 @@ class JsonWriter implements WriterInterface
             fputs($this->file, PHP_EOL);
         }
 
-        fputs($this->file, '    ],' . PHP_EOL);
+        fputs($this->file, '  ],' . PHP_EOL);
 
         return $this;
     }
@@ -245,7 +245,7 @@ class JsonWriter implements WriterInterface
 
         $this->getLogger()->debug('rendering version information');
 
-        fputs($this->file, '    "GJK_Browscap_Version": {' . PHP_EOL);
+        fputs($this->file, '  "GJK_Browscap_Version": {' . PHP_EOL);
 
         if (!isset($versionData['version'])) {
             $versionData['version'] = '0';
@@ -255,10 +255,10 @@ class JsonWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fputs($this->file, '        "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
-        fputs($this->file, '        "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
+        fputs($this->file, '    "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
+        fputs($this->file, '    "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
 
-        fputs($this->file, '    },' . PHP_EOL);
+        fputs($this->file, '  },' . PHP_EOL);
 
         return $this;
     }
@@ -301,7 +301,7 @@ class JsonWriter implements WriterInterface
             return $this;
         }
 
-        fputs($this->file, '    ' . $this->getFormatter()->formatPropertyName($sectionName) . ': {' . PHP_EOL);
+        fputs($this->file, '  ' . $this->getFormatter()->formatPropertyName($sectionName) . ': ');
 
         return $this;
     }
@@ -342,6 +342,7 @@ class JsonWriter implements WriterInterface
                 continue;
             }
 
+            /**/
             if (isset($section['Parent']) && 'Parent' !== $property) {
                 if ('DefaultProperties' === $section['Parent']
                     || !isset($sections[$section['Parent']])
@@ -361,16 +362,23 @@ class JsonWriter implements WriterInterface
                     }
                 }
             }
+            /**/
 
             $propertiesToOutput[$property] = $section[$property];
             $lastProperty                  = $property;
         }
+        
+        fputs(
+                $this->file,
+                $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+            );
 
+        /*
         foreach ($propertiesToOutput as $property => $value) {
             //         "Parent": "DefaultProperties",
             fputs(
                 $this->file,
-                '        ' . $this->getFormatter()->formatPropertyName($property)
+                '    ' . $this->getFormatter()->formatPropertyName($property)
                 . ': ' . $this->getFormatter()->formatPropertyValue($value, $property)
             );
 
@@ -380,6 +388,7 @@ class JsonWriter implements WriterInterface
 
             fputs($this->file, PHP_EOL);
         }
+        /**/
 
         return $this;
     }
@@ -397,7 +406,7 @@ class JsonWriter implements WriterInterface
             return $this;
         }
 
-        fputs($this->file, '    }');
+        //fputs($this->file, '');
 
         if ('*' !== $sectionName) {
             fputs($this->file, ',');
