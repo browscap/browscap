@@ -7510,6 +7510,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#BN NookHD+ Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook HD+",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Name": "Nook HD+"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ME301T Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",

@@ -46,10 +46,22 @@
           "match": "Internet Explorer *"
         },
         {
+          "match": "Mozilla\/4.0 (compatible; MSIE 10.*"
+        },
+        {
           "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/4.0*"
         },
         {
           "match": "Mozilla\/?.0 (compatible; MSIE 10.?; *Trident\/5.0*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 11.*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 11.?; *Trident\/4.0*"
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; MSIE 11.?; *Trident\/5.0*"
         },
         {
           "match": "Mozilla\/?.0 (compatible; MSIE 9.?; *Trident\/4.0*"
