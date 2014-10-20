@@ -2452,6 +2452,23 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/1.0*",
+          "properties": {
+            "Browser": "SMTBot",
+            "Browser_Maker": "SimilarTech Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/*",
+          "properties": {
+            "Browser": "SMTBot",
+            "Browser_Maker": "SimilarTech Ltd."
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; ca-crawler\/1.0*",
           "properties": {
             "Browser": "ca-crawler",
