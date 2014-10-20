@@ -19,6 +19,7 @@ namespace Browscap\Generator;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Expander;
+use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
@@ -106,7 +107,7 @@ class BuildGenerator
      *
      * @return \Browscap\Generator\BuildGenerator
      */
-    public function setCollectionCreator($collectionCreator)
+    public function setCollectionCreator(CollectionCreator $collectionCreator)
     {
         $this->collectionCreator = $collectionCreator;
 
@@ -205,6 +206,8 @@ class BuildGenerator
         ;
 
         $this->getLogger()->info('finished output of header and version');
+        
+        $output = array();
 
         $this->getLogger()->info('started output of divisions');
 
@@ -249,6 +252,10 @@ class BuildGenerator
                 $this->writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach ($sections as $sectionName => $section) {
+                    if (in_array($sectionName, $output)) {
+                        throw new \UnexpectedValueException('tried to add section "' . $sectionName . '" more thn once');
+                    }
+                    
                     $collection->checkProperty($sectionName, $section);
 
                     $this->writerCollection
@@ -256,6 +263,8 @@ class BuildGenerator
                         ->renderSectionBody($section, $collection, $sections, $sectionName)
                         ->renderSectionFooter($sectionName)
                     ;
+                    
+                    $output[] = $sectionName;
                 }
 
                 $this->writerCollection->renderDivisionFooter();
