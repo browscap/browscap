@@ -2435,6 +2435,40 @@
           }
         },
         {
+          "match": "NetzCheckBot\/1.0*",
+          "properties": {
+            "Browser": "NetzCheckBot",
+            "Browser_Maker": "netzcheck.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NetzCheckBot\/*",
+          "properties": {
+            "Browser": "NetzCheckBot",
+            "Browser_Maker": "netzcheck.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/1.0*",
+          "properties": {
+            "Browser": "SMTBot",
+            "Browser_Maker": "SimilarTech Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/*",
+          "properties": {
+            "Browser": "SMTBot",
+            "Browser_Maker": "SimilarTech Ltd."
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; ca-crawler\/1.0*",
           "properties": {
             "Browser": "ca-crawler",

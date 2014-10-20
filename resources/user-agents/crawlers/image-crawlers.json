@@ -148,6 +148,13 @@
           }
         },
         {
+          "match": "Evernote Clip Resolver*",
+          "properties": {
+            "Browser": "Evernote Clip Resolver",
+            "Browser_Maker": "Evernote"
+          }
+        },
+        {
           "match": "Thumbor\/3.14*",
           "properties": {
             "Browser": "Thumbor",
