@@ -9,6 +9,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser",
         "Browser": "Motorola Internet Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Motorola",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -17,6 +19,7 @@
         "isTablet": "false",
         "Device_Name": "Motorola",
         "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
         "Device_Type": "Mobile Phone"
       },
       "children": [

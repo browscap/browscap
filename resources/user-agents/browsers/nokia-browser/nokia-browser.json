@@ -42,16 +42,25 @@
           }
         },
         {
-          "match": "Nokia2323c-2\/2.0 (*",
+          "match": "Nokia2320c-2b\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "2323c",
-            "Device_Name": "2323c"
+            "Device_Name": "2320 classic"
           }
         },
         {
-          "match": "Nokia2650\/1.0 (*",
+          "match": "Nokia2323c-2\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "2323c",
+            "Device_Name": "2323 classic"
+          }
+        },
+        {
+          "match": "Nokia2650\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -60,7 +69,7 @@
           }
         },
         {
-          "match": "Nokia2720a-2b\/2.0 (08.64) *",
+          "match": "Nokia2720a-2b\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -69,7 +78,7 @@
           }
         },
         {
-          "match": "Nokia2730c-1\/2.0 (*",
+          "match": "Nokia2730c-1\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -87,7 +96,7 @@
           }
         },
         {
-          "match": "Nokia3100\/1.0 (*",
+          "match": "Nokia3100\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -96,43 +105,7 @@
           }
         },
         {
-          "match": "Nokia3100\/1.0 (05.*)*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100",
-            "Device_Name": "3100"
-          }
-        },
-        {
-          "match": "Nokia3100\/1.0 (05.54)*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100",
-            "Device_Name": "3100"
-          }
-        },
-        {
-          "match": "Nokia3100\/1.0 (06.11)*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100",
-            "Device_Name": "3100"
-          }
-        },
-        {
-          "match": "Nokia3100\/1.0 (06.?1)*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100",
-            "Device_Name": "3100"
-          }
-        },
-        {
-          "match": "Nokia3100b\/1.0 (*",
+          "match": "Nokia3100b\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -141,7 +114,7 @@
           }
         },
         {
-          "match": "Nokia3108\/1.0 (03.01)*",
+          "match": "Nokia3108\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -150,7 +123,7 @@
           }
         },
         {
-          "match": "Nokia3120b\/1.0 *",
+          "match": "Nokia3120b\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -159,7 +132,7 @@
           }
         },
         {
-          "match": "Nokia3200\/1.0 (*",
+          "match": "Nokia3200\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -168,7 +141,7 @@
           }
         },
         {
-          "match": "Nokia3220\/2.0 (03.*",
+          "match": "Nokia3220\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -177,25 +150,7 @@
           }
         },
         {
-          "match": "Nokia3220\/2.0 (04.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3220",
-            "Device_Name": "3220"
-          }
-        },
-        {
-          "match": "Nokia3220\/2.0 (05.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3220",
-            "Device_Name": "3220"
-          }
-        },
-        {
-          "match": "Nokia3300\/1.0 (*",
+          "match": "Nokia3300\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -204,34 +159,7 @@
           }
         },
         {
-          "match": "Nokia3300\/1.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3300",
-            "Device_Name": "3300"
-          }
-        },
-        {
-          "match": "Nokia3300\/2.0 (3.07) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3300",
-            "Device_Name": "3300"
-          }
-        },
-        {
-          "match": "Nokia3300\/2.0 (4.2?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3300",
-            "Device_Name": "3300"
-          }
-        },
-        {
-          "match": "Nokia3410\/1.0 (0*",
+          "match": "Nokia3410\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -240,7 +168,7 @@
           }
         },
         {
-          "match": "Nokia3500c\/2.0 (05.51) *",
+          "match": "Nokia3500c\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -249,7 +177,7 @@
           }
         },
         {
-          "match": "Nokia3510\/1.0 (*",
+          "match": "Nokia3510\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -258,7 +186,7 @@
           }
         },
         {
-          "match": "Nokia3510i\/1.0 (*",
+          "match": "Nokia3510i\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -267,52 +195,7 @@
           }
         },
         {
-          "match": "Nokia3510i\/1.0 (04.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
-        },
-        {
-          "match": "Nokia3510i\/1.0 (05.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
-        },
-        {
-          "match": "Nokia3510i\/1.0 (05.25) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
-        },
-        {
-          "match": "Nokia3510i\/1.0 (05.30) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
-        },
-        {
-          "match": "Nokia3510i\/1.0 (05.35) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
-        },
-        {
-          "match": "Nokia3560\/1.0 (*",
+          "match": "Nokia3560\/*",
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -1916,6 +1799,18 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N95",
             "Device_Name": "N95"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Nokia6120c\/*",
+          "properties": {
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Code_Name": "6120c",
+            "Device_Name": "6120 Classic"
           },
           "platforms": [
             "SymbianOS"

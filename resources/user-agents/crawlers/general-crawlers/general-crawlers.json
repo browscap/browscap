@@ -446,7 +446,8 @@
         {
           "match": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
           "properties": {
-            "Browser": "Healthdash"
+            "Browser": "genevabot",
+            "Browser_Maker": "healthdash.com"
           }
         },
         {
@@ -1241,6 +1242,13 @@
           "platforms": [
             "Linux_64"
           ]
+        },
+        {
+          "match": "thumbshots-de-bot*",
+          "properties": {
+            "Browser": "thumbshots-de-bot",
+            "Browser_Maker": "thumbshots.de"
+          }
         },
         {
           "match": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
@@ -2137,6 +2145,23 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/1.0*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/*",
+          "properties": {
+            "Browser": "ZumBot",
+            "Browser_Maker": "ZUMinternet Corp"
+          }
+        },
+        {
           "match": "OpenWebSpider v0.1*",
           "properties": {
             "Browser": "OpenWebSpider",
@@ -2407,6 +2432,305 @@
           "properties": {
             "Browser": "GG PeekBot",
             "Browser_Maker": "gadu-gadu.pl"
+          }
+        },
+        {
+          "match": "NetzCheckBot\/1.0*",
+          "properties": {
+            "Browser": "NetzCheckBot",
+            "Browser_Maker": "netzcheck.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NetzCheckBot\/*",
+          "properties": {
+            "Browser": "NetzCheckBot",
+            "Browser_Maker": "netzcheck.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ca-crawler\/1.0*",
+          "properties": {
+            "Browser": "ca-crawler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ca-crawler\/*",
+          "properties": {
+            "Browser": "ca-crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; publiclibraryarchive.org\/1.0*",
+          "properties": {
+            "Browser": "publiclibraryarchive Bot",
+            "Browser_Maker": "publiclibraryarchive.org",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; publiclibraryarchive.org\/*",
+          "properties": {
+            "Browser": "publiclibraryarchive Bot",
+            "Browser_Maker": "publiclibraryarchive.org"
+          }
+        },
+        {
+          "match": "BacklinkCrawler*",
+          "properties": {
+            "Browser": "BacklinkCrawler",
+            "Browser_Maker": "backlinktest.com"
+          }
+        },
+        {
+          "match": "ThumbnailAgent",
+          "properties": {
+            "Browser": "ThumbnailAgent"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SoftListBot\/2.2*",
+          "properties": {
+            "Browser": "SoftListBot",
+            "Browser_Maker": "softlist.us",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SoftListBot\/*",
+          "properties": {
+            "Browser": "SoftListBot",
+            "Browser_Maker": "softlist.us"
+          }
+        },
+        {
+          "match": "JobRoboter\/1.1*",
+          "properties": {
+            "Browser": "JobRoboter",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "JobRoboter\/*",
+          "properties": {
+            "Browser": "JobRoboter"
+          }
+        },
+        {
+          "match": "LinkStats Bot",
+          "properties": {
+            "Browser": "LinkStats Bot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/6.1*",
+          "properties": {
+            "Browser": "sReleaseBot",
+            "Browser_Maker": "srelease.com",
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/*",
+          "properties": {
+            "Browser": "sReleaseBot",
+            "Browser_Maker": "srelease.com"
+          }
+        },
+        {
+          "match": "ThumbSniper *",
+          "properties": {
+            "Browser": "ThumbSniper",
+            "Browser_Maker": "Thomas Schulte"
+          }
+        },
+        {
+          "match": "stq_bot *",
+          "properties": {
+            "Browser": "Searchteq Bot",
+            "Browser_Maker": "SEARCHTEQ GmbH"
+          }
+        },
+        {
+          "match": "SNK Screenshot Bot\/0.20*",
+          "properties": {
+            "Browser": "Save n Keep Screenshot Bot",
+            "Browser_Maker": "savenkeep.com"
+          }
+        },
+        {
+          "match": "SNK Screenshot Bot\/*",
+          "properties": {
+            "Browser": "Save n Keep Screenshot Bot",
+            "Browser_Maker": "savenkeep.com"
+          }
+        },
+        {
+          "match": "Phantom.js bot*",
+          "properties": {
+            "Browser": "Phantom.js bot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Optimizer)*",
+          "properties": {
+            "Browser": "Optimizer Bot"
+          }
+        },
+        {
+          "match": "BuiBui-Bot\/1.0*",
+          "properties": {
+            "Browser": "BuiBui-Bot",
+            "Browser_Maker": "dadapro.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BuiBui-Bot\/*",
+          "properties": {
+            "Browser": "BuiBui-Bot",
+            "Browser_Maker": "dadapro.com"
+          }
+        },
+        {
+          "match": "ImplisenseBot 1.0*",
+          "properties": {
+            "Browser": "ImplisenseBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ImplisenseBot *",
+          "properties": {
+            "Browser": "ImplisenseBot"
+          }
+        },
+        {
+          "match": "AboutUsBot\/* (Website Analysis*",
+          "properties": {
+            "Browser": "AboutUs Bot",
+            "Browser_Maker": "aboutus.org"
+          }
+        },
+        {
+          "match": "Bot.AraTurka.com\/*",
+          "properties": {
+            "Browser": "Bot.AraTurka.com"
+          }
+        },
+        {
+          "match": "http_requester\/0.1*",
+          "properties": {
+            "Browser": "http_requester",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "http_requester\/*",
+          "properties": {
+            "Browser": "http_requester"
+          }
+        },
+        {
+          "match": "*java*"
+        },
+        {
+          "match": "HRCrawler\/2.0*",
+          "properties": {
+            "Browser": "HRCrawler",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "HRCrawler\/*",
+          "properties": {
+            "Browser": "HRCrawler"
+          }
+        },
+        {
+          "match": "isc header collector handlers*",
+          "properties": {
+            "Browser": "isc header collector handlers"
+          }
+        },
+        {
+          "match": "Cliqzbot\/0.1*",
+          "properties": {
+            "Browser": "Cliqzbot",
+            "Browser_Maker": "10betterpages GmbH",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Cliqzbot\/*",
+          "properties": {
+            "Browser": "Cliqzbot",
+            "Browser_Maker": "10betterpages GmbH"
+          }
+        },
+        {
+          "match": "Forum Poster V3*",
+          "properties": {
+            "Browser": "Forum Poster",
+            "Browser_Maker": "forumposter.us",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Forum Poster*",
+          "properties": {
+            "Browser": "Forum Poster",
+            "Browser_Maker": "forumposter.us"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebMasterAid\/1.0*",
+          "properties": {
+            "Browser": "WebMasterAid",
+            "Browser_Maker": "wmaid.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebMasterAid\/*",
+          "properties": {
+            "Browser": "WebMasterAid",
+            "Browser_Maker": "wmaid.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Muenster University of Applied Sciences; *itsscan*",
+          "properties": {
+            "Browser": "itsscan",
+            "Browser_Maker": "Muenster University of Applied Sciences"
           }
         }
       ]

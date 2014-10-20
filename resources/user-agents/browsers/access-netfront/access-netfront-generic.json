@@ -1,6 +1,6 @@
 {
   "division": "Access NetFront Generic",
-  "sortIndex": 2142,
+  "sortIndex": 1542,
   "lite": true,
   "userAgents": [
     {
@@ -9,7 +9,9 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront Generic",
-        "Browser": "Access NetFront",
+        "Browser": "NetFront",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Access",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

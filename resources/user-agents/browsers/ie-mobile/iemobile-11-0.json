@@ -9,7 +9,7 @@
       "platform": "WinPhone8.1",
       "engine": "Trident_7",
       "properties": {
-        "Parent": "IEMobile",
+        "Parent": "DefaultProperties",
         "Comment": "IEMobile",
         "Browser": "IEMobile",
         "Frames": "true",

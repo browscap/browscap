@@ -10,6 +10,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
         "Browser": "Jasmine",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Pivotal Labs",
         "Version": "0.8",
         "MajorVer": "0",
         "MinorVer": "8",
@@ -124,7 +126,8 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230"
+            "Device_Name": "GT-S5230",
+            "Device_Type": "Mobile Phone"
           }
         },
         {
@@ -133,7 +136,8 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230"
+            "Device_Name": "GT-S5230",
+            "Device_Type": "Mobile Phone"
           }
         },
         {
@@ -142,7 +146,8 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230"
+            "Device_Name": "GT-S5230",
+            "Device_Type": "Mobile Phone"
           }
         },
         {

@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
-      "platform": "Debian",
+      "platform": "Linux",
       "engine": "Gecko_1_9",
       "properties": {
         "Parent": "DefaultProperties",
@@ -31,15 +31,9 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#* (Debian-*)*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Debian_32_on_x64_2", "Debian_64", "Debian"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#* (like Firefox\/*",
-          "platforms": [
-            "Debian_64", "Debian"
+            "Linux_32_on_x64_2", "Linux_64", "Linux"
           ]
         }
       ]

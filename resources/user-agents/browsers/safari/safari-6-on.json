@@ -1,6 +1,6 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [6, "6.1", 7, 8],
+  "versions": [6, "6.1", "6.2", 7, "7.1", 8],
   "sortIndex": 1948,
   "lite": true,
   "userAgents": [
@@ -46,7 +46,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -78,7 +78,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Safari #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
         "Version": "#MAJORVER#.#MINORVER#",

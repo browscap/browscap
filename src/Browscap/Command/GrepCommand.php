@@ -18,9 +18,11 @@
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\GrepGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
+use Browscap\Writer\Factory\FullPhpWriterFactory;
 use phpbrowscap\Browscap;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -51,11 +53,6 @@ class GrepCommand extends Command
      * @var string
      */
     const FOUND_INVISIBLE = 'invisible';
-
-    /**
-     * @var \phpbrowscap\Browscap
-     */
-    private $browscap;
 
     /**
      * @var \Psr\Log\LoggerInterface
@@ -91,9 +88,9 @@ class GrepCommand extends Command
      * @param InputInterface  $input  An InputInterface instance
      * @param OutputInterface $output An OutputInterface instance
      *
+     * @throws \Exception
      * @return null|integer null or 0 if everything went fine, or an error code
      *
-     * @throws \LogicException When this abstract method is not implemented
      * @see    setCode()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -132,23 +129,23 @@ class GrepCommand extends Command
                 $cacheDir
             );
 
-            $writerCollectionFactory = new \Browscap\Writer\Factory\FullPhpWriterFactory();
-            $writerCollection        = $writerCollectionFactory->createCollection($logger, $cacheDir);
+            $writerCollectionFactory = new FullPhpWriterFactory();
+            $writerCollection        = $writerCollectionFactory->createCollection($this->logger, $cacheDir);
 
             $buildGenerator
-                ->setLogger($logger)
+                ->setLogger($this->logger)
                 ->setCollectionCreator(new CollectionCreator())
                 ->setWriterCollection($writerCollection)
                 ->run($input->getArgument('version'), false)
             ;
         }
 
-        $generator = new \Browscap\Generator\GrepGenerator();
+        $generator = new GrepGenerator();
         $browscap  = new Browscap($cacheDir);
         $browscap->localFile = $iniFile;
 
         $generator
-            ->setLogger($logger)
+            ->setLogger($this->logger)
             ->run($browscap, $inputFile, $mode)
         ;
 

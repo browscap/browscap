@@ -6,6 +6,7 @@
     {
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "platform": "Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
