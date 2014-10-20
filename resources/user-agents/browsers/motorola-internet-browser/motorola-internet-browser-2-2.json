@@ -4,11 +4,12 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.2",
-      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.2",
         "Browser": "Motorola Internet Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Motorola",
         "Version": "2.2",
         "MajorVer": "2",
         "MinorVer": "2",
@@ -20,6 +21,7 @@
         "isTablet": "false",
         "Device_Name": "Motorola",
         "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
         "Device_Type": "Mobile Phone"
       },
       "children": [
@@ -475,21 +477,14 @@
           }
         },
         {
-          "match": "MOT-RAZRV3x\/85.* MIB\/BER2.2 *",
+          "match": "MOT-RAZRV3x\/* MIB\/BER2.2 *",
           "properties": {
             "Device_Code_Name": "RAZRV3x",
             "Device_Name": "RAZRV3x"
           }
         },
         {
-          "match": "MOT-RAZRV3xv\/85.* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "RAZRV3xv",
-            "Device_Name": "RAZRV3xv"
-          }
-        },
-        {
-          "match": "MOT-RAZRV3xv\/85.9* MIB\/BER2.2 *",
+          "match": "MOT-RAZRV3xv\/* MIB\/BER2.2 *",
           "properties": {
             "Device_Code_Name": "RAZRV3xv",
             "Device_Name": "RAZRV3xv"
@@ -510,13 +505,6 @@
           }
         },
         {
-          "match": "MOT-U15\/71.2* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "U15",
-            "Device_Name": "U15"
-          }
-        },
-        {
           "match": "MOT-Unx\/0B.D1.1FR MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "Unx",
@@ -531,77 +519,63 @@
           }
         },
         {
-          "match": "MOT-V180\/0B.D* MIB\/2.2*",
+          "match": "MOT-V180\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V180",
             "Device_Name": "V180"
           }
         },
         {
-          "match": "MOT-V180ENS\/0B.D* MIB\/2.2*",
+          "match": "MOT-V180ENS\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V180ENS",
             "Device_Name": "V180ENS"
           }
         },
         {
-          "match": "MOT-V185\/0B.D* MIB\/2.2*",
+          "match": "MOT-V185\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V185",
             "Device_Name": "V185"
           }
         },
         {
-          "match": "MOT-V186\/08.3* MIB\/2.2*",
+          "match": "MOT-V186\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V186",
             "Device_Name": "V186"
           }
         },
         {
-          "match": "MOT-V188\/0B.D* MIB\/2.2*",
+          "match": "MOT-V188\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V188",
             "Device_Name": "V188"
           }
         },
         {
-          "match": "MOT-V190\/0A.5* MIB\/2.2*",
+          "match": "MOT-V190\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V190",
             "Device_Name": "V190"
           }
         },
         {
-          "match": "MOT-V191\/0A.* MIB\/2.2*",
+          "match": "MOT-V191\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V191",
             "Device_Name": "V191"
           }
         },
         {
-          "match": "MOT-V191\/0A.52.47R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V191",
-            "Device_Name": "V191"
-          }
-        },
-        {
-          "match": "MOT-V220\/0B.D* MIB\/2.2*",
+          "match": "MOT-V220\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V220",
             "Device_Name": "V220"
           }
         },
         {
-          "match": "MOT-V220\/0B.D2.2* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V220",
-            "Device_Name": "V220"
-          }
-        },
-        {
-          "match": "MOT-V220ENS\/0B.D* MIB\/2.2*",
+          "match": "MOT-V220ENS\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V220ENS",
             "Device_Name": "V220ENS"
@@ -609,13 +583,6 @@
         },
         {
           "match": "MOT-V235\/* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V235",
-            "Device_Name": "V235"
-          }
-        },
-        {
-          "match": "MOT-V235\/0A.3* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V235",
             "Device_Name": "V235"
@@ -636,70 +603,14 @@
           }
         },
         {
-          "match": "MOT-V3\/0* MIB\/2.2*",
+          "match": "MOT-V3\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V3",
             "Device_Name": "V3"
           }
         },
         {
-          "match": "MOT-V3\/0E.40.3ER MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V3\/0E.40.6* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V3\/0E.40.7* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V3\/0E.40.9* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V3\/0E.42.0* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V3\/0E.42.0DR MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3",
-            "Device_Name": "V3"
-          }
-        },
-        {
-          "match": "MOT-V300\/0B.08* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V300",
-            "Device_Name": "V300"
-          }
-        },
-        {
-          "match": "MOT-V300\/0B.09* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V300",
-            "Device_Name": "V300"
-          }
-        },
-        {
-          "match": "MOT-V300\/0B.09.* MIB\/2.2 *",
+          "match": "MOT-V300\/* MIB\/2.2 *",
           "properties": {
             "Device_Code_Name": "V300",
             "Device_Name": "V300"
@@ -713,42 +624,7 @@
           }
         },
         {
-          "match": "MOT-V303\/0B.91.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V303",
-            "Device_Name": "V303"
-          }
-        },
-        {
-          "match": "MOT-V360\/08.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V360",
-            "Device_Name": "V360"
-          }
-        },
-        {
-          "match": "MOT-V360\/08.B7.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V360",
-            "Device_Name": "V360"
-          }
-        },
-        {
-          "match": "MOT-V360\/08.B7.8* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V360",
-            "Device_Name": "V360"
-          }
-        },
-        {
-          "match": "MOT-V360\/08.C* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V360",
-            "Device_Name": "V360"
-          }
-        },
-        {
-          "match": "MOT-V360\/08.D* MIB\/2.2*",
+          "match": "MOT-V360\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V360",
             "Device_Name": "V360"
@@ -762,21 +638,14 @@
           }
         },
         {
-          "match": "MOT-V360v\/01.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V360v",
-            "Device_Name": "V360v"
-          }
-        },
-        {
-          "match": "MOT-V361\/08.* MIB\/2.2*",
+          "match": "MOT-V361\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V361",
             "Device_Name": "V361"
           }
         },
         {
-          "match": "MOT-V365\/08.CC.13R MIB\/2.2*",
+          "match": "MOT-V365\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V365",
             "Device_Name": "V365"
@@ -790,59 +659,24 @@
           }
         },
         {
-          "match": "MOT-V3i*",
+          "match": "MOT-V3i\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V3i",
             "Device_Name": "V3i"
           }
         },
         {
-          "match": "MOT-V3i\/08.B4.3* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3i",
-            "Device_Name": "V3i"
-          }
-        },
-        {
-          "match": "MOT-V3i\/08.B4.8* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3i",
-            "Device_Name": "V3i"
-          }
-        },
-        {
-          "match": "MOT-V3i\/08.D8.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3i",
-            "Device_Name": "V3i"
-          }
-        },
-        {
-          "match": "MOT-V3i\/0E.42.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3i",
-            "Device_Name": "V3i"
-          }
-        },
-        {
-          "match": "MOT-V3i_iTunes\/08.* MIB\/2.2*",
+          "match": "MOT-V3i_iTunes\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V3i iTunes",
             "Device_Name": "V3i iTunes"
           }
         },
         {
-          "match": "MOT-V3i_iTunes\/08.* MIB\/BER2.2 *",
+          "match": "MOT-V3i_iTunes\/* MIB\/BER2.2 *",
           "properties": {
             "Device_Code_Name": "V3i",
             "Device_Name": "V3i"
-          }
-        },
-        {
-          "match": "MOT-V3i_iTunes\/08.B4.2* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3i iTunes",
-            "Device_Name": "V3i iTunes"
           }
         },
         {
@@ -853,21 +687,14 @@
           }
         },
         {
+          "match": "MOT-V3r\/* MIB\/2.2*",
+          "properties": {
+            "Device_Code_Name": "V3r",
+            "Device_Name": "V3r"
+          }
+        },
+        {
           "match": "MOT-V3r*",
-          "properties": {
-            "Device_Code_Name": "V3r",
-            "Device_Name": "V3r"
-          }
-        },
-        {
-          "match": "MOT-V3r\/08.BD.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3r",
-            "Device_Name": "V3r"
-          }
-        },
-        {
-          "match": "MOT-V3r\/08.BD.D* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V3r",
             "Device_Name": "V3r"
@@ -881,49 +708,28 @@
           }
         },
         {
-          "match": "MOT-V3re\/0E.41.22R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V3re",
-            "Device_Name": "V3re"
-          }
-        },
-        {
-          "match": "MOT-V400\/0B.* MIB\/2.2 *",
+          "match": "MOT-V400\/* MIB\/2.2 *",
           "properties": {
             "Device_Code_Name": "V400",
             "Device_Name": "V400"
           }
         },
         {
-          "match": "MOT-V500\/0B.* MIB\/2.2 *",
+          "match": "MOT-V500\/* MIB\/2.2 *",
           "properties": {
             "Device_Code_Name": "V500",
             "Device_Name": "V500"
           }
         },
         {
-          "match": "MOT-V500\/R1.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V500",
-            "Device_Name": "V500"
-          }
-        },
-        {
-          "match": "MOT-V505\/0B.09.* MIB\/2.2 *",
+          "match": "MOT-V505\/* MIB\/2.2 *",
           "properties": {
             "Device_Code_Name": "V505",
             "Device_Name": "V505"
           }
         },
         {
-          "match": "MOT-V505\/0B.09.4DR MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V505",
-            "Device_Name": "V505"
-          }
-        },
-        {
-          "match": "MOT-V525M\/0B.09.* MIB\/2.2 *",
+          "match": "MOT-V525M\/* MIB\/2.2 *",
           "properties": {
             "Device_Code_Name": "V525M",
             "Device_Name": "V525M"
@@ -937,21 +743,21 @@
           }
         },
         {
-          "match": "MOT-V545\/0E.66.* MIB\/2.2*",
+          "match": "MOT-V545\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V545",
             "Device_Name": "V545"
           }
         },
         {
-          "match": "MOT-V547\/08.1* MIB\/2.2*",
+          "match": "MOT-V547\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V547",
             "Device_Name": "V547"
           }
         },
         {
-          "match": "MOT-V550\/0E.6* MIB\/2.2*",
+          "match": "MOT-V550\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V550",
             "Device_Name": "V550"
@@ -965,119 +771,98 @@
           }
         },
         {
-          "match": "MOT-V551J\/08.18.* MIB\/2.2*",
+          "match": "MOT-V551J\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V551J",
             "Device_Name": "V551J"
           }
         },
         {
-          "match": "MOT-V555\/08.1* MIB\/2.2*",
+          "match": "MOT-V555\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V555",
             "Device_Name": "V555"
           }
         },
         {
-          "match": "MOT-V557\/08.2* MIB\/2.2*",
+          "match": "MOT-V557\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V557",
             "Device_Name": "V557"
           }
         },
         {
-          "match": "MOT-V557p\/08.27.* MIB\/2.2*",
+          "match": "MOT-V557p\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V557p",
             "Device_Name": "V557p"
           }
         },
         {
-          "match": "MOT-V6\/08.83.* MIB\/2.2*",
+          "match": "MOT-V6\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V6",
             "Device_Name": "V6"
           }
         },
         {
-          "match": "MOT-V600\/0* MIB\/2.2*",
+          "match": "MOT-V600\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V600",
             "Device_Name": "V600"
           }
         },
         {
-          "match": "MOT-V600\/0B.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "V600",
-            "Device_Name": "V600"
-          }
-        },
-        {
-          "match": "MOT-V600i\/0E.65.* MIB\/2.2*",
+          "match": "MOT-V600i\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V600i",
             "Device_Name": "V600i"
           }
         },
         {
-          "match": "MOT-V620\/0* MIB\/2.2*",
+          "match": "MOT-V620\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V620",
             "Device_Name": "V620"
           }
         },
         {
-          "match": "MOT-V635\/08.* MIB\/2.2*",
+          "match": "MOT-V635\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V635",
             "Device_Name": "V635"
           }
         },
         {
-          "match": "MOT-V8\/08.B7.* MIB\/2.2*",
+          "match": "MOT-V8\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V8",
             "Device_Name": "V8"
           }
         },
         {
-          "match": "MOT-V80\/0* MIB\/2.2*",
+          "match": "MOT-V80\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V80",
             "Device_Name": "V80"
           }
         },
         {
-          "match": "MOT-V975\/8* MIB\/2.2*",
+          "match": "MOT-V975\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V975",
             "Device_Name": "V975"
           }
         },
         {
-          "match": "MOT-V975\/82.31.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V975",
-            "Device_Name": "V975"
-          }
-        },
-        {
-          "match": "MOT-V980\/80.2* MIB\/2.2*",
+          "match": "MOT-V980\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V980",
             "Device_Name": "V980"
           }
         },
         {
-          "match": "MOT-V980M\/80.2F.63? MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "V980M",
-            "Device_Name": "V980M"
-          }
-        },
-        {
-          "match": "MOT-V980M\/83.* MIB\/2.2*",
+          "match": "MOT-V980M\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V980M",
             "Device_Name": "V980M"
@@ -1091,14 +876,14 @@
           }
         },
         {
-          "match": "MOT-Z3\/08.00.* MIB\/BER2.2 *",
+          "match": "MOT-Z3\/* MIB\/BER2.2 *",
           "properties": {
             "Device_Code_Name": "Z3",
             "Device_Name": "Z3"
           }
         },
         {
-          "match": "mot-V3\/OE.40.79R MIB\/2.2*",
+          "match": "mot-V3\/* MIB\/2.2*",
           "properties": {
             "Device_Code_Name": "V3",
             "Device_Name": "V3"
