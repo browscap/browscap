@@ -67,7 +67,7 @@
           "properties": {
             "Browser": "Nmap Scripting Engine",
             "Browser_Maker": "Gordon Lyon",
-            "Browser_Type": "Library"
+            "Browser_Type": "Bot/Crawler"
           }
         }
       ]
