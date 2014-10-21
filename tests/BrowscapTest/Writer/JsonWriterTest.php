@@ -167,7 +167,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderHeader($header));
         self::assertSame(
-            '    "comments": [' . PHP_EOL . '        "TestData to be renderd into the Header"' . PHP_EOL . '    ],'
+            '  "comments": [' . PHP_EOL . '    "TestData to be renderd into the Header"' . PHP_EOL . '  ],'
             . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -209,8 +209,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
-            '    "GJK_Browscap_Version": {' . PHP_EOL . '        "Version": "test",' . PHP_EOL
-            . '        "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '    },' . PHP_EOL,
+            '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "test",' . PHP_EOL
+            . '    "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '  },' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -226,8 +226,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
-            '    "GJK_Browscap_Version": {' . PHP_EOL . '        "Version": "0",' . PHP_EOL
-            . '        "Released": ""' . PHP_EOL . '    },' . PHP_EOL,
+            '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "0",' . PHP_EOL
+            . '    "Released": ""' . PHP_EOL . '  },' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -268,7 +268,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
-        self::assertSame('    test: {' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame('  test: ', file_get_contents($this->file));
     }
 
     public function testRenderSectionHeaderIfSilent()
@@ -326,12 +326,12 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::never())
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
@@ -355,7 +355,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame(
-            '        Test: 1,' . PHP_EOL . '        abc: bcd' . PHP_EOL,
+            '{"Test":1,"abc":"bcd"}',
             file_get_contents($this->file)
         );
     }
@@ -418,12 +418,12 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::never())
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
@@ -448,7 +448,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        Parent: X1,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
+            '{"Parent":"X1","Comment":"1"}',
             file_get_contents($this->file)
         );
     }
@@ -506,12 +506,12 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::never())
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::once())
             ->method('formatPropertyValue')
             ->will(self::returnArgument(0))
         ;
@@ -536,7 +536,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '        Parent: DefaultProperties,' . PHP_EOL . '        Comment: 1' . PHP_EOL,
+            '{"Parent":"DefaultProperties","Comment":"1"}',
             file_get_contents($this->file)
         );
     }
@@ -562,7 +562,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         self::assertSame($this->object, $this->object->renderSectionFooter());
-        self::assertSame('    },' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(',' . PHP_EOL, file_get_contents($this->file));
     }
 
     public function testRenderSectionFooterIfSilent()
