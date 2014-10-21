@@ -4,7 +4,6 @@
   "userAgents": [
     {
       "userAgent": "Java Standard Library",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Java Standard Library",
