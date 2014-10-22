@@ -4,7 +4,6 @@
   "userAgents": [
     {
       "userAgent": "Java Standard Library",
-      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Java Standard Library",
@@ -47,6 +46,14 @@
             "Version": "1.7",
             "MajorVer": "1",
             "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Java\/1.17*",
+          "properties": {
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
           }
         },
         {
