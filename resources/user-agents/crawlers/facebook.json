@@ -77,7 +77,7 @@
           }
         },
         {
-          "match": "facebookscraper\/*(+http*:\/\/www.facebook.com\/sharescraper_help.php)*",
+          "match": "facebookscraper\/*( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
           "properties": {
             "Browser": "Facebookscraper"
           }
