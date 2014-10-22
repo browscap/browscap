@@ -5,7 +5,7 @@ return [
         'Java/1.17',
         [
             'Browser' => 'Java Standard Library',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Oracle',
             'Version' => '1.17',
