@@ -317,6 +317,13 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_A_8_1": {
+      "match": "*CPU iPhone OS 8_1* like Mac OS X*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"
@@ -442,6 +449,13 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
+      }
+    },
+    "iOS_C_8_1": {
+      "match": "*CPU OS 8_1* like Mac OS X*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
       }
     },
     "iOS_D": {
