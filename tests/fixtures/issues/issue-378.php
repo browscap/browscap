@@ -481,7 +481,7 @@ return [
         'AppleCoreMedia/1.0.0.11D5145e (iPad; U; CPU OS 7_1 like Mac OS X; fr_fr)',
         [
             'Browser' => 'AppleCoreMedia',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '1.0',
@@ -509,7 +509,7 @@ return [
         'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',
         [
             'Browser' => 'AppleCoreMedia',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '1.0',
@@ -537,7 +537,7 @@ return [
         'AppleCoreMedia/1.0.0.11D201 (iPod touch; U; CPU OS 7_1_1 like Mac OS X; fr_fr)',
         [
             'Browser' => 'AppleCoreMedia',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '1.0',
@@ -565,7 +565,7 @@ return [
         'AppleCoreMedia/1.0.0.11G63b (Macintosh; U; Intel Mac OS X 10_7_5; fr_ca)',
         [
             'Browser' => 'AppleCoreMedia',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Version' => '1.0',
