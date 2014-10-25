@@ -64,7 +64,7 @@
           }
         },
         {
-          "match": "Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc. (tkelleher.com); used with special permission from Gary Joel Keith; uses Microsoft's WinHTTP component",
+          "match": "Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc. (tkelleher.com); used with special permission from Gary Joel Keith; uses Microsoft?s WinHTTP component",
           "properties": {
             "Browser": "TKC AutoDownloader"
           }
