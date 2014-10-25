@@ -460,7 +460,7 @@
           }
         },
         {
-          "match": "\"Mozilla\/* Firefox\/*",
+          "match": "?Mozilla\/* Firefox\/*",
           "properties": {
             "Browser": "Fake Firefox"
           }
