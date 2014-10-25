@@ -1241,7 +1241,7 @@ return [
         'python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-24-generic',
         [
             'Browser' => 'Python-urllib',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Python Software Foundation',
             'Version' => '2.3',
@@ -1465,7 +1465,7 @@ return [
         'python-requests/2.0.0 CPython/2.6.6 Linux/2.6.32-431.el6.x86_64',
         [
             'Browser' => 'Python-urllib',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Python Software Foundation',
             'Version' => '2.0',

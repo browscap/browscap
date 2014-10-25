@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'issue-309' => [
-        'WinHTTP',
+    'issue-475' => [
+        'Java/1.7',
         [
-            'Browser' => 'WinHttp',
+            'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '0.0',
-            'MajorVer' => '0',
-            'MinorVer' => '0',
+            'Browser_Maker' => 'Oracle',
+            'Version' => '1.7',
+            'MajorVer' => '1',
+            'MinorVer' => '7',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',

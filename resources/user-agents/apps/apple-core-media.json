@@ -13,7 +13,7 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Browser_Type": "Library",
+        "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Apple Inc"
       },
       "children": [
