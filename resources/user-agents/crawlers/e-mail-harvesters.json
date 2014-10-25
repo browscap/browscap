@@ -91,9 +91,10 @@
           }
         },
         {
-          "match": "Epsilon SoftWorks' MailMunky",
+          "match": "Epsilon SoftWorks? MailMunky",
           "properties": {
-            "Browser": "MailMunky"
+            "Browser": "MailMunky",
+            "Browser_Maker": "Epsilon SoftWorks"
           }
         },
         {
@@ -135,7 +136,7 @@
         {
           "match": "sna-0.0.*",
           "properties": {
-            "Browser": "Mike Elliott's E-Mail Harvester"
+            "Browser": "Mike Elliotts E-Mail Harvester"
           }
         },
         {
