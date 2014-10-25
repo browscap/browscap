@@ -1,0 +1,21 @@
+{
+  "division": "DomainsBot",
+  "sortIndex": 231,
+  "userAgents": [
+    {
+      "userAgent": "DomainsBot",
+      "properties": {
+        "Parent": "General Crawlers",
+        "Comment": "DomainsBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "www.domainsbot.com"
+      },
+      "children": [
+        {
+          "match": "domainsbot *"
+        }
+      ]
+    }
+  ]
+}
