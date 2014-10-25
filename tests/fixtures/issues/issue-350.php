@@ -89,7 +89,7 @@ return [
         'Go 1.1 package http',
         [
             'Browser' => 'GO HttpClient',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Version' => '1.1',
