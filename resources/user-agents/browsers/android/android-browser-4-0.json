@@ -7524,6 +7524,34 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook Color",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Name": "Nook Color"
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Name": "Nook"
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ME301T Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isTablet": "true",
