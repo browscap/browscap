@@ -8,7 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "HttpClient for Google Go Programming Language",
         "Browser": "GO HttpClient",
-        "Browser_Type": "Library",
+        "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",

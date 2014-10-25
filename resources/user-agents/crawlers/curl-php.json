@@ -7,7 +7,7 @@
       "properties": {
         "Parent": "cURL",
         "Comment": "cURL PHP",
-        "Browser_Type": "Library",
+        "Browser_Type": "Bot/Crawler",
         "Browser": "cURL PHP",
         "Browser_Maker": "team Haxx",
         "Frames": "true",

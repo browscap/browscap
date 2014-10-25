@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'issue-309' => [
-        'WinHTTP',
+    'issue-479' => [
+        'facebookscraper/1.0( http://www.facebook.com/sharescraper_help.php)',
         [
-            'Browser' => 'WinHttp',
+            'Browser' => 'Facebookscraper',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '0.0',
-            'MajorVer' => '0',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '1.0',
+            'MajorVer' => '1',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',

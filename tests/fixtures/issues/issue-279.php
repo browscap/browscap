@@ -5,7 +5,7 @@ return [
         'Zend_Http_Client',
         [
             'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Library',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Ltd.',
             'Version' => '0.0',
