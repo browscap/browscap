@@ -9,7 +9,8 @@
         "Comment": "DomainsBot",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Browser": "www.domainsbot.com"
+        "Browser": "DomainsBot",
+        "Browser_Maker": "www.domainsbot.com"
       },
       "children": [
         {

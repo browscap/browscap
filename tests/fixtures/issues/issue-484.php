@@ -144,10 +144,10 @@ return [
     'issue-484-F' => [
         'Mozilla/5.0 (compatible; woriobot support [at] zite [dot] com +http://zite.com)',
         [
-            'Browser' => 'NetFront',
+            'Browser' => 'woriobot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Evernote',
+            'Browser_Maker' => 'Flipboard, Inc.',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
