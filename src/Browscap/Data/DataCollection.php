@@ -275,6 +275,12 @@ class DataCollection
                     . '", please use the "engine" keyword'
                 );
 
+                $this->checkDeviceData(
+                    $useragent['properties'],
+                    'the properties array contains device data for key "' . $useragent['userAgent']
+                    . '", please use the "device" keyword'
+                );
+
                 $this->allDivision[] = $useragent['userAgent'];
 
                 if (isset($useragent['children']) && is_array($useragent['children'])) {
@@ -324,6 +330,12 @@ class DataCollection
                                 $child['properties'],
                                 'the properties array contains engine data for key "' . $child['match']
                                 . '", please use the "engine" keyword'
+                            );
+
+                            $this->checkDeviceData(
+                                $child['properties'],
+                                'the properties array contains device data for key "' . $child['match']
+                                . '", please use the "device" keyword'
                             );
                         }
                     }
@@ -400,6 +412,29 @@ class DataCollection
             || array_key_exists('RenderingEngine_Version', $properties)
             || array_key_exists('RenderingEngine_Description', $properties)
             || array_key_exists('RenderingEngine_Maker', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if device properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkDeviceData(array $properties, $message)
+    {
+        if (array_key_exists('Device_Name', $properties)
+            || array_key_exists('Device_Maker', $properties)
+            || array_key_exists('Device_Type', $properties)
+            || array_key_exists('Device_Pointing_Method', $properties)
+            || array_key_exists('Device_Code_Name', $properties)
+            || array_key_exists('Device_Brand_Name', $properties)
+            || array_key_exists('isMobileDevice', $properties)
+            || array_key_exists('isTablet', $properties)
         ) {
             throw new \LogicException($message);
         }
@@ -604,9 +639,8 @@ class DataCollection
     {
         if (!array_key_exists($device, $this->devices)) {
             throw new \OutOfBoundsException(
-                'Device "' . $device . '" does not exist in data, available devices: ' . serialize(
-                    array_keys($this->devices)
-                )
+                'Device "' . $device . '" does not exist in data, available devices: '
+                . serialize(array_keys($this->devices))
             );
         }
 
