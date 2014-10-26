@@ -93,6 +93,7 @@ class CollectionCreator
         $this->collection
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
+            ->addDevicesFile($resourceFolder . '/devices.json')
             ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
             ->addDefaultBrowser($resourceFolder . '/core/default-browser.json')
         ;

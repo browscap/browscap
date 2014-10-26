@@ -39,6 +39,11 @@ class DataCollection
     private $engines = array();
 
     /**
+     * @var \Browscap\Data\Device[]
+     */
+    private $devices = array();
+
+    /**
      * @var \Browscap\Data\Division[]
      */
     private $divisions = array();
@@ -159,6 +164,32 @@ class DataCollection
             }
 
             $this->engines[$engineName] = $engineFactory->build($engineData, $json, $engineName);
+        }
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a devices.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDevicesFile($src)
+    {
+        $json          = $this->loadFile($src);
+        $deviceFactory = new Factory\DeviceFactory();
+
+        foreach ($json['devices'] as $deviceName => $deviceData) {
+            if (!isset($deviceData['properties']) && !isset($deviceData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            $this->devices[$deviceName] = $deviceFactory->build($deviceData, $json, $deviceName);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -551,6 +582,38 @@ class DataCollection
     }
 
     /**
+     * Get the array of engine data
+     *
+     * @return \Browscap\Data\Device[]
+     */
+    public function getDevices()
+    {
+        return $this->devices;
+    }
+
+    /**
+     * Get a single engine data array
+     *
+     * @param string $device
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     * @return \Browscap\Data\Device
+     */
+    public function getDevice($device)
+    {
+        if (!array_key_exists($device, $this->devices)) {
+            throw new \OutOfBoundsException(
+                'Device "' . $device . '" does not exist in data, available devices: ' . serialize(
+                    array_keys($this->devices)
+                )
+            );
+        }
+
+        return $this->devices[$device];
+    }
+
+    /**
      * Get the version string identifier
      *
      * @return string
@@ -571,8 +634,8 @@ class DataCollection
     }
 
     /**
-     * @param string  $key
-     * @param array   $properties
+     * @param string $key
+     * @param array  $properties
      *
      * @throws \UnexpectedValueException
      * @return bool
