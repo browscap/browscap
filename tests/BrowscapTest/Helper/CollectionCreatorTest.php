@@ -93,6 +93,10 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnSelf())
         ;
         $mockCollection->expects(self::any())
+            ->method('addDevicesFile')
+            ->will(self::returnSelf())
+        ;
+        $mockCollection->expects(self::any())
             ->method('addSourceFile')
             ->will(self::returnSelf())
         ;

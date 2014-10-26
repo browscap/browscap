@@ -164,6 +164,13 @@ class Expander
             $engineData = array();
         }
 
+        if (array_key_exists('device', $uaData)) {
+            $device     = $this->getDataCollection()->getDevice($uaData['device']);
+            $deviceData = $this->parseProperties($device->getProperties(), $majorVer, $minorVer);
+        } else {
+            $deviceData = array();
+        }
+
         $ua = $this->parseProperty($uaData['userAgent'], $majorVer, $minorVer);
 
         $output = array(
@@ -175,6 +182,7 @@ class Expander
                 ),
                 $platformData,
                 $engineData,
+                $deviceData,
                 $uaProperties
             )
         );

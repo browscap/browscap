@@ -18,6 +18,7 @@
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Platform;
+use Browscap\Data\DataCollection;
 
 /**
  * Class PlatformFactory
@@ -39,7 +40,7 @@ class PlatformFactory
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
      */
-    public function build(array $platformData, array $json, $platformName)
+    public function build(array $platformData, array $json, $platformName, DataCollection $datacollection)
     {
         if (!isset($platformData['properties'])) {
             $platformData['properties'] = array();
@@ -54,7 +55,7 @@ class PlatformFactory
                 );
             }
 
-            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
+            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName, $datacollection);
             $parentPlatformData = $parentPlatform->getProperties();
 
             $inheritedPlatformProperties = $platformData['properties'];
@@ -73,6 +74,17 @@ class PlatformFactory
             $platformData['properties'] = array_merge(
                 $parentPlatformData,
                 $inheritedPlatformProperties
+            );
+        }
+
+        if (array_key_exists('device', $platformData)) {
+            $deviceName = $platformData['device'];
+
+            $deviceData = $datacollection->getDevice($deviceName);
+
+            $platformData['properties'] = array_merge(
+                $deviceData['properties'],
+                $platformData['properties']
             );
         }
 

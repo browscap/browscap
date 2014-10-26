@@ -137,7 +137,7 @@ class DataCollection
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName, $this);
         }
 
         $this->divisionsHaveBeenSorted = false;
