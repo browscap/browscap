@@ -194,19 +194,12 @@
         },
         {
           "match": "iTunes-iPod\/5.1* (Macintosh*",
+          "device": "iPod Touch",
           "properties": {
             "Browser": "iTunes for iPhone",
             "Version": "5.1",
             "MajorVer": "5",
-            "MinorVer": "1",
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
+            "MinorVer": "1"
           },
           "platforms": [
             "iOS"

@@ -72,6 +72,18 @@
         "isTablet": "false"
       }
     },
+    "general Mobile Device (Apple)": {
+      "properties": {
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Brand_Name": "Apple",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "iPhone": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -80,6 +92,18 @@
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
         "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "iPod Touch": {
+      "properties": {
+        "Device_Name": "iPod Touch",
+        "Device_Maker": "Apple Inc",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "iPod Touch",
+        "Device_Brand_Name": "Apple",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

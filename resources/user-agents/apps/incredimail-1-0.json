@@ -6,6 +6,7 @@
     {
       "userAgent": "Incredimail #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Incredimail #MAJORVER#.#MINORVER#",
@@ -28,11 +29,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {

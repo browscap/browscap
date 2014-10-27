@@ -6,6 +6,7 @@
       "userAgent": "Apple Mail for iOS",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
@@ -26,15 +27,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Mobile Device"
+        "isSyndicationReader": "false"
       },
       "children": [
         {

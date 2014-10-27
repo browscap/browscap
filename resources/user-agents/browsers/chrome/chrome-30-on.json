@@ -2393,6 +2393,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "Blink",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -2409,14 +2410,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -2454,16 +2448,7 @@
         },
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",

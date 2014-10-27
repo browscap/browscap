@@ -37,12 +37,8 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/3.0* Mobile\/* Safari\/*",
+          "device": "general Mobile Device (Apple)",
           "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false",
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0"
@@ -60,13 +56,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/* Mobile\/* Safari\/*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]

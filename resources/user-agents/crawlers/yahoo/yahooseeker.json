@@ -25,11 +25,7 @@
         },
         {
           "match": "YahooSeeker*",
-          "properties": {
-            "Browser": "YahooSeeker",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device"
-          }
+          "device": "general Mobile Device"
         },
         {
           "match": "YahooSeeker\/CafeKelsa*",

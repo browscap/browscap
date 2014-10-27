@@ -2007,6 +2007,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "Blink",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -2023,14 +2024,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
