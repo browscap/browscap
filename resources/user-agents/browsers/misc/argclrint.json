@@ -5,18 +5,14 @@
     {
       "userAgent": "ArgClrInt",
       "platform": "Win32",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ArgClrInt",
         "Browser": "ArgClrInt",
         "Version": "1.0",
         "MajorVer": "1",
-        "MinorVer": "0",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "MinorVer": "0"
       },
       "children": [
         {

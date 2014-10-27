@@ -134,6 +134,7 @@
       "userAgent": "Apple Mail for Windows",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
@@ -154,15 +155,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
-        "Device_Name": "Windows Desktop"
+        "isSyndicationReader": "false"
       },
       "children": [
         {

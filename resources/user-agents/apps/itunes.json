@@ -95,16 +95,11 @@
         },
         {
           "match": "iTunes\/11.1* (Windows*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "11.1",
             "MajorVer": "11",
-            "MinorVer": "1",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
+            "MinorVer": "1"
           },
           "platforms": [
             "Win32"
@@ -127,16 +122,11 @@
         },
         {
           "match": "iTunes\/11.2* (Windows*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "11.2",
             "MajorVer": "11",
-            "MinorVer": "2",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
+            "MinorVer": "2"
           },
           "platforms": [
             "Win32"
@@ -159,16 +149,11 @@
         },
         {
           "match": "iTunes\/11.3* (Windows*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "11.3",
             "MajorVer": "11",
-            "MinorVer": "3",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
+            "MinorVer": "3"
           },
           "platforms": [
             "Win32"
@@ -176,14 +161,7 @@
         },
         {
           "match": "iTunes\/* (Windows*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Windows Desktop",
-            "Device_Name": "Windows Desktop",
-            "Device_Maker": "Various",
-            "Device_Pointing_Method": "mouse"
-          },
+          "device": "Windows Desktop",
           "platforms": [
             "Win32"
           ]

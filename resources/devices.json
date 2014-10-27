@@ -47,6 +47,18 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Windows Desktop": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Name": "Windows Desktop",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
     }
   }
 }
