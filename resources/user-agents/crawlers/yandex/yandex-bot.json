@@ -17,19 +17,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBot\/3.0; *",
+          "match": "Mozilla\/5.0 (compatible; YandexBot\/3.0*",
           "properties": {
-            "Division": "Yandex",
-            "Browser": "YandexBot",
             "Version": "3.0",
             "MajorVer": "3"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBot\/*",
-          "properties": {
-            "Browser": "YandexBot"
-          }
+          "match": "Mozilla\/5.0 (compatible; YandexBot\/*"
         }
       ]
     }
