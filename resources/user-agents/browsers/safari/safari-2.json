@@ -7,6 +7,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -22,11 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

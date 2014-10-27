@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Lotus Notes 4.5",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes 4.5",
@@ -12,11 +13,7 @@
         "Browser_Maker": "IBM",
         "Version": "4.5",
         "MajorVer": "4",
-        "MinorVer": "5",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "MinorVer": "5"
       },
       "children": [
         {

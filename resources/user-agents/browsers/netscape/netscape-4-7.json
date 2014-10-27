@@ -6,6 +6,7 @@
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netscape #MAJORVER#.#MINORVER#",
@@ -20,11 +21,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaApplets": "true"
       },
       "children": [
         {

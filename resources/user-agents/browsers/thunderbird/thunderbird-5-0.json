@@ -6,6 +6,7 @@
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Thunderbird #MAJORVER#.#MINORVER#",
@@ -21,11 +22,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

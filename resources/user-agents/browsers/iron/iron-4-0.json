@@ -5,6 +5,7 @@
     {
       "userAgent": "Iron 4.0",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron 4.0",
@@ -18,10 +19,6 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
         "Version": "4.0",
         "MajorVer": "4"
       },

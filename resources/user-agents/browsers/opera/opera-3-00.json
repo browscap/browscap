@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera #MAJORVER#.#MINORVER#",
@@ -18,11 +19,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "Cookies": "true"
       },
       "children": [
         {

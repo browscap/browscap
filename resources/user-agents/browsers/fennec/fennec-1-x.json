@@ -6,6 +6,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1_9",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -20,12 +21,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "false",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

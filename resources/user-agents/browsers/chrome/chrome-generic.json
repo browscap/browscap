@@ -100,6 +100,7 @@
     {
       "userAgent": "Chrome Generic",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",
@@ -112,12 +113,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "1",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
         {

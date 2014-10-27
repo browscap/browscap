@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Emacs\/W3",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Emacs\/W3",
@@ -13,10 +14,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "false",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop"
+        "JavaScript": "false"
       },
       "children": [
         {

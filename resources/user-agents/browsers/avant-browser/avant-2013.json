@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Avant 2013",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avant 2013",
@@ -21,11 +22,7 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

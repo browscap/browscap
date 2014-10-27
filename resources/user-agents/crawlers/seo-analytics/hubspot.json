@@ -5,6 +5,7 @@
     {
       "userAgent": "HubSpot Webcrawler",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "HubSpot Webcrawler",
@@ -25,15 +26,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
-        "Crawler": "true",
-        "isMobileDevice": "false",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "Crawler": "true"
       },
       "children": [
         {

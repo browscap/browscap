@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Opera Generic",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Generic",
@@ -16,11 +17,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "CssVersion": "1",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
         {

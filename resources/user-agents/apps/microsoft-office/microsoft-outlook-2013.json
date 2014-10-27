@@ -5,6 +5,7 @@
     {
       "userAgent": "Microsoft Outlook 2013",
       "engine": "Trident",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2013",
@@ -20,11 +21,7 @@
         "BackgroundSounds": "true",
         "JavaScript": "true",
         "VBScript": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

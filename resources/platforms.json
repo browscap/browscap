@@ -2621,30 +2621,22 @@
     },
     "Amiga": {
       "match": "*AmigaOS*",
+      "device": "general Desktop",
       "properties": {
         "Platform": "Amiga OS",
         "Platform_Maker": "Amiga",
         "Win32": "false",
-        "isMobileDevice": "false",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
     },
     "CellOS": {
       "match": "*CellOS*",
+      "device": "general Desktop",
       "properties": {
         "Platform": "CellOS",
         "Platform_Maker": "Sony",
         "Win32": "false",
-        "isMobileDevice": "false",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }

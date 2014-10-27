@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Links #MAJORVER#.#MINORVER#",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Links #MAJORVER#.#MINORVER#",
@@ -15,10 +16,7 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Frames": "true",
-        "Tables": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop"
+        "Tables": "true"
       },
       "children": [
         {

@@ -5,6 +5,7 @@
     {
       "userAgent": "Iron Generic",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron Generic",
@@ -17,11 +18,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "1",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
         {
