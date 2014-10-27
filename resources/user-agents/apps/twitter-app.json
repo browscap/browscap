@@ -25,16 +25,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* Twitter for iPhone",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]

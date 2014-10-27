@@ -168,19 +168,12 @@
         },
         {
           "match": "iTunes-iPhone\/5.0* (Macintosh*",
+          "device": "iPhone",
           "properties": {
             "Browser": "iTunes for iPhone",
             "Version": "5.0",
             "MajorVer": "5",
-            "MinorVer": "0",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
+            "MinorVer": "0"
           },
           "platforms": [
             "iOS"
@@ -188,19 +181,12 @@
         },
         {
           "match": "iTunes-iPhone\/5.1* (Macintosh*",
+          "device": "iPhone",
           "properties": {
             "Browser": "iTunes for iPhone",
             "Version": "5.1",
             "MajorVer": "5",
-            "MinorVer": "1",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
+            "MinorVer": "1"
           },
           "platforms": [
             "iOS"

@@ -39,16 +39,7 @@
       "children": [
         {
           "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"
           ]

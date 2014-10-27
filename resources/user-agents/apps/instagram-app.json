@@ -7,6 +7,7 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "iPhone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER#",
@@ -21,29 +22,12 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "iPhone",
-        "Device_Name": "iPhone",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Instagram #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#) AppleWebKit\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0",
             "iOS_E"
