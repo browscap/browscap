@@ -8,6 +8,7 @@
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8",
       "engine": "Trident_6",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -31,11 +32,6 @@
         "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "3"
       },
       "children": [

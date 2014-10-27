@@ -32,9 +32,10 @@ class PlatformFactory
     /**
      * Load a platforms.json file and parse it into the platforms data array
      *
-     * @param array  $platformData
-     * @param array  $json
-     * @param string $platformName
+     * @param array          $platformData
+     * @param array          $json
+     * @param string         $platformName
+     * @param DataCollection $datacollection
      *
      * @return \Browscap\Data\Platform
      * @throws \RuntimeException if the file does not exist or has invalid JSON

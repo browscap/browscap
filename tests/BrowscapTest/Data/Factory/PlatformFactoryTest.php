@@ -49,6 +49,17 @@ class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
         $json         = array();
         $platformName = 'Test';
 
-        self::assertInstanceOf('\Browscap\Data\Platform', $this->object->build($platformData, $json, $platformName));
+        $deviceData = array('properties' => array('Device_Name' => 'TestDevice'));
+
+        $datacollection = $this->getMock('\Browscap\Data\DataCollection', array('getDevice'), array(), '', false);
+        $datacollection->expects(self::any())
+            ->method('getDevice')
+            ->will(self::returnValue($deviceData))
+        ;
+
+        self::assertInstanceOf(
+            '\Browscap\Data\Platform',
+            $this->object->build($platformData, $json, $platformName, $datacollection)
+        );
     }
 }

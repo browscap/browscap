@@ -5,6 +5,7 @@
     {
       "userAgent": "Symphony Browser 1.0",
       "platform": "Maemo",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Symphony Browser 1.0",
@@ -24,12 +25,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {

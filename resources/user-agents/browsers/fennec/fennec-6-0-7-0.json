@@ -6,6 +6,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "engine": "Gecko_2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -21,13 +22,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

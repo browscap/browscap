@@ -8,6 +8,7 @@
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -33,13 +34,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

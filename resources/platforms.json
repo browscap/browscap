@@ -183,13 +183,11 @@
     },
     "iOS": {
       "match": "*CPU iPhone OS * like Mac OS X*",
+      "device": "general Mobile Device",
       "properties": {
         "Platform": "iOS",
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "iPod, iPhone & iPad",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -1553,149 +1551,112 @@
     "WinCE": {
       "match": "*Windows CE*",
       "inherits": "Windows",
+      "device": "general Mobile Device",
       "properties": {
         "Platform": "WinCE",
         "Platform_Description": "Windows CE",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win32": "false"
       }
     },
     "WinMobile": {
       "match": "*Windows Mobile*",
       "inherits": "Windows",
+      "device": "general Mobile Device",
       "properties": {
         "Platform": "WinMobile",
         "Platform_Description": "Windows Mobile OS",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win32": "false"
       }
     },
     "WinPhone65": {
       "match": "*Windows Phone 6.5*",
       "inherits": "Windows",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "WinPhone6",
         "Platform_Version": "6.5",
         "Platform_Description": "Windows Phone OS 6.5",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win32": "false"
       }
     },
     "WinPhone7": {
       "match": "*Windows Phone 7*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
         "Platform_Description": "Windows Phone OS 7",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "WinPhone7_B": {
       "match": "*Windows; U; wds 7*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
         "Platform_Description": "Windows Phone OS 7",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "WinPhone75": {
       "match": "*Windows Phone 7.5*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
         "Platform_Description": "Windows Phone OS 7.5",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "WinPhone8": {
       "match": "*Windows Phone 8*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
         "Platform_Description": "Windows Phone OS 8",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "WinPhone8_B": {
       "match": "*Windows; U; wds 8*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
         "Platform_Description": "Windows Phone OS 8",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "WinPhone8.1": {
       "match": "*Windows Phone 8.1*",
       "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8.1",
         "Platform_Version": "8.1",
         "Platform_Description": "Windows Phone OS 8.1",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
     "Android": {
       "match": "*Linux*Android*",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "Android",
-        "isMobileDevice": "true",
         "Platform_Description": "Android OS",
         "Platform_Maker": "Google Inc",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
         "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Pointing_Method": "touchscreen"
+        "Platform_Bits": "32"
       }
     },
     "Android_1_0": {
@@ -2143,14 +2104,11 @@
     },
     "RIMOS": {
       "match": "*BlackBerry; U*",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "RIM OS",
-        "isMobileDevice": "true",
         "Platform_Description": "RIM OS",
         "Platform_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2300,14 +2258,11 @@
     },
     "SymbianOS": {
       "match": "*SymbianOS*",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "SymbianOS",
-        "isMobileDevice": "true",
         "Platform_Maker": "Symbian Foundation",
         "Platform_Description": "Symbian OS",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2617,31 +2572,24 @@
     },
     "MeeGo": {
       "match": "*MeeGo*",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Platform_Description": "Linux Smartphone OS",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
         "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Pointing_Method": "touchscreen"
+        "Platform_Bits": "32"
       }
     },
     "Maemo": {
       "match": "*Maemo; Linux*",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Platform_Description": "Linux Smartphone OS",
         "Win16": "false",
         "Win32": "false",
@@ -2674,43 +2622,34 @@
     },
     "JAVA": {
       "match": "*/MIDP*",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Platform_Version": "unknown",
         "Win32": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
     },
     "FirefoxOS": {
       "match": "*Gecko/*",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "FirefoxOS",
         "Platform_Maker": "Mozilla Foundation",
         "Win32": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
     },
     "PalmOS": {
       "match": "*Palm OS*",
+      "device": "general Mobile Phone",
       "properties": {
         "Platform": "PalmOS",
         "Platform_Maker": "Palm",
         "Win32": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }

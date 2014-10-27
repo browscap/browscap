@@ -11,6 +11,42 @@
         "isMobileDevice": "false",
         "isTablet": "false"
       }
+    },
+    "general Mobile Device": {
+      "properties": {
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "unknown",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Brand_Name": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "general Mobile Phone": {
+      "properties": {
+        "Device_Name": "general Mobile Phone",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "unknown",
+        "Device_Code_Name": "general Mobile Phone",
+        "Device_Brand_Name": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "general Mobile Phone (Touch)": {
+      "properties": {
+        "Device_Name": "general Mobile Phone",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "general Mobile Phone",
+        "Device_Brand_Name": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
     }
   }
 }

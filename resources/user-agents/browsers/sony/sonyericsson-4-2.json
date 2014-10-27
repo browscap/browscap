@@ -5,6 +5,7 @@
     {
       "userAgent": "SonyEricsson 4.2",
       "platform": "SymbianOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SonyEricsson 4.2",
@@ -21,13 +22,8 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Crawler": "false",
         "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Version": "4.2",
         "MajorVer": "4",
         "MinorVer": "2"

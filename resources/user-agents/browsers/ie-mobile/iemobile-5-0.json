@@ -6,6 +6,7 @@
       "userAgent": "IEMobile 5.0",
       "platform": "WinMobile",
       "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "IEMobile",
@@ -15,8 +16,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
         "Device_Type": "Mobile Phone",
         "Browser_Type": "Browser",
@@ -30,8 +29,6 @@
         "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Version": "5.0",
         "MajorVer": "5"
       },

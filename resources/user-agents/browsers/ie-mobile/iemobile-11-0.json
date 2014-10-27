@@ -8,6 +8,7 @@
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8.1",
       "engine": "Trident_7",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -17,8 +18,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "3",
         "Device_Type": "Mobile Phone",
         "Browser_Type": "Browser",
@@ -34,10 +33,7 @@
         "BackgroundSounds": "false",
         "JavaApplets": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "Crawler": "false"
       },
       "children": [
         {
