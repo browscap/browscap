@@ -84,7 +84,7 @@ class PlatformFactory
             $deviceData = $datacollection->getDevice($deviceName);
 
             $platformData['properties'] = array_merge(
-                $deviceData['properties'],
+                $deviceData->getProperties(),
                 $platformData['properties']
             );
         }
