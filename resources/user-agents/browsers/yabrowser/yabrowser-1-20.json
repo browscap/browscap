@@ -6,6 +6,7 @@
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
@@ -22,11 +23,8 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop",
         "Browser_Maker": "Yandex",
         "Frames": "true",
         "IFrames": "true",
@@ -34,10 +32,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

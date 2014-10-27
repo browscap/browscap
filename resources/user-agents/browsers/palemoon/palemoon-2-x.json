@@ -6,6 +6,7 @@
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
       "engine": "Gecko_1_9_2",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palemoon #MAJORVER#.#MINORVER#",
@@ -23,13 +24,9 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
+        "CssVersion": "2"
       },
       "children": [
         {

@@ -7,6 +7,7 @@
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
       "engine": "KHTML",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Konqueror #MAJORVER#.#MINORVER#",
@@ -32,12 +33,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

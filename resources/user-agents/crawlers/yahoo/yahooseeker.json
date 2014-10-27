@@ -18,11 +18,7 @@
       "children": [
         {
           "match": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
-          "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "general Desktop",
-            "Device_Name": "general Desktop"
-          },
+          "device": "general Desktop",
           "platforms": [
             "FreeBSD"
           ]

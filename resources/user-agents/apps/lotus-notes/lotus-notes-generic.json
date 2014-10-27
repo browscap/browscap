@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Lotus Notes Generic",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lotus Notes Generic",
@@ -23,12 +24,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

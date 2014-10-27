@@ -4,7 +4,7 @@
   "userAgents": [
     {
       "userAgent": "WinWAP",
-      "platform": "JAVA",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WinWAP",
@@ -26,11 +26,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
-        "isMobileDevice": "false"
+        "Crawler": "false"
       },
       "children": [
         {
