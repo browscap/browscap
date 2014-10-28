@@ -5,6 +5,7 @@
     {
       "userAgent": "E28",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "E28",
@@ -25,9 +26,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {

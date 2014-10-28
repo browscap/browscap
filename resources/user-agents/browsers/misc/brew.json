@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Brew",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Brew",
@@ -13,9 +14,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "JavaScript": "true"
       },
       "children": [
         {

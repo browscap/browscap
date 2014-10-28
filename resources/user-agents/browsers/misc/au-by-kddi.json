@@ -5,6 +5,7 @@
     {
       "userAgent": "AU by KDDI",
       "platform": "Brew",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AU by KDDI",
@@ -18,8 +19,6 @@
         "BackgroundSounds": "true",
         "JavaScript": "true",
         "VBScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "1"
       },
       "children": [

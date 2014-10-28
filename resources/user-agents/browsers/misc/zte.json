@@ -5,6 +5,7 @@
     {
       "userAgent": "ZTE",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ZTE",
@@ -27,8 +28,6 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [

@@ -5,6 +5,7 @@
     {
       "userAgent": "DoCoMo imode2",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "DoCoMo",
@@ -14,8 +15,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "Crawler": "false",
         "Browser": "i-mode Browser",
         "Version": "2.0",

@@ -5,12 +5,11 @@
     {
       "userAgent": "Asus",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Asus",
-        "Browser": "Asus",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "Asus"
       },
       "children": [
         {

@@ -6,6 +6,7 @@
     {
       "userAgent": "Opera Mini 2.0",
       "engine": "Presto_2_2",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini 2.0",
@@ -20,9 +21,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "1"
       },
       "children": [
         {

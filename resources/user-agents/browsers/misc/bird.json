@@ -5,12 +5,11 @@
     {
       "userAgent": "BIRD",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BIRD",
-        "Browser": "BIRD",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "BIRD"
       },
       "children": [
         {

@@ -5,6 +5,7 @@
     {
       "userAgent": "Qt Generic for Android",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -16,12 +17,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "3"
       },
       "children": [
         {

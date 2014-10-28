@@ -59,6 +59,7 @@
     },
     {
       "userAgent": "Firefox Generic for Android",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "Firefox Generic",
         "Comment": "Firefox Generic",
@@ -72,12 +73,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "3"
       },
       "children": [
         {

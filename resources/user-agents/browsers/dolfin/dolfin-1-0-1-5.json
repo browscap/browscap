@@ -8,6 +8,7 @@
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -21,9 +22,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "3"
       },
       "children": [
         {

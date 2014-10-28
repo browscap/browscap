@@ -8,6 +8,7 @@
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
@@ -33,13 +34,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "unknown",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "3"
       },
       "children": [
         {

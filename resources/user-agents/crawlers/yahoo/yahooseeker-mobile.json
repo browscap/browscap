@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "YahooSeeker-Mobile",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo",

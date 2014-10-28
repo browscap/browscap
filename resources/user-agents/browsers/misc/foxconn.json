@@ -5,6 +5,7 @@
     {
       "userAgent": "Foxconn",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Foxconn",
@@ -22,9 +23,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {

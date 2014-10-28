@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Polaris",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Polaris",
@@ -15,10 +16,8 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
         "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
