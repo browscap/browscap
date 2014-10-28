@@ -24,9 +24,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'SM-P600',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-493-B' => [
