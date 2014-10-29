@@ -2211,14 +2211,15 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "SM-P600",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy Note 10.1 2014 Edition Wi-Fi"
           },
           "platforms": [
-            "Android_4_3"
+            "Android_4_3", "Android_4_4"
           ]
         },
         {
