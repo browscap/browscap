@@ -206,7 +206,7 @@ class BuildGenerator
         ;
 
         $this->getLogger()->info('finished output of header and version');
-        
+
         $output = array();
 
         $this->getLogger()->info('started output of divisions');
@@ -253,9 +253,11 @@ class BuildGenerator
 
                 foreach ($sections as $sectionName => $section) {
                     if (in_array($sectionName, $output)) {
-                        throw new \UnexpectedValueException('tried to add section "' . $sectionName . '" more thn once');
+                        throw new \UnexpectedValueException(
+                            'tried to add section "' . $sectionName . '" more than once'
+                        );
                     }
-                    
+
                     $collection->checkProperty($sectionName, $section);
 
                     $this->writerCollection
@@ -263,7 +265,7 @@ class BuildGenerator
                         ->renderSectionBody($section, $collection, $sections, $sectionName)
                         ->renderSectionFooter($sectionName)
                     ;
-                    
+
                     $output[] = $sectionName;
                 }
 

@@ -218,7 +218,7 @@ class WriterCollection
      *
      * @param string $sectionName
      *
-     * @return \Browscap\Writer\WriterInterface
+     * @return \Browscap\Writer\WriterCollection
      */
     public function renderSectionFooter($sectionName = '')
     {
