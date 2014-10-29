@@ -13,6 +13,13 @@
       },
       "children": [
         {
+          "match": "DomainsBotBot\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
           "match": "DomainsBotBot\/*"
         }
       ]

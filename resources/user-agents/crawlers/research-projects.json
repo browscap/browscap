@@ -184,7 +184,15 @@
         {
           "match": "woriobot*",
           "properties": {
-            "Browser": "woriobot"
+            "Browser": "woriobot",
+            "Browser_Maker": "Flipboard, Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; woriobot*",
+          "properties": {
+            "Browser": "woriobot",
+            "Browser_Maker": "Flipboard, Inc."
           }
         },
         {
