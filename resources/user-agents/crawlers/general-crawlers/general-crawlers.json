@@ -103,12 +103,6 @@
           }
         },
         {
-          "match": "DomainsBotBot\/1.*",
-          "properties": {
-            "Browser": "DomainsBotBot"
-          }
-        },
-        {
           "match": "DomainsDB.net MetaCrawler*",
           "properties": {
             "Browser": "DomainsDB"
@@ -398,12 +392,6 @@
           "platforms": [
             "OSX"
           ]
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; AboutUsBot\/*)",
-          "properties": {
-            "Browser": "AboutUsBot"
-          }
         },
         {
           "match": "Mozilla\/5.0 (compatible; AdHitz; http:\/\/adhitz.com\/)",
@@ -1251,7 +1239,7 @@
           }
         },
         {
-          "match": "netEstate NE Crawler (+http:\/\/www.website-datenbank.de\/)*",
+          "match": "netEstate NE Crawler*",
           "properties": {
             "Browser": "netEstate NE Crawler",
             "Browser_Maker": "netEstate GmbH"
@@ -2641,6 +2629,30 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot\/*",
+          "properties": {
+            "Browser": "AboutUs Bot",
+            "Browser_Maker": "aboutus.org"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/2.0*",
+          "properties": {
+            "Browser": "AboutUs Bot Johnny5",
+            "Browser_Maker": "aboutus.org",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/*",
+          "properties": {
+            "Browser": "AboutUs Bot Johnny5",
+            "Browser_Maker": "aboutus.org"
+          }
+        },
+        {
           "match": "AboutUsBot\/* (Website Analysis*",
           "properties": {
             "Browser": "AboutUs Bot",
@@ -2748,6 +2760,88 @@
           "properties": {
             "Browser": "itsscan",
             "Browser_Maker": "Muenster University of Applied Sciences"
+          }
+        },
+        {
+          "match": "MetaURI API\/2.0*",
+          "properties": {
+            "Browser": "MetaURI Bot",
+            "Browser_Maker": "metauri.com",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MetaURI API*",
+          "properties": {
+            "Browser": "MetaURI Bot",
+            "Browser_Maker": "metauri.com"
+          }
+        },
+        {
+          "match": "IPv4Scan*",
+          "properties": {
+            "Browser": "IPv4Scan",
+            "Browser_Maker": "ipv4scan.com"
+          }
+        },
+        {
+          "match": "Zookabot\/2.4*",
+          "properties": {
+            "Browser": "Zookabot",
+            "Browser_Maker": "zookabot.com",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Zookabot\/*",
+          "properties": {
+            "Browser": "Zookabot",
+            "Browser_Maker": "zookabot.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; discoverybot\/2.0*",
+          "properties": {
+            "Browser": "discoverybot",
+            "Browser_Maker": "discoveryengine.com",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; discoverybot\/*",
+          "properties": {
+            "Browser": "discoverybot",
+            "Browser_Maker": "discoveryengine.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AskPeterBot*",
+          "properties": {
+            "Browser": "AskPeterBot",
+            "Browser_Maker": "www.askpeter.info"
+          }
+        },
+        {
+          "match": "RED\/1*",
+          "properties": {
+            "Browser": "redbot",
+            "Browser_Maker": "mnot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "RED\/*",
+          "properties": {
+            "Browser": "redbot",
+            "Browser_Maker": "mnot"
           }
         }
       ]
