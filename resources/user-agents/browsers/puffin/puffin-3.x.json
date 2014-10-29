@@ -1,0 +1,83 @@
+{
+  "division": "Puffin #MAJORVER#.#MINORVER#",
+  "versions": ["3.7"],
+  "sortIndex": 1119,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Puffin #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Puffin #MAJORVER#.#MINORVER#",
+        "Browser": "Puffin",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "CloudMosa Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "CssVersion": "2",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AP*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AT*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Tablet",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IP*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IT*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        }
+      ]
+    }
+  ]
+}
