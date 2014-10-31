@@ -2843,6 +2843,13 @@
             "Browser": "redbot",
             "Browser_Maker": "mnot"
           }
+        },
+        {
+          "match": "JoobleBot*",
+          "properties": {
+            "Browser": "JoobleBot",
+            "Browser_Maker": "jooble.com"
+          }
         }
       ]
     }
