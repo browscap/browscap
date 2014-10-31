@@ -116,7 +116,7 @@ return [
     'issue-492-H' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)',
         [
-            'Browser' => 'IE',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -144,7 +144,7 @@ return [
     'issue-492-J' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; VT10416-1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -172,7 +172,7 @@ return [
     'issue-492-K' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.7; de-de; SonyEricssonST27i Build/6.0.B.3.184) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -180,7 +180,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '2.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -200,7 +200,7 @@ return [
     'issue-492-L' => [
         'Mozilla/5.0 (Linux; U; Android 4.3; de-de; ME302C Build/JSS15Q) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -208,7 +208,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -228,7 +228,7 @@ return [
     'issue-492-M' => [
         'Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko)',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Apple Mail',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -256,7 +256,7 @@ return [
     'issue-492-N' => [
         'Opera/9.80 (Windows NT 6.1; WOW64; U; de) Presto/2.10.229 Version/11.64',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -284,7 +284,7 @@ return [
     'issue-492-O' => [
         'Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -312,7 +312,7 @@ return [
     'issue-492-P' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/534+ (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 MsnBot-Media /1.0b',
         [
-            'Browser' => 'IE',
+            'Browser' => 'MsnBot-Media',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -340,7 +340,7 @@ return [
     'issue-492-Q' => [
         'Mozilla/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient 3.1)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'semantic-visions.com crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -396,13 +396,13 @@ return [
     'issue-492-S' => [
         'Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'memorybot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
-            'Version' => '3.0',
-            'MajorVer' => '3',
-            'MinorVer' => '0',
+            'Version' => '1.20',
+            'MajorVer' => '1',
+            'MinorVer' => '20',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
@@ -424,7 +424,7 @@ return [
     'issue-492-T' => [
         'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'waybackarchive',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -480,7 +480,7 @@ return [
     'issue-492-V' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; GT-N7100 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -488,7 +488,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -508,7 +508,7 @@ return [
     'issue-492-X' => [
         'Mozilla crawl/5.0 (compatible; fairshare.cc +http://fairshare.cc)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'fairshare.cc',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -536,7 +536,7 @@ return [
     'issue-492-Y' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; NEXT Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -544,7 +544,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -564,7 +564,7 @@ return [
     'issue-492-Z' => [
         'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; de; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -596,8 +596,8 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Version' => '9.0',
+            'MajorVer' => '9',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -620,7 +620,7 @@ return [
     'issue-492-AB' => [
         'RamblerMail/6.0 (incompatible; ImageProxy/6.0)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'RamblerMail',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -648,7 +648,7 @@ return [
     'issue-492-AD' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.19; aggregator:Spinn3r (Spinn3r 3.1); http://spinn3r.com/robot) Gecko/2010040121 Firefox/3.0.19',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'aggregator:Spinn3r',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -676,7 +676,7 @@ return [
     'issue-492-AE' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; BingPreview/1.0b) like Gecko',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'BingPreview',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -704,7 +704,7 @@ return [
     'issue-492-AF' => [
         'Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1210091050) Presto/2.11.355 Version/12.10',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -732,7 +732,7 @@ return [
     'issue-492-AG' => [
         'Opera/9.80 (X11; Linux x86_64; U; de) Presto/2.10.289 Version/12.02',
         [
-            'Browser' => 'IE',
+            'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -760,7 +760,7 @@ return [
     'issue-492-AH' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; UNO_X10 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -788,7 +788,7 @@ return [
     'issue-492-AI' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; LIFETAB_E10320 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -816,13 +816,13 @@ return [
     'issue-492-AJ' => [
         'Mozilla/5.0 (compatible; spbot/4.1.0; +http://OpenLinkProfiler.org/bot )',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'spbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
-            'Version' => '3.0',
-            'MajorVer' => '3',
-            'MinorVer' => '0',
+            'Version' => '4.1',
+            'MajorVer' => '4',
+            'MinorVer' => '1',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
@@ -844,7 +844,7 @@ return [
     'issue-492-AK' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML; like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25 BingPreview/1.0b',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'BingPreview',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -872,7 +872,7 @@ return [
     'issue-492-AL' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; VT10416-2 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -900,7 +900,7 @@ return [
     'issue-492-AM' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; PMP7100D3G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -908,7 +908,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -928,7 +928,7 @@ return [
     'issue-492-AN' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Sprint APA9292KT Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -936,7 +936,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '2.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -956,7 +956,7 @@ return [
     'issue-492-AO' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; SM-T310 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -964,7 +964,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -984,7 +984,7 @@ return [
     'issue-492-AP' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A3-A10 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1012,12 +1012,12 @@ return [
     'issue-492-AQ' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; 909)',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Version' => '10.0',
+            'MajorVer' => '10',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -1033,14 +1033,14 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-492-AR' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; HUAWEI G525-U00 Build/HuaweiG525-U00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1048,7 +1048,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1068,7 +1068,7 @@ return [
     'issue-492-AS' => [
         'Mozilla/4.75 [en] (X11, U; OpenVAS)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'OpenVAS',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -1096,7 +1096,7 @@ return [
     'issue-492-AT' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; HTC_Desire_500 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1104,7 +1104,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1124,7 +1124,7 @@ return [
     'issue-492-AU' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2;de-de; Lenovo B8000-F/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1160,7 +1160,7 @@ return [
             'MajorVer' => '28',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1180,7 +1180,7 @@ return [
     'issue-492-AW' => [
         'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) CasperJS/1.1.0-beta3+PhantomJS/1.9.7 Safari/534.34',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'PhantomJS',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -1208,7 +1208,7 @@ return [
     'issue-492-AX' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SAMSUNG GT-P5220/P5220XXUAMJ8 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1236,40 +1236,40 @@ return [
     'issue-492-AY' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ST10216-2 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30;SurfTab_10.1',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'MajorVer' => '4',
             'MinorVer' => '0',
-            'Platform' => 'WinXP',
-            'Platform_Version' => '5.1',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'Microsoft Corporation',
+            'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
-            'isTablet' => true,
+            'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'Windows Desktop',
-            'Device_Maker' => 'Various',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-            'Device_Code_Name' => 'Windows Desktop',
-            'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
-            'RenderingEngine_Maker' => 'Microsoft Corporation',
+            'Device_Name' => 'Galaxy Note 10.1 2014 Edition Wi-Fi',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Code_Name' => 'SM-P600',
+            'Device_Brand_Name' => 'Samsung',
+            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-492-AZ' => [
         'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Version' => '11.0',
+            'MajorVer' => '11',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -1285,7 +1285,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
@@ -1300,7 +1300,7 @@ return [
             'MajorVer' => '28',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1320,7 +1320,7 @@ return [
     'issue-492-BB' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ALCATEL ONE TOUCH 5020D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1328,7 +1328,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.2',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1376,19 +1376,19 @@ return [
     'issue-492-BD' => [
         'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'Internet Explorer',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
-            'MinorVer' => '0',
-            'Platform' => 'WinXP',
-            'Platform_Version' => '5.1',
+            'Version' => '5.01',
+            'MajorVer' => '5',
+            'MinorVer' => '01',
+            'Platform' => 'Win2000',
+            'Platform_Version' => '5.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
-            'isMobileDevice' => true,
-            'isTablet' => true,
+            'isMobileDevice' => false,
+            'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
@@ -1460,7 +1460,7 @@ return [
     'issue-492-BG' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; LG-P710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1488,7 +1488,7 @@ return [
     'issue-492-BH' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; LG-E460 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1516,13 +1516,13 @@ return [
     'issue-492-BI' => [
         'Mozilla/5.0 (compatible; memorybot/1.20.41 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'memorybot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
-            'Version' => '3.0',
-            'MajorVer' => '3',
-            'MinorVer' => '0',
+            'Version' => '1.20',
+            'MajorVer' => '1',
+            'MinorVer' => '20',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
@@ -1544,7 +1544,7 @@ return [
     'issue-492-BJ' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Vodafone Smart Tab III 10 Build/S6000_A422_000_027_130814_VF) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1572,7 +1572,7 @@ return [
     'issue-492-BK' => [
         'ichiro/3.0 (http://help.goo.ne.jp/door/crawler.html)',
         [
-            'Browser' => 'YandexBot',
+            'Browser' => 'ichiro',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex',
@@ -1600,7 +1600,7 @@ return [
     'issue-492-BL' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; pcdadr6350 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -1628,7 +1628,7 @@ return [
     'issue-492-BM' => [
         'Mozilla/5.0 (X11; U; Linux i686; de-DE) AppleWebKit/534.3 (KHTML, like Gecko) WeTab-Browser Safari/534.3',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'WeTab-Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -1656,7 +1656,7 @@ return [
     'issue-492-BN' => [
         'OpenOffice/4.0.1',
         [
-            'Browser' => 'SeoProfiler Robot',
+            'Browser' => 'OpenOffice',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -1688,9 +1688,9 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon',
-            'Version' => '8.0',
-            'MajorVer' => '8',
-            'MinorVer' => '0',
+            'Version' => '3.21',
+            'MajorVer' => '3',
+            'MinorVer' => '21',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
             'Platform_Bits' => '32',
@@ -1824,7 +1824,7 @@ return [
     'issue-492-BT' => [
         'Mozilla/5.0 (iPod; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko)',
         [
-            'Browser' => 'Opera Tablet',
+            'Browser' => 'Apple Mail',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -1852,19 +1852,19 @@ return [
     'issue-492-BU' => [
         'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.4) Gecko/20030619 Netscape/7.1 (ax)',
         [
-            'Browser' => 'Opera Tablet',
+            'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
-            'MinorVer' => '0',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '7.1',
+            'MajorVer' => '7',
+            'MinorVer' => '1',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
-            'isMobileDevice' => true,
-            'isTablet' => true,
+            'isMobileDevice' => false,
+            'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
@@ -1872,9 +1872,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
-            'RenderingEngine_Maker' => 'Microsoft Corporation',
+            'RenderingEngine_Name' => 'Gecko',
+            'RenderingEngine_Version' => '1.0',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
     'issue-492-BV' => [
@@ -1884,11 +1884,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -1910,16 +1910,16 @@ return [
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Version' => '37.0',
             'MajorVer' => '37',
             'MinorVer' => '0',
-            'Platform' => 'Android',
-            'Platform_Version' => '4.3',
-            'Platform_Bits' => '32',
-            'Platform_Maker' => 'Google Inc',
-            'isMobileDevice' => true,
+            'Platform' => 'Win7',
+            'Platform_Version' => '6.1',
+            'Platform_Bits' => '64',
+            'Platform_Maker' => 'Microsoft Corporation',
+            'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Galaxy Note 10.1 2014 Edition Wi-Fi',
@@ -1936,7 +1936,7 @@ return [
     'issue-492-BX' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; MALNJS)',
         [
-            'Browser' => 'Opera Tablet',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -1957,14 +1957,14 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-492-BY' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-811 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2000,7 +2000,7 @@ return [
             'MajorVer' => '29',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2020,7 +2020,7 @@ return [
     'issue-492-CA' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; U8600 Build/HuaweiU8600) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2076,7 +2076,7 @@ return [
     'issue-492-CC' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; TechniPad_10-3G Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2140,7 +2140,7 @@ return [
             'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.2',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2216,7 +2216,7 @@ return [
     'issue-492-CH' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; Vodafone SmartTab II 10 Build/SmartTabII10_A403_K85_130118) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2272,7 +2272,7 @@ return [
     'issue-492-CI' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-S6312 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2300,7 +2300,7 @@ return [
     'issue-492-CJ' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; SCH-R720 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2328,7 +2328,7 @@ return [
     'issue-492-CK' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; DROID X2 Build/4.5.1A-DTN-200-18) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2364,7 +2364,7 @@ return [
             'MajorVer' => '30',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2384,7 +2384,7 @@ return [
     'issue-492-CM' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Cynus T2 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2412,7 +2412,7 @@ return [
     'issue-492-CN' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; HTC_One_V/2.22.111.1 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2448,7 +2448,7 @@ return [
             'MajorVer' => '28',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2472,11 +2472,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '37.0',
+            'MajorVer' => '37',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2496,7 +2496,7 @@ return [
     'issue-492-CQ' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID BIONIC 4G Build/6.7.2-223_DBN_M4-23) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2528,11 +2528,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.2',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2552,7 +2552,7 @@ return [
     'issue-492-CS' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; AN9G2I Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2580,12 +2580,12 @@ return [
     'issue-492-CT' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 720)',
         [
-            'Browser' => 'RockMelt',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Version' => '10.0',
+            'MajorVer' => '10',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -2601,14 +2601,14 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-492-CU' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-S6810P Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2668,11 +2668,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.2',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2695,9 +2695,9 @@ return [
             'Browser' => 'Fennec',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '8.0',
-            'MajorVer' => '8',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '10.0',
+            'MajorVer' => '10',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -2728,7 +2728,7 @@ return [
             'MajorVer' => '28',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2780,15 +2780,15 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '2.0',
-            'MajorVer' => '2',
-            'MinorVer' => '0',
+            'Version' => '24.4',
+            'MajorVer' => '24',
+            'MinorVer' => '4',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
-            'isMobileDevice' => true,
-            'isTablet' => true,
+            'isMobileDevice' => false,
+            'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
@@ -2796,9 +2796,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
-            'RenderingEngine_Maker' => 'Microsoft Corporation',
+            'RenderingEngine_Name' => 'Gecko',
+            'RenderingEngine_Version' => '24.0',
+            'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
     'issue-492-DB' => [
@@ -2808,11 +2808,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2832,7 +2832,7 @@ return [
     'issue-492-DC' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; SGH-T989 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2860,7 +2860,7 @@ return [
     'issue-492-DD' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Cynus F4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2888,12 +2888,12 @@ return [
     'issue-492-DE' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 510)',
         [
-            'Browser' => 'Seznam Screenshot Generator',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '2.0',
-            'MajorVer' => '2',
+            'Version' => '9.0',
+            'MajorVer' => '9',
             'MinorVer' => '0',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
@@ -2909,7 +2909,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
@@ -2920,11 +2920,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '36.0',
+            'MajorVer' => '36',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -2976,11 +2976,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -3000,7 +3000,7 @@ return [
     'issue-492-DI' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; HUAWEI G700-U10 Build/HuaweiG700-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3032,11 +3032,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -3084,7 +3084,7 @@ return [
     'issue-492-DL' => [
         'Mozilla/5.0 (Linux; U; Android 4.3; de-de; HUAWEI Y530-U00 Build/HuaweiY530-U00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3115,14 +3115,14 @@ return [
             'Browser' => 'BingPreview',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Yandex',
-            'Version' => '3.0',
-            'MajorVer' => '3',
-            'MinorVer' => '0',
-            'Platform' => 'unknown',
-            'Platform_Version' => 'unknown',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '1.0b',
+            'MajorVer' => '1',
+            'MinorVer' => '0b',
+            'Platform' => 'Win8',
+            'Platform_Version' => '6.2',
             'Platform_Bits' => '0',
-            'Platform_Maker' => 'unknown',
+            'Platform_Maker' => 'Microsoft Corporation',
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,
@@ -3132,15 +3132,15 @@ return [
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'unknown',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'unknown',
-            'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Name' => 'Trident',
+            'RenderingEngine_Version' => '6.0',
+            'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-492-DN' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; ARNOVA 101 G4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3168,7 +3168,7 @@ return [
     'issue-492-DO' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ME172V Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3196,7 +3196,7 @@ return [
     'issue-492-DP' => [
         'Mozilla/5.0 (Linux; U; Android 2.2; de; TSB_CLOUD_COMPANION;TOSHIBA_AC_AND_AZ) AppleWebkit/533.1(KHTML, like Gecko) Version/4.0 Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3224,7 +3224,7 @@ return [
     'issue-492-DQ' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; MID8127 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3256,11 +3256,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -3284,11 +3284,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '34.0',
+            'MajorVer' => '34',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -3308,7 +3308,7 @@ return [
     'issue-492-DT' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Xelio 7 pro Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3336,7 +3336,7 @@ return [
     'issue-492-DU' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; PadFone 2 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3368,11 +3368,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '32.0',
+            'MajorVer' => '32',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
@@ -3396,8 +3396,8 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '18.0',
+            'MajorVer' => '18',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.3',
@@ -3420,14 +3420,14 @@ return [
     'issue-492-DX' => [
         'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like Gecko',
         [
-            'Browser' => 'BingPreview',
+            'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '2.0',
-            'MajorVer' => '2',
+            'Version' => '11.0',
+            'MajorVer' => '11',
             'MinorVer' => '0',
-            'Platform' => 'WinXP',
+            'Platform' => 'WinRT8.1',
             'Platform_Version' => '5.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
@@ -3441,14 +3441,14 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Trident',
-            'RenderingEngine_Version' => '4.0',
+            'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
     'issue-492-DY' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; IdeaTab A3000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
         [
-            'Browser' => 'Android Browser',
+            'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -3480,11 +3480,11 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
+            'Version' => '34.0',
+            'MajorVer' => '34',
             'MinorVer' => '0',
             'Platform' => 'Android',
-            'Platform_Version' => '4.3',
+            'Platform_Version' => '4.2',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
