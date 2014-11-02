@@ -539,6 +539,38 @@
           "platforms": [
             "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
           ]
+        },
+        {
+          "match": "Superfeedr bot\/2.0*",
+          "properties": {
+            "Browser": "Superfeedr Bot",
+            "Browser_Maker": "Superfeedr",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Superfeedr bot\/*",
+          "properties": {
+            "Browser": "Superfeedr Bot",
+            "Browser_Maker": "Superfeedr"
+          }
+        },
+        {
+          "match": "Blogshares Spiders (Renewed V1.65*",
+          "properties": {
+            "Browser": "Blogshares Spiders",
+            "Version": "1.65",
+            "MajorVer": "1",
+            "MinorVer": "65"
+          }
+        },
+        {
+          "match": "Blogshares Spiders*",
+          "properties": {
+            "Browser": "Blogshares Spiders"
+          }
         }
       ]
     }
