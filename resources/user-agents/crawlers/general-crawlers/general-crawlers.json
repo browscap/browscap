@@ -1801,13 +1801,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/*",
-          "properties": {
-            "Browser": "Daumoa",
-            "Browser_Maker": "Daum Communications Corp"
-          }
-        },
-        {
           "match": "Photon\/1.0*",
           "properties": {
             "Browser": "Photon",
