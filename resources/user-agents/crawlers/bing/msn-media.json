@@ -7,6 +7,7 @@
       "userAgent": "MSN-Media",
       "properties": {
         "Parent": "DefaultProperties",
+        "Browser": "msnbot-media",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN-Media",
@@ -20,7 +21,6 @@
         {
           "match": "msnbot-media\/1.0*",
           "properties": {
-            "Browser": "msnbot-media",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -29,7 +29,6 @@
         {
           "match": "msnbot-media\/1.1*",
           "properties": {
-            "Browser": "msnbot-media",
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
@@ -42,7 +41,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) MsnBot-Media \/1.0b*",
           "engine": "WebKit",
           "properties": {
-            "Browser": "msnbot-media",
             "Version": "1.0b",
             "MajorVer": "1",
             "MinorVer": "0b",
@@ -60,15 +58,14 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Browser": "msnbot-media",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN-Media",
-        "Browser": "MSN",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true",
-        "Browser": "msnbot-media",
         "Version": "1.0b",
         "MajorVer": "1",
         "MinorVer": "0b",
