@@ -10,6 +10,7 @@
         "Comment": "YandexBot",
         "Browser": "YandexBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Yandex",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
