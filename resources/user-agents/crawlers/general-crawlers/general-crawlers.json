@@ -1630,7 +1630,7 @@
           }
         },
         {
-          "match": "ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com",
+          "match": "ADmantX Platform Semantic Analyzer*",
           "properties": {
             "Browser": "ADmantX Platform Semantic Analyzer",
             "Browser_Maker": "ADmantX Inc"
@@ -1774,7 +1774,17 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/3.0*",
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/4.0*",
+          "properties": {
+            "Browser": "Daumoa",
+            "Browser_Maker": "Daum Communications Corp",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/3.0*",
           "properties": {
             "Browser": "Daumoa",
             "Browser_Maker": "Daum Communications Corp",
@@ -1784,14 +1794,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/*",
-          "properties": {
-            "Browser": "Daumoa",
-            "Browser_Maker": "Daum Communications Corp"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http:\/\/tab.search.daum.net\/aboutWebSearch.html) Daumoa\/*",
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/*",
           "properties": {
             "Browser": "Daumoa",
             "Browser_Maker": "Daum Communications Corp"
@@ -1902,6 +1905,23 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; DomainAppender \/1.0*",
+          "properties": {
+            "Browser": "DomainAppender Bot",
+            "Browser_Maker": "Profound Networks",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DomainAppender \/*",
+          "properties": {
+            "Browser": "DomainAppender Bot",
+            "Browser_Maker": "Profound Networks"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; NetSeer crawler\/2.0*",
           "properties": {
             "Browser": "NetSeer Crawler",
@@ -1991,6 +2011,15 @@
           "match": "hivaBot*",
           "properties": {
             "Browser": "hivaBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; fr-crawler\/1.1*",
+          "properties": {
+            "Browser": "fr-crawler",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
           }
         },
         {
@@ -2167,10 +2196,20 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (TweetmemeBot\/4.0*",
+          "properties": {
+            "Browser": "TweetmemeBot",
+            "Browser_Maker": "datasift.com",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/3.0*",
           "properties": {
             "Browser": "TweetmemeBot",
-            "Browser_Maker": "tweetmeme.com",
+            "Browser_Maker": "datasift.com",
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0"
@@ -2180,7 +2219,7 @@
           "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/*",
           "properties": {
             "Browser": "TweetmemeBot",
-            "Browser_Maker": "tweetmeme.com"
+            "Browser_Maker": "datasift.com"
           }
         },
         {
@@ -2842,6 +2881,101 @@
           "properties": {
             "Browser": "redbot",
             "Browser_Maker": "mnot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MixrankBot*",
+          "properties": {
+            "Browser": "MixrankBot",
+            "Browser_Maker": "Online Media Group, Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; memoryBot\/1.20*",
+          "properties": {
+            "Browser": "memoryBot",
+            "Browser_Maker": "Internet Memory Foundation",
+            "Version": "1.20",
+            "MajorVer": "1",
+            "MinorVer": "20"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; memoryBot\/*",
+          "properties": {
+            "Browser": "memoryBot",
+            "Browser_Maker": "Internet Memory Foundation"
+          }
+        },
+        {
+          "match": "Icarus6j*",
+          "properties": {
+            "Browser": "Icarus6j",
+            "Browser_Maker": "icarus6.com"
+          }
+        },
+        {
+          "match": "wsr-agent\/1.0*",
+          "properties": {
+            "Browser": "wsr-agent",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "wsr-agent\/*",
+          "properties": {
+            "Browser": "wsr-agent"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (URLfilterDB-crawler\/1.1)*",
+          "properties": {
+            "Browser": "URLfilterDB Crawler",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (URLfilterDB-crawler\/*",
+          "properties": {
+            "Browser": "URLfilterDB Crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; OpenHoseBot\/2.1*",
+          "properties": {
+            "Browser": "OpenHoseBot",
+            "Browser_Maker": "www.openhose.org",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; OpenHoseBot\/*",
+          "properties": {
+            "Browser": "OpenHoseBot",
+            "Browser_Maker": "www.openhose.org"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DomainSigmaCrawler\/0.1*",
+          "properties": {
+            "Browser": "DomainSigmaCrawler",
+            "Browser_Maker": "DomainSigma",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DomainSigmaCrawler\/*",
+          "properties": {
+            "Browser": "DomainSigmaCrawler",
+            "Browser_Maker": "DomainSigma"
           }
         }
       ]
