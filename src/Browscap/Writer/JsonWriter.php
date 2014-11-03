@@ -18,18 +18,20 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class CsvWriter
+ * Class JsonWriter
  *
  * @category   Browscap
  * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class CsvWriter implements WriterInterface
+
+class JsonWriter implements WriterInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface
@@ -42,12 +44,12 @@ class CsvWriter implements WriterInterface
     private $file = null;
 
     /**
-     * @var \Browscap\Formatter\FormatterInterface
+     * @var FormatterInterface
      */
     private $formatter = null;
 
     /**
-     * @var \Browscap\Filter\FilterInterface
+     * @var FilterInterface
      */
     private $type = null;
 
@@ -71,7 +73,7 @@ class CsvWriter implements WriterInterface
      */
     public function getType()
     {
-        return 'csv';
+        return 'json';
     }
 
     /**
@@ -171,6 +173,12 @@ class CsvWriter implements WriterInterface
      */
     public function fileStart()
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+
+        fputs($this->file, '{' . PHP_EOL);
+
         return $this;
     }
 
@@ -181,6 +189,12 @@ class CsvWriter implements WriterInterface
      */
     public function fileEnd()
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+
+        fputs($this->file, '}' . PHP_EOL);
+
         return $this;
     }
 
@@ -193,6 +207,26 @@ class CsvWriter implements WriterInterface
      */
     public function renderHeader(array $comments = array())
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+
+        $this->getLogger()->debug('rendering comments');
+
+        fputs($this->file, '  "comments": [' . PHP_EOL);
+
+        foreach ($comments as $i => $text) {
+            fputs($this->file, '    ' . json_encode($text));
+
+            if ($i < (count($comments) - 1)) {
+                fputs($this->file, ',');
+            }
+
+            fputs($this->file, PHP_EOL);
+        }
+
+        fputs($this->file, '  ],' . PHP_EOL);
+
         return $this;
     }
 
@@ -211,7 +245,7 @@ class CsvWriter implements WriterInterface
 
         $this->getLogger()->debug('rendering version information');
 
-        fputs($this->file, '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL);
+        fputs($this->file, '  "GJK_Browscap_Version": {' . PHP_EOL);
 
         if (!isset($versionData['version'])) {
             $versionData['version'] = '0';
@@ -221,7 +255,10 @@ class CsvWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fputs($this->file, '"' . $versionData['version'] . '","' . $versionData['released'] . '"' . PHP_EOL);
+        fputs($this->file, '    "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
+        fputs($this->file, '    "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
+
+        fputs($this->file, '  },' . PHP_EOL);
 
         return $this;
     }
@@ -235,31 +272,6 @@ class CsvWriter implements WriterInterface
      */
     public function renderAllDivisionsHeader(DataCollection $collection)
     {
-        $division = $collection->getDefaultProperties();
-        $ua       = $division->getUserAgents();
-
-        if (empty($ua[0]['properties']) || !is_array($ua[0]['properties'])) {
-            return $this;
-        }
-
-        $defaultproperties = $ua[0]['properties'];
-        $properties        = array_merge(
-            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
-            array_keys($defaultproperties)
-        );
-
-        $values = array();
-
-        foreach ($properties as $property) {
-            if (!$this->getFilter()->isOutputProperty($property, $this)) {
-                continue;
-            }
-
-            $values[] = $this->getFormatter()->formatPropertyName($property);
-        }
-
-        fputs($this->file, implode(',', $values) . PHP_EOL);
-
         return $this;
     }
 
@@ -285,6 +297,12 @@ class CsvWriter implements WriterInterface
      */
     public function renderSectionHeader($sectionName)
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+
+        fputs($this->file, '  ' . $this->getFormatter()->formatPropertyName($sectionName) . ': ');
+
         return $this;
     }
 
@@ -297,7 +315,7 @@ class CsvWriter implements WriterInterface
      * @param string                        $sectionName
      *
      * @throws \InvalidArgumentException
-     * @return CsvWriter
+     * @return JsonWriter
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
     {
@@ -308,37 +326,69 @@ class CsvWriter implements WriterInterface
         $division          = $collection->getDefaultProperties();
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
-        $properties        = array_merge(
-            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
-            array_keys($defaultproperties)
-        );
+        $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $values = array();
+        $expander = new Expander();
 
-        $section['PropertyName'] = $sectionName;
-        $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
-
-        if (in_array($sectionName, array('DefaultProperties', '*'))) {
-            $section['LiteMode'] = 'true';
-        } else {
-            $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
+        foreach ($defaultproperties as $propertyName => $propertyValue) {
+            $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
         }
 
+        $propertiesToOutput = array();
+        $lastProperty       = '';
+
         foreach ($properties as $property) {
-            if (!$this->getFilter()->isOutputProperty($property, $this)) {
+            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
             }
 
-            if (isset($section[$property])) {
-                $value = $section[$property];
-            } else {
-                $value = '';
+            /**/
+            if (isset($section['Parent']) && 'Parent' !== $property) {
+                if ('DefaultProperties' === $section['Parent']
+                    || !isset($sections[$section['Parent']])
+                ) {
+                    if (isset($defaultproperties[$property])
+                        && $defaultproperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                } else {
+                    $parentProperties = $sections[$section['Parent']];
+
+                    if (isset($parentProperties[$property])
+                        && $parentProperties[$property] === $section[$property]
+                    ) {
+                        continue;
+                    }
+                }
+            }
+            /**/
+
+            $propertiesToOutput[$property] = $section[$property];
+            $lastProperty                  = $property;
+        }
+        
+        fputs(
+                $this->file,
+                $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+            );
+
+        /*
+        foreach ($propertiesToOutput as $property => $value) {
+            //         "Parent": "DefaultProperties",
+            fputs(
+                $this->file,
+                '    ' . $this->getFormatter()->formatPropertyName($property)
+                . ': ' . $this->getFormatter()->formatPropertyValue($value, $property)
+            );
+
+            if ($property !== $lastProperty) {
+                fputs($this->file, ',');
             }
 
-            $values[] = $this->getFormatter()->formatPropertyValue($value, $property);
+            fputs($this->file, PHP_EOL);
         }
-
-        fputs($this->file, implode(',', $values) . PHP_EOL);
+        /**/
 
         return $this;
     }
@@ -352,6 +402,18 @@ class CsvWriter implements WriterInterface
      */
     public function renderSectionFooter($sectionName = '')
     {
+        if ($this->isSilent()) {
+            return $this;
+        }
+
+        //fputs($this->file, '');
+
+        if ('*' !== $sectionName) {
+            fputs($this->file, ',');
+        }
+
+        fputs($this->file, PHP_EOL);
+
         return $this;
     }
 
@@ -373,25 +435,5 @@ class CsvWriter implements WriterInterface
     public function renderAllDivisionsFooter()
     {
         return $this;
-    }
-
-    /**
-     * @param string $key
-     * @param array  $properties
-     *
-     * @return string
-     */
-    private function detectMasterParent($key, array $properties)
-    {
-        $this->getLogger()->debug('check if the element can be marked as "MasterParent"');
-
-        if (in_array($key, array('DefaultProperties', '*'))
-            || empty($properties['Parent'])
-            || 'DefaultProperties' === $properties['Parent']
-        ) {
-            return 'true';
-        }
-
-        return 'false';
     }
 }

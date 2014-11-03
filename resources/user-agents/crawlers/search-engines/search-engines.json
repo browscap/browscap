@@ -951,6 +951,115 @@
             "Browser": "AcoonBot",
             "Browser_Maker": "Michael Schöbel"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MojeekBot\/0.6*",
+          "properties": {
+            "Browser": "MojeekBot",
+            "Browser_Maker": "Mojeek Ltd.",
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MojeekBot\/*",
+          "properties": {
+            "Browser": "MojeekBot",
+            "Browser_Maker": "Mojeek Ltd."
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; MonoBot\/1.0*",
+          "properties": {
+            "Browser": "MonoBot",
+            "Browser_Maker": "mono.name",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; MonoBot\/*",
+          "properties": {
+            "Browser": "MonoBot",
+            "Browser_Maker": "mono.name"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; GLBot\/1.0*",
+          "properties": {
+            "Browser": "GLBot",
+            "Browser_Maker": "GalaxyDownloads.co",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; GLBot\/*",
+          "properties": {
+            "Browser": "GLBot",
+            "Browser_Maker": "GalaxyDownloads.co"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; DBot\/7.0*",
+          "properties": {
+            "Browser": "DBot",
+            "Browser_Maker": "getdownload.ws",
+            "Version": "7.0",
+            "MajorVer": "7",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; DBot\/*",
+          "properties": {
+            "Browser": "DBot",
+            "Browser_Maker": "getdownload.ws"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; PWBot\/1.0*",
+          "properties": {
+            "Browser": "PWBot",
+            "Browser_Maker": "eurofiles.in",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; PWBot\/*",
+          "properties": {
+            "Browser": "PWBot",
+            "Browser_Maker": "eurofiles.in"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; +5Bot\/1.0*",
+          "properties": {
+            "Browser": "5Bot",
+            "Browser_Maker": "plus5files.net",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.1 (compatible; +5Bot\/*",
+          "properties": {
+            "Browser": "5Bot",
+            "Browser_Maker": "plus5files.net"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WASALive-Bot*",
+          "properties": {
+            "Browser": "WASALive Bot",
+            "Browser_Maker": "WASALive"
+          }
         }
       ]
     }
