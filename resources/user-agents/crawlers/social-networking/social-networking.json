@@ -150,6 +150,40 @@
             "Browser": "viralvideochart Bot",
             "Browser_Maker": "Unruly Group Limited"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/1.0*",
+          "properties": {
+            "Browser": "InfegyAtlas",
+            "Browser_Maker": "Infegy",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/*",
+          "properties": {
+            "Browser": "InfegyAtlas",
+            "Browser_Maker": "Infegy"
+          }
+        },
+        {
+          "match": "QuickiWiki\/1.0*",
+          "properties": {
+            "Browser": "QuickiWiki Bot",
+            "Browser_Maker": "QuickiWiki",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "QuickiWiki\/*",
+          "properties": {
+            "Browser": "QuickiWiki Bot",
+            "Browser_Maker": "QuickiWiki"
+          }
         }
       ]
     }

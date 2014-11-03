@@ -122,7 +122,6 @@
           "match": "Zend_Http_Client",
           "properties": {
             "Browser": "Zend_Http_Client",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Zend Technologies Ltd."
           }
         },
