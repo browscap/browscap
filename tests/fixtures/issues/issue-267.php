@@ -3095,7 +3095,7 @@ return [
             'Browser' => 'TweetmemeBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'tweetmeme.com',
+            'Browser_Maker' => 'datasift.com',
             'Version' => '3.0',
             'MajorVer' => '3',
             'MinorVer' => '0',

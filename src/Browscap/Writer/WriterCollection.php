@@ -216,12 +216,14 @@ class WriterCollection
     /**
      * renders the footer for a section
      *
+     * @param string $sectionName
+     *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionFooter()
+    public function renderSectionFooter($sectionName = '')
     {
         foreach ($this->writers as $writer) {
-            $writer->renderSectionFooter();
+            $writer->renderSectionFooter($sectionName);
         }
 
         return $this;
