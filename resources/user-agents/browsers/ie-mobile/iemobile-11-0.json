@@ -80,6 +80,19 @@
           ]
         },
         {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 630)*",
+          "properties": {
+            "Device_Code_Name": "Lumia 630",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 630",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinPhone8.1"

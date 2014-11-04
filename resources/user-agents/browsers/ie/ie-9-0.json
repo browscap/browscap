@@ -53,7 +53,6 @@
           "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/5.0; Xbox*",
           "properties": {
             "isMobileDevice": "true",
-            "isTablet": "true",
             "Device_Type": "TV Device",
             "Device_Code_Name": "Xbox 360",
             "Device_Maker": "Microsoft Corporation",

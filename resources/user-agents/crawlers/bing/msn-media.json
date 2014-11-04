@@ -11,7 +11,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN-Media",
-        "Browser": "MSN",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -49,6 +48,21 @@
           "platforms": [
             "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:11.0; BingPreview/1.0b*)*",
+          "properties": {
+            "Version": "1.0b",
+            "MajorVer": "1",
+            "MinorVer": "0b",
+            "Beta": "true"
+          },
+          "platforms": [
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32"
           ]
         }
       ]

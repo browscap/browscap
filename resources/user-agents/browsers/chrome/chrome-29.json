@@ -2218,6 +2218,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P605 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-P605",
             "Device_Maker": "Samsung",
@@ -2225,7 +2227,7 @@
             "Device_Name": "Galaxy Note 10.1 2014 Edition WI-FI + 4G LTE"
           },
           "platforms": [
-            "Android_4_3"
+            "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -2329,11 +2331,27 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T530",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab 4 10.1"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4",
             "Android"
           ]
         },
