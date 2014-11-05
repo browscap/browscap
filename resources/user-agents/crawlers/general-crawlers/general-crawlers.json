@@ -2908,6 +2908,13 @@
           }
         },
         {
+          "match": "JoobleBot*",
+          "properties": {
+            "Browser": "JoobleBot",
+            "Browser_Maker": "jooble.com"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; MixrankBot*",
           "properties": {
             "Browser": "MixrankBot",
