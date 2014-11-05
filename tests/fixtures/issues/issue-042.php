@@ -12,7 +12,7 @@ return [
             'MajorVer' => '10',
             'MinorVer' => '0',
             'Platform' => 'RIM OS',
-            'Platform_Version' => '10',
+            'Platform_Version' => '10.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Research In Motion Limited',
             'isMobileDevice' => true,
