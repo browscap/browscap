@@ -1,6 +1,6 @@
 {
   "division": "WeTab-Browser",
-  "sortIndex": 11010,
+  "sortIndex": 1945,
   "userAgents": [
     {
       "userAgent": "WeTab-Browser",
@@ -34,7 +34,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
           "platforms": [
-            "MeeGo"
+            "MeeGo", "Linux_32", "Linux"
           ]
         }
       ]

@@ -600,7 +600,7 @@
             "Device_Name": "LifeTab S9714"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -1857,7 +1857,6 @@
             "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-P605",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -1994,6 +1993,21 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N7505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N7505",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Note 3 Neo Duos"
+          },
+          "platforms": [
+            "Android_4_3"
           ]
         },
         {

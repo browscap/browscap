@@ -2293,11 +2293,11 @@
         "Platform_Version": "7.1"
       }
     },
-    "RIMOS_10": {
+    "RIMOS_10_X": {
       "match": "*BB10*",
       "inherits": "RIMOS",
       "properties": {
-        "Platform_Version": "10"
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
       }
     },
     "RIM_Tablet_OS": {

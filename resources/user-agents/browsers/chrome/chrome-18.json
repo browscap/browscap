@@ -614,7 +614,7 @@
             "Device_Name": "LifeTab S9714"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
