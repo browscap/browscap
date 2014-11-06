@@ -287,6 +287,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 5020D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "OT-5020D",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Name": "One Touch MPop"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

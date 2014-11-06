@@ -2952,18 +2952,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8190",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III Mini"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190N Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I8190N",
@@ -2973,6 +2961,18 @@
           },
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I8190",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III Mini"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -6987,6 +6987,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "C1505",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia E"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyST26i* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "ST26i",
@@ -7116,6 +7128,21 @@
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#UNO_X10 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Uno X10",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Name": "Uno X10"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
@@ -7261,6 +7288,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#TechniPad_10-3G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Name": "TechniPad 10 3G",
+            "Device_Maker": "TECHNISAT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "TechniPad 10 3G",
+            "Device_Brand_Name": "TECHNISAT"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Tablet-PC-4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
           "properties": {
             "isTablet": "true",
@@ -7376,6 +7419,20 @@
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
             "Device_Name": "Memo Pad HD7"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A1-811 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A1-811",
+            "Device_Maker": "Acer",
+            "Device_Brand_Name": "Acer",
+            "Device_Name": "Iconia A"
           },
           "platforms": [
             "Android_4_2"

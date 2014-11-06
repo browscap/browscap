@@ -137,6 +137,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190N Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8190N",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III Mini"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
@@ -1390,6 +1404,20 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "GT-I9205"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C1505",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia E"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"

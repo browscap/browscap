@@ -87,6 +87,17 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) CasperJS*PhantomJS\/1.9*",
+          "properties": {
+            "Version": "1.9",
+            "MajorVer": "1",
+            "MinorVer": "9"
+          },
+          "platforms": [
+            "Linux_64", "Linux", "Win8_64"
+          ]
+        },
+        {
           "match": "PhantomJS\/1.9*",
           "properties": {
             "Version": "1.9",
