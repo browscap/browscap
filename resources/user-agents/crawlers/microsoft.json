@@ -122,6 +122,18 @@
           "properties": {
             "Browser": "MS Proxy"
           }
+        },
+        {
+          "match": "iisbot\/1.0*",
+          "properties": {
+            "Browser": "IIS Site Analysis Web Crawler"
+          }
+        },
+        {
+          "match": "iisbot\/*",
+          "properties": {
+            "Browser": "IIS Site Analysis Web Crawler"
+          }
         }
       ]
     }

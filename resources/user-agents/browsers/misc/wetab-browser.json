@@ -34,7 +34,17 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
           "platforms": [
-            "MeeGo", "Linux_32", "Linux"
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
+          "properties": {
+            "isMobileDevice": "false",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "Linux_32", "Linux"
           ]
         }
       ]
