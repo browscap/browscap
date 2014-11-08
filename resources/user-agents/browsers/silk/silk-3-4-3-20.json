@@ -1,6 +1,6 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.23", "3.22", "3.21", "3.20", "3.19", "3.18", "3.17", "3.16", "3.15", "3.14", "3.13", "3.12", "3.11", "3.10", "3.9", "3.8", "3.7", "3.6", "3.5", "3.4"],
+  "versions": ["3.20", "3.19", "3.18", "3.17", "3.16", "3.15", "3.14", "3.13", "3.12", "3.11", "3.10", "3.9", "3.8", "3.7", "3.6", "3.5", "3.4"],
   "sortIndex": 1860,
   "lite": true,
   "userAgents": [
@@ -166,7 +166,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.0*; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon",
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*Android 4.0*; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon",
