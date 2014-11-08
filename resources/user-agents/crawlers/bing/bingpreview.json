@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident\/6.0; *BingPreview\/1.0b*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident\/6.0*)*BingPreview\/1.0b*",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
