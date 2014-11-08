@@ -2708,7 +2708,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'general Mobile Device',
             'Device_Maker' => 'Various',
-            'Device_Type' => 'Tablet',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'general Mobile Device',
             'Device_Brand_Name' => 'unknown',
