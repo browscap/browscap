@@ -8330,8 +8330,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ARNOVA 101 G4 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "101 G4",
             "Device_Maker": "Arnova",
             "Device_Brand_Name": "Arnova",
