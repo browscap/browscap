@@ -9,6 +9,7 @@
         "Comment": "YandexBlog",
         "Browser": "YandexBlog",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Yandex",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

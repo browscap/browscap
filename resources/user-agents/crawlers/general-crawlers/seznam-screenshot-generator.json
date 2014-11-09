@@ -9,6 +9,7 @@
         "Comment": "Seznam Screenshot Generator",
         "Browser": "Seznam Screenshot Generator",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Seznam.cz, a.s.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -16,10 +17,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.0;*)",
+          "match": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.0*",
           "properties": {
             "Version": "2.0",
-            "MajorVer": "2"
+            "MajorVer": "2",
+            "MinorVer": "0"
           }
         },
         {

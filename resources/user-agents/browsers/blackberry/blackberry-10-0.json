@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
-      "platform": "RIMOS_10",
+      "platform": "RIMOS_10_X",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (BB10; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Z10",
             "Device_Name": "Z10"

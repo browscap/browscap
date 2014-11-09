@@ -763,42 +763,6 @@
           }
         },
         {
-          "match": "BOT\/0.1* (BOT for JCE)*",
-          "properties": {
-            "Comment": "JCE vulnerability scanner",
-            "Browser": "BOT for JCE",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "BOT\/* (BOT for JCE)*",
-          "properties": {
-            "Comment": "JCE vulnerability scanner",
-            "Browser": "BOT for JCE"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (FHScan Core 1.1*",
-          "properties": {
-            "Comment": "Fast HTTP Vulnerability scanner core api",
-            "Browser": "FHScan Core",
-            "Browser_Maker": "tarasco.org",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (FHScan Core *",
-          "properties": {
-            "Comment": "Fast HTTP Vulnerability scanner core api",
-            "Browser": "FHScan Core",
-            "Browser_Maker": "tarasco.org"
-          }
-        },
-        {
           "match": "A1 Keyword Research*",
           "properties": {
             "Browser": "A1 Keyword Research"
