@@ -38,7 +38,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* IceDragon\/#MAJORVER#.*",
           "platforms": [
-            "WinXPa_32", "Vista_32"
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ]
         }
       ]

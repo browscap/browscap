@@ -1,6 +1,6 @@
 {
   "division": "Palemoon #MAJORVER#.#MINORVER#",
-  "versions": [20, "20.1", "20.2", "20.3", 24, "24.1", "24.2", "24.3", "24.4", "24.5", "24.6", 25],
+  "versions": [20, "20.1", "20.2", "20.3", 24, "24.1", "24.2", "24.3", "24.4", "24.5", "24.6", "24.7", "24.8", "24.9", 25],
   "sortIndex": 2664,
   "userAgents": [
     {
@@ -33,13 +33,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinXPa_32", "Vista_32", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinXPa_32", "Vista_32", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32"
           ]
