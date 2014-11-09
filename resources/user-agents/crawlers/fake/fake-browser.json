@@ -421,6 +421,9 @@
           "match": "Mozila*"
         },
         {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.?; Windows NT ?.?) Netscape\/*"
+        },
+        {
           "match": "Mozilla\/4.0 (compatible; MSIE *) Netscape\/*"
         }
       ]
