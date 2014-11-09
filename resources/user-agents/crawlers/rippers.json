@@ -1161,7 +1161,7 @@
             "MinorVer": "3"
           },
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -1186,7 +1186,7 @@
             "MinorVer": "2"
           },
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -1211,7 +1211,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -1236,7 +1236,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Linux_64", "Linux_32"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
