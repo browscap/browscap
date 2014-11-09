@@ -412,12 +412,6 @@
           }
         },
         {
-          "match": "SimplePie\/*",
-          "properties": {
-            "Browser": "SimplePie"
-          }
-        },
-        {
           "match": "Strategic Board Bot (?http:\/\/www.strategicboard.com)",
           "properties": {
             "Browser": "Strategic Board Bot"
