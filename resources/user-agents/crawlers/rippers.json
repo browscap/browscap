@@ -1151,7 +1151,7 @@
           }
         },
         {
-          "match": "python-requests\/2.3* CPython\/* Linux*x86_64*",
+          "match": "python-requests\/2.3* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Type": "Bot/Crawler",
@@ -1161,21 +1161,7 @@
             "MinorVer": "3"
           },
           "platforms": [
-            "Linux_64"
-          ]
-        },
-        {
-          "match": "python-requests\/2.3* CPython\/* Linux/*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
-          },
-          "platforms": [
-            "Linux_32"
+            "Linux_64", "Linux_32"
           ]
         },
         {
@@ -1190,21 +1176,57 @@
           }
         },
         {
-          "match": "python-requests\/2.0* CPython\/* Linux*x86_64*",
+          "match": "python-requests\/2.2* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
-            "Version": "2.0",
+            "Version": "2.2",
             "MajorVer": "2",
-            "MinorVer": "0"
+            "MinorVer": "2"
           },
           "platforms": [
-            "Linux_64"
+            "Linux_64", "Linux_32"
           ]
         },
         {
-          "match": "python-requests\/2.0* CPython\/* Linux*",
+          "match": "python-requests\/2.2*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "python-requests\/2.1* CPython\/#PLATFORM#",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32"
+          ]
+        },
+        {
+          "match": "python-requests\/2.1*",
+          "properties": {
+            "Browser": "Python-urllib",
+            "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "python-requests\/2.0* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Type": "Bot/Crawler",
@@ -1214,7 +1236,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Linux_32"
+            "Linux_64", "Linux_32"
           ]
         },
         {

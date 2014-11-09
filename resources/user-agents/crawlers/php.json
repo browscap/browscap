@@ -126,6 +126,46 @@
           }
         },
         {
+          "match": "PHP\/5.2*",
+          "properties": {
+            "Version": "5.2",
+            "MajorVer": "5",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "PHP\/5.3*",
+          "properties": {
+            "Version": "5.3",
+            "MajorVer": "5",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "PHP\/5.4*",
+          "properties": {
+            "Version": "5.4",
+            "MajorVer": "5",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "PHP\/5.5*",
+          "properties": {
+            "Version": "5.5",
+            "MajorVer": "5",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "PHP\/5.6*",
+          "properties": {
+            "Version": "5.6",
+            "MajorVer": "5",
+            "MinorVer": "6"
+          }
+        },
+        {
           "match": "PHP*",
           "properties": {
             "Browser": "PHP"

@@ -16,26 +16,31 @@
       },
       "children": [
         {
-          "match": "curl\/7.19*x86_64*linux*",
+          "match": "curl\/7.35*",
+          "properties": {
+            "Version": "7.35",
+            "MajorVer": "7",
+            "MinorVer": "35"
+          }
+        },
+        {
+          "match": "curl\/7.19#PLATFORM#",
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
             "MinorVer": "19"
           },
           "platforms": [
-            "Linux_64"
+            "Linux", "Linux_64_B"
           ]
         },
         {
-          "match": "curl\/7.19*linux*",
+          "match": "curl\/7.19",
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
             "MinorVer": "19"
-          },
-          "platforms": [
-            "Linux"
-          ]
+          }
         },
         {
           "match": "curl*"
