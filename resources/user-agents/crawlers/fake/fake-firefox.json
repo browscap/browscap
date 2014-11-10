@@ -1,6 +1,6 @@
 {
   "division": "Fake Firefox",
-  "sortIndex": 960,
+  "sortIndex": 956,
   "userAgents": [
     {
       "userAgent": "Fake Firefox",
@@ -20,6 +20,9 @@
         },
         {
           "match": "?Mozilla\/* Firefox\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; Windows*rv:*) Firefox\/*"
         }
       ]
     }
