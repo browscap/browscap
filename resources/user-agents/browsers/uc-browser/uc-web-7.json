@@ -171,13 +171,7 @@
         },
         {
           "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Device",
-            "Device_Code_Name": "iPod",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "iPod"
-          },
+          "device": "iPod Touch",
           "platforms": [
             "iOS_G_4_3"
           ]
