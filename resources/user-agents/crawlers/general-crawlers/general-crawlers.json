@@ -493,12 +493,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Seznam screenshot-generator 2.*;*)",
-          "properties": {
-            "Browser": "Seznam screenshot-generator"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; SuchbaerBot\/0.*; +http:\/\/bot.suchbaer.de\/info.html)",
           "properties": {
             "Browser": "SuchbaerBot"
@@ -2884,7 +2878,30 @@
           }
         },
         {
-
+          "match": "BUbiNG*",
+          "properties": {
+            "Browser": "BUbiNG Bot",
+            "Browser_Maker": "http://law.di.unimi.it"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient 3.1*",
+          "properties": {
+            "Browser": "semantic-visions.com crawler",
+            "Browser_Maker": "semantic-visions.com",
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient*",
+          "properties": {
+            "Browser": "semantic-visions.com crawler",
+            "Browser_Maker": "semantic-visions.com"
+          }
+        },
+        {
           "match": "JoobleBot*",
           "properties": {
             "Browser": "JoobleBot",
@@ -2929,6 +2946,55 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/1.0*",
+          "properties": {
+            "Browser": "Wayback Archive Bot",
+            "Browser_Maker": "waybackarchive.org",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/*",
+          "properties": {
+            "Browser": "Wayback Archive Bot",
+            "Browser_Maker": "waybackarchive.org"
+          }
+        },
+        {
+          "match": "Mozilla crawl\/5.0*",
+          "properties": {
+            "Browser": "Mozilla Crawler",
+            "Browser_Maker": "fairshare.cc",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla crawl\/*",
+          "properties": {
+            "Browser": "Mozilla Crawler",
+            "Browser_Maker": "fairshare.cc"
+          }
+        },
+        {
+          "match": "RamblerMail\/6.0*",
+          "properties": {
+            "Browser": "RamblerMail Bot",
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "RamblerMail\/*",
+          "properties": {
+            "Browser": "RamblerMail Bot"
           }
         },
         {

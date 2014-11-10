@@ -140,12 +140,38 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 720*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 720",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 720",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; SAMSUNG; GT-I8750*)",
           "properties": {
             "Device_Code_Name": "GT-I8750",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "ATIV Odyssey",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; 909*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 1020",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 1020",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

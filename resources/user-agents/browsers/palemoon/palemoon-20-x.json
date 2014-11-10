@@ -5,8 +5,8 @@
   "userAgents": [
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
-      "engine": "Gecko_Dynamic",
       "device": "general Desktop",
+      "engine": "Gecko_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palemoon #MAJORVER#.#MINORVER#",

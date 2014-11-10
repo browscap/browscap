@@ -1,16 +1,15 @@
 {
-  "division": "YandexBot",
-  "sortIndex": 61,
-  "lite": true,
+  "division": "Ichiro Bot",
+  "sortIndex": 590,
   "userAgents": [
     {
-      "userAgent": "YandexBot",
+      "userAgent": "Ichiro Bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "YandexBot",
-        "Browser": "YandexBot",
+        "Comment": "Ichiro Bot",
+        "Browser": "Ichiro Bot",
+        "Browser_Maker": "Ichiro",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -18,14 +17,15 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBot\/3.0*",
+          "match": "ichiro\/3.0*",
           "properties": {
             "Version": "3.0",
-            "MajorVer": "3"
+            "MajorVer": "3",
+            "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBot\/*"
+          "match": "ichiro\/*"
         }
       ]
     }

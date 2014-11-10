@@ -131,6 +131,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190N Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8190N",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III Mini"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
@@ -216,7 +230,7 @@
             "Device_Name": "Galaxy S III"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -260,20 +274,6 @@
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-N7100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -423,7 +423,7 @@
             "Device_Name": "Desire X"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -622,7 +622,7 @@
             "Device_Name": "LifeTab S9714"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -680,6 +680,21 @@
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10310 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "E10310",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Name": "LifeTab E10310"
+          },
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {
@@ -1376,7 +1391,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
@@ -1398,6 +1413,94 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "GT-I9205"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C1505",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia E"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ME302C",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Name": "MeMO Pad FHD 10"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9506* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9506",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S4 LTE+"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ST26i* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST26i",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia J"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LT22i Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT22i",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Name": "Xperia P"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC One X+ Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "PM63100",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "One X+"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
