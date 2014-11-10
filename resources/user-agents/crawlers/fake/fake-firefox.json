@@ -20,9 +20,6 @@
         },
         {
           "match": "?Mozilla\/* Firefox\/*"
-        },
-        {
-          "match": "Mozilla\/5.0 (*) Firefox\/*"
         }
       ]
     }
