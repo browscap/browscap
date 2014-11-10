@@ -78,6 +78,14 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible*spbot\/4.1*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*spbot\/*"
         }
       ]

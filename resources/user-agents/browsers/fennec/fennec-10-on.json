@@ -7,7 +7,7 @@
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
       "platform": "Android",
-      "engine": "Gecko_Dynamic",
+      "engine": "Gecko_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Fennec #MAJORVER#.#MINORVER#",
@@ -31,6 +31,28 @@
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (*Android*Mobile*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "general Mobile Device",
+            "Device_Name": "general Mobile Device"
+          },
+          "platforms": [
+            "FirefoxOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Android; Linux*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "general Mobile Device",
+            "Device_Name": "general Mobile Device"
+          },
+          "platforms": [
+            "FirefoxOS"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
           "properties": {

@@ -1,6 +1,6 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
-  "versions": ["1.0", "1.5", "2.0", "3.0", "4.01", "4.0", "5.01", "5.0"],
+  "versions": ["5.01", "5.0"],
   "sortIndex": 5767,
   "userAgents": [
     {
@@ -41,14 +41,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
           "engine": "Tasman",
           "platforms": [
             "MacPPC_2"
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",

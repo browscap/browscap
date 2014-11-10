@@ -7,8 +7,10 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adbeat",
-        "Browser": "Adbeat",
-        "Browser_Maker": "adbeat.com"
+        "Browser": "Adbeat Bot",
+        "Browser_Maker": "adbeat.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
       },
       "children": [
         {
@@ -16,6 +18,9 @@
           "platforms": [
             "Linux_32_x86"
           ]
+        },
+        {
+          "match": "adbeat_bot*"
         }
       ]
     }
