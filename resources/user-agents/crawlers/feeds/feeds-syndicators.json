@@ -209,12 +209,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*aggregator:TailRank; http:\/\/tailrank.com\/robot)*",
-          "properties": {
-            "Browser": "TailRank"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; MSIE 6.0; Podtech Network; crawler_admin@podtech.net)",
           "properties": {
             "Browser": "Podtech Network"
@@ -245,22 +239,97 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:FeedParser; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko\/*",
+          "engine": "Gecko",
           "properties": {
-            "Browser": "FeedParser"
+            "Browser": "Jakarta FeedParser",
+            "Browser_Maker": "Apache Foundation"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "NewsMonster",
+            "Browser_Maker": "Kevin Burton"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "Rojo",
+            "Browser_Maker": "Rojo Networks"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*aggregator:TailRank; http:\/\/tailrank.com\/robot)*",
+          "properties": {
+            "Browser": "TailRank",
+            "Browser_Maker": "Tailrank Inc"
           }
         },
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:NewsMonster; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko\/*",
+          "engine": "Gecko",
           "properties": {
-            "Browser": "NewsMonster"
-          }
+            "Browser": "Spinn3r RSS Aggregator",
+            "Browser_Maker": "Tailrank Inc",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.*; aggregator:Rojo; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko\/*",
+          "engine": "Gecko",
           "properties": {
-            "Browser": "Rojo"
-          }
+            "Browser": "Spinn3r RSS Aggregator",
+            "Browser_Maker": "Tailrank Inc",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "Spinn3r RSS Aggregator",
+            "Browser_Maker": "Tailrank Inc",
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Browser": "Spinn3r RSS Aggregator",
+            "Browser_Maker": "Tailrank Inc"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
         },
         {
           "match": "Mozilla\/5.0 NewsFox\/*",

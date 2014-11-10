@@ -1901,6 +1901,13 @@
         "Platform_Version": "4.0"
       }
     },
+    "Android_4_0_D": {
+      "match": "*Android?4.0*Linux*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
     "Android_4_1": {
       "match": "*Linux*Android?4.1*",
       "inherits": "Android",
@@ -2286,11 +2293,11 @@
         "Platform_Version": "7.1"
       }
     },
-    "RIMOS_10": {
+    "RIMOS_10_X": {
       "match": "*BB10*",
       "inherits": "RIMOS",
       "properties": {
-        "Platform_Version": "10"
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
       }
     },
     "RIM_Tablet_OS": {
