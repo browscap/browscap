@@ -61,15 +61,7 @@
         },
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS"
           ]

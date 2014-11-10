@@ -41,15 +41,7 @@
         },
         {
           "match": "Incredimail #MAJORVER#.#MINORVER#* (iPad; #PLATFORM#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_E_6_1", "iOS_E"
           ]

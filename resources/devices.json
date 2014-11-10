@@ -107,6 +107,18 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "iPad": {
+      "properties": {
+        "Device_Name": "iPad",
+        "Device_Maker": "Apple Inc",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "iPad",
+        "Device_Brand_Name": "Apple",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }

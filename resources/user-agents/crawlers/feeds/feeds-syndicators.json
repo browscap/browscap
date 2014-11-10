@@ -461,20 +461,13 @@
         },
         {
           "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
+          "device": "iPad",
           "properties": {
             "Browser": "Feeddler RSS Reader",
             "Browser_Maker": "Che-Bin Liu",
             "Version": "2.4",
             "MajorVer": "2",
-            "MinorVer": "4",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "4"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"
@@ -495,17 +488,10 @@
         },
         {
           "match": "FeeddlerRSS * (iPad#PLATFORM#)",
+          "device": "iPad",
           "properties": {
             "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "Browser_Maker": "Che-Bin Liu"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"
