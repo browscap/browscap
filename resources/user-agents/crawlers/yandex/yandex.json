@@ -30,12 +30,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBot\/*)",
-          "properties": {
-            "Browser": "YandexBot"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; YandexBot\/*; MirrorDetector*)",
           "properties": {
             "Browser": "Yandex MirrorDetector"
