@@ -6,6 +6,7 @@
       "userAgent": "MobileRSS",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MobileRSS",
@@ -25,13 +26,7 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Crawler": "false"
       },
       "children": [
         {

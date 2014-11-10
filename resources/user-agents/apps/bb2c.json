@@ -6,6 +6,7 @@
       "userAgent": "BB2C",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BB2C",
@@ -24,16 +25,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser": "BB2C",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Browser": "BB2C"
       },
       "children": [
         {

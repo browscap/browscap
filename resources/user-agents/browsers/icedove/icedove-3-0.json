@@ -7,6 +7,7 @@
       "userAgent": "Icedove #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Gecko_1_9_1",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Icedove #MAJORVER#.#MINORVER#",
@@ -24,15 +25,9 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "2"
       },
       "children": [
         {

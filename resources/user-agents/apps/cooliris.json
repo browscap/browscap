@@ -6,6 +6,7 @@
       "userAgent": "Cooliris",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Cooliris",
@@ -24,16 +25,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser": "Cooliris",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Browser": "Cooliris"
       },
       "children": [
         {

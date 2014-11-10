@@ -38,21 +38,21 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; FreeBSD) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
-          "properties": {
-            "Device_Type": "Desktop"
-          },
+          "device": "Macintosh",
           "platforms": [
             "FreeBSD"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Linux Desktop",
           "platforms": [
             "Debian"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*Linux*KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
@@ -68,6 +68,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
+          "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]

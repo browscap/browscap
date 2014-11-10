@@ -6,7 +6,7 @@
       "userAgent": "Skyfire",
       "platform": "OSX",
       "engine": "WebKit",
-      "device": "general Mobile Phone (Touch)",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Skyfire",
@@ -24,11 +24,7 @@
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Name": "Macintosh",
-            "Device_Pointing_Method": "mouse"
+            "MinorVer": "0"
           },
           "platforms": [
             "OSX_10_5_A", "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"

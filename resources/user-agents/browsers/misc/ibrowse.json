@@ -122,12 +122,7 @@
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",
-            "MinorVer": "6",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
+            "MinorVer": "6"
           },
           "platforms": [
             "Darwin"

@@ -5,6 +5,7 @@
     {
       "userAgent": "Microsoft Excel",
       "engine": "Trident",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Excel",
@@ -24,11 +25,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop"
+        "CssVersion": "2"
       },
       "children": [
         {

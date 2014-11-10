@@ -7,6 +7,7 @@
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
@@ -21,12 +22,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "3"
       },
       "children": [
         {

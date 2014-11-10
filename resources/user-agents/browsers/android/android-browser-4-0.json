@@ -7601,19 +7601,13 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#i9988_custom Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
             "Version": "Basic",
             "MajorVer": "Basic",
-            "MinorVer": "0",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop",
-            "Device_Pointing_Method": "mouse",
-            "Device_Maker": "Various",
-            "isMobileDevice": "false",
-            "isTablet": "false"
+            "MinorVer": "0"
           },
           "platforms": [
             "Android_2_3"
@@ -7621,19 +7615,13 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#i9999_custom Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "YouWave Android on PC",
             "Browser_Maker": "youwave.com",
             "Version": "Home",
             "MajorVer": "Home",
-            "MinorVer": "0",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Linux Desktop",
-            "Device_Name": "Linux Desktop",
-            "Device_Pointing_Method": "mouse",
-            "Device_Maker": "Various",
-            "isMobileDevice": "false",
-            "isTablet": "false"
+            "MinorVer": "0"
           },
           "platforms": [
             "Android_2_3"

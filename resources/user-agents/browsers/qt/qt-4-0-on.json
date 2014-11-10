@@ -82,11 +82,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false"
-          },
+          "device": "general Desktop",
           "platforms": [
             "MeeGo"
           ]

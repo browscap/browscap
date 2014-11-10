@@ -7,6 +7,7 @@
       "userAgent": "Chromium #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "WebKit",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium #MAJORVER#.#MINORVER#",
@@ -22,14 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "Device_Name": "PC",
-        "Device_Code_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

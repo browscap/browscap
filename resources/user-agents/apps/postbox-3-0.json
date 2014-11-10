@@ -6,6 +6,7 @@
       "userAgent": "Postbox 3.0",
       "platform": "OSX",
       "engine": "Gecko",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Postbox 3.0",
@@ -25,10 +26,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop",
         "Version": "3.0",
         "MajorVer": "3"
       },

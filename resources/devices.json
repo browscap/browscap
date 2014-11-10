@@ -72,6 +72,30 @@
         "isTablet": "false"
       }
     },
+    "Linux Desktop": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Name": "Linux Desktop",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Macintosh": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "general Mobile Device (Apple)": {
       "properties": {
         "Device_Name": "general Mobile Device",

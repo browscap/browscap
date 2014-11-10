@@ -18,14 +18,10 @@
       "children": [
         {
           "match": "Google\/0.8* CFNetwork\/* Darwin\/*",
+          "device": "Macintosh",
           "properties": {
             "Version": "0.8",
-            "MinorVer": "8",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
+            "MinorVer": "8"
           },
           "platforms": [
             "Darwin"
@@ -33,14 +29,11 @@
         },
         {
           "match": "Google\/0.9* CFNetwork\/* Darwin\/*",
+          "device": "Macintosh",
+          "device": "Macintosh",
           "properties": {
             "Version": "0.9",
-            "MinorVer": "9",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
+            "MinorVer": "9"
           },
           "platforms": [
             "Darwin"

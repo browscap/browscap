@@ -5,6 +5,7 @@
     {
       "userAgent": "Lunascape 5.1",
       "platform": "Win32",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lunascape 5.1",

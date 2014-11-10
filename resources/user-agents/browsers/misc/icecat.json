@@ -6,6 +6,7 @@
       "userAgent": "IceCat",
       "platform": "Linux",
       "engine": "Gecko",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceCat",
@@ -19,15 +20,9 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "2"
       },
       "children": [
         {

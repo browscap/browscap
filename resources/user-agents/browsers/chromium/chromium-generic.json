@@ -6,6 +6,7 @@
       "userAgent": "Chromium Generic",
       "platform": "Linux",
       "engine": "Blink",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium Generic",
@@ -18,11 +19,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "1",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
         {

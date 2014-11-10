@@ -8,6 +8,7 @@
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Gecko_Dynamic",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
@@ -23,11 +24,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

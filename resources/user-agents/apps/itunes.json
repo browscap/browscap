@@ -6,6 +6,7 @@
       "userAgent": "iTunes",
       "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iTunes",
@@ -27,22 +28,16 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "iTunes\/4.7* (Macintosh*",
+          "device": "Macintosh",
           "properties": {
             "Version": "4.7",
             "MajorVer": "4",
-            "MinorVer": "7",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "7"
           },
           "platforms": [
             "OSX"
@@ -50,14 +45,11 @@
         },
         {
           "match": "iTunes\/7.1* (Macintosh*",
+          "device": "Macintosh",
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
-            "MinorVer": "1",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "1"
           },
           "platforms": [
             "OSX"
@@ -65,14 +57,11 @@
         },
         {
           "match": "iTunes\/10.1* (Macintosh*",
+          "device": "Macintosh","device": "Macintosh",
           "properties": {
             "Version": "10.1",
             "MajorVer": "10",
-            "MinorVer": "1",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "1"
           },
           "platforms": [
             "OSX"
@@ -80,14 +69,11 @@
         },
         {
           "match": "iTunes\/11.1* (Macintosh*",
+          "device": "Macintosh",
           "properties": {
             "Version": "11.1",
             "MajorVer": "11",
-            "MinorVer": "1",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "1"
           },
           "platforms": [
             "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
@@ -107,14 +93,11 @@
         },
         {
           "match": "iTunes\/11.2* (Macintosh*",
+          "device": "Macintosh",
           "properties": {
             "Version": "11.2",
             "MajorVer": "11",
-            "MinorVer": "2",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "2"
           },
           "platforms": [
             "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
@@ -134,14 +117,11 @@
         },
         {
           "match": "iTunes\/11.3* (Macintosh*",
+          "device": "Macintosh",
           "properties": {
             "Version": "11.3",
             "MajorVer": "11",
-            "MinorVer": "3",
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Name": "Macintosh"
+            "MinorVer": "3"
           },
           "platforms": [
             "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"

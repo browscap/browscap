@@ -307,6 +307,7 @@
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "UC Browser #MAJORVER#.#MINORVER#",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -322,11 +323,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

@@ -5,6 +5,7 @@
     {
       "userAgent": "Microsoft Word",
       "engine": "Trident",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Word",
@@ -24,13 +25,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Microsoft",
-        "Device_Brand_Name": "Microsoft"
+        "CssVersion": "2"
       },
       "children": [
         {

@@ -7,6 +7,7 @@
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
       "engine": "KHTML_Dynamic",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Konqueror #MAJORVER#.#MINORVER#",
@@ -33,12 +34,14 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; *Linux*) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Debian) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)*",
+          "device": "Linux Desktop",
           "platforms": [
             "Debian"
           ]
@@ -57,12 +60,14 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
+          "device": "Windows Desktop",
           "platforms": [
             "Win32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko) Konqueror\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

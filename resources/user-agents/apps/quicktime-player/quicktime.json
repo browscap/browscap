@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "QuickTime #MAJORVER#.#MINORVER#",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QuickTime #MAJORVER#.#MINORVER#",
@@ -17,13 +18,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "Cookies": "true"
       },
       "children": [
         {

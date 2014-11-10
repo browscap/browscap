@@ -50,28 +50,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
-          },
+          "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
-          },
+          "device": "Macintosh",
           "platforms": [
             "OSX", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Linux"
           ]

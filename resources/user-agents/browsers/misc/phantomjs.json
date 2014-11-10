@@ -6,6 +6,7 @@
       "userAgent": "PhantomJS",
       "platform": "Linux",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PhantomJS",
@@ -20,19 +21,14 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.2*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -44,6 +40,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.6*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "1.6",
             "MajorVer": "1",
@@ -55,6 +52,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.7*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
@@ -66,6 +64,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/1.8*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "1.8",
             "MajorVer": "1",
