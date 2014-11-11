@@ -60,6 +60,18 @@
         "isTablet": "false"
       }
     },
+    "general TV Device": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "TV",
+        "Device_Name": "TV",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Windows Desktop": {
       "properties": {
         "Device_Type": "Desktop",
@@ -142,6 +154,186 @@
         "Device_Brand_Name": "Apple",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Smart-TV": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Smart TV",
+        "Device_Name": "Smart TV",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Viera": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Viera TV",
+        "Device_Name": "Viera TV",
+        "Device_Maker": "Panasonic",
+        "Device_Brand_Name": "Panasonic",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "WebTV": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "WebTV",
+        "Device_Name": "WebTV",
+        "Device_Maker": "Microsoft",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "PowerTV": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "PowerTV",
+        "Device_Name": "PowerTV",
+        "Device_Maker": "Scientific Atlanta",
+        "Device_Brand_Name": "Scientific Atlanta",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Boxee": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Boxee",
+        "Device_Name": "Boxee",
+        "Device_Maker": "D-Link",
+        "Device_Brand_Name": "D-Link",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "D-Link DSM 380": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "DSM 380",
+        "Device_Name": "DSM 380",
+        "Device_Maker": "D-Link",
+        "Device_Brand_Name": "D-Link",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "GoogleTV": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "GoogleTV",
+        "Device_Name": "GoogleTV",
+        "Device_Maker": "Google",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Sony NSZ-GS7/GX70": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "NSZ-GS7/GX70",
+        "Device_Name": "NSZ-GS7/GX70",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Sony Netbox": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Netbox",
+        "Device_Name": "Netbox",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Sony PS4": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Playstation 4",
+        "Device_Name": "Playstation 4",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Sony PS3": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Playstation 3",
+        "Device_Name": "Playstation 3",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft Xbox 360": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Xbox 360",
+        "Device_Name": "Xbox 360",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Tesla Motors Model S": {
+      "properties": {
+        "Device_Type": "Car Entertainment System",
+        "Device_Code_Name": "Model S",
+        "Device_Name": "Model S",
+        "Device_Maker": "Tesla Motors",
+        "Device_Brand_Name": "Tesla",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "WeTab": {
+      "properties": {
+        "Device_Name": "WeTab",
+        "Device_Maker": "WeTab GmbH",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "WeTab",
+        "Device_Brand_Name": "WeTab GmbH",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Coby NBPC724": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "NBPC724",
+        "Device_Name": "NBPC724",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }

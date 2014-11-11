@@ -20,8 +20,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "CssVersion": "3"
       },
       "children": [

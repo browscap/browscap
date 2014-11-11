@@ -61,7 +61,6 @@
             "VBScript": "false",
             "JavaApplets": "false",
             "ActiveXControls": "false",
-            "isMobileDevice": "false",
             "isSyndicationReader": "false",
             "Crawler": "true"
           }

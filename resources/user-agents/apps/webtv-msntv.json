@@ -6,6 +6,7 @@
     {
       "userAgent": "WebTV",
       "platform": "Windows",
+      "device": "WebTV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebTV\/MSNTV",
@@ -14,10 +15,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "Device_Name": "WebTV",
-        "Device_Maker": "Microsoft",
-        "Device_Type": "TV Device"
+        "Cookies": "true"
       },
       "children": [
         {

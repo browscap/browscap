@@ -28,11 +28,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit\/* (KHTML, like Gecko) Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
-          "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Smart TV",
-            "Device_Name": "Smart TV"
-          },
+          "device": "Smart-TV",
           "platforms": [
             "Linux"
           ]

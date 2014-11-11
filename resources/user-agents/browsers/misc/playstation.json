@@ -86,6 +86,7 @@
       "userAgent": "Sony PS4",
       "platform": "CellOS",
       "engine": "WebKit",
+      "device": "Sony PS4",
       "properties": {
         "Parent": "DefaultProperties",
         "IFrames": "true",
@@ -93,16 +94,10 @@
         "Cookies": "true",
         "JavaScript": "true",
         "Comment": "Playstation 4",
-        "isMobileDevice": "false",
         "Browser": "Sony PS4",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 4",
-        "Device_Name": "Playstation 4",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "TV Device"
+        "Frames": "false"
       },
       "children": [
         {
@@ -113,6 +108,7 @@
     {
       "userAgent": "Sony PS3",
       "platform": "CellOS",
+      "device": "Sony PS3",
       "properties": {
         "Parent": "DefaultProperties",
         "IFrames": "true",
@@ -120,16 +116,10 @@
         "Cookies": "true",
         "JavaScript": "true",
         "Comment": "Playstation 3",
-        "isMobileDevice": "false",
         "Browser": "Sony PS3",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 3",
-        "Device_Name": "Playstation 3",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "TV Device"
+        "Frames": "false"
       },
       "children": [
         {

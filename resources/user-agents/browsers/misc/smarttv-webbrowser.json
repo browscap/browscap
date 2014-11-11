@@ -5,6 +5,7 @@
     {
       "userAgent": "SmartTV WebBrowser",
       "platform": "Maemo",
+      "device": "Smart-TV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SmartTV WebBrowser",
@@ -22,13 +23,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "Device_Maker": "Various",
-        "Device_Type": "TV Device",
-        "Device_Code_Name": "general TV Device",
-        "Device_Name": "general TV Device"
+        "CssVersion": "2"
       },
       "children": [
         {

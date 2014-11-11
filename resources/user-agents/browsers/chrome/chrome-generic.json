@@ -109,11 +109,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Large Screen Safari\/* GoogleTV\/*",
-          "properties": {
-            "Device_Name": "GoogleTV",
-            "Device_Maker": "Google",
-            "Device_Type": "TV Device"
-          },
+          "device": "GoogleTV",
           "platforms": [
             "Linux_32", "Linux"
           ]

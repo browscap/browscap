@@ -2436,14 +2436,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NBPC724 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isMobileDevice": "false",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "NBPC724",
-            "Device_Maker": "Coby",
-            "Device_Brand_Name": "Coby",
-            "Device_Name": "NBPC724"
-          },
+          "device": "Coby NBPC724",
           "platforms": [
             "Android_2_2"
           ]
