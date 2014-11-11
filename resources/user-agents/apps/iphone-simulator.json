@@ -6,6 +6,7 @@
       "userAgent": "iPhone Simulator",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iPhone Simulator",
@@ -17,13 +18,7 @@
         "JavaScript": "true",
         "JavaApplets": "true",
         "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "BackgroundSounds": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false"
+        "BackgroundSounds": "true"
 
       },
       "children": [

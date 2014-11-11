@@ -5,6 +5,7 @@
     {
       "userAgent": "Opera Mobile 7.50",
       "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",

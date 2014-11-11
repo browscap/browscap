@@ -6,6 +6,7 @@
       "userAgent": "Opera Mobile 8.65",
       "platform": "WinMobile",
       "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -22,11 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "1"
       },
       "children": [
         {

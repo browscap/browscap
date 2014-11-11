@@ -6,6 +6,8 @@
     {
       "userAgent": "douban App",
       "engine": "WebKit",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "douban App",
@@ -16,11 +18,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

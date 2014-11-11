@@ -53,12 +53,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",

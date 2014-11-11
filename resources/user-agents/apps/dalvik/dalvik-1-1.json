@@ -7,6 +7,7 @@
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
@@ -20,11 +21,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "JavaScript": "true"
       },
       "children": [
         {

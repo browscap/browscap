@@ -36,11 +36,7 @@
         },
         {
           "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]

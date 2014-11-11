@@ -6,6 +6,8 @@
     {
       "userAgent": "Opera Coast",
       "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Coast",
@@ -17,10 +19,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

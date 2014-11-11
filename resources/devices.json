@@ -48,6 +48,18 @@
         "isTablet": "false"
       }
     },
+    "general Mobile Device (Apple)": {
+      "properties": {
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Apple Inc",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Brand_Name": "Apple",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "general Desktop": {
       "properties": {
         "Device_Type": "Desktop",
@@ -105,18 +117,6 @@
         "Device_Brand_Name": "Apple",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
-        "isTablet": "false"
-      }
-    },
-    "general Mobile Device (Apple)": {
-      "properties": {
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Brand_Name": "Apple",
-        "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
@@ -333,6 +333,18 @@
         "Device_Brand_Name": "Coby",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "GT-I9100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100",
+        "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     }

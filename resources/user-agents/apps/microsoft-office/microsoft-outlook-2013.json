@@ -79,9 +79,8 @@
         },
         {
           "match": "Microsoft Office Mobile\/15.0",
-          "device": "general Mobile Device",
+          "device": "general Mobile Phone (Touch)",
           "properties": {
-            "Device_Pointing_Method": "touchscreen",
             "Win16": "false",
             "Win32": "false",
             "Win64": "false"

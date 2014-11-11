@@ -7,6 +7,7 @@
     {
       "userAgent": "Puffin #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin #MAJORVER#.#MINORVER#",
@@ -21,11 +22,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {

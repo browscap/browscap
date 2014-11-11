@@ -8,6 +8,7 @@
       "userAgent": "Dolfin Android #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
@@ -23,40 +24,19 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko) Dolphin\/INT-#MAJORVER#.#MINORVER# *Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]

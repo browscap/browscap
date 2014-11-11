@@ -7,6 +7,7 @@
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
@@ -20,25 +21,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "JavaScript": "true"
       },
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_2_3"
           ]

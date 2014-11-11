@@ -5,6 +5,7 @@
     {
       "userAgent": "Qt Car Browser",
       "engine": "WebKit",
+      "device": "Tesla Motors Model S",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Model S Browser",
@@ -18,16 +19,11 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "Model S",
-        "Device_Maker": "Tesla Motors",
-        "Device_Type": "Car Entertainment System",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (X11; Linux) AppleWebKit\/* (KHTML, like Gecko) QtCarBrowser Safari\/*",
-          "device": "Tesla Motors Model S",
           "platforms": [
             "Linux"
           ]

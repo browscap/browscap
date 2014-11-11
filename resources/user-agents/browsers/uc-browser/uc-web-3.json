@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -20,11 +22,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

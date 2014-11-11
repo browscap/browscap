@@ -61,6 +61,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "Firefox #MAJORVER#.#MINORVER#",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",

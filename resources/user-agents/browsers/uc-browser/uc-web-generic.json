@@ -5,16 +5,14 @@
     {
       "userAgent": "UC Browser Generic",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
-        "CssVersion": "1",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "1"
       },
       "children": [
         {

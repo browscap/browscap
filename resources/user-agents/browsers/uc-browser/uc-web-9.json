@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -20,11 +22,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -235,16 +233,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]

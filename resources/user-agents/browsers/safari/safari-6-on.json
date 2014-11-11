@@ -73,6 +73,8 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -86,13 +88,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
