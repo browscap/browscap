@@ -4432,6 +4432,32 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab III 10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "Smart Tab III 10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Name": "Smart Tab III 10"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone SmartTab II 10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SmartTab II 10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Name": "SmartTab II 10"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#X7G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "Touchlet X7G",
@@ -5943,18 +5969,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab III 10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Smart Tab III 10",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Smart Tab III 10"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#pcdadr6350 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "ADR6350",
@@ -6846,7 +6860,7 @@
             "Device_Name": "Galaxy Note II"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -7216,20 +7230,6 @@
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone SmartTab II 10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SmartTab II 10",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "SmartTab II 10"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {

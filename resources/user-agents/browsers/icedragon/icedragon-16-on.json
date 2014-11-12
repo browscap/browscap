@@ -1,7 +1,7 @@
 {
   "division": "IceDragon #MAJORVER#.#MINORVER#",
   "versions": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
-  "sortIndex": 5440,
+  "sortIndex": 3138,
   "userAgents": [
     {
       "userAgent": "IceDragon #MAJORVER#.#MINORVER#",
@@ -38,7 +38,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* IceDragon\/#MAJORVER#.*",
           "platforms": [
-            "WinXPa_32", "Vista_32"
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ]
         }
       ]
