@@ -2567,6 +2567,13 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; MetaJobBot*",
+          "properties": {
+            "Browser": "MetaJobBot",
+            "Browser_Maker": "Dr. Manfred Schauer"
+          }
+        },
+        {
           "match": "LinkStats Bot",
           "properties": {
             "Browser": "LinkStats Bot"
@@ -3104,6 +3111,13 @@
           "match": "WebIndex*",
           "properties": {
             "Browser": "WebIndex"
+          }
+        },
+        {
+          "match": "ArchiveTeam ArchiveBot\/*",
+          "properties": {
+            "Browser": "ArchiveBot",
+            "Browser_Maker": "ArchiveTeam"
           }
         }
       ]

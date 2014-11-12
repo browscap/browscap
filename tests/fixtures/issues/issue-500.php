@@ -564,10 +564,10 @@ return [
     'issue-500-U' => [
         'Mozilla/5.0 (compatible; MetaJobBot; http://www.metajob.at/crawler)',
         [
-            'Browser' => 'Blogshares Spiders',
+            'Browser' => 'MetaJobBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Dr. Manfred Schauer',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -620,10 +620,10 @@ return [
     'issue-500-W' => [
         'ArchiveTeam ArchiveBot/20141009.02 (wpull 0.1002a1) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
         [
-            'Browser' => 'QuickiWiki Bot',
+            'Browser' => 'ArchiveBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'ArchiveTeam',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -676,7 +676,7 @@ return [
     'issue-500-Y' => [
         'Smartsite HTTPClient - Mozilla/4.0 (compatible; MSIE 6.0)',
         [
-            'Browser' => 'DomainSigmaCrawler',
+            'Browser' => 'Smartsite HTTPClient',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -704,12 +704,12 @@ return [
     'issue-500-Z' => [
         'Mozilla/4.0 (jig browser web; 1.0.4; N02A)',
         [
-            'Browser' => 'DomainSigmaCrawler',
+            'Browser' => 'jig browser web',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
-            'Version' => '0.0',
-            'MajorVer' => '0',
+            'Browser_Maker' => 'W3C',
+            'Version' => '1.0',
+            'MajorVer' => '1',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
