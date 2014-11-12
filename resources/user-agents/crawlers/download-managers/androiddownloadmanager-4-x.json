@@ -59,14 +59,7 @@
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Eee Pad TF201",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Transformer Prime"
-          }
+          "device": "Asus TF201"
         }
       ]
     }

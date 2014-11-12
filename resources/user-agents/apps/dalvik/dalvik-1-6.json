@@ -26,36 +26,21 @@
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus S*",
-          "properties": {
-            "Device_Code_Name": "Nexus S",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus S"
-          },
+          "device": "Samsung NexusS",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
-          "properties": {
-            "Device_Code_Name": "Cynus T2",
-            "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus T2"
-          },
+          "device": "Mobistel Cynus T2",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire C Build\/*",
-          "properties": {
-            "Device_Code_Name": "1000C",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C"
-          },
+          "device": "HTC Desire C",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -69,28 +54,14 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer Prime TF201 Build\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Eee Pad TF201",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Transformer Prime"
-          },
+          "device": "Asus TF201"
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus 10 Build\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nexus 10",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus 10"
-          },
+          "device": "Samsung Nexus 10",
           "platforms": [
             "Android_4_2", "Android_4_3"
           ]

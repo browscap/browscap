@@ -26,42 +26,21 @@
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#A500*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A500",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Picasso"
-          },
+          "device": "Acer A500",
           "platforms": [
             "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P7510*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P7510",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 10.1"
-          },
+          "device": "GT-P7510",
           "platforms": [
             "Android_3_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer TF101*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TF101",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Eee Pad Transformer TF101"
-          },
+          "device": "Asus TF101",
           "platforms": [
             "Android_3_2", "Android_4_0", "Android_4_1"
           ]

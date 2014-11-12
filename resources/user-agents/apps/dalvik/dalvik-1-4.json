@@ -33,118 +33,42 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G Build\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-S5830 Build\/*",
-          "properties": {
-            "Device_Code_Name": "GT-S5830",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace"
-          },
+          "device": "GT-S5830",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC HD2 Build\/*",
-          "properties": {
-            "Device_Code_Name": "HD2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2"
-          },
+          "device": "HTC HD2",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Sensation Z710e Build\/*",
-          "properties": {
-            "Device_Code_Name": "Z710e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
-          },
+          "device": "HTC Z710e",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus One Build\/*",
-          "properties": {
-            "Device_Code_Name": "Nexus One",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "HTC Nexus One"
-          },
+          "device": "HTC Nexus One",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]

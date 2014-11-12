@@ -347,6 +347,318 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "GT-I5500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5500",
+        "Device_Name": "Galaxy 5",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-I9000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9000",
+        "Device_Name": "Galaxy S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-I9100G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100G",
+        "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-I9100P": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100P",
+        "Device_Name": "Galaxy S II NFC",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-S5830": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5830",
+        "Device_Name": "Galaxy Ace",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung NexusS": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus S",
+        "Device_Name": "Nexus S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-P1000": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P1000",
+        "Device_Name": "Galaxy Tab",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GT-P1010": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P1010",
+        "Device_Name": "Galaxy Tab",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GT-P7510": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P7510",
+        "Device_Name": "Galaxy Tab 10.1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung Nexus 10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Nexus 10",
+        "Device_Name": "Nexus 10",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Garmin-Asus A50": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A50",
+        "Device_Name": "A50",
+        "Device_Maker": "Garmin-Asus",
+        "Device_Brand_Name": "Garmin-Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Asus TF101": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "TF101",
+        "Device_Name": "Eee Pad Transformer TF101",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Asus TF201": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Eee Pad TF201",
+        "Device_Name": "Transformer Prime",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB525": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB525",
+        "Device_Name": "DEFY",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Milestone": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Milestone",
+        "Device_Name": "Milestone",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson X10i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X10i",
+        "Device_Name": "Xperia X10",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire",
+        "Device_Name": "Desire",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Legend": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Legend",
+        "Device_Name": "Legend",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD2",
+        "Device_Name": "HD2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Z710e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z710e",
+        "Device_Name": "Sensation",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Nexus One": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus One",
+        "Device_Name": "HTC Nexus One",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire C": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "1000C",
+        "Device_Name": "Desire C",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P500",
+        "Device_Name": "Optimus One",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "1 & 1 Smartpad": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Smartpad",
+        "Device_Name": "Smartpad",
+        "Device_Maker": "1 & 1",
+        "Device_Brand_Name": "1 & 1",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer A500": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A500",
+        "Device_Name": "Picasso",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Mobistel Cynus T2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Cynus T2",
+        "Device_Name": "Cynus T2",
+        "Device_Maker": "Mobistel",
+        "Device_Brand_Name": "Mobistel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
     }
   }
 }

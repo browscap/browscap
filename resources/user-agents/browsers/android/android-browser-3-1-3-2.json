@@ -365,12 +365,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonX10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "X10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
-          },
+          "device": "SonyEricsson X10i",
           "platforms": [
             "Android_1_6"
           ]

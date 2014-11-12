@@ -117,12 +117,7 @@
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD2\/* Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "HD2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2"
-          }
+          "device": "HTC HD2",
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD_mini\/Opera 9.7*",
@@ -135,12 +130,7 @@
         },
         {
           "match": "Opera\/9.7 (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
-          "properties": {
-            "Device_Code_Name": "HD2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2"
-          },
+          "device": "HTC HD2",
           "platforms": [
             "WinMobile"
           ]
@@ -173,13 +163,7 @@
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD2\/* (*Opera\/9.7* (Windows NT 5.1; U*)",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2"
-          },
+          "device": "HTC HD2",
           "platforms": [
             "WinMobile"
           ]

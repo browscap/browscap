@@ -33,88 +33,49 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I5500 Build\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I5500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy 5"
-          },
+          "device": "GT-I5500",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9000 Build\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S"
-          },
+          "device": "GT-I9000",
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000 Build\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P1000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab"
-          },
+          "device": "GT-P1000",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P1010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab"
-          },
+          "device": "GT-P1010",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire Build\/*",
-          "properties": {
-            "Device_Code_Name": "Desire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
-          },
+          "device": "HTC Desire",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Legend Build\/*",
-          "properties": {
-            "Device_Code_Name": "Legend",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Legend"
-          },
+          "device": "HTC Legend",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#LG-P500 Build\/*",
-          "properties": {
-            "Device_Code_Name": "P500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus One"
-          },
+          "device": "LG P500",
           "platforms": [
             "Android_2_2"
           ]
@@ -139,24 +100,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#smartpad Build\/*",
-          "properties": {
-            "Device_Code_Name": "Smartpad",
-            "Device_Maker": "1 & 1",
-            "Device_Brand_Name": "1 & 1",
-            "Device_Name": "Smartpad"
-          },
-          "platforms": [
-            "Android_2_2"
-          ]
-        },
-        {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#smartpad Build\/*",
-          "properties": {
-            "Device_Code_Name": "Smartpad",
-            "Device_Maker": "1 & 1",
-            "Device_Brand_Name": "1 & 1",
-            "Device_Name": "Smartpad"
-          },
+          "device": "1 & 1 Smartpad",
           "platforms": [
             "Android_2_2"
           ]
