@@ -10,6 +10,7 @@
         "Comment": "WordPress",
         "Browser": "WordPress",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "WordPress.org",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

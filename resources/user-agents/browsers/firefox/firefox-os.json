@@ -64,6 +64,17 @@
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "properties": {
+            "Device_Name": "One Touch Fire",
+            "Device_Code_Name": "OT-4012A",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Maker": "Alcatel",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          }
         }
       ]
     }

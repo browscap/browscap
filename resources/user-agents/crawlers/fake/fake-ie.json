@@ -511,12 +511,6 @@
           ]
         },
         {
-          "match": "Mozilla\/?.0+(Windows;+U;+Windows+NT+5.1;+*;+rv:*)+Gecko\/*+Firefox\/1.5*",
-          "platforms": [
-            "WinXPa_32"
-          ]
-        },
-        {
           "match": "WOFVNCBVHKN (*compatible*;*MSIE 7.0; Windows NT 5.1*)",
           "platforms": [
             "WinXPa_32"
@@ -560,6 +554,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)"
+        },
+        {
+          "match": "Mozilla\/4.0(compatible;MSIE*"
         }
       ]
     }
