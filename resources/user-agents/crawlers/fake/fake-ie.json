@@ -1,6 +1,6 @@
 {
   "division": "Fake IE",
-  "sortIndex": 959,
+  "sortIndex": 958,
   "userAgents": [
     {
       "userAgent": "Fake IE",
@@ -557,6 +557,9 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 9.1*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)"
         }
       ]
     }

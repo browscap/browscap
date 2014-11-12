@@ -1,0 +1,31 @@
+{
+  "division": "SimplePie",
+  "sortIndex": 371,
+  "userAgents": [
+    {
+      "userAgent": "SimplePie",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Feeds Syndicators",
+        "Browser": "SimplePie",
+        "Browser_Maker": "Ryan Parman, Geoffrey Sneddon, Ryan McCue and contributors",
+        "Browser_Type": "Bot/Crawler",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "SimplePie\/1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "SimplePie\/*"
+        }
+      ]
+    }
+  ]
+}

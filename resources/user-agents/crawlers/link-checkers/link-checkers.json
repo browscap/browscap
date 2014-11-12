@@ -37,12 +37,6 @@
           }
         },
         {
-          "match": "*Powermarks\/*",
-          "properties": {
-            "Browser": "Powermarks"
-          }
-        },
-        {
           "match": "*Web Link Validator*",
           "properties": {
             "Browser": "Web Link Validator"

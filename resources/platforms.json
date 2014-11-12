@@ -725,7 +725,15 @@
       "inherits": "Linux"
     },
     "Linux_64": {
-      "match": "*Linux x86_64*",
+      "match": "*Linux*x86_64*",
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Linux_64_B": {
+      "match": "*x86_64*linux*",
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",

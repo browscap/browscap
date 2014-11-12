@@ -1,7 +1,7 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": [7, "7.1", 8],
-  "sortIndex": 7805,
+  "versions": [8, "7.1", 7],
+  "sortIndex": 7801,
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
