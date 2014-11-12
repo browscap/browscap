@@ -1,7 +1,7 @@
 {
   "division": "Mozilla #MAJORVER#.#MINORVER#",
   "versions": ["1.7", "1.8", "1.9"],
-  "sortIndex": 3649,
+  "sortIndex": 17572,
   "lite": true,
   "userAgents": [
     {

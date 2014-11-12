@@ -1,7 +1,7 @@
 {
   "division": "Thunderbird #MAJORVER#.#MINORVER#",
   "versions": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 24, "24.1", "24.2", "24.3", "24.4", "24.5", "24.6", "24.7", "24.8", 28, 29, 30, 31, "31.1", "31.2"],
-  "sortIndex": 3486,
+  "sortIndex": 3086,
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",

@@ -1,7 +1,7 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.23", "3.22", "3.21"],
-  "sortIndex": 1859,
+  "versions": ["3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
+  "sortIndex": 1125,
   "lite": true,
   "userAgents": [
     {
@@ -29,6 +29,54 @@
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "properties": {
+            "Device_Name": "Kindle Fire 7",
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFOT",
+            "Device_Brand_Name": "Amazon"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "properties": {
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTT",
+            "Device_Brand_Name": "Amazon"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "properties": {
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFSOWI",
+            "Device_Brand_Name": "Amazon"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
@@ -163,54 +211,6 @@
           },
           "platforms": [
             "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
-          "properties": {
-            "Device_Name": "Kindle Fire 7",
-            "Device_Maker": "Amazon",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFOT",
-            "Device_Brand_Name": "Amazon"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
-          "properties": {
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTT",
-            "Device_Brand_Name": "Amazon"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
-          "properties": {
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFSOWI",
-            "Device_Brand_Name": "Amazon"
-          },
-          "platforms": [
-            "Android_4_2"
           ]
         }
       ]

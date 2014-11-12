@@ -1,0 +1,30 @@
+{
+  "division": "Fake Firefox",
+  "sortIndex": 956,
+  "userAgents": [
+    {
+      "userAgent": "Fake Firefox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser": "Fake Firefox",
+        "Comment": "Fake Firefox",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*"
+        },
+        {
+          "match": "?Mozilla\/* Firefox\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows; U; Windows*rv:*) Firefox\/*"
+        }
+      ]
+    }
+  ]
+}

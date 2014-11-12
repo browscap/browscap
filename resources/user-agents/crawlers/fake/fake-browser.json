@@ -1,6 +1,6 @@
 {
   "division": "Fake Browser",
-  "sortIndex": 960,
+  "sortIndex": 959,
   "userAgents": [
     {
       "userAgent": "Fake Browser",
@@ -406,69 +406,9 @@
           "match": "Mozilla\/5.0 (Windows NT.*"
         },
         {
-          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*",
-          "properties": {
-            "Browser": "Fake Safari"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (iPad; CPU iPhone OS 501*",
-          "properties": {
-            "Browser": "Fake Safari"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Android *) AppleWebKit\/1.1 Version\/* Mobile Safari\/1.1",
-          "properties": {
-            "Browser": "Fake Safari"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
-          }
-        },
-        {
-          "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML like Gecko) Chrome\/* Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
-          }
-        },
-        {
-          "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*",
-          "properties": {
-            "Browser": "Fake Chrome"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Linux; U; Android * App3leWebKit\/*",
           "properties": {
             "Browser": "Fake Android"
-          }
-        },
-        {
-          "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*",
-          "properties": {
-            "Browser": "Fake Firefox"
-          }
-        },
-        {
-          "match": "?Mozilla\/* Firefox\/*",
-          "properties": {
-            "Browser": "Fake Firefox"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (*) Firefox\/*",
-          "properties": {
-            "Browser": "Fake Firefox"
           }
         },
         {
@@ -479,6 +419,12 @@
         },
         {
           "match": "Mozila*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.?; Windows NT ?.?) Netscape\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE *) Netscape\/*"
         }
       ]
     }
