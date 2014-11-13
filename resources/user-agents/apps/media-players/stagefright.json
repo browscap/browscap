@@ -18,15 +18,7 @@
       "children": [
         {
           "match": "Samsung SM-N9005 stagefright\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SM-N9005",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 3 LTE"
-          },
+          "device": "Samsung SM-N9005",
           "platforms": [
             "Android_4_4"
           ]

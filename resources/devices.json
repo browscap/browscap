@@ -240,6 +240,30 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson X10i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X10i",
+        "Device_Name": "Xperia X10",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony D6503": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D6503",
+        "Device_Name": "Xperia Z2 LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony NSZ-GS7/GX70": {
       "properties": {
         "Device_Type": "TV Device",
@@ -468,6 +492,42 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-G900F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G900F",
+        "Device_Name": "Galaxy S5 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-P600": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-P600",
+        "Device_Name": "Galaxy Note 10.1 2014 Edition Wi-Fi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-N9005": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N9005",
+        "Device_Name": "Galaxy Note 3 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -523,18 +583,6 @@
         "Device_Name": "Milestone",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "SonyEricsson X10i": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "X10i",
-        "Device_Name": "Xperia X10",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -679,6 +727,18 @@
         "Device_Name": "LifeTab S9714",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei G700-U10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "G700-U10",
+        "Device_Name": "Ascend G700",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
