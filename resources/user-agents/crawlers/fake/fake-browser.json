@@ -425,6 +425,9 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE *) Netscape\/*"
+        },
+        {
+          "match": "\\x??Mozilla*"
         }
       ]
     }

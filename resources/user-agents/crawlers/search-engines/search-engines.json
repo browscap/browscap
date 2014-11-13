@@ -1060,6 +1060,23 @@
             "Browser": "WASALive Bot",
             "Browser_Maker": "WASALive"
           }
+        },
+        {
+          "match": "GigablastOpenSource\/1.0*",
+          "properties": {
+            "Browser": "Gigablast Search Engine",
+            "Browser_Maker": "gigablast.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GigablastOpenSource\/*",
+          "properties": {
+            "Browser": "Gigablast Search Engine",
+            "Browser_Maker": "gigablast.com"
+          }
         }
       ]
     }
