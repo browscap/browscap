@@ -612,6 +612,18 @@
         "isTablet": "false"
       }
     },
+    "HTC M7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M7",
+        "Device_Name": "One",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -655,6 +667,18 @@
         "Device_Name": "Cynus T2",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Medion LifeTab S9714": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab S9714",
+        "Device_Name": "LifeTab S9714",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

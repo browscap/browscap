@@ -26,14 +26,7 @@
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "LifeTab S9714",
-            "Device_Maker": "Medion",
-            "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab S9714"
-          }
+          "device": "Medion LifeTab S9714"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; SGPT12 Build\/*)*",
@@ -59,7 +52,7 @@
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
-          "device": "Asus TF201"
+          "device": "Asus TF201",
         }
       ]
     }
