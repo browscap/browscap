@@ -6,6 +6,7 @@
       "userAgent": "WhatsApp",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WhatsApp",
@@ -21,14 +22,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Crawler": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "general Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {

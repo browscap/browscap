@@ -6,6 +6,7 @@
       "userAgent": "The Diary",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "The Diary",
@@ -26,14 +27,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "general Mobile Device"
+        "JavaScript": "true"
       },
       "children": [
         {

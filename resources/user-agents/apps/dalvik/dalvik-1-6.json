@@ -54,7 +54,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer Prime TF201 Build\/*",
-          "device": "Asus TF201"
+          "device": "Asus TF201",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]

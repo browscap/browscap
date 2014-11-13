@@ -528,6 +528,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SCH-U820": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-U820",
+        "Device_Name": "SCH-U820",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -684,6 +696,18 @@
         "isTablet": "false"
       }
     },
+    "LG VX8575": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8575",
+        "Device_Name": "VX8575",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -739,6 +763,18 @@
         "Device_Name": "Ascend G700",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "UTStarcom GTX75": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GTX75",
+        "Device_Name": "Quickfire",
+        "Device_Maker": "UTStarcom",
+        "Device_Brand_Name": "AT&T",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

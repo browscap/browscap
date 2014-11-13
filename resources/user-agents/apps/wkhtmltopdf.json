@@ -19,8 +19,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Browser": "wkhtmltopdf",
         "Browser_Type": "Application",
