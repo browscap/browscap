@@ -312,6 +312,90 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson C902": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C902",
+        "Device_Name": "C902",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson C905": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C905",
+        "Device_Name": "C905",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson J10i2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "J10i2",
+        "Device_Name": "J10i2",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson K800i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K800i",
+        "Device_Name": "K800i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson T715": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T715",
+        "Device_Name": "T715",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U10i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U10i",
+        "Device_Name": "U10i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U1i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U1i",
+        "Device_Name": "U1i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Microsoft Xbox 360": {
       "properties": {
         "Device_Type": "TV Device",

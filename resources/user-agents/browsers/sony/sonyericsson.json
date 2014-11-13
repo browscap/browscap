@@ -92,30 +92,15 @@
         },
         {
           "match": "SonyEricssonC902\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C902",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C902"
-          }
+          "device": "SonyEricsson C902"
         },
         {
           "match": "SonyEricssonC905\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C905",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C905"
-          }
+          "device": "SonyEricsson C905"
         },
         {
           "match": "SonyEricssonJ10i2\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "J10i2",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J10i2"
-          }
+          "device": "SonyEricsson J10i2"
         },
         {
           "match": "SonyEricssonJ200i\/*",
@@ -155,39 +140,19 @@
         },
         {
           "match": "SonyEricssonK800i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "K800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K800i"
-          }
+          "device": "SonyEricsson K800i"
         },
         {
           "match": "SonyEricssonT715\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "T715",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "T715"
-          }
+          "device": "SonyEricsson T715"
         },
         {
           "match": "SonyEricssonU10i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U10i"
-          }
+          "device": "SonyEricsson U10i"
         },
         {
           "match": "SonyEricssonU1i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U1i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U1i"
-          }
+          "device": "SonyEricsson U1i"
         },
         {
           "match": "SonyEricssonU1iv\/*(SymbianOS\/*",
