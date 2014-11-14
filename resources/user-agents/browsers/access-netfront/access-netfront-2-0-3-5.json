@@ -85,102 +85,47 @@
         },
         {
           "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "U1iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U1iv"
-          }
+          "device": "SonyEricsson U1iv"
         },
         {
           "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "U5iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U5iv"
-          }
+          "device": "SonyEricsson U5iv"
         },
         {
           "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "U5u",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U5u"
-          }
+          "device": "SonyEricsson U5u"
         },
         {
           "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "U8i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8i"
-          }
+          "device": "SonyEricsson U8i"
         },
         {
           "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W350i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W350i"
-          }
+          "device": "SonyEricsson W350i"
         },
         {
           "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W350iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W350iv"
-          }
+          "device": "SonyEricsson W350iv"
         },
         {
           "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W580i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W580i"
-          }
+          "device": "SonyEricsson W580i"
         },
         {
           "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W595",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W595"
-          }
+          "device": "SonyEricsson W595"
         },
         {
           "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W705",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W705"
-          }
+          "device": "SonyEricsson W705"
         },
         {
           "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W760i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W760i"
-          }
+          "device": "SonyEricsson W760i"
         },
         {
           "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W980",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W980"
-          }
+          "device": "SonyEricsson W980"
         },
         {
           "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",

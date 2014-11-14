@@ -396,6 +396,138 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson U1iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U1iv",
+        "Device_Name": "U1iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U5iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U5iv",
+        "Device_Name": "U5iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U5u": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U5u",
+        "Device_Name": "U5u",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U8i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U8i",
+        "Device_Name": "U8i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W350i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W350i",
+        "Device_Name": "W350i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W350iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W350iv",
+        "Device_Name": "W350iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W580i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W580i",
+        "Device_Name": "W580i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W595": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W595",
+        "Device_Name": "W595",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W705": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W705",
+        "Device_Name": "W705",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W760i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W760i",
+        "Device_Name": "W760i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W980",
+        "Device_Name": "W980",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Microsoft Xbox 360": {
       "properties": {
         "Device_Type": "TV Device",
