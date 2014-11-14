@@ -264,6 +264,12 @@
         "RenderingEngine_Version": "7.0"
       }
     },
+    "Trident_8": {
+      "inherits": "Trident",
+      "properties": {
+        "RenderingEngine_Version": "8.0"
+      }
+    },
     "Presto": {
       "properties": {
         "RenderingEngine_Name": "Presto",
