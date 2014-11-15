@@ -1650,12 +1650,7 @@
         },
         {
           "match": "Nokia6682\/2.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6682",
-            "Device_Name": "6682"
-          },
+          "device": "Nokia 6682",
           "platforms": [
             "SymbianOS"
           ]

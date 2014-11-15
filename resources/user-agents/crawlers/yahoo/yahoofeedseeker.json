@@ -18,107 +18,56 @@
       },
       "children": [
         {
-          "match": "YahooFeedSeeker*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "YahooFeedSeeker*"
         },
         {
-          "match": "Y!J SearchMonkey*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J SearchMonkey*"
         },
         {
-          "match": "Y!J-BRE*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRE*"
         },
         {
-          "match": "Y!J-BRG\/GSC*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRG\/GSC*"
         },
         {
-          "match": "Y!J-BRI*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRI*"
         },
         {
-          "match": "Y!J-BRO\/YFSJ*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRO\/YFSJ*"
         },
         {
-          "match": "Y!J-BRP\/YFSBJ*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRP\/YFSBJ*"
         },
         {
-          "match": "Y!J-BRQ\/DLCK*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
+          "match": "Y!J-BRQ\/DLCK*"
         },
         {
           "match": "Y!J-BSC*",
           "properties": {
-            "Browser": "YahooFeedSeeker",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Y!J-DSC*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Y!J-NSC*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Y!J-PSC*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Y!J-SRD*",
-          "properties": {
-            "Browser": "YahooFeedSeeker",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
         },
         {
-          "match": "Y!J-VSC\/ViSe*",
+          "match": "Y!J-DSC*"
+        },
+        {
+          "match": "Y!J-NSC*"
+        },
+        {
+          "match": "Y!J-PSC*"
+        },
+        {
+          "match": "Y!J-SRD*",
           "properties": {
-            "Browser": "YahooFeedSeeker",
-            "isSyndicationReader": "true"
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
+        },
+        {
+          "match": "Y!J-VSC\/ViSe*"
         }
       ]
     }

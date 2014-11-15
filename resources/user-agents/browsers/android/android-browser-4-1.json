@@ -28,84 +28,42 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Code_Name": "A27",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A27",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A35",
-            "Device_Code_Name": "A35",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A35",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "B51+",
-            "Device_Maker": "sprd",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A40",
-            "Device_Code_Name": "A40",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A40",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "OT-4030D",
-            "Device_Code_Name": "OT-4030D",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Alcatel OT-4030D",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "OT-4030D",
-            "Device_Code_Name": "OT-4030D",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Alcatel OT-4030D",
           "platforms": [
             "Android_4_1"
           ]
@@ -119,14 +77,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "D805",
-            "Device_Maker": "LG",
-            "Device_Code_Name": "D805",
-            "Device_Brand_Name": "LG",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "LG D805",
           "platforms": [
             "Android_4_2"
           ]
@@ -145,16 +96,7 @@
         },
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "INM8002KP",
-            "Device_Maker": "Intenso",
-            "Device_Brand_Name": "Intenso",
-            "Device_Name": "TAB 824",
-            "Device_Type": "Tablet",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -209,28 +151,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "B51+",
-            "Device_Maker": "sprd",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "G9",
-            "Device_Code_Name": "G9",
-            "Device_Brand_Name": "Mastone",
-            "Device_Maker": "Mastone",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Mastone G9",
           "platforms": [
             "Android_2_3"
           ]

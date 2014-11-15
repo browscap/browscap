@@ -18,20 +18,22 @@
       "children": [
         {
           "match": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
+          "properties": {
+            "Browser": "YahooSeeker\/CafeKelsa"
+          },
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"
           ]
         },
         {
-          "match": "YahooSeeker*",
-          "device": "general Mobile Device"
-        },
-        {
           "match": "YahooSeeker\/CafeKelsa*",
           "properties": {
             "Browser": "YahooSeeker\/CafeKelsa"
           }
+        },
+        {
+          "match": "YahooSeeker*"
         }
       ]
     }

@@ -996,6 +996,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung GT-P6800": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-P6800",
+        "Device_Name": "Galaxy Tab 7.7",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung Nexus 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -1188,6 +1200,18 @@
         "isTablet": "false"
       }
     },
+    "HTC Z710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z710",
+        "Device_Name": "Sensation",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Z710e": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1296,6 +1320,126 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire HD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire HD",
+        "Device_Name": "Desire HD",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire HD A9191": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A9191",
+        "Device_Name": "Desire HD",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire S",
+        "Device_Name": "Desire S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Wildfire S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Wildfire S",
+        "Device_Name": "Wildfire S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC X515m": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X515m",
+        "Device_Name": "EVO 3D",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P510e": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "P510e",
+        "Device_Name": "Flyer",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "HTC P512": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "P512",
+        "Device_Name": "Flyer",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "HTC S710E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S710E",
+        "Device_Name": "Incredible S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Runnymede": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Runnymede",
+        "Device_Name": "Runnymede",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC X315e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X315e",
+        "Device_Name": "Sensation XL with Beats Audio",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1337,6 +1481,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT540",
         "Device_Name": "GT540",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG C1500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C1500",
+        "Device_Name": "C1500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D805": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D805",
+        "Device_Name": "D805",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -1692,6 +1860,18 @@
         "isTablet": "false"
       }
     },
+    "unknown MT6515M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT6515M",
+        "Device_Name": "MT6515M",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "T-Mobile Pulse": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1735,6 +1915,114 @@
         "Device_Name": "10B",
         "Device_Maker": "Sharp",
         "Device_Brand_Name": "Sharp",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6682": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6682",
+        "Device_Name": "6682",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax A27": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A27",
+        "Device_Name": "A27",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax A35": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A35",
+        "Device_Name": "A35",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax A40": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A40",
+        "Device_Name": "A40",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-4030D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-4030D",
+        "Device_Name": "OT-4030D",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fairphone FP1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "FP1",
+        "Device_Name": "FP1",
+        "Device_Maker": "Fairphone",
+        "Device_Brand_Name": "Fairphone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intenso INM8002KP": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "INM8002KP",
+        "Device_Name": "TAB 824",
+        "Device_Maker": "Intenso",
+        "Device_Brand_Name": "Intenso",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "sprd B51+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B51+",
+        "Device_Name": "B51+",
+        "Device_Maker": "sprd",
+        "Device_Brand_Name": "sprd",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Mastone G9": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G9",
+        "Device_Name": "G9",
+        "Device_Maker": "Mastone",
+        "Device_Brand_Name": "Mastone",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

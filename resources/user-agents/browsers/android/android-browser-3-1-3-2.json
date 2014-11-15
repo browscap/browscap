@@ -126,7 +126,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#desirec) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "HTC Desire C";
+          "device": "HTC Desire C",
           "platforms": [
             "Android_1_5"
           ]

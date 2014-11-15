@@ -39,28 +39,14 @@
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#Micromax A27*) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Code_Name": "A27",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A27",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Code_Name": "A27",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A27",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]

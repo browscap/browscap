@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yahoo Mobile App #MAJORVER#.#MINORVER#",
@@ -36,7 +37,6 @@
         },
         {
           "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]

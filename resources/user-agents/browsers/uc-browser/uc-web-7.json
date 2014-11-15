@@ -47,14 +47,7 @@
         },
         {
           "match": "#PLATFORM#Micromax A35*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "A35",
-            "Device_Code_Name": "A35",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A35",
           "platforms": [
             "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
           ]
@@ -105,13 +98,7 @@
         },
         {
           "match": "JUC(Linux;?;2.2*;Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Desire HD",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire HD"
-          },
+          "device": "HTC Desire HD",
           "platforms": [
             "Android_2_2_B"
           ]
