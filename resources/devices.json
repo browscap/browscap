@@ -636,6 +636,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson E10i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E10i",
+        "Device_Name": "Xperia X10 Mini",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -753,6 +765,42 @@
         "Device_Brand_Name": "Coby",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-C3310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-C3310",
+        "Device_Name": "Champ Deluxe",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung Galaxy": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Galaxy",
+        "Device_Name": "Galaxy",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I5700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5700",
+        "Device_Name": "Galaxy Spica",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
@@ -936,6 +984,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SPH M900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPH M900",
+        "Device_Name": "SPH M900",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -989,6 +1049,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Milestone",
         "Device_Name": "Milestone",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB200",
+        "Device_Name": "MB200",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB300",
+        "Device_Name": "Backflip",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -1068,11 +1152,71 @@
         "isTablet": "false"
       }
     },
+    "HTC Dream": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Dream",
+        "Device_Name": "Dream",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC M7": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M7",
         "Device_Name": "One",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HTC": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HTC",
+        "Device_Name": "HTC",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Hero": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Hero",
+        "Device_Name": "Hero",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Magic": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Magic",
+        "Device_Name": "Magic",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Tattoo": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Tattoo",
+        "Device_Name": "Tattoo",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -1097,6 +1241,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VX8575",
         "Device_Name": "VX8575",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG KH5200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KH5200",
+        "Device_Name": "KH5200",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG GT540": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT540",
+        "Device_Name": "GT540",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -1282,6 +1450,186 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Archos A70BH": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A70BH",
+        "Device_Name": "A70BH",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos A70CHT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A70CHT",
+        "Device_Name": "A70CHT",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos A70BHT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A70BHT",
+        "Device_Name": "A70BHT",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos A70HB": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A70HB",
+        "Device_Name": "A70HB",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos 70c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "70c",
+        "Device_Name": "70c eReader",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos A80KSC": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A80KSC",
+        "Device_Name": "A80KSC",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos A101B": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A101B",
+        "Device_Name": "A101B",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Archos 5": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5",
+        "Device_Name": "5",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Point of View Mobii 7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Mobii 7",
+        "Device_Name": "Mobii 7",
+        "Device_Maker": "Point of View",
+        "Device_Brand_Name": "Point of View",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown STM7UC": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "STM7UC",
+        "Device_Name": "STM7UC",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown STM7UH": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "STM7UH",
+        "Device_Name": "STM7UH",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown WS171": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "WS171",
+        "Device_Name": "WS171",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "T-Mobile Pulse": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Pulse",
+        "Device_Name": "Pulse",
+        "Device_Maker": "T-Mobile",
+        "Device_Brand_Name": "T-Mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "T-Mobile G1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G1",
+        "Device_Name": "G1",
+        "Device_Maker": "T-Mobile",
+        "Device_Brand_Name": "T-Mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "T-Mobile G2 Touch": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G2 Touch",
+        "Device_Name": "G2 Touch",
+        "Device_Maker": "T-Mobile",
+        "Device_Brand_Name": "T-Mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

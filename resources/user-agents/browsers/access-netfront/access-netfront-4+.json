@@ -65,16 +65,7 @@
         },
         {
           "match": "SAMSUNG-GT-C3310\/* NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-C3310",
-            "Device_Name": "Champ Deluxe",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "Samsung GT-C3310",
           "platforms": [
             "JAVA"
           ]

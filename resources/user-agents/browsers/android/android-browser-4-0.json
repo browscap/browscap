@@ -692,24 +692,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#E10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
-          },
+          "device": "SonyEricsson E10i",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
-          },
+          "device": "SonyEricsson E10i",
           "platforms": [
             "Android_2_1"
           ]
@@ -771,15 +761,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I5700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
-          },
+          "device": "Samsung GT-I5700",
           "platforms": [
             "Android_2_1"
           ]
@@ -817,24 +799,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT540 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT540",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT540"
-          },
+          "device": "LG GT540",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-GT540 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT540",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT540"
-          },
+          "device": "LG GT540",
           "platforms": [
             "Android_2_1"
           ]
@@ -874,36 +846,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC G1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "G1",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "G1"
-          },
+          "device": "T-Mobile G1",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Hero* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Hero",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Hero"
-          },
+          "device": "HTC Hero",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (Linux*; Android VillainROM*; HTC Hero Build\/ERE27) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Hero",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Hero"
-          },
+          "device": "HTC Hero",
           "platforms": [
             "Android_1_0"
           ]
@@ -917,12 +874,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Magic Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Magic",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Magic"
-          },
+          "device": "HTC Magic",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
@@ -1235,24 +1187,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#POV Mobii 7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Mobii 7",
-            "Device_Maker": "Point of View",
-            "Device_Brand_Name": "Point of View",
-            "Device_Name": "Mobii 7"
-          },
+          "device": "Point of View Mobii 7",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Pulse Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Pulse",
-            "Device_Maker": "T-Mobile",
-            "Device_Brand_Name": "T-Mobile",
-            "Device_Name": "Pulse"
-          },
+          "device": "T-Mobile Pulse",
           "platforms": [
             "Android_2_1"
           ]
@@ -1373,12 +1315,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SPH-M900 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SPH M900",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SPH M900"
-          },
+          "device": "Samsung SPH M900",
           "platforms": [
             "Android_2_1"
           ]
@@ -1534,12 +1471,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#T-Mobile_G2_Touch Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "G2 Touch",
-            "Device_Maker": "T-Mobile",
-            "Device_Brand_Name": "T-Mobile",
-            "Device_Name": "G2 Touch"
-          },
+          "device": "T-Mobile G2 Touch",
           "platforms": [
             "Android_2_1"
           ]
@@ -2425,12 +2357,7 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux*; Android RCMix_v2.2_WWE*; HTC_HERO Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Hero",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Hero"
-          },
+          "device": "HTC Hero",
           "platforms": [
             "Android_2_2"
           ]
@@ -5853,12 +5780,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Desire_C* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "1000C",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C"
-          },
+          "device": "HTC Desire C";
           "platforms": [
             "Android_4_0"
           ]
