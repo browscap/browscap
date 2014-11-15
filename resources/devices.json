@@ -643,7 +643,79 @@
         "Device_Name": "Xperia X10 Mini",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson E10iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E10iv",
+        "Device_Name": "E10iv",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson E15i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E15i",
+        "Device_Name": "Xperia X8",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson E15iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E15iv",
+        "Device_Name": "Xperia X8",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U20i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U20i",
+        "Device_Name": "Xperia X10 Mini pro",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U20iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U20iv",
+        "Device_Name": "Xperia X10 Mini pro",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson X10a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X10a",
+        "Device_Name": "X10a",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1596,6 +1668,30 @@
         "isTablet": "false"
       }
     },
+    "unknown Zio": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Zio",
+        "Device_Name": "Zio",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown Edge": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Edge",
+        "Device_Name": "Edge",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "T-Mobile Pulse": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1627,6 +1723,18 @@
         "Device_Name": "G2 Touch",
         "Device_Maker": "T-Mobile",
         "Device_Brand_Name": "T-Mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sharp 10B": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "10B",
+        "Device_Name": "10B",
+        "Device_Maker": "Sharp",
+        "Device_Brand_Name": "Sharp",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

@@ -175,12 +175,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SH-10B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "10B",
-            "Device_Maker": "Sharp",
-            "Device_Brand_Name": "Sharp",
-            "Device_Name": "10B"
-          },
+          "device": "Sharp 10B",
           "platforms": [
             "Android_1_6"
           ]
@@ -194,60 +189,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "E10iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "E10iv"
-          },
+          "device": "SonyEricsson E10iv",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "E15i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8"
-          },
+          "device": "SonyEricsson E15i",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonU20i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "U20i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
-          },
+          "device": "SonyEricsson U20i",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonU20iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "U20iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
-          },
+          "device": "SonyEricsson U20iv",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonX10a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "X10a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "X10a"
-          },
+          "device": "SonyEricsson X10a",
           "platforms": [
             "Android_1_6"
           ]
@@ -261,20 +231,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Zio Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Zio",
-            "Device_Name": "Zio"
-          },
+          "device": "unknown Zio",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#edge Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Edge",
-            "Device_Name": "Edge"
-          },
+          "device": "unknown Edge",
           "platforms": [
             "Android_1_6"
           ]
