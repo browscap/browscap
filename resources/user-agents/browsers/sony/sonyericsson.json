@@ -28,67 +28,32 @@
       },
       "children": [
         {
-          "match": "EricssonA2628s\/R2A",
-          "properties": {
-            "Device_Code_Name": "A2628s",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "A2628s"
-          }
+          "match": "EricssonA2628s\/*",
+          "device": "Ericsson A2628s"
         },
         {
           "match": "EricssonR520\/*",
-          "properties": {
-            "Device_Code_Name": "R520",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "R520"
-          }
+          "device": "Ericsson R520"
         },
         {
           "match": "EricssonT20\/*",
-          "properties": {
-            "Device_Code_Name": "T20",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T20"
-          }
+          "device": "Ericsson T20"
         },
         {
           "match": "EricssonT39\/*",
-          "properties": {
-            "Device_Code_Name": "T39",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T39"
-          }
+          "device": "Ericsson T39"
         },
         {
           "match": "EricssonT65*",
-          "properties": {
-            "Device_Code_Name": "T65",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T65"
-          }
+          "device": "Ericsson T65"
         },
         {
           "match": "EricssonT68*",
-          "properties": {
-            "Device_Code_Name": "T68",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T68"
-          }
+          "device": "Ericsson T68"
         },
         {
           "match": "SonyEricssonC510\/R1*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C510",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C510"
-          }
+          "device": "SonyEricsson C510"
         },
         {
           "match": "SonyEricssonC902\/*(SymbianOS\/*",
@@ -104,39 +69,19 @@
         },
         {
           "match": "SonyEricssonJ200i\/*",
-          "properties": {
-            "Device_Code_Name": "J200i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J200i"
-          }
+          "device": "SonyEricsson J200i"
         },
         {
           "match": "SonyEricssonJ210c\/*",
-          "properties": {
-            "Device_Code_Name": "J210c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210c"
-          }
+          "device": "SonyEricsson J210c"
         },
         {
           "match": "SonyEricssonJ210i\/*",
-          "properties": {
-            "Device_Code_Name": "J210i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210i"
-          }
+          "device": "SonyEricsson J210i"
         },
         {
           "match": "SonyEricssonK550i*",
-          "properties": {
-            "Device_Code_Name": "K550i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K550i"
-          }
+          "device": "SonyEricsson K550i"
         },
         {
           "match": "SonyEricssonK800i\/*(SymbianOS\/*",
@@ -168,12 +113,7 @@
         },
         {
           "match": "SonyEricssonU8a\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U8a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8a"
-          }
+          "device": "SonyEricsson U8a"
         },
         {
           "match": "SonyEricssonU8i\/*(SymbianOS\/*",
@@ -218,12 +158,7 @@
         },
         {
           "match": "SonyEricssonW995\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W995",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W995"
-          }
+          "device": "SonyEricsson W995"
         }
       ]
     }

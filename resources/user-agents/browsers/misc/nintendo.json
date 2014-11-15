@@ -25,51 +25,25 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "isMobileDevice": "true",
-        "Crawler": "false",
-        "Device_Type": "Console",
-        "Device_Maker": "Nintendo",
-        "Device_Brand_Name": "Nintendo"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Nintendo Wii*",
-          "properties": {
-            "Browser": "Nintendo Wii",
-            "isMobileDevice": "true",
-            "Device_Name": "Wii",
-            "Device_Code_Name": "Wii",
-            "Device_Maker": "Nintendo",
-            "Device_Brand_Name": "Nintendo",
-            "Device_Type": "Console"
-          }
+          "device": "Nintendo Wii"
         },
         {
           "match": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
-          "properties": {
-            "Comment": "Nintendo DSi",
-            "Browser": "DSi",
-            "Device_Name": "DSi",
-            "Device_Code_Name": "DSi"
-          }
+          "device": "Nintendo DSi"
         },
         {
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
-          "properties": {
-            "Browser": "WiiU",
-            "Device_Name": "WiiU",
-            "Device_Code_Name": "WiiU"
-          }
+          "device": "Nintendo WiiU"
         },
         {
           "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
           "engine": "NetFront",
-          "properties": {
-            "Comment": "Nintendo 3DS",
-            "Browser": "Nintendo 3DS Internet Browser",
-            "Device_Code_Name": "3DS",
-            "Device_Name": "3DS"
-          }
+          "device": "Nintendo 3DS"
         }
       ]
     }

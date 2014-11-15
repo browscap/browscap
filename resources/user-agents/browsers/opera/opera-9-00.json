@@ -81,15 +81,7 @@
         },
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Name": "Wii",
-            "Device_Code_Name": "Wii",
-            "Device_Maker": "Nintendo",
-            "Device_Brand_Name": "Nintendo",
-            "Device_Type": "Console",
-            "Device_Pointing_Method": "unknown"
-          }
+          "device": "Nintendo Wii"
         }
       ]
     }

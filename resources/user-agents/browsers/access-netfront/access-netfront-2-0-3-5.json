@@ -129,25 +129,12 @@
         },
         {
           "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "W995",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W995"
-          }
+          "device": "SonyEricsson W995"
         },
         {
           "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "WiiU",
-            "Device_Name": "WiiU",
-            "isMobileDevice": "true",
-            "Device_Type": "Console",
-            "Device_Maker": "Nintendo",
-            "Device_Brand_Name": "Nintendo",
-            "Device_Pointing_Method": "unknown"
-          }
+          "device": "Nintendo WiiU"
         }
       ]
     }

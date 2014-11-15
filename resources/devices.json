@@ -348,6 +348,78 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson J10i2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "J10i2",
+        "Device_Name": "J10i2",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson J210i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "J210i",
+        "Device_Name": "J210i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson J210c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "J210c",
+        "Device_Name": "J210c",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson J200i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "J200i",
+        "Device_Name": "J200i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson C510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C510",
+        "Device_Name": "C510",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson K550i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K550i",
+        "Device_Name": "K550i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson K800i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -425,6 +497,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U5u",
         "Device_Name": "U5u",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson U8a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U8a",
+        "Device_Name": "U8a",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
         "Device_Pointing_Method": "unknown",
@@ -523,6 +607,90 @@
         "Device_Name": "W980",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W995": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W995",
+        "Device_Name": "W995",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson T68": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T68",
+        "Device_Name": "T68",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson T65": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T65",
+        "Device_Name": "T65",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson T39": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T39",
+        "Device_Name": "T39",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson T20": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T20",
+        "Device_Name": "T20",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson R520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "R520",
+        "Device_Name": "R520",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ericsson A2628s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A2628s",
+        "Device_Name": "A2628s",
+        "Device_Maker": "Ericsson",
+        "Device_Brand_Name": "Ericsson",
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -991,6 +1159,54 @@
         "Device_Name": "Quickfire",
         "Device_Maker": "UTStarcom",
         "Device_Brand_Name": "AT&T",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nintendo WiiU": {
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Code_Name": "WiiU",
+        "Device_Name": "WiiU",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nintendo 3DS": {
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Code_Name": "3DS",
+        "Device_Name": "3DS",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nintendo DSi": {
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Code_Name": "DSi",
+        "Device_Name": "DSi",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nintendo Wii": {
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Code_Name": "Wii",
+        "Device_Name": "Wii",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

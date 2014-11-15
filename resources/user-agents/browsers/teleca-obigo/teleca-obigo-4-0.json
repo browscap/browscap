@@ -33,12 +33,7 @@
         },
         {
           "match": "SonyEricssonJ210i\/R2*TelecaBrowser\/4.*",
-          "properties": {
-            "Device_Code_Name": "J210i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210i"
-          }
+          "device": "SonyEricsson J210i"
         },
         {
           "match": "SonyEricssonJ220i\/* TelecaBrowser\/4.*",
