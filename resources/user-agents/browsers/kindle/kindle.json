@@ -7,6 +7,7 @@
       "userAgent": "Kindle",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Kindle",
@@ -15,12 +16,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "Device_Type": "Ebook Reader",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -51,10 +47,9 @@
             "Comment": "Kindle Fire",
             "Browser_Bits": "32",
             "Version": "4.0",
-            "MajorVer": "4",
-            "Device_Code_Name": "Kindle Fire",
-            "Device_Name": "Kindle Fire"
+            "MajorVer": "4"
           },
+          "device": "Amazon Kindle Fire",
           "platforms": [
             "Android_2_3"
           ]
@@ -63,10 +58,9 @@
           "match": "Mozilla\/5.0 (X11; U; Linux armv* like Android; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Kindle\/3.*",
           "properties": {
             "Version": "5.0",
-            "MajorVer": "5",
-            "Device_Code_Name": "Kindle 3",
-            "Device_Name": "Kindle 3"
+            "MajorVer": "5"
           },
+          "device": "Amazon Kindle 3",
           "platforms": [
             "Maemo_ARM"
           ]
@@ -78,12 +72,9 @@
             "Browser": "Kindle Fire",
             "Version": "4.0",
             "MajorVer": "4",
-            "MinorVer": "0",
-            "Device_Name": "Kindler Fire",
-            "Device_Maker": "Amazon",
-            "Device_Type": "Ebook Reader",
-            "Device_Pointing_Method": "touchscreen"
+            "MinorVer": "0"
           },
+          "device": "Amazon Kindle Fire",
           "platforms": [
             "Android_2_3"
           ]

@@ -8,6 +8,7 @@
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
@@ -21,12 +22,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
-        "Device_Type": "Ebook Reader",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {

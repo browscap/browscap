@@ -145,12 +145,7 @@
         },
         {
           "match": "SonyEricssonW910i\/R1FA*",
-          "properties": {
-            "Device_Code_Name": "W910i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W910i"
-          }
+          "device": "SonyEricsson W910i"
         },
         {
           "match": "SonyEricssonW980\/*(SymbianOS\/*",

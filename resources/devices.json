@@ -624,6 +624,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson W910i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W910i",
+        "Device_Name": "W910i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1210,6 +1222,66 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Amazon Kindle": {
+      "properties": {
+        "Device_Type": "Ebook Reader",
+        "Device_Code_Name": "Kindle",
+        "Device_Name": "Kindle",
+        "Device_Maker": "Amazon",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Amazon Kindle Fire": {
+      "properties": {
+        "Device_Type": "Ebook Reader",
+        "Device_Code_Name": "Kindle Fire",
+        "Device_Name": "Kindle Fire",
+        "Device_Maker": "Amazon",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Amazon Kindle 3": {
+      "properties": {
+        "Device_Type": "Ebook Reader",
+        "Device_Code_Name": "Kindle 3",
+        "Device_Name": "Kindle 3",
+        "Device_Maker": "Amazon",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Amazon KFTT": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTT",
+        "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFOT": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFOT",
+        "Device_Name": "Kindle Fire 7",
+        "Device_Maker": "Amazon",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
