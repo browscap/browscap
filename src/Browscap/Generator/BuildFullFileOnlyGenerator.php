@@ -201,8 +201,6 @@ class BuildFullFileOnlyGenerator
 
                 $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
 
-                $writerCollection->renderDivisionHeader($divisionName);
-
                 $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
                 $firstElement = current($sections);
 
