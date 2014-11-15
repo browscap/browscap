@@ -282,7 +282,12 @@ class BuildGenerator
         $this->writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
-        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
+        $sections = array(
+            $ua[0]['userAgent'] => array_merge(
+                array('Parent' => 'DefaultProperties'),
+                $ua[0]['properties']
+            )
+        );
 
         foreach ($sections as $sectionName => $section) {
             $this->writerCollection

@@ -129,16 +129,16 @@ class BuildFullFileOnlyGenerator
         $collection = new DataCollection($version);
         $collection->setLogger($this->logger);
 
-        $expander = new Expander();
-        $expander
-            ->setDataCollection($collection)
-            ->setLogger($this->logger)
-        ;
-
         $collectionCreator
             ->setLogger($this->logger)
             ->setDataCollection($collection)
             ->createDataCollection($this->resourceFolder)
+        ;
+
+        $expander = new Expander();
+        $expander
+            ->setDataCollection($collection)
+            ->setLogger($this->logger)
         ;
 
         $writerCollection = new WriterCollection();
@@ -169,6 +169,8 @@ class BuildFullFileOnlyGenerator
             ->renderVersion('test', $collection)
         ;
 
+        $output = array();
+
         $writerCollection->renderAllDivisionsHeader($collection);
 
         $division = $collection->getDefaultProperties();
@@ -197,27 +199,34 @@ class BuildFullFileOnlyGenerator
             foreach ($versions as $version) {
                 list($majorVer, $minorVer) = $expander->getVersionParts($version);
 
-                $userAgents = json_encode($division->getUserAgents());
-                $userAgents = $expander->parseProperty($userAgents, $majorVer, $minorVer);
-                $userAgents = json_decode($userAgents, true);
-
                 $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
 
-                $writerCollection->renderDivisionHeader($divisionName);
+                $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+                $firstElement = current($sections);
 
-                $sections = $expander->expand($division, $majorVer, $minorVer, $divisionName);
+                $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach ($sections as $sectionName => $section) {
+                    if (in_array($sectionName, $output)) {
+                        throw new \UnexpectedValueException(
+                            'tried to add section "' . $sectionName . '" more than once'
+                        );
+                    }
+
+                    $collection->checkProperty($sectionName, $section);
+
                     $writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sections, $sectionName)
                         ->renderSectionFooter($sectionName)
                     ;
+
+                    $output[] = $sectionName;
                 }
 
                 $writerCollection->renderDivisionFooter();
 
-                unset($userAgents, $divisionName, $majorVer, $minorVer);
+                unset($divisionName, $majorVer, $minorVer);
             }
         }
 
@@ -244,9 +253,6 @@ class BuildFullFileOnlyGenerator
         $writerCollection
             ->renderDivisionFooter()
             ->renderAllDivisionsFooter()
-        ;
-
-        $writerCollection
             ->fileEnd()
             ->close()
         ;
