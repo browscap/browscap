@@ -29,7 +29,8 @@
           }
         },
         {
-          "match": "KDDI-CA33 UP.Browser\/6.2* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)"
+          "match": "KDDI-CA33 UP.Browser\/6.2* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)",
+          "device": "KDDI CA33"
         },
         {
           "match": "KDDI-HI21 UP.Browser\/6.0* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)"

@@ -356,10 +356,6 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#1000ET Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "1000ET",
-            "Device_Name": "1000ET"
-          },
           "platforms": [
             "Android_2_1"
           ]
@@ -378,12 +374,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A101IT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A101IT",
-            "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
-            "Device_Name": "A101IT"
-          },
+          "device": "Archos A101IT",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
@@ -456,12 +447,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#BASE lutea Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Blade",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Blade"
-          },
+          "device": "ZTE Blade",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
@@ -474,62 +460,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DROIDX Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "DroidX",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "DroidX"
-          },
+          "device": "Motorola DroidX",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Dell Streak Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Streak",
-            "Device_Maker": "Dell",
-            "Device_Brand_Name": "Dell",
-            "Device_Name": "Streak"
-          },
+          "device": "Dell Streak",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Desire_A8181 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A8181",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
-          },
+          "device": "HTC Desire A8181",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Desire_A8181 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A8181",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
-          },
+          "device": "HTC Desire A8181",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Droid Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Droid",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Droid"
-          },
+          "device": "Motorola Droid",
           "platforms": [
             "Android_2_1"
           ]
@@ -557,24 +516,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Eris A50 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Eris",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Eris"
-          },
+          "device": "HTC Eris",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Eris Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Eris",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Eris"
-          },
+          "device": "HTC Eris",
           "platforms": [
             "Android_2_1"
           ]
@@ -588,12 +537,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5503 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I5503",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I5503"
-          },
+          "device": "Samsung GT-I5503",
           "platforms": [
             "Android_2_1"
           ]
@@ -607,24 +551,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I5800",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy 3 Apollo"
-          },
+          "device": "Samsung GT-I5800",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5801 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I5801",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I5801"
-          },
+          "device": "Samsung GT-I5801",
           "platforms": [
             "Android_2_1"
           ]
@@ -652,12 +586,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Garmin-Asus A10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A10",
-            "Device_Maker": "Garmin-Asus",
-            "Device_Brand_Name": "Garmin-Asus",
-            "Device_Name": "A10"
-          },
+          "device": "Garmin-Asus A10",
           "platforms": [
             "Android_2_1"
           ]
@@ -720,60 +649,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Wildfire S* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A510",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
-          },
+          "device": "HTC Wildfire S A510",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Wildfire* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Wildfire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire"
-          },
+          "device": "HTC Wildfire",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC-A6366* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A6366",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "A6366"
-          },
+          "device": "HTC A6366",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_A3335* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A3335",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "A3335"
-          },
+          "device": "HTC A3335",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Aria_A6380 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Aria A6380",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Aria A6380"
-          },
+          "device": "HTC Aria A6380",
           "platforms": [
             "Android_2_1"
           ]
@@ -787,88 +691,56 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Wildfire_A3333 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A3333",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire"
-          },
+          "device": "HTC Wildfire A3333",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IS03 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "IS03",
-            "Device_Maker": "KDDI",
-            "Device_Brand_Name": "KDDI",
-            "Device_Name": "IS03"
-          },
+          "device": "KDDI IS03",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ideos S7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Ideos S7",
-            "Device_Name": "Ideos S7"
-          },
+          "device": "unknown Ideos S7",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LU2300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LU2300",
-            "Device_Name": "LU2300"
-          },
+          "device": "unknown LU2300",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LogicPD Zoom2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Zoom2",
-            "Device_Name": "Zoom2"
-          },
+          "device": "LogicPD Zoom2",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#M82VG Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "M82VG",
-            "Device_Name": "M82VG"
-          },
+          "device": "unknown M82VG",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#M860 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "M860",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "M860"
-          },
+          "device": "Huawei M860",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MB508 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB508",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB508"
-          },
+          "device": "Motorola MB508",
           "platforms": [
             "Android_2_1"
           ]
@@ -889,46 +761,28 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MB632 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB632",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Pro+"
-          },
+          "device": "Motorola MB632",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MB860 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB860",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Atrix"
-          },
+          "device": "Motorola MB860",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MID",
-            "Device_Name": "MID"
-          },
+          "device": "unknown MID",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MOT-XT615 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XT615",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT615"
-          },
+          "device": "Motorola XT615",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
@@ -942,24 +796,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Milestone XT720 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Milestone XT720",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Milestone XT720"
-          },
+          "device": "Motorola XT720",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MotoMB511 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB511",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB511"
-          },
+          "device": "Motorola MB511",
           "platforms": [
             "Android_2_1"
           ]
@@ -1475,12 +1319,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT615 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XT615",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT615"
-          },
+          "device": "Motorola XT615",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
@@ -1499,12 +1338,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ZTE-BLADE Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Blade",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Blade"
-          },
+          "device": "ZTE Blade",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
@@ -1860,10 +1694,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ideos Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Ideos",
-            "Device_Name": "Ideos"
-          },
+          "device": "unknown Ideos",
           "platforms": [
             "Android_2_2"
           ]
@@ -2873,12 +2704,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC\/WildfireS* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A510",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
-          },
+          "device": "HTC Wildfire S A510",
           "platforms": [
             "Android_2_3"
           ]
@@ -2985,12 +2811,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_WildfireS Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A510",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
-          },
+          "device": "HTC Wildfire S A510",
           "platforms": [
             "Android_2_3"
           ]
@@ -4548,15 +4369,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "FonePad",
-            "Device_Code_Name": "A510",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "A510"
-          },
+          "device": "Acer A510",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]

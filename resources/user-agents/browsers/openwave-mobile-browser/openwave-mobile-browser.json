@@ -6,6 +6,7 @@
     {
       "userAgent": "Openwave Mobile Browser",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -15,10 +16,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone"
+        "JavaScript": "true"
       },
       "children": [
         {

@@ -27,9 +27,7 @@
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-CA33) Opera 8.60*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "KDDI CA33",
           "platforms": [
             "WinMobile"
           ]

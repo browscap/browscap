@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 6.2",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -14,9 +15,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "6.2",
         "MajorVer": "6",
         "MinorVer": "2"
@@ -164,31 +162,40 @@
           "match": "KD882 UP.Browser\/6.2*"
         },
         {
-          "match": "KDDI-CA23 UP.Browser\/6.2*"
+          "match": "KDDI-CA23 UP.Browser\/6.2*",
+          "device": "KDDI CA23"
         },
         {
-          "match": "KDDI-CA26 UP.Browser\/6.2*"
+          "match": "KDDI-CA26 UP.Browser\/6.2*",
+          "device": "KDDI CA26"
         },
         {
-          "match": "KDDI-CA28 UP.Browser\/6.2*"
+          "match": "KDDI-CA28 UP.Browser\/6.2*",
+          "device": "KDDI CA28"
         },
         {
-          "match": "KDDI-CA31 UP.Browser\/6.2*"
+          "match": "KDDI-CA31 UP.Browser\/6.2*",
+          "device": "KDDI CA31"
         },
         {
-          "match": "KDDI-CA32 UP.Browser\/6.2*"
+          "match": "KDDI-CA32 UP.Browser\/6.2*",
+          "device": "KDDI CA32"
         },
         {
-          "match": "KDDI-CA33 UP.Browser\/6.2*"
+          "match": "KDDI-CA33 UP.Browser\/6.2*",
+          "device": "KDDI CA33"
         },
         {
-          "match": "KDDI-CA34 UP.Browser\/6.2*"
+          "match": "KDDI-CA34 UP.Browser\/6.2*",
+          "device": "KDDI CA34"
         },
         {
-          "match": "KDDI-CA37 UP.Browser\/6.2*"
+          "match": "KDDI-CA37 UP.Browser\/6.2*",
+          "device": "KDDI CA37"
         },
         {
-          "match": "KDDI-CA39 UP.Browser\/6.2*"
+          "match": "KDDI-CA39 UP.Browser\/6.2*",
+          "device": "KDDI CA39"
         },
         {
           "match": "KDDI-CA3A UP.Browser\/6.2*"
@@ -264,12 +271,7 @@
         },
         {
           "match": "KDDI-SN3F UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SN3F",
-            "Device_Maker": "KDDI",
-            "Device_Brand_Name": "KDDI",
-            "Device_Name": "SN3F"
-          }
+          "device": "KDDI SN3F"
         },
         {
           "match": "KDDI-ST25 UP.Browser\/6.2*"

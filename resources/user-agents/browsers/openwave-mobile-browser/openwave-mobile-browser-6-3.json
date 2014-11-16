@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 6.3",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -14,9 +15,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "6.3",
         "MajorVer": "6",
         "MinorVer": "3"

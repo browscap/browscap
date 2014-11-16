@@ -5,6 +5,7 @@
     {
       "userAgent": "Windows Phone Search",
       "platform": "WinMobile",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -19,22 +20,13 @@
       "children": [
         {
           "match": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Spark",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Trophy"
-          },
+          "device": "HTC Spark",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
           "match": "Windows Phone Search (Windows Phone OS 7.10;*)",
-          "device": "general Mobile Phone",
           "platforms": [
             "WinPhone7"
           ]

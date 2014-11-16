@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 6.0",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -14,18 +15,17 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "6.0",
         "MajorVer": "6"
       },
       "children": [
         {
-          "match": "KDDI-TS21 UP.Browser\/6.0*"
+          "match": "KDDI-TS21 UP.Browser\/6.0*",
+          "device": "KDDI TS21"
         },
         {
-          "match": "KDDI-TS25 UP.Browser\/6.0* MMP\/1.1"
+          "match": "KDDI-TS25 UP.Browser\/6.0*",
+          "device": "KDDI TS25"
         },
         {
           "match": "OPWV-SDK\/* UP.Browser\/6.0*"

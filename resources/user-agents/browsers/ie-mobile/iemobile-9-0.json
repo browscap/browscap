@@ -98,12 +98,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; HTC; 7 Trophy)",
-          "properties": {
-            "Device_Code_Name": "Spark",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Trophy"
-          },
+          "device": "HTC Spark",
           "platforms": [
             "WinPhone75"
           ]

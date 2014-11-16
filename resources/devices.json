@@ -936,6 +936,42 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I5503": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5503",
+        "Device_Name": "GT-I5503",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I5800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5800",
+        "Device_Name": "Galaxy 3 Apollo",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I5801": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5801",
+        "Device_Name": "GT-I5801",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-S5830": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1092,6 +1128,18 @@
         "isTablet": "false"
       }
     },
+    "Garmin-Asus A10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A10",
+        "Device_Name": "A10",
+        "Device_Maker": "Garmin-Asus",
+        "Device_Brand_Name": "Garmin-Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Asus TF101": {
       "properties": {
         "Device_Type": "Tablet",
@@ -1157,6 +1205,102 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB300",
         "Device_Name": "Backflip",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola DroidX": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "DroidX",
+        "Device_Name": "DroidX",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Droid": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Droid",
+        "Device_Name": "Droid",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB508": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB508",
+        "Device_Name": "MB508",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB632": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB632",
+        "Device_Name": "Pro+",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB860": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB860",
+        "Device_Name": "Atrix",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT615": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT615",
+        "Device_Name": "XT615",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT720": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT720",
+        "Device_Name": "Milestone XT720",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MB511": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB511",
+        "Device_Name": "MB511",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -1356,10 +1500,46 @@
         "isTablet": "false"
       }
     },
+    "HTC Wildfire": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Wildfire",
+        "Device_Name": "Wildfire",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Wildfire A3333": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A3333",
+        "Device_Name": "Wildfire",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Wildfire S": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Wildfire S",
+        "Device_Name": "Wildfire S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Wildfire S A510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A510",
         "Device_Name": "Wildfire S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
@@ -1433,6 +1613,78 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X315e",
         "Device_Name": "Sensation XL with Beats Audio",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Spark": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Spark",
+        "Device_Name": "7 Trophy",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire A8181": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A8181",
+        "Device_Name": "Desire",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Eris": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Eris",
+        "Device_Name": "Eris",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC A6366": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A6366",
+        "Device_Name": "A6366",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC A3335": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A3335",
+        "Device_Name": "A3335",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Aria A6380": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Aria A6380",
+        "Device_Name": "Aria A6380",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -1536,6 +1788,18 @@
         "isTablet": "true"
       }
     },
+    "Acer A510": {
+      "properties": {
+        "Device_Type": "FonePad",
+        "Device_Code_Name": "A510",
+        "Device_Name": "A510",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Mobistel Cynus T2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1570,6 +1834,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Huawei M860": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M860",
+        "Device_Name": "M860",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "UTStarcom GTX75": {
@@ -1788,6 +2064,18 @@
         "isTablet": "false"
       }
     },
+    "Archos A101IT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A101IT",
+        "Device_Name": "A101IT",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Point of View Mobii 7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1865,6 +2153,66 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT6515M",
         "Device_Name": "MT6515M",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown Ideos S7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Ideos S7",
+        "Device_Name": "Ideos S7",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown Ideos": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Ideos",
+        "Device_Name": "Ideos",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown LU2300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LU2300",
+        "Device_Name": "LU2300",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown M82VG": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M82VG",
+        "Device_Name": "M82VG",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown MID": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MID",
+        "Device_Name": "MID",
         "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "touchscreen",
@@ -2024,6 +2372,198 @@
         "Device_Maker": "Mastone",
         "Device_Brand_Name": "Mastone",
         "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Blade": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blade",
+        "Device_Name": "Blade",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dell Streak": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Streak",
+        "Device_Name": "Streak",
+        "Device_Maker": "Dell",
+        "Device_Brand_Name": "Dell",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "KDDI IS03": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "IS03",
+        "Device_Name": "IS03",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI SN3F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SN3F",
+        "Device_Name": "SN3F",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI TS21": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "TS21",
+        "Device_Name": "TS21",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI TS25": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "TS25",
+        "Device_Name": "TS25",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA23": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA23",
+        "Device_Name": "CA23",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA26": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA26",
+        "Device_Name": "CA26",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA28": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA28",
+        "Device_Name": "CA28",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA31": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA31",
+        "Device_Name": "CA31",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA32": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA32",
+        "Device_Name": "CA32",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA33": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA33",
+        "Device_Name": "CA33",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA34": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA34",
+        "Device_Name": "CA34",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA37": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA37",
+        "Device_Name": "CA37",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI CA39": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CA39",
+        "Device_Name": "CA39",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LogicPD Zoom2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Zoom2",
+        "Device_Name": "Zoom2",
+        "Device_Maker": "LogicPD",
+        "Device_Brand_Name": "LogicPD",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

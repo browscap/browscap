@@ -23,7 +23,8 @@
       },
       "children": [
         {
-          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
+          "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "device": "KDDI CA34"
         }
       ]
     }
