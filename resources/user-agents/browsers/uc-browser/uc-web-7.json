@@ -28,12 +28,7 @@
       "children": [
         {
           "match": "#PLATFORM#GT-S5570*) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5570",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini"
-          },
+          "device": "Samsung GT-S5570",
           "platforms": [
             "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]

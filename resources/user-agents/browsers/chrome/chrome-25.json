@@ -1198,14 +1198,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#folio100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]

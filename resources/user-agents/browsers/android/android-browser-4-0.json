@@ -824,46 +824,27 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#OP070 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Olipad 70",
-            "Device_Maker": "Olivetti",
-            "Device_Brand_Name": "Olivetti",
-            "Device_Name": "Olipad Smart"
-          },
+          "device": "Olivetti Olipad 70",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#OYO *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OYO",
-            "Device_Name": "OYO"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Orange San Francisco Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Orange",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Orange"
-          },
+          "device": "ZTE Orange",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Orange_Boston Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Orange",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Orange"
-          },
+          "device": "ZTE Orange",
           "platforms": [
             "Android_2_1"
           ]
@@ -884,114 +865,67 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#RBM2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "RBM2",
-            "Device_Name": "RBM2"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#RBM3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "RBM3",
-            "Device_Name": "RBM3"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#S7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "S7",
-            "Device_Name": "S7"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG-SGH-I896 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SGH-I896",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I896"
-          },
+          "device": "Samsung SGH-I896",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG-SGH-I897* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SGH-I897",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I897"
-          },
+          "device": "Samsung SGH-I897",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I500 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SCH-I500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH-I500"
-          },
+          "device": "Samsung SCH-I500",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-R880 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SCH R880",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH R880"
-          },
+          "device": "Samsung SCH-R880",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGH-T959 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SGH-T959",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T959"
-          },
+          "device": "Samsung SGH-T959",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SHW-M110S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SHW M110S",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SHW M110S"
-          },
+          "device": "Samsung SHW-M110S",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SPH-D700 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SPH D700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SPH D700"
-          },
+          "device": "Samsung SPH-D700",
           "platforms": [
             "Android_2_1"
           ]
@@ -1005,46 +939,27 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SPH-M910 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SPH M910",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SPH M910"
-          },
+          "device": "Samsung SPH-M910",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#San Francisco Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Orange",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Orange"
-          },
+          "device": "ZTE Orange",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SmartQ V7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SmartQ V7",
-            "Device_Name": "SmartQ V7"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E10a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "E10a"
-          },
+          "device": "SonyEricsson E10a",
           "platforms": [
             "Android_2_1"
           ]
@@ -1065,12 +980,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonSO-01B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SO-01B",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "SO-01B"
-          },
+          "device": "SonyEricsson SO-01B",
           "platforms": [
             "Android_2_1"
           ]
@@ -1098,36 +1008,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonX10iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "X10iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "X10iv"
-          },
+          "device": "SonyEricsson X10iv",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Stream Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Stream",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Stream"
-          },
+          "device": "Acer Stream",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#T-Mobile_Espresso Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Espresso",
-            "Device_Maker": "T-Mobile",
-            "Device_Brand_Name": "T-Mobile",
-            "Device_Name": "Espresso"
-          },
+          "device": "T-Mobile Espresso",
           "platforms": [
             "Android_2_1"
           ]
@@ -1141,60 +1036,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TOSHIBA_AC_AND_AZ) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TSB_CLOUD_COMPANION;TOSHIBA_AC_AND_AZ) AppleWebKit\/*(KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TOSHIBA_FOLIO_AND_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TSB_CLOUD_COMPANION;FOLIO_AND_A) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#folio100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Folio 100",
-            "Device_Maker": "Toshiba",
-            "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
-          },
+          "device": "Toshiba Folio 100",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -1208,82 +1078,48 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U8100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8100",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "U8100"
-          },
+          "device": "Huawei U8100",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U8180 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8180",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "U8180"
-          },
+          "device": "Huawei U8180",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U8220 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8220",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "U8220"
-          },
+          "device": "Huawei U8220",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U8500 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8500",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "U8500"
-          },
+          "device": "Huawei U8500",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#USCCADR6275US Carrier ID 45 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "USCCADR6275US",
-            "Device_Name": "USCCADR6275US"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 845 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "845",
-            "Device_Maker": "Vodafone",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "845"
-          },
+          "device": "Vodafone 845",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#WX445 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "WX445",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "WX445"
-          },
+          "device": "Motorola WX445",
           "platforms": [
             "Android_2_1"
           ]
@@ -1297,22 +1133,13 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XST2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XST2",
-            "Device_Name": "XST2"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT610 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XT610",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT610"
-          },
+          "device": "Motorola XT610",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
           ]
@@ -1326,12 +1153,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT701 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XT701",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT701"
-          },
+          "device": "Motorola XT701",
           "platforms": [
             "Android_2_1"
           ]
@@ -1345,56 +1167,33 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ZTE-RACER Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Racer",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "Racer"
-          },
+          "device": "ZTE Racer",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ZiiO7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "ZiiO7",
-            "Device_Name": "ZiiO7"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#jv02 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "jv02",
-            "Device_Name": "jv02"
-          },
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#liquid Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Liquid",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Liquid"
-          },
+          "device": "Acer Liquid",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#p7901a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P7901A",
-            "Device_Maker": "Epad",
-            "Device_Brand_Name": "Epad",
-            "Device_Name": "P7901A"
-          },
+          "device": "Epad P7901A",
           "platforms": [
             "Android_2_1", "Android_2_2"
           ]
@@ -1413,46 +1212,27 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL one touch 890D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-890D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 890D"
-          },
+          "device": "Alcatel OT-890D",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL_one_touch_990 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-990",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 990"
-          },
+          "device": "Alcatel OT-990",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#BASE Tab Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "BASE Tab",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "BASE Tab"
-          },
+          "device": "ZTE BASE Tab",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DISCO10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Disko10",
-            "Device_Name": "Disko10"
-          },
           "platforms": [
             "Android_2_2"
           ]
@@ -1480,72 +1260,42 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#E140 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E140",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "E140"
-          },
+          "device": "Acer E140",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#E310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E310",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Liquid Mini"
-          },
+          "device": "Acer E310",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I5510 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I5510",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I5510"
-          },
+          "device": "Samsung GT-I5510",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9000T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9000T"
-          },
+          "device": "Samsung GT-I9000T",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9003 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9003",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy SL"
-          },
+          "device": "Samsung GT-I9003",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9010"
-          },
+          "device": "Samsung GT-I9010",
           "platforms": [
             "Android_2_2"
           ]
@@ -1566,76 +1316,42 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5570I Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5570I",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Pop Plus"
-          },
+          "device": "Samsung GT-S5570I",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5570* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5570",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini"
-          },
+          "device": "Samsung GT-S5570",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5660 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5660",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Gio"
-          },
+          "device": "Samsung GT-S5660",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5670 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5670",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Fit"
-          },
+          "device": "Samsung GT-S5670",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5830C Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5830C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace"
-          },
+          "device": "Samsung GT-S5830C",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5830i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5830i",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S5830i",
           "platforms": [
             "Android_2_3"
           ]
@@ -1663,12 +1379,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Vision Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Vision",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Vision"
-          },
+          "device": "HTC Vision",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
@@ -1682,12 +1393,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Gratia_A6380 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A6380",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Gratia"
-          },
+          "device": "HTC A6380",
           "platforms": [
             "Android_2_2"
           ]
@@ -1701,36 +1407,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E720*; Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E720",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "E720"
-          },
+          "device": "LG E720",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E730*; Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E730",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "E720"
-          },
+          "device": "LG E730",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P350* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P350",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "P350"
-          },
+          "device": "LG P350",
           "platforms": [
             "Android_2_2"
           ]
@@ -1744,108 +1435,63 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P720* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P720",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "P720"
-          },
+          "device": "LG P720",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P920* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P920",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 3D"
-          },
+          "device": "LG P920",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P925* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P925",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Thrill"
-          },
+          "device": "LG P925",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P940* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P940",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Prada 3.0"
-          },
+          "device": "LG P940",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P970* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P970",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Black"
-          },
+          "device": "LG P970",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P990* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P990",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 2X"
-          },
+          "device": "LG P990",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Liquid Metal Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Liquid Metal",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Liquid Metal"
-          },
+          "device": "Acer Liquid Metal",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MotoA953 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A953",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MILESTONE 2"
-          },
+          "device": "Motorola A953",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MotoroiX Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MotoroiX",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MotoroiX"
-          },
+          "device": "Motorola MotoroiX",
           "platforms": [
             "Android_2_2"
           ]
@@ -1859,118 +1505,67 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ODYS Space Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Space",
-            "Device_Maker": "Odys",
-            "Device_Brand_Name": "Odys",
-            "Device_Name": "Space"
-          },
+          "device": "Odys Space",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ODYS Xtreme Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Xtreme",
-            "Device_Maker": "Odys",
-            "Device_Brand_Name": "Odys",
-            "Device_Name": "Xtreme"
-          },
+          "device": "Odys Xtreme",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SMARTBOOK* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "SMARTBOOK",
-            "Device_Name": "SMARTBOOK"
-          },
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ViewPad7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "ViewPad7",
-            "Device_Maker": "ViewSonic",
-            "Device_Brand_Name": "ViewSonic",
-            "Device_Name": "ViewPad7"
-          },
+          "device": "ViewSonic ViewPad7",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ViewSonic-ViewPad7e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "ViewPad7e",
-            "Device_Maker": "ViewSonic",
-            "Device_Brand_Name": "ViewSonic",
-            "Device_Name": "ViewPad7e"
-          },
+          "device": "ViewSonic ViewPad7e",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 858 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Vodafone 858",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Vodafone 858"
-          },
+          "device": "Huawei Vodafone 858",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT320 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "XT320",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Defy Mini"
-          },
+          "device": "Motorola XT320",
           "platforms": [
             "Android_2_2", "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#imx51_bbg Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "imx51_bbg",
-            "Device_Name": "imx51_bbg"
-          },
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#meizu_m9 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "meizu_m9",
-            "Device_Name": "meizu_m9"
-          },
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NGM Miracle Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "WeMove Miracle",
-            "Device_Name": "WeMove Miracle",
-            "Device_Maker": "NGM",
-            "Device_Brand_Name": "NGM"
-          },
+          "device": "NGM WeMove Miracle",
           "platforms": [
             "Android_2_2"
           ]
@@ -1984,24 +1579,14 @@
         },
         {
           "match": "Lenovo-A288t* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "A288t",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A288t"
-          },
+          "device": "Lenovo A288t",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Brand_Name": "Malata",
-            "Device_Name": "I50"
-          },
+          "device": "Malata I50",
           "platforms": [
             "Android_2_3"
           ]
@@ -2194,14 +1779,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#BASE Tab 7.1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "BASE Tab",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "BASE Tab 7.1"
-          },
+          "device": "ZTE BASE Tab",
           "platforms": [
             "Android_2_3"
           ]

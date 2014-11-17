@@ -88,14 +88,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P970 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "properties": {
-            "Browser_Bits": "32",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P970",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Black"
-          },
+          "device": "LG P970",
           "platforms": [
             "Android_2_3"
           ]

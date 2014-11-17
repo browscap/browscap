@@ -46,12 +46,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-            "Device_Code_Name": "GT-S5570",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini"
-          },
+          "device": "Samsung GT-S5570",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C"
