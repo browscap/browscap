@@ -723,7 +723,7 @@ return [
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'SM-G900V',
-            'Device_Brand_Name' => 'Google',
+            'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
