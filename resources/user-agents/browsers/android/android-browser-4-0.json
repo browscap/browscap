@@ -1631,148 +1631,84 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-I9100T",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A1_07 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "IdeaPad A1",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaPad A1 Tablet"
-          },
+          "device": "Lenovo IdeaPad A1",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 903D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-903D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 903D"
-          },
+          "device": "Alcatel OT-903D",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 918D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-918D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 918D"
-          },
+          "device": "Alcatel OT-918D",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 991 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-991",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 991"
-          },
+          "device": "Alcatel OT-991",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 991D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-991D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 991 Play"
-          },
+          "device": "Alcatel OT-991D",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 997D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-997D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 997D"
-          },
+          "device": "Alcatel OT-997D",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL_one_touch_918D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-918D",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 918D"
-          },
+          "device": "Alcatel OT-918D",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL_one_touch_995 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-995",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 995"
-          },
+          "device": "Alcatel OT-995",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AN7CG2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "7C G2",
-            "Device_Maker": "Arnova",
-            "Device_Brand_Name": "Arnova",
-            "Device_Name": "7C G2"
-          },
+          "device": "Arnova 7CG2",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Acer E320 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E320",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Liquid Express"
-          },
+          "device": "Acer E320",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#BASE Lutea 2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Lutea 2",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "BASE",
-            "Device_Name": "Lutea 2"
-          },
+          "device": "ZTE Lutea 2",
           "platforms": [
             "Android_2_3"
           ]
@@ -1786,413 +1722,231 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nova",
-            "Device_Maker": "CatSound",
-            "Device_Brand_Name": "CatSound",
-            "Device_Name": "Nova"
-          },
+          "device": "CatSound Nova",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Galactica X",
-            "Device_Maker": "Cat",
-            "Device_Brand_Name": "CatSound",
-            "Device_Name": "Galactica X"
-          },
+          "device": "CatSound Galactica X",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Tablet",
-            "Device_Maker": "Cat",
-            "Device_Brand_Name": "CatSound",
-            "Device_Name": "Tablet"
-          },
+          "device": "CatSound Tablet",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Cat Nova 8",
-            "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "Weltbild",
-            "Device_Name": "Tablet PC"
-          },
+          "device": "CatSound Cat Nova 8",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FX2-PAD10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FX2 PAD10",
-            "Device_Maker": "Faktor Zwei",
-            "Device_Brand_Name": "Faktor Zwei",
-            "Device_Name": "FX2 PAD10"
-          },
+          "device": "Faktor Zwei FX2 PAD10",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8150 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8150",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy W"
-          },
+          "device": "Samsung GT-I8150",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8160 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8160",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace 2"
-          },
+          "device": "Samsung GT-I8160",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8160P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8160P",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace 2 NFC"
-          },
+          "device": "Samsung GT-I8160P",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190N Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8190N",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III Mini"
-          },
+          "device": "Samsung GT-I8190N",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8190",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III Mini"
-          },
+          "device": "Samsung GT-I8190",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8530 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I8530",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I8530"
-          },
+          "device": "Samsung GT-I8530",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9001* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9001",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9001"
-          },
+          "device": "Samsung GT-I9001",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9070 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9070",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Advance"
-          },
+          "device": "Samsung GT-I9070",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9070P* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9070P",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Advance"
-          },
+          "device": "Samsung GT-I9070P",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9103 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9103",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "Samsung GT-I9103",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9105P* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9105P",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC"
-          },
+          "device": "Samsung GT-I9105P",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N7000* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-N7000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note"
-          },
+          "device": "Samsung GT-N7000",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-N7100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
-          },
+          "device": "Samsung GT-N7100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
+          "device": "Samsung GT-N8000",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Cakemix\/* Mozilla\/5.0 (#PLATFORM#GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/?.0*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
+          "device": "Samsung GT-N8000",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-N8010",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
+          "device": "Samsung GT-N8010",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Pocket"
-          },
+          "device": "Samsung GT-S5300",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5300B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5300B",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Pocket"
-          },
+          "device": "Samsung GT-S5300B",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5360 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5360",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Y"
-          },
+          "device": "Samsung GT-S5360",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5363 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5363",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5363"
-          },
+          "device": "Samsung GT-S5363",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5369* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5369",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Y"
-          },
+          "device": "Samsung GT-S5369",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5690",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Xcover"
-          },
+          "device": "Samsung GT-S5690",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5839i* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S5839i",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace"
-          },
+          "device": "Samsung GT-S5839i",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S6102 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S6102",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Y Duos"
-          },
+          "device": "Samsung GT-S6102",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S6102B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S6102B",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Y Duos"
-          },
+          "device": "Samsung GT-S6102B",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S6500* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S6500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini 2"
-          },
+          "device": "Samsung GT-S6500",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S6802 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S6802",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace Duos"
-          },
+          "device": "Samsung GT-S6802",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7500* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-S7500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace Plus"
-          },
+          "device": "Samsung GT-S7500",
           "platforms": [
             "Android_2_3"
           ]
@@ -2206,12 +1960,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Flyer P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Flyer P510e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Flyer P510e"
-          },
+          "device": "HTC Flyer P510e",
           "platforms": [
             "Android_2_3"
           ]
@@ -2225,12 +1974,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Sensation XE with Beats Audio Z715e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Sensation XE Beats Z715e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
-          },
+          ""device": "HTC Z715e",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
@@ -2251,12 +1995,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC\/Explorer* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A310e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Explorer"
-          },
+          "device": "HTC A310e",
           "platforms": [
             "Android_2_3"
           ]
@@ -2270,12 +2009,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC\/Velocity 4G* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Velocity 4G",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Velocity 4G"
-          },
+          "device": "HTC Velocity 4G",
           "platforms": [
             "Android_2_3"
           ]
@@ -2289,12 +2023,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_ChaCha_A810e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A810e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "ChaCha"
-          },
+          "device": "HTC A810e",
           "platforms": [
             "Android_2_3"
           ]
@@ -2315,48 +2044,28 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "S510e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire S"
-          },
+          "device": "HTC S510e",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "HTC_DesireS_S510e?Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "S510e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire S"
-          },
+          "device": "HTC S510e",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireZ_A7272 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A7272",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire Z"
-          },
+          "device": "HTC A7272",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Explorer_A310e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A310e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Explorer"
-          },
+          "device": "HTC A310e",
           "platforms": [
             "Android_2_3"
           ]
@@ -2370,12 +2079,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Rhyme_S510b Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "S510B",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Rhyme"
-          },
+          "device": "HTC S510B",
           "platforms": [
             "Android_2_3"
           ]
@@ -2396,12 +2100,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_WildfireS_A510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A510e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
-          },
+          "device": "HTC A510e",
           "platforms": [
             "Android_2_3"
           ]
@@ -2415,60 +2114,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI SONIC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8650",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Sonic"
-          },
+          "device": "Huawei U8650",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U8650* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8650",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Sonic"
-          },
+          "device": "Huawei U8650",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8666E",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend Y201 Pro"
-          },
+          "device": "Huawei U8666E",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI U8950N-1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "U8950N",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G600"
-          },
+          "device": "Huawei U8950N",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#INM803HC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "INM803HC",
-            "Device_Maker": "Lalsoft",
-            "Device_Brand_Name": "Lalsoft",
-            "Device_Name": "INM803HC"
-          },
+          "device": "Lalsoft INM803HC",
           "platforms": [
             "Android_2_3"
           ]
@@ -2482,156 +2156,91 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E400* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L3"
-          },
+          "device": "LG E400",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E510* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "E510",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Hub"
-          },
+          "device": "LG E510",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "P690",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Spirit"
-          },
+          "device": "LG P690",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT18i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc"
-          },
+          "device": "SonyEricsson LT18i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT18i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc"
-          },
+          "device": "SonyEricsson LT18i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT18iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT18iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc"
-          },
+          "device": "SonyEricsson LT18iv",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT22i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia P LT22i"
-          },
+          "device": "SonyEricsson LT22i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT22i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT22i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia P"
-          },
+          "device": "SonyEricsson LT22i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT26i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc HD"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT26i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc HD"
-          },
+          "device": "SonyEricsson LT26i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyLT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "LT26i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc HD"
-          },
+          "device": "SonyEricsson LT26i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB526",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB526"
-          },
+          "match": "Mozilla\/5.0 (#PLATFORM#LT26i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "SonyEricsson LT26i",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MotoMB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Motorola MB526",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MotoMB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "MB526",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB526"
-          },
+          "match": "Mozilla\/5.0 (#PLATFORM#MB526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Motorola MB526",
           "platforms": [
             "Android_2_3"
           ]
@@ -2911,12 +2520,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9070* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9070",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Advance"
-          },
+          "device": "Samsung GT-I9070",
           "platforms": [
             "Android_2_3"
           ]
@@ -5788,12 +5392,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SensationXE_Beats_Z715e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Sensation XE Beats Z715e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
-          },
+          ""device": "HTC Z715e",
           "platforms": [
             "Android_4_0"
           ]
