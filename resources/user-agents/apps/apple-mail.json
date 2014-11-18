@@ -4,7 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Apple Mail for iOS",
-      "platform": "Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
