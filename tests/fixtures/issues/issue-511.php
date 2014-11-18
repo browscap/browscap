@@ -276,9 +276,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Nexus 5',
             'Device_Brand_Name' => 'Google',
-            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-511-N' => [
