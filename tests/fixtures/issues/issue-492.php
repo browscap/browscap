@@ -603,7 +603,7 @@ return [
             'Platform_Version' => '6.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
-            'isMobileDevice' => true,
+            'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Xbox 360',
