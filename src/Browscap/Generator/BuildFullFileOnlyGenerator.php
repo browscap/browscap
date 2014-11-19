@@ -192,6 +192,15 @@ class BuildFullFileOnlyGenerator
 
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
+
+            // run checks on division before expanding versions because the checked properties do not change between
+            // versions
+            $sections = $expander->expand($division, 0, 0, $division->getName());
+
+            foreach ($sections as $sectionName => $section) {
+                $collection->checkProperty($sectionName, $section);
+            }
+
             $writerCollection->setSilent($division);
 
             $versions = $division->getVersions();
@@ -212,8 +221,6 @@ class BuildFullFileOnlyGenerator
                             'tried to add section "' . $sectionName . '" more than once'
                         );
                     }
-
-                    $collection->checkProperty($sectionName, $section);
 
                     $writerCollection
                         ->renderSectionHeader($sectionName)
