@@ -1,0 +1,53 @@
+{
+  "division": "KMail2 #MAJORVER#.#MINORVER#",
+  "versions": ["4.14"],
+  "sortIndex": 1661,
+  "userAgents": [
+    {
+      "userAgent": "KMail2 #MAJORVER#.#MINORVER#",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "KMail2 #MAJORVER#.#MINORVER#",
+        "Browser": "KMail2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "KDE e.V.",
+        "Browser_Type": "Email Client",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Linux Desktop",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "Linux Desktop"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kmail2\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
