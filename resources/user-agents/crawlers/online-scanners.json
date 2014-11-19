@@ -66,8 +66,24 @@
           "match": "Mozilla\/5.0 (compatible; Nmap Scripting Engine*",
           "properties": {
             "Browser": "Nmap Scripting Engine",
-            "Browser_Maker": "Gordon Lyon",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Gordon Lyon"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; CloudFlare-AlwaysOnline\/1.0*",
+          "properties": {
+            "Browser": "CloudFlare AlwaysOnline",
+            "Browser_Maker": "CloudFlare, Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; CloudFlare-AlwaysOnline\/*",
+          "properties": {
+            "Browser": "CloudFlare AlwaysOnline",
+            "Browser_Maker": "CloudFlare, Inc."
           }
         }
       ]

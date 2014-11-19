@@ -6154,6 +6154,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "BNRV200",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Name": "Nook Color Wifi"
+          },
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "properties": {
             "isTablet": "true",
@@ -6670,6 +6684,21 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Zaffire 785",
+            "Device_Maker": "Nuqleo",
+            "Device_Brand_Name": "Nuqleo",
+            "Device_Name": "Zaffire 785"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
