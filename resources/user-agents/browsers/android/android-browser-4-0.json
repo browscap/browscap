@@ -1974,7 +1974,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Sensation XE with Beats Audio Z715e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          ""device": "HTC Z715e",
+          "device": "HTC Z715e",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
@@ -5392,7 +5392,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SensationXE_Beats_Z715e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          ""device": "HTC Z715e",
+          "device": "HTC Z715e",
           "platforms": [
             "Android_4_0"
           ]

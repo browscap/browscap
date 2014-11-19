@@ -378,7 +378,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Sensation XE with Beats Audio Z715e Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          ""device": "HTC Z715e",
+          "device": "HTC Z715e",
           "platforms": [
             "Android_4_0"
           ]
