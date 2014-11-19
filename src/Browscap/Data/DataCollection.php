@@ -618,6 +618,8 @@ class DataCollection
                 }
                 break;
             case 'Mobile Phone':
+            case 'Smartphone':
+            case 'Feature Phone':
             case 'Mobile Device':
             case 'Ebook Reader':
             case 'Console':

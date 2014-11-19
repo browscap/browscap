@@ -280,8 +280,10 @@ class PropertyHolder
                     'TV Device',
                     'Tablet',
                     'Mobile Phone',
+                    'Smartphone',    // actual mobile phone with touchscreen
+                    'Feature Phone', // older mobile phone
                     'Mobile Device',
-                    'FonePad', // Tablet sized device with the capability to make phone calls
+                    'FonePad',       // Tablet sized device with the capability to make phone calls
                     'Desktop',
                     'Ebook Reader',
                     'Car Entertainment System',
