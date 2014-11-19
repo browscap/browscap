@@ -1088,7 +1088,6 @@
           "match": "Python-urllib\/2.7*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.7",
             "MajorVer": "2",
@@ -1099,7 +1098,6 @@
           "match": "Python-urllib\/1.17*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "1.17",
             "MajorVer": "1",
@@ -1110,7 +1108,6 @@
           "match": "Python-urllib\/*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation"
           }
         },
@@ -1118,7 +1115,6 @@
           "match": "python-requests\/2.3* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.3",
             "MajorVer": "2",
@@ -1132,7 +1128,6 @@
           "match": "python-requests\/2.3*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.3",
             "MajorVer": "2",
@@ -1143,7 +1138,6 @@
           "match": "python-requests\/2.2* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.2",
             "MajorVer": "2",
@@ -1157,7 +1151,6 @@
           "match": "python-requests\/2.2*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.2",
             "MajorVer": "2",
@@ -1168,7 +1161,6 @@
           "match": "python-requests\/2.1* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.1",
             "MajorVer": "2",
@@ -1182,7 +1174,6 @@
           "match": "python-requests\/2.1*",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.1",
             "MajorVer": "2",
@@ -1193,7 +1184,6 @@
           "match": "python-requests\/2.0* CPython\/#PLATFORM#",
           "properties": {
             "Browser": "Python-urllib",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1207,7 +1197,6 @@
           "match": "python-requests\/2.0*",
           "properties": {
             "Browser": "Python",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1218,7 +1207,6 @@
           "match": "python-requests\/*",
           "properties": {
             "Browser": "Python",
-            "Browser_Type": "Bot/Crawler",
             "Browser_Maker": "Python Software Foundation"
           }
         },
@@ -1226,6 +1214,12 @@
           "match": "Python*",
           "properties": {
             "Browser": "Python"
+          }
+        },
+        {
+          "match": "Smartsite HTTPClient*",
+          "properties": {
+            "Browser": "Smartsite HTTPClient"
           }
         }
       ]

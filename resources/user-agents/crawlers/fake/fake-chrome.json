@@ -26,6 +26,9 @@
         },
         {
           "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*"
         }
       ]
     }
