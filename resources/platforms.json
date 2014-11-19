@@ -622,7 +622,7 @@
     },
     "iOS_J": {
       "match": "iOS/*",
-      "inherits": "iOS_A"
+      "inherits": "iOS"
     },
     "iOS_J_5_1": {
       "match": "iOS/5.1*",
@@ -661,6 +661,17 @@
     },
     "iOS_J_8_0": {
       "match": "iOS/8.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
+    "iOS_K": {
+      "match": "*iPhone OS*",
+      "inherits": "iOS"
+    },
+    "iOS_K_8_0": {
+      "match": "*iPhone OS 8.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"

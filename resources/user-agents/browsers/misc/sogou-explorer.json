@@ -32,8 +32,6 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [

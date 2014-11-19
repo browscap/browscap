@@ -90,6 +90,17 @@
           "properties": {
             "Browser": "HiddenMarket"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Shrook\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Shrook",
+            "Browser_Maker": "Utsire Software"
+          },
+          "platforms": [
+            "OSX_10_10_A", "OSX"
+          ]
         }
       ]
     }

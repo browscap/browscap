@@ -119,7 +119,7 @@ return [
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'WordPress.org',
             'Version' => '4.0',
             'MajorVer' => '4',
             'MinorVer' => '0',
