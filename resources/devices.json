@@ -804,6 +804,66 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson MT15i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT15i",
+        "Device_Name": "Xperia Neo",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson MT15iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT15iv",
+        "Device_Name": "Xperia Neo",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson MT27i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT27i",
+        "Device_Name": "Xperia Sola",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson R800i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "R800i",
+        "Device_Name": "Xperia PLAY",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson R800iv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "R800iv",
+        "Device_Name": "Xperia PLAY",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -922,6 +982,54 @@
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "Coby MID1125": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MID1125",
+        "Device_Name": "Kyros MID1125",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Coby MID1126": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MID1126",
+        "Device_Name": "Kyros MID1126",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Coby MID7022": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MID7022",
+        "Device_Name": "Kyros MID7022",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Coby MID8127": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MID8127",
+        "Device_Name": "Kyros MID8127",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Samsung GT-C3310": {
@@ -1241,6 +1349,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9105P",
         "Device_Name": "Galaxy S II NFC",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9210": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9210",
+        "Device_Name": "Galaxy S II LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -2021,6 +2141,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB526",
         "Device_Name": "MB526",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT910": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT910",
+        "Device_Name": "RAZR XT910 Spider",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -2889,6 +3021,30 @@
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Medion LifeTab P4310": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab P4310",
+        "Device_Name": "LifeTab P4310",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Medion Life E3501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Life E3501",
+        "Device_Name": "Life E3501",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
@@ -3250,6 +3406,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Point of View Protab 3 XXL": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Protab 3 XXL",
+        "Device_Name": "Protab 3 XXL",
+        "Device_Maker": "Point of View",
+        "Device_Brand_Name": "Point of View",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "unknown STM7UC": {
@@ -3960,6 +4128,18 @@
         "isTablet": "false"
       }
     },
+    "Odys Loox": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Loox",
+        "Device_Name": "Loox",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ViewSonic ViewPad7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4114,6 +4294,30 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Keen High MT791": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT791",
+        "Device_Name": "MT791",
+        "Device_Maker": "Keen High",
+        "Device_Brand_Name": "Keen High",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Multipad PMP5080B": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PMP5080B",
+        "Device_Name": "PMP5080B",
+        "Device_Maker": "Multipad",
+        "Device_Brand_Name": "Multipad",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
