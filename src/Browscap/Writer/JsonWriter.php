@@ -367,7 +367,7 @@ class JsonWriter implements WriterInterface
             $propertiesToOutput[$property] = $section[$property];
             $lastProperty                  = $property;
         }
-        
+
         fputs(
                 $this->file,
                 $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
