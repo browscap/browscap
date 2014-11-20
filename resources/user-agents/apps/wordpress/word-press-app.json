@@ -6,6 +6,7 @@
     {
       "userAgent": "WordPress iPhone App",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WordPress iPhone App",
@@ -19,34 +20,18 @@
         {
           "match": "wp-iphone\/4.4 (#PLATFORM#, iPad) Mobile*",
           "properties": {
-            "Browser": "WordPress iPhone App",
             "Version": "4.4",
             "MajorVer": "4",
-            "MinorVer": "4",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "4"
           },
+          "device": "iPad",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
           "match": "wp-iphone\/* (#PLATFORM#, iPad) Mobile*",
-          "properties": {
-            "Browser": "WordPress iPhone App",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
@@ -54,7 +39,6 @@
         {
           "match": "wp-iphone\/4.4 (#PLATFORM#) Mobile*",
           "properties": {
-            "Browser": "WordPress iPhone App",
             "Version": "4.4",
             "MajorVer": "4",
             "MinorVer": "4"
@@ -65,9 +49,6 @@
         },
         {
           "match": "wp-iphone\/* (#PLATFORM#) Mobile*",
-          "properties": {
-            "Browser": "WordPress iPhone App"
-          },
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
