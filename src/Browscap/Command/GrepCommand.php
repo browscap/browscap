@@ -20,7 +20,6 @@ namespace Browscap\Command;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\GrepGenerator;
 use Browscap\Helper\CollectionCreator;
-use Browscap\Helper\Generator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
 use phpbrowscap\Browscap;
