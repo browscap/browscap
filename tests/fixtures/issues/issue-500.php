@@ -142,7 +142,7 @@ return [
         ],
     ],
     'issue-500-F' => [
-        '\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\x22',
+        '\\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\\x22',
         [
             'Browser' => 'Fake Browser',
             'Browser_Type' => 'Bot/Crawler',
