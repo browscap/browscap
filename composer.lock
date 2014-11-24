@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a622ef1282e9f04596b3d0bf3245e2b7",
+    "hash": "e500acea8624a1c94eabb25e69e5f5bf",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -173,11 +173,17 @@
     "packages-dev": [
         {
             "name": "browscap/browscap-php",
-            "version": "dev-refactoring",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mimmi20/browscap-php.git",
-                "reference": "a83d43d1a68241afb42eeef7c543ff86bf340768"
+                "url": "https://github.com/browscap/browscap-php.git",
+                "reference": "dd732ada41633513c80f1c223bfd772bd7235c2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/dd732ada41633513c80f1c223bfd772bd7235c2b",
+                "reference": "dd732ada41633513c80f1c223bfd772bd7235c2b",
+                "shasum": ""
             },
             "require": {
                 "mimmi20/file-loader": "2.0.*",
@@ -205,11 +211,7 @@
                     "phpbrowscap\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "phpbrowscapTest\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -219,12 +221,12 @@
                     "email": "jonathan.stoppani@gmail.com"
                 },
                 {
-                    "name": "James Titcumb",
-                    "email": "james@asgrim.com"
-                },
-                {
                     "name": "Thomas Mueller",
                     "email": "t_mueller_stolzenhain@yahoo.de"
+                },
+                {
+                    "name": "James Titcumb",
+                    "email": "james@asgrim.com"
                 }
             ],
             "description": "Standalone replacement for php's native get_browser() function",
@@ -235,11 +237,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "support": {
-                "issues": "https://github.com/browscap/browscap-php/issues",
-                "source": "https://github.com/browscap/browscap-php"
-            },
-            "time": "2014-10-13 20:33:37"
+            "time": "2014-11-22 12:22:18"
         },
         {
             "name": "doctrine/instantiator",
@@ -301,12 +299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "d8ec57b68719db77985266c620b86f09657f42f6"
+                "reference": "056b64e0341039eb83075ca53347f29d0bfdead0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d8ec57b68719db77985266c620b86f09657f42f6",
-                "reference": "d8ec57b68719db77985266c620b86f09657f42f6",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/056b64e0341039eb83075ca53347f29d0bfdead0",
+                "reference": "056b64e0341039eb83075ca53347f29d0bfdead0",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +330,7 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2014-10-25 20:40:10"
+            "time": "2014-11-24 09:52:29"
         },
         {
             "name": "mimmi20/file-loader",
@@ -384,16 +382,16 @@
         },
         {
             "name": "mimmi20/wurflcache",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/WurflCache.git",
-                "reference": "bcc6e200a94f416e8b63591b5f365c541ffb2ee4"
+                "reference": "2d7366cb36b1a85da63e862ef806b190538be590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/WurflCache/zipball/bcc6e200a94f416e8b63591b5f365c541ffb2ee4",
-                "reference": "bcc6e200a94f416e8b63591b5f365c541ffb2ee4",
+                "url": "https://api.github.com/repos/mimmi20/WurflCache/zipball/2d7366cb36b1a85da63e862ef806b190538be590",
+                "reference": "2d7366cb36b1a85da63e862ef806b190538be590",
                 "shasum": ""
             },
             "require": {
@@ -441,7 +439,7 @@
                 "Wurfl",
                 "cache"
             ],
-            "time": "2014-08-24 20:33:27"
+            "time": "2014-11-22 20:59:23"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -692,16 +690,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.3.4",
+            "version": "4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "23e4e0310f037aae873cc81b8658dbbb82878f71"
+                "reference": "2dab9d593997db4abcf58d0daf798eb4e9cecfe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/23e4e0310f037aae873cc81b8658dbbb82878f71",
-                "reference": "23e4e0310f037aae873cc81b8658dbbb82878f71",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2dab9d593997db4abcf58d0daf798eb4e9cecfe1",
+                "reference": "2dab9d593997db4abcf58d0daf798eb4e9cecfe1",
                 "shasum": ""
             },
             "require": {
@@ -762,7 +760,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-22 11:43:12"
+            "time": "2014-11-11 10:11:09"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1087,17 +1085,17 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.5.5",
+            "version": "v2.5.7",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "4e62fab0060a826561c78b665925b37c870c45f5"
+                "reference": "3c3e382bd869b3ec10008a3d9ef455b1cc2868db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/4e62fab0060a826561c78b665925b37c870c45f5",
-                "reference": "4e62fab0060a826561c78b665925b37c870c45f5",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/3c3e382bd869b3ec10008a3d9ef455b1cc2868db",
+                "reference": "3c3e382bd869b3ec10008a3d9ef455b1cc2868db",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1128,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2014-09-22 09:14:18"
+            "time": "2014-11-16 17:28:00"
         },
         {
             "name": "symfony/finder",
@@ -1181,17 +1179,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.6",
+            "version": "v2.5.7",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726"
+                "reference": "900d38bc8f74a50343ce65dd1c1e9819658ee56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
-                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/900d38bc8f74a50343ce65dd1c1e9819658ee56b",
+                "reference": "900d38bc8f74a50343ce65dd1c1e9819658ee56b",
                 "shasum": ""
             },
             "require": {
@@ -1224,12 +1222,10 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-01 05:50:18"
+            "time": "2014-11-20 13:22:25"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "browscap/browscap-php": 20,
@@ -1239,7 +1235,5 @@
     "platform": {
         "php": ">= 5.4.0"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

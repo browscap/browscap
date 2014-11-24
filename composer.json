@@ -30,12 +30,6 @@
         "issues": "https://github.com/browscap/browscap/issues",
         "source": "https://github.com/browscap/browscap"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url":  "https://github.com/mimmi20/browscap-php.git"
-        }
-    ],
     "require": {
         "php": ">= 5.4.0",
         "symfony/console": "2.4.*",
@@ -43,7 +37,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "browscap/browscap-php": "dev-refactoring@dev",
+        "browscap/browscap-php": "3.x@dev",
         "mikey179/vfsStream": "dev-master"
     },
     "autoload": {
