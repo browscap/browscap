@@ -36,14 +36,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
+          "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -51,14 +44,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
+          "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -66,14 +52,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
+          "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -81,14 +60,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
+          "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -96,14 +68,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-I9300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
-          },
+          "device": "Samsung GT-I9300",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -169,14 +134,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
+          "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C"

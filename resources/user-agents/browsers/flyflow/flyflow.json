@@ -35,14 +35,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "GT-I9300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-I9300",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
