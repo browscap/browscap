@@ -2074,7 +2074,7 @@ return [
         ],
     ],
     'issue-513-BW' => [
-        'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)',
+        'UCWEB/2.0 (MIDP-2.0; U; zh-CN; GT-P3100) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
         [
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
