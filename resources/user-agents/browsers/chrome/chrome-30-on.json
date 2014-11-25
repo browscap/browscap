@@ -228,70 +228,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One S Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PJ401",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One S"
-          },
+          "device": "HTC PJ401",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#One S Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PJ401",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One S"
-          },
+          "device": "HTC PJ401",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One SV Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "One SV",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One SV"
-          },
+          "device": "HTC One SV",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One V Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "One V",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One V"
-          },
+          "device": "HTC One V",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PJ83100",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One X"
-          },
+          "device": "HTC PJ83100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -326,28 +291,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P700 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P700",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L7"
-          },
+          "device": "LG P700",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P880 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P880",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 4X HD"
-          },
+          "device": "LG P880",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
@@ -361,15 +312,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S9512 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "LifeTab S9512",
-            "Device_Maker": "Medion",
-            "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab S9512"
-          },
+          "device": "Medion LifeTab S9512",
           "platforms": [
             "Android_4_0"
           ]
@@ -397,14 +340,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT30p Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LT30p",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia T"
-          },
+          "device": "Sony LT30p",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -709,14 +645,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I605 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH-I605",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
-          },
+          "device": "Samsung SCH-I605",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -807,29 +736,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI G510-* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G510",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G510"
-          },
+          "device": "Huawei G510",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaTabA2109A Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "A2109A",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab A2109A"
-          },
+          "device": "Lenovo A2109A",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -843,28 +757,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E610 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E610",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L5"
-          },
+          "device": "LG E610",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P760 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P760",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L9"
-          },
+          "device": "LG P760",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -893,15 +793,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGPT12 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "SGPT12",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet S"
-          },
+          "device": "Sony SGPT12",
           "platforms": [
             "Android_4_0"
           ]
@@ -964,15 +856,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 7 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "Nexus 7",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus 7"
-          },
+          "device": "Asus Nexus 7",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -1036,29 +920,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT25i Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LT25i",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia V"
-          },
+          "device": "SonyEricsson LT25i",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGPT13 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "SGPT13",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet S"
-          },
+          "device": "Sony SGPT13",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1072,14 +941,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One X+ Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PM63100",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One X+"
-          },
+          "device": "HTC PM63100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1130,57 +992,28 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC6435LVW Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HTC6435LVW",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Droid DNA"
-          },
+          "device": "HTC HTC6435LVW",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaTabS2110AF Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "S2110AF",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab S2110AF"
-          },
+          "device": "Lenovo S2110AF",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E975* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E975",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "E975"
-          },
+          "device": "LG E975",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P895* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "P895",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Vu"
-          },
+          "device": "LG P895",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1201,44 +1034,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT28h Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LT28h",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Ion"
-          },
+          "device": "SonyEricsson LT28h",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME302C",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "MeMO Pad FHD 10"
-          },
+          "device": "Lenovo ME302C",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME371MG",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Fonepad ME371MG"
-          },
+          "device": "Lenovo ME371MG",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1273,14 +1083,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ST21i Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ST21i",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tipo"
-          },
+          "device": "Sony ST21i",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1978,15 +1781,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC?One_M8 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M8",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One"
-          },
+          "device": "HTC M8",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]

@@ -1116,11 +1116,95 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson LT25i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LT25i",
+        "Device_Name": "Xperia V",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson LT28h": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LT28h",
+        "Device_Name": "Xperia Ion",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6603": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C6603",
         "Device_Name": "Xperia Z",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony LT30p": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LT30p",
+        "Device_Name": "Xperia T",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony SGPT12": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGPT12",
+        "Device_Name": "Xperia Tablet S",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Sony SGPT13": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGPT13",
+        "Device_Name": "Xperia Tablet S",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Sony ST21i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST21i",
+        "Device_Name": "Xperia Tipo",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony ST21i2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST21i2",
+        "Device_Name": "Xperia Tipo Dual",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
@@ -2376,11 +2460,47 @@
         "isTablet": "false"
       }
     },
+    "Samsung SGH-I777": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGH-I777",
+        "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SCH-I500": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I500",
         "Device_Name": "SCH-I500",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-I200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-I200",
+        "Device_Name": "Galaxy Stellar 4G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-I605": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-I605",
+        "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -2427,8 +2547,20 @@
     "Samsung SHW-M110S": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SHW M110S",
-        "Device_Name": "SHW M110S",
+        "Device_Code_Name": "SHW-M110S",
+        "Device_Name": "SHW-M110S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SHW-M380W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SHW-M380W",
+        "Device_Name": "SHW-M380W",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -2451,8 +2583,32 @@
     "Samsung SPH-M910": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SPH M910",
-        "Device_Name": "SPH M910",
+        "Device_Code_Name": "SPH-M910",
+        "Device_Name": "SPH-M910",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SPH-D710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPH-D710",
+        "Device_Name": "Galaxy S II Epic 4G Touch",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SPH-D710BST": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPH-D710BST",
+        "Device_Name": "Galaxy S II Epic 4G Touch",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -2731,6 +2887,18 @@
         "Device_Name": "Transformer Pad TF700T",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Asus Nexus 7": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Nexus 7",
+        "Device_Name": "Nexus 7",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Google",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -3065,6 +3233,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Droid X2",
         "Device_Name": "Droid X2",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Droid Bionic 4G LTE": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Droid Bionic 4G LTE",
+        "Device_Name": "Droid Bionic 4G LTE",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -3600,6 +3780,126 @@
         "isTablet": "false"
       }
     },
+    "HTC PJ401": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PJ401",
+        "Device_Name": "One S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC ADR6350": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ADR6350",
+        "Device_Name": "Droid Incredible 2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC One V": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One V",
+        "Device_Name": "One V",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC PJ83100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PJ83100",
+        "Device_Name": "One X",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC PM63100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PM63100",
+        "Device_Name": "One X+",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HTC6435LVW": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HTC6435LVW",
+        "Device_Name": "Droid DNA",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC One SV": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One SV",
+        "Device_Name": "One SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC One XL": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One XL",
+        "Device_Name": "One XL",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC One Mini": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One Mini",
+        "Device_Name": "One Mini",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC M8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M8",
+        "Device_Name": "One",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3845,6 +4145,114 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E460",
         "Device_Name": "Optimus L5 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VS840 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VS840 4G",
+        "Device_Name": "Lucid 4G VS840",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E610",
+        "Device_Name": "Optimus L5",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E975": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E975",
+        "Device_Name": "E975",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F100L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F100L",
+        "Device_Name": "Optimus Vu",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG LS860": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LS860",
+        "Device_Name": "LS860",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P700",
+        "Device_Name": "Optimus L7",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P760": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P760",
+        "Device_Name": "Optimus L9",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P880": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P880",
+        "Device_Name": "Optimus 4X HD",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P895": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P895",
+        "Device_Name": "Optimus Vu",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -4116,6 +4524,18 @@
         "isTablet": "true"
       }
     },
+    "Acer S500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S500",
+        "Device_Name": "S500",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mobistel Cynus T2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4205,6 +4625,30 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab P9516",
         "Device_Name": "LifeTab P9516",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Medion LifeTab S9512": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab S9512",
+        "Device_Name": "LifeTab S9512",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Medion LifeTab P4012": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "LifeTab P4012",
+        "Device_Name": "LifeTab P4012",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
@@ -4397,6 +4841,66 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 10",
         "Device_Name": "MediaPad 10 Link",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Huawei G510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G510",
+        "Device_Name": "Ascend G510",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei U8950D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U8950D",
+        "Device_Name": "Ascend G600",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei U9508": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U9508",
+        "Device_Name": "Honor 2",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei Y300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y300",
+        "Device_Name": "Ascend Y 300",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei MediaPad 7 Lite": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MediaPad 7 Lite",
+        "Device_Name": "MediaPad 7 Lite",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -5580,6 +6084,42 @@
         "isTablet": "false"
       }
     },
+    "Odys Loox Plus": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Loox Plus",
+        "Device_Name": "Loox Plus",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Odys Noon": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Noon",
+        "Device_Name": "Noon",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Odys Q": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Q",
+        "Device_Name": "Q",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ViewSonic ViewPad7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5707,6 +6247,114 @@
         "Device_Name": "ThinkPad Tablet",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A2107A-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A2107A-H",
+        "Device_Name": "IdeaTab A2107A-H",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A2109A": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A2109A",
+        "Device_Name": "IdeaTab A2109A",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S2110AF": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S2110AF",
+        "Device_Name": "IdeaTab S2110AF",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S6000-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S6000-H",
+        "Device_Name": "IdeaTab S6000-H",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S6000L-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S6000L-F",
+        "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3000-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3000-H",
+        "Device_Name": "IdeaTab A3000-H",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo IdeaPad A660": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "IdeaPad A660",
+        "Device_Name": "IdeaPad A660",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo ME302C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ME302C",
+        "Device_Name": "MeMO Pad FHD 10",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo ME371MG": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ME371MG",
+        "Device_Name": "Fonepad ME371MG",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -5866,6 +6514,42 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "YUANDAO N90FHDRK": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "N90FHDRK",
+        "Device_Name": "Vido N90FHD",
+        "Device_Maker": "YUANDAO",
+        "Device_Brand_Name": "YUANDAO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5080CPRO": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5080CPRO",
+        "Device_Name": "MultiPad 5080 Pro",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5580C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5580C",
+        "Device_Name": "MultiPad 8.0 Pro Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

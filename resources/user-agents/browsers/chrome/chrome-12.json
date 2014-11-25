@@ -109,28 +109,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One SV Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "One SV",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One SV"
-          },
+          "device": "HTC One SV",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One S Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PJ401",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One S"
-          },
+          "device": "HTC PJ401",
           "platforms": [
             "Android_4_1"
           ]
