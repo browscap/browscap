@@ -428,6 +428,12 @@
         },
         {
           "match": "\\x??Mozilla*"
+        },
+        {
+          "match": "(null)*"
+        },
+        {
+          "match": "()*"
         }
       ]
     }
