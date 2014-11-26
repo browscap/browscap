@@ -142,15 +142,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-N8013",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
+          "device": "Samsung GT-N8013",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -381,14 +373,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT890 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "XT890",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "RAZR i"
-          },
+          "device": "Motorola XT890",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -416,14 +401,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Galaxy Nexus",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Nexus"
-          },
+          "device": "Samsung Galaxy Nexus",
           "platforms": [
             "Android_4_1"
           ]

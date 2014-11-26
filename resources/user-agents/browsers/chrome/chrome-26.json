@@ -149,15 +149,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-N8013",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
+          "device": "Samsung GT-N8013",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -374,14 +366,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#XT890 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "XT890",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "RAZR i"
-          },
+          "device": "Motorola XT890",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -409,14 +394,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Galaxy Nexus",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Nexus"
-          },
+          "device": "Samsung Galaxy Nexus",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -471,14 +449,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Nexus 4",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus 4"
-          },
+          "device": "LG Nexus 4",
           "platforms": [
             "Android_4_2"
           ]
@@ -703,14 +674,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ST23i Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ST23i",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia miro"
-          },
+          "device": "Sony ST23i",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -738,14 +702,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U9200 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "U9200",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend P1"
-          },
+          "device": "Huawei U9200",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -766,29 +723,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGP321 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "SGP321",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet Z LTE"
-          },
+          "device": "Sony SGP321",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Nexus 4",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus 4"
-          },
+          "device": "LG Nexus 4",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
@@ -809,14 +751,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#C6503 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C6503",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Z"
-          },
+          "device": "SonyEricsson C6503",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
