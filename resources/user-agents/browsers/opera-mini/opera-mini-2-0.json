@@ -32,10 +32,7 @@
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/2.*)*",
-          "properties": {
-            "Device_Name": "Blackberry",
-            "Device_Maker": "Research In Motion Limited"
-          },
+          "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]

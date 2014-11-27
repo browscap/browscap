@@ -7,6 +7,7 @@
       "userAgent": "Playbook Simulator",
       "platform": "RIM_Tablet_OS_2_0",
       "engine": "WebKit",
+      "device": "Blackberry PlayBook",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Research In Motion Limited",
@@ -15,20 +16,12 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Comment": "Playbook Simulator",
         "Browser": "Playbook",
         "Version": "2.0",
         "MajorVer": "2",
         "MinorVer": "0",
-        "CssVersion": "3",
-        "Device_Name": "Playbook",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Tablet",
-        "isTablet": "true",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {

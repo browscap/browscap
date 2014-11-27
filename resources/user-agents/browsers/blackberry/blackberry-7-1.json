@@ -6,6 +6,7 @@
       "userAgent": "BlackBerry 7.1",
       "platform": "RIMOS_7_1",
       "engine": "WebKit",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 7.1",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "7.1",
         "MajorVer": "7",
         "MinorVer": "1"

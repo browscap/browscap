@@ -7,6 +7,7 @@
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
       "platform": "RIMOS_10_X",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
@@ -17,15 +18,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
-        "Device_Pointing_Method": "touchscreen",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"

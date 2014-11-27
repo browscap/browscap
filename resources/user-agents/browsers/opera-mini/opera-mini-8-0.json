@@ -40,10 +40,7 @@
         },
         {
           "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Device_Name": "Blackberry",
-            "Device_Maker": "Research In Motion Limited"
-          },
+          "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
