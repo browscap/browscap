@@ -24,17 +24,11 @@
       "children": [
         {
           "match": "BlackBerry8110\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8110",
-            "Device_Name": "BlackBerry 8110"
-          }
+          "device": "Blackberry 8110"
         },
         {
           "match": "BlackBerry8120\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8120",
-            "Device_Name": "BlackBerry 8120"
-          }
+          "device": "Blackberry 8120"
         },
         {
           "match": "BlackBerry8130\/4.3*",

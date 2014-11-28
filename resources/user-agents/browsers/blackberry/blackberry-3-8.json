@@ -24,27 +24,18 @@
       "children": [
         {
           "match": "BlackBerry7100\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7100",
-            "Device_Name": "BlackBerry 7100"
-          }
+          "device": "Blackberry 7100"
         },
         {
           "match": "BlackBerry7290\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7290",
-            "Device_Name": "BlackBerry 7290"
-          }
+          "device": "Blackberry 7290"
         },
         {
           "match": "BlackBerrySiemens SK65\/3.8*"
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7290",
-            "Device_Name": "BlackBerry 7290"
-          },
+          "device": "Blackberry 7290",
           "platforms": [
             "Win2000"
           ]
