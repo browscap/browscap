@@ -1,0 +1,61 @@
+{
+  "division": "Coursera Mobile App",
+  "sortIndex": 2280,
+  "userAgents": [
+    {
+      "userAgent": "Coursera Mobile App",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Coursera Mobile App",
+        "Browser": "Coursera Mobile App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Coursera Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+      },
+      "children": [
+        {
+          "match": "Coursera-Mobile?1.3*",
+          "properties": {
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Coursera-Mobile?1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Coursera-Mobile*"
+        }
+      ]
+    }
+  ]
+}

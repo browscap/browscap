@@ -3149,6 +3149,24 @@
           "properties": {
             "Browser": "Arachnida Web Crawler"
           }
+        },
+        {
+          "match": "bandscraper*",
+          "properties": {
+            "Browser": "bandscraper"
+          }
+        },
+        {
+          "match": "bot*",
+          "properties": {
+            "Browser": "bot"
+          }
+        },
+        {
+          "match": "cars-app-browser*",
+          "properties": {
+            "Browser": "cars-app-browser"
+          }
         }
       ]
     }
