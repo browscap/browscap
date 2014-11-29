@@ -6,6 +6,7 @@
     {
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
       "platform": "Android_Dynamic",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
@@ -35,7 +36,7 @@
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
-          "device": "Asus TF201",
+          "device": "Asus TF201"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
