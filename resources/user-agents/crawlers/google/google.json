@@ -17,12 +17,6 @@
       },
       "children": [
         {
-          "match": "Mediapartners-Google*",
-          "properties": {
-            "Browser": "AdSense Bot"
-          }
-        },
-        {
           "match": "GoogleFriendConnect*"
         },
         {

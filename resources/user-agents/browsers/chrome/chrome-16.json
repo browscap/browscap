@@ -777,7 +777,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",

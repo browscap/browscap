@@ -1683,7 +1683,7 @@
           }
         },
         {
-          "match": "A6-Indexer\/*",
+          "match": "A6-Indexer*",
           "properties": {
             "Browser": "A6-Indexer",
             "Browser_Maker": "A6 Corp"
@@ -3135,6 +3135,19 @@
           "properties": {
             "Browser": "Crawler",
             "Browser_Maker": "linkfluence.net"
+          }
+        },
+        {
+          "match": "Amazon CloudFront*",
+          "properties": {
+            "Browser": "Amazon CloudFront",
+            "Browser_Maker": "Amazon.com, Inc."
+          }
+        },
+        {
+          "match": "Arachnida Web Crawler*",
+          "properties": {
+            "Browser": "Arachnida Web Crawler"
           }
         }
       ]

@@ -590,7 +590,8 @@
         {
           "match": "OpenISearch\/1.*",
           "properties": {
-            "Browser": "OpenISearch (Amazon)"
+            "Browser": "OpenISearch (Amazon)",
+            "Browser_Maker": "Amazon.com, Inc."
           }
         },
         {

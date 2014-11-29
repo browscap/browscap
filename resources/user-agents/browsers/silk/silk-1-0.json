@@ -13,7 +13,7 @@
         "Comment": "Silk #MAJORVER#.#MINORVER#",
         "Browser": "Silk",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Amazon",
+        "Browser_Maker": "Amazon.com, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -24,7 +24,7 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
+        "Device_Maker": "Amazon.com, Inc.",
         "Device_Type": "Ebook Reader",
         "Device_Pointing_Method": "touchscreen"
       },
