@@ -68,10 +68,9 @@
         {
           "match": "W3C-mobileOK\/DDC-*",
           "properties": {
-            "Browser": "W3C-mobileOK\/DDC",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device"
-          }
+            "Browser": "W3C-mobileOK\/DDC"
+          },
+          "device": "general Mobile Device"
         },
         {
           "match": "W3C-WebCon\/*",
