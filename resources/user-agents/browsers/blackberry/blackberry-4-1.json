@@ -53,6 +53,7 @@
         {
           "match": "BlackBerry8700\/4.1*",
           "device": "Blackberry 8700"
+        },
         {
           "match": "BlackBerry8700c\/4.1*",
           "device": "Blackberry 8700c"
