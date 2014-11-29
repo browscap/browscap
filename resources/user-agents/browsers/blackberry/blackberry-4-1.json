@@ -35,7 +35,7 @@
           "device": "Blackberry 7130"
         },
         {
-          "match": "BlackBerry7130e\/4.1* VendorID\/10?",
+          "match": "BlackBerry7130e\/4.1*",
           "device": "Blackberry 7130e"
         },
         {

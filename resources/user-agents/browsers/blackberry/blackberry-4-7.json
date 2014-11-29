@@ -24,24 +24,15 @@
       "children": [
         {
           "match": "BlackBerry9500\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9500",
-            "Device_Name": "Storm"
-          }
+          "device": "Blackberry 9500"
         },
         {
           "match": "BlackBerry9530\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8520",
-            "Device_Name": "Curve"
-          }
+          "device": "Blackberry 8520"
         },
         {
           "match": "BlackBerry9630\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9630",
-            "Device_Name": "BlackBerry 9630"
-          }
+          "device": "Blackberry 9630"
         }
       ]
     }

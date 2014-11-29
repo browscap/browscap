@@ -7629,7 +7629,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 5810": {
@@ -7641,7 +7641,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 5820": {
@@ -7653,7 +7653,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 6220": {
@@ -7665,7 +7665,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 6720": {
@@ -7677,7 +7677,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7210": {
@@ -7689,7 +7689,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7230": {
@@ -7701,7 +7701,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7280": {
@@ -7713,7 +7713,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7730": {
@@ -7725,7 +7725,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7100": {
@@ -7737,7 +7737,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7290": {
@@ -7749,7 +7749,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 5790": {
@@ -7761,7 +7761,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7250": {
@@ -7773,7 +7773,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7520": {
@@ -7785,7 +7785,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7100i": {
@@ -7797,7 +7797,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7130": {
@@ -7809,7 +7809,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 7130e": {
@@ -7821,7 +7821,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8700": {
@@ -7833,7 +7833,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8700c": {
@@ -7845,7 +7845,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8703e": {
@@ -7857,7 +7857,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8707": {
@@ -7869,7 +7869,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8100": {
@@ -7881,7 +7881,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8300": {
@@ -7893,7 +7893,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8310": {
@@ -7917,7 +7917,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8800": {
@@ -7929,7 +7929,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8820": {
@@ -7941,7 +7941,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8830": {
@@ -7953,7 +7953,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8110": {
@@ -7965,7 +7965,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8120": {
@@ -7977,7 +7977,415 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8130": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8130",
+        "Device_Code_Name": "BlackBerry 8130",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8330": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8330",
+        "Device_Code_Name": "BlackBerry 8330",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8330m": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8330m",
+        "Device_Code_Name": "BlackBerry 8330m",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8220",
+        "Device_Code_Name": "BlackBerry 8220",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8230",
+        "Device_Code_Name": "BlackBerry 8230",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8230f": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8230f",
+        "Device_Code_Name": "BlackBerry 8230f",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8350i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8350i",
+        "Device_Code_Name": "BlackBerry 8350i",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Curve",
+        "Device_Code_Name": "BlackBerry 8520",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8900",
+        "Device_Code_Name": "BlackBerry 8900",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Bold",
+        "Device_Code_Name": "BlackBerry 9000",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Storm",
+        "Device_Code_Name": "BlackBerry 9500",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9630": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9630",
+        "Device_Code_Name": "BlackBerry 9630",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8530": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8530",
+        "Device_Code_Name": "BlackBerry 8530",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 8980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 8980",
+        "Device_Code_Name": "BlackBerry 8980",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9100",
+        "Device_Code_Name": "BlackBerry 9100",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9105": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9105",
+        "Device_Code_Name": "BlackBerry 9105",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Curve 3G",
+        "Device_Code_Name": "BlackBerry 9300",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9520",
+        "Device_Code_Name": "BlackBerry 9520",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9530": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9530",
+        "Device_Code_Name": "BlackBerry 9530",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9550",
+        "Device_Code_Name": "BlackBerry 9550",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9650",
+        "Device_Code_Name": "BlackBerry 9650",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Bold",
+        "Device_Code_Name": "BlackBerry 9700",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Torch",
+        "Device_Code_Name": "BlackBerry 9800",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9670": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9670",
+        "Device_Code_Name": "BlackBerry 9670",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9780": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9780",
+        "Device_Code_Name": "BlackBerry 9780",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9330": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9330",
+        "Device_Code_Name": "BlackBerry 9330",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9860": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Monza",
+        "Device_Code_Name": "BlackBerry Torch 9860",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Torch 4G",
+        "Device_Code_Name": "BlackBerry 9810",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9360": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Curve",
+        "Device_Code_Name": "BlackBerry 9360",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Dakota",
+        "Device_Code_Name": "BlackBerry Bold Touch 9900",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9930": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9930",
+        "Device_Code_Name": "BlackBerry 9930",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9790": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9790",
+        "Device_Code_Name": "BlackBerry 9790",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9380": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Blackberry 9380 Curve",
+        "Device_Code_Name": "BlackBerry 9380",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Curve 9320",
+        "Device_Code_Name": "BlackBerry 9320",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "clickwheel",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

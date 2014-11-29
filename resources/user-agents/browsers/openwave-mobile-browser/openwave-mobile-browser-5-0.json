@@ -281,39 +281,21 @@
         },
         {
           "match": "BlackBerry8130\/4.* UP.Browser\/5.0*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blackberry 8130",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Brand_Name": "RIM",
-            "Device_Name": "Blackberry 8130"
-          },
+          "device": "Blackberry 8130",
           "platforms": [
             "RIMOS_4_0"
           ]
         },
         {
           "match": "BlackBerry8330\/4.* UP.Browser\/5.0*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blackberry 8330",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Brand_Name": "RIM",
-            "Device_Name": "Blackberry 8330"
-          },
+          "device": "Blackberry 8330",
           "platforms": [
             "RIMOS_4_0"
           ]
         },
         {
           "match": "BlackBerry8330\/4.5* VendorID\/126 UP.Browser\/5.0*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Blackberry 8330",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Brand_Name": "RIM",
-            "Device_Name": "Blackberry 8330"
-          },
+          "device": "Blackberry 8330",
           "platforms": [
             "RIMOS_4_5"
           ]

@@ -25,181 +25,103 @@
       "children": [
         {
           "match": "Blackberry9800\/7.1*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
-          }
+          "device": "Blackberry 9800"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9105",
-            "Device_Name": "BlackBerry 9105"
-          }
+          "device": "Blackberry 9105"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9300",
-            "Device_Name": "BlackBerry 9300"
-          }
+          "device": "Blackberry 9300"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9650",
-            "Device_Name": "BlackBerry 9650"
-          }
+          "device": "Blackberry 9650"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9670",
-            "Device_Name": "BlackBerry 9670"
-          }
+          "device": "Blackberry 9670"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold",
-            "Device_Pointing_Method": "clickwheel"
-          }
+          "device": "Blackberry 9700"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9780",
-            "Device_Name": "BlackBerry 9780"
-          }
+          "device": "Blackberry 9780"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9790",
-            "Device_Name": "BlackBerry 9790"
-          }
+          "device": "Blackberry 9790"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
-          }
+          "device": "Blackberry 9800"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9810",
-            "Device_Name": "Torch 4G"
-          }
+          "device": "Blackberry 9810"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9360; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9360",
-            "Device_Name": "Curve"
-          }
+          "device": "Blackberry 9360"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9380; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9380",
-            "Device_Name": "Blackberry 9380 Curve"
-          }
+          "device": "Blackberry 9380"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9860; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry Torch 9860",
-            "Device_Name": "Monza"
-          }
+          "device": "Blackberry 9860"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9900; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry Bold Touch 9900",
-            "Device_Name": "Dakota",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Blackberry 9900"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9930; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9930",
-            "Device_Name": "BlackBerry 9930"
-          }
+          "device": "Blackberry 9930"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9105",
-            "Device_Name": "BlackBerry 9105"
-          }
+          "device": "Blackberry 9105"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9300",
-            "Device_Name": "BlackBerry 9300"
-          }
+          "device": "Blackberry 9300"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9650",
-            "Device_Name": "BlackBerry 9650"
-          }
+          "device": "Blackberry 9650"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9670",
-            "Device_Name": "BlackBerry 9670"
-          }
+          "device": "Blackberry 9670"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold",
-            "Device_Pointing_Method": "clickwheel"
-          }
+          "device": "Blackberry 9700"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9780",
-            "Device_Name": "BlackBerry 9780"
-          }
+          "device": "Blackberry 9780"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9790",
-            "Device_Name": "BlackBerry 9790"
-          }
+          "device": "Blackberry 9790"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
-          }
+          "device": "Blackberry 9800"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9810",
-            "Device_Name": "Torch 4G"
-          }
+          "device": "Blackberry 9810"
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9320*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9320",
-            "Device_Name": "Curve 9320"
-          }
+          "device": "Blackberry 9320"
         }
       ]
     }

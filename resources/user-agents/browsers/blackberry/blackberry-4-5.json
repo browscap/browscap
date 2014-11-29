@@ -36,10 +36,7 @@
         },
         {
           "match": "BlackBerry8130\/4.5*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8130",
-            "Device_Name": "BlackBerry 8130"
-          }
+          "device": "Blackberry 8130"
         },
         {
           "match": "BlackBerry8300\/4.5*",
@@ -55,17 +52,11 @@
         },
         {
           "match": "BlackBerry8330\/4.5*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8330",
-            "Device_Name": "BlackBerry 8330"
-          }
+          "device": "Blackberry 8330"
         },
         {
           "match": "BlackBerry8330m\/4.5*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8330m",
-            "Device_Name": "BlackBerry 8330m"
-          }
+          "device": "Blackberry 8330m"
         },
         {
           "match": "BlackBerry8700\/4.5*",
