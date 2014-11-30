@@ -1221,6 +1221,19 @@
           "properties": {
             "Browser": "Smartsite HTTPClient"
           }
+        },
+        {
+          "match": "RPT-HTTPClient\/*",
+          "properties": {
+            "Browser": "RPT-HTTPClient"
+          }
+        },
+        {
+          "match": "EventMachine HttpClient*",
+          "properties": {
+            "Browser": "EventMachine HttpClient",
+            "Browser_Maker": "Ilya Grigorik"
+          }
         }
       ]
     }

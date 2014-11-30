@@ -3167,6 +3167,13 @@
           "properties": {
             "Browser": "cars-app-browser"
           }
+        },
+        {
+          "match": "HggH PhantomJS Screenshoter*",
+          "properties": {
+            "Browser": "HggH Screenshot System with PhantomJS",
+            "Browser_Maker": "Jonas Genannt (HggH)"
+          }
         }
       ]
     }

@@ -1,14 +1,14 @@
 {
-  "division": "Apache Bench",
-  "sortIndex": 60,
+  "division": "Goldfire Server",
+  "sortIndex": 61,
   "userAgents": [
     {
-      "userAgent": "Apache Bench",
+      "userAgent": "Goldfire Server",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apache Bench",
-        "Browser": "Apache Bench",
-        "Browser_Maker": "Apache Foundation",
+        "Comment": "Goldfire Server",
+        "Browser": "Goldfire Server",
+        "Browser_Maker": "Invention Machine Corporation",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "ApacheBench\/*"
+          "match": "Goldfire Server*"
         }
       ]
     }

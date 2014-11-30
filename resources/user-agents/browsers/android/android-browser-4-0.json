@@ -8398,6 +8398,18 @@
           ]
         },
         {
+          "match": "HTC_ChaCha_A810e\/Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "A810e",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "ChaCha"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

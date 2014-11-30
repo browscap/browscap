@@ -321,12 +321,6 @@
           }
         },
         {
-          "match": "RPT-HTTPClient\/*",
-          "properties": {
-            "Browser": "RPT-HTTPClient"
-          }
-        },
-        {
           "match": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
           "properties": {
             "Browser": "SafariBookmarkChecker",

@@ -299,6 +299,30 @@
           ]
         },
         {
+          "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 AppleWebKit\/*",
+          "properties": {
+            "Device_Code_Name": "7088",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire 7088"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "HTC802t_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 AppleWebKit\/*",
+          "properties": {
+            "Device_Code_Name": "802T",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "One 802T"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
