@@ -3207,7 +3207,7 @@
           }
         },
         {
-          "match": "Jeode\/*",
+          "match": "Jeode\/1.*",
           "properties": {
             "Browser": "Jeode",
             "Version": "1.0",
@@ -3216,9 +3216,78 @@
           }
         },
         {
-          "match": "Jeode\/1.*",
+          "match": "Jeode\/*",
           "properties": {
             "Browser": "Jeode"
+          }
+        },
+        {
+          "match": "kraken\/0.6*",
+          "properties": {
+            "Browser": "krakenjs",
+            "Browser_Maker": "Paypal",
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "kraken\/*",
+          "properties": {
+            "Browser": "krakenjs",
+            "Browser_Maker": "Paypal"
+          }
+        },
+        {
+          "match": "LivelapBot\/0.2*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "LivelapBot\/0.1*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LivelapBot\/*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal"
+          }
+        },
+        {
+          "match": "Locubot*",
+          "properties": {
+            "Browser": "Locubot"
+          }
+        },
+        {
+          "match": "MailChimp.com*",
+          "properties": {
+            "Browser": "MailChimp.com",
+            "Browser_Maker": "The Rocket Science Group"
+          }
+        },
+        {
+          "match": "MixBot*",
+          "properties": {
+            "Browser": "MixBot"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; focuseekbot*",
+          "properties": {
+            "Browser": "focuseekbot"
           }
         }
       ]
