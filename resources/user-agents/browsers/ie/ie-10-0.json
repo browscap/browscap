@@ -37,7 +37,8 @@
         {
           "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -50,7 +51,8 @@
             "Browser_Modus": "IE 9.0 Compatibility Mode"
           },
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -63,7 +65,8 @@
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -76,7 +79,8 @@
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -89,7 +93,8 @@
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -102,7 +107,8 @@
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
-            "Vista_32",
+            "WinXPa_64", "WinXPa_32",
+            "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
