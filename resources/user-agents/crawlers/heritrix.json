@@ -38,7 +38,7 @@
           "match": "Mozilla/5.0 (compatible; bnf.fr_bot;*",
           "properties": {
             "Browser": "bnf.fr_bot",
-            "Browser_Maker": "Bibliotheque nationale de Franc"
+            "Browser_Maker": "Bibliotheque nationale de France"
           }
         }
       ]

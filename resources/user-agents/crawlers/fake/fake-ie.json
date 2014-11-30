@@ -569,6 +569,15 @@
         },
         {
           "match": "Mozilla\/5.0  (compatible; MSIE*"
+        },
+        {
+          "match": "*Trident/BD6*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 11*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; rv:33.0; ; Trident\/5.0)*"
         }
       ]
     }

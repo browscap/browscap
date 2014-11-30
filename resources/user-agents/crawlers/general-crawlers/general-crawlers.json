@@ -499,12 +499,18 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0; +http:\/\/tweetedtimes.com)",
+          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0*",
           "properties": {
             "Browser": "TweetedTimes Bot",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/*",
+          "properties": {
+            "Browser": "TweetedTimes Bot"
           }
         },
         {
@@ -3333,6 +3339,30 @@
           "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/*",
           "properties": {
             "Browser": "MerchantCentricBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MarketwireBot*",
+          "properties": {
+            "Browser": "MarketwireBot",
+            "Browser_Maker": "Marketwire L.P."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Nett.io bot\/1.0*",
+          "properties": {
+            "Browser": "Nett.io bot",
+            "Browser_Maker": "nett.io",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Nett.io bot\/*",
+          "properties": {
+            "Browser": "Nett.io bot",
+            "Browser_Maker": "nett.io"
           }
         }
       ]
