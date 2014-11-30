@@ -3174,6 +3174,52 @@
             "Browser": "HggH Screenshot System with PhantomJS",
             "Browser_Maker": "Jonas Genannt (HggH)"
           }
+        },
+        {
+          "match": "IC OpenGraph Crawler*",
+          "properties": {
+            "Browser": "IBM Connections",
+            "Browser_Maker": "IBM"
+          }
+        },
+        {
+          "match": "ICC-Crawler\/2.0*",
+          "properties": {
+            "Browser": "ICC-Crawler",
+            "Browser_Maker": "National Institute of Information and Communications Technology, Japan",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ICC-Crawler\/*",
+          "properties": {
+            "Browser": "ICC-Crawler",
+            "Browser_Maker": "National Institute of Information and Communications Technology, Japan"
+          }
+        },
+        {
+          "match": "InAGist URL Resolver*",
+          "properties": {
+            "Browser": "InAGist URL Resolver",
+            "Browser_Maker": "iyotta software private limited, india"
+          }
+        },
+        {
+          "match": "Jeode\/*",
+          "properties": {
+            "Browser": "Jeode",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Jeode\/1.*",
+          "properties": {
+            "Browser": "Jeode"
+          }
         }
       ]
     }

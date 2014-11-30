@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "ElmediaPlayer Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "ElmediaPlayer Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
           "engine": "WebKit",
           "properties": {
             "Browser": "Elmedia Player",

@@ -299,7 +299,7 @@
           ]
         },
         {
-          "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 AppleWebKit\/*",
+          "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
           "properties": {
             "Device_Code_Name": "7088",
             "Device_Maker": "HTC",
@@ -311,7 +311,7 @@
           ]
         },
         {
-          "match": "HTC802t_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 AppleWebKit\/*",
+          "match": "HTC802t_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
           "properties": {
             "Device_Code_Name": "802T",
             "Device_Maker": "HTC",
