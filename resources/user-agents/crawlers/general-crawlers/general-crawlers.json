@@ -3319,6 +3319,21 @@
             "Browser": "kulturarw3",
             "Browser_Maker": "National Library of Sweden"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/1.0*",
+          "properties": {
+            "Browser": "MerchantCentricBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/*",
+          "properties": {
+            "Browser": "MerchantCentricBot"
+          }
         }
       ]
     }
