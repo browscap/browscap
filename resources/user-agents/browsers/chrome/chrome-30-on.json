@@ -470,10 +470,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Name": "Nexus 4",
-            "Device_Maker": "LG"
-          },
+          "device": "LG Nexus 4",
           "platforms": [
             "Android_4_2"
           ]
@@ -1068,7 +1065,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MediaPad 10 LINK Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "dvice": "Huawei MediaPad 10",
+          "device": "Huawei MediaPad 10",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1222,7 +1219,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900A* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
-          "Samsung SM-G900A"
+          "device": "Samsung SM-G900A",
           "platforms": [
             "Android_4_4"
           ]
