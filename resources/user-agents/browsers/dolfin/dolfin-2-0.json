@@ -18,7 +18,6 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Win32": "false",
-        "Device_Maker": "Samsung",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -28,165 +27,42 @@
       },
       "children": [
         {
-          "match": "SAMSUNG-GT-C6712* Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
-          "properties": {
-            "Device_Name": "GT-C6712",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-C6712",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "SAMSUNG-GT-C6712* Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "GT-C6712",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-C6712",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          }
+          "device": "Samsung GT-C6712"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5250"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5250"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "device": "Samsung GT-S5250"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5330#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5330",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5330"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E-VODAFONE#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S7230E",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S7230E"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "device": "Samsung GT-S5330"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S7230E#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S7230E",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S7230E"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500-VODAFONE#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "device": "Samsung GT-S7230E"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "device": "Samsung GT-S8500"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500L#PLATFORM# (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500L",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8500L"
-          },
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "device": "Samsung GT-S8500L"
         },
         {
           "match": "SAMSUNG-GT-B2710\/* SHP\/VPP\/R5 Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-B2710",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-B2710"
-          }
+          "device": "Samsung GT-B2710"
         },
         {
           "match": "SAMSUNG-GT-S5260\/* Dolfin\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5260",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Star II"
-          }
+          "device": "Samsung GT-S5260"
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Bada_1_0"
-          ]
+          "match": "*Dolphin\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S*)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.#MINORVER#*MIDP*",
-          "properties": {
-            "Device_Maker": "Samsung"
-          },
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Samsung-* Dolphin\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Samsung-* Dolfin\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SAMSUNG-* Dolfin\/#MAJORVER#.#MINORVER#*"
+          "match": "*Dolfin\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

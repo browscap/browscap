@@ -153,39 +153,19 @@
         },
         {
           "match": "SAMSUNG-GT-B7610\/* Opera 9.5",
-          "properties": {
-            "Device_Code_Name": "GT-B7610",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-B7610"
-          }
+          "device": "Samsung GT-B7610"
         },
         {
           "match": "SAMSUNG-GT-i8000* (*Opera Mobi; U*Opera 9.5",
-          "properties": {
-            "Device_Code_Name": "GT-I8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I8000"
-          }
+          "device": "Samsung GT-I8000"
         },
         {
           "match": "SAMSUNG-S8000* Opera\/9.5 *",
-          "properties": {
-            "Device_Code_Name": "GT-S8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8000"
-          }
+          "device": "Samsung GT-S8000"
         },
         {
           "match": "SAMSUNG-S8300* Opera\/9.5 *",
-          "properties": {
-            "Device_Code_Name": "GT-S8300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8300"
-          }
+          "device": "Samsung GT-S8300"
         },
         {
           "match": "SAMSUNG-SGH-L810-Vodafone\/L810BUHEC SHP\/VPP\/R5 Opera\/9.5*",
@@ -198,21 +178,7 @@
         },
         {
           "match": "SAMSUNG-SGH-i900* Opera 9.5",
-          "properties": {
-            "Device_Code_Name": "SGH-I900",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I900"
-          }
-        },
-        {
-          "match": "SAMSUNG-SGH-i900\/1.0 Opera 9.5*",
-          "properties": {
-            "Device_Code_Name": "SGH-I900",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I900"
-          }
+          "device": "Samsung SGH-I900"
         },
         {
           "match": "Swisscom\/1.0\/HTC_Touch_Pro2\/ Opera\/9.5*",

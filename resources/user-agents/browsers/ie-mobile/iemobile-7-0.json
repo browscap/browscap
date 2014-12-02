@@ -347,48 +347,28 @@
         },
         {
           "match": "SAMSUNG-C3050*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "C3050",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "C3050"
-          },
+          "device": "Samsung C3050",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-3210*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-3210",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-3210"
-          },
+          "device": "Samsung GT-3210",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-B3310*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-B3310",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-B3310"
-          },
+          "device": "Samsung GT-B3310",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-B3410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-B3410",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-B3410"
-          },
+          "device": "Samsung GT-B3410",
           "platforms": [
             "WinCE"
           ]
@@ -407,171 +387,98 @@
         },
         {
           "match": "SAMSUNG-GT-E2550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-E2550",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-E2550"
-          },
+          "device": "Samsung GT-E2550",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-I6410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-I6410",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I6410"
-          },
+          "device": "Samsung GT-I6410",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-I8320*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-I8320",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I8320"
-          },
+          "device": "Samsung GT-I8320",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-S3370*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S3370",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Corby 3G"
-          },
+          "device": "Samsung GT-S3370",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-S3650*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S3650",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S3650"
-          },
+          "device": "Samsung GT-S3650",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5230*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S5230",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-S5230",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5560*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S5560",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5560"
-          },
+          "device": "Samsung GT-S5560",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-S7550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S7550",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S7550"
-          },
+          "device": "Samsung GT-S7550",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-GT-i8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-I8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I8000"
-          },
+          "device": "Samsung GT-I8000",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-S8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8000"
-          },
+          "device": "Samsung GT-S8000",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-S8300*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8300"
-          },
+          "device": "Samsung GT-S8300",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-SGH-E250*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-E250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E250"
-          },
+          "device": "Samsung SGH-E250",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-SGH-F480*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-F480",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-F480"
-          },
+          "device": "Samsung SGH-F480",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-SGH-G800*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-G800",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-G800"
-          },
+          "device": "Samsung SGH-G800",
           "platforms": [
             "WinCE"
           ]
@@ -638,36 +545,21 @@
         },
         {
           "match": "SAMSUNG-SGH-U700*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-U700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-U700"
-          },
+          "device": "Samsung SGH-U700",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-SGH-U900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-U900",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-U900"
-          },
+          "device": "Samsung SGH-U900",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "SAMSUNG-SGH-i900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "SGH-I900",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I900"
-          },
+          "device": "Samsung SGH-I900",
           "platforms": [
             "WinCE"
           ]

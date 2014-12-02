@@ -18,7 +18,6 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Win32": "false",
-        "Device_Maker": "Samsung",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

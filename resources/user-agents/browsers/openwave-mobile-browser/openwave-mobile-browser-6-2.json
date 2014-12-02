@@ -1160,21 +1160,11 @@
         },
         {
           "match": "SAMSUNG-C3050-ORANGE\/* Openwave\/6.2* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C3050",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "C3050"
-          }
+          "device": "Samsung C3050"
         },
         {
           "match": "SAMSUNG-C3050\/1.0 Openwave\/6.2* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C3050",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "C3050"
-          }
+          "device": "Samsung C3050"
         },
         {
           "match": "SAMSUNG-C3053\/1.0 Openwave\/6.2* UP.Browser\/6.2*",
@@ -1205,12 +1195,7 @@
         },
         {
           "match": "SAMSUNG-GT-E2550\/E2550* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "GT-E2550",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-E2550"
-          }
+          "device": "Samsung GT-E2550"
         },
         {
           "match": "SAMSUNG-SAMSUNG SGH-X620\/1.0 * UP.Browser\/6.2*",
@@ -1349,12 +1334,7 @@
         },
         {
           "match": "SAMSUNG-SGH-E250\/* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E250"
-          }
+          "device": "Samsung SGH-E250"
         },
         {
           "match": "SAMSUNG-SGH-E330\/1.0 UP.Browser\/6.2*",

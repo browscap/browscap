@@ -53,12 +53,7 @@
         },
         {
           "match": "SAMSUNG-SGH-E250\/* UP.Browser\/6.2* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "SGH E250",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E250"
-          },
+          "device": "Samsung SGH-E250",
           "platforms": [
             "JAVA"
           ]

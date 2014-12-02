@@ -18,7 +18,6 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Win32": "false",
-        "Device_Maker": "Samsung",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -29,57 +28,22 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5380#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S5380",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5380"
-          },
-          "platforms": [
-            "Bada_2_0"
-          ]
+          "device": "Samsung GT-S5380"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
-          },
-          "platforms": [
-            "Bada_2_0"
-          ]
+          "device": "Samsung GT-S8500"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8530",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
-          },
-          "platforms": [
-            "Bada_2_0"
-          ]
+          "device": "Samsung GT-S8530"
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8600#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8600",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 3"
-          },
-          "platforms": [
-            "Bada_2_0"
-          ]
+          "device": "Samsung GT-S8600"
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*",
-          "platforms": [
-            "Bada_2_0"
-          ]
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*"
         }
       ]
     }
