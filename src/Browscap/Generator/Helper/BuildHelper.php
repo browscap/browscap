@@ -48,14 +48,15 @@ class BuildHelper
     {
         $logger->info('started creating a data collection');
 
-        $collection = new DataCollection($version);
-        $collection->setLogger($logger);
+        $dataCollection = new DataCollection($version);
+        $dataCollection->setLogger($logger);
 
         $collectionCreator
             ->setLogger($logger)
-            ->setDataCollection($collection)
-            ->createDataCollection($resourceFolder)
+            ->setDataCollection($dataCollection)
         ;
+
+        $collection = $collectionCreator->createDataCollection($resourceFolder);
 
         $logger->info('finished creating a data collection');
 
