@@ -104,6 +104,12 @@
           "properties": {
             "Browser": "Google Friend Connect"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/*(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;)*",
+          "properties": {
+            "Browser": "Google Adwords DisplayAds WebRender"
+          }
         }
       ]
     }
