@@ -3364,6 +3364,21 @@
             "Browser": "Nett.io bot",
             "Browser_Maker": "nett.io"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;acapbot\/0.1*",
+          "properties": {
+            "Browser": "acapbot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;acapbot\/*",
+          "properties": {
+            "Browser": "acapbot"
+          }
         }
       ]
     }

@@ -168,6 +168,7 @@
             "Browser": "Fake IE",
             "Comment": "Fake IE",
             "Browser_Type": "Bot/Crawler",
+            "Browser_Maker": "unknown",
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",

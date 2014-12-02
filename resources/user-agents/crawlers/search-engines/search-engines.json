@@ -1086,6 +1086,13 @@
             "Browser": "Gigablast Search Engine",
             "Browser_Maker": "gigablast.com"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; YioopBot*",
+          "properties": {
+            "Browser": "YioopBot",
+            "Browser_Maker": "Yioop!"
+          }
         }
       ]
     }
