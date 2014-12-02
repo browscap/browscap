@@ -64,7 +64,7 @@ class BuildFullFileOnlyGenerator
     /**
      * @param \Psr\Log\LoggerInterface $logger
      *
-     * @return BuildFullFileOnlyGenerator
+     * @return \Browscap\Generator\BuildFullFileOnlyGenerator
      */
     public function setLogger(LoggerInterface $logger)
     {
@@ -126,143 +126,25 @@ class BuildFullFileOnlyGenerator
             $iniFile = $this->buildFolder . '/full_php_browscap.ini';
         }
 
-        $collection = new DataCollection($version);
-        $collection->setLogger($this->logger);
-
-        $collectionCreator
-            ->setLogger($this->logger)
-            ->setDataCollection($collection)
-            ->createDataCollection($this->resourceFolder)
-        ;
-
-        $expander = new Expander();
-        $expander
-            ->setDataCollection($collection)
-            ->setLogger($this->logger)
-        ;
-
         $writerCollection = new WriterCollection();
         $fullFilter       = new FullFilter();
 
         $fullPhpWriter = new IniWriter($iniFile);
         $formatter     = new PhpFormatter();
         $fullPhpWriter
-            ->setLogger($this->logger)
+            ->setLogger($this->getLogger())
             ->setFormatter($formatter->setFilter($fullFilter))
             ->setFilter($fullFilter)
         ;
         $writerCollection->addWriter($fullPhpWriter);
 
-        $comments = array(
-            'Provided courtesy of http://browscap.org/',
-            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
-            'Keep up with the latest goings-on with the project:',
-            'Follow us on Twitter <https://twitter.com/browscap>, or...',
-            'Like us on Facebook <https://facebook.com/browscap>, or...',
-            'Collaborate on GitHub <https://github.com/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+        Helper\BuildHelper::run(
+            $version,
+            $this->resourceFolder,
+            $this->getLogger(),
+            $writerCollection,
+            $collectionCreator
         );
-
-        $writerCollection
-            ->fileStart()
-            ->renderHeader($comments)
-            ->renderVersion('test', $collection)
-        ;
-
-        $output = array();
-
-        $writerCollection->renderAllDivisionsHeader($collection);
-
-        $division = $collection->getDefaultProperties();
-
-        $writerCollection->renderDivisionHeader($division->getName());
-
-        $ua       = $division->getUserAgents();
-        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
-
-        foreach ($sections as $sectionName => $section) {
-            $writerCollection
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
-        }
-
-        $writerCollection->renderDivisionFooter();
-
-        foreach ($collection->getDivisions() as $division) {
-            /** @var \Browscap\Data\Division $division */
-
-            // run checks on division before expanding versions because the checked properties do not change between
-            // versions
-            $sections = $expander->expand($division, 0, 0, $division->getName());
-
-            foreach ($sections as $sectionName => $section) {
-                $collection->checkProperty($sectionName, $section);
-            }
-
-            $writerCollection->setSilent($division);
-
-            $versions = $division->getVersions();
-
-            foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts($version);
-
-                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
-
-                $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
-                $firstElement = current($sections);
-
-                $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
-
-                foreach ($sections as $sectionName => $section) {
-                    if (in_array($sectionName, $output)) {
-                        throw new \UnexpectedValueException(
-                            'tried to add section "' . $sectionName . '" more than once'
-                        );
-                    }
-
-                    $writerCollection
-                        ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section, $collection, $sections, $sectionName)
-                        ->renderSectionFooter($sectionName)
-                    ;
-
-                    $output[] = $sectionName;
-                }
-
-                $writerCollection->renderDivisionFooter();
-
-                unset($divisionName, $majorVer, $minorVer);
-            }
-        }
-
-        $division = $collection->getDefaultBrowser();
-
-        $writerCollection->renderDivisionHeader($division->getName());
-
-        $ua       = $division->getUserAgents();
-        $sections = array(
-            $ua[0]['userAgent'] => array_merge(
-                array('Parent' => 'DefaultProperties'),
-                $ua[0]['properties']
-            )
-        );
-
-        foreach ($sections as $sectionName => $section) {
-            $writerCollection
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
-        }
-
-        $writerCollection
-            ->renderDivisionFooter()
-            ->renderAllDivisionsFooter()
-            ->fileEnd()
-            ->close()
-        ;
 
         $this->getLogger()->info('finished creating the full ini file for php');
     }
