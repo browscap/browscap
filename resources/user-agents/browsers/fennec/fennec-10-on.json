@@ -28,57 +28,35 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (*Android*Mobile*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "FirefoxOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*Android; Linux*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "FirefoxOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile", "AndroidLinux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]

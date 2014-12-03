@@ -45,21 +45,11 @@
         },
         {
           "match": "HTC_HD_T8282 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD T8282"
-          }
+          "device": "HTC HD T8282"
         },
         {
           "match": "HTC_P3700 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "P3700",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "P3700"
-          }
+          "device": "HTC P3700"
         },
         {
           "match": "HTC_P3701 Opera\/9.5*",
@@ -81,30 +71,15 @@
         },
         {
           "match": "HTC_Touch_3G_T3232 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch 3G T3232",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch 3G T3232"
-          }
+          "device": "HTC Touch 3G T3232"
         },
         {
           "match": "HTC_Touch_Cruise_T4242 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Cruise T4242",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Cruise T4242"
-          }
+          "device": "HTC Touch Cruise T4242"
         },
         {
           "match": "HTC_Touch_Diamond2_T5353 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Diamond2 T5353",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Diamond2 T5353"
-          }
+          "device": "HTC Touch Diamond2 T5353"
         },
         {
           "match": "HTC_Touch_HD Opera\/9.5*",
@@ -117,39 +92,19 @@
         },
         {
           "match": "HTC_Touch_HD_T8282 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD T8282"
-          }
+          "device": "HTC Touch HD T8282"
         },
         {
           "match": "HTC_Touch_Pro2_T7272 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro2 T7272",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro2 T7272"
-          }
+          "device": "HTC Touch Pro2 T7272"
         },
         {
           "match": "HTC_Touch_Pro2_T7373 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro2 T7373",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro2 T7373"
-          }
+          "device": "HTC Touch Pro2 T7373"
         },
         {
           "match": "HTC_Touch_Pro_T7272 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro T7272",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro T7272"
-          }
+          "device": "HTC T7272"
         },
         {
           "match": "SAMSUNG-GT-B7610\/* Opera 9.5",
@@ -227,12 +182,7 @@
         },
         {
           "match": "Vodafone\/1.0\/HTC_Touch_Pro Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro"
-          }
+          "device": "HTC Touch Pro"
         },
         {
           "match": "Vodafone\/1.0\/SAMSUNG-GT-B7610\/BUIH3 Browser\/Opera\/9.5*",
@@ -285,13 +235,7 @@
         },
         {
           "match": "HTC-ST7377\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ST7377",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "ST7377"
-          },
+          "device": "HTC ST7377",
           "platforms": [
             "WinMobile"
           ]
@@ -324,36 +268,28 @@
         },
         {
           "match": "O2\/1.0\/SEX1i\/R3AA Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*UP.Link\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Opera\/9.5 (Microsoft Windows; PPC*Opera Mobile\/*)",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*)",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Opera\/9.5* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]

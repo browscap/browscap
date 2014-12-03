@@ -41,156 +41,91 @@
         },
         {
           "match": "HD_mini_T5555 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "HD mini T5555",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD mini T5555"
-          },
+          "device": "HTC HD mini T5555",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC-ST7377\/* (*) Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)*",
-          "properties": {
-            "Device_Code_Name": "ST7377",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "ST7377"
-          },
+          "device": "HTC ST7377",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_HD2_T8585 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2 T8585"
-          },
+          "device": "HTC HD2 T8585",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_HD2_T8585\/480x800 4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2 T8585"
-          },
+          "device": "HTC HD2 T8585",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Maple_S520 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Maple S520",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Maple S520"
-          },
+          "device": "HTC Maple S520",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_P3700 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "P3700",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "P3700"
-          },
+          "device": "HTC P3700",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Snap_S521 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Snap S521",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Snap S521"
-          },
+          "device": "HTC Snap S521",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Snap_S523\/* (*Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Snap S523",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Snap S523"
-          },
+          "device": "HTC Snap S523",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch_Cruise_T4242 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)*",
-          "properties": {
-            "Device_Code_Name": "Touch Cruise T4242",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Cruise T4242"
-          },
+          "device": "HTC Touch Cruise T4242",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch_Diamond2_T5353 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Touch Diamond2 T5353",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Diamond2 T5353"
-          },
+          "device": "HTC Touch Diamond2 T5353",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch_HD_T8282 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Touch HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD T8282"
-          },
+          "device": "HTC Touch HD T8282",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch_Pro2_T7373 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Touch Pro2 T7373",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro2 T7373"
-          },
+          "device": "HTC Touch Pro2 T7373",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch_Pro_T7272 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "Touch Pro T7272",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro T7272"
-          },
+          "device": "HTC T7272",
           "platforms": [
             "WinCE"
           ]
@@ -203,12 +138,7 @@
         },
         {
           "match": "Mozilla\/5.0 Vodafone\/1.0\/LG-GM750\/* Browser\/IE8.* (*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*)",
-          "properties": {
-            "Device_Code_Name": "GM750",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GM750"
-          },
+          "device": "LG GM750",
           "platforms": [
             "WinCE"
           ]
@@ -243,12 +173,7 @@
         },
         {
           "match": "SAMSUNG-GT-B7330\/* (compatible*; MSIE 6.0; Windows CE; IEMobile 8.*",
-          "properties": {
-            "Device_Code_Name": "GT-B7330",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-B7330"
-          },
+          "device": "Samsung GT-B7330",
           "platforms": [
             "WinCE"
           ]

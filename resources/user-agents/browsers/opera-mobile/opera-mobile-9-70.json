@@ -27,93 +27,43 @@
       "children": [
         {
           "match": "HD_mini_T5555 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "mini T5555",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "mini T5555"
-          }
+          "device": "HTC HD mini T5555"
         },
         {
           "match": "HTC_HD2_T8585 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2 T8585"
-          }
+          "device": "HTC HD2 T8585"
         },
         {
           "match": "HTC_HD2_T9193 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "HD2 T9193",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD2 T9193"
-          }
+          "device": "HTC HD2 T9193"
         },
         {
           "match": "HTC_HD_T8282 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD T8282"
-          }
+          "device": "HTC HD T8282"
         },
         {
           "match": "HTC_HD_mini_T5555 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "mini T5555",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "mini T5555"
-          }
+          "device": "HTC HD mini T5555"
         },
         {
           "match": "HTC_Touch_Diamond2_T5353 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "Touch Diamond2 T5353",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Diamond2 T5353"
-          }
+          "device": "HTC Touch Diamond2 T5353"
         },
         {
           "match": "HTC_Touch_HD2_T8585 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "Touch HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD2 T8585"
-          }
+          "device": "HTC Touch HD2 T8585"
         },
         {
           "match": "HTC_Touch_Pro2_T7373 Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro2 T7373",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro2 T7373"
-          }
+          "device": "HTC Touch Pro2 T7373"
         },
         {
           "match": "HTC_Xperia Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "Xperia",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Xperia"
-          }
+          "device": "HTC Xperia"
         },
         {
           "match": "HUAWEI-M735\/* Opera\/9.7*",
-          "properties": {
-            "Device_Code_Name": "M735",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "M735"
-          }
+          "device": "Huawei M735"
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD2\/* Opera\/9.7*",
@@ -121,12 +71,7 @@
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD_mini\/Opera 9.7*",
-          "properties": {
-            "Device_Code_Name": "HD mini",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "HD mini"
-          }
+          "device": "HTC HD mini"
         },
         {
           "match": "Opera\/9.7 (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
@@ -137,26 +82,14 @@
         },
         {
           "match": "HTC_HD_mini_T5555 Opera\/9.7 (Windows NT 5.1; U*)",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "mini T5555",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "mini T5555"
-          },
+          "device": "HTC HD mini T5555",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/5.0 (HTC-T9199\/*;U;Windows Mobile\/6.5;*;*;CTC\/2.0) Opera\/9.7*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "T9199",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "T9199"
-          },
+          "device": "HTC T9199",
           "platforms": [
             "WinMobile"
           ]

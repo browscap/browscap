@@ -38,24 +38,6 @@
           "platforms": [
             "WinCE"
           ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; 240x320)",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; PPC*",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; Smartphone*",
-          "platforms": [
-            "WinCE"
-          ]
         }
       ]
     }

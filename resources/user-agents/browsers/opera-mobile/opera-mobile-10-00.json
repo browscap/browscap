@@ -52,10 +52,12 @@
           "match": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
+          "device": "HTC Touch HD2 T8585"
         },
         {
-          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
+          "device": "HTC Touch HD T8282"
         },
         {
           "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",

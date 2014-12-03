@@ -78,28 +78,19 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]

@@ -34,18 +34,14 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-HI35) Opera 8.60*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; KDDI-SH32) Opera 8.60*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]

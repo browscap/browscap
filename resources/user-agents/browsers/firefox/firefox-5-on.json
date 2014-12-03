@@ -39,7 +39,8 @@
             "MacPPC_3",
             "OpenBSD", "SunOS", "NT4", "Win2000_64", "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "OS2"
           ]
@@ -55,7 +56,8 @@
             "OSX",
             "OpenBSD", "SunOS", "NT4", "Win2000_64", "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "OS2"
           ]
@@ -95,7 +97,8 @@
             "OSX",
             "WinXPa_32",
             "WinXPa_64", "WinXPb_64", "WinXPb_32", "Vista_x64", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]
         }
       ]
@@ -119,28 +122,19 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]

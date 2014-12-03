@@ -26,23 +26,35 @@
     },
     "general Mobile Phone": {
       "properties": {
-        "Device_Name": "general Smartphone",
+        "Device_Name": "general Mobile Phone",
         "Device_Maker": "unknown",
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "unknown",
-        "Device_Code_Name": "general Smartphone",
+        "Device_Code_Name": "general Mobile Phone",
         "Device_Brand_Name": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
+    "general Tablet": {
+      "properties": {
+        "Device_Name": "general Tablet",
+        "Device_Maker": "unknown",
+        "Device_Type": "Tablet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "general Tablet",
+        "Device_Brand_Name": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "general Mobile Phone (Touch)": {
       "properties": {
-        "Device_Name": "general Smartphone",
+        "Device_Name": "general Mobile Phone",
         "Device_Maker": "unknown",
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Code_Name": "general Smartphone",
+        "Device_Code_Name": "general Mobile Phone",
         "Device_Brand_Name": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -52,7 +64,7 @@
       "properties": {
         "Device_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "Blackberry",
         "Device_Brand_Name": "RIM",
@@ -64,7 +76,7 @@
       "properties": {
         "Device_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "unknown",
         "Device_Code_Name": "Blackberry",
         "Device_Brand_Name": "RIM",
@@ -146,7 +158,7 @@
     },
     "iPhone": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "iPhone",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple Inc",
@@ -206,7 +218,7 @@
     },
     "Panasonic dL1": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "dL1",
         "Device_Name": "Eluga",
         "Device_Maker": "Panasonic",
@@ -278,7 +290,7 @@
     },
     "SonyEricsson X10i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X10i",
         "Device_Name": "Xperia X10",
         "Device_Maker": "SonyEricsson",
@@ -290,7 +302,7 @@
     },
     "Sony D6503": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D6503",
         "Device_Name": "Xperia Z2 LTE",
         "Device_Maker": "Sony",
@@ -350,7 +362,7 @@
     },
     "SonyEricsson C902": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C902",
         "Device_Name": "C902",
         "Device_Maker": "SonyEricsson",
@@ -362,7 +374,7 @@
     },
     "SonyEricsson C905": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C905",
         "Device_Name": "C905",
         "Device_Maker": "SonyEricsson",
@@ -374,7 +386,7 @@
     },
     "SonyEricsson J10i2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "J10i2",
         "Device_Name": "J10i2",
         "Device_Maker": "SonyEricsson",
@@ -386,7 +398,7 @@
     },
     "SonyEricsson J10i2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "J10i2",
         "Device_Name": "J10i2",
         "Device_Maker": "SonyEricsson",
@@ -398,7 +410,7 @@
     },
     "SonyEricsson J210i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "J210i",
         "Device_Name": "J210i",
         "Device_Maker": "SonyEricsson",
@@ -410,7 +422,7 @@
     },
     "SonyEricsson J210c": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "J210c",
         "Device_Name": "J210c",
         "Device_Maker": "SonyEricsson",
@@ -422,7 +434,7 @@
     },
     "SonyEricsson J200i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "J200i",
         "Device_Name": "J200i",
         "Device_Maker": "SonyEricsson",
@@ -434,7 +446,7 @@
     },
     "SonyEricsson C510": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C510",
         "Device_Name": "C510",
         "Device_Maker": "SonyEricsson",
@@ -446,7 +458,7 @@
     },
     "SonyEricsson K550i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "K550i",
         "Device_Name": "K550i",
         "Device_Maker": "SonyEricsson",
@@ -458,7 +470,7 @@
     },
     "SonyEricsson K800i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "K800i",
         "Device_Name": "K800i",
         "Device_Maker": "SonyEricsson",
@@ -470,7 +482,7 @@
     },
     "SonyEricsson T715": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T715",
         "Device_Name": "T715",
         "Device_Maker": "SonyEricsson",
@@ -482,7 +494,7 @@
     },
     "SonyEricsson U10i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U10i",
         "Device_Name": "U10i",
         "Device_Maker": "SonyEricsson",
@@ -494,7 +506,7 @@
     },
     "SonyEricsson U1i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U1i",
         "Device_Name": "U1i",
         "Device_Maker": "SonyEricsson",
@@ -506,7 +518,7 @@
     },
     "SonyEricsson U1iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U1iv",
         "Device_Name": "U1iv",
         "Device_Maker": "SonyEricsson",
@@ -518,7 +530,7 @@
     },
     "SonyEricsson U5iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U5iv",
         "Device_Name": "U5iv",
         "Device_Maker": "SonyEricsson",
@@ -530,7 +542,7 @@
     },
     "SonyEricsson U5u": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U5u",
         "Device_Name": "U5u",
         "Device_Maker": "SonyEricsson",
@@ -542,7 +554,7 @@
     },
     "SonyEricsson U8a": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8a",
         "Device_Name": "U8a",
         "Device_Maker": "SonyEricsson",
@@ -554,7 +566,7 @@
     },
     "SonyEricsson U8i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8i",
         "Device_Name": "U8i",
         "Device_Maker": "SonyEricsson",
@@ -566,7 +578,7 @@
     },
     "SonyEricsson W350i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W350i",
         "Device_Name": "W350i",
         "Device_Maker": "SonyEricsson",
@@ -578,7 +590,7 @@
     },
     "SonyEricsson W350iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W350iv",
         "Device_Name": "W350iv",
         "Device_Maker": "SonyEricsson",
@@ -590,7 +602,7 @@
     },
     "SonyEricsson W580i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W580i",
         "Device_Name": "W580i",
         "Device_Maker": "SonyEricsson",
@@ -602,7 +614,7 @@
     },
     "SonyEricsson W595": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W595",
         "Device_Name": "W595",
         "Device_Maker": "SonyEricsson",
@@ -614,7 +626,7 @@
     },
     "SonyEricsson W705": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W705",
         "Device_Name": "W705",
         "Device_Maker": "SonyEricsson",
@@ -626,7 +638,7 @@
     },
     "SonyEricsson W760i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W760i",
         "Device_Name": "W760i",
         "Device_Maker": "SonyEricsson",
@@ -638,7 +650,7 @@
     },
     "SonyEricsson W980": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W980",
         "Device_Name": "W980",
         "Device_Maker": "SonyEricsson",
@@ -650,7 +662,7 @@
     },
     "SonyEricsson W995": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W995",
         "Device_Name": "W995",
         "Device_Maker": "SonyEricsson",
@@ -662,7 +674,7 @@
     },
     "SonyEricsson W910i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W910i",
         "Device_Name": "W910i",
         "Device_Maker": "SonyEricsson",
@@ -674,7 +686,7 @@
     },
     "SonyEricsson E10i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E10i",
         "Device_Name": "Xperia X10 Mini",
         "Device_Maker": "SonyEricsson",
@@ -686,7 +698,7 @@
     },
     "SonyEricsson E10iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E10iv",
         "Device_Name": "E10iv",
         "Device_Maker": "SonyEricsson",
@@ -698,7 +710,7 @@
     },
     "SonyEricsson E15i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E15i",
         "Device_Name": "Xperia X8",
         "Device_Maker": "SonyEricsson",
@@ -710,7 +722,7 @@
     },
     "SonyEricsson E15iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E15iv",
         "Device_Name": "Xperia X8",
         "Device_Maker": "SonyEricsson",
@@ -722,7 +734,7 @@
     },
     "SonyEricsson U20i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U20i",
         "Device_Name": "Xperia X10 Mini pro",
         "Device_Maker": "SonyEricsson",
@@ -734,7 +746,7 @@
     },
     "SonyEricsson U20iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U20iv",
         "Device_Name": "Xperia X10 Mini pro",
         "Device_Maker": "SonyEricsson",
@@ -746,7 +758,7 @@
     },
     "SonyEricsson X10a": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X10a",
         "Device_Name": "X10a",
         "Device_Maker": "SonyEricsson",
@@ -758,7 +770,7 @@
     },
     "SonyEricsson E10a": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E10a",
         "Device_Name": "E10a",
         "Device_Maker": "SonyEricsson",
@@ -770,7 +782,7 @@
     },
     "SonyEricsson SO-01B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SO-01B",
         "Device_Name": "SO-01B",
         "Device_Maker": "SonyEricsson",
@@ -782,7 +794,7 @@
     },
     "SonyEricsson X10iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X10iv",
         "Device_Name": "X10iv",
         "Device_Maker": "SonyEricsson",
@@ -794,7 +806,7 @@
     },
     "SonyEricsson LT18i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT18i",
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
@@ -806,7 +818,7 @@
     },
     "SonyEricsson LT18iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT18iv",
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
@@ -818,7 +830,7 @@
     },
     "SonyEricsson LT22i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT22i",
         "Device_Name": "Xperia P",
         "Device_Maker": "SonyEricsson",
@@ -830,7 +842,7 @@
     },
     "SonyEricsson LT26i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT26i",
         "Device_Name": "Xperia Arc HD",
         "Device_Maker": "SonyEricsson",
@@ -842,7 +854,7 @@
     },
     "SonyEricsson MT15i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT15i",
         "Device_Name": "Xperia Neo",
         "Device_Maker": "SonyEricsson",
@@ -854,7 +866,7 @@
     },
     "SonyEricsson MT15iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT15iv",
         "Device_Name": "Xperia Neo",
         "Device_Maker": "SonyEricsson",
@@ -866,7 +878,7 @@
     },
     "SonyEricsson MT27i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT27i",
         "Device_Name": "Xperia Sola",
         "Device_Maker": "SonyEricsson",
@@ -878,7 +890,7 @@
     },
     "SonyEricsson R800i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "R800i",
         "Device_Name": "Xperia PLAY",
         "Device_Maker": "SonyEricsson",
@@ -890,7 +902,7 @@
     },
     "SonyEricsson R800iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "R800iv",
         "Device_Name": "Xperia PLAY",
         "Device_Maker": "SonyEricsson",
@@ -902,7 +914,7 @@
     },
     "SonyEricsson SK17i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SK17i",
         "Device_Name": "Xperia Mini Pro",
         "Device_Maker": "SonyEricsson",
@@ -914,7 +926,7 @@
     },
     "SonyEricsson SK17iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SK17iv",
         "Device_Name": "Xperia Mini Pro",
         "Device_Maker": "SonyEricsson",
@@ -926,7 +938,7 @@
     },
     "SonyEricsson ST18i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST18i",
         "Device_Name": "Urushi",
         "Device_Maker": "SonyEricsson",
@@ -938,7 +950,7 @@
     },
     "SonyEricsson ST18iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST18iv",
         "Device_Name": "Urushi",
         "Device_Maker": "SonyEricsson",
@@ -950,7 +962,7 @@
     },
     "SonyEricsson LT15i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT15i",
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
@@ -962,7 +974,7 @@
     },
     "SonyEricsson LT15iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT15i",
         "Device_Name": "Xperia Arc SO-01C for DoCoMo",
         "Device_Maker": "SonyEricsson",
@@ -974,7 +986,7 @@
     },
     "SonyEricsson MK16i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MK16i",
         "Device_Name": "Xperia Pro",
         "Device_Maker": "SonyEricsson",
@@ -986,7 +998,7 @@
     },
     "SonyEricsson MT11i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT11i",
         "Device_Name": "Xperia Neo V",
         "Device_Maker": "Sony",
@@ -998,7 +1010,7 @@
     },
     "SonyEricsson MT15a": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT15a",
         "Device_Name": "MT15a",
         "Device_Maker": "Sony",
@@ -1010,7 +1022,7 @@
     },
     "SonyEricsson ST15i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST15i",
         "Device_Name": "Xperia Mini",
         "Device_Maker": "SonyEricsson",
@@ -1022,7 +1034,7 @@
     },
     "SonyEricsson ST17i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST17i",
         "Device_Name": "Xperia Active",
         "Device_Maker": "SonyEricsson",
@@ -1034,7 +1046,7 @@
     },
     "SonyEricsson ST25i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST25i",
         "Device_Name": "Xperia U",
         "Device_Maker": "SonyEricsson",
@@ -1046,7 +1058,7 @@
     },
     "SonyEricsson ST27i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST27i",
         "Device_Name": "Xperia Go",
         "Device_Maker": "SonyEricsson",
@@ -1058,7 +1070,7 @@
     },
     "SonyEricsson WT19i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "WT19i",
         "Device_Name": "Live",
         "Device_Maker": "SonyEricsson",
@@ -1070,7 +1082,7 @@
     },
     "SonyEricsson WT19iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "WT19iv",
         "Device_Name": "Live",
         "Device_Maker": "SonyEricsson",
@@ -1106,7 +1118,7 @@
     },
     "Sony C6903": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C6903",
         "Device_Name": "Xperia Z1",
         "Device_Maker": "Sony",
@@ -1118,7 +1130,7 @@
     },
     "Sony C2105": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C2105",
         "Device_Name": "Xperia L",
         "Device_Maker": "Sony",
@@ -1130,7 +1142,7 @@
     },
     "SonyEricsson C6602": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C6602",
         "Device_Name": "Xperia Z",
         "Device_Maker": "SonyEricsson",
@@ -1142,7 +1154,7 @@
     },
     "SonyEricsson LT25i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT25i",
         "Device_Name": "Xperia V",
         "Device_Maker": "SonyEricsson",
@@ -1154,7 +1166,7 @@
     },
     "SonyEricsson LT28h": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT28h",
         "Device_Name": "Xperia Ion",
         "Device_Maker": "SonyEricsson",
@@ -1166,7 +1178,7 @@
     },
     "SonyEricsson X10": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X10",
         "Device_Name": "Xperia X10",
         "Device_Maker": "SonyEricsson",
@@ -1178,7 +1190,7 @@
     },
     "SonyEricsson C6503": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C6503",
         "Device_Name": "Xperia Z",
         "Device_Maker": "SonyEricsson",
@@ -1190,7 +1202,7 @@
     },
     "SonyEricsson C5303": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C5303",
         "Device_Name": "Xperia SP",
         "Device_Maker": "SonyEricsson",
@@ -1200,9 +1212,21 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson X1i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X1i",
+        "Device_Name": "X1i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6603": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C6603",
         "Device_Name": "Xperia Z",
         "Device_Maker": "Sony",
@@ -1214,7 +1238,7 @@
     },
     "Sony LT30p": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT30p",
         "Device_Name": "Xperia T",
         "Device_Maker": "Sony",
@@ -1250,7 +1274,7 @@
     },
     "Sony ST21i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST21i",
         "Device_Name": "Xperia Tipo",
         "Device_Maker": "Sony",
@@ -1262,7 +1286,7 @@
     },
     "Sony ST21i2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST21i2",
         "Device_Name": "Xperia Tipo Dual",
         "Device_Maker": "Sony",
@@ -1274,7 +1298,7 @@
     },
     "Sony ST21iv": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST21iv",
         "Device_Name": "Xperia Tipo",
         "Device_Maker": "Sony",
@@ -1286,7 +1310,7 @@
     },
     "Sony ST23i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST23i",
         "Device_Name": "Xperia miro",
         "Device_Maker": "Sony",
@@ -1298,7 +1322,7 @@
     },
     "Sony C1505": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C1505",
         "Device_Name": "Xperia E",
         "Device_Maker": "Sony",
@@ -1310,7 +1334,7 @@
     },
     "Sony ST26i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ST26i",
         "Device_Name": "Xperia J",
         "Device_Maker": "Sony",
@@ -1358,7 +1382,7 @@
     },
     "Ericsson T68": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T68",
         "Device_Name": "T68",
         "Device_Maker": "Ericsson",
@@ -1370,7 +1394,7 @@
     },
     "Ericsson T65": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T65",
         "Device_Name": "T65",
         "Device_Maker": "Ericsson",
@@ -1382,7 +1406,7 @@
     },
     "Ericsson T39": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T39",
         "Device_Name": "T39",
         "Device_Maker": "Ericsson",
@@ -1394,7 +1418,7 @@
     },
     "Ericsson T20": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T20",
         "Device_Name": "T20",
         "Device_Maker": "Ericsson",
@@ -1406,7 +1430,7 @@
     },
     "Ericsson R520": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "R520",
         "Device_Name": "R520",
         "Device_Maker": "Ericsson",
@@ -1418,7 +1442,7 @@
     },
     "Ericsson A2628s": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A2628s",
         "Device_Name": "A2628s",
         "Device_Maker": "Ericsson",
@@ -1526,7 +1550,7 @@
     },
     "Samsung GT-C3310": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-C3310",
         "Device_Name": "Champ Deluxe",
         "Device_Maker": "Samsung",
@@ -1538,7 +1562,7 @@
     },
     "Samsung GT-C6712": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-C6712",
         "Device_Name": "GT-C6712",
         "Device_Maker": "Samsung",
@@ -1550,7 +1574,7 @@
     },
     "Samsung Galaxy": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Galaxy",
         "Device_Name": "Galaxy",
         "Device_Maker": "Samsung",
@@ -1562,7 +1586,7 @@
     },
     "Samsung GT-I5700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5700",
         "Device_Name": "Galaxy Spica",
         "Device_Maker": "Samsung",
@@ -1574,7 +1598,7 @@
     },
     "GT-I9100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9100",
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
@@ -1586,7 +1610,7 @@
     },
     "GT-I5500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5500",
         "Device_Name": "Galaxy 5",
         "Device_Maker": "Samsung",
@@ -1598,7 +1622,7 @@
     },
     "GT-I9000": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9000",
         "Device_Name": "Galaxy S",
         "Device_Maker": "Samsung",
@@ -1610,7 +1634,7 @@
     },
     "GT-I9100G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9100G",
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
@@ -1622,7 +1646,7 @@
     },
     "GT-I9100P": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9100P",
         "Device_Name": "Galaxy S II NFC",
         "Device_Maker": "Samsung",
@@ -1634,7 +1658,7 @@
     },
     "Samsung GT-I5503": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5503",
         "Device_Name": "GT-I5503",
         "Device_Maker": "Samsung",
@@ -1646,7 +1670,7 @@
     },
     "Samsung GT-I5800": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5800",
         "Device_Name": "Galaxy 3 Apollo",
         "Device_Maker": "Samsung",
@@ -1658,7 +1682,7 @@
     },
     "Samsung GT-I5801": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5801",
         "Device_Name": "GT-I5801",
         "Device_Maker": "Samsung",
@@ -1670,7 +1694,7 @@
     },
     "Samsung GT-I5510": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I5510",
         "Device_Name": "GT-I5510",
         "Device_Maker": "Samsung",
@@ -1682,7 +1706,7 @@
     },
     "Samsung GT-I9000T": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9000T",
         "Device_Name": "GT-I9000T",
         "Device_Maker": "Samsung",
@@ -1694,7 +1718,7 @@
     },
     "Samsung GT-I9003": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9003",
         "Device_Name": "Galaxy SL",
         "Device_Maker": "Samsung",
@@ -1706,7 +1730,7 @@
     },
     "Samsung GT-I9010": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9010",
         "Device_Name": "GT-I9010",
         "Device_Maker": "Samsung",
@@ -1718,7 +1742,7 @@
     },
     "Samsung GT-I9100T": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9100T",
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
@@ -1730,7 +1754,7 @@
     },
     "Samsung GT-I8150": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8150",
         "Device_Name": "Galaxy W",
         "Device_Maker": "Samsung",
@@ -1742,7 +1766,7 @@
     },
     "Samsung GT-I8160": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8160",
         "Device_Name": "Galaxy Ace 2",
         "Device_Maker": "Samsung",
@@ -1754,7 +1778,7 @@
     },
     "Samsung GT-I8160P": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8160P",
         "Device_Name": "Galaxy Ace 2 NFC",
         "Device_Maker": "Samsung",
@@ -1766,7 +1790,7 @@
     },
     "Samsung GT-I8190N": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8190N",
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
@@ -1778,7 +1802,7 @@
     },
     "Samsung GT-I8190": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8190",
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
@@ -1790,7 +1814,7 @@
     },
     "Samsung GT-I8530": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8530",
         "Device_Name": "GT-I8530",
         "Device_Maker": "Samsung",
@@ -1802,7 +1826,7 @@
     },
     "Samsung GT-I9001": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9001",
         "Device_Name": "GT-I9001",
         "Device_Maker": "Samsung",
@@ -1814,7 +1838,7 @@
     },
     "Samsung GT-I9070": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9070",
         "Device_Name": "Galaxy S Advance",
         "Device_Maker": "Samsung",
@@ -1826,7 +1850,7 @@
     },
     "Samsung GT-I9070P": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9070P",
         "Device_Name": "Galaxy S Advance",
         "Device_Maker": "Samsung",
@@ -1838,7 +1862,7 @@
     },
     "Samsung GT-I9103": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9103",
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
@@ -1850,7 +1874,7 @@
     },
     "Samsung GT-I9105P": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9105P",
         "Device_Name": "Galaxy S II NFC",
         "Device_Maker": "Samsung",
@@ -1862,7 +1886,7 @@
     },
     "Samsung GT-I9210": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9210",
         "Device_Name": "Galaxy S II LTE",
         "Device_Maker": "Samsung",
@@ -1874,7 +1898,7 @@
     },
     "Samsung GT-I8730": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8730",
         "Device_Name": "Galaxy Express",
         "Device_Maker": "Samsung",
@@ -1886,7 +1910,7 @@
     },
     "Samsung GT-I9082L": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9082L",
         "Device_Name": "Galaxy Grand Duos",
         "Device_Maker": "Samsung",
@@ -1898,7 +1922,7 @@
     },
     "Samsung GT-I9192": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9192",
         "Device_Name": "GT-I9192",
         "Device_Maker": "Samsung",
@@ -1910,7 +1934,7 @@
     },
     "Samsung GT-I9195": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9195",
         "Device_Name": "Galaxy S4 Mini",
         "Device_Maker": "Samsung",
@@ -1922,7 +1946,7 @@
     },
     "Samsung GT-I9205": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9205",
         "Device_Name": "GT-I9205",
         "Device_Maker": "Samsung",
@@ -1934,7 +1958,7 @@
     },
     "Samsung GT-I9300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9300",
         "Device_Name": "Galaxy S III",
         "Device_Maker": "Samsung",
@@ -1946,7 +1970,7 @@
     },
     "Samsung GT-I9305": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9305",
         "Device_Name": "Galaxy S III LTE International",
         "Device_Maker": "Samsung",
@@ -1958,7 +1982,7 @@
     },
     "Samsung GT-I9500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9500",
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
@@ -1970,7 +1994,7 @@
     },
     "Samsung GT-I9505G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9505G",
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
@@ -1982,7 +2006,7 @@
     },
     "Samsung GT-I9505X": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9505X",
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
@@ -1994,7 +2018,7 @@
     },
     "Samsung GT-I9505": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9505",
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
@@ -2006,7 +2030,7 @@
     },
     "Samsung GT-I9295": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9295",
         "Device_Name": "Galaxy S4 Active",
         "Device_Maker": "Samsung",
@@ -2018,7 +2042,7 @@
     },
     "Samsung GT-I9506": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9506",
         "Device_Name": "Galaxy S4 LTE+",
         "Device_Maker": "Samsung",
@@ -2030,7 +2054,7 @@
     },
     "Samsung GT-I9515": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9515",
         "Device_Name": "Galaxy S4 Value Edition",
         "Device_Maker": "Samsung",
@@ -2042,7 +2066,7 @@
     },
     "Samsung GT-I9190": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9190",
         "Device_Name": "Galaxy S4 Mini",
         "Device_Maker": "Samsung",
@@ -2054,7 +2078,7 @@
     },
     "Samsung GT-I6410": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I6410",
         "Device_Name": "GT-I6410",
         "Device_Maker": "Samsung",
@@ -2066,7 +2090,7 @@
     },
     "Samsung GT-I8320": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8320",
         "Device_Name": "GT-I8320",
         "Device_Maker": "Samsung",
@@ -2078,7 +2102,7 @@
     },
     "Samsung GT-I8000": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8000",
         "Device_Name": "GT-I8000",
         "Device_Maker": "Samsung",
@@ -2088,9 +2112,33 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I8750": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8750",
+        "Device_Name": "ATIV Odyssey",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I8700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8700",
+        "Device_Name": "Omnia 7",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-S5830": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5830",
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
@@ -2102,7 +2150,7 @@
     },
     "Samsung GT-S5570I": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5570I",
         "Device_Name": "Galaxy Pop Plus",
         "Device_Maker": "Samsung",
@@ -2114,7 +2162,7 @@
     },
     "Samsung GT-S5570": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5570",
         "Device_Name": "Galaxy Mini",
         "Device_Maker": "Samsung",
@@ -2126,7 +2174,7 @@
     },
     "Samsung GT-S5660": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5660",
         "Device_Name": "Galaxy Gio",
         "Device_Maker": "Samsung",
@@ -2138,7 +2186,7 @@
     },
     "Samsung GT-S5670": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5670",
         "Device_Name": "Galaxy Fit",
         "Device_Maker": "Samsung",
@@ -2150,7 +2198,7 @@
     },
     "Samsung GT-S5830C": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5830C",
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
@@ -2162,7 +2210,7 @@
     },
     "Samsung GT-S5830i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5830i",
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
@@ -2174,7 +2222,7 @@
     },
     "Samsung GT-S5300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5300",
         "Device_Name": "Galaxy Pocket",
         "Device_Maker": "Samsung",
@@ -2186,7 +2234,7 @@
     },
     "Samsung GT-S5300B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5300B",
         "Device_Name": "Galaxy Pocket",
         "Device_Maker": "Samsung",
@@ -2198,7 +2246,7 @@
     },
     "Samsung GT-S5363": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5363",
         "Device_Name": "GT-S5363",
         "Device_Maker": "Samsung",
@@ -2210,7 +2258,7 @@
     },
     "Samsung GT-S5360": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5360",
         "Device_Name": "Galaxy Y",
         "Device_Maker": "Samsung",
@@ -2222,7 +2270,7 @@
     },
     "Samsung GT-S5369": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5369",
         "Device_Name": "Galaxy Y",
         "Device_Maker": "Samsung",
@@ -2234,7 +2282,7 @@
     },
     "Samsung GT-S5690": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5690",
         "Device_Name": "Xcover",
         "Device_Maker": "Samsung",
@@ -2246,7 +2294,7 @@
     },
     "Samsung GT-S5839i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5839i",
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
@@ -2258,7 +2306,7 @@
     },
     "Samsung GT-S6102": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6102",
         "Device_Name": "Galaxy Y Duos",
         "Device_Maker": "Samsung",
@@ -2270,7 +2318,7 @@
     },
     "Samsung GT-S6102B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6102B",
         "Device_Name": "Galaxy Y Duos",
         "Device_Maker": "Samsung",
@@ -2282,7 +2330,7 @@
     },
     "Samsung GT-S6500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6500",
         "Device_Name": "Galaxy Mini 2",
         "Device_Maker": "Samsung",
@@ -2294,7 +2342,7 @@
     },
     "Samsung GT-S6802": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6802",
         "Device_Name": "Galaxy Ace Duos",
         "Device_Maker": "Samsung",
@@ -2306,7 +2354,7 @@
     },
     "Samsung GT-S7500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7500",
         "Device_Name": "Galaxy Ace Plus",
         "Device_Maker": "Samsung",
@@ -2318,7 +2366,7 @@
     },
     "Samsung GT-S7562": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7562",
         "Device_Name": "Galaxy S Duos",
         "Device_Maker": "Samsung",
@@ -2330,7 +2378,7 @@
     },
     "Samsung GT-S7710": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7710",
         "Device_Name": "Galaxy Xcover 2",
         "Device_Maker": "Samsung",
@@ -2342,7 +2390,7 @@
     },
     "Samsung GT-S6312": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6312",
         "Device_Name": "Galaxy Young DUOS",
         "Device_Maker": "Samsung",
@@ -2354,7 +2402,7 @@
     },
     "Samsung GT-S6310N": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6310N",
         "Device_Name": "Galaxy Young",
         "Device_Maker": "Samsung",
@@ -2366,7 +2414,7 @@
     },
     "Samsung GT-S5301": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5301",
         "Device_Name": "Galaxy Pocket Plus",
         "Device_Maker": "Samsung",
@@ -2378,7 +2426,7 @@
     },
     "Samsung GT-S6810P": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6810P",
         "Device_Name": "Galaxy Fame",
         "Device_Maker": "Samsung",
@@ -2390,7 +2438,7 @@
     },
     "Samsung GT-S5620": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5620",
         "Device_Name": "S5620 Monte",
         "Device_Maker": "Samsung",
@@ -2402,7 +2450,7 @@
     },
     "Samsung GT-S3370": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S3370",
         "Device_Name": "Corby 3G",
         "Device_Maker": "Samsung",
@@ -2414,7 +2462,7 @@
     },
     "Samsung GT-S3650": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S3650",
         "Device_Name": "GT-S3650",
         "Device_Maker": "Samsung",
@@ -2426,7 +2474,7 @@
     },
     "Samsung GT-S5230": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5230",
         "Device_Name": "GT-S5230",
         "Device_Maker": "Samsung",
@@ -2438,7 +2486,7 @@
     },
     "Samsung GT-S5560": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5560",
         "Device_Name": "GT-S5560",
         "Device_Maker": "Samsung",
@@ -2450,7 +2498,7 @@
     },
     "Samsung GT-S7550": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7550",
         "Device_Name": "GT-S7550",
         "Device_Maker": "Samsung",
@@ -2462,7 +2510,7 @@
     },
     "Samsung GT-S8000": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8000",
         "Device_Name": "GT-S8000",
         "Device_Maker": "Samsung",
@@ -2474,7 +2522,7 @@
     },
     "Samsung GT-S8300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8300",
         "Device_Name": "GT-S8300",
         "Device_Maker": "Samsung",
@@ -2486,7 +2534,7 @@
     },
     "Samsung GT-S5250": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5250",
         "Device_Name": "GT-S5250",
         "Device_Maker": "Samsung",
@@ -2498,7 +2546,7 @@
     },
     "Samsung GT-S5330": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5330",
         "Device_Name": "GT-S5330",
         "Device_Maker": "Samsung",
@@ -2510,7 +2558,7 @@
     },
     "Samsung GT-S7230E": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7230E",
         "Device_Name": "GT-S7230E",
         "Device_Maker": "Samsung",
@@ -2522,7 +2570,7 @@
     },
     "Samsung GT-S8500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8500",
         "Device_Name": "Wave 2",
         "Device_Maker": "Samsung",
@@ -2534,7 +2582,7 @@
     },
     "Samsung GT-S8530": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8530",
         "Device_Name": "Wave 2",
         "Device_Maker": "Samsung",
@@ -2546,7 +2594,7 @@
     },
     "Samsung GT-S8500L": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8500L",
         "Device_Name": "GT-S8500L",
         "Device_Maker": "Samsung",
@@ -2558,7 +2606,7 @@
     },
     "Samsung GT-S5260": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5260",
         "Device_Name": "Star II",
         "Device_Maker": "Samsung",
@@ -2570,7 +2618,7 @@
     },
     "Samsung GT-S8600": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8600",
         "Device_Name": "Wave 3",
         "Device_Maker": "Samsung",
@@ -2582,7 +2630,7 @@
     },
     "Samsung GT-S5380": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5380",
         "Device_Name": "GT-S5380",
         "Device_Maker": "Samsung",
@@ -2594,7 +2642,7 @@
     },
     "Samsung GT-B7722": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-B7722",
         "Device_Name": "GT-B7722",
         "Device_Maker": "Samsung",
@@ -2606,7 +2654,7 @@
     },
     "Samsung GT-B3310": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-B3310",
         "Device_Name": "GT-B3310",
         "Device_Maker": "Samsung",
@@ -2618,7 +2666,7 @@
     },
     "Samsung GT-B3410": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-B3410",
         "Device_Name": "GT-B3410",
         "Device_Maker": "Samsung",
@@ -2630,7 +2678,7 @@
     },
     "Samsung GT-B7610": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-B7610",
         "Device_Name": "GT-B7610",
         "Device_Maker": "Samsung",
@@ -2642,7 +2690,7 @@
     },
     "Samsung GT-B2710": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-B2710",
         "Device_Name": "GT-B2710",
         "Device_Maker": "Samsung",
@@ -2652,9 +2700,33 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-B7330": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-B7330",
+        "Device_Name": "GT-B7330",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-B6710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-B6710",
+        "Device_Name": "GT-B6710",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-E2550": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-E2550",
         "Device_Name": "GT-E2550",
         "Device_Maker": "Samsung",
@@ -2666,7 +2738,7 @@
     },
     "Samsung NexusS": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Nexus S",
         "Device_Name": "Nexus S",
         "Device_Maker": "Samsung",
@@ -2954,7 +3026,7 @@
     },
     "Samsung SM-G900F": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G900F",
         "Device_Name": "Galaxy S5 LTE",
         "Device_Maker": "Samsung",
@@ -2966,7 +3038,7 @@
     },
     "Samsung SM-G900A": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G900A",
         "Device_Name": "Galaxy S5 LTE (AT&T)",
         "Device_Maker": "Samsung",
@@ -2978,7 +3050,7 @@
     },
     "Samsung SM-G900T": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G900T",
         "Device_Name": "Galaxy S5 LTE (T-Mobile)",
         "Device_Maker": "Samsung",
@@ -2990,7 +3062,7 @@
     },
     "Samsung SM-G900V": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G900V",
         "Device_Name": "Galaxy S5 CDMA (Verizon)",
         "Device_Maker": "Samsung",
@@ -3026,7 +3098,7 @@
     },
     "Samsung SM-N9005": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N9005",
         "Device_Name": "Galaxy Note 3 LTE",
         "Device_Maker": "Samsung",
@@ -3038,7 +3110,7 @@
     },
     "Samsung SM-N900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N900",
         "Device_Name": "Galaxy Note 3 3G",
         "Device_Maker": "Samsung",
@@ -3050,7 +3122,7 @@
     },
     "Samsung SM-N900A": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N900A",
         "Device_Name": "Galaxy Note 3 LTE (AT&T)",
         "Device_Maker": "Samsung",
@@ -3062,7 +3134,7 @@
     },
     "Samsung SM-N900V": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N900V",
         "Device_Name": "Galaxy Note 3 LTE (Verizon)",
         "Device_Maker": "Samsung",
@@ -3074,7 +3146,7 @@
     },
     "Samsung SM-N7505": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N7505",
         "Device_Name": "Note 3 Neo Duos",
         "Device_Maker": "Samsung",
@@ -3086,7 +3158,7 @@
     },
     "Samsung SM-N7505": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N7505",
         "Device_Name": "Note 3 Neo Duos",
         "Device_Maker": "Samsung",
@@ -3098,7 +3170,7 @@
     },
     "Samsung SM-N910V 4G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N910V 4G",
         "Device_Name": "Galaxy Note 4",
         "Device_Maker": "Samsung",
@@ -3218,7 +3290,7 @@
     },
     "Samsung SCH-U820": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-U820",
         "Device_Name": "SCH-U820",
         "Device_Maker": "Samsung",
@@ -3230,7 +3302,7 @@
     },
     "Samsung SPH M900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH M900",
         "Device_Name": "SPH M900",
         "Device_Maker": "Samsung",
@@ -3242,7 +3314,7 @@
     },
     "Samsung SGH-I896": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I896",
         "Device_Name": "SGH-I896",
         "Device_Maker": "Samsung",
@@ -3254,7 +3326,7 @@
     },
     "Samsung SGH-I897": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I897",
         "Device_Name": "SGH-I897",
         "Device_Maker": "Samsung",
@@ -3288,9 +3360,45 @@
         "isTablet": "true"
       }
     },
+    "Samsung SGH-I907": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I907",
+        "Device_Name": "SGH-I907",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I617": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I617",
+        "Device_Name": "SGH-I617",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I627": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I627",
+        "Device_Name": "SGH-I627",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SCH-I500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I500",
         "Device_Name": "SCH-I500",
         "Device_Maker": "Samsung",
@@ -3302,7 +3410,7 @@
     },
     "Samsung SCH-I200": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I200",
         "Device_Name": "Galaxy Stellar 4G",
         "Device_Maker": "Samsung",
@@ -3314,7 +3422,7 @@
     },
     "Samsung SCH-I605": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I605",
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
@@ -3326,7 +3434,7 @@
     },
     "Samsung SCH-I535": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I535",
         "Device_Name": "Galaxy S III 4G",
         "Device_Maker": "Samsung",
@@ -3338,7 +3446,7 @@
     },
     "Samsung SCH-I545": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I545",
         "Device_Name": "Galaxy S4 LTE (Verizon), White Frost 16GB",
         "Device_Maker": "Samsung",
@@ -3350,7 +3458,7 @@
     },
     "Samsung SCH-R880": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH R880",
         "Device_Name": "SCH R880",
         "Device_Maker": "Samsung",
@@ -3362,7 +3470,7 @@
     },
     "Samsung SCH-R720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-R720",
         "Device_Name": "R720 Admire",
         "Device_Maker": "Samsung",
@@ -3374,7 +3482,7 @@
     },
     "Samsung SGH-T959": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T959",
         "Device_Name": "SGH-T959",
         "Device_Maker": "Samsung",
@@ -3386,7 +3494,7 @@
     },
     "Samsung SGH-T989": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T989",
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
@@ -3398,7 +3506,7 @@
     },
     "Samsung SGH-T889": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T889",
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
@@ -3410,7 +3518,7 @@
     },
     "Samsung SGH-T528g": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T528g",
         "Device_Name": "SGH-T528g",
         "Device_Maker": "Samsung",
@@ -3422,7 +3530,7 @@
     },
     "Samsung SGH-M919": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-M919",
         "Device_Name": "Galaxy S4 LTE (T-Mobile), Black Mist",
         "Device_Maker": "Samsung",
@@ -3434,7 +3542,7 @@
     },
     "Samsung SGH-E250": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-E250",
         "Device_Name": "SGH-E250",
         "Device_Maker": "Samsung",
@@ -3446,7 +3554,7 @@
     },
     "Samsung SGH-F480": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-F480",
         "Device_Name": "SGH-F480",
         "Device_Maker": "Samsung",
@@ -3458,7 +3566,7 @@
     },
     "Samsung SGH-G800": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-G800",
         "Device_Name": "SGH-G800",
         "Device_Maker": "Samsung",
@@ -3470,7 +3578,7 @@
     },
     "Samsung SGH-U700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-U700",
         "Device_Name": "SGH-U700",
         "Device_Maker": "Samsung",
@@ -3482,7 +3590,7 @@
     },
     "Samsung SGH-U900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-U900",
         "Device_Name": "SGH-U900",
         "Device_Maker": "Samsung",
@@ -3494,7 +3602,7 @@
     },
     "Samsung SHW-M110S": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SHW-M110S",
         "Device_Name": "SHW-M110S",
         "Device_Maker": "Samsung",
@@ -3506,7 +3614,7 @@
     },
     "Samsung SHW-M380W": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SHW-M380W",
         "Device_Name": "SHW-M380W",
         "Device_Maker": "Samsung",
@@ -3518,7 +3626,7 @@
     },
     "Samsung SPH-D700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH D700",
         "Device_Name": "SPH D700",
         "Device_Maker": "Samsung",
@@ -3530,7 +3638,7 @@
     },
     "Samsung SPH-M910": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH-M910",
         "Device_Name": "SPH-M910",
         "Device_Maker": "Samsung",
@@ -3542,7 +3650,7 @@
     },
     "Samsung SPH-D710": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH-D710",
         "Device_Name": "Galaxy S II Epic 4G Touch",
         "Device_Maker": "Samsung",
@@ -3554,7 +3662,7 @@
     },
     "Samsung SPH-D710BST": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH-D710BST",
         "Device_Name": "Galaxy S II Epic 4G Touch",
         "Device_Maker": "Samsung",
@@ -3566,7 +3674,7 @@
     },
     "Samsung SPH-L720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPH-L720",
         "Device_Name": "Galaxy S4 LTE (Sprint), White Frost",
         "Device_Maker": "Samsung",
@@ -3578,7 +3686,7 @@
     },
     "Samsung GT-N7000": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-N7000",
         "Device_Name": "Galaxy Note",
         "Device_Maker": "Samsung",
@@ -3590,7 +3698,7 @@
     },
     "Samsung GT-N7100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-N7100",
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
@@ -3650,7 +3758,7 @@
     },
     "Samsung GT-N7105": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-N7105",
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
@@ -3662,7 +3770,7 @@
     },
     "Samsung GT-N7108": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-N7108",
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
@@ -3746,7 +3854,7 @@
     },
     "Samsung Galaxy Nexus": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Galaxy Nexus",
         "Device_Name": "Galaxy Nexus",
         "Device_Maker": "Samsung",
@@ -3758,7 +3866,7 @@
     },
     "Samsung C3050": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C3050",
         "Device_Name": "C3050",
         "Device_Maker": "Samsung",
@@ -3770,7 +3878,7 @@
     },
     "Samsung GT-3210": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-3210",
         "Device_Name": "GT-3210",
         "Device_Maker": "Samsung",
@@ -3780,9 +3888,21 @@
         "isTablet": "false"
       }
     },
+    "Samsung C6625": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6625",
+        "Device_Name": "C6625",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A50",
         "Device_Name": "A50",
         "Device_Maker": "Garmin-Asus",
@@ -3794,7 +3914,7 @@
     },
     "Garmin-Asus A10": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A10",
         "Device_Name": "A10",
         "Device_Maker": "Garmin-Asus",
@@ -3986,7 +4106,7 @@
     },
     "Motorola MB525": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB525",
         "Device_Name": "DEFY",
         "Device_Maker": "Motorola",
@@ -3998,7 +4118,7 @@
     },
     "Motorola Milestone": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Milestone",
         "Device_Name": "Milestone",
         "Device_Maker": "Motorola",
@@ -4010,7 +4130,7 @@
     },
     "Motorola MB200": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB200",
         "Device_Name": "MB200",
         "Device_Maker": "Motorola",
@@ -4022,7 +4142,7 @@
     },
     "Motorola MB300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB300",
         "Device_Name": "Backflip",
         "Device_Maker": "Motorola",
@@ -4034,7 +4154,7 @@
     },
     "Motorola DroidX": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "DroidX",
         "Device_Name": "DroidX",
         "Device_Maker": "Motorola",
@@ -4046,7 +4166,7 @@
     },
     "Motorola Droid": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Droid",
         "Device_Name": "Droid",
         "Device_Maker": "Motorola",
@@ -4058,7 +4178,7 @@
     },
     "Motorola MB508": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB508",
         "Device_Name": "MB508",
         "Device_Maker": "Motorola",
@@ -4070,7 +4190,7 @@
     },
     "Motorola MB632": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB632",
         "Device_Name": "Pro+",
         "Device_Maker": "Motorola",
@@ -4082,7 +4202,7 @@
     },
     "Motorola MB860": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB860",
         "Device_Name": "Atrix",
         "Device_Maker": "Motorola",
@@ -4094,7 +4214,7 @@
     },
     "Motorola XT615": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT615",
         "Device_Name": "XT615",
         "Device_Maker": "Motorola",
@@ -4106,7 +4226,7 @@
     },
     "Motorola XT720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT720",
         "Device_Name": "Milestone XT720",
         "Device_Maker": "Motorola",
@@ -4118,7 +4238,7 @@
     },
     "Motorola MB511": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB511",
         "Device_Name": "MB511",
         "Device_Maker": "Motorola",
@@ -4130,7 +4250,7 @@
     },
     "Motorola WX445": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "WX445",
         "Device_Name": "WX445",
         "Device_Maker": "Motorola",
@@ -4142,7 +4262,7 @@
     },
     "Motorola XT610": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT610",
         "Device_Name": "XT610",
         "Device_Maker": "Motorola",
@@ -4154,7 +4274,7 @@
     },
     "Motorola XT701": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT701",
         "Device_Name": "XT701",
         "Device_Maker": "Motorola",
@@ -4166,7 +4286,7 @@
     },
     "Motorola A953": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A953",
         "Device_Name": "MILESTONE 2",
         "Device_Maker": "Motorola",
@@ -4178,7 +4298,7 @@
     },
     "Motorola MotoroiX": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MotoroiX",
         "Device_Name": "MotoroiX",
         "Device_Maker": "Motorola",
@@ -4190,7 +4310,7 @@
     },
     "Motorola XT320": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT320",
         "Device_Name": "Defy Mini",
         "Device_Maker": "Motorola",
@@ -4202,7 +4322,7 @@
     },
     "Motorola MB526": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MB526",
         "Device_Name": "MB526",
         "Device_Maker": "Motorola",
@@ -4214,7 +4334,7 @@
     },
     "Motorola XT910": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT910",
         "Device_Name": "RAZR XT910 Spider",
         "Device_Maker": "Motorola",
@@ -4298,7 +4418,7 @@
     },
     "Motorola XT912B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT912B",
         "Device_Name": "Droid Razr 4G",
         "Device_Maker": "Motorola",
@@ -4310,7 +4430,7 @@
     },
     "Motorola Droid X2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Droid X2",
         "Device_Name": "Droid X2",
         "Device_Maker": "Motorola",
@@ -4322,7 +4442,7 @@
     },
     "Motorola Droid Bionic 4G LTE": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Droid Bionic 4G LTE",
         "Device_Name": "Droid Bionic 4G LTE",
         "Device_Maker": "Motorola",
@@ -4334,7 +4454,7 @@
     },
     "Motorola XT890": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT890",
         "Device_Name": "RAZR i",
         "Device_Maker": "Motorola",
@@ -4346,7 +4466,7 @@
     },
     "Motorola XT907": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT907",
         "Device_Name": "DROID RAZR M 4G LTE",
         "Device_Maker": "Motorola",
@@ -4358,7 +4478,7 @@
     },
     "Motorola XT925": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT925",
         "Device_Name": "XT925",
         "Device_Maker": "Motorola",
@@ -4370,7 +4490,7 @@
     },
     "Motorola XT923": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT923",
         "Device_Name": "Droid Razr HD",
         "Device_Maker": "Motorola",
@@ -4382,7 +4502,7 @@
     },
     "Motorola XT1032": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1032",
         "Device_Name": "Moto G",
         "Device_Maker": "Motorola",
@@ -4394,7 +4514,7 @@
     },
     "Motorola XT1033": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1033",
         "Device_Name": "Moto G",
         "Device_Maker": "Motorola",
@@ -4406,7 +4526,7 @@
     },
     "Motorola XT1080": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1080",
         "Device_Name": "Droid Ultra",
         "Device_Maker": "Motorola",
@@ -4418,7 +4538,7 @@
     },
     "Motorola XT1058": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1058",
         "Device_Name": "Moto X",
         "Device_Maker": "Motorola",
@@ -4430,7 +4550,7 @@
     },
     "HTC Desire": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire",
         "Device_Name": "Desire",
         "Device_Maker": "HTC",
@@ -4442,7 +4562,7 @@
     },
     "HTC Legend": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Legend",
         "Device_Name": "Legend",
         "Device_Maker": "HTC",
@@ -4454,7 +4574,7 @@
     },
     "HTC HD2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "HD2",
         "Device_Name": "HD2",
         "Device_Maker": "HTC",
@@ -4466,7 +4586,7 @@
     },
     "HTC Z710": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Z710",
         "Device_Name": "Sensation",
         "Device_Maker": "HTC",
@@ -4478,7 +4598,7 @@
     },
     "HTC Z710e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Z710e",
         "Device_Name": "Sensation",
         "Device_Maker": "HTC",
@@ -4490,7 +4610,7 @@
     },
     "HTC Nexus One": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Nexus One",
         "Device_Name": "HTC Nexus One",
         "Device_Maker": "HTC",
@@ -4502,7 +4622,7 @@
     },
     "HTC Desire C": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "1000C",
         "Device_Name": "Desire C",
         "Device_Maker": "HTC",
@@ -4514,7 +4634,7 @@
     },
     "HTC Dream": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Dream",
         "Device_Name": "Dream",
         "Device_Maker": "HTC",
@@ -4526,7 +4646,7 @@
     },
     "HTC M7": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M7",
         "Device_Name": "One",
         "Device_Maker": "HTC",
@@ -4538,7 +4658,7 @@
     },
     "HTC HTC": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "HTC",
         "Device_Name": "HTC",
         "Device_Maker": "HTC",
@@ -4550,7 +4670,7 @@
     },
     "HTC Hero": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Hero",
         "Device_Name": "Hero",
         "Device_Maker": "HTC",
@@ -4562,7 +4682,7 @@
     },
     "HTC Magic": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Magic",
         "Device_Name": "Magic",
         "Device_Maker": "HTC",
@@ -4574,7 +4694,7 @@
     },
     "HTC Tattoo": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Tattoo",
         "Device_Name": "Tattoo",
         "Device_Maker": "HTC",
@@ -4586,7 +4706,7 @@
     },
     "HTC Desire HD": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire HD",
         "Device_Name": "Desire HD",
         "Device_Maker": "HTC",
@@ -4598,7 +4718,7 @@
     },
     "HTC Desire HD A9191": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A9191",
         "Device_Name": "Desire HD",
         "Device_Maker": "HTC",
@@ -4610,7 +4730,7 @@
     },
     "HTC Desire S": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire S",
         "Device_Name": "Desire S",
         "Device_Maker": "HTC",
@@ -4622,7 +4742,7 @@
     },
     "HTC Wildfire": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Wildfire",
         "Device_Name": "Wildfire",
         "Device_Maker": "HTC",
@@ -4634,7 +4754,7 @@
     },
     "HTC Wildfire A3333": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A3333",
         "Device_Name": "Wildfire",
         "Device_Maker": "HTC",
@@ -4646,7 +4766,7 @@
     },
     "HTC Wildfire S": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Wildfire S",
         "Device_Name": "Wildfire S",
         "Device_Maker": "HTC",
@@ -4658,7 +4778,7 @@
     },
     "HTC Wildfire S A510": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A510",
         "Device_Name": "Wildfire S",
         "Device_Maker": "HTC",
@@ -4670,7 +4790,7 @@
     },
     "HTC X515m": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X515m",
         "Device_Name": "EVO 3D",
         "Device_Maker": "HTC",
@@ -4706,7 +4826,7 @@
     },
     "HTC S710E": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "S710E",
         "Device_Name": "Incredible S",
         "Device_Maker": "HTC",
@@ -4718,7 +4838,7 @@
     },
     "HTC Runnymede": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Runnymede",
         "Device_Name": "Runnymede",
         "Device_Maker": "HTC",
@@ -4730,7 +4850,7 @@
     },
     "HTC X315e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X315e",
         "Device_Name": "Sensation XL with Beats Audio",
         "Device_Maker": "HTC",
@@ -4742,7 +4862,7 @@
     },
     "HTC Spark": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Spark",
         "Device_Name": "7 Trophy",
         "Device_Maker": "HTC",
@@ -4754,7 +4874,7 @@
     },
     "HTC Desire A8181": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A8181",
         "Device_Name": "Desire",
         "Device_Maker": "HTC",
@@ -4766,7 +4886,7 @@
     },
     "HTC Eris": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Eris",
         "Device_Name": "Eris",
         "Device_Maker": "HTC",
@@ -4778,7 +4898,7 @@
     },
     "HTC A6366": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A6366",
         "Device_Name": "A6366",
         "Device_Maker": "HTC",
@@ -4790,7 +4910,7 @@
     },
     "HTC A3335": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A3335",
         "Device_Name": "A3335",
         "Device_Maker": "HTC",
@@ -4802,7 +4922,7 @@
     },
     "HTC Aria A6380": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Aria A6380",
         "Device_Name": "Aria A6380",
         "Device_Maker": "HTC",
@@ -4814,7 +4934,7 @@
     },
     "HTC Vision": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Vision",
         "Device_Name": "Vision",
         "Device_Maker": "HTC",
@@ -4826,7 +4946,7 @@
     },
     "HTC A6380": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A6380",
         "Device_Name": "Gratia",
         "Device_Maker": "HTC",
@@ -4838,7 +4958,7 @@
     },
     "HTC Flyer P510e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Flyer P510e",
         "Device_Name": "Flyer P510e",
         "Device_Maker": "HTC",
@@ -4850,7 +4970,7 @@
     },
     "HTC Z715e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Sensation XE Beats Z715e",
         "Device_Name": "Sensation",
         "Device_Maker": "HTC",
@@ -4862,7 +4982,7 @@
     },
     "HTC A310e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A310e",
         "Device_Name": "Explorer",
         "Device_Maker": "HTC",
@@ -4874,7 +4994,7 @@
     },
     "HTC Velocity 4G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Velocity 4G",
         "Device_Name": "Velocity 4G",
         "Device_Maker": "HTC",
@@ -4886,7 +5006,7 @@
     },
     "HTC A810e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A810e",
         "Device_Name": "ChaCha",
         "Device_Maker": "HTC",
@@ -4898,7 +5018,7 @@
     },
     "HTC S510e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "S510e",
         "Device_Name": "Desire S",
         "Device_Maker": "HTC",
@@ -4910,7 +5030,7 @@
     },
     "HTC A7272": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A7272",
         "Device_Name": "Desire Z",
         "Device_Maker": "HTC",
@@ -4922,7 +5042,7 @@
     },
     "HTC S510B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "S510B",
         "Device_Name": "Rhyme",
         "Device_Maker": "HTC",
@@ -4934,7 +5054,7 @@
     },
     "HTC A510e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A510e",
         "Device_Name": "Wildfire S",
         "Device_Maker": "HTC",
@@ -4946,7 +5066,7 @@
     },
     "HTC T328E": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T328E",
         "Device_Name": "Desire X",
         "Device_Maker": "HTC",
@@ -4958,7 +5078,7 @@
     },
     "HTC PJ401": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PJ401",
         "Device_Name": "One S",
         "Device_Maker": "HTC",
@@ -4970,7 +5090,7 @@
     },
     "HTC ADR6350": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ADR6350",
         "Device_Name": "Droid Incredible 2",
         "Device_Maker": "HTC",
@@ -4982,7 +5102,7 @@
     },
     "HTC One V": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "One V",
         "Device_Name": "One V",
         "Device_Maker": "HTC",
@@ -4994,7 +5114,7 @@
     },
     "HTC PJ83100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PJ83100",
         "Device_Name": "One X",
         "Device_Maker": "HTC",
@@ -5006,7 +5126,7 @@
     },
     "HTC PM63100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PM63100",
         "Device_Name": "One X+",
         "Device_Maker": "HTC",
@@ -5018,7 +5138,7 @@
     },
     "HTC HTC6435LVW": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "HTC6435LVW",
         "Device_Name": "Droid DNA",
         "Device_Maker": "HTC",
@@ -5030,7 +5150,7 @@
     },
     "HTC One SV": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "One SV",
         "Device_Name": "One SV",
         "Device_Maker": "HTC",
@@ -5042,7 +5162,7 @@
     },
     "HTC One XL": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "One XL",
         "Device_Name": "One XL",
         "Device_Maker": "HTC",
@@ -5054,7 +5174,7 @@
     },
     "HTC One Mini": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "One Mini",
         "Device_Name": "One Mini",
         "Device_Maker": "HTC",
@@ -5066,7 +5186,7 @@
     },
     "HTC M8": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M8",
         "Device_Name": "One",
         "Device_Maker": "HTC",
@@ -5078,7 +5198,7 @@
     },
     "HTC X515": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X515",
         "Device_Name": "EVO 3D",
         "Device_Maker": "HTC",
@@ -5090,7 +5210,7 @@
     },
     "HTC 9292": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "9292",
         "Device_Name": "EVO 4G",
         "Device_Maker": "HTC",
@@ -5102,7 +5222,7 @@
     },
     "HTC Desire 500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire 500",
         "Device_Name": "Desire 500",
         "Device_Maker": "HTC",
@@ -5114,7 +5234,7 @@
     },
     "HTC Desire SV": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire SV",
         "Device_Name": "Desire SV",
         "Device_Maker": "HTC",
@@ -5126,7 +5246,7 @@
     },
     "HTC M7 (HTC6500LVW)": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M7 (HTC6500LVW)",
         "Device_Name": "One (Verizon)",
         "Device_Maker": "HTC",
@@ -5138,7 +5258,7 @@
     },
     "HTC 831C": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "831C",
         "Device_Name": "One M8 Harmon/Kardon Edition",
         "Device_Maker": "HTC",
@@ -5148,9 +5268,453 @@
         "isTablet": "false"
       }
     },
+    "HTC 8S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8S",
+        "Device_Name": "8S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 8X": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Windows Phone 8X",
+        "Device_Name": "Windows Phone 8X",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC X310e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X310e",
+        "Device_Name": "Titan",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Radar": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Radar",
+        "Device_Name": "Radar",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Radar C110e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Radar C110e",
+        "Device_Name": "Radar C110e",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Radar 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Radar 4G",
+        "Device_Name": "Radar 4G",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T9292": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T9292",
+        "Device_Name": "HD7",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T7576": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T7576",
+        "Device_Name": "7 pro",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T8698": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T8698",
+        "Device_Name": "7 Mozart",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T7272": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Pro T7272",
+        "Device_Name": "Touch Pro T7272",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Pro2 T7272": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Pro2 T7272",
+        "Device_Name": "Touch Pro2 T7272",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Pro2 T7373": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Pro2 T7373",
+        "Device_Name": "Touch Pro2 T7373",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch HD T8282": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch HD T8282",
+        "Device_Name": "Touch HD T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Diamond2 T5353": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Diamond2 T5353",
+        "Device_Name": "Touch Diamond2 T5353",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Cruise T4242": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Cruise T4242",
+        "Device_Name": "Touch Cruise T4242",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Snap S523": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Snap S523",
+        "Device_Name": "Snap S523",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Snap S521": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Snap S521",
+        "Device_Name": "Snap S521",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3700",
+        "Device_Name": "P3700",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Maple S520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Maple S520",
+        "Device_Name": "Maple S520",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD2 T8585": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD2 T8585",
+        "Device_Name": "HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC ST7377": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST7377",
+        "Device_Name": "ST7377",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD mini T5555": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD mini T5555",
+        "Device_Name": "HD mini T5555",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch HD2 T8585": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch HD2 T8585",
+        "Device_Name": "Touch HD2 T8585",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD2 T9193": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD2 T9193",
+        "Device_Name": "HD2 T9193",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD T8282": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD T8282",
+        "Device_Name": "HD T8282",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Xperia": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Xperia",
+        "Device_Name": "Xperia",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC HD mini": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "HD mini",
+        "Device_Name": "HD mini",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T9199": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T9199",
+        "Device_Name": "T9199",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Pro",
+        "Device_Name": "Touch Pro",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC TyTN II": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "TyTN II",
+        "Device_Name": "TyTN II",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch 3G T3232": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch 3G T3232",
+        "Device_Name": "Touch 3G T3232",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC TouchDual": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "TouchDual",
+        "Device_Name": "TouchDual",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC S740": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S740",
+        "Device_Name": "S740",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC S730": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S730",
+        "Device_Name": "S730",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P6500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P6500",
+        "Device_Name": "P6500",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P4550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P4550",
+        "Device_Name": "P4550",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3650",
+        "Device_Name": "P3650",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P500",
         "Device_Name": "Optimus One",
         "Device_Maker": "LG",
@@ -5162,7 +5726,7 @@
     },
     "LG VX8575": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VX8575",
         "Device_Name": "VX8575",
         "Device_Maker": "LG",
@@ -5174,7 +5738,7 @@
     },
     "LG KH5200": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "KH5200",
         "Device_Name": "KH5200",
         "Device_Maker": "LG",
@@ -5186,7 +5750,7 @@
     },
     "LG GT540": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT540",
         "Device_Name": "GT540",
         "Device_Maker": "LG",
@@ -5198,7 +5762,7 @@
     },
     "LG C1500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C1500",
         "Device_Name": "C1500",
         "Device_Maker": "LG",
@@ -5210,7 +5774,7 @@
     },
     "LG D805": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D805",
         "Device_Name": "D805",
         "Device_Maker": "LG",
@@ -5222,7 +5786,7 @@
     },
     "LG E720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E720",
         "Device_Name": "E720",
         "Device_Maker": "LG",
@@ -5234,7 +5798,7 @@
     },
     "LG E730": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E730",
         "Device_Name": "E730",
         "Device_Maker": "LG",
@@ -5246,7 +5810,7 @@
     },
     "LG P350": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P350",
         "Device_Name": "P350",
         "Device_Maker": "LG",
@@ -5258,7 +5822,7 @@
     },
     "LG P720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P720",
         "Device_Name": "P720",
         "Device_Maker": "LG",
@@ -5270,7 +5834,7 @@
     },
     "LG P920": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P920",
         "Device_Name": "Optimus 3D",
         "Device_Maker": "LG",
@@ -5282,7 +5846,7 @@
     },
     "LG P925": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P925",
         "Device_Name": "Thrill",
         "Device_Maker": "LG",
@@ -5294,7 +5858,7 @@
     },
     "LG P940": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P940",
         "Device_Name": "Prada 3.0",
         "Device_Maker": "LG",
@@ -5306,7 +5870,7 @@
     },
     "LG P970": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P970",
         "Device_Name": "Optimus Black",
         "Device_Maker": "LG",
@@ -5318,7 +5882,7 @@
     },
     "LG P990": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P990",
         "Device_Name": "Optimus 2X",
         "Device_Maker": "LG",
@@ -5330,7 +5894,7 @@
     },
     "LG E400": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E400",
         "Device_Name": "Optimus L3",
         "Device_Maker": "LG",
@@ -5342,7 +5906,7 @@
     },
     "LG E510": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E510",
         "Device_Name": "Optimus Hub",
         "Device_Maker": "LG",
@@ -5354,7 +5918,7 @@
     },
     "LG P690": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P690",
         "Device_Name": "Optimus Spirit",
         "Device_Maker": "LG",
@@ -5378,7 +5942,7 @@
     },
     "LG P710": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P710",
         "Device_Name": "Optimus L7 II",
         "Device_Maker": "LG",
@@ -5390,7 +5954,7 @@
     },
     "LG E460": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E460",
         "Device_Name": "Optimus L5 II",
         "Device_Maker": "LG",
@@ -5402,7 +5966,7 @@
     },
     "LG VS840 4G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VS840 4G",
         "Device_Name": "Lucid 4G VS840",
         "Device_Maker": "LG",
@@ -5414,7 +5978,7 @@
     },
     "LG E610": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E610",
         "Device_Name": "Optimus L5",
         "Device_Maker": "LG",
@@ -5426,7 +5990,7 @@
     },
     "LG E975": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E975",
         "Device_Name": "E975",
         "Device_Maker": "LG",
@@ -5438,7 +6002,7 @@
     },
     "LG F100L": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "F100L",
         "Device_Name": "Optimus Vu",
         "Device_Maker": "LG",
@@ -5450,7 +6014,7 @@
     },
     "LG LS860": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LS860",
         "Device_Name": "LS860",
         "Device_Maker": "LG",
@@ -5462,7 +6026,7 @@
     },
     "LG P700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P700",
         "Device_Name": "Optimus L7",
         "Device_Maker": "LG",
@@ -5474,7 +6038,7 @@
     },
     "LG P760": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P760",
         "Device_Name": "Optimus L9",
         "Device_Maker": "LG",
@@ -5486,7 +6050,7 @@
     },
     "LG P880": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P880",
         "Device_Name": "Optimus 4X HD",
         "Device_Maker": "LG",
@@ -5498,7 +6062,7 @@
     },
     "LG P895": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P895",
         "Device_Name": "Optimus Vu",
         "Device_Maker": "LG",
@@ -5510,7 +6074,7 @@
     },
     "LG Nexus 4": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Nexus 4",
         "Device_Name": "Nexus 4",
         "Device_Maker": "LG",
@@ -5522,7 +6086,7 @@
     },
     "LG D802": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D802",
         "Device_Name": "G2",
         "Device_Maker": "LG",
@@ -5534,7 +6098,7 @@
     },
     "LG P705": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P705",
         "Device_Name": "Optimus L7",
         "Device_Maker": "LG",
@@ -5546,7 +6110,7 @@
     },
     "LG Nexus 5": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Nexus 5",
         "Device_Name": "Nexus 5",
         "Device_Maker": "LG",
@@ -5558,7 +6122,7 @@
     },
     "LG LS740": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LS740",
         "Device_Name": "Volt LS740",
         "Device_Maker": "LG",
@@ -5570,7 +6134,7 @@
     },
     "LG VS980": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VS980",
         "Device_Name": "G2 Verizon VS980",
         "Device_Maker": "LG",
@@ -5580,9 +6144,45 @@
         "isTablet": "false"
       }
     },
+    "LG E906": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E906",
+        "Device_Name": "E906",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E900",
+        "Device_Name": "E900",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG GM750": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GM750",
+        "Device_Name": "GM750",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Smartpad",
         "Device_Name": "Smartpad",
         "Device_Maker": "1 & 1",
@@ -5618,7 +6218,7 @@
     },
     "Acer Stream": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Stream",
         "Device_Name": "Stream",
         "Device_Maker": "Acer",
@@ -5630,7 +6230,7 @@
     },
     "Acer Liquid": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Liquid",
         "Device_Name": "Liquid",
         "Device_Maker": "Acer",
@@ -5642,7 +6242,7 @@
     },
     "Acer E140": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E140",
         "Device_Name": "E140",
         "Device_Maker": "Acer",
@@ -5654,7 +6254,7 @@
     },
     "Acer E310": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E310",
         "Device_Name": "Liquid Mini",
         "Device_Maker": "Acer",
@@ -5666,7 +6266,7 @@
     },
     "Acer Liquid Metal": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Liquid Metal",
         "Device_Name": "Liquid Metal",
         "Device_Maker": "Acer",
@@ -5678,7 +6278,7 @@
     },
     "Acer E320": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E320",
         "Device_Name": "Liquid Express",
         "Device_Maker": "Acer",
@@ -5846,7 +6446,7 @@
     },
     "Acer S500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "S500",
         "Device_Name": "S500",
         "Device_Maker": "Acer",
@@ -5882,7 +6482,7 @@
     },
     "Mobistel Cynus T2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Cynus T2",
         "Device_Name": "Cynus T2",
         "Device_Maker": "Mobistel",
@@ -5894,7 +6494,7 @@
     },
     "Mobistel Cynus T1": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Cynus T1",
         "Device_Name": "Cynus T1",
         "Device_Maker": "Mobistel",
@@ -5906,7 +6506,7 @@
     },
     "Mobistel MT-7521S": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT-7521S",
         "Device_Name": "Cynus F4",
         "Device_Maker": "Mobistel",
@@ -5918,7 +6518,7 @@
     },
     "Mobistel Cynus F3": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Cynus F3",
         "Device_Name": "Cynus F3",
         "Device_Maker": "Mobistel",
@@ -5930,7 +6530,7 @@
     },
     "Mobistel Cynus T5": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Cynus T5",
         "Device_Name": "Cynus T5",
         "Device_Maker": "Mobistel",
@@ -5966,7 +6566,7 @@
     },
     "Medion Life E3501": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Life E3501",
         "Device_Name": "Life E3501",
         "Device_Maker": "Medion",
@@ -6110,7 +6710,7 @@
     },
     "Huawei M860": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M860",
         "Device_Name": "M860",
         "Device_Maker": "Huawei",
@@ -6122,7 +6722,7 @@
     },
     "Huawei U8100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8100",
         "Device_Name": "U8100",
         "Device_Maker": "Huawei",
@@ -6134,7 +6734,7 @@
     },
     "Huawei U8180": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8180",
         "Device_Name": "U8180",
         "Device_Maker": "Huawei",
@@ -6146,7 +6746,7 @@
     },
     "Huawei U8220": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8220",
         "Device_Name": "U8220",
         "Device_Maker": "Huawei",
@@ -6158,7 +6758,7 @@
     },
     "Huawei U8500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8500",
         "Device_Name": "U8500",
         "Device_Maker": "Huawei",
@@ -6182,7 +6782,7 @@
     },
     "Huawei U8650": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8650",
         "Device_Name": "Sonic",
         "Device_Maker": "Huawei",
@@ -6194,7 +6794,7 @@
     },
     "Huawei U8666E": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8666E",
         "Device_Name": "Ascend Y201 Pro",
         "Device_Maker": "Huawei",
@@ -6206,7 +6806,7 @@
     },
     "Huawei U8950N": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8950N",
         "Device_Name": "Ascend G600",
         "Device_Maker": "Huawei",
@@ -6218,7 +6818,7 @@
     },
     "Huawei S41HW": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "S41HW",
         "Device_Name": "Pocket WiFi S II for emobile",
         "Device_Maker": "Huawei",
@@ -6230,7 +6830,7 @@
     },
     "Huawei U8600": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8600",
         "Device_Name": "T-Mobile Move Balance",
         "Device_Maker": "Huawei",
@@ -6242,7 +6842,7 @@
     },
     "Huawei U8655": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8655",
         "Device_Name": "Ascend Y200",
         "Device_Maker": "Huawei",
@@ -6254,7 +6854,7 @@
     },
     "Huawei U8860": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8860",
         "Device_Name": "Honor",
         "Device_Maker": "Huawei",
@@ -6290,7 +6890,7 @@
     },
     "Huawei G510": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "G510",
         "Device_Name": "Ascend G510",
         "Device_Maker": "Huawei",
@@ -6302,7 +6902,7 @@
     },
     "Huawei U8950D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8950D",
         "Device_Name": "Ascend G600",
         "Device_Maker": "Huawei",
@@ -6314,7 +6914,7 @@
     },
     "Huawei U9508": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U9508",
         "Device_Name": "Honor 2",
         "Device_Maker": "Huawei",
@@ -6326,7 +6926,7 @@
     },
     "Huawei Y300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Y300",
         "Device_Name": "Ascend Y 300",
         "Device_Maker": "Huawei",
@@ -6350,7 +6950,7 @@
     },
     "Huawei U8825": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8825",
         "Device_Name": "Ascend G330",
         "Device_Maker": "Huawei",
@@ -6362,7 +6962,7 @@
     },
     "Huawei U9200": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U9200",
         "Device_Name": "Ascend P1",
         "Device_Maker": "Huawei",
@@ -6374,7 +6974,7 @@
     },
     "Huawei P6-U06": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P6-U06",
         "Device_Name": "Ascend P6",
         "Device_Maker": "Huawei",
@@ -6386,7 +6986,7 @@
     },
     "Huawei G525-U00": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "G525-U00",
         "Device_Name": "Ascend G525-U00",
         "Device_Maker": "Huawei",
@@ -6398,7 +6998,7 @@
     },
     "Huawei Y530-U00": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Y530-U00",
         "Device_Name": "Ascend Y530",
         "Device_Maker": "Huawei",
@@ -6408,9 +7008,21 @@
         "isTablet": "false"
       }
     },
+    "Huawei M735": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M735",
+        "Device_Name": "M735",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GTX75",
         "Device_Name": "Quickfire",
         "Device_Maker": "UTStarcom",
@@ -6530,7 +7142,7 @@
     },
     "Archos A70BH": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A70BH",
         "Device_Name": "A70BH",
         "Device_Maker": "Archos",
@@ -6542,7 +7154,7 @@
     },
     "Archos A70CHT": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A70CHT",
         "Device_Name": "A70CHT",
         "Device_Maker": "Archos",
@@ -6554,7 +7166,7 @@
     },
     "Archos A70BHT": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A70BHT",
         "Device_Name": "A70BHT",
         "Device_Maker": "Archos",
@@ -6566,7 +7178,7 @@
     },
     "Archos A70HB": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A70HB",
         "Device_Name": "A70HB",
         "Device_Maker": "Archos",
@@ -6578,7 +7190,7 @@
     },
     "Archos 70c": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "70c",
         "Device_Name": "70c eReader",
         "Device_Maker": "Archos",
@@ -6590,7 +7202,7 @@
     },
     "Archos A80KSC": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A80KSC",
         "Device_Name": "A80KSC",
         "Device_Maker": "Archos",
@@ -6602,7 +7214,7 @@
     },
     "Archos A101B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A101B",
         "Device_Name": "A101B",
         "Device_Maker": "Archos",
@@ -6614,7 +7226,7 @@
     },
     "Archos 5": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "5",
         "Device_Name": "5",
         "Device_Maker": "Archos",
@@ -6626,7 +7238,7 @@
     },
     "Archos A101IT": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A101IT",
         "Device_Name": "A101IT",
         "Device_Maker": "Archos",
@@ -6710,7 +7322,7 @@
     },
     "Point of View Mobii 7": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Mobii 7",
         "Device_Name": "Mobii 7",
         "Device_Maker": "Point of View",
@@ -6734,7 +7346,7 @@
     },
     "unknown STM7UC": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "STM7UC",
         "Device_Name": "STM7UC",
         "Device_Maker": "unknown",
@@ -6746,7 +7358,7 @@
     },
     "unknown STM7UH": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "STM7UH",
         "Device_Name": "STM7UH",
         "Device_Maker": "unknown",
@@ -6758,7 +7370,7 @@
     },
     "unknown WS171": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "WS171",
         "Device_Name": "WS171",
         "Device_Maker": "unknown",
@@ -6770,7 +7382,7 @@
     },
     "unknown Zio": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Zio",
         "Device_Name": "Zio",
         "Device_Maker": "unknown",
@@ -6782,7 +7394,7 @@
     },
     "unknown Edge": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Edge",
         "Device_Name": "Edge",
         "Device_Maker": "unknown",
@@ -6794,7 +7406,7 @@
     },
     "unknown MT6515M": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT6515M",
         "Device_Name": "MT6515M",
         "Device_Maker": "unknown",
@@ -6806,7 +7418,7 @@
     },
     "unknown Ideos S7": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Ideos S7",
         "Device_Name": "Ideos S7",
         "Device_Maker": "unknown",
@@ -6818,7 +7430,7 @@
     },
     "unknown Ideos": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Ideos",
         "Device_Name": "Ideos",
         "Device_Maker": "unknown",
@@ -6830,7 +7442,7 @@
     },
     "unknown LU2300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LU2300",
         "Device_Name": "LU2300",
         "Device_Maker": "unknown",
@@ -6842,7 +7454,7 @@
     },
     "unknown M82VG": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M82VG",
         "Device_Name": "M82VG",
         "Device_Maker": "unknown",
@@ -6854,7 +7466,7 @@
     },
     "unknown MID": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MID",
         "Device_Name": "MID",
         "Device_Maker": "unknown",
@@ -6866,7 +7478,7 @@
     },
     "T-Mobile Pulse": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Pulse",
         "Device_Name": "Pulse",
         "Device_Maker": "T-Mobile",
@@ -6878,7 +7490,7 @@
     },
     "T-Mobile G1": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "G1",
         "Device_Name": "G1",
         "Device_Maker": "T-Mobile",
@@ -6890,7 +7502,7 @@
     },
     "T-Mobile G2 Touch": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "G2 Touch",
         "Device_Name": "G2 Touch",
         "Device_Maker": "T-Mobile",
@@ -6902,7 +7514,7 @@
     },
     "T-Mobile Espresso": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Espresso",
         "Device_Name": "Espresso",
         "Device_Maker": "T-Mobile",
@@ -6914,7 +7526,7 @@
     },
     "Sharp 10B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "10B",
         "Device_Name": "10B",
         "Device_Maker": "Sharp",
@@ -6926,7 +7538,7 @@
     },
     "Sharp SH80F": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SH80F",
         "Device_Name": "SH80F",
         "Device_Maker": "Sharp",
@@ -6938,7 +7550,7 @@
     },
     "Nokia 6682": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "6682",
         "Device_Name": "6682",
         "Device_Maker": "Nokia",
@@ -6948,9 +7560,213 @@
         "isTablet": "false"
       }
     },
+    "Nokia Lumia 635": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 635",
+        "Device_Name": "Lumia 635",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 930": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 930",
+        "Device_Name": "Lumia 930",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 520",
+        "Device_Name": "Lumia 520",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 630": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 630",
+        "Device_Name": "Lumia 630",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 925": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 925",
+        "Device_Name": "Lumia 925",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 920": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 920",
+        "Device_Name": "Lumia 920",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 820": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 820",
+        "Device_Name": "Lumia 820",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 620": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 620",
+        "Device_Name": "Lumia 620",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 625": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 625",
+        "Device_Name": "Lumia 625",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 720": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 720",
+        "Device_Name": "Lumia 720",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1020": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 1020",
+        "Device_Name": "Lumia 1020",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 900",
+        "Device_Name": "Lumia 900",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 800",
+        "Device_Name": "Lumia 800",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 710",
+        "Device_Name": "Lumia 710",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 610",
+        "Device_Name": "Lumia 610",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 510",
+        "Device_Name": "Lumia 510",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1520": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 1520",
+        "Device_Name": "Lumia 1520",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Micromax A27": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A27",
         "Device_Name": "A27",
         "Device_Maker": "Micromax",
@@ -6962,7 +7778,7 @@
     },
     "Micromax A35": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A35",
         "Device_Name": "A35",
         "Device_Maker": "Micromax",
@@ -6974,7 +7790,7 @@
     },
     "Micromax A40": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A40",
         "Device_Name": "A40",
         "Device_Maker": "Micromax",
@@ -6986,7 +7802,7 @@
     },
     "Alcatel OT-4030D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-4030D",
         "Device_Name": "OT-4030D",
         "Device_Maker": "Alcatel",
@@ -6998,7 +7814,7 @@
     },
     "Alcatel OT-890D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-890D",
         "Device_Name": "One Touch 890D",
         "Device_Maker": "Alcatel",
@@ -7010,7 +7826,7 @@
     },
     "Alcatel OT-990": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-990",
         "Device_Name": "One Touch 990",
         "Device_Maker": "Alcatel",
@@ -7022,7 +7838,7 @@
     },
     "Alcatel OT-903D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-903D",
         "Device_Name": "One Touch 903D",
         "Device_Maker": "Alcatel",
@@ -7034,7 +7850,7 @@
     },
     "Alcatel OT-918D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-918D",
         "Device_Name": "One Touch 918D",
         "Device_Maker": "Alcatel",
@@ -7046,7 +7862,7 @@
     },
     "Alcatel OT-991": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-991",
         "Device_Name": "One Touch 991",
         "Device_Maker": "Alcatel",
@@ -7058,7 +7874,7 @@
     },
     "Alcatel OT-991D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-991D",
         "Device_Name": "One Touch 991 Play",
         "Device_Maker": "Alcatel",
@@ -7070,7 +7886,7 @@
     },
     "Alcatel OT-997D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-997D",
         "Device_Name": "One Touch 997D",
         "Device_Maker": "Alcatel",
@@ -7082,7 +7898,7 @@
     },
     "Alcatel OT-995": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-995",
         "Device_Name": "One Touch 995",
         "Device_Maker": "Alcatel",
@@ -7094,7 +7910,7 @@
     },
     "Alcatel OT-6010D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-6010D",
         "Device_Name": "One Touch Star 6010D",
         "Device_Maker": "Alcatel",
@@ -7106,7 +7922,7 @@
     },
     "Alcatel OT-6030D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-6030D",
         "Device_Name": "One Touch 6030D",
         "Device_Maker": "Alcatel",
@@ -7118,7 +7934,7 @@
     },
     "Alcatel OT-6033X": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-6033X",
         "Device_Name": "One Touch Idol Ultra",
         "Device_Maker": "Alcatel",
@@ -7130,7 +7946,7 @@
     },
     "Alcatel OT-992D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-992D",
         "Device_Name": "One Touch 992 Play",
         "Device_Maker": "Alcatel",
@@ -7142,7 +7958,7 @@
     },
     "Alcatel OT-5020D": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-5020D",
         "Device_Name": "One Touch MPop",
         "Device_Maker": "Alcatel",
@@ -7152,9 +7968,33 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-4012X": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-4012X",
+        "Device_Name": "One Touch Fire",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-4012A": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-4012A",
+        "Device_Name": "One Touch Fire",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "FP1",
         "Device_Name": "FP1",
         "Device_Maker": "Fairphone",
@@ -7178,7 +8018,7 @@
     },
     "sprd B51+": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "B51+",
         "Device_Name": "B51+",
         "Device_Maker": "sprd",
@@ -7190,7 +8030,7 @@
     },
     "Mastone G9": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "G9",
         "Device_Name": "G9",
         "Device_Maker": "Mastone",
@@ -7202,7 +8042,7 @@
     },
     "ZTE Blade": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Blade",
         "Device_Name": "Blade",
         "Device_Maker": "ZTE",
@@ -7214,7 +8054,7 @@
     },
     "ZTE Orange": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Orange",
         "Device_Name": "Orange",
         "Device_Maker": "ZTE",
@@ -7226,7 +8066,7 @@
     },
     "ZTE Racer": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Racer",
         "Device_Name": "Racer",
         "Device_Maker": "ZTE",
@@ -7250,7 +8090,7 @@
     },
     "ZTE Lutea 2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lutea 2",
         "Device_Name": "Lutea 2",
         "Device_Maker": "ZTE",
@@ -7262,7 +8102,7 @@
     },
     "ZTE Lutea 3": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lutea 3",
         "Device_Name": "Lutea 3",
         "Device_Maker": "ZTE",
@@ -7296,9 +8136,21 @@
         "isTablet": "true"
       }
     },
+    "Dell Venue Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Venue Pro",
+        "Device_Name": "Venue Pro",
+        "Device_Maker": "Dell",
+        "Device_Brand_Name": "Dell",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "KDDI IS03": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "IS03",
         "Device_Name": "IS03",
         "Device_Maker": "KDDI",
@@ -7310,7 +8162,7 @@
     },
     "KDDI SN3F": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SN3F",
         "Device_Name": "SN3F",
         "Device_Maker": "KDDI",
@@ -7322,7 +8174,7 @@
     },
     "KDDI TS21": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "TS21",
         "Device_Name": "TS21",
         "Device_Maker": "KDDI",
@@ -7334,7 +8186,7 @@
     },
     "KDDI TS25": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "TS25",
         "Device_Name": "TS25",
         "Device_Maker": "KDDI",
@@ -7346,7 +8198,7 @@
     },
     "KDDI CA23": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA23",
         "Device_Name": "CA23",
         "Device_Maker": "KDDI",
@@ -7358,7 +8210,7 @@
     },
     "KDDI CA26": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA26",
         "Device_Name": "CA26",
         "Device_Maker": "KDDI",
@@ -7370,7 +8222,7 @@
     },
     "KDDI CA28": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA28",
         "Device_Name": "CA28",
         "Device_Maker": "KDDI",
@@ -7382,7 +8234,7 @@
     },
     "KDDI CA31": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA31",
         "Device_Name": "CA31",
         "Device_Maker": "KDDI",
@@ -7394,7 +8246,7 @@
     },
     "KDDI CA32": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA32",
         "Device_Name": "CA32",
         "Device_Maker": "KDDI",
@@ -7406,7 +8258,7 @@
     },
     "KDDI CA33": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA33",
         "Device_Name": "CA33",
         "Device_Maker": "KDDI",
@@ -7418,7 +8270,7 @@
     },
     "KDDI CA34": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA34",
         "Device_Name": "CA34",
         "Device_Maker": "KDDI",
@@ -7430,7 +8282,7 @@
     },
     "KDDI CA37": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA37",
         "Device_Name": "CA37",
         "Device_Maker": "KDDI",
@@ -7442,7 +8294,7 @@
     },
     "KDDI CA39": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA39",
         "Device_Name": "CA39",
         "Device_Maker": "KDDI",
@@ -7454,7 +8306,7 @@
     },
     "LogicPD Zoom2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Zoom2",
         "Device_Name": "Zoom2",
         "Device_Maker": "LogicPD",
@@ -7466,7 +8318,7 @@
     },
     "Olivetti Olipad 70": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Olipad 70",
         "Device_Name": "Olipad Smart",
         "Device_Maker": "Olivetti",
@@ -7478,7 +8330,7 @@
     },
     "Toshiba Folio 100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Folio 100",
         "Device_Name": "Folio 100",
         "Device_Maker": "Toshiba",
@@ -7538,7 +8390,7 @@
     },
     "Vodafone 845": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "845",
         "Device_Name": "845",
         "Device_Maker": "Vodafone",
@@ -7550,7 +8402,7 @@
     },
     "Epad P7901A": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P7901A",
         "Device_Name": "P7901A",
         "Device_Maker": "Epad",
@@ -7574,7 +8426,7 @@
     },
     "Odys Xtreme": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Xtreme",
         "Device_Name": "Xtreme",
         "Device_Maker": "Odys",
@@ -7586,7 +8438,7 @@
     },
     "Odys Loox": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Loox",
         "Device_Name": "Loox",
         "Device_Maker": "Odys",
@@ -7622,7 +8474,7 @@
     },
     "Odys Q": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Q",
         "Device_Name": "Q",
         "Device_Maker": "Odys",
@@ -7694,7 +8546,7 @@
     },
     "ViewSonic ViewPad7": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ViewPad7",
         "Device_Name": "ViewPad7",
         "Device_Maker": "ViewSonic",
@@ -7706,7 +8558,7 @@
     },
     "ViewSonic ViewPad7e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ViewPad7e",
         "Device_Name": "ViewPad7e",
         "Device_Maker": "ViewSonic",
@@ -7718,7 +8570,7 @@
     },
     "ViewSonic V350": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "V350",
         "Device_Name": "V350",
         "Device_Maker": "ViewSonic",
@@ -7730,7 +8582,7 @@
     },
     "NGM WeMove Miracle": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "WeMove Miracle",
         "Device_Name": "WeMove Miracle",
         "Device_Maker": "NGM",
@@ -7742,7 +8594,7 @@
     },
     "NGM Dynamic Racing GP": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Dynamic Racing GP",
         "Device_Name": "Dynamic Racing GP",
         "Device_Maker": "NGM",
@@ -7754,7 +8606,7 @@
     },
     "Lenovo A288t": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A288t",
         "Device_Name": "A288t",
         "Device_Maker": "Lenovo",
@@ -7970,7 +8822,7 @@
     },
     "Lenovo A390": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A390",
         "Device_Name": "A390",
         "Device_Maker": "Lenovo",
@@ -7982,7 +8834,7 @@
     },
     "Lenovo A889": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A889",
         "Device_Name": "A889",
         "Device_Maker": "Lenovo",
@@ -7994,7 +8846,7 @@
     },
     "Lenovo A880": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A880",
         "Device_Name": "A880",
         "Device_Maker": "Lenovo",
@@ -8006,7 +8858,7 @@
     },
     "Malata I50": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "I50",
         "Device_Name": "I50",
         "Device_Maker": "Malata",
@@ -8018,7 +8870,7 @@
     },
     "Arnova 7CG2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "7C G2",
         "Device_Name": "7C G2",
         "Device_Maker": "Arnova",
@@ -8030,7 +8882,7 @@
     },
     "Arnova 9G2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "9 G2",
         "Device_Name": "9 G2",
         "Device_Maker": "Arnova",
@@ -8138,7 +8990,7 @@
     },
     "Keen High MT791": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT791",
         "Device_Name": "MT791",
         "Device_Maker": "Keen High",
@@ -8150,7 +9002,7 @@
     },
     "Multipad PMP5080B": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PMP5080B",
         "Device_Name": "PMP5080B",
         "Device_Maker": "Multipad",
@@ -8162,7 +9014,7 @@
     },
     "Simvalley SPX-5": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPX-5",
         "Device_Name": "SPX-5",
         "Device_Maker": "Simvalley",
@@ -8174,7 +9026,7 @@
     },
     "Simvalley SPX-5 3G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SPX-5 3G",
         "Device_Name": "SPX-5 3G",
         "Device_Maker": "Simvalley",
@@ -8186,7 +9038,7 @@
     },
     "Pearl Touchlet X7G": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Touchlet X7G",
         "Device_Name": "Touchlet X7G",
         "Device_Maker": "Pearl",
@@ -8258,7 +9110,7 @@
     },
     "Cube U30GT": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U30GT",
         "Device_Name": "U30GT",
         "Device_Maker": "Cube",
@@ -8270,7 +9122,7 @@
     },
     "Cube U30GT2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U30GT2",
         "Device_Name": "U30GT2",
         "Device_Maker": "Cube",
@@ -8282,7 +9134,7 @@
     },
     "ZOPO ZP900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ZP900",
         "Device_Name": "Leader",
         "Device_Maker": "ZOPO",
@@ -8294,7 +9146,7 @@
     },
     "ZOPO ZP910": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ZP910",
         "Device_Name": "ZP900H",
         "Device_Maker": "ZOPO",
@@ -8318,7 +9170,7 @@
     },
     "OPPO R813T": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "R813T",
         "Device_Name": "R813T",
         "Device_Maker": "OPPO",
@@ -8330,7 +9182,7 @@
     },
     "ultrafone 303": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "303",
         "Device_Name": "303",
         "Device_Maker": "ultrafone",
@@ -8342,7 +9194,7 @@
     },
     "Wolgang AT-AS40SE": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Code_Name": "AT-AS40SE",
         "Device_Name": "AT-AS40SE",
         "Device_Maker": "Wolgang",
@@ -8510,7 +9362,7 @@
     },
     "Blackberry Blackberry": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Blackberry",
         "Device_Code_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
@@ -8522,7 +9374,7 @@
     },
     "Blackberry Z10": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Z10",
         "Device_Code_Name": "Z10",
         "Device_Maker": "Research In Motion Limited",
@@ -8534,7 +9386,7 @@
     },
     "Blackberry 5810": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 5810",
         "Device_Code_Name": "BlackBerry 5810",
         "Device_Maker": "Research In Motion Limited",
@@ -8546,7 +9398,7 @@
     },
     "Blackberry 5820": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 5820",
         "Device_Code_Name": "BlackBerry 5820",
         "Device_Maker": "Research In Motion Limited",
@@ -8558,7 +9410,7 @@
     },
     "Blackberry 6220": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 6220",
         "Device_Code_Name": "BlackBerry 6220",
         "Device_Maker": "Research In Motion Limited",
@@ -8570,7 +9422,7 @@
     },
     "Blackberry 6720": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 6720",
         "Device_Code_Name": "BlackBerry 6720",
         "Device_Maker": "Research In Motion Limited",
@@ -8582,7 +9434,7 @@
     },
     "Blackberry 7210": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7210",
         "Device_Code_Name": "BlackBerry 7210",
         "Device_Maker": "Research In Motion Limited",
@@ -8594,7 +9446,7 @@
     },
     "Blackberry 7230": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7230",
         "Device_Code_Name": "BlackBerry 7230",
         "Device_Maker": "Research In Motion Limited",
@@ -8606,7 +9458,7 @@
     },
     "Blackberry 7280": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7280",
         "Device_Code_Name": "BlackBerry 7280",
         "Device_Maker": "Research In Motion Limited",
@@ -8618,7 +9470,7 @@
     },
     "Blackberry 7730": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7730",
         "Device_Code_Name": "BlackBerry 7730",
         "Device_Maker": "Research In Motion Limited",
@@ -8630,7 +9482,7 @@
     },
     "Blackberry 7100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7100",
         "Device_Code_Name": "BlackBerry 7100",
         "Device_Maker": "Research In Motion Limited",
@@ -8642,7 +9494,7 @@
     },
     "Blackberry 7290": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7290",
         "Device_Code_Name": "BlackBerry 7290",
         "Device_Maker": "Research In Motion Limited",
@@ -8654,7 +9506,7 @@
     },
     "Blackberry 5790": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 5790",
         "Device_Code_Name": "BlackBerry 5790",
         "Device_Maker": "Research In Motion Limited",
@@ -8666,7 +9518,7 @@
     },
     "Blackberry 7250": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7250",
         "Device_Code_Name": "BlackBerry 7250",
         "Device_Maker": "Research In Motion Limited",
@@ -8678,7 +9530,7 @@
     },
     "Blackberry 7520": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7520",
         "Device_Code_Name": "BlackBerry 7520",
         "Device_Maker": "Research In Motion Limited",
@@ -8690,7 +9542,7 @@
     },
     "Blackberry 7100i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7100i",
         "Device_Code_Name": "BlackBerry 7100i",
         "Device_Maker": "Research In Motion Limited",
@@ -8702,7 +9554,7 @@
     },
     "Blackberry 7130": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7130",
         "Device_Code_Name": "BlackBerry 7130",
         "Device_Maker": "Research In Motion Limited",
@@ -8714,7 +9566,7 @@
     },
     "Blackberry 7130e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 7130e",
         "Device_Code_Name": "BlackBerry 7130e",
         "Device_Maker": "Research In Motion Limited",
@@ -8726,7 +9578,7 @@
     },
     "Blackberry 8700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8700",
         "Device_Code_Name": "BlackBerry 8700",
         "Device_Maker": "Research In Motion Limited",
@@ -8738,7 +9590,7 @@
     },
     "Blackberry 8700c": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8700c",
         "Device_Code_Name": "BlackBerry 8700c",
         "Device_Maker": "Research In Motion Limited",
@@ -8750,7 +9602,7 @@
     },
     "Blackberry 8703e": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8703e",
         "Device_Code_Name": "BlackBerry 8703e",
         "Device_Maker": "Research In Motion Limited",
@@ -8762,7 +9614,7 @@
     },
     "Blackberry 8707": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8707",
         "Device_Code_Name": "BlackBerry 8707",
         "Device_Maker": "Research In Motion Limited",
@@ -8774,7 +9626,7 @@
     },
     "Blackberry 8100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8100",
         "Device_Code_Name": "BlackBerry 8100",
         "Device_Maker": "Research In Motion Limited",
@@ -8786,7 +9638,7 @@
     },
     "Blackberry 8300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8300",
         "Device_Code_Name": "BlackBerry 8300",
         "Device_Maker": "Research In Motion Limited",
@@ -8798,7 +9650,7 @@
     },
     "Blackberry 8310": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8310",
         "Device_Code_Name": "BlackBerry 8310",
         "Device_Maker": "Research In Motion Limited",
@@ -8810,7 +9662,7 @@
     },
     "Blackberry 8320": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8320",
         "Device_Code_Name": "BlackBerry 8320",
         "Device_Maker": "Research In Motion Limited",
@@ -8822,7 +9674,7 @@
     },
     "Blackberry 8800": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8800",
         "Device_Code_Name": "BlackBerry 8800",
         "Device_Maker": "Research In Motion Limited",
@@ -8834,7 +9686,7 @@
     },
     "Blackberry 8820": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8820",
         "Device_Code_Name": "BlackBerry 8820",
         "Device_Maker": "Research In Motion Limited",
@@ -8846,7 +9698,7 @@
     },
     "Blackberry 8830": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8830",
         "Device_Code_Name": "BlackBerry 8830",
         "Device_Maker": "Research In Motion Limited",
@@ -8858,7 +9710,7 @@
     },
     "Blackberry 8110": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8110",
         "Device_Code_Name": "BlackBerry 8110",
         "Device_Maker": "Research In Motion Limited",
@@ -8870,7 +9722,7 @@
     },
     "Blackberry 8120": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8120",
         "Device_Code_Name": "BlackBerry 8120",
         "Device_Maker": "Research In Motion Limited",
@@ -8882,7 +9734,7 @@
     },
     "Blackberry 8130": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8130",
         "Device_Code_Name": "BlackBerry 8130",
         "Device_Maker": "Research In Motion Limited",
@@ -8894,7 +9746,7 @@
     },
     "Blackberry 8330": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8330",
         "Device_Code_Name": "BlackBerry 8330",
         "Device_Maker": "Research In Motion Limited",
@@ -8906,7 +9758,7 @@
     },
     "Blackberry 8330m": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8330m",
         "Device_Code_Name": "BlackBerry 8330m",
         "Device_Maker": "Research In Motion Limited",
@@ -8918,7 +9770,7 @@
     },
     "Blackberry 8220": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8220",
         "Device_Code_Name": "BlackBerry 8220",
         "Device_Maker": "Research In Motion Limited",
@@ -8930,7 +9782,7 @@
     },
     "Blackberry 8230": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8230",
         "Device_Code_Name": "BlackBerry 8230",
         "Device_Maker": "Research In Motion Limited",
@@ -8942,7 +9794,7 @@
     },
     "Blackberry 8230f": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8230f",
         "Device_Code_Name": "BlackBerry 8230f",
         "Device_Maker": "Research In Motion Limited",
@@ -8954,7 +9806,7 @@
     },
     "Blackberry 8350i": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8350i",
         "Device_Code_Name": "BlackBerry 8350i",
         "Device_Maker": "Research In Motion Limited",
@@ -8966,7 +9818,7 @@
     },
     "Blackberry 8520": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Curve",
         "Device_Code_Name": "BlackBerry 8520",
         "Device_Maker": "Research In Motion Limited",
@@ -8978,7 +9830,7 @@
     },
     "Blackberry 8900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8900",
         "Device_Code_Name": "BlackBerry 8900",
         "Device_Maker": "Research In Motion Limited",
@@ -8990,7 +9842,7 @@
     },
     "Blackberry 9000": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Bold",
         "Device_Code_Name": "BlackBerry 9000",
         "Device_Maker": "Research In Motion Limited",
@@ -9002,7 +9854,7 @@
     },
     "Blackberry 9500": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Storm",
         "Device_Code_Name": "BlackBerry 9500",
         "Device_Maker": "Research In Motion Limited",
@@ -9014,7 +9866,7 @@
     },
     "Blackberry 9630": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9630",
         "Device_Code_Name": "BlackBerry 9630",
         "Device_Maker": "Research In Motion Limited",
@@ -9026,7 +9878,7 @@
     },
     "Blackberry 8530": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8530",
         "Device_Code_Name": "BlackBerry 8530",
         "Device_Maker": "Research In Motion Limited",
@@ -9038,7 +9890,7 @@
     },
     "Blackberry 8980": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 8980",
         "Device_Code_Name": "BlackBerry 8980",
         "Device_Maker": "Research In Motion Limited",
@@ -9050,7 +9902,7 @@
     },
     "Blackberry 9100": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9100",
         "Device_Code_Name": "BlackBerry 9100",
         "Device_Maker": "Research In Motion Limited",
@@ -9062,7 +9914,7 @@
     },
     "Blackberry 9105": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9105",
         "Device_Code_Name": "BlackBerry 9105",
         "Device_Maker": "Research In Motion Limited",
@@ -9074,7 +9926,7 @@
     },
     "Blackberry 9300": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Curve 3G",
         "Device_Code_Name": "BlackBerry 9300",
         "Device_Maker": "Research In Motion Limited",
@@ -9086,7 +9938,7 @@
     },
     "Blackberry 9520": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9520",
         "Device_Code_Name": "BlackBerry 9520",
         "Device_Maker": "Research In Motion Limited",
@@ -9098,7 +9950,7 @@
     },
     "Blackberry 9530": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9530",
         "Device_Code_Name": "BlackBerry 9530",
         "Device_Maker": "Research In Motion Limited",
@@ -9110,7 +9962,7 @@
     },
     "Blackberry 9550": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9550",
         "Device_Code_Name": "BlackBerry 9550",
         "Device_Maker": "Research In Motion Limited",
@@ -9122,7 +9974,7 @@
     },
     "Blackberry 9650": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9650",
         "Device_Code_Name": "BlackBerry 9650",
         "Device_Maker": "Research In Motion Limited",
@@ -9134,7 +9986,7 @@
     },
     "Blackberry 9700": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Bold",
         "Device_Code_Name": "BlackBerry 9700",
         "Device_Maker": "Research In Motion Limited",
@@ -9146,7 +9998,7 @@
     },
     "Blackberry 9800": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Torch",
         "Device_Code_Name": "BlackBerry 9800",
         "Device_Maker": "Research In Motion Limited",
@@ -9158,7 +10010,7 @@
     },
     "Blackberry 9670": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9670",
         "Device_Code_Name": "BlackBerry 9670",
         "Device_Maker": "Research In Motion Limited",
@@ -9170,7 +10022,7 @@
     },
     "Blackberry 9780": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9780",
         "Device_Code_Name": "BlackBerry 9780",
         "Device_Maker": "Research In Motion Limited",
@@ -9182,7 +10034,7 @@
     },
     "Blackberry 9330": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9330",
         "Device_Code_Name": "BlackBerry 9330",
         "Device_Maker": "Research In Motion Limited",
@@ -9194,7 +10046,7 @@
     },
     "Blackberry 9860": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Monza",
         "Device_Code_Name": "BlackBerry Torch 9860",
         "Device_Maker": "Research In Motion Limited",
@@ -9206,7 +10058,7 @@
     },
     "Blackberry 9810": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Torch 4G",
         "Device_Code_Name": "BlackBerry 9810",
         "Device_Maker": "Research In Motion Limited",
@@ -9218,7 +10070,7 @@
     },
     "Blackberry 9360": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Curve",
         "Device_Code_Name": "BlackBerry 9360",
         "Device_Maker": "Research In Motion Limited",
@@ -9230,7 +10082,7 @@
     },
     "Blackberry 9900": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Dakota",
         "Device_Code_Name": "BlackBerry Bold Touch 9900",
         "Device_Maker": "Research In Motion Limited",
@@ -9242,7 +10094,7 @@
     },
     "Blackberry 9930": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9930",
         "Device_Code_Name": "BlackBerry 9930",
         "Device_Maker": "Research In Motion Limited",
@@ -9254,7 +10106,7 @@
     },
     "Blackberry 9790": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "BlackBerry 9790",
         "Device_Code_Name": "BlackBerry 9790",
         "Device_Maker": "Research In Motion Limited",
@@ -9266,7 +10118,7 @@
     },
     "Blackberry 9380": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Blackberry 9380 Curve",
         "Device_Code_Name": "BlackBerry 9380",
         "Device_Maker": "Research In Motion Limited",
@@ -9278,7 +10130,7 @@
     },
     "Blackberry 9320": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Curve 9320",
         "Device_Code_Name": "BlackBerry 9320",
         "Device_Maker": "Research In Motion Limited",
@@ -9290,7 +10142,7 @@
     },
     "Xiaomi MI 2": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "MI 2",
         "Device_Code_Name": "MI 2",
         "Device_Maker": "Xiaomi",
@@ -9302,12 +10154,60 @@
     },
     "BLU Vivo IV": {
       "properties": {
-        "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "Vivo IV",
         "Device_Code_Name": "Vivo IV",
         "Device_Maker": "BLU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BLU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "XDA Star": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Star",
+        "Device_Code_Name": "Star",
+        "Device_Maker": "XDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "XDA Orbit2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Orbit2",
+        "Device_Code_Name": "Orbit2",
+        "Device_Maker": "XDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "XDA Stellar": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Stellar",
+        "Device_Code_Name": "Stellar",
+        "Device_Maker": "XDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Palm 750": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "750",
+        "Device_Code_Name": "750",
+        "Device_Maker": "Palm",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Palm",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

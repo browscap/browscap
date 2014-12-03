@@ -27,23 +27,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile", "AndroidLinux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]
@@ -64,12 +55,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]

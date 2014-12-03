@@ -30,6 +30,14 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012X"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012A"
+        },
+        {
           "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
         },
         {
@@ -37,39 +45,11 @@
         },
         {
           "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          }
+          "device": "general Tablet"
         },
         {
           "match": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-          "properties": {
-            "Device_Name": "One Touch Fire",
-            "Device_Code_Name": "OT-4012X",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
-          "properties": {
-            "Device_Name": "One Touch Fire",
-            "Device_Code_Name": "OT-4012A",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "general Tablet"
         }
       ]
     }

@@ -149,9 +149,7 @@
         },
         {
           "match": "JUC (Linux; U; 4.0*; *) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_0_B"
           ]

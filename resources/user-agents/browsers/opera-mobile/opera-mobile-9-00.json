@@ -27,18 +27,14 @@
       "children": [
         {
           "match": "Opera\/9.* (Microsoft Windows; PPC; Opera Mobi\/*)",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Opera\/9.* (Windows*; Opera Mobi\/*) Presto\/2.*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
