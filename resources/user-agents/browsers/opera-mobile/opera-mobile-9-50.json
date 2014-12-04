@@ -62,12 +62,7 @@
         },
         {
           "match": "HTC_Touch2_T3333 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch2 T3333",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch2 T3333"
-          }
+          "device": "HTC T3333"
         },
         {
           "match": "HTC_Touch_3G_T3232 Opera\/9.5*",
@@ -268,7 +263,7 @@
         },
         {
           "match": "O2\/1.0\/SEX1i\/R3AA Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*UP.Link\/*",
-          "device": "general Mobile Phone",
+          "device": "SonyEricsson X1i",
           "platforms": [
             "WinMobile"
           ]

@@ -35,60 +35,70 @@
       "children": [
         {
           "match": "AUDIOVOX-SMT5600\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "device": "AUDIOVOX SMT5600",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "BenQ P50 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "device": "BenQ P50",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod565 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "device": "Dopod 565",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod575 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "device": "Dopod 575",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod575\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "device": "Dopod 575",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)*",
+          "device": "Dopod 577W",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+          "device": "Dopod 577W",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod595\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+          "device": "Dopod 595",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod818\/4.21.1088\/WAP1.2 *?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)*",
+          "device": "Dopod 818",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Dopod818\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)",
+          "device": "Dopod 818",
           "platforms": [
             "WinCE"
           ]
@@ -167,12 +177,14 @@
         },
         {
           "match": "HTC_P4350-Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC)",
+          "device": "HTC P4350",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_Touch2_T3333 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "device": "HTC T3333",
           "platforms": [
             "WinCE"
           ]

@@ -79,12 +79,7 @@
         },
         {
           "match": "LG-C810\/1.0 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "C810",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C810"
-          }
+          "device": "LG C810"
         },
         {
           "match": "LGE-AD5235\/* UP.Browser\/4.1*",

@@ -63,12 +63,14 @@
         },
         {
           "match": "HTC-8900\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*)*",
+          "device": "HTC 8900",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC-P3450-Ten\/PPC; 240x320; OpVer 23.227.2.792 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*)",
+          "device": "HTC P3450",
           "platforms": [
             "WinCE"
           ]
@@ -82,12 +84,14 @@
         },
         {
           "match": "HTC_P3300 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*)",
+          "device": "HTC P3300",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_P3470 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*)",
+          "device": "HTC P3470",
           "platforms": [
             "WinCE"
           ]
@@ -261,18 +265,14 @@
         },
         {
           "match": "O2\/1.0\/SEX1i\/R?AA Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*UP.Link\/6.3*",
+          "device": "SonyEricsson X1i",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "PANTECH-C810\/R01 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
-          "properties": {
-            "Device_Code_Name": "C810",
-            "Device_Maker": "Pantech",
-            "Device_Brand_Name": "Pantech",
-            "Device_Name": "C810"
-          },
+          "device": "Pantech C810",
           "platforms": [
             "WinCE"
           ]

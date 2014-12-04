@@ -67,7 +67,7 @@
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD2\/* Opera\/9.7*",
-          "device": "HTC HD2",
+          "device": "HTC HD2"
         },
         {
           "match": "Vodafone\/1.0\/HTC_HD_mini\/Opera 9.7*",

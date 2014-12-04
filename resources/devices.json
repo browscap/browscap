@@ -4104,6 +4104,18 @@
         "isTablet": "true"
       }
     },
+    "Asus 1210": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "1210",
+        "Device_Name": "1210",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola MB525": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5712,6 +5724,222 @@
         "isTablet": "false"
       }
     },
+    "HTC 8900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8900",
+        "Device_Name": "8900",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3450",
+        "Device_Name": "P3450",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3300",
+        "Device_Name": "P3300",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3470": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3470",
+        "Device_Name": "P3470",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3470": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3470",
+        "Device_Name": "P3470",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 3100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3100",
+        "Device_Name": "3100",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 8100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8100",
+        "Device_Name": "8100",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 8500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8500",
+        "Device_Name": "8500",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P4350": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P4350",
+        "Device_Name": "P4350",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC S620": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S620",
+        "Device_Name": "S620",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC S710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S710",
+        "Device_Name": "S710",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC TyTN": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "TyTN",
+        "Device_Name": "TyTN",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC X7500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X7500",
+        "Device_Name": "X7500",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3600",
+        "Device_Name": "Elf",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Elf": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Elf",
+        "Device_Name": "Elf",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC VPA Compact IV": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VPA Compact IV",
+        "Device_Name": "Herald\/Wing\/Atlas",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T3333": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T3333",
+        "Device_Name": "Touch2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 2125": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2125",
+        "Device_Name": "2125",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -6180,6 +6408,18 @@
         "isTablet": "false"
       }
     },
+    "LG C810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C810",
+        "Device_Name": "C810",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -6478,6 +6718,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Acer S200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S200",
+        "Device_Name": "S200",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Mobistel Cynus T2": {
@@ -10200,6 +10452,18 @@
         "isTablet": "false"
       }
     },
+    "XDA Orbit": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Orbit",
+        "Device_Code_Name": "Orbit",
+        "Device_Maker": "XDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Palm 750": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10208,6 +10472,102 @@
         "Device_Maker": "Palm",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Palm",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Pantech C810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C810",
+        "Device_Code_Name": "C810",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "AUDIOVOX SMT5600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "SMT5600",
+        "Device_Code_Name": "SMT5600",
+        "Device_Maker": "AUDIOVOX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "AUDIOVOX",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BenQ P50": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "P50",
+        "Device_Code_Name": "P50",
+        "Device_Maker": "BenQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BenQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 575": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "575",
+        "Device_Code_Name": "575",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 565": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "565",
+        "Device_Code_Name": "565",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 577W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "577W",
+        "Device_Code_Name": "577W",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 595": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "595",
+        "Device_Code_Name": "595",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 818": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "818",
+        "Device_Code_Name": "818",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
