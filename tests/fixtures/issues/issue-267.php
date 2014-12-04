@@ -2054,7 +2054,7 @@ return [
     'issue-267-BW' => [
         'Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spider.html)',
         [
-            'Browser' => 'Baidu Mobile search',
+            'Browser' => 'Baidu Mobile Search',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Baidu',

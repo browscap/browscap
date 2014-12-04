@@ -1,0 +1,62 @@
+{
+  "division": "Sandvox",
+  "sortIndex": 1175,
+  "userAgents": [
+    {
+      "userAgent": "Sandvox",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sandvox",
+        "Browser": "Sandvox",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Karelia Software",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/2.9* Sandvox*",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          },
+          "platforms": [
+            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Sandvox*",
+          "platforms": [
+            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu",
-        "Browser": "Baidu Mobile search",
+        "Browser": "Baidu Mobile Search",
         "Browser_Maker": "Baidu",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
@@ -19,22 +19,13 @@
       },
       "children": [
         {
-          "match": "*Baiduspider-mobile*",
-          "properties": {
-            "Browser": "Baidu Mobile search"
-          }
+          "match": "*Baiduspider-mobile*"
         },
         {
-          "match": "DoCoMo\/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider\/1.0; ?http:\/\/www.baidu.jp\/spider\/)",
-          "properties": {
-            "Browser": "Baidu Mobile search"
-          }
+          "match": "DoCoMo\/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider\/1.0; ?http:\/\/www.baidu.jp\/spider\/)"
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*Android 2.3*) AppleWebKit\/* (KHTML,like Gecko) Version\/4.0 Mobile Safari\/* (compatible; +http:\/\/www.baidu.com\/search\/spider.html)",
-          "properties": {
-            "Browser": "Baidu Mobile search"
-          },
+          "match": "Mozilla\/5.0 (*Linux*Android 2.3*) AppleWebKit\/* (KHTML,like Gecko) Version\/4.0 Mobile Safari\/* (compatible; +http:\/\/www.baidu.com\/search\/*",
           "platforms": [
             "Android_2_3"
           ]
