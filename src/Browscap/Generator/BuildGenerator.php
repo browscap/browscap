@@ -17,8 +17,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
