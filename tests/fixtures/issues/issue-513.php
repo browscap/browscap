@@ -2509,7 +2509,7 @@ return [
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,
-            'isTablet' => true,
+            'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'Optimus LTE2',
             'Device_Maker' => 'LG',

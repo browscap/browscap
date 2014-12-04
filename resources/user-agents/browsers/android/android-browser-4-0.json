@@ -927,7 +927,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "Desire",
             "Device_Maker": "HTC",
@@ -8430,7 +8430,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TAB10-400*Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#TAB10-400*Build\/*) AppleWebKit* (KHTML,*like*Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "true",

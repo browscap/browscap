@@ -1237,6 +1237,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/1.0*",
+          "engine": "WebKit",
           "properties": {
             "Browser": "RMSnapKit",
             "Browser_Maker": "realmacsoftware",
@@ -1251,6 +1252,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/*",
+          "engine": "WebKit",
           "properties": {
             "Browser": "RMSnapKit",
             "Browser_Maker": "realmacsoftware"
