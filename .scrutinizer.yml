@@ -2,6 +2,6 @@ inherit: true
 
 tools:
     external_code_coverage:
-        enabled: true
+        enabled: false
         timeout: 900
         runs: 1
