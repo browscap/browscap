@@ -17,8 +17,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
