@@ -1,14 +1,14 @@
 {
-  "division": "Microsoft Word",
-  "sortIndex": 7180,
+  "division": "Microsoft PowerPoint",
+  "sortIndex": 7181,
   "userAgents": [
     {
-      "userAgent": "Microsoft Word",
+      "userAgent": "Microsoft PowerPoint",
       "engine": "Trident",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Word",
-        "Browser": "Word",
+        "Comment": "Microsoft PowerPoint",
+        "Browser": "PowerPoint",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
@@ -34,7 +34,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/12.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/12.*",
           "properties": {
             "Version": "2007",
             "MajorVer": "2007"
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/14.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/14.*",
           "properties": {
             "Version": "2010",
             "MajorVer": "2010"
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Word\/15.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/15.*",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"
