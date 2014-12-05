@@ -24,208 +24,177 @@
       "children": [
         {
           "match": "BIRD.S580 AU.Browser\/1.2*",
+          "device": "BIRD S580",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
-            "MinorVer": "2",
-            "Device_Code_Name": "S580",
-            "Device_Maker": "BIRD",
-            "Device_Brand_Name": "BIRD",
-            "Device_Name": "S580"
+            "MinorVer": "2"
           }
         },
         {
           "match": "EZ400\/BSI AU.Browser\/2.0*",
+          "device": "EZZE EZ400",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "Device_Code_Name": "EZ400",
-            "Device_Maker": "EZZE",
-            "Device_Brand_Name": "EZZE",
-            "Device_Name": "EZ400"
+            "MinorVer": "0"
           }
         },
         {
           "match": "EZZE-MP100-\/BSI AU.Browser\/2.0*",
+          "device": "EZZE MP100",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "Device_Code_Name": "MP100",
-            "Device_Maker": "EZZE",
-            "Device_Brand_Name": "EZZE",
-            "Device_Name": "MP100"
+            "MinorVer": "0"
           }
         },
         {
           "match": "HG7000\/1.0*",
-          "properties": {
-            "Device_Code_Name": "Hg7000",
-            "Device_Maker": "EZZE",
-            "Device_Brand_Name": "EZZE",
-            "Device_Name": "Hg7000"
-          }
+          "device": "EZZE Hg7000"
         },
         {
           "match": "LG-C3100 AU\/4.1*",
+          "device": "LG C3100",
           "properties": {
-            "Device_Code_Name": "C3100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3100"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-F7100 AU\/4.1*",
+          "device": "LG F7100",
           "properties": {
-            "Device_Code_Name": "F7100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F7100"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G1600 AU\/4.1*",
+          "device": "LG G1600",
           "properties": {
-            "Device_Code_Name": "G1600",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G1600"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G1610 AU\/4.1*",
+          "device": "LG G1610",
           "properties": {
-            "Device_Code_Name": "G1610",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G1610"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G3100 AU\/4.10*",
+          "device": "LG G3100",
           "properties": {
-            "Device_Code_Name": "G3100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G3100"
+            "Version": "4.10",
+            "MajorVer": "4",
+            "MinorVer": "10"
           }
         },
         {
           "match": "LG-G5300 AU\/4.1*",
+          "device": "LG G5300",
           "properties": {
-            "Device_Code_Name": "G5300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5300"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G5300i\/JM AU\/4.1*",
+          "device": "LG G5300i",
           "properties": {
-            "Device_Code_Name": "G5300i",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5300i"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G5310\/JM AU\/4.1*",
+          "device": "LG G5310",
           "properties": {
-            "Device_Code_Name": "G5310",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5310"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G5400 AU\/4.1*",
+          "device": "LG G5400",
           "properties": {
-            "Device_Code_Name": "G5400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5400"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G7000 AU\/4.1*",
+          "device": "LG G7000",
           "properties": {
-            "Device_Code_Name": "G7000",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7000"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G7070 AU\/4.1*",
+          "device": "LG G7070",
           "properties": {
-            "Device_Code_Name": "G7070",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7070"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
-          "match": "LG-G7100 AU\/4.1* Profile\/MIDP-1.0*",
+          "match": "LG-G7100 AU\/4.1*",
+          "device": "LG G7100",
           "properties": {
-            "Device_Code_Name": "G7100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7100"
-          }
-        },
-        {
-          "match": "LG-G7100 AU\/4.1* Profile\/MIDP-2.0*",
-          "properties": {
-            "Device_Code_Name": "G7100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7100"
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-G1500 AU\/4.2*",
+          "device": "LG G1500",
           "properties": {
             "Version": "4.2",
-            "MinorVer": "2",
-            "Device_Code_Name": "G1500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G1500"
+            "MajorVer": "4",
+            "MinorVer": "2"
           }
         },
         {
           "match": "LG-G510 AU\/4.2*",
+          "devices": "LG G510",
           "properties": {
             "Version": "4.2",
-            "MinorVer": "2",
-            "Device_Code_Name": "G510",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G510"
+            "MajorVer": "4",
+            "MinorVer": "2"
           }
         },
         {
           "match": "LG-MG191a AU\/4.8*",
+          "device": "LG MG191a",
           "properties": {
             "Version": "4.8",
-            "MinorVer": "8",
-            "Device_Code_Name": "MG191a",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG191a"
+            "MajorVer": "4",
+            "MinorVer": "8"
           }
         },
         {
           "match": "LG-G4010 AU\/4.12 *",
+          "device": "LG G4010",
           "properties": {
             "Version": "4.12",
-            "MinorVer": "12",
-            "Device_Code_Name": "G4010",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G4010"
+            "MajorVer": "4",
+            "MinorVer": "12"
           }
         }
       ]

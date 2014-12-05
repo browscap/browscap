@@ -23,12 +23,7 @@
         },
         {
           "match": "BIRD.S580\/3.03\/WAP1.2.1",
-          "properties": {
-            "Device_Code_Name": "S580",
-            "Device_Maker": "BIRD",
-            "Device_Brand_Name": "BIRD",
-            "Device_Name": "S580"
-          }
+          "device": "BIRD S580"
         },
         {
           "match": "BIRD_D660\/V1.0.0\/2.0 *",

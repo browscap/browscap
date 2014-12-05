@@ -26,21 +26,6 @@
       },
       "children": [
         {
-          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
-        },
-        {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
           "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
           "device": "Amazon Kindle",
           "platforms": [
@@ -69,6 +54,21 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -96,6 +96,18 @@
         "isTablet": "false"
       }
     },
+    "general Mobile Device (Samsung)": {
+      "properties": {
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "Samsung",
+        "Device_Type": "Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Brand_Name": "Samsung",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "general Desktop": {
       "properties": {
         "Device_Type": "Desktop",
@@ -2640,6 +2652,54 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S5600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5600",
+        "Device_Name": "GT-S5600",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5230G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5230G",
+        "Device_Name": "GT-S5230G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S8003": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S8003",
+        "Device_Name": "GT-S8003",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-M8910": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-M8910",
+        "Device_Name": "GT-M8910",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-B7722": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3389,6 +3449,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I627",
         "Device_Name": "SGH-I627",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I607": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I607",
+        "Device_Name": "SGH-I607",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4553,6 +4625,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1058",
         "Device_Name": "Moto X",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MPx": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MPx",
+        "Device_Name": "MPx",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MPx220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MPx220",
+        "Device_Name": "MPx220",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola MPx230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MPx230",
+        "Device_Name": "MPx230",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -5940,6 +6048,30 @@
         "isTablet": "false"
       }
     },
+    "HTC P3400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3400",
+        "Device_Name": "P3400",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "900",
+        "Device_Name": "900",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -6413,6 +6545,198 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C810",
         "Device_Name": "C810",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG C3100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C3100",
+        "Device_Name": "C3100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F7100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F7100",
+        "Device_Name": "F7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G1600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G1600",
+        "Device_Name": "G1600",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G1610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G1610",
+        "Device_Name": "G1610",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G3100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G3100",
+        "Device_Name": "G3100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G5300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G5300",
+        "Device_Name": "G5300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G5300i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G5300i",
+        "Device_Name": "G5300i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G5310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G5310",
+        "Device_Name": "G5310",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G5400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G5400",
+        "Device_Name": "G5400",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G7000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G7000",
+        "Device_Name": "G7000",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G7070": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G7070",
+        "Device_Name": "G7070",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G7100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G7100",
+        "Device_Name": "G7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G1500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G1500",
+        "Device_Name": "G1500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G510",
+        "Device_Name": "G510",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG MG191a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MG191a",
+        "Device_Name": "MG191a",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G4010": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G4010",
+        "Device_Name": "G4010",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -9108,6 +9432,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo ET980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ET980",
+        "Device_Name": "ET980",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Malata I50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10419,11 +10755,11 @@
     "XDA Star": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "Star",
-        "Device_Code_Name": "Star",
-        "Device_Maker": "XDA",
+        "Device_Name": "XDA Star",
+        "Device_Code_Name": "XDA Star",
+        "Device_Maker": "O2",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "XDA",
+        "Device_Brand_Name": "O2",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10431,11 +10767,11 @@
     "XDA Orbit2": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "Orbit2",
-        "Device_Code_Name": "Orbit2",
-        "Device_Maker": "XDA",
+        "Device_Name": "XDA Orbit2",
+        "Device_Code_Name": "XDA Orbit2",
+        "Device_Maker": "O2",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "XDA",
+        "Device_Brand_Name": "O2",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10443,11 +10779,11 @@
     "XDA Stellar": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "Stellar",
-        "Device_Code_Name": "Stellar",
-        "Device_Maker": "XDA",
+        "Device_Name": "XDA Stellar",
+        "Device_Code_Name": "XDA Stellar",
+        "Device_Maker": "O2",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "XDA",
+        "Device_Brand_Name": "O2",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10455,11 +10791,83 @@
     "XDA Orbit": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "Orbit",
-        "Device_Code_Name": "Orbit",
-        "Device_Maker": "XDA",
+        "Device_Name": "XDA Orbit",
+        "Device_Code_Name": "XDA Orbit",
+        "Device_Maker": "O2",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "XDA",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xda 2mini": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xda 2 mini",
+        "Device_Code_Name": "Xda 2 mini",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xda 2s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xda 2s",
+        "Device_Code_Name": "Xda 2s",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xda II": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xda II",
+        "Device_Code_Name": "Xda II",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xphone II": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xphone II",
+        "Device_Code_Name": "Xphone II",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xphone": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xphone",
+        "Device_Code_Name": "Xphone",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "O2 Xda neo": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xda neo",
+        "Device_Code_Name": "Xda neo",
+        "Device_Maker": "O2",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O2",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10568,6 +10976,222 @@
         "Device_Maker": "Dopod",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 818 Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "818 Pro",
+        "Device_Code_Name": "818 Pro",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 838": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "838",
+        "Device_Code_Name": "838",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 838 Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "838 Pro",
+        "Device_Code_Name": "838 Pro",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "900",
+        "Device_Code_Name": "900",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod C700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C700",
+        "Device_Code_Name": "C700",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod C720W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C720W",
+        "Device_Code_Name": "C720W",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod D810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "D810",
+        "Device_Code_Name": "D810",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod P800W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "P800W",
+        "Device_Code_Name": "P800W",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod S300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S300",
+        "Device_Code_Name": "S300",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod S301": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S301",
+        "Device_Code_Name": "S301",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 566": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "566",
+        "Device_Code_Name": "566",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 586": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "586",
+        "Device_Code_Name": "586",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "710",
+        "Device_Code_Name": "710",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Dopod 830": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "830",
+        "Device_Code_Name": "830",
+        "Device_Maker": "Dopod",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dopod",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "EZZE EZ400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "EZ400",
+        "Device_Code_Name": "EZ400",
+        "Device_Maker": "EZZE",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "EZZE",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "EZZE MP100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MP100",
+        "Device_Code_Name": "MP100",
+        "Device_Maker": "EZZE",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "EZZE",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "EZZE Hg7000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Hg7000",
+        "Device_Code_Name": "Hg7000",
+        "Device_Maker": "EZZE",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "EZZE",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BIRD S580": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S580",
+        "Device_Code_Name": "S580",
+        "Device_Maker": "BIRD",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BIRD",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

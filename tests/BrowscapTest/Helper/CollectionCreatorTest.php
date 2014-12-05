@@ -60,7 +60,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
 
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
     {
-        $this->setExpectedException('\RunTimeException', 'File "./platforms.json" does not exist.');
+        $this->setExpectedException('\RunTimeException', 'File "./devices.json" does not exist.');
 
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
         $mockCollection->expects(self::any())
@@ -79,7 +79,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('addPlatformsFile', 'addSourceFile', 'addEnginesFile'),
+            array('addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'),
             array(),
             '',
             false

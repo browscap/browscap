@@ -26,27 +26,6 @@
       },
       "children": [
         {
-          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
-        },
-        {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
           "match": "Mozilla\/4.0 (#PLATFORM#NetFront\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Brew"
@@ -135,6 +114,27 @@
           "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
           "engine": "WebKit",
           "device": "Nintendo WiiU"
+        },
+        {
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

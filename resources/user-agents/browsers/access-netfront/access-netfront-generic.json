@@ -22,7 +22,10 @@
       },
       "children": [
         {
-          "match": "*NetFront\/*"
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/*Safari\/*",
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (*) *NetFront\/*"
@@ -37,10 +40,7 @@
           "match": "SEC-* *NetFront\/*"
         },
         {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/*Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
+          "match": "*NetFront\/*"
         }
       ]
     }

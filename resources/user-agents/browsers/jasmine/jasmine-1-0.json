@@ -6,6 +6,7 @@
       "userAgent": "Jasmine 1.0",
       "platform": "JAVA",
       "engine": "NetFront",
+      "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
@@ -18,16 +19,9 @@
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Name": "Samsung",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Device"
+        "JavaScript": "true"
       },
       "children": [
-        {
-          "match": "SAMSUNG-GT*Jasmine\/1.0*SMM-MMS\/*\/MIDP*"
-        },
         {
           "match": "SAMSUNG-C3050*?Jasmine\/1.0*",
           "device": "Samsung C3050"
@@ -62,12 +56,7 @@
         },
         {
           "match": "SAMSUNG-GT-M8910* Jasmine\/1.0*",
-          "properties": {
-            "Device_Code_Name": "GT-M8910",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-M8910"
-          }
+          "device": "Samsung GT-M8910"
         },
         {
           "match": "SAMSUNG-GT-S3370*?Jasmine\/1.0*",
@@ -83,12 +72,7 @@
         },
         {
           "match": "SAMSUNG-GT-S5230G*?Jasmine\/1.0*",
-          "properties": {
-            "Device_Code_Name": "GT-S5230G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230G"
-          }
+          "device": "Samsung GT-S5230G"
         },
         {
           "match": "SAMSUNG-GT-S5560*?Jasmine\/1.0*",
@@ -108,12 +92,7 @@
         },
         {
           "match": "SAMSUNG-S8003*?Jasmine\/1.0*",
-          "properties": {
-            "Device_Code_Name": "GT-S8003",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S8003"
-          }
+          "device": "Samsung GT-S8003"
         },
         {
           "match": "SAMSUNG-S8300*?Jasmine\/1.0*",
@@ -142,6 +121,9 @@
         {
           "match": "SAMSUNG-SGH-i900*?Jasmine\/1.0*",
           "device": "Samsung SGH-I900"
+        },
+        {
+          "match": "SAMSUNG-GT*Jasmine\/1.0*SMM-MMS\/*\/MIDP*"
         },
         {
           "match": "Samsung-* Jasmine\/1.0* "

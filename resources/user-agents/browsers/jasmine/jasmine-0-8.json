@@ -6,6 +6,7 @@
       "userAgent": "Jasmine 0.8",
       "platform": "JAVA",
       "engine": "NetFront",
+      "device": "general Mobile Device (Samsung)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Jasmine",
@@ -18,16 +19,9 @@
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Name": "Samsung",
-        "Device_Maker": "Samsung",
-        "Device_Type": "Mobile Device"
+        "JavaScript": "true"
       },
       "children": [
-        {
-          "match": "SAMSUNG-GT*Jasmine\/0.8*SMM-MMS\/*\/MIDP*"
-        },
         {
           "match": "SAMSUNG-C3050*?Jasmine\/0.8*",
           "device": "Samsung C3050"
@@ -78,12 +72,7 @@
         },
         {
           "match": "SAMSUNG-GT-S5600\/S5600CUIG1 SHP\/VPP\/R5 Jasmine\/0.8*",
-          "properties": {
-            "Device_Code_Name": "GT-S5600",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5600"
-          }
+          "device": "Samsung GT-S5600"
         },
         {
           "match": "SAMSUNG-GT-S7550*?Jasmine\/0.8*",
@@ -124,6 +113,9 @@
         {
           "match": "SAMSUNG-SGH-i900*?Jasmine\/0.8*",
           "device": "Samsung SGH-I900"
+        },
+        {
+          "match": "SAMSUNG-GT*Jasmine\/0.8*SMM-MMS\/*\/MIDP*"
         },
         {
           "match": "Samsung-* Jasmine\/0.8* "
