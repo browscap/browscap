@@ -119,7 +119,7 @@ return [
             'Browser' => 'Links',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'Mikuláš Patočka',
+            'Browser_Maker' => 'Mikulas Patocka',
             'Version' => '2.8',
             'MajorVer' => '2',
             'MinorVer' => '8',
