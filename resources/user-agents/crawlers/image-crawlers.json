@@ -173,7 +173,7 @@
           "match": "TinEye-bot\/0.02*",
           "properties": {
             "Browser": "TinEye Bot",
-            "Browser_Maker": "Idée Inc.",
+            "Browser_Maker": "Idee Inc.",
             "Version": "0.02",
             "MajorVer": "0",
             "MinorVer": "02"
@@ -183,7 +183,7 @@
           "match": "TinEye-bot\/*",
           "properties": {
             "Browser": "TinEye Bot",
-            "Browser_Maker": "Idée Inc."
+            "Browser_Maker": "Idee Inc."
           }
         }
       ]
