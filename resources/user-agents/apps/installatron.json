@@ -30,11 +30,11 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
+        "Device_Code_Name": "Linux Desktop",
         "Device_Pointing_Method": "mouse",
         "Device_Maker": "Various",
         "Device_Brand_Name": "unknown",
-        "Device_Name": "Windows Desktop"
+        "Device_Name": "Linux Desktop"
       },
       "children": [
         {

@@ -8460,6 +8460,36 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "0912",
+            "Device_Maker": "NEC",
+            "Device_Brand_Name": "DoCoMo",
+            "Device_Name": "NEC Casio N-02E"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Studio 5.0 S II",
+            "Device_Maker": "BLU",
+            "Device_Brand_Name": "BLU",
+            "Device_Name": "Studio 5.0 S II"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "A390",

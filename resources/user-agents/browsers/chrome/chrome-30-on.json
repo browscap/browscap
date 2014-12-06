@@ -2866,7 +2866,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",

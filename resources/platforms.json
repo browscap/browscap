@@ -1625,6 +1625,19 @@
         "Win32": "false"
       }
     },
+    "WinPhone": {
+      "match": "*Windows Phone*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone",
+        "Platform_Description": "Windows Phone OS",
+        "isMobileDevice": "true",
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device",
+        "Win32": "false"
+      }
+    },
     "WinPhone65": {
       "match": "*Windows Phone 6.5*",
       "inherits": "Windows",
