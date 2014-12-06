@@ -63,7 +63,7 @@ return [
             'Browser' => 'AcoonBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Michael Schöbel',
+            'Browser_Maker' => 'Michael Schoebel',
             'Version' => '4.11',
             'MajorVer' => '4',
             'MinorVer' => '11',

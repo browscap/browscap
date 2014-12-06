@@ -317,7 +317,7 @@ return [
             'Browser' => 'SEOkicks Robot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Torsten Rückert Internetdienstleistungen',
+            'Browser_Maker' => 'Torsten Rueckert Internetdienstleistungen',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

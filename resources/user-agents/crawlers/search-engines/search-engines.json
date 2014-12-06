@@ -948,7 +948,7 @@
           "match": "Mozilla\/5.0 (compatible; AcoonBot\/4.11*",
           "properties": {
             "Browser": "AcoonBot",
-            "Browser_Maker": "Michael Schöbel",
+            "Browser_Maker": "Michael Schoebel",
             "Version": "4.11",
             "MajorVer": "4",
             "MinorVer": "11"
@@ -958,7 +958,7 @@
           "match": "Mozilla\/5.0 (compatible; AcoonBot\/*",
           "properties": {
             "Browser": "AcoonBot",
-            "Browser_Maker": "Michael Schöbel"
+            "Browser_Maker": "Michael Schoebel"
           }
         },
         {

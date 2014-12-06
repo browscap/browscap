@@ -217,14 +217,14 @@
           "match": "MetaGer-LinkChecker",
           "properties": {
             "Browser": "MetaGer-LinkChecker",
-            "Browser_Maker": "SuMa-eV - Verein für freien Wissenszugang"
+            "Browser_Maker": "SuMa-eV - Verein fuer freien Wissenszugang"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible; metager2-verification-bot*",
           "properties": {
             "Browser": "metager2-verification-bot",
-            "Browser_Maker": "SuMa-eV - Verein für freien Wissenszugang"
+            "Browser_Maker": "SuMa-eV - Verein fuer freien Wissenszugang"
           }
         },
         {
