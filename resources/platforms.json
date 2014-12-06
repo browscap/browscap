@@ -679,6 +679,13 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_K_8_1": {
+      "match": "*iPhone OS 8.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "properties": {
