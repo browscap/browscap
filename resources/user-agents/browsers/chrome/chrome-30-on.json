@@ -2866,6 +2866,21 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "IQ4409 Quad",
+            "Device_Maker": "Fly",
+            "Device_Brand_Name": "Fly",
+            "Device_Name": "ERA Life 4"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

@@ -470,7 +470,7 @@ return [
             'Device_Maker' => 'Panasonic',
             'Device_Type' => 'TV Device',
             'Device_Pointing_Method' => 'mouse',
-            'Device_Code_Name' => 'unknown',
+            'Device_Code_Name' => 'TV',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

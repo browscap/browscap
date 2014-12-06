@@ -2018,6 +2018,13 @@
         "Platform_Version": "4.4"
       }
     },
+    "Android_4_4_D": {
+      "match": "*Android 4.4*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "inherits": "Android"

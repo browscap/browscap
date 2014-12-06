@@ -172,7 +172,7 @@ return [
     'issue-500-G' => [
         'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
         [
-            'Browser' => 'WordPress iPhone App',
+            'Browser' => 'WordPress App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'WordPress.org',
