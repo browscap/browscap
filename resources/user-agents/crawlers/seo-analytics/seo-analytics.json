@@ -29,7 +29,7 @@
           "match": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
           "properties": {
             "Browser": "SEOkicks Robot",
-            "Browser_Maker": "Torsten Rückert Internetdienstleistungen"
+            "Browser_Maker": "Torsten Rueckert Internetdienstleistungen"
           }
         },
         {
