@@ -326,6 +326,11 @@ class DataCollection
         }
 
         $fileContent = file_get_contents($src);
+        
+        if (preg_match('/[^ -~\s]/', $fileContent)) {
+            throw new \RuntimeException('File "' . $src . '" contains Non-ASCII-Characters.');
+        }
+        
         $json        = json_decode($fileContent, true);
 
         if (is_null($json)) {
