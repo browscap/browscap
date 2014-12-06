@@ -3395,6 +3395,27 @@
             "Browser": "restify",
             "Browser_Maker": "Mark Cavage"
           }
+        },
+        {
+          "match": "WebRingChecker\/1.71*",
+          "properties": {
+            "Browser": "WebRingChecker",
+            "Version": "1.71",
+            "MajorVer": "1",
+            "MinorVer": "71"
+          }
+        },
+        {
+          "match": "WebRingChecker\/*",
+          "properties": {
+            "Browser": "WebRingChecker"
+          }
+        },
+        {
+          "match": "ShowyouBot\/*",
+          "properties": {
+            "Browser": "ShowyouBot"
+          }
         }
       ]
     }
