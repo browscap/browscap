@@ -1642,6 +1642,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },
@@ -1656,6 +1657,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen",
         "Win32": "false"
       }
     },

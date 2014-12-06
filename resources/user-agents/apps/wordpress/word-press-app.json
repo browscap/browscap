@@ -68,7 +68,7 @@
           ]
         },
         {
-          "match": "wp-android\/3.0 (#PLATFORM#GT-N7100\/*",
+          "match": "wp-android\/3.0* (#PLATFORM#GT-N7100\/*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "match": "wp-android\/3.0 (#PLATFORM#",
+          "match": "wp-android\/3.0* (#PLATFORM#",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",

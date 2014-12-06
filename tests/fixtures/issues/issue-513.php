@@ -3845,7 +3845,7 @@ return [
         [
             'Browser' => 'PageFreezer',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'PageFreezer Software Inc.',
             'Version' => '0.0',
             'MajorVer' => '0',
@@ -3879,7 +3879,7 @@ return [
             'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'iOS',
-            'Platform_Version' => '7.1',
+            'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => true,
@@ -3957,7 +3957,7 @@ return [
         [
             'Browser' => 'restify',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'Mark Cavage',
             'Version' => '2.6',
             'MajorVer' => '2',
@@ -4069,7 +4069,7 @@ return [
         [
             'Browser' => 'VLC Media Player',
             'Browser_Type' => 'Application',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'VideoLAN non-profit organization',
             'Version' => '2.0',
             'MajorVer' => '2',
@@ -4097,7 +4097,7 @@ return [
         [
             'Browser' => 'VLC Media Player',
             'Browser_Type' => 'Application',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'VideoLAN non-profit organization',
             'Version' => '2.1',
             'MajorVer' => '2',
