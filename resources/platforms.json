@@ -2067,12 +2067,35 @@
       "match": "*HPUX*",
       "inherits": "HPUX"
     },
+    "BSD Four": {
+      "match": "*BSD Four*",
+      "properties": {
+        "Platform": "BSD",
+        "Platform_Maker": "University of California, Berkeley",
+        "Platform_Description": "BSD Four",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Various",
+        "Platform_Description": "OpenBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "FreeBSD": {
       "match": "*FreeBSD*",
       "properties": {
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
         "Platform_Description": "FreeBSD",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Various",
+        "Platform_Description": "OpenBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",

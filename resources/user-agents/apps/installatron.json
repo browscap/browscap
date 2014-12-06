@@ -1,0 +1,51 @@
+{
+  "division": "Installatron",
+  "sortIndex": 5151,
+  "userAgents": [
+    {
+      "userAgent": "Installatron",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Installatron",
+        "Browser": "Installatron",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Installatron LLC.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Windows Desktop",
+        "Device_Pointing_Method": "mouse",
+        "Device_Maker": "Various",
+        "Device_Brand_Name": "unknown",
+        "Device_Name": "Windows Desktop"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Version\/6.0* Safari\/* Installatron*",
+          "properties": {
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

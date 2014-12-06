@@ -424,14 +424,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Diffbot\/0.1; +http:\/\/www.diffbot.com)",
-          "properties": {
-            "Browser": "Diffbot",
-            "Version": "0.1",
-            "MinorVer": "1"
-          }
-        },
-        {
           "match": "mozilla\/5.0 (compatible; genevabot +http:\/\/www.healthdash.com)",
           "properties": {
             "Browser": "genevabot",
