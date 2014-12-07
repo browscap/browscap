@@ -8418,8 +8418,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AX540",
             "Device_Maker": "Bmobile",
             "Device_Brand_Name": "Bmobile",
@@ -8433,8 +8433,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AX540",
             "Device_Maker": "Bmobile",
             "Device_Brand_Name": "Bmobile",
