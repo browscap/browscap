@@ -353,7 +353,7 @@ class Expander
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
 
-        foreach ($allInputDivisions as $key => $properties) {
+        foreach (array_keys($allInputDivisions) as $key) {
             $this->getLogger()->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
@@ -371,6 +371,7 @@ class Expander
 
             $parents     = array_reverse($parents);
             $browserData = $defaultproperties;
+            $properties  = $allInputDivisions[$key];
 
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
@@ -409,8 +410,8 @@ class Expander
             $browserData['Parents'] = implode(',', $parents);
             unset($parents);
 
-            foreach ($browserData as $propertyName => $propertyValue) {
-                $properties[$propertyName] = $this->trimProperty($propertyValue);
+            foreach (array_keys($browserData) as $propertyName) {
+                $properties[$propertyName] = $this->trimProperty($browserData[$propertyName]);
             }
 
             unset($browserData);
