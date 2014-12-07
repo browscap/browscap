@@ -111,7 +111,9 @@ class BuildHelper
             $ua       = $division->getUserAgents();
             $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
 
-            foreach ($sections as $sectionName => $section) {
+            foreach (array_keys($sections) as $sectionName) {
+                $section = $sections[$sectionName];
+
                 $writerCollection
                     ->renderSectionHeader($sectionName)
                     ->renderSectionBody($section, $collection, $sections, $sectionName)
@@ -128,7 +130,9 @@ class BuildHelper
                 // versions
                 $sections = $expander->expand($division, $division->getName());
 
-                foreach ($sections as $sectionName => $section) {
+                foreach (array_keys($sections) as $sectionName) {
+                    $section = $sections[$sectionName];
+
                     $logger->info('checking division ' . $division->getName());
 
                     $collection->checkProperty($sectionName, $section);
@@ -153,12 +157,14 @@ class BuildHelper
 
                     $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
-                    foreach ($sectionsWithVersion as $sectionName => $section) {
-                        if (in_array($sectionName, $output)) {
+                    foreach (array_keys($sectionsWithVersion) as $sectionName) {
+                        if (array_key_exists($sectionName, $output)) {
                             throw new \UnexpectedValueException(
                                 'tried to add section "' . $sectionName . '" more than once'
                             );
                         }
+
+                        $section = $sectionsWithVersion[$sectionName];
 
                         $writerCollection
                             ->renderSectionHeader($sectionName)
@@ -166,7 +172,7 @@ class BuildHelper
                             ->renderSectionFooter($sectionName)
                         ;
 
-                        $output[] = $sectionName;
+                        $output[$sectionName] = $sectionName;
                     }
 
                     $writerCollection->renderDivisionFooter();
@@ -189,7 +195,9 @@ class BuildHelper
                 )
             );
 
-            foreach ($sections as $sectionName => $section) {
+            foreach (array_keys($sections) as $sectionName) {
+                $section = $sections[$sectionName];
+                
                 $writerCollection
                     ->renderSectionHeader($sectionName)
                     ->renderSectionBody($section, $collection, $sections, $sectionName)
