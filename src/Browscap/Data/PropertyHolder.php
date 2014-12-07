@@ -235,7 +235,9 @@ class PropertyHolder
             'Crawler',
         );
 
-        if (in_array($propertyName, $outputProperties)) {
+        $intersection = array_intersect(array($propertyName), $outputProperties);
+
+        if (!empty($intersection)) {
             return true;
         }
 
