@@ -1,0 +1,43 @@
+{
+  "division": "RebelMouse",
+  "sortIndex": 5152,
+  "userAgents": [
+    {
+      "userAgent": "RebelMouse",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RebelMouse",
+        "Browser": "RebelMouse",
+        "Browser_Type": "Application",
+        "Browser_Maker": "RebelMouse",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "RebelMouse\/0.1 Mozilla\/5.0 (compatible; http:\/\/rebelmouse.com) Gecko\/* Firefox\/*",
+          "engine": "Gecko",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -694,14 +694,14 @@
       "match": "*iosv7.0*",
       "inherits": "iOS",
       "properties": {
-        "Platform_Version": "8.0"
+        "Platform_Version": "7.0"
       }
     },
     "iOS_L_7_1": {
       "match": "*iosv7.1*",
       "inherits": "iOS",
       "properties": {
-        "Platform_Version": "8.1"
+        "Platform_Version": "7.1"
       }
     },
     "iOS_L_8_0": {
