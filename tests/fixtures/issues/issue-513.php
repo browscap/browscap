@@ -2721,7 +2721,7 @@ return [
     'issue-513-CX' => [
         'Mozilla/5.0 (Linux;U;Android 4.4.2;Lenovo A328 Build/KOT49H) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/537.306 Mobile Safari/534.30;',
         [
-            'Browser' => 'Android',
+            'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2741,9 +2741,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A328',
             'Device_Brand_Name' => 'Lenovo',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
     'issue-513-CY' => [
