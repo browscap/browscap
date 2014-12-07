@@ -8,6 +8,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Apache Bench",
         "Browser": "Apache Bench",
+        "Browser_Maker": "Apache Foundation",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",

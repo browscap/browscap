@@ -17,12 +17,6 @@
       },
       "children": [
         {
-          "match": "Mediapartners-Google*",
-          "properties": {
-            "Browser": "AdSense Bot"
-          }
-        },
-        {
           "match": "GoogleFriendConnect*"
         },
         {
@@ -109,6 +103,12 @@
           "match": "GoogleFriendConnect*",
           "properties": {
             "Browser": "Google Friend Connect"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/*(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;)*",
+          "properties": {
+            "Browser": "Google Adwords DisplayAds WebRender"
           }
         }
       ]

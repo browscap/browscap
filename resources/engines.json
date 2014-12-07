@@ -1,5 +1,13 @@
 {
   "engines": {
+    "unknown": {
+      "properties": {
+        "RenderingEngine_Name": "unknown",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "unknown",
+        "RenderingEngine_Maker": "unknown"
+      }
+    },
     "WebKit": {
       "properties": {
         "RenderingEngine_Name": "WebKit",

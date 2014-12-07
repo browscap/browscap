@@ -23,6 +23,23 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; *; heritrix\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
+          "properties": {
+            "Browser": "bl.uk_lddc_bot",
+            "Browser_Maker": "The British Legal Deposit Libraries"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; bnf.fr_bot;*",
+          "properties": {
+            "Browser": "bnf.fr_bot",
+            "Browser_Maker": "Bibliotheque nationale de France"
+          }
         }
       ]
     }

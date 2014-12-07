@@ -22,9 +22,6 @@
       },
       "children": [
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
-        },
-        {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build\/*)*",
           "properties": {
             "isTablet": "true",
@@ -67,6 +64,9 @@
             "Device_Brand_Name": "Asus",
             "Device_Name": "Transformer Prime"
           }
+        },
+        {
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
         }
       ]
     }

@@ -20,18 +20,18 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "false",
-        "CssVersion": "2",
-        "Device_Name": "TV",
-        "Device_Maker": "Panasonic",
-        "Device_Type": "TV Device",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
           "properties": {
-            "Device_Type": "TV Device"
+            "Device_Type": "TV Device",
+            "Device_Name": "TV",
+            "Device_Code_Name": "TV",
+            "Device_Maker": "Panasonic",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false"
           },
           "platforms": [
             "FreeBSD"

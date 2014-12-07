@@ -65,7 +65,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -97,7 +97,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -151,6 +151,21 @@
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "DINO762 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "762 A9",
+            "Device_Maker": "Dino",
+            "Device_Brand_Name": "Dino",
+            "Device_Name": "762 A9 TABLET"
+          },
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

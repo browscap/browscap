@@ -402,7 +402,15 @@
         {
           "match": "Mozilla\/4.0 (compatible; http:\/\/search.thunderstone.com\/texis\/websearch\/about.html)",
           "properties": {
-            "Browser": "ThunderStone"
+            "Browser": "Texis Websearch",
+            "Browser_Maker": "Thunderstone Software LLC"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
+          "properties": {
+            "Browser": "Texis Webscript",
+            "Browser_Maker": "Thunderstone Software LLC"
           }
         },
         {
@@ -590,7 +598,8 @@
         {
           "match": "OpenISearch\/1.*",
           "properties": {
-            "Browser": "OpenISearch (Amazon)"
+            "Browser": "OpenISearch (Amazon)",
+            "Browser_Maker": "Amazon.com, Inc."
           }
         },
         {
@@ -1076,6 +1085,13 @@
           "properties": {
             "Browser": "Gigablast Search Engine",
             "Browser_Maker": "gigablast.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; YioopBot*",
+          "properties": {
+            "Browser": "YioopBot",
+            "Browser_Maker": "Yioop!"
           }
         }
       ]

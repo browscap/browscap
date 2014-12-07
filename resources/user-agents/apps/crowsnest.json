@@ -1,0 +1,53 @@
+{
+  "division": "Crowsnest Mobile App",
+  "sortIndex": 2280,
+  "userAgents": [
+    {
+      "userAgent": "Crowsnest Mobile App",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crowsnest Mobile App",
+        "Browser": "Crowsnest Mobile App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Gocro, Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Name": "general Mobile Device",
+        "Device_Maker": "unknown",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "Crowsnest\/0.5*",
+          "properties": {
+            "Version": "0.5",
+            "MajorVer": "0",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "Crowsnest*"
+        }
+      ]
+    }
+  ]
+}

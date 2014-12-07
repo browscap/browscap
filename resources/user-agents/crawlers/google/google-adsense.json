@@ -1,0 +1,31 @@
+{
+  "division": "AdSense Bot",
+  "sortIndex": 1071,
+  "userAgents": [
+    {
+      "userAgent": "AdSense Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google",
+        "Browser": "AdSense Bot",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mediapartners-Google*"
+        },
+        {
+          "match": "Adsense-Snapshot-Google*",
+          "properties": {
+            "Browser": "AdSense Snapshot Bot"
+          }
+        }
+      ]
+    }
+  ]
+}
