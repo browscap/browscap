@@ -44,86 +44,86 @@ class PropertyHolder
     public function getPropertyType($propertyName)
     {
         $stringProperties = array(
-            'Comment',
-            'Browser',
-            'Browser_Maker',
-            'Browser_Modus',
-            'Platform',
-            'Platform_Name',
-            'Platform_Description',
-            'Device_Name',
-            'Platform_Maker',
-            'Device_Code_Name',
-            'Device_Maker',
-            'Device_Brand_Name',
-            'RenderingEngine_Name',
-            'RenderingEngine_Description',
-            'RenderingEngine_Maker',
-            'Parent',
-            'PropertyName',
+            'Comment'                     => 1,
+            'Browser'                     => 1,
+            'Browser_Maker'               => 1,
+            'Browser_Modus'               => 1,
+            'Platform'                    => 1,
+            'Platform_Name'               => 1,
+            'Platform_Description'        => 1,
+            'Device_Name'                 => 1,
+            'Platform_Maker'              => 1,
+            'Device_Code_Name'            => 1,
+            'Device_Maker'                => 1,
+            'Device_Brand_Name'           => 1,
+            'RenderingEngine_Name'        => 1,
+            'RenderingEngine_Description' => 1,
+            'RenderingEngine_Maker'       => 1,
+            'Parent'                      => 1,
+            'PropertyName'                => 1,
         );
 
-        if (in_array($propertyName, $stringProperties)) {
+        if (isset($stringProperties[$propertyName])) {
             return self::TYPE_STRING;
         }
 
         $arrayProperties = array(
-            'Browser_Type',
-            'Device_Type',
-            'Device_Pointing_Method',
-            'Browser_Bits',
-            'Platform_Bits',
+            'Browser_Type'           => 1,
+            'Device_Type'            => 1,
+            'Device_Pointing_Method' => 1,
+            'Browser_Bits'           => 1,
+            'Platform_Bits'          => 1,
         );
 
-        if (in_array($propertyName, $arrayProperties)) {
+        if (isset($arrayProperties[$propertyName])) {
             return self::TYPE_IN_ARRAY;
         }
 
         $genericProperties = array(
-            'Platform_Version',
-            'RenderingEngine_Version',
+            'Platform_Version'        => 1,
+            'RenderingEngine_Version' => 1,
         );
 
-        if (in_array($propertyName, $genericProperties)) {
+        if (isset($genericProperties[$propertyName])) {
             return self::TYPE_GENERIC;
         }
 
         $numericProperties = array(
-            'Version',
-            'CssVersion',
-            'AolVersion',
-            'MajorVer',
-            'MinorVer',
+            'Version'    => 1,
+            'CssVersion' => 1,
+            'AolVersion' => 1,
+            'MajorVer'   => 1,
+            'MinorVer'   => 1,
         );
 
-        if (in_array($propertyName, $numericProperties)) {
+        if (isset($numericProperties[$propertyName])) {
             return self::TYPE_NUMBER;
         }
 
         $booleanProperties = array(
-            'Alpha',
-            'Beta',
-            'Win16',
-            'Win32',
-            'Win64',
-            'Frames',
-            'IFrames',
-            'Tables',
-            'Cookies',
-            'BackgroundSounds',
-            'JavaScript',
-            'VBScript',
-            'JavaApplets',
-            'ActiveXControls',
-            'isMobileDevice',
-            'isTablet',
-            'isSyndicationReader',
-            'Crawler',
-            'MasterParent',
-            'LiteMode',
+            'Alpha'               => 1,
+            'Beta'                => 1,
+            'Win16'               => 1,
+            'Win32'               => 1,
+            'Win64'               => 1,
+            'Frames'              => 1,
+            'IFrames'             => 1,
+            'Tables'              => 1,
+            'Cookies'             => 1,
+            'BackgroundSounds'    => 1,
+            'JavaScript'          => 1,
+            'VBScript'            => 1,
+            'JavaApplets'         => 1,
+            'ActiveXControls'     => 1,
+            'isMobileDevice'      => 1,
+            'isTablet'            => 1,
+            'isSyndicationReader' => 1,
+            'Crawler'             => 1,
+            'MasterParent'        => 1,
+            'LiteMode'            => 1,
         );
 
-        if (in_array($propertyName, $booleanProperties)) {
+        if (isset($booleanProperties[$propertyName])) {
             return self::TYPE_BOOLEAN;
         }
 
@@ -149,27 +149,27 @@ class PropertyHolder
         }
 
         $extraProperties = array(
-            'Browser_Type',
-            'Browser_Bits',
-            'Browser_Maker',
-            'Browser_Modus',
-            'Platform_Name',
-            'Platform_Bits',
-            'Platform_Maker',
-            'Device_Code_Name',
-            'Device_Brand_Name',
-            'Device_Name',
-            'Device_Maker',
-            'Device_Type',
-            'Device_Pointing_Method',
-            'Platform_Description',
-            'RenderingEngine_Name',
-            'RenderingEngine_Version',
-            'RenderingEngine_Description',
-            'RenderingEngine_Maker',
+            'Browser_Type'                => 1,
+            'Browser_Bits'                => 1,
+            'Browser_Maker'               => 1,
+            'Browser_Modus'               => 1,
+            'Platform_Name'               => 1,
+            'Platform_Bits'               => 1,
+            'Platform_Maker'              => 1,
+            'Device_Code_Name'            => 1,
+            'Device_Brand_Name'           => 1,
+            'Device_Name'                 => 1,
+            'Device_Maker'                => 1,
+            'Device_Type'                 => 1,
+            'Device_Pointing_Method'      => 1,
+            'Platform_Description'        => 1,
+            'RenderingEngine_Name'        => 1,
+            'RenderingEngine_Version'     => 1,
+            'RenderingEngine_Description' => 1,
+            'RenderingEngine_Maker'       => 1,
         );
 
-        if (in_array($propertyName, $extraProperties)) {
+        if (isset($extraProperties[$propertyName])) {
             return true;
         }
 
