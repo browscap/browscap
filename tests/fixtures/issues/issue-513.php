@@ -3423,12 +3423,12 @@ return [
     'issue-513-DX' => [
         'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/30.0.1599.101 Safari/537.36',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '30.0',
-            'MajorVer' => '30',
+            'Browser_Maker' => 'Maxthon International Limited',
+            'Version' => '4.0',
+            'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Win10',
             'Platform_Version' => '6.4',
@@ -3443,9 +3443,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-513-DY' => [
