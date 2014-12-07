@@ -8430,6 +8430,21 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "AX540",
+            "Device_Maker": "Bmobile",
+            "Device_Brand_Name": "Bmobile",
+            "Device_Name": "AX540"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#TAB10-400*Build\/*) AppleWebKit* (KHTML,*like*Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",
