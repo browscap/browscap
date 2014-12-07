@@ -3397,24 +3397,10 @@
           }
         },
         {
-          "match": "WebRingChecker\/1.71*",
+          "match": "ShowyouBot*",
           "properties": {
-            "Browser": "WebRingChecker",
-            "Version": "1.71",
-            "MajorVer": "1",
-            "MinorVer": "71"
-          }
-        },
-        {
-          "match": "WebRingChecker\/*",
-          "properties": {
-            "Browser": "WebRingChecker"
-          }
-        },
-        {
-          "match": "ShowyouBot\/*",
-          "properties": {
-            "Browser": "ShowyouBot"
+            "Browser": "ShowyouBot",
+            "Browser_Maker": "Remixation, Inc"
           }
         }
       ]
