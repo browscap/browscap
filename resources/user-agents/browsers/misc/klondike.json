@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Klondike",
+      "device": "unknown",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Klondike",
@@ -24,8 +25,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "unknown"
+        "Crawler": "false"
       },
       "children": [
         {

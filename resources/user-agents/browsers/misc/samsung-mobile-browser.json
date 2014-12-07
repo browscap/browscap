@@ -29,587 +29,265 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Samsung\/I7110\/* ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-I7110",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I7110"
-          },
+          "device": "Samsung GT-I7110",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "SEC-SGHD730 SymbianOS\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SGH D730",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH D730"
-          },
+          "device": "Samsung SGH-D730",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Mozilla\/SMB3(Z105)\/Samsung *",
-          "properties": {
-            "Device_Code_Name": "Z105",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Z105"
-          }
+          "device": "Samsung SGH-Z105"
         },
         {
           "match": "SAMSUNG-SGH-X480\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X480",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X480"
-          }
+          "device": "Samsung SGH-X480"
         },
         {
           "match": "SAMSUNG-SGH-X480C\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X480C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X480C"
-          }
+          "device": "Samsung SGH-X480C"
         },
         {
           "match": "SAMSUNG-SGH-X486\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X486",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X486"
-          }
+          "device": "Samsung SGH-X486"
         },
         {
           "match": "SAMSUNG-SGH-X636\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X636",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X636"
-          }
+          "device": "Samsung SGH-X636"
         },
         {
           "match": "SAMSUNG-SGH-Z140\/?.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH Z140",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Z140"
-          }
+          "device": "Samsung SGH-Z140"
         },
         {
           "match": "SAMSUNG-SGH-Z150\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH Z150",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Z150"
-          }
+          "device": "Samsung SGH-Z150"
         },
         {
           "match": "SEC-SGHC130\/1.0*",
-          "properties": {
-            "Device_Code_Name": "SGH C130",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH C130"
-          }
+          "device": "Samsung SGH-C130"
         },
         {
           "match": "SEC-SGHC200 *",
-          "properties": {
-            "Device_Code_Name": "SGH C200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH C200"
-          }
+          "device": "Samsung SGH-C200"
         },
         {
           "match": "SEC-SGHC200C *",
-          "properties": {
-            "Device_Code_Name": "SGH C200C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH C200C"
-          }
+          "device": "Samsung SGH-C200C"
         },
         {
           "match": "SEC-SGHC207 *",
-          "properties": {
-            "Device_Code_Name": "SGH C207",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH C207"
-          }
+          "device": "Samsung SGH-C207"
         },
         {
           "match": "SEC-SGHC207L UP.Link\/6.3.0.0.0",
-          "properties": {
-            "Device_Code_Name": "SGH C207L",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH C207L"
-          }
+          "device": "Samsung SGH-C207L"
         },
         {
           "match": "SEC-SGHD357, TSS\/2.5, Rev 1.4 UP.Link\/6.3.0.0.0",
-          "properties": {
-            "Device_Code_Name": "SGH D357",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH D357"
-          }
+          "device": "Samsung SGH-D357"
         },
         {
           "match": "SEC-SGHD410 *",
-          "properties": {
-            "Device_Code_Name": "SGH D410",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH D410"
-          }
+          "device": "Samsung SGH-D410"
         },
         {
           "match": "SEC-SGHD410C *",
-          "properties": {
-            "Device_Code_Name": "SGH D410C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH D410C"
-          }
+          "device": "Samsung SGH-D410C"
         },
         {
           "match": "SEC-SGHD807\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH D807",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH D807"
-          }
+          "device": "Samsung SGH-D807"
         },
         {
           "match": "SEC-SGHE300 *",
-          "properties": {
-            "Device_Code_Name": "SGH E300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E300"
-          }
+          "device": "Samsung SGH-E300"
         },
         {
           "match": "SEC-SGHE310 *",
-          "properties": {
-            "Device_Code_Name": "SGH E310",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E310"
-          }
+          "device": "Samsung SGH-E310"
         },
         {
           "match": "SEC-SGHE310\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH E310",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E310"
-          }
+          "device": "Samsung SGH-E310"
         },
         {
           "match": "SEC-SGHE310C\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH E310C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E310C"
-          }
+          "device": "Samsung SGH-E310C"
         },
         {
           "match": "SEC-SGHE317 *",
-          "properties": {
-            "Device_Code_Name": "SGH E317",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E317"
-          }
+          "device": "Samsung SGH-E317"
         },
         {
           "match": "SEC-SGHE530\/1.0 TSS\/2.5 *",
-          "properties": {
-            "Device_Code_Name": "SGH E530",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E530"
-          }
+          "device": "Samsung SGH-E530"
         },
         {
           "match": "SEC-SGHE600 *",
-          "properties": {
-            "Device_Code_Name": "SGH E600",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E600"
-          }
+          "device": "Samsung SGH-E600"
         },
         {
           "match": "SEC-SGHE600C *",
-          "properties": {
-            "Device_Code_Name": "SGH E600C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E600C"
-          }
+          "device": "Samsung SGH-E600C"
         },
         {
           "match": "SEC-SGHE608*",
-          "properties": {
-            "Device_Code_Name": "SGH E608",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E608"
-          }
+          "device": "Samsung SGH-E608"
         },
         {
           "match": "SEC-SGHE710 *",
-          "properties": {
-            "Device_Code_Name": "SGH E710",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E710"
-          }
+          "device": "Samsung SGH-E710"
         },
         {
           "match": "SEC-SGHE710\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH E710",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E710"
-          }
+          "device": "Samsung SGH-E710"
         },
         {
           "match": "SEC-SGHE720\/1.0 TSS\/2.5 *",
-          "properties": {
-            "Device_Code_Name": "SGH E720",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E720"
-          }
+          "device": "Samsung SGH-E720"
         },
         {
           "match": "SEC-SGHE810 *",
-          "properties": {
-            "Device_Code_Name": "SGH E810",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E810"
-          }
+          "device": "Samsung SGH-E810"
         },
         {
           "match": "SEC-SGHE810C\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH E810C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E810C"
-          }
+          "device": "Samsung SGH-E810C"
         },
         {
           "match": "SEC-SGHP100 *",
-          "properties": {
-            "Device_Code_Name": "SGH P100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P100"
-          }
+          "device": "Samsung SGH-P100"
         },
         {
           "match": "SEC-SGHP107 *",
-          "properties": {
-            "Device_Code_Name": "SGH P107",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P107"
-          }
+          "device": "Samsung SGH-P107"
         },
         {
           "match": "SEC-SGHP207, TSS\/2.5, Rev1.1*",
-          "properties": {
-            "Device_Code_Name": "SGH P207",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P207"
-          }
+          "device": "Samsung SGH-P207"
         },
         {
           "match": "SEC-SGHP400 *",
-          "properties": {
-            "Device_Code_Name": "SGH P400",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P400"
-          }
+          "device": "Samsung SGH-P400"
         },
         {
           "match": "SEC-SGHP408*",
-          "properties": {
-            "Device_Code_Name": "SGH P408",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P408"
-          }
+          "device": "Samsung SGH-P408"
         },
         {
           "match": "SEC-SGHP730C\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH P730C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH P730C"
-          }
+          "device": "Samsung SGH-P730C"
         },
         {
           "match": "SEC-SGHS200 *",
-          "properties": {
-            "Device_Code_Name": "SGH S200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH S200"
-          }
+          "device": "Samsung SGH-S200"
         },
         {
           "match": "SEC-SGHS208*",
-          "properties": {
-            "Device_Code_Name": "SGH S208",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH S208"
-          }
+          "device": "Samsung SGH-S208"
         },
         {
           "match": "SEC-SGHS300 *",
-          "properties": {
-            "Device_Code_Name": "SGH S300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH S300"
-          }
+          "device": "Samsung SGH-S300"
         },
         {
           "match": "SEC-SGHS307 *",
-          "properties": {
-            "Device_Code_Name": "SGH S307",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH S307"
-          }
+          "device": "Samsung SGH-S307"
         },
         {
           "match": "SEC-SGHS308*",
-          "properties": {
-            "Device_Code_Name": "SGH S308",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH S308"
-          }
+          "device": "Samsung SGH-S308"
         },
         {
           "match": "SEC-SGHV200 *",
-          "properties": {
-            "Device_Code_Name": "SGH V200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH V200"
-          }
+          "device": "Samsung SGH-V200"
         },
         {
           "match": "SEC-SGHV208*",
-          "properties": {
-            "Device_Code_Name": "SGH V208",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH V208"
-          }
+          "device": "Samsung SGH-V208"
         },
         {
           "match": "SEC-SGHX105 *",
-          "properties": {
-            "Device_Code_Name": "SGH X105",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X105"
-          }
+          "device": "Samsung SGH-X105"
         },
         {
           "match": "SEC-SGHX160\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X160",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X160"
-          }
+          "device": "Samsung SGH-X160"
         },
         {
           "match": "SEC-SGHX400 *",
-          "properties": {
-            "Device_Code_Name": "SGH X400",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X400"
-          }
+          "device": "Samsung SGH-X400"
         },
         {
           "match": "SEC-SGHX426 *",
-          "properties": {
-            "Device_Code_Name": "SGH X426",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X426"
-          }
+          "device": "Samsung SGH-X426"
         },
         {
           "match": "SEC-SGHX427 *",
-          "properties": {
-            "Device_Code_Name": "SGH X427",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X427"
-          }
+          "device": "Samsung SGH-X427"
         },
         {
           "match": "SEC-SGHX427M *",
-          "properties": {
-            "Device_Code_Name": "SGH X427M",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X427M"
-          }
+          "device": "Samsung SGH-X427M"
         },
         {
           "match": "SEC-SGHX430 *",
-          "properties": {
-            "Device_Code_Name": "SGH X430",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X430"
-          }
+          "device": "Samsung SGH-X430"
         },
         {
           "match": "SEC-SGHX438*",
-          "properties": {
-            "Device_Code_Name": "SGH X437",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X437"
-          }
+          "device": "Samsung SGH-X438"
         },
         {
           "match": "SEC-SGHX450 *",
-          "properties": {
-            "Device_Code_Name": "SGH X450",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X450"
-          }
+          "device": "Samsung SGH-X450"
         },
         {
           "match": "SEC-SGHX458*",
-          "properties": {
-            "Device_Code_Name": "SGH X458",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X458"
-          }
+          "device": "Samsung SGH-X458"
         },
         {
           "match": "SEC-SGHX510\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "SGH X510",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X510"
-          }
+          "device": "Samsung SGH-X510"
         },
         {
           "match": "SEC-SGHX660\/1.0 TSS\/2.5 *",
-          "properties": {
-            "Device_Code_Name": "SGH X660",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X660"
-          }
+          "device": "Samsung SGH-X660"
         },
         {
           "match": "SEC-SGHX660\/EJ3 TSS\/2.5 *",
-          "properties": {
-            "Device_Code_Name": "SGH X660",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X660"
-          }
+          "device": "Samsung SGH-X660"
         },
         {
           "match": "SGH-Z107 SHP\/VPP\/R5 SMB3.1 *",
-          "properties": {
-            "Device_Code_Name": "SGH Z107",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Z107"
-          }
+          "device": "Samsung SGH-Z107"
         },
         {
           "match": "SGH-Z300 SHP\/VPP\/R5 SMB3.1 *",
-          "properties": {
-            "Device_Code_Name": "SGH Z300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Z300"
-          }
+          "device": "Samsung SGH-Z300"
         },
         {
           "match": "SGH-Z500 SHP\/VPP\/R5 SMB3.1 *",
-          "properties": {
-            "Device_Code_Name": "SGH Z500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Z500"
-          }
+          "device": "Samsung SGH-Z500"
         },
         {
           "match": "SendoM550\/226-H-12 *",
-          "properties": {
-            "Device_Code_Name": "M550",
-            "Device_Maker": "Sendo",
-            "Device_Brand_Name": "Sendo",
-            "Device_Name": "M550"
-          }
+          "device": "Sendo M550"
         },
         {
           "match": "SendoS600\/04 *",
-          "properties": {
-            "Device_Code_Name": "S600",
-            "Device_Maker": "Sendo",
-            "Device_Brand_Name": "Sendo",
-            "Device_Name": "S600"
-          }
+          "device": "Sendo S600"
         },
         {
           "match": "Vodafone\/1.0\/SamsungSGHX660V\/X660JBEK2\/Browser\/TSS\/2.5 *",
-          "properties": {
-            "Device_Code_Name": "SGH X660V",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH X660V"
-          }
+          "device": "Samsung SGH-X660V"
         }
       ]
     }

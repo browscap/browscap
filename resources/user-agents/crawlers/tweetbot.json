@@ -22,7 +22,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Browser": "Tweetbot"
+        "Browser": "Tweetbot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",

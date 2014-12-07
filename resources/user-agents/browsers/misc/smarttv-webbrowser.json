@@ -30,9 +30,7 @@
           "match": "Mozilla\/5.0 (SmartHub; SMART-TV; U; Linux\/SmartTV) AppleWebKit\/* (KHTML,*like Gecko*) WebBrowser\/1.0* SmartTV Safari\/*",
           "properties": {
             "Version": "1.0",
-            "MajorVer": "1",
-            "Device_Code_Name": "Smart TV",
-            "Device_Name": "Smart TV"
+            "MajorVer": "1"
           }
         }
       ]

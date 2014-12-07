@@ -4,18 +4,14 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Zune",
+      "device": "Microsoft ZuneHD",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Zune",
         "Browser": "Microsoft Zune",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft",
-        "Win32": "true",
-        "isMobileDevice": "true",
-        "Device_Name": "ZuneHD",
-        "Device_Maker": "Microsoft",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "mouse"
+        "Browser_Maker": "Microsoft Corporation",
+        "Win32": "true"
       },
       "children": [
         {

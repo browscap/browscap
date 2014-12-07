@@ -6,6 +6,7 @@
     {
       "userAgent": "Sogou Explorer #MAJORVER#.#MINORVER#",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Sogou Explorer #MAJORVER#.#MINORVER#",
@@ -25,7 +26,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Frames": "true",

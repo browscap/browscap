@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.2",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.2",
@@ -16,13 +17,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
         {
@@ -37,87 +32,51 @@
         },
         {
           "match": "MOT-A630\/0B.81.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "A630",
-            "Device_Name": "A630"
-          }
+          "device": "Motorola A630"
         },
         {
           "match": "MOT-A728\/* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "A728",
-            "Device_Name": "A728"
-          }
+          "device": "Motorola A728"
         },
         {
           "match": "MOT-A760\/R501_G_00.*",
-          "properties": {
-            "Device_Code_Name": "A760",
-            "Device_Name": "A760"
-          }
+          "device": "Motorola A760"
         },
         {
           "match": "MOT-A760i\/R501_G_00.*",
-          "properties": {
-            "Device_Code_Name": "A760i",
-            "Device_Name": "A760i"
-          }
+          "device": "Motorola A760i"
         },
         {
           "match": "MOT-A768\/A768_G_0*",
-          "properties": {
-            "Device_Code_Name": "A768",
-            "Device_Name": "A768"
-          }
+          "device": "Motorola A768"
         },
         {
           "match": "MOT-A768\/EZX_G_0*",
-          "properties": {
-            "Device_Code_Name": "A768",
-            "Device_Name": "A768"
-          }
+          "device": "Motorola A768"
         },
         {
           "match": "MOT-A768\/R503_G_0*",
-          "properties": {
-            "Device_Code_Name": "A768",
-            "Device_Name": "A768"
-          }
+          "device": "Motorola A768"
         },
         {
           "match": "MOT-A768\/R51_G_0*",
-          "properties": {
-            "Device_Code_Name": "A768",
-            "Device_Name": "A768"
-          }
+          "device": "Motorola A768"
         },
         {
           "match": "MOT-A768i\/R503_G_00.17.A1R*",
-          "properties": {
-            "Device_Code_Name": "A768i",
-            "Device_Name": "A768i"
-          }
+          "device": "Motorola A768i"
         },
         {
           "match": "MOT-A835\/7?.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "A835",
-            "Device_Name": "A835"
-          }
+          "device": "Motorola A835"
         },
         {
           "match": "MOT-A845\/74.07.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "A845",
-            "Device_Name": "A845"
-          }
+          "device": "Motorola A845"
         },
         {
           "match": "MOT-C380\/0B.D?.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C380",
-            "Device_Name": "C380"
-          }
+          "device": "Motorola C380"
         },
         {
           "match": "MOT-C381\/0B.* MIB\/2.2*",

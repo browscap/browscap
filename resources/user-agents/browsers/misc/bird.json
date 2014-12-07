@@ -14,12 +14,7 @@
       "children": [
         {
           "match": "BIRD.D220\/SW3.09.1015\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "D220",
-            "Device_Maker": "BIRD",
-            "Device_Brand_Name": "BIRD",
-            "Device_Name": "D220"
-          }
+          "device": "BIRD D220"
         },
         {
           "match": "BIRD.S580\/3.03\/WAP1.2.1",
@@ -27,21 +22,11 @@
         },
         {
           "match": "BIRD_D660\/V1.0.0\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "D660",
-            "Device_Maker": "BIRD",
-            "Device_Brand_Name": "BIRD",
-            "Device_Name": "D660"
-          }
+          "device": "BIRD D660"
         },
         {
           "match": "BIRD_D716\/V1.0.0\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "D716",
-            "Device_Maker": "BIRD",
-            "Device_Brand_Name": "BIRD",
-            "Device_Name": "D716"
-          }
+          "device": "BIRD D716"
         }
       ]
     }

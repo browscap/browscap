@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "KDDI",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "KDDI",
@@ -14,12 +15,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Phone",
-        "Device_Name": "general Mobile Phone"
+        "CssVersion": "1"
       },
       "children": [
         {

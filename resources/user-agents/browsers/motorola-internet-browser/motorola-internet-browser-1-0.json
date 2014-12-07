@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 1.0",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 1.0",
@@ -16,56 +17,32 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
         {
           "match": "MOT-A668\/ WAP.Browser\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "A668",
-            "Device_Name": "A668"
-          }
+          "device": "Motorola A668"
         },
         {
           "match": "MOT-V690\/ WAP.Browser\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "V690",
-            "Device_Name": "V690"
-          }
+          "device": "Motorola V690"
         },
         {
           "match": "MOT-V868\/1.0 MIB1.2\/v1.0 *",
-          "properties": {
-            "Device_Code_Name": "V868",
-            "Device_Name": "V868"
-          }
+          "device": "Motorola V868"
         },
         {
           "match": "MOT-V878\/ WAP.Browser\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "V878",
-            "Device_Name": "V878"
-          }
+          "device": "Motorola V878"
         },
         {
           "match": "MOT-W220\/ WAP.Browser\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "W220",
-            "Device_Name": "W220"
-          }
+          "device": "Motorola W220"
         },
         {
           "match": "MOT-W220\/1.0 Release\/6.30.2006 Browser\/CMCS1.0 *",
-          "properties": {
-            "Device_Code_Name": "W220",
-            "Device_Name": "W220"
-          }
+          "device": "Motorola W220"
         }
       ]
     }

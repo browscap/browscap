@@ -20,7 +20,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "ZTE",
@@ -32,10 +31,12 @@
       },
       "children": [
         {
-          "match": "ZTE-C6100\/1.0 SMIT-WAP\/*"
+          "match": "ZTE-C6100\/1.0 SMIT-WAP\/*",
+          "device": "ZTE C6100"
         },
         {
-          "match": "ZTE-C78\/1.0 SMIT-Browser\/2.0*"
+          "match": "ZTE-C78\/1.0 SMIT-Browser\/2.0*",
+          "device": "ZTE C78"
         }
       ]
     }

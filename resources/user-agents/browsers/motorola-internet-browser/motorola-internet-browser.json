@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser",
@@ -14,21 +15,9 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
-        {
-          "match": "MOT-*\/*"
-        },
-        {
-          "match": "MOT-1*\/* UP.Browser\/*"
-        },
         {
           "match": "MOT-8700_\/* UP.Browser\/*"
         },
@@ -84,7 +73,8 @@
           "match": "MOT-T721*"
         },
         {
-          "match": "MOT-TA02\/* MIB\/*"
+          "match": "MOT-TA02\/* MIB\/*",
+          "device": "Motorola TA02"
         },
         {
           "match": "MOT-V*\/*"
@@ -106,10 +96,7 @@
         },
         {
           "match": "MOT-A760\/EZX_G_00.*",
-          "properties": {
-            "Device_Code_Name": "A760",
-            "Device_Name": "A760"
-          }
+          "device": "Motorola A760"
         },
         {
           "match": "MOT-C* MIB\/*"

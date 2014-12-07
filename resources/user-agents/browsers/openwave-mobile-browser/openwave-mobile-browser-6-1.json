@@ -82,13 +82,7 @@
         },
         {
           "match": "MOT-T720\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "T720",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "T720"
-          }
+          "device": "Motorola T720"
         },
         {
           "match": "MOT-V290\/6.1.0.7 UP.Browser\/6.1*"
@@ -283,13 +277,16 @@
           "match": "SEC-SGHS100\/1.0 UP.Browser\/6.1*"
         },
         {
-          "match": "SEC-SGHS300\/1.0 UP.Browser\/6.1*"
+          "match": "SEC-SGHS300\/1.0 UP.Browser\/6.1*",
+          "device": "Samsung SGH-S300"
         },
         {
-          "match": "SEC-SGHV200-X100\/PEARL UP.Browser\/6.1*"
+          "match": "SEC-SGHV200-X100\/PEARL UP.Browser\/6.1*",
+          "device": "Samsung SGH-V200"
         },
         {
-          "match": "SEC-SGHV200\/1.0 UP.Browser\/6.1*"
+          "match": "SEC-SGHV200\/1.0 UP.Browser\/6.1*",
+          "device": "Samsung SGH-V200"
         },
         {
           "match": "SHARP-TQ-GX1\/1.0 UP.Browser\/6.1*"

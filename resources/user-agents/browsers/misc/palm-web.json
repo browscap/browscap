@@ -6,6 +6,7 @@
     {
       "userAgent": "Palm Web",
       "platform": "webOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palm Web",
@@ -14,55 +15,47 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Maker": "Palm",
-        "Device_Type": "Mobile Phone"
+        "JavaScript": "true"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/1.*",
+          "device": "Palm Pixi",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0",
-            "CssVersion": "2",
-            "Device_Name": "Pixi",
-            "Device_Maker": "Palm"
+            "CssVersion": "2"
           }
         },
         {
           "match": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pixi\/2.*",
+          "device": "Palm Pixi",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0",
-            "CssVersion": "2",
-            "Device_Name": "Pixi",
-            "Device_Maker": "Palm"
+            "CssVersion": "2"
           }
         },
         {
           "match": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* *Safari\/* *Pre\/2.*",
+          "device": "Palm Pre",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0",
-            "CssVersion": "2",
-            "Device_Name": "Pre",
-            "Device_Maker": "Palm"
+            "CssVersion": "2"
           }
         },
         {
           "match": "Mozilla\/5.0 (*webOS*) AppleWebKit\/* (KHTML, like Gecko) *Version\/1.* Safari\/* *Pre\/1.*",
+          "device": "Palm Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0",
-            "CssVersion": "2",
-            "Device_Name": "Pre",
-            "Device_Maker": "Palm"
+            "CssVersion": "2"
           },
           "platforms": [
             "webOS"
@@ -70,14 +63,11 @@
         },
         {
           "match": "Mozilla\/5.0 (iPhone; U*)(webOS\/1.3*AppleWebKit\/525.* Version\/1.0 Safari\/525.* Pixi\/1.*",
+          "device": "HP Pixi",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pixi"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_13"
@@ -85,14 +75,11 @@
         },
         {
           "match": "Mozilla\/5.0 (iPhone; U*)(webOS\/1.3*AppleWebKit\/525.* Version\/1.0 Safari\/525.* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_13"
@@ -100,14 +87,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_10"
@@ -115,14 +99,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_10"
@@ -130,14 +111,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.1*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_11"
@@ -145,14 +123,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.2*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_12"
@@ -160,14 +135,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.2*AppleWebKit\/525.* (KHTML,*like Gecko*) Version\/1.0 Safari\/525.* Pixi\/1.*",
+          "device": "HP Pixi",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pixi"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_12"
@@ -175,14 +147,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.3*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_13"
@@ -190,14 +159,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.3*AppleWebKit\/525.* (KHTML,*like Gecko*) Version\/1.0 Safari\/525.* Pixi\/1.*",
+          "device": "HP Pixi",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pixi"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_13"
@@ -205,14 +171,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.3; U; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Desktop\/1.0*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_13"
@@ -220,14 +183,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.4*)(iPhone; U*AppleWebKit\/* Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"
@@ -235,14 +195,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.4*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"
@@ -250,14 +207,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.4*AppleWebKit\/532.* (KHTML,*like Gecko*) Version\/1.0 Safari\/532.* Pixi\/1.*",
+          "device": "HP Pixi",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pixi"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"
@@ -265,14 +219,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.4.5; U; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"
@@ -280,14 +231,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/1.4.?; U*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"
@@ -295,14 +243,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/2.0*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_20"
@@ -310,14 +255,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/2.1*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_21"
@@ -325,14 +267,11 @@
         },
         {
           "match": "Mozilla\/5.0 (webOS\/2.2*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/3.*",
+          "device": "HP Pre",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_22"
@@ -340,14 +279,11 @@
         },
         {
           "match": "Palm Pre(Mozilla\/5.0 (webOS\/1.4.?; U*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/1.0 Safari\/* Pre\/1.*)",
+          "device": "HP Pre",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
+            "MinorVer": "0"
           },
           "platforms": [
             "webOS_14"

@@ -23,7 +23,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "DBTEL"

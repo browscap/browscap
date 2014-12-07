@@ -6,6 +6,7 @@
       "userAgent": "Phantom Browser",
       "platform": "JAVA",
       "engine": "WebKit",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Phantom Browser",
@@ -26,49 +27,27 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (LG-C199 AppleWebkit\/* Browser\/Phantom\/V2.0*",
+          "device": "LG C199",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "Device_Code_Name": "C199",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C199",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone"
+            "MinorVer": "0"
           }
         },
         {
           "match": "Mozilla\/5.0 (LG-C199 AppleWebkit\/* Browser\/Phantom\/*",
-          "properties": {
-            "Device_Code_Name": "C199",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C199",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone"
-          }
+          "device": "LG C199"
         },
         {
           "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom/V2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone"
+            "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone"
-          }
+          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom\/*"
         }
       ]
     }

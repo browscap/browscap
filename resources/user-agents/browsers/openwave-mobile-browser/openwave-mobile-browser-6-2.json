@@ -1970,7 +1970,8 @@
           "match": "SEC-SGHM620\/1.0 Openwave\/6.2* UP.Browser\/6.2*"
         },
         {
-          "match": "SEC-SGHP408* UP.Browser\/6.2*"
+          "match": "SEC-SGHP408* UP.Browser\/6.2*",
+          "device": "Samsung SGH-P408"
         },
         {
           "match": "SEC-SGHP510 UP.Browser\/6.2*"

@@ -143,7 +143,8 @@
           "match": "SEC-SGHC100G\/1.0 UP.Browser\/5.0*"
         },
         {
-          "match": "SEC-SGHX430\/1.0 UP.Browser\/5.0*"
+          "match": "SEC-SGHX430\/1.0 UP.Browser\/5.0*",
+          "device": "Samsung SGH-X430"
         },
         {
           "match": "SIE-2128\/12 UP.Browser\/5.0*"

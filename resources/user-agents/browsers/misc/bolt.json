@@ -23,8 +23,7 @@
           "match": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
           "properties": {
             "Version": "0.862",
-            "MinorVer": "862",
-            "Device_Type": "Mobile Phone"
+            "MinorVer": "862"
           },
           "platforms": [
             "Maemo"

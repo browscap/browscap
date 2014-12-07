@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.0",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.0",
@@ -16,162 +17,92 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
         {
           "match": "MOT-A732\/ WAP.Browser\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "A732",
-            "Device_Name": "A732"
-          }
+          "device": "Motorola A732"
         },
         {
           "match": "MOT-A732\/*\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "A732",
-            "Device_Name": "A732"
-          }
+          "device": "Motorola A732"
         },
         {
           "match": "MOT-T720\/* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "T720",
-            "Device_Name": "T720"
-          }
+          "device": "Motorola T720"
         },
         {
           "match": "MOT-T720\/05.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "T720",
-            "Device_Name": "T720"
-          }
+          "device": "Motorola T720"
         },
         {
           "match": "MOT-T720\/G_0* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "T720",
-            "Device_Name": "T720"
-          }
+          "device": "Motorola T720"
         },
         {
           "match": "MOT-T720\/G_0C.0B.3BR MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "T720",
-            "Device_Name": "T720"
-          }
+          "device": "Motorola T720"
         },
         {
           "match": "MOT-T720M\/AS_G_05.06.20R MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "T720M",
-            "Device_Name": "T720M"
-          }
+          "device": "Motorola T720M"
         },
         {
           "match": "MOT-TA02\/* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "TA02",
-            "Device_Name": "TA02"
-          }
+          "device": "Motorola TA02"
         },
         {
           "match": "MOT-W220\/ WAP.Browser\/1.0*",
-          "properties": {
-            "Device_Code_Name": "W220",
-            "Device_Name": "W220"
-          }
+          "device": "Motorola W220"
         },
         {
           "match": "MOT-W220\/1.0 Release\/6.5.2006 WAP.Browser\/1.0*",
-          "properties": {
-            "Device_Code_Name": "W220",
-            "Device_Name": "W220"
-          }
+          "device": "Motorola W220"
         },
         {
           "match": "MOT-c350\/G_09.04.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350",
-            "Device_Name": "C350"
-          }
+          "device": "Motorola C350"
         },
         {
           "match": "MOT-c350\/ULS_G_09.10.1?R MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350",
-            "Device_Name": "C350"
-          }
+          "device": "Motorola C350"
         },
         {
           "match": "MOT-c350M\/AS_G_09.04.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350M\/G_09.04.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350M\/G_09.04.7* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350M\/LTS_G_09.10.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350M\/ULSAS_G_09.10.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350M\/ULS_G_09.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350M",
-            "Device_Maker": "Motorla",
-            "Device_Name": "C350M"
-          }
+          "device": "Motorola C350M"
         },
         {
           "match": "MOT-c350V\/AS_G_09.08.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350V",
-            "Device_Name": "C350V"
-          }
+          "device": "Motorola C350V"
         },
         {
           "match": "MOT-c350V\/G_09.08.* MIB\/2.0*",
-          "properties": {
-            "Device_Code_Name": "C350V",
-            "Device_Name": "C350V"
-          }
+          "device": "Motorola C350V"
         },
         {
           "match": "MOT-v150\/AS_G_09.09.* MIB\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "V150",
-            "Device_Name": "V150"
-          }
+          "device": "Motorola V150"
         }
       ]
     }

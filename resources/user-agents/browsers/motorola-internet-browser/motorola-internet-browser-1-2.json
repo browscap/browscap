@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 1.2",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 1.2",
@@ -16,70 +17,40 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
         {
           "match": "MOT-TA02\/* MIB\/1.2*",
-          "properties": {
-            "Device_Code_Name": "TA02",
-            "Device_Name": "TA02"
-          }
+          "device": "Motorola TA02"
         },
         {
           "match": "MOT-V60M\/03.* MIB\/1.2*",
-          "properties": {
-            "Device_Code_Name": "V60M",
-            "Device_Name": "V60M"
-          }
+          "device": "Motorola V60M"
         },
         {
           "match": "MOT-V66M\/03.* MIB\/1.2*",
-          "properties": {
-            "Device_Code_Name": "V66M",
-            "Device_Name": "V66M"
-          }
+          "device": "Motorola V66M"
         },
         {
           "match": "MOT-V730\/1.0 MIB1.2\/*",
-          "properties": {
-            "Device_Code_Name": "V730",
-            "Device_Name": "V730"
-          }
+          "device": "Motorola V730"
         },
         {
           "match": "MOT-V860\/1.0 MIB1.2\/*",
-          "properties": {
-            "Device_Code_Name": "V860",
-            "Device_Name": "V860"
-          }
+          "device": "Motorola V860"
         },
         {
           "match": "MOT-V868\/1.0 MIB1.2\/*",
-          "properties": {
-            "Device_Code_Name": "V868",
-            "Device_Name": "V868"
-          }
+          "device": "Motorola V868"
         },
         {
           "match": "MOT-ta02\/06.04.2fr_columbia_3mnc_fix MIB\/1.2*",
-          "properties": {
-            "Device_Code_Name": "TA02",
-            "Device_Name": "TA02"
-          }
+          "device": "Motorola TA02"
         },
         {
           "match": "MOT-ta02\/E-G_C_* MIB\/1.2*",
-          "properties": {
-            "Device_Code_Name": "TA02",
-            "Device_Name": "TA02"
-          }
+          "device": "Motorola TA02"
         }
       ]
     }

@@ -4,6 +4,7 @@
   "userAgents": [
     {
       "userAgent": "Motorola Internet Browser 2.1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Motorola Internet Browser 2.1",
@@ -16,21 +17,12 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Motorola",
-        "Device_Maker": "Motorola",
-        "Device_Brand_Name": "Motorola",
-        "Device_Type": "Mobile Phone"
+        "Cookies": "true"
       },
       "children": [
         {
           "match": "MOT-A820\/00.00.00 MIB\/2.1 *",
-          "properties": {
-            "Device_Code_Name": "A820",
-            "Device_Name": "A820"
-          }
+          "device": "Motorola A820"
         }
       ]
     }
