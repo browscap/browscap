@@ -2724,7 +2724,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '1.50',
+            'Version' => '1.5',
             'MajorVer' => '1',
             'MinorVer' => '5',
             'Platform' => 'Android',
