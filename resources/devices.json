@@ -5784,6 +5784,438 @@
         "isTablet": "false"
       }
     },
+    "Motorola C381": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C381",
+        "Device_Name": "C381",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C381p": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C381p",
+        "Device_Name": "C381p",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C385": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C385",
+        "Device_Name": "C385",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C390": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C390",
+        "Device_Name": "C390",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C450",
+        "Device_Name": "C450",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C550",
+        "Device_Name": "C550",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C650",
+        "Device_Name": "C650",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C650",
+        "Device_Name": "C650",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C975": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C975",
+        "Device_Name": "C975",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C980",
+        "Device_Name": "C980",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Canary": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Canary",
+        "Device_Name": "Canary",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E1 iTunes": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E1 iTunes",
+        "Device_Name": "E1 iTunes",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E1000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E1000",
+        "Device_Name": "E1000",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E1000M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E1000M",
+        "Device_Name": "E1000M",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E1070": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E1070",
+        "Device_Name": "E1070",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E375": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E375",
+        "Device_Name": "E375",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E380": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E380",
+        "Device_Name": "E380",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E398": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E398",
+        "Device_Name": "E398",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E398B": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E398B",
+        "Device_Name": "E398B",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E550",
+        "Device_Name": "E550",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E680": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E680",
+        "Device_Name": "E680",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E770": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E770",
+        "Device_Name": "E770",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E770v": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E770v",
+        "Device_Name": "E770v",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E790": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E790",
+        "Device_Name": "E790",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E8",
+        "Device_Name": "E8",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola E825": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E825",
+        "Device_Name": "E825",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola K1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K1",
+        "Device_Name": "IdeaPad K1",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola K1v": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K1v",
+        "Device_Name": "K1v",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola KLGO iTunes": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KLGO iTunes",
+        "Device_Name": "KLGO iTunes",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola KLGO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KLGO",
+        "Device_Name": "KLGO",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L2",
+        "Device_Name": "L2",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L6",
+        "Device_Name": "L6",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L6i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L6i",
+        "Device_Name": "L6i",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L7",
+        "Device_Name": "L7",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L7i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L7i",
+        "Device_Name": "L7i",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola L7v": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L7v",
+        "Device_Name": "L7v",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",

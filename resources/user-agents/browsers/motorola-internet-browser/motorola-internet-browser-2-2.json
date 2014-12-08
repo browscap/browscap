@@ -80,346 +80,199 @@
         },
         {
           "match": "MOT-C381\/0B.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C381",
-            "Device_Name": "C381"
-          }
+          "device": "Motorola C381"
         },
         {
           "match": "MOT-C381p\/0B.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C381p",
-            "Device_Name": "C381p"
-          }
+          "device": "Motorola C381p"
         },
         {
           "match": "MOT-C385\/0B.D* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C385",
-            "Device_Name": "C385"
-          }
+          "device": "Motorola C385"
         },
         {
           "match": "MOT-C390\/0B.A0.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C390",
-            "Device_Name": "C390"
-          }
+          "device": "Motorola C390"
         },
         {
           "match": "MOT-C450\/0A.03.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "C450",
-            "Device_Name": "C450"
-          }
+          "device": "Motorola C450"
         },
         {
           "match": "MOT-C450\/0A.04.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "C450",
-            "Device_Name": "C450"
-          }
+          "device": "Motorola C450"
         },
         {
           "match": "MOT-C550\/0A.10.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "C550",
-            "Device_Name": "C550"
-          }
+          "device": "Motorola C550"
         },
         {
           "match": "MOT-C650\/0B.D* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C650",
-            "Device_Name": "C650"
-          }
+          "device": "Motorola C650"
         },
         {
           "match": "MOT-C650\/0B.D2.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C650",
-            "Device_Name": "C650"
-          }
+          "device": "Motorola C650"
         },
         {
           "match": "MOT-C975\/8* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C975",
-            "Device_Name": "C975"
-          }
+          "device": "Motorola C975"
         },
         {
           "match": "MOT-C980\/80.2E.2A. MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "C980",
-            "Device_Name": "C980"
-          }
+          "device": "Motorola C980"
         },
         {
           "match": "MOT-Canary\/SJUG1361AA 08.02.27I\/* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "Canary",
-            "Device_Name": "Canary"
-          }
+          "device": "Motorola Canary"
         },
         {
           "match": "MOT-E1 iTunes\/0E.30.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E1 iTunes",
-            "Device_Name": "E1 iTunes"
-          }
+          "device": "Motorola E1 iTunes"
         },
         {
           "match": "MOT-E1 iTunes\/0E.30.44R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E1 iTunes",
-            "Device_Name": "E1 iTunes"
-          }
+          "device": "Motorola E1 iTunes"
         },
         {
           "match": "MOT-E1000\/8* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E1000",
-            "Device_Name": "E1000"
-          }
+          "device": "Motorola E1000"
         },
         {
           "match": "MOT-E1000M\/8* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E1000M",
-            "Device_Name": "E1000M"
-          }
+          "device": "Motorola E1000M"
         },
         {
           "match": "MOT-E1070\/85.* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E1070",
-            "Device_Name": "E1070"
-          }
+          "device": "Motorola E1070"
         },
         {
           "match": "MOT-E375\/0E.23.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E375",
-            "Device_Name": "E375"
-          }
+          "device": "Motorola E375"
         },
         {
           "match": "MOT-E380\/0A.0* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "E380",
-            "Device_Name": "E380"
-          }
+          "device": "Motorola E380"
         },
         {
           "match": "MOT-E398 ROKR\/0E.30.4* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E398",
-            "Device_Name": "E398"
-          }
+          "device": "Motorola E398"
         },
         {
           "match": "MOT-E398\/0E.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E398",
-            "Device_Name": "E398"
-          }
+          "device": "Motorola E398"
         },
         {
           "match": "MOT-E398B\/0E.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E398B",
-            "Device_Name": "E398B"
-          }
+          "device": "Motorola E398B"
         },
         {
           "match": "MOT-E550\/08.83.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E550",
-            "Device_Name": "E550"
-          }
+          "device": "Motorola E550"
         },
         {
           "match": "MOT-E550\/0E.6* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E550",
-            "Device_Name": "E550"
-          }
+          "device": "Motorola E550"
         },
         {
           "match": "MOT-E680\/R51_G_0F.* MIB\/2.2 *",
-          "properties": {
-            "Device_Code_Name": "E680",
-            "Device_Name": "E680"
-          }
+          "device": "Motorola E680"
         },
         {
           "match": "MOT-E770\/85.8* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E770",
-            "Device_Name": "E770"
-          }
+          "device": "Motorola E770"
         },
         {
           "match": "MOT-E770\/85.9* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E770",
-            "Device_Name": "E770"
-          }
+          "device": "Motorola E770"
         },
         {
           "match": "MOT-E770v\/85.* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E770v",
-            "Device_Name": "E770v"
-          }
+          "device": "Motorola E770v"
         },
         {
           "match": "MOT-E770v\/85.8* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E770v",
-            "Device_Name": "E770v"
-          }
+          "device": "Motorola E770v"
         },
         {
           "match": "MOT-E770v\/85.92.701 MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E770v",
-            "Device_Name": "E770v"
-          }
+          "device": "Motorola E770v"
         },
         {
           "match": "MOT-E790\/0E.30.34R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "E790",
-            "Device_Name": "E790"
-          }
+          "device": "Motorola E790"
         },
         {
           "match": "MOT-E8\/*",
-          "properties": {
-            "Device_Code_Name": "E8",
-            "Device_Name": "E8"
-          }
+          "device": "Motorola E8"
         },
         {
           "match": "MOT-E825\/03.* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "E825",
-            "Device_Name": "E825"
-          }
+          "device": "Motorola E825"
         },
         {
           "match": "MOT-K1\/* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "K1",
-            "Device_Name": "IdeaPad K1"
-          }
+          "device": "Motorola K1"
         },
         {
           "match": "MOT-K1\/08.22.0* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "K1",
-            "Device_Name": "IdeaPad K1"
-          }
+          "device": "Motorola K1"
         },
         {
           "match": "MOT-K1v\/08.* MIB\/BER2.2 * EGE\/1.0*",
-          "properties": {
-            "Device_Code_Name": "K1v",
-            "Device_Name": "K1v"
-          }
+          "device": "Motorola K1v"
         },
         {
           "match": "MOT-KLGO iTunes\/0E.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "KLGO iTunes",
-            "Device_Name": "KLGO iTunes"
-          }
+          "device": "Motorola KLGO iTunes"
         },
         {
           "match": "MOT-KLGO\/0E.30.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "KLGO",
-            "Device_Name": "KLGO"
-          }
+          "device": "Motorola KLGO"
         },
         {
           "match": "MOT-L2\/0A.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L2",
-            "Device_Name": "L2"
-          }
+          "device": "Motorola L2"
         },
         {
           "match": "MOT-L6\/0A.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6",
-            "Device_Name": "L6"
-          }
+          "device": "Motorola L6"
         },
         {
           "match": "MOT-L6\/0A.52.45R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6",
-            "Device_Name": "L6"
-          }
+          "device": "Motorola L6"
         },
         {
           "match": "MOT-L6\/0A.53.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6",
-            "Device_Name": "L6"
-          }
+          "device": "Motorola L6"
         },
         {
           "match": "MOT-L6i\/* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6i",
-            "Device_Name": "L6i"
-          }
+          "device": "Motorola L6i"
         },
         {
           "match": "MOT-L6i\/0A.64.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6i",
-            "Device_Name": "L6i"
-          }
+          "device": "Motorola L6i"
         },
         {
           "match": "MOT-L6i\/0A.65.03R MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L6i",
-            "Device_Name": "L6i"
-          }
+          "device": "Motorola L6i"
         },
         {
           "match": "MOT-L7\/08.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L7",
-            "Device_Name": "L7"
-          }
+          "device": "Motorola L7"
         },
         {
           "match": "MOT-L7i\/* MIB\/BER2.2 *",
-          "properties": {
-            "Device_Code_Name": "L7i",
-            "Device_Name": "L7i"
-          }
+          "device": "Motorola L7i"
         },
         {
           "match": "MOT-L7v\/08.B7.* MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L7v",
-            "Device_Name": "L7v"
-          }
+          "device": "Motorola L7v"
         },
         {
           "match": "MOT-L7v\/08.B7.5DR MIB\/2.2*",
-          "properties": {
-            "Device_Code_Name": "L7v",
-            "Device_Name": "L7v"
-          }
+          "device": "Motorola L7v"
         },
         {
           "match": "MOT-PEBL U6\/08.83.* MIB\/2.2*",

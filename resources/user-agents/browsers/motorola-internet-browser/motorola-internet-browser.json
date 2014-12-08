@@ -37,10 +37,12 @@
           "match": "MOT-GATW_\/* UP.Browser\/*"
         },
         {
-          "match": "MOT-L6\/* MIB\/*"
+          "match": "MOT-L6\/* MIB\/*",
+          "device": "Motorola L6"
         },
         {
-          "match": "MOT-L7\/* MIB\/*"
+          "match": "MOT-L7\/* MIB\/*",
+          "device": "Motorola L7"
         },
         {
           "match": "MOT-M*\/* UP.Browser\/*"
