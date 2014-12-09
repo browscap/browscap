@@ -2721,7 +2721,7 @@ return [
     'issue-513-CX' => [
         'Mozilla/5.0 (Linux;U;Android 4.4.2;Lenovo A328 Build/KOT49H) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/537.306 Mobile Safari/534.30;',
         [
-            'Browser' => 'Android',
+            'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
@@ -2741,9 +2741,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A328',
             'Device_Brand_Name' => 'Lenovo',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
     'issue-513-CY' => [
@@ -3423,12 +3423,12 @@ return [
     'issue-513-DX' => [
         'Mozilla/5.0 (Windows NT 6.4) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.0 Chrome/30.0.1599.101 Safari/537.36',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '30.0',
-            'MajorVer' => '30',
+            'Browser_Maker' => 'Maxthon International Limited',
+            'Version' => '4.0',
+            'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Win10',
             'Platform_Version' => '6.4',
@@ -3443,9 +3443,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Google Inc',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
     'issue-513-DY' => [
@@ -3703,12 +3703,12 @@ return [
     'issue-513-EH' => [
         'Mozilla/5.0(Linux; Android 4.4.2; ru-ru; Fly IQ4409 Quad Build/KOT49H) AppleWebKit/537.36(KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '30.0',
-            'MajorVer' => '30',
+            'Version' => '4.0',
+            'MajorVer' => '4',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',

@@ -139,7 +139,7 @@
           ]
         },
         {
-          "match": "Tablet-PC-4 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Tablet-PC-4 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "isTablet": "true",
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "match": "DINO762 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "DINO762 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "isTablet": "true",
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -213,7 +213,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
           "properties": {
             "Device_Name": "GoogleTV",
             "Device_Maker": "Google",
@@ -224,7 +224,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "ChromeOS_i686", "ChromeOS",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -236,14 +236,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Chrome anonymized by*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Anonymisiert durch*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
