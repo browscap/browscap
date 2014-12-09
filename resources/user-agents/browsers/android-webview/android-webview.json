@@ -462,7 +462,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#;HTC_Flyer_P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#;HTC_Flyer_P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -5084,7 +5084,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Sony Tablet P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Sony Tablet P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7478,7 +7478,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Tablet-PC-4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Tablet-PC-4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7492,7 +7492,7 @@
           ]
         },
         {
-          "match": "Tablet-PC-4.1-Mozilla\/5.0 (#PLATFORM#ADM8000KP_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
+          "match": "Tablet-PC-4.1-Mozilla\/5.0 (#PLATFORM#ADM8000KP_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7702,84 +7702,6 @@
           ]
         },
         {
-          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "Device_Name": "R813T",
-            "Device_Maker": "OPPO",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "R813T",
-            "Device_Brand_Name": "OPPO",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "Device_Name": "303",
-            "Device_Maker": "ultrafone",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "303",
-            "Device_Brand_Name": "ultrafone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-I9300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "Device_Name": "AT-AS40SE",
-            "Device_Maker": "Wolgang",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AT-AS40SE",
-            "Device_Brand_Name": "Wolgang",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebkit*",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10312 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
@@ -7876,7 +7798,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7890,7 +7812,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -7904,7 +7826,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -8533,7 +8455,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
@@ -8548,7 +8470,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
