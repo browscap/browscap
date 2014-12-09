@@ -196,10 +196,12 @@ class IniParser implements ParserInterface
     {
         ksort($array);
 
-        foreach ($array as $key => $childArray) {
-            if (is_array($childArray) && !empty($childArray)) {
-                $array[$key] = $this->sortArrayAndChildArrays($childArray);
+        foreach (array_keys($array) as $key) {
+            if (!is_array($array[$key]) || empty($array[$key])) {
+                continue;
             }
+
+            $array[$key] = $this->sortArrayAndChildArrays($array[$key]);
         }
 
         return $array;

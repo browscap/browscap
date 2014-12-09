@@ -75,19 +75,15 @@ class Expander
 
     /**
      * @param \Browscap\Data\Division $division
-     * @param string                  $majorVer
-     * @param string                  $minorVer
      * @param string                  $divisionName
      *
      * @throws \UnexpectedValueException
      * @return array
      */
-    public function expand(Division $division, $majorVer, $minorVer, $divisionName)
+    public function expand(Division $division, $divisionName)
     {
         $allInputDivisions = $this->parseDivision(
             $division,
-            $majorVer,
-            $minorVer,
             $divisionName
         );
 
@@ -98,13 +94,11 @@ class Expander
      * Render a single division
      *
      * @param \Browscap\Data\Division $division
-     * @param string                  $majorVer
-     * @param string                  $minorVer
      * @param string                  $divisionName
      *
      * @return array
      */
-    private function parseDivision(Division $division, $majorVer, $minorVer, $divisionName)
+    private function parseDivision(Division $division, $divisionName)
     {
         $output = array();
 
@@ -113,8 +107,6 @@ class Expander
                 $output,
                 $this->parseUserAgent(
                     $uaData,
-                    $majorVer,
-                    $minorVer,
                     $division->isLite(),
                     $division->getSortIndex(),
                     $divisionName
@@ -129,8 +121,6 @@ class Expander
      * Render a single User Agent block
      *
      * @param string[] $uaData
-     * @param string   $majorVer
-     * @param string   $minorVer
      * @param boolean  $lite
      * @param integer  $sortIndex
      * @param string   $divisionName
@@ -138,13 +128,13 @@ class Expander
      * @throws \LogicException
      * @return array
      */
-    private function parseUserAgent(array $uaData, $majorVer, $minorVer, $lite, $sortIndex, $divisionName)
+    private function parseUserAgent(array $uaData, $lite, $sortIndex, $divisionName)
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
         }
 
-        $uaProperties = $this->parseProperties($uaData['properties'], $majorVer, $minorVer);
+        $uaProperties = $uaData['properties'];
 
         if (!isset($uaProperties['Parent'])) {
             throw new \LogicException('the "parent" property is missing for key "' . $uaData['userAgent'] . '"');
@@ -152,19 +142,19 @@ class Expander
 
         if (array_key_exists('platform', $uaData)) {
             $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
-            $platformData = $this->parseProperties($platform->getProperties(), $majorVer, $minorVer);
+            $platformData = $platform->getProperties();
         } else {
             $platformData = array();
         }
 
         if (array_key_exists('engine', $uaData)) {
             $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
-            $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
+            $engineData = $engine->getProperties();
         } else {
             $engineData = array();
         }
 
-        $ua = $this->parseProperty($uaData['userAgent'], $majorVer, $minorVer);
+        $ua = $uaData['userAgent'];
 
         $output = array(
             $ua => array_merge(
@@ -186,28 +176,10 @@ class Expander
         foreach ($uaData['children'] as $child) {
             $output = array_merge(
                 $output,
-                $this->parseChildren($ua, $child, $majorVer, $minorVer)
+                $this->parseChildren($ua, $child)
             );
         }
 
-        return $output;
-    }
-
-    /**
-     * Render the properties of a single User Agent
-     *
-     * @param string[] $properties
-     * @param string   $majorVer
-     * @param string   $minorVer
-     *
-     * @return string[]
-     */
-    private function parseProperties(array $properties, $majorVer, $minorVer)
-    {
-        $output = array();
-        foreach ($properties as $property => $value) {
-            $output[$property] = $this->parseProperty($value, $majorVer, $minorVer);
-        }
         return $output;
     }
 
@@ -249,13 +221,11 @@ class Expander
      *
      * @param string $ua
      * @param array  $uaDataChild
-     * @param string $majorVer
-     * @param string $minorVer
      *
      * @throws \LogicException
      * @return array[]
      */
-    private function parseChildren($ua, array $uaDataChild, $majorVer, $minorVer)
+    private function parseChildren($ua, array $uaDataChild)
     {
         $output = array();
 
@@ -268,33 +238,33 @@ class Expander
 
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                    $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
+                    $engineData = $engine->getProperties();
                 } else {
                     $engineData = array();
                 }
 
                 $properties = array_merge(
-                    $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer),
+                    ['Parent' => $ua],
                     $engineData,
-                    $this->parseProperties($platformData->getProperties(), $majorVer, $minorVer)
+                    $platformData->getProperties()
                 );
 
                 if (isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
                 ) {
-                    $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
+                    $childProperties = $uaDataChild['properties'];
 
                     $properties = array_merge($properties, $childProperties);
                 }
 
-                $output[$this->parseProperty($uaBase, $majorVer, $minorVer)] = $properties;
+                $output[$uaBase] = $properties;
             }
         } else {
-            $properties = $this->parseProperties(['Parent' => $ua], $majorVer, $minorVer);
+            $properties = ['Parent' => $ua];
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
-                $engineData = $this->parseProperties($engine->getProperties(), $majorVer, $minorVer);
+                $engineData = $engine->getProperties();
             } else {
                 $engineData = array();
             }
@@ -304,7 +274,7 @@ class Expander
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
-                $childProperties = $this->parseProperties($uaDataChild['properties'], $majorVer, $minorVer);
+                $childProperties = $uaDataChild['properties'];
 
                 $this->checkPlatformData(
                     $childProperties,
@@ -321,7 +291,7 @@ class Expander
                 $properties = array_merge($properties, $childProperties);
             }
 
-            $output[$this->parseProperty($uaDataChild['match'], $majorVer, $minorVer)] = $properties;
+            $output[$uaDataChild['match']] = $properties;
         }
 
         return $output;
@@ -383,7 +353,7 @@ class Expander
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
 
-        foreach ($allInputDivisions as $key => $properties) {
+        foreach (array_keys($allInputDivisions) as $key) {
             $this->getLogger()->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
@@ -401,6 +371,7 @@ class Expander
 
             $parents     = array_reverse($parents);
             $browserData = $defaultproperties;
+            $properties  = $allInputDivisions[$key];
 
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
@@ -439,8 +410,8 @@ class Expander
             $browserData['Parents'] = implode(',', $parents);
             unset($parents);
 
-            foreach ($browserData as $propertyName => $propertyValue) {
-                $properties[$propertyName] = $this->trimProperty($propertyValue);
+            foreach (array_keys($browserData) as $propertyName) {
+                $properties[$propertyName] = $this->trimProperty($browserData[$propertyName]);
             }
 
             unset($browserData);

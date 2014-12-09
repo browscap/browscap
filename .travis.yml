@@ -17,7 +17,7 @@ before_script:
   - composer install --dev -o --prefer-source
 
 script:
-  - phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
+  - php -d zend.enable_gc=0 vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar

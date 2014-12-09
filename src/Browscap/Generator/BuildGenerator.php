@@ -17,8 +17,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
@@ -163,150 +161,13 @@ class BuildGenerator
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
-        $this->getLogger()->info('started creating a data collection');
-
-        $dataCollection = new DataCollection($version);
-        $dataCollection->setLogger($this->getLogger());
-
-        $this->collectionCreator
-            ->setLogger($this->getLogger())
-            ->setDataCollection($dataCollection)
-        ;
-
-        $collection = $this->collectionCreator->createDataCollection($this->resourceFolder);
-
-        $this->getLogger()->info('finished creating a data collection');
-
-        $this->getLogger()->info('started initialisation of writers');
-
-        $expander = new Expander();
-        $expander
-            ->setDataCollection($collection)
-            ->setLogger($this->getLogger())
-        ;
-
-        $this->getLogger()->info('finished initialisation of writers');
-
-        $this->getLogger()->info('started output of header and version');
-
-        $comments = array(
-            'Provided courtesy of http://browscap.org/',
-            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
-            'Keep up with the latest goings-on with the project:',
-            'Follow us on Twitter <https://twitter.com/browscap>, or...',
-            'Like us on Facebook <https://facebook.com/browscap>, or...',
-            'Collaborate on GitHub <https://github.com/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
+        Helper\BuildHelper::run(
+            $version,
+            $this->resourceFolder,
+            $this->getLogger(),
+            $this->writerCollection,
+            $this->collectionCreator
         );
-
-        $this->writerCollection
-            ->fileStart()
-            ->renderHeader($comments)
-            ->renderVersion($version, $collection)
-        ;
-
-        $this->getLogger()->info('finished output of header and version');
-
-        $output = array();
-
-        $this->getLogger()->info('started output of divisions');
-
-        $division = $collection->getDefaultProperties();
-
-        $this->getLogger()->info('handle division ' . $division->getName());
-
-        $this->writerCollection
-            ->renderAllDivisionsHeader($collection)
-            ->renderDivisionHeader($division->getName())
-        ;
-
-        $ua       = $division->getUserAgents();
-        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
-
-        foreach ($sections as $sectionName => $section) {
-            $this->writerCollection
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
-        }
-
-        $this->writerCollection->renderDivisionFooter();
-
-        foreach ($collection->getDivisions() as $division) {
-            /** @var \Browscap\Data\Division $division */
-            $this->writerCollection->setSilent($division);
-
-            $versions = $division->getVersions();
-
-            foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts($version);
-
-                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
-
-                $this->getLogger()->info('handle division ' . $divisionName);
-
-                $sections     = $expander->expand($division, $majorVer, $minorVer, $divisionName);
-                $firstElement = current($sections);
-
-                $this->writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
-
-                foreach ($sections as $sectionName => $section) {
-                    if (in_array($sectionName, $output)) {
-                        throw new \UnexpectedValueException(
-                            'tried to add section "' . $sectionName . '" more than once'
-                        );
-                    }
-
-                    $collection->checkProperty($sectionName, $section);
-
-                    $this->writerCollection
-                        ->renderSectionHeader($sectionName)
-                        ->renderSectionBody($section, $collection, $sections, $sectionName)
-                        ->renderSectionFooter($sectionName)
-                    ;
-
-                    $output[] = $sectionName;
-                }
-
-                $this->writerCollection->renderDivisionFooter();
-
-                unset($divisionName, $majorVer, $minorVer);
-            }
-        }
-
-        $division = $collection->getDefaultBrowser();
-
-        $this->getLogger()->info('handle division ' . $division->getName());
-
-        $this->writerCollection->renderDivisionHeader($division->getName());
-
-        $ua       = $division->getUserAgents();
-        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
-
-        foreach ($sections as $sectionName => $section) {
-            $this->writerCollection
-                ->renderSectionHeader($sectionName)
-                ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
-        }
-
-        $this->writerCollection
-            ->renderDivisionFooter()
-            ->renderAllDivisionsFooter()
-        ;
-
-        $this->getLogger()->info('finished output of divisions');
-
-        $this->getLogger()->info('started closing writers');
-
-        $this->writerCollection
-            ->fileEnd()
-            ->close()
-        ;
-
-        $this->getLogger()->info('finished closing writers');
 
         if (!$createZipFile) {
             return;
