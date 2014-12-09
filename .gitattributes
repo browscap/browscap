@@ -1,2 +1,7 @@
 #Ensure the markdown uses lf
-*.markdown text eol=lf 
+*.markdown text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.php text eol=lf
