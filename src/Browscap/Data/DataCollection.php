@@ -123,7 +123,9 @@ class DataCollection
         $json            = $this->loadFile($src);
         $platformFactory = new Factory\PlatformFactory();
 
-        foreach ($json['platforms'] as $platformName => $platformData) {
+        foreach (array_keys($json['platforms']) as $platformName) {
+            $platformData = $json['platforms'][$platformName];
+
             if (!isset($platformData['match'])) {
                 throw new \UnexpectedValueException('required attibute "match" is missing');
             }
@@ -153,7 +155,9 @@ class DataCollection
         $json          = $this->loadFile($src);
         $engineFactory = new Factory\EngineFactory();
 
-        foreach ($json['engines'] as $engineName => $engineData) {
+        foreach (array_keys($json['engines']) as $engineName) {
+            $engineData = $json['engines'][$engineName];
+
             if (!isset($engineData['properties']) && !isset($engineData['inherits'])) {
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
@@ -623,6 +627,8 @@ class DataCollection
                 }
                 break;
             case 'Mobile Phone':
+            case 'Smartphone':
+            case 'Feature Phone':
             case 'Mobile Device':
             case 'Ebook Reader':
             case 'Console':
