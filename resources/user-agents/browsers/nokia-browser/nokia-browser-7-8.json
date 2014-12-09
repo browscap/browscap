@@ -35,13 +35,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N8-00",
-            "Device_Name": "N8",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Nokia N8-00"
         }
       ]
     }

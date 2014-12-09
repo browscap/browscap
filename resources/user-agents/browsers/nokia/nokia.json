@@ -22,6 +22,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/* (KHTML, like Gecko) BrowserNG\/7.2.*",
           "engine": "WebKit",
+          "device": "Nokia C6-00",
           "properties": {
             "Browser": "BrowserNG",
             "Version": "7.2",

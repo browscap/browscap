@@ -61,6 +61,24 @@
           }
         },
         {
+          "match": "MOT-8700_\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-0A\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-2B\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-A-88\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-GATW_\/* UP.Browser\/*"
+        },
+        {
+          "match": "MOT-SAP4_\/* UP.Browser\/*"
+        },
+        {
           "match": "UP.Browser\/3.01-IG01 UP.Link\/3.2.3.4",
           "properties": {
             "Version": "3.0",
@@ -96,14 +114,6 @@
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Openwave Mobile Browser 6.4",
-          "properties": {
-            "Version": "6.4",
-            "MajorVer": "6",
-            "MinorVer": "4"
           }
         },
         {

@@ -85,11 +85,7 @@
         },
         {
           "match": "Nokia5230\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "5230",
-            "Device_Name": "Nuron",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia 5230"
         },
         {
           "match": "JUC(Linux;?;2.2*;Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
@@ -124,13 +120,7 @@
         },
         {
           "match": "NokiaN8-00\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N8-00",
-            "Device_Name": "N8",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Nokia N8-00"
         },
         {
           "match": "lg-c105\/UC Browser#MAJORVER#.#MINORVER#*",

@@ -26,7 +26,6 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

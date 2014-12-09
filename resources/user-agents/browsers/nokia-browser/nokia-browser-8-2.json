@@ -35,41 +35,19 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia700\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "700",
-            "Device_Name": "700"
-          }
+          "device": "Nokia 700"
         },
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaE7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E7-00",
-            "Device_Name": "E7",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Nokia E7-00"
         },
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N8-00",
-            "Device_Name": "N8",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Nokia N8-00"
         },
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia603\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "603",
-            "Device_Name": "603"
-          }
+          "device": "Nokia 603"
         }
       ]
     }

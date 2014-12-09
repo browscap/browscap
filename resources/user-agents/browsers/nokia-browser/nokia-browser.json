@@ -30,84 +30,39 @@
       "children": [
         {
           "match": "Nokia 5320",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5320",
-            "Device_Name": "5320"
-          }
+          "device": "Nokia 5320"
         },
         {
           "match": "Nokia2320c-2b\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "2323c",
-            "Device_Name": "2320 classic"
-          }
+          "device": "Nokia 2323c"
         },
         {
           "match": "Nokia2323c-2\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "2323c",
-            "Device_Name": "2323 classic"
-          }
+          "device": "Nokia 2323c"
         },
         {
           "match": "Nokia2650\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "2650",
-            "Device_Name": "2650"
-          }
+          "device": "Nokia 2650"
         },
         {
           "match": "Nokia2720a-2b\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "GT-2720a",
-            "Device_Name": "GT-2720a"
-          }
+          "device": "Nokia GT-2720a"
         },
         {
           "match": "Nokia2730c-1\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "2730c",
-            "Device_Name": "2730c"
-          }
+          "device": "Nokia 2730c"
         },
         {
           "match": "Nokia2730c-1b\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "2730c",
-            "Device_Name": "2730c"
-          }
+          "device": "Nokia 2730c"
         },
         {
           "match": "Nokia3100\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100",
-            "Device_Name": "3100"
-          }
+          "device": "Nokia 3100"
         },
         {
           "match": "Nokia3100b\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3100b",
-            "Device_Name": "3100b"
-          }
+          "device": "Nokia 3100b"
         },
         {
           "match": "Nokia3108\/*",
@@ -282,12 +237,7 @@
         },
         {
           "match": "Nokia5230\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5230",
-            "Device_Name": "Nuron"
-          }
+          "device": "Nokia 5230"
         },
         {
           "match": "Nokia6010\/1.0 (8.18) *",
@@ -1149,12 +1099,7 @@
         {
           "match": "NokiaC6-00\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C6",
-            "Device_Name": "C6"
-          },
+          "device": "Nokia C6-00",
           "platforms": [
             "SymbianOS"
           ]
@@ -1162,12 +1107,7 @@
         {
           "match": "NokiaC7-00\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C7",
-            "Device_Name": "C7"
-          },
+          "device": "Nokia C7-00",
           "platforms": [
             "SymbianOS"
           ]
@@ -1317,12 +1257,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5800d-1\/52*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5800d",
-            "Device_Name": "5800d"
-          },
+          "device": "Nokia 5800d",
           "platforms": [
             "SymbianOS"
           ]

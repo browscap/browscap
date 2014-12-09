@@ -34,11 +34,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.5*Safari\/534*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9",
-            "Device_Name": "N9"
-          },
+          "device": "Nokia N9",
           "platforms": [
             "MeeGo"
           ]

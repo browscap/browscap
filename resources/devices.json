@@ -6216,6 +6216,714 @@
         "isTablet": "false"
       }
     },
+    "Motorola PEBL U6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PEBL U6",
+        "Device_Name": "PEBL U6",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola RAZRV3x": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RAZRV3x",
+        "Device_Name": "RAZRV3x",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola RAZRV3xv": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RAZRV3xv",
+        "Device_Name": "RAZRV3xv",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola ROKR E1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ROKR E1",
+        "Device_Name": "ROKR E1",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola U15": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U15",
+        "Device_Name": "U15",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Unx": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Unx",
+        "Device_Name": "Unx",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V1050": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V1050",
+        "Device_Name": "V1050",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V180": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V180",
+        "Device_Name": "V180",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V180ENS": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V180ENS",
+        "Device_Name": "V180ENS",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V185": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V185",
+        "Device_Name": "V185",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V186": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V186",
+        "Device_Name": "V186",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V188": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V188",
+        "Device_Name": "V188",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V190": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V190",
+        "Device_Name": "V190",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V191": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V191",
+        "Device_Name": "V191",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V220",
+        "Device_Name": "V220",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V220ENS": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V220ENS",
+        "Device_Name": "V220ENS",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V235": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V235",
+        "Device_Name": "V235",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V270": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V270",
+        "Device_Name": "V270",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V280": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V280",
+        "Device_Name": "V280",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3",
+        "Device_Name": "V3",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V300",
+        "Device_Name": "V300",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V303": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V303",
+        "Device_Name": "V303",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V360": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V360",
+        "Device_Name": "V360",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V360v": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V360v",
+        "Device_Name": "V360v",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V361": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V361",
+        "Device_Name": "V361",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V365": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V365",
+        "Device_Name": "V365",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3e",
+        "Device_Name": "V3e",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3i",
+        "Device_Name": "V3i",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3ire": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3ire",
+        "Device_Name": "V3ire",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3r": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3r",
+        "Device_Name": "V3r",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V3re": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V3re",
+        "Device_Name": "V3re",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V400",
+        "Device_Name": "V400",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V500",
+        "Device_Name": "V500",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V505": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V505",
+        "Device_Name": "V505",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V525M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V525M",
+        "Device_Name": "V525M",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V535": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V535",
+        "Device_Name": "V535",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V545": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V545",
+        "Device_Name": "V545",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V547": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V547",
+        "Device_Name": "V547",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V550",
+        "Device_Name": "V550",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V551": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V551",
+        "Device_Name": "V551",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V551J": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V551J",
+        "Device_Name": "V551J",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V555": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V555",
+        "Device_Name": "V555",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V557": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V557",
+        "Device_Name": "V557",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V557p": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V557p",
+        "Device_Name": "V557p",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V6",
+        "Device_Name": "V6",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V600",
+        "Device_Name": "V600",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V600i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V600i",
+        "Device_Name": "V600i",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V620": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V620",
+        "Device_Name": "V620",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V635": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V635",
+        "Device_Name": "V635",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V8",
+        "Device_Name": "V8",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V80": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V80",
+        "Device_Name": "V80",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V975": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V975",
+        "Device_Name": "V975",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V980",
+        "Device_Name": "V980",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola V980M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V980M",
+        "Device_Name": "V980M",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola W490": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W490",
+        "Device_Name": "W490",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Z3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z3",
+        "Device_Name": "Z3",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola 280": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "280",
+        "Device_Name": "280",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C168": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C168",
+        "Device_Name": "C168",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola C168i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C168i",
+        "Device_Name": "C168i",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -9893,6 +10601,402 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 1520",
         "Device_Name": "Lumia 1520",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C6-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6-00",
+        "Device_Name": "C6-00",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E55-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E55-1",
+        "Device_Name": "E55-1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N86-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N86-1",
+        "Device_Name": "N86-1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N97-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N97-1",
+        "Device_Name": "N97-1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N8",
+        "Device_Name": "N8",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N8-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N8-00",
+        "Device_Name": "N8-00",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C6-01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6-01",
+        "Device_Name": "C6-01",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5228": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5228",
+        "Device_Name": "5228",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5800d": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5800d",
+        "Device_Name": "5800d",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C5-03": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C5-03",
+        "Device_Name": "C5",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E5-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E5-00",
+        "Device_Name": "E5",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5230",
+        "Device_Name": "Nuron",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C7-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C7-00",
+        "Device_Name": "C7",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E7-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E7-00",
+        "Device_Name": "E7",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia X7-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X7-00",
+        "Device_Name": "X7",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C5-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C5-00",
+        "Device_Name": "C5",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C5-05": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C5-05",
+        "Device_Name": "C5",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E72-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E72-1",
+        "Device_Name": "E72-1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N97-4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N97-4",
+        "Device_Name": "N97-4",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 702T TD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "702T TD",
+        "Device_Name": "702T TD",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia T7-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T7-00",
+        "Device_Name": "T7-00",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "700",
+        "Device_Name": "700",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 603": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "603",
+        "Device_Name": "603",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "500",
+        "Device_Name": "500",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 808PureView": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "808PureView",
+        "Device_Name": "808 PureView",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N9": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N9",
+        "Device_Name": "N9",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5320",
+        "Device_Name": "5320",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 2323c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2323c",
+        "Device_Name": "2320 classic",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 2650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2650",
+        "Device_Name": "2650",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia GT-2720a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-2720a",
+        "Device_Name": "GT-2720a",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 2730c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2730c",
+        "Device_Name": "2730c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3100",
+        "Device_Name": "3100",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3100b": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3100b",
+        "Device_Name": "3100b",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",

@@ -19,33 +19,12 @@
       },
       "children": [
         {
-          "match": "MOT-8700_\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-A-0A\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-A-2B\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-A-88\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-C???\/* MIB\/*"
-        },
-        {
-          "match": "MOT-GATW_\/* UP.Browser\/*"
-        },
-        {
           "match": "MOT-L6\/* MIB\/*",
           "device": "Motorola L6"
         },
         {
           "match": "MOT-L7\/* MIB\/*",
           "device": "Motorola L7"
-        },
-        {
-          "match": "MOT-M*\/* UP.Browser\/*"
         },
         {
           "match": "MOT-MP*\/* Mozilla\/* (compatible; MSIE *; Windows CE; *)",
@@ -63,73 +42,24 @@
           ]
         },
         {
-          "match": "MOT-SAP4_\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-T*\/*"
-        },
-        {
-          "match": "MOT-T7*\/* MIB\/*"
-        },
-        {
-          "match": "MOT-T721*"
-        },
-        {
           "match": "MOT-TA02\/* MIB\/*",
           "device": "Motorola TA02"
         },
         {
-          "match": "MOT-V*\/*"
-        },
-        {
-          "match": "MOT-V*\/* MIB\/*"
-        },
-        {
-          "match": "MOT-V*\/* UP.Browser\/*"
-        },
-        {
-          "match": "MOT-V3\/* MIB\/*"
-        },
-        {
-          "match": "MOT-V4*\/* MIB\/*"
-        },
-        {
-          "match": "MOT-* iTunes\/* MIB\/* Profile\/MIDP-* Configuration\/CLDC-*"
+          "match": "MOT-V3\/* MIB\/*",
+          "device": "Motorola V3"
         },
         {
           "match": "MOT-A760\/EZX_G_00.*",
           "device": "Motorola A760"
         },
         {
-          "match": "MOT-C* MIB\/*"
-        },
-        {
           "match": "MOT-C168\/ WAP.Browser\/*",
-          "properties": {
-            "Device_Code_Name": "C168",
-            "Device_Name": "C168"
-          }
+          "device": "Motorola C168"
         },
         {
           "match": "MOT-C168i\/*",
-          "properties": {
-            "Device_Code_Name": "C168i",
-            "Device_Name": "C168i"
-          }
-        },
-        {
-          "match": "MOT-MP*\/* Mozilla\/* (compatible*; MSIE *; Windows CE*)",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "MOT-MP*\/* Mozilla\/4.0 (compatible*; MSIE *; Windows CE*)",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinCE"
-          ]
+          "device": "Motorola C168i"
         }
       ]
     }
