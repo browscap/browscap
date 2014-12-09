@@ -2326,30 +2326,6 @@
           ]
         },
         {
-          "match": "Lenovo-A288t* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "A288t",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A288t"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Brand_Name": "Malata",
-            "Device_Name": "I50"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
