@@ -184,6 +184,13 @@
             "Browser": "QuickiWiki Bot",
             "Browser_Maker": "QuickiWiki"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; vkShare*",
+          "properties": {
+            "Browser": "vkShare",
+            "Browser_Maker": "vk.com"
+          }
         }
       ]
     }

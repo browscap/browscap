@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Kindle",
         "Browser": "Kindle",
+        "Browser_Maker": "Amazon.com, Inc.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -18,7 +19,7 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
+        "Device_Maker": "Amazon.com, Inc.",
         "Device_Type": "Ebook Reader",
         "Device_Pointing_Method": "touchscreen"
       },
@@ -80,7 +81,7 @@
             "MajorVer": "4",
             "MinorVer": "0",
             "Device_Name": "Kindler Fire",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Ebook Reader",
             "Device_Pointing_Method": "touchscreen"
           },

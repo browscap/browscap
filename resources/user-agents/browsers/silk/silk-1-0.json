@@ -13,7 +13,7 @@
         "Comment": "Silk #MAJORVER#.#MINORVER#",
         "Browser": "Silk",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Amazon",
+        "Browser_Maker": "Amazon.com, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -24,7 +24,7 @@
         "isMobileDevice": "true",
         "CssVersion": "2",
         "Device_Name": "Kindle",
-        "Device_Maker": "Amazon",
+        "Device_Maker": "Amazon.com, Inc.",
         "Device_Type": "Ebook Reader",
         "Device_Pointing_Method": "touchscreen"
       },
@@ -33,37 +33,25 @@
           "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/5.0 Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
-          },
-          "platforms": [
-            "Android"
-          ]
+          }
         },
         {
           "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
-          },
-          "platforms": [
-            "Android"
-          ]
+          }
         },
         {
           "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
-          },
-          "platforms": [
-            "Android"
-          ]
+          }
         },
         {
           "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
-          },
-          "platforms": [
-            "Android"
-          ]
+          }
         }
       ]
     }

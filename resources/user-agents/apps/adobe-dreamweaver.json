@@ -1,0 +1,48 @@
+{
+  "division": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+  "versions": [12],
+  "sortIndex": 2061,
+  "userAgents": [
+    {
+      "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+        "Browser": "Dreamweaver",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Adobe Systems Incorporated",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Device_Type": "Desktop",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Dreamweaver\/#MAJORVER#.#MINORVER#* Version/* Safari\/*",
+          "platforms": [
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

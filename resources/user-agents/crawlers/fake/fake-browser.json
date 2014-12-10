@@ -412,6 +412,18 @@
           }
         },
         {
+          "match": "Mozilla\/4.0 (compatible;Android;320x480)",
+          "properties": {
+            "Browser": "Fake Android"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; *Android*) AppleWebKit\/* (KHTML, like Geccko)*",
+          "properties": {
+            "Browser": "Fake Android"
+          }
+        },
+        {
           "match": "Mozilla\/*Windows NT 7.1*"
         },
         {
@@ -428,6 +440,30 @@
         },
         {
           "match": "\\x??Mozilla*"
+        },
+        {
+          "match": "(null)*"
+        },
+        {
+          "match": "()*"
+        },
+        {
+          "match": "label=*"
+        },
+        {
+          "match": "Mozilla\/4.0+*"
+        },
+        {
+          "match": "Mozilla\/5.0 (;;;*"
+        },
+        {
+          "match": "Mozilla\/5.0 ()*"
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; U; Windows NT 6;*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 1?.*"
         }
       ]
     }

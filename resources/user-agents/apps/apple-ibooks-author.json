@@ -1,0 +1,50 @@
+{
+  "division": "iBooks Author",
+  "sortIndex": 1174,
+  "userAgents": [
+    {
+      "userAgent": "iBooks Author",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iBooks Author",
+        "Browser": "iBooks Author",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) iBooks Author\/*",
+          "platforms": [
+            "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

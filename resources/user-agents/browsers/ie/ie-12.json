@@ -1,7 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": [12],
-  "sortIndex": 2759,
+  "sortIndex": 1130,
   "lite": true,
   "userAgents": [
     {
@@ -36,6 +36,18 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/8.0; rv:550) AppleWebKit\/* (KHTML, like Gecko) Version\/7.0 Safari\/*",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/8.0*rv:#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32"
           ]

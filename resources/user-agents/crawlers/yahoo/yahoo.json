@@ -176,6 +176,12 @@
           "properties": {
             "Browser": "Yahoo Slingstone"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo Ad monitoring*",
+          "properties": {
+            "Browser": "Yahoo Ad Monitoring"
+          }
         }
       ]
     }

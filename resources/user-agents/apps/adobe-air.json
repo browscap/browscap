@@ -1,6 +1,6 @@
 {
   "division": "Adobe AIR #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "2.5", "2.6", "2.7", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "4.0", "13", "14"],
+  "versions": ["1.5", "2.0", "2.5", "2.6", "2.7", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "4.0", 13, 14, 15],
   "sortIndex": 2060,
   "userAgents": [
     {
@@ -39,7 +39,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_32", "Win32_B", "AndroidGeneric", "OSX"
+            "Linux_32", "Win32_B", "Windows", "AndroidGeneric", "OSX"
           ]
         }
       ]

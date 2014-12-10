@@ -4,13 +4,13 @@ return [
     'issue-358-A' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; it-it; SAMSUNG SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
-            'Version' => '28.0',
-            'MajorVer' => '28',
-            'MinorVer' => '0',
+            'Version' => '1.5',
+            'MajorVer' => '1',
+            'MinorVer' => '5',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Bits' => '32',

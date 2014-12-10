@@ -142,7 +142,7 @@ return [
         ],
     ],
     'issue-500-F' => [
-        '\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\x22',
+        '\\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\\x22',
         [
             'Browser' => 'Fake Browser',
             'Browser_Type' => 'Bot/Crawler',
@@ -172,7 +172,7 @@ return [
     'issue-500-G' => [
         'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
         [
-            'Browser' => 'WordPress iPhone App',
+            'Browser' => 'WordPress App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'WordPress.org',
