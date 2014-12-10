@@ -1956,18 +1956,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# *",
-          "properties": {
-            "Device_Code_Name": "S710E",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Incredible S"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "S710E",
@@ -2323,30 +2311,6 @@
           },
           "platforms": [
             "Android_2_2"
-          ]
-        },
-        {
-          "match": "Lenovo-A288t* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "A288t",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A288t"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Brand_Name": "Malata",
-            "Device_Name": "I50"
-          },
-          "platforms": [
-            "Android_2_3"
           ]
         },
         {
@@ -2826,20 +2790,6 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Cakemix\/* Mozilla\/5.0 (#PLATFORM#GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/?.0*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N8000",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1"
-          },
-          "platforms": [
-            "Android_4_1"
           ]
         },
         {
