@@ -1,16 +1,16 @@
 {
-  "division": "WordPress iPhone App",
+  "division": "WordPress App",
   "sortIndex": 312,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "WordPress iPhone App",
+      "userAgent": "WordPress App",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WordPress iPhone App",
-        "Browser": "WordPress iPhone App",
+        "Comment": "WordPress App",
+        "Browser": "WordPress App",
         "Browser_Type": "Application",
         "Browser_Maker": "WordPress.org",
         "Frames": "true",
@@ -38,6 +38,7 @@
         },
         {
           "match": "wp-iphone\/4.4 (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
           "properties": {
             "Version": "4.4",
             "MajorVer": "4",
@@ -49,8 +50,45 @@
         },
         {
           "match": "wp-iphone\/* (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
+          ]
+        },
+        {
+          "match": "wp-android\/3.0* (#PLATFORM#GT-N7100\/*",
+          "device": "Samsung GT-N7100",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Android_4_4_D", "Android"
+          ]
+        },
+        {
+          "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
+          "device": "Samsung GT-N7100",
+          "platforms": [
+            "Android_4_4_D", "Android"
+          ]
+        },
+        {
+          "match": "wp-android\/3.0* (#PLATFORM#",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Android_4_4_D", "Android"
+          ]
+        },
+        {
+          "match": "wp-android\/* (#PLATFORM#",
+          "platforms": [
+            "Android_4_4_D", "Android"
           ]
         }
       ]

@@ -32,42 +32,53 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.1* luakit",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.10* luakit*",
           "properties": {
-            "Version": "1.1",
+            "Version": "1.10",
             "MajorVer": "1",
-            "MinorVer": "1"
+            "MinorVer": "10"
           },
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.6* luakit",
-          "properties": {
-            "Version": "1.6",
-            "MajorVer": "1",
-            "MinorVer": "6"
-          },
-          "platforms": [
-            "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.8* luakit",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.8* luakit*",
           "properties": {
             "Version": "1.8",
             "MajorVer": "1",
             "MinorVer": "8"
           },
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/* luakit",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.6* luakit*",
+          "properties": {
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          },
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/1.1* luakit*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) WebKitGTK+\/* luakit*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]

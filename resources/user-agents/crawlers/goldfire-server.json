@@ -1,0 +1,25 @@
+{
+  "division": "Goldfire Server",
+  "sortIndex": 61,
+  "userAgents": [
+    {
+      "userAgent": "Goldfire Server",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Goldfire Server",
+        "Browser": "Goldfire Server",
+        "Browser_Maker": "Invention Machine Corporation",
+        "Browser_Type": "Bot/Crawler",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Goldfire Server*"
+        }
+      ]
+    }
+  ]
+}

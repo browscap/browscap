@@ -12,6 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Kindle",
         "Browser": "Kindle",
+        "Browser_Maker": "Amazon.com, Inc.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

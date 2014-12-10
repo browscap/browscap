@@ -14,7 +14,7 @@
         "Comment": "Silk #MAJORVER#.#MINORVER#",
         "Browser": "Silk",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Amazon",
+        "Browser_Maker": "Amazon.com, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -64,7 +64,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -81,7 +81,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -98,7 +98,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HDX 7",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -115,7 +115,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HDX 8.9",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -132,7 +132,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HD 8.9",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
@@ -149,7 +149,7 @@
           "properties": {
             "Browser_Modus": "Desktop Mode",
             "Device_Name": "Kindle Fire HDX 8.9",
-            "Device_Maker": "Amazon",
+            "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",

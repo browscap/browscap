@@ -26,6 +26,9 @@
         },
         {
           "match": "Mozilla\/?.0+(Windows;+U;+Windows+NT+5.1;+*;+rv:*)+Gecko\/*+Firefox\/1.5*"
+        },
+        {
+          "match": "Mozilla\/5.0  Gecko*"
         }
       ]
     }

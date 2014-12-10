@@ -1,0 +1,69 @@
+{
+  "division": "Microsoft PowerPoint",
+  "sortIndex": 7181,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft PowerPoint",
+      "engine": "Trident",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft PowerPoint",
+        "Browser": "PowerPoint",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Microsoft",
+        "Device_Brand_Name": "Microsoft"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/12.*",
+          "properties": {
+            "Version": "2007",
+            "MajorVer": "2007"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/14.*",
+          "properties": {
+            "Version": "2010",
+            "MajorVer": "2010"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/15.*",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

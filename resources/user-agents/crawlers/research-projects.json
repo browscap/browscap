@@ -196,6 +196,13 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; zitebot*",
+          "properties": {
+            "Browser": "zitebot",
+            "Browser_Maker": "Flipboard, Inc."
+          }
+        },
+        {
           "match": "wwwster\/* (Beta, mailto:gue@cis.uni-muenchen.de)",
           "properties": {
             "Browser": "wwwster",

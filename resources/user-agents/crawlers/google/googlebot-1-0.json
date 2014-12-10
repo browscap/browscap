@@ -4,10 +4,10 @@
   "sortIndex": 1130,
   "userAgents": [
     {
-      "userAgent": "Googlebot 1.0",
+      "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "Googlebot",
-        "Comment": "Googlebot",
+        "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

@@ -152,6 +152,22 @@
           ]
         },
         {
+          "match": "JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;*)UCWEB#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "GT-I9060",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Grand Neo",
+            "Device_Type": "Mobile Phone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_2_B"
+          ]
+        },
+        {
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         },
         {

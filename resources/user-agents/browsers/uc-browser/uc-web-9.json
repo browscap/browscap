@@ -215,6 +215,20 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SGH-T669",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Gravity T"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
           "properties": {
             "Device_Code_Name": "5130c-2",

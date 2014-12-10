@@ -677,6 +677,45 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_K_8_1": {
+      "match": "*iPhone OS 8.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
+    "iOS_L": {
+      "match": "*iosv*",
+      "inherits": "iOS"
+    },
+    "iOS_L_7_0": {
+      "match": "*iosv7.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "iOS_L_7_1": {
+      "match": "*iosv7.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
+    "iOS_L_8_0": {
+      "match": "*iosv8.0*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
+    "iOS_L_8_1": {
+      "match": "*iosv8.1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
     "CentOS": {
       "match": "*CentOS*",
       "device": "general Desktop",
@@ -1606,10 +1645,20 @@
         "Win32": "false"
       }
     },
+    "WinPhone": {
+      "match": "*Windows Phone*",
+      "inherits": "Windows",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Platform": "WinPhone",
+        "Platform_Description": "Windows Phone OS",
+        "Win32": "false"
+      }
+    },
     "WinPhone65": {
       "match": "*Windows Phone 6.5*",
       "inherits": "Windows",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone6",
         "Platform_Version": "6.5",
@@ -1968,6 +2017,13 @@
         "Platform_Version": "4.4"
       }
     },
+    "Android_4_4_D": {
+      "match": "*Android 4.4*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "inherits": "Android"
@@ -2017,12 +2073,35 @@
       "match": "*HPUX*",
       "inherits": "HPUX"
     },
+    "BSD Four": {
+      "match": "*BSD Four*",
+      "properties": {
+        "Platform": "BSD",
+        "Platform_Maker": "University of California, Berkeley",
+        "Platform_Description": "BSD Four",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Various",
+        "Platform_Description": "OpenBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "FreeBSD": {
       "match": "*FreeBSD*",
       "properties": {
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
         "Platform_Description": "FreeBSD",
+        "Device_Type": "Desktop",
+        "Device_Maker": "Various",
+        "Platform_Description": "OpenBSD",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",

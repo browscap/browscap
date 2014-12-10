@@ -609,7 +609,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC Desire",
           "platforms": [
-            "Android_2_2"
+            "Android_2_2", "Android_2_3"
           ]
         },
         {
@@ -4509,6 +4509,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-L160L Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "L160L",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "Optimus LTE2"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Cynus T2 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Mobistel Cynus T2",
           "platforms": [
@@ -4733,10 +4747,127 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Zaffire 1010",
+            "Device_Maker": "Nuqleo",
+            "Device_Brand_Name": "Nuqleo",
+            "Device_Name": "Zaffire 1010"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "AX540",
+            "Device_Maker": "Bmobile",
+            "Device_Brand_Name": "Bmobile",
+            "Device_Name": "AX540"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "AX540",
+            "Device_Maker": "Bmobile",
+            "Device_Brand_Name": "Bmobile",
+            "Device_Name": "AX540"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TAB10-400*Build\/*) AppleWebKit* (KHTML,*like*Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "TAB10-400",
+            "Device_Maker": "Yarvik",
+            "Device_Brand_Name": "Yarvik",
+            "Device_Name": "Noble 10c"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A328",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A328"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "0912",
+            "Device_Maker": "NEC",
+            "Device_Brand_Name": "DoCoMo",
+            "Device_Name": "NEC Casio N-02E"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Studio 5.0 S II",
+            "Device_Maker": "BLU",
+            "Device_Brand_Name": "BLU",
+            "Device_Name": "Studio 5.0 S II"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "HTC_ChaCha_A810e\/Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "A810e",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "ChaCha"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {

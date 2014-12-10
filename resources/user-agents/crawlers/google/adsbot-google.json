@@ -17,10 +17,7 @@
       },
       "children": [
         {
-          "match": "AdsBot Google*"
-        },
-        {
-          "match": "AdsBot-Google*"
+          "match": "AdsBot?Google*"
         }
       ]
     }

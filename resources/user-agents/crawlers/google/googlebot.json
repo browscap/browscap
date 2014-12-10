@@ -74,6 +74,12 @@
           "properties": {
             "Browser": "Googlebot-Video"
           }
+        },
+        {
+          "match": "googlebot*"
+        },
+        {
+          "match": "GOOG*"
         }
       ]
     }
