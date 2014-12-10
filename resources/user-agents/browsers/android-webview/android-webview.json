@@ -1956,18 +1956,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# *",
-          "properties": {
-            "Device_Code_Name": "S710E",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Incredible S"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "S710E",
