@@ -6,6 +6,7 @@
       "userAgent": "Installatron",
       "platform": "Linux",
       "engine": "WebKit",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Installatron",
@@ -26,15 +27,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
-        "Device_Name": "Linux Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

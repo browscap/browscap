@@ -5,6 +5,7 @@
     {
       "userAgent": "wkhtmltopdf",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "wkhtmltopdf",
