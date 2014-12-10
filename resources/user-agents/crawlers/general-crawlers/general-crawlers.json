@@ -385,7 +385,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
           "properties": {
             "Browser": "Adobe Dialog Manager"
           },
@@ -421,14 +421,6 @@
           "match": "Mozilla\/5.0 (compatible; ClixSense; http:\/\/www.clixsense.com\/)",
           "properties": {
             "Browser": "ClixSense"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Diffbot\/0.1; +http:\/\/www.diffbot.com)",
-          "properties": {
-            "Browser": "Diffbot",
-            "Version": "0.1",
-            "MinorVer": "1"
           }
         },
         {
@@ -499,12 +491,18 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0; +http:\/\/tweetedtimes.com)",
+          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0*",
           "properties": {
             "Browser": "TweetedTimes Bot",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/*",
+          "properties": {
+            "Browser": "TweetedTimes Bot"
           }
         },
         {
@@ -1217,7 +1215,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux x86_64; *; rv:*) Gecko\/* ThumbShotsBot*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko\/* ThumbShotsBot*",
           "properties": {
             "Browser": "ThumbShotsBot"
           },
@@ -1683,7 +1681,7 @@
           }
         },
         {
-          "match": "A6-Indexer\/*",
+          "match": "A6-Indexer*",
           "properties": {
             "Browser": "A6-Indexer",
             "Browser_Maker": "A6 Corp"
@@ -2552,28 +2550,6 @@
           }
         },
         {
-          "match": "JobRoboter\/1.1*",
-          "properties": {
-            "Browser": "JobRoboter",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "JobRoboter\/*",
-          "properties": {
-            "Browser": "JobRoboter"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MetaJobBot*",
-          "properties": {
-            "Browser": "MetaJobBot",
-            "Browser_Maker": "Dr. Manfred Schauer"
-          }
-        },
-        {
           "match": "LinkStats Bot",
           "properties": {
             "Browser": "LinkStats Bot"
@@ -3135,6 +3111,274 @@
           "properties": {
             "Browser": "Crawler",
             "Browser_Maker": "linkfluence.net"
+          }
+        },
+        {
+          "match": "Amazon CloudFront*",
+          "properties": {
+            "Browser": "Amazon CloudFront",
+            "Browser_Maker": "Amazon.com, Inc."
+          }
+        },
+        {
+          "match": "Arachnida Web Crawler*",
+          "properties": {
+            "Browser": "Arachnida Web Crawler"
+          }
+        },
+        {
+          "match": "bandscraper*",
+          "properties": {
+            "Browser": "bandscraper"
+          }
+        },
+        {
+          "match": "bot*",
+          "properties": {
+            "Browser": "bot"
+          }
+        },
+        {
+          "match": "cars-app-browser*",
+          "properties": {
+            "Browser": "cars-app-browser"
+          }
+        },
+        {
+          "match": "HggH PhantomJS Screenshoter*",
+          "properties": {
+            "Browser": "HggH Screenshot System with PhantomJS",
+            "Browser_Maker": "Jonas Genannt (HggH)"
+          }
+        },
+        {
+          "match": "IC OpenGraph Crawler*",
+          "properties": {
+            "Browser": "IBM Connections",
+            "Browser_Maker": "IBM"
+          }
+        },
+        {
+          "match": "ICC-Crawler\/2.0*",
+          "properties": {
+            "Browser": "ICC-Crawler",
+            "Browser_Maker": "National Institute of Information and Communications Technology, Japan",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ICC-Crawler\/*",
+          "properties": {
+            "Browser": "ICC-Crawler",
+            "Browser_Maker": "National Institute of Information and Communications Technology, Japan"
+          }
+        },
+        {
+          "match": "InAGist URL Resolver*",
+          "properties": {
+            "Browser": "InAGist URL Resolver",
+            "Browser_Maker": "iyotta software private limited, india"
+          }
+        },
+        {
+          "match": "Jeode\/1.*",
+          "properties": {
+            "Browser": "Jeode",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Jeode\/*",
+          "properties": {
+            "Browser": "Jeode"
+          }
+        },
+        {
+          "match": "kraken\/0.6*",
+          "properties": {
+            "Browser": "krakenjs",
+            "Browser_Maker": "Paypal",
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "kraken\/*",
+          "properties": {
+            "Browser": "krakenjs",
+            "Browser_Maker": "Paypal"
+          }
+        },
+        {
+          "match": "LivelapBot\/0.2*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "LivelapBot\/0.1*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LivelapBot\/*",
+          "properties": {
+            "Browser": "Livelap Crawler",
+            "Browser_Maker": "Paypal"
+          }
+        },
+        {
+          "match": "Locubot*",
+          "properties": {
+            "Browser": "Locubot"
+          }
+        },
+        {
+          "match": "MailChimp.com*",
+          "properties": {
+            "Browser": "MailChimp.com",
+            "Browser_Maker": "The Rocket Science Group"
+          }
+        },
+        {
+          "match": "MixBot*",
+          "properties": {
+            "Browser": "MixBot"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; focuseekbot*",
+          "properties": {
+            "Browser": "focuseekbot"
+          }
+        },
+        {
+          "match": "Mozilla,BuSecurityProject*",
+          "properties": {
+            "Browser": "BuSecurityProject"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; kgbody\/2.0*",
+          "properties": {
+            "Browser": "kgbody",
+            "Browser_Maker": "NTT Resonant Inc.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; kgbody\/*",
+          "properties": {
+            "Browser": "kgbody",
+            "Browser_Maker": "NTT Resonant Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; kulturarw3*",
+          "properties": {
+            "Browser": "kulturarw3",
+            "Browser_Maker": "National Library of Sweden"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/1.0*",
+          "properties": {
+            "Browser": "MerchantCentricBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/*",
+          "properties": {
+            "Browser": "MerchantCentricBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MarketwireBot*",
+          "properties": {
+            "Browser": "MarketwireBot",
+            "Browser_Maker": "Marketwire L.P."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Nett.io bot\/1.0*",
+          "properties": {
+            "Browser": "Nett.io bot",
+            "Browser_Maker": "nett.io",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Nett.io bot\/*",
+          "properties": {
+            "Browser": "Nett.io bot",
+            "Browser_Maker": "nett.io"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;acapbot\/0.1*",
+          "properties": {
+            "Browser": "acapbot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;acapbot\/*",
+          "properties": {
+            "Browser": "acapbot"
+          }
+        },
+        {
+          "match": "PageFreezer*",
+          "properties": {
+            "Browser": "PageFreezer",
+            "Browser_Maker": "PageFreezer Software Inc."
+          }
+        },
+        {
+          "match": "restify\/2.6* (*) node\/*",
+          "properties": {
+            "Browser": "restify",
+            "Browser_Maker": "Mark Cavage",
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "restify\/* (*) node\/*",
+          "properties": {
+            "Browser": "restify",
+            "Browser_Maker": "Mark Cavage"
+          }
+        },
+        {
+          "match": "ShowyouBot*",
+          "properties": {
+            "Browser": "ShowyouBot",
+            "Browser_Maker": "Remixation, Inc"
           }
         }
       ]

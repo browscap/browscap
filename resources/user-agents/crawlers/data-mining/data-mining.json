@@ -1,0 +1,42 @@
+{
+  "division": "Data Mining",
+  "sortIndex": 190,
+  "userAgents": [
+    {
+      "userAgent": "Data Mining",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Data Mining",
+        "Browser": "Data Mining",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; imrbot/1.10*",
+          "properties": {
+            "Browser": "Mignify Bot",
+            "Browser_Maker": "Internet Memory Research",
+            "Version": "1.10",
+            "MajorVer": "1",
+            "MinorVer": "10"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; imrbot/*",
+          "properties": {
+            "Browser": "Mignify Bot",
+            "Browser_Maker": "Internet Memory Research"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LucidWorks*",
+          "properties": {
+            "Browser": "Lucidworks Bot",
+            "Browser_Maker": "Lucidworks"
+          }
+        }
+      ]
+    }
+  ]
+}

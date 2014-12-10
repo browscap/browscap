@@ -23,6 +23,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Android *) AppleWebKit\/1.1 Version\/* Mobile Safari\/1.1"
+        },
+        {
+          "match": "Intel Mac OS*"
         }
       ]
     }

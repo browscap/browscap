@@ -26,7 +26,7 @@
           "match": "Mozilla\/5.0 (compatible; archive.org_bot*)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.1*archive.org*",
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.1*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
             "Version": "3.1",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.2*archive.org*",
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.2*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
             "Version": "3.2",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.3*archive.org*",
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/3.3*",
           "properties": {
             "Browser": "Internet Archive Special Archiver",
             "Version": "3.3",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; special_archiver\/*archive.org*",
+          "match": "Mozilla\/5.0 (compatible; special_archiver\/*",
           "properties": {
             "Browser": "Internet Archive Special Archiver"
           }

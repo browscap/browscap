@@ -1,0 +1,29 @@
+{
+  "division": "akregator #MAJORVER#.#MINORVER#",
+  "versions": ["4.5", "4.6", "4.7", "4.8", "4.9", "4.10", "4.11", "4.12", "4.13", "4.14"],
+  "sortIndex": 381,
+  "userAgents": [
+    {
+      "userAgent": "akregator #MAJORVER#.#MINORVER#",
+      "engine": "KHTML_Dynamic",
+      "platform": "Linux",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "akregator #MAJORVER#.#MINORVER#",
+        "Browser": "akregator",
+        "Browser_Maker": "KDE e.V.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (X11;) AppleWebKit\/* (KHTML, like Gecko) akregator\/#MAJORVER#.#MINORVER#* Safari\/*"
+        }
+      ]
+    }
+  ]
+}

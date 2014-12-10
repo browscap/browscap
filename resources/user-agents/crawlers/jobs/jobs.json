@@ -1,0 +1,47 @@
+{
+  "division": "Jobs",
+  "sortIndex": 600,
+  "userAgents": [
+    {
+      "userAgent": "Jobs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jobs",
+        "Browser": "Jobs",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "JobRoboter\/1.1*",
+          "properties": {
+            "Browser": "JobRoboter",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "JobRoboter\/*",
+          "properties": {
+            "Browser": "JobRoboter"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MetaJobBot*",
+          "properties": {
+            "Browser": "MetaJobBot",
+            "Browser_Maker": "Dr. Manfred Schauer"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; JobdiggerSpider*",
+          "properties": {
+            "Browser": "JobdiggerSpider",
+            "Browser_Maker": "www.jobdigger.nl"
+          }
+        }
+      ]
+    }
+  ]
+}

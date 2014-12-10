@@ -195,6 +195,28 @@
             "Browser": "GIDBot",
             "Browser_Maker": "J de Silva"
           }
+        },
+        {
+          "match": "Mozilla\/4.0 (vBSEO;*",
+          "properties": {
+            "Browser": "vBulletin SEO Bot",
+            "Browser_Maker": "www.vbseo.com"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemanticBot\/1.1*",
+          "properties": {
+            "Browser": "SemanticBot",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemanticBot\/*",
+          "properties": {
+            "Browser": "SemanticBot"
+          }
         }
       ]
     }

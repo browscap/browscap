@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "DoCoMo\/2.0 P900i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
+          "match": "DoCoMo\/2.0 P900i(c100;TB;W24H11) (compatible; ichiro\/mobile goo*",
           "properties": {
             "Device_Code_Name": "P900i",
             "Device_Maker": "DoCoMo",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "DoCoMo\/2.0 P901i(c100;TB;W24H11) (compatible; ichiro\/mobile goo;*",
+          "match": "DoCoMo\/2.0 P901i(c100;TB;W24H11) (compatible; ichiro\/mobile goo*",
           "properties": {
             "Device_Code_Name": "P901i",
             "Device_Maker": "DoCoMo",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "match": "KDDI-CA31 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
+          "match": "KDDI-CA31 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*",
           "properties": {
             "Device_Code_Name": "CA31",
             "Device_Maker": "KDDI",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "match": "KDDI-CA32 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*)",
+          "match": "KDDI-CA32 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*",
           "properties": {
             "Device_Code_Name": "CA32",
             "Device_Maker": "KDDI",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0* (compatible; ichiro\/mobile goo;  http:\/\/help.goo.ne.jp\/door\/crawler.html)",
+          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0* (compatible; ichiro\/mobile goo*",
           "properties": {
             "Device_Code_Name": "V802SH",
             "Device_Maker": "Vodafone",

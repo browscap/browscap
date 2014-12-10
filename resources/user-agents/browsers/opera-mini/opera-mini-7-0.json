@@ -98,6 +98,12 @@
           ]
         },
         {
+          "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "WinPhone"
+          ]
+        },
+        {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Brew"

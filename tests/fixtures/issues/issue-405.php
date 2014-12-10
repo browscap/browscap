@@ -35,7 +35,7 @@ return [
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Amazon',
+            'Browser_Maker' => 'Amazon.com, Inc.',
             'Version' => '3.2',
             'MajorVer' => '3',
             'MinorVer' => '2',
