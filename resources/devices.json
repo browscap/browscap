@@ -14159,6 +14159,18 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Dino 762 A9": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "762 A9 TABLET",
+        "Device_Code_Name": "762 A9",
+        "Device_Maker": "Dino",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Dino",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }
