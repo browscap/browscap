@@ -8328,6 +8328,30 @@
         "isTablet": "false"
       }
     },
+    "HTC 7088": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7088",
+        "Device_Name": "Desire 7088",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 802T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "802T",
+        "Device_Name": "One 802T",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -9005,6 +9029,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C199",
         "Device_Name": "C199",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG L160L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L160L",
+        "Device_Name": "Optimus LTE2",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -10316,6 +10352,18 @@
         "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "unknown IVO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "IVO",
+        "Device_Name": "IVO",
+        "Device_Maker": "unknown",
+        "Device_Brand_Name": "unknown",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -12132,6 +12180,42 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A328": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A328",
+        "Device_Name": "A328",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A388T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A388T",
+        "Device_Name": "A388T",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A536": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A536",
+        "Device_Name": "A536",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Malata I50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12641,6 +12725,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "Zaffire 785",
         "Device_Name": "Zaffire 785",
+        "Device_Maker": "Nuqleo",
+        "Device_Brand_Name": "Nuqleo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Nuqleo Zaffire 1010": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Zaffire 1010",
+        "Device_Name": "Zaffire 1010",
         "Device_Maker": "Nuqleo",
         "Device_Brand_Name": "Nuqleo",
         "Device_Pointing_Method": "touchscreen",
@@ -13464,6 +13560,18 @@
         "isTablet": "false"
       }
     },
+    "BLU Studio 5.0 S II": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Studio 5.0 S II",
+        "Device_Code_Name": "Studio 5.0 S II",
+        "Device_Maker": "BLU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BLU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "XDA Star": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13988,6 +14096,66 @@
         "Device_Maker": "Sendo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Sendo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Elonex eTouch": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "eTouch",
+        "Device_Code_Name": "eTouch",
+        "Device_Maker": "Elonex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Elonex",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Apad MID Rockchip 2808A+ Tablet": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MID Rockchip 2808A+ Tablet",
+        "Device_Code_Name": "MID Rockchip 2808A+ Tablet",
+        "Device_Maker": "Apad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Apad",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "NEC 0912": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "NEC Casio N-02E",
+        "Device_Code_Name": "0912",
+        "Device_Maker": "NEC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DoCoMo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Yarvik TAB10-400": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Noble 10c",
+        "Device_Code_Name": "TAB10-400",
+        "Device_Maker": "Yarvik",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Yarvik",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Bmobile AX540": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "AX540",
+        "Device_Code_Name": "AX540",
+        "Device_Maker": "Bmobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Bmobile",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

@@ -122,15 +122,7 @@
         },
         {
           "match": "Lenovo-A388t_TD\/S100 #PLATFORM# Release\/* Browser\/AppleWebkit* Mobile Safari*",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A388T",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A388T"
-          },
+          "device": "Lenovo A388T",
           "platforms": [
             "Android_4_1"
           ]
@@ -181,24 +173,14 @@
         },
         {
           "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
-          "properties": {
-            "Device_Code_Name": "7088",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire 7088"
-          },
+          "device": "HTC 7088",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "HTC802t_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
-          "properties": {
-            "Device_Code_Name": "802T",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One 802T"
-          },
+          "device": "HTC 802T",
           "platforms": [
             "Android_4_1"
           ]

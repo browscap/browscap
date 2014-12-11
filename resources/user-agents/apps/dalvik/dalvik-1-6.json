@@ -109,7 +109,7 @@
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005 *",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005*",
           "device": "Samsung SM-N9005",
           "platforms": [
             "Android_4_4"
