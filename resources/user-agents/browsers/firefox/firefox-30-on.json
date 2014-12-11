@@ -7,6 +7,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
       "engine": "Gecko_Dynamic",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -23,11 +24,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -109,6 +106,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "Firefox #MAJORVER#.#MINORVER#",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -125,28 +123,19 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]
@@ -155,6 +144,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "Firefox #MAJORVER#.#MINORVER#",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -171,32 +161,18 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#* MB860*",
+          "device": "Motorola MB860",
           "platforms": [
             "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#* MB860*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MB860",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Atrix"
-          },
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Maemo_ARM"
           ]

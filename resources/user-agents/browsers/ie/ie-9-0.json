@@ -152,6 +152,7 @@
         {
           "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER#*",
           "engine": "unknown",
+          "device": "unknown",
           "properties": {
             "Browser": "Fake IE",
             "Comment": "Fake IE",
@@ -178,15 +179,9 @@
             "VBScript": "false",
             "JavaApplets": "false",
             "ActiveXControls": "false",
-            "isMobileDevice": "false",
             "isSyndicationReader": "false",
             "Crawler": "true",
-            "CssVersion": "0",
-            "Device_Type": "unknown",
-            "Device_Code_Name": "unknown",
-            "Device_Name": "unknown",
-            "Device_Maker": "unknown",
-            "Device_Pointing_Method": "unknown"
+            "CssVersion": "0"
           }
         }
       ]

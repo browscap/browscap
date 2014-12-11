@@ -9048,6 +9048,18 @@
         "isTablet": "false"
       }
     },
+    "LG D300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D300",
+        "Device_Name": "FireWeb",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10440,6 +10452,18 @@
         "isTablet": "false"
       }
     },
+    "Sharp Aquos TV": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Aquos TV",
+        "Device_Name": "Aquos TV",
+        "Device_Maker": "Sharp",
+        "Device_Brand_Name": "Sharp",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Nokia 6682": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11420,6 +11444,18 @@
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Open": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Open",
+        "Device_Name": "Open",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14170,6 +14206,18 @@
         "Device_Brand_Name": "Dino",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "SHAAN Majestic 2.4D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Majestic 2.4D",
+        "Device_Code_Name": "Majestic 2.4D",
+        "Device_Maker": "SHAAN",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "iBall",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

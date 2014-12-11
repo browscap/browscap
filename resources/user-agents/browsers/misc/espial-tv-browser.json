@@ -5,6 +5,7 @@
     {
       "userAgent": "Espial TV Browser",
       "engine": "WebKit",
+      "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Espial TV Browser",
@@ -23,25 +24,16 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "Device_Maker": "Various",
-        "Device_Type": "TV Device",
-        "Device_Code_Name": "general TV Device",
-        "Device_Name": "general TV Device"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (DTV) AppleWebKit\/* (KHTML, like Gecko) Espial\/6.1* AQUOSBrowser\/2.0 (US01DTV;V;0001;0001)*",
+          "device": "Sharp Aquos TV",
           "properties": {
             "Version": "6.1",
             "MajorVer": "6",
-            "MinorVer": "1",
-            "Device_Code_Name": "Aquos TV",
-            "Device_Name": "Aquos TV",
-            "Device_Maker": "Sharp",
-            "Device_Brand_Name": "Sharp"
+            "MinorVer": "1"
           }
         }
       ]
