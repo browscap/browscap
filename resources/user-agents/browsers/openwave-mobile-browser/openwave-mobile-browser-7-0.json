@@ -38,7 +38,8 @@
           "match": "NEC-a232_EDGE\/1.0 UP.Browser\/7.0*"
         },
         {
-          "match": "Nokia 6600 UP.Browser\/7.0*"
+          "match": "Nokia 6600 UP.Browser\/7.0*",
+          "device": "Nokia 6600"
         },
         {
           "match": "Nokia N70 UP.Browser\/7.0*"
@@ -47,7 +48,8 @@
           "match": "Nokia N70\/2.0 Push\/PO UP.Browser\/7.0*"
         },
         {
-          "match": "Nokia6600 UP.Browser\/7.0*"
+          "match": "Nokia6600 UP.Browser\/7.0*",
+          "device": "Nokia 6600"
         },
         {
           "match": "OPWV-ModelExample\/0.1 Browser\/UP.Browser\/7.0*"

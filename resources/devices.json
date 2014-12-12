@@ -180,6 +180,18 @@
         "isTablet": "false"
       }
     },
+    "PowerMac": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "PowerMac",
+        "Device_Name": "PowerMac",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "iPhone": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1289,6 +1301,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X1i",
         "Device_Name": "X1i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson S312": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S312",
+        "Device_Name": "S312",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson W395": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W395",
+        "Device_Name": "W395",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
         "Device_Pointing_Method": "touchscreen",
@@ -2765,6 +2801,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S8003",
         "Device_Name": "GT-S8003",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5302": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5302",
+        "Device_Name": "GT-S5302",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -9060,6 +9108,54 @@
         "isTablet": "false"
       }
     },
+    "LG AD5235": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AD5235",
+        "Device_Name": "AD5235",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG AX3200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AX3200",
+        "Device_Name": "AX3200",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG AX5450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AX5450",
+        "Device_Name": "AX5450",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG CU8080": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "CU8080",
+        "Device_Name": "CU8080",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11076,6 +11172,1470 @@
         "isTablet": "false"
       }
     },
+    "Nokia 3108": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3108",
+        "Device_Name": "3108",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3120b": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3120b",
+        "Device_Name": "3120b",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3200",
+        "Device_Name": "3200",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3220",
+        "Device_Name": "3220",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3300",
+        "Device_Name": "3300",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3410": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3410",
+        "Device_Name": "3410",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3500c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3500c",
+        "Device_Name": "3500c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3510",
+        "Device_Name": "3510",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3510i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3510i",
+        "Device_Name": "3510i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3560": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3560",
+        "Device_Name": "3560",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3590": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3590",
+        "Device_Name": "3590",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3595": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3595",
+        "Device_Name": "3595",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5100",
+        "Device_Name": "5100",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5140": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5140",
+        "Device_Name": "5140",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5140i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5140i",
+        "Device_Name": "5140i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5210": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5210",
+        "Device_Name": "5210",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6010": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6010",
+        "Device_Name": "6010",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6020": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6020",
+        "Device_Name": "6020",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6021": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6021",
+        "Device_Name": "6021",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6030": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6030",
+        "Device_Name": "6030",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6030b": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6030b",
+        "Device_Name": "6030b",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6060": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6060",
+        "Device_Name": "6060",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6061": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6061",
+        "Device_Name": "6061",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6100",
+        "Device_Name": "6100",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6101": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6101",
+        "Device_Name": "6101",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6102": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6102",
+        "Device_Name": "6102",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6102i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6102i",
+        "Device_Name": "6102i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6103": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6103",
+        "Device_Name": "6103",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6108": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6108",
+        "Device_Name": "6108",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6111": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6111",
+        "Device_Name": "6111",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6125": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6125",
+        "Device_Name": "6125",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6131": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6131",
+        "Device_Name": "6131",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6170": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6170",
+        "Device_Name": "6170",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6200",
+        "Device_Name": "6200",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6220",
+        "Device_Name": "6220",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6230",
+        "Device_Name": "6230",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6230i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6230i",
+        "Device_Name": "6230i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6270": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6270",
+        "Device_Name": "6270",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6280": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6280",
+        "Device_Name": "6280",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6300",
+        "Device_Name": "6300",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6303i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6303i",
+        "Device_Name": "6303i classic",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6310",
+        "Device_Name": "6310",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6310i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6310i",
+        "Device_Name": "6310i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6500c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6500c",
+        "Device_Name": "6500c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6500s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6500s",
+        "Device_Name": "6500s",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6510",
+        "Device_Name": "6510",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6560": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6560",
+        "Device_Name": "6560",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6610",
+        "Device_Name": "6610",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6610i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6610i",
+        "Device_Name": "6610i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6650",
+        "Device_Name": "6650",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6700c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6700c",
+        "Device_Name": "6700c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6800",
+        "Device_Name": "6800",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6820": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6820",
+        "Device_Name": "6820",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6822": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6822",
+        "Device_Name": "6822",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7200",
+        "Device_Name": "7200",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7210": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7210",
+        "Device_Name": "7210",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7230",
+        "Device_Name": "7230",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7250": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7250",
+        "Device_Name": "7250",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7250i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7250i",
+        "Device_Name": "7250i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7260": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7260",
+        "Device_Name": "7260",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7270": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7270",
+        "Device_Name": "7270",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7600",
+        "Device_Name": "7600",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 8310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8310",
+        "Device_Name": "8310",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 8800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8800",
+        "Device_Name": "8800",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 8910": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8910",
+        "Device_Name": "8910",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 8910i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "8910i",
+        "Device_Name": "8910i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C2-01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2-01",
+        "Device_Name": "C2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C2-05": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2-05",
+        "Device_Name": "C2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C2-06": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2-06",
+        "Device_Name": "C2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C2-03": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2-03",
+        "Device_Name": "C2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C3-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C3-00",
+        "Device_Name": "C3",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia C3-01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C3-01",
+        "Device_Name": "C3",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N70-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N70-1",
+        "Device_Name": "N70",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N80-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N80-1",
+        "Device_Name": "N80",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N90-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N90-1",
+        "Device_Name": "N90",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia X2-00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X2-00",
+        "Device_Name": "X2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia X2-01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X2-01",
+        "Device_Name": "X2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia X3-02": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X3-02",
+        "Device_Name": "X3",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6600",
+        "Device_Name": "6600",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 9300i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "9300i",
+        "Device_Name": "9300i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N79-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N79-1",
+        "Device_Name": "N79",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5530c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5530c",
+        "Device_Name": "5530c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6220c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6220c",
+        "Device_Name": "6220c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6760s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6760s",
+        "Device_Name": "6760s",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E63-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E63-1",
+        "Device_Name": "E63",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E71-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E71-1",
+        "Device_Name": "E71",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E90-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E90-1",
+        "Device_Name": "E90",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N78-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N78-1",
+        "Device_Name": "N78",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E50-2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E50-2",
+        "Device_Name": "E50",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3230",
+        "Device_Name": "3230",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3250": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3250",
+        "Device_Name": "3250",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3650",
+        "Device_Name": "3650",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 3660": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "3660",
+        "Device_Name": "3660",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5500d": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5500d",
+        "Device_Name": "5500d",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6260": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6260",
+        "Device_Name": "6260",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6620": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6620",
+        "Device_Name": "6620",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6630": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6630",
+        "Device_Name": "6630",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6670": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6670",
+        "Device_Name": "6670",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6680": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6680",
+        "Device_Name": "6680",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7610",
+        "Device_Name": "7610",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 7650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7650",
+        "Device_Name": "7650",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 9210i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "9210i",
+        "Device_Name": "9210i",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia E61": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E61",
+        "Device_Name": "E61",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N-Gage": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N-Gage",
+        "Device_Name": "N-Gage",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N-GageQD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N-GageQD",
+        "Device_Name": "N-GageQD",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N91": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N91",
+        "Device_Name": "N91",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N95": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N95",
+        "Device_Name": "N95",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6120c": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6120c",
+        "Device_Name": "6120 Classic",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia X700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X700",
+        "Device_Name": "X700",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 109": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "109",
+        "Device_Name": "109",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 110": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "110",
+        "Device_Name": "110",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 112": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "112",
+        "Device_Name": "112",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 113": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "113",
+        "Device_Name": "113",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "200",
+        "Device_Name": "200",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 201": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "201",
+        "Device_Name": "201",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 203": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "203",
+        "Device_Name": "203",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "220",
+        "Device_Name": "220",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "300",
+        "Device_Name": "300",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 305": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "305",
+        "Device_Name": "305",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 306": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "306",
+        "Device_Name": "306",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6300",
+        "Device_Name": "6300",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "501",
+        "Device_Name": "501",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Micromax A27": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11297,6 +12857,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-4012A",
         "Device_Name": "One Touch Fire",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel BF3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "BF3",
+        "Device_Name": "BF3",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
         "Device_Pointing_Method": "touchscreen",

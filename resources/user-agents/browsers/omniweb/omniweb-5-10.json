@@ -47,9 +47,7 @@
         },
         {
           "match": "OmniWeb622.* CFNetwork\/* Darwin\/* (Power%20Macintosh) (PowerMac7%2C3)",
-          "properties": {
-            "Device_Name": "PowerMac"
-          },
+          "device": "PowerMac",
           "platforms": [
             "Darwin"
           ]

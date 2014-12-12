@@ -25,12 +25,7 @@
         },
         {
           "match": "Alcatel-BF3\/1.0 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "BF3",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "BF3"
-          }
+          "device": "Alcatel BF3"
         },
         {
           "match": "GSD-550\/1.0 UP.Browser\/4.1*"
@@ -83,39 +78,19 @@
         },
         {
           "match": "LGE-AD5235\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "AD5235",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "AD5235"
-          }
+          "device": "LG AD5235"
         },
         {
           "match": "LGE-AX3200 UP.Browser\/4.1.26*",
-          "properties": {
-            "Device_Code_Name": "AX3200",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "AX3200"
-          }
+          "device": "LG AX3200"
         },
         {
           "match": "LGE-AX5450 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "AX5450",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "AX5450"
-          }
+          "device": "LG AX5450"
         },
         {
           "match": "LGE-CU8080\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "CU8080",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "CU8080"
-          }
+          "device": "LG CU8080"
         },
         {
           "match": "LGE-LG3200 UP.Browser\/4.1.27*",

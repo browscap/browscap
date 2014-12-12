@@ -28,37 +28,20 @@
           }
         },
         {
-          "match": "SonyEricssonS312\/* Browser\/OpenWave\/1.0* Profile\/MIDP*",
+          "match": "SonyEricssonS312\/* Browser\/OpenWave\/1.0*",
+          "device": "SonyEricsson S312",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "S312",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "S312"
+            "MinorVer": "0"
           }
         },
         {
           "match": "AUDIOVOX-PM8920KIT"
         },
         {
-          "match": "SonyEricssonS312\/R1FB Browser\/OpenWave\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "S312",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "S312"
-          }
-        },
-        {
           "match": "SonyEricssonW395\/R1FA Browser\/OpenWave\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "W395",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W395"
-          }
+          "device": "SonyEricsson W395"
         },
         {
           "match": "MOT-8700_\/* UP.Browser\/*"

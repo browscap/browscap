@@ -66,1006 +66,281 @@
         },
         {
           "match": "Nokia3108\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3108",
-            "Device_Name": "3108"
-          }
+          "device": "Nokia 3108"
         },
         {
           "match": "Nokia3120b\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3120b",
-            "Device_Name": "3120b"
-          }
+          "device": "Nokia 3120b"
         },
         {
           "match": "Nokia3200\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3200",
-            "Device_Name": "3200"
-          }
+          "device": "Nokia 3200"
         },
         {
           "match": "Nokia3220\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3220",
-            "Device_Name": "3220"
-          }
+          "device": "Nokia 3220"
         },
         {
           "match": "Nokia3300\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3300",
-            "Device_Name": "3300"
-          }
+          "device": "Nokia 3300"
         },
         {
           "match": "Nokia3410\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3410",
-            "Device_Name": "3410"
-          }
+          "device": "Nokia 3410"
         },
         {
           "match": "Nokia3500c\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3500c",
-            "Device_Name": "3500c"
-          }
+          "device": "Nokia 3500c"
         },
         {
           "match": "Nokia3510\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510",
-            "Device_Name": "3510"
-          }
+          "device": "Nokia 3510"
         },
         {
           "match": "Nokia3510i\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3510i",
-            "Device_Name": "3510i"
-          }
+          "device": "Nokia 3510i"
         },
         {
           "match": "Nokia3560\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3560",
-            "Device_Name": "3560"
-          }
+          "device": "Nokia 3560"
         },
         {
-          "match": "Nokia3590\/1.0(*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3590",
-            "Device_Name": "3590"
-          }
+          "match": "Nokia3590\/*",
+          "device": "Nokia 3590"
         },
         {
-          "match": "Nokia3595\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3595",
-            "Device_Name": "3595"
-          }
+          "match": "Nokia3595\/*",
+          "device": "Nokia 3595"
         },
         {
-          "match": "Nokia3595\/1.0 (7.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3595",
-            "Device_Name": "3595"
-          }
+          "match": "Nokia5100\/*",
+          "device": "Nokia 5100"
         },
         {
-          "match": "Nokia5100\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5100",
-            "Device_Name": "5100"
-          }
+          "match": "Nokia5140\/*",
+          "device": "Nokia 5140"
         },
         {
-          "match": "Nokia5140\/2.0 (3.10) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5140",
-            "Device_Name": "5140"
-          }
-        },
-        {
-          "match": "Nokia5140i\/2.0 (03.34) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5140i",
-            "Device_Name": "5140i"
-          }
-        },
-        {
-          "match": "Nokia5140i\/2.0 (03.70) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5140i",
-            "Device_Name": "5140i"
-          }
-        },
-        {
-          "match": "Nokia5140i\/2.0 (03.75) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5140",
-            "Device_Name": "5140"
-          }
+          "match": "Nokia5140i\/*",
+          "device": "Nokia 5140i"
         },
         {
           "match": "Nokia5210\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5210",
-            "Device_Name": "5210"
-          }
+          "device": "Nokia 5210"
         },
         {
           "match": "Nokia5230\/*",
           "device": "Nokia 5230"
         },
         {
-          "match": "Nokia6010\/1.0 (8.18) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6010",
-            "Device_Name": "6010"
-          }
+          "match": "Nokia6010\/*",
+          "device": "Nokia 6010"
         },
         {
-          "match": "Nokia6010\/1.0 (8.62) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6010",
-            "Device_Name": "6010"
-          }
+          "match": "Nokia6020\/*",
+          "device": "Nokia 6020"
         },
         {
-          "match": "Nokia6020\/2.0 (03.5?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6020",
-            "Device_Name": "6020"
-          }
+          "match": "Nokia6021\/*",
+          "device": "Nokia 6021"
         },
         {
-          "match": "Nokia6020\/2.0 (03.92) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6020",
-            "Device_Name": "6020"
-          }
+          "match": "Nokia6030\/*",
+          "device": "Nokia 6030"
         },
         {
-          "match": "Nokia6020\/2.0 (04.10) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6020",
-            "Device_Name": "6020"
-          }
+          "match": "Nokia6030b\/*",
+          "device": "Nokia 6030b"
         },
         {
-          "match": "Nokia6020\/2.0 (04.50) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6020",
-            "Device_Name": "6020"
-          }
+          "match": "Nokia6060\/*",
+          "device": "Nokia 6060"
         },
         {
-          "match": "Nokia6020\/2.0 (04.90) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6020",
-            "Device_Name": "6020"
-          }
+          "match": "Nokia6061\/*",
+          "device": "Nokia 6061"
         },
         {
-          "match": "Nokia6021\/2.0 (04.50) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6021",
-            "Device_Name": "6021"
-          }
+          "match": "Nokia6100\/*",
+          "device": "Nokia 6100"
         },
         {
-          "match": "Nokia6030\/2.0 (y3.43) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6030",
-            "Device_Name": "6030"
-          }
+          "match": "Nokia6101\/*",
+          "device": "Nokia 6101"
         },
         {
-          "match": "Nokia6030\/2.0 (y3.4?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6030",
-            "Device_Name": "6030"
-          }
+          "match": "Nokia6102\/*",
+          "device": "Nokia 6102"
         },
         {
-          "match": "Nokia6030\/2.0 (y4.10) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6030",
-            "Device_Name": "6030"
-          }
+          "match": "Nokia6102i\/*",
+          "device": "Nokia 6102i"
         },
         {
-          "match": "Nokia6030b\/2.0 (m3.3?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6030b",
-            "Device_Name": "6030b"
-          }
+          "match": "Nokia6103\/*",
+          "device": "Nokia 6103"
         },
         {
-          "match": "Nokia6060\/2.0 (k3.6?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6060",
-            "Device_Name": "6060"
-          }
+          "match": "Nokia6108\/*",
+          "device": "Nokia 6108"
         },
         {
-          "match": "Nokia6061\/2.0 (4.10) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6061",
-            "Device_Name": "6061"
-          }
+          "match": "Nokia6111\/*",
+          "device": "Nokia 6111"
         },
         {
-          "match": "Nokia6100\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6100",
-            "Device_Name": "6100"
-          }
+          "match": "Nokia6125\/*",
+          "device": "Nokia 6125"
         },
         {
-          "match": "Nokia6100\/1.0 (05.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6100",
-            "Device_Name": "6100"
-          }
+          "match": "Nokia6131\/*",
+          "device": "Nokia 6131"
         },
         {
-          "match": "Nokia6100\/1.0 (05.80) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6100",
-            "Device_Name": "6100"
-          }
+          "match": "Nokia6170\/*",
+          "device": "Nokia 6170"
         },
         {
-          "match": "Nokia6100\/1.0 (06.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6100",
-            "Device_Name": "6100"
-          }
+          "match": "Nokia6200\/*",
+          "device": "Nokia 6200"
         },
         {
-          "match": "Nokia6101\/2.0 (03.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6101",
-            "Device_Name": "6101"
-          }
+          "match": "Nokia6220\/*",
+          "device": "Nokia 6220"
         },
         {
-          "match": "Nokia6101\/2.0 (03.35) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6101",
-            "Device_Name": "6101"
-          }
+          "match": "Nokia6230\/*",
+          "device": "Nokia 6230"
         },
         {
-          "match": "Nokia6101\/2.0 (04.10) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6101",
-            "Device_Name": "6101"
-          }
+          "match": "Nokia6230i\/*",
+          "device": "Nokia 6230i"
         },
         {
-          "match": "Nokia6101\/2.0 (04.50) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6101",
-            "Device_Name": "6101"
-          }
+          "match": "Nokia6270\/*",
+          "device": "Nokia 6270"
         },
         {
-          "match": "Nokia6102\/2.0 (03.38) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6102",
-            "Device_Name": "6102"
-          }
+          "match": "Nokia6280\/*",
+          "device": "Nokia 6280"
         },
         {
-          "match": "Nokia6102i\/2.0 (04.6?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6102i",
-            "Device_Name": "6102i"
-          }
+          "match": "Nokia6300\/*",
+          "device": "Nokia 6300"
         },
         {
-          "match": "Nokia6103\/2.0 (04.61) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6103",
-            "Device_Name": "6103"
-          }
+          "match": "Nokia6303iclassic\/*",
+          "device": "Nokia 6303i"
         },
         {
-          "match": "Nokia6108\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6108",
-            "Device_Name": "6108"
-          }
+          "match": "Nokia6310\/*",
+          "device": "Nokia 6310"
         },
         {
-          "match": "Nokia6111\/2.0 (03.58) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6111",
-            "Device_Name": "6111"
-          }
+          "match": "Nokia6310i\/*",
+          "device": "Nokia 6310i"
         },
         {
-          "match": "Nokia6125\/2.0 (03.71) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6125",
-            "Device_Name": "6125"
-          }
+          "match": "Nokia6500c\/*",
+          "device": "Nokia 6500c"
         },
         {
-          "match": "Nokia6131\/2.0 (03.?0) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6131",
-            "Device_Name": "6131"
-          }
+          "match": "Nokia6500s-1\/*",
+          "device": "Nokia 6500s"
         },
         {
-          "match": "Nokia6131\/2.0 (06.?0) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6131",
-            "Device_Name": "6131"
-          }
+          "match": "Nokia6510\/*",
+          "device": "Nokia 6510"
         },
         {
-          "match": "Nokia6170\/2.0 (03.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6170",
-            "Device_Name": "6170"
-          }
+          "match": "Nokia6560\/*",
+          "device": "Nokia 6560"
         },
         {
-          "match": "Nokia6200\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6200",
-            "Device_Name": "6200"
-          }
+          "match": "Nokia6610\/*",
+          "device": "Nokia 6610"
         },
         {
-          "match": "Nokia6200\/1.0 (3.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6200",
-            "Device_Name": "6200"
-          }
+          "match": "Nokia6610I\/*",
+          "device": "Nokia 6610i"
         },
         {
-          "match": "Nokia6220\/2.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6220",
-            "Device_Name": "6220"
-          }
-        },
-        {
-          "match": "Nokia6220\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6220",
-            "Device_Name": "6220"
-          }
-        },
-        {
-          "match": "Nokia6230\/2.0 (03.1?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230",
-            "Device_Name": "6230"
-          }
-        },
-        {
-          "match": "Nokia6230\/2.0 (04.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230",
-            "Device_Name": "6230"
-          }
-        },
-        {
-          "match": "Nokia6230\/2.0 (05.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "GT-6230",
-            "Device_Name": "GT-6230"
-          }
-        },
-        {
-          "match": "Nokia6230\/2.0 (05.50) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230",
-            "Device_Name": "6230"
-          }
-        },
-        {
-          "match": "Nokia6230i\/2.0 (03.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230i",
-            "Device_Name": "6230i"
-          }
-        },
-        {
-          "match": "Nokia6230i\/2.0 (03.2?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230i",
-            "Device_Name": "6230i"
-          }
-        },
-        {
-          "match": "Nokia6230i\/2.0 (03.62) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230i",
-            "Device_Name": "6230i"
-          }
-        },
-        {
-          "match": "Nokia6230i\/2.0 (03.70) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230i",
-            "Device_Name": "6230i"
-          }
-        },
-        {
-          "match": "Nokia6230i\/2.0 (03.80) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6230i",
-            "Device_Name": "6230i"
-          }
-        },
-        {
-          "match": "Nokia6270\/2.0 (03.5?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6270",
-            "Device_Name": "6270"
-          }
-        },
-        {
-          "match": "Nokia6270\/2.0 (03.6?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6270",
-            "Device_Name": "6270"
-          }
-        },
-        {
-          "match": "Nokia6280\/2.0 (03.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6280",
-            "Device_Name": "6280"
-          }
-        },
-        {
-          "match": "Nokia6280\/2.0 (03.6?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6280",
-            "Device_Name": "6280"
-          }
-        },
-        {
-          "match": "Nokia6300\/2.0 (04.70) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6300",
-            "Device_Name": "6300"
-          }
-        },
-        {
-          "match": "Nokia6300\/2.0 (05.00) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6300",
-            "Device_Name": "6300"
-          }
-        },
-        {
-          "match": "Nokia6300\/2.0 (06.*) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6300",
-            "Device_Name": "6300"
-          }
-        },
-        {
-          "match": "Nokia6300\/2.0 (07.*) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6300",
-            "Device_Name": "6300"
-          }
-        },
-        {
-          "match": "Nokia6303iclassic\/5.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6303i classic",
-            "Device_Name": "6303i classic"
-          }
-        },
-        {
-          "match": "Nokia6310\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6310",
-            "Device_Name": "6310"
-          }
-        },
-        {
-          "match": "Nokia6310i\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6310i",
-            "Device_Name": "6310i"
-          }
-        },
-        {
-          "match": "Nokia6500c\/2.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6500c",
-            "Device_Name": "6500c"
-          }
-        },
-        {
-          "match": "Nokia6500s-1\/2.0 (04.8?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6500s",
-            "Device_Name": "6500s"
-          }
-        },
-        {
-          "match": "Nokia6510\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6510",
-            "Device_Name": "6510"
-          }
-        },
-        {
-          "match": "Nokia6560\/1.0 (01.24) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6560",
-            "Device_Name": "6560"
-          }
-        },
-        {
-          "match": "Nokia6610\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6610",
-            "Device_Name": "6610"
-          }
-        },
-        {
-          "match": "Nokia6610\/1.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6610",
-            "Device_Name": "6610"
-          }
-        },
-        {
-          "match": "Nokia6610I\/1.0",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6610i",
-            "Device_Name": "6610i"
-          }
-        },
-        {
-          "match": "Nokia6610I\/1.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6610i",
-            "Device_Name": "6610i"
-          }
-        },
-        {
-          "match": "Nokia6650\/2.0 (*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6650",
-            "Device_Name": "6650"
-          }
+          "match": "Nokia6650\/*",
+          "device": "Nokia 6650"
         },
         {
           "match": "Nokia6700c-1\/2.0 (* Mozilla\/?.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6700c",
-            "Device_Name": "6700c"
-          }
+          "engine": "WebKit",
+          "device": "Nokia 6700c"
         },
         {
-          "match": "Nokia6800\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6800",
-            "Device_Name": "6800"
-          }
+          "match": "Nokia6800\/*",
+          "device": "Nokia 6800"
         },
         {
-          "match": "Nokia6800\/2.0 (4.1?) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6800",
-            "Device_Name": "6800"
-          }
+          "match": "Nokia6820\/*",
+          "device": "Nokia 6820"
         },
         {
-          "match": "Nokia6820\/2.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6820",
-            "Device_Name": "6820"
-          }
+          "match": "Nokia6822\/*",
+          "device": "Nokia 6822"
         },
         {
-          "match": "Nokia6820\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6820",
-            "Device_Name": "6820"
-          }
+          "match": "Nokia7200\/*",
+          "device": "Nokia 7200"
         },
         {
-          "match": "Nokia6822\/2.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6822",
-            "Device_Name": "6822"
-          }
-        },
-        {
-          "match": "Nokia7200\/2.0 (3.1*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7200",
-            "Device_Name": "7200"
-          }
-        },
-        {
-          "match": "Nokia7210\/1.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7210",
-            "Device_Name": "7210"
-          }
-        },
-        {
-          "match": "Nokia7210\/1.0 (5.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7210",
-            "Device_Name": "7210"
-          }
-        },
-        {
-          "match": "Nokia7210\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7210",
-            "Device_Name": "7210"
-          }
-        },
-        {
-          "match": "Nokia7210\/1.0(3.09) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7210",
-            "Device_Name": "7210"
-          }
+          "match": "Nokia7210\/*",
+          "device": "Nokia 7210"
         },
         {
           "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7230",
-            "Device_Name": "7230"
-          },
+          "device": "Nokia 7230",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Nokia7230\/5.0 * (KHTML,*like Gecko*) Safari\/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7230",
-            "Device_Name": "7230"
-          },
-          "platforms": [
-            "JAVA"
-          ]
+          "match": "Nokia7250\/*",
+          "device": "Nokia 7250"
         },
         {
-          "match": "Nokia7250\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7250",
-            "Device_Name": "7250"
-          }
+          "match": "Nokia7250I\/*",
+          "device": "Nokia 7250i"
         },
         {
-          "match": "Nokia7250I\/1.0 (4.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7250i",
-            "Device_Name": "7250i"
-          }
+          "match": "Nokia7260\/*",
+          "device": "Nokia 7260"
         },
         {
-          "match": "Nokia7250I\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7250i",
-            "Device_Name": "7250i"
-          }
+          "match": "Nokia7270\/*",
+          "device": "Nokia 7270"
         },
         {
-          "match": "Nokia7260\/2.0 (03.36) *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7260",
-            "Device_Name": "7260"
-          }
+          "match": "Nokia7600\/*",
+          "device": "Nokia 7600"
         },
         {
-          "match": "Nokia7260\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7260",
-            "Device_Name": "7260"
-          }
+          "match": "Nokia8310\/*",
+          "device": "Nokia 8310"
         },
         {
-          "match": "Nokia7270\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7270",
-            "Device_Name": "7270"
-          }
+          "match": "Nokia8800\/*",
+          "device": "Nokia 8800"
         },
         {
-          "match": "Nokia7600\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7600",
-            "Device_Name": "7600"
-          }
+          "match": "Nokia8910\/*",
+          "device": "Nokia 8910"
         },
         {
-          "match": "Nokia8310\/1.0 (04.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8310",
-            "Device_Name": "8310"
-          }
-        },
-        {
-          "match": "Nokia8310\/1.0 (05.*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8310",
-            "Device_Name": "8310"
-          }
-        },
-        {
-          "match": "Nokia8310\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8310",
-            "Device_Name": "8310"
-          }
-        },
-        {
-          "match": "Nokia8800\/2.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8800",
-            "Device_Name": "8800"
-          }
-        },
-        {
-          "match": "Nokia8910\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8910",
-            "Device_Name": "8910"
-          }
-        },
-        {
-          "match": "Nokia8910i\/1.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "8910i",
-            "Device_Name": "8910i"
-          }
+          "match": "Nokia8910i\/*",
+          "device": "Nokia 8910i"
         },
         {
           "match": "NokiaC2-01\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C2-01",
-            "Device_Name": "C2"
-          },
+          "device": "Nokia C2-01",
           "platforms": [
             "SymbianOS"
           ]
@@ -1073,12 +348,7 @@
         {
           "match": "NokiaC3-00\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C3",
-            "Device_Name": "C3"
-          },
+          "device": "Nokia C3-00",
           "platforms": [
             "SymbianOS"
           ]
@@ -1086,12 +356,7 @@
         {
           "match": "NokiaC3-01\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C3",
-            "Device_Name": "C3"
-          },
+          "device": "Nokia C3-01",
           "platforms": [
             "SymbianOS"
           ]
@@ -1113,60 +378,22 @@
           ]
         },
         {
-          "match": "NokiaN70-1\/2.05*",
+          "match": "NokiaN70-1\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N70",
-            "Device_Name": "N70"
-          }
+          "device": "Nokia N70-1"
         },
         {
-          "match": "NokiaN70-1\/3.05*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N70",
-            "Device_Name": "N70"
-          }
+          "match": "NokiaN80-1\/*",
+          "device": "Nokia N80-1"
         },
         {
-          "match": "NokiaN70-1\/5.06*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N70",
-            "Device_Name": "N70"
-          }
-        },
-        {
-          "match": "NokiaN80-1\/1.05*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N80",
-            "Device_Name": "N80"
-          }
-        },
-        {
-          "match": "NokiaN90-1\/3.05*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N90",
-            "Device_Name": "N90"
-          }
+          "match": "NokiaN90-1\/*",
+          "device": "Nokia N90-1"
         },
         {
           "match": "NokiaX2-00\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "X2",
-            "Device_Name": "X2"
-          },
+          "device": "Nokia X2-00",
           "platforms": [
             "SymbianOS"
           ]
@@ -1174,12 +401,7 @@
         {
           "match": "NokiaX2-01\/5.0 (* Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "X2",
-            "Device_Name": "X2"
-          },
+          "device": "Nokia X2-01",
           "platforms": [
             "SymbianOS"
           ]
@@ -1187,24 +409,14 @@
         {
           "match": "NokiaX3-02\/5.0 (*) * Mozilla\/5.0 AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "X3",
-            "Device_Name": "X3"
-          },
+          "device": "Nokia X3-02",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "6600\/1.0 (*; Series60\/*; SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6600",
-            "Device_Name": "6600"
-          },
+          "device": "Nokia 6600",
           "platforms": [
             "SymbianOS"
           ]
@@ -1218,12 +430,7 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 5.0; Series80\/2.0 Nokia9300i\/6.27 *)",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "9300i",
-            "Device_Name": "9300i"
-          },
+          "device": "Nokia 9300i",
           "platforms": [
             "SymbianOS"
           ]
@@ -1231,12 +438,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; ?; Series60\/* NokiaN79-1\/30.019*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N79",
-            "Device_Name": "N79"
-          },
+          "device": "Nokia N79-1",
           "platforms": [
             "SymbianOS"
           ]
@@ -1244,12 +446,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia5530c-2\/11.0.053; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5530c",
-            "Device_Name": "5530c"
-          },
+          "device": "Nokia 5530c",
           "platforms": [
             "SymbianOS"
           ]
@@ -1264,12 +461,7 @@
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6220c-1\/04.13; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6220c",
-            "Device_Name": "6220c"
-          },
+          "device": "Nokia 6220c",
           "platforms": [
             "SymbianOS"
           ]
@@ -1277,12 +469,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Nokia6760s-1\/*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6760s",
-            "Device_Name": "6760s"
-          },
+          "device": "Nokia 6760s",
           "platforms": [
             "SymbianOS"
           ]
@@ -1290,12 +477,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/1*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E63",
-            "Device_Name": "E63"
-          },
+          "device": "Nokia E63-1",
           "platforms": [
             "SymbianOS"
           ]
@@ -1303,36 +485,21 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE63-1\/4*; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E63",
-            "Device_Name": "E63"
-          },
+          "device": "Nokia E63-1",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/1*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E71",
-            "Device_Name": "E71"
-          },
+          "device": "Nokia E71-1",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE71-1\/5*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E71",
-            "Device_Name": "E71"
-          },
+          "device": "Nokia E71-1",
           "platforms": [
             "SymbianOS"
           ]
@@ -1340,12 +507,7 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaE90-1\/07.38.0.2; * ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E90",
-            "Device_Name": "E90"
-          },
+          "device": "Nokia E90-1",
           "platforms": [
             "SymbianOS"
           ]
@@ -1353,228 +515,133 @@
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* NokiaN78-1\/13.052*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N78",
-            "Device_Name": "N78"
-          },
+          "device": "Nokia N78-1",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; U; *; NokiaE50-2\/06.* Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E50",
-            "Device_Name": "E50"
-          },
+          "device": "Nokia E50-2",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3230\/2.0 (*SymbianOS\/* Series60\/2.1*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3230",
-            "Device_Name": "3230"
-          },
+          "device": "Nokia 3230",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3250\/2.0 (3.16) SymbianOS\/* Series60\/3.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3250",
-            "Device_Name": "3250"
-          },
+          "device": "Nokia 3250",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3250\/2.0 (3.23) SymbianOS\/* Series60\/3.0 *",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3250",
-            "Device_Name": "3250"
-          },
+          "device": "Nokia 3250",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3650\/1.0 (4.1?) SymbianOS\/* Series60\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3650",
-            "Device_Name": "3650"
-          },
+          "device": "Nokia 3650",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3650\/1.0 SymbianOS\/* Series60\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3650",
-            "Device_Name": "3650"
-          },
+          "device": "Nokia 3650",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia3660\/1.0 (*SymbianOS\/* Series60\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "3660",
-            "Device_Name": "3660"
-          },
+          "device": "Nokia 3660",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia5500d\/2.0 (03.14) SymbianOS\/* Series60\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "5500d",
-            "Device_Name": "5500d"
-          },
+          "device": "Nokia 5500d",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6260\/2.0 (3.0*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6260",
-            "Device_Name": "6260"
-          },
+          "device": "Nokia 6260",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6600\/1.0 (4.09.1) SymbianOS\/7.0s*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6600",
-            "Device_Name": "6600"
-          },
+          "device": "Nokia 6600",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6600\/1.0* SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6600",
-            "Device_Name": "6600"
-          },
+          "device": "Nokia 6600",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6620\/2.0* SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6620",
-            "Device_Name": "6620"
-          },
+          "device": "Nokia 6620",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6630\/1.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6630",
-            "Device_Name": "6630"
-          },
+          "device": "Nokia 6630",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6630\/1.0 *SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6630",
-            "Device_Name": "6630"
-          },
+          "device": "Nokia 6630",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6670\/2.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6670",
-            "Device_Name": "6670"
-          },
+          "device": "Nokia 6670",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6670\/2.0 *SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6670",
-            "Device_Name": "6670"
-          },
+          "device": "Nokia 6670",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6680\/1.0 *SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6680",
-            "Device_Name": "6680"
-          },
+          "device": "Nokia 6680",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6680\/1.0* SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6680",
-            "Device_Name": "6680"
-          },
+          "device": "Nokia 6680",
           "platforms": [
             "SymbianOS"
           ]
@@ -1588,168 +655,98 @@
         },
         {
           "match": "Nokia7610\/2.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7610",
-            "Device_Name": "7610"
-          },
+          "device": "Nokia 7610",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia7610\/2.0 (6.0522.0) SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7610",
-            "Device_Name": "7610"
-          },
+          "device": "Nokia 7610",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia7610\/2.0 *SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7610",
-            "Device_Name": "7610"
-          },
+          "device": "Nokia 7610",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia7650\/1.0 SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "7650",
-            "Device_Name": "7650"
-          },
+          "device": "Nokia 7650",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia9210i\/1.0 Symbian-Crystal\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "9210i",
-            "Device_Name": "9210i"
-          },
+          "device": "Nokia 9210i",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaE61-1\/3.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "E61",
-            "Device_Name": "E61"
-          },
+          "device": "Nokia E61",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN-Gage\/1.0 (4.03) SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N-Gage",
-            "Device_Name": "N-Gage"
-          },
+          "device": "Nokia N-Gage",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN-Gage\/1.0 SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N-Gage",
-            "Device_Name": "N-Gage"
-          },
+          "device": "Nokia N-Gage",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN-GageQD\/1.0 SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N-GageQD",
-            "Device_Name": "N-GageQD"
-          },
+          "device": "Nokia N-GageQD",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN-GageQD\/2.0 (*SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N-GageQD",
-            "Device_Name": "N-GageQD"
-          },
+          "device": "Nokia N-GageQD",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN91-1\/3.0 (1.10.030) SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N91",
-            "Device_Name": "N91"
-          },
+          "device": "Nokia N91",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "NokiaN95_8GB-?;Mozilla\/5.0 SymbianOS\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N95",
-            "Device_Name": "N95"
-          },
+          "device": "Nokia N95",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Nokia6120c\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6120c",
-            "Device_Name": "6120 Classic"
-          },
+          "device": "Nokia 6120c",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "X700\/1.0 SymbianOS\/7.0 Series60\/*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "X700",
-            "Device_Name": "X700"
-          },
+          "device": "Nokia X700",
           "platforms": [
             "SymbianOS"
           ]

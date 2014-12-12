@@ -78,6 +78,7 @@
         },
         {
           "match": "Nokia3650\/1.0 UP.Browser\/5.0*"
+          "device": "Nokia 3650"
         },
         {
           "match": "Opera\/8.* UP.Browser\/5.0*"

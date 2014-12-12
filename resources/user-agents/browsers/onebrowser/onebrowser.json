@@ -26,13 +26,7 @@
       "children": [
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S5302 *) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
-          "properties": {
-            "Device_Name": "GT-S5302",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S5302",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S5302",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]

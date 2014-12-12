@@ -151,13 +151,7 @@
         },
         {
           "match": "Nokia7650\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "7650",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "7650"
-          }
+          "device": "Nokia 7650"
         },
         {
           "match": "O2-X1i\/6.1.0.7 UP.Browser\/6.1*"
