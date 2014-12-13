@@ -27,7 +27,8 @@
           "match": "Haier-P7 UP.Link\/5.1*"
         },
         {
-          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*"
+          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*",
+          "device": "NEC N600"
         }
       ]
     }

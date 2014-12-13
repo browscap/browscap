@@ -94,393 +94,174 @@
         },
         {
           "match": "LGE-LG3200 UP.Browser\/4.1.27*",
-          "properties": {
-            "Device_Code_Name": "3200",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "3200"
-          }
+          "device": "LG 3200"
         },
         {
           "match": "LGE-TM520\/1.0 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "TM520",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "TM520"
-          }
+          "device": "LG TM520"
         },
         {
           "match": "LGE-VX6000 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "VX6000",
-            "Device_Maker": "LGE",
-            "Device_Brand_Name": "LGE",
-            "Device_Name": "VX6000"
-          }
+          "device": "LG VX6000"
         },
         {
           "match": "MOT-1.2.0* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "120",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "120"
-          }
+          "device": "Motorola 120"
         },
         {
-          "match": "MOT-1.2.2\/* UP.Browser\/4.1.25*",
-          "properties": {
-            "Device_Code_Name": "122",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "122"
-          }
+          "match": "MOT-1.2.2\/* UP.Browser\/4.1*",
+          "device": "Motorola 122"
         },
         {
           "match": "MOT-76\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "76",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "76"
-          }
+          "device": "Motorola 76"
         },
         {
           "match": "MOT-A-0A\/00.0? UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "A-0A",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "A-0A"
-          }
+          "device": "Motorola A-0A"
         },
         {
           "match": "MOT-A-1F\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A-1F",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "A-1F"
-          }
+          "device": "Motorola A-1F"
         },
         {
           "match": "MOT-A-2B\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A-2B",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "A-2B"
-          }
+          "device": "Motorola A-2B"
         },
         {
           "match": "MOT-A-88\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A-88",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "A-88"
-          }
+          "device": "Motorola A-88"
         },
         {
           "match": "MOT-AF\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AF",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "AF"
-          }
+          "device": "Motorola AF"
         },
         {
           "match": "MOT-AF\/* UP\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AF",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "AF"
-          }
+          "device": "Motorola AF"
         },
         {
           "match": "MOT-C4\/* UP\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C4",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "C4"
-          }
+          "device": "Motorola C4"
         },
         {
           "match": "MOT-D5\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "D5",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "D5"
-          }
+          "device": "Motorola D5"
         },
         {
           "match": "MOT-F5\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "F5",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "F5"
-          }
+          "device": "Motorola F5"
         },
         {
           "match": "MOT-F6\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "F6",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "F6"
-          }
+          "device": "Motorola F6"
         },
         {
           "match": "MOT-FE\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "FE",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "FE"
-          }
+          "device": "Motorola FE"
         },
         {
           "match": "MOT-MCCB\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MCCB",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "MCCB"
-          }
+          "device": "Motorola MCCB"
         },
         {
           "match": "MOT-PAN4_* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "PAN4",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "PAN4"
-          }
+          "device": "Motorola PAN4"
         },
         {
           "match": "MOT-SAP4A* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SAP4A",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "SAP4A"
-          }
+          "device": "Motorola SAP4A"
         },
         {
           "match": "MOT-SAP4_* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SAP4",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "SAP4"
-          }
+          "device": "Motorola SAP4"
         },
         {
           "match": "NOKIA-NPD-4AW\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "NPD-4AW",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "NPD-4AW"
-          }
+          "device": "Motorola NPD-4AW"
         },
         {
           "match": "NOKIA-RH-17\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "RH-17",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "RH-17"
-          }
+          "device": "Motorola RH-17"
         },
         {
-          "match": "NOKIA-RH-44\/* D126V* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "RH-44",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "RH-44"
-          }
+          "match": "NOKIA-RH-44\/* UP.Browser\/4.1*",
+          "device": "Nokia RH-44"
         },
         {
           "match": "Nokia2112\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "2112",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "2112"
-          }
+          "device": "Nokia 2112"
         },
         {
           "match": "Nokia6016i\/* (*UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "6016i",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "6016i"
-          }
+          "device": "Nokia 6016i"
         },
         {
           "match": "OWG1 UP\/* UP.Browser\/4.1*"
         },
         {
-          "match": "QC-2255\/1.0.* UP.Browser\/4.1*"
+          "match": "QC-2255\/* UP.Browser\/4.1*"
         },
         {
-          "match": "QC-2325\/1.0.* UP.Browser\/4.1*"
+          "match": "QC-2325\/* UP.Browser\/4.1*"
         },
         {
           "match": "QC-5135\/* UP.Browser\/4.1*"
         },
         {
-          "match": "QC07 UP.Browser\/4.1.26l"
+          "match": "QC07 UP.Browser\/4.1*"
         },
         {
           "match": "SAMSUNG-SGH-A300\/* UP\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SGH A300",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH A300"
-          }
+          "device": "Samsung SGH-A300"
         },
         {
-          "match": "SAMSUNG-SGH-N620\/1.0 UP\/4.1.19k UP.Browser\/4.1.19k-XXXX*"
+          "match": "SAMSUNG-SGH-N620\/* UP\/* UP.Browser\/4.1*",
+          "device": "Samsung SGH-N620"
         },
         {
           "match": "SAMSUNG-SGH-T100\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Code_Name": "SGH-T100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T100"
-          }
+          "device": "Samsung SGH-T100"
         },
         {
           "match": "SEC-SGHQ200\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SGH Q200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH Q200"
-          }
+          "device": "Samsung SGH-Q200"
         },
         {
           "match": "SEC-scha650 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH A650",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH A650"
-          }
+          "device": "Samsung SCH-A650"
         },
         {
           "match": "SEC-scha670 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH A670",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH A670"
-          }
+          "device": "Samsung SCH-A670"
         },
         {
           "match": "SEC-schn391 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH N391",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH N391"
-          }
+          "device": "Samsung SCH-N391"
         },
         {
           "match": "SEC-schx199 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH X199",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH X199"
-          }
+          "device": "Samsung SCH-X199"
         },
         {
-          "match": "SEC-schx339 UP.Browser\/4.1.26*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH X339",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH X339"
-          }
+          "match": "SEC-schx339 UP.Browser\/4.1*",
+          "device": "Samsung SCH-X339"
         },
         {
           "match": "SEC-schx609 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH X609",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH X609"
-          }
+          "device": "Samsung SCH-X609"
         },
         {
           "match": "SEC-schx659 UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SCH X659",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH X659"
-          }
+          "device": "Samsung SCH-X659"
         },
         {
           "match": "SEC-spha500 UP.Browser\/4.1.26*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SPH A500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SPH A500"
-          }
+          "device": "Samsung SPH-A500"
         },
         {
           "match": "ZTE-C880\/* UP.Browser\/4.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C880",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTR",
-            "Device_Name": "C880"
-          }
+          "device": "ZTE C880"
         }
       ]
     }

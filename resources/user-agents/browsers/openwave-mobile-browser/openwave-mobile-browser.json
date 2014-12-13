@@ -47,19 +47,24 @@
           "match": "MOT-8700_\/* UP.Browser\/*"
         },
         {
-          "match": "MOT-A-0A\/* UP.Browser\/*"
+          "match": "MOT-A-0A\/* UP.Browser\/*",
+          "device": "Motorola A-0A"
+          
         },
         {
-          "match": "MOT-A-2B\/* UP.Browser\/*"
+          "match": "MOT-A-2B\/* UP.Browser\/*",
+          "device": "Motorola A-2B"
         },
         {
-          "match": "MOT-A-88\/* UP.Browser\/*"
+          "match": "MOT-A-88\/* UP.Browser\/*",
+          "device": "Motorola A-88"
         },
         {
           "match": "MOT-GATW_\/* UP.Browser\/*"
         },
         {
-          "match": "MOT-SAP4_\/* UP.Browser\/*"
+          "match": "MOT-SAP4_\/* UP.Browser\/*",
+          "device": "Motorola SAP4"
         },
         {
           "match": "UP.Browser\/3.01-IG01 UP.Link\/3.2.3.4",

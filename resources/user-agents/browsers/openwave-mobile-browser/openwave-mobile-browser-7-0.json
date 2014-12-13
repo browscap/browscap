@@ -109,10 +109,12 @@
           "match": "SIE-C72\/2? UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-C75\/* UP.Browser\/7.0*"
+          "match": "SIE-C75\/* UP.Browser\/7.0*",
+          "device": "Siemens C75"
         },
         {
-          "match": "SIE-C75\/2? UP.Browser\/7.0*"
+          "match": "SIE-C75\/2? UP.Browser\/7.0*",
+          "device": "Siemens C75"
         },
         {
           "match": "SIE-CF75\/* UP.Browser\/7.0*"
@@ -124,7 +126,8 @@
           "match": "SIE-CF7C\/* UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-CX65\/* UP.Browser\/7.0*"
+          "match": "SIE-CX65\/* UP.Browser\/7.0*",
+          "device": "Siemens CX65"
         },
         {
           "match": "SIE-CX6C\/* UP.Browser\/7.0*"
@@ -136,7 +139,8 @@
           "match": "SIE-CX70\/* UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-CX75\/* UP.Browser\/7.0*"
+          "match": "SIE-CX75\/* UP.Browser\/7.0*",
+          "device": "Siemens CX75"
         },
         {
           "match": "SIE-CX7A\/* UP.Browser\/7.0*"
@@ -178,7 +182,8 @@
           "match": "SIE-M75\/1? UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-ME75\/* UP.Browser\/7.0*"
+          "match": "SIE-ME75\/* UP.Browser\/7.0*",
+          "device": "Siemens ME75"
         },
         {
           "match": "SIE-S65\/* UP.Browser\/7.0*"

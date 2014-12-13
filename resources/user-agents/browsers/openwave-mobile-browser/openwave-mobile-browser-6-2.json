@@ -42,7 +42,8 @@
           "match": "AUDIOVOX-CDM8912SP\/T115SP0T13 UP.Browser\/6.2*"
         },
         {
-          "match": "Alcatel-BH4\/1.0 UP.Browser\/6.2*"
+          "match": "Alcatel-BH4\/1.0 UP.Browser\/6.2*",
+          "device": "Alcatel BH4"
         },
         {
           "match": "Alcatel-BH4R\/1.0 UP.Browser\/6.2*"
@@ -332,498 +333,223 @@
         },
         {
           "match": "LG-C1300 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C1300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1300"
-          }
+          "device": "LG C1300"
         },
         {
           "match": "LG-C1300i UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C1300i",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1300i"
-          }
+          "device": "LG C1300i"
         },
         {
           "match": "LG-C2000 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C2000",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C2000"
-          }
+          "device": "LG C2000"
         },
         {
           "match": "LG-C950\/1.0UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "C950",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C950"
-          }
+          "device": "LG C950"
         },
         {
           "match": "LG-CG300 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "CG300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CG300"
-          }
+          "device": "LG CG300"
         },
         {
           "match": "LG-F1200 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "F1200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F1200"
-          }
+          "device": "LG F1200"
         },
         {
           "match": "LG-F9100 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "F9100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F9100"
-          }
+          "device": "LG F9100"
         },
         {
           "match": "LG-G4015 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "G4015",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G4015"
-          }
+          "device": "LG G4015"
         },
         {
           "match": "LG-G4050 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "G4050",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G4050"
-          }
+          "device": "LG G4050"
         },
         {
           "match": "LG-G5500 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "G5500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5500"
-          }
+          "device": "LG G5500"
         },
         {
           "match": "LG-G7050 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "G7050",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7050"
-          }
+          "device": "LG G7050"
         },
         {
           "match": "LG-G7200 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "G7200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G7200"
-          }
+          "device": "LG G7200"
         },
         {
           "match": "LG-L1100 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "L1100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L1100"
-          }
+          "device": "LG L1100"
         },
         {
           "match": "LG-L1150 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "L1150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L1150"
-          }
+          "device": "LG L1150"
         },
         {
           "match": "LG-L1200 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "L1200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L1200"
-          }
+          "device": "LG L1200"
         },
         {
           "match": "LG-L1400 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "L1400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L1400"
-          }
+          "device": "LG L1400"
         },
         {
           "match": "LG-L5100 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "L5100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L5100"
-          }
+          "device": "LG L5100"
         },
         {
           "match": "LG-LG220C* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG220C",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG220C"
-          }
+          "device": "LG LG220C"
         },
         {
           "match": "LG-MG130 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MG130",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG130"
-          }
+          "device": "LG MG130"
         },
         {
           "match": "LG-MG270 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MG270",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG270"
-          }
+          "device": "LG MG270"
         },
         {
           "match": "LG-T5100 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "T5100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "T5100"
-          }
+          "device": "LG T5100"
         },
         {
           "match": "LG-W800\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "W800",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "W800"
-          }
+          "device": "LG W800"
         },
         {
           "match": "LG535\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG535",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG535"
-          }
+          "device": "LG LG535"
         },
         {
           "match": "LG8700\/1.1 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG8700",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG8700"
-          }
+          "device": "LG LG8700"
         },
         {
           "match": "LGE-AD6335\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "AD6335",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "AD6335"
-          }
+          "device": "LG AD6335"
         },
         {
           "match": "LGE-AX260\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "AX260",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "AX260"
-          }
+          "device": "LG AX260"
         },
         {
           "match": "LGE-AX4270\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "AX4270",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "AX4270"
-          }
+          "device": "LG AX4270"
         },
         {
           "match": "LGE-AX4750\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "AX4750",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "AX4750"
-          }
+          "device": "LG AX4750"
         },
         {
           "match": "LGE-AX490\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "AX490",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "AX490"
-          }
+          "device": "LG AX490"
         },
         {
           "match": "LGE-BX6170\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "BX6170",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "BX6170"
-          }
+          "device": "LG BX6170"
         },
         {
           "match": "LGE-CX5450 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "CX5450",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CX5450"
-          }
+          "device": "LG CX5450"
         },
         {
           "match": "LGE-LG290C\/1.0* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG290C",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG290C"
-          }
+          "device": "LG LG290C"
         },
         {
           "match": "LGE-LG300\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG300"
-          }
+          "device": "LG LG300"
         },
         {
           "match": "LGE-LG325\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG325",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG325"
-          }
+          "device": "LG LG325"
         },
         {
           "match": "LGE-LG3300\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG3300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG3300"
-          }
+          "device": "LG LG3300"
         },
         {
           "match": "LGE-LG4600 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG4600",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG4600"
-          }
+          "device": "LG LG4600"
         },
         {
           "match": "LGE-LG6070 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG6070",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG6070"
-          }
+          "device": "LG LG6070"
         },
         {
           "match": "LGE-LG6200\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LG6200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LG6200"
-          }
+          "device": "LG LG6200"
         },
         {
           "match": "LGE-LX5350\/4.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "LX5350",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LX5350"
-          }
+          "device": "LG LX5350"
         },
         {
           "match": "LGE-MM535\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MM535",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MM535"
-          }
+          "device": "LG MM535"
         },
         {
           "match": "LGE-MN240\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MN240",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MN240"
-          }
+          "device": "LG MN240"
         },
         {
           "match": "LGE-MX200_VEZ\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MX200_VEZ",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MX200_VEZ"
-          }
+          "device": "LG MX200_VEZ"
         },
         {
           "match": "LGE-MX500_VEZ\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MX500_VEZ",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MX500_VEZ"
-          }
+          "device": "LG MX500_VEZ"
         },
         {
           "match": "LGE-MX510\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MX510",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MX510"
-          }
+          "device": "LG MX510"
         },
         {
           "match": "LGE-MX7000\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "MX7000",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MX7000"
-          }
+          "device": "LG MX7000"
         },
         {
           "match": "LGE-PM225\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "PM225",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "PM225"
-          }
+          "device": "LG PM225"
         },
         {
           "match": "LGE-PM325\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "PM325",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "PM325"
-          }
+          "device": "LG PM325"
         },
         {
           "match": "LGE-VI125\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VI125",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VI125"
-          }
+          "device": "LG VI125"
         },
         {
           "match": "LGE-VI5225\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VI5225",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VI5225"
-          }
+          "device": "LG VI5225"
         },
         {
           "match": "LGE-VX6100\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX6100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX6100"
-          }
+          "device": "LG VX6100"
         },
         {
           "match": "LGE-VX7000\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX7000",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX7000"
-          }
+          "device": "LG VX7000"
         },
         {
           "match": "LGE-VX8100\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX8100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX8100"
-          }
+          "device": "LG VX8100"
         },
         {
           "match": "LGE-VX8300\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX8300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX8300"
-          }
+          "device": "LG VX8300"
         },
         {
           "match": "LGE-VX8350\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX8350",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX8350"
-          }
+          "device": "LG VX8350"
         },
         {
           "match": "LGE-VX8500\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX8500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX8500"
-          }
+          "device": "LG VX8500"
         },
         {
           "match": "LGE-VX8610\/1.0 UP.Browser\/6.2*",
@@ -1869,12 +1595,7 @@
         },
         {
           "match": "SCH-A650 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SCH-A650",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH-A650"
-          }
+          "device": "Samsung SCH-A650"
         },
         {
           "match": "SCH-A870 UP.Browser\/6.2*"
@@ -1944,12 +1665,7 @@
         },
         {
           "match": "SCH-X859 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SCH-X859",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SCH-X859"
-          }
+          "device": "Samsung SCH-X859"
         },
         {
           "match": "SCH-i819 UP.Browser\/6.2*",
@@ -2095,12 +1811,7 @@
         },
         {
           "match": "lge-vx8100\/1.0 UP. Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "VX8100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "VX8100"
-          }
+          "device": "LG VX8100"
         },
         {
           "match": "sam-r310 UP.Browser\/6.2*sam-r310 UP.Browser\/6.2*"

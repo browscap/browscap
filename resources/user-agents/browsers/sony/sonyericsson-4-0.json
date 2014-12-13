@@ -93,21 +93,11 @@
         },
         {
           "match": "SonyEricssonK500c\/* SEMC-Browser\/4.*",
-          "properties": {
-            "Device_Code_Name": "K500c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K500c"
-          }
+          "device": "SonyEricsson K500c"
         },
         {
           "match": "SonyEricssonK500i\/* SEMC-Browser\/4.*",
-          "properties": {
-            "Device_Code_Name": "K500i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K500i"
-          }
+          "device": "SonyEricsson K500i"
         },
         {
           "match": "SonyEricssonK508c\/* SEMC-Browser\/4.*",

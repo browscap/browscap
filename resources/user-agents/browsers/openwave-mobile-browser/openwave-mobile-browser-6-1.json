@@ -78,7 +78,8 @@
           "match": "Hitachi-P300 UP.Browser\/6.1*"
         },
         {
-          "match": "LGE-LX5350\/1.0 UP.Browser\/6.1*"
+          "match": "LGE-LX5350\/1.0 UP.Browser\/6.1*",
+          "device": "LG LX5350"
         },
         {
           "match": "MOT-T720\/* UP.Browser\/6.1*",
@@ -92,43 +93,19 @@
         },
         {
           "match": "Motorola-E365 UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "E365",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "E365"
-          }
+          "device": "Motorola E365"
         },
         {
           "match": "NEC-525\/* up.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "525",
-            "Device_Maker": "NEC",
-            "Device_Brand_Name": "NEC",
-            "Device_Name": "525"
-          }
+          "device": "NEC 525"
         },
         {
           "match": "NEC-530\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "530",
-            "Device_Maker": "NEC",
-            "Device_Brand_Name": "NEC",
-            "Device_Name": "530"
-          }
+          "device": "NEC 530"
         },
         {
           "match": "NEC-N8\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N8",
-            "Device_Maker": "NEC",
-            "Device_Brand_Name": "NEC",
-            "Device_Name": "N8"
-          }
+          "device": "NEC N8"
         },
         {
           "match": "NEC-N800\/1.0 * UP.Browser\/6.1*"
@@ -141,13 +118,7 @@
         },
         {
           "match": "Nokia1100\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "1100",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "1100"
-          }
+          "device": "Nokia 1100"
         },
         {
           "match": "Nokia7650\/* UP.Browser\/6.1*",
@@ -256,7 +227,8 @@
           "match": "SAMSUNG-SGH-X468\/1.0* UP.Browser\/6.1*"
         },
         {
-          "match": "SAMSUNG-SGH-X600\/K3 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X600\/K3 UP.Browser\/6.1*",
+          "device": "Samsung SGH-X600"
         },
         {
           "match": "SAMSUNG-SGH-X600A\/K3 UP.Browser\/6.1*"
@@ -308,396 +280,163 @@
         },
         {
           "match": "SIE-A31\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A31",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A31"
-          }
+          "device": "Siemens A31"
         },
         {
           "match": "SIE-A31a\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A31A",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A31A"
-          }
+          "device": "Siemens A31A"
         },
         {
           "match": "SIE-A60\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A60",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A60"
-          }
+          "device": "Siemens A60"
         },
         {
           "match": "SIE-A62\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A62",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A62"
-          }
+          "device": "Siemens A62"
         },
         {
           "match": "SIE-A65\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A65",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A65"
-          }
+          "device": "Siemens A65"
         },
         {
           "match": "SIE-A65C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A65C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A65C"
-          }
+          "device": "Siemens A65C"
         },
         {
           "match": "SIE-A75\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A75",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A75"
-          }
+          "device": "Siemens A75"
         },
         {
           "match": "SIE-A76\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A76",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "A76"
-          }
+          "device": "Siemens A76"
         },
         {
           "match": "SIE-AF51\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AF51",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "AF51"
-          }
+          "device": "Siemens AF51"
         },
         {
           "match": "SIE-AL21\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AL21",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "AL21"
-          }
+          "device": "Siemens AL21"
         },
         {
           "match": "SIE-AX72\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AX72",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "AX72"
-          }
+          "device": "Siemens AX72"
         },
         {
           "match": "SIE-AX75\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "AX75",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "AX75"
-          }
+          "device": "Siemens AX75"
         },
         {
           "match": "SIE-C110\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C110",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "C110"
-          }
+          "device": "Siemens C110"
         },
         {
           "match": "SIE-C60\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C60",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "C60"
-          }
+          "device": "Siemens C60"
         },
         {
           "match": "SIE-C60A\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C60A",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "C60A"
-          }
+          "device": "Siemens C60A"
         },
         {
           "match": "SIE-C61\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C61",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "C61"
-          }
+          "device": "Siemens C61"
         },
         {
           "match": "SIE-C75\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C75",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "C75"
-          }
+          "device": "Siemens C75"
         },
         {
           "match": "SIE-CF62\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CF62",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "CF62"
-          }
+          "device": "Siemens CF62"
         },
         {
           "match": "SIE-CF6C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CF6C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "CF6C"
-          }
+          "device": "Siemens CF6C"
         },
         {
           "match": "SIE-CX65 UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CX65",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "CX65"
-          }
+          "device": "Siemens CX65"
         },
         {
           "match": "SIE-CX75\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "CX75",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "CX75"
-          }
+          "device": "Siemens CX75"
         },
         {
-          "match": "SIE-M55-XP\/91 * UP.Browser\/6.1*"
+          "match": "SIE-M55-XP\/91 * UP.Browser\/6.1*",
+          "device": "Siemens M55-XP"
         },
         {
           "match": "SIE-M55\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M55",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M55"
-          }
+          "device": "Siemens M55"
         },
         {
           "match": "SIE-M55\/1* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M55",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M55"
-          }
+          "device": "Siemens M55"
         },
         {
           "match": "SIE-M55C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M55C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M55C"
-          }
+          "device": "Siemens M55C"
         },
         {
           "match": "SIE-M55Z\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M55Z",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M55Z"
-          }
+          "device": "Siemens M55Z"
         },
         {
           "match": "SIE-M55e\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M55e",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M55e"
-          }
+          "device": "Siemens M55e"
         },
         {
           "match": "SIE-M56\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "M56",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "M56"
-          }
+          "device": "Siemens M56"
         },
         {
           "match": "SIE-MC60\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MC60",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "MC60"
-          }
+          "device": "Siemens MC60"
         },
         {
           "match": "SIE-MC6C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MC6C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "MC6C"
-          }
+          "device": "Siemens MC6C"
         },
         {
           "match": "SIE-ME75\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ME75",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "ME75"
-          }
+          "device": "Siemens ME75"
         },
         {
           "match": "SIE-S55\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S55",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "S55"
-          }
+          "device": "Siemens S55"
         },
         {
           "match": "SIE-S56\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S56",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "S56"
-          }
+          "device": "Siemens S56"
         },
         {
           "match": "SIE-S57\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S57",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "S57"
-          }
+          "device": "Siemens S57"
         },
         {
           "match": "SIE-S57C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "S57C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "S57C"
-          }
+          "device": "Siemens S57C"
         },
         {
           "match": "SIE-SL55\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SL55",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "SL55"
-          }
+          "device": "Siemens SL55"
         },
         {
           "match": "SIE-SL56\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SL56",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "SL56"
-          }
+          "device": "Siemens SL56"
         },
         {
           "match": "SIE-SL5C\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SL5C",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "SL5C"
-          }
+          "device": "Siemens SL5C"
         },
         {
           "match": "SIE-ST55\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ST55",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "ST55"
-          }
+          "device": "Siemens ST55"
         },
         {
           "match": "SIE-ST60\/* UP.Browser\/6.1*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "ST60",
-            "Device_Maker": "Siemens",
-            "Device_Brand_Name": "Siemens",
-            "Device_Name": "ST60"
-          }
+          "device": "Siemens ST60"
         },
         {
           "match": "Soutec-SG7610\/1.0 UP.Browser\/6.1*"
