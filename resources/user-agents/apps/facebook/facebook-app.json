@@ -20,7 +20,7 @@
         "isMobileDevice": "true",
         "isTablet": "false",
         "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Smartphone",
         "Device_Code_Name": "iPhone",
         "Device_Name": "iPhone",
         "Device_Maker": "Apple Inc",
@@ -31,7 +31,7 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -110,7 +110,7 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit (KHTML, like Gecko) Mobile ?FB*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
