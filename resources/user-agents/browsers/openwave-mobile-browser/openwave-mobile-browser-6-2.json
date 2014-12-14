@@ -970,399 +970,179 @@
         },
         {
           "match": "SAMSUNG-SGH-E338\/1.0* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E338",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E338"
-          }
+          "device": "Samsung SGH-E338"
         },
         {
           "match": "SAMSUNG-SGH-E340\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E340",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E340"
-          }
+          "device": "Samsung SGH-E340"
         },
         {
           "match": "SAMSUNG-SGH-E350\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E350",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E350"
-          }
+          "device": "Samsung SGH-E350"
         },
         {
           "match": "SAMSUNG-SGH-E350E\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E350E",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E350E"
-          }
+          "device": "Samsung SGH-E350E"
         },
         {
           "match": "SAMSUNG-SGH-E358\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E358",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E358"
-          }
+          "device": "Samsung SGH-E358"
         },
         {
           "match": "SAMSUNG-SGH-E360\/1.0 * EGE\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E360",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E360"
-          }
+          "device": "Samsung SGH-E360"
         },
         {
           "match": "SAMSUNG-SGH-E360\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E360",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E360"
-          }
+          "device": "Samsung SGH-E360"
         },
         {
           "match": "SAMSUNG-SGH-E368\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E368",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E368"
-          }
+          "device": "Samsung SGH-E368"
         },
         {
           "match": "SAMSUNG-SGH-E370-VODA\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E370",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E370"
-          }
+          "device": "Samsung SGH-E370"
         },
         {
           "match": "SAMSUNG-SGH-E370\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E370",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E370"
-          }
+          "device": "Samsung SGH-E370"
         },
         {
           "match": "SAMSUNG-SGH-E500\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E500"
-          }
+          "device": "Samsung SGH-E500"
         },
         {
           "match": "SAMSUNG-SGH-E630C\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E630C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E630C"
-          }
+          "device": "Samsung SGH-E630C"
         },
         {
           "match": "SAMSUNG-SGH-E635\/E635UVEF3 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E635",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E635"
-          }
+          "device": "Samsung SGH-E635"
         },
         {
           "match": "SAMSUNG-SGH-E638\/1.0* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E638",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E638"
-          }
+          "device": "Samsung SGH-E638"
         },
         {
           "match": "SAMSUNG-SGH-E640\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E640",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E640"
-          }
+          "device": "Samsung SGH-E640"
         },
         {
           "match": "SAMSUNG-SGH-E648\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E648",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E648"
-          }
+          "device": "Samsung SGH-E648"
         },
         {
           "match": "SAMSUNG-SGH-E690\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E690",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E690"
-          }
+          "device": "Samsung SGH-E690"
         },
         {
           "match": "SAMSUNG-SGH-E700\/BSI UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E700"
-          }
+          "device": "Samsung SGH-E700"
         },
         {
           "match": "SAMSUNG-SGH-E730\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E730",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E730"
-          }
+          "device": "Samsung SGH-E730"
         },
         {
           "match": "SAMSUNG-SGH-E736\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E736",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E736"
-          }
+          "device": "Samsung SGH-E736"
         },
         {
           "match": "SAMSUNG-SGH-E738\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E738",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E738"
-          }
+          "device": "Samsung SGH-E738"
         },
         {
           "match": "SAMSUNG-SGH-E758\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E758",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E758"
-          }
+          "device": "Samsung SGH-E758"
         },
         {
           "match": "SAMSUNG-SGH-E760\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E760",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E760"
-          }
+          "device": "Samsung SGH-E760"
         },
         {
           "match": "SAMSUNG-SGH-E780\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E780",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E780"
-          }
+          "device": "Samsung SGH-E780"
         },
         {
           "match": "SAMSUNG-SGH-E800\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E800",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E800"
-          }
+          "device": "Samsung SGH-E800"
         },
         {
           "match": "SAMSUNG-SGH-E800C\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E800C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E800C"
-          }
+          "device": "Samsung SGH-E800C"
         },
         {
           "match": "SAMSUNG-SGH-E808\/1.0* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E808",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E808"
-          }
+          "device": "Samsung SGH-E808"
         },
         {
           "match": "SAMSUNG-SGH-E820\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E820",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E820"
-          }
+          "device": "Samsung SGH-E820"
         },
         {
           "match": "SAMSUNG-SGH-E830\/1.0 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-E830",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-E830"
-          }
+          "device": "Samsung SGH-E830"
         },
         {
           "match": "SAMSUNG-SGH-I858\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-I858",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-I858"
-          }
+          "device": "Samsung SGH-I858"
         },
         {
           "match": "SAMSUNG-SGH-J700\/J700BDHE1 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-J700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-J700"
-          }
+          "device": "Samsung SGH-J700"
         },
         {
           "match": "SAMSUNG-SGH-J700i\/J700* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-J700i",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-J700i"
-          }
+          "device": "Samsung SGH-J700i"
         },
         {
           "match": "SAMSUNG-SGH-P200-ORANGE\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-P200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-P200"
-          }
+          "device": "Samsung SGH-P200"
         },
         {
           "match": "SAMSUNG-SGH-T209\/T209UVFD3 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T209",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T209"
-          }
+          "device": "Samsung SGH-T209"
         },
         {
           "match": "SAMSUNG-SGH-T309\/T309UVEI1 UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T309",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T309"
-          }
+          "device": "Samsung SGH-T309"
         },
         {
           "match": "SAMSUNG-SGH-T319\/T319UVFD4 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T319",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T319"
-          }
+          "device": "Samsung SGH-T319"
         },
         {
           "match": "SAMSUNG-SGH-T509\/T509* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T509",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T509"
-          }
+          "device": "Samsung SGH-T509"
         },
         {
           "match": "SAMSUNG-SGH-T578\/1.0\/WAP2.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T578",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T578"
-          }
+          "device": "Samsung SGH-T578"
         },
         {
           "match": "SAMSUNG-SGH-T619\/T619* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T619",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T619"
-          }
+          "device": "Samsung SGH-T619"
         },
         {
           "match": "SAMSUNG-SGH-T739\/T739* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T739",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T739"
-          }
+          "device": "Samsung SGH-T739"
         },
         {
           "match": "SAMSUNG-SGH-T809\/T809* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-T809",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-T809"
-          }
+          "device": "Samsung SGH-T809"
         },
         {
           "match": "SAMSUNG-SGH-X495\/X495* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-X495",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-X495"
-          }
+          "device": "Samsung SGH-X495"
         },
         {
           "match": "SAMSUNG-SGH-X496\/X496* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-X496",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-X496"
-          }
+          "device": "Samsung SGH-X496"
         },
         {
           "match": "SAMSUNG-SGH-X497\/X497* UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-X497",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-X497"
-          }
+          "device": "Samsung SGH-X497"
         },
         {
           "match": "SAMSUNG-SGH-X620\/1.0 * UP.Browser\/6.2*",
@@ -1370,12 +1150,7 @@
         },
         {
           "match": "SAMSUNG-SGH-X620C\/1.0 * UP.Browser\/6.2*",
-          "properties": {
-            "Device_Code_Name": "SGH-X620C",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-X620C"
-          }
+          "device": "Samsung SGH-X620C"
         },
         {
           "match": "SAMSUNG-SGH-X628\/1.0\/WAP2.0 * UP.Browser\/6.2*",
@@ -1663,7 +1438,8 @@
           "match": "Vodafone\/1.0\/SAMSUNG-B2100\/* UP.Browser\/6.2*"
         },
         {
-          "match": "Vodafone\/1.0\/SAMSUNG-SGH-J700?\/*\/1.0 * UP.Browser\/6.2*"
+          "match": "Vodafone\/1.0\/SAMSUNG-SGH-J700?\/*\/1.0 * UP.Browser\/6.2*",
+          "device": "Samsung SGH-J700"
         },
         {
           "match": "Vodafone\/1.0\/SamsungC3050\/C3050* Browser\/Openwave\/6.2* UP.Browser\/6.2*"

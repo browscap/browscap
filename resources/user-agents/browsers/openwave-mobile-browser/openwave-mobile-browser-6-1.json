@@ -197,13 +197,16 @@
           "match": "SAMSUNG-SGH-E108\/T2* UP.Browser\/6.1*"
         },
         {
-          "match": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/6.1*",
+          "device": "Samsung SGH-E700"
         },
         {
-          "match": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/6.1*",
+          "device": "Samsung SGH-E700"
         },
         {
-          "match": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/6.1*",
+          "device": "Samsung SGH-E700"
         },
         {
           "match": "SAMSUNG-SGH-E700A\/BSI UP.Browser\/6.1*"
