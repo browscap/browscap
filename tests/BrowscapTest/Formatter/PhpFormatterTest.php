@@ -85,12 +85,12 @@ class PhpFormatterTest extends \PHPUnit_Framework_TestCase
             ['MinorVer', 'test', 'test'],
             ['CssVersion', 'test', 'test'],
             ['AolVersion', 'test', 'test'],
-            ['Alpha', 'true', 'true'],
-            ['Beta', 'false', 'false'],
+            ['Alpha', 'true', '"true"'],
+            ['Beta', 'false', '"false"'],
             ['Win16', 'test', ''],
-            ['Browser_Type', 'Browser', 'Browser'],
-            ['Device_Type', 'Tablet', 'Tablet'],
-            ['Device_Pointing_Method', 'mouse', 'mouse'],
+            ['Browser_Type', 'Browser', '"Browser"'],
+            ['Device_Type', 'Tablet', '"Tablet"'],
+            ['Device_Pointing_Method', 'mouse', '"mouse"'],
         ];
     }
 

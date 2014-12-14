@@ -300,7 +300,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Galaxy S4',
             'Device_Maker' => 'Samsung',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-I9505',
             'Device_Brand_Name' => 'Samsung',
