@@ -34,7 +34,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -61,7 +61,11 @@
             "Device_Code_Name": "GT-I9000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S"
+            "Device_Name": "Galaxy S",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"

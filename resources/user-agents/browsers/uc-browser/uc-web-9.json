@@ -100,11 +100,13 @@
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
+            "Device_Name": "Galaxy S III",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -179,6 +181,9 @@
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "isTablet": "false",
             "Device_Code_Name": "GT-S5360",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -249,7 +254,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"

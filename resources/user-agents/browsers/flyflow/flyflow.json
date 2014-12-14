@@ -35,7 +35,9 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -46,11 +48,13 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "engine": "WebKit",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S III",
-            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

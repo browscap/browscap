@@ -71,7 +71,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -88,7 +88,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S4",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true"
           },

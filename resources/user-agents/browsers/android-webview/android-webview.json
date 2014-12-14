@@ -120,7 +120,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N9005* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "SM-N9005",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -179,7 +180,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -212,22 +213,6 @@
           },
           "platforms": [
             "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_1"
           ]
         },
         {
@@ -598,12 +583,28 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I9000T",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I9000T"
+          },
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S"
+            "Device_Name": "Galaxy S",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -1746,10 +1747,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireHD_A9191 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Code_Name": "A9191",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire HD"
+            "Device_Name": "Desire HD",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1758,10 +1763,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire HD A9191 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Code_Name": "A9191",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire HD"
+            "Device_Name": "Desire HD",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1801,18 +1810,6 @@
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9000T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9000T"
-          },
-          "platforms": [
-            "Android_2_2"
           ]
         },
         {
@@ -1934,7 +1931,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy Ace",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -1949,7 +1946,11 @@
             "Device_Code_Name": "GT-S5830",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace"
+            "Device_Name": "Galaxy Ace",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2320,7 +2321,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -2336,7 +2337,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -2353,7 +2354,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -2369,7 +2370,9 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -2637,10 +2640,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8160 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smarthone",
             "Device_Code_Name": "GT-I8160",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace 2"
+            "Device_Name": "Galaxy Ace 2",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
@@ -2673,10 +2679,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smarthone",
             "Device_Code_Name": "GT-I8190",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III Mini"
+            "Device_Name": "Galaxy S III Mini",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2700,7 +2709,10 @@
             "Device_Code_Name": "GT-I9001",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9001"
+            "Device_Name": "GT-I9001",
+            "isMobileDevice": "true",
+            "Device_Type": "Smarthone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -2760,7 +2772,11 @@
             "Device_Code_Name": "GT-N7000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note"
+            "Device_Name": "Galaxy Note",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2769,10 +2785,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N7100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
+            "Device_Name": "Galaxy Note II",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -2834,6 +2854,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5360 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "isTablet": "false",
             "Device_Code_Name": "GT-S5360",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -3338,6 +3361,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "LT18i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
@@ -3350,6 +3376,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "LT18i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
@@ -5261,7 +5290,11 @@
             "Device_Code_Name": "GT-I9195",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Mini"
+            "Device_Name": "Galaxy S4 Mini",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "JavaApplets": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
@@ -5282,10 +5315,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
+            "Device_Name": "Galaxy S III",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5294,10 +5331,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-i9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
+            "Device_Name": "Galaxy S III",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5309,7 +5350,10 @@
             "Device_Code_Name": "GT-I9305",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III LTE International"
+            "Device_Name": "Galaxy S III LTE International",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5358,7 +5402,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S4",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true"
           },

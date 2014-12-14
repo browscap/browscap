@@ -4164,7 +4164,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Galaxy Note II',
             'Device_Maker' => 'Samsung',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-N7100',
             'Device_Brand_Name' => 'Samsung',

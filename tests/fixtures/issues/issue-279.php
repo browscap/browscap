@@ -302,7 +302,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Desire HD',
             'Device_Maker' => 'HTC',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A9191',
             'Device_Brand_Name' => 'HTC',
