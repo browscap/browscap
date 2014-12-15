@@ -1,7 +1,7 @@
 {
   "division": "KDDI",
-  "sortIndex": 1730,
-  "lite": true,
+  "sortIndex": 9730,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "KDDI",
