@@ -94,17 +94,9 @@
         },
         {
           "match": "MicromaxX650 ASTRO36_TD\/* MAUI\/* Release\/* Browser\/Opera *\/MIDP* Opera\/9.80 (*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Device",
-            "isMobileDevice": "true",
-            "IsTablet": "false",
-            "Device_Name": "X650",
-            "Device_Maker": "Micromax",
-            "Device_Code_Name": "X650",
-            "Device_Brand_Name": "Micromax"
-          },
+          "device": "Micromax X650",
           "platforms": [
-            "JAVA"
+            "Android"
           ]
         }
       ]

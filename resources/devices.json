@@ -12312,6 +12312,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei G7300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G7300",
+        "Device_Name": "G7300",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15041,6 +15053,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A40",
         "Device_Name": "A40",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax X650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X650",
+        "Device_Name": "X650",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
         "Device_Pointing_Method": "touchscreen",
