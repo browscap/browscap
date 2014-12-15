@@ -20,7 +20,7 @@ namespace BrowscapTest;
 use Browscap\Generator\BuildFullFileOnlyGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use phpbrowscap\Browscap;
+use BrowscapPHP\Browscap;
 use WurflCache\Adapter\Memory;
 use WurflCache\Adapter\File;
 
@@ -34,7 +34,7 @@ use WurflCache\Adapter\File;
 class UserAgentsTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \phpbrowscap\Browscap
+     * @var \BrowscapPHP\Browscap
      */
     private static $browscap;
 
@@ -66,7 +66,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         //$cache = new File($buildFolder);
         $cache = new Memory();
-        // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
+        // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
         self::$browscap = new Browscap();
         self::$browscap
             ->setCache($cache)

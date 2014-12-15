@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-47-phpbrowscap-8' => [
+    'issue-47-BrowscapPHP-8' => [
         'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
-    'issue-47-phpbrowscap-7' => [
+    'issue-47-BrowscapPHP-7' => [
         'Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0',
         [
             'Browser' => 'Firefox',
@@ -57,7 +57,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
-    'issue-47-phpbrowscap-4' => [
+    'issue-47-BrowscapPHP-4' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -86,7 +86,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
-    'issue-47-phpbrowscap-3' => [
+    'issue-47-BrowscapPHP-3' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
         [
             'Browser' => 'IE',
@@ -115,7 +115,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
-    'issue-47-phpbrowscap-2' => [
+    'issue-47-BrowscapPHP-2' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0',
         [
             'Browser' => 'Firefox',
@@ -144,7 +144,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
-    'issue-47-phpbrowscap-1' => [
+    'issue-47-BrowscapPHP-1' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0 FirePHP/0.7.4',
         [
             'Browser' => 'Firefox',

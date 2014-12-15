@@ -57,7 +57,7 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setLogger($mockLogger));
 
-        $mockBrowscap = $this->getMock('\phpbrowscap\Browscap', array(), array(), '', false);
+        $mockBrowscap = $this->getMock('\BrowscapPHP\Browscap', array(), array(), '', false);
 
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
