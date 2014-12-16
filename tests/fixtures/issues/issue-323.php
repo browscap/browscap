@@ -216,7 +216,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Sensation',
             'Device_Maker' => 'HTC',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Z710e',
             'Device_Brand_Name' => 'HTC',

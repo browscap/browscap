@@ -108,11 +108,13 @@
           "engine": "WebKit",
           "properties": {
             "Browser_Bits": "32",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P970",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Black"
+            "Device_Name": "Optimus Black",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"

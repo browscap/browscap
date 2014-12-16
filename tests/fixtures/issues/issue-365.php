@@ -301,7 +301,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Desire S',
             'Device_Maker' => 'HTC',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'S510e',
             'Device_Brand_Name' => 'HTC',

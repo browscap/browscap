@@ -2681,7 +2681,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Desire',
             'Device_Maker' => 'HTC',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Desire',
             'Device_Brand_Name' => 'HTC',

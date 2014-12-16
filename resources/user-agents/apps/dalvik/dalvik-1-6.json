@@ -42,10 +42,14 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
           "properties": {
+            "isTablet": "false",
             "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus T2"
+            "Device_Brand_Name": "Elson",
+            "Device_Name": "Cynus T2",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -57,7 +61,10 @@
             "Device_Code_Name": "1000C",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C"
+            "Device_Name": "Desire C",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
