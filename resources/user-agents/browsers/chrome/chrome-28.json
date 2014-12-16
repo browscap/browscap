@@ -511,7 +511,6 @@
             "isMobileDevice": "true",
             "Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
-            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
