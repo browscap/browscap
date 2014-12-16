@@ -3203,6 +3203,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S5690* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "isTablet": "false",
             "Device_Code_Name": "GT-S5690",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -6006,6 +6009,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One S* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -6030,6 +6036,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#One S* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -6210,6 +6219,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_S* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "PJ401",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
