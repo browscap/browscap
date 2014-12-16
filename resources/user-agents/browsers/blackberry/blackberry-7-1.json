@@ -126,6 +126,9 @@
           "properties": {
             "Device_Code_Name": "BlackBerry Bold Touch 9900",
             "Device_Name": "Dakota",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           }
         },

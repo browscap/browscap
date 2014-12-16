@@ -76,7 +76,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'N8',
             'Device_Maker' => 'Nokia',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Feature Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'N8-00',
             'Device_Brand_Name' => 'Nokia',

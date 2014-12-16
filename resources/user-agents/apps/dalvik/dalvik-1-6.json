@@ -33,7 +33,11 @@
             "Device_Code_Name": "Nexus S",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus S"
+            "Device_Name": "Nexus S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1", "Android_4_2"
@@ -160,13 +164,14 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#D6503 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "D6503",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Z2 LTE"
+            "Device_Name": "Xperia Z2 LTE",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_4"

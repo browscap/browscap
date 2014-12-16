@@ -310,6 +310,40 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "GT-S5670",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Fit",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "MB525",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "DEFY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "WebKit",
           "properties": {

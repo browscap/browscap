@@ -36,12 +36,14 @@
         {
           "match": "Mozilla\/5.0 (X11; Linux*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -50,12 +52,14 @@
         {
           "match": "Mozilla\/5.0 (X11; Linux x86_64*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

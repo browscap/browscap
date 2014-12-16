@@ -326,7 +326,11 @@
             "Device_Code_Name": "E15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8"
+            "Device_Name": "Xperia X8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -374,7 +378,11 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Name": "Xperia X10",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"

@@ -45,7 +45,11 @@
             "Device_Code_Name": "MB525",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "DEFY"
+            "Device_Name": "DEFY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -69,7 +73,11 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Name": "Xperia X10",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"

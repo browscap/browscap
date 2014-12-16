@@ -385,7 +385,11 @@
             "Device_Code_Name": "Blade",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Name": "Blade"
+            "Device_Name": "Blade",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -429,7 +433,11 @@
             "Device_Code_Name": "A8181",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
+            "Device_Name": "Desire",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -441,7 +449,11 @@
             "Device_Code_Name": "A8181",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
+            "Device_Name": "Desire",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -739,7 +751,11 @@
             "Device_Code_Name": "A510",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
+            "Device_Name": "Wildfire S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -811,7 +827,11 @@
             "Device_Code_Name": "A3333",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire"
+            "Device_Name": "Wildfire",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -899,7 +919,11 @@
             "Device_Code_Name": "MB525",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "DEFY"
+            "Device_Name": "DEFY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -911,7 +935,11 @@
             "Device_Code_Name": "MB525",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "DEFY"
+            "Device_Name": "DEFY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -957,7 +985,11 @@
             "Device_Code_Name": "XT615",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT615"
+            "Device_Name": "XT615",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1271,7 +1303,11 @@
             "Device_Code_Name": "E15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8"
+            "Device_Name": "Xperia X8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -1283,7 +1319,11 @@
             "Device_Code_Name": "E15iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8"
+            "Device_Name": "Xperia X8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -1331,7 +1371,11 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Name": "Xperia X10",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1545,7 +1589,11 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Name": "Xperia X10",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1579,7 +1627,11 @@
             "Device_Code_Name": "XT615",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT615"
+            "Device_Name": "XT615",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1603,7 +1655,11 @@
             "Device_Code_Name": "Blade",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Name": "Blade"
+            "Device_Name": "Blade",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -1864,7 +1920,11 @@
             "Device_Code_Name": "GT-S5570I",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Pop Plus"
+            "Device_Name": "Galaxy Pop Plus",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1876,7 +1936,11 @@
             "Device_Code_Name": "GT-S5570",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini"
+            "Device_Name": "Galaxy Mini",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1903,7 +1967,11 @@
             "Device_Code_Name": "GT-S5670",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Fit"
+            "Device_Name": "Galaxy Fit",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1959,7 +2027,11 @@
             "Device_Code_Name": "S710E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Incredible S"
+            "Device_Name": "Incredible S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -2077,7 +2149,11 @@
             "Device_Code_Name": "P920",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 3D"
+            "Device_Name": "Optimus 3D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -2454,7 +2530,11 @@
             "Device_Code_Name": "OT-991",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 991"
+            "Device_Name": "One Touch 991",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2466,7 +2546,11 @@
             "Device_Code_Name": "OT-991D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 991 Play"
+            "Device_Name": "One Touch 991 Play",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2478,7 +2562,11 @@
             "Device_Code_Name": "OT-997D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 997D"
+            "Device_Name": "One Touch 997D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -2538,7 +2626,11 @@
             "Device_Code_Name": "Lutea 2",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "BASE",
-            "Device_Name": "Lutea 2"
+            "Device_Name": "Lutea 2",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2559,7 +2651,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2573,7 +2665,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2587,7 +2679,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2601,7 +2693,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2751,7 +2843,11 @@
             "Device_Code_Name": "GT-I9070P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Advance"
+            "Device_Name": "Galaxy S Advance",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
@@ -2763,7 +2859,11 @@
             "Device_Code_Name": "GT-I9103",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
+            "Device_Name": "Galaxy S II",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2775,7 +2875,7 @@
             "Device_Code_Name": "GT-I9105P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC",
+            "Device_Name": "Galaxy S II Plus NFC",
             "isMobileDevice": "true",
             "Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
@@ -2893,7 +2993,11 @@
             "Device_Code_Name": "GT-S5363",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5363"
+            "Device_Name": "GT-S5363",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2932,7 +3036,11 @@
             "Device_Code_Name": "GT-S5839i",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace"
+            "Device_Name": "Galaxy Ace",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2986,7 +3094,11 @@
             "Device_Code_Name": "GT-S6802",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace Duos"
+            "Device_Name": "Galaxy Ace Duos",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3013,7 +3125,11 @@
             "Device_Code_Name": "Desire HD",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire HD"
+            "Device_Name": "Desire HD",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3094,7 +3210,11 @@
             "Device_Code_Name": "A310e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Explorer"
+            "Device_Name": "Explorer",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3106,7 +3226,11 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3130,7 +3254,11 @@
             "Device_Code_Name": "A510",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
+            "Device_Name": "Wildfire S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3164,22 +3292,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "Desire S",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire S",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC?DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "S510e",
             "Device_Maker": "HTC",
@@ -3191,6 +3304,21 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC?DesireS* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "Desire S",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire S",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -3214,7 +3342,11 @@
             "Device_Code_Name": "A7272",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire Z"
+            "Device_Name": "Desire Z",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3226,7 +3358,11 @@
             "Device_Code_Name": "A310e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Explorer"
+            "Device_Name": "Explorer",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3238,7 +3374,11 @@
             "Device_Code_Name": "S710E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Incredible S"
+            "Device_Name": "Incredible S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3250,7 +3390,11 @@
             "Device_Code_Name": "S510B",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Rhyme"
+            "Device_Name": "Rhyme",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3262,7 +3406,11 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3274,7 +3422,11 @@
             "Device_Code_Name": "A510",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Wildfire S"
+            "Device_Name": "Wildfire S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3337,7 +3489,11 @@
             "Device_Code_Name": "U8666E",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend Y201 Pro"
+            "Device_Name": "Ascend Y201 Pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3373,7 +3529,11 @@
             "Device_Code_Name": "S710E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Incredible S"
+            "Device_Name": "Incredible S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3469,7 +3629,11 @@
             "Device_Code_Name": "LT22i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia P LT22i"
+            "Device_Name": "Xperia P",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3481,7 +3645,11 @@
             "Device_Code_Name": "LT22i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia P"
+            "Device_Name": "Xperia P",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3538,7 +3706,11 @@
             "Device_Code_Name": "MB526",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB526"
+            "Device_Name": "MB526",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3550,7 +3722,11 @@
             "Device_Code_Name": "MB526",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "MB526"
+            "Device_Name": "MB526",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3559,12 +3735,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MEDION LIFE P4310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "LifeTab P4310",
+            "Device_Code_Name": "Life P4310",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab P4310"
+            "Device_Name": "Life P4310",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3650,7 +3828,11 @@
             "Device_Code_Name": "XT910",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "RAZR XT910 Spider"
+            "Device_Name": "RAZR XT910 Spider",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3662,7 +3844,11 @@
             "Device_Code_Name": "XT910",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "RAZR XT910 Spider"
+            "Device_Name": "RAZR XT910 Spider",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3674,7 +3860,11 @@
             "Device_Code_Name": "MT15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Neo"
+            "Device_Name": "Xperia Neo",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3686,7 +3876,11 @@
             "Device_Code_Name": "MT15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Neo"
+            "Device_Name": "Xperia Neo",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3698,7 +3892,11 @@
             "Device_Code_Name": "MT15iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Neo"
+            "Device_Name": "Xperia Neo",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3752,7 +3950,11 @@
             "Device_Code_Name": "Nexus S",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus S"
+            "Device_Name": "Nexus S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3815,7 +4017,11 @@
             "Device_Code_Name": "R800i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia PLAY"
+            "Device_Name": "Xperia PLAY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3827,7 +4033,11 @@
             "Device_Code_Name": "R800i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia PLAY"
+            "Device_Name": "Xperia PLAY",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -3890,7 +4100,11 @@
             "Device_Code_Name": "SK17i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Mini Pro"
+            "Device_Name": "Xperia Mini Pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3902,7 +4116,11 @@
             "Device_Code_Name": "SK17i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Mini Pro"
+            "Device_Name": "Xperia Mini Pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3980,7 +4198,11 @@
             "Device_Code_Name": "ST18iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Urushi"
+            "Device_Name": "Urushi",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4034,7 +4256,11 @@
             "Device_Code_Name": "MK16i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Pro"
+            "Device_Name": "Xperia Pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4046,7 +4272,11 @@
             "Device_Code_Name": "MK16i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Pro"
+            "Device_Name": "Xperia Pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -4058,7 +4288,11 @@
             "Device_Code_Name": "MT11i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Neo V"
+            "Device_Name": "Xperia Neo V",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4082,7 +4316,11 @@
             "Device_Code_Name": "ST15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Mini"
+            "Device_Name": "Xperia Mini",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4136,7 +4374,11 @@
             "Device_Code_Name": "ST27i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Go"
+            "Device_Name": "Xperia Go",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -4148,7 +4390,11 @@
             "Device_Code_Name": "ST27i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Go"
+            "Device_Name": "Xperia Go",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -4184,7 +4430,11 @@
             "Device_Code_Name": "S41HW",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Pocket WiFi S II for emobile"
+            "Device_Name": "Pocket WiFi S II for emobile",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -4223,7 +4473,11 @@
             "Device_Code_Name": "U8860",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Honor"
+            "Device_Name": "Honor",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -5043,7 +5297,11 @@
             "Device_Code_Name": "C6903",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Z1"
+            "Device_Name": "Xperia Z1",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_4"
@@ -5055,7 +5313,11 @@
             "Device_Code_Name": "P710",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L7 II"
+            "Device_Name": "Optimus L7 II",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -5067,7 +5329,11 @@
             "Device_Code_Name": "E460",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L5 II"
+            "Device_Name": "Optimus L5 II",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -5284,7 +5550,11 @@
             "Device_Code_Name": "C6603",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Z"
+            "Device_Name": "Xperia Z",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -5295,8 +5565,12 @@
           "properties": {
             "Device_Code_Name": "Cynus T1",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus T1"
+            "Device_Brand_Name": "Elson",
+            "Device_Name": "Cynus T1",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -5324,7 +5598,11 @@
             "Device_Code_Name": "XT912B",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "Droid Razr 4G"
+            "Device_Name": "Droid Razr 4G",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -5348,7 +5626,11 @@
             "Device_Code_Name": "X515m",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "EVO 3D"
+            "Device_Name": "EVO 3D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -5360,7 +5642,11 @@
             "Device_Code_Name": "GT-I8730",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Express"
+            "Device_Name": "Galaxy Express",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5403,7 +5689,7 @@
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5412,7 +5698,11 @@
             "Device_Code_Name": "GT-I9205",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9205"
+            "Device_Name": "Galaxy Mega 6.3",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5550,7 +5840,11 @@
             "Device_Code_Name": "GT-N7105",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
+            "Device_Name": "Galaxy Note II",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5727,12 +6021,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7710 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7710",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Xcover 2"
+            "Device_Name": "Galaxy Xcover 2",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5744,7 +6040,11 @@
             "Device_Code_Name": "T328E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire X"
+            "Device_Name": "Desire X",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5756,7 +6056,10 @@
             "Device_Code_Name": "Desire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
+            "Device_Name": "Desire",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -5792,7 +6095,11 @@
             "Device_Code_Name": "X515m",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "EVO 3D"
+            "Device_Name": "EVO 3D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -5918,7 +6225,11 @@
             "Device_Code_Name": "PM63100",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One X+"
+            "Device_Name": "One X+",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5930,7 +6241,11 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -5942,7 +6257,11 @@
             "Device_Code_Name": "X515m",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "EVO 3D"
+            "Device_Name": "EVO 3D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -5981,7 +6300,11 @@
             "Device_Code_Name": "T328E",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire X"
+            "Device_Name": "Desire X",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6020,7 +6343,11 @@
             "Device_Code_Name": "PM63100",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One X+"
+            "Device_Name": "One X+",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6116,7 +6443,11 @@
             "Device_Code_Name": "One Mini",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One Mini"
+            "Device_Name": "One Mini",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -6128,7 +6459,11 @@
             "Device_Code_Name": "M8",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One"
+            "Device_Name": "One M8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -6152,10 +6487,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_SensationXE_Beats Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "Z710",
+            "Device_Code_Name": "Sensation XE Beats Z715e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
+            "Device_Name": "Sensation",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -6212,7 +6551,11 @@
             "Device_Code_Name": "G510",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G510"
+            "Device_Name": "Ascend G510",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6362,7 +6705,11 @@
             "Device_Code_Name": "E975",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "E975"
+            "Device_Name": "Optimus G",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6413,7 +6760,11 @@
             "Device_Code_Name": "P760",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L9"
+            "Device_Name": "Optimus L9",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -6506,7 +6857,11 @@
             "Device_Code_Name": "LT28h",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Ion"
+            "Device_Name": "Xperia Ion",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6518,7 +6873,11 @@
             "Device_Code_Name": "LT28h",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Ion"
+            "Device_Name": "Xperia Ion",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6530,7 +6889,11 @@
             "Device_Code_Name": "LT30p",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia T"
+            "Device_Name": "Xperia T",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -6542,7 +6905,11 @@
             "Device_Code_Name": "LT30p",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia T"
+            "Device_Name": "Xperia T",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -6835,7 +7202,11 @@
             "Device_Code_Name": "SPH-D710",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II Epic 4G Touch"
+            "Device_Name": "Galaxy S II Epic 4G Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -6847,7 +7218,11 @@
             "Device_Code_Name": "SPH-D710BST",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II Epic 4G Touch"
+            "Device_Name": "Galaxy S II Epic 4G Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -6928,7 +7303,11 @@
             "Device_Code_Name": "ST23i",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia miro"
+            "Device_Name": "Xperia miro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -6940,7 +7319,11 @@
             "Device_Code_Name": "ST23i",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia miro"
+            "Device_Name": "Xperia miro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -7011,7 +7394,11 @@
             "Device_Code_Name": "C1505",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia E"
+            "Device_Name": "Xperia E",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7023,7 +7410,11 @@
             "Device_Code_Name": "C1505",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia E"
+            "Device_Name": "Xperia E",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7035,7 +7426,11 @@
             "Device_Code_Name": "ST26i",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia J"
+            "Device_Name": "Xperia J",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7047,7 +7442,11 @@
             "Device_Code_Name": "ST26i",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia J"
+            "Device_Name": "Xperia J",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7533,7 +7932,11 @@
             "Device_Code_Name": "ST26i",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia J"
+            "Device_Name": "Xperia J",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7627,7 +8030,11 @@
             "Device_Code_Name": "P6-U06",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend P6"
+            "Device_Name": "Ascend P6",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2", "Android_4_3"
@@ -7776,12 +8183,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D802 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "D802",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "G2"
+            "Device_Name": "G2",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
@@ -7836,7 +8245,7 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "MD 98488",
+            "Device_Code_Name": "Lifetab E7312",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
             "Device_Name": "Lifetab E7312"
@@ -7848,10 +8257,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "SCH-I535",
+            "Device_Code_Name": "SCH-I535 4G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III 4G"
+            "Device_Name": "Galaxy S III 4G CDMA",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
@@ -7890,7 +8303,7 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "MD 98282",
+            "Device_Code_Name": "Lifetab E7316",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
             "Device_Name": "Lifetab E7316"
@@ -7948,7 +8361,11 @@
             "Device_Code_Name": "GT-S6310N",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Young"
+            "Device_Name": "Galaxy Young",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -7960,7 +8377,11 @@
             "Device_Code_Name": "Cynus F3",
             "Device_Maker": "Mobistel",
             "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus F3"
+            "Device_Name": "Cynus F3",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -7972,7 +8393,11 @@
             "Device_Code_Name": "Cynus T5",
             "Device_Maker": "Mobistel",
             "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus T5"
+            "Device_Name": "Cynus T5",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"
@@ -7984,7 +8409,11 @@
             "Device_Code_Name": "GT-S5301",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Pocket Plus"
+            "Device_Name": "Galaxy Pocket Plus",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
@@ -8083,13 +8512,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Sprint APA9292KT Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "9292",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "EVO 4G"
+            "Device_Name": "EVO 4G",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -8100,7 +8530,7 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A3-A10",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -8158,13 +8588,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI G525-U00 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "G525-U00",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G525-U00"
+            "Device_Name": "Ascend G525-U00",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -8173,13 +8604,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI Y530-U00 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Y530-U00",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend Y530"
+            "Device_Name": "Ascend Y530",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_3"
@@ -8499,13 +8931,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9506* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9506",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 LTE+"
+            "Device_Name": "Galaxy S4 LTE+",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
@@ -8529,13 +8962,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N7505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N7505",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Note 3 Neo Duos"
+            "Device_Name": "Note 3 Neo Duos",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_3"
@@ -8544,15 +8978,17 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9295",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Active"
+            "Device_Name": "Galaxy S4 Active",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
-            "Android_4_2", "Android_4_3"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -8560,11 +8996,12 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "GT-I9515",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Value Edition"
+            "Device_Name": "Galaxy S4 Value Edition",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_4"
@@ -8580,6 +9017,96 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S5 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9301I Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "GT-I9301I",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III Neo+"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G800F Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "SM-G800F",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S5 Mini"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T535 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "SM-T535",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab 4 10.1"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S785X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "Lifetab S785X",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Lifetab S785X"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S1033X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "Lifetab S1033X",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Lifetab S1033X"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T805 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "SM-T805",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab S 10.5 LTE"
           },
           "platforms": [
             "Android_4_4"

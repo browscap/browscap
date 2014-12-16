@@ -71,7 +71,11 @@
             "Device_Code_Name": "T8698",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Mozart"
+            "Device_Name": "7 Mozart",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -83,7 +87,11 @@
             "Device_Code_Name": "T8698",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Mozart"
+            "Device_Name": "7 Mozart",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -107,7 +115,11 @@
             "Device_Code_Name": "Spark",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Trophy"
+            "Device_Name": "7 Trophy",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -119,7 +131,11 @@
             "Device_Code_Name": "T9292",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "HD7"
+            "Device_Name": "HD7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -179,7 +195,11 @@
             "Device_Code_Name": "E900",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 7"
+            "Device_Name": "Optimus 7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -215,7 +235,11 @@
             "Device_Code_Name": "Lumia 610",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 610"
+            "Device_Name": "Lumia 610",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -227,7 +251,11 @@
             "Device_Code_Name": "Lumia 710",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 710"
+            "Device_Name": "Lumia 710",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -254,7 +282,11 @@
             "Device_Code_Name": "Lumia 900",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 900"
+            "Device_Name": "Lumia 900",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -266,7 +298,11 @@
             "Device_Code_Name": "Lumia 925",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925"
+            "Device_Name": "Lumia 925",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -278,7 +314,11 @@
             "Device_Code_Name": "GT-I8700",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Omnia 7"
+            "Device_Name": "Omnia 7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"

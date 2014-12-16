@@ -44,6 +44,9 @@
           "platforms": [
             "Linux"
           ]
+        },
+        {
+          "match": "Mozilla\/* (PLAYSTATION*)"
         }
       ]
     },
@@ -83,7 +86,7 @@
       ]
     },
     {
-      "userAgent": "Sony PS4",
+      "userAgent": "Playstation Browser",
       "platform": "CellOS",
       "engine": "WebKit",
       "properties": {
@@ -92,55 +95,44 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Comment": "Playstation 4",
+        "Comment": "Playstation Browser",
         "isMobileDevice": "false",
-        "Browser": "Sony PS4",
+        "Browser": "Playstation Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 4",
-        "Device_Name": "Playstation 4",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "TV Device"
+        "Frames": "false"
       },
       "children": [
         {
-          "match": "Mozilla\/* (PlayStation 4*"
-        }
-      ]
-    },
-    {
-      "userAgent": "Sony PS3",
-      "platform": "CellOS",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Comment": "Playstation 3",
-        "isMobileDevice": "false",
-        "Browser": "Sony PS3",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Code_Name": "Playstation 3",
-        "Device_Name": "Playstation 3",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "TV Device"
-      },
-      "children": [
+          "match": "Mozilla\/* (PlayStation 4*",
+          "properties": {
+            "Device_Code_Name": "Playstation 4",
+            "Device_Name": "Playstation 4",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "TV Device"
+          }
+        },
         {
           "match": "Mozilla\/* (PLAYSTATION 3*) AppleWebKit\/*",
-          "engine": "WebKit"
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "TV Device"
+          }
         },
         {
-          "match": "Mozilla\/* (PLAYSTATION 3*"
-        },
-        {
-          "match": "Mozilla\/* (PLAYSTATION*)"
+          "match": "Mozilla\/* (PLAYSTATION 3*",
+          "properties": {
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "TV Device"
+          }
         }
       ]
     }
