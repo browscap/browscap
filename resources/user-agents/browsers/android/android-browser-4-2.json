@@ -208,6 +208,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab 4 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "Smart Tab 4",
+            "Device_Maker": "Vodafone",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Name": "Smart Tab 4",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "isMobileDevice": "true",

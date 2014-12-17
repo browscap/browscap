@@ -180,13 +180,13 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HUAWEI G700-U10 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G700",
+            "Device_Code_Name": "G700-U10",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G700"
+            "Device_Name": "Ascend G700",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"

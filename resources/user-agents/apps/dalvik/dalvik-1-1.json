@@ -61,7 +61,10 @@
             "Device_Code_Name": "Milestone",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "Milestone"
+            "Device_Name": "Milestone",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"

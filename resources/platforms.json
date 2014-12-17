@@ -1920,6 +1920,13 @@
         "Platform_Version": "2.3"
       }
     },
+    "Android_2_3_F": {
+      "match": "*Android?2.30*Linux*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
     "Android_3_0": {
       "match": "*Linux*Android?3.0*",
       "inherits": "Android",
@@ -2077,6 +2084,13 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
+      }
+    },
+    "Android_5_0": {
+      "match": "*Linux*Android?5.0*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
       }
     },
     "AndroidMobile": {

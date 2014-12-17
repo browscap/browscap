@@ -230,7 +230,10 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
+            "Device_Name": "Xperia X10 Mini",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -302,7 +305,10 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
+            "Device_Name": "Xperia X10 Mini",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -314,7 +320,10 @@
             "Device_Code_Name": "E10iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "E10iv"
+            "Device_Name": "E10iv",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"

@@ -63,7 +63,15 @@
           "match": "DoCoMo\/2.0 N902iS(c100;TB;W24H12)(compatible; moba-crawler; http:\/\/crawler.dena.jp\/)"
         },
         {
-          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*"
+          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*",
+          "properties": {
+            "Device_Code_Name": "N905i",
+            "Device_Maker": "Nec",
+            "Device_Brand_Name": "Nec",
+            "Device_Name": "N905i",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone"
+          }
         },
         {
           "match": "DoCoMo\/2.0 P06B*"

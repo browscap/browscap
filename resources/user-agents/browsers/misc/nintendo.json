@@ -55,10 +55,15 @@
         },
         {
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
+          "engine": "WebKit",
           "properties": {
-            "Browser": "WiiU",
+            "Device_Code_Name": "WiiU",
             "Device_Name": "WiiU",
-            "Device_Code_Name": "WiiU"
+            "isMobileDevice": "true",
+            "Device_Type": "Console",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown"
           }
         },
         {

@@ -103,7 +103,10 @@
             "Device_Code_Name": "T7576",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 pro"
+            "Device_Name": "7 pro",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -183,7 +186,10 @@
             "Device_Code_Name": "X310e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Titan"
+            "Device_Name": "Titan",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
@@ -223,7 +229,10 @@
             "Device_Code_Name": "Lumia 510",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 510"
+            "Device_Name": "Lumia 510",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone75"
