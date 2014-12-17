@@ -342,7 +342,11 @@
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -354,7 +358,11 @@
             "Device_Code_Name": "U20iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"

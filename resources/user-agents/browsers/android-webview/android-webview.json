@@ -407,7 +407,11 @@
             "Device_Code_Name": "DroidX",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Name": "DroidX"
+            "Device_Name": "DroidX",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1347,7 +1351,11 @@
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -1359,7 +1367,11 @@
             "Device_Code_Name": "U20iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -1495,7 +1507,11 @@
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_1"
@@ -2518,7 +2534,11 @@
             "Device_Code_Name": "OT-918D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 918D"
+            "Device_Name": "One Touch 918D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -2578,7 +2598,11 @@
             "Device_Code_Name": "OT-918D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 918D"
+            "Device_Name": "One Touch 918D",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -4156,7 +4180,11 @@
             "Device_Code_Name": "SPX-5 3G",
             "Device_Maker": "Simvalley",
             "Device_Brand_Name": "Simvalley",
-            "Device_Name": "SPX-5 3G"
+            "Device_Name": "SPX-5 3G",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -4244,7 +4272,11 @@
             "Device_Code_Name": "LT15iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia Arc SO-01C for DoCoMo"
+            "Device_Name": "Xperia Arc SO-01C for DoCoMo",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4406,7 +4438,11 @@
             "Device_Code_Name": "WT19i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Live"
+            "Device_Name": "Live",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -4418,7 +4454,11 @@
             "Device_Code_Name": "WT19iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Live"
+            "Device_Name": "Live",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3"
@@ -4515,7 +4555,11 @@
             "Device_Code_Name": "Smart Tab III 10",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Smart Tab III 10"
+            "Device_Name": "Smart Tab III 10",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"
@@ -5285,7 +5329,11 @@
             "Device_Code_Name": "OT-5020D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch MPop"
+            "Device_Name": "One Touch MPop",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1"
@@ -8271,14 +8319,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TP10.1-1500DC-metal Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#TP10.1-1500DC* Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "TP10",
+            "Device_Code_Name": "TP10.1-1500DC",
             "Device_Maker": "I-ONIK",
             "Device_Brand_Name": "I-ONIK",
-            "Device_Name": "TP10"
+            "Device_Name": "TP10.1-1500DC"
           },
           "platforms": [
             "Android_4_1"
