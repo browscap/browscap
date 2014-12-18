@@ -129,7 +129,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
           "properties": {
             "Device_Code_Name": "Lumia 928",
             "Device_Maker": "Nokia",
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML, like Gecko) Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:#MAJORVER#*; IEMobile\/#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML, like Gecko) Chrome*Safari*",
           "platforms": [
             "WinPhone8.1"
           ]
