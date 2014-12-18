@@ -144,7 +144,13 @@
           ]
         },
         {
-          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML, like Gecko) Chrome*Safari*",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone8.1"
           ]

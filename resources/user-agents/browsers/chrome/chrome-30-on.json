@@ -3154,6 +3154,54 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#MediaPad T1 8.0 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "S8-701u",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Name": "MediaPad T1 8.0",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TQ700 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "TQ700",
+            "Device_Maker": "GOCLEVER",
+            "Device_Brand_Name": "GOCLEVER",
+            "Device_Name": "QUANTUM 700",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#INSIGNIA_785_PRO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "INSIGNIA 785 PRO",
+            "Device_Maker": "GOCLEVER",
+            "Device_Brand_Name": "GOCLEVER",
+            "Device_Name": "INSIGNIA 785 PRO",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

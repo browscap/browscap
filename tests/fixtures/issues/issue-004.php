@@ -24,9 +24,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Playstation 3',
             'Device_Brand_Name' => 'Sony',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
 ];
