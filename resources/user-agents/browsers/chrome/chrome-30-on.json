@@ -3314,7 +3314,7 @@
             "Device_Name": "FreeTAB 7001 HD IC"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_4"
           ]
         },
         {
@@ -3519,7 +3519,7 @@
             "Device_Name": "IdeaTab S5000-F"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -3784,6 +3784,95 @@
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
             "Device_Name": "MeMO Pad Smart 10"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T111 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T111",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab 3 7.0 Lite 3G"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMT3277_3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "PMT3277_3G",
+            "Device_Maker": "Prestigio",
+            "Device_Brand_Name": "Prestigio",
+            "Device_Name": "MultiPad Ranger 7.0 3G"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Kiano Elegance 8 3G by Zanetti Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Elegance 8 3G",
+            "Device_Maker": "Kiano",
+            "Device_Brand_Name": "Kiano",
+            "Device_Name": "Elegance 8 3G"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MID802 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID802",
+            "Device_Maker": "Manta",
+            "Device_Brand_Name": "Manta",
+            "Device_Name": "MID802 POWER DUO HD"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMT3287_3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "PMT3287_3G",
+            "Device_Maker": "Prestigio",
+            "Device_Brand_Name": "Prestigio",
+            "Device_Name": "MultiPad Ranger 8.0 3G Wifi"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3500-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A3500-H",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A7-50 A3500 Wi-Fi + 3G"
           },
           "platforms": [
             "Android_4_2", "Android_4_3"
