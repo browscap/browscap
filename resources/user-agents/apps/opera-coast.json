@@ -39,7 +39,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
@@ -55,7 +55,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
@@ -74,7 +74,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
@@ -90,7 +90,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
@@ -106,7 +106,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
@@ -119,7 +119,7 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         }
       ]

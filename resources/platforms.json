@@ -1072,7 +1072,7 @@
       }
     },
     "NT4_x64": {
-      "match": "*Windows NT; Win64; x64*",
+      "match": "*Windows NT; Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1212,7 +1212,7 @@
       }
     },
     "Win2000_x64": {
-      "match": "*Windows NT 5.0;*Win64; x64*",
+      "match": "*Windows NT 5.0;*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1246,7 +1246,7 @@
       }
     },
     "WinXPa_x64": {
-      "match": "*Windows NT 5.1;*Win64; x64*",
+      "match": "*Windows NT 5.1;*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1320,7 +1320,7 @@
       }
     },
     "WinXPb_x64": {
-      "match": "*Windows NT 5.2;*Win64; x64*",
+      "match": "*Windows NT 5.2;*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1388,7 +1388,7 @@
       }
     },
     "Vista_x64": {
-      "match": "*Windows NT 6.0;*Win64; x64*",
+      "match": "*Windows NT 6.0;*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1453,7 +1453,7 @@
       }
     },
     "Win7_x64": {
-      "match": "*Windows NT 6.1*Win64; x64*",
+      "match": "*Windows NT 6.1*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1509,7 +1509,7 @@
       }
     },
     "Win8_x64": {
-      "match": "*Windows NT 6.2*Win64; x64*",
+      "match": "*Windows NT 6.2*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1556,7 +1556,7 @@
       }
     },
     "Win8_1_x64": {
-      "match": "*Windows NT 6.3*Win64; x64*",
+      "match": "*Windows NT 6.3*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1590,7 +1590,7 @@
       }
     },
     "Win10_x64": {
-      "match": "*Windows NT 6.4*Win64; x64*",
+      "match": "*Windows NT 6.4*Win64? x64*",
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
