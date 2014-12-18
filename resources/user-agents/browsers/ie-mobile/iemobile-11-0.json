@@ -129,6 +129,21 @@
           ]
         },
         {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "properties": {
+            "Device_Code_Name": "Lumia 928",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 928",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinPhone8.1"
