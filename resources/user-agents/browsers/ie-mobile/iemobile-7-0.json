@@ -2,6 +2,7 @@
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": ["7.0"],
   "sortIndex": 1719,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
