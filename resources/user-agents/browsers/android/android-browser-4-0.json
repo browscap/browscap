@@ -224,18 +224,6 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari*",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "G9",
@@ -2792,7 +2780,7 @@
           ]
         },
         {
-          "match": "Lenovo-A288t* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "Lenovo-A288t* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Code_Name": "A288t",
             "Device_Maker": "Lenovo",
@@ -2804,7 +2792,7 @@
           ]
         },
         {
-          "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "MALATA I50* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Code_Name": "I50",
             "Device_Maker": "Malata",
@@ -8583,7 +8571,7 @@
           ]
         },
         {
-          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Name": "R813T",
             "Device_Maker": "OPPO",
@@ -8597,7 +8585,7 @@
           ]
         },
         {
-          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Name": "303",
             "Device_Maker": "ultrafone",
@@ -8611,7 +8599,7 @@
           ]
         },
         {
-          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
@@ -8621,7 +8609,7 @@
           ]
         },
         {
-          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Smartphone",
@@ -8637,7 +8625,7 @@
           ]
         },
         {
-          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
           "properties": {
             "Device_Name": "AT-AS40SE",
             "Device_Maker": "Wolgang",
@@ -8651,7 +8639,41 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "Lenovo-A850\/S105#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "properties": {
+            "Device_Name": "A850",
+            "Device_Maker": "Lenovo",
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "A850",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "MT6572_TD\/V1#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "properties": {
+            "Device_Name": "GT 95 3G",
+            "Device_Maker": "Cubot",
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "GT 95 3G",
+            "Device_Brand_Name": "Cubot",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari*",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
