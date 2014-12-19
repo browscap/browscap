@@ -37,7 +37,7 @@
             "Version": "2.6",
             "MajorVer": "2",
             "MinorVer": "6",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -53,7 +53,7 @@
         {
           "match": "WhatsApp\/* iPhone_OS\/* Device\/iPhone*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",

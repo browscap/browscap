@@ -46,7 +46,10 @@
             "Device_Code_Name": "GT-S8500",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
+            "Device_Name": "Wave 2",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Bada_2_0"
@@ -58,7 +61,10 @@
             "Device_Code_Name": "GT-S8530",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2"
+            "Device_Name": "Wave 2",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Bada_2_0"

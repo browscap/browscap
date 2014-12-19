@@ -51,7 +51,7 @@
         {
           "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",

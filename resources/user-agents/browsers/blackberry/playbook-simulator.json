@@ -15,20 +15,20 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Comment": "Playbook Simulator",
-        "Browser": "Playbook",
         "Version": "2.0",
         "MajorVer": "2",
         "MinorVer": "0",
         "CssVersion": "3",
-        "Device_Name": "Playbook",
+        "isMobileDevice": "true",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Tablet",
-        "isTablet": "true",
-        "Device_Pointing_Method": "touchscreen"
+        "Device_Type": "FonePad",
+        "Device_Brand_Name": "RIM",
+        "Browser": "Blackberry Playbook Tablet",
+        "Device_Code_Name": "PlayBook",
+        "Device_Name": "PlayBook",
+        "Device_Pointing_Method": "touchscreen",
+        "isTablet": "true"
       },
       "children": [
         {

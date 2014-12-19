@@ -20,7 +20,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Galaxy Ace',
             'Device_Maker' => 'Samsung',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-S5830i',
             'Device_Brand_Name' => 'Samsung',

@@ -33,7 +33,11 @@
             "Device_Code_Name": "Nexus S",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Google",
-            "Device_Name": "Nexus S"
+            "Device_Name": "Nexus S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_1", "Android_4_2"
@@ -42,10 +46,14 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
           "properties": {
+            "isTablet": "false",
             "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
-            "Device_Name": "Cynus T2"
+            "Device_Brand_Name": "Elson",
+            "Device_Name": "Cynus T2",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"
@@ -57,7 +65,10 @@
             "Device_Code_Name": "1000C",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C"
+            "Device_Name": "Desire C",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -70,7 +81,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -140,7 +151,7 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "SM-G900F",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -153,13 +164,14 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#D6503 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "D6503",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Z2 LTE"
+            "Device_Name": "Xperia Z2 LTE",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_4"
@@ -168,13 +180,13 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HUAWEI G700-U10 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G700",
+            "Device_Code_Name": "G700-U10",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend G700"
+            "Device_Name": "Ascend G700",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_2"
@@ -200,7 +212,7 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "SM-N9005",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

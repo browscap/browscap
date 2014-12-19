@@ -51,8 +51,11 @@
           "properties": {
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C7",
-            "Device_Name": "C7"
+            "Device_Code_Name": "C7-00",
+            "Device_Name": "Astound",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -61,7 +64,10 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "C7-00",
-            "Device_Name": "C7"
+            "Device_Name": "Astound",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -71,6 +77,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
             "Device_Name": "E7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -81,6 +90,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -91,6 +103,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -101,6 +116,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -129,6 +147,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "E7-00",
             "Device_Name": "E7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },

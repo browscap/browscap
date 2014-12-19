@@ -2,6 +2,7 @@
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": ["5.5"],
   "sortIndex": 2766,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
@@ -52,7 +53,7 @@
           "platforms": [
             "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "NT"

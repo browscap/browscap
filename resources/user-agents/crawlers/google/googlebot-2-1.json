@@ -1,7 +1,7 @@
 {
   "division": "Googlebot #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
-  "sortIndex": 1150,
+  "sortIndex": 1132,
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
@@ -26,7 +26,7 @@
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",

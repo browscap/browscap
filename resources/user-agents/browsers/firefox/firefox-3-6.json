@@ -43,6 +43,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (*Linux x86;*) Gecko\/#PLATFORM# Firefox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Ubuntu_10_04", "Ubuntu_12_04"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux_32", "Linux",

@@ -67,7 +67,7 @@
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -114,6 +114,32 @@
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
           "platforms": [
             "JAVA"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Type": "Smartphone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A"
           ]
         }
       ]

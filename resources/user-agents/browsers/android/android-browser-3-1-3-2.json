@@ -203,7 +203,10 @@
             "Device_Code_Name": "1000C",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C"
+            "Device_Name": "Desire C",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_5"
@@ -227,7 +230,10 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
+            "Device_Name": "Xperia X10 Mini",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -299,7 +305,10 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini"
+            "Device_Name": "Xperia X10 Mini",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -311,7 +320,10 @@
             "Device_Code_Name": "E10iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "E10iv"
+            "Device_Name": "E10iv",
+            "isMobileDevice": "true",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -323,7 +335,11 @@
             "Device_Code_Name": "E15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8"
+            "Device_Name": "Xperia X8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -335,7 +351,11 @@
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -347,7 +367,11 @@
             "Device_Code_Name": "U20iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro"
+            "Device_Name": "Xperia X10 Mini pro",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"
@@ -371,7 +395,11 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Name": "Xperia X10",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Feature Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_1_6"

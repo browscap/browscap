@@ -20,7 +20,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Xperia Z',
             'Device_Maker' => 'Sony',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Smartphone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'C6603',
             'Device_Brand_Name' => 'Sony',

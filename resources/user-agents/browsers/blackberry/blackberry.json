@@ -35,8 +35,15 @@
         {
           "match": "*PlayBook*RIM Tablet OS 1.0.*",
           "properties": {
-            "Device_Name": "Playbook",
-            "Device_Maker": "Research In Motion Limited"
+            "isMobileDevice": "true",
+            "Device_Maker": "Research In Motion Limited",
+            "Device_Type": "FonePad",
+            "Device_Brand_Name": "RIM",
+            "Browser": "Blackberry Playbook Tablet",
+            "Device_Code_Name": "PlayBook",
+            "Device_Name": "PlayBook",
+            "Device_Pointing_Method": "touchscreen",
+            "isTablet": "true"
           },
           "platforms": [
             "RIM_Tablet_OS_1"
@@ -45,8 +52,15 @@
         {
           "match": "*PlayBook*RIM Tablet OS 2.1.*",
           "properties": {
-            "Device_Name": "Playbook",
-            "Device_Maker": "Research In Motion Limited"
+            "isMobileDevice": "true",
+            "Device_Maker": "Research In Motion Limited",
+            "Device_Type": "FonePad",
+            "Device_Brand_Name": "RIM",
+            "Browser": "Blackberry Playbook Tablet",
+            "Device_Code_Name": "PlayBook",
+            "Device_Name": "PlayBook",
+            "Device_Pointing_Method": "touchscreen",
+            "isTablet": "true"
           },
           "platforms": [
             "RIM_Tablet_OS_2_1"

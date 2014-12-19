@@ -32,7 +32,7 @@
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "NT"
           ]
         },
@@ -41,7 +41,7 @@
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "NT"
           ]
         }

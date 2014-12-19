@@ -34,7 +34,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
+            "Device_Type": "Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -61,7 +61,11 @@
             "Device_Code_Name": "GT-I9000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S"
+            "Device_Name": "Galaxy S",
+            "Device_Type": "Smartphone",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"
@@ -71,7 +75,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000 Build\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "GT-P1000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -85,7 +89,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "GT-P1010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -101,7 +105,10 @@
             "Device_Code_Name": "Desire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
+            "Device_Name": "Desire",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2"
@@ -113,7 +120,10 @@
             "Device_Code_Name": "Legend",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Legend"
+            "Device_Name": "Legend",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2"
@@ -125,7 +135,10 @@
             "Device_Code_Name": "P500",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus One"
+            "Device_Name": "Optimus One",
+            "isMobileDevice": "true",
+            "Device_Type": "Smartphone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_2"
