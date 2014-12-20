@@ -183,7 +183,7 @@
             "Device_Name": "7 Mozart",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -198,7 +198,7 @@
             "Device_Brand_Name": "HTC",
             "Device_Name": "7 pro",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -214,7 +214,7 @@
             "Device_Name": "Optimus 7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -230,7 +230,7 @@
             "Device_Name": "Omnia 7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -245,7 +245,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 520",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -260,7 +260,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 720",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -275,7 +275,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 820",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -290,7 +290,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 920",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -306,7 +306,7 @@
             "Device_Name": "Lumia 925",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -348,7 +348,7 @@
             "Device_Name": "8S",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

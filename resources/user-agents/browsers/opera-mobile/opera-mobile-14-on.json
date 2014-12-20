@@ -97,7 +97,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -110,7 +110,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Code_Name": "GT-I8190",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -140,7 +140,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone"one",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",

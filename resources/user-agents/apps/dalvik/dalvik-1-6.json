@@ -36,7 +36,7 @@
             "Device_Name": "Nexus S",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -52,7 +52,7 @@
             "Device_Brand_Name": "Elson",
             "Device_Name": "Cynus T2",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -67,7 +67,7 @@
             "Device_Brand_Name": "HTC",
             "Device_Name": "Desire C",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -81,7 +81,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -151,7 +151,7 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G900F",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -170,7 +170,7 @@
             "Device_Name": "Xperia Z2 LTE",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -185,7 +185,7 @@
             "Device_Brand_Name": "Huawei",
             "Device_Name": "Ascend G700",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -212,7 +212,7 @@
           "properties": {
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N9005",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

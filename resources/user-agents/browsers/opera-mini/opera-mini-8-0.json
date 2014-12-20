@@ -67,7 +67,7 @@
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -120,7 +120,7 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
           "engine": "WebKit",
           "properties": {
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",

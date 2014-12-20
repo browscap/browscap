@@ -205,7 +205,7 @@
             "Device_Brand_Name": "HTC",
             "Device_Name": "Desire C",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -232,7 +232,7 @@
             "Device_Brand_Name": "SonyEricsson",
             "Device_Name": "Xperia X10 Mini",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -307,7 +307,7 @@
             "Device_Brand_Name": "SonyEricsson",
             "Device_Name": "Xperia X10 Mini",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -322,7 +322,7 @@
             "Device_Brand_Name": "SonyEricsson",
             "Device_Name": "E10iv",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -338,7 +338,7 @@
             "Device_Name": "Xperia X8",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -354,7 +354,7 @@
             "Device_Name": "Xperia X10 Mini pro",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -370,7 +370,7 @@
             "Device_Name": "Xperia X10 Mini pro",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -398,7 +398,7 @@
             "Device_Name": "Xperia X10",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

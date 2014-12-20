@@ -25,7 +25,7 @@
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -44,7 +44,7 @@
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -68,7 +68,7 @@
             "Device_Brand_Name": "Nec",
             "Device_Name": "N905i",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone"
+            "Device_Type": "Mobile Phone"
           }
         },
         {
@@ -82,7 +82,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "SGH-E250",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone"
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "JAVA"

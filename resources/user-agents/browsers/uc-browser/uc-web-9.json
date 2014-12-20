@@ -44,7 +44,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -60,7 +60,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -76,7 +76,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone"one",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -92,7 +92,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+      "Device_Type": "Mobile Phone"phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -104,7 +104,7 @@
           "engine": "U3",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+    "Device_Type": "Mobile Phone"rtphone",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
@@ -169,7 +169,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
-            "Device_Type": "Smartphone",
+  "Device_Type": "Mobile Phone"martphone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -186,7 +186,7 @@
           "match": "UCWEB\/*(#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "isTablet": "false",
             "Device_Code_Name": "GT-S5360",
             "Device_Maker": "Samsung",
@@ -258,7 +258,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
+"Device_Type": "Mobile Phone""Smartphone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -319,7 +319,7 @@
             "Device_Name": "Galaxy Fit",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -335,8 +335,7 @@
             "Device_Brand_Name": "Motorola",
             "Device_Name": "DEFY",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet": "false""Device_Type": "Mobile Phone": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

@@ -76,7 +76,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -91,7 +91,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

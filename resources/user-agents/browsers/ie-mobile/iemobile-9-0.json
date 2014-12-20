@@ -75,7 +75,7 @@
             "Device_Name": "7 Mozart",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -91,7 +91,7 @@
             "Device_Name": "7 Mozart",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -106,7 +106,7 @@
             "Device_Brand_Name": "HTC",
             "Device_Name": "7 pro",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone"one",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -122,7 +122,7 @@
             "Device_Name": "7 Trophy",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+      "Device_Type": "Mobile Phone"phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -138,7 +138,7 @@
             "Device_Name": "HD7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+    "Device_Type": "Mobile Phone"rtphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -189,7 +189,7 @@
             "Device_Brand_Name": "HTC",
             "Device_Name": "Titan",
             "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+  "Device_Type": "Mobile Phone"martphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -205,7 +205,7 @@
             "Device_Name": "Optimus 7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+"Device_Type": "Mobile Phone""Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -231,8 +231,7 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 510",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
+            "isMobileDevice": "true""Device_Type": "Mobile Phone": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -247,8 +246,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 610",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet": "fals"Device_Type": "Mobile Phone"e": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -263,8 +261,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 710",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet": "fa"Device_Type": "Mobile Phone"ype": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -275,8 +272,7 @@
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0; NOKIA; Lumia 800*)",
           "properties": {
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet": ""Device_Type": "Mobile Phone"_Type": "Smartphone",
             "Device_Code_Name": "Lumia 800",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
@@ -294,8 +290,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 900",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet":"Device_Type": "Mobile Phone"ce_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -310,8 +305,7 @@
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 925",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTablet"Device_Type": "Mobile Phone"vice_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -326,8 +320,7 @@
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Omnia 7",
             "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "isTabl"Device_Type": "Mobile Phone"Device_Type": "Smartphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

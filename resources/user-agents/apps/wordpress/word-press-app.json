@@ -73,7 +73,7 @@
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -89,7 +89,7 @@
         {
           "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

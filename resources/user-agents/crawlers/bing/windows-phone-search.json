@@ -26,7 +26,7 @@
             "Device_Name": "7 Trophy",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -42,7 +42,7 @@
             "Device_Name": "Lumia 900",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

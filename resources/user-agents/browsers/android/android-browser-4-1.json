@@ -121,7 +121,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -182,7 +182,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
+          "Device_Type": "Mobile Phone"e",
             "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Pointing_Method": "touchscreen"
@@ -200,7 +200,7 @@
             "Device_Name": "G2",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+        "Device_Type": "Mobile Phone"one",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -312,7 +312,7 @@
             "Device_Name": "One Touch MPop",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+      "Device_Type": "Mobile Phone"phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -328,7 +328,7 @@
             "Device_Name": "Smart III",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Smartphone",
+    "Device_Type": "Mobile Phone"rtphone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
