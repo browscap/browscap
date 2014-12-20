@@ -181,11 +181,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-          "Device_Type": "Mobile Phone"e",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3_B"
@@ -197,11 +193,7 @@
             "Device_Code_Name": "D802",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "G2",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-        "Device_Type": "Mobile Phone"one",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "G2"
           },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
@@ -309,11 +301,7 @@
             "Device_Code_Name": "OT-5020D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch MPop",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-      "Device_Type": "Mobile Phone"phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "One Touch MPop"
           },
           "platforms": [
             "Android_4_1"
@@ -325,11 +313,7 @@
             "Device_Code_Name": "975N",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Smart III",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-    "Device_Type": "Mobile Phone"rtphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Smart III"
           },
           "platforms": [
             "Android_4_1"

@@ -64,11 +64,7 @@
             "Device_Code_Name": "GT-S5830i",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace",
-          "Device_Type": "Mobile Phone"e",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy Ace"
           },
           "platforms": [
             "Android_2_3"
