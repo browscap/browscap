@@ -89,10 +89,7 @@
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos",
-            "isMobileDevice": "true",
-          "Device_Type": "Mobile Phone"e",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S Duos"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"

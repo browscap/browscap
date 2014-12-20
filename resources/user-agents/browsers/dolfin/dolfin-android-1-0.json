@@ -63,10 +63,7 @@
             "Device_Code_Name": "GT-I9001",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9001",
-            "isMobileDevice": "true",
-        "Device_Type": "Mobile Phone"one",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "GT-I9001"
           },
           "platforms": [
             "Android_2_3"
