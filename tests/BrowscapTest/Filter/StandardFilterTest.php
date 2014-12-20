@@ -68,7 +68,7 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
             ['Platform', true],
             ['Platform_Description', false],
             ['Device_Name', false],
-            ['Device_Maker', true],
+            ['Device_Maker', false],
             ['RenderingEngine_Name', false],
             ['RenderingEngine_Description', false],
             ['Parent', true],
@@ -104,6 +104,7 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
             ['Device_Type', true],
             ['Device_Pointing_Method', true],
             ['isTablet', true],
+            ['Browser_Maker', true],
         ];
     }
 

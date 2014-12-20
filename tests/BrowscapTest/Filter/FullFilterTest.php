@@ -104,6 +104,7 @@ class FullFilterTest extends \PHPUnit_Framework_TestCase
             ['Device_Type', true],
             ['Device_Pointing_Method', true],
             ['isTablet', true],
+            ['Browser_Maker', true],
         ];
     }
 

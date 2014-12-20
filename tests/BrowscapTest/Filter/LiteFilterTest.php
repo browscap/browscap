@@ -109,6 +109,7 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
             ['Device_Type', true],
             ['Device_Pointing_Method', false],
             ['isTablet', true],
+            ['Browser_Maker', false],
         ];
     }
 
