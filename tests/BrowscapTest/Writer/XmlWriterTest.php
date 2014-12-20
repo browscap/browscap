@@ -426,7 +426,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -509,7 +509,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')

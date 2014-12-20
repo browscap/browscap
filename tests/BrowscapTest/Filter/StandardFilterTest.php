@@ -20,13 +20,13 @@ namespace BrowscapTest\Filter;
 use Browscap\Filter\StandardFilter;
 
 /**
- * Class StandartFilterTest
+ * Class StandardFilterTest
  *
  * @category   BrowscapTest
  * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandartFilterTest extends \PHPUnit_Framework_TestCase
+class StandardFilterTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var \Browscap\Filter\StandardFilter
