@@ -19,7 +19,7 @@ namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\FullFilter;
 use Browscap\Filter\LiteFilter;
-use Browscap\Filter\StandardFilter;
+use Browscap\Filter\StandartFilter;
 use Browscap\Formatter\AspFormatter;
 use Browscap\Formatter\CsvFormatter;
 use Browscap\Formatter\PhpFormatter;
@@ -52,7 +52,7 @@ class FullCollectionFactory
         $writerCollection = new WriterCollection();
 
         $fullFilter = new FullFilter();
-        $stdFilter  = new StandardFilter();
+        $stdFilter  = new StandartFilter();
         $liteFilter = new LiteFilter();
 
         $fullAspWriter = new IniWriter($buildFolder . '/full_asp_browscap.ini');

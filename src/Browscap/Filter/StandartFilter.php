@@ -22,13 +22,13 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class StandardFilter
+ * Class StandartFilter
  *
  * @category   Browscap
  * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandardFilter implements FilterInterface
+class StandartFilter implements FilterInterface
 {
     /**
      * returns the Type of the filter
@@ -68,14 +68,10 @@ class StandardFilter implements FilterInterface
             return false;
         }
 
-        if ($propertyHolder->isLiteModeProperty($property, $writer)) {
-            return true;
+        if ($propertyHolder->isExtraProperty($property, $writer)) {
+            return false;
         }
 
-        if ($propertyHolder->isStandardModeProperty($property, $writer)) {
-            return true;
-        }
-
-        return false;
+        return true;
     }
 }
