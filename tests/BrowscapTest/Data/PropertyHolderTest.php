@@ -108,63 +108,14 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         $this->object->getPropertyType('Foobar');
     }
 
-    /**
-     * Data Provider for the test testIsExtraProperty
-     *
-     * @return array[]
-     */
-    public function extraPropertiesDataProvider()
+    public function testIsLiteModeProperty()
     {
-        return [
-            ['Comment', false],
-            ['Browser', false],
-            ['Platform', false],
-            ['Platform_Description', true],
-            ['Device_Name', true],
-            ['Device_Maker', true],
-            ['RenderingEngine_Name', true],
-            ['RenderingEngine_Description', true],
-            ['Parent', false],
-            ['Platform_Version', false],
-            ['RenderingEngine_Version', true],
-            ['Version', false],
-            ['MajorVer', false],
-            ['MinorVer', false],
-            ['CssVersion', false],
-            ['AolVersion', false],
-            ['Alpha', false],
-            ['Beta', false],
-            ['Win16', false],
-            ['Win32', false],
-            ['Win64', false],
-            ['Frames', false],
-            ['IFrames', false],
-            ['Tables', false],
-            ['Cookies', false],
-            ['BackgroundSounds', false],
-            ['JavaScript', false],
-            ['VBScript', false],
-            ['JavaApplets', false],
-            ['ActiveXControls', false],
-            ['isMobileDevice', false],
-            ['isSyndicationReader', false],
-            ['Crawler', false],
-            ['Browser_Type', true],
-            ['Device_Type', true],
-            ['Device_Pointing_Method', true],
-        ];
+        self::assertTrue($this->object->isLiteModeProperty('Parent'));
+        self::assertFalse($this->object->isLiteModeProperty('Browser_Maker'));
+        self::assertFalse($this->object->isStandardModeProperty('Device_Name'));
     }
 
-    /**
-     * @dataProvider extraPropertiesDataProvider
-     */
-    public function testIsExtraProperty($propertyName, $isExtra)
-    {
-        $actualValue = $this->object->isExtraProperty($propertyName);
-        self::assertSame($isExtra, $actualValue);
-    }
-
-    public function testIsExtraPropertyWithWriter()
+    public function testIsLiteModePropertyWithWriter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
         $mockWriter
@@ -173,8 +124,26 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('csv'))
         ;
 
-        $actualValue = $this->object->isExtraProperty('PropertyName', $mockWriter);
-        self::assertFalse($actualValue);
+        self::assertFalse($this->object->isLiteModeProperty('PropertyName', $mockWriter));
+    }
+
+    public function testIsStandardModeProperty()
+    {
+        self::assertFalse($this->object->isStandardModeProperty('Parent'));
+        self::assertTrue($this->object->isStandardModeProperty('Browser_Maker'));
+        self::assertFalse($this->object->isStandardModeProperty('Device_Name'));
+    }
+
+    public function testIsStandardModePropertyWithWriter()
+    {
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
+        $mockWriter
+            ->expects(self::once())
+            ->method('getType')
+            ->will(self::returnValue('csv'))
+        ;
+
+        self::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
     }
 
     /**
