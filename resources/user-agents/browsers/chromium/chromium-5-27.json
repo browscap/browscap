@@ -46,6 +46,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_64"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",

@@ -191,6 +191,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HTC Desire S",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (Macintosh; *Mac OS X*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0*Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
