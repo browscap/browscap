@@ -36,9 +36,7 @@
             "Device_Name": "A27",
             "Device_Code_Name": "A27",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -50,9 +48,7 @@
             "Device_Name": "A35",
             "Device_Code_Name": "A35",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -63,10 +59,8 @@
           "properties": {
             "Device_Name": "B51+",
             "Device_Maker": "sprd",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "sprd"
           },
           "platforms": [
             "Android_2_3"
@@ -78,9 +72,7 @@
             "Device_Name": "A40",
             "Device_Code_Name": "A40",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -92,9 +84,7 @@
             "Device_Name": "OT-4030D",
             "Device_Code_Name": "OT-4030D",
             "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Alcatel"
           },
           "platforms": [
             "Android_4_1"
@@ -106,9 +96,7 @@
             "Device_Name": "OT-4030D",
             "Device_Code_Name": "OT-4030D",
             "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Alcatel"
           },
           "platforms": [
             "Android_4_1"
@@ -120,11 +108,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_1"
@@ -136,9 +120,7 @@
             "Device_Name": "D805",
             "Device_Maker": "LG",
             "Device_Code_Name": "D805",
-            "Device_Brand_Name": "LG",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "LG"
           },
           "platforms": [
             "Android_4_2"
@@ -148,9 +130,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Name": "One X",
-            "Device_Maker": "HTC",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "HTC"
           },
           "platforms": [
             "Android_4_2"
@@ -164,9 +144,7 @@
             "Device_Brand_Name": "Intenso",
             "Device_Name": "TAB 824",
             "Device_Type": "Tablet",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Pointing_Method": "touchscreen"
+            "isTablet": "true"
           },
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -206,10 +184,8 @@
             "Device_Maker": "Vodafone",
             "Device_Brand_Name": "Vodafone",
             "Device_Name": "Smart Tab 4",
-            "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_2"
@@ -218,7 +194,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "B8000-F",
@@ -244,10 +219,8 @@
           "properties": {
             "Device_Name": "B51+",
             "Device_Maker": "sprd",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "sprd"
           },
           "platforms": [
             "Android_2_3"
@@ -259,9 +232,7 @@
             "Device_Name": "G9",
             "Device_Code_Name": "G9",
             "Device_Brand_Name": "Mastone",
-            "Device_Maker": "Mastone",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Mastone"
           },
           "platforms": [
             "Android_2_3"
@@ -294,7 +265,6 @@
         {
           "match": "NGM Dynamic Racing 2\/* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "Dynamic Racing GP",
             "Device_Maker": "NGM",

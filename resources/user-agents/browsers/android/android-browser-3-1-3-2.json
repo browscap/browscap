@@ -24,7 +24,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
-        "Device_Type": "Mobile Device",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "general Mobile Device"
       },
       "children": [
@@ -58,10 +58,7 @@
             "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "Device_Name": "Galaxy Spica"
           },
           "platforms": [
             "Android_1_5"
@@ -203,10 +200,7 @@
             "Device_Code_Name": "1000C",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire C",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Desire C"
           },
           "platforms": [
             "Android_1_5"
@@ -230,10 +224,7 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X10 Mini"
           },
           "platforms": [
             "Android_1_6"
@@ -305,10 +296,7 @@
             "Device_Code_Name": "E10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X10 Mini"
           },
           "platforms": [
             "Android_1_6"
@@ -320,10 +308,7 @@
             "Device_Code_Name": "E10iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "E10iv",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "E10iv"
           },
           "platforms": [
             "Android_1_6"
@@ -335,11 +320,7 @@
             "Device_Code_Name": "E15i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X8",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X8"
           },
           "platforms": [
             "Android_1_6"
@@ -351,11 +332,7 @@
             "Device_Code_Name": "U20i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X10 Mini pro"
           },
           "platforms": [
             "Android_1_6"
@@ -367,11 +344,7 @@
             "Device_Code_Name": "U20iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10 Mini pro",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X10 Mini pro"
           },
           "platforms": [
             "Android_1_6"
@@ -395,11 +368,7 @@
             "Device_Code_Name": "X10i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Xperia X10"
           },
           "platforms": [
             "Android_1_6"
