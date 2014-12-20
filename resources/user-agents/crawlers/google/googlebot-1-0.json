@@ -6,7 +6,7 @@
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
