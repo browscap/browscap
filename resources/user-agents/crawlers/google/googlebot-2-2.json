@@ -42,6 +42,9 @@
           ]
         },
         {
+          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
+        },
+        {
           "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
         }
       ]
