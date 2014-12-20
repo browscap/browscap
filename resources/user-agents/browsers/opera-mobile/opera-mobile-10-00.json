@@ -63,8 +63,6 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei",
             "Device_Code_Name": "G7300",
@@ -77,8 +75,6 @@
         {
           "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "X650",
             "Device_Maker": "Micromax",
             "Device_Code_Name": "X650",

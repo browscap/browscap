@@ -34,8 +34,7 @@
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
@@ -45,14 +44,11 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "engine": "WebKit",
           "properties": {
-            "isMobileDevice": "true",
-          "Device_Type": "Mobile Phone"e",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S III"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
