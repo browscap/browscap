@@ -24,7 +24,7 @@ use Browscap\Filter\FullFilter;
  *
  * @category   BrowscapTest
  * @package    Filter
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas MÃ¼ller <t_mueller_stolzenhain@yahoo.de>
  */
 class FullFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -103,6 +103,7 @@ class FullFilterTest extends \PHPUnit_Framework_TestCase
             ['Browser_Type', true],
             ['Device_Type', true],
             ['Device_Pointing_Method', true],
+            ['isTablet', true],
         ];
     }
 
