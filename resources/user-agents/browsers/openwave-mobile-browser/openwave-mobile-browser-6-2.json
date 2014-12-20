@@ -213,7 +213,7 @@
           "match": "KDDI-KC31 UP.Browser\/6.2*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "isTablet": "false",
             "Device_Code_Name": "KC31",
             "Device_Maker": "KDDI",

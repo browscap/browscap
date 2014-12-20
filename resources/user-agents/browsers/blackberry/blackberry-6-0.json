@@ -34,7 +34,7 @@
             "Device_Code_Name": "BlackBerry 9800",
             "Device_Name": "Torch",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -87,7 +87,7 @@
             "Device_Code_Name": "BlackBerry 9800",
             "Device_Name": "Torch",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -154,7 +154,7 @@
             "Device_Code_Name": "BlackBerry 9800",
             "Device_Name": "Torch",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
