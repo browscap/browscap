@@ -88,9 +88,7 @@
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -104,13 +102,11 @@
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "false"
           },
           "platforms": [

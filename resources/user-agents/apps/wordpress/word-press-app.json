@@ -73,14 +73,11 @@
             "Version": "3.0",
             "MajorVer": "3",
             "MinorVer": "0",
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy Note II"
           },
           "platforms": [
             "Android_4_4_D", "Android"
@@ -89,14 +86,11 @@
         {
           "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy Note II"
           },
           "platforms": [
             "Android_4_4_D", "Android"

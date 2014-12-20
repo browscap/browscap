@@ -26,10 +26,11 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
+        "isTablet": "false",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
@@ -39,11 +40,7 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
@@ -55,11 +52,7 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
@@ -71,8 +64,6 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"
@@ -87,11 +78,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
@@ -103,8 +90,6 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"

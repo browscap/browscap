@@ -55,7 +55,7 @@
             "Device_Name": "Galaxy Mini",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -109,10 +109,7 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -124,11 +121,7 @@
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3"

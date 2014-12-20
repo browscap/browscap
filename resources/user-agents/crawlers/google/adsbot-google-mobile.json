@@ -20,7 +20,7 @@
           "match": "AdsBot?Google?Mobile (?http:\/\/www.google.com\/mobile\/adsbot.html) Mozilla (iPhone#PLATFORM#) AppleWebKit (KHTML,*like Gecko*)*",
           "engine": "WebKit",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",

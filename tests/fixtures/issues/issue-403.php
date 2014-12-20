@@ -20,7 +20,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Lumia 520',
             'Device_Maker' => 'Nokia',
-            'Device_Type' => 'Smartphone',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Lumia 520',
             'Device_Brand_Name' => 'Nokia',

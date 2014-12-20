@@ -46,8 +46,7 @@
             "Device_Code_Name": "Lumia 635",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 635",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 635"
           },
           "platforms": [
             "WinPhone8.1"
@@ -59,8 +58,7 @@
             "Device_Code_Name": "Lumia 930",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 930",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 930"
           },
           "platforms": [
             "WinPhone8.1"
@@ -72,10 +70,7 @@
             "Device_Code_Name": "Lumia 520",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 520"
           },
           "platforms": [
             "WinPhone8.1"
@@ -87,11 +82,7 @@
             "Device_Code_Name": "Lumia 630",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 630",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 630"
           },
           "platforms": [
             "WinPhone8.1"
@@ -103,11 +94,7 @@
             "Device_Code_Name": "Lumia 925",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 925"
           },
           "platforms": [
             "WinPhone8.1"
@@ -119,10 +106,7 @@
             "Device_Code_Name": "Lumia 920",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 920"
           },
           "platforms": [
             "WinPhone8.1"
@@ -134,10 +118,7 @@
             "Device_Code_Name": "Lumia 928",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 928",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 928"
           },
           "platforms": [
             "WinPhone8.1"
@@ -150,11 +131,7 @@
             "Device_Code_Name": "Lumia 625",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 625",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 625"
           },
           "platforms": [
             "WinPhone8.1"
@@ -167,11 +144,7 @@
             "Device_Code_Name": "Lumia 1320",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1320",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 1320"
           },
           "platforms": [
             "WinPhone8.1"
@@ -184,11 +157,7 @@
             "Device_Code_Name": "Lumia 820",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 820",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 820"
           },
           "platforms": [
             "WinPhone8.1"
@@ -201,11 +170,7 @@
             "Device_Code_Name": "Lumia 920",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 920"
           },
           "platforms": [
             "WinPhone8.1"
@@ -218,11 +183,7 @@
             "Device_Code_Name": "Lumia 630",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 630",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 630"
           },
           "platforms": [
             "WinPhone8.1"
@@ -235,11 +196,7 @@
             "Device_Code_Name": "Lumia 520",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 520"
           },
           "platforms": [
             "WinPhone8.1"

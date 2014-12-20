@@ -54,7 +54,7 @@
             "Device_Code_Name": "C7-00",
             "Device_Name": "Astound",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -66,7 +66,7 @@
             "Device_Code_Name": "C7-00",
             "Device_Name": "Astound",
             "isMobileDevice": "true",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -79,7 +79,7 @@
             "Device_Name": "E7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -92,7 +92,7 @@
             "Device_Name": "N8",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -105,7 +105,7 @@
             "Device_Name": "N8",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -118,7 +118,7 @@
             "Device_Name": "N8",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },
@@ -149,7 +149,7 @@
             "Device_Name": "E7",
             "isMobileDevice": "true",
             "isTablet": "false",
-            "Device_Type": "Feature Phone",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         },

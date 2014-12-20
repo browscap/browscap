@@ -35,31 +35,12 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "platforms": [
-            "Android_4_0", "Android"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (X11; Linux*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
@@ -71,11 +52,7 @@
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Sensation"
           },
           "platforms": [
             "Android_4_0"
@@ -87,8 +64,6 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"
@@ -103,14 +78,25 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Android_4_0", "Android"
           ]
         }
       ]
