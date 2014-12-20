@@ -46,8 +46,7 @@
             "Device_Code_Name": "Lumia 635",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 635",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 635"
           },
           "platforms": [
             "WinPhone8.1"
@@ -59,8 +58,7 @@
             "Device_Code_Name": "Lumia 930",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 930",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 930"
           },
           "platforms": [
             "WinPhone8.1"
@@ -72,10 +70,7 @@
             "Device_Code_Name": "Lumia 520",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 520"
           },
           "platforms": [
             "WinPhone8.1"
@@ -123,8 +118,7 @@
             "Device_Code_Name": "Lumia 928",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 928",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 928"
           },
           "platforms": [
             "WinPhone8.1"
@@ -137,9 +131,7 @@
             "Device_Code_Name": "Lumia 625",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 625",
-            "isMobileDevice": "true",
-            "isTablet": "false"
+            "Device_Name": "Lumia 625"
           },
           "platforms": [
             "WinPhone8.1"
@@ -178,10 +170,7 @@
             "Device_Code_Name": "Lumia 920",
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920",
-            "isMobileDevice": "true",
-            "isTablet": "fals"Device_Type": "Mobile Phone"e": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Lumia 920"
           },
           "platforms": [
             "WinPhone8.1"
