@@ -8,17 +8,21 @@
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Chrome Generic",
+        "Comment": "Chrome #MAJORVER#.#MINORVER#",
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "1",
+        "CssVersion": "3",
         "isMobileDevice": "true",
         "isTablet": "false",
         "Device_Code_Name": "general Mobile Device",
@@ -73,9 +77,7 @@
             "Device_Code_Name": "iPad",
             "Device_Name": "iPad",
             "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
             "isTablet": "true"
           },
           "platforms": [
@@ -94,8 +96,6 @@
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
             "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "false"
           },
           "platforms": [
