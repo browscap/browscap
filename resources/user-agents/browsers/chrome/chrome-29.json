@@ -49,7 +49,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A210 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "A210",
             "Device_Maker": "Acer",
@@ -78,7 +78,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -202,7 +202,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
@@ -1368,7 +1368,7 @@
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true"
           },
           "platforms": [
@@ -1515,7 +1515,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "ME371MG",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
@@ -1601,7 +1601,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A511 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A511",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -1640,10 +1640,10 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "101 G10",
+            "Device_Code_Name": "101G10",
             "Device_Maker": "Archos",
             "Device_Brand_Name": "Archos",
-            "Device_Name": "101 G10"
+            "Device_Name": "Gen10 101 XS"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -1862,7 +1862,7 @@
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true"
           },
           "platforms": [
@@ -2117,7 +2117,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530NU Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T530NU",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -2131,7 +2131,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T530",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -2240,7 +2240,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A1-811 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A1-811",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -2366,7 +2366,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A1-810 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A1-810",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",

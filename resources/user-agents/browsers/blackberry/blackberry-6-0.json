@@ -32,7 +32,8 @@
           "match": "Blackberry9800\/6.0*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -82,7 +83,8 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*AppleWebKit\/* (KHTML,*like Gecko*) Version\/6.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -146,7 +148,8 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/6.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {

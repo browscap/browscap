@@ -311,7 +311,7 @@
             "Device_Type": "Tablet"
           },
           "platforms": [
-            "Android_4_1"
+            "Android_4_1", "Android_4_2"
           ]
         },
         {

@@ -1,6 +1,6 @@
 {
   "division": "Mercury #MAJORVER#.#MINORVER#",
-  "versions": ["7.2", "7.4", "8.0", "8.1", "8.3", "8.4"],
+  "versions": [7, "7.2", "7.4", "8.0", "8.1", "8.3", "8.4"],
   "sortIndex": 1944,
   "userAgents": [
     {
@@ -12,6 +12,7 @@
         "Comment": "Mercury #MAJORVER#.#MINORVER#",
         "Browser": "Mercury",
         "Browser_Type": "Browser",
+        "Browser_Maker": "iLegendSoft, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -53,7 +54,8 @@
             "isTablet": "true"
           },
           "platforms": [
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0", "iOS_C"
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C"
           ]
         },
         {
@@ -69,13 +71,14 @@
             "isTablet": "false"
           },
           "platforms": [
-            "iOS_C", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
           ]
         }

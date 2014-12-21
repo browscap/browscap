@@ -67,7 +67,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000 Build\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P1000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -81,7 +81,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P1010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
