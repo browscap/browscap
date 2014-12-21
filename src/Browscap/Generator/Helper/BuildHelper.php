@@ -155,6 +155,7 @@ class BuildHelper
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
                     if (array_key_exists($sectionName, $output)) {
+                        $logger->debug('tried to add section "' . $sectionName . '" more than once -> skipped');
                         continue;
                     }
 

@@ -239,7 +239,7 @@ return [
         ],
     ],
     'issue-525-H' => [
-        'Mozilla/5.0 (Linux; Android 4.1.1; ME172V Build/JRO03H) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19',
+        'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A5500-F Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36',
         [
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
