@@ -4156,7 +4156,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'Device_Name' => 'Galaxy Tab 3 7.0 Lite 3G',
+            'Device_Name' => 'Galaxy Tab 3 Lite 7.0 3G',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

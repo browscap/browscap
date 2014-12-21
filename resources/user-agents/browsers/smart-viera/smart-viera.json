@@ -27,8 +27,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
           "properties": {
             "Device_Type": "TV Device",
-            "Device_Name": "TV",
-            "Device_Code_Name": "TV",
+            "Device_Name": "Viera",
+            "Device_Code_Name": "Viera",
             "Device_Maker": "Panasonic",
             "Device_Pointing_Method": "mouse",
             "isMobileDevice": "false"
