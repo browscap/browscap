@@ -155,9 +155,7 @@ class BuildHelper
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
                     if (array_key_exists($sectionName, $output)) {
-                        throw new \UnexpectedValueException(
-                            'tried to add section "' . $sectionName . '" more than once'
-                        );
+                        continue;
                     }
 
                     $section = $sectionsWithVersion[$sectionName];
