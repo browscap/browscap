@@ -900,7 +900,7 @@ return [
         ],
     ],
     'issue-525-AB' => [
-        'Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)',
+        'Mozilla/5.0 (Linux; Android 4.3; K01A Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Safari/537.36',
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
