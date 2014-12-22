@@ -4861,7 +4861,7 @@ return [
         ],
     ],
     'issue-525-ER' => [
-        'Mozilla/5.0 (BB10; Touch) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.1.2141 Mobile Safari/537.35+',
+        'Mozilla/5.0 (Linux; Android 4.2.2; Venue 8 3830 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Safari/537.36',
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
