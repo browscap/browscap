@@ -281,7 +281,6 @@ class PropertyHolder
                     'Tablet',
                     'Mobile Phone',
                     'Mobile Device',
-                    'FonePad',       // Tablet sized device with the capability to make phone calls
                     'Desktop',
                     'Ebook Reader',
                     'Car Entertainment System',

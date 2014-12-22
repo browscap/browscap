@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-45' => [
+    'issue-045' => [
         'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',
         [
             'Browser' => 'Sistrix Crawler',

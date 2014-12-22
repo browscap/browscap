@@ -7,7 +7,7 @@ return [
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'iLegendSoft, Inc.',
             'Version' => '7.4',
             'MajorVer' => '7',
             'MinorVer' => '4',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-7' => [
+    'issue-007' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36',
         [
             'Browser' => 'Chrome',

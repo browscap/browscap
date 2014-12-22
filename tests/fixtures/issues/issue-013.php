@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-13' => [
+    'issue-013' => [
         'Mozilla/5.0 (Android; Tablet; rv:23.0) Gecko/23.0 Firefox/23.0',
         [
             'Browser' => 'Firefox',
