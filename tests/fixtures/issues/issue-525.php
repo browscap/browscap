@@ -2616,7 +2616,7 @@ return [
         ],
     ],
     'issue-525-CB' => [
-        'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
+        'Mozilla/5.0 (Linux; Android 4.4.2; Venue 7 HSPA+ Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Safari/537.36',
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
