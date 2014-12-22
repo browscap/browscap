@@ -2946,7 +2946,7 @@ return [
         ],
     ],
     'issue-525-CL' => [
-        'ThumbSniper (http://thumbsniper.com)',
+        'Mozilla/5.0 (Linux; Android 4.1.2; ME371MG Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Safari/537.36',
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
