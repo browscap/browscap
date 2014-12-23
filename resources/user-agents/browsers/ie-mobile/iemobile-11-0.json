@@ -125,6 +125,54 @@
           ]
         },
         {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
+          "properties": {
+            "Device_Code_Name": "Lumia 625",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 625"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 909*",
+          "properties": {
+            "Device_Code_Name": "Lumia 1020",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 1020"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
+          "properties": {
+            "Device_Code_Name": "Lumia 820",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 820"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
+          "properties": {
+            "Device_Code_Name": "Lumia 620",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 620"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
           "properties": {
             "Browser_Modus": "Desktop Mode",

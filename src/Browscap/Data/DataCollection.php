@@ -612,7 +612,6 @@ class DataCollection
 
         switch ($properties['Device_Type']) {
             case 'Tablet':
-            case 'FonePad':
                 if (true !== $properties['isTablet']) {
                     throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is NOT marked as Tablet for key "'

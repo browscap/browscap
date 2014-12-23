@@ -25,7 +25,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
-        "Device_Type": "Mobile Device"
+        "Device_Type": "Mobile Phone"
       },
       "children": [
         {
@@ -47,8 +47,6 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Wave 2",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -62,8 +60,6 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Wave 2",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -76,7 +72,8 @@
             "Device_Code_Name": "GT-S8600",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 3"
+            "Device_Name": "Wave 3",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Bada_2_0"

@@ -166,7 +166,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D802 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D802* Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "D802",
             "Device_Maker": "LG",
@@ -200,6 +200,20 @@
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
             "Device_Name": "Yoga B8000-F"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "B6000-F",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Yoga B6000-F"
           },
           "platforms": [
             "Android_4_2"
