@@ -26,18 +26,17 @@
         "JavaApplets": "true",
         "CssVersion": "3",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
+        "isTablet": "false",
         "Device_Code_Name": "general Mobile Device",
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Various",
+        "Device_Type": "Mobile Phone",
         "Device_Pointing_Method": "touchscreen"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (X11; Linux*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -50,8 +49,6 @@
         {
           "match": "Mozilla\/5.0 (X11; Linux x86_64*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z710",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -67,8 +64,6 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"
@@ -83,11 +78,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
@@ -99,27 +90,9 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0"

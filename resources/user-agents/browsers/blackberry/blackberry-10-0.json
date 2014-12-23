@@ -35,6 +35,8 @@
           "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Device_Code_Name": "Z10",
+            "Device_Maker": "BlackBerry",
+            "Device_Brand_Name": "BlackBerry",
             "Device_Name": "Z10"
           }
         },

@@ -14,6 +14,7 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Yahoo!",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -2,6 +2,7 @@
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": ["7.0"],
   "sortIndex": 1719,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
@@ -179,7 +180,11 @@
             "Device_Code_Name": "T8698",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 Mozart"
+            "Device_Name": "7 Mozart",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7"
@@ -191,7 +196,10 @@
             "Device_Code_Name": "T7576",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "7 pro"
+            "Device_Name": "7 pro",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7"
@@ -203,7 +211,11 @@
             "Device_Code_Name": "E900",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus 7"
+            "Device_Name": "Optimus 7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7"
@@ -215,7 +227,11 @@
             "Device_Code_Name": "GT-I8700",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Omnia 7"
+            "Device_Name": "Omnia 7",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "WinPhone7"
@@ -228,6 +244,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 520",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -241,6 +259,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 720",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -254,6 +274,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 820",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -267,6 +289,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 920",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -280,6 +304,9 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Name": "Lumia 925",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
@@ -315,10 +342,13 @@
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; Windows Phone 8S by HTC)",
           "properties": {
-            "Device_Code_Name": "Windows Phone 8S",
+            "Device_Code_Name": "8S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Windows Phone 8S",
+            "Device_Name": "8S",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [

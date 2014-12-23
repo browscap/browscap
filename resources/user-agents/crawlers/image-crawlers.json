@@ -37,7 +37,7 @@
           }
         },
         {
-          "match": "Der gro\\xdfe BilderSauger*",
+          "match": "Der gro?xdfe BilderSauger*",
           "properties": {
             "Browser": "Gallery Grabber"
           }

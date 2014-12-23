@@ -24,7 +24,7 @@
         "JavaScript": "true",
         "isMobileDevice": "true",
         "CssVersion": "3",
-        "Device_Type": "Mobile Device",
+        "Device_Type": "Mobile Phone",
         "Device_Name": "general Mobile Device"
       },
       "children": [
@@ -58,10 +58,7 @@
             "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "Device_Name": "Galaxy Spica"
           },
           "platforms": [
             "Android_1_5"

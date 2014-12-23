@@ -1,13 +1,13 @@
 {
   "division": "Googlebot #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
-  "sortIndex": 1150,
+  "sortIndex": 1132,
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot",
-        "Comment": "Googlebot",
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
@@ -53,6 +53,9 @@
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
+        },
+        {
+          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"

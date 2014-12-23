@@ -310,7 +310,6 @@
         {
           "match": "HTC-ST6356\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ST6356",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -323,7 +322,6 @@
         {
           "match": "HTC-ST7377\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "ST7377",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -336,7 +334,6 @@
         {
           "match": "HTC_Touch2_T3335 Opera\/9.50 (Windows*)",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Touch2 T3335",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -349,7 +346,6 @@
         {
           "match": "MOT-A3100\/ Opera\/9.5* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A3100",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
@@ -398,7 +394,6 @@
         {
           "match": "PPC; 240x320; HTC_Mega-T3333-Orange; OpVer* Opera\/9.5* (Microsoft Windows 6.5; U;*)",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Mega T3333",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -411,7 +406,6 @@
         {
           "match": "SAMSUNG-GT-B7300\/* (Windows CE; Opera Mobi; ?*Opera 9.5",
           "properties": {
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-B7300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

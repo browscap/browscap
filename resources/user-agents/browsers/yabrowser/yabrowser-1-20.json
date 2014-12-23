@@ -107,6 +107,7 @@
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "One",
+            "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           },

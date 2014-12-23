@@ -36,9 +36,7 @@
             "Device_Name": "A27",
             "Device_Code_Name": "A27",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -50,9 +48,7 @@
             "Device_Name": "A35",
             "Device_Code_Name": "A35",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -63,10 +59,8 @@
           "properties": {
             "Device_Name": "B51+",
             "Device_Maker": "sprd",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "sprd"
           },
           "platforms": [
             "Android_2_3"
@@ -75,7 +69,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T520 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T520",
@@ -90,8 +83,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N900A",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -104,9 +95,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "SM-T530",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -119,8 +109,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N9005* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N9005",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -136,9 +124,7 @@
             "Device_Name": "A40",
             "Device_Code_Name": "A40",
             "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Micromax"
           },
           "platforms": [
             "Android_2_3"
@@ -150,9 +136,7 @@
             "Device_Name": "OT-4030D",
             "Device_Code_Name": "OT-4030D",
             "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Alcatel"
           },
           "platforms": [
             "Android_4_1"
@@ -164,9 +148,7 @@
             "Device_Name": "OT-4030D",
             "Device_Code_Name": "OT-4030D",
             "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Maker": "Alcatel"
           },
           "platforms": [
             "Android_4_1"
@@ -178,11 +160,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_1"
@@ -194,9 +172,7 @@
             "Device_Name": "D805",
             "Device_Maker": "LG",
             "Device_Code_Name": "D805",
-            "Device_Brand_Name": "LG",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Brand_Name": "LG"
           },
           "platforms": [
             "Android_4_2"
@@ -215,22 +191,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
           "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/*KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "INM8002KP",
@@ -238,9 +198,7 @@
             "Device_Brand_Name": "Intenso",
             "Device_Name": "TAB 824",
             "Device_Type": "Tablet",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Pointing_Method": "touchscreen"
+            "isTablet": "true"
           },
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -252,12 +210,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#;HTC_Flyer_P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P510e",
+            "Device_Code_Name": "Flyer P510e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Flyer"
+            "Device_Name": "Flyer P510e",
+            "isTablet": "true",
+            "Device_Type": "FonePad"
           },
           "platforms": [
             "Android_3_2"
@@ -284,8 +242,6 @@
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFTT",
             "Device_Brand_Name": "Amazon"
@@ -564,10 +520,7 @@
             "Device_Code_Name": "GT-I5700",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Spica",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "Device_Name": "Galaxy Spica"
           },
           "platforms": [
             "Android_2_1"
@@ -595,6 +548,18 @@
           },
           "platforms": [
             "Android_2_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I9000T",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "GT-I9000T"
+          },
+          "platforms": [
+            "Android_2_2"
           ]
         },
         {
@@ -655,18 +620,6 @@
           },
           "platforms": [
             "Android_2_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "Desire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire"
-          },
-          "platforms": [
-            "Android_2_1", "Android_2_2"
           ]
         },
         {
@@ -1351,7 +1304,7 @@
             "Device_Code_Name": "X10iv",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "X10iv"
+            "Device_Name": "Xperia X10"
           },
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
@@ -1399,7 +1352,9 @@
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
+            "Device_Name": "Folio 100",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -1411,7 +1366,9 @@
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
+            "Device_Name": "Folio 100",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_2"
@@ -1423,7 +1380,9 @@
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
+            "Device_Name": "Folio 100",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_2"
@@ -1435,7 +1394,9 @@
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
+            "Device_Name": "Folio 100",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_2"
@@ -1447,7 +1408,9 @@
             "Device_Code_Name": "Folio 100",
             "Device_Maker": "Toshiba",
             "Device_Brand_Name": "Toshiba",
-            "Device_Name": "Folio 100"
+            "Device_Name": "Folio 100",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -1667,7 +1630,9 @@
             "Device_Code_Name": "P7901A",
             "Device_Maker": "Epad",
             "Device_Brand_Name": "Epad",
-            "Device_Name": "P7901A"
+            "Device_Name": "P7901A",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_1", "Android_2_2"
@@ -1715,7 +1680,9 @@
             "Device_Code_Name": "BASE Tab",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Name": "BASE Tab"
+            "Device_Name": "BASE Tab",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1804,18 +1771,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9000T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9000T"
-          },
-          "platforms": [
-            "Android_2_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9003 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9003",
@@ -1843,7 +1798,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P1000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "GT-P1000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -1857,7 +1812,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P1010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "GT-P1010",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -1933,11 +1888,7 @@
             "Device_Code_Name": "GT-S5830i",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Ace",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy Ace"
           },
           "platforms": [
             "Android_2_3"
@@ -2043,7 +1994,7 @@
             "Device_Code_Name": "P350",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "P350"
+            "Device_Name": "Optimus Me"
           },
           "platforms": [
             "Android_2_2"
@@ -2246,8 +2197,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 858 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
             "Device_Code_Name": "Vodafone 858",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
@@ -2319,11 +2268,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
@@ -2335,11 +2280,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2352,11 +2293,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3"
@@ -2368,9 +2305,7 @@
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2382,9 +2317,7 @@
             "Device_Code_Name": "GT-I9100P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II NFC"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2396,9 +2329,7 @@
             "Device_Code_Name": "GT-I9100T",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2541,19 +2472,19 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#BASE Tab 7.1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
             "Device_Code_Name": "BASE Tab",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Name": "BASE Tab 7.1"
+            "Device_Name": "BASE Tab 7.1",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2567,7 +2498,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2581,7 +2512,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2595,7 +2526,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
@@ -2748,7 +2679,7 @@
             "Device_Code_Name": "GT-I9105P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC"
+            "Device_Name": "Galaxy S II Plus NFC"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -2795,7 +2726,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8010",
@@ -2969,7 +2899,9 @@
             "Device_Code_Name": "Flyer P510e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Flyer P510e"
+            "Device_Name": "Flyer P510e",
+            "isTablet": "true",
+            "Device_Type": "FonePad"
           },
           "platforms": [
             "Android_2_3"
@@ -3096,19 +3028,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "Desire S",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire S"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC?DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "S510e",
             "Device_Maker": "HTC",
@@ -3117,6 +3037,18 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC?DesireS* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "Desire S",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire S"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -3377,7 +3309,7 @@
             "Device_Code_Name": "LT22i",
             "Device_Maker": "SonyEricsson",
             "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia P LT22i"
+            "Device_Name": "Xperia P"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -3458,12 +3390,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MEDION LIFE P4310 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "LifeTab P4310",
+            "Device_Code_Name": "Life P4310",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab P4310"
+            "Device_Name": "Life P4310"
           },
           "platforms": [
             "Android_2_3", "Android_4_0"
@@ -3690,7 +3620,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#POV_TAB-PROTAB30-IPS10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Protab 3 XXL",
@@ -4067,8 +3996,8 @@
           "properties": {
             "Device_Code_Name": "U8600",
             "Device_Maker": "Huawei",
-            "Device_Brand_Name": "T-Mobile",
-            "Device_Name": "Move Balance"
+            "Device_Brand_Name": "Huawei",
+            "Device_Name": "T-Mobile Move Balance"
           },
           "platforms": [
             "Android_2_3"
@@ -4113,11 +4042,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart II Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
             "Device_Code_Name": "v860",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Vodafone",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
             "Device_Name": "Smart II 3G"
           },
           "platforms": [
@@ -4130,7 +4057,9 @@
             "Device_Code_Name": "Smart Tab III 10",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Smart Tab III 10"
+            "Device_Name": "Smart Tab III 10",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_2"
@@ -4791,7 +4720,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "FonePad",
             "Device_Code_Name": "A510",
@@ -4806,7 +4734,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A511 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "FonePad",
             "Device_Code_Name": "A511",
@@ -4864,7 +4791,7 @@
             "Device_Code_Name": "OT-6030D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 6030D"
+            "Device_Name": "One Touch Idol"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -4915,7 +4842,7 @@
             "Device_Name": "Xperia Z1"
           },
           "platforms": [
-            "Android_4_4"
+            "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5051,7 +4978,7 @@
             "Device_Name": "Regza AT300"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -5093,13 +5020,12 @@
             "Device_Name": "Iconia A1-810"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#B1-A71 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "B1-A71",
@@ -5164,7 +5090,7 @@
           "properties": {
             "Device_Code_Name": "Cynus T1",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
+            "Device_Brand_Name": "Elson",
             "Device_Name": "Cynus T1"
           },
           "platforms": [
@@ -5176,7 +5102,7 @@
           "properties": {
             "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
+            "Device_Brand_Name": "Elson",
             "Device_Name": "Cynus T2"
           },
           "platforms": [
@@ -5261,10 +5187,11 @@
             "Device_Code_Name": "GT-I9195",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Mini"
+            "Device_Name": "Galaxy S4 Mini",
+            "JavaApplets": "false"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5273,7 +5200,7 @@
             "Device_Code_Name": "GT-I9205",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9205"
+            "Device_Name": "Galaxy Mega 6.3"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5282,6 +5209,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -5294,6 +5222,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-i9300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -5357,10 +5286,7 @@
             "Device_Code_Name": "GT-I9505",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true"
+            "Device_Name": "Galaxy S4"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -5377,21 +5303,21 @@
             "Device_Name": "Galaxy Note 8.0"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5110 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "GT-N5110",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy Note 8.0"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5403,7 +5329,7 @@
             "Device_Name": "Galaxy Note II"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5429,13 +5355,12 @@
             "Device_Name": "Galaxy Note 10.1 LTE"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-P3100",
@@ -5542,7 +5467,7 @@
             "Device_Name": "Galaxy Tab 3 10.1"
           },
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5562,8 +5487,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -5576,8 +5499,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7710 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7710",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -5600,6 +5521,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "Desire",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Name": "Desire"
+          },
+          "platforms": [
+            "Android_2_1", "Android_2_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SGH-T989 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "SGH-T989",
@@ -5614,7 +5547,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Cynus F4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "MT-7521S",
+            "Device_Code_Name": "Cynus F4",
             "Device_Maker": "Mobistel",
             "Device_Brand_Name": "Mobistel",
             "Device_Name": "Cynus F4"
@@ -5641,9 +5574,7 @@
             "Device_Code_Name": "M7",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "One"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5880,7 +5811,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DROID BIONIC 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "Droid Bionic 4G LTE",
+            "Device_Code_Name": "XT875",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Name": "Droid Bionic 4G LTE"
@@ -5907,9 +5838,7 @@
             "Device_Code_Name": "PJ83100",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One X",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "One X"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -5933,7 +5862,7 @@
             "Device_Code_Name": "M8",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One"
+            "Device_Name": "One M8"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -5954,7 +5883,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_SensationXE_Beats Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "Z710",
+            "Device_Code_Name": "Sensation XE Beats Z715e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Name": "Sensation"
@@ -6149,7 +6078,7 @@
             "Device_Code_Name": "E975",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "E975"
+            "Device_Name": "Optimus G"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6346,7 +6275,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME302C",
@@ -6362,7 +6290,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "ME371MG",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
@@ -6502,7 +6430,9 @@
             "Device_Code_Name": "PMP5080CPRO",
             "Device_Maker": "Prestigio",
             "Device_Brand_Name": "Prestigio",
-            "Device_Name": "MultiPad 5080 Pro"
+            "Device_Name": "MultiPad 5080 Pro",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_0"
@@ -6745,7 +6675,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Slider SL101 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "SL101",
@@ -6838,10 +6767,8 @@
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad",
-            "isMobileDevice": "true",
             "Device_Type": "FonePad",
-            "isTablet": "true",
-            "Device_Pointing_Method": "touchscreen"
+            "isTablet": "true"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -6854,10 +6781,8 @@
             "Device_Maker": "HP",
             "Device_Brand_Name": "HP",
             "Device_Name": "Touchpad",
-            "isMobileDevice": "true",
             "Device_Type": "FonePad",
-            "isTablet": "true",
-            "Device_Pointing_Method": "touchscreen"
+            "isTablet": "true"
           },
           "platforms": [
             "Android_4_0"
@@ -6928,7 +6853,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#UNO_X10 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Uno X10",
@@ -6956,9 +6880,11 @@
           "match": "Mozilla\/5.0 (#PLATFORM#X10.Dual Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "X10",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Maker": "Pearl",
+            "Device_Brand_Name": "Pearl",
+            "Device_Name": "X10",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -6968,9 +6894,11 @@
           "match": "Mozilla\/5.0 (#PLATFORM#X10.Dual+ Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "X10",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
+            "Device_Maker": "Pearl",
+            "Device_Brand_Name": "Pearl",
+            "Device_Name": "Touchlet X10.Dual+",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -7086,8 +7014,6 @@
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon.com, Inc.",
             "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Code_Name": "KFOT",
             "Device_Brand_Name": "Amazon"
@@ -7099,12 +7025,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TechniPad_10-3G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Name": "TechniPad 10 3G",
             "Device_Maker": "TECHNISAT",
-            "Device_Pointing_Method": "touchscreen",
             "Device_Code_Name": "TechniPad 10 3G",
             "Device_Brand_Name": "TECHNISAT"
           },
@@ -7155,7 +7079,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8013",
@@ -7182,15 +7105,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Nexus 4",
             "Device_Maker": "LG",
             "Device_Brand_Name": "Google",
             "Device_Name": "Nexus 4"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
           ]
         },
         {
@@ -7222,7 +7143,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME173X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ME173X",
@@ -7238,7 +7158,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A1-811 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A1-811",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -7266,7 +7186,7 @@
             "Device_Code_Name": "SCH-R720",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "R720 Admire"
+            "Device_Name": "Admire"
           },
           "platforms": [
             "Android_2_3"
@@ -7309,8 +7229,7 @@
             "Device_Name": "Linux Desktop",
             "Device_Pointing_Method": "mouse",
             "Device_Maker": "Various",
-            "isMobileDevice": "false",
-            "isTablet": "false"
+            "isMobileDevice": "false"
           },
           "platforms": [
             "Android_2_3"
@@ -7329,8 +7248,7 @@
             "Device_Name": "Linux Desktop",
             "Device_Pointing_Method": "mouse",
             "Device_Maker": "Various",
-            "isMobileDevice": "false",
-            "isTablet": "false"
+            "isMobileDevice": "false"
           },
           "platforms": [
             "Android_2_3"
@@ -7340,7 +7258,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10312 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "LifeTab E10312",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
@@ -7496,7 +7414,7 @@
             "Device_Code_Name": "ME172V",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
-            "Device_Name": "Memo Pad"
+            "Device_Name": "MeMO Pad ME172V"
           },
           "platforms": [
             "Android_4_1"
@@ -7505,9 +7423,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PadFone 2 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PadFone 2",
+            "Device_Code_Name": "A68",
             "Device_Maker": "Asus",
             "Device_Brand_Name": "Asus",
             "Device_Name": "PadFone 2"
@@ -7533,8 +7449,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D802 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "D802",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
@@ -7547,8 +7461,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-L160L Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "L160L",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
@@ -7561,10 +7473,9 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Cynus T2 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isTablet": "false",
             "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
+            "Device_Brand_Name": "Elson",
             "Device_Name": "Cynus T2"
           },
           "platforms": [
@@ -7590,7 +7501,7 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "MD 98488",
+            "Device_Code_Name": "Lifetab E7312",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
             "Device_Name": "Lifetab E7312"
@@ -7602,24 +7513,24 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "Device_Code_Name": "SCH-I535",
+            "Device_Code_Name": "SCH-I535 4G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III 4G"
+            "Device_Name": "Galaxy S III 4G CDMA"
           },
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TP10.1-1500DC-metal Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#TP10.1-1500DC* Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "TP10",
+            "Device_Code_Name": "TP10.1-1500DC",
             "Device_Maker": "I-ONIK",
             "Device_Brand_Name": "I-ONIK",
-            "Device_Name": "TP10"
+            "Device_Name": "TP10.1-1500DC"
           },
           "platforms": [
             "Android_4_1"
@@ -7644,7 +7555,7 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "MD 98282",
+            "Device_Code_Name": "Lifetab E7316",
             "Device_Maker": "Medion",
             "Device_Brand_Name": "Medion",
             "Device_Name": "Lifetab E7316"
@@ -7664,7 +7575,7 @@
             "Device_Name": "Galaxy Tab 3 8.0 LTE"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -7684,7 +7595,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AT300SE Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "AT300SE",
@@ -7747,7 +7657,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#VT10416-1 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "VT10416-1",
@@ -7762,7 +7671,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#VT10416-2 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "VT10416-2",
@@ -7777,7 +7685,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NEXT Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Next",
@@ -7792,7 +7699,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10320 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "E10320",
@@ -7807,7 +7713,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10310 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "E10310",
@@ -7822,7 +7727,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMP7100D3G Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "PMP7100D3G",
@@ -7837,9 +7741,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Sprint APA9292KT Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "9292",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -7852,9 +7753,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A3-A10 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "A3-A10",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -7865,9 +7765,8 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "B8000-F",
@@ -7882,7 +7781,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P5220* Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-P5220",
@@ -7897,7 +7795,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ST10216-2 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "ST10216-2",
@@ -7912,9 +7809,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI G525-U00 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "G525-U00",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
@@ -7927,9 +7821,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI Y530-U00 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Y530-U00",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
@@ -7942,9 +7833,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_Desire_500 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Desire 500",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
@@ -7957,13 +7845,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AN9G2I Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "9 G2",
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "AN9G2I",
             "Device_Maker": "Arnova",
             "Device_Brand_Name": "Arnova",
-            "Device_Name": "9 G2"
+            "Device_Name": "AN9G2I"
           },
           "platforms": [
             "Android_4_0"
@@ -7972,7 +7859,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ARNOVA 101 G4 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "101 G4",
@@ -7987,9 +7873,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S6810P Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S6810P",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8002,7 +7885,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Zaffire 785",
@@ -8017,7 +7899,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Zaffire 1010",
@@ -8032,9 +7913,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AX540",
             "Device_Maker": "Bmobile",
             "Device_Brand_Name": "Bmobile",
@@ -8047,9 +7925,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "AX540",
             "Device_Maker": "Bmobile",
             "Device_Brand_Name": "Bmobile",
@@ -8062,7 +7937,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TAB10-400*Build\/*) AppleWebKit* (KHTML,*like*Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "TAB10-400",
@@ -8077,9 +7951,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A328",
             "Device_Maker": "Lenovo",
             "Device_Brand_Name": "Lenovo",
@@ -8092,9 +7963,6 @@
         {
           "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "0912",
             "Device_Maker": "NEC",
             "Device_Brand_Name": "DoCoMo",
@@ -8107,9 +7975,6 @@
         {
           "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Studio 5.0 S II",
             "Device_Maker": "BLU",
             "Device_Brand_Name": "BLU",
@@ -8122,9 +7987,6 @@
         {
           "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "IQ4409 Quad",
             "Device_Maker": "Fly",
             "Device_Brand_Name": "Fly",
@@ -8137,9 +7999,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I545 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SCH-I545",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8152,9 +8011,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530NU Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
-            "Device_Type": "Tablet",
+            "Device_Type": "FonePad",
             "Device_Code_Name": "SM-T530NU",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8167,8 +8025,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900A* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G900A",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8181,8 +8037,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900T* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G900T",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8195,8 +8049,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N900V Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N900V",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8209,9 +8061,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SPH-L720 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SPH-L720",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8224,8 +8073,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N910V 4G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8238,7 +8085,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-P600",
@@ -8253,9 +8099,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9506* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9506",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8268,7 +8111,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P605 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-P605",
@@ -8283,9 +8125,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N7505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N7505",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8298,23 +8137,18 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9295",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Name": "Galaxy S4 Active"
           },
           "platforms": [
-            "Android_4_2", "Android_4_3"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9515 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9515",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -8322,6 +8156,178 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900F* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "SM-G900F",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S5 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9301I Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I9301I",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S III Neo+"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G800F Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "SM-G800F",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S5 Mini"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T535 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "SM-T535",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab 4 10.1"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S785X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "Lifetab S785X",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Lifetab S785X"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S1033X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "Lifetab S1033X",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Lifetab S1033X"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T805 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "SM-T805",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab S 10.5 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T230 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T230",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab 4 7.0"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T800 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T800",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab S 10.5"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T525 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "FonePad",
+            "Device_Code_Name": "SM-T525",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Tab Pro 10.1"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-P905 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-P905",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Note Pro 12.2 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-P900 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-P900",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Note Pro 12.2 Wi-Fi"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7275R Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-S7275R",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Ace 3"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

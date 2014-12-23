@@ -215,10 +215,12 @@
         {
           "match": "SAMSUNG-SGH-E250*?Dolphin\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Device_Code_Name": "SGH E250",
+            "Device_Code_Name": "SGH-E250",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH E250"
+            "Device_Name": "SGH-E250",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone"
           }
         },
         {

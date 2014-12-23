@@ -1,11 +1,11 @@
 {
   "division": "Googlebot",
-  "sortIndex": 1120,
+  "sortIndex": 1134,
   "userAgents": [
     {
       "userAgent": "Googlebot",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

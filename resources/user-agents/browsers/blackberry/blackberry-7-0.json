@@ -110,8 +110,7 @@
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9900; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry Bold Touch 9900",
-            "Device_Name": "Dakota",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Dakota"
           }
         },
         {

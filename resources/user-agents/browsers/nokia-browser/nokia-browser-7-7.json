@@ -44,6 +44,9 @@
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "N8-00",
             "Device_Name": "N8",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
             "Device_Pointing_Method": "touchscreen"
           }
         }

@@ -39,8 +39,22 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
+            "Device_Code_Name": "GT-S7562",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S Duos",
             "isMobileDevice": "true",
             "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "properties": {
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -54,8 +68,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -69,23 +81,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S7562",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
-          },
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
-          "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -99,12 +94,12 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
+            "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III"
+            "Device_Name": "Galaxy S III",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -179,6 +174,9 @@
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "isTablet": "false",
             "Device_Code_Name": "GT-S5360",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -248,11 +246,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -295,6 +289,36 @@
             "Device_Maker": "Videocon",
             "Device_Brand_Name": "Videocon",
             "Device_Name": "A15"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "GT-S5670",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Fit",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "MB525",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "DEFY"
           },
           "platforms": [
             "Android_4_0"
