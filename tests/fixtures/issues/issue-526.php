@@ -6,7 +6,7 @@ return [
         [
             'Browser' => 'chlooe Bot',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'AsiaWS network',
             'Version' => '1.0',
             'MajorVer' => '0',
@@ -39,7 +39,7 @@ return [
         [
             'Browser' => 'SeeBot',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'Seegnify',
             'Version' => '2.0',
             'MajorVer' => '2',
