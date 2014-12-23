@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/#MAJORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64", "Linux"
           ]

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-4' => [
+    'issue-004' => [
         'Mozilla/5.0 (PLAYSTATION 3; 2.00)',
         [
             'Browser' => 'Playstation Browser',

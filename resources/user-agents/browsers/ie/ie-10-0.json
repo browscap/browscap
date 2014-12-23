@@ -139,6 +139,20 @@
           "platforms": [
             "Win8_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/6.0; Xbox; Xbox One*",
+          "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Xbox One",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Name": "Xbox One",
+            "Device_Pointing_Method": "mouse"
+          },
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32"
+          ]
         }
       ]
     }
