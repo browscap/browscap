@@ -71,12 +71,13 @@
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S7562*) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S Duos"
+            "Device_Name": "Galaxy S Duos",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
@@ -85,8 +86,6 @@
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7562",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",

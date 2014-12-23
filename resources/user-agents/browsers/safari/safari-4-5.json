@@ -32,6 +32,20 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (SMART-TV; X11;#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "properties": {
+            "Device_Code_Name": "general TV Device",
+            "Device_Maker": "unknown",
+            "Device_Brand_Name": "unknown",
+            "Device_Name": "general TV Device",
+            "Device_Type": "TV Device",
+            "Device_Pointing_Method": "unknown"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "CentOS",

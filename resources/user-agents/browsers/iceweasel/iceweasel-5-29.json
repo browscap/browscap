@@ -1,13 +1,13 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": ["3.5"],
-  "sortIndex": 3142,
-  "lite": false,
+  "versions": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+  "sortIndex": 3146,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Linux",
-      "engine": "Gecko_1_9_1",
+      "engine": "Gecko_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
@@ -30,6 +30,12 @@
         "Device_Pointing_Method": "mouse"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/#MAJORVER#*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [

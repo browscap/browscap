@@ -34,7 +34,6 @@
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "general Mobile Device",
             "Device_Maker": "unknown",
             "Device_Brand_Name": "unknown",

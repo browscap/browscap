@@ -49,8 +49,6 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei",
             "Device_Code_Name": "G7300",
@@ -71,8 +69,6 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei",
             "Device_Code_Name": "G7300",
@@ -93,8 +89,6 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei",
             "Device_Code_Name": "G7300",
@@ -115,8 +109,6 @@
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Name": "G7300",
             "Device_Maker": "Huawei",
             "Device_Code_Name": "G7300",

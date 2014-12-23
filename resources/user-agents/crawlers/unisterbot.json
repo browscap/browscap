@@ -68,7 +68,7 @@
       },
       "children": [
         {
-          "match": "unister-test-zabbix"
+          "match": "unister-test-zabbix*"
         },
         {
           "match": "unister-test-acceptance"

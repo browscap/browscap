@@ -1,6 +1,7 @@
 {
   "division": "IEMobile 8.0",
   "sortIndex": 1717,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IEMobile 8.0",
@@ -329,7 +330,6 @@
           "match": "SAMSUNG-GT-S3370*(*compatible*;*MSIE 6.0; Windows CE; IEMobile 8.*",
           "properties": {
             "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S3370",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -357,8 +357,7 @@
             "Device_Code_Name": "GT-S5230",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5230",
-            "Device_Type": "Mobile Phone"
+            "Device_Name": "GT-S5230"
           },
           "platforms": [
             "WinCE"

@@ -44,7 +44,7 @@
           "properties": {
             "Device_Code_Name": "Cynus T2",
             "Device_Maker": "Mobistel",
-            "Device_Brand_Name": "Mobistel",
+            "Device_Brand_Name": "Elson",
             "Device_Name": "Cynus T2"
           },
           "platforms": [
@@ -69,11 +69,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_4_0"
@@ -113,9 +109,7 @@
             "Device_Code_Name": "M7",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "One",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "One"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -138,9 +132,6 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-G900F*",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G900F",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
@@ -153,9 +144,6 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#D6503 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "D6503",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
@@ -168,10 +156,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HUAWEI G700-U10 *",
           "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "G700",
+            "Device_Code_Name": "G700-U10",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Name": "Ascend G700"
@@ -183,7 +168,6 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-P600 *",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-P600",
@@ -198,7 +182,6 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005 *",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "false",
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N9005",

@@ -1,6 +1,6 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
+  "versions": ["3.35", "3.34", "3.33", "3.32", "3.31", "3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
   "sortIndex": 1125,
   "lite": true,
   "userAgents": [
@@ -31,6 +31,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
           "properties": {
             "Device_Name": "Kindle Fire 7",
             "Device_Maker": "Amazon.com, Inc.",
@@ -47,6 +48,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
@@ -63,6 +65,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
           "properties": {
             "Device_Name": "Kindle Fire HD 7",
             "Device_Maker": "Amazon.com, Inc.",
