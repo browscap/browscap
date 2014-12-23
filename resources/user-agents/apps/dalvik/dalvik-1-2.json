@@ -33,11 +33,7 @@
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_2"
@@ -61,11 +57,7 @@
             "Device_Code_Name": "GT-I9000",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S"
           },
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"
@@ -105,10 +97,7 @@
             "Device_Code_Name": "Desire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Desire"
           },
           "platforms": [
             "Android_2_2"
@@ -120,10 +109,7 @@
             "Device_Code_Name": "Legend",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Name": "Legend",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Legend"
           },
           "platforms": [
             "Android_2_2"
@@ -135,10 +121,7 @@
             "Device_Code_Name": "P500",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus One",
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Optimus One"
           },
           "platforms": [
             "Android_2_2"

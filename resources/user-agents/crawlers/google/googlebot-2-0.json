@@ -6,8 +6,8 @@
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot",
-        "Comment": "Googlebot",
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
@@ -34,6 +34,9 @@
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"

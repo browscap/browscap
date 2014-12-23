@@ -6,8 +6,8 @@
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot",
-        "Comment": "Googlebot",
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
@@ -26,7 +26,7 @@
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
@@ -53,6 +53,9 @@
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
+        },
+        {
+          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"

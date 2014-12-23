@@ -468,7 +468,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Moto G',
             'Device_Maker' => 'Motorola',
-            'Device_Type' => 'Smartphone',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'XT1032',
             'Device_Brand_Name' => 'Motorola',

@@ -160,7 +160,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'One',
             'Device_Maker' => 'HTC',
-            'Device_Type' => 'Smartphone',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'M7',
             'Device_Brand_Name' => 'HTC',

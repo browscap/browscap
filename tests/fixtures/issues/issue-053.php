@@ -20,7 +20,7 @@ return [
             'Crawler' => false,
             'Device_Name' => 'Nexus 4',
             'Device_Maker' => 'LG',
-            'Device_Type' => 'Smartphone',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Nexus 4',
             'Device_Brand_Name' => 'Google',

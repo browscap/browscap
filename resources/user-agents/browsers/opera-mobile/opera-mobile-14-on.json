@@ -33,7 +33,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8010",
@@ -48,7 +47,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P3100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-P3100",
@@ -63,7 +61,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Slider SL101 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "SL101",
@@ -78,7 +75,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
             "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N8013",
@@ -96,11 +92,7 @@
             "Device_Code_Name": "GT-I9100G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Smartphone",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S II"
           },
           "platforms": [
             "Android_2_3", "Android"
@@ -109,13 +101,10 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
             "Device_Code_Name": "GT-I8190",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III Mini",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S III Mini"
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
@@ -124,7 +113,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 7 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
             "isTablet": "true",
             "Device_Type": "Tablet",
             "Device_Code_Name": "Nexus 7",
@@ -139,14 +127,11 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Smartphone",
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S III",
-            "Device_Pointing_Method": "touchscreen"
+            "Device_Name": "Galaxy S III"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"

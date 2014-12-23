@@ -40,7 +40,7 @@
         {
           "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
           "properties": {
-            "Device_Type": "Smartphone",
+            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
             "Device_Name": "iPhone",
             "Device_Maker": "Apple Inc",
