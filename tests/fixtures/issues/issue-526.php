@@ -9,7 +9,7 @@ return [
             'Browser_Bits' => '0',
             'Browser_Maker' => 'AsiaWS network',
             'Version' => '1.0',
-            'MajorVer' => '0',
+            'MajorVer' => '1',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
