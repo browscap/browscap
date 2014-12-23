@@ -137,7 +137,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 909*",
+          "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; 909*",
           "properties": {
             "Device_Code_Name": "Lumia 1020",
             "Device_Maker": "Nokia",

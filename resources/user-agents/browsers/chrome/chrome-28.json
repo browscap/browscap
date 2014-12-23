@@ -1971,10 +1971,10 @@
           "properties": {
             "isTablet": "true",
             "Device_Type": "Tablet",
-            "Device_Code_Name": "3830",
+            "Device_Code_Name": "Venue 8 3830",
             "Device_Maker": "Dell",
             "Device_Brand_Name": "Dell",
-            "Device_Name": "Venue 8"
+            "Device_Name": "Venue 8 3830"
           },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
