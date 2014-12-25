@@ -149,54 +149,8 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
-        $writerCollection = $this->getMock(
-            '\Browscap\Writer\WriterCollection',
-            array(
-                'fileStart',
-                'renderHeader',
-                'renderAllDivisionsHeader',
-                'renderSectionHeader',
-                'renderSectionBody',
-                'fileEnd',
-            ),
-            array(),
-            '',
-            false
-        );
-        $writerCollection
-            ->expects(self::once())
-            ->method('fileStart')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('renderHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('renderAllDivisionsHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::exactly(3))
-            ->method('renderSectionHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::exactly(3))
-            ->method('renderSectionBody')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('fileEnd')
-            ->will(self::returnSelf())
-        ;
-
         $generator = new BuildFullFileOnlyGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test');
     }
@@ -262,54 +216,8 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
-        $writerCollection = $this->getMock(
-            '\Browscap\Writer\WriterCollection',
-            array(
-                'fileStart',
-                'renderHeader',
-                'renderAllDivisionsHeader',
-                'renderSectionHeader',
-                'renderSectionBody',
-                'fileEnd',
-            ),
-            array(),
-            '',
-            false
-        );
-        $writerCollection
-            ->expects(self::once())
-            ->method('fileStart')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('renderHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('renderAllDivisionsHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::exactly(3))
-            ->method('renderSectionHeader')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::exactly(3))
-            ->method('renderSectionBody')
-            ->will(self::returnSelf())
-        ;
-        $writerCollection
-            ->expects(self::once())
-            ->method('fileEnd')
-            ->will(self::returnSelf())
-        ;
-
         $generator = new BuildFullFileOnlyGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test', false);
     }
