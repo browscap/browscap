@@ -11,6 +11,7 @@
         "Comment": "K-Meleon Generic",
         "Browser": "K-Meleon",
         "Browser_Type": "Browser",
+        "Browser_Maker": "kmeleonbrowser.org",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

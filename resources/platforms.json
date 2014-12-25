@@ -859,10 +859,10 @@
       "inherits": "Ubuntu"
     },
     "Ubuntu_08_04": {
-      "match": "*Ubuntu/08.04*",
+      "match": "*Ubuntu/8.04*",
       "inherits": "Ubuntu",
       "properties": {
-        "Platform_Version": "08.04"
+        "Platform_Version": "8.04"
       }
     },
     "Ubuntu_10_04": {
@@ -888,10 +888,10 @@
       }
     },
     "Ubuntu_08_04_64": {
-      "match": "*Ubuntu/08.04*",
+      "match": "*Ubuntu/8.04*",
       "inherits": "Ubuntu",
       "properties": {
-        "Platform_Version": "08.04",
+        "Platform_Version": "8.04",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
       }

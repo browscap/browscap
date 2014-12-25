@@ -1464,6 +1464,34 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ME371MG",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Name": "Fonepad ME371MG"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SGPT13 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "isTablet": "true",
+            "Device_Code_Name": "SGPT13",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia Tablet S"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

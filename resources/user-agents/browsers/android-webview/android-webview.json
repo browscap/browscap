@@ -2263,43 +2263,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (Linux*; GT-I9100 Build\/GINGERBREAD) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100G",
@@ -2333,6 +2296,43 @@
           },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
+          },
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux*; GT-I9100 Build\/GINGERBREAD) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "Device_Code_Name": "GT-I9100",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy S II"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -7408,7 +7408,7 @@
             "Device_Name": "MeMO Pad Smart 10"
           },
           "platforms": [
-            "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
