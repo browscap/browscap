@@ -27,8 +27,7 @@ use Monolog\Logger;
  * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  */
-class BuildHelperTest
-    extends \PHPUnit_Framework_TestCase
+class BuildHelperTest extends \PHPUnit_Framework_TestCase
 {
     public function testRun()
     {
@@ -70,9 +69,74 @@ class BuildHelperTest
             ->method('renderSectionBody')
             ->will(self::returnSelf());
 
+        $mockDivision = $this->getMock(
+            '\Browscap\Data\Division',
+            array('getUserAgents', 'getVersions'),
+            array(),
+            '',
+            false
+        );
+        $mockDivision
+            ->expects(self::exactly(4))
+            ->method('getUserAgents')
+            ->will(
+                self::returnValue(
+                    array(
+                        0 => array(
+                            'properties' => array(
+                                'Parent'   => 'DefaultProperties',
+                                'Browser'  => 'xyz',
+                                'Version'  => '1.0',
+                                'MajorBer' => '1',
+                            ),
+                            'userAgent'  => 'abc'
+                        )
+                    )
+                )
+            )
+        ;
+        $mockDivision
+            ->expects(self::once())
+            ->method('getVersions')
+            ->will(self::returnValue(array(2)))
+        ;
+
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
+            array(),
+            '',
+            false
+        );
+        $mockCollection
+            ->expects(self::once())
+            ->method('getGenerationDate')
+            ->will(self::returnValue(new \DateTime()))
+        ;
+        $mockCollection
+            ->expects(self::exactly(2))
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDefaultBrowser')
+            ->will(self::returnValue($mockDivision))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('getDivisions')
+            ->will(self::returnValue(array($mockDivision)))
+        ;
+        $mockCollection
+            ->expects(self::once())
+            ->method('checkProperty')
+            ->will(self::returnValue(true))
+        ;
+
         $collectionCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
-            array('setLogger', 'getLogger'),
+            array('setLogger', 'getLogger', 'createDataCollection'),
             array(),
             '',
             false
@@ -83,6 +147,9 @@ class BuildHelperTest
         $collectionCreator->expects(self::once())
             ->method('getLogger')
             ->will(self::returnValue($logger));
+        $collectionCreator->expects(self::once())
+            ->method('createDataCollection')
+            ->will(self::returnValue($mockCollection));
 
         BuildHelper::run('test', '.', $logger, $writerCollection, $collectionCreator);
     }
