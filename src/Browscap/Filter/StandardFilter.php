@@ -22,13 +22,13 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class StandartFilter
+ * Class StandardFilter
  *
  * @category   Browscap
  * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandartFilter implements FilterInterface
+class StandardFilter implements FilterInterface
 {
     /**
      * returns the Type of the filter
