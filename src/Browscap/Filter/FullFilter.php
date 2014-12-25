@@ -64,6 +64,6 @@ class FullFilter implements FilterInterface
     {
         $propertyHolder = new PropertyHolder();
 
-        return !$propertyHolder->isOutputProperty($property, $writer);
+        return $propertyHolder->isOutputProperty($property, $writer);
     }
 }
