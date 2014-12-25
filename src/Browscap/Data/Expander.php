@@ -229,8 +229,6 @@ class Expander
     {
         $output = array();
 
-        // @todo This needs work here. What if we specify platforms AND versions?
-        // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
                 $platformData = $this->getDataCollection()->getPlatform($platform);

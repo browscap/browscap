@@ -53,7 +53,7 @@ class JsonFormatter implements FormatterInterface
      */
     public function formatPropertyName($name)
     {
-        return $this->json_encode($name);
+        return $this->jsonEncode($name);
     }
 
     /**
@@ -80,13 +80,13 @@ class JsonFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $this->json_encode($propertyHolder->checkValueInArray($property, $value));
+                    $valueOutput = $this->jsonEncode($propertyHolder->checkValueInArray($property, $value));
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '""';
                 }
                 break;
             default:
-                $valueOutput = $this->json_encode($value);
+                $valueOutput = $this->jsonEncode($value);
                 break;
         }
 
@@ -122,7 +122,7 @@ class JsonFormatter implements FormatterInterface
      *
      * @return string
      */
-    private function json_encode($val)
+    private function jsonEncode($val)
     {
         if ($val === null) {
             return '"null"';
@@ -147,7 +147,7 @@ class JsonFormatter implements FormatterInterface
         }
         $res = array();
         foreach ($val as $k => $v) {
-            $v = $this->json_encode($v);
+            $v = $this->jsonEncode($v);
             if ($assoc) {
                 $k = '"' . addslashes($k) . '"';
                 $v = $k . ':' . $v;

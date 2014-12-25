@@ -335,7 +335,6 @@ class JsonWriter implements WriterInterface
         }
 
         $propertiesToOutput = array();
-        $lastProperty       = '';
 
         foreach ($properties as $property) {
             if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
@@ -405,8 +404,6 @@ class JsonWriter implements WriterInterface
         if ($this->isSilent()) {
             return $this;
         }
-
-        //fputs($this->file, '');
 
         if ('*' !== $sectionName) {
             fputs($this->file, ',');

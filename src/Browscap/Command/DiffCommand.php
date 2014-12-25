@@ -38,11 +38,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 class DiffCommand extends Command
 {
     /**
-     * @var int Number of differences found in total
-     */
-    private $diffsFound = 0;
-
-    /**
      * Configures the current command.
      */
     protected function configure()
@@ -77,8 +72,6 @@ class DiffCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->diffsFound = 0;
-
         $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
         $debug         = $input->getOption('debug');
