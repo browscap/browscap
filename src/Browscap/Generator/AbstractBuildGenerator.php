@@ -66,7 +66,7 @@ abstract class AbstractBuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->getLogger()    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**
