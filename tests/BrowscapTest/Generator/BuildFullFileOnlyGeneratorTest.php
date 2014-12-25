@@ -96,6 +96,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
+        //$this->markTestSkipped('Could not run test - no properties were defined to test');
         $mockDivision = $this->getMock(
             '\Browscap\Data\Division',
             array('getUserAgents', 'getVersions'),
@@ -146,7 +147,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($mockDivision))
         ;
         $mockCollection
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('getDefaultBrowser')
             ->will(self::returnValue($mockDivision))
         ;

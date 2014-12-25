@@ -361,33 +361,14 @@ class JsonWriter implements WriterInterface
                     }
                 }
             }
-            /**/
 
             $propertiesToOutput[$property] = $section[$property];
-            $lastProperty                  = $property;
         }
 
         fputs(
-                $this->file,
-                $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
-            );
-
-        /*
-        foreach ($propertiesToOutput as $property => $value) {
-            //         "Parent": "DefaultProperties",
-            fputs(
-                $this->file,
-                '    ' . $this->getFormatter()->formatPropertyName($property)
-                . ': ' . $this->getFormatter()->formatPropertyValue($value, $property)
-            );
-
-            if ($property !== $lastProperty) {
-                fputs($this->file, ',');
-            }
-
-            fputs($this->file, PHP_EOL);
-        }
-        /**/
+            $this->file,
+            $this->getFormatter()->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+        );
 
         return $this;
     }
