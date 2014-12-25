@@ -131,8 +131,8 @@ class PropertyHolder
     }
 
     /**
-     * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
+     * Determine if the specified property is an property that should
+     * be included in the "full" versions of the files only
      *
      * @param string $propertyName
      * @return boolean
@@ -153,13 +153,12 @@ class PropertyHolder
         if (isset($outputProperties[$propertyName])) {
             return true;
         }
-
         return false;
     }
 
     /**
-     * Determine if the specified property is an "extra" property (that should
-     * be included in the "full" versions of the files)
+     * Determine if the specified property is an property that should
+     * be included in the "full" versions of the files only
      *
      * @param string $propertyName
      * @param \Browscap\Writer\WriterInterface $writer

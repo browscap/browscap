@@ -233,8 +233,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('csv'))
         ;
 
-        $actualValue = $this->object->isStandardModeProperty('PropertyName', $mockWriter);
-        self::assertFalse($actualValue);
+        self::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
     }
 
     /**

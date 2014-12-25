@@ -31,11 +31,6 @@ use Browscap\Writer\WriterInterface;
 class FullFilter implements FilterInterface
 {
     /**
-     * @var array
-     */
-    private $properties = array();
-
-    /**
      * returns the Type of the filter
      *
      * @return string
@@ -67,18 +62,12 @@ class FullFilter implements FilterInterface
      */
     public function isOutputProperty($property, WriterInterface $writer = null)
     {
-        if (isset($this->properties[$property])) {
-            return $this->properties[$property];
-        }
-
         $propertyHolder = new PropertyHolder();
 
         if (!$propertyHolder->isOutputProperty($property, $writer)) {
-            $this->properties[$property] = false;
-        } else {
-            $this->properties[$property] = true;
+            return false;
         }
 
-        return $this->properties[$property];
+        return true;
     }
 }

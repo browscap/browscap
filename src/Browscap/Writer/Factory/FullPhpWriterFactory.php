@@ -45,9 +45,11 @@ class FullPhpWriterFactory
         $fullFilter    = new FullFilter();
         $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
         $formatter     = new PhpFormatter();
-        $fullPhpWriter->setLogger($logger)
+        $fullPhpWriter
+            ->setLogger($logger)
             ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter);
+            ->setFilter($fullFilter)
+        ;
         $writerCollection->addWriter($fullPhpWriter);
 
         return $writerCollection;
