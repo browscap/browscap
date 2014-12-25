@@ -141,7 +141,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(new \DateTime()))
         ;
         $mockCollection
-            ->expects(self::exactly(2))
+            ->expects(self::never())
             ->method('getDefaultProperties')
             ->will(self::returnValue($mockDivision))
         ;

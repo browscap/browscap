@@ -443,7 +443,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * @expectedException \UnexpectedValueException
+     * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains platform data for key "UA1", please use the "platform" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludePlatformData()
@@ -454,7 +454,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * @expectedException \UnexpectedValueException
+     * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains engine data for key "UA1", please use the "engine" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData()
