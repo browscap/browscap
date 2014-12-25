@@ -17,8 +17,8 @@
 
 namespace Browscap\Command;
 
-use Browscap\Generator\DiffGenerator;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\DiffGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
