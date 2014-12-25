@@ -84,10 +84,11 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
-        $resourceFolder = __DIR__ . '/../../resources/';
-        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-' . time();
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
         $generator      = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($mock));
+        self::assertSame($mock, $generator->getLogger());
     }
 
     public function testBuild()
@@ -152,8 +153,8 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
         ;
 
         // First, generate the INI files
-        $resourceFolder = __DIR__ . '/../../resources/';
-        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-' . time();
+        $resourceFolder = __DIR__ . '/../../../resources/';
+        $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
         $generator      = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($this->logger));
 

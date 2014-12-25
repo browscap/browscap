@@ -46,7 +46,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testGetPropertyType
      *
-     * @return array[]
+     * @return array<string|string>[]
      */
     public function propertyNameTypeDataProvider()
     {
@@ -111,7 +111,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testIsLiteModeProperty
      *
-     * @return array[]
+     * @return array<string|boolean>[]
      */
     public function litePropertiesDataProvider()
     {
@@ -169,7 +169,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testIsStandardModeProperty
      *
-     * @return array[]
+     * @return array<string|boolean>[]
      */
     public function standardPropertiesDataProvider()
     {
@@ -239,7 +239,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array
+     * @return array<string|boolean>[]
      */
     public function outputPropertiesDataProvider()
     {
@@ -314,7 +314,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testCheckValueInArray
      *
-     * @return array
+     * @return array<string|string>[]
      */
     public function checkValueInArrayProvider()
     {

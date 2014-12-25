@@ -108,8 +108,8 @@ class BuildFullFileOnlyGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
-     * @param string $iniFile
+     * @param string      $version
+     * @param string|null $iniFile
      */
     public function run($version, $iniFile = null)
     {

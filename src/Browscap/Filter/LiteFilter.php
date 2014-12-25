@@ -68,10 +68,6 @@ class LiteFilter implements FilterInterface
             return false;
         }
 
-        if (!$propertyHolder->isLiteModeProperty($property)) {
-            return false;
-        }
-
-        return true;
+        return $propertyHolder->isLiteModeProperty($property);
     }
 }

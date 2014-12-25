@@ -33,7 +33,7 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
     {
         $logger            = $this->getMock('\Monolog\Logger', array(), array(), '', false);
         $writerCollection  = $this->getMock(
-            '\Browscap\Writer\WriterCollection\WriterCollection',
+            '\Browscap\Writer\WriterCollection',
             array(),
             array(),
             '',

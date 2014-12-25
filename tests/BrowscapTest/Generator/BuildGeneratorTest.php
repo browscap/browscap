@@ -86,6 +86,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($mock));
+        self::assertSame($mock, $generator->getLogger());
     }
 
     public function testSetCollectionCreator()

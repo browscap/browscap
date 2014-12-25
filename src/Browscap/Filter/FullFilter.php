@@ -64,10 +64,6 @@ class FullFilter implements FilterInterface
     {
         $propertyHolder = new PropertyHolder();
 
-        if (!$propertyHolder->isOutputProperty($property, $writer)) {
-            return false;
-        }
-
-        return true;
+        return !$propertyHolder->isOutputProperty($property, $writer);
     }
 }

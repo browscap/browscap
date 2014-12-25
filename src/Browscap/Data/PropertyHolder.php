@@ -150,10 +150,7 @@ class PropertyHolder
             'Device_Type'    => 1,
         );
 
-        if (isset($outputProperties[$propertyName])) {
-            return true;
-        }
-        return false;
+        return isset($outputProperties[$propertyName]);
     }
 
     /**
