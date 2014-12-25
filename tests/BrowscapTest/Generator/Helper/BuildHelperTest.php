@@ -6,7 +6,7 @@
  * it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
- * 
+ *
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
@@ -72,7 +72,7 @@ class BuildHelperTest
 
         $collectionCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
-            array('setLogger'),
+            array('setLogger', 'getLogger'),
             array(),
             '',
             false
@@ -80,6 +80,9 @@ class BuildHelperTest
         $collectionCreator->expects(self::once())
             ->method('setLogger')
             ->will(self::returnSelf());
+        $collectionCreator->expects(self::once())
+            ->method('getLogger')
+            ->will(self::returnValue($logger));
 
         BuildHelper::run('test', '.', $logger, $writerCollection, $collectionCreator);
     }
