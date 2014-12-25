@@ -17,7 +17,7 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\BuildFullFileOnlyGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
