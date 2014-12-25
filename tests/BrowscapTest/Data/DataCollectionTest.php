@@ -571,6 +571,8 @@ HERE;
      */
     public function testCheckPropertyWithoutVersion()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array();
         $this->object->checkProperty('test', $properties);
     }
@@ -581,6 +583,8 @@ HERE;
      */
     public function testCheckPropertyWithoutParent()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array(
             'Version' => 'abc'
         );
@@ -594,6 +598,8 @@ HERE;
      */
     public function testCheckPropertyWithoutDeviceType()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array(
             'Version' => 'abc',
             'Parent'  => '123',
@@ -608,6 +614,8 @@ HERE;
      */
     public function testCheckPropertyWithoutIsTablet()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array(
             'Version'     => 'abc',
             'Parent'      => '123',
@@ -623,6 +631,8 @@ HERE;
      */
     public function testCheckPropertyWithoutIsMobileDevice()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array(
             'Version'     => 'abc',
             'Parent'      => '123',
@@ -635,6 +645,8 @@ HERE;
 
     public function testCheckPropertyOk()
     {
+        $this->object->setLogger($this->logger);
+
         $properties = array(
             'Version'        => 'abc',
             'Parent'         => '123',
