@@ -120,7 +120,12 @@ class DataCollection
      */
     public function addPlatformsFile($src)
     {
-        $json            = $this->loadFile($src);
+        $json = $this->loadFile($src);
+
+        if (!isset($json['platforms'])) {
+            throw new \UnexpectedValueException('required "platforms" structure is missing');
+        }
+
         $platformFactory = new Factory\PlatformFactory();
 
         foreach (array_keys($json['platforms']) as $platformName) {
@@ -152,7 +157,12 @@ class DataCollection
      */
     public function addEnginesFile($src)
     {
-        $json          = $this->loadFile($src);
+        $json = $this->loadFile($src);
+
+        if (!isset($json['engines'])) {
+            throw new \UnexpectedValueException('required "engines" structure is missing');
+        }
+
         $engineFactory = new Factory\EngineFactory();
 
         foreach (array_keys($json['engines']) as $engineName) {
@@ -551,8 +561,7 @@ class DataCollection
     {
         if (!array_key_exists($engine, $this->engines)) {
             throw new \OutOfBoundsException(
-                'Rendering Engine "' . $engine . '" does not exist in data, available engines: '
-                . serialize(array_keys($this->engines))
+                'Rendering Engine "' . $engine . '" does not exist in data'
             );
         }
 

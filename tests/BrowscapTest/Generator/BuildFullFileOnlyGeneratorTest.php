@@ -87,7 +87,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
         $resourceFolder = __DIR__ . '/../../../resources/';
         $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
 
-        mkdir($buildFolder, 0777, true);
+        @mkdir($buildFolder, 0777, true);
 
         $generator = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($mock));
@@ -96,7 +96,13 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
+        $mockDivision = $this->getMock(
+            '\Browscap\Data\Division',
+            array('getUserAgents', 'getVersions'),
+            array(),
+            '',
+            false
+        );
         $mockDivision
             ->expects(self::never())
             ->method('getUserAgents')
@@ -159,7 +165,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
         $resourceFolder = __DIR__ . '/../../../resources/';
         $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
 
-        mkdir($buildFolder, 0777, true);
+        @mkdir($buildFolder, 0777, true);
 
         $generator = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($this->logger));

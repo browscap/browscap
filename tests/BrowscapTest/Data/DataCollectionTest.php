@@ -129,6 +129,33 @@ HERE;
     }
 
     /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage required "platforms" structure is missing
+     */
+    public function testAddPlatformsFileThrowsExceptionIfFileContainsNoData()
+    {
+        $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-data.json');
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage required attibute "match" is missing
+     */
+    public function testAddPlatformsFileThrowsExceptionIfFileContainsNoMatch()
+    {
+        $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-match.json');
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage required attibute "properties" is missing
+     */
+    public function testAddPlatformsFileThrowsExceptionIfFileContainsNoProperties()
+    {
+        $this->object->addPlatformsFile(__DIR__ . '/../../fixtures/platforms/platforms-without-properties.json');
+    }
+
+    /**
      * @expectedException \OutOfBoundsException
      * @expectedExceptionMessage Platform "NotExists" does not exist in data
      */
@@ -136,7 +163,113 @@ HERE;
     {
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
 
+        self::assertInternalType('array', $this->object->getPlatforms());
         $this->object->getPlatform('NotExists');
+    }
+
+    public function testGetPlatform()
+    {
+        $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
+
+        self::assertInternalType('array', $this->object->getPlatforms());
+        $platform = $this->object->getPlatform('Platform1');
+
+        self::assertInternalType('array', $platform);
+        self::assertArrayHasKey('properties', $platform);
+
+        self::assertInternalType('array', $platform['properties']);
+        self::assertArrayHasKey('Platform', $platform['properties']);
+        self::assertSame('Platform1', $platform['properties']['Platform']);
+    }
+
+    /**
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     */
+    public function testAddEnginesFileThrowsExceptionIfFileDoesNotExist()
+    {
+        $file = '/hopefully/this/file/does/not/exist';
+
+        $this->object->addEnginesFile($file);
+    }
+
+    public function testAddEnginesFileThrowsExceptionIfFileContainsInvalidJson()
+    {
+        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
+
+        $in = <<<HERE
+this is not valid JSON
+HERE;
+
+        file_put_contents($tmpfile, $in);
+
+        $fail    = false;
+        $message = '';
+
+        try {
+            $this->object->addEnginesFile($tmpfile);
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
+        } catch (\RuntimeException $ex) {
+            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
+                $fail    = true;
+                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
+            }
+        } catch (\Exception $ex) {
+            $fail    = true;
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
+        }
+
+        unlink($tmpfile);
+
+        if ($fail) {
+            $this->fail($message);
+        }
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage required "engines" structure is missing
+     */
+    public function testAddEnginesFileThrowsExceptionIfFileContainsNoData()
+    {
+        $this->object->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines-without-data.json');
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage required attibute "properties" is missing
+     */
+    public function testAddEnginesFileThrowsExceptionIfFileContainsNoProperties()
+    {
+        $this->object->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines-without-properties.json');
+    }
+
+    /**
+     * @expectedException \OutOfBoundsException
+     * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data
+     */
+    public function testGetEngineThrowsExceptionIfPlatformDoesNotExist()
+    {
+        $this->object->addEnginesFile($this->getEngineJsonFixture());
+
+        self::assertInternalType('array', $this->object->getEngines());
+        $this->object->getEngine('NotExists');
+    }
+
+    public function testGetEngine()
+    {
+        $this->object->addEnginesFile($this->getEngineJsonFixture());
+
+        self::assertInternalType('array', $this->object->getEngines());
+        $engine = $this->object->getEngine('Foobar');
+
+        self::assertInternalType('array', $engine);
+        self::assertArrayHasKey('properties', $engine);
+
+        self::assertInternalType('array', $engine['properties']);
+        self::assertArrayHasKey('RenderingEngine_Name', $engine['properties']);
+        self::assertSame('Foobar', $engine['properties']['RenderingEngine_Name']);
     }
 
     public function testGetVersion()
@@ -253,734 +386,145 @@ HERE;
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "division" is missing
      */
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "sortIndex": 200,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
-        } catch (\RuntimeException $ex) {
-            if ('required attibute "division" is missing' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "required attibute "division" is missing" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-divisions.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "sortIndex" is missing
      */
     public function testAddSourceFileThrowsExceptionIfNoSortIndexIsAvailable()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
-        } catch (\RuntimeException $ex) {
-            if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "required attibute "sortIndex" is missing" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-sortindex.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \RuntimeException
+     * @expectedExceptionMessage the properties entry has to be an array for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1"
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('the properties entry has to be an array for key "UA1"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the properties entry has to be an array for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "Parent" property is missing for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfNoParentPropertyIsAvailable()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('the "Parent" property is missing for key "UA1"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the "Parent" property is missing for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-parent.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "Comment" property is missing for key "UA1"
+     */
+    public function testAddSourceFileThrowsExceptionIfNoCommentPropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-comment.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the properties array contains platform data for key "UA1", please use the "platform" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludePlatformData()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "Platform": "xyz"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
-        } catch (\LogicException $ex) {
-            if ('the properties array contains platform data for key "UA1", please use the "platform" keyword' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the properties array contains platform data for key "UA1", please use the "platform" keyword" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-platformdata.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the properties array contains engine data for key "UA1", please use the "engine" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "RenderingEngine_Name": "xyz"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
-        } catch (\LogicException $ex) {
-            if ('the properties array contains engine data for key "UA1", please use the "engine" keyword' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the properties array contains engine data for key "UA1", please use the "engine" keyword" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-platformdata.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the children property has to be an array of arrays for key "UA1"
      */
-    public function testAddSourceFileThrowsExceptionIfChildrenIncludeMatchKeyword()
+    public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": {
-        "match": "xyz"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('the children property has to be an array of arrays for key "UA1"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the children property has to be an array of arrays for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-no-array.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
-     */
-    public function testAddSourceFileThrowsExceptionIfChildrenAreNotArrays()
-    {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": {
-        "abc": "cde"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('each entry of the children property has to be an array for key "UA1"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "each entry of the children property has to be an array for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
-    }
-
-    /**
-     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage each entry of the children property requires an "match" entry for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": [
-        {
-          "abc": "cde"
-        }
-      ]
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('each entry of the children property requires an "match" entry for key "UA1"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "each entry of the children property requires an "match" entry for key "UA1"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-without-match.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the properties entry has to be an array for key "cde"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenPropertiesAreNotArrays()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": [
-        {
-          "match": "cde",
-          "properties": "efg"
-        }
-      ]
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('the properties entry has to be an array for key "cde"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the properties entry has to be an array for key "cde"" not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-without-properties-array.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the Parent property must not set inside the children array for key "cde"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasParentProperty()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": [
-        {
-          "match": "cde",
-          "properties": {
-            "Parent": "efg"
-          }
-        }
-      ]
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, no exception thrown';
-        } catch (\UnexpectedValueException $ex) {
-            if ('the Parent property must not set inside the children array for key "cde"' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the Parent property must not set inside the children array for key "cde"' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\UnexpectedValueException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-parent-property.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \LogicException
+     * @expectedExceptionMessage the properties array contains platform data for key "cde", please use the "platforms" keyword
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasPlatformProperties()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": [
-        {
-          "match": "cde",
-          "properties": {
-            "Platform_Description": "efg"
-          }
-        }
-      ]
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
-        } catch (\LogicException $ex) {
-            if ('the properties array contains platform data for key "cde", please use the "platforms" keyword' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message "the properties array contains platform data for key "cde", please use the "platforms" keyword' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-platform-properties.json');
     }
 
     /**
      * checks if a exception is thrown if the sortindex property is missing
+     *
+     * expectedException \LogicException
+     * @expectedExceptionMessage the properties array contains engine data for key "cde", please use the "engine" keyword
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Division1",
-  "sortIndex": 200,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "UA1",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      },
-      "children": [
-        {
-          "match": "cde",
-          "properties": {
-            "RenderingEngine_Maker": "efg"
-          }
-        }
-      ]
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, no exception thrown';
-        } catch (\LogicException $ex) {
-            if ('the properties array contains engine data for key "cde", please use the "engine" keyword' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'the properties array contains engine data for key "cde", please use the "engine" keyword' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\LogicException" not thrown, Exception ' . get_class($ex) .' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-engine-properties.json');
     }
 
     /**
@@ -988,33 +532,7 @@ HERE;
      */
     public function testAddDefaultProperties()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "Defaultproperties",
-  "sortIndex": 0,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "Defaultproperties",
-      "properties": {
-        "Comment": "Defaultproperties",
-        "Browser": "Defaultproperties",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        self::assertSame($this->object, $this->object->addDefaultProperties($tmpfile));
-
-        unlink($tmpfile);
+        self::assertSame($this->object, $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json'));
 
         $division = $this->object->getDefaultProperties();
 
@@ -1027,33 +545,7 @@ HERE;
      */
     public function testAddDefaultBrowser()
     {
-        $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
-
-        $in = <<<HERE
-{
-  "division": "*",
-  "sortIndex": 0,
-  "lite": true,
-  "userAgents": [
-    {
-      "userAgent": "*",
-      "properties": {
-        "Comment": "Default Browser",
-        "Browser": "Default Browser",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0"
-      }
-    }
-  ]
-}
-HERE;
-
-        file_put_contents($tmpfile, $in);
-
-        self::assertSame($this->object, $this->object->addDefaultBrowser($tmpfile));
-
-        unlink($tmpfile);
+        self::assertSame($this->object, $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json'));
 
         $division = $this->object->getDefaultBrowser();
 
