@@ -88,14 +88,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setLogger($mock));
     }
 
-    public function testSetCollectionCreator()
-    {
-        $mock = $this->getMock('\Browscap\Helper\CollectionCreator', array(), array(), '', false);
-
-        $generator = new BuildFullFileOnlyGenerator('.', '.');
-        self::assertSame($generator, $generator->setCollectionCreator($mock));
-    }
-
     public function testBuild()
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
@@ -157,19 +149,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
-        $mockCreator = $this->getMock(
-            '\Browscap\Helper\CollectionCreator',
-            array('createDataCollection'),
-            array(),
-            '',
-            false
-        );
-        $mockCreator
-            ->expects(self::any())
-            ->method('createDataCollection')
-            ->will(self::returnValue($mockCollection))
-        ;
-
         $writerCollection = $this->getMock(
             '\Browscap\Writer\WriterCollection',
             array(
@@ -217,7 +196,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BuildFullFileOnlyGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test');
@@ -284,19 +262,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
-        $mockCreator = $this->getMock(
-            '\Browscap\Helper\CollectionCreator',
-            array('createDataCollection'),
-            array(),
-            '',
-            false
-        );
-        $mockCreator
-            ->expects(self::any())
-            ->method('createDataCollection')
-            ->will(self::returnValue($mockCollection))
-        ;
-
         $writerCollection = $this->getMock(
             '\Browscap\Writer\WriterCollection',
             array(
@@ -344,7 +309,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BuildFullFileOnlyGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($this->logger));
-        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test', false);
