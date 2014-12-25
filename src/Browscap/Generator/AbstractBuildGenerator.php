@@ -66,7 +66,7 @@ abstract class AbstractBuildGenerator
     public function __construct($resourceFolder, $buildFolder)
     {
         $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        $this->getLogger()    = $this->checkDirectoryExists($buildFolder, 'build');
     }
 
     /**
@@ -159,6 +159,8 @@ abstract class AbstractBuildGenerator
      * Entry point for generating builds for a specified version
      *
      * @param string  $version
+     *
+     * @return void
      */
     abstract public function run($version);
 }

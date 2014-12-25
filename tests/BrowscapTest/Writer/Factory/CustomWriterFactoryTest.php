@@ -17,22 +17,22 @@
 
 namespace BrowscapTest\Writer\Factory;
 
-use Browscap\Writer\Factory\FullPhpWriterFactory;
+use Browscap\Writer\Factory\CustomWriterFactory;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * Class FullPhpWriterFactoryTest
+ * Class CustomWriterFactoryTest
  *
  * @category   BrowscapTest
  * @package    Writer\Factory
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
+class CustomWriterFactoryTest extends \PHPUnit_Framework_TestCase
 {
     const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\Factory\FullPhpWriterFactory
+     * @var \Browscap\Writer\Factory\CustomWriterFactory
      */
     private $object = null;
 
@@ -45,7 +45,7 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
     {
         vfsStream::setup(self::STORAGE_DIR);
 
-        $this->object = new FullPhpWriterFactory();
+        $this->object = new CustomWriterFactory();
     }
 
     public function testCreateCollection()

@@ -58,7 +58,7 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array
+     * @return array<string|boolean>[]
      */
     public function outputPropertiesDataProvider()
     {

@@ -17,7 +17,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Filter\CustomFilter;
 use Browscap\Formatter;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer;
@@ -77,44 +76,14 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     )
     {
         if (null === $this->writerCollection) {
-            if (null === $file) {
-                $file = $this->buildFolder . '/full_php_browscap.ini';
-            }
-
-            $this->writerCollection = new Writer\WriterCollection();
-            $filter                 = new CustomFilter($fields);
-
-            switch ($format) {
-                case self::OUTPUT_FORMAT_ASP:
-                    $writer    = new Writer\IniWriter($file);
-                    $formatter = new Formatter\AspFormatter();
-                    break;
-                case self::OUTPUT_FORMAT_CSV:
-                    $writer    = new Writer\CsvWriter($file);
-                    $formatter = new Formatter\CsvFormatter();
-                    break;
-                case self::OUTPUT_FORMAT_XML:
-                    $writer    = new Writer\XmlWriter($file);
-                    $formatter = new Formatter\XmlFormatter();
-                    break;
-                case self::OUTPUT_FORMAT_JSON:
-                    $writer    = new Writer\JsonWriter($file);
-                    $formatter = new Formatter\JsonFormatter();
-                    break;
-                case self::OUTPUT_FORMAT_PHP:
-                default:
-                    $writer    = new Writer\IniWriter($file);
-                    $formatter = new Formatter\PhpFormatter();
-                    break;
-            }
-
-            $writer
-                ->setLogger($this->getLogger())
-                ->setFormatter($formatter->setFilter($filter))
-                ->setFilter($filter)
-            ;
-
-            $this->writerCollection->addWriter($writer);
+            $factory = new Writer\Factory\CustomWriterFactory();
+            $this->writerCollection = $factory->createCollection(
+                $this->getLogger(),
+                $this->getLogger(),
+                $file,
+                $fields,
+                $format
+            );
         }
 
         return $this->writerCollection;

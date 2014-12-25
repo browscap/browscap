@@ -135,8 +135,9 @@ class GrepCommand extends Command
                 ->setLogger($this->logger)
                 ->setCollectionCreator(new CollectionCreator())
                 ->setWriterCollection($writerCollection)
-                ->run($input->getArgument('version'), false)
             ;
+
+            $buildGenerator->run($input->getArgument('version'), false);
         }
 
         $generator = new GrepGenerator();

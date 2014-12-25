@@ -20,6 +20,7 @@ namespace Browscap\Generator;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\Factory\FullPhpWriterFactory;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
@@ -49,26 +50,14 @@ class BuildFullFileOnlyGenerator extends AbstractBuildGenerator
     /**
      * @param string|null $file
      *
-*@return \Browscap\Writer\WriterCollection
+     * @return \Browscap\Writer\WriterCollection
      */
     public function getWriterCollection($file = null)
     {
         if (null === $this->writerCollection) {
-            if (null === $file) {
-                $file = $this->buildFolder . '/full_php_browscap.ini';
-            }
+            $factory = new FullPhpWriterFactory();
 
-            $this->writerCollection = new WriterCollection();
-            $fullFilter       = new FullFilter();
-
-            $fullPhpWriter = new IniWriter($file);
-            $formatter     = new PhpFormatter();
-            $fullPhpWriter
-                ->setLogger($this->getLogger())
-                ->setFormatter($formatter->setFilter($fullFilter))
-                ->setFilter($fullFilter)
-            ;
-            $this->writerCollection->addWriter($fullPhpWriter);
+            $this->writerCollection = $factory->createCollection($this->getLogger(), $this->buildFolder, $file);
         }
 
         return $this->writerCollection;
