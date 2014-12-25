@@ -17,7 +17,7 @@
 
 namespace BrowscapTest\Filter;
 
-use Browscap\Filter\StandardFilter;
+use Browscap\Filter\StandartFilter;
 
 /**
  * Class StandardFilterTest
@@ -29,7 +29,7 @@ use Browscap\Filter\StandardFilter;
 class StandardFilterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Filter\StandardFilter
+     * @var \Browscap\Filter\StandartFilter
      */
     private $object = null;
 
@@ -40,7 +40,7 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->object = new StandardFilter();
+        $this->object = new StandartFilter();
     }
 
     public function testGetType()

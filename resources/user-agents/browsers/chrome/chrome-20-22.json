@@ -49,7 +49,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A210 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "A210",
             "Device_Maker": "Acer",
@@ -78,7 +78,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -124,18 +124,6 @@
           },
           "platforms": [
             "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -202,7 +190,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
@@ -756,19 +744,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9505 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Code_Name": "GT-I9505",
@@ -796,6 +771,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ARCHOS 101G9 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "101 G9",
             "Device_Maker": "Archos",
             "Device_Brand_Name": "Archos",

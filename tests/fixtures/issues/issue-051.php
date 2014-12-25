@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-51-3' => [
+    'issue-051-3' => [
         'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',
         [
             'Browser' => 'grapeFX',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-51-2' => [
+    'issue-051-2' => [
         'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
         [
             'Browser' => 'GrapeshotCrawler',
@@ -57,7 +57,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-51-1' => [
+    'issue-051-1' => [
         'niki-bot',
         [
             'Browser' => 'NikiBot',

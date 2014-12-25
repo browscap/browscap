@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-52' => [
+    'issue-052' => [
         'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
         [
             'Browser' => 'Waterfox',
@@ -19,6 +19,11 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',

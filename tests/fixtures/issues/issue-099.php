@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-99-C' => [
+    'issue-099-C' => [
         'DavClnt',
         [
             'Browser' => 'Microsoft-WebDAV',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-99-B' => [
+    'issue-099-B' => [
         'XING-contenttabreceiver/2.0',
         [
             'Browser' => 'XING Contenttabreceiver',
@@ -57,7 +57,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-99-A' => [
+    'issue-099-A' => [
         'Opera/9.60 (Windows NT 5.1; U; de) Presto/2.1.1',
         [
             'Browser' => 'Opera',

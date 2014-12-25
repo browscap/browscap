@@ -32,7 +32,8 @@
           "match": "Blackberry9800\/7.0*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -75,21 +76,24 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9780",
-            "Device_Name": "BlackBerry 9780"
+            "Device_Name": "BlackBerry 9780",
+            "Device_Pointing_Method": "trackpad"
           }
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9810",
-            "Device_Name": "Torch 4G"
+            "Device_Name": "Torch 4G",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -110,7 +114,8 @@
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9900; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry Bold Touch 9900",
-            "Device_Name": "Dakota"
+            "Device_Name": "Dakota",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -160,21 +165,24 @@
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9780",
-            "Device_Name": "BlackBerry 9780"
+            "Device_Name": "BlackBerry 9780",
+            "Device_Pointing_Method": "trackpad"
           }
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9800",
-            "Device_Name": "Torch"
+            "Device_Name": "Torch",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "properties": {
             "Device_Code_Name": "BlackBerry 9810",
-            "Device_Name": "Torch 4G"
+            "Device_Name": "Torch 4G",
+            "Device_Pointing_Method": "touchscreen"
           }
         }
       ]
