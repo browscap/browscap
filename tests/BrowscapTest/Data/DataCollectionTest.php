@@ -459,7 +459,7 @@ HERE;
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData()
     {
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-platformdata.json');
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-enginedata.json');
     }
 
     /**

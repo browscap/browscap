@@ -152,12 +152,12 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($mockDivision))
         ;
         $mockCollection
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('getDivisions')
             ->will(self::returnValue(array($mockDivision)))
         ;
         $mockCollection
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('checkProperty')
             ->will(self::returnValue(true))
         ;
