@@ -85,7 +85,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/** Safari\/* Pre\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/* Safari\/* Pre\/*",
           "properties": {
             "Device_Code_Name": "Pre",
             "Device_Maker": "HP",

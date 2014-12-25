@@ -1458,6 +1458,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#AT10-A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "AT10-A",
+            "Device_Maker": "Toshiba",
+            "Device_Brand_Name": "Toshiba",
+            "Device_Name": "eXcite Pure",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

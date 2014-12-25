@@ -1376,6 +1376,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 1014 IPS X4 3G+ Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "FreeTAB 1014 IPS X4 3G+",
+            "Device_Maker": "MODECOM",
+            "Device_Brand_Name": "MODECOM",
+            "Device_Name": "FreeTAB 1014 IPS X4 3G+"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
