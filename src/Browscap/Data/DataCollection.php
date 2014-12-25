@@ -263,7 +263,7 @@ class DataCollection
                 if (isset($useragent['children']) && is_array($useragent['children'])) {
                     if (isset($useragent['children']['match'])) {
                         throw new \UnexpectedValueException(
-                            'the children property has to be an array of arrays for key "'
+                            'the children property shall not have the "match" entry for key "'
                             . $useragent['userAgent'] . '"'
                         );
                     }

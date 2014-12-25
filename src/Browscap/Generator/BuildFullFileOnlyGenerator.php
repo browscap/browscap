@@ -19,7 +19,6 @@ namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
-use Psr\Log\LoggerInterface;
 
 /**
  * Class BuildGenerator

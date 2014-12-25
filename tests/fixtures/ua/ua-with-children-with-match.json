@@ -14,7 +14,7 @@
         "MinorVer": "0"
       },
       "children": {
-        "abc": "xyz"
+        "match": "xyz"
       }
     }
   ]

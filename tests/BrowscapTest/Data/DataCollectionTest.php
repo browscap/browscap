@@ -466,9 +466,20 @@ HERE;
      * checks if a exception is thrown if the sortindex property is missing
      *
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage the children property has to be an array of arrays for key "UA1"
+     * @expectedExceptionMessage the children property shall not have the "match" entry for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-match.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage each entry of the children property has to be an array for key "UA1"
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHaveMatchProperty()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-no-array.json');
     }
@@ -552,5 +563,86 @@ HERE;
 
         self::assertInstanceOf('\Browscap\Data\Division', $division);
         self::assertSame('Default Browser', $division->getName());
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Version property not found for key "test"
+     */
+    public function testCheckPropertyWithoutVersion()
+    {
+        $properties = array();
+        $this->object->checkProperty('test', $properties);
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Parent property is missing for key "test"
+     */
+    public function testCheckPropertyWithoutParent()
+    {
+        $properties = array(
+            'Version' => 'abc'
+        );
+
+        $this->object->checkProperty('test', $properties);
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage property "Device_Type" is missing for key "test"
+     */
+    public function testCheckPropertyWithoutDeviceType()
+    {
+        $properties = array(
+            'Version' => 'abc',
+            'Parent'  => '123',
+        );
+
+        $this->object->checkProperty('test', $properties);
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage property "isTablet" is missing for key "test"
+     */
+    public function testCheckPropertyWithoutIsTablet()
+    {
+        $properties = array(
+            'Version'     => 'abc',
+            'Parent'      => '123',
+            'Device_Type' => 'Desktop',
+        );
+
+        $this->object->checkProperty('test', $properties);
+    }
+
+    /**
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage property "isMobileDevice" is missing for key "test"
+     */
+    public function testCheckPropertyWithoutIsMobileDevice()
+    {
+        $properties = array(
+            'Version'     => 'abc',
+            'Parent'      => '123',
+            'Device_Type' => 'Desktop',
+            'isTablet'    => false,
+        );
+
+        $this->object->checkProperty('test', $properties);
+    }
+
+    public function testCheckPropertyOk()
+    {
+        $properties = array(
+            'Version'        => 'abc',
+            'Parent'         => '123',
+            'Device_Type'    => 'Desktop',
+            'isTablet'       => false,
+            'isMobileDevice' => false,
+        );
+
+        self::assertTrue($this->object->checkProperty('test', $properties));
     }
 }
