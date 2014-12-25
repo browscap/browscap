@@ -43,7 +43,6 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -104,7 +103,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockDivision
-            ->expects(self::never())
+            ->expects(self::exactly(4))
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
@@ -120,13 +119,11 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
                         )
                     )
                 )
-            )
-        ;
+            );
         $mockDivision
-            ->expects(self::never())
+            ->expects(self::once())
             ->method('getVersions')
-            ->will(self::returnValue(array(2)))
-        ;
+            ->will(self::returnValue(array(2)));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
@@ -138,28 +135,23 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockCollection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()))
-        ;
+            ->will(self::returnValue(new \DateTime()));
         $mockCollection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultBrowser')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
         $mockCollection
             ->expects(self::once())
             ->method('getDivisions')
-            ->will(self::returnValue(array($mockDivision)))
-        ;
+            ->will(self::returnValue(array($mockDivision)));
         $mockCollection
             ->expects(self::once())
             ->method('checkProperty')
-            ->will(self::returnValue(true))
-        ;
+            ->will(self::returnValue(true));
 
         $mockCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
@@ -171,8 +163,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockCreator
             ->expects(self::any())
             ->method('createDataCollection')
-            ->will(self::returnValue($mockCollection))
-        ;
+            ->will(self::returnValue($mockCollection));
 
         $writerCollection = $this->getMock(
             '\Browscap\Writer\WriterCollection',
@@ -191,33 +182,27 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
         $writerCollection
             ->expects(self::once())
             ->method('fileStart')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $writerCollection
             ->expects(self::once())
             ->method('renderHeader')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $writerCollection
             ->expects(self::once())
             ->method('renderAllDivisionsHeader')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $writerCollection
             ->expects(self::exactly(3))
             ->method('renderSectionHeader')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $writerCollection
             ->expects(self::exactly(3))
             ->method('renderSectionBody')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $writerCollection
             ->expects(self::once())
             ->method('fileEnd')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
 
         // First, generate the INI files
         $resourceFolder = __DIR__ . '/../../../resources/';
