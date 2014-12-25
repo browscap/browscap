@@ -68,7 +68,11 @@ class StandardFilter implements FilterInterface
             return false;
         }
 
-        if ($propertyHolder->isExtraProperty($property, $writer)) {
+        if (!$propertyHolder->isLiteModeProperty($property)) {
+            return false;
+        }
+
+        if (!$propertyHolder->isStandardModeProperty($property, $writer)) {
             return false;
         }
 

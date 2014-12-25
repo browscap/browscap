@@ -109,25 +109,25 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Data Provider for the test testIsExtraProperty
+     * Data Provider for the test testIsLiteModeProperty
      *
      * @return array[]
      */
-    public function extraPropertiesDataProvider()
+    public function litePropertiesDataProvider()
     {
         return [
-            ['Comment', false],
-            ['Browser', false],
-            ['Platform', false],
-            ['Platform_Description', true],
-            ['Device_Name', true],
-            ['Device_Maker', true],
-            ['RenderingEngine_Name', true],
-            ['RenderingEngine_Description', true],
-            ['Parent', false],
+            ['Comment', true],
+            ['Browser', true],
+            ['Platform', true],
+            ['Platform_Description', false],
+            ['Device_Name', false],
+            ['Device_Maker', false],
+            ['RenderingEngine_Name', false],
+            ['RenderingEngine_Description', false],
+            ['Parent', true],
             ['Platform_Version', false],
-            ['RenderingEngine_Version', true],
-            ['Version', false],
+            ['RenderingEngine_Version', false],
+            ['Version', true],
             ['MajorVer', false],
             ['MinorVer', false],
             ['CssVersion', false],
@@ -146,25 +146,85 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ['VBScript', false],
             ['JavaApplets', false],
             ['ActiveXControls', false],
-            ['isMobileDevice', false],
+            ['isMobileDevice', true],
             ['isSyndicationReader', false],
             ['Crawler', false],
-            ['Browser_Type', true],
+            ['Browser_Type', false],
             ['Device_Type', true],
-            ['Device_Pointing_Method', true],
+            ['Device_Pointing_Method', false],
+            ['Browser_Maker', false],
+            ['isTablet', true],
         ];
     }
 
     /**
-     * @dataProvider extraPropertiesDataProvider
+     * @dataProvider litePropertiesDataProvider
      */
-    public function testIsExtraProperty($propertyName, $isExtra)
+    public function testIsLiteModeProperty($propertyName, $isExtra)
     {
-        $actualValue = $this->object->isExtraProperty($propertyName);
+        $actualValue = $this->object->isLiteModeProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
     }
 
-    public function testIsExtraPropertyWithWriter()
+    /**
+     * Data Provider for the test testIsStandardModeProperty
+     *
+     * @return array[]
+     */
+    public function standardPropertiesDataProvider()
+    {
+        return [
+            ['Comment', false],
+            ['Browser', false],
+            ['Platform', false],
+            ['Platform_Description', false],
+            ['Device_Name', false],
+            ['Device_Maker', false],
+            ['RenderingEngine_Name', false],
+            ['RenderingEngine_Description', false],
+            ['Parent', false],
+            ['Platform_Version', false],
+            ['RenderingEngine_Version', false],
+            ['Version', false],
+            ['MajorVer', true],
+            ['MinorVer', true],
+            ['CssVersion', false],
+            ['AolVersion', false],
+            ['Alpha', false],
+            ['Beta', false],
+            ['Win16', false],
+            ['Win32', true],
+            ['Win64', true],
+            ['Frames', false],
+            ['IFrames', false],
+            ['Tables', false],
+            ['Cookies', false],
+            ['BackgroundSounds', false],
+            ['JavaScript', false],
+            ['VBScript', false],
+            ['JavaApplets', false],
+            ['ActiveXControls', false],
+            ['isMobileDevice', false],
+            ['isSyndicationReader', false],
+            ['Crawler', false],
+            ['Browser_Type', false],
+            ['Device_Type', false],
+            ['Device_Pointing_Method', true],
+            ['Browser_Maker', true],
+            ['isTablet', false],
+        ];
+    }
+
+    /**
+     * @dataProvider standardPropertiesDataProvider
+     */
+    public function testIsStandardModeProperty($propertyName, $isExtra)
+    {
+        $actualValue = $this->object->isStandardModeProperty($propertyName);
+        self::assertSame($isExtra, $actualValue);
+    }
+
+    public function testIsStandardModePropertyWithWriter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
         $mockWriter
@@ -173,7 +233,7 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue('csv'))
         ;
 
-        $actualValue = $this->object->isExtraProperty('PropertyName', $mockWriter);
+        $actualValue = $this->object->isStandardModeProperty('PropertyName', $mockWriter);
         self::assertFalse($actualValue);
     }
 
@@ -225,6 +285,8 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
             ['Browser_Type', true],
             ['Device_Type', true],
             ['Device_Pointing_Method', true],
+            ['Browser_Maker', true],
+            ['isTablet', true],
         ];
     }
 

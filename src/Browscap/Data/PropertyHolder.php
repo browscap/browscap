@@ -135,42 +135,57 @@ class PropertyHolder
      * be included in the "full" versions of the files)
      *
      * @param string $propertyName
+     * @return boolean
+     */
+    public function isLiteModeProperty($propertyName)
+    {
+        $outputProperties = array(
+            'Parent'         => 1,
+            'Comment'        => 1,
+            'Browser'        => 1,
+            'Platform'       => 1,
+            'Version'        => 1,
+            'isMobileDevice' => 1,
+            'isTablet'       => 1,
+            'Device_Type'    => 1,
+        );
+
+        if (isset($outputProperties[$propertyName])) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Determine if the specified property is an "extra" property (that should
+     * be included in the "full" versions of the files)
+     *
+     * @param string $propertyName
      * @param \Browscap\Writer\WriterInterface $writer
      * @return boolean
      */
-    public function isExtraProperty($propertyName, WriterInterface $writer = null)
+    public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
     {
+        $outputProperties = array(
+            'MajorVer'               => 1,
+            'MinorVer'               => 1,
+            'Win32'                  => 1,
+            'Win64'                  => 1,
+            'Browser_Maker'          => 1,
+            'Device_Pointing_Method' => 1,
+        );
+
+        if (isset($outputProperties[$propertyName])) {
+            return true;
+        }
+
         if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
             $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
 
             if (in_array($propertyName, $additionalProperties)) {
-                return false;
+                return true;
             }
-        }
-
-        $extraProperties = array(
-            'Browser_Type'                => 1,
-            'Browser_Bits'                => 1,
-            'Browser_Maker'               => 1,
-            'Browser_Modus'               => 1,
-            'Platform_Name'               => 1,
-            'Platform_Bits'               => 1,
-            'Platform_Maker'              => 1,
-            'Device_Code_Name'            => 1,
-            'Device_Brand_Name'           => 1,
-            'Device_Name'                 => 1,
-            'Device_Maker'                => 1,
-            'Device_Type'                 => 1,
-            'Device_Pointing_Method'      => 1,
-            'Platform_Description'        => 1,
-            'RenderingEngine_Name'        => 1,
-            'RenderingEngine_Version'     => 1,
-            'RenderingEngine_Description' => 1,
-            'RenderingEngine_Maker'       => 1,
-        );
-
-        if (isset($extraProperties[$propertyName])) {
-            return true;
         }
 
         return false;

@@ -84,7 +84,9 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
-        $generator = new BuildFullFileOnlyGenerator('.', '.');
+        $resourceFolder = __DIR__ . '/../../resources/';
+        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-' . time();
+        $generator      = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($mock));
     }
 
@@ -149,76 +151,12 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
-        $generator = new BuildFullFileOnlyGenerator('.', '.');
+        // First, generate the INI files
+        $resourceFolder = __DIR__ . '/../../resources/';
+        $buildFolder    = __DIR__ . '/../../build/browscap-ua-test-' . time();
+        $generator      = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($this->logger));
 
         $generator->run('test');
-    }
-
-    public function testBuildWithoutZip()
-    {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents', 'getVersions'), array(), '', false);
-        $mockDivision
-            ->expects(self::exactly(4))
-            ->method('getUserAgents')
-            ->will(
-                self::returnValue(
-                    array(
-                        0 => array(
-                            'properties' => array(
-                                'Parent'   => 'DefaultProperties',
-                                'Browser'  => 'xyz',
-                                'Version'  => '1.0',
-                                'MajorBer' => '1',
-                            ),
-                            'userAgent'  => 'abc'
-                        )
-                    )
-                )
-            )
-        ;
-        $mockDivision
-            ->expects(self::once())
-            ->method('getVersions')
-            ->will(self::returnValue(array(2)))
-        ;
-
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
-            array(),
-            '',
-            false
-        );
-        $mockCollection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()))
-        ;
-        $mockCollection
-            ->expects(self::exactly(2))
-            ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
-        $mockCollection
-            ->expects(self::once())
-            ->method('getDefaultBrowser')
-            ->will(self::returnValue($mockDivision))
-        ;
-        $mockCollection
-            ->expects(self::once())
-            ->method('getDivisions')
-            ->will(self::returnValue(array($mockDivision)))
-        ;
-        $mockCollection
-            ->expects(self::once())
-            ->method('checkProperty')
-            ->will(self::returnValue(true))
-        ;
-
-        $generator = new BuildFullFileOnlyGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($this->logger));
-
-        $generator->run('test', false);
     }
 }
