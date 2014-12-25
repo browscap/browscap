@@ -17,8 +17,8 @@
 
 namespace BrowscapTest;
 
-use Symfony\Component\Console\Application;
 use Browscap\Browscap;
+use Symfony\Component\Console\Application;
 
 /**
  * Class BrowscapTest

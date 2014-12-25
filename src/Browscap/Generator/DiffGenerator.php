@@ -17,8 +17,8 @@
 
 namespace Browscap\Generator;
 
-use Psr\Log\LoggerInterface;
 use Browscap\Parser\IniParser;
+use Psr\Log\LoggerInterface;
 
 /**
  * Class DiffGenerator
