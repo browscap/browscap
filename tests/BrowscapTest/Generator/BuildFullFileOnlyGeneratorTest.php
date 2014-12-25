@@ -96,7 +96,6 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuild()
     {
-        //$this->markTestSkipped('Could not run test - no properties were defined to test');
         $mockDivision = $this->getMock(
             '\Browscap\Data\Division',
             array('getUserAgents', 'getVersions'),
@@ -162,6 +161,64 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue(true))
         ;
 
+        $mockCreator = $this->getMock(
+            '\Browscap\Helper\CollectionCreator',
+            array('createDataCollection'),
+            array(),
+            '',
+            false
+        );
+        $mockCreator
+            ->expects(self::any())
+            ->method('createDataCollection')
+            ->will(self::returnValue($mockCollection))
+        ;
+
+        $writerCollection = $this->getMock(
+            '\Browscap\Writer\WriterCollection',
+            array(
+                'fileStart',
+                'renderHeader',
+                'renderAllDivisionsHeader',
+                'renderSectionHeader',
+                'renderSectionBody',
+                'fileEnd',
+            ),
+            array(),
+            '',
+            false
+        );
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileStart')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('renderHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('renderAllDivisionsHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionHeader')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::exactly(3))
+            ->method('renderSectionBody')
+            ->will(self::returnSelf())
+        ;
+        $writerCollection
+            ->expects(self::once())
+            ->method('fileEnd')
+            ->will(self::returnSelf())
+        ;
+
         // First, generate the INI files
         $resourceFolder = __DIR__ . '/../../../resources/';
         $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();
@@ -170,6 +227,8 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $generator = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($this->logger));
+        self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
+        self::assertSame($generator, $generator->setWriterCollection($writerCollection));
 
         $generator->run('test');
     }

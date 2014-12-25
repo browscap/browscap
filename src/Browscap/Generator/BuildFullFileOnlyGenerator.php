@@ -50,6 +50,14 @@ class BuildFullFileOnlyGenerator
     private $logger = null;
 
     /**
+     * @var \Browscap\Helper\CollectionCreator
+     */
+    private $collectionCreator = null;
+
+    /** @var \Browscap\Writer\WriterCollection */
+    private $writerCollection = null;
+
+    /**
      * @param string $resourceFolder
      * @param string $buildFolder
      */
@@ -77,6 +85,70 @@ class BuildFullFileOnlyGenerator
     public function getLogger()
     {
         return $this->logger;
+    }
+
+    /**
+     * @param \Browscap\Helper\CollectionCreator $collectionCreator
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setCollectionCreator(CollectionCreator $collectionCreator)
+    {
+        $this->collectionCreator = $collectionCreator;
+
+        return $this;
+    }
+
+    /**
+     * @return \Browscap\Helper\CollectionCreator
+     */
+    public function getCollectionCreator()
+    {
+        if (null === $this->collectionCreator) {
+            $this->collectionCreator = new CollectionCreator();
+        }
+
+        return $this->collectionCreator;
+    }
+
+    /**
+     * @param \Browscap\Writer\WriterCollection $writerCollection
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    public function setWriterCollection(WriterCollection $writerCollection)
+    {
+        $this->writerCollection = $writerCollection;
+
+        return $this;
+    }
+
+    /**
+     * @param string|null $iniFile
+     *
+     * @return \Browscap\Writer\WriterCollection
+     */
+    public function getWriterCollection($iniFile = null)
+    {
+        if (null === $this->writerCollection) {
+            if (null === $iniFile) {
+                $iniFile = $this->buildFolder . '/full_php_browscap.ini';
+            }
+
+            $this->writerCollection = new WriterCollection();
+            $fullFilter       = new FullFilter();
+
+            $fullPhpWriter = new IniWriter($iniFile);
+            $formatter     = new PhpFormatter();
+            $fullPhpWriter
+                ->setLogger($this->getLogger())
+                ->setFormatter($formatter->setFilter($fullFilter))
+                ->setFilter($fullFilter)
+            ;
+            $this->writerCollection->addWriter($fullPhpWriter);
+        }
+
+        return $this->writerCollection;
     }
 
     /**
@@ -116,32 +188,14 @@ class BuildFullFileOnlyGenerator
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
-        $this->getLogger()->info('full ini file for php');
-
-        $collectionCreator = new CollectionCreator();
-
-        if (null === $iniFile) {
-            $iniFile = $this->buildFolder . '/full_php_browscap.ini';
-        }
-
-        $writerCollection = new WriterCollection();
-        $fullFilter       = new FullFilter();
-
-        $fullPhpWriter = new IniWriter($iniFile);
-        $formatter     = new PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter)
-        ;
-        $writerCollection->addWriter($fullPhpWriter);
+        $this->getLogger()->info('started creating the full ini file for php');
 
         Helper\BuildHelper::run(
             $version,
             $this->resourceFolder,
             $this->getLogger(),
-            $writerCollection,
-            $collectionCreator
+            $this->getWriterCollection($iniFile),
+            $this->getCollectionCreator()
         );
 
         $this->getLogger()->info('finished creating the full ini file for php');

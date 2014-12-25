@@ -73,6 +73,8 @@ class BuildGenerator
     /**
      * @param string $resourceFolder
      * @param string $buildFolder
+     *
+     * @throws \Exception
      */
     public function __construct($resourceFolder, $buildFolder)
     {
@@ -113,6 +115,14 @@ class BuildGenerator
     }
 
     /**
+     * @return \Browscap\Helper\CollectionCreator
+     */
+    public function getCollectionCreator()
+    {
+        return $this->collectionCreator;
+    }
+
+    /**
      * @param \Browscap\Writer\WriterCollection $writerCollection
      *
      * @return \Browscap\Generator\BuildGenerator
@@ -122,6 +132,14 @@ class BuildGenerator
         $this->writerCollection = $writerCollection;
 
         return $this;
+    }
+
+    /**
+     * @return \Browscap\Writer\WriterCollection
+     */
+    public function getWriterCollection()
+    {
+        return $this->writerCollection;
     }
 
     /**
@@ -165,8 +183,8 @@ class BuildGenerator
             $version,
             $this->resourceFolder,
             $this->getLogger(),
-            $this->writerCollection,
-            $this->collectionCreator
+            $this->getWriterCollection(),
+            $this->getCollectionCreator()
         );
 
         if (!$createZipFile) {
