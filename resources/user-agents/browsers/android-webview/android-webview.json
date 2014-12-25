@@ -7408,7 +7408,7 @@
             "Device_Name": "MeMO Pad Smart 10"
           },
           "platforms": [
-            "Android_4_2", "Android_4_3"
+            "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {

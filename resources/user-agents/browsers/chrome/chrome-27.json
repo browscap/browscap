@@ -1416,6 +1416,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ARIES_101 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "Aries 101",
+            "Device_Maker": "GOCLEVER",
+            "Device_Brand_Name": "GOCLEVER",
+            "Device_Name": "Aries 101",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T310 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
@@ -1441,6 +1455,20 @@
           },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AT10-A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "AT10-A",
+            "Device_Maker": "Toshiba",
+            "Device_Brand_Name": "Toshiba",
+            "Device_Name": "eXcite Pure",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

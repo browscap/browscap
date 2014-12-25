@@ -16,6 +16,9 @@
       },
       "children": [
         {
+          "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*"
+        },
+        {
           "match": "?Mozilla\/* Firefox\/*"
         },
         {

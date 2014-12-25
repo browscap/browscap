@@ -7,7 +7,7 @@
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Linux",
-      "engine": "Gecko_Dynamic",
+      "engine": "Gecko_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iceweasel #MAJORVER#.#MINORVER#",

@@ -2540,6 +2540,18 @@
           ]
         },
         {
+          "match": "Lenovo-A820* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "properties": {
+            "Device_Code_Name": "A820",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A820"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
@@ -7983,7 +7995,7 @@
             "Device_Name": "Galaxy S III 4G CDMA"
           },
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
