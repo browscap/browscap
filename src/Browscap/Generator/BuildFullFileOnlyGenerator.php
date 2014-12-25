@@ -32,73 +32,8 @@ use Psr\Log\LoggerInterface;
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class BuildFullFileOnlyGenerator
+class BuildFullFileOnlyGenerator extends AbstractBuildGenerator
 {
-    /**
-     * @var string
-     */
-    private $resourceFolder;
-
-    /**
-     * @var string
-     */
-    private $buildFolder;
-
-    /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger = null;
-
-    /**
-     * @var \Browscap\Helper\CollectionCreator
-     */
-    private $collectionCreator = null;
-
-    /** @var \Browscap\Writer\WriterCollection */
-    private $writerCollection = null;
-
-    /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     */
-    public function __construct($resourceFolder, $buildFolder)
-    {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Generator\BuildFullFileOnlyGenerator
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setCollectionCreator(CollectionCreator $collectionCreator)
-    {
-        $this->collectionCreator = $collectionCreator;
-
-        return $this;
-    }
-
     /**
      * @return \Browscap\Helper\CollectionCreator
      */
@@ -112,33 +47,21 @@ class BuildFullFileOnlyGenerator
     }
 
     /**
-     * @param \Browscap\Writer\WriterCollection $writerCollection
+     * @param string|null $file
      *
-     * @return \Browscap\Generator\BuildGenerator
+*@return \Browscap\Writer\WriterCollection
      */
-    public function setWriterCollection(WriterCollection $writerCollection)
-    {
-        $this->writerCollection = $writerCollection;
-
-        return $this;
-    }
-
-    /**
-     * @param string|null $iniFile
-     *
-     * @return \Browscap\Writer\WriterCollection
-     */
-    public function getWriterCollection($iniFile = null)
+    public function getWriterCollection($file = null)
     {
         if (null === $this->writerCollection) {
-            if (null === $iniFile) {
-                $iniFile = $this->buildFolder . '/full_php_browscap.ini';
+            if (null === $file) {
+                $file = $this->buildFolder . '/full_php_browscap.ini';
             }
 
             $this->writerCollection = new WriterCollection();
             $fullFilter       = new FullFilter();
 
-            $fullPhpWriter = new IniWriter($iniFile);
+            $fullPhpWriter = new IniWriter($file);
             $formatter     = new PhpFormatter();
             $fullPhpWriter
                 ->setLogger($this->getLogger())
@@ -149,32 +72,6 @@ class BuildFullFileOnlyGenerator
         }
 
         return $this->writerCollection;
-    }
-
-    /**
-     * @param string $directory
-     * @param string $type
-     *
-     * @return string
-     * @throws \Exception
-     */
-    private function checkDirectoryExists($directory, $type)
-    {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
-        $realDirectory = realpath($directory);
-
-        if ($realDirectory === false) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
-        }
-
-        if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
-        }
-
-        return $realDirectory;
     }
 
     /**

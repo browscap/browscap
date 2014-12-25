@@ -17,7 +17,7 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\BuildFullFileOnlyGenerator;
+use Browscap\Generator\BuildCustomFileGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 
@@ -28,7 +28,7 @@ use Monolog\Logger;
  * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  */
-class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
+class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var array
@@ -54,30 +54,30 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
     public function testConstructFailsWithoutParameters()
     {
         $this->setExpectedException('\Exception', 'You must specify a resource folder');
-        new BuildFullFileOnlyGenerator(null, null);
+        new BuildCustomFileGenerator(null, null);
     }
 
     public function testConstructFailsWithoutTheSecondParameter()
     {
         $this->setExpectedException('\Exception', 'You must specify a build folder');
-        new BuildFullFileOnlyGenerator('.', null);
+        new BuildCustomFileGenerator('.', null);
     }
 
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
         $this->setExpectedException('\Exception', 'The directory "/dar" does not exist, or we cannot access it');
-        new BuildFullFileOnlyGenerator('/dar', null);
+        new BuildCustomFileGenerator('/dar', null);
     }
 
     public function testConstructFailsIfTheDirIsNotAnDirectory()
     {
         $this->setExpectedException('\Exception', 'The path "' . __FILE__ . '" did not resolve to a directory');
-        new BuildFullFileOnlyGenerator(__FILE__, null);
+        new BuildCustomFileGenerator(__FILE__, null);
     }
 
     public function testConstructPassesIfAllDirsExist()
     {
-        new BuildFullFileOnlyGenerator('.', '.');
+        new BuildCustomFileGenerator('.', '.');
     }
 
     public function testSetLogger()
@@ -89,7 +89,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
         @mkdir($buildFolder, 0777, true);
 
-        $generator = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
+        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($mock));
         self::assertSame($mock, $generator->getLogger());
     }
@@ -225,7 +225,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
 
         @mkdir($buildFolder, 0777, true);
 
-        $generator = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
+        $generator = new BuildCustomFileGenerator($resourceFolder, $buildFolder);
         self::assertSame($generator, $generator->setLogger($this->logger));
         self::assertSame($generator, $generator->setCollectionCreator($mockCreator));
         self::assertSame($generator, $generator->setWriterCollection($writerCollection));
