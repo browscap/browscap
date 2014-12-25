@@ -136,7 +136,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockCollection
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()))
         ;

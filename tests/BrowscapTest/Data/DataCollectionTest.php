@@ -174,12 +174,13 @@ HERE;
         self::assertInternalType('array', $this->object->getPlatforms());
         $platform = $this->object->getPlatform('Platform1');
 
-        self::assertInternalType('array', $platform);
-        self::assertArrayHasKey('properties', $platform);
+        self::assertInstanceOf('\Browscap\Data\Platform', $platform);
 
-        self::assertInternalType('array', $platform['properties']);
-        self::assertArrayHasKey('Platform', $platform['properties']);
-        self::assertSame('Platform1', $platform['properties']['Platform']);
+        $properties = $platform->getProperties();
+
+        self::assertInternalType('array', $properties);
+        self::assertArrayHasKey('Platform', $properties);
+        self::assertSame('Platform1', $properties['Platform']);
     }
 
     /**
@@ -264,12 +265,12 @@ HERE;
         self::assertInternalType('array', $this->object->getEngines());
         $engine = $this->object->getEngine('Foobar');
 
-        self::assertInternalType('array', $engine);
-        self::assertArrayHasKey('properties', $engine);
+        self::assertInstanceOf('\Browscap\Data\Engine', $engine);
+        $properties = $engine->getProperties();
 
-        self::assertInternalType('array', $engine['properties']);
-        self::assertArrayHasKey('RenderingEngine_Name', $engine['properties']);
-        self::assertSame('Foobar', $engine['properties']['RenderingEngine_Name']);
+        self::assertInternalType('array', $properties);
+        self::assertArrayHasKey('RenderingEngine_Name', $properties);
+        self::assertSame('Foobar', $properties['RenderingEngine_Name']);
     }
 
     public function testGetVersion()
@@ -387,7 +388,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \RuntimeException
+     * @expectedException \RuntimeException
      * @expectedExceptionMessage required attibute "division" is missing
      */
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
@@ -398,7 +399,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \RuntimeException
+     * @expectedException \RuntimeException
      * @expectedExceptionMessage required attibute "sortIndex" is missing
      */
     public function testAddSourceFileThrowsExceptionIfNoSortIndexIsAvailable()
@@ -409,7 +410,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \RuntimeException
+     * @expectedException \RuntimeException
      * @expectedExceptionMessage the properties entry has to be an array for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
@@ -420,7 +421,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the "Parent" property is missing for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfNoParentPropertyIsAvailable()
@@ -431,7 +432,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the "Comment" property is missing for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfNoCommentPropertyIsAvailable()
@@ -442,7 +443,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the properties array contains platform data for key "UA1", please use the "platform" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludePlatformData()
@@ -453,7 +454,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the properties array contains engine data for key "UA1", please use the "engine" keyword
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData()
@@ -464,7 +465,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the children property has to be an array of arrays for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
@@ -475,7 +476,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage each entry of the children property requires an "match" entry for key "UA1"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword()
@@ -486,7 +487,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the properties entry has to be an array for key "cde"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenPropertiesAreNotArrays()
@@ -497,7 +498,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the Parent property must not set inside the children array for key "cde"
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasParentProperty()
@@ -508,7 +509,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \LogicException
+     * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains platform data for key "cde", please use the "platforms" keyword
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasPlatformProperties()
@@ -519,7 +520,7 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * expectedException \LogicException
+     * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains engine data for key "cde", please use the "engine" keyword
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties()
@@ -537,7 +538,7 @@ HERE;
         $division = $this->object->getDefaultProperties();
 
         self::assertInstanceOf('\Browscap\Data\Division', $division);
-        self::assertSame('Defaultproperties', $division->getName());
+        self::assertSame('DefaultProperties', $division->getName());
     }
 
     /**
@@ -550,6 +551,6 @@ HERE;
         $division = $this->object->getDefaultBrowser();
 
         self::assertInstanceOf('\Browscap\Data\Division', $division);
-        self::assertSame('*', $division->getName());
+        self::assertSame('Default Browser', $division->getName());
     }
 }

@@ -144,7 +144,7 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
         $collectionCreator->expects(self::once())
             ->method('setLogger')
             ->will(self::returnSelf());
-        $collectionCreator->expects(self::once())
+        $collectionCreator->expects(self::never())
             ->method('getLogger')
             ->will(self::returnValue($logger));
         $collectionCreator->expects(self::once())
