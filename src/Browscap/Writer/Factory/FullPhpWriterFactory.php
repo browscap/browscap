@@ -35,7 +35,7 @@ class FullPhpWriterFactory
     /**
      * @param \Psr\Log\LoggerInterface $logger
      * @param string                   $buildFolder
-     * @param string                   $file
+     * @param string|null              $file
      *
      * @return \Browscap\Writer\WriterCollection
      */

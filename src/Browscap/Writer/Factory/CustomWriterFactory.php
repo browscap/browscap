@@ -45,7 +45,7 @@ class CustomWriterFactory
     /**
      * @param \Psr\Log\LoggerInterface $logger
      * @param string                   $buildFolder
-     * @param string                   $file
+     * @param string|null              $file
      * @param array                    $fields
      * @param string                   $format
      *

@@ -17,10 +17,8 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Formatter;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer;
-use Psr\Log\LoggerInterface;
 
 /**
  * Class BuildGenerator
@@ -79,7 +77,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
             $factory = new Writer\Factory\CustomWriterFactory();
             $this->writerCollection = $factory->createCollection(
                 $this->getLogger(),
-                $this->getLogger(),
+                $this->buildFolder,
                 $file,
                 $fields,
                 $format

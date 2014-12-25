@@ -20,7 +20,6 @@ namespace Browscap\Generator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
-use ZipArchive;
 
 /**
  * Class BuildGenerator

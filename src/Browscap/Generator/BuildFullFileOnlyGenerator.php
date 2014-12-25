@@ -17,12 +17,8 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Filter\FullFilter;
-use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
-use Browscap\Writer\IniWriter;
-use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 
 /**
