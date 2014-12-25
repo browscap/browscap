@@ -59,7 +59,7 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
         $writerCollection->expects(self::once())
             ->method('renderAllDivisionsHeader')
             ->will(self::returnSelf());
-        $writerCollection->expects(self::once())
+        $writerCollection->expects(self::any())
             ->method('renderDivisionFooter')
             ->will(self::returnSelf());
         $writerCollection->expects(self::any())

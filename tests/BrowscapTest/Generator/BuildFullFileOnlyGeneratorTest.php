@@ -117,7 +117,7 @@ class BuildFullFileOnlyGeneratorTest extends \PHPUnit_Framework_TestCase
             )
         ;
         $mockDivision
-            ->expects(self::once())
+            ->expects(self::never())
             ->method('getVersions')
             ->will(self::returnValue(array(2)))
         ;
