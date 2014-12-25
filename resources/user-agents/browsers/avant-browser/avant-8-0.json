@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Avant\/IE 8.0",
-      "engine": "Trident",
+      "engine": "Trident_4",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avant\/IE 8.0",
