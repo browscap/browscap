@@ -408,6 +408,17 @@ HERE;
     }
 
     /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "lite" is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoLitePropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-lite-property.json');
+    }
+
+    /**
      * checks if a exception is thrown if the sortindex property is missing
      *
      * @expectedException \RuntimeException
