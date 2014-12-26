@@ -412,7 +412,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(20))
+            ->expects(self::exactly(3))
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
@@ -496,7 +496,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(20))
+            ->expects(self::exactly(3))
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
