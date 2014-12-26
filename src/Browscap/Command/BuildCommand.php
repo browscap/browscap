@@ -101,8 +101,9 @@ class BuildCommand extends Command
             ->setLogger($logger)
             ->setCollectionCreator(new CollectionCreator())
             ->setWriterCollection($writerCollection)
-            ->run($input->getArgument('version'))
         ;
+
+        $buildGenerator->run($input->getArgument('version'));
 
         $logger->info('Build done.');
     }

@@ -126,10 +126,10 @@ class BuildHelper
             // versions
             $sections = $expander->expand($division, $division->getName());
 
+            $logger->info('checking division ' . $division->getName());
+
             foreach (array_keys($sections) as $sectionName) {
                 $section = $sections[$sectionName];
-
-                $logger->info('checking division ' . $division->getName());
 
                 $collection->checkProperty($sectionName, $section);
             }
