@@ -476,8 +476,12 @@ class DataCollection
             }
 
             array_multisort(
-                $sortIndex, SORT_ASC, SORT_NUMERIC,
-                $sortPosition, SORT_DESC, SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
+                $sortIndex,
+                SORT_ASC,
+                SORT_NUMERIC,
+                $sortPosition,
+                SORT_DESC,
+                SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
                 $this->divisions
             );
 

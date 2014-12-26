@@ -114,7 +114,8 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message \'File "' . $tmpfile
+                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -214,7 +215,8 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message \'File "' . $tmpfile
+                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -371,7 +373,8 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message \'File "' . $tmpfile
+                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -555,7 +558,10 @@ HERE;
      */
     public function testAddDefaultProperties()
     {
-        self::assertSame($this->object, $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json'));
+        self::assertSame(
+            $this->object,
+            $this->object->addDefaultProperties(__DIR__ . '/../../fixtures/ua/default-properties.json')
+        );
 
         $division = $this->object->getDefaultProperties();
 
@@ -568,7 +574,10 @@ HERE;
      */
     public function testAddDefaultBrowser()
     {
-        self::assertSame($this->object, $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json'));
+        self::assertSame(
+            $this->object,
+            $this->object->addDefaultBrowser(__DIR__ . '/../../fixtures/ua/default-browser.json')
+        );
 
         $division = $this->object->getDefaultBrowser();
 

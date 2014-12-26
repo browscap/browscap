@@ -312,7 +312,6 @@ class PropertyHolder
                 break;
             default:
                 throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');
-                break;
         }
 
         if (in_array($value, $allowedValues)) {

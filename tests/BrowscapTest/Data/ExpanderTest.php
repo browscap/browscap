@@ -106,7 +106,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
 
-        $result = $this->object->expand($mockDivision, 0, 0, 'TestDivision');
+        $result = $this->object->expand($mockDivision, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(0, $result);
     }
@@ -143,13 +143,27 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array(0 => array('userAgent' => 'abc', 'properties' => array('Parent' => 'Defaultproperties', 'Version' => '1.0', 'MajorVer' => 1, 'Browser' => 'xyz')))))
+            ->will(
+                self::returnValue(
+                    array(
+                        0 => array(
+                            'userAgent'  => 'abc',
+                            'properties' => array(
+                                'Parent'   => 'Defaultproperties',
+                                'Version'  => '1.0',
+                                'MajorVer' => 1,
+                                'Browser'  => 'xyz'
+                            )
+                        )
+                    )
+                )
+            )
         ;
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
 
-        $result = $this->object->expand($mockDivision, 0, 0, 'TestDivision');
+        $result = $this->object->expand($mockDivision, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(1, $result);
     }
@@ -185,7 +199,11 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $uaData = array(
             0 => array(
                 'userAgent'  => 'abc',
-                'properties' => array('Parent' => 'Defaultproperties', 'Version' => '1.0', 'MajorVer' => 1, 'Browser' => 'xyz'),
+                'properties' => array('Parent'   => 'Defaultproperties',
+                                      'Version'  => '1.0',
+                                      'MajorVer' => 1,
+                                      'Browser'  => 'xyz'
+                ),
                 'children'   => array(
                     0 => array(
                         'match' => 'abc*',
@@ -205,7 +223,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
 
-        $result = $this->object->expand($mockDivision, 0, 0, 'TestDivision');
+        $result = $this->object->expand($mockDivision, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(2, $result);
     }

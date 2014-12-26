@@ -35,6 +35,11 @@ class DiffGenerator
     private $logger = null;
 
     /**
+     * @var int Number of differences found in total
+     */
+    private $diffsFound = 0;
+
+    /**
      * Entry point for generating builds for a specified version
      *
      * @param string $leftFilename
@@ -60,6 +65,8 @@ class DiffGenerator
 
         $this->logger->debug('RTL');
         $this->logger->debug(var_export($rtlDiff, true));
+
+        $this->diffsFound = 0;
 
         if (count($ltrDiff) || count($rtlDiff)) {
             $this->logger->info('The following differences have been found:');
@@ -129,19 +136,24 @@ class DiffGenerator
 
     /**
      * @param string $section
-     * @param array  $leftPropsDifferences
-     * @param array  $rightPropsDifferences
+     * @param array  $leftPropDifferences
+     * @param array  $rightPropDifferences
      * @param array  $rightProps
      */
-    private function compareSectionProperties($section, array $leftPropsDifferences, array $rightPropsDifferences, array $rightProps)
+    private function compareSectionProperties(
+        $section,
+        array $leftPropDifferences,
+        array $rightPropDifferences,
+        array $rightProps
+    )
     {
         $this->logger->info('[' . $section . ']');
 
         // Diff the properties
         $propsRead = array();
 
-        if (isset($leftPropsDifferences)) {
-            foreach ($leftPropsDifferences as $prop => $value) {
+        if (isset($leftPropDifferences)) {
+            foreach ($leftPropDifferences as $prop => $value) {
                 if (isset($rightProps[$prop])) {
                     $msg = sprintf('"%s" differs (L / R): %s / %s', $prop, $value, $rightProps[$prop]);
                 } else {
@@ -155,8 +167,8 @@ class DiffGenerator
             }
         }
 
-        if (isset($rightPropsDifferences)) {
-            foreach ($rightPropsDifferences as $prop => $value) {
+        if (isset($rightPropDifferences)) {
+            foreach ($rightPropDifferences as $prop => $value) {
                 if (in_array($prop, $propsRead)) {
                     continue;
                 }

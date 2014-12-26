@@ -67,11 +67,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     public function userAgentDataProvider()
     {
-        $data              = array();
-        $checks            = array();
-        $userAgentSourceDirectory = __DIR__ . '/../fixtures/issues/';
+        $data            = array();
+        $checks          = array();
+        $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
-        $iterator = new \RecursiveDirectoryIterator($userAgentSourceDirectory);
+        $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
