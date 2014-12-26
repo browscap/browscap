@@ -1,6 +1,7 @@
 {
   "division": "RankFlex",
   "sortIndex": 1030,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "RankFlex",

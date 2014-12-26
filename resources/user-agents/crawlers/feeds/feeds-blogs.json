@@ -1,6 +1,7 @@
 {
   "division": "Feeds Blogs",
   "sortIndex": 360,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Feeds Blogs",

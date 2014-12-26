@@ -1,6 +1,7 @@
 {
   "division": "spbot",
   "sortIndex": 246,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "spbot",

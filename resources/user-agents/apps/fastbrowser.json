@@ -1,6 +1,7 @@
 {
   "division": "FastBrowser",
   "sortIndex": 4120,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "FastBrowser",

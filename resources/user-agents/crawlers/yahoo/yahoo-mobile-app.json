@@ -2,6 +2,7 @@
   "division": "YahooMobile #MAJORVER#.#MINORVER#",
   "versions": ["3.1", "3.2", "3.3", 4, 5],
   "sortIndex": 1331,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",

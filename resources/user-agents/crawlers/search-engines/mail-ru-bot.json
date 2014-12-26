@@ -1,6 +1,7 @@
 {
   "division": "Mail.Ru Bot",
   "sortIndex": 1220,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Mail.Ru Bot",

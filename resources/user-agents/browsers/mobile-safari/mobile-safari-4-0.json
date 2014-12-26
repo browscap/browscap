@@ -2,7 +2,7 @@
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
   "versions": ["4.0"],
   "sortIndex": 1942,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",

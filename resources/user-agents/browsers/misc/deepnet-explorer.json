@@ -2,6 +2,7 @@
   "division": "Deepnet Explorer #MAJORVER#.#MINORVER#",
   "versions": ["1.5"],
   "sortIndex": 2751,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Deepnet Explorer #MAJORVER#.#MINORVER#",

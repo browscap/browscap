@@ -1,7 +1,7 @@
 {
   "division": "WebKit/webOS Generic",
   "sortIndex": 1941,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WebKit/webOS Generic",

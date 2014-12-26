@@ -2,6 +2,7 @@
   "division": "Google Earth #MAJORVER#.#MINORVER#",
   "versions": [5, 6, 7, "7.1"],
   "sortIndex": 5070,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Earth #MAJORVER#.#MINORVER#",

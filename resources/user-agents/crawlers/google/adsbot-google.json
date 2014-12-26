@@ -1,6 +1,7 @@
 {
   "division": "AdsBot Google",
   "sortIndex": 1080,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "AdsBot Google",

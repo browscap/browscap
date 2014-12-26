@@ -1,6 +1,7 @@
 {
   "division": "Google Image Proxy",
   "sortIndex": 1074,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Image Proxy",

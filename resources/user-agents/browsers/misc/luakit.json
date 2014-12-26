@@ -1,6 +1,7 @@
 {
   "division": "luakit",
   "sortIndex": 5030,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "luakit",

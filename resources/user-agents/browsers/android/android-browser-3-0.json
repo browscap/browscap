@@ -2,7 +2,7 @@
   "division": "Android Browser #MAJORVER#.#MINORVER#",
   "versions": ["3.0"],
   "sortIndex": 1914,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",

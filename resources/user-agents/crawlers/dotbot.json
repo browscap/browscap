@@ -1,6 +1,7 @@
 {
   "division": "DotBot",
   "sortIndex": 100,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DotBot",

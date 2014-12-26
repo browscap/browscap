@@ -1,6 +1,7 @@
 {
   "division": "Envolk",
   "sortIndex": 120,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Envolk",

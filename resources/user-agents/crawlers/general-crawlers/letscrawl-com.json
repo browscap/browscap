@@ -1,6 +1,7 @@
 {
   "division": "LetsCrawl.com",
   "sortIndex": 660,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "LetsCrawl.com",

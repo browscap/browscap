@@ -202,17 +202,16 @@ class DataCollection
             throw new \UnexpectedValueException('required attibute "sortIndex" is missing');
         }
 
+        if (empty($divisionData['lite'])) {
+            throw new \UnexpectedValueException('required attibute "lite" is missing');
+        }
+
         $division = new Division();
         $division
             ->setName($divisionData['division'])
             ->setSortIndex((int) $divisionData['sortIndex'])
+            ->setLite((boolean) $divisionData['lite'])
         ;
-
-        if (isset($divisionData['lite'])) {
-            $division->setLite((boolean) $divisionData['lite']);
-        } else {
-            $division->setLite(false);
-        }
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $division->setVersions($divisionData['versions']);

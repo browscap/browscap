@@ -1,6 +1,7 @@
 {
   "division": "The Diary",
   "sortIndex": 10840,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "The Diary",

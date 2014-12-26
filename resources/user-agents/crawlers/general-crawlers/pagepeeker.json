@@ -1,6 +1,7 @@
 {
   "division": "PagePeeker",
   "sortIndex": 870,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "PagePeeker",

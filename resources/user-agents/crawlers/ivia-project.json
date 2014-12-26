@@ -1,6 +1,7 @@
 {
   "division": "iVia Project",
   "sortIndex": 180,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "iVia Project",

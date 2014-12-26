@@ -1,6 +1,7 @@
 {
   "division": "Google Structured-Data TestingTool",
   "sortIndex": 1075,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Structured-Data TestingTool",

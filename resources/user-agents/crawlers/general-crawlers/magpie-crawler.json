@@ -1,6 +1,7 @@
 {
   "division": "magpie-crawler",
   "sortIndex": 710,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "magpie-crawler",

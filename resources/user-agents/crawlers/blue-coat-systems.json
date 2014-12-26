@@ -1,6 +1,7 @@
 {
   "division": "Blue Coat Systems",
   "sortIndex": 120,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Blue Coat Systems",

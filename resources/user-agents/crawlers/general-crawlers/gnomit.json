@@ -1,6 +1,7 @@
 {
   "division": "Gnomit",
   "sortIndex": 510,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Gnomit",

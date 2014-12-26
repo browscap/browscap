@@ -1,6 +1,7 @@
 {
   "division": "Rippers",
   "sortIndex": 480,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Rippers",

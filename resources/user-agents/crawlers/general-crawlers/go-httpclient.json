@@ -1,6 +1,7 @@
 {
   "division": "GO HttpClient",
   "sortIndex": 1980,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "GO HttpClient",

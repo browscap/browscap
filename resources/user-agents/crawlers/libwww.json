@@ -1,6 +1,7 @@
 {
   "division": "libwww",
   "sortIndex": 990,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "libwww",

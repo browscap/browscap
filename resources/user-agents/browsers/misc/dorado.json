@@ -1,6 +1,7 @@
 {
   "division": "Dorado WAP Browser",
   "sortIndex": 3931,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Dorado WAP Browser",

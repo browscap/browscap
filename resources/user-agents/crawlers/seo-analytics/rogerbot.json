@@ -1,6 +1,7 @@
 {
   "division": "rogerbot",
   "sortIndex": 1030,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "rogerbot",

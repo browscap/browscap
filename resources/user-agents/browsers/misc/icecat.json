@@ -1,6 +1,7 @@
 {
   "division": "IceCat",
   "sortIndex": 5290,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IceCat",
