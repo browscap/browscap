@@ -185,15 +185,15 @@ class DataCollection
         $divisionData = $this->loadFile($src);
 
         if (empty($divisionData['division'])) {
-            throw new \UnexpectedValueException('required attibute "division" is missing');
+            throw new \UnexpectedValueException('required attibute "division" is missing in File ' . $src);
         }
 
         if (empty($divisionData['sortIndex'])) {
-            throw new \UnexpectedValueException('required attibute "sortIndex" is missing');
+            throw new \UnexpectedValueException('required attibute "sortIndex" is missing in File ' . $src);
         }
 
         if (empty($divisionData['lite'])) {
-            throw new \UnexpectedValueException('required attibute "lite" is missing');
+            throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $src);
         }
 
         $division = new Division();
