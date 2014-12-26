@@ -9,9 +9,10 @@
       "platform": "Android",
       "engine": "WebKit",
       "properties": {
-        "Parent": "Media Players",
+        "Parent": "DefaultProperties",
         "Comment": "stagefright #MAJORVER#.#MINORVER#",
         "Browser": "stagefright",
+        "Browser_Type": "Application",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"

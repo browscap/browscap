@@ -47,9 +47,11 @@
     {
       "userAgent": "UA4",
       "properties": {
-        "Parent": "UA2",
+        "Parent": "DefaultProperties",
+        "lite": "false",
         "Comment": "UA4",
         "Browser": "UA4",
+        "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0"
       }
