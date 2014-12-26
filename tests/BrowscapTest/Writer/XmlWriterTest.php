@@ -437,7 +437,8 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
+            . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -517,10 +518,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
-
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
+            . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
