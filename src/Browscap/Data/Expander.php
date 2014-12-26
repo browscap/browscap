@@ -376,12 +376,6 @@ class Expander
                     continue;
                 }
 
-                if (!isset($allInputDivisions[$parent]['Parent'])) {
-                    throw new \UnexpectedValueException(
-                        'Parent entry not defined for key "' . $parent . '"'
-                    );
-                }
-
                 if (!is_array($allInputDivisions[$parent])) {
                     throw new \UnexpectedValueException(
                         'Parent "' . $parent . '" is not an array for key "' . $key . '"'

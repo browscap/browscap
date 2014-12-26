@@ -57,9 +57,9 @@ class PlatformFactory
             $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
 
-            $inhPlatformProperties = $platformData['properties'];
+            $platformProperties = $platformData['properties'];
 
-            foreach ($inhPlatformProperties as $name => $value) {
+            foreach ($platformProperties as $name => $value) {
                 if (isset($parentPlatformData[$name])
                     && $parentPlatformData[$name] == $value
                 ) {
@@ -72,7 +72,7 @@ class PlatformFactory
 
             $platformData['properties'] = array_merge(
                 $parentPlatformData,
-                $inhPlatformProperties
+                $platformProperties
             );
         }
 

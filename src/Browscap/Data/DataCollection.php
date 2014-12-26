@@ -239,6 +239,13 @@ class DataCollection
                     );
                 }
 
+                if ('DefaultProperties' !== $useragent['properties']['Parent']) {
+                    throw new \UnexpectedValueException(
+                        'the "Parent" property is not linked to the "DefaultProperties" for key "'
+                        . $useragent['userAgent'] . '"'
+                    );
+                }
+
                 if (!isset($useragent['properties']['Comment'])) {
                     throw new \UnexpectedValueException(
                         'the "Comment" property is missing for key "' . $useragent['userAgent'] . '"'

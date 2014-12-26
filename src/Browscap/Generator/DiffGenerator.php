@@ -145,8 +145,7 @@ class DiffGenerator
         array $leftPropDifferences,
         array $rightPropDifferences,
         array $rightProps
-    )
-    {
+    ) {
         $this->logger->info('[' . $section . ']');
 
         // Diff the properties
