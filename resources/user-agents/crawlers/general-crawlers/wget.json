@@ -6,7 +6,7 @@
     {
       "userAgent": "wget",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "wget",
         "Browser_Type": "Offline Browser",
         "Browser_Maker": "Free Software Foundation, Inc.",

@@ -6,7 +6,7 @@
     {
       "userAgent": "magpie-crawler",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "magpie-crawler",
         "Browser": "magpie-crawler",
         "Browser_Type": "Bot/Crawler",

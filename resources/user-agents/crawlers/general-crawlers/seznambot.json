@@ -6,7 +6,7 @@
     {
       "userAgent": "SeznamBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "SeznamBot",
         "Browser": "SeznamBot",
         "Browser_Type": "Bot/Crawler",

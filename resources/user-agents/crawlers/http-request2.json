@@ -6,7 +6,7 @@
     {
       "userAgent": "HTTP_Request2",
       "properties": {
-        "Parent": "PHP",
+        "Parent": "DefaultProperties",
         "Comment": "PEAR HTTP_Request2",
         "Browser_Maker": "the PHP Group",
         "Browser": "PEAR HTTP_Request2",

@@ -61,7 +61,7 @@
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "properties": {
-        "Parent": "Yandex Browser #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
         "Browser": "Yandex Browser",
         "Version": "#MAJORVER#.#MINORVER#",

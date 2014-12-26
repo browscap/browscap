@@ -6,7 +6,7 @@
     {
       "userAgent": "Ezooms",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Ezooms",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

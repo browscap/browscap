@@ -356,7 +356,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "properties": {
-        "Parent": "UC Browser #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
