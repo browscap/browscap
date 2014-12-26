@@ -113,8 +113,8 @@ class FullCollectionFactory
         $formatter = new CsvFormatter();
         $csvWriter
             ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
+            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFilter($fullFilter)
         ;
         $writerCollection->addWriter($csvWriter);
 
@@ -122,8 +122,8 @@ class FullCollectionFactory
         $formatter = new XmlFormatter();
         $xmlWriter
             ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
+            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFilter($fullFilter)
         ;
         $writerCollection->addWriter($xmlWriter);
 
@@ -131,8 +131,8 @@ class FullCollectionFactory
         $formatter  = new JsonFormatter();
         $jsonWriter
             ->setLogger($logger)
-            ->setFormatter($formatter->setFilter($stdFilter))
-            ->setFilter($stdFilter)
+            ->setFormatter($formatter->setFilter($fullFilter))
+            ->setFilter($fullFilter)
         ;
         $writerCollection->addWriter($jsonWriter);
 
