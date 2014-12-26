@@ -194,15 +194,15 @@ class DataCollection
     {
         $divisionData = $this->loadFile($src);
 
-        if (empty($divisionData['division'])) {
+        if (!array_key_exists('division', $divisionData)) {
             throw new \UnexpectedValueException('required attibute "division" is missing in File ' . $src);
         }
 
-        if (empty($divisionData['sortIndex'])) {
+        if (!array_key_exists('sortIndex', $divisionData)) {
             throw new \UnexpectedValueException('required attibute "sortIndex" is missing in File ' . $src);
         }
 
-        if (empty($divisionData['lite'])) {
+        if (!array_key_exists('lite', $divisionData)) {
             throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $src);
         }
 
