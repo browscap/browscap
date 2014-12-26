@@ -1,6 +1,7 @@
 {
   "division": "Google Feedfetcher",
   "sortIndex": 1110,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Feedfetcher",

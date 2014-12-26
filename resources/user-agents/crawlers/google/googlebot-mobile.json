@@ -1,6 +1,7 @@
 {
   "division": "Googlebot-Mobile",
   "sortIndex": 1172,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile",

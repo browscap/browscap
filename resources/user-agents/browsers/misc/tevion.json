@@ -1,6 +1,7 @@
 {
   "division": "Tevion",
   "sortIndex": 10800,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Tevion",

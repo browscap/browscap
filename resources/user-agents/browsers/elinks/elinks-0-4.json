@@ -2,6 +2,7 @@
   "division": "ELinks #MAJORVER#.#MINORVER#",
   "versions": ["0.4"],
   "sortIndex": 2299,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "Powermarks",
   "sortIndex": 411,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Powermarks",

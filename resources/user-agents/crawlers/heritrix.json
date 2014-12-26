@@ -1,6 +1,7 @@
 {
   "division": "Heritrix",
   "sortIndex": 560,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Heritrix",

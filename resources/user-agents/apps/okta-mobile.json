@@ -2,6 +2,7 @@
   "division": "Okta Mobile #MAJORVER#.#MINORVER#",
   "versions": [4],
   "sortIndex": 1172,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Okta Mobile #MAJORVER#.#MINORVER# for iOS",

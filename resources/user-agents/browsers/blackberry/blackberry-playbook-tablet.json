@@ -1,6 +1,7 @@
 {
   "division": "Blackberry Playbook Tablet",
   "sortIndex": 2377,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Blackberry Playbook Tablet",

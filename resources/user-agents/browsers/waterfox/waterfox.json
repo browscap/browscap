@@ -2,7 +2,7 @@
   "division": "Waterfox #MAJORVER#.#MINORVER#",
   "versions": [26, 27, 28, 29, 30, 31, 32],
   "sortIndex": 3137,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",

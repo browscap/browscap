@@ -1,6 +1,7 @@
 {
   "division": "YodaoBot",
   "sortIndex": 230,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YodaoBot",

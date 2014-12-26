@@ -1,6 +1,7 @@
 {
   "division": "Google Keyword Tool",
   "sortIndex": 1120,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Keyword Tool",

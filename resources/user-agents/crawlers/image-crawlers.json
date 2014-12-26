@@ -1,6 +1,7 @@
 {
   "division": "Image Crawlers",
   "sortIndex": 400,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Image Crawlers",

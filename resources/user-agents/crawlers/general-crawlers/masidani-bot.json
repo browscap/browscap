@@ -1,6 +1,7 @@
 {
   "division": "masidani_bot",
   "sortIndex": 750,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "masidani_bot",

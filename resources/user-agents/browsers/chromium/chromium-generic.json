@@ -1,6 +1,7 @@
 {
   "division": "Chromium Generic",
   "sortIndex": 882,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Chromium Generic",

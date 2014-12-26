@@ -1,6 +1,7 @@
 {
   "division": "GomezAgent",
   "sortIndex": 520,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "GomezAgent",

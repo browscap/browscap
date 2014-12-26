@@ -2,7 +2,7 @@
   "division": "Silk #MAJORVER#.#MINORVER#",
   "versions": ["3.2"],
   "sortIndex": 1128,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",

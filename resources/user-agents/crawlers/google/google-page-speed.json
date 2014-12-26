@@ -1,6 +1,7 @@
 {
   "division": "Google Page Speed",
   "sortIndex": 1072,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Page Speed",

@@ -1,6 +1,7 @@
 {
   "division": "Windows-RSS-Platform 1.0",
   "sortIndex": 480,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Windows-RSS-Platform 1.0",

@@ -1,6 +1,7 @@
 {
   "division": "Research Projects",
   "sortIndex": 470,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Research Projects",

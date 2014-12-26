@@ -1,6 +1,7 @@
 {
   "division": "i-mobile",
   "sortIndex": 5240,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "i-mobile",

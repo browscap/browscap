@@ -1,6 +1,7 @@
 {
   "division": "Sindice Fetcher",
   "sortIndex": 1450,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sindice Fetcher",

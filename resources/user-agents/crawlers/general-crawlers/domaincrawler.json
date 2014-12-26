@@ -1,6 +1,7 @@
 {
   "division": "DomainCrawler",
   "sortIndex": 220,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DomainCrawler",

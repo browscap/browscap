@@ -1,6 +1,7 @@
 {
   "division": "picmole Bot",
   "sortIndex": 1031,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "picmole Bot",

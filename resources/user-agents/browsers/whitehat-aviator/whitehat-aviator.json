@@ -2,6 +2,7 @@
   "division": "WhiteHat Aviator #MAJORVER#.#MINORVER#",
   "versions": [33, 34, 35, 36],
   "sortIndex": 883,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WhiteHat Aviator #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "Media Players",
   "sortIndex": 1530,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Media Players",

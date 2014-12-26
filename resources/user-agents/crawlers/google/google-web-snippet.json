@@ -1,6 +1,7 @@
 {
   "division": "Google Web Snippet",
   "sortIndex": 1073,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Web Snippet",

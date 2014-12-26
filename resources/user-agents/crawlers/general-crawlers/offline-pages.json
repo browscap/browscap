@@ -1,6 +1,7 @@
 {
   "division": "Offline Pages",
   "sortIndex": 850,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Offline Pages",

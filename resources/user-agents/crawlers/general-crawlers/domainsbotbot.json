@@ -1,6 +1,7 @@
 {
   "division": "DomainsBotBot",
   "sortIndex": 230,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DomainsBotBot",

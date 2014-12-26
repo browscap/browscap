@@ -2,6 +2,7 @@
   "division": "stagefright #MAJORVER#.#MINORVER#",
   "versions": [1, "1.1", "1.2"],
   "sortIndex": 7121,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "stagefright #MAJORVER#.#MINORVER#",

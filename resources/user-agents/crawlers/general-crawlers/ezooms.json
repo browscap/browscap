@@ -1,6 +1,7 @@
 {
   "division": "Ezooms",
   "sortIndex": 350,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Ezooms",

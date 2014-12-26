@@ -1,6 +1,7 @@
 {
   "division": "SmartTV WebBrowser",
   "sortIndex": 10620,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SmartTV WebBrowser",

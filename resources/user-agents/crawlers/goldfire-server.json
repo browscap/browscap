@@ -1,6 +1,7 @@
 {
   "division": "Goldfire Server",
   "sortIndex": 61,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Goldfire Server",

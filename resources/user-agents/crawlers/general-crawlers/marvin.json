@@ -1,6 +1,7 @@
 {
   "division": "Marvin",
   "sortIndex": 740,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Marvin",

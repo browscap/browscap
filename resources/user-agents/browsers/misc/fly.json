@@ -1,6 +1,7 @@
 {
   "division": "FLY",
   "sortIndex": 4870,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "FLY",

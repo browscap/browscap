@@ -1,6 +1,7 @@
 {
   "division": "Crowsnest Mobile App",
   "sortIndex": 2280,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Crowsnest Mobile App",

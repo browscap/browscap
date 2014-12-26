@@ -1,6 +1,7 @@
 {
   "division": "Crawly",
   "sortIndex": 180,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Crawly",

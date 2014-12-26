@@ -1,6 +1,7 @@
 {
   "division": "SiteCon",
   "sortIndex": 491,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SiteCon",

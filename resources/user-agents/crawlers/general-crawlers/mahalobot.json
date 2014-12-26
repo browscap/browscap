@@ -1,6 +1,7 @@
 {
   "division": "Mahalobot",
   "sortIndex": 720,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Mahalobot",

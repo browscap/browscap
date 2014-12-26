@@ -1,6 +1,7 @@
 {
   "division": "Internet Content Rating Association",
   "sortIndex": 570,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Internet Content Rating Association",

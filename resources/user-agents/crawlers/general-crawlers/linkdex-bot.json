@@ -1,6 +1,7 @@
 {
   "division": "Linkdex Bot",
   "sortIndex": 1031,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Linkdex Bot",

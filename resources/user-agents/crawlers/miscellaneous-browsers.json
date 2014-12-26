@@ -1,6 +1,7 @@
 {
   "division": "Miscellaneous Browsers",
   "sortIndex": 430,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Miscellaneous Browsers",
