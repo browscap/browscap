@@ -341,7 +341,6 @@ class JsonWriter implements WriterInterface
                 continue;
             }
 
-            /**/
             if (isset($section['Parent']) && 'Parent' !== $property) {
                 if ('DefaultProperties' === $section['Parent']
                     || !isset($sections[$section['Parent']])
