@@ -7,7 +7,7 @@
     {
       "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot-Mobile",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

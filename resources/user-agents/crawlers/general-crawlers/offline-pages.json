@@ -6,7 +6,7 @@
     {
       "userAgent": "Offline Pages",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Offline Pages",
         "Browser": "Offline Pages",
         "Browser_Type": "Bot/Crawler",

@@ -6,7 +6,7 @@
     {
       "userAgent": "cURL PHP",
       "properties": {
-        "Parent": "cURL",
+        "Parent": "DefaultProperties",
         "Comment": "cURL PHP",
         "Browser_Type": "Bot/Crawler",
         "Browser": "cURL PHP",

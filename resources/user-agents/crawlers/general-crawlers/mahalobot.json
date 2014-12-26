@@ -6,7 +6,7 @@
     {
       "userAgent": "Mahalobot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Mahalobot",
         "Browser": "Mahalobot",
         "Browser_Type": "Bot/Crawler",

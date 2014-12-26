@@ -6,7 +6,7 @@
     {
       "userAgent": "Xerka WebBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Xerka",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
