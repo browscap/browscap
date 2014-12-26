@@ -63,7 +63,7 @@
     {
       "userAgent": "Firefox Generic for Android",
       "properties": {
-        "Parent": "Firefox Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
