@@ -6,7 +6,7 @@
     {
       "userAgent": "UA1",
       "properties": {
-        "Parent": "UA1",
+        "Parent": "DefaultProperties",
         "Browser": "UA1",
         "Version": "1.0",
         "MajorVer": "1",
