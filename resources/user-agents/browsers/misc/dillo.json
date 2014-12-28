@@ -2,6 +2,7 @@
   "division": "Dillo #MAJORVER#.#MINORVER#",
   "versions": ["0.6", "0.7", "0.8", "2.0", "2.1", "3.0"],
   "sortIndex": 2330,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Dillo #MAJORVER#.#MINORVER#",

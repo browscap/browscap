@@ -1,6 +1,7 @@
 {
   "division": "RockMelt",
   "sortIndex": 1130,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Rockmelt",

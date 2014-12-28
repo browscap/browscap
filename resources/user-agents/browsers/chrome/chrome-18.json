@@ -2,7 +2,7 @@
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [18],
   "sortIndex": 1143,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",

@@ -2,6 +2,7 @@
   "division": "SuperBird #MAJORVER#.#MINORVER#",
   "versions": [24],
   "sortIndex": 883,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SuperBird #MAJORVER#.#MINORVER#",

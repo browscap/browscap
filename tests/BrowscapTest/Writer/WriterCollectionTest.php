@@ -42,7 +42,7 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
     private $root = null;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var string
      */
     private $file = null;
 
@@ -118,7 +118,13 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
     {
         $version = 'test';
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getGenerationDate'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getGenerationDate')
@@ -152,7 +158,13 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
 
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
 
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter', 'getFormatter', 'getLogger'), array($this->file), '', true);
+        $mockWriter = $this->getMock(
+            '\Browscap\Writer\CsvWriter',
+            array('getFilter', 'getFormatter', 'getLogger'),
+            array($this->file),
+            '',
+            true
+        );
         $mockWriter
             ->expects(self::once())
             ->method('getFilter')

@@ -42,7 +42,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     private $root = null;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var string
      */
     private $file = null;
 
@@ -305,7 +305,13 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($expectedAgents))
         ;
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
@@ -412,7 +418,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
@@ -426,7 +432,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -437,7 +443,8 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
+            . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -495,7 +502,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             false
         );
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(self::exactly(3))
             ->method('formatPropertyName')
             ->will(self::returnArgument(0))
         ;
@@ -509,7 +516,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -517,10 +524,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         ;
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
-
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
         self::assertSame(
-            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL,
+            '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
+            . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }

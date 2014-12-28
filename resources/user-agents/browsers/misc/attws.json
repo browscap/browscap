@@ -1,6 +1,7 @@
 {
   "division": "ATTWS",
   "sortIndex": 2230,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "ATTWS",

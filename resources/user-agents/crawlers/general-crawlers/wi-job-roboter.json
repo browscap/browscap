@@ -1,11 +1,12 @@
 {
   "division": "WI Job Roboter",
   "sortIndex": 1570,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WI Job Roboter",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "WI Job Roboter",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Web Integration IT Service GmbH",

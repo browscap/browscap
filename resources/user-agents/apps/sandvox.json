@@ -1,6 +1,7 @@
 {
   "division": "Sandvox",
   "sortIndex": 1175,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sandvox",

@@ -1,7 +1,7 @@
 {
   "division": "SEMC Browser",
   "sortIndex": 1850,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SEMC Browser",

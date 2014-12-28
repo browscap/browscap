@@ -1,11 +1,12 @@
 {
   "division": "Ezooms",
   "sortIndex": 350,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Ezooms",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Ezooms",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

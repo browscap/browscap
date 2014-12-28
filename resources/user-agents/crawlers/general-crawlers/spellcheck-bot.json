@@ -1,11 +1,12 @@
 {
   "division": "SpellCheck Bot",
   "sortIndex": 1510,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SpellCheck Bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "SpellCheck Bot",
         "Browser": "SpellCheck Bot",
         "Browser_Type": "Bot/Crawler",

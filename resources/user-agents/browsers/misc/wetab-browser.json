@@ -1,6 +1,7 @@
 {
   "division": "WeTab-Browser",
   "sortIndex": 1945,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WeTab-Browser",

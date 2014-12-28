@@ -18,7 +18,6 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -328,35 +327,9 @@ class XmlWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $expander = new Expander();
-
-        foreach ($defaultproperties as $propertyName => $propertyValue) {
-            $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
-        }
-
         foreach ($properties as $property) {
             if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
                 continue;
-            }
-
-            if (isset($section['Parent']) && 'Parent' !== $property) {
-                if ('DefaultProperties' === $section['Parent']
-                    || !isset($sections[$section['Parent']])
-                ) {
-                    if (isset($defaultproperties[$property])
-                        && $defaultproperties[$property] === $section[$property]
-                    ) {
-                        continue;
-                    }
-                } else {
-                    $parentProperties = $sections[$section['Parent']];
-
-                    if (isset($parentProperties[$property])
-                        && $parentProperties[$property] === $section[$property]
-                    ) {
-                        continue;
-                    }
-                }
             }
 
             fputs(

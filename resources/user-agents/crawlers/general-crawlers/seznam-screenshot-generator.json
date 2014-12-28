@@ -1,11 +1,12 @@
 {
   "division": "Seznam Screenshot Generator",
   "sortIndex": 1430,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Seznam Screenshot Generator",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Seznam Screenshot Generator",
         "Browser": "Seznam Screenshot Generator",
         "Browser_Type": "Bot/Crawler",

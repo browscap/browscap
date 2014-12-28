@@ -2,6 +2,7 @@
   "division": "Nichrome #MAJORVER#.#MINORVER#",
   "versions": [33],
   "sortIndex": 1070,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Nichrome Browser #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Mozilla #MAJORVER#.#MINORVER#",
   "versions": ["1.4", "1.5", "1.6"],
   "sortIndex": 17571,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Mozilla #MAJORVER#.#MINORVER#",

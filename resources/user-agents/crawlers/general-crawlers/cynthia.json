@@ -1,11 +1,12 @@
 {
   "division": "Cynthia",
   "sortIndex": 190,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Cynthia",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "General Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

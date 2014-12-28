@@ -1,6 +1,7 @@
 {
   "division": "rekonq",
   "sortIndex": 1945,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "rekonq",

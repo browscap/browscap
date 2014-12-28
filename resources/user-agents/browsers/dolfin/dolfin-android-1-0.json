@@ -2,7 +2,7 @@
   "division": "Dolfin Android #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 1704,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Dolfin Android #MAJORVER#.#MINORVER#",

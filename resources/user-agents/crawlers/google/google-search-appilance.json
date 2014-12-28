@@ -1,6 +1,7 @@
 {
   "division": "Google Search Appliance",
   "sortIndex": 1072,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Search Appliance",

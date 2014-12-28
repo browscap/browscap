@@ -17,19 +17,19 @@
 
 namespace BrowscapTest\Filter;
 
-use Browscap\Filter\StandartFilter;
+use Browscap\Filter\StandardFilter;
 
 /**
- * Class StandartFilterTest
+ * Class StandardFilterTest
  *
  * @category   BrowscapTest
  * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandartFilterTest extends \PHPUnit_Framework_TestCase
+class StandardFilterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Filter\StandartFilter
+     * @var \Browscap\Filter\StandardFilter
      */
     private $object = null;
 
@@ -40,7 +40,7 @@ class StandartFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->object = new StandartFilter();
+        $this->object = new StandardFilter();
     }
 
     public function testGetType()
@@ -58,7 +58,7 @@ class StandartFilterTest extends \PHPUnit_Framework_TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array
+     * @return array<string|boolean>[]
      */
     public function outputPropertiesDataProvider()
     {
@@ -72,37 +72,39 @@ class StandartFilterTest extends \PHPUnit_Framework_TestCase
             ['RenderingEngine_Name', false],
             ['RenderingEngine_Description', false],
             ['Parent', true],
-            ['Platform_Version', true],
+            ['Platform_Version', false],
             ['RenderingEngine_Version', false],
             ['Version', true],
             ['MajorVer', true],
             ['MinorVer', true],
-            ['CssVersion', true],
-            ['AolVersion', true],
-            ['Alpha', true],
-            ['Beta', true],
-            ['Win16', true],
+            ['CssVersion', false],
+            ['AolVersion', false],
+            ['Alpha', false],
+            ['Beta', false],
+            ['Win16', false],
             ['Win32', true],
             ['Win64', true],
-            ['Frames', true],
-            ['IFrames', true],
-            ['Tables', true],
-            ['Cookies', true],
-            ['BackgroundSounds', true],
-            ['JavaScript', true],
-            ['VBScript', true],
-            ['JavaApplets', true],
-            ['ActiveXControls', true],
+            ['Frames', false],
+            ['IFrames', false],
+            ['Tables', false],
+            ['Cookies', false],
+            ['BackgroundSounds', false],
+            ['JavaScript', false],
+            ['VBScript', false],
+            ['JavaApplets', false],
+            ['ActiveXControls', false],
             ['isMobileDevice', true],
-            ['isSyndicationReader', true],
-            ['Crawler', true],
+            ['isSyndicationReader', false],
+            ['Crawler', false],
             ['lite', false],
             ['sortIndex', false],
             ['Parents', false],
             ['division', false],
             ['Browser_Type', false],
-            ['Device_Type', false],
-            ['Device_Pointing_Method', false],
+            ['Device_Type', true],
+            ['Device_Pointing_Method', true],
+            ['isTablet', true],
+            ['Browser_Maker', true],
         ];
     }
 

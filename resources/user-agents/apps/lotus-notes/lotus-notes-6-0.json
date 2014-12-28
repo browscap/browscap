@@ -1,6 +1,7 @@
 {
   "division": "Lotus Notes 6.0",
   "sortIndex": 1630,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Lotus Notes 6.0",

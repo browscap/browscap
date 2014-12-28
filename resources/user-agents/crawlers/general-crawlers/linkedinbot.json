@@ -1,11 +1,12 @@
 {
   "division": "LinkedInBot",
   "sortIndex": 680,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "LinkedInBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "LinkedInBot",
         "Browser": "LinkedInBot",
         "Browser_Type": "Bot/Crawler",

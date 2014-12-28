@@ -2,6 +2,7 @@
   "division": "Alltop App #MAJORVER#.#MINORVER#",
   "versions": ["1.1"],
   "sortIndex": 1992,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Alltop App #MAJORVER#.#MINORVER#",

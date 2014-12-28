@@ -1,6 +1,7 @@
 {
   "division": "SEO & Analytics",
   "sortIndex": 249,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SEO & Analytics",

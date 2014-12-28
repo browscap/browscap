@@ -17,12 +17,8 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Filter\FullFilter;
-use Browscap\Formatter\PhpFormatter;
 use Browscap\Helper\CollectionCreator;
-use Browscap\Writer\IniWriter;
-use Browscap\Writer\WriterCollection;
-use Psr\Log\LoggerInterface;
+use Browscap\Writer\Factory\FullPhpWriterFactory;
 
 /**
  * Class BuildGenerator
@@ -32,116 +28,55 @@ use Psr\Log\LoggerInterface;
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class BuildFullFileOnlyGenerator
+class BuildFullFileOnlyGenerator extends AbstractBuildGenerator
 {
     /**
-     * @var string
+     * @return \Browscap\Helper\CollectionCreator
      */
-    private $resourceFolder;
-
-    /**
-     * @var string
-     */
-    private $buildFolder;
-
-    /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger = null;
-
-    /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     */
-    public function __construct($resourceFolder, $buildFolder)
+    public function getCollectionCreator()
     {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
+        if (null === $this->collectionCreator) {
+            $this->collectionCreator = new CollectionCreator();
+        }
+
+        return $this->collectionCreator;
     }
 
     /**
-     * @param \Psr\Log\LoggerInterface $logger
+     * @param string|null $file
      *
-     * @return \Browscap\Generator\BuildFullFileOnlyGenerator
+     * @return \Browscap\Writer\WriterCollection
      */
-    public function setLogger(LoggerInterface $logger)
+    public function getWriterCollection($file = null)
     {
-        $this->logger = $logger;
+        if (null === $this->writerCollection) {
+            $factory = new FullPhpWriterFactory();
 
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param string $directory
-     * @param string $type
-     *
-     * @return string
-     * @throws \Exception
-     */
-    private function checkDirectoryExists($directory, $type)
-    {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
+            $this->writerCollection = $factory->createCollection($this->getLogger(), $this->buildFolder, $file);
         }
 
-        $realDirectory = realpath($directory);
-
-        if ($realDirectory === false) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
-        }
-
-        if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
-        }
-
-        return $realDirectory;
+        return $this->writerCollection;
     }
 
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $version
-     * @param string $iniFile
+     * @param string      $version
+     * @param string|null $iniFile
      */
     public function run($version, $iniFile = null)
     {
         $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
         $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
 
-        $this->getLogger()->info('full ini file for php');
-
-        $collectionCreator = new CollectionCreator();
-
-        if (null === $iniFile) {
-            $iniFile = $this->buildFolder . '/full_php_browscap.ini';
-        }
-
-        $writerCollection = new WriterCollection();
-        $fullFilter       = new FullFilter();
-
-        $fullPhpWriter = new IniWriter($iniFile);
-        $formatter     = new PhpFormatter();
-        $fullPhpWriter
-            ->setLogger($this->getLogger())
-            ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter)
-        ;
-        $writerCollection->addWriter($fullPhpWriter);
+        $this->getLogger()->info('started creating the full ini file for php');
 
         Helper\BuildHelper::run(
             $version,
             $this->resourceFolder,
             $this->getLogger(),
-            $writerCollection,
-            $collectionCreator
+            $this->getWriterCollection($iniFile),
+            $this->getCollectionCreator()
         );
 
         $this->getLogger()->info('finished creating the full ini file for php');

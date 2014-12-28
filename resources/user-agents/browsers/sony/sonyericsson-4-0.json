@@ -1,6 +1,7 @@
 {
   "division": "SonyEricsson 4.0",
   "sortIndex": 10670,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SonyEricsson 4.0",

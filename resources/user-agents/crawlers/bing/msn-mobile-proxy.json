@@ -1,6 +1,7 @@
 {
   "division": "MSN Mobile Proxy",
   "sortIndex": 1260,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MSN Mobile Proxy",

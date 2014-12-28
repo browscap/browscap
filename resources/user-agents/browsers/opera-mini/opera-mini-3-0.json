@@ -2,7 +2,7 @@
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
   "versions": [3, "3.1"],
   "sortIndex": 1936,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

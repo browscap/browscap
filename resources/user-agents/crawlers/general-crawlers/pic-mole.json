@@ -1,11 +1,12 @@
 {
   "division": "picmole Bot",
   "sortIndex": 1031,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "picmole Bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "picmole Bot",
         "Browser": "picmole Bot",
         "Browser_Maker": "picmole.com",

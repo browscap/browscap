@@ -1,6 +1,7 @@
 {
   "division": "Xing",
   "sortIndex": 141,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Xing",

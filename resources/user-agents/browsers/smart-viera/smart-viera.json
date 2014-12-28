@@ -2,7 +2,7 @@
   "division": "SmartViera #MAJORVER#.#MINORVER#",
   "versions": ["1.5", "3.1"],
   "sortIndex": 1137,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SmartViera #MAJORVER#.#MINORVER#",

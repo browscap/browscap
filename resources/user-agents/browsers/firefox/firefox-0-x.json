@@ -2,6 +2,7 @@
   "division": "Firefox #MAJORVER#.#MINORVER#",
   "versions": ["0.6", "0.7", "0.8", "0.9", "0.10"],
   "sortIndex": 3140,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",
@@ -65,7 +66,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",

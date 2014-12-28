@@ -1,6 +1,7 @@
 {
   "division": "Diffbot",
   "sortIndex": 171,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Diffbot",

@@ -229,8 +229,6 @@ class Expander
     {
         $output = array();
 
-        // @todo This needs work here. What if we specify platforms AND versions?
-        // We need to make it so it does as many permutations as necessary.
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
                 $platformData = $this->getDataCollection()->getPlatform($platform);
@@ -376,12 +374,6 @@ class Expander
             foreach ($parents as $parent) {
                 if (!isset($allInputDivisions[$parent])) {
                     continue;
-                }
-
-                if (!isset($allInputDivisions[$parent]['Parent'])) {
-                    throw new \UnexpectedValueException(
-                        'Parent entry not defined for key "' . $parent . '"'
-                    );
                 }
 
                 if (!is_array($allInputDivisions[$parent])) {

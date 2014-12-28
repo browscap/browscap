@@ -1,7 +1,7 @@
 {
   "division": "OmniWeb 5.0",
   "sortIndex": 2702,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "OmniWeb 5.0",

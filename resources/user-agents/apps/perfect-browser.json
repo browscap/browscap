@@ -1,6 +1,7 @@
 {
   "division": "PERFECT Browser",
   "sortIndex": 9750,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "PERFECT Browser",

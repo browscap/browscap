@@ -1,6 +1,7 @@
 {
   "division": "HTMLParser",
   "sortIndex": 980,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "HTMLParser",

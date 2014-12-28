@@ -1,6 +1,7 @@
 {
   "division": "Sistrix Crawler",
   "sortIndex": 247,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sistrix Crawler",

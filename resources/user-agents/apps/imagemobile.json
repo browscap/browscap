@@ -1,6 +1,7 @@
 {
   "division": "ImageMobile",
   "sortIndex": 5970,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "ImageMobile",

@@ -1,6 +1,7 @@
 {
   "division": "jBrowser",
   "sortIndex": 6410,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "jBrowser",

@@ -1,6 +1,7 @@
 {
   "division": "Hatena",
   "sortIndex": 270,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Hatena",
