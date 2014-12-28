@@ -1,6 +1,7 @@
 {
   "division": "Data Mining",
   "sortIndex": 190,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Data Mining",

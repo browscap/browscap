@@ -2,6 +2,7 @@
   "division": "iSiloX #MAJORVER#.#MINORVER#",
   "versions": [4, "4.1", "4.2", "4.3"],
   "sortIndex": 2410,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "iSiloX #MAJORVER#.#MINORVER#",

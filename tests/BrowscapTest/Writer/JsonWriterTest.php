@@ -42,7 +42,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
     private $root = null;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var string
      */
     private $file = null;
 
@@ -94,7 +94,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array(), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -338,7 +338,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $map        = array(
             array('Test', $this->object, true),
             array('isTest', $this->object, false),
@@ -437,7 +437,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -525,7 +525,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             array('Parent', $this->object, true),
         );
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')

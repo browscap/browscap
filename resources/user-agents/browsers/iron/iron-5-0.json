@@ -1,6 +1,7 @@
 {
   "division": "Iron 5.0",
   "sortIndex": 1122,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Iron 5.0",

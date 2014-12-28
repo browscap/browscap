@@ -1,6 +1,7 @@
 {
   "division": "MPlayer",
   "sortIndex": 7020,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MPlayer",

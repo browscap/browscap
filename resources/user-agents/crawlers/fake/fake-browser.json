@@ -1,6 +1,7 @@
 {
   "division": "Fake Browser",
   "sortIndex": 959,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Fake Browser",

@@ -1,6 +1,7 @@
 {
   "division": "Jasmine 1.0",
   "sortIndex": 6400,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Jasmine 1.0",

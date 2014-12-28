@@ -2,6 +2,7 @@
   "division": "Iceowl #MAJORVER#.#MINORVER#",
   "versions": [1, 10, 17, "24.4", "24.5", "24.6", 30, 31, "31.1"],
   "sortIndex": 5460,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Iceowl #MAJORVER#.#MINORVER#",

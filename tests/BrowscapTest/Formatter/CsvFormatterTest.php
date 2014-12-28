@@ -50,7 +50,7 @@ class CsvFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\StandartFilter', array(), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array(), array(), '', false);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());

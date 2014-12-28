@@ -1,6 +1,7 @@
 {
   "division": "iWeb",
   "sortIndex": 1175,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "iWeb",

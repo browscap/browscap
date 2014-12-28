@@ -1,6 +1,7 @@
 {
   "division": "Internet Archive",
   "sortIndex": 280,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Internet Archive",

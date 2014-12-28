@@ -1,6 +1,7 @@
 {
   "division": "Snap",
   "sortIndex": 210,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Snap",

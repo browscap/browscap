@@ -1,6 +1,7 @@
 {
   "division": "Google Web Preview",
   "sortIndex": 1122,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Web Preview",

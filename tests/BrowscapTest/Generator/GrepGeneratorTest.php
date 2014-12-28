@@ -17,8 +17,8 @@
 
 namespace BrowscapTest\Generator;
 
-use Browscap\Generator\GrepGenerator;
 use Browscap\Command\GrepCommand;
+use Browscap\Generator\GrepGenerator;
 
 /**
  * Class GrepGeneratorTest

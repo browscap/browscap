@@ -1,6 +1,7 @@
 {
   "division": "XoviBot",
   "sortIndex": 248,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "XoviBot",

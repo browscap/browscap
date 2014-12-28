@@ -1,6 +1,7 @@
 {
   "division": "Cooliris",
   "sortIndex": 3750,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Cooliris",

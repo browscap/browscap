@@ -2,7 +2,7 @@
   "division": "Galeon #MAJORVER#.#MINORVER#",
   "versions": ["2.0"],
   "sortIndex": 2371,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Galeon #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "Lycoris Desktop\/LX",
   "sortIndex": 2420,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Lycoris Desktop\/LX",

@@ -2,7 +2,7 @@
   "division": "Iron #MAJORVER#.#MINORVER#",
   "versions": [20, 21, 22, 23, 24, 25, 26, 27],
   "sortIndex": 1120,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Iron #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "Pantech",
   "sortIndex": 9740,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Pantech",

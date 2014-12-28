@@ -1,6 +1,7 @@
 {
   "division": "Qt Generic",
   "sortIndex": 1172,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Qt Generic for Android",

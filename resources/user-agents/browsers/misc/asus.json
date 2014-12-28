@@ -1,6 +1,7 @@
 {
   "division": "Asus",
   "sortIndex": 2210,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Asus",

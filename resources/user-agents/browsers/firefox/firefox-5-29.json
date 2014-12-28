@@ -106,7 +106,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
@@ -152,7 +152,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",

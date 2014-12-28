@@ -1,6 +1,7 @@
 {
   "division": "Search Engines",
   "sortIndex": 250,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Search Engines",

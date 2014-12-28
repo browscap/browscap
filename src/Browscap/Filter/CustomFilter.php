@@ -22,14 +22,27 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\WriterInterface;
 
 /**
- * Class StandartFilter
+ * Class FullFilter
  *
  * @category   Browscap
  * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandartFilter implements FilterInterface
+class CustomFilter implements FilterInterface
 {
+    /**
+     * @var array
+     */
+    private $fields = array();
+
+    /**
+     * @param array $fields
+     */
+    public function __construct(array $fields)
+    {
+        $this->fields = $fields;
+    }
+
     /**
      * returns the Type of the filter
      *
@@ -37,7 +50,7 @@ class StandartFilter implements FilterInterface
      */
     public function getType()
     {
-        return '';
+        return 'CUSTOM';
     }
 
     /**
@@ -56,7 +69,7 @@ class StandartFilter implements FilterInterface
      * checks if a property should be in the output
      *
      * @param string $property
-     * @param \Browscap\Writer\WriterInterface $writer
+     * @param \Browscap\Writer\WriterInterface|null $writer
      *
      * @return boolean
      */
@@ -68,10 +81,6 @@ class StandartFilter implements FilterInterface
             return false;
         }
 
-        if ($propertyHolder->isExtraProperty($property, $writer)) {
-            return false;
-        }
-
-        return true;
+        return in_array($property, $this->fields);
     }
 }

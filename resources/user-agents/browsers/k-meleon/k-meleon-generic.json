@@ -1,6 +1,7 @@
 {
   "division": "K-Meleon Generic",
   "sortIndex": 2451,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "K-Meleon Generic",

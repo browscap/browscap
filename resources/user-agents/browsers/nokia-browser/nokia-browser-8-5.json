@@ -1,6 +1,7 @@
 {
   "division": "Nokia Browser 8.5",
   "sortIndex": 1782,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Nokia Browser 8.5",

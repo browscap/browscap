@@ -1,11 +1,12 @@
 {
   "division": "Elefent 1.2",
   "sortIndex": 290,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Elefent 1.2",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "General Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

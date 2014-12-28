@@ -2,6 +2,7 @@
   "division": "Nokia Browser #MAJORVER#.#MINORVER#",
   "versions": ["7.1"],
   "sortIndex": 1790,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",

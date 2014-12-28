@@ -1,6 +1,7 @@
 {
   "division": "Naver",
   "sortIndex": 800,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Naver",

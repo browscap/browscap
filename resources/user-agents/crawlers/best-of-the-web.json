@@ -1,6 +1,7 @@
 {
   "division": "Best of the Web",
   "sortIndex": 90,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Best of the Web",

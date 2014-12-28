@@ -1,6 +1,7 @@
 {
   "division": "Lycos",
   "sortIndex": 200,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Lycos",

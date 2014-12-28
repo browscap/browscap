@@ -1,6 +1,7 @@
 {
   "division": "Google Keyword Suggestion",
   "sortIndex": 1121,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Google Keyword Suggestion",

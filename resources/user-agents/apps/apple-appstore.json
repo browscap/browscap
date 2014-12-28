@@ -2,6 +2,7 @@
   "division": "Apple AppStore App #MAJORVER#.#MINORVER#",
   "versions": [2],
   "sortIndex": 2061,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",

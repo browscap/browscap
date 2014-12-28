@@ -1,11 +1,12 @@
 {
   "division": "RankFlex",
   "sortIndex": 1030,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "RankFlex",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "RankFlex",
         "Browser": "RankFlex",
         "Browser_Maker": "rankflex.com",

@@ -1,11 +1,12 @@
 {
   "division": "MJ12bot",
   "sortIndex": 760,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MJ12bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "MJ12bot",
         "Browser": "MJ12bot",
         "Browser_Type": "Bot/Crawler",

@@ -2,11 +2,12 @@
   "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
   "sortIndex": 1170,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot-Mobile",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

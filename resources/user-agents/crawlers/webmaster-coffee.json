@@ -1,6 +1,7 @@
 {
   "division": "WebmasterCoffee",
   "sortIndex": 231,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WebmasterCoffee",

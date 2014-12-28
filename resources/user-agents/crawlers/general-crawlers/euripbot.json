@@ -1,11 +1,12 @@
 {
   "division": "EuripBot",
   "sortIndex": 330,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "EuripBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Europe Internet Portal",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

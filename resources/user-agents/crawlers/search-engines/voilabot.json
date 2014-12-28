@@ -1,6 +1,7 @@
 {
   "division": "VoilaBot",
   "sortIndex": 1290,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "VoilaBot",

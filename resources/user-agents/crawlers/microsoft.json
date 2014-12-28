@@ -1,6 +1,7 @@
 {
   "division": "Microsoft",
   "sortIndex": 420,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Microsoft",

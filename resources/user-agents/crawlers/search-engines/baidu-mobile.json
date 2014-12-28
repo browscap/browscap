@@ -1,6 +1,7 @@
 {
   "division": "Baidu Mobile",
   "sortIndex": 1060,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Baidu Mobile",
