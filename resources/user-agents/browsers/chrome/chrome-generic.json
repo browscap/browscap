@@ -6,6 +6,7 @@
     {
       "userAgent": "Chrome Generic for Android",
       "platform": "Android",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -48,6 +49,7 @@
     {
       "userAgent": "Chrome Generic for iOS",
       "platform": "iOS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",
@@ -120,7 +122,7 @@
     },
     {
       "userAgent": "Chrome Generic",
-      "engine": "Blink",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome Generic",

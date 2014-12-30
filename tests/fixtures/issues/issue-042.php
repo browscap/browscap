@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-42' => [
+    'issue-042' => [
         'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko)',
         [
             'Browser' => 'BlackBerry',
@@ -18,12 +18,12 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'Blackberry',
-            'Device_Maker' => 'Research In Motion Limited',
+            'Device_Name' => 'KBD',
+            'Device_Maker' => 'BlackBerry',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'Blackberry',
-            'Device_Brand_Name' => 'RIM',
+            'Device_Code_Name' => 'KBD',
+            'Device_Brand_Name' => 'BlackBerry',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',

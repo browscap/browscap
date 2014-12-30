@@ -1,6 +1,6 @@
 {
   "division": "Epiphany 2.22",
-  "sortIndex": 4030,
+  "sortIndex": 1944,
   "userAgents": [
     {
       "userAgent": "Epiphany 2.22",
@@ -11,6 +11,7 @@
         "Comment": "Epiphany 2.22",
         "Browser": "Epiphany",
         "Browser_Type": "Browser",
+        "Browser_Maker": "The GNOME Project",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -23,6 +24,12 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",

@@ -1,6 +1,6 @@
 {
   "division": "rekonq",
-  "sortIndex": 9920,
+  "sortIndex": 1945,
   "userAgents": [
     {
       "userAgent": "rekonq",
@@ -11,6 +11,7 @@
         "Comment": "rekonq",
         "Browser": "rekonq",
         "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -22,7 +23,13 @@
         "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
