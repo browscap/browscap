@@ -1,24 +1,25 @@
 {
-  "division": "Elefent 1.2",
+  "division": "Elefent #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
   "sortIndex": 290,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Elefent 1.2",
+      "userAgent": "Elefent #MAJORVER#.#MINORVER#",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
+        "Comment": "Elefent #MAJORVER#.#MINORVER#",
         "Browser": "Elefent",
         "Browser_Maker": "elefent.eu",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2"
+        "Browser_Type": "Bot/Crawler",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Crawler": "true"
       },
       "children": [
         {
-          "match": "elefent\/Elefent 1.2 (A friendly web elefent.; http:\/\/elefent.eu\/; webmaster@elefent.eu)"
+          "match": "elefent\/Elefent #MAJORVER#.#MINORVER#*"
         }
       ]
     }

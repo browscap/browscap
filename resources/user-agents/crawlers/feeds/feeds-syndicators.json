@@ -56,7 +56,8 @@
         {
           "match": "Akregator\/*",
           "properties": {
-            "Browser": "Akregator"
+            "Browser": "akregator",
+            "Browser_Maker": "KDE e.V."
           }
         },
         {

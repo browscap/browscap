@@ -1,7 +1,7 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["1.1", "1.5", "1.6"],
-  "sortIndex": 1028,
+  "versions": ["1.6", "1.5", "1.1"],
+  "sortIndex": 1020,
   "lite": false,
   "userAgents": [
     {

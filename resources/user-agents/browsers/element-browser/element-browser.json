@@ -1,6 +1,6 @@
 {
   "division": "Element Browser #MAJORVER#.#MINORVER#",
-  "versions": [5, 6, 7],
+  "versions": [7, 6, 5],
   "sortIndex": 884,
   "lite": false,
   "userAgents": [

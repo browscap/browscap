@@ -1,6 +1,6 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["2.00", "2.10", "2.11", "2.12"],
+  "versions": ["2.12", "2.11", "2.10", "2.00"],
   "sortIndex": 1064,
   "lite": false,
   "userAgents": [

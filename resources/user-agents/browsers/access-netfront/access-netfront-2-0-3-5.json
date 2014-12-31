@@ -1,7 +1,7 @@
 {
   "division": "Access NetFront #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "2.2", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
-  "sortIndex": 1540,
+  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.2", "2.1", 2],
+  "sortIndex": 1541,
   "lite": false,
   "userAgents": [
     {
