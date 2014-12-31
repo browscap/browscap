@@ -276,7 +276,7 @@ return [
             'MajorVer' => '20',
             'MinorVer' => '1',
             'Platform' => 'iOS',
-            'Platform_Version' => '8.01',
+            'Platform_Version' => '8.0',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => true,
