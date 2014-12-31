@@ -1,7 +1,7 @@
 {
   "division": "Puffin #MAJORVER#.#MINORVER#",
   "versions": ["3.7"],
-  "sortIndex": 1119,
+  "sortIndex": 1118,
   "lite": false,
   "userAgents": [
     {

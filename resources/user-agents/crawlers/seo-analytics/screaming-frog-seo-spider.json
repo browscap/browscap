@@ -1,6 +1,6 @@
 {
   "division": "Screaming Frog SEO Spider #MAJORVER#.#MINORVER#",
-  "versions": ["1.90", "2.00", "2.01", "2.11", "2.20", "2.21", "2.22", "2.30", "2.40", "2.50"],
+  "versions": ["2.50", "2.40", "2.30", "2.22", "2.21", "2.20", "2.11", "2.01", "2.00", "1.90"],
   "sortIndex": 248,
   "lite": false,
   "userAgents": [
