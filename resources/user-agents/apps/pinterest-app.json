@@ -1,6 +1,6 @@
 {
   "division": "Pinterest App #MAJORVER#.#MINORVER#",
-  "versions": ["0.1", "0.2"],
+  "versions": ["0.2", "0.1"],
   "sortIndex": 1993,
   "lite": false,
   "userAgents": [

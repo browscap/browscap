@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'issue-121' => [
-        'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com GoogleImageProxy)',
+    'issue-533' => [
+        'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)',
         [
             'Browser' => 'Google Image Proxy',
             'Browser_Type' => 'Bot/Crawler',
@@ -18,6 +18,11 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,
+            'JavaScript' => false,
+            'Cookies' => false,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',

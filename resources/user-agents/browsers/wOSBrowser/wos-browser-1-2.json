@@ -1,6 +1,6 @@
 {
   "division": "WebKit/webOS #MAJORVER#.#MINORVER#",
-  "versions": [1, 2],
+  "versions": [2, 1],
   "sortIndex": 1940,
   "lite": false,
   "userAgents": [

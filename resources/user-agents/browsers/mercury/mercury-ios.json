@@ -1,7 +1,7 @@
 {
   "division": "Mercury #MAJORVER#.#MINORVER#",
-  "versions": [7, "7.2", "7.4", "8.0", "8.1", "8.3", "8.4"],
-  "sortIndex": 1944,
+  "versions": ["8.4", "8.3", "8.2", "8.1", 8, "7.4", "7.2", 7],
+  "sortIndex": 1947,
   "lite": false,
   "userAgents": [
     {

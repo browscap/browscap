@@ -1,7 +1,7 @@
 {
   "division": "Midori #MAJORVER#.#MINORVER#",
   "versions": ["0.1", "0.2", "0.3", "0.4", "0.5"],
-  "sortIndex": 1128,
+  "sortIndex": 1141,
   "lite": false,
   "userAgents": [
     {
