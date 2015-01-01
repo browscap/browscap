@@ -1,34 +1,42 @@
 {
-  "division": "Windows-RSS-Platform 1.0",
+  "division": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 480,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Windows-RSS-Platform 1.0",
+      "userAgent": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
       "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Windows-RSS-Platform",
+        "Comment": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
         "Browser": "Windows-RSS-Platform",
         "isSyndicationReader": "true",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
         "Crawler": "true",
-        "Version": "1.0",
-        "MajorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Windows-RSS-Platform\/1.0*",
-          "properties": {
-            "Win32": "true"
-          }
-        },
-        {
-          "match": "Windows-RSS-Platform\/1.0 (MSIE *; #PLATFORM#)",
+          "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER# (MSIE *; #PLATFORM#)",
           "platforms": [
             "WinXPa_32", "Vista_32"
           ]
+        },
+        {
+          "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER# (MSIE ?.0; Windows NT *.*)",
+          "platforms": [
+            "Win32"
+          ]
+        },
+        {
+          "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Win32": "true"
+          }
         }
       ]
     }

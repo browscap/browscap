@@ -1,7 +1,7 @@
 {
   "division": "Maxthon #MAJORVER#.#MINORVER#",
-  "versions": ["4.1", "4.2", "4.3", "4.4"],
-  "sortIndex": 954,
+  "versions": ["4.4", "4.3", "4.2", "4.1"],
+  "sortIndex": 931,
   "lite": true,
   "userAgents": [
     {
@@ -12,11 +12,11 @@
         "Parent": "DefaultProperties",
         "Comment": "Maxthon #MAJORVER#.#MINORVER#",
         "Browser": "Maxthon",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Maxthon International Limited",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Maxthon International Limited",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

@@ -1,7 +1,7 @@
 {
   "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
-  "sortIndex": 1170,
+  "sortIndex": 1174,
   "lite": false,
   "userAgents": [
     {

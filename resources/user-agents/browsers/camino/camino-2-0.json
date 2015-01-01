@@ -1,7 +1,7 @@
 {
   "division": "Camino #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "2.1", "2.2"],
-  "sortIndex": 2560,
+  "versions": ["2.2", "2.1", "2.0"],
+  "sortIndex": 2550,
   "lite": false,
   "userAgents": [
     {

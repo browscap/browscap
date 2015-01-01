@@ -1,6 +1,6 @@
 {
   "division": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
-  "versions": [12],
+  "versions": [15, 14, 13, 12],
   "sortIndex": 2061,
   "lite": false,
   "userAgents": [
