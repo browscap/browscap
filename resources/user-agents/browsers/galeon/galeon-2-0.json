@@ -1,7 +1,7 @@
 {
   "division": "Galeon #MAJORVER#.#MINORVER#",
   "versions": ["2.0"],
-  "sortIndex": 2371,
+  "sortIndex": 2380,
   "lite": false,
   "userAgents": [
     {

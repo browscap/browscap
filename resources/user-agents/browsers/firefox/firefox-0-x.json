@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": ["0.6", "0.7", "0.8", "0.9", "0.10"],
-  "sortIndex": 3140,
+  "versions": ["0.10", "0.9", "0.8", "0.7", "0.6"],
+  "sortIndex": 3172,
   "lite": false,
   "userAgents": [
     {
