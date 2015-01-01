@@ -1,6 +1,6 @@
 {
   "division": "K-Meleon #MAJORVER#.#MINORVER#",
-  "versions": [1, "1.1", "1.5", "1.6", "1.7", 74],
+  "versions": [74, "1.7", "1.6", "1.5", "1.1", 1],
   "sortIndex": 2450,
   "lite": false,
   "userAgents": [
