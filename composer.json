@@ -37,8 +37,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "browscap/browscap-php": "3.x@dev",
-        "mikey179/vfsStream": "dev-master"
+        "browscap/browscap-php": "dev-3.x@dev",
+        "mikey179/vfsStream": "dev-master",
+        "squizlabs/php_codesniffer": "~1.5",
+        "fabpot/php-cs-fixer": "~1.1"
     },
     "autoload": {
         "psr-4": {
