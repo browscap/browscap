@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'issue-535' => [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/600.3.10 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.10',
+        [
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '8.0',
+            'MajorVer' => '8',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.10',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'Device_Name' => 'Macintosh',
+            'Device_Maker' => 'Apple Inc',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+            'Device_Code_Name' => 'Macintosh',
+            'Device_Brand_Name' => 'Apple',
+            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
+        ],
+    ],
+];
