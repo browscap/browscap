@@ -289,7 +289,8 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('required attibute "division" is missing in File "' . $tmpfile . '"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "division" is missing" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "required attibute "division" is missing in File "' . $tmpfile
+                . '"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -341,7 +342,8 @@ HERE;
         } catch (\RuntimeException $ex) {
             if ('required attibute "sortIndex" is missing in File "' . $tmpfile . '"' !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "sortIndex" is missing" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "required attibute "sortIndex" is missing in File "' . $tmpfile
+                . '"" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
