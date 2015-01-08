@@ -17,7 +17,8 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (via ggpht.com*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (via ggpht.com*",
+          "engine": "Gecko",
           "platforms": [
             "ChromeOS",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
