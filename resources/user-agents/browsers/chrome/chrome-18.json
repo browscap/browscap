@@ -61,7 +61,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A210 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "A210",
             "Device_Maker": "Acer",
@@ -90,7 +90,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A510",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -226,7 +226,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "isTablet": "true",
             "Device_Code_Name": "GT-N5100",
             "Device_Maker": "Samsung",
@@ -744,6 +744,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ARCHOS 101G9 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "101 G9",
             "Device_Maker": "Archos",
             "Device_Brand_Name": "Archos",
@@ -1326,7 +1328,7 @@
             "Device_Name": "Xperia P"
           },
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -1359,7 +1361,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A700 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "isTablet": "true",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Code_Name": "A700",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
@@ -1373,8 +1375,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#C5303 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
             "Device_Code_Name": "C5303",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
             "Device_Name": "Xperia SP"
           },
           "platforms": [
@@ -1433,6 +1435,60 @@
           },
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SmartTabII10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SmartTab II 10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Name": "SmartTab II 10"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-E460 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "E460",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Name": "Optimus L5 II"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ME371MG",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Name": "Fonepad ME371MG"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SGPT13 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "isTablet": "true",
+            "Device_Code_Name": "SGPT13",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia Tablet S"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {

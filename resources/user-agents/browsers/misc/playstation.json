@@ -4,6 +4,81 @@
   "lite": true,
   "userAgents": [
     {
+      "userAgent": "Playstation Browser",
+      "platform": "CellOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Comment": "Playstation Browser",
+        "isMobileDevice": "false",
+        "Browser": "Playstation Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sony",
+        "Frames": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (PlayStation 4*",
+          "properties": {
+            "Device_Code_Name": "Playstation 4",
+            "Device_Name": "Playstation 4",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "TV Device"
+          }
+        },
+        {
+          "match": "Mozilla\/* (PLAYSTATION 3*",
+          "properties": {
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Type": "TV Device"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "Playstation Vita",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Comment": "PlayStation Vita",
+        "Browser": "Sony Playstation Vita",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sony",
+        "Frames": "false",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Name": "PS Vita",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Type": "Console"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
+          "engine": "WebKit"
+        },
+        {
+          "match": "Mozilla\/5.0 (PlayStation Vita*"
+        },
+        {
+          "match": "Mozilla\/* (PlayStation Vita*"
+        }
+      ]
+    },
+    {
       "userAgent": "Playstation",
       "platform": "JAVA",
       "properties": {
@@ -47,92 +122,6 @@
         },
         {
           "match": "Mozilla\/* (PLAYSTATION*)"
-        }
-      ]
-    },
-    {
-      "userAgent": "Playstation Vita",
-      "platform": "JAVA",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Comment": "PlayStation Vita",
-        "Browser": "Sony Playstation Vita",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "PlayStation Vita",
-        "Device_Name": "PS Vita",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "Console"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
-          "engine": "WebKit"
-        },
-        {
-          "match": "Mozilla\/5.0 (PlayStation Vita*"
-        },
-        {
-          "match": "Mozilla\/* (PlayStation Vita*"
-        }
-      ]
-    },
-    {
-      "userAgent": "Playstation Browser",
-      "platform": "CellOS",
-      "engine": "WebKit",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "Comment": "Playstation Browser",
-        "isMobileDevice": "false",
-        "Browser": "Playstation Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
-        "Frames": "false"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/* (PlayStation 4*",
-          "properties": {
-            "Device_Code_Name": "Playstation 4",
-            "Device_Name": "Playstation 4",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
-        },
-        {
-          "match": "Mozilla\/* (PLAYSTATION 3*) AppleWebKit\/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "Playstation 3",
-            "Device_Name": "Playstation 3",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
-        },
-        {
-          "match": "Mozilla\/* (PLAYSTATION 3*",
-          "properties": {
-            "Device_Code_Name": "Playstation 3",
-            "Device_Name": "Playstation 3",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
         }
       ]
     }

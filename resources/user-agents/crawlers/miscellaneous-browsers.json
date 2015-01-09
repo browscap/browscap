@@ -128,22 +128,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *) AppleWebKit\/*(KHTML, like Gecko) Safari\/* Epiphany\/2.30.*",
-          "properties": {
-            "Browser": "Epiphany",
-            "Version": "2.30",
-            "MajorVer": "2",
-            "MinorVer": "30",
-            "IFrames": "true",
-            "VBScript": "true",
-            "JavaApplets": "true",
-            "CssVersion": "3"
-          },
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
           "match": "NetRecorder*",
           "properties": {
             "Browser": "NetRecorder"

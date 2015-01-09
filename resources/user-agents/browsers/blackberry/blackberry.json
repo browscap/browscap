@@ -37,7 +37,7 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Maker": "Research In Motion Limited",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Brand_Name": "RIM",
             "Browser": "Blackberry Playbook Tablet",
             "Device_Code_Name": "PlayBook",
@@ -54,7 +54,7 @@
           "properties": {
             "isMobileDevice": "true",
             "Device_Maker": "Research In Motion Limited",
-            "Device_Type": "FonePad",
+            "Device_Type": "Tablet",
             "Device_Brand_Name": "RIM",
             "Browser": "Blackberry Playbook Tablet",
             "Device_Code_Name": "PlayBook",

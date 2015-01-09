@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-77-G' => [
+    'issue-077-G' => [
         'SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
         [
             'Browser' => 'Google Bot Mobile',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-F' => [
+    'issue-077-F' => [
         'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
         [
             'Browser' => 'Google Bot Mobile',
@@ -57,7 +57,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-E' => [
+    'issue-077-E' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
         [
             'Browser' => 'Google Bot',
@@ -85,7 +85,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-D' => [
+    'issue-077-D' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
         [
             'Browser' => 'Google Bot Mobile',
@@ -113,7 +113,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-C' => [
+    'issue-077-C' => [
         'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
         [
             'Browser' => 'Google Bot',
@@ -141,7 +141,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-B' => [
+    'issue-077-B' => [
         'integrity/4',
         [
             'Browser' => 'Integrity',
@@ -169,7 +169,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-77-A' => [
+    'issue-077-A' => [
         'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
         [
             'Browser' => 'Silk',

@@ -1,7 +1,7 @@
 {
   "division": "Nokia Browser #MAJORVER#.#MINORVER#",
   "versions": ["8.3"],
-  "sortIndex": 8000,
+  "sortIndex": 1783,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -43,7 +43,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "500",
-            "Device_Name": "500"
+            "Device_Name": "500",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -91,7 +92,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "X7-00",
-            "Device_Name": "X7"
+            "Device_Name": "X7",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -100,7 +102,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "500",
-            "Device_Name": "500"
+            "Device_Name": "500",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {
@@ -109,7 +112,8 @@
             "Device_Maker": "Nokia",
             "Device_Brand_Name": "Nokia",
             "Device_Code_Name": "X7-00",
-            "Device_Name": "X7"
+            "Device_Name": "X7",
+            "Device_Pointing_Method": "touchscreen"
           }
         },
         {

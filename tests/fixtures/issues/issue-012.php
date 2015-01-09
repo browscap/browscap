@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-12-a' => [
+    'issue-012-a' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
         [
             'Browser' => 'IE',
@@ -30,7 +30,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
     ],
-    'issue-12-b' => [
+    'issue-012-b' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
         [
             'Browser' => 'Firefox',

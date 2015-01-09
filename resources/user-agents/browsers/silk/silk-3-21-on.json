@@ -1,6 +1,6 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.35", "3.34", "3.33", "3.32", "3.31", "3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
+  "versions": ["3.38", "3.37", "3.36", "3.35", "3.34", "3.33", "3.32", "3.31", "3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
   "sortIndex": 1125,
   "lite": true,
   "userAgents": [
@@ -21,8 +21,10 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
         "isMobileDevice": "true",
-        "CssVersion": "2",
+        "CssVersion": "3",
         "Device_Name": "Kindle",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Type": "Ebook Reader",
@@ -43,7 +45,7 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
@@ -77,7 +79,24 @@
             "Device_Brand_Name": "Amazon"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "properties": {
+            "Device_Name": "Kindle Fire HDX 7",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Type": "Tablet",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true",
+            "Device_Code_Name": "KFTHWI",
+            "Device_Brand_Name": "Amazon"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
