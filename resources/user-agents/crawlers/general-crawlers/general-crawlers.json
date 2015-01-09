@@ -3381,6 +3381,13 @@
             "Browser": "ShowyouBot",
             "Browser_Maker": "Remixation, Inc"
           }
+        },
+        {
+          "match": "ltx71 *",
+          "properties": {
+            "Browser": "ltx71 Bot",
+            "Browser_Maker": "ltx71.com"
+          }
         }
       ]
     }
