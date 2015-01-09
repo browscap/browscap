@@ -1,6 +1,7 @@
 {
   "division": "Webaroo",
   "sortIndex": 300,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Webaroo",

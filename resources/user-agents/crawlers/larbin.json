@@ -1,6 +1,7 @@
 {
   "division": "Larbin",
   "sortIndex": 270,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Larbin",

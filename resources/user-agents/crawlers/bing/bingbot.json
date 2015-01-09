@@ -1,6 +1,7 @@
 {
   "division": "BingBot",
   "sortIndex": 1230,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BingBot",

@@ -1,7 +1,8 @@
 {
   "division": "Fennec #MAJORVER#.#MINORVER#",
-  "versions": ["6.0", "7.0"],
-  "sortIndex": 3138,
+  "versions": [7, 6],
+  "sortIndex": 3141,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",

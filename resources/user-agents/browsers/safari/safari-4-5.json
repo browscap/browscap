@@ -1,8 +1,8 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [4, "4.1", 5, "5.1", "5.2"],
-  "sortIndex": 1947,
-  "lite": true,
+  "versions": ["5.2", "5.1", 5, "4.1", 4],
+  "sortIndex": 1971,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
@@ -90,40 +90,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "SymbianOS"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         }
       ]

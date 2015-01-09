@@ -1,11 +1,12 @@
 {
   "division": "masidani_bot",
   "sortIndex": 750,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "masidani_bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "masidani_bot",
         "Browser": "masidani_bot",
         "Browser_Type": "Bot/Crawler",

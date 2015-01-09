@@ -1,0 +1,148 @@
+{
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": [9, 8],
+  "sortIndex": 1931,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Browser": "Opera Mini",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Beta": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "CssVersion": "1",
+        "Device_Type": "Mobile Device"
+      },
+      "children": [
+        {
+          "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
+          "properties": {
+            "Device_Name": "Blackberry",
+            "Device_Maker": "Research In Motion Limited"
+          },
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "iPhone",
+            "Device_Name": "iPhone",
+            "Device_Maker": "Apple Inc",
+            "Device_Brand_Name": "Apple",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

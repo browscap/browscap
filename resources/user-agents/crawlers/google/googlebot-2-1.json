@@ -1,7 +1,8 @@
 {
   "division": "Googlebot #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
-  "sortIndex": 1132,
+  "sortIndex": 1145,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",

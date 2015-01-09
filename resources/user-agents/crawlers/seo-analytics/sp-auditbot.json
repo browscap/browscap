@@ -1,6 +1,7 @@
 {
   "division": "sp auditbot",
   "sortIndex": 246,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "sp auditbot",

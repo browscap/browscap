@@ -1,6 +1,7 @@
 {
   "division": "RebelMouse",
   "sortIndex": 5152,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "RebelMouse",

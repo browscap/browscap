@@ -1,6 +1,7 @@
 {
   "division": "General Crawlers",
   "sortIndex": 170,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "General Crawlers",

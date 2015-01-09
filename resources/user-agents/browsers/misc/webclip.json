@@ -1,6 +1,7 @@
 {
   "division": "WebClip",
-  "sortIndex": 1945,
+  "sortIndex": 1950,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WebClip",

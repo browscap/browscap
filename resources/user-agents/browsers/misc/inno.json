@@ -1,6 +1,7 @@
 {
   "division": "INNO",
   "sortIndex": 5980,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "INNO",

@@ -2,6 +2,7 @@
   "division": "iOS dataaccessd #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 730,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "iOS dataaccessd #MAJORVER#.#MINORVER#",

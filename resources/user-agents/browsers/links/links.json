@@ -1,7 +1,8 @@
 {
   "division": "Links #MAJORVER#.#MINORVER#",
-  "versions": ["0.9", "1.0", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8"],
+  "versions": ["2.8", "2.7", "2.6", "2.5", "2.4", "2.3", "2.2", "2.1", 2, 1, "0.9"],
   "sortIndex": 2220,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Links #MAJORVER#.#MINORVER#",

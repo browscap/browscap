@@ -1,7 +1,8 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["8.00", "8.01", "8.02", "8.50", "8.51", "8.52", "8.53", "8.54"],
+  "versions": ["8.54", "8.53", "8.52", "8.51", "8.50", "8.02", "8.01", "8.00"],
   "sortIndex": 1058,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",

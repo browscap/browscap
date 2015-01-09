@@ -1,6 +1,7 @@
 {
   "division": "Validation Checkers",
   "sortIndex": 390,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "HTML Validators",

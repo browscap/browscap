@@ -1,6 +1,7 @@
 {
   "division": "YahooSeeker-Mobile",
   "sortIndex": 1410,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YahooSeeker-Mobile",

@@ -1,6 +1,7 @@
 {
   "division": "Microsoft Outlook 2013",
   "sortIndex": 1651,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2013",

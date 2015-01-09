@@ -1,6 +1,7 @@
 {
   "division": "Installatron",
   "sortIndex": 5151,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Installatron",

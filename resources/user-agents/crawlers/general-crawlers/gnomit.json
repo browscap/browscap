@@ -1,11 +1,12 @@
 {
   "division": "Gnomit",
   "sortIndex": 510,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Gnomit",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Gnomit",
         "Browser": "Gnomit",
         "Browser_Type": "Bot/Crawler",

@@ -1,14 +1,16 @@
 {
-  "division": "Nokia Browser 8.5",
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["8.5"],
   "sortIndex": 1782,
+  "lite": false,
   "userAgents": [
     {
-      "userAgent": "Nokia Browser 8.5",
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Nokia Browser 8.5",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
         "Browser": "Nokia Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Nokia",
@@ -31,13 +33,13 @@
         "Device_Type": "Mobile Phone",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Version": "8.5",
-        "MajorVer": "8",
-        "MinorVer": "5"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/8.5*Safari\/534*",
+          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/534*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "N9",

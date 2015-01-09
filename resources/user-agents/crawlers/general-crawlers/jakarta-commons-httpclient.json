@@ -1,11 +1,12 @@
 {
   "division": "Jakarta Commons HttpClient",
   "sortIndex": 1980,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Jakarta Commons HttpClient",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Jakarta Commons HttpClient",
         "Browser": "Jakarta Commons HttpClient",
         "Browser_Type": "Bot/Crawler",

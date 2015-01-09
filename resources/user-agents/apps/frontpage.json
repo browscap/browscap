@@ -1,6 +1,7 @@
 {
   "division": "FrontPage",
   "sortIndex": 2360,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "FrontPage",

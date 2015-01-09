@@ -1,11 +1,12 @@
 {
   "division": "LucidMedia ClickSense",
   "sortIndex": 690,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "LucidMedia ClickSense",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "LucidMedia-ClickSense",
         "Browser": "LucidMedia-ClickSense",
         "Browser_Type": "Bot/Crawler",

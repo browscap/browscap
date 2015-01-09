@@ -1,6 +1,7 @@
 {
   "division": "Feeds Syndicators",
   "sortIndex": 370,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Feeds Syndicators",
@@ -55,7 +56,8 @@
         {
           "match": "Akregator\/*",
           "properties": {
-            "Browser": "Akregator"
+            "Browser": "akregator",
+            "Browser_Maker": "KDE e.V."
           }
         },
         {

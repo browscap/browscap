@@ -1,6 +1,7 @@
 {
   "division": "Blackberry Playbook Tablet",
   "sortIndex": 2377,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Blackberry Playbook Tablet",
@@ -42,6 +43,12 @@
             "MajorVer": "7",
             "MinorVer": "2"
           },
+          "platforms": [
+            "RIM_Tablet_OS_2_0"
+          ]
+        },
+        {
+          "match": "*PlayBook*RIM Tablet OS 2.0.*",
           "platforms": [
             "RIM_Tablet_OS_2_0"
           ]

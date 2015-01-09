@@ -1,6 +1,7 @@
 {
   "division": "Teleca-Obigo 5.0",
-  "sortIndex": 10760,
+  "sortIndex": 10771,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Teleca-Obigo 5.0",

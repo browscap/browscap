@@ -1,6 +1,7 @@
 {
   "division": "Java Standard Library",
   "sortIndex": 97,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Java Standard Library",

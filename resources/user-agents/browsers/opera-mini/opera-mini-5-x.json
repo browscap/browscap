@@ -1,8 +1,8 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [8, 9],
-  "sortIndex": 1931,
-  "lite": true,
+  "versions": ["5.3", "5.2", "5.1", "5.0"],
+  "sortIndex": 1934,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -16,7 +16,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Beta": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -28,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Android"
           ]
@@ -40,7 +39,7 @@
           ]
         },
         {
-          "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
             "Device_Name": "Blackberry",
             "Device_Maker": "Research In Motion Limited"
@@ -50,22 +49,7 @@
           ]
         },
         {
-          "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
-          "platforms": [
-            "iOS"
-          ]
-        },
-        {
-          "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "iPhone",
@@ -81,65 +65,50 @@
           ]
         },
         {
-          "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
+          "properties": {
+            "Device_Name": "Alias 2",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          },
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
-          "engine": "WebKit",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
-          "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
-            "iOS_A"
           ]
         }
       ]

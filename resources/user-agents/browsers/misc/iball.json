@@ -1,6 +1,7 @@
 {
   "division": "iBall",
   "sortIndex": 3941,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "iBall",

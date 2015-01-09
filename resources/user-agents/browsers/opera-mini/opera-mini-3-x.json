@@ -1,8 +1,8 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["5.0", "5.1", "5.2", "5.3"],
-  "sortIndex": 1934,
-  "lite": true,
+  "versions": ["3.1", 3],
+  "sortIndex": 1936,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -33,12 +33,6 @@
           ]
         },
         {
-          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
           "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
             "Device_Name": "Blackberry",
@@ -46,22 +40,6 @@
           },
           "platforms": [
             "RIMOS"
-          ]
-        },
-        {
-          "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
-          "platforms": [
-            "iOS"
           ]
         },
         {
@@ -80,17 +58,6 @@
           "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinMobile"
-          ]
-        },
-        {
-          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
-          "properties": {
-            "Device_Name": "Alias 2",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
-          "platforms": [
-            "Brew"
           ]
         },
         {

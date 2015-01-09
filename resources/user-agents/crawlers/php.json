@@ -1,6 +1,7 @@
 {
   "division": "PHP",
   "sortIndex": 890,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "PHP",

@@ -1,6 +1,7 @@
 {
   "division": "Emacs\/W3",
   "sortIndex": 2340,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Emacs\/W3",

@@ -1,6 +1,7 @@
 {
   "division": "CareerBot",
   "sortIndex": 601,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "CareerBot",

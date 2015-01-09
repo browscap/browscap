@@ -1,8 +1,8 @@
 {
   "division": "Dolfin #MAJORVER#.#MINORVER#",
   "versions": ["2.2"],
-  "sortIndex": 1702,
-  "lite": true,
+  "sortIndex": 1704,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",

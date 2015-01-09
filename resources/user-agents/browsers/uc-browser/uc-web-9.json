@@ -1,7 +1,8 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5", "9.6", "9.7", "9.8"],
+  "versions": ["9.8", "9.7", "9.6", "9.5", "9.4", "9.3", "9.2", "9.1", "9.0"],
   "sortIndex": 1112,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -355,7 +356,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "properties": {
-        "Parent": "UC Browser #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",

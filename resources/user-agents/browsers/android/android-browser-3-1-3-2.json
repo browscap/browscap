@@ -1,8 +1,8 @@
 {
   "division": "Android Browser #MAJORVER#.#MINORVER#",
-  "versions": ["3.1", "3.2"],
+  "versions": ["3.2", "3.1"],
   "sortIndex": 1913,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",

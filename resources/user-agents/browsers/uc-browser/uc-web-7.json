@@ -1,7 +1,8 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.2", "7.3", "7.4", "7.5", "7.6", "7.7", "7.8", "7.9"],
+  "versions": ["7.9", "7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
   "sortIndex": 1114,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",

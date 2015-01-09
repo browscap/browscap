@@ -1,6 +1,7 @@
 {
   "division": "BoardReader",
   "sortIndex": 561,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BoardReader",

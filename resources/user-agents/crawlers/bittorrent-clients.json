@@ -1,6 +1,7 @@
 {
   "division": "BitTorrent Clients",
   "sortIndex": 260,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BitTorrent Clients",

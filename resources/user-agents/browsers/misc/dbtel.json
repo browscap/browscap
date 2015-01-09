@@ -1,6 +1,7 @@
 {
   "division": "DBTEL",
   "sortIndex": 3860,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DBTEL",

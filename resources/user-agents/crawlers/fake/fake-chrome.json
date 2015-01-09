@@ -1,6 +1,7 @@
 {
   "division": "Fake Chrome",
   "sortIndex": 955,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Fake Chrome",

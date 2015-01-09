@@ -1,11 +1,12 @@
 {
   "division": "SeznamBot",
   "sortIndex": 1440,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SeznamBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "SeznamBot",
         "Browser": "SeznamBot",
         "Browser_Type": "Bot/Crawler",

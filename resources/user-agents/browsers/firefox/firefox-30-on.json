@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [30, 31, 32, 33, 34, 35, 36, 37],
-  "sortIndex": 3151,
+  "versions": [37, 36, 35, 34, 33, 32, 31, 30],
+  "sortIndex": 3161,
   "lite": true,
   "userAgents": [
     {
@@ -110,7 +110,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
@@ -156,7 +156,7 @@
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
       "properties": {
-        "Parent": "Firefox #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",

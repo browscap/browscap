@@ -1,6 +1,7 @@
 {
   "division": "SEOdiver Bot",
   "sortIndex": 248,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SEOdiver Bot",

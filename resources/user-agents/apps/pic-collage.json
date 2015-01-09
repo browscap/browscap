@@ -1,6 +1,7 @@
 {
   "division": "Pic Collage",
   "sortIndex": 9770,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Pic Collage",

@@ -1,6 +1,7 @@
 {
   "division": "AhrefsBot",
   "sortIndex": 40,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "AhrefsBot",

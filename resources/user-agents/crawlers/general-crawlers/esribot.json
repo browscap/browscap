@@ -1,11 +1,12 @@
 {
   "division": "Esribot",
   "sortIndex": 320,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Esribot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "General Crawlers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
