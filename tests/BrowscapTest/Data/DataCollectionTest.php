@@ -397,6 +397,7 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-divisions.json');
+
     }
 
     /**
@@ -430,6 +431,17 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "lite" is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoLitePropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-lite-property.json');
     }
 
     /**

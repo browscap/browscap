@@ -1,6 +1,6 @@
 {
   "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
-  "versions": ["1.4", "1.5", "2.0", "2.2", "2.3", "3.0", "3.2", "3.8", "3.9", "4.0", "5.0", "5.5"],
+  "versions": ["5.5", "5.0", "4.0", "3.9", "3.8", "3.2", "3.0", "2.3", "2.2", "2.0", "1.5", "1.4"],
   "sortIndex": 1792,
   "lite": false,
   "userAgents": [
