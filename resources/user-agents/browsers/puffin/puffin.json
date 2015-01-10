@@ -1,7 +1,7 @@
 {
   "division": "Puffin",
-  "sortIndex": 1120,
-  "lite": true,
+  "sortIndex": 1119,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Puffin",

@@ -1,6 +1,7 @@
 {
   "division": "Ichiro Mobile Bot",
   "sortIndex": 590,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Ichiro Mobile Bot",
@@ -10,7 +11,7 @@
         "Browser": "Ichiro Mobile Bot",
         "Browser_Maker": "Ichiro",
         "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
+        "Device_Type": "Mobile Phone",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",

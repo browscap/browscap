@@ -1,6 +1,7 @@
 {
   "division": "IAC",
   "sortIndex": 5250,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IAC",

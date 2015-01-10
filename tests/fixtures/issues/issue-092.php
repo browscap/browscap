@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-92-B' => [
+    'issue-092-B' => [
         'Mozilla/5.0 (Series40; Nokia306/03.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.9.0.0.22',
         [
             'Browser' => 'Nokia Proxy Browser',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
-    'issue-92-A' => [
+    'issue-092-A' => [
         'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)',
         [
             'Browser' => 'proximic',

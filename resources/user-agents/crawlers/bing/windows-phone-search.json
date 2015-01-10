@@ -1,6 +1,7 @@
 {
   "division": "Windows Phone Search",
   "sortIndex": 1280,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",
@@ -21,6 +22,18 @@
         {
           "match": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
           "device": "HTC Spark",
+          "platforms": [
+            "WinPhone7"
+          ]
+        },
+        {
+          "match": "Windows Phone Search (Windows Phone OS 7.10;NOKIA;Lumia 900;*)",
+          "properties": {
+            "Device_Code_Name": "Lumia 900",
+            "Device_Maker": "Nokia",
+            "Device_Brand_Name": "Nokia",
+            "Device_Name": "Lumia 900"
+          },
           "platforms": [
             "WinPhone7"
           ]

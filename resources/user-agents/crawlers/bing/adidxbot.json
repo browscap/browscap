@@ -1,6 +1,7 @@
 {
   "division": "adidxbot",
   "sortIndex": 1231,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "adidxbot",

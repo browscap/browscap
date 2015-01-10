@@ -1,8 +1,8 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["6.0", "6.1", "6.2", "6.3", "6.4", "6.5"],
-  "sortIndex": 2045,
-  "lite": true,
+  "versions": ["7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
+  "sortIndex": 1932,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -33,18 +33,6 @@
         },
         {
           "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Android"
           ]
@@ -89,6 +77,12 @@
           ]
         },
         {
+          "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "WinPhone"
+          ]
+        },
+        {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Brew"
@@ -116,33 +110,68 @@
           ]
         },
         {
-          "match": "SAMSUNG-GT-C3312 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-C3262* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
+            "Device_Name": "GT-C3262",
             "Device_Maker": "Samsung",
-            "Device_Name": "GT-C3312"
+            "Device_Code_Name": "GT-C3262",
+            "Device_Brand_Name": "Samsung",
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S5222 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
+            "Device_Name": "GT-S3802",
+            "Device_Code_Name": "GT-S3802",
+            "Device_Brand_Name": "Samsung",
             "Device_Maker": "Samsung",
-            "Device_Name": "GT-S5222"
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S5222R Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-S5292* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "properties": {
+            "Device_Name": "GT-S5292",
             "Device_Maker": "Samsung",
-            "Device_Name": "GT-S5222R"
+            "Device_Type": "Mobile Phone"
           },
           "platforms": [
             "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG-GT-C3312R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Device_Name": "GT-C3312R",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG-GT-S5222R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "properties": {
+            "Device_Name": "GT-S5222R",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Phone"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Brew"
           ]
         }
       ]

@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'issue-4' => [
+    'issue-004' => [
         'Mozilla/5.0 (PLAYSTATION 3; 2.00)',
         [
-            'Browser' => 'Sony PS3',
+            'Browser' => 'Playstation Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Sony',
@@ -24,9 +24,9 @@ return [
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Playstation 3',
             'Device_Brand_Name' => 'Sony',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
         ],
     ],
 ];

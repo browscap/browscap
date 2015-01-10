@@ -1,6 +1,7 @@
 {
   "division": "BlackBerry 4.3",
   "sortIndex": 2369,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BlackBerry 4.3",

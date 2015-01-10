@@ -1,7 +1,8 @@
 {
   "division": "ELinks #MAJORVER#.#MINORVER#",
-  "versions": ["0.9", "0.10", "0.11", "0.12", "0.13"],
+  "versions": ["0.13", "0.12", "0.11", "0.10", "0.9"],
   "sortIndex": 2300,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",

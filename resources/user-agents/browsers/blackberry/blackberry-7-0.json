@@ -1,6 +1,7 @@
 {
   "division": "BlackBerry 7.0",
   "sortIndex": 2363,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BlackBerry 7.0",
@@ -105,6 +106,7 @@
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.0*Safari\/*",
           "device": "Blackberry 9810"
+
         }
       ]
     }

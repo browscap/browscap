@@ -1,6 +1,7 @@
 {
   "division": "Feeds Syndicators",
   "sortIndex": 370,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Feeds Syndicators",
@@ -55,7 +56,8 @@
         {
           "match": "Akregator\/*",
           "properties": {
-            "Browser": "Akregator"
+            "Browser": "akregator",
+            "Browser_Maker": "KDE e.V."
           }
         },
         {
@@ -439,6 +441,15 @@
           "match": "Wizz RSS News Reader",
           "properties": {
             "Browser": "Wizz"
+          }
+        },
+        {
+          "match": "Mozilla\/* (*Genieo*\/1.0*)",
+          "properties": {
+            "Browser": "Genieo RSS Reader",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         },
         {

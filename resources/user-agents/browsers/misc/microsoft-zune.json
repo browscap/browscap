@@ -1,6 +1,7 @@
 {
   "division": "Microsoft Zune",
   "sortIndex": 1540,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Microsoft Zune",

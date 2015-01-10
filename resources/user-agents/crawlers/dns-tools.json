@@ -1,6 +1,7 @@
 {
   "division": "DNS Tools",
   "sortIndex": 330,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DNS Tools",

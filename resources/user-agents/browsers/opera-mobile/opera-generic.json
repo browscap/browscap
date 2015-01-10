@@ -1,7 +1,7 @@
 {
   "division": "Opera Mobile Generic",
   "sortIndex": 1048,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile Generic",

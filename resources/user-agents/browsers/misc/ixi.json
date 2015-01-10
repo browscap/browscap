@@ -1,6 +1,7 @@
 {
   "division": "IXI",
   "sortIndex": 6370,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IXI",

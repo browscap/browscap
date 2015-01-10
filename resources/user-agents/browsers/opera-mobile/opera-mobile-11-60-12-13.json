@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["11.60", "12.00", "12.10", "12.11", "12.12", "12.13"],
+  "versions": ["12.13", "12.12", "12.11", "12.10", "12.00", "11.60"],
   "sortIndex": 1032,
   "lite": true,
   "userAgents": [
@@ -33,7 +33,6 @@
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isTablet": "false",
-            "Device_Type": "Mobile Phone",
             "Device_Code_Name": "general Mobile Device",
             "Device_Maker": "unknown",
             "Device_Brand_Name": "unknown",
@@ -41,7 +40,8 @@
           },
           "platforms": [
             "AndroidLinux",
-            "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
+            "Android_2_3", "Android_2_3_F", "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2",
+            "Android_4_3", "Android_4_4", "Android",
             "SymbianOS_C",
             "WinMobile"
           ]

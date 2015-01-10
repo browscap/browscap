@@ -172,6 +172,56 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 975N Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "975N",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Name": "Smart III"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6030D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "OT-6030D",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Name": "One Touch Idol"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#B1-711 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "B1-711",
+            "Device_Maker": "Acer",
+            "Device_Brand_Name": "Acer",
+            "Device_Name": "Iconia B1-711",
+            "isTablet": "true",
+            "Device_Type": "Tablet"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6010D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "OT-6010D",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Name": "One Touch Star 6010D"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
           "device": "HTC 7088",
           "platforms": [

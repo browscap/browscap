@@ -1,7 +1,8 @@
 {
   "division": "Sogou Explorer #MAJORVER#.#MINORVER#",
   "versions": [2],
-  "sortIndex": 1030,
+  "sortIndex": 1028,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sogou Explorer #MAJORVER#.#MINORVER#",

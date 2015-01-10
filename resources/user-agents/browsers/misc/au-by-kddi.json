@@ -1,6 +1,7 @@
 {
   "division": "AU by KDDI",
   "sortIndex": 2240,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "AU by KDDI",

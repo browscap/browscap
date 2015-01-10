@@ -1,11 +1,12 @@
 {
   "division": "Crawly",
   "sortIndex": 180,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Crawly",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Crawly",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

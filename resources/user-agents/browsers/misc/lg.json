@@ -1,6 +1,7 @@
 {
   "division": "LG",
   "sortIndex": 6700,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "LG",

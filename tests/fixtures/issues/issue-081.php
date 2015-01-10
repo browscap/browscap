@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-81-G' => [
+    'issue-081-G' => [
         'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)',
         [
             'Browser' => 'Mail.Ru',
@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-81-F' => [
+    'issue-081-F' => [
         'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',
         [
             'Browser' => 'Download Accelerator',
@@ -57,7 +57,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-81-E' => [
+    'issue-081-E' => [
         'ZmEu',
         [
             'Browser' => 'ZmEu',
@@ -85,7 +85,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-81-D' => [
+    'issue-081-D' => [
         'Mozilla/5.0 (X11; Linux i686; U;rv: 1.7.13) Gecko/20070322 Kazehakase/0.4.4.1',
         [
             'Browser' => 'Kazehakase',
@@ -113,7 +113,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
-    'issue-81-C' => [
+    'issue-081-C' => [
         'woobot/1.1',
         [
             'Browser' => 'WooRank',
@@ -141,7 +141,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-81-B' => [
+    'issue-081-B' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36',
         [
             'Browser' => 'Google Page Speed',
@@ -169,7 +169,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
     ],
-    'issue-81-A' => [
+    'issue-081-A' => [
         'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
         [
             'Browser' => 'Sogou Web Spider',

@@ -1,6 +1,7 @@
 {
   "division": "Microsoft",
   "sortIndex": 420,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Microsoft",
@@ -127,6 +128,7 @@
           "match": "iisbot\/1.0*",
           "properties": {
             "Browser": "IIS Site Analysis Web Crawler",
+            "Browser_Maker": "www.iis.net",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -135,7 +137,8 @@
         {
           "match": "iisbot\/*",
           "properties": {
-            "Browser": "IIS Site Analysis Web Crawler"
+            "Browser": "IIS Site Analysis Web Crawler",
+            "Browser_Maker": "www.iis.net"
           }
         }
       ]

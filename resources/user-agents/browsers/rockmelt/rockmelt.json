@@ -1,6 +1,7 @@
 {
   "division": "RockMelt",
-  "sortIndex": 1130,
+  "sortIndex": 1143,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Rockmelt",
@@ -10,6 +11,8 @@
         "Parent": "DefaultProperties",
         "Comment": "RockMelt",
         "Browser": "RockMelt",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Yahoo!",
         "Win32": "true",
         "Frames": "true",
         "IFrames": "true",

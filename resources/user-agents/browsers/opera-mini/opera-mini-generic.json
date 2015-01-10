@@ -1,7 +1,7 @@
 {
   "division": "Opera Mini Generic",
-  "sortIndex": 2048,
-  "lite": true,
+  "sortIndex": 1939,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini Generic",

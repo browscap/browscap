@@ -1,6 +1,7 @@
 {
   "division": "MAUI",
   "sortIndex": 6900,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MAUI",

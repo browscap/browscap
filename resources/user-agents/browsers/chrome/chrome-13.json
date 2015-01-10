@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [13],
-  "sortIndex": 1139,
+  "sortIndex": 1157,
   "lite": false,
   "userAgents": [
     {
@@ -29,21 +29,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "platforms": [
-            "Android_4_0", "Android"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (X11; Linux*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "HTC Z710",
           "platforms": [
@@ -69,6 +54,21 @@
           "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Android_4_0", "Android"
           ]
         }
       ]

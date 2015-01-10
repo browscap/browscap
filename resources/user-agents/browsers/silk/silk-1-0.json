@@ -1,8 +1,8 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
   "versions": ["1.0"],
-  "sortIndex": 1130,
-  "lite": true,
+  "sortIndex": 1140,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",

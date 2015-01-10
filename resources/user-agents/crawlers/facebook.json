@@ -1,6 +1,7 @@
 {
   "division": "Facebook",
   "sortIndex": 140,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Facebook",

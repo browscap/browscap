@@ -1,7 +1,8 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["9.0", "9.1", "9.2", "9.3", "9.4", "9.5", "9.6", "9.7", "9.8"],
+  "versions": ["9.8", "9.7", "9.6", "9.5", "9.4", "9.3", "9.2", "9.1", "9.0"],
   "sortIndex": 1112,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -215,6 +216,36 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "GT-S5670",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Name": "Galaxy Fit",
+            "isMobileDevice": "true",
+            "isTablet": "false",
+            "Device_Type": "Mobile Phone",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "properties": {
+            "Device_Code_Name": "MB525",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Name": "DEFY"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "WebKit",
           "properties": {
@@ -246,7 +277,7 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
       "device": "Windows Desktop",
       "properties": {
-        "Parent": "UC Browser #MAJORVER#.#MINORVER#",
+        "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",

@@ -1,6 +1,7 @@
 {
   "division": "Fake IE",
   "sortIndex": 958,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Fake IE",

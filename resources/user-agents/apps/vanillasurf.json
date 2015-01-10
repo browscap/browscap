@@ -1,6 +1,7 @@
 {
   "division": "VanillaSurf",
   "sortIndex": 10950,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "VanillaSurf",

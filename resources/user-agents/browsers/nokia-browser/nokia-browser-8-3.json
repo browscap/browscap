@@ -1,7 +1,8 @@
 {
   "division": "Nokia Browser #MAJORVER#.#MINORVER#",
   "versions": ["8.3"],
-  "sortIndex": 8000,
+  "sortIndex": 1783,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -42,23 +43,11 @@
           "device": "Nokia E7-00"
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "Nokia N8-00"
-        },
-        {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia N8-00"
         },
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "Nokia X7-00"
-        },
-        {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* Nokia500\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "Nokia 500"
-        },
-        {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaX7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia X7-00"
         },
         {
@@ -70,11 +59,11 @@
           "device": "Nokia 700"
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* Nokia808PureView\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia808PureView\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia 808PureView"
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/3*; Series60\/* NokiaC7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia C7-00"
         }
       ]

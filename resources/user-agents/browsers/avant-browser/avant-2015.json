@@ -1,6 +1,6 @@
 {
   "division": "Avant 2015",
-  "sortIndex": 934,
+  "sortIndex": 931,
   "lite": true,
   "userAgents": [
     {
@@ -29,7 +29,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML, like Gecko) Chrome\/38.* Safari\/*",
           "engine": "Blink",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPa_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]
@@ -38,7 +38,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML, like Gecko) Chrome\/37.* Safari\/*",
           "engine": "Blink",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPa_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]
@@ -47,7 +47,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#rv:32.0; Avant TriCore) Gecko\/* Firefox\/32.*",
           "engine": "Gecko_27",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPa_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32", "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]

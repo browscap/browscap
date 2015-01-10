@@ -1,11 +1,12 @@
 {
   "division": "uMBot",
   "sortIndex": 661,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "uMBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "uMBot",
         "Browser": "uMBot",
         "Browser_Type": "Bot/Crawler",

@@ -1,6 +1,7 @@
 {
   "division": "BB2C",
   "sortIndex": 2290,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BB2C",

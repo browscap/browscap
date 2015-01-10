@@ -1,8 +1,8 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["3.0", "3.1"],
-  "sortIndex": 1941,
-  "lite": true,
+  "versions": ["3.1", "3.0"],
+  "sortIndex": 1966,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
@@ -30,6 +30,7 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
           "device": "iPhone",
           "platforms": [
+            "iOS_A_2_0",
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A",

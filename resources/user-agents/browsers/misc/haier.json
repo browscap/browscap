@@ -1,6 +1,7 @@
 {
   "division": "Haier",
   "sortIndex": 5140,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Haier",

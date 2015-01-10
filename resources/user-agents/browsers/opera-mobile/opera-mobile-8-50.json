@@ -1,6 +1,7 @@
 {
   "division": "Opera Mobile 8.50",
   "sortIndex": 1043,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile 8.50",

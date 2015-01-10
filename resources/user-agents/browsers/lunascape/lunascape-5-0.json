@@ -1,6 +1,7 @@
 {
   "division": "Lunascape 5.0",
-  "sortIndex": 2640,
+  "sortIndex": 2642,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Lunascape 5.0",

@@ -2,6 +2,7 @@
   "division": "BlackBerry #MAJORVER#.#MINORVER#",
   "versions": ["10.0"],
   "sortIndex": 2361,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
@@ -30,10 +31,30 @@
         },
         {
           "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko)*",
-          "device": "Blackberry Z10"
+          "properties": {
+            "Device_Code_Name": "Z10",
+            "Device_Maker": "BlackBerry",
+            "Device_Brand_Name": "BlackBerry",
+            "Device_Name": "Z10"
+          }
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*"
+          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "properties": {
+            "Device_Code_Name": "KBD",
+            "Device_Maker": "BlackBerry",
+            "Device_Brand_Name": "BlackBerry",
+            "Device_Name": "KBD"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*",
+          "properties": {
+            "Device_Code_Name": "KBD",
+            "Device_Maker": "BlackBerry",
+            "Device_Brand_Name": "BlackBerry",
+            "Device_Name": "KBD"
+          }
         }
       ]
     }

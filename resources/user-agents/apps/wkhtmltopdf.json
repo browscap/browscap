@@ -1,6 +1,7 @@
 {
   "division": "wkhtmltopdf",
   "sortIndex": 1850,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "wkhtmltopdf",

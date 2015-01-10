@@ -1,6 +1,7 @@
 {
   "division": "Group Sense PDA",
   "sortIndex": 5120,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Group Sense PDA",

@@ -1,6 +1,7 @@
 {
   "division": "Palm Source",
   "sortIndex": 5960,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Palm Source",
@@ -8,7 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Palm Source",
-        "Comment": "IEMobile",
+        "Comment": "Palm Source",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",

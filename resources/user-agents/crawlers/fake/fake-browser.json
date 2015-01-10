@@ -1,6 +1,7 @@
 {
   "division": "Fake Browser",
   "sortIndex": 959,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Fake Browser",
@@ -439,7 +440,7 @@
           "match": "Mozilla\/4.0 (compatible; MSIE *) Netscape\/*"
         },
         {
-          "match": "\\x??Mozilla*"
+          "match": "?x22Mozilla*"
         },
         {
           "match": "(null)*"

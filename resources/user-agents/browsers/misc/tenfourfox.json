@@ -1,6 +1,7 @@
 {
   "division": "TenFourFox",
   "sortIndex": 10780,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "TenFourFox",

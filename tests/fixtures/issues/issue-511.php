@@ -970,7 +970,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'One',
+            'Device_Name' => 'One M8',
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

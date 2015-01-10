@@ -1,6 +1,7 @@
 {
   "division": "Prince",
   "sortIndex": 1851,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Prince",

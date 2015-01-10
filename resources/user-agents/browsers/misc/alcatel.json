@@ -1,6 +1,7 @@
 {
   "division": "Alcatel",
   "sortIndex": 2040,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Alcatel",

@@ -2,6 +2,7 @@
   "division": "PAD-bot #MAJORVER#.#MINORVER#",
   "versions": [9],
   "sortIndex": 2420,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",

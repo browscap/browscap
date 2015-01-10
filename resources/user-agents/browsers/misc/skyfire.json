@@ -1,6 +1,7 @@
 {
   "division": "Skyfire",
   "sortIndex": 1870,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Skyfire",
@@ -11,6 +12,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Skyfire",
         "Browser": "Skyfire",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Opera Software ASA",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

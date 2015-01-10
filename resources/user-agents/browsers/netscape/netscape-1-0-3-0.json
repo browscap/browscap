@@ -2,6 +2,7 @@
   "division": "Netscape #MAJORVER#.#MINORVER#",
   "versions": [3, 2, 1],
   "sortIndex": 7806,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",

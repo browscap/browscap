@@ -2,6 +2,7 @@
   "division": "AppleCoreMedia #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 2060,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",

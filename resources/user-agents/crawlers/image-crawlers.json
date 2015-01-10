@@ -1,6 +1,7 @@
 {
   "division": "Image Crawlers",
   "sortIndex": 400,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Image Crawlers",
@@ -37,7 +38,7 @@
           }
         },
         {
-          "match": "Der gro\\xdfe BilderSauger*",
+          "match": "Der gro?xdfe BilderSauger*",
           "properties": {
             "Browser": "Gallery Grabber"
           }

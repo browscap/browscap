@@ -1,6 +1,7 @@
 {
   "division": "Google App",
   "sortIndex": 1072,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Google App",

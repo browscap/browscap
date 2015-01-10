@@ -1,6 +1,7 @@
 {
   "division": "KONKA",
   "sortIndex": 6500,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "KONKA",

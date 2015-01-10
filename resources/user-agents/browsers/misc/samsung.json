@@ -1,6 +1,7 @@
 {
   "division": "Samsung Generic",
   "sortIndex": 10171,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Samsung Generic",

@@ -1,0 +1,63 @@
+{
+  "division": "sp auditbot",
+  "sortIndex": 246,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "sp auditbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "sp auditbot",
+        "Browser": "SEOprofiler AuditBot",
+        "Browser_Maker": "Axandra GmbH",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.1*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.2*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.3*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.4*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/*"
+        }
+      ]
+    }
+  ]
+}

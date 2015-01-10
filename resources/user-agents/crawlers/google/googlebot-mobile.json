@@ -1,11 +1,12 @@
 {
   "division": "Googlebot-Mobile",
-  "sortIndex": 1172,
+  "sortIndex": 1175,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile",
       "properties": {
-        "Parent": "Google",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",

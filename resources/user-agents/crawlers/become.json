@@ -1,6 +1,7 @@
 {
   "division": "Become",
   "sortIndex": 80,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Become",

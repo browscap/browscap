@@ -1,6 +1,7 @@
 {
   "division": "Avant\/IE 5.0",
-  "sortIndex": 942,
+  "sortIndex": 941,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Avant\/IE 5.0",
@@ -28,8 +29,8 @@
           "match": "Mozilla\/4.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
-            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "NT"
           ]
         },
@@ -37,8 +38,8 @@
           "match": "Mozilla\/5.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
-            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "NT"
           ]
         }

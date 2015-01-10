@@ -1,7 +1,8 @@
 {
   "division": "Opera Mini 2.0",
-  "sortIndex": 2041,
-  "lite": true,
+  "versions": [2],
+  "sortIndex": 1937,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini 2.0",

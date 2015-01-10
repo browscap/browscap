@@ -1,6 +1,7 @@
 {
   "division": "UnisterBot",
-  "sortIndex": 3139,
+  "sortIndex": 3147,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "UnisterBot",
@@ -66,7 +67,7 @@
       },
       "children": [
         {
-          "match": "unister-test-zabbix"
+          "match": "unister-test-zabbix*"
         },
         {
           "match": "unister-test-acceptance"

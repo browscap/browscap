@@ -1,11 +1,12 @@
 {
   "division": "Marvin",
   "sortIndex": 740,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Marvin",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "MedHunt",
         "Browser": "MedHunt",
         "Browser_Type": "Bot/Crawler",

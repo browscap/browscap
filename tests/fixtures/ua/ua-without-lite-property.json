@@ -1,0 +1,17 @@
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UA1",
+        "Browser": "UA1",
+        "Version": "1.0",
+        "MajorVer": "1",
+        "MinorVer": "0"
+      }
+    }
+  ]
+}

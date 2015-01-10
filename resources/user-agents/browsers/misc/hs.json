@@ -1,6 +1,7 @@
 {
   "division": "HS",
   "sortIndex": 5210,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "HS",

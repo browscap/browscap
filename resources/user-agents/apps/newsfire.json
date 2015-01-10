@@ -1,6 +1,7 @@
 {
   "division": "NewsFire",
   "sortIndex": 7280,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "NewsFire",

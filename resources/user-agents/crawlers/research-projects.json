@@ -1,6 +1,7 @@
 {
   "division": "Research Projects",
   "sortIndex": 470,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Research Projects",
@@ -12,12 +13,6 @@
         "Crawler": "true"
       },
       "children": [
-        {
-          "match": "*research*",
-          "properties": {
-            "Browser": "Generic Research Crawler"
-          }
-        },
         {
           "match": "AcadiaUniversityWebCensusClient",
           "properties": {
@@ -232,6 +227,27 @@
           "properties": {
             "Browser": "pdrlabs Bot",
             "Browser_Maker": "pdrlabs.net"
+          }
+        },
+        {
+          "match": "Finderlein Research Crawler 1.0*",
+          "properties": {
+            "Browser": "Finderlein Research Crawler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Finderlein Research Crawler*",
+          "properties": {
+            "Browser": "Finderlein Research Crawler"
+          }
+        },
+        {
+          "match": "*research*",
+          "properties": {
+            "Browser": "Generic Research Crawler"
           }
         }
       ]

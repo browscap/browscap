@@ -1,6 +1,7 @@
 {
   "division": "rekonq",
-  "sortIndex": 9920,
+  "sortIndex": 1946,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "rekonq",
@@ -12,6 +13,7 @@
         "Comment": "rekonq",
         "Browser": "rekonq",
         "Browser_Type": "Browser",
+        "Browser_Maker": "KDE e.V.",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -22,7 +24,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2"
+        "CssVersion": "3"
       },
       "children": [
         {

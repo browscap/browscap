@@ -1,6 +1,6 @@
 {
   "division": "Facebook App",
-  "sortIndex": 1949,
+  "sortIndex": 1952,
   "lite": true,
   "userAgents": [
     {
@@ -26,9 +26,10 @@
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -37,31 +38,10 @@
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)*Mobile*FB*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
-            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -70,9 +50,10 @@
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -81,9 +62,10 @@
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -92,9 +74,10 @@
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -103,9 +86,10 @@
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -114,20 +98,10 @@
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit (KHTML,*like Gecko*) Mobile ?FBAN\/FB*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
-            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -135,9 +109,10 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Mobile*FB*",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         }

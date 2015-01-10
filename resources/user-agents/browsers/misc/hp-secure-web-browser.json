@@ -1,6 +1,7 @@
 {
   "division": "HP Secure Web Browser",
-  "sortIndex": 2380,
+  "sortIndex": 2382,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "HP Secure Web Browser",

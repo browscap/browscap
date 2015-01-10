@@ -1,6 +1,6 @@
 {
   "division": "Firefox Generic",
-  "sortIndex": 3152,
+  "sortIndex": 3173,
   "lite": true,
   "userAgents": [
     {
@@ -61,7 +61,7 @@
       "userAgent": "Firefox Generic for Android",
       "device": "general Mobile Device",
       "properties": {
-        "Parent": "Firefox Generic",
+        "Parent": "DefaultProperties",
         "Comment": "Firefox Generic",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",

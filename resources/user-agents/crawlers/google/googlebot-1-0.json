@@ -1,12 +1,13 @@
 {
   "division": "Googlebot #MAJORVER#.#MINORVER#",
   "versions": [1],
-  "sortIndex": 1130,
+  "sortIndex": 1147,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot #MAJORVER#.#MINORVER#",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
@@ -25,6 +26,9 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"

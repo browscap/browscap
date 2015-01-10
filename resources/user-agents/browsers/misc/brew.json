@@ -1,7 +1,7 @@
 {
   "division": "Brew",
   "sortIndex": 1680,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Brew",

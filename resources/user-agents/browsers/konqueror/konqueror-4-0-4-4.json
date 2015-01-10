@@ -1,7 +1,8 @@
 {
   "division": "Konqueror #MAJORVER#.#MINORVER#",
-  "versions": [4, "4.1", "4.2", "4.3", "4.4"],
-  "sortIndex": 6590,
+  "versions": ["4.4", "4.3", "4.2", "4.1", 4],
+  "sortIndex": 2491,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Konqueror #MAJORVER#.#MINORVER#",
@@ -69,7 +70,7 @@
           "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER#*; Windows) KHTML\/#MAJORVER#.#MINORVER#* (like Gecko)",
           "device": "Windows Desktop",
           "platforms": [
-            "Windows"
+            "Win32"
           ]
         }
       ]

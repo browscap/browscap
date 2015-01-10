@@ -1,6 +1,7 @@
 {
   "division": "Postbox 3.0",
   "sortIndex": 1760,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Postbox 3.0",

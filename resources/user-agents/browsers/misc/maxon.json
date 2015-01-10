@@ -1,6 +1,7 @@
 {
   "division": "Maxon",
   "sortIndex": 6910,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Maxon",

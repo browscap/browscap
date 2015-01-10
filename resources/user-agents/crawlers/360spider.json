@@ -1,6 +1,7 @@
 {
   "division": "360Spider",
   "sortIndex": 10,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "360Spider",
@@ -19,8 +20,8 @@
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident\/4.0*)* 360Spider",
           "platforms": [
-            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPa_x64",
-            "WinXPb_64", "WinXPb_32", "WinXPb_x64", "WinXPb_x64_3",
+            "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32", "WinXPb_x64_3",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32"

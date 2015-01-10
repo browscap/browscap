@@ -1,7 +1,8 @@
 {
   "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
-  "versions": [28, "28.1", 29, "29.1", 30, 31, "31.1", 32, 33, "33.1"],
-  "sortIndex": 3452,
+  "versions": ["33.1", 33, 32, "31.1", 31, 30, "29.1", 29, "28.1", 28],
+  "sortIndex": 3450,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
@@ -30,7 +31,18 @@
           "platforms": [
             "Linux_64", "Linux_32", "Linux",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
           ]
         }

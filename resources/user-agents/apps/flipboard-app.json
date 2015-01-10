@@ -1,6 +1,7 @@
 {
   "division": "Flipboard App",
   "sortIndex": 4790,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Flipboard App",

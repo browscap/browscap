@@ -1,6 +1,7 @@
 {
   "division": "M3Gate",
   "sortIndex": 6890,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "M3Gate",

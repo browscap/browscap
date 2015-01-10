@@ -2,6 +2,7 @@
   "division": "KKMAN #MAJORVER#.#MINORVER#",
   "versions": [2],
   "sortIndex": 2749,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "KKMAN #MAJORVER#.#MINORVER#",

@@ -1,6 +1,7 @@
 {
   "division": "GoodReader",
   "sortIndex": 5040,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "GoodReader",

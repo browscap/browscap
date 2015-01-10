@@ -1,11 +1,12 @@
 {
   "division": "Linkdex Bot",
-  "sortIndex": 1031,
+  "sortIndex": 1026,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Linkdex Bot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Linkdex Bot",
         "Browser": "Linkdex Bot",
         "Browser_Maker": "Linkdex Limited",

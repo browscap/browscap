@@ -2,7 +2,7 @@
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": ["11.10"],
   "sortIndex": 1034,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -38,7 +38,12 @@
         },
         {
           "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-          "device": "Huawei G7300",
+          "properties": {
+            "Device_Name": "G7300",
+            "Device_Maker": "Huawei",
+            "Device_Code_Name": "G7300",
+            "Device_Brand_Name": "Huawei"
+          },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"

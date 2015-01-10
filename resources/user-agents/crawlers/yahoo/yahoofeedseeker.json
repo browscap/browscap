@@ -1,6 +1,7 @@
 {
   "division": "YahooFeedSeeker",
   "sortIndex": 1420,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YahooFeedSeeker",

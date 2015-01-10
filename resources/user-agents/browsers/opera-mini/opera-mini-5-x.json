@@ -1,8 +1,8 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["5.0", "5.1", "5.2", "5.3"],
-  "sortIndex": 2044,
-  "lite": true,
+  "versions": ["5.3", "5.2", "5.1", "5.0"],
+  "sortIndex": 1934,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

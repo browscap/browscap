@@ -1,6 +1,7 @@
 {
   "division": "Phantom Browser",
   "sortIndex": 1861,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Phantom Browser",

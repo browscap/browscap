@@ -1,6 +1,7 @@
 {
   "division": "QupZilla",
   "sortIndex": 9890,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "QupZilla",

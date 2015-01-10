@@ -1,6 +1,7 @@
 {
   "division": "MQQBrowser Generic",
   "sortIndex": 1174,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MQQBrowser Generic",

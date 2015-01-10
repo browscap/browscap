@@ -121,6 +121,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "B6000-F",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "Yoga B6000-F"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

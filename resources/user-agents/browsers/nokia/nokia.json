@@ -1,7 +1,7 @@
 {
   "division": "Nokia",
-  "sortIndex": 1792,
-  "lite": true,
+  "sortIndex": 1793,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Nokia",
@@ -20,27 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaC6-00\/*; Profile\/MIDP-* Configuration\/CLDC-*) AppleWebKit\/* (KHTML, like Gecko) BrowserNG\/7.2.*",
-          "engine": "WebKit",
-          "device": "Nokia C6-00",
-          "properties": {
-            "Browser": "BrowserNG",
-            "Version": "7.2",
-            "MajorVer": "7",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
-          "match": "Mozilla\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
-          "match": "*Nokia*\/*"
+          "match": "*Nokia*"
         }
       ]
     }

@@ -1,11 +1,12 @@
 {
   "division": "Sindice Fetcher",
   "sortIndex": 1450,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sindice Fetcher",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "Sindice Fetcher",
         "Browser": "Sindice Fetcher",
         "Browser_Maker": "Sindice",

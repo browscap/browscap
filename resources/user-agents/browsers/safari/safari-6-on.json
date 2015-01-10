@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": [6, "6.1", "6.2", 7, "7.1", 8, "8.1"],
-  "sortIndex": 1948,
+  "versions": ["8.1", 8, "7.1", 7, "6.2", "6.1", 6],
+  "sortIndex": 1970,
   "lite": true,
   "userAgents": [
     {
@@ -67,34 +67,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "SymbianOS"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Safari #MAJORVER#.#MINORVER# for Android",
-      "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari #MAJORVER#.#MINORVER#",
-        "Browser": "Safari",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         }
       ]

@@ -1,8 +1,8 @@
 {
   "division": "SmartViera #MAJORVER#.#MINORVER#",
-  "versions": ["1.5", "3.1"],
-  "sortIndex": 1137,
-  "lite": true,
+  "versions": ["3.1", "1.5"],
+  "sortIndex": 1149,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SmartViera #MAJORVER#.#MINORVER#",
@@ -26,6 +26,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
+          "properties": {
+            "Device_Type": "TV Device",
+            "Device_Name": "Viera",
+            "Device_Code_Name": "Viera",
+            "Device_Maker": "Panasonic",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false"
+          },
           "platforms": [
             "FreeBSD"
           ]

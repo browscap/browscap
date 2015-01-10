@@ -1,6 +1,7 @@
 {
   "division": "CTL",
   "sortIndex": 3780,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "CTL",

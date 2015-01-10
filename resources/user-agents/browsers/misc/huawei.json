@@ -1,6 +1,7 @@
 {
   "division": "Huawei",
   "sortIndex": 5220,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Huawei",

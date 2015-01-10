@@ -1,6 +1,7 @@
 {
   "division": "YahooSeeker",
   "sortIndex": 1400,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YahooSeeker",

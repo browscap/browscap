@@ -1,6 +1,7 @@
 {
   "division": "Social Networking",
   "sortIndex": 500,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Social Networking",
@@ -190,6 +191,23 @@
           "properties": {
             "Browser": "vkShare",
             "Browser_Maker": "vk.com"
+          }
+        },
+        {
+          "match": "seebot\/2.0*",
+          "properties": {
+            "Browser": "SeeBot",
+            "Browser_Maker": "Seegnify",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "seebot\/*",
+          "properties": {
+            "Browser": "SeeBot",
+            "Browser_Maker": "Seegnify"
           }
         }
       ]

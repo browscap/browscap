@@ -75,21 +75,24 @@ class PhpFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
-                    $valueOutput = 'true';
+                    $valueOutput = '"true"';
                 } elseif (false === $value || $value === 'false') {
-                    $valueOutput = 'false';
+                    $valueOutput = '"false"';
                 } else {
                     $valueOutput = '';
                 }
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $propertyHolder->checkValueInArray($property, $value);
+                    $valueOutput = '"' . $propertyHolder->checkValueInArray($property, $value) . '"';
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }
                 break;
             default:
+                if (preg_match('/[^a-zA-Z0-9]/', $valueOutput)) {
+                    $valueOutput = '"' . $valueOutput . '"';
+                }
                 // nothing t do here
                 break;
         }

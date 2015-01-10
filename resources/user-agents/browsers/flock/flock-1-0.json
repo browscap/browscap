@@ -1,7 +1,8 @@
 {
   "division": "Flock #MAJORVER#.#MINORVER#",
   "versions": [1],
-  "sortIndex": 3100,
+  "sortIndex": 3102,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",

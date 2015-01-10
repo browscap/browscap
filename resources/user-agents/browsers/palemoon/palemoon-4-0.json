@@ -2,6 +2,7 @@
   "division": "Palemoon #MAJORVER#.#MINORVER#",
   "versions": [4],
   "sortIndex": 2662,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",

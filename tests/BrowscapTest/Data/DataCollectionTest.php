@@ -314,9 +314,10 @@ HERE;
             $fail    = true;
             $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
-            if ('required attibute "division" is missing' !== $ex->getMessage()) {
+            if ('required attibute "division" is missing in File ' . $tmpfile !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "division" is missing" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "required attibute "division" is missing in File ' . $tmpfile
+                . '" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -366,9 +367,10 @@ HERE;
             $fail    = true;
             $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
         } catch (\RuntimeException $ex) {
-            if ('required attibute "sortIndex" is missing' !== $ex->getMessage()) {
+            if ('required attibute "sortIndex" is missing in File ' . $tmpfile !== $ex->getMessage()) {
                 $fail    = true;
-                $message = 'expected Message "required attibute "sortIndex" is missing" not available, the message was "' . $ex->getMessage() . '"';
+                $message = 'expected Message "required attibute "sortIndex" is missing in File ' . $tmpfile
+                . '" not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -426,6 +428,17 @@ HERE;
         if ($fail) {
             $this->fail($message);
         }
+    }
+
+    /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "lite" is missing
+     */
+    public function testAddSourceFileThrowsExceptionIfNoLitePropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-lite-property.json');
     }
 
     /**

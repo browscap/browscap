@@ -1,6 +1,7 @@
 {
   "division": "Sagem",
   "sortIndex": 10170,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Sagem",

@@ -1,12 +1,13 @@
 {
   "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
-  "sortIndex": 1170,
+  "sortIndex": 1174,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
       "properties": {
-        "Parent": "Googlebot-Mobile",
+        "Parent": "DefaultProperties",
         "Comment": "Googlebot",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
@@ -45,7 +46,15 @@
           "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*"
+          "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Code_Name": "N905i",
+            "Device_Maker": "Nec",
+            "Device_Brand_Name": "Nec",
+            "Device_Name": "N905i",
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Phone"
+          }
         },
         {
           "match": "KDDI-CA34 UP.Browser\/6.2*(GUI)MMP\/2.0 (compatible; KDDI-Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",

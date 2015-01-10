@@ -1,7 +1,8 @@
 {
   "division": "SeaMonkey #MAJORVER#.#MINORVER#",
-  "versions": ["2.0", "1.1", "1.0"],
+  "versions": [2, "1.1", 1],
   "sortIndex": 3021,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",

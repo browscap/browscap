@@ -1,6 +1,7 @@
 {
   "division": "ZTE",
   "sortIndex": 11130,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "ZTE",

@@ -1,7 +1,8 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["8.0", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "8.9"],
+  "versions": ["8.9", "8.8", "8.7", "8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0"],
   "sortIndex": 1113,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -83,6 +84,19 @@
             "Device_Code_Name": "GT-S7262",
             "Device_Brand_Name": "Samsung"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
+          "properties": {
+            "Version": "8.2",
+            "MajorVer": "8",
+            "MinorVer": "2",
+            "Device_Name": "GT-S5263",
+            "Device_Maker": "Samsung"
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"

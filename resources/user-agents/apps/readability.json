@@ -1,6 +1,7 @@
 {
   "division": "Readability",
   "sortIndex": 5040,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Readability",

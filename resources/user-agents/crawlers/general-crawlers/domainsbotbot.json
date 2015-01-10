@@ -1,11 +1,12 @@
 {
   "division": "DomainsBotBot",
   "sortIndex": 230,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "DomainsBotBot",
       "properties": {
-        "Parent": "General Crawlers",
+        "Parent": "DefaultProperties",
         "Comment": "DomainsBotBot",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",

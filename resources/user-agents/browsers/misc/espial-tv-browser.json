@@ -1,6 +1,7 @@
 {
   "division": "Espial TV Browser",
   "sortIndex": 10621,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Espial TV Browser",
