@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b019f037e7a5388f18a6801a8b1a75c1",
+    "hash": "ccb620d3950f493cefd7ca863c33dc8e",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -177,12 +177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "4451d7cfb22b4881cda7d2437a933d353c4612da"
+                "reference": "1fbee086d5e40481418f0bc71137cce3e7adc6c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/4451d7cfb22b4881cda7d2437a933d353c4612da",
-                "reference": "4451d7cfb22b4881cda7d2437a933d353c4612da",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/1fbee086d5e40481418f0bc71137cce3e7adc6c7",
+                "reference": "1fbee086d5e40481418f0bc71137cce3e7adc6c7",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2014-11-10 09:20:40"
+            "time": "2014-12-23 10:01:38"
         },
         {
             "name": "doctrine/instantiator",
@@ -286,12 +286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "056b64e0341039eb83075ca53347f29d0bfdead0"
+                "reference": "2d5131709917b80a315a83c08a56516d867ba59f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/056b64e0341039eb83075ca53347f29d0bfdead0",
-                "reference": "056b64e0341039eb83075ca53347f29d0bfdead0",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/2d5131709917b80a315a83c08a56516d867ba59f",
+                "reference": "2d5131709917b80a315a83c08a56516d867ba59f",
                 "shasum": ""
             },
             "require": {
@@ -317,20 +317,20 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2014-11-24 09:52:29"
+            "time": "2014-12-12 18:31:31"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.0.13",
+            "version": "2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "0e7d2eec5554f869fa7a4ec2d21e4b37af943ea5"
+                "reference": "ca158276c1200cc27f5409a5e338486bc0b4fc94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/0e7d2eec5554f869fa7a4ec2d21e4b37af943ea5",
-                "reference": "0e7d2eec5554f869fa7a4ec2d21e4b37af943ea5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ca158276c1200cc27f5409a5e338486bc0b4fc94",
+                "reference": "ca158276c1200cc27f5409a5e338486bc0b4fc94",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +382,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-12-03 06:41:44"
+            "time": "2014-12-26 13:28:33"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1064,6 +1064,7 @@
         "mikey179/vfsstream": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">= 5.4.0"
     },

@@ -56,9 +56,9 @@ class EngineFactory
             $parentEngine     = $this->build($json['engines'][$parentName], $json, $parentName);
             $parentEngineData = $parentEngine->getProperties();
 
-            $inheritedPlatformProperties = $engineData['properties'];
+            $inhEngineProperties = $engineData['properties'];
 
-            foreach ($inheritedPlatformProperties as $name => $value) {
+            foreach ($inhEngineProperties as $name => $value) {
                 if (isset($parentEngineData[$name])
                     && $parentEngineData[$name] == $value
                 ) {
@@ -71,7 +71,7 @@ class EngineFactory
 
             $engineData['properties'] = array_merge(
                 $parentEngineData,
-                $inheritedPlatformProperties
+                $inhEngineProperties
             );
         }
 

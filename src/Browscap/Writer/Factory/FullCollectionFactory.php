@@ -19,15 +19,15 @@ namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\FullFilter;
 use Browscap\Filter\LiteFilter;
-use Browscap\Filter\StandartFilter;
+use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\AspFormatter;
 use Browscap\Formatter\CsvFormatter;
+use Browscap\Formatter\JsonFormatter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Formatter\XmlFormatter;
-use Browscap\Formatter\JsonFormatter;
 use Browscap\Writer\CsvWriter;
-use Browscap\Writer\JsonWriter;
 use Browscap\Writer\IniWriter;
+use Browscap\Writer\JsonWriter;
 use Browscap\Writer\WriterCollection;
 use Browscap\Writer\XmlWriter;
 use Psr\Log\LoggerInterface;
@@ -52,7 +52,7 @@ class FullCollectionFactory
         $writerCollection = new WriterCollection();
 
         $fullFilter = new FullFilter();
-        $stdFilter  = new StandartFilter();
+        $stdFilter  = new StandardFilter();
         $liteFilter = new LiteFilter();
 
         $fullAspWriter = new IniWriter($buildFolder . '/full_asp_browscap.ini');

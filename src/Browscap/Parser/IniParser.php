@@ -140,7 +140,7 @@ class IniParser implements ParserInterface
         $currentSection  = '';
         $currentDivision = '';
 
-        for ($line = 0; $line < count($fileLines); $line++) {
+        for ($line = 0, $count = count($fileLines); $line < $count; $line++) {
 
             $currentLine       = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);

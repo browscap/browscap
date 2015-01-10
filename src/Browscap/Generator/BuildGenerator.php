@@ -17,9 +17,6 @@
 
 namespace Browscap\Generator;
 
-use Browscap\Helper\CollectionCreator;
-use Browscap\Writer\WriterCollection;
-use Psr\Log\LoggerInterface;
 use ZipArchive;
 
 /**
@@ -30,126 +27,8 @@ use ZipArchive;
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class BuildGenerator
+class BuildGenerator extends AbstractBuildGenerator
 {
-    /**@+
-     * @var string
-     */
-    const OUTPUT_FORMAT_PHP = 'php';
-    const OUTPUT_FORMAT_ASP = 'asp';
-    /**@-*/
-
-    /**@+
-     * @var string
-     */
-    const OUTPUT_TYPE_FULL    = 'full';
-    const OUTPUT_TYPE_DEFAULT = 'normal';
-    const OUTPUT_TYPE_LITE    = 'lite';
-    /**@-*/
-
-    /**
-     * @var string
-     */
-    private $resourceFolder;
-
-    /**
-     * @var string
-     */
-    private $buildFolder;
-
-    /**
-     * @var \Psr\Log\LoggerInterface
-     */
-    private $logger = null;
-
-    /**
-     * @var \Browscap\Helper\CollectionCreator
-     */
-    private $collectionCreator = null;
-
-    /** @var \Browscap\Writer\WriterCollection */
-    private $writerCollection = null;
-
-    /**
-     * @param string $resourceFolder
-     * @param string $buildFolder
-     */
-    public function __construct($resourceFolder, $buildFolder)
-    {
-        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder, 'resource');
-        $this->buildFolder    = $this->checkDirectoryExists($buildFolder, 'build');
-    }
-
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setLogger(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-
-        return $this;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    public function getLogger()
-    {
-        return $this->logger;
-    }
-
-    /**
-     * @param \Browscap\Helper\CollectionCreator $collectionCreator
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setCollectionCreator(CollectionCreator $collectionCreator)
-    {
-        $this->collectionCreator = $collectionCreator;
-
-        return $this;
-    }
-
-    /**
-     * @param \Browscap\Writer\WriterCollection $writerCollection
-     *
-     * @return \Browscap\Generator\BuildGenerator
-     */
-    public function setWriterCollection(WriterCollection $writerCollection)
-    {
-        $this->writerCollection = $writerCollection;
-
-        return $this;
-    }
-
-    /**
-     * @param string $directory
-     * @param string $type
-     *
-     * @return string
-     * @throws \Exception
-     */
-    private function checkDirectoryExists($directory, $type)
-    {
-        if (!isset($directory)) {
-            throw new \Exception('You must specify a ' . $type . ' folder');
-        }
-
-        $realDirectory = realpath($directory);
-
-        if ($realDirectory === false) {
-            throw new \Exception('The directory "' . $directory . '" does not exist, or we cannot access it');
-        }
-
-        if (!is_dir($realDirectory)) {
-            throw new \Exception('The path "' . $realDirectory . '" did not resolve to a directory');
-        }
-
-        return $realDirectory;
-    }
-
     /**
      * Entry point for generating builds for a specified version
      *
@@ -165,8 +44,8 @@ class BuildGenerator
             $version,
             $this->resourceFolder,
             $this->getLogger(),
-            $this->writerCollection,
-            $this->collectionCreator
+            $this->getWriterCollection(),
+            $this->getCollectionCreator()
         );
 
         if (!$createZipFile) {

@@ -35,19 +35,26 @@ class FullPhpWriterFactory
     /**
      * @param \Psr\Log\LoggerInterface $logger
      * @param string                   $buildFolder
+     * @param string|null              $file
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function createCollection(LoggerInterface $logger, $buildFolder)
+    public function createCollection(LoggerInterface $logger, $buildFolder, $file = null)
     {
         $writerCollection = new WriterCollection();
 
+        if (null === $file) {
+            $file = $buildFolder . '/full_php_browscap.ini';
+        }
+
         $fullFilter    = new FullFilter();
-        $fullPhpWriter = new IniWriter($buildFolder . '/full_php_browscap.ini');
+        $fullPhpWriter = new IniWriter($file);
         $formatter     = new PhpFormatter();
-        $fullPhpWriter->setLogger($logger)
+        $fullPhpWriter
+            ->setLogger($logger)
             ->setFormatter($formatter->setFilter($fullFilter))
-            ->setFilter($fullFilter);
+            ->setFilter($fullFilter)
+        ;
         $writerCollection->addWriter($fullPhpWriter);
 
         return $writerCollection;
